@@ -1,17 +1,17 @@
 ---
-description: Aprenda a utilizar componentes en un proyecto en Analysis Workspace
-title: Uso De Componentes En Un Proyecto
+description: Aprenda a usar componentes en un proyecto en Analysis Workspace
+title: Usar componentes en un proyecto
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Uso de componentes en un proyecto
+# Usar componentes en un proyecto
 
 Los componentes constituyen los datos reales de cualquier proyecto en Analysis Workspace. Los componentes están formados por dimensiones, métricas, segmentos e intervalos de fechas. Puede añadir componentes a un proyecto arrastrándolos a visualizaciones o paneles.
 

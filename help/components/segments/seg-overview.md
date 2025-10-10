@@ -1,5 +1,5 @@
 ---
-title: Resumen de segmentación
+title: Información general sobre la segmentación
 description: Conozca para qué sirven los segmentos y cómo crear un segmento simple.
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
@@ -7,7 +7,7 @@ role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -207,7 +207,7 @@ Traditional Analytics comes with numerous out-of-the-box templates and calculate
 >[!MORELIKETHIS]
 >
 >[Creación de segmentos](seg-create.md)
->&#x200B;>[Generador de segmentos](seg-builder.md)
->&#x200B;>[Segmentos rápidos](seg-quick.md)
->&#x200B;>[Segmentos secuenciales](seg-sequential-build.md)
->&#x200B;>[Administración de segmentos](seg-manage.md)
+>>[Generador de segmentos](seg-builder.md)
+>>[Segmentos rápidos](seg-quick.md)
+>>[Segmentos secuenciales](seg-sequential-build.md)
+>>[Administración de segmentos](seg-manage.md)

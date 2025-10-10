@@ -6,7 +6,7 @@ keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 El análisis ![Frecuencia](/help/assets/icons/Histogram.svg) **[!UICONTROL Frecuencia]** agrupa los datos de eventos según la frecuencia con la que se producen eventos en el producto. El eje vertical de este análisis contiene contenedores que representan la frecuencia del evento. El eje horizontal mide el número de usuarios o sesiones para cada contenedor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435805/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
 
 ## Casos prácticos
 
@@ -38,7 +38,7 @@ Los casos de uso de este análisis incluyen:
 
 ## Interfaz
 
-Consulte [Interfaz](../overview.md#interface) para obtener una descripción general de la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
 
 ### Carril de consulta
 

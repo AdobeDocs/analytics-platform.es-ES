@@ -6,7 +6,7 @@ keywords: Product Analytics
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
 source-git-commit: c2e9830d9e56f4efe117c7b974f9a94d32849e2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Esta página proporciona algunos ejemplos ilustrativos del sector de lo que los 
 | Caso de uso | Ejemplo | Impacto | Análisis |
 | --- | --- | --- | --- |
 | **Cuantificar el impacto de las nuevas funciones** | Una institución financiera implanta transferencias bancarias con Zelle y quiere entender el impacto de la nueva función en las transferencias finales. El análisis guiado les permite ver cómo reaccionan los clientes para que el equipo de marketing pueda implementarlo. | **Aumentar las tasas de conversión.** Mida el impacto de las nuevas funciones en las conversiones de transferencia. | [Análisis de impacto de la versión](types/release-impact.md)<br>[Análisis de impacto de primer uso](types/first-use-impact.md) |
-| **Desviar llamadas al centro de llamadas** | El análisis guiado revela que el proceso de reclamación móvil de cinco pasos de una organización dirige las llamadas a su centro de llamadas. Crean una audiencia y envían un correo electrónico a esos clientes para comprender mejor su experiencia. | **Aísle la fricción en la experiencia.** Mejore los recorridos de “ruta feliz” y reduzca las llamadas. | [Análisis de canal](types/funnel.md)<br>[Análisis de las tendencias de conversión](types/conversion-trends.md) |
+| **Desviar llamadas al centro de llamadas** | El análisis guiado revela que el proceso de reclamación móvil de cinco pasos de una organización dirige las llamadas a su centro de llamadas. Crean un público y envían un correo electrónico a esos clientes para comprender mejor su experiencia. | **Aísle la fricción en la experiencia.** Mejore los recorridos de “ruta feliz” y reduzca las llamadas. | [Análisis de canal](types/funnel.md)<br>[Análisis de las tendencias de conversión](types/conversion-trends.md) |
 | **Reducir la cancelación de cliente** | Una organización sabe que los clientes que inician sesión en la aplicación móvil de banca con frecuencia mensual siguen siendo clientes durante más tiempo. El análisis guiado les permite identificar quién está en riesgo de cancelación y crear una estrategia de recuperación. | **Reduzca la cancelación.** Mantenga el nivel de clientes mientras gasta para adquirir nuevos clientes reales. | [Análisis de crecimiento activo](types/active-growth.md)<br>[Análisis de crecimiento neto](types/net-growth.md) |
 | **Recomendación de nuevas funciones** | Una organización observa que los retiros digitales han disminuido en los últimos meses. El número de llamadas a un asesor financiero ha aumentado. El análisis guiado ayuda a la organización a priorizar las optimizaciones de procesos digitales con un comité directivo. | **Cree una hoja de ruta basada en datos.** Utilice los datos para planificar e implementar las optimizaciones. | [Análisis de tendencias](types/trends.md) |
 

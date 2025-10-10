@@ -26,13 +26,13 @@ Eliminar carpetas en Workspace
 * Selecciona una carpeta cuyo nombre desees cambiar en la [lista de proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
    1. Selecciona **[!UICONTROL Cambiar nombre]** de las [acciones](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles en el menú contextual ![Más](/help/assets/icons/More.svg) de la carpeta seleccionada o en la barra de acciones azul.
-   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona&#x200B;**[!UICONTROL Guardar &#x200B;]**.
+   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona**[!UICONTROL Guardar ]**.
 
 * Dentro de la carpeta cuyo nombre deseas cambiar.
 
    1. Selecciona **[!UICONTROL Cambiar nombre de carpeta]** de ![Más](/help/assets/icons/More.svg) en el [área de título](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona&#x200B;**[!UICONTROL Guardar &#x200B;]**.
+   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona**[!UICONTROL Guardar ]**.
 
 
 ## Mover carpetas

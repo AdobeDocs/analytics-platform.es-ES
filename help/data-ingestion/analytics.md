@@ -20,7 +20,7 @@ En esta guía de inicio rápido se explica cómo utilizar los datos recopilados 
 >
 >Dispone de Adobe Analytics con licencia e implementado en uno o más de sus sitios web, utilizando cualquiera de los métodos de implementación documentados:
 >
->- [Implementar Analytics con Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=es)
+>- [Implementar Analytics con Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
 >- [Implementar Analytics con la extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=es)
 >
@@ -193,7 +193,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel] Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel] Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de lealtad que recopila puntos de lealtad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 

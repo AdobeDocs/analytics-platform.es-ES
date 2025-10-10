@@ -13,7 +13,7 @@ ht-degree: 21%
 
 ---
 
-# Administración de bloques de datos
+# Administrar bloques de datos
 
 Puede ver y administrar todos los bloques de datos de un libro mediante [!UICONTROL Administrador de bloques de datos]. El [!UICONTROL administrador de bloques de datos] proporciona capacidades de búsqueda, filtrado y ordenación que le permiten localizar bloques de datos específicos. Después de seleccionar uno o más bloques de datos, puede editar, eliminar o actualizar los bloques de datos seleccionados.
 

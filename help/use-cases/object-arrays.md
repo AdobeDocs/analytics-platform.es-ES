@@ -1,6 +1,6 @@
 ---
 title: Usar matrices de objetos
-description: Obtenga información sobre cómo el Customer Journey Analytics informa sobre las jerarquías de datos.
+description: Descubra cómo Customer Journey Analytics informa sobre las jerarquías de datos.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -92,7 +92,7 @@ Solo con el evento anterior, las tablas siguientes muestran los informes de Work
 | `LG Dryer 2000` | `1` | `500` |
 | `Total` | `1` | `2100` |
 
-El Customer Journey Analytics analiza de forma selectiva la dimensión y las métricas del objeto en función de la tabla.
+Customer Journey Analytics analiza de forma selectiva la dimensión y las métricas del objeto en función de la tabla.
 
 ```diff
 {
@@ -144,7 +144,7 @@ Si desea informar sobre los ingresos de la garantía, su proyecto tendría un as
 | `extended` | `50` |
 | `Total` | `250` |
 
-El Customer Journey Analytics examina estas partes del evento para generar el informe:
+Customer Journey Analytics examina estas partes del evento para generar el informe:
 
 ```diff
 {
@@ -270,5 +270,5 @@ Al aplicar esta métrica calculada, se muestran los resultados deseados:
 
 ## Limitaciones
 
-Las limitaciones se aplican a matrices de datos utilizadas por Customer Journey Analytics y modeladas como parte de un esquema en Experience Platform. Consulte [Límites del modelo de datos](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails#data-model-limits) y [Límites del tamaño de datos](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails#data-size-limits) en las [Protecciones predeterminadas para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails).
+Las limitaciones se aplican a matrices de datos utilizadas por Customer Journey Analytics y modeladas como parte de un esquema en Experience Platform. Consulte [Límites del modelo de datos](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) y [Límites del tamaño de datos](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits) en las [Protecciones predeterminadas para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails).
 

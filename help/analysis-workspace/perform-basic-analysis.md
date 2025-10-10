@@ -28,7 +28,7 @@ A continuación, verá un ejemplo de visualizaciones básicas el Espacio de trab
 
 * Cree un informe de tendencias de los ingresos en línea frente a los ingresos en el almacén que compare las dos fuentes de datos con el paso del tiempo.
 
-* Indique el tamaño de la audiencia según las fuentes de datos, como los datos de impresiones de publicidad, los datos de Customer Journey Analytics, los datos de correo electrónico, del POS, del centro de llamadas y de las encuestas.
+* Indique el tamaño del público según las fuentes de datos, como los datos de impresiones de publicidad, los datos de Customer Journey Analytics, los datos de correo electrónico, del POS, del centro de llamadas y de las encuestas.
 
 ![Ejemplos de visualización de gráficos de análisis básicos. ](assets/cja-basic-analysis.png)
 

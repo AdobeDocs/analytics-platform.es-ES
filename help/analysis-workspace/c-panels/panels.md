@@ -5,7 +5,7 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2193'
 ht-degree: 100%
 
@@ -167,7 +167,7 @@ Para obtener más información, consulte [Segmentos rápidos](/help/components/s
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VídeoConsultado](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/327488?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VídeoConsultado](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

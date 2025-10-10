@@ -25,7 +25,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Información rápida en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte [Panel Información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver la versión de_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta el panel Información rápida en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte [Panel Información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver la versión de_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ A continuación se incluyen algunos de los términos básicos que debes conocer.
 |---|---|
 | **[!UICONTROL Dimensión]** | Las dimensiones son descripciones o características de datos de métricas que se pueden visualizar, desglosar y comparar en un proyecto. Son valores no numéricos y fechas que se desglosan en elementos de dimensión. Por ejemplo, *explorador* o *página* es una dimensión. |
 | **[!UICONTROL Elemento de dimensión]** | Los elementos de dimensión son valores individuales para una dimensión. Por ejemplo, los elementos de dimensión para la dimensión del navegador serían *Chrome*, *Firefox*, *Edge*, u otros. |
-| [!UICONTROL Métrica] | Las métricas constituyen información cuantitativa sobre la actividad de la persona, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
+| [!UICONTROL Métrica] | Las métricas constituyen información cuantitativa sobre la actividad de la persona, tales como vistas, clics, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
 | **[!UICONTROL Visualización]** | Workspace ofrece [varias visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para generar representaciones visuales de tus datos. Como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
 | **[!UICONTROL Desglose de dimensiones]** | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. Por ejemplo, puedes desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado. O puedes desglosar Dispositivos móviles por Tipos de dispositivos móviles, por Regiones, por Campañas internas y más. |
 | **[!UICONTROL Segmento]** | Los segmentos permiten identificar subconjuntos de personas basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puedes generar segmentos de [!UICONTROL Personas] basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, género o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: personas de Facebook, una página de destino definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |

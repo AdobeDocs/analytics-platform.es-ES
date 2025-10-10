@@ -1,25 +1,25 @@
 ---
 keywords: Analysis Workspace
 title: Información general de Analysis Workspace
-description: Obtenga información sobre Analysis Workspace, la herramienta de análisis más avanzada de Adobe Analytics. Utilice proyectos, paneles, tablas, visualizaciones y otros componentes para dar vida a los datos, depurar y compartir el análisis.
+description: Obtenga información sobre Analysis Workspace, la herramienta de análisis más avanzada de Adobe Analytics. Utilice proyectos, paneles, tablas, visualizaciones y otros componentes para dar vida a los datos, ajustar y compartir el análisis.
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 9056b8b172ae7a2267bf12de4b2355d1a1364b32
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1490'
 ht-degree: 100%
 
 ---
 
-# Información general de Analysis Workspace {#analysis-workspace-overview}
+# Información general sobre Analysis Workspace {#analysis-workspace-overview}
 
 Analysis Workspace te permite crear análisis rápidamente para recopilar información y luego compartirlas con otros. Mediante la interfaz del explorador arrastrar y soltar, puedes crear tu análisis, añadir visualizaciones para que los datos cobren vida, depurar un conjunto de datos, compartir y programar [proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md) con cualquier persona de tu organización.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/35552/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -95,7 +95,7 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 | **[!UICONTROL Panel en blanco]** | **[!UICONTROL *opt+b *]** | **[!UICONTROL *alt+b *]** | Insertar un [panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md). |
 | **[!UICONTROL Espectadores simultáneos de medios]** | **[!UICONTROL *opt+h *]** | **[!UICONTROL *alt-h *]** | Insertar un panel de [Espectadores simultáneos de medios](/help/analysis-workspace/c-panels/media-concurrent-viewers.md). |
 | **[!UICONTROL Tiempo invertido en la reproducción de contenido]** | **[!UICONTROL *opt+i *]** | **[!UICONTROL *alt+i *]** | Insertar un panel [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| **[!UICONTROL Audiencia media por minuto de medios]** | **[!UICONTROL *opt+m *]** | **[!UICONTROL *alt+m *]** | Insertar un panel de [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| **[!UICONTROL Público medio por minuto de medios]** | **[!UICONTROL *opt+m *]** | **[!UICONTROL *alt+m *]** | Insertar un panel de [Público medio por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 | **[!UICONTROL Atribución]** | **[!UICONTROL *opt+e *]** | **[!UICONTROL *alt+e *]** | Insertar un panel de [atribución](/help/analysis-workspace/c-panels/attribution.md) |
 | **[!UICONTROL de forma libre]** | **[!UICONTROL *opt+a *]** | **[!UICONTROL *alt+a *]** | Insertar un panel [de forma libre](/help/analysis-workspace/c-panels/freeform-panel.md). |
 | **[!UICONTROL Información rápida]** | **[!UICONTROL *opt+j *]** | **[!UICONTROL *alt+j *]** | Insertar un panel de [Información rápida](/help/analysis-workspace/c-panels/quickinsight.md). |
@@ -129,7 +129,7 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 | **[!UICONTROL Documentación de ayuda]** | Abre la documentación (que acabas de leer…) en una nueva pestaña del explorador. |
 | **[!UICONTROL Foro de ayuda]** | Abre el foro de comunidades de Experience League de Adobe Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Teclas de acceso directo]** | Mostrar una descripción general de los métodos abreviados de teclado que se pueden utilizar en Workspace. |
-| **[!UICONTROL Habilitar depurador]** | Activar depurador. Se volverá a cargar el proyecto. |
+| **[!UICONTROL Habilitar depurador]** | Habilitar depurador. Se volverá a cargar el proyecto. |
 | **[!UICONTROL Deshabilitar depurador]** | Deshabilitar el recurso. Se volverá a cargar el proyecto. |
 | **[!UICONTROL Rendimiento]** | Mostrar un cuadro de diálogo que muestra métricas sobre el **[!UICONTROL rendimiento de Analysis Workspace]**. Usa **[!UICONTROL Descargar como CSV]** para descargar un archivo CSV de las métricas de rendimiento. |
 | **[!UICONTROL Acerca de Workspace]** | Mostrar un cuadro de diálogo **[!UICONTROL Acerca de Analysis Workspace]** con información de versión, niveles de acceso a características y marcas de características activas. |

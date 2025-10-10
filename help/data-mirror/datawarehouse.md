@@ -54,8 +54,8 @@ Para obtener más información, lea la [[!DNL Azure Databricks] guía sobre cóm
 
 Lea la siguiente documentación para ver los pasos que debe seguir para habilitar la captura de datos modificados para la conexión de origen de [!DNL Azure Databricks]:
 
-* [Crear una [!DNL Azure Databricks] conexión base](https://experienceleague.adobe.com/es/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
-* [Crear una conexión de origen para una base de datos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [Crear una [!DNL Azure Databricks] conexión base](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
+* [Crear una conexión de origen para una base de datos](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Google BigQuery]
 
@@ -65,8 +65,8 @@ Para obtener más información, lea la guía de [instrucciones de lenguaje de de
 
 Lea la siguiente documentación para ver los pasos que debe seguir para habilitar la captura de datos modificados para la conexión de origen de [!DNL Google BigQuery]:
 
-* [Crear una [!DNL Google BigQuery] conexión base](https://experienceleague.adobe.com/es/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
-* [Crear una conexión de origen para una base de datos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [Crear una [!DNL Google BigQuery] conexión base](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
+* [Crear una conexión de origen para una base de datos](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Snowflake]
 
@@ -82,8 +82,8 @@ Para obtener más información, lea la [[!DNL Snowflake] guía sobre el uso de l
 
 Lea la siguiente documentación para ver los pasos que debe seguir para habilitar la captura de datos modificados para la conexión de origen de [!DNL Snowflake]:
 
-* [Crear una [!DNL Snowflake] conexión base](https://experienceleague.adobe.com/es/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
-* [Crear una conexión de origen para una base de datos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [Crear una [!DNL Snowflake] conexión base](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
+* [Crear una conexión de origen para una base de datos](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 
 >[!MORELIKETHIS]

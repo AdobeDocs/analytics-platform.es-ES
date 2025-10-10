@@ -27,7 +27,7 @@ Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actuali
 * [Atribución](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento siguiente o anterior](/help/analysis-workspace/c-panels/next-previous.md)
 
-Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL &#x200B; *Última actualización a las 07:55 pm*].
+Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL  *Última actualización a las 07:55 pm*].
 
 Seleccione el periodo en tiempo real sobre el que desea crear el informe desde el menú desplegable. Entre las opciones disponibles se encuentran:
 

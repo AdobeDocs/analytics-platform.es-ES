@@ -1,6 +1,6 @@
 ---
 title: Uso de los datos del grupo de informes de Adobe Analytics en Customer Journey Analytics
-description: Configuración de grupos de informes de Adobe Analytics para su incorporación a Adobe Experience Platform y Customer Journey Analytics
+description: Configuración de grupos de informes de Adobe Analytics para su ingesta en Adobe Experience Platform y Customer Journey Analytics
 role: User
 solution: Customer Journey Analytics
 feature: Basics
@@ -26,7 +26,7 @@ A medida que se prepara para empezar a usar grupos de informes de Adobe Analytic
 
 * [Evolución de Adobe Analytics a Customer Journey Analytics](/help/getting-started/aa-to-cja.md)
 
-## Configurar grupos de informes para su incorporación a Adobe Experience Platform y Customer Journey Analytics
+## Configurar grupos de informes para su ingesta en Adobe Experience Platform y Customer Journey Analytics
 
 Una vez que haya preparado los datos, estará listo para empezar a configurar grupos de informes para su uso en Adobe Experience Platform y Customer Journey Analytics.
 

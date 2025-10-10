@@ -19,7 +19,7 @@ Los clientes de Customer Journey Analytics usan [conexiones](https://experiencel
 
 ## Las diferencias de esquema entre los grupos de informes son problemáticas
 
-Supongamos que su empresa desea importar datos de dos grupos de informes diferentes a Adobe Experience Platform para que los use un Customer Journey Analytics, y que los esquemas de los dos grupos de informes tienen diferencias:
+Supongamos que su empresa desea importar datos de dos grupos de informes diferentes a Adobe Experience Platform para usarlos en Customer Journey Analytics, y que los esquemas de los dos grupos de informes tienen diferencias:
 
 | Grupo de informes A | Grupo de informes B |
 | --- | --- |
@@ -33,7 +33,7 @@ Además, supongamos que realiza las siguientes acciones:
 - Cree una conexión de origen de Analytics (sin usar la preparación de datos) que ingrese **Grupo de informes A** en el lago de datos de Adobe Experience Platform como **Conjunto de datos A**.
 - Cree una conexión de origen de Analytics (sin usar la preparación de datos) que ingrese **Grupo de informes B** en el lago de datos de Adobe Experience Platform como **Conjunto de datos B**.
 - Crear una [conexión de Customer Journey Analytics](/help/connections/create-connection.md) llamada **Todos los grupos de informes** que combina los conjuntos de datos A y B.
-- Cree una [vista de datos del Customer Journey Analytics](/help/data-views/create-dataview.md) llamada **Vista global** que esté basada en la conexión de Todos los grupos de informes.
+- Cree una [vista de datos de Customer Journey Analytics](/help/data-views/create-dataview.md) llamada **Vista global** que esté basada en la conexión de Todos los grupos de informes.
 
 Sin el uso de la preparación de datos para resolver las diferencias de esquema entre los conjuntos de datos A y B, las eVars de la vista de datos global contendrán una mezcla de valores:
 
@@ -50,7 +50,7 @@ Esta situación resulta en informes sin sentido para eVar1 y eVar2:
 
 ## Utilice la preparación de datos de Adobe Experience Platform para resolver diferencias de esquema entre grupos de informes
 
-La funcionalidad Preparación de datos del Experience Platform está integrada con el conector de origen de Analytics y se puede utilizar para resolver las diferencias de esquema descritas en el escenario anterior. Esto da como resultado eVars con significados coherentes en la vista de datos del Customer Journey Analytics. (Las convenciones de nomenclatura que se utilizan a continuación se pueden personalizar para adaptarlas a sus necesidades).
+La funcionalidad de preparación de datos de Experience Platform está integrada con el conector de origen de Analytics y se puede utilizar para resolver las diferencias de esquema descritas en el escenario anterior. Esto da como resultado eVars con significados coherentes en la vista de datos de Customer Journey Analytics. (Las convenciones de nomenclatura que se utilizan a continuación se pueden personalizar para adaptarlas a sus necesidades).
 
 1. Antes de crear los flujos de datos de conexión de origen para los grupos de informes A y B, [Cree un nuevo esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es) en Adobe Experience Platform (lo llamaremos **Esquema unificado** en nuestro ejemplo). Añada lo siguiente al esquema:
 
@@ -59,7 +59,7 @@ La funcionalidad Preparación de datos del Experience Platform está integrada c
    | clase **XDM ExperienceEvent** |
    | grupo de campos **Plantilla de Adobe Analytics ExperienceEvent** |
 
-1. Añada otro grupo de campos al esquema o [cree un grupo de campos personalizado](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=es#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) y agréguelo al esquema. Crearemos un nuevo grupo de campos y lo llamaremos **Campos unificados**. A continuación, agregaremos los campos siguientes al nuevo grupo de campos:
+1. Añada otro grupo de campos al esquema o [cree un grupo de campos personalizado](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) y agréguelo al esquema. Crearemos un nuevo grupo de campos y lo llamaremos **Campos unificados**. A continuación, agregaremos los campos siguientes al nuevo grupo de campos:
 
    | Grupo de campos personalizados «Campos unificados»  |
    | --- |
@@ -85,11 +85,11 @@ La funcionalidad Preparación de datos del Experience Platform está integrada c
    | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;path>_.Business_unit |
    | _experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.Search_term |
 
-1. Ahora cree una conexión de **Todos los grupos de informes** para el Customer Journey Analytics, combinando los conjuntos de datos A y B.
+1. Ahora cree una conexión de **Todos los grupos de informes** para Customer Journey Analytics, que combina los conjuntos de datos A y B.
 
-1. Crear una **vista global** vista de datos en el Customer Journey Analytics. Ignore los campos de eVar originales e incluya solo los campos del grupo de campos Campos unificados.
+1. Crear una vista de datos **Vista global** en Customer Journey Analytics. Ignore los campos de eVar originales e incluya solo los campos del grupo de campos Campos unificados.
 
-   **Vista global** vista de datos en el Customer Journey Analytics:
+   **Vista global** vista de datos en Customer Journey Analytics:
 
    | Campo de origen | ¿Incluir en la vista de datos? |
    | --- | --- | 
@@ -148,7 +148,7 @@ Con la preparación de datos, puede combinar la categoría del cliente en eVar 1
 
 1. Cree una vista de datos en Customer Journey Analytics con la conexión de Customer Journey Analytics que acaba de crear. Ignore los campos de eVar originales e incluya solo los campos del grupo de campos Información del cliente.
 
-   Vista de datos en el Customer Journey Analytics:
+   Vista de datos en Customer Journey Analytics:
 
    | Campo de origen | ¿Incluir en la vista de datos? |
    |---|---|
@@ -158,6 +158,6 @@ Con la preparación de datos, puede combinar la categoría del cliente en eVar 1
 
 ## Preparación de datos e ID de componente
 
-Como se ha descrito anteriormente, la preparación de datos le permite asignar diferentes campos entre varios conjuntos de informes de Adobe Analytics. Esto resulta útil en Customer Journey Analytics cuando desea combinar datos de varios conjuntos de datos en una sola conexión de Customer Journey Analytics. Sin embargo, si tiene intención de mantener los grupos de informes en conexiones de Customer Journey Analytics independientes pero desea utilizar un conjunto de informes en esas conexiones y vistas de datos, cambiar el ID de componente subyacente en Customer Journey Analytics permite hacer que los informes sean compatibles aunque los esquemas sean diferentes. Consulte [Configuración de componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=es) para obtener más información.
+Como se ha descrito anteriormente, la preparación de datos le permite asignar diferentes campos entre varios conjuntos de informes de Adobe Analytics. Esto resulta útil en Customer Journey Analytics cuando desea combinar datos de varios conjuntos de datos en una sola conexión de Customer Journey Analytics. Sin embargo, si tiene intención de mantener los grupos de informes en conexiones Customer Journey Analytics independientes pero desea utilizar un conjunto de informes en esas conexiones y vistas de datos, cambiar el ID de componente subyacente en Customer Journey Analytics permite hacer que los informes sean compatibles aunque los esquemas sean diferentes. Consulte [Configuración de componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html) para obtener más información.
 
-El cambio del ID del componente es una función exclusiva del Customer Journey Analytics y no afecta a los datos del conector de origen de Analytics que se envían al perfil del cliente en tiempo real y a RTCDP.
+El cambio del ID de componente es una función exclusiva de Customer Journey Analytics y no afecta a los datos del conector de origen de Analytics que se envían al perfil del cliente en tiempo real y a RTCDP.

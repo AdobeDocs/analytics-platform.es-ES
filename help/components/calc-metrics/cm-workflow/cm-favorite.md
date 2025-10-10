@@ -6,11 +6,11 @@ exl-id: f0c9387f-16a4-40c5-9bed-73b871efd22e
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Marcar métricas calculadas como favoritas
+# Marcar una métrica calculada como favorita
 
 Puede marcar una métrica calculada como favorita. Marcar las métricas calculadas como favoritas le ayuda a organizar la métrica calculada. Todos los usuarios pueden favorecer las métricas calculadas.
 

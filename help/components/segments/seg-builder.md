@@ -1,5 +1,5 @@
 ---
-description: Descubra cómo el Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las métricas, las dimensiones, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Descubra cómo puede generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
+description: Descubra cómo el Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las métricas, las dimensiones, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Descubra cómo puede generar y guardar segmentos simples o complejos que identifican atributos y acciones de los visitantes a lo largo de las visitas y las visitas individuales a la página.
 title: Generar segmentos
 feature: Filters, Segments
 role: User
@@ -7,7 +7,7 @@ exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -51,7 +51,7 @@ El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear 
    {style="table-layout:auto"}
 
 1. Para comprobar si la definición del segmento es correcta, utilice la previsualización constantemente actualizada de los resultados del segmento situada en la parte superior derecha.
-1. Para crear una audiencia a partir del segmento y compartir la audiencia con Experience Platform, seleccione **[!UICONTROL Crear audiencia a partir del segmento]**. Consulte [Crear y publicar audiencias](/help/components/audiences/publish.md) para obtener más información.
+1. Para crear una audiencia a partir del segmento y compartir la audiencia con Experience Platform, seleccione **[!UICONTROL Crear audiencia a partir del segmento]**. Consulte [Crear y publicar públicos](/help/components/audiences/publish.md) para obtener más información.
 1. Seleccione lo siguiente:
    * **[!UICONTROL Guardar]** para guardar el segmento.
    * **[!UICONTROL Guardar como]** para guardar una copia del segmento.

@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ La configuración incluye lo siguiente:
 | Mostrar anotaciones | Especifica si las anotaciones se muestran para este proyecto o no. |
 | [Paleta de colores del proyecto](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Puede cambiar la paleta de colores categórica que se utiliza en Workspace eligiendo una de las paletas integradas que se han optimizado para casos de daltonismo o especificando la paleta personalizada. Esta función afecta a muchos elementos del Workspace, incluidas la mayoría de visualizaciones. |
 | [Ver densidad](/help/analysis-workspace/build-workspace-project/view-density.md) | Le permite ver más datos en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. |
-| Permitir comentarios | Cuando esta opción está activada, hay un área de comentarios disponible en el carril derecho del proyecto en Analysis Workspace. Para obtener más información, consulte [Añadir y administrar comentarios en proyectos](/help/analysis-workspace/build-workspace-project/comment-projects.md). |
+| Permitir comentarios | Cuando esta opción está habilitada, hay un área de comentarios disponible en el carril derecho del proyecto en Analysis Workspace. Para obtener más información, consulte [Añadir y administrar comentarios en proyectos](/help/analysis-workspace/build-workspace-project/comment-projects.md). |
 
 
 

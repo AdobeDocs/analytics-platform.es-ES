@@ -6,7 +6,7 @@ feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 role: User
 source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 

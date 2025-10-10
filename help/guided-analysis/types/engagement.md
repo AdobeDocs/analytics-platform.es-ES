@@ -6,7 +6,7 @@ keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
 source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Las funciones que aparecen en la parte superior de esta visualización indican q
 * Las funciones de la parte inferior izquierda de la matriz son las funciones de **bajo impacto**; no están muy extendidas ni se utilizan con frecuencia.
 * Las funciones de la parte inferior derecha de la matriz son las funciones **puntuales**; están bastante extendidas pero no se utilizan con frecuencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447470?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
 
 ## Casos prácticos
@@ -48,7 +48,7 @@ Los casos de uso de este análisis incluyen:
 
 ## Interfaz
 
-Consulte [Interfaz](../overview.md#interface) para obtener información general de la interfaz Análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
 
 ### Carril de consulta
 

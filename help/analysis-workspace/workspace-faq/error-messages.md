@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre los errores y la resolución de problemas de Analysis Workspace.
-title: Errores Y Solución De Problemas
+description: Obtenga información acerca de los errores y solución de problemas de Analysis Workspace.
+title: Errores y solución de problemas
 feature: Workspace Basics
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

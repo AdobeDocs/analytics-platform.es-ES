@@ -8,7 +8,7 @@ exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ A continuación, estos datos de resumen se pueden utilizar para presentar indica
 >[!NOTE]
 >
 >Los datos de resumen son datos de series temporales de un conjunto de datos de resumen. Ese conjunto de datos de resumen se basa en un esquema que utiliza la clase Métricas de resumen XDM como clase base.
->Solo se admiten datos de series temporales basados en horas o días.
+>>Solo se admiten datos de series temporales basados en horas o días.
 
 >[!TIP]
 >
@@ -116,7 +116,7 @@ La zona horaria de los datos de resumen se define en el nivel de esquema de resu
   | 29-07-2024-29T01:00:00 | `America/`<br/>`Los_Angeles` | 28-07-2024-T18:00:00 | PST | 28-07-2024T18:00:00 |
   | 30-07-2024-30T01:00:00-05:00 | `Australia/`<br/>`Sydney` | 30-07-2024-30T17:00:00 | CET | 30-07-2024-30T08:00:00 |
 
-  Para las zonas horarias con una diferencia de 30 minutos (por ejemplo, IST, hora estándar de India), la diferencia de 30 minutos se elimina al informar sobre datos de resumen. Por ejemplo: 12:30 se notifica como 12:00.
+  Para las zonas horarias con una diferencia de 30 minutos (por ejemplo, IST, hora estándar de India), la diferencia de 30 minutos se elimina al informar sobre datos de resumen. Por ejemplo: 12:30 aparece como 12:00.
 
 
 Para garantizar que se utiliza la zona horaria adecuada para los datos de resumen granular por hora, debe asegurarse de que el esquema utilizado para los datos de resumen tenga configurada la zona horaria adecuada.
@@ -154,5 +154,5 @@ Asegúrese de que la configuración de los componentes de un grupo de datos de r
 >[!MORELIKETHIS]
 >
 >- Consulte el artículo [Uso de datos de resumen](/help/use-cases/data-views/summary-data.md) para ver un ejemplo de caso de uso detallado sobre cómo utlizar los datos de resumen e informar sobre ellos.
->- Blog: [Los datos de resumen favorecen los conjuntos de datos de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=es)
+>- Blog: [Los datos de resumen favorecen los conjuntos de datos de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

@@ -40,7 +40,7 @@ Para definir el contexto de una sesión en una vista de datos:
 
    1. Escriba un valor para **[!UICONTROL tiempo de espera de sesión]** en [!UICONTROL minuto(s)], [!UICONTROL hora(s)], [!UICONTROL día(s)] o [!UICONTROL semana(s)]. El tiempo de espera de sesión determina cuánto tiempo puede estar inactiva una sesión (sin que se produzcan eventos) antes de iniciar una nueva.
 
-      Elija un tiempo de espera de sesión breve (por ejemplo, 30 minutos) si le interesa analizar principalmente interacciones en línea. Por ejemplo, analizar si los perfiles que visitan las páginas de productos de su tienda en línea agregaron productos al carro de compras o incluso los compraron en línea.
+      Elija un tiempo de espera de sesión breve (por ejemplo, 30 minutos) si le interesa analizar principalmente interacciones en línea. Por ejemplo, analizar si los perfiles que visitan las páginas de producto de su tienda en línea agregaron productos al carro de compras o incluso los compraron en línea.
 
       Elija un tiempo de espera de sesión largo (por ejemplo, 3 meses) si combina datos en línea y sin conexión y desea analizar si sus clientes que han adquirido uno o más productos han llamado a su centro de contacto en los tres primeros meses después de la compra.
 

@@ -8,15 +8,15 @@ hide: true
 hidefromtoc: true
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2981'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Paso 2: Elegir la ruta de actualización
 
-+++Expanda esta sección para ver dónde se integra la información de esta página en el proceso de actualización más amplio. Asegúrese de que se han completado todos los pasos de actualización anteriores.
++++Expanda esta sección para ver dónde encaja la información de esta página en el proceso de actualización más amplio. Asegúrese de que se han completado todos los pasos de actualización anteriores.
 
 Antes de continuar con esta sección, primero asegúrese de haber completado todas las tareas de actualización anteriores.
 
@@ -122,7 +122,7 @@ A continuación se indican las rutas de actualización disponibles para las orga
 
 +++
 
-+++Migrar Adobe Analytics al SDK web de Experience Platform
++++Migración de Adobe Analytics a Experience Platform Web SDK
 
 | Ventajas | Desventajas |
 |----------|---------|
@@ -150,11 +150,11 @@ Al elegir esta ruta de actualización, también debe elegir el esquema.
 
 #### Ruta de actualización
 
-Configurar la implementación del SDK web de Adobe Analytics para enviar datos a Customer Journey Analytics
++++Configurar la implementación del SDK web de Adobe Analytics para enviar datos a Customer Journey Analytics
 
 | Ventajas | Desventajas |
 |----------|---------|
-| Es la ruta de actualización preferida si la implementación de Adobe Analytics ya utiliza el SDK web.<ul><li>**Ofrece todas las ventajas de alojar datos en Experience Edge Network**: <p>Estas ventajas son:</p><ul><li>Informes de alto rendimiento y disponibilidad de datos porque Adobe Experience Platform se ha creado para potenciar [casos de uso de personalización en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es)</li><li>Consolidación de la implementación de la recopilación de datos de Adobe Experience Cloud entre otros productos de Experience Cloud (AJO, RTCDP, etc.)</li><li>No depende de la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)</li></ul><li>**Utiliza la implementación existente**: aunque este enfoque requiere algunos cambios de implementación, no requiere una implementación completamente nueva desde cero. Puede utilizar la capa de datos y el código existentes con cambios mínimos en la lógica de implementación sin que ello afecte a los informes de Adobe Analytics existentes.</li><li>**Proporciona una opción para utilizar un esquema XDM**: puede elegir utilizar el esquema de Adobe Analytics existente o crear un esquema XDM y asignar campos en el objeto de datos al esquema XDM. [Esquemas XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home#xdm-schemas): son un esquema flexible para definir cualquier campo que necesite y solo aquellos campos que sean relevantes. <p>Consulte &quot;Uso de su propio esquema XDM&quot; a continuación para obtener más información sobre las ventajas de utilizar su propio esquema XDM.</p></li><li>**Conserva reglas y elementos de datos**: aunque requiere nuevas acciones de regla, puede reutilizar los elementos de datos y las condiciones de regla existentes con cambios mínimos.</li><li>**Preparación para el futuro**: si decide utilizar su propio esquema XDM, las futuras actualizaciones de implementación son más sencillas.</li></ul> | Ninguno |
+| Es la ruta de actualización preferida si la implementación de Adobe Analytics ya utiliza el SDK web.<ul><li>**Ofrece todas las ventajas de alojar datos en Experience Edge Network**: <p>Estas ventajas son:</p><ul><li>Informes de alto rendimiento y disponibilidad de datos porque Adobe Experience Platform se ha creado para potenciar [casos de uso de personalización en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es)</li><li>Consolidación de la implementación de la recopilación de datos de Adobe Experience Cloud entre otros productos de Experience Cloud (AJO, RTCDP, etc.)</li><li>No depende de la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)</li></ul><li>**Utiliza la implementación existente**: aunque este enfoque requiere algunos cambios de implementación, no requiere una implementación completamente nueva desde cero. Puede utilizar la capa de datos y el código existentes con cambios mínimos en la lógica de implementación sin que ello afecte a los informes de Adobe Analytics existentes.</li><li>**Proporciona una opción para utilizar un esquema XDM**: puede elegir utilizar el esquema de Adobe Analytics existente o crear un esquema XDM y asignar campos en el objeto de datos al esquema XDM. [Esquemas XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas): son un esquema flexible para definir cualquier campo que necesite y solo aquellos campos que sean relevantes. <p>Consulte &quot;Uso de su propio esquema XDM&quot; a continuación para obtener más información sobre las ventajas de utilizar su propio esquema XDM.</p></li><li>**Conserva reglas y elementos de datos**: aunque requiere nuevas acciones de regla, puede reutilizar los elementos de datos y las condiciones de regla existentes con cambios mínimos.</li><li>**Preparación para el futuro**: si decide utilizar su propio esquema XDM, las futuras actualizaciones de implementación son más sencillas.</li></ul> | Ninguno |
 
 {style="table-layout:auto"}
 
@@ -166,7 +166,7 @@ Si elige la ruta de actualización que le permite configurar la implementación 
 
 Puede elegir si desea utilizar el esquema de Adobe Analytics existente o puede actualizar a su propio esquema XDM para que se ajuste mejor a las necesidades de su organización a cuando empiece a utilizar otros servicios de Platform.
 
-+++Usar el esquema de Adobe Analytics con la implementación del SDK web de Adobe Analytics
++++Uso del esquema de Adobe Analytics con la implementación de Adobe Analytics Web SDK
 
 | Ventajas | Desventajas |
 |----------|---------|
@@ -174,7 +174,7 @@ Puede elegir si desea utilizar el esquema de Adobe Analytics existente o puede a
 
 +++
 
-+++Utilizar su propio esquema XDM con la implementación del SDK web de Adobe Analytics
++++Utilice su propio esquema XDM con la implementación de Adobe Analytics Web SDK
 
 | Ventajas | Desventajas |
 |----------|---------|

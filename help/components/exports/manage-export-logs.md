@@ -8,7 +8,7 @@ role: User
 source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ En el caso de las exportaciones programadas, los registros reflejan la configura
 
 ## Ver registros de exportación
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Registros**].
 
@@ -44,7 +44,7 @@ Para encontrar la información que necesita, puede filtrar la lista de registros
 
 ### Filtrado de la lista de registros
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Registros**].
 
@@ -54,17 +54,17 @@ Para encontrar la información que necesita, puede filtrar la lista de registros
 
    Puede filtrar por los siguientes criterios:
 
-   | Filtro | Descripción |
+   | Filtrar | Descripción |
    |---------|----------|
    | [!UICONTROL **ID de exportación**] | Especifique el ID de exportación del registro de exportación que desea ver. |
-   | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta con el que está asociado el registro. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función Amazon S3**]</li><li>[!UICONTROL **SAS de Azure**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Plataforma de Google Cloud**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta con el que está asociado el registro. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función Amazon S3**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Pendiente**]: se ha iniciado una instancia específica de una exportación, pero aún no se ha completado.<p>Si se vuelve a ejecutar una exportación con el estado Pendiente, se retrasará el proceso de exportación.</p></li><li>[!UICONTROL **Completado**]: una instancia específica de una exportación ha finalizado el procesamiento y está disponible en la cuenta de exportación.</li><li>[!UICONTROL **Fallido**]<p>Varias situaciones pueden provocar un error en la exportación. Pase el ratón sobre el estado Error para ver los detalles del error.<p>Para obtener más información acerca de los posibles motivos de un error, vea [Solucionar problemas de exportaciones con errores](/help/components/exports/troubleshoot-exports.md).</p> |
 
    {style="table-layout:auto"}
 
 ### Buscar registros
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Registros**].
 
@@ -88,7 +88,7 @@ Puede editar la exportación asociada a un registro específico.
 
 Esta opción no está disponible cuando se seleccionan varios registros.
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Registros**].
 
@@ -96,7 +96,7 @@ Esta opción no está disponible cuando se seleccionan varios registros.
 
 1. Seleccione el icono **Editar exportación** ![icono de registro de exportación](assets/export-icon.png) junto al nombre del registro.
 
-   O
+   O bien
 
    Seleccione la casilla que hay junto al registro y, a continuación, seleccione [!UICONTROL **Editar exportación**].
 
@@ -108,7 +108,7 @@ Seleccione un encabezado de columna para ordenar los registros por esa columna. 
 
 Para configurar columnas en la ficha [!UICONTROL Registros]:
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Registros**].
 

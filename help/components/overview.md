@@ -1,6 +1,6 @@
 ---
-title: Resumen de componentes
-description: Descubra qué componentes son las ofertas de Adobe Analytics y cómo puede utilizar un componente en Analysis Workspace.
+title: Información general de componentes
+description: Aprenda qué componentes ofrece Adobe Analytics y cómo puede utilizarlos en Analysis Workspace.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
@@ -8,7 +8,7 @@ role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

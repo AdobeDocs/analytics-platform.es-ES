@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: cd92bde10b9cb473c4df791e91296a2a43b2ad84
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 100%
 

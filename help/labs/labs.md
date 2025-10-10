@@ -17,11 +17,11 @@ ht-degree: 81%
 
 >[!IMPORTANT]
 >
->Customer Journey Analytics Labs no es un servicio compatible con HIPAA y no se puede usar para procesar datos personales confidenciales, incluidos datos de salud permitidos (como información de salud personal o PHI) que de otra manera su organización podría usar en Customer Journey Analytics.
+>Customer Journey Analytics Labs no es un servicio compatible con HIPAA y no se puede usar para procesar datos personales confidenciales, incluidos datos de salud permitidos (como información de salud personal o PHI) que su organización podría usar de otra manera en Customer Journey Analytics.
 
 ## Requisitos
 
-[!UICONTROL Labs] se activa automáticamente para todos los administradores. Los demás integrantes del equipo deben ponerse en contacto con los administradores de sus productos y solicitar acceso.
+[!UICONTROL Labs] se habilita automáticamente para todos los administradores. Los demás integrantes del equipo deben ponerse en contacto con los administradores de sus productos y solicitar acceso.
 
 Si aún no lo ha hecho, lea y firme los formularios correspondientes del Acuerdo de no divulgación y los Términos y condiciones.
 

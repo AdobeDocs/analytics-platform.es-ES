@@ -6,7 +6,7 @@ feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
 source-git-commit: 9774e0e3af024823a03dbcd8d6766877f55e95d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 100%
 

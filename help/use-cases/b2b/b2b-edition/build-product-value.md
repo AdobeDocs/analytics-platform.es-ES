@@ -4,12 +4,12 @@ description: Obtenga información sobre cómo crear valor de producto con Custom
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

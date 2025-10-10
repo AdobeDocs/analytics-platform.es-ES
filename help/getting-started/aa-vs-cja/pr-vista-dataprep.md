@@ -7,7 +7,7 @@ role: User
 source-git-commit: 664576605b8be098a751609536e388c304c65513
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ La [preparación de datos](https://experienceleague.adobe.com/docs/experience-pl
 
 Los datos que recopila y almacena Adobe Analytics se pueden transformar mediante reglas de procesamiento, reglas de VISTA o ambas. Sin embargo, los grupos de informes que luego se reenvían a Platform a través del conector de origen de Analytics pueden transformarse una vez más a través de la preparación de datos. Esto puede ser deseable para varios fines:
 
-* **Solución de diferencias de esquema entre grupos de informes para su uso en Customer Journey Analytics o RTCDP**. Por ejemplo, un grupo de informes A define `eVar1` como &quot;Término de búsqueda&quot; y un grupo de informes B define `eVar2` como &quot;Término de búsqueda&quot;. Puede utilizar la preparación de datos para asignar las dos eVars diferentes a un campo común que contenga datos de ambas eVars. Esto permite [combinar grupos de informes con distintos esquemas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=es) en una [conexión Customer Journey Analytics](/help/connections/overview.md) o para usar en [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es).
+* **Solución de diferencias de esquema entre grupos de informes para su uso en Customer Journey Analytics o RTCDP**. Por ejemplo, supongamos que el grupo de informes A se define `eVar1` como “Término de búsqueda” y el grupo de informes B se define `eVar2` como “Término de búsqueda”. Puede utilizar la preparación de datos para asignar las dos eVars diferentes a un campo común que contenga datos de ambas eVars. Esto permite [combinar grupos de informes con distintos esquemas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=es) en una [conexión Customer Journey Analytics](/help/connections/overview.md) o para usar en [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es).
 * **Asignación `eVars` de campos a nombres con sentido semántico**. `eVars` y `props` que llegan a través del conector de origen de Analytics están asignados a campos como _\_experience.analytics.customDimensions.eVars.eVar1_. La preparación de datos se puede utilizar para asignar `eVar` y `prop` a campos nuevos que tengan nombres más significativos para los usuarios o que coincidan con nombres procedentes de otras fuentes de datos. (Esto también se puede realizar por otros medios, como cambiar el nombre de los campos de una [vista de datos de Customer Journey Analytics](/help/data-views/create-dataview.md)).
 * **Transformación general de datos**. La preparación de datos tiene cientos de funciones de asignación que pueden usarse para computar y calcular nuevos campos basados en los datos que llegan a través del conector de origen de Analytics. Puede dividir los campos delimitados en campos independientes. Puede combinar campos. Puede manipular cadenas. Puede extraer información de un campo basándose en expresiones regulares y mucho más.
 

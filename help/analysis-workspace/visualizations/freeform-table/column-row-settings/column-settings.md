@@ -18,7 +18,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://video.tv.adobe.com/v/328505/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -41,7 +41,7 @@ Puede editar la configuración de varias columnas a la vez. Seleccione varias co
 | **[!UICONTROL Porcentaje]** | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila, dividido por el total de visualizaciones de la página para la columna. Nota: Es posible garantizar que los porcentajes superiores al 100 % sean precisos. El límite superior puede moverse al 1000 % para evitar que el ancho de las columnas sea demasiado grande. |
 | **[!UICONTROL Mostrar anomalías]** | Determine si se ha ejecutado una detección de anomalías en los valores de esta columna. |
 | **[!UICONTROL Mostrar previsión]** | Determine si los valores de previsión se muestran en esta columna. |
-| **[!UICONTROL Justificar el texto del encabezado]** | Justifique el texto del encabezado en las tablas de forma libre para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. La justificación resulta útil en el renderizado de archivos .pdf y en las métricas con nombres largos. Está activada de forma predeterminada. |
+| **[!UICONTROL Justificar el texto del encabezado]** | Justifique el texto del encabezado en las tablas de forma libre para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. La justificación resulta útil en el renderizado de archivos .pdf y en las métricas con nombres largos. Está habilitada de forma predeterminada. |
 | **[!UICONTROL La interpretación de cero no tiene valor]** | Determine, para las celdas con un valor de 0, si se va a mostrar un 0 o una celda en blanco. Esta interpretación es útil si desea analizar los datos de todos los días de un mes y todavía faltan algunos días.  En vez de mostrar 0 para las fechas futuras, se pueden mostrar celdas en blanco. Los gráficos también respetan esta configuración (es decir, los gráficos no muestran una línea o barra con valores de 0). |
 | **[!UICONTROL Fondo]** | Determine si una celda muestra u oculta todo el formato de la celda, que incluye la gráfico de barras y el formato condicional. |
 | **[!UICONTROL Gráfico de barras]** | Muestre un gráfico de barras horizontal que representa el valor de la celda con relación al total de la columna. |
@@ -51,7 +51,7 @@ Puede editar la configuración de varias columnas a la vez. Seleccione varias co
 
 ## Formato condicional {#conditional-formatting}
 
-El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional en tablas de forma libre también está activada automáticamente en los desgloses, a menos que los límites [!UICONTROL Personalizados] estén seleccionados.
+El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional en tablas de forma libre también está habilitada automáticamente en los desgloses, a menos que los límites [!UICONTROL Personalizados] estén seleccionados.
 
 ![Formato condicional](./assets/conditional-formatting.png)
 
@@ -117,7 +117,7 @@ Para utilizar un modelo de atribución no predeterminado para una métrica en un
 
 {{attribution-container}}
 
-### Ventana de retroactividad
+### Período de retroactividad
 
 {{attribution-lookback-window}}
 

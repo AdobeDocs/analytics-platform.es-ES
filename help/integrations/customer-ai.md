@@ -67,7 +67,7 @@ A continuación se muestra un ejemplo de esquema de XDM que Customer Journey Ana
 
 ![Esquema de CAI](assets/cai-schema.png)
 
-(Tenga en cuenta que el ejemplo es un conjunto de datos de perfil; el mismo conjunto de objetos de esquema formaría parte de un conjunto de datos de evento de Experience que Customer Journey Analytics obtendría. El conjunto de datos de evento de experiencia incluiría marcas de tiempo como fecha de la puntuación). Todos los clientes puntuados en este modelo tendrían una puntuación, una scoreDate, etc. asociadas a ellos.
+(Tenga en cuenta que el ejemplo es un conjunto de datos de perfil; el mismo conjunto de objetos de esquema formaría parte de un conjunto de datos de evento de experiencia que Customer Journey Analytics obtendría. El conjunto de datos de evento de experiencia incluiría marcas de tiempo como fecha de la puntuación). Todos los clientes puntuados en este modelo tendrían una puntuación, una scoreDate, etc. asociadas a ellos.
 
 ## Paso 3: Crear vistas de datos en función de estas conexiones
 

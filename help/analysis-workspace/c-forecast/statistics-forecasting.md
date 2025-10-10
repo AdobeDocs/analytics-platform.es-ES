@@ -55,5 +55,5 @@ El servicio no realiza suposiciones sobre los datos de usuario. Por ejemplo, el 
 ## Referencias
 
 1. Taylor, Sean J. y Benjamin Letham: *Pronóstico a escala.* El Estadístico Estadounidense 72.1 (2018): 37-45.
-1. Triebe, Oskar, et al.: *Neuralprophet: pronóstico explicable a escala.* pre-impresión arXiv:2111.15397(2021).
+1. Triebe, Oskar, et al.: *Neuralprophet: pronóstico explicable a escala.* arXiv preimpresión arXiv:2111.15397(2021).
 1. Zhang y Arbor: *Detección de anomalías en series de tiempo.* #18/057883 de solicitud de patente de EE. UU.

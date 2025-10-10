@@ -1,5 +1,5 @@
 ---
-title: Dominios utilizados por el Customer Journey Analytics
+title: Dominios utilizados por Customer Journey Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 role: Admin
 exl-id: 0c3e7b2e-cb48-4e14-ae18-65258ebce1b4
@@ -10,7 +10,7 @@ ht-degree: 20%
 
 ---
 
-# Dominios utilizados por el Customer Journey Analytics
+# Dominios utilizados por Customer Journey Analytics
 
 Algunas configuraciones de cortafuegos bloquean los dominios en los que Customer Journey Analytics depende para su interfaz de producto. Puede utilizar esta lista de dominios para modificar la configuración de red de su organización y permitir el acceso a los productos desde su organización. Adobe recomienda permitir estos dominios a través del cortafuegos de su organización para una experiencia óptima.
 
@@ -28,10 +28,10 @@ Algunas configuraciones de cortafuegos bloquean los dominios en los que Customer
 
 ## Dominios de Adobe Experience Cloud
 
-Además de los dominios anteriores, Adobe Experience Cloud se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains) para obtener esta lista de dominios.
+Además de los dominios anteriores, Adobe Experience Cloud se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) para obtener esta lista de dominios.
 
 >[!MORELIKETHIS]
 >
->[Direcciones IP utilizadas por el Customer Journey Analytics](ip-addresses.md)
+>[Direcciones IP utilizadas por Customer Journey Analytics](ip-addresses.md)
 >
->[Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains)
+>[Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

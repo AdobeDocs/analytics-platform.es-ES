@@ -79,7 +79,7 @@ Puede administrar una visualización cuando pasa el ratón por encima de la visu
 
 * Para contraer una visualización, seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * Para mostrar una visualización contraída, seleccione ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* Para eliminar una visualización, seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg). Para deshacer, selecciona **[!UICONTROL Editar]** > **[!UICONTROL Deshacer]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Para eliminar una visualización, seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg). Para deshacer, seleccione **[!UICONTROL Editar]** > **[!UICONTROL Deshacer]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
 * Para devolver una visualización a la altura predeterminada, seleccione ![ImageResize](/help/assets/icons/Resize.svg).
 * Para mover una visualización dentro de un panel, arrástrela y suéltela siempre que ![Mover](/help/assets/icons/Move.svg) esté visible (normalmente al pasar el ratón por encima del encabezado).
 
@@ -131,7 +131,7 @@ Las opciones de configuración de la visualización disponibles dependen de la v
 | **[!UICONTROL Límite máximo de elementos]** | Limita el número de elementos que se muestran en una visualización. Cuando se selecciona, define el número máximo de elementos. |
 | **[!UICONTROL Mostrar anotaciones]** | Muestra las anotaciones realizadas para esta visualización. |
 | **[!UICONTROL Ocultar título]** | Oculta el título de la visualización. |
-| **[!UICONTROL Anclar eje Y a cero]** | Fuerza la parte inferior del eje Y a cero. Si todos los valores trazados en el gráfico están considerablemente por encima de cero, el valor del gráfico predeterminado hará que la parte inferior del eje X sea distinta de cero. Si activa esta opción, el eje Y se fuerza en cero (y se vuelve a dibujar el gráfico). |
+| **[!UICONTROL Anclar eje Y a cero]** | Fuerza la parte inferior del eje Y a cero. Si todos los valores trazados en el gráfico están considerablemente por encima de cero, el valor del gráfico predeterminado hará que la parte inferior del eje X sea distinta de cero. Si habilita esta opción, el eje Y se fuerza en cero (y se vuelve a dibujar el gráfico). |
 | **[!UICONTROL Mostrar eje doble]** | Muestra los ejes Y izquierdo y derecho de dos métricas diferentes. Esta opción solo se aplica si tiene dos métricas. Los ejes dobles son útiles cuando las métricas trazadas son de diferentes magnitudes. |
 | **[!UICONTROL Mostrar eje X]** | Muestra el eje X en la visualización. |
 | **[!UICONTROL Mostrar eje Y]** | Muestra el eje Y en la visualización. |

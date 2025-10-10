@@ -7,8 +7,8 @@ feature: Data Views
 role: User
 source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 30%
+source-wordcount: '1357'
+ht-degree: 28%
 
 ---
 
@@ -60,9 +60,9 @@ Anteriormente, los enteros se trataban automáticamente como métricas en Custom
 
 ## Uso de dimensiones numéricas como métricas en diagramas de flujo {#numeric}
 
-Puede utilizar una dimensión numérica para obtener métricas en la visualización [!UICONTROL &#x200B; Flujo].
+Puede utilizar una dimensión numérica para obtener métricas en la visualización [!UICONTROL  Flujo].
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 2. En los informes de Workspace, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
 
 ![Flujo de canal de mercadotecnia de correos electrónicos a pedidos de salida.](../assets/flow.png)
@@ -73,7 +73,7 @@ Esta función se aplica específicamente a los campos basados en matrices. La fu
 
 Por ejemplo, use la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 $. Por lo tanto, si tiene un pedido que incluye una compra de productos de 50 $ y una compra de productos de 25 $, la funcionalidad de inclusión/exclusión elimina la compra de productos de 25 $, no todo el pedido.
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema **[!UICONTROL Ingresos]** al área **[!UICONTROL Métricas]** en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema **[!UICONTROL Ingresos]** al área **[!UICONTROL Métricas]** en [!UICONTROL Componentes incluidos].
 1. Seleccione la métrica y configure lo siguiente en el lado derecho:
 a. En **[!UICONTROL Formato]**, seleccione **[!UICONTROL Moneda]**.
 b. En **[!UICONTROL Moneda]**, seleccione **[!UICONTROL USD]**.
@@ -108,15 +108,15 @@ Puede determinar si una sesión es realmente la primera sesión de un usuario o 
 
 * ¿Qué porcentaje de sus pedidos provienen de sesiones nuevas o de retorno?
 
-* Para un canal de marketing determinado o una campaña específica, ¿está dirigiéndose a los usuarios que ingresan por primera vez o a los que regresan? ¿Cómo influye esta opción en las tasas de conversión?
+* Para un canal de marketing determinado o una campaña específica, ¿está segmentando los usuarios que ingresan por primera vez o a los que regresan? ¿Cómo influye esta opción en las tasas de conversión?
 
 Una dimensión y dos métricas facilitan esta creación de informes:
 
-* [Tipo de sesión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-reference) - Esta dimensión tiene dos valores: [!UICONTROL Nuevo] y [!UICONTROL Devolviendo]. El elemento de línea [!UICONTROL New] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
+* [Tipo de sesión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) - Esta dimensión tiene dos valores: [!UICONTROL Nuevo] y [!UICONTROL Devolviendo]. El elemento de línea [!UICONTROL New] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
 
-* [Sesiones por primera vez](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-reference). La métrica Sesiones por primera vez se define como la primera sesión definida por una persona dentro de la ventana de creación de informes.
+* [Sesiones por primera vez](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference). La métrica Sesiones por primera vez se define como la primera sesión definida por una persona dentro de la ventana de creación de informes.
 
-* [Sesiones de retorno](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-reference) La métrica Sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.—>
+* [Sesiones de retorno](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) La métrica Sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.—>
 
 Para acceder a los componentes:
 
@@ -135,7 +135,7 @@ Los esquemas de Adobe Experience Platform contienen campos [!UICONTROL Fecha] y 
 
 * Para el formato Fecha, si selecciona **[!UICONTROL Día]** con el formato **[!UICONTROL Mes, día, año]**, un ejemplo de salida en la creación de informes puede tener el siguiente aspecto: Agosto 23, 2022.
 
-* Para el formato de fecha y hora, si selecciona **[!UICONTROL Minuto del día]** con el formato **[!UICONTROL Hora:Minuto]**, el resultado puede ser similar a “20:20”.
+* Para el formato de fecha y hora, si selecciona **[!UICONTROL Minuto del día]** con el formato **[!UICONTROL Hora:Minute]**, el resultado puede ser similar a: 20:20.
 
 Se admiten las fechas posteriores al 1 de enero de 1900 (con la única excepción del 1 de enero de 1970) y los valores de fecha y hora posteriores al 1 de enero de 2000 a las 00:00:00.
 

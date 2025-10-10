@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualizaciónTabla de forma libre en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe la visualizaciónTabla de forma libre en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +97,7 @@ Las siguientes opciones de [menú contextual](../freeform-analysis-visualization
 
 | Opción | Descripción |
 | --- | --- |
-| **[!UICONTROL Insertar visualización copiada]**&#x200B;n | Pega (inserta) una visualización copiada en otro lugar dentro del proyecto o en un proyecto completamente diferente. |
+| **[!UICONTROL Insertar visualización copiada]**n | Pega (inserta) una visualización copiada en otro lugar dentro del proyecto o en un proyecto completamente diferente. |
 | **[!UICONTROL Copiar datos en el portapapeles]** | Copia los datos de la visualización en el portapapeles. |
 | **[!UICONTROL Copiar selección en el portapapeles]** | Copia la selección de la visualización en el portapapeles. |
 | **[!UICONTROL Descargar elementos como CSV (*nombre de dimensión*)]** | Descarga inmediatamente los elementos de dimensión (hasta un máximo de 50 000) de la visualización en su dispositivo local. Un máximo de 50 000 elementos de dimensión para la dimensión seleccionada. |
@@ -113,6 +113,6 @@ Las siguientes opciones de [menú contextual](../freeform-analysis-visualization
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

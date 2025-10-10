@@ -13,7 +13,7 @@ ht-degree: 6%
 
 ---
 
-# Trabajo con segmentos
+# Trabajar con segmentos
 
 Puede aplicar segmentos cuando cree un nuevo bloque de datos o cuando seleccione **[!UICONTROL Editar bloque de datos]** en el panel **[!UICONTROL Comandos]**.
 
@@ -39,7 +39,7 @@ Para aplicar filtros mediante segmentos a métricas individuales:
    1. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un segmento de la lista **[!UICONTROL Segmento aplicado]**. O bien, seleccione **[!UICONTROL Borrar todo]** para eliminar todos los segmentos de la lista **[!UICONTROL Segmento aplicado]**.
    1. Seleccione **[!UICONTROL Aplicar]**.
 
-Para ver los filtros aplicados, pase el ratón sobre una métrica o selecciónela en el panel Tabla. Las métricas con segmentos aplicados muestran un icono de segmento.
+Para ver los filtros aplicados, pase el puntero por encima de una métrica o selecciónela en el panel Tabla. Las métricas con segmentos aplicados muestran un icono de segmento.
 
 
 ## Edición rápida de segmentos

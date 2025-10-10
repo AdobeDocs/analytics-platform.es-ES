@@ -1,13 +1,13 @@
 ---
 title: Funciones avanzadas
-description: Obtenga información acerca de las funciones avanzadas de métricas calculadas.
+description: Obtenga información sobre las funciones avanzadas de métricas calculadas.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '5241'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

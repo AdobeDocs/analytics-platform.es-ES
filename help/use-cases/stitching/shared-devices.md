@@ -24,11 +24,11 @@ Cuando dos personas utilizan el mismo dispositivo y ambas realizan una compra au
 
 | Evento | Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico |
 |--:|---|---|---|---|
-| 1 | 2023-05-12 12:01 | Página de inicio | `1234` | |
-| 2 | 2023-05-12 12:02 | Página de producto | `1234` | |
-| 3 | 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` |
-| 4 | 2023-05-12 12:07 | Página de producto | `1234` | |
-| 5 | 2023-05-12 12:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` |
+| 1 | 12/12/05/2023:01 | Página de inicio | `1234` | |
+| 2 | 12/12/05/2023:02 | Página de producto | `1234` | |
+| 3 | 12/12/05/2023:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` |
+| 4 | 12/12/05/2023:07 | Página de producto | `1234` | |
+| 5 | 12/12/05/2023:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` |
 
 Como puede ver en esta tabla, una vez que la autenticación se produce en los eventos 3 y 5, comienza a formarse un vínculo entre un ID de dispositivo y un ID de persona. Para comprender el impacto de cualquier esfuerzo de marketing en el nivel de persona, estos eventos no autenticados deben atribuirse a la persona correcta.
 
@@ -49,18 +49,18 @@ La configuración puede atribuir datos de dispositivo compartidos mediante atrib
 
 ### Atribución de última autenticación
 
-La última autenticación atribuye toda la actividad desconocida de un dispositivo compartido al usuario que se autenticó por última vez. El servicio de identidad del Experience Platform crea el gráfico en función de la atribución de última autenticación y, como tal, se utiliza en la vinculación basada en gráficos. Consulte [Reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details) para obtener más información.
+La última autenticación atribuye toda la actividad desconocida de un dispositivo compartido al usuario que se autenticó por última vez. El servicio de identidad de Experience Platform crea el gráfico en función de la atribución de última autenticación y, como tal, se utiliza en la vinculación basada en gráficos. Consulte [Reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details) para obtener más información.
 
 Cuando se utiliza la atribución de última autenticación en la vinculación, los ID vinculados se resuelven como se muestra en la tabla siguiente.
 
 | Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico | ID vinculado |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Página de inicio | `1234` | | `cassidy@a.com` |
-| 2023-05-12 12:02 | Página de producto | `1234` | | `cassidy@a.com` |
-| 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` | `cassidy@a.com` |
-| 2023-05-12 12:07 | Página de producto | `1234` | | `cassidy@a.com` |
-| 2023-05-12 12:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` | `cassidy@a.com` |
-| 2023-05-13 11:08 | Página de inicio | `1234` | | `cassidy@a.com` |
+| 12/12/05/2023:01 | Página de inicio | `1234` | | `cassidy@a.com` |
+| 12/12/05/2023:02 | Página de producto | `1234` | | `cassidy@a.com` |
+| 12/12/05/2023:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` | `cassidy@a.com` |
+| 12/12/05/2023:07 | Página de producto | `1234` | | `cassidy@a.com` |
+| 12/12/05/2023:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 13-05-2023 11:08 | Página de inicio | `1234` | | `cassidy@a.com` |
 
 
 ### Device-split
@@ -71,12 +71,12 @@ Cuando se utiliza la atribución dividida por el dispositivo en la vinculación,
 
 | Marca de tiempo | Nombre de página | ID de dispositivo | Correo electrónico | ID vinculado |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Página de inicio | `1234` | | `ryan@a.com` |
-| 2023-05-12 12:02 | Página de producto | `1234` | | `ryan@a.com` |
-| 2023-05-12 12:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` | `ryan@a.com` |
-| 2023-05-12 12:07 | Página de producto | `1234` | | `ryan@a.com` |
-| 2023-05-12 12:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` | `cassidy@a.com` |
-| 2023-05-13 11:08 | Página de inicio | `1234` | | `cassidy@a.com` |
+| 12/12/05/2023:01 | Página de inicio | `1234` | | `ryan@a.com` |
+| 12/12/05/2023:02 | Página de producto | `1234` | | `ryan@a.com` |
+| 12/12/05/2023:03 | Pedido realizado correctamente | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 12/12/05/2023:07 | Página de producto | `1234` | | `ryan@a.com` |
+| 12/12/05/2023:08 | Pedido realizado correctamente | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 13-05-2023 11:08 | Página de inicio | `1234` | | `cassidy@a.com` |
 
 
 <!--
@@ -123,7 +123,7 @@ Para comprender la exposición del dispositivo compartido, puede pensar en reali
 
 2. **Atribución de eventos a dispositivos compartidos**
 
-   En el caso de los dispositivos compartidos identificados, determine cuántos eventos del total pueden atribuirse a estos dispositivos. Esta atribución proporciona una perspectiva del impacto que los dispositivos compartidos tienen en los datos y las implicaciones para el análisis.
+   En el caso de los dispositivos compartidos identificados, determine cuántos eventos del total pueden atribuirse a estos dispositivos. Esta atribución proporciona a insight información sobre el impacto que los dispositivos compartidos tienen en los datos y las implicaciones para el análisis.
 
    ```sql
    SELECT COUNT(*) AS total_events,

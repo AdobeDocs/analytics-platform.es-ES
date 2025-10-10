@@ -1,11 +1,11 @@
 ---
 title: Descubra cómo administrar públicos en Customer Journey Analytics
-description: Descubra cómo administrar audiencias en Customer Journey Analytics
+description: Descubra cómo administrar públicos en Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 100%
 
@@ -19,8 +19,8 @@ Los públicos se pueden administrar en Customer Journey Analytics mediante **[!U
 
 La administración de públicos creados anteriormente le permite:
 
-* **Programar o desprogramar** actualizaciones automáticas de audiencias. La caducidad máxima de la programación es de 1 año.
-* **Renovar una programación de actualización de audiencia** cuando esté a punto de caducar. Las audiencias que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la programación caduque.
+* **Programar o desprogramar** actualizaciones automáticas de públicos. La caducidad máxima de la programación es de 1 año.
+* **Renovar una programación de actualización de público** cuando esté a punto de caducar. Los públicos que caducan se tratan de manera similar a los informes programados que caducan: el administrador recibe un correo electrónico un mes antes de que la programación caduque.
 * Consultar el **intervalo de actualización** y la **última vez que se actualizó un público**
 * Obtener información sobre **cuánto tiempo se tardó en producir un público** de Customer Journey Analytics. Y la cantidad de tiempo que tardó el público en aparecer en Real-Time Customer Platform con fines de activación.
 * Compruebe si **Real-Time Customer Platform** está usando los públicos de Customer Journey Analytics activamente. O, idealmente, cualquier aplicación de Experience Platform que consuma los públicos creados por Customer Journey Analytics.
@@ -41,22 +41,22 @@ Para ver la lista Público:
 
 1. (Opcional) Busque un público utilizando ![Buscar](/help/assets/icons/Search.svg).
 
-   Las siguientes columnas están disponibles con información sobre cada audiencia:
+   Las siguientes columnas están disponibles con información sobre cada público:
 
    | Columna | Descripción |
    | --- | --- |
    | ![SeleccionarCuadro](/help/assets/icons/SelectBox.svg) | Cuando se seleccionan uno o varios públicos, aparece una barra de acciones azul en la parte inferior de la interfaz de Públicos. Consulte la sección [Acciones](#actions) para obtener más información. |
    | **[!UICONTROL Título y descripción]** | El título y la descripción que introdujo al crear el público. |
-   | **[!UICONTROL Vista de datos]** | La vista de datos en la que se creó esta audiencia. |
-   | **[!UICONTROL Tamaño de la audiencia]** | El número total de personas en esta audiencia. |
+   | **[!UICONTROL Vista de datos]** | La vista de datos en la que se creó este público. |
+   | **[!UICONTROL Tamaño del público]** | El número total de personas en este público. |
    | **[!UICONTROL Propietario]** | El propietario del público: la persona que lo creó. |
    | **[!UICONTROL Frecuencia de actualización]** | El intervalo de actualización configurado al crear el público. |
-   | **[!UICONTROL Etiquetas]** | Las etiquetas aplicadas a esta audiencia. |
+   | **[!UICONTROL Etiquetas]** | Las etiquetas aplicadas a este público. |
    | **[!UICONTROL Estado de publicación]** | Puede aparecer ![EstadoVerde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Listo]**, ![EstadoGris](/help/assets/icons/StatusGray.svg) **[!UICONTROL En curso]** o ![EstadoRojo](/help/assets/icons/StatusRed.svg) **[!UICONTROL Error]**. |
    | **[!UICONTROL Última actualización]** | La marca de tiempo de la última vez que se actualizó el público. |
    | **[!UICONTROL Última modificación]** | La marca de tiempo de la última vez que se editó o modificó el público. |
 
-## Editar audiencias
+## Editar públicos
 
 Puede editar la configuración de un público en cualquier momento. Cuando edita un público (ya sea un público único o recurrente), se requiere volver a publicar.
 
@@ -80,17 +80,17 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar las audiencias seleccionadas. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de público *]**, seleccione las etiquetas en el menú desplegable o escriba una o varias etiquetas nuevas. Seleccione**[!UICONTROL Guardar ]**para guardar. |
-| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar las audiencias seleccionadas. |
-| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de la audiencia seleccionada. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de audiencia *]**para cambiar el nombre de la audiencia y seleccione**[!UICONTROL Guardar ]**para guardar. |
+| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar los públicos seleccionados. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de público *]**, seleccione las etiquetas en el menú desplegable o escriba una o varias etiquetas nuevas. Seleccione**[!UICONTROL Guardar ]**para guardar. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar los públicos seleccionados. |
+| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre del público seleccionado. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de público *]**para cambiar el nombre del público y seleccione**[!UICONTROL Guardar ]**para guardar. |
 
 Las siguientes acciones están disponibles en la barra de acciones azul al seleccionar uno o más proyectos programados.
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![Cerrar](/help/assets/icons/Close.svg) | **[!UICONTROL *x *seleccionada]** | Seleccionar para anular la selección de las audiencias seleccionadas. |
-| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar las audiencias seleccionadas. |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar las audiencias seleccionadas a un archivo lkanado `audiences.csv`. |
+| ![Cerrar](/help/assets/icons/Close.svg) | **[!UICONTROL *x *seleccionada]** | Seleccionar para anular la selección de los públicos seleccionados. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar los públicos seleccionados. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar los públicos seleccionados a un archivo lkanado `audiences.csv`. |
 
 ## Filtrado de la lista de públicos
 

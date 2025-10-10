@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
 source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Comparar soluciones de Customer Journey Analytics con las soluciones de BI
 
-Con el enfoque actual en la experiencia del cliente, las marcas necesitan soluciones avanzadas para comprender mejor el recorrido integral del cliente. Comprender este recorrido completo del cliente le permite analizar y obtener perspectivas valiosas sobre cómo los canales en línea y sin conexión consiguen la participación de los clientes y conducen a un aumento de la conversión, la retención y la fidelidad. Un recorrido del cliente en este contexto puede ser el simple pedido en línea de una comida en una cadena de sushi. O la compra de un nuevo coche, donde el cliente combina la investigación en línea con visitas al concesionario y una compra final en persona.
+Con el enfoque actual en la experiencia del cliente, las marcas necesitan soluciones avanzadas para comprender mejor el recorrido integral del cliente. Comprender este recorrido completo del cliente le permite analizar y obtener perspectivas valiosas sobre cómo los canales en línea y sin conexión consiguen la participación de los clientes y conducen a un aumento de la conversión, la retención y la lealtad. Un recorrido del cliente en este contexto puede ser el simple pedido en línea de una comida en una cadena de sushi. O la compra de un nuevo coche, donde el cliente combina la investigación en línea con visitas al concesionario y una compra final en persona.
 
 Muchas organizaciones han consolidado sus datos omnicanal en un lago de datos o almacén de datos. Las herramientas de Business Intelligence (BI) se utilizan sobre estos almacenes de datos para proporcionar los informes, visualizaciones y perspectivas que la empresa necesita para comprender el recorrido del cliente. Esta combinación de soluciones y herramientas suele tener un propósito general por naturaleza y diseño, y no se centra explícitamente en el cliente. Customer Journey Analytics se centra en potenciar a los responsables de la experiencia del cliente, como los especialistas en marketing, los analistas de datos y los científicos de datos. La herramienta permite visualizar el recorrido del cliente en todo su contexto, a través de todos los canales y en tiempo real, sin las limitaciones que presentan muchas otras herramientas de BI.
 
@@ -36,7 +36,7 @@ Customer Journey Analytics proporciona un entorno para conectar datos de canales
 
 ![Flujo de trabajo del Customer Journey Analytics como se describe en esta sección](./assets/cjaworkflow.png)
 
-Puede utilizar Customer Journey Analytics para formular preguntas a través del entorno visual de Analysis Workspace y obtener perspectivas de forma casi instantánea. Los datos multicanal y los informes están disponibles de inmediato, sin necesidad de código SQL. Se pueden realizar consultas y análisis adicionales con una simple operación de arrastrar y soltar en la interfaz de usuario, con datos totalmente correlacionados. Puede seguir formulando preguntas, explorando progresivamente más detalles según sus necesidades. A continuación, puede tomar medidas inmediatas en función de las perspectivas que descubra, como distribuir audiencias para su activación y orquestación.
+Puede utilizar Customer Journey Analytics para formular preguntas a través del entorno visual de Analysis Workspace y obtener perspectivas de forma casi instantánea. Los datos multicanal y los informes están disponibles de inmediato, sin necesidad de código SQL. Se pueden realizar consultas y análisis adicionales con una simple operación de arrastrar y soltar en la interfaz de usuario, con datos totalmente correlacionados. Puede seguir formulando preguntas, explorando progresivamente más detalles según sus necesidades. A continuación, puede tomar medidas inmediatas en función de las perspectivas que descubra, como distribuir públicos para su activación y orquestación.
 
 ## El potente motor de creación de informes de Customer Journey Analytics
 
@@ -68,11 +68,11 @@ Estos componentes de visualización incluyen funcionalidades inteligentes como:
 
    * Visualizaciones de [visita en orden previsto](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md). Se configura en menos de un minuto.
 
-* **Capacidad de segmentación en cada paso de su exploración progresiva**: siempre que crea que tiene sentido, puede volver a publicar la audiencia en Experience Platform y desde allí a cualquiera de los destinos compatibles.
+* **Capacidad de segmentación en cada paso de su exploración progresiva**: siempre que crea que tiene sentido, puede volver a publicar el público en Experience Platform y desde allí a cualquiera de los destinos compatibles.
 
 * **Sesionización** que es totalmente [personalizable](/help/data-views/component-settings/persistence.md): usted determina cuándo una sesión, como parte de un canal en el recorrido del cliente, comienza y termina.
 
-* **Depuración y democratización**: los paneles creados en Customer Journey Analytics pueden ser los siguientes:
+* **Depuración y democratización**: los paneles de control creados en Customer Journey Analytics pueden ser los siguientes:
 
    * [Depurados](/help/analysis-workspace/curate-share/curate.md) a otras personas de la organización para la exploración continua,
    * Exportados a Excel mediante [Report Builder](/help/report-builder/rb-overview.md) (un complemento dedicado),

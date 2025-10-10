@@ -6,7 +6,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 El análisis ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Canal ]**proporciona una representación visual de un recorrido de usuario esencial de su producto. El eje horizontal representa cada paso que debe atravesar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431275/?quality=12&learn=on&captions=spa){width="90%"}
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on){width="90%"}
 
 ## Casos prácticos
 
@@ -39,7 +39,7 @@ Los casos de uso de este análisis incluyen:
 
 ## Interfaz
 
-Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de Análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
 
 ### Carril de consulta
 
@@ -47,7 +47,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Vista]**: cambie entre este análisis y [Tendencias de conversión](conversion-trends.md).
 * **[!UICONTROL Pasos]**: los puntos de contacto del evento que desea rastrear. Cada barra del gráfico representa un paso. Se pueden incluir hasta diez pasos.
-   * [!UICONTROL Comparación]: cada paso proporciona una opción para comparar varios eventos en un solo paso de canal y crear un “canal ramificado”. Esta función le permite comparar la fricción de dos recorridos en paralelo sin crear dos análisis independientes. Resulta útil cuando hay opciones de paso o cuando se está ejecutando un experimento A/B en el canal. Consulte [Canal](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) en los tutoriales de Customer Journey Analytics para ver un vídeo que explica cómo comparar canales.
+   * [!UICONTROL Comparación]: cada paso proporciona una opción para comparar varios eventos en un solo paso de canal y crear un “canal ramificado”. Esta función le permite comparar la fricción de dos recorridos en paralelo sin crear dos análisis independientes. Resulta útil cuando hay opciones de paso o cuando se está ejecutando un experimento A/B en el canal. Consulte [Canal](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) en los tutoriales de Customer Journey Analytics para ver un vídeo que explica cómo comparar canales.
 * **[!UICONTROL Contabilizado como]**: el ámbito que desea aplicar al canal. Las opciones incluyen [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
    * [!UICONTROL Sesiones]: todos los pasos deben realizarse dentro de la misma sesión para que se contabilicen.
    * [!UICONTROL Usuarios]: todos los pasos deben realizarse dentro de la ventana de creación de informes seleccionada para que se contabilicen.

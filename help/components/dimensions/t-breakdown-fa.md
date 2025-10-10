@@ -23,7 +23,7 @@ Puede desglosar los datos en Analysis Workspace de formas ilimitadas para sus ne
 
 1. En el submenú, seleccione **[!UICONTROL Dimensiones]**, **[!UICONTROL Métricas]**, **[!UICONTROL Segmentos]** o **[!UICONTROL Intervalos de fechas]** y, a continuación, seleccione un elemento. O simplemente busque un componente en el campo **[!UICONTROL *Buscar *]**.
 
-Puede desglosar métricas por elementos de dimensión o segmentos de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
+Puede desglosar métricas por elementos de dimensión o segmentos de público entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Este es el comportamiento esperado al aplicar modelos de atribución a desgloses
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension en Analysis Workspace](https://video.tv.adobe.com/v/41373?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension en Analysis Workspace](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -62,7 +62,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension e
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [desgloses de Dimension](https://video.tv.adobe.com/v/327338?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [desgloses de Dimension](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -71,7 +71,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [desgloses de Dim
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar dimensiones y métricas](https://video.tv.adobe.com/v/33837?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar dimensiones y métricas](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -80,7 +80,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar dimensio
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trabajo con dimensiones en una tabla de forma libre](https://video.tv.adobe.com/v/328525?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trabajo con dimensiones en una tabla de forma libre](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -89,7 +89,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trabajo con dime
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Desglose de Dimension por posición](https://video.tv.adobe.com/v/327413?captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Desglose de Dimension por posición](https://video.tv.adobe.com/v/24033){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

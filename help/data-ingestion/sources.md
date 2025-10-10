@@ -45,7 +45,7 @@ Todos los datos ingeridos en Adobe Experience Platform deben cumplir un esquema 
 
 ### Configurar un esquema
 
-Para este inicio rápido, debe recopilar algunos datos de fidelidad, como el ID de fidelidad, los puntos de fidelidad y el estado de fidelidad.
+Para este inicio rápido, debe recopilar algunos datos de lealtad, como el ID de lealtad, los puntos de lealtad y el estado de lealtad.
 Primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
@@ -62,7 +62,7 @@ Para configurar el esquema:
 
       >[!INFO]
       >
-      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los atributos del perfil (como nombre, correo electrónico o género).__
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
@@ -83,7 +83,7 @@ Para configurar el esquema:
 
       Los grupos de campos son una colección reutilizable de objetos y atributos que le permiten ampliar fácilmente sus esquemas.
 
-   1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos] seleccione el grupo de campos **[!UICONTROL Detalles de fidelidad]** en la lista.
+   1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos] seleccione el grupo de campos **[!UICONTROL Detalles de lealtad]** en la lista.
 
       ![Grupo de campos ExperienceEvent del SDK web de AEP](./assets/loyalty-fieldgroup.png)
 
@@ -103,11 +103,11 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identifcation-loyalty-field.png)
 
-   Este objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico en los datos por lotes.
+   Este objeto de identificación agrega capacidades de identificación al esquema. En su caso, desea identificar la información de lealtad utilizando la dirección de correo electrónico en los datos por lotes.
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
-1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en el [!UICONTROL Área de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
+1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en el [!UICONTROL Espacio de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
 
    ![Especificar el correo electrónico como identidad](./assets/specify-email-loyalty-id.png)
 
@@ -129,7 +129,7 @@ Para configurar el esquema:
 
 1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
-Ha creado un esquema mínimo que modela los datos de fidelidad que puede ingerir en Adobe Experience Platform. El esquema permite identificar perfiles mediante la dirección de correo electrónico. Al habilitar el esquema para el perfil, se asegura de que los datos del origen de streaming se agregan al perfil del cliente en tiempo real.
+Ha creado un esquema mínimo que modela los datos de lealtad que puede ingerir en Adobe Experience Platform. El esquema permite identificar perfiles mediante la dirección de correo electrónico. Al habilitar el esquema para el perfil, se asegura de que los datos del origen de streaming se agregan al perfil del cliente en tiempo real.
 
 Consulte [Crear y editar esquemas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es) para obtener más información sobre cómo agregar y quitar grupos de campos y campos individuales a un esquema.
 
@@ -172,15 +172,15 @@ Consulte [Guía de la interfaz de usuario de conjuntos de datos](https://experie
 
 ## Uso de un conector de origen
 
-Según el origen de los datos de fidelidad, elija el conector de origen correspondiente disponible en Adobe Experience Platform.
+Según el origen de los datos de lealtad, elija el conector de origen correspondiente disponible en Adobe Experience Platform.
 
 Puede introducir datos de una variedad de fuentes. A continuación se muestran solo algunas de las muchas fuentes disponibles:
 
-- Aplicaciones de Adobe (los conectores de origen incluyen [Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) y más)
+- Aplicaciones de Adobe (los conectores de origen incluyen [Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) y más)
 
-- Almacenamiento en la nube (los conectores de origen incluyen [Amazon S3](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/blob) y más)
+- Almacenamiento en la nube (los conectores de origen incluyen [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob) y más)
 
-- Bases de datos (los conectores de origen incluyen [Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/sql-server) y más)
+- Bases de datos (los conectores de origen incluyen [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server) y más)
 
 Para configurar un conector de origen, debe hacer lo siguiente:
 
@@ -214,7 +214,7 @@ Consulte [Ingesta y uso de datos de Adobe Analytics tradicional](./analytics.md)
 
 Consulte [Ingesta y uso de datos de flujo continuo](./streaming.md) para obtener información sobre cómo usar el conector de origen de la API HTTP.
 
-Consulte [Información general sobre conectores de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#terms-and-conditions) para obtener información general sobre los conectores de origen, incluidos vínculos a más información sobre cada conector.
+Consulte [Información general sobre conectores de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions) para obtener información general sobre los conectores de origen, incluidos vínculos a más información sobre cada conector.
 
 
 ## Configurar una conexión
@@ -324,7 +324,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel] Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel] Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de lealtad que recopila puntos de lealtad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 
@@ -332,4 +332,4 @@ Consulte [Información general de Analysis Workspace](../analysis-workspace/home
 
 >[!SUCCESS]
 >
->Ha completado todos los pasos. Empezando por definir qué datos de fidelidad quiere recopilar (esquema) y dónde quiere almacenarlos (conjunto de datos) en Adobe Experience Platform, ha configurado el conector de origen apropiado para proporcionarle los datos de fidelidad. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de fidelidad ingeridos y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.
+>Ha completado todos los pasos. Empezando por definir qué datos de lealtad quiere recopilar (esquema) y dónde quiere almacenarlos (conjunto de datos) en Adobe Experience Platform, ha configurado el conector de origen apropiado para proporcionarle los datos de lealtad. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de lealtad ingeridos y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.

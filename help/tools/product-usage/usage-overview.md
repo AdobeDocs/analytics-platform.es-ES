@@ -3,7 +3,7 @@ title: Información general sobre el uso del producto
 description: Vea información e informes sobre cómo su organización utiliza Customer Journey Analytics.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
 source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 100%
 
@@ -11,14 +11,14 @@ ht-degree: 100%
 
 # Información general sobre el uso del producto
 
-El uso del producto le permite a su organización ver datos de análisis sobre cómo su organización utiliza Customer Journey Analytics. Está disponible para todas las organizaciones que utilizan Customer Journey Analytics. Una vez activados, los siguientes componentes de Adobe Experience Platform se crean y conectan automáticamente. Todos estos componentes son propiedad del sistema, son de solo lectura y no se pueden editar.
+El uso del producto le permite a su organización ver datos de análisis sobre cómo su organización utiliza Customer Journey Analytics. Está disponible para todas las organizaciones que utilizan Customer Journey Analytics. Una vez habilitados, los siguientes componentes de Adobe Experience Platform se crean y conectan automáticamente. Todos estos componentes son propiedad del sistema, son de solo lectura y no se pueden editar.
 
 * Un esquema de Adobe Experience Platform
 * Un conjunto de datos de Adobe Experience Platform
 * Una conexión de Customer Journey Analytics
 * Una vista de datos de Customer Journey Analytics
 
-Toda la recopilación y configuración de datos se configura automáticamente una vez que se haya activado. Cada vez que un usuario realiza una acción en Analysis Workspace, se rastrea y está disponible para la creación de informes.
+Toda la recopilación y configuración de datos se configura automáticamente una vez que se haya habilitado. Cada vez que un usuario realiza una acción en Analysis Workspace, se rastrea y está disponible para la creación de informes.
 
 >[!IMPORTANT]
 >

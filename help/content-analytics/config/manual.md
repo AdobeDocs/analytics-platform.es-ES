@@ -1,20 +1,20 @@
 ---
-title: Configuración manual del análisis de contenido
-description: Cómo configurar manualmente el análisis de contenido
+title: Configuración manual de Content Analytics
+description: Cómo configurar manualmente Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
 source-git-commit: a3d974733eef42050b0ba8dcce4ebcccf649faa7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 100%
 
 ---
 
-# Configuración manual del análisis de contenido
+# Configuración manual de Content Analytics
 
-Este artículo detalla las acciones manuales necesarias para iniciar o detener la recopilación de datos de una configuración de análisis de contenido o para editar la implementación del análisis de contenido.
+Este artículo detalla las acciones manuales necesarias para iniciar o detener la recopilación de datos de una configuración de Content Analytics o para editar la implementación de Content Analytics.
 
 Las opciones de configuración disponibles son las siguientes:
 
@@ -31,8 +31,8 @@ Para iniciar la recopilación de datos para una configuración de Content Analyt
 
 Para detener la recopilación de datos de una configuración de Content Analytics implementada:
 
-1. Elimine el [código incrustado](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/environments/environments) en el elemento `<head>` de las páginas de su entorno de producción, desarrollo o ensayo, sujeto al análisis de contenido.
-1. [Elimine](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview) la propiedad Etiquetas asociada a la configuración del análisis de contenido.
+1. Elimine el [código incrustado](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/environments/environments) en el elemento `<head>` de las páginas de su entorno de producción, desarrollo o ensayo, sujeto a Content Analytics.
+1. [Elimine](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview) la propiedad Etiquetas asociada a la configuración de Content Analytics.
 
 
 

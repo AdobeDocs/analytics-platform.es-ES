@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics Exportar tabla completa
+title: Customer Journey Analytics Export full table
 description: Describe cómo utilizar la funcionalidad Exportar tabla completa para validar los datos o utilizar los datos para inteligencia artificial o aprendizaje automático.
 solution: Customer Journey Analytics
 feature: Use Cases

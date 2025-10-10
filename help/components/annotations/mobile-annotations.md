@@ -8,12 +8,12 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
 
-# Anotaciones del cuadro de resultados móvil
+# Anotaciones de cuadros de resultados móviles
 
 Puede mostrar anotaciones creadas en Analysis Workspace en cuadros de resultados móviles. Las anotaciones en los cuadros de resultados móviles permiten compartir matices de datos contextuales y perspectivas sobre su organización y campañas.
 
@@ -36,7 +36,7 @@ Para obtener información sobre la creación de anotaciones, consulta [Crear ano
 
 ## Ver anotaciones en cuadros de resultados móviles
 
-Cuando las anotaciones están activadas, los iconos de anotación se pueden ver en el Generador de cuadros de resultados. Las anotaciones solo aparecen en los gráficos y tablas de la vista detallada. Las anotaciones no están visibles desde la vista de mosaico principal del cuadro de resultados.
+Cuando las anotaciones están habilitadas, los iconos de anotación se pueden ver en el Generador de cuadros de resultados. Las anotaciones solo aparecen en los gráficos y tablas de la vista detallada. Las anotaciones no están visibles desde la vista de mosaico principal del cuadro de resultados.
 
 ![Creador de cuadros de resultados que resalta los iconos de anotación.](assets/annotations-scorecard.png)
 

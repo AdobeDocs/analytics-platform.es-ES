@@ -1,31 +1,31 @@
 ---
-description: Explica las funciones de la nueva página de aterrizaje.
-title: Página de aterrizaje de Customer Journey Analytics
+description: Explica las funciones de la nueva página de destino.
+title: Página de destino de Customer Journey Analytics
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 100%
 
 ---
 
-# Página de aterrizaje de Customer Journey Analytics
+# Página de destino de Customer Journey Analytics
 
-La página de aterrizaje de Customer Journey Analytics resalta [!DNL Analysis Workspace] e incluye una página de inicio del administrador de proyectos y una sección de aprendizaje para ayudarle a empezar de forma más eficaz.
+La página de destino de Customer Journey Analytics resalta [!DNL Analysis Workspace] e incluye una página de inicio del administrador de proyectos y una sección de aprendizaje para ayudarle a empezar de forma más eficaz.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de aterrizaje en Analysis Workspace](https://video.tv.adobe.com/v/346462/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de aterrizaje en Analysis Workspace](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-La página de aterrizaje de Customer Journey Analytics consta de las siguientes subpestañas: proyectos y aprendizaje.
+La página de destino de Customer Journey Analytics consta de las siguientes subpestañas: proyectos y aprendizaje.
 
 **[!UICONTROL Proyectos]** son diseños personalizados que combinan componentes de datos, tablas y visualizaciones que ha creado o que alguien más ha creado y compartido con usted. [!UICONTROL Proyectos] también hace referencia a proyectos y cuadros de resultados móviles en blanco.
 
@@ -35,11 +35,11 @@ La pestaña **[!UICONTROL Aprendizaje]** contiene tutoriales y recorridos en ví
 
 >[!TAB Proyectos]
 
-![Página de aterrizaje de proyectos](assets/landing-projects.png)
+![Página de destino de proyectos](assets/landing-projects.png)
 
 >[!TAB Aprendizaje]
 
-![Página de aterrizaje de aprendizaje](assets/landing-learning.png)
+![Página de destino de aprendizaje](assets/landing-learning.png)
 
 
 >[!ENDTABS]
@@ -93,7 +93,7 @@ The available columns are:
 | [!UICONTROL Create new] | Opens the project modal where you can create a Workspace project or a Mobile scorecard or open a company template.  |
 | [!UICONTROL Show less<br> Show more] | Toggles between not showing and showing the banner: ![Top banner](assets/top-banner.png) |
 | [!UICONTROL Workspace project] | Creates a blank [Workspace project](/help/analysis-workspace/home.md) for you to  design and build. |
-| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=es) for you to design and build. |
+| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) for you to design and build. |
 | [!UICONTROL Open Training Tutorial] | Opens the Workspace training tutorial that guides you through the process of building a new starter project in a step-by-step tutorial.|
 | [!UICONTROL Open release notes] | Opens the Adobe Analytics section of the latest Adobe Experience Cloud release notes. |
 | Filter icon | Filters by tags, report suites, owners, types, and other filters (Mine, Shared with me, Favorites, and Approved)  |
@@ -133,9 +133,9 @@ La página de Aprendizaje ofrece las siguientes funciones:
    * [!UICONTROL **Visitar Experience League**]: consulta el conjunto completo de documentación de Adobe Analytics sobre Experience League.
 * **Aspectos básicos para nuevos usuarios:** se recomienda la visita guiada [!UICONTROL Aspectos básicos de Workspace] para los usuarios nuevos. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. Esta visita guiada también se puede reiniciar en cualquier momento directamente en Workspace a través de las herramientas del encabezado [Panel de forma libre](/help/analysis-workspace/c-panels/freeform-panel.md) o [Panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md).
 
-## Página de aterrizaje preferida
+## Página de destino preferida
 
-Puedes establecer tu página de aterrizaje preferida. Consulta[Preferencias de usuario](/help/analysis-workspace/user-preferences.md#general-preferences) para obtener más información.
+Puedes establecer tu página de destino preferida. Consulta[Preferencias de usuario](/help/analysis-workspace/user-preferences.md#general-preferences) para obtener más información.
 
 <!--
 ## Landing page FAQ {#landing-faq}

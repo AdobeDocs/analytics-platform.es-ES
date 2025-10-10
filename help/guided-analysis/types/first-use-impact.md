@@ -6,7 +6,7 @@ keywords: Product Analytics
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 El análisis del ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL impacto del primer uso]** muestra una comparación del rendimiento de los indicadores clave antes y después de que un usuario use una función del producto por primera vez. El eje horizontal de este informe es un intervalo de tiempo relativo antes y después del evento, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en medio del gráfico representa el día 0 del momento en que un usuario determinado utiliza por primera vez una función. Dado que los usuarios no siempre adoptan funciones el mismo día y que los despliegues pueden producirse potencialmente durante varios días, el día 0 puede significar algo distinto para cada usuario individual.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423501/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3421661/?quality=12&learn=on)
 
 
 ## Casos prácticos
@@ -44,7 +44,7 @@ Los casos de uso de este análisis incluyen:
 
 ## Interfaz
 
-Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de Análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
 
 ### Carril de consulta
 

@@ -1,5 +1,5 @@
 ---
-description: Qué son los informes de valoración de los paneles y
+description: Qué son los informes de valoración de los paneles de control y
 title: Guía del gestor de datos para paneles de Analytics
 feature: Analytics Dashboards
 role: User, Admin

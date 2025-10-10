@@ -27,7 +27,7 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="cja-export-file-name"
->title="Nombre de archivo y ruta"
+>title="Nombre y ruta del archivo"
 >abstract="Especifique un nombre de archivo personalizado dinámico para usar en las exportaciones automatizadas enviadas a esta ubicación. También puede anteponer al nombre del archivo una ruta de acceso dinámica personalizada. &lt;br\>Use variables en el nombre y la ruta del archivo para hacerlas dinámicas. &lt;br\>Por ejemplo, si especifica `${yyyy}/${mm}/${dd}/my-report-${instance_id}-${idx}`, una exportación que se envíe automáticamente a este destino el 15 de enero de 2026 tendría la siguiente ruta de archivo y nombre: `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` &lt;br\>Haga clic en el vínculo siguiente para obtener una lista de variables disponibles."
 
 <!-- markdownlint-enable MD034 -->
@@ -106,11 +106,11 @@ Para obtener información sobre cómo administrar ubicaciones existentes, como v
 
    1. Abra [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-   1. Vaya a [!UICONTROL **Cuentas de almacenamiento**] > [!UICONTROL **(Contenedores adjuntos)**] > [!UICONTROL **Contenedores de blob**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***.
+   1. Vaya a [!UICONTROL **Cuentas de almacenamiento**] > [!UICONTROL **(Contenedores adjuntos)**] > [!UICONTROL **Contenedores de blob**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***.
 
       >[!NOTE]
       >
-      >El nombre de carpeta **[!UICONTROL cjaexport-_number_]**&#x200B;es el nombre predeterminado proporcionado por el Explorador de almacenamiento de Azure. Si solo tiene una conexión asociada a su URI SAS (lo cual es normal), el nombre de esta carpeta será&#x200B;**[!UICONTROL cjaexport-1]**.
+      >El nombre de carpeta **[!UICONTROL cjaexport-_number_]**es el nombre predeterminado proporcionado por el Explorador de almacenamiento de Azure. Si solo tiene una conexión asociada a su URI SAS (lo cual es normal), el nombre de esta carpeta será&#x200B;**[!UICONTROL cjaexport-1]**.
 
 
       ![Acceder a archivos en el Explorador de almacenamiento de Azure](assets/azure-storage-explorer-access.png)

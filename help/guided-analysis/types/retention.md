@@ -6,9 +6,9 @@ keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1261'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ El análisis ![Retención](/help/assets/icons/Retention.svg) **[!UICONTROL Reten
 
 En este análisis, el eje x del gráfico representa el tiempo desde el evento de inicio inicial de un usuario y el eje y representa el porcentaje de usuarios que participan en uno o más eventos de retorno. Puede ver tanto la retención como la cancelación en todas las duraciones, y las duraciones mostradas se pueden personalizar a través de la configuración de consulta. Debajo del gráfico, una tabla proporciona datos añadidos con la opción de mostrar cohortes individuales, que son un grupo de personas que realizaron el evento inicial en la misma fecha.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435781/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
 
 
 ## Casos prácticos
@@ -44,7 +44,7 @@ Los casos de uso de este análisis incluyen:
 
 ## Interfaz
 
-Consulte [Interfaz](../overview.md#interface) para obtener una descripción general de la interfaz Análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
 
 ### Carril de consulta
 
@@ -60,7 +60,7 @@ El carril de consulta permite configurar los siguientes componentes:
    * **[!UICONTROL Cada]**: el período de tiempo que desea que tenga cada intervalo de duración. Las opciones incluyen: 
       * **[!UICONTROL Día/Semana/Mes]**: las opciones disponibles dependen del intervalo de fechas seleccionado. Estas opciones son idénticas a la configuración de **[!UICONTROL Intervalo]** cuando se selecciona el intervalo de fechas y actualiza esa configuración automáticamente.
       * **[!UICONTROL Secciones personalizadas]**: esta opción solo está disponible para la configuración &quot;En cada&quot;. Permite contabilizar usuarios en un periodo de tiempo mayor; por ejemplo, del día 7 al 10, en lugar de solo el día 7.
-   * **[!UICONTROL Configuración de la duración]**: permite controlar los intervalos de duración que se muestran en el gráfico y la tabla. Una duración es el período de tiempo después del evento de inicio en el que se ha producido el evento de retorno. Nota: Los usuarios que cumplen los requisitos para los intervalos de duración se basan en el tiempo transcurrido, no en los días del calendario. Por ejemplo, si un usuario cumple los requisitos para un evento a las 23:55 horas del 6 de septiembre y luego cumple los requisitos para un evento de retorno a las 12:05 horas del 7 de septiembre, no aparecerá en el intervalo de duración de 1 día. Deberán transcurrir 24 horas completas para que el usuario pueda optar al intervalo de duración de 1 día. Los intervalos de duración disponibles dependen del intervalo de fechas que establezca.
+   * **[!UICONTROL Configuración de la duración]**: permite controlar los intervalos de duración que se muestran en el gráfico y la tabla. Una duración es el período de tiempo después del evento de inicio en el que se ha producido el evento de retorno. Nota: Los usuarios que cumplen los requisitos para los intervalos de duración se basan en el tiempo transcurrido, no en los días del calendario. Por ejemplo, si un usuario cumple los requisitos para un evento a las 11:55 p. m. del 6 de septiembre y luego cumple los requisitos para un evento de retorno a las 12:05 a. m. del 7 de septiembre, no aparecerá en el bloque de duración de 1 día. Deberán transcurrir 24 horas completas para que el usuario pueda optar al intervalo de duración de 1 día. Los intervalos de duración disponibles dependen del intervalo de fechas que establezca.
       * **[!UICONTROL Duraciones automáticas]** define automáticamente los intervalos de duración en función de la longitud del intervalo de fechas y de la proximidad al día actual en que se encuentre el intervalo de fechas.
       * **[!UICONTROL Duraciones personalizadas]** le permiten personalizar los intervalos de duración que se muestran en el gráfico y la tabla.
 * **[!UICONTROL Segmentos]**: los segmentos que desea medir. Cada segmento seleccionado añadir una fila a la tabla de cohorte. Se pueden incluir hasta tres segmentos.

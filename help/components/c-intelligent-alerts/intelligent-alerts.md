@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre cómo utilizar las alertas para permitir un control granular sobre las notificaciones y la integración con la detección de anomalías.
-title: Resumen de alertas
+description: Entienda cómo utilizar las alertas, que permiten un control granular sobre las notificaciones y la integración con la detección de anomalías.
+title: Información general sobre alertas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 

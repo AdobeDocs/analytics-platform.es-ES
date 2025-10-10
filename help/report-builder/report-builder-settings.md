@@ -9,7 +9,7 @@ solution: Customer Journey Analytics
 source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -31,7 +31,7 @@ Para cambiar la configuración de Report Builder
 
 Cuando se crea y edita un bloque de datos en modo sin conexión, los datos no se recuperan. En su lugar, se utilizan datos de simulación para que pueda trabajar rápidamente sin esperar a que se ejecute la solicitud. Cuando vuelva a estar en línea, seleccione ![Actualizar](/help/assets/icons/Refresh.svg) **[!UICONTROL Actualizar el bloque de datos]** o ![ActualizarDocumento](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL Actualizar todos los bloques de datos]** para actualizar los bloques de datos con datos reales.
 
-Para activar el modo sin conexión
+Para habilitar el modo sin conexión
 
 1. Seleccione ![Configuración](/help/assets/icons/Setting.svg).
 

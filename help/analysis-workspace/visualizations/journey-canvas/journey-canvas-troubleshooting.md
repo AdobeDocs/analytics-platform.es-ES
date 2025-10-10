@@ -7,7 +7,7 @@ exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ La siguiente información puede ayudarle a solucionar problemas con resultados n
 
 En el lienzo de Recorrido, es posible que los nodos que se producen más adelante en el recorrido muestren un porcentaje o un recuento de números mayor que los que se producen más temprano en el recorrido.
 
-En otras palabras, a diferencia de las visualizaciones de visitas en el orden previsto, que siempre tienen forma de embudo (con una participación que disminuye con cada paso), las visualizaciones de lienzo de Recorrido pueden tener una participación mayor en los pasos posteriores del recorrido que en los pasos anteriores.
+En otras palabras, a diferencia de las visualizaciones de visitas en el orden previsto, que siempre tienen forma de funnel (con una participación que disminuye con cada paso), las visualizaciones de lienzo de Recorrido pueden tener una participación mayor en los pasos posteriores del recorrido que en los pasos anteriores.
 
 Esto puede ocurrir en los siguientes casos:
 

@@ -4,7 +4,7 @@ title: Estrategia de lanzamiento de funcionalidades de Customer Journey Analytic
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
 source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Las versiones de Customer Journey Analytics operan en un modelo de entrega conti
 
 ## Estrategia de lanzamiento
 
-[!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “alternadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
+[!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “conmutadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
 * **Prueba limitada**: una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas del cliente para garantizar que la funcionalidad satisfaga sus necesidades y expectativas.
 

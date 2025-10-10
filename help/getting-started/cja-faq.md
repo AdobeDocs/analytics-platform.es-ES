@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 100%
 
@@ -179,9 +179,9 @@ Si tiene pensado incorporar datos de Adobe Analytics a través del [Conector de 
 
 ## &#x200B;8. Componentes de [!UICONTROL Adobe Analytics]
 
-+++**¿Puedo compartir/publicar [!UICONTROL audiencias] de [!DNL Customer Journey Analytics] en Real-Time CDP de Experience Platform, o en otras aplicaciones de Experience Cloud?**
++++**¿Puedo compartir/publicar [!UICONTROL públicos] de [!DNL Customer Journey Analytics] en Real-Time CDP de Experience Platform, o en otras aplicaciones de Experience Cloud?**
 
-Ahora puede [crear y publicar las audiencias](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/publish) que haya identificado en Customer Journey Analytics (CJA) en el Perfil del cliente en tiempo real (RTCP) de Adobe Experience Platform para la segmentación y personalización de clientes. 
+Ahora puede [crear y publicar los públicos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/publish) que haya identificado en Customer Journey Analytics (CJA) en el Perfil del cliente en tiempo real (RTCP) de Adobe Experience Platform para la segmentación y personalización de clientes. 
 
 +++
 
@@ -242,7 +242,7 @@ Obtenga más información sobre las [implicaciones de la eliminación de conjunt
 
 Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y las soluciones de Adobe y ajenas a Adobe se produzcan lo más cerca posible de los visitantes. Una vez que los datos se recopilan a nivel regional en un centro de recopilación de datos (DCC, también conocido como sitio perimetral, parte de la red de Platform Edge), se reenvían a través de una conexión segura a las soluciones relevantes en función de su secuencia de datos y/o el reenvío de eventos.
 
-![Flujo de datos mediante redes perimetrales](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png?lang=es)
+![Flujo de datos mediante redes perimetrales](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
 El proceso de recopilación de datos regionales sigue los siguientes pasos:
 

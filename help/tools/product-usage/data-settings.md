@@ -1,9 +1,9 @@
 ---
 title: Configuración de los datos de uso del producto
-description: Active, desactive o configure las opciones de uso del producto.
+description: Habilite, deshabilite o configure las opciones de uso del producto.
 exl-id: 85e2b515-78e6-41e8-9947-369b1e65e4fd
 source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # Configuración de los datos de uso del producto {#product-usage-data-settings}
 
-La página _Configuración de datos_ administra la configuración de uso del producto. Puede utilizar esta página para activar o desactivar el uso del producto para su organización. También puede configurar en qué zona protegida de Adobe Experience Platform se crea el conjunto de datos y anular la ventana de retención de datos si lo desea. Solo está visible para los administradores de productos.
+La página _Configuración de datos_ administra la configuración de uso del producto. Puede utilizar esta página para habilitar o deshabilitar el uso del producto para su organización. También puede configurar en qué zona protegida de Adobe Experience Platform se crea el conjunto de datos y anular la ventana de retención de datos si lo desea. Solo está visible para los administradores de productos.
 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Uso del producto]** > **[!UICONTROL Configuración de datos]**
 

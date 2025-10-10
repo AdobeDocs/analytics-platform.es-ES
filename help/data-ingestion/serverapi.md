@@ -64,7 +64,7 @@ Para configurar el esquema:
 
       >[!INFO]
       >
-      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los atributos del perfil (como nombre, correo electrónico o género).__
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
@@ -113,7 +113,7 @@ Para configurar el esquema:
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
-1. Seleccione el campo **[!UICONTROL ECID]** en el objeto de identificación que acaba de agregar y seleccione **[!UICONTROL Identidad]**, **[!UICONTROL Identidad principal]** y **[!UICONTROL ECID]** en la lista de [!UICONTROL Área de nombres de identidad] en el panel derecho.
+1. Seleccione el campo **[!UICONTROL ECID]** en el objeto de identificación que acaba de agregar y seleccione **[!UICONTROL Identidad]**, **[!UICONTROL Identidad principal]** y **[!UICONTROL ECID]** en la lista de [!UICONTROL Espacio de nombres de identidad] en el panel derecho.
 
    ![Especificar ECID como identidad](./assets/specify-identity-gaming.png)
 
@@ -121,7 +121,7 @@ Para configurar el esquema:
 
    Seleccione **[!UICONTROL Aplicar]**. Verá que aparece un icono de huella digital en el atributo de ECID.
 
-1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en la lista de [!UICONTROL Área de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
+1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en la lista de [!UICONTROL Espacio de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
 
    ![Especificar el correo electrónico como identidad](./assets/specify-email-identity-gaming.png)
 
@@ -272,7 +272,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 En la solicitud POST de ejemplo, `{DATASTREAM_ID}` señala al identificador de la secuencia de datos de ejemplo que configuró anteriormente. `{sandbox}` es el nombre único de su zona protegida que identifica la ruta al grupo de campos Luz cegadora personalizada.
 
-Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=es) para obtener más información sobre cómo usar la API de servidor de Edge Network.
+Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) para obtener más información sobre cómo usar la API de servidor de Edge Network.
 
 ## Configurar una conexión
 

@@ -9,11 +9,11 @@ solution: Customer Journey Analytics
 source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
-# concentrador de Report Builder
+# Hub de Report Builder
 
 El concentrador de Report Builder es el panel derecho que se muestra en el libro de Excel cuando se selecciona ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** en la barra de cinta de Excel.
 
@@ -63,13 +63,13 @@ Para cambiar la vista de datos, selecciona una nueva vista de datos en el menú 
 
 **Intervalo de fechas** muestra el intervalo de fechas para los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios intervalos de fechas, el vínculo **[!UICONTROL Intervalo de fechas]** muestra **[!UICONTROL _Múltiple_]**.
 
-### Segmentos 
+### Segmentos
 
 El vínculo **Segmentos** muestra una lista resumida de los segmentos utilizados por los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios segmentos aplicados, el vínculo **Segmentos** muestra **[!UICONTROL _Varios_]**.
 
 >[!MORELIKETHIS]
 >
 >[Seleccionar vistas de datos](select-data-view.md)
->[Seleccione un intervalo de fecha](select-date-range.md)
->[Trabajar con filtros](work-with-filters.md)
+>>[Seleccione un intervalo de fecha](select-date-range.md)
+>>[Trabajar con filtros](work-with-filters.md)
 >

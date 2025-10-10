@@ -18,7 +18,7 @@ Puede crear segmentos secuenciales utilizando el operador lógico [!UICONTROL Th
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/37430/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -91,7 +91,7 @@ Para aplicar restricciones de tiempo al operador **[!UICONTROL Then]**:
 1. Seleccione ![Reloj](/help/assets/icons/Clock.svg).
 1. Seleccione **[!UICONTROL En]** o **[!UICONTROL Después]** del menú contextual.
 1. Especifique un período de tiempo (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, hasta **[!UICONTROL Años]**).
-1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;para abrir una ventana emergente que le permita escribir o especificar un número con&#x200B;**[!UICONTROL -]**&#x200B;o&#x200B;**[!UICONTROL +]**.
+1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**para abrir una ventana emergente que le permita escribir o especificar un número con**[!UICONTROL -]**o**[!UICONTROL +]**.
 
 Para quitar una restricción de tiempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 

@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
 source-git-commit: 3e521cb4ef532d57b9f408fc12dcf138f130f059
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ La transferencia de recurso requiere el permiso de administrador de productos pa
 
    >[!IMPORTANT]
    >
-   >Solo puede realizar una transferencia individual, de un usuario a otro. No se admiten transferencias “uno a varios” o “varios a uno”.
+   >Solo puede realizar una transferencia de 1:1, de un usuario a otro. No se admiten transferencias “uno a varios” o “varios a uno”.
 
 
 1. Después de seleccionar un usuario, la opción Transferir recursos aparece en la parte inferior de la pantalla.

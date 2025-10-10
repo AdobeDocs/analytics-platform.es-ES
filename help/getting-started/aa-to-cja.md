@@ -1,5 +1,5 @@
 ---
-title: Evolución Desde Adobe Analytics
+title: Evolución desde Adobe Analytics
 description: Pasos para transformar datos de Adobe Analytics en datos de Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
@@ -8,7 +8,7 @@ exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 4dcf9ab808475cc3cc48cab4c076b6c3cfb66f8a
 workflow-type: tm+mt
 source-wordcount: '1075'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Algunos ejemplos de identidades pueden ser un ID de cliente, un ID de cuenta o u
 * El ID no contiene PII. Aplique la función resumen a cualquier cosa que pueda ser confidencial.
 * El ID utiliza el mismo formato en todas las fuentes (la misma longitud, el mismo método de función resumen, etc.)
 
-En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede usar [Análisis en canales múltiples (también conocido como Vinculación)](/help/stitching/overview.md) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica).
+En conjuntos de datos como Adobe Analytics, es posible que no exista una identidad en cada fila de datos, pero sí una identidad secundaria. En este caso, se puede utilizar [análisis en canales múltiples (también conocido como vinculación)](/help/stitching/overview.md) para reducir el espacio entre filas cuando un cliente solo se identifica mediante su ECID y cuando se recopila una identidad (por ejemplo, cuando un cliente se autentica).
 
 ### Alinee las variables
 
@@ -52,7 +52,7 @@ La configuración tradicional del canal de marketing de Adobe Analytics no funci
 
 * El carácter de tiempo del informe de Customer Journey Analytics
 
-Adobe ha publicado [prácticas recomendadas actualizadas para la implementación de canales de marketing](https://experienceleague.adobe.com/es/docs/analytics/components/marketing-channels/mchannel-best-practices). Estas recomendaciones actualizadas le ayudan a sacar el máximo partido a las funciones que ya están disponibles en Adobe Analytics con funciones de atribución avanzadas. Las recomendaciones también le preparan para tener éxito al realizar la transición a Customer Journey Analytics.
+Adobe ha publicado [prácticas recomendadas actualizadas para la implementación de canales de marketing](https://experienceleague.adobe.com/es/docs/analytics/components/marketing-channels/mchannel-best-practices). Estas recomendaciones actualizadas le ayudan a sacar el máximo partido a las funciones que ya están disponibles en Adobe Analytics con las características de atribución. Las recomendaciones también le prepararán para tener éxito al realizar la transición a Customer Journey Analytics.
 
 Con la introducción de los [Campos derivados](../data-views/derived-fields/derived-fields.md) como parte de las vistas de datos de Customer Journey Analytics, los canales de marketing también son compatibles de forma inofensiva y retroactiva mediante la [plantilla de función de canal de marketing](../data-views/derived-fields/derived-fields.md#function-templates).
 
@@ -66,7 +66,7 @@ Los informes de Adobe Analytics dependen de una cantidad significativa de datos 
 
 [!UICONTROL Procesamiento de intervalo de tiempo] abre la capacidad de aplicar configuraciones retroactivas y crear varias versiones de persistencia de variables sin necesidad de cambiar la forma en que se recopilan los datos subyacentes.
 
-Este cambio presenta algunas diferencias en la forma en que se crean los informes de los datos, especialmente en el caso de las variables que pueden tener un período de caducidad largo. Puede empezar evaluando cómo puede afectar el procesamiento del tiempo de los informes a su creación con un [grupo de informes virtuales](https://experienceleague.adobe.com/es/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
+Este cambio produce algunas diferencias en la forma en que se crean los informes de los datos, especialmente para cualquier variable que pueda tener un período de caducidad largo. Puede empezar evaluando cómo puede afectar el procesamiento del tiempo de los informes a su creación con un [grupo de informes virtuales](https://experienceleague.adobe.com/es/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
 
 ### Identificación de segmentos críticos y métricas calculadas {#segments-calcmetrics}
 
@@ -78,11 +78,11 @@ Para que el cambio sea lo más fluido posible para los usuarios cuando realicen 
 
 2. Documente sus definiciones, e
 
-3. Identifique qué campos son necesarios en los datos para replicarlos en Customer Journey Analytics como [Segmentos](/help/components/segments/seg-overview.md) y [Métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md).
+3. Identifique qué campos serán necesarios en los datos para replicarlos en Customer Journey Analytics como [Segmentos](/help/components/segments/seg-overview.md) y [Métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md).
 
 Aquí hay un par de vídeos para guiarle:
 
-* [Paso de segmentos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=es)
+* [Paso de segmentos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
 
 * [Paso de métricas calculadas de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
 
@@ -90,7 +90,7 @@ Aquí hay un par de vídeos para guiarle:
 
 * Con el poder de las vistas de datos de Customer Journey Analytics, tiene mucha más flexibilidad en la definición de métricas y dimensiones dentro de Customer Journey Analytics. Por ejemplo, puede utilizar el valor de una dimensión para convertirlo en la definición de una métrica. [Más información](/help/use-cases/data-views/data-views-usecases.md)
 
-* Si ha definido un calendario personalizado en Adobe Analytics, tiene [funciones de calendario personalizadas](/help/components/date-ranges/overview.md) similares en Customer Journey Analytics. Debe asegurarse de que el calendario esté definido correctamente.
+* Si ha definido un calendario personalizado en Adobe Analytics, tendrá [funciones de calendario personalizadas](/help/components/date-ranges/overview.md) similares dentro de Customer Journey Analytics. Debe asegurarse de que el calendario esté definido correctamente.
 
 * En Customer Journey Analytics, puede definir un tiempo de espera de sesión personalizado, así como una métrica que iniciará una nueva sesión. Puede crear vistas de datos con distintas definiciones de sesión para obtener perspectivas que vayan más allá de las posibles en Adobe Analytics. Esta capacidad puede ser especialmente beneficiosa para los conjuntos de datos móviles.
 

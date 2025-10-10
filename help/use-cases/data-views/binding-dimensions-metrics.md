@@ -440,4 +440,4 @@ Sin embargo, si se enlaza `product_finding_method` a la métrica Adiciones al ca
 
 >[!MORELIKETHIS]
 >
->[Dimensiones de enlace en las vistas de datos](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=es) tutorial.
+>[Dimensiones de enlace en las vistas de datos](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html) tutorial.

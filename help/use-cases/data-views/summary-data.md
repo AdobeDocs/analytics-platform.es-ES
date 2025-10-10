@@ -7,7 +7,7 @@ role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '5202'
+source-wordcount: '5021'
 ht-degree: 15%
 
 ---
@@ -69,185 +69,185 @@ Los datos de evento están disponibles en el Ejemplo de conjunto de datos de eve
 
 | timestamp | _id | page_name | person_id | tracking_code | pedidos | revenue_amount |
 |---|---:|---|---|---|---:|---:|
-| 18-07-202419:15:39+00:00 | 1 | página de inicio | person-1abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 2 | página de confirmación | person-1abc123 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 3 | página de inicio | person-2def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 4 | página de inicio | person-3ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 5 | página de confirmación | person-3ghi123 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 6 | página de inicio | person-4abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 7 | página de inicio | person-5def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 8 | página de inicio | person-6ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 9 | página de confirmación | person-6ghi456 |  | 1 | 159,25 |
-| 18-07-202419:15:39+00:00 | 10 | página de inicio | person-7abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 11 | página de inicio | person-8def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 12 | página de inicio | person-9ghi789 | ghi789 |  |  |
-| 18-07-202419:15:39+00:00 | 13 | página de confirmación | person-9ghi789 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 14 | página de inicio | person-10abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 15 | página de inicio | person-11def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 16 | página de inicio | person-12ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 17 | página de inicio | person-13abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 18 | página de inicio | person-14def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 19 | página de inicio | person-15ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 20 | página de confirmación | person-15ghi654 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 21 | página de inicio | person-16abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 22 | página de inicio | person-17def321 | def321 |  |  |
-| 18-07-202419:15:39+00:00 | 23 | página de inicio | person-18ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 24 | página de inicio | person-19abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 25 | página de inicio | person-20def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 26 | página de inicio | person-21ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 27 | página de confirmación | person-21ghi123 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 28 | página de inicio | person-22abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 29 | página de inicio | person-23def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 30 | página de inicio | person-24ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 31 | página de inicio | person-25abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 32 | página de confirmación | person-25abc789 |  | 1 | 139,25 |
-| 18-07-202419:15:39+00:00 | 33 | página de inicio | person-26abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 34 | página de inicio | person-27def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 35 | página de inicio | person-28ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 36 | página de inicio | person-29abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 37 | página de confirmación | person-29abc654 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 38 | página de inicio | person-30def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 39 | página de inicio | person-31ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 40 | página de inicio | person-32abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 41 | página de inicio | person-33ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 42 | página de confirmación | person-33ghi456 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 43 | página de inicio | person-34abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 44 | página de inicio | person-35def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 45 | página de inicio | person-36ghi789 | ghi789 |  |  |
-| 18-07-202419:15:39+00:00 | 46 | página de confirmación | person-36ghi789 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 47 | página de inicio | person-37abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 48 | página de inicio | person-38def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 49 | página de inicio | person-39ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 50 | página de inicio | person-40abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 51 | página de confirmación | person-40abc654 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 52 | página de inicio | person-41def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 53 | página de inicio | person-42ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 54 | página de inicio | person-43abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 55 | página de inicio | person-44def321 | def321 |  |  |
-| 18-07-202419:15:39+00:00 | 56 | página de inicio | person-45ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 57 | página de inicio | person-46abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 58 | página de confirmación | person-46abc123 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 59 | página de inicio | person-47def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 60 | página de inicio | persona-48ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 61 | página de inicio | person-49abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 62 | página de inicio | person-50def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 63 | página de inicio | person-51ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 64 | página de inicio | person-52abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 65 | página de confirmación | person-52abc789 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 66 | página de inicio | person-53abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 67 | página de inicio | person-54def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 68 | página de inicio | person-55ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 69 | página de confirmación | person-55ghi987 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 70 | página de inicio | person-56abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 71 | página de inicio | person-57def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 72 | página de confirmación | person-57def123 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 73 | página de inicio | persona-58ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 74 | página de inicio | person-59abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 75 | página de confirmación | person-59abc456 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 76 | página de inicio | person-60def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 77 | página de inicio | person-61ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 78 | página de inicio | person-62abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 79 | página de confirmación | person-62abc789 |  | 1 | 159,25 |
-| 18-07-202419:15:39+00:00 | 80 | página de inicio | person-63def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 81 | página de inicio | person-64ghi789 | ghi789 |  |  |
-| 18-07-202419:15:39+00:00 | 82 | página de inicio | person-65abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 83 | página de confirmación | person-65abc987 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 84 | página de inicio | person-66def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 85 | página de inicio | person-67ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 86 | página de inicio | person-68abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 87 | página de inicio | person-69def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 88 | página de inicio | person-70ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 89 | página de inicio | person-71abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 90 | página de confirmación | person-71abc321 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 91 | página de inicio | person-72def321 | def321 |  |  |
-| 18-07-202419:15:39+00:00 | 92 | página de inicio | person-73ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 93 | página de inicio | person-74abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 94 | página de inicio | person-75def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 95 | página de inicio | persona-76ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 96 | página de inicio | person-77abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 97 | página de confirmación | person-77abc456 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 98 | página de inicio | person-78def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 99 | página de inicio | person-79ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 100 | página de inicio | person-80abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 101 | página de inicio | person-81abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 102 | página de confirmación | person-81abc987 |  | 1 | 139,25 |
-| 18-07-202419:15:39+00:00 | 103 | página de inicio | person-82def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 104 | página de inicio | person-83ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 105 | página de inicio | person-84abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 106 | página de inicio | person-85def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 107 | página de confirmación | person-85def654 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 108 | página de inicio | person-86ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 109 | página de inicio | person-87abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 110 | página de inicio | person-88ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 111 | página de inicio | person-89abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 112 | página de confirmación | person-89abc789 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 113 | página de inicio | person-90def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 114 | página de inicio | person-91ghi789 | ghi789 |  |  |
-| 18-07-202419:15:39+00:00 | 115 | página de inicio | person-92abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 116 | página de confirmación | person-92abc987 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 117 | página de inicio | person-93def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 118 | página de inicio | person-94ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 119 | página de inicio | person-95abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 120 | página de inicio | person-96def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 121 | página de confirmación | person-96def654 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 122 | página de inicio | person-97ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 123 | página de inicio | person-98abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 124 | página de inicio | person-99def321 | def321 |  |  |
-| 18-07-202419:15:39+00:00 | 125 | página de inicio | persona-100ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 126 | página de inicio | person-101abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 127 | página de inicio | person-102def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 128 | página de confirmación | person-102def123 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 129 | página de inicio | persona-103ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 130 | página de inicio | person-104abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 131 | página de inicio | person-105def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 132 | página de inicio | persona-106ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 133 | página de inicio | person-107abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 134 | página de inicio | person-108abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 135 | página de confirmación | person-108abc987 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 136 | página de inicio | person-109def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 137 | página de inicio | person-110ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 138 | página de confirmación | person-110ghi987 |  |  |  |
-| 18-07-202419:15:39+00:00 | 139 | página de inicio | person-111def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 140 | página de inicio | person-112def987 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 141 | página de confirmación | person-112def987 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 142 | página de inicio | person-113ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 143 | página de inicio | person-114abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 144 | página de inicio | person-115def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 145 | página de confirmación | person-115def654 |  | 1 | 159,25 |
-| 18-07-202419:15:39+00:00 | 146 | página de inicio | person-116ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 147 | página de inicio | person-117abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 148 | página de inicio | person-118def321 | def321 |  |  |
-| 18-07-202419:15:39+00:00 | 149 | página de confirmación | person-118def321 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 150 | página de inicio | person-119ghi321 | ghi321 |  |  |
-| 18-07-202419:15:39+00:00 | 151 | página de inicio | person-120abc123 | abc123 |  |  |
-| 18-07-202419:15:39+00:00 | 152 | página de inicio | person-121def123 | def123 |  |  |
-| 18-07-202419:15:39+00:00 | 153 | página de inicio | person-122ghi123 | ghi123 |  |  |
-| 18-07-202419:15:39+00:00 | 154 | página de inicio | person-123abc456 | abc456 |  |  |
-| 18-07-202419:15:39+00:00 | 155 | página de inicio | person-124def456 | def456 |  |  |
-| 18-07-202419:15:39+00:00 | 156 | página de confirmación | person-124def456 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 157 | página de inicio | person-125ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 158 | página de inicio | person-126abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 159 | página de inicio | person-127abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 160 | página de inicio | person-128def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 161 | página de inicio | person-129ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 162 | página de inicio | person-130abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 163 | página de confirmación | person-130abc654 |  | 1 | 149,25 |
-| 18-07-202419:15:39+00:00 | 164 | página de inicio | person-131def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 165 | página de inicio | person-132ghi654 | ghi654 |  |  |
-| 18-07-202419:15:39+00:00 | 166 | página de inicio | person-133abc321 | abc321 |  |  |
-| 18-07-202419:15:39+00:00 | 167 | página de inicio | person-134ghi456 | ghi456 |  |  |
-| 18-07-202419:15:39+00:00 | 168 | página de confirmación | person-134ghi456 |  | 1 | 139,25 |
-| 18-07-202419:15:39+00:00 | 169 | página de inicio | person-135abc789 | abc789 |  |  |
-| 18-07-202419:15:39+00:00 | 170 | página de inicio | person-136def789 | def789 |  |  |
-| 18-07-202419:15:39+00:00 | 171 | página de inicio | person-137ghi789 | ghi789 |  |  |
-| 18-07-202419:15:39+00:00 | 172 | página de inicio | person-138abc987 | abc987 |  |  |
-| 18-07-202419:15:39+00:00 | 173 | página de confirmación | person-138abc987 |  | 1 | 124,25 |
-| 18-07-202419:15:39+00:00 | 174 | página de inicio | person-139def987 | def987 |  |  |
-| 18-07-202419:15:39+00:00 | 175 | página de inicio | person-140ghi987 | ghi987 |  |  |
-| 18-07-202419:15:39+00:00 | 176 | página de inicio | person-141abc654 | abc654 |  |  |
-| 18-07-202419:15:39+00:00 | 177 | página de inicio | person-142def654 | def654 |  |  |
-| 18-07-202419:15:39+00:00 | 178 | página de confirmación | person-142def654 |  | 1 | 174,25 |
-| 18-07-202419:15:39+00:00 | 179 | página de inicio | person-143ghi654 | ghi654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 1 | página de inicio | person-1abc123 | abc123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 2 | página de confirmación | person-1abc123 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 3 | página de inicio | person-2def123 | def123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 4 | página de inicio | person-3ghi123 | ghi123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 5 | página de confirmación | person-3ghi123 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 6 | página de inicio | person-4abc456 | abc456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 7 | página de inicio | person-5def456 | def456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 8 | página de inicio | person-6ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 9 | página de confirmación | person-6ghi456 |  | 1 | 159,25 |
+| 18-07-2024-19:15:39+00:00 | 10 | página de inicio | person-7abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 11 | página de inicio | person-8def789 | def789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 12 | página de inicio | person-9ghi789 | ghi789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 13 | página de confirmación | person-9ghi789 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 14 | página de inicio | person-10abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 15 | página de inicio | person-11def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 16 | página de inicio | person-12ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 17 | página de inicio | person-13abc654 | abc654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 18 | página de inicio | person-14def654 | def654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 19 | página de inicio | person-15ghi654 | ghi654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 20 | página de confirmación | person-15ghi654 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 21 | página de inicio | person-16abc321 | abc321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 22 | página de inicio | person-17def321 | def321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 23 | página de inicio | person-18ghi321 | ghi321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 24 | página de inicio | person-19abc123 | abc123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 25 | página de inicio | person-20def123 | def123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 26 | página de inicio | person-21ghi123 | ghi123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 27 | página de confirmación | person-21ghi123 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 28 | página de inicio | person-22abc456 | abc456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 29 | página de inicio | person-23def456 | def456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 30 | página de inicio | person-24ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 31 | página de inicio | person-25abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 32 | página de confirmación | person-25abc789 |  | 1 | 139,25 |
+| 18-07-2024-19:15:39+00:00 | 33 | página de inicio | person-26abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 34 | página de inicio | person-27def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 35 | página de inicio | person-28ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 36 | página de inicio | person-29abc654 | abc654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 37 | página de confirmación | person-29abc654 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 38 | página de inicio | person-30def654 | def654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 39 | página de inicio | person-31ghi654 | ghi654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 40 | página de inicio | person-32abc321 | abc321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 41 | página de inicio | person-33ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 42 | página de confirmación | person-33ghi456 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 43 | página de inicio | person-34abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 44 | página de inicio | person-35def789 | def789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 45 | página de inicio | person-36ghi789 | ghi789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 46 | página de confirmación | person-36ghi789 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 47 | página de inicio | person-37abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 48 | página de inicio | person-38def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 49 | página de inicio | person-39ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 50 | página de inicio | person-40abc654 | abc654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 51 | página de confirmación | person-40abc654 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 52 | página de inicio | person-41def654 | def654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 53 | página de inicio | person-42ghi654 | ghi654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 54 | página de inicio | person-43abc321 | abc321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 55 | página de inicio | person-44def321 | def321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 56 | página de inicio | person-45ghi321 | ghi321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 57 | página de inicio | person-46abc123 | abc123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 58 | página de confirmación | person-46abc123 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 59 | página de inicio | person-47def123 | def123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 60 | página de inicio | persona-48ghi123 | ghi123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 61 | página de inicio | person-49abc456 | abc456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 62 | página de inicio | person-50def456 | def456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 63 | página de inicio | person-51ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 64 | página de inicio | person-52abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 65 | página de confirmación | person-52abc789 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 66 | página de inicio | person-53abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 67 | página de inicio | person-54def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 68 | página de inicio | person-55ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 69 | página de confirmación | person-55ghi987 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 70 | página de inicio | person-56abc123 | abc123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 71 | página de inicio | person-57def123 | def123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 72 | página de confirmación | person-57def123 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 73 | página de inicio | persona-58ghi123 | ghi123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 74 | página de inicio | person-59abc456 | abc456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 75 | página de confirmación | person-59abc456 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 76 | página de inicio | person-60def456 | def456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 77 | página de inicio | person-61ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 78 | página de inicio | person-62abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 79 | página de confirmación | person-62abc789 |  | 1 | 159,25 |
+| 18-07-2024-19:15:39+00:00 | 80 | página de inicio | person-63def789 | def789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 81 | página de inicio | person-64ghi789 | ghi789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 82 | página de inicio | person-65abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 83 | página de confirmación | person-65abc987 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 84 | página de inicio | person-66def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 85 | página de inicio | person-67ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 86 | página de inicio | person-68abc654 | abc654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 87 | página de inicio | person-69def654 | def654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 88 | página de inicio | person-70ghi654 | ghi654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 89 | página de inicio | person-71abc321 | abc321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 90 | página de confirmación | person-71abc321 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 91 | página de inicio | person-72def321 | def321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 92 | página de inicio | person-73ghi321 | ghi321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 93 | página de inicio | person-74abc123 | abc123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 94 | página de inicio | person-75def123 | def123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 95 | página de inicio | persona-76ghi123 | ghi123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 96 | página de inicio | person-77abc456 | abc456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 97 | página de confirmación | person-77abc456 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 98 | página de inicio | person-78def456 | def456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 99 | página de inicio | person-79ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 100 | página de inicio | person-80abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 101 | página de inicio | person-81abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 102 | página de confirmación | person-81abc987 |  | 1 | 139,25 |
+| 18-07-2024-19:15:39+00:00 | 103 | página de inicio | person-82def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 104 | página de inicio | person-83ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 105 | página de inicio | person-84abc654 | abc654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 106 | página de inicio | person-85def654 | def654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 107 | página de confirmación | person-85def654 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 108 | página de inicio | person-86ghi654 | ghi654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 109 | página de inicio | person-87abc321 | abc321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 110 | página de inicio | person-88ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 111 | página de inicio | person-89abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 112 | página de confirmación | person-89abc789 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 113 | página de inicio | person-90def789 | def789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 114 | página de inicio | person-91ghi789 | ghi789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 115 | página de inicio | person-92abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 116 | página de confirmación | person-92abc987 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 117 | página de inicio | person-93def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 118 | página de inicio | person-94ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 119 | página de inicio | person-95abc654 | abc654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 120 | página de inicio | person-96def654 | def654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 121 | página de confirmación | person-96def654 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 122 | página de inicio | person-97ghi654 | ghi654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 123 | página de inicio | person-98abc321 | abc321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 124 | página de inicio | person-99def321 | def321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 125 | página de inicio | persona-100ghi321 | ghi321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 126 | página de inicio | person-101abc123 | abc123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 127 | página de inicio | person-102def123 | def123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 128 | página de confirmación | person-102def123 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 129 | página de inicio | persona-103ghi123 | ghi123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 130 | página de inicio | person-104abc456 | abc456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 131 | página de inicio | person-105def456 | def456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 132 | página de inicio | persona-106ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 133 | página de inicio | person-107abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 134 | página de inicio | person-108abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 135 | página de confirmación | person-108abc987 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 136 | página de inicio | person-109def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 137 | página de inicio | person-110ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 138 | página de confirmación | person-110ghi987 |  |  |  |
+| 18-07-2024-19:15:39+00:00 | 139 | página de inicio | person-111def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 140 | página de inicio | person-112def987 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 141 | página de confirmación | person-112def987 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 142 | página de inicio | person-113ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 143 | página de inicio | person-114abc654 | abc654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 144 | página de inicio | person-115def654 | def654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 145 | página de confirmación | person-115def654 |  | 1 | 159,25 |
+| 18-07-2024-19:15:39+00:00 | 146 | página de inicio | person-116ghi654 | ghi654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 147 | página de inicio | person-117abc321 | abc321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 148 | página de inicio | person-118def321 | def321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 149 | página de confirmación | person-118def321 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 150 | página de inicio | person-119ghi321 | ghi321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 151 | página de inicio | person-120abc123 | abc123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 152 | página de inicio | person-121def123 | def123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 153 | página de inicio | person-122ghi123 | ghi123 |  |  |
+| 18-07-2024-19:15:39+00:00 | 154 | página de inicio | person-123abc456 | abc456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 155 | página de inicio | person-124def456 | def456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 156 | página de confirmación | person-124def456 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 157 | página de inicio | person-125ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 158 | página de inicio | person-126abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 159 | página de inicio | person-127abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 160 | página de inicio | person-128def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 161 | página de inicio | person-129ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 162 | página de inicio | person-130abc654 | abc654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 163 | página de confirmación | person-130abc654 |  | 1 | 149,25 |
+| 18-07-2024-19:15:39+00:00 | 164 | página de inicio | person-131def654 | def654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 165 | página de inicio | person-132ghi654 | ghi654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 166 | página de inicio | person-133abc321 | abc321 |  |  |
+| 18-07-2024-19:15:39+00:00 | 167 | página de inicio | person-134ghi456 | ghi456 |  |  |
+| 18-07-2024-19:15:39+00:00 | 168 | página de confirmación | person-134ghi456 |  | 1 | 139,25 |
+| 18-07-2024-19:15:39+00:00 | 169 | página de inicio | person-135abc789 | abc789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 170 | página de inicio | person-136def789 | def789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 171 | página de inicio | person-137ghi789 | ghi789 |  |  |
+| 18-07-2024-19:15:39+00:00 | 172 | página de inicio | person-138abc987 | abc987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 173 | página de confirmación | person-138abc987 |  | 1 | 124,25 |
+| 18-07-2024-19:15:39+00:00 | 174 | página de inicio | person-139def987 | def987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 175 | página de inicio | person-140ghi987 | ghi987 |  |  |
+| 18-07-2024-19:15:39+00:00 | 176 | página de inicio | person-141abc654 | abc654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 177 | página de inicio | person-142def654 | def654 |  |  |
+| 18-07-2024-19:15:39+00:00 | 178 | página de confirmación | person-142def654 |  | 1 | 174,25 |
+| 18-07-2024-19:15:39+00:00 | 179 | página de inicio | person-143ghi654 | ghi654 |  |  |
 
 [![DataDownload](/help/assets/icons/DataDownload.svg)](./assets/event-data.csv)
 
@@ -278,7 +278,7 @@ Los datos de búsqueda están disponibles en el Ejemplo de conjunto de datos de 
 | 17 | def321 | def-adgroup | Campaña 321 |
 | 18 | ghi321 | ghi-adgroup | Campaña 321 |
 
-[![DataDownload](/help/assets/icons/DataDownload.svg) descargar datos de búsqueda de muestra](./assets/lookup-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg)](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -526,7 +526,7 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
             1. Seleccione **[!UICONTROL 30 día]** del menú desplegable de la **[!UICONTROL ventana retrospectiva]**.
          1. Desplegar ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Formato]**.
             1. Seleccione **[!UICONTROL Decimal]** del menú desplegable **[!UICONTROL Formato]**.
-            1. Seleccione **[!UICONTROL ▲ buena (verde)]** del menú desplegable **[!UICONTROL Mostrar tendencia ascendente como]**.
+            1. Seleccione **[!UICONTROL ▲Bueno (verde)]** del menú desplegable **[!UICONTROL Mostrar tendencia ascendente como]**.
 
       1. Seleccione **[!UICONTROL Guardar y continuar]**.
 
@@ -603,4 +603,4 @@ El proyecto final debería ser similar al que se muestra a continuación.
 >[!MORELIKETHIS]
 >
 >[Datos de resumen](/help/data-views/summary-data.md)
->[Configuración del componente del grupo de datos de resumen ](/help/data-views/component-settings/summary-data-group.md)
+>>[Configuración del componente del grupo de datos de resumen ](/help/data-views/component-settings/summary-data-group.md)

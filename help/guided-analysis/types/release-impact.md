@@ -6,7 +6,7 @@ keywords: Product Analytics
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 El análisis del ![Versión](/help/assets/icons/Release.svg) **[!UICONTROL Impacto de la versión]** muestra una comparación del rendimiento de los indicadores clave antes y después de una fecha determinada. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en el centro del gráfico representa la fecha que desea comparar antes y después. Esta fecha suele representar un cambio notable en el producto que desea medir, como una actualización del producto o el lanzamiento de una campaña.
 
->[!VIDEO](https://video.tv.adobe.com/v/3423454/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3421665/?quality=12&learn=on)
 
 ## Casos prácticos
 
@@ -38,7 +38,7 @@ Los casos de uso de este análisis incluyen:
 
 ## Interfaz
 
-Consulte [Interfaz](../overview.md#interface) para obtener una descripción general de la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
+Consulte [Interfaz](../overview.md#interface) para obtener información general sobre la interfaz de análisis guiado. Las siguientes configuraciones son específicas de este análisis:
 
 ### Carril de consulta
 

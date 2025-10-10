@@ -33,13 +33,13 @@ Para informar sobre los datos de Marketo Engage en Customer Journey Analytics:
 
 +++ &#x200B;1. Asigne campos de datos de origen de Marketo a sus destinos XDM
 
-Asigne los objetos [Personas](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
+Asigne los objetos [Personas](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
 
 +++
 
 +++ &#x200B;2. Ingresar datos de Marketo en Adobe Experience Platform
 
-Utilice el [conector de Marketo Engage](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
+Utilice el [conector de Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
 
 +++
 
@@ -54,7 +54,7 @@ Para informar sobre conjuntos de datos de Experience Platform, primero debe esta
 
 Una [vista de datos ](/help/data-views/data-views.md)es un contenedor específico de Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión. Especifica todas las dimensiones y métricas disponibles en Analysis Workspace; en este caso, métricas y dimensiones específicas de Marketo. También especifica de qué columnas obtienen los datos esas dimensiones y métricas. Las vistas de datos se definen a fin de prepararse para la creación de informes en Analysis Workspace.
 
-+++
++++ 
 
 +++ &#x200B;5. Crear informes en Analysis Workspace
 
@@ -88,7 +88,7 @@ La siguiente comparación entre los informes de Customer Journey Analytics y Mar
 
 Customer Journey Analytics es una herramienta de análisis avanzada en canales múltiples creada en Adobe Experience Platform. Customer Journey Analytics está diseñado para equipos empresariales que necesitan sistemas de informes potentes, flexibles y personalizables en fuentes de datos digitales y sin conexión.
 
-#### Capacidades clave
+#### Funcionalidades clave
 
 * **Fuentes de datos**: Pueden combinar varios conjuntos de datos (web, CRM, correo electrónico, centro de llamadas, sin conexión, Marketo, etc.) para generar informes de recorrido del cliente a 360°.
 * **Análisis de autoservicio**: arrastre y suelte el espacio de trabajo con paneles y visualizaciones altamente interactivos y personalizables.
@@ -109,13 +109,13 @@ Customer Journey Analytics es una herramienta de análisis avanzada en canales m
 
 Marketo Engage ofrece informes en la aplicación centrados en los KPI de automatización de marketing, la medición de programas y campañas y los análisis de impacto de marketing. Todos estos informes están directamente vinculados a la actividad dentro de Marketo.
 
-#### Capacidades clave
+#### Funcionalidades clave
 
 * **Análisis de marketing nativo**: Informes estándar para correo electrónico, páginas de aterrizaje, campañas, posibles clientes, oportunidades, canalización y atribución de ingresos (primer, último, multitoque).
 * **Análisis avanzados de BI (complemento)**: arrastre y suelte el Report Builder personalizado, señale y haga clic para analizar los datos de programas, cuentas o posibles clientes (consulte la Información general reciente de análisis avanzados de BI Analytics).
 * **Paneles creados previamente**: Para el rendimiento de la campaña, la eficacia del canal y la contribución de canalización/ingresos.
 * **Análisis de programas y canales**: Atribución y ROI específicos de los recorridos administrados por Marketo.
-* **Centrado en el marketing**: Se centra en los usuarios que necesitan transparencia en el canal de marketing: estadísticas de correo electrónico, formularios, campañas inteligentes e impacto en los ingresos.
+* **Centrado en el marketing**: Se centra en los usuarios que necesitan transparencia en el funnel de marketing: estadísticas de correo electrónico, formularios, campañas inteligentes e impacto en los ingresos.
 
 
 #### Casos de uso habituales de Marketo Engage

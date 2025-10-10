@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Para crear un esquema personalizado:
 
       >[!INFO]
       >
-      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los atributos del perfil (como nombre, correo electrónico o género).__
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
@@ -140,7 +140,7 @@ Para crear un esquema personalizado:
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
-1. Seleccione el campo **[!UICONTROL ECID]** en el objeto de identificación que acaba de agregar y seleccione **[!UICONTROL Identidad]**, **[!UICONTROL Identidad principal]** y **[!UICONTROL ECID]** en la lista de [!UICONTROL Área de nombres de identidad] en el panel derecho.
+1. Seleccione el campo **[!UICONTROL ECID]** en el objeto de identificación que acaba de agregar y seleccione **[!UICONTROL Identidad]**, **[!UICONTROL Identidad principal]** y **[!UICONTROL ECID]** en la lista de [!UICONTROL Espacio de nombres de identidad] en el panel derecho.
 
    ![Especificar ECID como identidad](./assets/specify-identity.png)
 
@@ -148,7 +148,7 @@ Para crear un esquema personalizado:
 
    Seleccione **[!UICONTROL Aplicar]**. Verá que aparece un icono de huella digital en el atributo de ECID.
 
-1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en la lista de [!UICONTROL Área de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
+1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en la lista de [!UICONTROL Espacio de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
 
    ![Especificar el correo electrónico como identidad](./assets/specify-email-identity.png)
 

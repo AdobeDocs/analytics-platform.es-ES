@@ -8,15 +8,15 @@ hide: true
 hidefromtoc: true
 exl-id: 1d17151b-3a12-468e-9a4f-9e5994599570
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Paso 4: Conservar los datos históricos al actualizar
 
-+++Expanda esta sección para ver dónde se integra la información de esta página en el proceso de actualización más amplio. Asegúrese de que se han completado todos los pasos de actualización anteriores.
++++Expanda esta sección para ver dónde encaja la información de esta página en el proceso de actualización más amplio. Asegúrese de que se han completado todos los pasos de actualización anteriores.
 
 Antes de continuar con esta sección, primero asegúrese de haber completado todas las tareas de actualización anteriores.
 

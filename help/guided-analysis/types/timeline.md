@@ -6,7 +6,7 @@ keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -29,12 +29,12 @@ El análisis de ![Cronología](/help/assets/icons/Timeline.svg) **[!UICONTROL Cr
 >[!NOTE]
 >
 >El análisis de [!UICONTROL Cronología] requiere que el componente estándar **[!UICONTROL ID de persona]** esté disponible en la [vista de datos](/help/data-views/component-reference.md#optional). El administrador de Customer Journey Analytics administra la inclusión del ID de persona en una vista de datos, lo que proporciona a su organización un control completo de la privacidad sobre quién puede acceder a estos datos.
-><br/>Si una vista de datos no tiene añadido el componente [!UICONTROL ID de persona], se mostrará el siguiente mensaje:
+>><br/>Si una vista de datos no tiene añadido el componente [!UICONTROL ID de persona], se mostrará el siguiente mensaje:
 >
 >* **Administradores**: *la propiedad PersonID es necesaria para este análisis. Añada el ID de persona a la vista de datos.*
 >* **No administradores**: *la propiedad PersonID es necesaria para este análisis. Póngase en contacto con el administrador de Customer Journey Analytics para añadir el ID de persona a la vista de datos.*
 
->[!VIDEO](https://video.tv.adobe.com/v/3435770/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3427810/?quality=12&learn=on)
 
 
 

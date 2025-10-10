@@ -1,13 +1,13 @@
 ---
 description: Utilice el calendario y los intervalos de fechas para especificar intervalos de fechas en Analysis Workspace.
-title: Resumen de intervalos de fechas
+title: Información general sobre los intervalos de fechas
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Los componentes de intervalo de fechas le permiten definir y anular la configura
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/327349?format=jpeg&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++
@@ -47,8 +47,8 @@ O bien, puede utilizar un intervalo de fechas en una tabla de forma libre como u
 Use un intervalo de fechas como lo [haría con cualquier componente](/help/components/overview.md#analysis-workspace-components). Arrastre el intervalo de fechas desde el panel de componente ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalos de fechas]** y suelte el componente en:
 
 - **[!UICONTROL Calendario]**: ![Cambiar](/help/assets/icons/Switch.svg) **[!UICONTROL Sustituya]** la configuración actual del calendario por el intervalo de fechas.
-- **Encabezado de la columna de métrica**:![Cambiar](/help/assets/icons/Switch.svg) **[!UICONTROL Sustituya]** la métrica, ![Añadir](/help/assets/icons/Add.svg)**[!UICONTROL Añada &#x200B;]**&#x200B;el intervalo de fechas como métrica o ![Filtrar](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B; Filtre &#x200B;]**&#x200B;la métrica mediante el componente de intervalo de fechas.
-- **Encabezado de la columna de Dimension**: ![Cambiar](/help/assets/icons/Switch.svg) **[!UICONTROL Reemplace]** las dimensiones actuales. La nueva dimensión ahora es **[!UICONTROL Intervalos de fechas]**. Cuando la dimensión sea Intervalos de fechas, podrá ![Añadir](/help/assets/icons/Add.svg)**[!UICONTROL Añadir &#x200B;]**&#x200B;intervalos de fechas adicionales como elementos de dimensión.
+- **Encabezado de la columna de métrica**:![Cambiar](/help/assets/icons/Switch.svg) **[!UICONTROL Sustituya]** la métrica, ![Añadir](/help/assets/icons/Add.svg)**[!UICONTROL Añada ]**el intervalo de fechas como métrica o ![Filtrar](/help/assets/icons/Filter.svg)**[!UICONTROL  Filtre ]**la métrica mediante el componente de intervalo de fechas.
+- **Encabezado de la columna de Dimension**: ![Cambiar](/help/assets/icons/Switch.svg) **[!UICONTROL Reemplace]** las dimensiones actuales. La nueva dimensión ahora es **[!UICONTROL Intervalos de fechas]**. Cuando la dimensión sea Intervalos de fechas, podrá ![Añadir](/help/assets/icons/Add.svg)**[!UICONTROL Añadir ]**intervalos de fechas adicionales como elementos de dimensión.
 - **Elemento de dimensión**: Realice un ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** del elemento de dimensión específico por el intervalo de fechas.
 
 También puede añadir una columna de intervalo de fechas directamente en una visualización de tabla de forma libre:

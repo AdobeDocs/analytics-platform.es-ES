@@ -1,18 +1,18 @@
 ---
-title: Configuración del análisis de contenido
-description: Información general sobre cómo configurar el análisis de contenido
+title: Configuración de Content Analytics
+description: Información general sobre cómo configurar Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
 source-git-commit: f149a2bd7f184f4e8f6e67979649e2d9f609d603
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 100%
 
 ---
 
-# Configuración del análisis de contenido
+# Configuración de Content Analytics
 
 Este artículo describe, en un nivel superior, cómo configurar Content Analytics.
 
@@ -36,10 +36,10 @@ Pasos de alto nivel
 
 Antes de configurar Content Analytics, asegúrese de que se cumplen los siguientes requisitos previos:
 
-* Ha incluido en la lista de permitidos el agente de usuario y la dirección IP para el servicio de caracterización que se utiliza en el análisis de contenido. La cadena del agente de usuario que se va a configurar es: <code>AdobeFeaturization/1.0</code>.
+* Ha incluido en la lista de permitidos el agente de usuario y la dirección IP para el servicio de caracterización que se utiliza en Content Analytics. La cadena del agente de usuario que se va a configurar es: <code>AdobeFeaturization/1.0</code>.
 * Si ha implementado [Web SDK mediante JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/install/library){target="_blank"} para la recopilación de datos de comportamiento normal, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> Actualice la biblioteca de JavaScript.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y para administrar vistas de datos. 
-* Si considera recopilar experiencias de análisis de contenido, asegúrese de configurar y actualizar [el control de versiones del análisis de contenido](manual.md#versioning) en función de los cambios realizados en sus páginas web.
+* Si considera recopilar experiencias de Content Analytics, asegúrese de configurar y actualizar [el control de versiones de Content Analytics](manual.md#versioning) en función de los cambios realizados en sus páginas web.
 * Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions){target="_blank"}:
    * [Permisos de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
    * [Permisos de recopilación de datos de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
@@ -56,14 +56,14 @@ Antes de configurar Content Analytics, asegúrese de que se cumplen los siguient
 
 >[!IMPORTANT]
 >
->No hay permisos de análisis de contenido que se puedan configurar para habilitar o deshabilitar el acceso de análisis de contenido para usuarios individuales o grupos de usuarios.
+>No hay permisos de Content Analytics que se puedan configurar para habilitar o deshabilitar el acceso de Content Analytics para usuarios individuales o grupos de usuarios.
 >
 
 Para que un usuario o grupo de usuarios tenga acceso a Content Analytics, debe proporcionarle acceso a una o más [vistas de datos configuradas para Content Analytics](guided.md#data-view).
 
 Este acceso implica:
 
-1. La vista de datos habilitada para el análisis de contenido se incluye como parte de los permisos de vista de datos para un perfil de producto de Customer Journey Analytics específico.
+1. La vista de datos habilitada para Content Analytics se incluye como parte de los permisos de vista de datos para un perfil de producto de Customer Journey Analytics específico.
 1. Ese perfil de producto de Customer Journey Analytics específico es uno de los perfiles de producto asignados al usuario o grupo de usuarios.
 
 ## Limitaciones

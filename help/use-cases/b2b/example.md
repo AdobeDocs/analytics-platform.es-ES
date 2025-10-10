@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de proyecto B2B
+title: Un ejemplo de proyecto B2B
 description: Obtenga información sobre cómo configurar y crear informes sobre datos B2B
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -8,15 +8,15 @@ role: User
 source-git-commit: 1bfebb53fbe056ed6320380178c8b1ce8f7079f1
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# Ejemplo de proyecto B2B basado en personas
+# Un ejemplo de proyecto B2B basado en personas
 
-Este artículo ilustra un caso de uso en el que desea informar correctamente en Customer Journey Analytics sobre los datos de persona en el contexto de una configuración B2B típica basada en personas. Dicha configuración se ve facilitada por [Real-Time CDP B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  En este caso de uso se explica cómo configurar y crear informes sobre datos B2B basados en el nivel de perfil (persona) en Customer Journey Analytics.
+Este artículo ilustra un caso de uso en el que desea informar correctamente en Customer Journey Analytics sobre los datos de persona en el contexto de una configuración B2B típica basada en personas. Dicha configuración se ve facilitada por [Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  En este caso de uso se explica cómo configurar y crear informes sobre datos B2B basados en el nivel de perfil (persona) en Customer Journey Analytics.
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Se ha publicado una sección separada para casos de uso de informes basados en cuentas con la versión de [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md).
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Se ha publicado una sección separada para casos de uso de informes basados en cuentas con la versión de [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md).
 
 ## Conexión
 
@@ -43,7 +43,7 @@ Defina su conexión para incluir todos los conjuntos de datos B2B relevantes de 
 -->
 
 
-La relación entre los esquemas de búsqueda B2B, el esquema de perfil y el esquema de evento se define en la configuración B2B en Experience Platform. Consulte Esquemas en [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) y [Defina una relación de varios a uno entre dos esquemas en Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-b2b).
+La relación entre los esquemas de búsqueda B2B, el esquema de perfil y el esquema de evento se define en la configuración B2B en Experience Platform. Consulte Esquemas en [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) y [Defina una relación de varios a uno entre dos esquemas en Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 
 Para garantizar una configuración adecuada de una conexión que admita búsquedas basadas en personas de sus datos B2B, utilice la siguiente ilustración para obtener una descripción general y siga estos pasos:
@@ -62,14 +62,14 @@ Para garantizar una configuración adecuada de una conexión que admita búsqued
    |---|---|---|---| 
    | Conjunto de datos de actividad B2B | SourceKey <br/>**personKey.sourceKey** | | |
    | Conjunto de datos de persona B2B | SourceKey <br/>**b2b.personKey.sourceKey** | | |
-   | Conjunto de datos de cuenta B2B | | SourceKey <br/>**accountKey.sourceKey**&#x200B;❶ | SourceKey<br>(Conjunto de datos de persona B2B)<br/>**b2b.accountKey.sourceKey**&#x200B;❶ |
-   | Conjunto de datos de oportunidad B2B | | Clave de Source <br/>**oportunidadKey.sourceKey**&#x200B;❷ | SourceKey<br/>(Conjunto de datos de relación de oportunidad B2B)<br/>**OpportunityKey.sourceKey**&#x200B;❷ |
-   | Conjunto de datos de campaña B2B | | SourceKey <br/>**campaignKey.sourceKey**&#x200B;❸ | SourceKey<br/>(Conjunto de datos de miembros de campañas B2B)<br/>**campaignKey.sourceKey**&#x200B;❸<br/> |
-   | Conjunto de datos de lista de marketing B2B | | SourceKey <br/>**marketingListKey.sourceKey**&#x200B;❹ | SourceKey<br/>(Conjunto de datos de miembro de lista de marketing B2B)<br/>**marketingListKey.sourceKey**&#x200B;❹ |
-   | Conjunto de datos de relación de persona de la cuenta B2B | | SourceKey <br/>**personKey.sourceKey**&#x200B;❺ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**&#x200B;❺ |
-   | Conjunto de datos de relación de persona de oportunidad B2B | | SourceKey <br/>**personKey.sourceKey** y❻ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**&#x200B;❻ |
-   | Conjunto de datos de miembros de campañas B2B | | SourceKey <br/>**personKey.sourceKey**&#x200B;❼ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**&#x200B;❼ |
-   | Conjunto de datos de miembros de lista de marketing B2B | | SourceKey <br/>**personKey.sourceKey**&#x200B;❽ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**&#x200B;❽ |
+   | Conjunto de datos de cuenta B2B | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey<br>(Conjunto de datos de persona B2B)<br/>**b2b.accountKey.sourceKey**❶ |
+   | Conjunto de datos de oportunidad B2B | | Clave de Source <br/>**oportunidadKey.sourceKey**❷ | SourceKey<br/>(Conjunto de datos de relación de oportunidad B2B)<br/>**OpportunityKey.sourceKey**❷ |
+   | Conjunto de datos de campaña B2B | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>(Conjunto de datos de miembros de campañas B2B)<br/>**campaignKey.sourceKey**❸<br/> |
+   | Conjunto de datos de lista de marketing B2B | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>(Conjunto de datos de miembro de lista de marketing B2B)<br/>**marketingListKey.sourceKey**❹ |
+   | Conjunto de datos de relación de persona de la cuenta B2B | | SourceKey <br/>**personKey.sourceKey**❺ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**❺ |
+   | Conjunto de datos de relación de persona de oportunidad B2B | | SourceKey <br/>**personKey.sourceKey** y❻ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**❻ |
+   | Conjunto de datos de miembros de campañas B2B | | SourceKey <br/>**personKey.sourceKey**❼ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**❼ |
+   | Conjunto de datos de miembros de lista de marketing B2B | | SourceKey <br/>**personKey.sourceKey**❽ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
@@ -82,7 +82,7 @@ Para tener acceso a dimensiones y métricas B2B relevantes al crear su proyecto 
 
 Por ejemplo, puede añadir los siguientes componentes a la vista de datos para asegurarse de que puede crear informes de nivel personal sobre sus datos B2B. Los nombres de componentes a veces se modifican para una mayor claridad de sus nombres de esquema originales.
 
-+++métricas
++++Métricas 
 
 | Nombre del componente | Conjunto de datos | Tipo de datos | Ruta de esquema |
 |---|---|---|---|

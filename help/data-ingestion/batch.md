@@ -34,7 +34,7 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 ## Configurar un esquema y un conjunto de datos
 
-Para ingerir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
+Para ingerir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Modelo de datos de experiencia (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
 
 Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos (normalmente una tabla) que contiene un esquema (columnas) y campos (filas).
 
@@ -42,7 +42,7 @@ Todos los datos ingeridos en Adobe Experience Platform deben cumplir un esquema 
 
 ### Configurar un esquema
 
-Para este inicio rápido, debe recopilar algunos datos de fidelidad, como el ID de fidelidad, los puntos de fidelidad y el estado de fidelidad.
+Para este inicio rápido, debe recopilar algunos datos de lealtad, como el ID de lealtad, los puntos de lealtad y el estado de lealtad.
 Primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
@@ -59,7 +59,7 @@ Para configurar el esquema:
 
       >[!INFO]
       >
-      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los atributos del perfil (como nombre, correo electrónico o género).__
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
@@ -80,7 +80,7 @@ Para configurar el esquema:
 
       Los grupos de campos son colecciones reutilizables de objetos y atributos que le permiten ampliar fácilmente su esquema.
 
-   1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos] seleccione el grupo de campos **[!UICONTROL Detalles de fidelidad]** en la lista.
+   1. En el cuadro de diálogo [!UICONTROL Agregar grupos de campos] seleccione el grupo de campos **[!UICONTROL Detalles de lealtad]** en la lista.
 
       ![Grupo de campos ExperienceEvent del SDK web de AEP](./assets/loyalty-fieldgroup.png)
 
@@ -100,11 +100,11 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identifcation-loyalty-field.png)
 
-   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar la información de fidelidad utilizando la dirección de correo electrónico de los datos por lotes.
+   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar la información de lealtad utilizando la dirección de correo electrónico de los datos por lotes.
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
-1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en el [!UICONTROL Área de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
+1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en el [!UICONTROL Espacio de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
 
    ![Especificar el correo electrónico como identidad](./assets/specify-email-loyalty-id.png)
 
@@ -128,7 +128,7 @@ Para configurar el esquema:
 
 1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
-Ha creado un esquema mínimo que modela los datos de fidelidad que puede ingerir en Adobe Experience Platform. El esquema permite identificar perfiles mediante la dirección de correo electrónico. Al habilitar el esquema para el perfil, se asegura de que los datos del origen del archivo por lotes se agregan al perfil del cliente en tiempo real.
+Ha creado un esquema mínimo que modela los datos de lealtad que puede ingerir en Adobe Experience Platform. El esquema permite identificar perfiles mediante la dirección de correo electrónico. Al habilitar el esquema para el perfil, se asegura de que los datos del origen del archivo por lotes se agregan al perfil del cliente en tiempo real.
 
 Consulte [Crear y editar esquemas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es) para obtener más información sobre cómo agregar y quitar grupos de campos y campos individuales a un esquema.
 
@@ -201,7 +201,7 @@ Para utilizar flujos de trabajo, debe hacer lo siguiente:
 
 4. En el paso [!UICONTROL Seleccionar datos], haga lo siguiente:
 
-   Arrastre y suelte o seleccione **[!UICONTROL Elegir archivos]** para seleccionar el archivo CSV con datos de fidelidad. Verá una vista previa de los datos de fidelidad.
+   Arrastre y suelte o seleccione **[!UICONTROL Elegir archivos]** para seleccionar el archivo CSV con datos de lealtad. Verá una vista previa de los datos de lealtad.
 
    ![Seleccionar datos](./assets/workflow-selectdata.png)
 
@@ -224,7 +224,7 @@ Consulte [Asignar un archivo CSV a un esquema XDM existente](https://experiencel
 - Obtenga información sobre cómo asignar datos cuando los datos entrantes no sean compatibles con el esquema XDM.
 - utilizar plantillas de asignación,
 - utilice campos calculados para asegurarse de que los datos por lotes se ajustan a lo que espera el esquema.
-- y más
+- y más.
 
 
 ## Configurar una conexión
@@ -334,7 +334,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel]. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel]. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de lealtad que recopila puntos de lealtad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 
@@ -342,4 +342,4 @@ Consulte [Información general de Analysis Workspace](../analysis-workspace/home
 
 >[!SUCCESS]
 >
->Ha completado todos los pasos. Empezando por definir qué datos de fidelidad quiere recopilar (esquema) y dónde quiere almacenarlos (conjunto de datos) en Adobe Experience Platform, se ha configurado un flujo de trabajo para cargar los datos de fidelidad por lotes en un conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de fidelidad ingeridos y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.
+>Ha completado todos los pasos. Empezando por definir qué datos de lealtad quiere recopilar (esquema) y dónde quiere almacenarlos (conjunto de datos) en Adobe Experience Platform, se ha configurado un flujo de trabajo para cargar los datos de lealtad por lotes en un conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de lealtad ingeridos y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.

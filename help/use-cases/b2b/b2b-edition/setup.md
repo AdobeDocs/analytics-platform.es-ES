@@ -4,12 +4,12 @@ description: Obtenga información acerca de cómo configurar Customer Journey An
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -367,7 +367,7 @@ De manera predeterminada, todos los [componentes estándar](/help/data-views/com
 1. Seleccione **[!UICONTROL Guardar y continuar]**.
 
 
-## Segmentos 
+## Segmentos
 
 Puede preparar uno o más segmentos basados en contenedores específicos B2B que puede utilizar en su proyecto de Workspace.
 

@@ -13,7 +13,7 @@ ht-degree: 49%
 
 ---
 
-# Seleccionar un intervalo de fecha
+# Selección de un intervalo de fechas
 
 Para cambiar el intervalo de fechas de un bloque de datos existente:
 

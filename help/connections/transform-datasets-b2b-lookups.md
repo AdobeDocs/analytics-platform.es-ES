@@ -18,10 +18,10 @@ Para admitir búsquedas basadas en personas en datos B2B (incluidas cuentas, opo
 
 Esta transformación solo está disponible para conjuntos de datos con datos para esquemas de búsqueda B2B, según las siguientes clases:
 
-* [Relación de persona de la cuenta XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [Relación de persona de oportunidad empresarial de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [Miembros de la lista de marketing empresarial de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [Miembros de XDM Business Campaign](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [Relación de persona de la cuenta XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [Relación de persona de oportunidad empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [Miembros de la lista de marketing empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [Miembros de XDM Business Campaign](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >

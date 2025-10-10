@@ -60,7 +60,7 @@ También puede seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú
 1. De manera opcional, selecciona **[!UICONTROL Mostrar configuración avanzada]** para:
 
    * Especifica **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]** distintas de las `12:00 AM` (`0:00`) y `11:59 PM` (`23:59`) predeterminadas. Los tiempos de finalización siempre incluyen 59 segundos. Para un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día del intervalo de fechas y la hora de finalización se aplica al último día del intervalo de fechas. Usa **[!UICONTROL (Restablecer valores de tiempo)]** para restablecer los valores predeterminados de las horas de inicio y finalización.
-   * **[!UICONTROL Usar fechas móviles]**. Si se activan, los intervalos de fechas preestablecidos como **[!UICONTROL 7 últimos días completos]** se actualizarán dinámicamente a medida que avanzan la fecha y la hora actuales. Si está desactivado, estos ajustes preestablecidos no se actualizan una vez aplicados.
+   * **[!UICONTROL Usar fechas móviles]**. Si se habilitan, los intervalos de fechas preestablecidos como **[!UICONTROL 7 últimos días completos]** se actualizarán dinámicamente a medida que avanzan la fecha y la hora actuales. Si está desactivado, estos ajustes preestablecidos no se actualizan una vez aplicados.
 
      Puede seleccionar el texto entre corchetes (por ejemplo **[!UICONTROL inicio fijo - móvil diario]**) para ampliar el panel y especificar detalles para **[!UICONTROL Inicio]** y **[!UICONTROL Fin]**.
 

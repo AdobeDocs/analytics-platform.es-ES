@@ -24,12 +24,12 @@ ht-degree: 98%
 <!-- markdownlint-enable MD034 -->
 
 
-La siguiente información instruye a los revisores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del creador de cuadros de resultados de los paneles de Adobe Analytics:
+La siguiente información instruye a los revisores de datos de Adobe Analytics sobre cómo configurar y presentar paneles de control para los usuarios ejecutivos. Para empezar, puede ver el vídeo del creador de cuadros de resultados de los paneles de Adobe Analytics:
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creación de un cuadro de resultados móvil](https://video.tv.adobe.com/v/3409728?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creación de un cuadro de resultados móvil](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -207,12 +207,12 @@ Cada dimensión agregada al mosaico se mostrará en un menú desplegable de la v
 
 ## Personalización de diapositivas de detalle {#customize-detail-slide}
 
-Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia.
+Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su público.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3413786?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -257,7 +257,7 @@ Vea el vídeo para obtener más información acerca de la creación de historias
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para un proyecto de cuadro de resultados móvil](https://video.tv.adobe.com/v/3420559/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para un proyecto de cuadro de resultados móvil](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -358,7 +358,7 @@ Si actualiza el cuadro de resultados con nuevos componentes, es posible que dese
 
 ### Uso compartido de cuadros de resultados mediante un vínculo que se puede compartir
 
-El uso de un vínculo que se puede compartir facilita el uso compartido de un cuadro de resultados en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el cuadro de resultados en su escritorio o en la aplicación móvil de los paneles. Los vínculos profundos compartibles facilitan aún más el uso compartido de proyectos y aumentan participación con las partes interesadas.
+El uso de un vínculo que se puede compartir facilita el uso compartido de un cuadro de resultados en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el cuadro de resultados en su escritorio o en la aplicación móvil de los paneles de control. Los vínculos profundos compartibles facilitan aún más el uso compartido de proyectos y aumentan participación con las partes interesadas.
 
 Para compartir un cuadro de resultados mediante un vínculo que se puede compartir
 

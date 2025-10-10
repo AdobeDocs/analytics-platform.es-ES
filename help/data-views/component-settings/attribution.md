@@ -30,7 +30,7 @@ La atribución le permite personalizar cómo los elementos de dimensión obtiene
 
 Por ejemplo:
 
-1. Una persona que visita su sitio hace clic en un vínculo de búsqueda de pago a una de sus páginas de productos. Después, añade el producto al carro de compras, pero no lo compra.
+1. Una persona que visita su sitio hace clic en un vínculo de búsqueda de pago a una de sus páginas de producto. Después, añade el producto al carro de compras, pero no lo compra.
 2. Al día siguiente, ve una publicación en los medios sociales de uno de sus amigos. Hace clic en el vínculo y, a continuación, completa la compra.
 
 En algunos informes, es posible que desee atribuir el pedido a la búsqueda de pago. En otros informes, es posible que desee atribuir el pedido a los medios sociales. La atribución permite controlar este aspecto del sistema de informes.
@@ -90,7 +90,7 @@ Para actualizar el modelo de atribución predeterminado de un componente:
 
 {{attribution-container}}
 
-## Ventana de retroactividad
+## Período de retroactividad
 
 {{attribution-lookback-window}}
 

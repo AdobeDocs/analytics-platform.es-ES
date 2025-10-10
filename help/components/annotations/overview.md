@@ -1,5 +1,5 @@
 ---
-title: Información general sobre anotaciones
+title: Descripción general de anotaciones
 description: Aprenda a utilizar las anotaciones en Analysis Workspace.
 solution: Customer Journey Analytics
 feature: Components
@@ -8,7 +8,7 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

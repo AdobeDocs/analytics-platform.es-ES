@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-map-fields"
->title="Creación del conector de origen de Analytics y asignación de campos"
+>title="Creación del conector de origen de Analytics y asignación de campos de esquema"
 >abstract="El conector de origen necesita saber cómo asignar campos de Adobe Analytics al esquema de la organización. Utilice esta interfaz para proporcionar al conector de origen esa asignación. Este paso forma parte de la adición de datos históricos a Customer Journey Analytics.<br><br>El tiempo que tarda este paso depende en gran medida del número de dimensiones y métricas que debe asignar. Este paso no es tan difícil, pero es tedioso y repetitivo. La previsión es que la asignación de la secuencia de datos tarde aproximadamente una semana en completarse."
 
 <!-- markdownlint-enable MD034 -->

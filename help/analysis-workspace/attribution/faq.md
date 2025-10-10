@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Aquí encontrará respuestas a las preguntas más frecuentes acerca de la atribución.
 
-+++##¿Cuál es el elemento de línea *None* al utilizar la atribución?
++++## ¿Cuál es el elemento de línea *None* al utilizar la atribución?
 
 El elemento de línea *None* es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Para reducir el número de conversiones atribuidas al elemento de línea *None*, intente utilizar una ventana retrospectiva más larga.
 

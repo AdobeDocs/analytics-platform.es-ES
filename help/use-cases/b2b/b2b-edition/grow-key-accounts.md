@@ -4,12 +4,12 @@ description: Obtenga información sobre cómo ampliar cuentas clave con Customer
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -21,13 +21,13 @@ Cuando considere cómo aumentar las cuentas clave mediante nuevos movimientos de
 
 ## Progresión de la fase de ventas
 
-Desea generar y distribuir informes de conversión de posibles clientes específicos y comprender cómo progresan las cuentas a través del canal de ventas.
+Desea generar y distribuir informes de conversión de posibles clientes específicos y comprender cómo progresan las cuentas a través de funnel de ventas.
 
 La visualización [Visitas en el orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) le permite visualizar las tasas de conversión y de abandono entre los pasos predefinidos en un recorrido secuencial.
 
 ### Ejemplo
 
-Desea ver las visitas en el orden previsto de la parte superior del canal de ventas (de cliente potencial a oportunidad) para cuentas.
+Desea ver las consecuencias de la parte superior del funnel de ventas (de cliente potencial a oportunidad) para cuentas.
 
 1. [Crear y configurar una visualización de abandonos](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md).
 1. Seleccione ![Setting](/help/assets/icons/Setting.svg) para seleccionar **[!UICONTROL Account]** como el **[!UICONTROL contenedor de visitas en el orden previsto]**.

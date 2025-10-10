@@ -8,7 +8,7 @@ exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 44%
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 44%
 
 {{upgrade-note}}
 
-Al actualizar a Customer Journey Analytics, Adobe [recomienda una nueva implementación de Experience Platform Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). Sin embargo, dependiendo de varios factores, como el calendario y las restricciones de recursos, los pasos de actualización recomendados podrían no ser prácticos para su organización.
+Al actualizar a Customer Journey Analytics, Adobe [recomienda una nueva implementación del SDK web de Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). Sin embargo, dependiendo de varios factores, como el calendario y las restricciones de recursos, los pasos de actualización recomendados podrían no ser prácticos para su organización.
 
 Puede enviar toda la capa de datos a Customer Journey Analytics en lugar de recopilar datos con el objeto XDM. Sin embargo, esta alternativa introduce una complejidad adicional a lo largo del tiempo.
 

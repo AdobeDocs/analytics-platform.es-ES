@@ -1,5 +1,5 @@
 ---
-description: Instrucciones para usar los informes de valoración de los paneles.
+description: Instrucciones para usar los informes de valoración de los paneles de control.
 title: Guía del usuario ejecutivo sobre paneles de Analytics
 feature: Analytics Dashboards
 role: User
@@ -19,24 +19,24 @@ La siguiente información proporciona a los usuarios ejecutivos información sob
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ayuda a los ejecutivos a acceder a los cuadros de resultados móviles](https://video.tv.adobe.com/v/3444839?captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ayuda a los ejecutivos a acceder a los cuadros de resultados móviles](https://video.tv.adobe.com/v/343460/){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 Esta guía está diseñada para ayudar a los usuarios ejecutivos a leer e interpretar los cuadros de resultados de los paneles de Analytics. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
 
-## Configuración de los paneles en el dispositivo
+## Configuración de los paneles de control en el dispositivo
 
-Para utilizar los paneles de forma eficiente, necesitará que el gestor de datos del informe de valoración le ayude a configurarla. En esta sección se proporciona información para ayudarle a configurar la aplicación con la ayuda de su gestor de datos.
+Para utilizar los paneles de control de forma eficiente, necesitará que el gestor de datos del informe de valoración le ayude a configurarla. En esta sección se proporciona información para ayudarle a configurar la aplicación con la ayuda de su gestor de datos.
 
 ### Obtener acceso
 
-Para acceder a los informes de valoración de los paneles, compruebe que:
+Para acceder a los informes de valoración de los paneles de control, compruebe que:
 
 * Tiene credenciales de inicio de sesión válidas para Customer Journey Analytics
 * El gestor de datos ha creado correctamente los informes de valoración móviles y los ha compartido con usted
 
-### Descarga e instalación de paneles
+### Descarga e instalación de paneles de control
 
 Para descargar e instalar la aplicación, siga los pasos que correspondan al sistema operativo de su dispositivo.
 
@@ -60,15 +60,15 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
 ![Pantalla de bienvenida de la aplicación Customer Journey Analytics](assets/welcome.png)
 
-## Usar los paneles {#use-dashboards}
+## Usar los paneles de control {#use-dashboards}
 
-Para usar los paneles:
+Para usar los paneles de control:
 
-1. Inicie sesión en la aplicación. La pantalla de inicio de sesión aparecerá al iniciar los paneles. Siga las indicaciones y use sus credenciales de Customer Journey Analytics. La aplicación es compatible con Adobe ID y con Enterprise ID/Federated ID.
+1. Inicie sesión en la aplicación. La pantalla de inicio de sesión aparecerá al iniciar los paneles de control. Siga las indicaciones y use sus credenciales de Customer Journey Analytics. La aplicación es compatible con Adobe ID y con Enterprise ID/Federated ID.
 
    ![Proceso de inicio de sesión](assets/signseq.png)
 
-1. Seleccione una empresa. Después de iniciar sesión en los paneles, aparecerá la pantalla **[!UICONTROL Seleccione una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
+1. Seleccione una empresa. Después de iniciar sesión en los paneles de control, aparecerá la pantalla **[!UICONTROL Seleccione una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
 
    La lista de cuadros de resultados muestra todos los cuadros de resultados compartidos con usted.
 
@@ -160,8 +160,8 @@ Pulse la opción y escriba su dirección de correo electrónico en el campo supe
 | Consumidor | Ejecutivo que ve métricas clave y datos de Customer Journey Analytics en un dispositivo móvil |
 | Gestor de datos | Experto que busca y distribuye datos de Customer Journey Analytics y que configura los informes de valoración que verá el consumidor |
 | Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
-| Informe de valoración | Vista de paneles que contiene uno o más mosaicos |
+| Informe de valoración | Vista de paneles de control que contiene uno o más mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |
 | Desglose | Una vista secundaria a la que se puede acceder pulsando un mosaico del informe de valoración. Esta vista ofrece más información sobre la métrica que aparece en el mosaico y, opcionalmente, sobre dimensiones de desglose adicionales |
-| Intervalo de fechas | El intervalo de fecha principal para la creación de informes de los paneles |
+| Intervalo de fechas | El intervalo de fecha principal para la creación de informes de los paneles de control |
 | Intervalo de fecha de comparación | Intervalo de fecha que se compara con el intervalo de fecha principal |

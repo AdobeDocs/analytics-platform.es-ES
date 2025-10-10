@@ -40,7 +40,7 @@ Realice una parte de una cadena basada en su posición hasta el principio o el f
 * **[!UICONTROL Cadena]**: Haga coincidir un carácter o secuencia de caracteres para indicar el principio o el final de una cadena. Este menú desplegable también revela opciones adicionales:
    * **[!UICONTROL Coincidencia]**: La cadena que debe coincidir. Si la entrada no coincide con este campo, se aplica [Sin opciones de valor](no-value-options.md).
    * **[!UICONTROL Índice]**: Los criterios de **[!UICONTROL Coincidencia]** se pueden presentar varias veces en una cadena. Este entero determina qué coincidencia debe comenzar o finalizar la salida, según el método. Por ejemplo, un índice de `1` representa la primera coincidencia. Si el índice es mayor que el número de coincidencias disponibles, se aplica [Sin opciones de valor](no-value-options.md).
-   * **[!UICONTROL Incluir cadena]**: Una casilla de verificación que incluya la cadena **[!UICONTROL Coincidencia]** en la salida si está activada.
+   * **[!UICONTROL Incluir cadena]**: Una casilla de verificación que incluya la cadena **[!UICONTROL Coincidencia]** en la salida si está habilitada.
 * **[!UICONTROL Longitud]**: Un entero que especifica el recuento de caracteres que se va a incluir después de la posición inicial de la salida. Solo está disponible en el menú desplegable **[!UICONTROL Para]**.
 
 ## Delimitador
@@ -70,8 +70,8 @@ Si la entrada no es una dirección URL válida o si el componente URL deseado no
 
 Recorte el espacio en blanco o los caracteres especiales de la cadena.
 
-* **[!UICONTROL Recortar espacios en blanco]**: Casilla de verificación que elimina todos los espacios en blanco al principio y al final de la cadena si está activada.
-* **[!UICONTROL Recortar caracteres especiales]**: Una casilla de verificación que muestra un campo de entrada **[!UICONTROL Caracteres especiales]** si está activado. Todos los caracteres de este campo se eliminan de la salida. No se admiten caracteres de bytes múltiples.
+* **[!UICONTROL Recortar espacios en blanco]**: Casilla de verificación que elimina todos los espacios en blanco al principio y al final de la cadena si está habilitada.
+* **[!UICONTROL Recortar caracteres especiales]**: Una casilla de verificación que muestra un campo de entrada **[!UICONTROL Caracteres especiales]** si está habilitado. Todos los caracteres de este campo se eliminan de la salida. No se admiten caracteres de bytes múltiples.
 
 ## Regex
 

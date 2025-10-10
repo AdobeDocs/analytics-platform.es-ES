@@ -1,12 +1,12 @@
 ---
-description: Obtenga información sobre el creador de métricas calculadas que proporciona un lienzo en el que arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en lógica, reglas y operadores de jerarquía de contenedor.
+description: Obtenga información sobre el generador de métricas calculadas que proporciona un lienzo en el que arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en la lógica, las reglas y los operadores de la jerarquía de contenedores.
 title: Generar métricas
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -200,5 +200,5 @@ Para eliminar un contenedor, seleccione ![Cerrar](/help/assets/icons/Close.svg) 
 >[!MORELIKETHIS]
 >
 >[Uso de funciones](cm-using-functions.md)
->&#x200B;>[Segmentos](/help/components/segments/seg-overview.md)
+>>[Segmentos](/help/components/segments/seg-overview.md)
 >

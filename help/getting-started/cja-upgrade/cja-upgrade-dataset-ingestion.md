@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Después de configurar la implementación del SDK web o la API, debe comprobar l
 
 1. En la interfaz de usuario de Experience Platform, seleccione **[!UICONTROL Monitorización]** en el panel de navegación izquierdo.
 
-   Se muestra el panel Monitorización. Este panel le permite ver los estados de los datos de entrada procedentes de la ingesta por lotes o de streaming.
+   Se muestra el panel de control Monitorización. Este panel de control le permite ver los estados de los datos de entrada procedentes de la ingesta por lotes o de streaming.
 
    <!-- insert screenshot -->
 

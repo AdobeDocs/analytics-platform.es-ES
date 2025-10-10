@@ -4,12 +4,12 @@ description: Descubra los casos de uso habituales de Customer Journey Analytics 
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User, Admin
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,7 @@ Los perfiles clave que se benefician del análisis que puede proporcionar Custom
 | Gestor de operaciones de ventas | Eficiencia, precisión de datos, rendimiento de ventas, progresión de oportunidades, integración de tecnología |
 
 
-## Casos prácticos
+## Casos de uso
 
 En función de los perfiles anteriores y sus requisitos, se identifican los siguientes casos de uso:
 

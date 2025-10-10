@@ -39,7 +39,7 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 
 ## Configurar un esquema y un conjunto de datos
 
-Para introducir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Experience Data Model (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
+Para introducir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Modelo de datos de experiencia (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
 
 Una vez definido un esquema, se utilizan uno o más conjuntos de datos para almacenar y administrar la recopilación de datos. Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos (normalmente una tabla) que contiene un esquema (columnas) y campos (filas).
 
@@ -64,7 +64,7 @@ Para configurar el esquema:
 
       >[!INFO]
       >
-      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los _atributos_ del perfil (como nombre, correo electrónico o sexo).
+      >    Se utiliza un esquema de evento de experiencia para modelar el _comportamiento_ de un perfil (como el nombre de escena, botón de comando para añadir al carro de compras). Se utiliza un esquema de perfil individual para modelar los atributos del perfil (como nombre, correo electrónico o género).__
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
@@ -113,7 +113,7 @@ Para configurar el esquema:
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
-1. Seleccione el campo **[!UICONTROL ECID]** en el objeto de identificación que acaba de agregar y seleccione **[!UICONTROL Identidad]**, **[!UICONTROL Identidad principal]** y **[!UICONTROL ECID]** en la lista de [!UICONTROL Área de nombres de identidad] en el panel derecho.
+1. Seleccione el campo **[!UICONTROL ECID]** en el objeto de identificación que acaba de agregar y seleccione **[!UICONTROL Identidad]**, **[!UICONTROL Identidad principal]** y **[!UICONTROL ECID]** en la lista de [!UICONTROL Espacio de nombres de identidad] en el panel derecho.
 
    ![Especificar ECID como identidad](./assets/specify-identity.png)
 
@@ -121,7 +121,7 @@ Para configurar el esquema:
 
    Seleccione **[!UICONTROL Aplicar]**. Verá que aparece un icono de huella digital en el atributo de ECID.
 
-1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en la lista de [!UICONTROL Área de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
+1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en la lista de [!UICONTROL Espacio de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
 
    ![Especificar el correo electrónico como identidad](./assets/specify-email-identity.png)
 
@@ -278,7 +278,7 @@ Para crear y configurar la extensión del SDK web de Adobe Experience Platform, 
 
    Seleccione **[!UICONTROL Guardar]**.
 
-Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=es) para obtener más información.
+Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) para obtener más información.
 
 El SDK web incluye el [!UICONTROL servicio de Adobe Experience Cloud ID] de forma nativa, por lo que no es necesario que añada la extensión del servicio de ID a la etiqueta.
 
@@ -592,7 +592,7 @@ Para crear un proyecto:
 
    ![Workspace - Seleccionar vista de datos](./assets/cja-projects-3.png).
 
-5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel]. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de fidelidad que recopila puntos de fidelidad.
+5. Para crear su primer informe, empiece a arrastrar y soltar dimensiones y métricas en la [!UICONTROL tabla de forma libre] en el [!UICONTROL panel]. Por ejemplo, arrastre `Program Points Balance` y `Page View` como métricas y `email` como dimensión para obtener una visión general rápida de los perfiles que han visitado su sitio web y forman parte del programa de lealtad que recopila puntos de lealtad.
 
    ![Workspace - Primer informe](./assets/cja-projects-5.png)
 

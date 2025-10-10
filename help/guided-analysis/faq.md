@@ -6,7 +6,7 @@ feature: Guided Analysis
 keywords: Product Analytics
 role: User
 source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 

@@ -8,7 +8,7 @@ exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1806'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -38,11 +38,11 @@ Cada dimensión agregada al mosaico se mostrará en un menú desplegable de la v
 
 ## Personalización de diapositivas de detalle {#customize-detail-slide}
 
-Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia.
+Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su público.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3413786?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Vea el vídeo para obtener más información acerca de la creación de historias
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para proyectos de cuadros de resultados móviles](https://video.tv.adobe.com/v/3420559/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para proyectos de cuadros de resultados móviles](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -100,7 +100,7 @@ Cree su historia basada en datos al agregar varias diapositivas de detalles a un
    ![Creación de una historia basada en datos](assets/data-story1.png)
    ![Creación de iconos de historia basada en datos](assets/create-data-story.png){width=".50%"}
 1. Agregue diapositivas para generar la historia basada en datos. La primera diapositiva se genera de forma predeterminada.
-Para agregar nuevas diapositivas, pase el ratón sobre una o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
+Para agregar nuevas diapositivas, pase el puntero por encima de una o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
    * Pulse el signo + para crear una nueva diapositiva.
    * Pulse el icono de duplicado para duplicar la diapositiva existente.
 1. Si crea una diapositiva en blanco, arrastre y suelte los componentes desde el carril izquierdo o elija un diseño para llenarla automáticamente con los datos del mosaico.
@@ -109,7 +109,7 @@ Para eliminar una diapositiva, pulse el icono de papelera.
 
 ### Personalización de una historia basada en datos {#customize-data-story}
 
-Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para añadir segmentos, mostrar desgloses, cambiar el diseño y cambiar las visualizaciones.
+Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para añadir segmentos, mostrar desgloses, cambiar el diseño y modificar las visualizaciones.
 
 **Para personalizar mosaicos**
 
@@ -185,7 +185,7 @@ Si actualiza el cuadro de resultados con nuevos componentes, es posible que dese
 
 ### Uso compartido de cuadros de resultados mediante un vínculo que se puede compartir
 
-El uso de un vínculo que se puede compartir facilita el uso compartido de un cuadro de resultados en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el cuadro de resultados en su escritorio o en la aplicación móvil de los paneles. Los vínculos profundos compartibles facilitan aún más el uso compartido de proyectos y aumentan participación con las partes interesadas.
+El uso de un vínculo que se puede compartir facilita el uso compartido de un cuadro de resultados en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el cuadro de resultados en su escritorio o en la aplicación móvil de los paneles de control. Los vínculos profundos compartibles facilitan aún más el uso compartido de proyectos y aumentan participación con las partes interesadas.
 
 Para compartir un cuadro de resultados mediante un vínculo que se puede compartir
 

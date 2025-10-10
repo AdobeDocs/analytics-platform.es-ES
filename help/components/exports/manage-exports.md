@@ -8,7 +8,7 @@ role: User
 source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ Para encontrar la información que necesita, puede filtrar la lista de exportaci
 
 ### Filtrado de la lista de exportaciones
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Exportaciones**].
 
@@ -34,9 +34,9 @@ Para encontrar la información que necesita, puede filtrar la lista de exportaci
 
    Puede filtrar por los siguientes criterios:
 
-   | Filtro | Descripción |
+   | Filtrar | Descripción |
    |---------|----------|
-   | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta al que está asociada la exportación. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función Amazon S3**]</li><li>[!UICONTROL **SAS de Azure**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Plataforma de Google Cloud**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta al que está asociada la exportación. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función Amazon S3**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Activo**]: indica que una exportación programada aún no ha caducado o que una exportación única aún no ha finalizado. </li><li>[!UICONTROL **Completado**]: indica que una exportación se ha exportado correctamente. En el caso de las exportaciones programadas, esto indica que la programación ha caducado.</li><li>[!UICONTROL **Fallido**]<p>Las siguientes situaciones pueden provocar un error en la exportación. Pase el ratón sobre el estado [!UICONTROL **Error**] para ver los detalles del error. <ul><li>Caducidad de exportación programada</li><li>Se alcanzó el límite de filas para la exportación programada </li></ul> </p></li></ul> |
    | [!UICONTROL **Frecuencia**] | La frecuencia con la que se produce la exportación. Las frecuencias disponibles son las siguientes: <ul><li>[!UICONTROL **Una vez**]</li><li>[!UICONTROL **Diario**]</li><li>[!UICONTROL **Semanalmente**]</li><li>[!UICONTROL **Mensual**]</li><li>[!UICONTROL **Anual**]</li></ul> |
 
@@ -44,7 +44,7 @@ Para encontrar la información que necesita, puede filtrar la lista de exportaci
 
 ### Buscar exportaciones
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Exportaciones**].
 
@@ -54,7 +54,7 @@ Para encontrar la información que necesita, puede filtrar la lista de exportaci
 
 Puede editar las propiedades, el formato, la programación y la información de ubicación de una exportación.
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. En la ficha [!UICONTROL **Exportaciones**], active la casilla de verificación situada junto a la exportación que desee editar.
 
@@ -70,7 +70,7 @@ Puede editar las propiedades, el formato, la programación y la información de 
 
 Puede duplicar una exportación existente.
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. En la ficha [!UICONTROL **Exportaciones**], active la casilla que hay junto a la exportación que desea duplicar.
 
@@ -86,7 +86,7 @@ Puede duplicar una exportación existente.
 
 Puede iniciar manualmente una exportación, ya sea para una exportación programada o para una exportación única que se haya completado anteriormente.
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. En la ficha [!UICONTROL **Exportaciones**], active la casilla de verificación situada junto a la exportación que desee ejecutar.
 
@@ -98,7 +98,7 @@ Puede iniciar manualmente una exportación, ya sea para una exportación program
 
 Al aplicar etiquetas a una exportación, puede verlas en la columna [!UICONTROL Etiquetas] de la página [!UICONTROL Exportaciones]. Consulte [Configurar columnas](#configure-columns) para obtener más información.
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. En la ficha [!UICONTROL **Exportaciones**], active la casilla que hay junto a una o varias exportaciones que desea etiquetar.
 
@@ -114,7 +114,7 @@ Al aplicar etiquetas a una exportación, puede verlas en la columna [!UICONTROL 
 
 Puede eliminar las exportaciones desde la página Exportaciones. Las exportaciones programadas que se eliminan ya no se enviarán.
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. En la ficha [!UICONTROL **Exportaciones**], active la casilla que hay junto a una o varias exportaciones que desea eliminar.
 
@@ -126,7 +126,7 @@ Puede agregar o quitar columnas en la ficha [!UICONTROL Exportaciones] para conf
 
 Seleccione un encabezado de columna para ordenar las exportaciones por esa columna. De forma predeterminada, las exportaciones se ordenan por la fecha y la hora de la última modificación de la exportación.
 
-1. En el Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. En la ficha [!UICONTROL **Exportaciones**], seleccione el icono **Personalizar tabla** ![personalizar tabla](assets/customize-table-icon.png) en la parte superior derecha de la página [!UICONTROL Exportaciones].
 

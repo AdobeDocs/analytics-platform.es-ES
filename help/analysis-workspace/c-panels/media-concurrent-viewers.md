@@ -34,14 +34,14 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe el panel Visualizadores simultáneos de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte el [panel Visualizadores simultáneos de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe el panel Visualizadores simultáneos de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte el [panel Visualizadores simultáneos de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->El panel Audiencia media por minuto de medios solo está disponible para los clientes que han adquirido el complemento de la colección de medios de streaming para Customer Journey Analytics.
+>El panel Público medio por minuto de medios solo está disponible para los clientes que han adquirido el complemento de la colección de medios de streaming para Customer Journey Analytics.
 >
 >Póngase en contacto con su representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
 >
@@ -55,7 +55,7 @@ En Analysis Workspace, la métrica Visualizadores simultáneos comprende la cant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/35187/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -86,7 +86,7 @@ Puede configurar el panel Visualizadores simultáneos de medios con esta configu
 
 A continuación se muestra un ejemplo del panel configurado para la granularidad por **[!UICONTROL Minuto]**, con los números de resumen **[!UICONTROL Máximo solamente]**. Y desglosado por **[!UICONTROL Otros]**, **[!UICONTROL Tabla]**, **[!UICONTROL Teléfono Móvil]**, **[!UICONTROL Consola de juegos]**, **[!UICONTROL Reproductor de medios]**, **[!UICONTROL Decodificador]**, **[!UICONTROL Televisión]**.
 
-![La vista detallada de la serie de visualizadores simultáneos de medios muestra 7 de 10 dimensiones, segmentos o intervalos de fechas.](assets/concurrent-viewers-series-breakdown.png)
+![El desglose de la serie de visualizadores simultáneos de medios muestra 7 de 10 dimensiones, segmentos o intervalos de fechas.](assets/concurrent-viewers-series-breakdown.png)
 
 ### Salida del panel
 
@@ -130,6 +130,6 @@ No hay ninguna tabla de forma libre disponible en esta vista.  Para ver la fuent
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
->&#x200B;>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
+>>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
+>>[Panel Público medio por minuto de medios](average-minute-audience-panel.md)
 >

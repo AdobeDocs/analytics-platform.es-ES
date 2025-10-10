@@ -6,7 +6,7 @@ feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
 role: Admin
 source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1497'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más usuario
       | [!UICONTROL **Usuario y proyecto**] | Se restringirá temporalmente a los usuarios seleccionados la posibilidad de realizar solicitudes de creación de informes para los proyectos asociados. <p>Se trata de la opción menos restrictiva.</p> |
       | [!UICONTROL **Usuario**] | Se restringirá temporalmente a los usuarios seleccionados la posibilidad de solicitar la creación de informes. |
       | [!UICONTROL **Proyecto**] | Los proyectos asociados a los usuarios seleccionados estarán restringidos a cualquier solicitud de creación de informes realizada por cualquier usuario. |
-      | [!UICONTROL **Restringido para**] | Elija cuánto tiempo se restringirán las solicitudes. Puede elegir 1 minuto (predeterminado), 5 minutos, 10 minutos, 15 minutos o 30 minutos. <!--double-check this--> <p>Una restricción no se puede quitar antes de que se haya establecido.</p> |
+      | [!UICONTROL **Restringido para**] | Elija cuánto tiempo se restringirán las solicitudes. Puede elegir 1 minuto (valor predeterminado), 5 minutos, 10 minutos, 15 minutos o 30 minutos. <!--double-check this--> <p>Una restricción no se puede quitar antes de que se haya establecido.</p> |
 
       {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ Entre estas mejoras se incluyen las siguientes:
 * IU de Analysis Workspace
 * Proyectos programados de Workspace
 * Report Builder
-* IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.
+* IU del generador: Segmento, Métricas calculadas, Anotaciones, Públicos, etc.
 * Llamadas de API desde la API 2.0
 * Alertas
 * Exportación de tabla completa
@@ -182,7 +182,7 @@ Para cancelar las solicitudes por la aplicación:
 
 1. Seleccione [!UICONTROL **Cancelar solicitudes**].
 
-   Se muestra el cuadro de diálogo [!UICONTROL **Cancelar _x_ solicitudes de informe de x proyectos**].
+   Se muestra el cuadro de diálogo [!UICONTROL **Cancelar solicitudes de informe _x_ de x proyectos**].
 
 1. El campo Cancelación muestra el mensaje que se muestra a los usuarios cuando se cancelan sus solicitudes. Se proporciona un mensaje predeterminado. Puede actualizar el mensaje predeterminado para proporcionar detalles adicionales.
 

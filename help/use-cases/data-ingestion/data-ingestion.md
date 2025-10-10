@@ -31,7 +31,7 @@ Este flujo de trabajo utiliza el conector de origen de Analytics y varía en fun
 
 [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) es una biblioteca JavaScript del lado del cliente que permite a los clientes de Adobe Experience Cloud interactuar con los distintos servicios de Experience Cloud a través de Adobe Experience Platform Edge Network.
 
-1. [Configure la extensión web SDK de Adobe Experience Platform en tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es) para enviar datos a Adobe Experience Cloud desde propiedades web, a través del Edge Network de Adobe Experience Platform.
+1. [Configure la extensión Adobe Experience Platform Web SDK en tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es) para enviar datos a Adobe Experience Cloud desde propiedades web, a través de Adobe Experience Platform Edge Network.
 1. Usar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=es) para crear una o varias [conexiones](/help/connections/create-connection.md) y [vistas de datos](/help/data-views/data-views.md) que informarán al sistema de informes entre canales.
 
 ## Ingesta de datos con ingesta por lotes y de streaming
@@ -50,7 +50,7 @@ Adobe Experience Platform reúne datos de varios orígenes para ayudar a los esp
 
 ## Introducción de datos de Google Analytics para analizarlos en Customer Journey Analytics
 
-Consulte este tutorial sobre cómo [Analizar datos de Google Analytics mediante Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial-v22/module12/ex5.html?lang=es) para ver los pasos detallados.
+Consulte este tutorial sobre cómo [Analizar datos de Google Analytics mediante Customer Journey Analytics](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial-v22/module12/ex5.html) para ver los pasos detallados.
 
 ## Utilice la API de inserción masiva de datos para obtener datos en Analytics y, a continuación, realice la ingesta mediante el conector de origen de Analytics en Experience Platform
 
