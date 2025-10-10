@@ -4,11 +4,9 @@ description: Descubra cómo puede utilizar campos derivados como base para infor
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: 38be574621e4fc384f9fdeac94fc071f0cdd132b
+source-git-commit: 8862bfdf873c4c3c5e795f3b299040b3dc253647
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1275'
 ht-degree: 1%
 
 ---
@@ -17,6 +15,11 @@ ht-degree: 1%
 # Informe sobre el tráfico generado por LLM y AI
 
 Este artículo de caso de uso explora cómo utilizar la capacidad Campos derivados de Customer Journey Analytics como base para informar sobre el tráfico generado por LLM (Modelo de lenguaje grande) y por IA.
+
+>[!NOTE]
+>
+>La eficacia de los [métodos de detección](#detection-methods), las [firmas de detección](#detection-signatures) y las [estrategias de implementación](#implementation) depende de su método de recopilación de datos específico, la cobertura del conjunto de datos de Experience Platform y la implementación de Customer Journey Analytics. Los resultados pueden variar en función del entorno técnico, las políticas de gobernanza de datos y el enfoque de implementación. Al utilizar Experience Edge, deberá elegir entre registrar la cadena del agente de usuario sin procesar o recopilar información del dispositivo.
+>
 
 ## Métodos de detección
 
@@ -30,6 +33,7 @@ Tres métodos de detección básicos comunes para identificar y supervisar el tr
 * **Identificación de agente de usuario**: Cuando se realiza una solicitud al servidor, el encabezado HTTP User-Agent se extrae y se analiza comparándolo con patrones de agente y rastreador de IA conocidos. Este método del lado del servidor requiere acceso a los encabezados HTTP y es más eficaz cuando se implementa en la capa de recopilación de datos.
 * **Clasificación de referente**: el encabezado Referente HTTP contiene la dirección URL de la página web anterior que se vinculó a la solicitud actual. Este encabezado revela cuándo los usuarios hacen clic en su sitio desde interfaces web como ChatGPT o Perplexity.
 * **Detección de parámetros de consulta**: los servicios de IA pueden anexar parámetros de URL (especialmente parámetros de UTM) a los vínculos. Estos parámetros persisten en la dirección URL y se pueden detectar mediante implementaciones de análisis estándar, lo que convierte a estos parámetros de URL en indicadores valiosos incluso en escenarios de seguimiento del lado del cliente.
+
 
 La siguiente tabla ilustra cómo se pueden utilizar los métodos de detección en diferentes escenarios de interacción de LLM e IA.
 
@@ -248,12 +252,12 @@ A partir de agosto de 2025, se pueden identificar las siguientes señales espec�
 
 ## Implementación
 
-Puede generar informes sobre el tráfico generado por LLM y por IA dentro de una configuración típica de Customer Journey Analytics (conexión, vista de datos, proyecto de espacio de trabajo) mediante la configuración específica de [campos derivados](#derived-fields), [segmentos](#segments) y [proyectos de espacio de trabajo](#workspace-project).
+Puede generar informes sobre el tráfico generado por LLM y por IA en una configuración típica de Customer Journey Analytics ([conexión](/help/connections/overview.md), [vistas de datos](/help/data-views/data-views.md) y [proyectos del espacio de trabajo](/help/analysis-workspace/home.md)) mediante la configuración específica de [campos derivados](#derived-fields), [segmentos](#segments) y [proyectos del espacio de trabajo](#workspace-project).
 
 
 ### Campos derivados
 
-Para configurar métodos de detección y señales de detección, utilice campos derivados como base. Por ejemplo, defina campos derivados para la identificación del agente de usuario, la detección de parámetros de consulta y la clasificación de referentes.
+Para configurar métodos de detección y señales de detección, utilice campos derivados como base. Por ejemplo, defina campos derivados para [identificación del agente de usuario](#user-agent-identification), [detección de parámetros de consulta](#query-parameter-detection) y [clasificación de referente](#referrer-classification).
 
 #### Identificación de agente de usuario LLM/AI
 
@@ -264,16 +268,412 @@ Utilice las funciones de campo derivadas [Case When](/help/data-views/derived-fi
 
 #### Detección de parámetros de consulta LLM/AI
 
-Utilice las funciones de campo derivadas [URL Parse](/help/data-views/derived-fields/derived-fields.md#url-parse) y [Classify](/help/data-views/derived-fields/derived-fields.md#classify) para definir un campo derivado que detecte la detección de parámetros UTM.
+Use las funciones de campo derivado de [URL Parse](/help/data-views/derived-fields/derived-fields.md#url-parse) y [Classify](/help/data-views/derived-fields/derived-fields.md#classify) para definir un campo derivado que detecte parámetros de consulta.
 
 ![Detección de parámetros de UTM LLM/AI](assets/aitraffic-utmparams.png){zoomable="yes"}
 
 
 #### Clasificación de referente de LLM/AI
 
-Utilice las funciones de campo derivado Análisis de URL y Clasificar para definir un campo derivado que clasifique a los referentes.
+Utilice las funciones de campo derivadas [URL Parse](/help/data-views/derived-fields/derived-fields.md#url-parse) y [Classify](/help/data-views/derived-fields/derived-fields.md#classify) para definir un campo derivado que clasifique a los referentes.
 
-![Clasificación de referente LLM/AI](assets/aitraffic-utmparams.png){zoomable="yes"}
+(assets/aitraffic-referrers.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+){zoomable="yes"}
 
 
 ### Segmentos
@@ -293,6 +693,6 @@ Utilice los campos y segmentos derivados para informar y analizar el tráfico ge
 
 >[!MORELIKETHIS]
 >
->Este artículo de caso de uso se basa en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM y IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=es).
+>Este artículo de caso de uso se basa en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM y IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967).
 >
 >
