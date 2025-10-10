@@ -27,7 +27,7 @@ ht-degree: 100%
 
 Debe instalar la etiqueta en el sitio web del que desee realizar un seguimiento, lo que implica colocar un código en la etiqueta de encabezado de la plantilla del sitio web.
 
-El siguiente proceso describe cómo obtener el código que hace referencia a la etiqueta. Para obtener información adicional, consulte las [guías de implementación para etiquetas y reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides) en la documentación de Experience Platform.
+El siguiente proceso describe cómo obtener el código que hace referencia a la etiqueta. Para obtener información adicional, consulte las [guías de implementación para etiquetas y reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/get-started/implementation-guides) en la documentación de Experience Platform.
 
 Para obtener el código que hace referencia a la etiqueta, debe hacer lo siguiente:
 

@@ -20,7 +20,7 @@ Al vincular las reproducciones de sesiones de métricas cuánticas con los datos
 
 En estos pasos se da por hecho que utiliza etiquetas en la recopilación de datos de Adobe Experience Platform. Puede adaptar estos métodos de recopilación de datos a una implementación manual de Web SDK si su organización no utiliza etiquetas.
 
-Consulte la documentación de la [extensión de etiqueta de métrica cuántica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) para obtener más información.
+Consulte la documentación de la [extensión de etiqueta de métrica cuántica](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/analytics/quantum-metric) para obtener más información.
 
 ## Paso 1: Crear un campo de esquema para dar cabida al ID de sesión de métrica cuántica
 
