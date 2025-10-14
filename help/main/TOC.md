@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 04d3de450a9efc12637a3c4272bf3c43b0fbbe0a
+source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1306'
 ht-degree: 99%
 
 ---
@@ -202,12 +202,13 @@ ht-degree: 99%
       + Tabla de forma libre {#freeform-table}
          + [Información general](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Crear hipervínculos](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Ver datos de tendencias](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Filtrar y ordenar](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totales](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Configuración de columna y fila {#column-row-settings}
             + [Configuración de columna](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementos dinámicos y estáticos](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filtrar y ordenar](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totales](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohortes {#cohort-table}
          + [Información general](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuración](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
