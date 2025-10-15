@@ -16,7 +16,7 @@ ht-degree: 6%
 
 En este caso de uso se describe cómo utilizar la potencia de los campos derivados para establecer objetivos para una dimensión específica y, a continuación, utilizarlos en el proyecto de Workspace.
 
-Si no está familiarizado con los campos derivados, consulte el [tutorial](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html) y la [documentación](../data-views/derived-fields/derived-fields.md) para obtener una introducción.
+Si no está familiarizado con los campos derivados, consulte el [tutorial](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html?lang=es) y la [documentación](../data-views/derived-fields/derived-fields.md) para obtener una introducción.
 
 
 ## Definir metas
