@@ -7,7 +7,7 @@ role: User
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 50%
+ht-degree: 46%
 
 ---
 
@@ -62,7 +62,7 @@ Para ver anomalías en un gráfico de líneas:
 
    * El valor sin procesar de la anomalía.
 
-   * El valor de porcentaje por encima o por debajo del valor esperado, que se representa por la línea verde sólida.
+   * El valor porcentual por encima o por debajo del valor esperado, que se representa mediante la línea verde sólida.
 
 
 

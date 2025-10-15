@@ -7,7 +7,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: ab0e6f0578cbc6f856c2b0a46b1231cce145b84c
 workflow-type: tm+mt
 source-wordcount: '2761'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 12%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -240,7 +240,7 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
    * **Configuración de visualización adicional**: seleccione el icono Configuración ![Setting](/help/assets/icons/Setting.svg) en el encabezado de visualización para ver la configuración adicional para la visualización de mapas. Para obtener más información, consulte [Configurar opciones de visualización](#configure-visualization-settings).
 
-1. **Guardar** el proyecto para guardar la configuración completa del mapa (coordenadas, zoom, rotación).
+1. **Guarde** el proyecto para guardar toda la configuración del mapa (coordenadas, zoom, rotación).
 1. (Opcional) La tabla de forma libre debajo de la visualización se puede rellenar arrastrando dimensiones de ubicación y métricas desde el carril izquierdo.
 
 ## Configuración de visualización
@@ -256,10 +256,10 @@ Para configurar los ajustes de la visualización de mapas:
    | Sección | Configuración | Descripción |
    | --- |--- |--- |
    | **[!UICONTROL Tipo de mapa]** | | |
-   | | **[!UICONTROL Burbujas]** | Representa los eventos mediante burbujas. Un gráfico de burbujas es un gráfico multivariable a medio camino entre un diagrama de dispersión y un gráfico de superficie proporcional. Esta es la vista predeterminada. |
-   | | **[!UICONTROL Mapa de calor]** | Representa los eventos mediante un mapa de calor. Se trata de una representación gráfica de datos que muestra como colores los valores individuales contenidos en una matriz. |
+   | | **[!UICONTROL Burbujas]** | Traza eventos con burbujas. Un gráfico de burbujas es un gráfico de varias variables que es una cruz entre un diagrama de dispersión y un gráfico de área proporcional. Esta es la vista predeterminada. |
+   | | **[!UICONTROL Mapa de calor]** | Traza eventos mediante un mapa de calor. Un mapa de calor es una representación gráfica de datos en la que los valores individuales contenidos en una matriz se representan como colores. |
    | **[!UICONTROL Estilos]** | | |
-   | | **[!UICONTROL Tema de color]** | Muestra el esquema de colores para el mapa de calor y las burbujas. Puede elegir entre Coral, Rojos, Verdes o Azules. El color predeterminado es Coral. |
+   | | **[!UICONTROL Tema de color]** | Muestra el esquema de colores para el mapa de calor y las burbujas. Puedes elegir entre Coral, Rojos, Verdes o Azules. El color predeterminado es Coral. |
    | | **[!UICONTROL Estilo de mapa]** | Puede elegir entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
    | | **[!UICONTROL Radio de clúster]** | Agrupar los puntos de datos que se hallan dentro de un radio de píxeles definido. El valor predeterminado es 50.<p>Esta opción solo está disponible cuando **[!UICONTROL Burbujas]** está seleccionado como **[!UICONTROL Tipo de mapa]**.</p> |
    | | **[!UICONTROL Valor máximo personalizado]** | Permite modificar el umbral para el valor máximo del mapa. Al ajustar este valor, se ajusta la escala de los valores (color y tamaño) de las burbujas o del mapa de calor en relación con el valor máximo personalizado que se haya definido. |

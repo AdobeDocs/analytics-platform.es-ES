@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
 workflow-type: tm+mt
 source-wordcount: '946'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -42,7 +42,7 @@ Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos de eventos, cada
 | --- | --- | --- | --- | ---: |
 | user_847 | 2 de enero de 12:26 p.m. | Amarillo | Círculo | 8,5 |
 | user_847 | 2 de enero de 1:01 p.m. | Rojo | | |
-| alternateid_656 | 2 de enero de 8:58 p.m. | Rojo | Cuadrado | 4.2 |
+| alternateid_656 | 2 de enero de 8:58 p.m. | Rojo | Cuadrado | 4,2 |
 | alternateid_656 | 2 de enero de 9:03 p.m. | | Triángulo | 3,1 |
 
 Cuando crea una conexión con estos dos conjuntos de datos de eventos, y ha identificado
@@ -61,7 +61,7 @@ el siguiente conjunto de datos combinado se utiliza para el sistema de informes.
 | user_847 | 2 de enero de 12:31 p.m. | | Tortuga | | 4 | |
 | user_847 | 2 de enero de 12:44 p.m. | | | | 2 | |
 | user_847 | 2 de enero de 1:01 p.m. | Rojo | | | | |
-| alternateid_656 | 2 de enero de 8:58 p.m. | Rojo | | Cuadrado | | 4.2 |
+| alternateid_656 | 2 de enero de 8:58 p.m. | Rojo | | Cuadrado | | 4,2 |
 | alternateid_656 | 2 de enero de 9:03 p.m. | | | Triángulo | | 3,1 |
 
 Para ilustrar la importancia de las rutas de esquema, considere este escenario. En el primer conjunto de datos, `string_color` se basa en la ruta de esquema `_experience.whatever.string_color` y en el segundo conjunto de datos en la ruta de esquema `_experience.somethingelse.string_color`. En este escenario, los datos **no** se combinaron en una columna en el conjunto de datos combinado resultante. En su lugar, el resultado son dos columnas `string_color` en el conjunto de datos combinado:
@@ -75,7 +75,7 @@ Para ilustrar la importancia de las rutas de esquema, considere este escenario. 
 | user_847 | 2 de enero de 12:31 p.m. | | | Tortuga |  | 4 | |
 | user_847 | 2 de enero de 12:44 p.m. | | | | | 2 | |
 | user_847 | 2 de enero de 1:01 p.m. | | Rojo | | | | |
-| alternateid_656 | 2 de enero de 8:58 p.m. | | Rojo | | Cuadrado | | 4.2 |
+| alternateid_656 | 2 de enero de 8:58 p.m. | | Rojo | | Cuadrado | | 4,2 |
 | alternateid_656 | 2 de enero de 9:03 p.m. | | | | Triángulo | | 3,1 |
 
 Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila. Customer Journey Analytics trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un plazo de 30 minutos, se considerarán parte de la misma sesión. Se combinan campos con rutas de esquema idénticas.
@@ -123,5 +123,5 @@ Para obtener más información sobre el análisis en canales múltiples, consult
 Para un análisis más detallado de la funcionalidad de la vinculación, vaya a:
 
 * [Información general de vinculación](/help/stitching/overview.md)
-* [Preguntas frecuentes &#x200B;](/help/stitching/faq.md)
+* [Preguntas frecuentes ](/help/stitching/faq.md)
 

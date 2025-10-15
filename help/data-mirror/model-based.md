@@ -218,7 +218,7 @@ En el paso **[!UICONTROL Autenticación]**, seleccione:
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
-  Consulte la documentación de Experience Platform para obtener más información sobre cómo conectarse y autenticarse al usar el conector [Azure Databricks](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulte la documentación de Experience Platform para obtener más información sobre cómo conectarse y autenticarse al usar el conector [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Seleccionar datos
@@ -272,7 +272,7 @@ En el paso **[!UICONTROL Programación]**:
 1. Haga clic en **[!UICONTROL Siguiente]** para continuar.
 
 
-### Consulte
+### Revisar
 
 En el paso **[!UICONTROL Revisar]**.
 

@@ -8,7 +8,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ Cuando [exporte tablas completas desde Analysis Workspace a destinos en la nube]
 
 Las exportaciones pueden fallar por varios motivos. En la tabla siguiente se describen algunos de los motivos más comunes, con acciones que puede realizar para solucionar los errores:
 
-| Causa del error | Acción sugerida | Más información |
+| Motivo del error | Acción sugerida | Más información |
 |---------|----------|---------|
 | Información de cuenta o ubicación no válidas | Asegúrese de que sus credenciales y otra información sean correctas para la cuenta y la ubicación de en la nube a la que está exportando. | [Configurar cuentas de exportación de nube](/help/components/exports/cloud-export-accounts.md) y [Configurar ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md). |
 | Una dimensión o métrica del informe se ha eliminado de la vista de datos | Póngase en contacto con el administrador del sistema para ver qué componentes se eliminaron de la vista de datos. Es posible que tenga que utilizar una vista de datos diferente en la exportación o quitar componentes de la tabla que ya no estén disponibles. | [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md) |

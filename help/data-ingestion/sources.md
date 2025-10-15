@@ -71,7 +71,7 @@ Para configurar el esquema:
 
    1. Introduzca un **[!UICONTROL Nombre para mostrar para el esquema]** para su esquema y (opcionalmente) una **[!UICONTROL Descripción]**.
 
-      ![Crear ventana de esquema que muestra los campos para asignar un nombre al esquema &#x200B;](./assets/create-pr-schema-wizard-step-2.png)
+      ![Crear ventana de esquema que muestra los campos para asignar un nombre al esquema ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Seleccione **[!UICONTROL Finalizar]**.
 
@@ -176,11 +176,11 @@ Según el origen de los datos de lealtad, elija el conector de origen correspond
 
 Puede introducir datos de una variedad de fuentes. A continuación se muestran solo algunas de las muchas fuentes disponibles:
 
-- Aplicaciones de Adobe (los conectores de origen incluyen [Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) y más)
+- Aplicaciones de Adobe (los conectores de origen incluyen [Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) y más)
 
-- Almacenamiento en la nube (los conectores de origen incluyen [Amazon S3](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/blob) y más)
+- Almacenamiento en la nube (los conectores de origen incluyen [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob) y más)
 
-- Bases de datos (los conectores de origen incluyen [Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/sql-server) y más)
+- Bases de datos (los conectores de origen incluyen [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server) y más)
 
 Para configurar un conector de origen, debe hacer lo siguiente:
 
@@ -214,7 +214,7 @@ Consulte [Ingesta y uso de datos de Adobe Analytics tradicional](./analytics.md)
 
 Consulte [Ingesta y uso de datos de flujo continuo](./streaming.md) para obtener información sobre cómo usar el conector de origen de la API HTTP.
 
-Consulte [Información general sobre conectores de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#terms-and-conditions) para obtener información general sobre los conectores de origen, incluidos vínculos a más información sobre cada conector.
+Consulte [Información general sobre conectores de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions) para obtener información general sobre los conectores de origen, incluidos vínculos a más información sobre cada conector.
 
 
 ## Configurar una conexión

@@ -59,7 +59,7 @@ La siguiente información describe la configuración que utiliza un componente d
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://video.tv.adobe.com/v/3412934/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -216,7 +216,7 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 
 +++
 
-+++ Geografía
++++ Información geográfica
 
 | Nombre | Descripción |
 |------|-------------|
@@ -295,7 +295,7 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 
 | Nombre | Descripción |
 |------|-------------|
-| Tiempo de página medio | Tiempo medio de página. |
+| Tiempo promedio en la página | Tiempo medio de página. |
 | Rechazos | Devoluciones. |
 | Página de entrada | Página de entrada. |
 | Salir de la página | Página de salida. |

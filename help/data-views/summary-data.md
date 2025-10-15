@@ -21,7 +21,7 @@ A continuación, estos datos de resumen se pueden utilizar para presentar indica
 >[!NOTE]
 >
 >Los datos de resumen son datos de series temporales de un conjunto de datos de resumen. Ese conjunto de datos de resumen se basa en un esquema que utiliza la clase Métricas de resumen XDM como clase base.
->&#x200B;>Solo se admiten datos de series temporales basados en horas o días.
+>>Solo se admiten datos de series temporales basados en horas o días.
 
 >[!TIP]
 >
@@ -154,5 +154,5 @@ Asegúrese de que la configuración de los componentes de un grupo de datos de r
 >[!MORELIKETHIS]
 >
 >- Consulte el artículo [Uso de datos de resumen](/help/use-cases/data-views/summary-data.md) para ver un ejemplo de caso de uso detallado sobre cómo utlizar los datos de resumen e informar sobre ellos.
->- Blog: [Los datos de resumen favorecen los conjuntos de datos de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=es)
+>- Blog: [Los datos de resumen favorecen los conjuntos de datos de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

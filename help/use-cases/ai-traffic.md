@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-# Informe sobre el tráfico generado por LLM y AI
+# Informe sobre el tráfico generado por LLM e IA
 
 Este artículo de caso de uso explora cómo utilizar la capacidad Campos derivados de Customer Journey Analytics como base para informar sobre el tráfico generado por LLM (Modelo de lenguaje grande) y por IA.
 
@@ -297,6 +297,6 @@ Utilice los campos y segmentos derivados para informar y analizar el tráfico ge
 
 >[!MORELIKETHIS]
 >
->Este artículo de caso de uso se basa en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM y IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=es).
+>Este artículo de caso de uso se basa en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM y IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967).
 >
 >

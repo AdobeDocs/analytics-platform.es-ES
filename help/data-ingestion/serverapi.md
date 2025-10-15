@@ -272,7 +272,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 En la solicitud POST de ejemplo, `{DATASTREAM_ID}` señala al identificador de la secuencia de datos de ejemplo que configuró anteriormente. `{sandbox}` es el nombre único de su zona protegida que identifica la ruta al grupo de campos Luz cegadora personalizada.
 
-Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=es) para obtener más información sobre cómo usar la API de servidor de Edge Network.
+Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) para obtener más información sobre cómo usar la API de servidor de Edge Network.
 
 ## Configurar una conexión
 

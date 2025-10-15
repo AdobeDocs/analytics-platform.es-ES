@@ -38,7 +38,7 @@ También puede definir una [tasa de salida hacia otro sitio usando campos deriva
 
 Los campos derivados forman parte de una vista de datos que tiene la ventaja de que no todos los usuarios pueden anular o modificar la definición de una métrica de Tasa de salida hacia otro sitio. Esa ventaja también introdujo una limitación. Los usuarios que no tienen acceso a una vista de datos no pueden utilizar campos derivados y tienen que recurrir a segmentos y métricas calculadas para definir una tasa de salida hacia otro sitio.
 
-Consulte para obtener más información básica sobre cómo calcular las devoluciones y la tasa de devoluciones en Customer Journey Analytics, esta [publicación de blog](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=es).
+Consulte para obtener más información básica sobre cómo calcular las devoluciones y la tasa de devoluciones en Customer Journey Analytics, esta [publicación de blog](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446).
 
 +++
 

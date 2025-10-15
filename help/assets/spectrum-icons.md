@@ -8,7 +8,7 @@ hide-from-toc: true
 source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
 workflow-type: tm+mt
 source-wordcount: '1954'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 Esta tabla enumera todos los iconos de espectro disponibles a través de la configuración de fragmentos de iconos de espectro. Utilice el nombre para añadir el fragmento a la marca y hacer que aparezca el icono Espectro.
 
-Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) para obtener actualizaciones.
+Vea [Página Wiki](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) para obtener actualizaciones.
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 
@@ -139,7 +139,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | Maletín | `![Briefcase](/help/assets/icons/Briefcase.svg)` | ![Maletín](/help/assets/icons/Briefcase.svg) |
 | Examinar | `![Browse](/help/assets/icons/Browse.svg)` | ![Examinar](/help/assets/icons/Browse.svg) |
 | Pincel | `![Brush](/help/assets/icons/Brush.svg)` | ![Pincel](/help/assets/icons/Brush.svg) |
-| Error, | `![Bug](/help/assets/icons/Bug.svg)` | ![Error](/help/assets/icons/Bug.svg) |
+| Error | `![Bug](/help/assets/icons/Bug.svg)` | ![Error](/help/assets/icons/Bug.svg) |
 | Edificio | `![Building](/help/assets/icons/Building.svg)` | ![Generando](/help/assets/icons/Building.svg) |
 | BulkEditUser | `![BulkEditUser](/help/assets/icons/BulkEditUser.svg)` | ![UsuarioEdiciónMasiva](/help/assets/icons/BulkEditUser.svg) |
 | Botón | `![Button](/help/assets/icons/Button.svg)` | ![Botón](/help/assets/icons/Button.svg) |
@@ -182,7 +182,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | Reloj | `![Clock](/help/assets/icons/Clock.svg)` | ![Reloj](/help/assets/icons/Clock.svg) |
 | ClockCheck | `![ClockCheck](/help/assets/icons/ClockCheck.svg)` | ![ClockCheck](/help/assets/icons/ClockCheck.svg) |
 | CloneStamp | `![CloneStamp](/help/assets/icons/CloneStamp.svg)` | ![CloneStamp](/help/assets/icons/CloneStamp.svg) |
-| Cierre | `![Close](/help/assets/icons/Close.svg)` | ![Cerrar](/help/assets/icons/Close.svg) |
+| Cerrar | `![Close](/help/assets/icons/Close.svg)` | ![Cerrar](/help/assets/icons/Close.svg) |
 | CloseCaption | `![CloseCaption](/help/assets/icons/CloseCaption.svg)` | ![CerrarTítulo](/help/assets/icons/CloseCaption.svg) |
 | CerrarCírculo | `![CloseCircle](/help/assets/icons/CloseCircle.svg)` | ![CerrarCírculo](/help/assets/icons/CloseCircle.svg) |
 | Nube | `![Cloud](/help/assets/icons/Cloud.svg)` | ![Nube](/help/assets/icons/Cloud.svg) |
@@ -262,7 +262,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | DeviceTV | `![DeviceTV](/help/assets/icons/DeviceTV.svg)` | ![DeviceTV](/help/assets/icons/DeviceTV.svg) |
 | DeviceTablet | `![DeviceTablet](/help/assets/icons/DeviceTablet.svg)` | ![DeviceTablet](/help/assets/icons/DeviceTablet.svg) |
 | Dimensiones | `![Dimensions](/help/assets/icons/Dimensions.svg)` | ![Dimensiones](/help/assets/icons/Dimensions.svg) |
-| Discover | `![Discover](/help/assets/icons/Discover.svg)` | ![Discover](/help/assets/icons/Discover.svg) |
+| Discover | `![Discover](/help/assets/icons/Discover.svg)` | ![Descubrir](/help/assets/icons/Discover.svg) |
 | DiscoverOutline | `![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg)` | ![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg) |
 | DistributeBottomEdge | `![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg)` | ![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg) |
 | DistributeHorizontalCenter | `![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)` | ![DistribuirCentroHorizontal](/help/assets/icons/DistributeHorizontalCenter.svg) |
@@ -479,7 +479,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | Ayuda | `![Help](/help/assets/icons/Help.svg)` | ![Ayuda](/help/assets/icons/Help.svg) |
 | HelpOutline | `![HelpOutline](/help/assets/icons/HelpOutline.svg)` | ![EsquemaDeAyuda](/help/assets/icons/HelpOutline.svg) |
 | Histograma | `![Histogram](/help/assets/icons/Histogram.svg)` | ![Histograma](/help/assets/icons/Histogram.svg) |
-| History | `![History](/help/assets/icons/History.svg)` | ![Historial](/help/assets/icons/History.svg) |
+| Historial | `![History](/help/assets/icons/History.svg)` | ![Historial](/help/assets/icons/History.svg) |
 | Inicio | `![Home](/help/assets/icons/Home.svg)` | ![Página principal](/help/assets/icons/Home.svg) |
 | Homepage | `![Homepage](/help/assets/icons/Homepage.svg)` | ![Página principal](/help/assets/icons/Homepage.svg) |
 | Corrección rápida | `![HotFixe](/help/assets/icons/HotFixe.svg)` | ![revisión](/help/assets/icons/HotFixe.svg) |
@@ -575,7 +575,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | Minimizar | `![Minimize](/help/assets/icons/Minimize.svg)` | ![Minimizar](/help/assets/icons/Minimize.svg) |
 | MobileService | `![MobileService](/help/assets/icons/MobileService.svg)` | ![MobileService](/help/assets/icons/MobileService.svg) |
 | ModernGridView | `![ModernGridView](/help/assets/icons/ModernGridView.svg)` | ![ModernGridView](/help/assets/icons/ModernGridView.svg) |
-| Economía | `![Money](/help/assets/icons/Money.svg)` | ![Dinero](/help/assets/icons/Money.svg) |
+| Dinero | `![Money](/help/assets/icons/Money.svg)` | ![Dinero](/help/assets/icons/Money.svg) |
 | Monitorización | `![Monitoring](/help/assets/icons/Monitoring.svg)` | ![Monitorización](/help/assets/icons/Monitoring.svg) |
 | Luna | `![Moon](/help/assets/icons/Moon.svg)` | ![Luna](/help/assets/icons/Moon.svg) |
 | Más | `![More](/help/assets/icons/More.svg)` | ![Más](/help/assets/icons/More.svg) |
@@ -663,7 +663,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | ProjectAdd | `![ProjectAdd](/help/assets/icons/ProjectAdd.svg)` | ![Añadir proyecto](/help/assets/icons/ProjectAdd.svg) |
 | EdiciónDeProyecto | `![ProjectEdit](/help/assets/icons/ProjectEdit.svg)` | ![EdiciónDeProyecto](/help/assets/icons/ProjectEdit.svg) |
 | ProjectNameEdit | `![ProjectNameEdit](/help/assets/icons/ProjectNameEdit.svg)` | ![ProjectNameEdit](/help/assets/icons/ProjectNameEdit.svg) |
-| Ascender | `![Promote](/help/assets/icons/Promote.svg)` | ![Promocionar](/help/assets/icons/Promote.svg) |
+| Promocionar | `![Promote](/help/assets/icons/Promote.svg)` | ![Promocionar](/help/assets/icons/Promote.svg) |
 | Propiedades | `![Propertie](/help/assets/icons/Propertie.svg)` | ![Propiedades](/help/assets/icons/Propertie.svg) |
 | PropertiesCopy | `![PropertiesCopy](/help/assets/icons/PropertiesCopy.svg)` | ![CopiaPropiedades](/help/assets/icons/PropertiesCopy.svg) |
 | PublishCheck | `![PublishCheck](/help/assets/icons/PublishCheck.svg)` | ![PublishCheck](/help/assets/icons/PublishCheck.svg) |
@@ -692,7 +692,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | RegionSelect | `![RegionSelect](/help/assets/icons/RegionSelect.svg)` | ![SelecciónRegión](/help/assets/icons/RegionSelect.svg) |
 | Versión | `![Release](/help/assets/icons/Release.svg)` | ![Versión](/help/assets/icons/Release.svg) |
 | Relevancia | `![Relevance](/help/assets/icons/Relevance.svg)` | ![Relevancia](/help/assets/icons/Relevance.svg) |
-| Eliminar | `![Remove](/help/assets/icons/Remove.svg)` | ![Eliminar](/help/assets/icons/Remove.svg) |
+| Quitar | `![Remove](/help/assets/icons/Remove.svg)` | ![Eliminar](/help/assets/icons/Remove.svg) |
 | RemoveCircle | `![RemoveCircle](/help/assets/icons/RemoveCircle.svg)` | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) |
 | Cambiar nombre | `![Rename](/help/assets/icons/Rename.svg)` | ![Cambiar el nombre](/help/assets/icons/Rename.svg) |
 | Reordenar | `![Reorder](/help/assets/icons/Reorder.svg)` | ![Reordenar](/help/assets/icons/Reorder.svg) |
@@ -703,7 +703,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | Informe | `![Report](/help/assets/icons/Report.svg)` | ![Informe](/help/assets/icons/Report.svg) |
 | ReportAdd | `![ReportAdd](/help/assets/icons/ReportAdd.svg)` | ![ReportAdd](/help/assets/icons/ReportAdd.svg) |
 | Requerido | `![Required](/help/assets/icons/Required.svg)` | ![Requerido](/help/assets/icons/Required.svg) |
-| Cambiar el tamaño | `![Resize](/help/assets/icons/Resize.svg)` | ![Cambiar tamaño](/help/assets/icons/Resize.svg) |
+| Redimensionar | `![Resize](/help/assets/icons/Resize.svg)` | ![Cambiar tamaño](/help/assets/icons/Resize.svg) |
 | ResolvedComment | `![ResolvedComment](/help/assets/icons/ResolvedComment.svg)` | ![Comentario resuelto](/help/assets/icons/ResolvedComment.svg) |
 | Retención | `![Retention](/help/assets/icons/Retention.svg)` | ![Retención](/help/assets/icons/Retention.svg) |
 | RetentionRates | `![RetentionRates](/help/assets/icons/RetentionRates.svg)` | ![Tasas de retención](/help/assets/icons/RetentionRates.svg) |
@@ -784,9 +784,9 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | SocialNetwork | `![SocialNetwork](/help/assets/icons/SocialNetwork.svg)` | ![RedSocial](/help/assets/icons/SocialNetwork.svg) |
 | SortOrderDown | `![SortOrderDown](/help/assets/icons/SortOrderDown.svg)` | ![Orden descendente](/help/assets/icons/SortOrderDown.svg) |
 | SortOrderUp | `![SortOrderUp](/help/assets/icons/SortOrderUp.svg)` | ![Orden ascendente](/help/assets/icons/SortOrderUp.svg) |
-| Correo no deseado | `![Spam](/help/assets/icons/Spam.svg)` | ![Correo no deseado](/help/assets/icons/Spam.svg) |
+| Spam | `![Spam](/help/assets/icons/Spam.svg)` | ![Correo no deseado](/help/assets/icons/Spam.svg) |
 | Corrección ortográfica | `![Spellcheck](/help/assets/icons/Spellcheck.svg)` | ![Revisión ortográfica](/help/assets/icons/Spellcheck.svg) |
-| Giros | `![Spin](/help/assets/icons/Spin.svg)` | ![Giro](/help/assets/icons/Spin.svg) |
+| Giro | `![Spin](/help/assets/icons/Spin.svg)` | ![Giro](/help/assets/icons/Spin.svg) |
 | SplitView | `![SplitView](/help/assets/icons/SplitView.svg)` | ![SplitView](/help/assets/icons/SplitView.svg) |
 | SpotHeal | `![SpotHeal](/help/assets/icons/SpotHeal.svg)` | ![Corrección puntual](/help/assets/icons/SpotHeal.svg) |
 | Estadio | `![Stadium](/help/assets/icons/Stadium.svg)` | ![Estadio](/help/assets/icons/Stadium.svg) |
@@ -804,7 +804,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | StepBackwardCircle | `![StepBackwardCircle](/help/assets/icons/StepBackwardCircle.svg)` | ![StepBackwardCircle](/help/assets/icons/StepBackwardCircle.svg) |
 | StepForward | `![StepForward](/help/assets/icons/StepForward.svg)` | ![PasoAdelante](/help/assets/icons/StepForward.svg) |
 | StepForwardCircle | `![StepForwardCircle](/help/assets/icons/StepForwardCircle.svg)` | ![StepForwardCircle](/help/assets/icons/StepForwardCircle.svg) |
-| Stop | `![Stop](/help/assets/icons/Stop.svg)` | ![Detener](/help/assets/icons/Stop.svg) |
+| Detener | `![Stop](/help/assets/icons/Stop.svg)` | ![Detener](/help/assets/icons/Stop.svg) |
 | CírculoDetener | `![StopCircle](/help/assets/icons/StopCircle.svg)` | ![CírculoDetener](/help/assets/icons/StopCircle.svg) |
 | Cronómetro | `![Stopwatch](/help/assets/icons/Stopwatch.svg)` | ![Cronómetro](/help/assets/icons/Stopwatch.svg) |
 | Enderezar | `![Straighten](/help/assets/icons/Straighten.svg)` | ![Enderezar](/help/assets/icons/Straighten.svg) |
@@ -965,7 +965,7 @@ Vea [Página Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum
 | VolumeOne | `![VolumeOne](/help/assets/icons/VolumeOne.svg)` | ![Volumen Uno](/help/assets/icons/VolumeOne.svg) |
 | Volumen tres | `![VolumeThree](/help/assets/icons/VolumeThree.svg)` | ![VolumenTres](/help/assets/icons/VolumeThree.svg) |
 | VolumeTwo | `![VolumeTwo](/help/assets/icons/VolumeTwo.svg)` | ![VolumenDos](/help/assets/icons/VolumeTwo.svg) |
-| Mirar | `![Watch](/help/assets/icons/Watch.svg)` | ![Ver](/help/assets/icons/Watch.svg) |
+| Ver | `![Watch](/help/assets/icons/Watch.svg)` | ![Ver](/help/assets/icons/Watch.svg) |
 | WebPage | `![WebPage](/help/assets/icons/WebPage.svg)` | ![WebPage](/help/assets/icons/WebPage.svg) |
 | WebPages | `![WebPages](/help/assets/icons/WebPages.svg)` | ![Páginas web](/help/assets/icons/WebPages.svg) |
 | Flujo de trabajo | `![Workflow](/help/assets/icons/Workflow.svg)` | ![Flujo de trabajo](/help/assets/icons/Workflow.svg) |

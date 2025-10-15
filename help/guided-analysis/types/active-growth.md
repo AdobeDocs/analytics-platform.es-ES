@@ -31,7 +31,7 @@ El análisis del ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTRO
 Todos los usuarios activos (nuevos + habituales + recurrentes) aparecen como un tono verde azulado encima del eje horizontal, mientras que todos los usuarios inactivos aparecen en naranja debajo del eje horizontal.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423399/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
 
 ## Casos prácticos
 

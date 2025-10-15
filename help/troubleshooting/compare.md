@@ -7,7 +7,7 @@ exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: servicio de consultas;Servicio de consultas;sintaxis sql
 source-git-commit: d96404479aabe6020566e693245879b5ad4fad9c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 100%
 

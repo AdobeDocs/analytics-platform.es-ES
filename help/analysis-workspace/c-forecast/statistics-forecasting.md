@@ -7,7 +7,7 @@ exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -23,11 +23,11 @@ Los efectos festivos se tienen en cuenta cuando se dispone de datos correspondie
 
 * Día de Martin Luther King
 * Día del Presidente
-* Día de los Caídos (solo EE. UU.)
+* Día de los Caídos
 * Julio de 4
-* Acción de gracias (solo EE. UU.)
+* Acción de Gracias
 * Black Friday
-* Ciberlunes
+* Cyber Monday
 * Navidad
 
 El servicio también puede eliminar una anomalía simple (periféricos), por ejemplo, eliminando puntos de datos que estén fuera del intervalo de seis sigmas. Esto no está habilitado de forma predeterminada, ya que se supone que todos los puntos de datos son válidos. Las anomalías pueden tener una influencia negativa en la calidad del modelo, aunque el modelo Profeta sea resistente a periféricos en general.

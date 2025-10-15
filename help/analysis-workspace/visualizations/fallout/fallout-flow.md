@@ -7,7 +7,7 @@ role: User
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 96%
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización de visitas en el orden previsto en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Visita en orden previsto](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** version of this article._
+_En este artículo se describe la visualización de visitas en el orden previsto en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Visita en orden previsto](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ Las visualizaciones de visitas en el orden previsto le permiten:
 
 Las visitas en el orden previsto muestran la conversión y las tasas de visitas en el orden previsto entre cada paso o punto de contacto en una secuencia.
 
-Por ejemplo, se puede hacer un seguimiento de los puntos de la visita en el orden previsto durante un proceso de compra. Para ello, basta con seleccionar un punto de contacto inicial y otro de conclusión, y luego añadir puntos de contacto intermedios para crear una ruta de navegación por el sitio web. Pero también puede crear visitas en el orden previsto multidimensionales.
+Por ejemplo, se puede hacer un seguimiento de los puntos de la visita en el orden previsto durante un proceso de compra. Solo tiene que seleccionar un punto de contacto inicial y un punto de contacto de conclusión, y añadir puntos de contacto intermedios para crear una ruta de navegación del sitio web. Pero también puede hacer visitas en el orden previsto multidimensional.
 
 ## Elija entre las visualizaciones Visita en el orden previsto, Flujo y Lienzo de recorridos
 

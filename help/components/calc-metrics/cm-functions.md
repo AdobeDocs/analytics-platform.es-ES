@@ -7,7 +7,7 @@ role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1868'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ El [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md) permite ap
 
 ## Funciones de tabla en comparación con funciones de fila
 
-Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
+Una función de tabla es aquella en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es aquella en la que el resultado es diferente para cada fila de la tabla.
 
 Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"} o [!BADGE Fila]{type="Neutral"}
 
@@ -499,7 +499,7 @@ Para calcular una varianza, se considera una columna entera de números. A parti
 
 1. Súmelo al total.
 
-Cuando repita la operación sobre toda la columna, obtendrá un total único. A continuación, divida el total entre el número de elementos de la columna. El número resultante es la varianza de la columna. Esta es un número único, aunque aparece como una columna de números.
+Cuando repita la operación sobre toda la columna, obtendrá un total único. A continuación, divida ese total por el número de elementos de la columna. Ese número es la variación de la columna. Es un solo número. Sin embargo, se muestra como una columna de números.
 
 En el ejemplo de la siguiente columna de tres elementos:
 

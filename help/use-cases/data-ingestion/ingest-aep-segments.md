@@ -32,13 +32,13 @@ Es probable que ya tenga públicos en RTCP que puedan provenir de varios orígen
 
 ## Paso 2: Creación de un conjunto de datos de unión de perfiles para la exportación
 
-Para exportar la audiencia a un conjunto de datos que finalmente se pueda agregar a una conexión en Customer Journey Analytics, debe crear un conjunto de datos cuyo esquema sea un perfil [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es#understanding-union-schemas).
+Para exportar la audiencia a un conjunto de datos que finalmente se pueda agregar a una conexión en Customer Journey Analytics, debe crear un conjunto de datos cuyo esquema sea un perfil [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
 
 Los esquemas de unión están compuestos por varios esquemas que comparten la misma clase y que se han habilitado para Perfil. El esquema de unión permite ver una amalgamación de todos los campos contenidos en esquemas que comparten la misma clase. El perfil del cliente en tiempo real utiliza el esquema de unión para crear una vista holística de cada cliente individual.
 
 ## Paso 3: Exportación de un público al conjunto de datos de unión de perfiles mediante una llamada de API {#export}
 
-Para poder introducir una audiencia en Customer Journey Analytics, debe exportarla a un conjunto de datos de Adobe Experience Platform. Esto solo se puede hacer con la API de segmentación y, específicamente, con [Exportar punto final de API de trabajos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=es).
+Para poder introducir una audiencia en Customer Journey Analytics, debe exportarla a un conjunto de datos de Adobe Experience Platform. Esto solo se puede hacer con la API de segmentación y, específicamente, con [Exportar punto final de API de trabajos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html).
 
 Puede crear un trabajo de exportación utilizando el ID de audiencia que elija y poner los resultados en el conjunto de datos de Adobe Experience Platform de unión de perfiles que creó en el paso 2. Aunque puede exportar varios atributos o eventos para la audiencia, solo necesita exportar el campo ID de perfil específico que coincida con el campo ID de persona utilizado en la conexión de Customer Journey Analytics que va a aprovechar (consulte a continuación en el paso 5).
 

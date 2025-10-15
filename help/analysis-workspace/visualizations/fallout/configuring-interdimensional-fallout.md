@@ -1,13 +1,13 @@
 ---
 description: Descubra cómo la visualización de visitas en el orden previsto en Analysis Workspace le permite mezclar y hacer coincidir dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Descubra cómo esto proporciona más flexibilidad para definir los pasos del usuario que desea investigar.
-title: Visitas en el orden previsto entre dimensiones
+title: Abandonos entre dimensiones
 feature: Visualizations
 exl-id: 7975324c-4efc-4c36-bc83-dcde85d2febc
 role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Por ejemplo, además de una dimensión Página, puede agregar otros elementos de
 
 ![La vista Todas las visitas muestra varias dimensiones como puntos de contacto.](assets/fallout-otherdimension.png)
 
-Las visitas en el orden previsto se actualizan de forma dinámica y le permiten ver las visitas en el orden previsto de múltiples dimensiones.
+Las visitas en el orden previsto se actualizan de forma dinámica y le permiten ver las visitas en el orden previsto en varias dimensiones.
 
 También puede agregar métricas. Por ejemplo, puede agregar la métrica Llamada para mostrar solo las rutas de los usuarios para los que existen llamadas y que han contactado con el centro de llamadas:
 

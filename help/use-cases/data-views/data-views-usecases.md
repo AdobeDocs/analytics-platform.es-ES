@@ -60,9 +60,9 @@ Anteriormente, los enteros se trataban automáticamente como métricas en Custom
 
 ## Uso de dimensiones numéricas como métricas en diagramas de flujo {#numeric}
 
-Puede utilizar una dimensión numérica para obtener métricas en la visualización [!UICONTROL &#x200B; Flujo].
+Puede utilizar una dimensión numérica para obtener métricas en la visualización [!UICONTROL  Flujo].
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema [!UICONTROL Canales de marketing] al área [!UICONTROL Métricas] en [!UICONTROL Componentes incluidos].
 2. En los informes de Workspace, este flujo muestra [!UICONTROL Canales de marketing] fluyendo hacia [!UICONTROL Pedidos]:
 
 ![Flujo de canal de mercadotecnia de correos electrónicos a pedidos de salida.](../assets/flow.png)
@@ -73,7 +73,7 @@ Esta función se aplica específicamente a los campos basados en matrices. La fu
 
 Por ejemplo, use la funcionalidad de inclusión/exclusión en las vistas de datos para centrarse únicamente en los productos que generaron ventas de más de 50 $. Por lo tanto, si tiene un pedido que incluye una compra de productos de 50 $ y una compra de productos de 25 $, la funcionalidad de inclusión/exclusión elimina la compra de productos de 25 $, no todo el pedido.
 
-1. En la pestaña [Componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema **[!UICONTROL Ingresos]** al área **[!UICONTROL Métricas]** en [!UICONTROL Componentes incluidos].
+1. En la pestaña [Componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) de vistas de datos, arrastre el campo de esquema **[!UICONTROL Ingresos]** al área **[!UICONTROL Métricas]** en [!UICONTROL Componentes incluidos].
 1. Seleccione la métrica y configure lo siguiente en el lado derecho:
 a. En **[!UICONTROL Formato]**, seleccione **[!UICONTROL Moneda]**.
 b. En **[!UICONTROL Moneda]**, seleccione **[!UICONTROL USD]**.
@@ -112,11 +112,11 @@ Puede determinar si una sesión es realmente la primera sesión de un usuario o 
 
 Una dimensión y dos métricas facilitan esta creación de informes:
 
-* [Tipo de sesión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-reference) - Esta dimensión tiene dos valores: [!UICONTROL Nuevo] y [!UICONTROL Devolviendo]. El elemento de línea [!UICONTROL New] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
+* [Tipo de sesión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) - Esta dimensión tiene dos valores: [!UICONTROL Nuevo] y [!UICONTROL Devolviendo]. El elemento de línea [!UICONTROL New] incluye todo el comportamiento (es decir, las métricas respecto a esta dimensión) de una sesión que se ha determinado que es la primera sesión definida por una persona. Todo lo demás está incluido en el elemento de línea [!UICONTROL Devolución] (suponiendo que todo pertenece a una sesión). Cuando las métricas no forman parte de ninguna sesión, caen en el bloque “No aplicable” para esta dimensión.
 
-* [Sesiones por primera vez](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-reference). La métrica Sesiones por primera vez se define como la primera sesión definida por una persona dentro de la ventana de creación de informes.
+* [Sesiones por primera vez](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference). La métrica Sesiones por primera vez se define como la primera sesión definida por una persona dentro de la ventana de creación de informes.
 
-* [Sesiones de retorno](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-reference) La métrica Sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.—>
+* [Sesiones de retorno](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) La métrica Sesiones de retorno es el número de sesiones que no fueron la primera sesión de una persona.—>
 
 Para acceder a los componentes:
 

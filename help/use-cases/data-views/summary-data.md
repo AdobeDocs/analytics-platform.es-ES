@@ -35,7 +35,7 @@ Utilice los siguientes datos de resumen de ejemplo para este caso de uso, que mu
 | 2 | Campaña 123 | 50 | 4000 | def123 | facebook | def-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 3 | Campaña 123 | 125 | 6000 | ghi123 | facebook | ghi-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 4 | Campaña 456 | 25 | 2500 | abc456 | facebook | abc-adgroup | 18T18:20:39.000Z, 07-2024 |
-| 5 | Campaña 456 | 10 | 1000 | def456 | facebook | def-adgroup | 18T18:20:39.000Z, 07-2024 |
+| 5 | Campaña 456 | 10 | MIL | def456 | facebook | def-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 6 | Campaña 456 | 115 | 5500 | ghi456 | facebook | ghi-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 7 | Campaña 789 | 200 | 9000 | abc789 | facebook | abc-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 8 | Campaña 789 | 20 | 2000 | def789 | facebook | def-adgroup | 18T18:20:39.000Z, 07-2024 |
@@ -323,7 +323,7 @@ Para agregar un grupo de campos que contenga los campos de los datos de ejemplo:
    | `ad_group` | `ad_group` | Cadena | Ejemplo de datos de resumen |
    | `campaign_name` | `campaign_name` | Cadena | Ejemplo de datos de resumen |
    | `cost` | `cost` | Doble | Ejemplo de datos de resumen |
-   | `impression` | `impression` | Número entero | Ejemplo de datos de resumen |
+   | `impression` | `impression` | Entero | Ejemplo de datos de resumen |
    | `network` | `network` | Cadena | Ejemplo de datos de resumen |
 
 1. Para guardar el grupo de campos **[!UICONTROL Datos de resumen de ejemplo]** como parte del esquema, seleccione **[!UICONTROL Guardar]**. Verá una confirmación cuando su esquema se guarde correctamente.
@@ -459,8 +459,8 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
          | Nombre del componente | Conjunto de datos | Tipo de datos del esquema | Ruta de esquema |
          |---|---|---|---|
          | Coste | Ejemplo de conjunto de datos de resumen | Doble | *_tenant*.cost |
-         | Impresiones | Ejemplo de conjunto de datos de resumen | Número entero | *_tenant*.impression |
-         | Pedidos | Ejemplo de conjunto de datos de evento | Número entero | *_tenant*.orders |
+         | Impresiones | Ejemplo de conjunto de datos de resumen | Entero | *_tenant*.impression |
+         | Pedidos | Ejemplo de conjunto de datos de evento | Entero | *_tenant*.orders |
          | Ingresos | Ejemplo de conjunto de datos de evento | Doble | *_tenant*.revenue_amount |
 
          **Dimensiones**
@@ -603,4 +603,4 @@ El proyecto final debería ser similar al que se muestra a continuación.
 >[!MORELIKETHIS]
 >
 >[Datos de resumen](/help/data-views/summary-data.md)
->&#x200B;>[Configuración del componente del grupo de datos de resumen &#x200B;](/help/data-views/component-settings/summary-data-group.md)
+>>[Configuración del componente del grupo de datos de resumen ](/help/data-views/component-settings/summary-data-group.md)

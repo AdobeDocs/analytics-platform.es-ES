@@ -15,11 +15,11 @@ ht-degree: 37%
 
 >[!TIP]
 >
->Use la interfaz [**[!UICONTROL Uso &#x200B;]**](/help/connections/manage-connections.md#usage) para **&#x200B; ver &#x200B;** el uso de filas ingeridas y notificables en todas las conexiones de Customer Journey Analytics.
+>Use la interfaz [**[!UICONTROL Uso ]**](/help/connections/manage-connections.md#usage) para** ver **el uso de filas ingeridas y notificables en todas las conexiones de Customer Journey Analytics.
 
 
 
-Puede administrar su uso de Customer Journey Analytics en la interfaz [**[!UICONTROL Conexiones &#x200B;]**](/help/connections/create-connection.md). En esta interfaz, puede definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.
+Puede administrar su uso de Customer Journey Analytics en la interfaz [**[!UICONTROL Conexiones ]**](/help/connections/create-connection.md). En esta interfaz, puede definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (1 mes, 3 meses, 6 meses, etc.), a nivel de conexión.
 
 La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.
 

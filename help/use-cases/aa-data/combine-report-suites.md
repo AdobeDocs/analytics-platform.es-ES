@@ -59,7 +59,7 @@ La funcionalidad de preparación de datos de Experience Platform está integrada
    | clase **XDM ExperienceEvent** |
    | grupo de campos **Plantilla de Adobe Analytics ExperienceEvent** |
 
-1. Añada otro grupo de campos al esquema o [cree un grupo de campos personalizado](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=es#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) y agréguelo al esquema. Crearemos un nuevo grupo de campos y lo llamaremos **Campos unificados**. A continuación, agregaremos los campos siguientes al nuevo grupo de campos:
+1. Añada otro grupo de campos al esquema o [cree un grupo de campos personalizado](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) y agréguelo al esquema. Crearemos un nuevo grupo de campos y lo llamaremos **Campos unificados**. A continuación, agregaremos los campos siguientes al nuevo grupo de campos:
 
    | Grupo de campos personalizados «Campos unificados»  |
    | --- |
@@ -158,6 +158,6 @@ Con la preparación de datos, puede combinar la categoría del cliente en eVar 1
 
 ## Preparación de datos e ID de componente
 
-Como se ha descrito anteriormente, la preparación de datos le permite asignar diferentes campos entre varios conjuntos de informes de Adobe Analytics. Esto resulta útil en Customer Journey Analytics cuando desea combinar datos de varios conjuntos de datos en una sola conexión de Customer Journey Analytics. Sin embargo, si tiene intención de mantener los grupos de informes en conexiones Customer Journey Analytics independientes pero desea utilizar un conjunto de informes en esas conexiones y vistas de datos, cambiar el ID de componente subyacente en Customer Journey Analytics permite hacer que los informes sean compatibles aunque los esquemas sean diferentes. Consulte [Configuración de componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=es) para obtener más información.
+Como se ha descrito anteriormente, la preparación de datos le permite asignar diferentes campos entre varios conjuntos de informes de Adobe Analytics. Esto resulta útil en Customer Journey Analytics cuando desea combinar datos de varios conjuntos de datos en una sola conexión de Customer Journey Analytics. Sin embargo, si tiene intención de mantener los grupos de informes en conexiones Customer Journey Analytics independientes pero desea utilizar un conjunto de informes en esas conexiones y vistas de datos, cambiar el ID de componente subyacente en Customer Journey Analytics permite hacer que los informes sean compatibles aunque los esquemas sean diferentes. Consulte [Configuración de componentes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html) para obtener más información.
 
 El cambio del ID de componente es una función exclusiva de Customer Journey Analytics y no afecta a los datos del conector de origen de Analytics que se envían al perfil del cliente en tiempo real y a RTCDP.

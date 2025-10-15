@@ -25,9 +25,9 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización Combo de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._.
+_En este artículo se describe la visualización Combo de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._.
 
-_Consulte [Combo](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Consulte [Combo](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Tenga en cuenta lo siguiente:
 
    El resultado es similar al siguiente:
 
-   ![Gráfico combinado que muestra el período actual en un gráfico de barras y un período de comparación en el gráfico de líneas &#x200B;](assets/combo-output.png)
+   ![Gráfico combinado que muestra el período actual en un gráfico de barras y un período de comparación en el gráfico de líneas ](assets/combo-output.png)
 
    El periodo actual se muestra en el gráfico de barras. El gráfico de líneas representa el periodo de comparación. Los puntos en el gráfico de líneas se conocen como *marcadores*.
 
@@ -99,6 +99,6 @@ Este es un ejemplo de un gráfico combinado con las funciones Media acumulada y 
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

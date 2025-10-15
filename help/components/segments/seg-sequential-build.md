@@ -18,7 +18,7 @@ Puede crear segmentos secuenciales utilizando el operador lógico [!UICONTROL Th
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/37430/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -91,7 +91,7 @@ Para aplicar restricciones de tiempo al operador **[!UICONTROL Then]**:
 1. Seleccione ![Reloj](/help/assets/icons/Clock.svg).
 1. Seleccione **[!UICONTROL En]** o **[!UICONTROL Después]** del menú contextual.
 1. Especifique un período de tiempo (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, hasta **[!UICONTROL Años]**).
-1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;para abrir una ventana emergente que le permita escribir o especificar un número con&#x200B;**[!UICONTROL -]**&#x200B;o&#x200B;**[!UICONTROL +]**.
+1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**para abrir una ventana emergente que le permita escribir o especificar un número con**[!UICONTROL -]**o**[!UICONTROL +]**.
 
 Para quitar una restricción de tiempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -100,7 +100,7 @@ La tabla siguiente explica con más detalle los operadores de restricción de ti
 | Operadores | Descripción |
 |--- |--- |
 | **[!UICONTROL Después]** | El operador [!UICONTROL After] se usa para especificar un límite mínimo de tiempo entre dos puntos de comprobación. Al establecer los valores de Después, el límite de tiempo comienza cuando se aplica el segmento. Por ejemplo, si el operador [!UICONTROL After] se configura en un contenedor para identificar a las personas que visitan la página A, pero no regresan a la página B hasta después de un día, ese día empezará cuando el visitante abandone la página A.  Para que el visitante se incluya en el segmento, debe transcurrir un mínimo de 1440 minutos (un día) desde que se salió de la página A para ver la página B. |
-| **[!UICONTROL En]** | El operador [!UICONTROL En] se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador [!UICONTROL Within] se configura en un contenedor para identificar a las personas que visitan la página A y luego regresan para visitar la página B en un día, ese día comienza cuando la persona abandona la página A. Para ser incluido en el segmento, la persona tiene un tiempo máximo de un día antes de abrir la página B. Para que la persona se incluya en el segmento, la apertura de la página B debe realizarse en un máximo de 1440 minutos (un día) después de salir de la página A para ver la página B. |
+| **[!UICONTROL En]** | El operador [!UICONTROL Within] se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador [!UICONTROL Within] se configura en un contenedor para identificar a las personas que visitan la página A y luego regresan para visitar la página B en un día, ese día comienza cuando la persona abandona la página A. Para ser incluido en el segmento, la persona tiene un tiempo máximo de un día antes de abrir la página B. Para que la persona se incluya en el segmento, la apertura de la página B debe realizarse en un máximo de 1440 minutos (un día) después de salir de la página A para ver la página B. |
 | **[!UICONTROL Después pero dentro de]** | Al usar los operadores [!UICONTROL After] y [!UICONTROL Within], ambos operadores comienzan y finalizan en paralelo, no en secuencia. <br/>Por ejemplo, genera un segmento con el contenedor establecido en: `After = 1 Week(s) and Within = 2 Week(s)`.<br/>Las condiciones para identificar a los visitantes en este segmento solamente se cumplen entre una y dos semanas. Ambas condiciones se aplican desde el momento de la primera vista de página. |
 
 

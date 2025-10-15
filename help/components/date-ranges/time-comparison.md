@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un período de ti
    >
    >Esta opción del botón secundario está deshabilitada para filas de métricas, filas de intervalos de fechas y filas de dimensiones de tiempo.
 
-1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
+1. Según cómo haya configurado el intervalo de fechas de la tabla, tiene estas opciones para comparar:
 
    | Opción | Descripción |
    |---|---|
@@ -54,7 +54,7 @@ Ahora puede añadir un período de tiempo a cada columna en una tabla, lo que pe
 
    ![](assets/add-time-period-column.png)
 
-1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
+1. Según cómo haya configurado el intervalo de fechas de la tabla, tiene estas opciones para comparar:
 
    | Opción | Descripción |
    |---|---|

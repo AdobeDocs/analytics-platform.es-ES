@@ -144,4 +144,4 @@ Esta página incluye las direcciones IP que debe agregar a la lista de permitido
 >
 >[Dominios utilizados por Customer Journey Analytics](domains.md)
 >
->[Direcciones IP utilizadas por Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/ip-addresses)
+>[Direcciones IP utilizadas por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)

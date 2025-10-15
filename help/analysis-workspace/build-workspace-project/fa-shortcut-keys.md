@@ -18,11 +18,11 @@ Las teclas de acceso directo (métodos abreviados de teclado) están disponibles
 
 Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 
-- **⇧** para **[!UICONTROL **&#x200B; shift &#x200B;**]**.
-- **⌘** para **[!UICONTROL **&#x200B; cmd &#x200B;**]** (comando).
-- **⌃** para **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (control).
-- **⌥** para **[!UICONTROL **&#x200B; opt &#x200B;**]** (opción).
-- **⎇** para **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternativo).
+- **⇧** para **[!UICONTROL ** shift **]**.
+- **⌘** para **[!UICONTROL ** cmd **]** (comando).
+- **⌃** para **[!UICONTROL ** ctrl **]** (control).
+- **⌥** para **[!UICONTROL ** opt **]** (opción).
+- **⎇** para **[!UICONTROL ** alt **]** (alternativo).
 
 ## Acciones de navegación
 

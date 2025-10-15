@@ -10,7 +10,7 @@ exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -32,14 +32,14 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento d
 
 1. Seleccione un ID persistente del menú desplegable **[!UICONTROL ID persistente]**.
 
-   Si selecciona **[!UICONTROL mapa de identidad]** para el ID persistente, debe seleccionar un área de nombres Existen dos opciones:
+   Si selecciona **[!UICONTROL mapa de identidad]** para el ID persistente, debe seleccionar un área de nombres Tiene dos opciones:
 
    * Habilitar **[!UICONTROL Usar el área de nombres de identidad principal]** para usar el área de nombres de identidad principal.
    * Seleccione un área de nombres del menú desplegable **[!UICONTROL Área de nombres]**.
 
 1. Seleccione un ID de persona en el menú desplegable **[!UICONTROL ID de persona]**.
 
-   Si selecciona **[!UICONTROL mapa de identidad]** para el ID de persona, debe seleccionar un área de nombres. Existen dos opciones:
+   Si selecciona **[!UICONTROL mapa de identidad]** para el ID de persona, debe seleccionar un área de nombres. Tiene dos opciones:
 
    * Habilitar **[!UICONTROL Usar el área de nombres de identidad principal]** para usar el área de nombres de identidad principal.
    * Seleccione un área de nombres del menú desplegable **[!UICONTROL Área de nombres]**.

@@ -33,7 +33,7 @@ Las funciones que aparecen en la parte superior de esta visualización indican q
 * Las funciones de la parte inferior izquierda de la matriz son las funciones de **bajo impacto**; no están muy extendidas ni se utilizan con frecuencia.
 * Las funciones de la parte inferior derecha de la matriz son las funciones **puntuales**; están bastante extendidas pero no se utilizan con frecuencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447470?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
 
 ## Casos prácticos

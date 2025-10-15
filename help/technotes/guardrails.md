@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Protecciones de Customer Journey Analytics
 
-Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics-b2b.html).
+Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
 
 ## Tipos de límite
 
@@ -53,7 +53,7 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 | Paneles por proyecto | 15 | Protección impuesta por el sistema | Número máximo de [paneles](../analysis-workspace/home.md#panels) por proyecto. |
 | Visualizaciones por panel | 25 | Protección impuesta por el sistema | Número máximo de [visualizaciones](../analysis-workspace/home.md#visualizations) por panel. |
 | Campos derivados por tabla de forma libre | 5 | Protección impuesta por el sistema | Número máximo de campos derivados diferentes en una sola tabla de forma libre. |
-| Comentarios por proyecto | 1000 | Protección impuesta por el sistema | Número máximo de comentarios por proyecto. |
+| Comentarios por proyecto | 1.000 | Protección impuesta por el sistema | Número máximo de comentarios por proyecto. |
 
 {style="table-layout:auto"}
 
@@ -94,7 +94,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
+Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
 
 
 ## Caducidad automatizada del conjunto de datos
@@ -115,7 +115,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 | Vistas de datos | 2.000 | Protección impuesta por el sistema | Número máximo de [vistas de datos](../data-views/data-views.md) para una organización. |
 | Vistas de datos | 500-1000 | Protección impuesta por el sistema | Número máximo de vistas de datos para una conexión. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 | Conjuntos de datos | 100 | Protección impuesta por el sistema | Número máximo de [conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es) por conexión. |
-| Conexiones | 1000 | Protección impuesta por el sistema | Número máximo de [conexiones](../connections/overview.md) para una organización. |
+| Conexiones | MIL | Protección impuesta por el sistema | Número máximo de [conexiones](../connections/overview.md) para una organización. |
 | Título de conexión | 500 | Protección impuesta por el sistema | Número máximo de caracteres para un título de conexión. |
 | Métricas | 5.000 | Protección impuesta por el sistema | Número máximo de métricas en una vista de datos. |
 | Dimensiones | 5.000 | Protección impuesta por el sistema | Número máximo de dimensiones en una vista de datos. |
@@ -139,7 +139,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es).
+Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Exportación de datos de destinos
@@ -151,7 +151,7 @@ Consulte también [Protecciones de Experience Platform para la ingesta de datos]
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
+Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
 
 
 ## Zona de aterrizaje de datos
@@ -258,7 +258,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 >[!NOTE]
 >
->Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es) de Experience Platform para obtener más información.
+>Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) de Experience Platform para obtener más información.
 
 | Flujo de datos | Latencia esperada |
 |---|---|

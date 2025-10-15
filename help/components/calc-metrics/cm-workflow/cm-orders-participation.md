@@ -6,7 +6,7 @@ exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 1b6e1d432bfe4b0574b8ee68bcfa940941f3c36f
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -41,4 +41,4 @@ Para utilizar la métrica calculada:
 
 1. (Opcional) Comparta la métrica con otros usuarios de su organización, tal como se describe en [Compartir métricas calculadas](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
 
-Esta es una forma sencilla de indicar los canales de marketing asistidos al realizar pedidos. Como alternativa, en una tabla de forma libre, puede seleccionar cualquier métrica y, en el menú contextual, ajustar el modelo de atribución directamente desde la tabla.
+Esta es una manera fácil de saber qué canales de marketing ayudaron a tramitar las solicitudes. Como alternativa, en una tabla de forma libre, puede seleccionar cualquier métrica y, en el menú contextual, ajustar el modelo de atribución directamente desde la tabla.

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 84%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe el panel de forma libre de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte [Panel de forma libre](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe el panel de forma libre de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte [Panel de forma libre](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -37,6 +37,6 @@ Para usar un **[!UICONTROL panel de forma libre]**:
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Uso de componentes en Workspace](/help/components/use-components-in-workspace.md)
->&#x200B;>[Visualización de tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Uso de componentes en Workspace](/help/components/use-components-in-workspace.md)
+>>[Visualización de tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

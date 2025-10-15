@@ -7,7 +7,7 @@ role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '5241'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Para obtener acceso a estas funciones, seleccione **[!UICONTROL Mostrar todo]** 
 
 ## Funciones de tabla en comparación con funciones de fila
 
-Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
+Una función de tabla es aquella en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es aquella en la que el resultado es diferente para cada fila de la tabla.
 
 Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"} o [!BADGE Fila]{type="Neutral"}
 
@@ -1499,9 +1499,9 @@ Devuelve la tangente del ángulo determinado. Si el ángulo se expresa en grados
 | métrica | La métrica para la que desea la puntuación Z |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos |
 
-Una puntuación Z de 0 (cero) significa que la puntuación es la misma que la media. Una variable estandarizada puede ser positiva o negativa, lo cual indica si está por encima o por debajo de la media y a cuantas desviaciones estándar.
+Una puntuación Z de 0 (cero) significa que la puntuación es la misma que la media. Una puntuación Z puede ser positiva o negativa, lo que indica si está por encima o por debajo de la media y por cuántas desviaciones estándar.
 
-La ecuación de variable estandarizada es:
+La ecuación para la puntuación Z es:
 
 ![](assets/z_score.png)
 

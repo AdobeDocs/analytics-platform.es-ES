@@ -6,7 +6,7 @@ exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 18%
+ht-degree: 13%
 
 ---
 
@@ -34,12 +34,12 @@ Para definir la nueva métrica calculada, usa el [Creador de métricas calculada
 
 Antes de crear métricas calculadas, tenga en cuenta cuidadosamente el siguiente flujo de trabajo:
 
-| Tarea del flujo de trabajo | Descripción |
+| Tarea de flujo de trabajo | Descripción |
 | --- | --- |
 | Planificar métricas calculadas | Especialmente para las métricas que se van a aprobar oficialmente, la planificación tiene sentido para delinear qué métricas calculadas se utilizarán ampliamente y cómo se definirán. |
 | [Generar](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) métricas calculadas | Cree y edite métricas calculadas y métricas calculadas avanzadas para utilizarlas en componentes de [!DNL Customer Journey Analytics].   |
 | [Etiquetar](cm-tagging.md) métricas calculadas | Etiquete métricas calculadas para que sea más fácil organizar y compartir. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas. |
-| [Aprobar](cm-approving.md) métricas calculadas | Apruebe métricas calculadas para hacerlas canónicas. |
+| [Aprobar](cm-approving.md) métricas calculadas | Apruebe métricas calculadas para convertirlas en canónicas. |
 | Uso de métricas calculadas | Utilice las métricas calculadas en sus proyectos. |
 | [Compartir](cm-sharing.md) métricas calculadas | Comparta sus métricas calculadas con otras personas, grupos u organizaciones. |
 | [Filtrar](cm-filter.md) métricas calculadas | Filtre las métricas calculadas por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados). |
