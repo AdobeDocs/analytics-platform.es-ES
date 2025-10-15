@@ -70,6 +70,6 @@ El vínculo **Segmentos** muestra una lista resumida de los segmentos utilizados
 >[!MORELIKETHIS]
 >
 >[Seleccionar vistas de datos](select-data-view.md)
->>[Seleccione un intervalo de fecha](select-date-range.md)
->>[Trabajar con filtros](work-with-filters.md)
+>&#x200B;>[Seleccione un intervalo de fecha](select-date-range.md)
+>&#x200B;>[Trabajar con filtros](work-with-filters.md)
 >

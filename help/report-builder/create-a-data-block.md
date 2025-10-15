@@ -114,7 +114,7 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 >[!MORELIKETHIS]
 >
 >[Seleccionar una vista de datos](select-data-view.md)
->>[Seleccione un intervalo de fecha](select-date-range.md)
->>[Filtrar dimensiones](filter-dimensions.md)
->>[Trabajar con segmentos](work-with-filters.md)
+>&#x200B;>[Seleccione un intervalo de fecha](select-date-range.md)
+>&#x200B;>[Filtrar dimensiones](filter-dimensions.md)
+>&#x200B;>[Trabajar con segmentos](work-with-filters.md)
 >

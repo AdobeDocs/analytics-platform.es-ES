@@ -44,7 +44,7 @@ Un cuadro de resultados de Adobe Analytics muestra visualizaciones de datos clav
 
 Como revisor de este cuadro de resultados, puede utilizar el creador de cuadros de resultados para configurar los mosaicos que aparecerán en el cuadro de resultados de su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. La interfaz del creador de cuadros de resultados se muestra a continuación:
 
-![Generador de cuadros de resultados que muestra la nueva ventana de cuadro de resultados móvil. ](assets/scorecard_builder.png)
+![Generador de cuadros de resultados que muestra la nueva ventana de cuadro de resultados móvil. &#x200B;](assets/scorecard_builder.png)
 
 Para crear el cuadro de resultados, debe hacer lo siguiente:
 
@@ -79,7 +79,7 @@ Para implementar la plantilla del cuadro de resultados:
 
 1. Para añadir un nuevo mosaico a su cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
-   ![Nueva ventana de cuadro de resultados móvil con una flecha que señala a una métrica (Nuevo KPI) que se ha soltado en el cuadro de resultados. ](assets/build_list.png)
+   ![Nueva ventana de cuadro de resultados móvil con una flecha que señala a una métrica (Nuevo KPI) que se ha soltado en el cuadro de resultados. &#x200B;](assets/build_list.png)
 
 
 1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
