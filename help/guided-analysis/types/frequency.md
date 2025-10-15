@@ -25,7 +25,7 @@ ht-degree: 100%
 
 El análisis ![Frecuencia](/help/assets/icons/Histogram.svg) **[!UICONTROL Frecuencia]** agrupa los datos de eventos según la frecuencia con la que se producen eventos en el producto. El eje vertical de este análisis contiene contenedores que representan la frecuencia del evento. El eje horizontal mide el número de usuarios o sesiones para cada contenedor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435805/?captions=spa&quality=12&learn=on)
 
 ## Casos prácticos
 

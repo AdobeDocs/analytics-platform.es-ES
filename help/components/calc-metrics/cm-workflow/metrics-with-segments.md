@@ -90,7 +90,7 @@ Repita los pasos anteriores para la versión internacional de la métrica calcul
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada segmentada como métrica sin implementación](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada segmentada como métrica sin implementación](https://video.tv.adobe.com/v/37936?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

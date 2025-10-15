@@ -59,7 +59,7 @@ La siguiente información describe la configuración que utiliza un componente d
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://video.tv.adobe.com/v/3412934/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

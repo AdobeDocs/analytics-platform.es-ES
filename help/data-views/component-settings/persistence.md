@@ -108,7 +108,7 @@ Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://video.tv.adobe.com/v/3409291/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

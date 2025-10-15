@@ -19,7 +19,7 @@ La siguiente información proporciona a los usuarios ejecutivos información sob
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ayuda a los ejecutivos a acceder a los cuadros de resultados móviles](https://video.tv.adobe.com/v/343460/){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ayuda a los ejecutivos a acceder a los cuadros de resultados móviles](https://video.tv.adobe.com/v/3444839?captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

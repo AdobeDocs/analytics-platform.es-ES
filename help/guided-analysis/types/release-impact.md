@@ -25,7 +25,7 @@ ht-degree: 100%
 
 El análisis del ![Versión](/help/assets/icons/Release.svg) **[!UICONTROL Impacto de la versión]** muestra una comparación del rendimiento de los indicadores clave antes y después de una fecha determinada. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en el centro del gráfico representa la fecha que desea comparar antes y después. Esta fecha suele representar un cambio notable en el producto que desea medir, como una actualización del producto o el lanzamiento de una campaña.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421665/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423454/?captions=spa&quality=12&learn=on)
 
 ## Casos prácticos
 

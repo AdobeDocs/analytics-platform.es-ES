@@ -41,7 +41,7 @@ Con un gráfico de rectángulos, puede ver patrones que serían difíciles de id
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de gráfico de rectángulos](https://video.tv.adobe.com/v/334458/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de gráfico de rectángulos](https://video.tv.adobe.com/v/3416853/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

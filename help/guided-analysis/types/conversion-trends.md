@@ -27,7 +27,7 @@ ht-degree: 100%
 El análisis de ![Tendencias de conversión](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Tendencias de conversión]** proporciona una visualización de las tendencias de las tasas de conversión a lo largo del tiempo. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical representa la tasa de conversión.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421662/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423492/?captions=spa&quality=12&learn=on)
 
 
 ## Casos prácticos
