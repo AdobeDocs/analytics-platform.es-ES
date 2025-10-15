@@ -1580,10 +1580,10 @@ Desea obtener una parte de una dirección URL y utilizarla como identificador de
 
 | URL de la página |
 |---|
-| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/es/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/es/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/es/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/es/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 

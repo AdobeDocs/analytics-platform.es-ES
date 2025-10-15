@@ -86,7 +86,7 @@ Para enviar un archivo según una programación a los destinatarios por correo e
 
 >[!NOTE]
 >
->La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de Customer Journey Analytics que hayan adquirido el producto de complemento [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html?lang=es).
+>La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de Customer Journey Analytics que hayan adquirido el producto de complemento [Healthcare Shield](https://business.adobe.com/es/solutions/industries/healthcare.html?lang=es).
 
 Adobe utiliza la contraseña para cifrar proyectos programados, independientemente de si se envían en formato .pdf o .csv.
 
