@@ -337,7 +337,7 @@ En la interfaz de usuario de Experience Platform, haga lo siguiente:
    1. (opcional) Escriba **[!UICONTROL Descripción]**.
    1. Seleccione **[!UICONTROL Finalizar]**.
 1. Configure el esquema para que contenga un grupo de campos personalizados (por ejemplo, **[!UICONTROL Pertenencia a la audiencia]**) que contenga dos campos llamados **[!UICONTROL audienceMembershipId]** y **[!UICONTROL audienceMembershipName]**.
-1. Asegúrese de que el campo **[!UICONTROL personID]** sea una **[!UICONTROL identidad]**, **[!UICONTROL identidad principal]** y que tenga **[!UICONTROL Correo electrónico]** como el área de nombres de ID**[!UICONTROL identidad]**.
+1. Asegúrese de que el campo **[!UICONTROL personID]** sea una **[!UICONTROL identidad]**, **[!UICONTROL identidad principal]** y que tenga **[!UICONTROL Correo electrónico]** como el área de nombres de ID&#x200B;**[!UICONTROL identidad]**.
 
    ![Segmento para exportación](assets/segment-for-export.png)
 
