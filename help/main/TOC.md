@@ -20,7 +20,7 @@ ht-degree: 99%
 
 + [Guía de Adobe Customer Journey Analytics](../getting-started/cja-landing.md)
 
-+ Notas de la versión  {#releases}
++ Notas de la versión {#releases}
    + [Última versión](../release-notes/latest.md)
    + [Notas de versión preliminar](../release-notes/pre-release-notes.md)
    + [Versiones de 2025](../release-notes/2025.md)
@@ -222,7 +222,7 @@ ht-degree: 99%
          + [Información general](../analysis-workspace/visualizations/c-flow/flow.md)
          + [Configuración](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flujos interdimensionales](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + Lienzo de recorrido  {#journey-canvas}
+      + Lienzo de recorrido {#journey-canvas}
          + [Información general](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + [Configuración](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
          + [Solucionar problemas](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
@@ -359,7 +359,7 @@ ht-degree: 99%
       + [Administración de segmentos](/help/components/segments/seg-manage.md)
       + [Operadores](/help/components/segments/seg-operators.md)
       + [Uso de segmentos](/help/components/segments/seg-use.md)
-   + Métricas calculadas  {#cja-calcmetrics}
+   + Métricas calculadas {#cja-calcmetrics}
       + [Información general](../components/calc-metrics/calc-metr-overview.md)
       + Flujo de trabajo {#cm-workflow}
          + [Crear métricas calculadas](../components/calc-metrics/cm-workflow/cm-workflow.md)
