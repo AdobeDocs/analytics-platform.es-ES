@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 9e23382800326440ed2a583e80029c9f27bb2494
+source-git-commit: f6e64e850b8c416817b76697d869c10adb9b544b
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1177'
 ht-degree: 4%
 
 ---
@@ -17,21 +17,27 @@ ht-degree: 4%
 
 Los usuarios con [los permisos necesarios](#permission-requirements-to-generate-slides) pueden generar automáticamente presentaciones .pptx a partir de proyectos de Analysis Workspace. Al generar estas presentaciones de diapositivas, Customer Journey Analytics crea automáticamente una historia a partir de sus datos identificando perspectivas clave y convirtiéndolas en diapositivas listas para las partes interesadas.
 
-Esta funcionalidad reduce el tiempo y el esfuerzo necesarios para sacar a la luz los resultados de sus proyectos de Workspace y le permite crear rápidamente narrativas ejecutivas y comunicar el impacto comercial a las partes interesadas.
-
-Esta historia de datos generada automáticamente permite a los analistas centrarse en la exploración de datos, mientras que Customer Journey Analytics depura y da formato a las conclusiones del analista para que las utilicen las partes interesadas.
+Esta historia de datos generada automáticamente reduce el tiempo, el esfuerzo y la experiencia necesarios para sacar a la luz los resultados de un proyecto de Workspace. Los analistas pueden centrarse más en la exploración de datos, a la vez que permiten a Customer Journey Analytics crear y dar formato a la narrativa ejecutiva y comunicar el impacto comercial a las partes interesadas.
 
 ## Comprender las historias de datos en las presentaciones de diapositivas
 
-Analysis Workspace utiliza IA generativa para crear historias de datos en las presentaciones de diapositivas. Estas historias de datos complementan un análisis para un proyecto de Workspace determinado al proporcionar contexto adicional, destacar elementos importantes e ideas para los pasos siguientes. llamar las tendencias ocultas, las anomalías, los factores que contribuyen, los impulsores clave
+Analysis Workspace utiliza IA generativa para crear una narrativa basada en los datos de Workspace, en formato de presentación de diapositivas.
+
+En las secciones siguientes se describe el valor adicional que proporcionan las historias de datos, los elementos necesarios de un proyecto que ayudan a dar forma a la narrativa y los elementos clave que se incluyen en cada resultado de la presentación.
 
 ### Valor adicional proporcionado por las historias de datos
+
+Las historias de datos proporcionan valor y perspectivas a un proyecto de Workspace al hacer que los datos sean accesibles para los usuarios con menos experiencia en análisis de datos.
 
 Las historias de datos complementan un análisis para un proyecto de Workspace determinado al:
 
 * Proporcionar contexto adicional
 
 * Resaltar perspectivas importantes
+
+* Ofrecer orientación sobre si los datos son buenos o malos en un contexto determinado
+
+* Evaluar si ciertas variables están siendo infravaloradas o sobrevaloradas.
 
 * Llamar la atención sobre tendencias ocultas, anomalías y otros factores que contribuyen
 
