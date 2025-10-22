@@ -6,24 +6,24 @@ feature: Curate and Share
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: f6e64e850b8c416817b76697d869c10adb9b544b
+source-git-commit: 4d7ecc3eaba93424d43d0f4c312aeec78016395f
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1494'
 ht-degree: 4%
 
 ---
 
 # Narración de datos: Generar presentaciones de diapositivas a partir de informes de Workspace {#generate-powerpoint}
 
-Los usuarios con [los permisos necesarios](#permission-requirements-to-generate-slides) pueden generar automáticamente presentaciones .pptx a partir de proyectos de Analysis Workspace. Al generar estas presentaciones de diapositivas, Customer Journey Analytics crea automáticamente una historia a partir de sus datos identificando perspectivas clave y convirtiéndolas en diapositivas listas para las partes interesadas.
+Los usuarios con [los permisos necesarios](#permission-requirements-to-generate-slides) pueden generar automáticamente presentaciones .pptx basadas en proyectos de Analysis Workspace. Al generar estas presentaciones de diapositivas, Customer Journey Analytics crea automáticamente una historia a partir de sus datos identificando perspectivas clave y convirtiéndolas en diapositivas listas para las partes interesadas.
 
-Esta historia de datos generada automáticamente reduce el tiempo, el esfuerzo y la experiencia necesarios para sacar a la luz los resultados de un proyecto de Workspace. Los analistas pueden centrarse más en la exploración de datos, a la vez que permiten a Customer Journey Analytics crear y dar formato a la narrativa ejecutiva y comunicar el impacto comercial a las partes interesadas.
+Esta historia de datos generados reduce el tiempo, el esfuerzo y la experiencia necesarios para sacar a la luz los resultados de un proyecto de Workspace. Los analistas pueden centrarse más en la exploración de datos, a la vez que permiten a Customer Journey Analytics crear y dar formato a la narrativa ejecutiva y comunicar el impacto comercial a las partes interesadas.
 
 ## Comprender las historias de datos en las presentaciones de diapositivas
 
-Analysis Workspace utiliza IA generativa para crear una narrativa basada en los datos de Workspace, en formato de presentación de diapositivas.
+Una **historia de datos** es la narrativa que Customer Journey Analytics crea en función de sus datos de Workspace. Con IA generativa, Customer Journey Analytics identifica las temáticas importantes dentro de los paneles y las visualizaciones que decida incluir en la presentación de diapositivas. Genera perspectivas y luego pasa por un proceso de deduplicación y puntuación para identificar un subconjunto de perspectivas que se utilizará para crear la historia de datos.
 
-En las secciones siguientes se describe el valor adicional que proporcionan las historias de datos, los elementos necesarios de un proyecto que ayudan a dar forma a la narrativa y los elementos clave que se incluyen en cada resultado de la presentación.
+Las secciones siguientes describen el valor adicional que proporcionan las historias de datos, los elementos necesarios de un proyecto que ayudan a dar forma a la narrativa y los elementos clave que se incluyen en la salida de la presentación .pptx.
 
 ### Valor adicional proporcionado por las historias de datos
 
@@ -37,11 +37,9 @@ Las historias de datos complementan un análisis para un proyecto de Workspace d
 
 * Ofrecer orientación sobre si los datos son buenos o malos en un contexto determinado
 
-* Evaluar si ciertas variables están siendo infravaloradas o sobrevaloradas.
+* Evaluar si ciertas variables están siendo infravaloradas o sobrevaloradas
 
 * Llamar la atención sobre tendencias ocultas, anomalías y otros factores que contribuyen
-
-* Identificación de controladores clave
 
 * Dar ideas para los pasos siguientes
 
@@ -51,7 +49,7 @@ Analysis Workspace crea historias de datos teniendo en cuenta los siguientes ele
 
 * Relaciones entre dimensiones e intermétricas
 
-* Los elementos individuales que forman la base del análisis: dimensiones, métricas, filtros, estructura de tabla de forma libre, visualizaciones y paneles
+* Los elementos individuales que forman la base del análisis (dimensiones, métricas, filtros, estructura de tabla de forma libre, visualizaciones y paneles)
 
 * Nombres asignados a los paneles, tablas y visualizaciones
 
@@ -61,9 +59,11 @@ Analysis Workspace crea historias de datos teniendo en cuenta los siguientes ele
 
 ### Elementos de presentación de una historia de datos
 
-Los artículos de datos constan de una diapositiva de resumen ejecutivo, diapositivas de detalle y divisores de sección.
+Los artículos de datos constan de una diapositiva de título, una diapositiva de resumen ejecutivo, diapositivas de detalle y divisores de sección.
 
-**Resumen ejecutivo:** da prioridad a las perspectivas de mayor valor y crea una historia global de entre 1 y 5 frases de longitud.
+**Diapositiva de título:** Muestra el título y el nombre del moderador especificados. La información muestra en las notas del orador que describe el proceso de creación del tema y la narrativa, cuántas perspectivas se generaron y utilizaron y qué paneles se utilizaron.
+
+**Resumen ejecutivo:** da prioridad a las perspectivas de mayor valor y crea una historia global que tiene entre 1 y 5 frases de longitud.
 
 **Diapositivas de detalle:** genera información relacionada con tablas, paneles o visualizaciones de un proyecto de Workspace. Las perspectivas constan de tendencias, estacionalidades, anomalías y correlaciones.
 
@@ -104,11 +104,11 @@ Los artículos de datos constan de una diapositiva de resumen ejecutivo, diaposi
    | **[!UICONTROL Título de portada]** | Especifique un título para la presentación. Este título aparece en la diapositiva de título de la presentación. |
    | **[!UICONTROL Incluir nombre del moderador]** | Especifique el nombre del moderador. Este nombre aparece en la diapositiva de título de la presentación, debajo del título de la portada. |
    | **[!UICONTROL Paneles y visualizaciones que incluir]** | Elija los paneles y la visualización que desee incluir en la presentación. Puede incluir hasta 50 visualizaciones.<p>Se admiten la mayoría de los paneles y las visualizaciones. Para obtener información acerca de paneles y visualizaciones no compatibles, vea [Elementos y características de proyecto no compatibles](#unsupported-project-elements-and-features).</p> |
-   | **[!UICONTROL Descripciones de paneles y visualizaciones]** | |
-   | **[!UICONTROL Anotaciones]** | |
-   | **[!UICONTROL Enfatizar componentes]** | Elija entre las visualizaciones hasta 5 métricas y 5 dimensiones que desee resaltar en la presentación.<p>Cuando no se aplica ningún énfasis, los componentes se muestran en las presentaciones de la siguiente manera:<ul><li>**Métricas y dimensiones:** Cursiva</li><li>**Elementos de Dimension:** Comillas</li></ul></p><p>Cuando se aplica énfasis, los componentes se muestran en las presentaciones de la siguiente manera:</p><ul><li>**Métricas y dimensiones:** Cursiva y negrita</li><li>**Elementos de Dimension:** Negrita cuando se enfatiza la dimensión correspondiente<p>También se aplica un color al elemento de dimensión cuando este se resalta en el gráfico.</p></li></ul> |
+   | **[!UICONTROL Descripciones de paneles y visualizaciones]** | Elija si desea incluir descripciones de paneles y visualizaciones en la presentación de diapositivas generada. |
+   | **[!UICONTROL Anotaciones]** | Elija si las anotaciones están visibles en la presentación de diapositivas generada. Para obtener más información sobre las anotaciones, consulte la [Información general sobre anotaciones](/help/components/annotations/overview.md). |
+   | **[!UICONTROL Enfatizar componentes]** | Elija entre las visualizaciones hasta 5 métricas y 5 dimensiones que desee resaltar en la presentación. Los componentes que elija se clasifican más alto y se les da más peso cuando se crean los temas y la narrativa general de la historia de datos. <p>Cuando no se aplica ningún énfasis, los componentes se muestran en las presentaciones de la siguiente manera:<ul><li>**Métricas y dimensiones:** Cursiva</li><li>**Elementos de Dimension:** Comillas</li></ul></p><p>Cuando se aplica énfasis, los componentes se muestran en las presentaciones de la siguiente manera:</p><ul><li>**Métricas y dimensiones:** Cursiva y negrita</li><li>**Elementos de Dimension:** Negrita cuando se enfatiza la dimensión correspondiente<p>También se aplica un color al elemento de dimensión cuando este se resalta en el gráfico.</p></li></ul> |
 
-1. (Condicional) Seleccione **[!UICONTROL Tema predeterminado]** si desea generar diapositivas rápidamente en menos pasos y si no se requiere un tema corporativo para la presentación de diapositivas.
+1. (Condicional) Seleccione **[!UICONTROL Tema predeterminado]** si desea generar diapositivas en menos pasos y si no se requiere un tema corporativo para la presentación de diapositivas.
 
    Simplemente elija el tema de color de la presentación seleccionando el color deseado.
 
@@ -122,11 +122,25 @@ Los artículos de datos constan de una diapositiva de resumen ejecutivo, diaposi
 
    * (Recomendado) Descargar una plantilla en blanco y modificarla.
 
-      1. Descargue esta plantilla en blanco. <!--add link-->
+      1. Descargar [esta plantilla en blanco](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?).
 
       1. Aplique los estilos personalizados a la plantilla en blanco.
 
-      1. Vuelva a cargar la plantilla sin cambiar los nombres de los diseños maestros.
+      1. Vuelva a cargar la plantilla sin cambiar los nombres del diseño maestro:
+
+         Desde el sistema de archivos, arrastre la plantilla en blanco que tenga los estilos personalizados aplicados al área de colocación.
+
+         O bien
+
+         Seleccione **[!UICONTROL Examinar]**, luego busque y seleccione la plantilla en blanco que tenga los estilos personalizados aplicados desde el sistema de archivos.
+
+      1. En la sección **[!UICONTROL Asignación de diseños]**, cada diseño de diapositiva que se usa en las presentaciones generadas se asigna automáticamente a una diapositiva del tema cargado. Revise las selecciones para asegurarse de que son correctas.
+
+         ![Asignación de diseño](assets/generate-slides-layout-mapping.png)
+
+      1. (Condicional) Si el diseño de una diapositiva no está asignado correctamente, seleccione **[!UICONTROL Cambiar selección]** sobre la diapositiva elegida en la presentación cargada y, a continuación, elija la diapositiva que coincida con el diseño.
+
+         Repita este proceso para cada diapositiva asignada incorrectamente.
 
    * Cargue una plantilla personalizada directamente.
 
@@ -136,20 +150,23 @@ Los artículos de datos constan de una diapositiva de resumen ejecutivo, diaposi
 
          Seleccione **[!UICONTROL Examinar]**, luego busque y seleccione su plantilla personalizada del sistema de archivos.
 
-         Asegúrese de que el archivo cargado tenga diseños de patrón con los siguientes nombres: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;
+         Asegúrese de que el archivo cargado tenga diseños de patrón con los siguientes nombres: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;.
 
          Se admiten archivos .pptx y .potx de hasta 25 MB de tamaño.
 
+      1. En la sección **[!UICONTROL Asignación de diseños]**, cada diseño de diapositiva que se usa en las presentaciones generadas se asigna automáticamente a una diapositiva del tema cargado. Revise las selecciones para asegurarse de que son correctas.
+
+         ![Plantilla personalizada de asignación de diseño](assets/generate-slides-layout-mapping-custom-template.png)
+
+      1. (Condicional) Si el diseño de una diapositiva no está asignado correctamente, seleccione **[!UICONTROL Cambiar selección]** sobre la diapositiva elegida en la presentación cargada y, a continuación, elija la diapositiva que coincida con el diseño.
+
+         Repita este proceso para cada diapositiva asignada incorrectamente.
+
 1. Seleccione **[!UICONTROL Exportar PPT]**.
 
-1. (Recomendado) Revise y edite la presentación .ppt y realice los cambios que sean necesarios, tal como se describe en la sección siguiente, [Editar diapositivas de una presentación generada anteriormente](#edit-slides-from-a-previously-generated-presentation).
+   La presentación .pptx se descarga automáticamente en su estación de trabajo.
 
-## Editar diapositivas de una presentación generada anteriormente
-
-
-## Descargar una presentación .pptx generada
-
-
+1. (Recomendado) Abrir la presentación .pptx y revisarla. Realice los cambios necesarios.
 
 ## Requisitos de permisos para generar diapositivas
 
