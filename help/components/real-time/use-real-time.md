@@ -4,7 +4,7 @@ title: Usar informes en tiempo real
 feature: Real-time Reporting
 role: User
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+source-git-commit: 0e5a64e78e5a471f8b7c9fc32fdbae2b2e70230a
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 12%
@@ -18,8 +18,6 @@ ht-degree: 12%
 >title="Actualización en tiempo real"
 >abstract="Habilite la opción para actualizar los datos y las visualizaciones en este panel en tiempo real."
 
-{{release-limited-testing}}
-
 Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actualización en tiempo real]** en cualquiera de los siguientes paneles de su proyecto de Workspace:
 
 * [Panel en blanco](/help/analysis-workspace/c-panels/blank-panel.md)
@@ -27,7 +25,7 @@ Para usar los informes en tiempo real, habilita la opción **[!UICONTROL Actuali
 * [Atribución](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento siguiente o anterior](/help/analysis-workspace/c-panels/next-previous.md)
 
-Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL &#x200B; *Última actualización a las 07:55 pm*].
+Verá un mensaje con la marca de tiempo de la actualización más reciente de los datos. Por ejemplo: [!UICONTROL  *Última actualización a las 07:55 pm*].
 
 Seleccione el periodo en tiempo real sobre el que desea crear el informe desde el menú desplegable. Entre las opciones disponibles se encuentran:
 

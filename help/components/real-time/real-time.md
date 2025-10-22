@@ -4,18 +4,16 @@ title: Información general de informes en tiempo real
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+source-git-commit: 0e5a64e78e5a471f8b7c9fc32fdbae2b2e70230a
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 7%
+source-wordcount: '780'
+ht-degree: 6%
 
 ---
 
 # Resumen de informes en tiempo real
 
 La creación de informes en tiempo real en Customer Journey Analytics muestra y actualiza datos y visualizaciones en uno o varios paneles de Analysis Workspace en tiempo real.
-
-{{release-limited-testing}}
 
 {{ultimate-package}}
 
@@ -59,6 +57,7 @@ La forma en que se recopilan los datos determina la latencia de los informes en 
 | 3 | Conector de origen de Adobe Analytics | 17 minutos | 105 minutos |
 | 4 | Otros conectores de origen en los conectores de origen (incluidos los datos por lotes) | 25 horas | 25 horas |
 
+Si se produce una interrupción del servicio durante más de media hora, los datos en tiempo real no se rellenan con datos cuando se resuelven los problemas. En su lugar, los informes en tiempo real recopilan datos en tiempo real desde el momento en que los servicios empiezan a funcionar de nuevo. No se pierde ningún dato durante este periodo y aún está disponible utilizando las funciones de sistema de informes estándar fuera de los sistemas de sistema de informes en tiempo real.
 
 ## Limitaciones
 
