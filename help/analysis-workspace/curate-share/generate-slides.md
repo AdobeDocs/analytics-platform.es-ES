@@ -4,11 +4,9 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: 4d7ecc3eaba93424d43d0f4c312aeec78016395f
+source-git-commit: 3807ad0beac3656c1f3bd886611fbe4470a6e7c5
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1535'
 ht-degree: 4%
 
 ---
@@ -35,8 +33,6 @@ Las historias de datos complementan un análisis para un proyecto de Workspace d
 
 * Resaltar perspectivas importantes
 
-* Ofrecer orientación sobre si los datos son buenos o malos en un contexto determinado
-
 * Evaluar si ciertas variables están siendo infravaloradas o sobrevaloradas
 
 * Llamar la atención sobre tendencias ocultas, anomalías y otros factores que contribuyen
@@ -54,6 +50,8 @@ Analysis Workspace crea historias de datos teniendo en cuenta los siguientes ele
 * Nombres asignados a los paneles, tablas y visualizaciones
 
 * El orden de las métricas en una tabla de forma libre (para determinar la prioridad)
+
+* El orden de las visualizaciones en un panel (para determinar la prioridad)
 
 * Números y textos de resumen (para determinar las métricas que deben resaltarse en la historia de datos)
 
@@ -106,7 +104,7 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
    | **[!UICONTROL Paneles y visualizaciones que incluir]** | Elija los paneles y la visualización que desee incluir en la presentación. Puede incluir hasta 50 visualizaciones.<p>Se admiten la mayoría de los paneles y las visualizaciones. Para obtener información acerca de paneles y visualizaciones no compatibles, vea [Elementos y características de proyecto no compatibles](#unsupported-project-elements-and-features).</p> |
    | **[!UICONTROL Descripciones de paneles y visualizaciones]** | Elija si desea incluir descripciones de paneles y visualizaciones en la presentación de diapositivas generada. |
    | **[!UICONTROL Anotaciones]** | Elija si las anotaciones están visibles en la presentación de diapositivas generada. Para obtener más información sobre las anotaciones, consulte la [Información general sobre anotaciones](/help/components/annotations/overview.md). |
-   | **[!UICONTROL Enfatizar componentes]** | Elija entre las visualizaciones hasta 5 métricas y 5 dimensiones que desee resaltar en la presentación. Los componentes que elija se clasifican más alto y se les da más peso cuando se crean los temas y la narrativa general de la historia de datos. <p>Cuando no se aplica ningún énfasis, los componentes se muestran en las presentaciones de la siguiente manera:<ul><li>**Métricas y dimensiones:** Cursiva</li><li>**Elementos de Dimension:** Comillas</li></ul></p><p>Cuando se aplica énfasis, los componentes se muestran en las presentaciones de la siguiente manera:</p><ul><li>**Métricas y dimensiones:** Cursiva y negrita</li><li>**Elementos de Dimension:** Negrita cuando se enfatiza la dimensión correspondiente<p>También se aplica un color al elemento de dimensión cuando este se resalta en el gráfico.</p></li></ul> |
+   | **[!UICONTROL Enfatizar componentes]** | Elija las métricas y dimensiones de las visualizaciones que desee resaltar en la presentación. Los componentes que elija se clasifican más alto y se les da más peso cuando se crean los temas y la narrativa general de la historia de datos. <p>Cuando no se aplica ningún énfasis, los componentes se muestran en las presentaciones de la siguiente manera:<ul><li>**Métricas y dimensiones:** Cursiva</li><li>**Elementos de Dimension:** Comillas</li></ul></p><p>Cuando se aplica énfasis, los componentes se muestran en las presentaciones de la siguiente manera:</p><ul><li>**Métricas y dimensiones:** Cursiva y negrita</li><li>**Elementos de Dimension:** Negrita cuando se enfatiza la dimensión correspondiente<p>También se aplica un color al elemento de dimensión cuando este se resalta en el gráfico.</p></li></ul> |
 
 1. (Condicional) Seleccione **[!UICONTROL Tema predeterminado]** si desea generar diapositivas en menos pasos y si no se requiere un tema corporativo para la presentación de diapositivas.
 
@@ -115,6 +113,8 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
    ![Generar diapositivas con el tema predeterminado](assets/generate-slides-default-theme.png)
 
 1. (Condicional) Seleccione **[!UICONTROL Cargar plantilla]** si la presentación de diapositivas debe coincidir con un tema corporativo. Esta opción requiere que cargue una plantilla personalizada y aplique los estilos personalizados.
+
+   La plantilla personalizada más reciente que cargue se almacenará localmente en la caché del explorador y estará disponible al generar futuras presentaciones de diapositivas.
 
    ![Generar diapositivas con una plantilla personalizada](assets/generate-slides-upload-template.png)
 
@@ -173,8 +173,8 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
 >[!AVAILABILITY]
 >
 >Si su organización no tiene acceso para generar presentaciones de diapositivas desde un proyecto de Workspace, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias.
->
->Esta capacidad está habilitada de forma predeterminada para todos los usuarios de organizaciones que tienen las licencias requeridas.
+
+La capacidad de generar diapositivas está habilitada de forma predeterminada para todos los usuarios de organizaciones que tienen las licencias requeridas.
 
 Los administradores de perfil de productos cuyas organizaciones tengan licencia para generar diapositivas pueden deshabilitar el acceso si es necesario.
 
@@ -205,19 +205,27 @@ Los siguientes elementos y características de Analysis Workspace utilizados en 
 
   La mayoría de las visualizaciones se pueden incluir en las diapositivas que se generan a partir de un proyecto de Workspace. Sin embargo, las siguientes visualizaciones no se pueden incluir y se muestran atenuadas cuando se muestran las opciones de configuración:
 
-   * Tabla de cohortes
-
-   * Lienzo de recorrido
+   * Área
 
    * Viñeta
 
+   * Tabla de cohortes
+
    * Combo
+
+   * Visita en orden previsto
+
+   * Flujo
+
+   * Lienzo de recorrido
 
    * Disperso
 
    * Mapa de árbol
 
 * Desgloses
+
+  Los datos de los desgloses se incluyen en las presentaciones generadas, pero se muestran en el mismo nivel que los elementos de dimensión.
 
 * Análisis guiados
 
