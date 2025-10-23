@@ -2,10 +2,10 @@
 title: Información general sobre el uso del producto
 description: Vea información e informes sobre cómo su organización utiliza Customer Journey Analytics.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
+source-git-commit: 5b5d4cb17ee73415dbd77bbf0964fc3d4e513cf0
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 89%
 
 ---
 
@@ -57,6 +57,7 @@ Al habilitar el uso del producto, están disponibles las siguientes dimensiones.
    * [!UICONTROL Enviar archivo según lo programado]
    * [!UICONTROL Compartir proyecto con cualquiera]
    * [!UICONTROL Compartir proyecto con usuarios de Workspace]
+   * [!UICONTROL Cambiar vista de datos]
 * **[!UICONTROL Modelo de atribución utilizado]**: tipo de modelo de atribución que utiliza el componente. Los elementos de dimensión incluyen:
    * [!UICONTROL Último contacto]
    * [!UICONTROL Primer contacto]
@@ -69,7 +70,8 @@ Al habilitar el uso del producto, están disponibles las siguientes dimensiones.
    * [!UICONTROL Deterioro de tiempo]
    * [!UICONTROL Personalizado]
    * [!UICONTROL Algorítmico]
-* **[!UICONTROL Nombre de componente]**: el nombre de componente que se ha añadido, eliminado o modificado.
+* **[!UICONTROL Id. de componente]**: Id. del componente que se agregó, eliminó o modificó.
+* **[!UICONTROL Nombre de componente]**: El nombre descriptivo del componente que se agregó, eliminó o modificó.
 * **[!UICONTROL Tipo de componente]**: el tipo de componente que se ha añadido, eliminado o modificado. Los elementos de dimensión incluyen:
    * [!UICONTROL Dimensión]
    * [!UICONTROL Métrica]
@@ -78,8 +80,10 @@ Al habilitar el uso del producto, están disponibles las siguientes dimensiones.
    * [!UICONTROL Intervalo de fecha]
    * [!UICONTROL Anotación]
    * [!UICONTROL Alerta]
+* **[!UICONTROL ID de vista de datos]**: El ID de la vista de datos.
+* **[!UICONTROL Nombre de vista de datos]**: El nombre descriptivo de la vista de datos.
 * **[!UICONTROL Usuario de inicio de sesión]**: el usuario que ha realizado la acción.
-* **[!UICONTROL Panel utilizado]**: el panel donde se ha añadido, eliminado o modificado el componente. Los elementos de dimensión incluyen:
+* **[!UICONTROL Panel utilizado]**: El panel que se agregó, eliminó o modificó. Los elementos de dimensión incluyen:
    * [!UICONTROL Atribución]
    * [!UICONTROL Panel en blanco]
    * [!UICONTROL Experimentación]
@@ -93,6 +97,7 @@ Al habilitar el uso del producto, están disponibles las siguientes dimensiones.
    * [!UICONTROL Flujo de usuarios]
    * [!UICONTROL Retención]
    * [!UICONTROL Matriz de características]
+* **[!UICONTROL Id. de proyecto]**: Id. del proyecto.
 * **[!UICONTROL Nombre de proyecto]**: el nombre descriptivo del proyecto.
 * **[!UICONTROL Tipo de proyecto]**: el tipo de proyecto. Los elementos de dimensión incluyen:
    * `workspace-projects`
