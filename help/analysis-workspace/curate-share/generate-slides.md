@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-source-git-commit: f13a02c2741cf32c25edd11f969a7644f724b612
+source-git-commit: 62ef107c52a96178fbf9e41fee49db757488525b
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 4%
+source-wordcount: '1506'
+ht-degree: 3%
 
 ---
 
@@ -106,9 +106,10 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
    | **[!UICONTROL Título de portada]** | Especifique un título para la presentación. Este título aparece en la diapositiva de título de la presentación. |
    | **[!UICONTROL Incluir nombre del moderador]** | Especifique el nombre del moderador. Este nombre aparece en la diapositiva de título de la presentación, debajo del título de la portada. |
    | **[!UICONTROL Paneles y visualizaciones que incluir]** | Elija los paneles y la visualización que desee incluir en la presentación. Puede incluir hasta 50 visualizaciones.<p>Se admiten la mayoría de los paneles y las visualizaciones. Para obtener información acerca de paneles y visualizaciones no compatibles, vea [Elementos y características de proyecto no compatibles](#unsupported-project-elements-and-features).</p> |
-   | **[!UICONTROL Descripciones de paneles y visualizaciones]** | Elija si desea incluir descripciones de paneles y visualizaciones en la presentación de diapositivas generada. |
-   | **[!UICONTROL Anotaciones]** | Elija si las anotaciones están visibles en la presentación de diapositivas generada. Para obtener más información sobre las anotaciones, consulte la [Información general sobre anotaciones](/help/components/annotations/overview.md). |
    | **[!UICONTROL Enfatizar componentes]** | Elija las métricas y dimensiones de las visualizaciones que desee resaltar en la presentación. Los componentes que elija se clasifican más alto y se les da más peso cuando se crean los temas y la narrativa general de la historia de datos. <p>Cuando no se aplica ningún énfasis, los componentes se muestran en las presentaciones de la siguiente manera:<ul><li>**Métricas y dimensiones:** Cursiva</li><li>**Elementos de Dimension:** Comillas</li></ul></p><p>Cuando se aplica énfasis, los componentes se muestran en las presentaciones de la siguiente manera:</p><ul><li>**Métricas y dimensiones:** Cursiva y negrita</li><li>**Elementos de Dimension:** Negrita cuando se enfatiza la dimensión correspondiente<p>También se aplica un color al elemento de dimensión cuando este se resalta en el gráfico.</p></li></ul> |
+
+   <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
+   - **[!UICONTROL Annotations]** - Choose whether annotations are visible in your generated slide presentation. For more information about annotations, see [Annotations overview](/help/components/annotations/overview.md).  -  -->
 
 1. (Condicional) Seleccione **[!UICONTROL Tema predeterminado]** si desea generar diapositivas en menos pasos y si no se requiere un tema corporativo para la presentación de diapositivas.
 
