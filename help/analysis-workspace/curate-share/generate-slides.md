@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-source-git-commit: 99adae279a21c827579ebc3b58b336a9f0e3e8a4
+source-git-commit: f13a02c2741cf32c25edd11f969a7644f724b612
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1542'
 ht-degree: 4%
 
 ---
@@ -155,6 +155,8 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
          Seleccione **[!UICONTROL Examinar]**, luego busque y seleccione su plantilla personalizada del sistema de archivos.
 
          Asegúrese de que el archivo cargado tenga diseños de patrón con los siguientes nombres: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;.
+
+         Se admiten hasta 15 diseños principales.
 
          Se admiten archivos .pptx y .potx de hasta 25 MB de tamaño.
 
