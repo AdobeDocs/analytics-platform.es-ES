@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 3b0c182bbf4e7a0880287a9a95ea848e6b633430
+source-git-commit: 99adae279a21c827579ebc3b58b336a9f0e3e8a4
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 19%
+source-wordcount: '1588'
+ht-degree: 20%
 
 ---
 
@@ -63,7 +63,7 @@ Además de agregarse como administrador de productos en el **Perfil de productos
   | [!UICONTROL Administración de datos] | [!UICONTROL Ver conjuntos de datos de vistas] | Acceso de solo lectura para conjuntos de datos y esquemas. |
   | [!UICONTROL Identity Management] | [!UICONTROL Ver espacios de nombres de identidad] | Acceso de solo lectura para espacios de nombres de identidad. |
 
-  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/permissions).
+  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
 
 
 * Si Journey Optimizer está integrado con Customer Journey Analytics y existen conexiones de Journey Optimizer, también deben agregarse permisos de Recorrido para acceder a Conexiones:
@@ -84,13 +84,13 @@ Además de agregarse como administrador de productos en el **Perfil de productos
   | [!UICONTROL Destinos] | [!UICONTROL Administrar destinos] | Acceso para leer, crear y eliminar conexiones y cuentas de destino. |
   | [!UICONTROL Destinos] | [!UICONTROL Activar destinos] | Permitir a los usuarios activar segmentos en destinos existentes. Habilita el paso de asignación en el flujo de trabajo de activación. Este permiso también requiere que se conceda el permiso Ver destinos al usuario que desea activar los datos en los destinos. |
 
-  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/permissions).
+  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
 
 * Usar la [extensión de BI](../data-views/bi-extension.md)
 
   Para que los usuarios utilicen la extensión de BI, un administrador de productos
 
-   * debe asegurarse de que los permisos de Experience Platform para el usuario incluyan una función que tenga el recurso del servicio de consultas con las opciones Administrar consultas y Administrar integración del servicio de consultas. Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/permissions).
+   * debe asegurarse de que los permisos de Experience Platform para el usuario incluyan una función que tenga el recurso del servicio de consultas con las opciones Administrar consultas y Administrar integración del servicio de consultas. Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil de producto](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions).
 
      | Categoría | Permiso | Descripción |
      |---|---|---| 
@@ -128,8 +128,9 @@ La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en [Ad
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de anotaciones] | Permitir que los usuarios creen [anotaciones](/help/components/annotations/overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar y cambiar el nombre de las anotaciones que creen o de las anotaciones compartidas con ellos. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Visualización de públicos] | Permitir que los usuarios vean [audiencias](/help/components/audiences/audiences-overview.md). |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Creación de públicos] | Permitir que los usuarios creen [audiencias](/help/components/audiences/audiences-overview.md). |
+| [!UICONTROL Herramientas de informes] | [!UICONTROL Contar historias de datos] | Permitir que los usuarios [generen presentaciones de diapositivas basadas en proyectos de Workspace.](/help/analysis-workspace/curate-share/generate-slides.md)<p>La narración de datos se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Lanzamientos de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).</p> |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Acceso a registros de auditoría] | Aplicar la comprobación de permisos en la [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) y la interfaz de usuario de registros de auditoría. |
-| [!UICONTROL Herramientas de informes] | [!UICONTROL Compartir Vínculos De Proyecto Con Cualquiera] | Permitir que los usuarios [compartan proyectos con cualquiera.](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
+| [!UICONTROL Herramientas de informes] | [!UICONTROL Compartir Vínculos De Proyecto Con Cualquiera] | Permitir que los usuarios [compartan proyectos con cualquiera.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Previsión] | Permitir que los usuarios accedan a la función [Previsión](../analysis-workspace/c-forecast/forecasting.md) en Analysis Workspace |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Asistente de IA: conocimiento del producto] | Permita que los usuarios tengan acceso al [Asistente de IA](../ai-assistant.md) para obtener información sobre el producto. |
 | [!UICONTROL Herramientas de informes] | [!UICONTROL Pies de ilustración inteligentes] | Permitir que los usuarios tengan acceso a [subtítulos inteligentes](/help/analysis-workspace/visualizations/intelligent-captions.md). |
@@ -137,8 +138,6 @@ La ficha **[!UICONTROL Permisos]** forma parte de cada perfil de producto en [Ad
 | [!UICONTROL Herramientas de vista de datos] | [!UICONTROL Extensión de CJA BI] | Permitir que los usuarios usen la [extensión BI](../data-views/bi-extension.md). |
 
 {style="table-layout:auto"}
-
-<!-- add this:  [!UICONTROL Reporting Tools] -[!UICONTROL Data storytelling] - Let users [generate slide presentations based on Workspace projects.](/help/analysis-workspace/curate-share/generate-slides.md) -  -->
 
 ## Depuración del proyecto de Workspace
 
