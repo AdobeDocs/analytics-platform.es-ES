@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 1bfebb53fbe056ed6320380178c8b1ce8f7079f1
+source-git-commit: d1097ca5f981623283a7d02200d5023548046429
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 7%
+source-wordcount: '1373'
+ht-degree: 6%
 
 ---
 
 # Un ejemplo de proyecto B2B basado en personas
 
-Este artículo ilustra un caso de uso en el que desea informar correctamente en Customer Journey Analytics sobre los datos de persona en el contexto de una configuración B2B típica basada en personas. Dicha configuración se ve facilitada por [Real-Time CDP B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  En este caso de uso se explica cómo configurar y crear informes sobre datos B2B basados en el nivel de perfil (persona) en Customer Journey Analytics.
+Este artículo ilustra un caso de uso en el que desea informar correctamente en Customer Journey Analytics sobre los datos de persona en el contexto de una configuración B2B típica basada en personas. Dicha configuración se ve facilitada por [Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  En este caso de uso se explica cómo configurar y crear informes sobre datos B2B basados en el nivel de perfil (persona) en Customer Journey Analytics.
 
 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Se ha publicado una sección separada para casos de uso de informes basados en cuentas con la versión de [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md).
 
@@ -22,7 +22,7 @@ Este artículo ilustra un caso de uso en el que desea informar correctamente en 
 
 Defina su conexión para incluir todos los conjuntos de datos B2B relevantes de Experience Platform. Conjuntos de datos que puede considerar para agregar a su conexión:
 
-| Conjunto de datos | Esquema | Tipo de esquema | Clase base | Descripción |
+| Conjunto de datos (opcional) | Esquema | Tipo de esquema | Clase base | Descripción |
 |---|---|---|---|---|
 | Conjunto de datos de actividad B2B | Esquema de actividad B2B | Evento | ExperienceEvent de XDM | Un ExperienceEvent es un registro de hechos de lo que ha ocurrido, incluido el momento y la identidad de la persona involucrada. Los ExperienceEvents pueden ser explícitos (acciones humanas directamente observables) o implícitos (planteados sin una acción humana directa) y se registran sin agregación ni interpretación. Los eventos de experiencia son esenciales para el análisis en el dominio del tiempo, ya que permiten la observación y el análisis de los cambios que se producen en un intervalo de tiempo determinado y la comparación entre varios períodos de tiempo para rastrear las tendencias. |
 | Conjunto de datos de persona B2B | Esquema de persona B2B | Perfil | Perfil individual de XDM | Un perfil individual de XDM forma una representación singular de los atributos e intereses de las personas identificadas y parcialmente identificadas. Los perfiles menos identificados pueden contener solo señales de comportamiento anónimas, como las cookies del explorador, mientras que los perfiles altamente identificados pueden contener información personal detallada como el nombre, la fecha de nacimiento, la ubicación y la dirección de correo electrónico. A medida que un perfil crece, se convierte en un repositorio sólido de información personal, información de identificación, detalles de contacto y preferencias de comunicación para un individuo. |
@@ -43,7 +43,7 @@ Defina su conexión para incluir todos los conjuntos de datos B2B relevantes de 
 -->
 
 
-La relación entre los esquemas de búsqueda B2B, el esquema de perfil y el esquema de evento se define en la configuración B2B en Experience Platform. Consulte Esquemas en [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) y [Defina una relación de varios a uno entre dos esquemas en Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-b2b).
+La relación entre los esquemas de búsqueda B2B, el esquema de perfil y el esquema de evento se define en la configuración B2B en Experience Platform. Consulte Esquemas en [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) y [Defina una relación de varios a uno entre dos esquemas en Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 
 Para garantizar una configuración adecuada de una conexión que admita búsquedas basadas en personas de sus datos B2B, utilice la siguiente ilustración para obtener una descripción general y siga estos pasos:
@@ -56,20 +56,26 @@ Para garantizar una configuración adecuada de una conexión que admita búsqued
 
    ![Clave - Clave de coincidencia](assets/key-matchingkey.png)
 
-   La tabla siguiente proporciona un ejemplo de información general de los valores de [!UICONTROL ID de persona], [!UICONTROL clave] y [!UICONTROL clave coincidente] para cada uno de los conjuntos de datos.
+   La tabla siguiente proporciona un ejemplo de información general de los valores de ejemplo [!UICONTROL ID de persona], [!UICONTROL Clave] y [!UICONTROL Clave coincidente] para cada uno de los conjuntos de datos.
 
-   | Conjunto de datos | ID de la persona | Clave | Clave de coincidencia <br/>(en el conjunto de datos de evento) |
+   >[!IMPORTANT]
+   >
+   >Los valores de **ID de persona**, **clave** y **clave coincidente** de la tabla siguiente son **valores de ejemplo** y pueden diferir en su entorno específico.
+   >
+
+
+   | Conjunto de datos (opcional) | ID de la persona | Clave<br/> | Clave de coincidencia <br/>(en el conjunto de datos de evento)<br/> |
    |---|---|---|---| 
    | Conjunto de datos de actividad B2B | SourceKey <br/>**personKey.sourceKey** | | |
    | Conjunto de datos de persona B2B | SourceKey <br/>**b2b.personKey.sourceKey** | | |
-   | Conjunto de datos de cuenta B2B | | SourceKey <br/>**accountKey.sourceKey**&#x200B;❶ | SourceKey<br>(Conjunto de datos de persona B2B)<br/>**b2b.accountKey.sourceKey**&#x200B;❶ |
-   | Conjunto de datos de oportunidad B2B | | Clave de Source <br/>**oportunidadKey.sourceKey**&#x200B;❷ | SourceKey<br/>(Conjunto de datos de relación de oportunidad B2B)<br/>**OpportunityKey.sourceKey**&#x200B;❷ |
-   | Conjunto de datos de campaña B2B | | SourceKey <br/>**campaignKey.sourceKey**&#x200B;❸ | SourceKey<br/>(Conjunto de datos de miembros de campañas B2B)<br/>**campaignKey.sourceKey**&#x200B;❸<br/> |
-   | Conjunto de datos de lista de marketing B2B | | SourceKey <br/>**marketingListKey.sourceKey**&#x200B;❹ | SourceKey<br/>(Conjunto de datos de miembro de lista de marketing B2B)<br/>**marketingListKey.sourceKey**&#x200B;❹ |
-   | Conjunto de datos de relación de persona de la cuenta B2B | | SourceKey <br/>**personKey.sourceKey**&#x200B;❺ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**&#x200B;❺ |
-   | Conjunto de datos de relación de persona de oportunidad B2B | | SourceKey <br/>**personKey.sourceKey** y❻ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**&#x200B;❻ |
-   | Conjunto de datos de miembros de campañas B2B | | SourceKey <br/>**personKey.sourceKey**&#x200B;❼ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**&#x200B;❼ |
-   | Conjunto de datos de miembros de lista de marketing B2B | | SourceKey <br/>**personKey.sourceKey**&#x200B;❽ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**&#x200B;❽ |
+   | Conjunto de datos de cuenta B2B | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey<br>(Conjunto de datos de persona B2B)<br/>**b2b.accountKey.sourceKey**❶ |
+   | Conjunto de datos de oportunidad B2B | | Clave de Source <br/>**oportunidadKey.sourceKey**❷ | SourceKey<br/>(Conjunto de datos de relación de oportunidad B2B)<br/>**OpportunityKey.sourceKey**❷ |
+   | Conjunto de datos de campaña B2B | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>(Conjunto de datos de miembros de campañas B2B)<br/>**campaignKey.sourceKey**❸<br/> |
+   | Conjunto de datos de lista de marketing B2B | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>(Conjunto de datos de miembro de lista de marketing B2B)<br/>**marketingListKey.sourceKey**❹ |
+   | Conjunto de datos de relación de persona de la cuenta B2B | | SourceKey <br/>**personKey.sourceKey**❺ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**❺ |
+   | Conjunto de datos de relación de persona de oportunidad B2B | | SourceKey <br/>**personKey.sourceKey** y❻ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**❻ |
+   | Conjunto de datos de miembros de campañas B2B | | SourceKey <br/>**personKey.sourceKey**❼ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**❼ |
+   | Conjunto de datos de miembros de lista de marketing B2B | | SourceKey <br/>**personKey.sourceKey**❽ | Clave de Source<br/>(Conjuntos de datos de evento)<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
@@ -84,6 +90,11 @@ Por ejemplo, puede añadir los siguientes componentes a la vista de datos para a
 
 +++Métricas 
 
+>[!IMPORTANT]
+>
+>Las métricas y sus valores (**Nombre del componente**, **Conjunto de datos**, **Tipo de conjunto de datos** y **[!UICONTROL Ruta de esquema])** en la tabla siguiente son **ejemplos**. Defina métricas B2B relevantes (nombre del componente, conjunto de datos, tipo de datos y ruta del esquema) para su situación específica.
+>
+
 | Nombre del componente | Conjunto de datos | Tipo de datos | Ruta de esquema |
 |---|---|---|---|
 | Ingresos de cuenta anual | Conjunto de datos de cuenta B2B | Doble | accountOrganization.annualRevenue.amount |
@@ -97,6 +108,11 @@ Por ejemplo, puede añadir los siguientes componentes a la vista de datos para a
 +++
 
 +++Dimensiones
+
+>[!IMPORTANT]
+>
+>Las dimensiones y sus valores (**Nombre del componente**, **Conjunto de datos**, **Tipo de conjunto de datos** y **[!UICONTROL Ruta de acceso del esquema])** en la tabla siguiente son **ejemplos**. Defina dimensiones B2B relevantes (nombre del componente, conjunto de datos, tipo de datos y ruta del esquema) para su situación específica.
+>
 
 | Nombre del componente | Conjunto de datos | Tipo de datos | Ruta de esquema |
 |---|---|---|---|
