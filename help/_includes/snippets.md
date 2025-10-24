@@ -1,8 +1,8 @@
 ---
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
 workflow-type: tm+mt
-source-wordcount: '4947'
-ht-degree: 100%
+source-wordcount: '4990'
+ht-degree: 98%
 
 ---
 # Fragmentos
@@ -128,7 +128,7 @@ Un modelo de atribución determina qué elementos de dimensión obtienen crédit
 
 Un contenedor de atribución define el ámbito deseado para la atribución. Las opciones posibles son las siguientes:
 
-* **Sesión**: se remonta hasta el principio de una sesión en la que se realizó una conversión. Las ventanas de retrospección de la sesión respetan el [Tiempo de espera de sesión](/help/data-views/create-dataview.md#session-settings) modificado en una vista de datos.
+* **Sesión**: se remonta hasta el principio de una sesión en la que se realizó una conversión. Las ventanas retrospectivas de sesión respetan el [tiempo de espera de sesión](/help/data-views/create-dataview.md#session-settings) modificado en una vista de datos. Cuando se selecciona **[!UICONTROL Sesión]**, la [ventana retrospectiva de atribución](#atribution-lookback-window) se establece automáticamente en **[!UICONTROL ventana de informes]** y no se puede cambiar.
 * **Persona**: examina las conversiones desde el ámbito del contenedor de la persona.
 * **Cuenta global** [!BADGE B2B Edition]{type=Informative}: examina las conversiones desde el ámbito del contenedor de cuentas globales.
 * **Cuentas** [!BADGE B2B Edition]{type=Informative}: examina las conversiones desde el ámbito del contenedor de la persona.
@@ -139,6 +139,7 @@ Un contenedor de atribución define el ámbito deseado para la atribución. Las 
 
 El período de retroactividad de una atribución es la cantidad de tiempo que una conversión se debe remontar para incluir los puntos de contacto. Si un elemento de dimensión se establece fuera de la ventana de retrospección, el valor no se incluye en ningún cálculo de atribución.
 
+* **[!UICONTROL Ventana de informes]**: Busca hasta el inicio de la ventana de informes desde el momento en que se produjo la conversión.
 * **14 días**: se remonta hasta 14 días desde que se realizó la conversión.
 * **30 días**: se remonta hasta 30 días desde que se realizó la conversión.
 * **60 días**: se remonta hasta 60 días desde que se realizó la conversión.
@@ -154,13 +155,13 @@ Consideremos el siguiente ejemplo:
 1. El 18 de setiembre, el visitante regresa de nuevo a su sitio a través de un vínculo de medios sociales que consiguió de un amigo. Agregan varios artículos al carro, pero no compran nada.
 1. El 24 de septiembre, su equipo de marketing les enviará un correo electrónico con un cupón para algunos de los artículos del carrito. Aplican el cupón, pero visitan otros sitios para ver si hay otros cupones disponibles. Encontraron otro a través de un anuncio y finalmente hicieron una compra por valor de 50 dólares.
 
-Según el modelo de atribución, el contenedor y los canales reciben un crédito diferente. Consulte la siguiente tabla para ver ejemplos:
+Según la ventana de informes (por ejemplo, del 10 de septiembre al 24 de septiembre), el modelo de atribución, el contenedor y los canales reciben crédito diferente. Consulte la siguiente tabla para ver ejemplos:
 
 | Modelo | Contenedor | Período de retroactividad | Explicación |
 |---|---|---|---|
-| Primer contacto | Sesión | 30 días | La atribución solo examina la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue lo primero, por lo que este recibe el 100 % del crédito por la compra de 50 USD. |
+| Primer contacto | Sesión | Ventana de creación de informes | La atribución solo examina la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue lo primero, por lo que este recibe el 100 % del crédito por la compra de 50 USD. |
 | Primer contacto | Persona | 30 días | La atribución examina las tres visitas. La búsqueda de pago fue la primera, así que recibe el 100 % del crédito por la compra de 50 USD. |
-| Lineal | Sesión | 30 días | El crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 USD. |
+| Lineal | Sesión | Ventana de creación de informes | El crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 USD. |
 | Lineal | Persona | 30 días | El crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 USD por esta compra. |
 | Con forma de J | Persona | 30 días | El crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización.<ul><li>Se otorga un crédito del 60 % a la visualización, es decir, 30 dólares.</li><li>El 20 % de crédito se asigna a la búsqueda de pago, 10 dólares en este caso.</li><li>El 20% restante se divide entre el medio social y el correo electrónico, lo que otorga 5 dólares a cada uno.</li></ul> |
 | Declive temporal | Persona | 30 días | <ul><li>Diferencia de 0 días entre el punto de contacto de visualización y la conversión. `2^(-0/7) = 1`</li><li>Diferencia de 0 días entre el punto de contacto del correo electrónico y la conversión. `2^(-0/7) = 1`</li><li>Diferencia de 6 días entre el punto de contacto social y la conversión. `2^(-6/7) = 0.552`</li><li>Diferencia de 9 días entre el punto de contacto de búsqueda de pago y la conversión. `2^(-9/7) = 0.41`</li>La normalización de estos valores resulta en lo siguiente:<ul><li>Visualización: 33,8 %, 16,88 dólares</li><li>Correo electrónico: 33,8 % 16,88 dólares</li><li>Medio social: 18,6 %, 9,32 dólares</li><li>Búsqueda de pago: 13,8 %, 6,92 dólares</li></ul></li></ul> |

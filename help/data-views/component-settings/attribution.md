@@ -5,9 +5,9 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '413'
 ht-degree: 93%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 93%
 
 
 La atribución le permite personalizar cómo los elementos de dimensión obtienen crédito por los eventos de éxito.
-
-![Ventana de vistas de datos que resalta la opción Establecer atribución](../assets/attribution-settings.png)
 
 Por ejemplo:
 
