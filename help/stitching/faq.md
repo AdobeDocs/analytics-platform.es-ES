@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 4cea79a6ba26a2e4f06bfc9c60fdfc03341a7d60
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 25%
+source-wordcount: '2069'
+ht-degree: 23%
 
 ---
 
@@ -23,8 +23,8 @@ Estas son algunas de las preguntas más frecuentes sobre la vinculación:
 Puede utilizar una visualización de flujo con la dimensión ID de conjunto de datos.
 
 1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y cree un proyecto de Workspace en blanco.
-2. Seleccione la pestaña **[!UICONTROL ** Visualizaciones **]** de la izquierda y arrastre una visualización de **[!UICONTROL **&#x200B; Flujo &#x200B;**]** al lienzo de la derecha.
-3. Seleccione la ficha **[!UICONTROL ** Componentes **]** de la izquierda y arrastre la dimensión **[!UICONTROL ** ID de conjunto de datos **]** a la ubicación central denominada **[!UICONTROL **&#x200B; Dimension o Elemento &#x200B;**]**.
+2. Seleccione la pestaña **[!UICONTROL ** Visualizaciones **]** de la izquierda y arrastre una visualización de **[!UICONTROL ** Flujo **]** al lienzo de la derecha.
+3. Seleccione la ficha **[!UICONTROL ** Componentes **]** de la izquierda y arrastre la dimensión **[!UICONTROL ** ID de conjunto de datos **]** a la ubicación central denominada **[!UICONTROL ** Dimension o Elemento **]**.
 4. Este informe de flujo es interactivo. Para expandir los flujos a páginas posteriores o anteriores, seleccione cualquiera de los valores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
 Puede utilizar un conjunto de datos de búsqueda si desea cambiar el nombre de los elementos de la dimensión de ID de conjunto de datos.
@@ -33,7 +33,7 @@ Puede utilizar un conjunto de datos de búsqueda si desea cambiar el nombre de l
 
 ## Reproducir
 
-+++ ¿Hasta dónde llega la vinculación a los visitantes de repetición?
++++ ¿Hasta dónde llega la vinculación de perfiles de reproducción?
 
 La ventana retrospectiva para la regeneración de claves depende de la frecuencia deseada de reproducción de los datos. Por ejemplo, si configura la vinculación para que reproduzca los datos una vez por semana, la ventana retrospectiva para la regeneración de claves será de siete días. Si configura la vinculación para que reproduzca datos todos los días, la ventana retrospectiva para la regeneración de claves será de un día.
 
@@ -45,7 +45,7 @@ La ventana retrospectiva para la regeneración de claves depende de la frecuenci
 
 En algunas situaciones, es posible que varias personas inicien sesión desde el mismo dispositivo. Algunos ejemplos son un dispositivo compartido en casa, un equipo compartido en una biblioteca o un quiosco en un punto de venta minorista.
 
-El ID transitorio anula al ID persistente, por lo que los dispositivos compartidos se consideran personas independientes (incluso si se originan en el mismo dispositivo).
+El ID de persona anula el ID persistente, por lo que los dispositivos compartidos se consideran personas independientes (incluso si se originan en el mismo dispositivo).
 
 Consulte el caso de uso [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md) para obtener más información.
 
@@ -57,7 +57,7 @@ Consulte el caso de uso [Dispositivos compartidos](/help/use-cases/stitching/sha
 
 En algunas situaciones, un usuario individual puede asociarse con muchos ID persistentes. Un ejemplo es una persona que borra las cookies del explorador con frecuencia o que utiliza el modo privado/de incógnito del explorador.
 
-Para la vinculación basada en el campo, el número de ID persistentes es irrelevante en favor del ID transitorio. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad de Customer Journey Analytics para crear vínculos entre los distintos dispositivos.
+Para la vinculación basada en el campo, el número de ID persistentes es irrelevante en favor del ID de persona. Un solo usuario puede pertenecer a numerosos dispositivos sin que ello afecte a la capacidad de Customer Journey Analytics para crear vínculos entre los distintos dispositivos.
 
 Para la vinculación basada en gráficos, una sola persona puede tener muchos ID persistentes en el gráfico de identidades. La vinculación basada en gráficos utiliza el ID persistente en función del área de nombres especificada. En caso de que haya ID más persistentes para el mismo área de nombres, se utiliza el primer ID persistente lexicográfico.
 
@@ -94,20 +94,20 @@ Adobe gestiona las solicitudes de privacidad de acuerdo con las leyes locales e 
 
 Para ilustrar, imagine los siguientes datos para identidades, eventos antes y después de la vinculación.
 
-| Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+| Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | E/S de persona | área de nombres de persona |
 |---|---|---|---|---|---|---|
 |  | 1 | ts1 | 123 | ecid | Bob | CustId |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | ID de persona | área de nombres de persona |
 |---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | |
 | | 2 | ts1 | 123 | ecid | Bob | CustId |
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
+| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | ID de persona | área de nombres de persona | ID vinculado | espacio de nombres vinculado |
 |---|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | Bob | CustId |
 | | 2 | ts1 | 123 | ecid | Bob | CustId | Bob | CustId |
@@ -118,20 +118,20 @@ Para ilustrar, imagine los siguientes datos para identidades, eventos antes y de
 
 Cuando se recibe una solicitud de privacidad para un cliente con CustID Bob, se eliminan las filas con entradas tachadas. Otros eventos se vuelven a vincular mediante el mapa de identidad. Por ejemplo, el primer ID vinculado del conjunto de datos vinculado se actualiza a **Alex**.
 
-| Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+| Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | ID de persona | área de nombres de persona |
 |:---:|---|---|---|---|---|---|
 | ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | ID de persona | área de nombres de persona |
 |:---:|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | |
 | ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
+| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | ID de persona | área de nombres de persona | ID vinculado | espacio de nombres vinculado |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **Alex** | CustId |
 | ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ | ~~Bob~~ | ~~ID de cliente~~ |
@@ -142,20 +142,20 @@ Cuando se recibe una solicitud de privacidad para un cliente con CustID Bob, se 
 
 Cuando se recibe una solicitud de privacidad para un cliente con CustID Bob, se eliminan las filas con entradas tachadas. Otros eventos se vuelven a vincular con el ID persistente. Por ejemplo, el primer ID vinculado en el conjunto de datos vinculado se actualiza a **123**.
 
-| Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+| Mapa de identidad | Id | timestamp | ID persistente | espacio de nombres persistente | ID de persona | área de nombres de persona |
 |:---:|---|---|---|---|---|---|
 | ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria |
+| Conjunto de datos de eventos | Id | timestamp | ID persistente | espacio de nombres persistente | ID de persona | área de nombres de persona |
 |:---:|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | |
 | ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ |
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | id transitorio | área de nombres transitoria | ID vinculado | Área de nombres vinculada |
+| Conjunto de datos vinculado | Id | timestamp | ID persistente | espacio de nombres persistente | ID de persona | área de nombres de persona | ID vinculado | espacio de nombres vinculado |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **123** | ecid |
 | ![EliminarEsquema](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~ID de cliente~~ | ~~Bob~~ | ~~ID de cliente~~ |
@@ -165,23 +165,23 @@ Cuando se recibe una solicitud de privacidad para un cliente con CustID Bob, se 
 
 ## Valores de ID persistentes en blanco
 
-+++ ¿Qué sucede si está vacío el campo ID persistente de uno o varios eventos?
++++ ¿Qué sucede si el campo de ID persistente de uno o varios eventos está en blanco?
 
-Si el campo ID persistente está en blanco en un evento de un conjunto de datos que se está vinculando, el ID vinculado para ese evento se determina de una de las dos maneras siguientes:
+Si el campo de ID persistente está en blanco en un evento de un conjunto de datos que se está vinculando, el ID vinculado para ese evento se determina de una de las dos maneras siguientes:
 
-* Si el campo ID de transición no está en blanco, Customer Journey Analytics utiliza el valor de ID de transición como ID con título.
-* Si el campo ID transitorio está en blanco, Customer Journey Analytics también deja en blanco el ID vinculado. En este caso, ID persistente, ID transitorio y ID vinculado están todos en blanco en el evento. Estos tipos de eventos se pierden de cualquier conexión de Customer Journey Analytics usando el conjunto de datos que se está vinculando, donde el ID vinculado se eligió como ID de persona.
+* Si el campo de ID transitorio no está en blanco, Customer Journey Analytics utiliza el valor de ID transitorio como ID vinculado.
+* Si el campo de ID transitorio está en blanco, Customer Journey Analytics también deja en blanco el ID vinculado. En este caso, el ID persistente, el ID transitorio y el ID vinculado están en blanco en el evento. Estos tipos de eventos se pierden de cualquier conexión de Customer Journey Analytics usando el conjunto de datos que se está vinculando, donde el ID vinculado se eligió como ID de persona.
 
 +++
 
 
-## Valores de ID transitorios no definidos
+## Valores de ID de persona no definidos
 
-+++ ¿Qué sucede si el campo ID transitorio de uno o más eventos tiene valores de marcador de posición, como `Undefined`?
++++ ¿Qué sucede si el campo de ID de persona de uno o varios eventos tiene valores de marcador de posición, como `Undefined`?
 
 Tenga cuidado con el &quot;colapso de persona&quot;, que se produce cuando se aplica la vinculación a datos que utilizan valores de marcador de posición para ID transitorios. En la tabla de ejemplo siguiente, los ID de persona no definidos procedentes de un conjunto de datos procedentes de un sistema CRM se rellenan con el valor &quot;No definido&quot;, lo que da como resultado una representación incorrecta de las personas.
 
-| Evento | Marca de tiempo | ID persistente (ID de cookie) | ID transitorio (ID de inicio de sesión) | ID vinculado (después de la reproducción) |
+| Evento | Marca de tiempo | ID persistente (ID de cookie) | ID transitorio | ID vinculado (después de la reproducción) |
 |---|---|---|---|---|
 | 1 | 12/12/05/2023:01 | 123 | - | **Cory** |
 | 2 | 12/12/05/2023:02 | 123 | Cory | **Cory** |
@@ -223,7 +223,7 @@ Sí, Customer Journey Analytics puede usar los campos del mapa de identidad para
 
 ## Cambiar a vinculación basada en gráficos
 
-+++ ¿Será necesario volver a ingerir los datos para cambiar de la vinculación basada en el campo a la basada en el gráfico?
++++ ¿Será necesario volver a ingerir los datos para cambiar de la vinculación basada en el campo a la basada en gráficos?
 
 No es necesario volver a ingerir los datos en Experience Platform, pero deberán reconfigurarse en Customer Journey Analytics. Siga estos pasos:
 
@@ -275,6 +275,6 @@ curl -X POST \
 
 Cualquier uso de la etiqueta `unifiedProfile` en la solicitud, aunque no tenga licencia para el perfil de datos del cliente en tiempo real, devuelve un error.
 
-Consulte [Crear un conjunto de datos habilitado para Perfil e Identidad](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity) para obtener más información.
+Consulte [Crear un conjunto de datos habilitado para Perfil e Identidad](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity) para obtener más información.
 
 +++ 

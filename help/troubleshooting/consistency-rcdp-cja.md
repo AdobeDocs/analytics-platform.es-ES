@@ -4,10 +4,10 @@ title: Coherencia de las métricas y abono a públicos
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 7c906e30d54362713f5013c8661ee523938d4b0f
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 100%
+source-wordcount: '623'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Al comparar los recuentos de miembros de público entre Real-time CDP y Customer
 
 Real-time CDP y Customer Journey Analytics no comparten la misma definición de una persona en la actualidad. Real-time CDP se basa completamente en la información del [gráfico de identidad](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=es) para crear un perfil combinado.
 
-Customer Journey Analytics se puede configurar para usar [vinculación](../stitching/overview.md). Si usa [Vinculación basada en el campo](/help/stitching/fbs.md) como mecanismo de vinculación, especifique un identificador de un conjunto de datos en el lago de datos para vincular los datos de ese conjunto de datos con el propósito de elevar el conjunto de datos con perfiles combinados mejorados. Si usa una [vinculación basada en gráficos](/help/stitching/gbs.md) como mecanismo de vinculación, un proceso similar está usando el gráfico de identidad, basado en un espacio de nombres de identidad especificado.
+Customer Journey Analytics se puede configurar para usar [vinculación](../stitching/overview.md). Si usa [Vinculación basada en el campo](/help/stitching/fbs.md) como mecanismo de vinculación, especifique un identificador de un conjunto de datos en el lago de datos para vincular los datos de ese conjunto de datos con el propósito de elevar el conjunto de datos con perfiles combinados mejorados. Si usa [vinculación basada en gráficos](/help/stitching/gbs.md) como mecanismo de vinculación, un proceso similar está usando el gráfico de identidad, basado en un área de nombres de identidad especificada.
 
 
 ## Diferencias en la configuración del conjunto de datos

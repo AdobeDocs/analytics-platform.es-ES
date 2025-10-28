@@ -4,10 +4,10 @@ description: Obtenga información sobre la transformación de datos mediante reg
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
 role: User
-source-git-commit: 664576605b8be098a751609536e388c304c65513
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

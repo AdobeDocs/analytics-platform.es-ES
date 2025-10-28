@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: d9a65774fa5ab8c6b7fdd018f5d345dc7eb9e9de
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Para el plan de medición de validación de vinculación, debe asegurarse de que
 
 Además, debe agregar dos métricas de vinculación basadas en la presencia de valores en una dimensión.
 
-1. Utilice el campo que contiene el ID de persona del conjunto de datos vinculado para configurar una métrica que defina si se establece un ID de persona. Añada este ID de persona aunque utilice la vinculación basada en gráficos, ya que el ID de persona ayuda a establecer una línea de base. Si el ID de persona no está contenido dentro del conjunto de datos, la línea de base es del 0 %.
+1. Utilice el campo que contiene el ID de persona del conjunto de datos vinculado para configurar una métrica que defina si se establece un ID de persona. Añada este ID de persona aunque utilice la vinculación basada en gráficos, ya que el ID de persona ayuda a establecer una línea de base. Si el ID de persona no está contenido en el conjunto de datos, la línea de base es del 0 %.
 
    En el ejemplo siguiente, `personalEmail.address` sirve como identidad y se usa para crear la métrica **[!UICONTROL _Email set]**.
    ![Métrica del conjunto de correo electrónico](assets/emailset-metric.png)

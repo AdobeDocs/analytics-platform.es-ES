@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 9774e0e3af024823a03dbcd8d6766877f55e95d8
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '821'
+ht-degree: 74%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 >
 >Debe disponer del paquete **Select** o superior (para [vinculación basada en campos](fbs.md)) o del paquete **Prime** o superior (para [vinculación basada en gráficos](gbs.md)) para utilizar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
-Vinculación de identidad (o simplemente, vinculación) es una potente función que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal que Customer Journey Analytics puede gestionar, lo que le permite combinar y ejecutar informes de varios conjuntos de datos de diferentes canales sin problemas, en función de un identificador común (ID de persona).
+Vinculación de identidad (o simplemente, vinculación) es una potente función que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal para Customer Journey Analytics. La función le permite combinar y ejecutar informes sin problemas en varios conjuntos de datos de diferentes canales, según un identificador común (ID de persona).
 
-Cuando combina conjuntos de datos con ID de personas similares, la atribución se transfiere a través de dispositivos y canales. Por ejemplo: un usuario visita su sitio por primera vez a través de un anuncio en su equipo de escritorio. Ese usuario encuentra un problema con su pedido y, a continuación, llama a su equipo de servicio de atención al cliente para que le ayude a resolverlo. Con el análisis en canales múltiples, puede atribuir eventos del centro de llamadas a la publicidad en la que se hizo clic originalmente.
+Cuando combina conjuntos de datos con ID de personas similares, la atribución se transfiere a través de dispositivos y canales. Por ejemplo, un usuario visita su sitio a través de un anuncio en su equipo de escritorio. Los usuarios compran un producto, pero luego encuentran un problema con el pedido. A continuación, el usuario llama a su equipo de servicio de atención al cliente para que le ayude a resolver el problema. Con el análisis en canales múltiples, puede atribuir eventos del centro de llamadas a la publicidad en la que hizo clic el usuario originalmente.
 
-Lamentablemente, no todos los conjuntos de datos basados en eventos que forman parte de su conexión en Customer Journey Analytics están suficientemente rellenados con datos para admitir esta atribución de forma predeterminada. En especial, los conjuntos de datos de experiencias basados en la web o en dispositivos móviles a menudo no tienen una información de ID de persona real disponible en todos los eventos.
+Lamentablemente, no todos los conjuntos de datos basados en eventos que forman parte de su conexión en Customer Journey Analytics están suficientemente rellenados con datos para admitir esta atribución de forma predeterminada. En especial, los conjuntos de datos de experiencias basados en la web o en dispositivos móviles a menudo no tienen información de ID de persona real disponible en todos los eventos.
 
-La vinculación permite volver a incrustar identidades en las filas de un conjunto de datos, asegurándose de que el ID de persona (ID vinculado) esté disponible en cada evento. La vinculación busca los datos de usuario de las sesiones autenticadas y no autenticadas para determinar el valor de ID transitorio común (ID de persona) que se puede utilizar como ID vinculado. Esta nueva incrustación permite resolver registros dispares en un único ID vinculado para su análisis en el nivel de la persona, en lugar de en el nivel de dispositivo o cookie.
+La configuración permite volver a introducir identidades en las filas de un conjunto de datos para garantizar que el ID de persona (ID vinculado) esté disponible en cada evento. La vinculación busca los datos de usuario de las sesiones autenticadas y no autenticadas para determinar el valor de ID de persona común que se puede utilizar como ID vinculado. Esta regeneración de claves permite la resolución de registros dispares en un único ID identificado para su análisis en el nivel de la persona, en lugar de en el nivel de dispositivo o cookie.
 
 Customer Journey Analytics admite dos tipos de vinculación: [vinculación basada en el campo](fbs.md) y [vinculación basada en gráficos](gbs.md).
 
@@ -45,6 +45,12 @@ Antes de usar la vinculación, asegúrese de que su organización está preparad
 
 Se beneficia del análisis en canales múltiples si combina uno o más de los conjuntos de datos enlazados con otros conjuntos de datos, como los datos del centro de llamadas, como parte de la definición de la conexión de Customer Journey Analytics. Esta configuración de conexión supone que esos otros conjuntos de datos ya contienen un ID de persona en cada fila, similar al ID vinculado.
 
+## Habilitar vinculación
+
+Puede habilitar la vinculación de dos formas:
+
+- [Solicitud para habilitar la vinculación](/help/stitching/use-stitching.md)
+- [Habilitar la vinculación en la interfaz de Conexiones](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}
 
 ## Limitaciones
 
@@ -85,8 +91,8 @@ La vinculación admite los siguientes conjuntos de datos de Journey Optimizer ge
 
 >[!MORELIKETHIS]
 >
->[Vinculación basada en campos](fbs.md)
->>[Vinculación basada en gráficos](gbs.md)
+>[Vinculación basada en el campo](fbs.md)
+>>[Vinculación basada en gráficos ](gbs.md)
 >>[Uso de la vinculación](use-stitching.md)
 >>[Validación de la vinculación](validate.md)
 >>[Preguntas frecuentes sobre la vinculación](faq.md)
