@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: 58254cab90d907ad9675c30dfc1b835910214b3a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ Content Analytics utiliza los siguientes términos clave:
 
 ## Funcionamiento
 
-Content Analytics usa los datos de vista de imágenes web en conjuntos de datos de evento en Experience Platform para [recopilar datos de evento de contenido](config/datacollection.md). Y combina esa recopilación de datos de contenido con la implementación (ya existente) de recopilación de datos de comportamiento.
+Content Analytics usa los datos de vista de imágenes web en conjuntos de datos de evento en Experience Platform para [recopilar datos de evento de contenido](config/datacollection.md). Estos eventos de experiencia de contenido requieren que los datos se recopilen con Experience Platform Edge Network (Web SDK, API de servidor). Los datos de comportamiento se pueden recopilar con Web SDK o el conector de Source de Analytics.
 
 ![Content Analytics: funcionamiento](assets/aca-overview.gif)
 
@@ -68,6 +68,6 @@ Content Analytics usa los datos de vista de imágenes web en conjuntos de datos 
 >
 >[Creación de informes de Content Analytics](report/report.md)
 >>[Configurar Adobe Analytics](config/configuration.md)
->>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=es#M454)
+>>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
