@@ -92,8 +92,8 @@ La vinculación admite los siguientes conjuntos de datos de Journey Optimizer ge
 >[!MORELIKETHIS]
 >
 >[Vinculación basada en el campo](fbs.md)
->>[Vinculación basada en gráficos ](gbs.md)
->>[Uso de la vinculación](use-stitching.md)
->>[Validación de la vinculación](validate.md)
->>[Preguntas frecuentes sobre la vinculación](faq.md)
+>&#x200B;>[Vinculación basada en gráficos &#x200B;](gbs.md)
+>&#x200B;>[Uso de la vinculación](use-stitching.md)
+>&#x200B;>[Validación de la vinculación](validate.md)
+>&#x200B;>[Preguntas frecuentes sobre la vinculación](faq.md)
 
