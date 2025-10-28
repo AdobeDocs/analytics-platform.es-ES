@@ -6,16 +6,16 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 0afe57047e2038f1acd9f88a1e7992da9a2819b1
+source-git-commit: 23b890ec6a3266d1ca0621b09264f1d6a2f82645
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '808'
 ht-degree: 3%
 
 ---
 
 # Usar vinculación
 
-Puede habilitar la vinculación en uno o varios conjuntos de datos de evento que haya configurado como parte de la conexión. El número de conjuntos de datos de evento que puede habilitar para la vinculación viene determinado por el paquete de Customer Journey Analytics con licencia.
+Puede habilitar la vinculación en uno o varios conjuntos de datos de evento que haya configurado como parte de la conexión. El paquete de Customer Journey Analytics con licencia determina el número de conjuntos de datos de evento que puede habilitar para la vinculación
 
 {{release-limited-testing}}
 
@@ -25,7 +25,7 @@ Puede habilitar la vinculación como parte de la [configuración del conjunto de
 
 Para habilitar la vinculación en un conjunto de datos de evento dentro de la interfaz de usuario de Conexiones:
 
-* El esquema en el que se basa el conjunto de datos debe tener definido:
+* El esquema en el que se basa el conjunto de datos debe tener:
 
    * Varios campos configurados como identidad y que le permiten seleccionar valores diferentes para un ID persistente y un ID de persona.
    * al menos un campo marcado como identidad principal con un área de nombres asociada en caso de que desee utilizar el mapa de identidad y el área de nombres de identidad principal para un ID persistente o ID de persona.
@@ -127,7 +127,7 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento d
 
    >[!NOTE]
    >
-   >Debe tener derecho a utilizar el gráfico de identidad.
+   >Asegúrese de que tiene derecho a utilizar el gráfico de identidad.
    >
 
    Antes de eso, se muestra el cuadro de diálogo **[!UICONTROL Cambiar al gráfico de identidad]** para asegurarse de que ha [finalizado la configuración del gráfico de identidad para el conjunto de datos](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) antes de usar el gráfico de identidad para la vinculación. Seleccione **[!UICONTROL Continuar]** para continuar.
@@ -143,5 +143,5 @@ Una vez guardada una conexión que contiene conjuntos de datos habilitados para 
 
 Además de las [limitaciones de vinculación basadas en el campo](/help/stitching/fbs.md#limitations) y las [limitaciones de vinculación basadas en gráficos](/help/stitching/gbs.md#limitations), se aplican las siguientes limitaciones al habilitar la vinculación en la interfaz Conexiones:
 
-* Solo puede vincular un conjunto de datos de evento una vez como parte de una sola conexión. No puede definir el mismo conjunto de datos de evento más de uno y utilizar una configuración de vinculación independiente para cada instancia. Si desea aplicar diferentes configuraciones de vinculación en el mismo conjunto de datos, utilice una conexión independiente para cada configuración.
+* Solo puede vincular un conjunto de datos de evento una vez como parte de una sola conexión. No puede definir el mismo conjunto de datos de evento más de una vez y utilizar una configuración de vinculación independiente para cada instancia. Si desea aplicar diferentes configuraciones de vinculación en el mismo conjunto de datos, utilice una conexión independiente para cada configuración.
 
