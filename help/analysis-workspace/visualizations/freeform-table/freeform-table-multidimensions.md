@@ -5,52 +5,24 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: bff352181392c19b6c4fe70893a016179fb77f06
+source-git-commit: ec07eb5dced013eac3d1088f2f49dcea23894395
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1028'
 ht-degree: 2%
 
 ---
 
-# Incluir varias dimensiones en una tabla de forma libre
+# Incluir varias columnas de dimensión en una tabla de forma libre
 
 {{release-limited-testing}}
 
 Puede incluir hasta 5 columnas de dimensión en una tabla de forma libre, lo que le permite ver varios elementos de dimensión en paralelo. Cada fila de elementos de dimensión actúa como un solo elemento concatenado.
 
-Puede ordenar columnas de dimensión (junto con columnas de métricas) para un análisis más completo y personalizado.
+Puede aplicar filtros, clasificaciones, desgloses y mucho más a las tablas de forma libre con varias columnas de dimensión para crear un análisis más completo y personalizado.
 
-## Varias columnas y desgloses de dimensión
+## Adición de varias columnas de dimensión
 
-Analysis Workspace proporciona las siguientes formas de agregar varias dimensiones dentro de una tabla de forma libre:
-
-* Incluya varias columnas de dimensión (como se describe en este artículo)
-
-* [Agregar desgloses](/help/components/dimensions/t-breakdown-fa.md)
-
-Ambos métodos permiten analizar dimensiones con respecto a otras dimensiones. Sin embargo, existen diferencias importantes y ambos métodos se pueden utilizar en la misma tabla para un análisis aún más profundo.
-
-Varias columnas de dimensión permiten:
-
-* Correlacione filas de datos en varias dimensiones y métricas.
-
-* Mostrar datos solo cuando se aplique a cada columna de dimensión de la tabla. Para ello, use el filtro de columna para anular la selección de la configuración **[!UICONTROL Incluir &quot;Sin valor&quot;]** en cada columna de dimensión.
-
-  Para obtener más información, vea [Filtrar y ordenar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
-
-* Ordene los datos por varias columnas de dimensiones y métricas.
-
-  Para obtener más información, vea [Filtrar y ordenar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
-
-Los desgloses le permiten:
-
-* Mostrar elementos de dimensión solo para uno
-
-* Mostrar los elementos de dimensión principales de un solo
-
-## Adición de columnas de dimensión
-
-Puede agregar columnas de dimensión de una en una o de forma masiva.
+Puede agregar varias columnas de dimensión de una en una o de forma masiva.
 
 1. En Analysis Workspace, cree una tabla de forma libre.
 
@@ -70,13 +42,15 @@ Puede agregar columnas de dimensión de una en una o de forma masiva.
 
 ## Filtrado de tablas
 
+Puede aplicar filtros a una o varias columnas de dimensión de una tabla de forma libre.
+
 Para obtener información sobre el filtrado de tablas, consulte [Filtrar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables) en [Filtrar y ordenar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ## Orden de tablas {#sort-tables}
 
-<!--At GA, move this section into the "Filter and sort tables" article and replace the current "Sort tables" section. Change the "Filter tables" section above to "Filter and sort tables" and link to the other article. Also add row to Guardrails article. -->
+<!--At GA, move this section into the "Filter and sort tables" article and replace the current "Sort tables" section. Change the "Filter tables" section above to "Filter and sort tables" and link to the other article. Also add row to Guardrails -->
 
-Puede ordenar los datos de una tabla de forma libre por cualquier columna de Analysis Workspace que sea una dimensión o una métrica.
+Puede ordenar los datos de una tabla de forma libre por cualquier columna de Analysis Workspace, ya sean dimensiones o métricas.
 
 De forma predeterminada, las dimensiones se ordenan en orden ascendente, mientras que las métricas se ordenan en orden descendente.
 
@@ -134,7 +108,7 @@ El icono de ordenación permanece visible cuando se aplica la ordenación a una 
 
 Al ordenar los datos de varias columnas, los datos se ordenan según la prioridad asignada a cada columna. La numeración de prioridades se muestra junto al icono de ordenación ![icono de prioridad de ordenación](assets/sort-priority-icon.png).
 
-La columna con la prioridad principal decide el orden principal, la columna con la prioridad secundaria decide el orden cuando las filas tienen el mismo valor en la columna principal, la columna con la prioridad terciaria decide el orden cuando las filas tienen el mismo valor en las columnas principal y secundaria, y así sucesivamente.
+La columna con prioridad principal decide el orden principal; la columna con prioridad secundaria decide el orden cuando las filas tienen el mismo valor en la columna principal; la columna con prioridad terciaria decide el orden cuando las filas tienen el mismo valor en las columnas principal y secundaria; y así sucesivamente.
 
 Por ejemplo, considere una tabla con las siguientes columnas:
 
@@ -156,7 +130,35 @@ Al asignar una prioridad de ordenación a cada columna, puede controlar exactame
 
 ![ejemplo de ordenación múltiple](assets/dimensions-multiple-sort.png)
 
-## Adición de desgloses a una tabla con varias columnas de dimensión
+## Varias columnas y desgloses de dimensión
+
+Analysis Workspace proporciona las siguientes formas de agregar varias dimensiones dentro de una tabla de forma libre:
+
+* Incluya varias columnas de dimensión (como se describe en este artículo)
+
+* [Agregar desgloses](/help/components/dimensions/t-breakdown-fa.md)
+
+Ambos métodos permiten analizar dimensiones con respecto a otras dimensiones. Sin embargo, existen diferencias importantes y ambos métodos se pueden utilizar en la misma tabla para un análisis aún más profundo.
+
+### Diferencias entre columnas de dimensión y desgloses
+
+Varias columnas de dimensión permiten:
+
+* Concatenar elementos de dimensión en distintas filas de datos en varias dimensiones.
+
+* Incluya elementos de dimensión en filas concatenadas solo cuando los elementos de dimensión se apliquen a cada columna de dimensión de la tabla. Para ello, use el filtro de columna para anular la selección de la configuración **[!UICONTROL Incluir &quot;Sin valor&quot;]** en cada columna de dimensión.
+
+  Para obtener más información, vea [Ordenar tablas por varias columnas (Ordenación avanzada)](#sort-tables-by-multiple-columns-advanced-sorting).
+
+* Ordene los datos por varias columnas de dimensiones y métricas para ver datos más personalizados.
+
+  Para obtener más información, vea [Ordenar tablas por varias columnas (Ordenación avanzada)](#sort-tables-by-multiple-columns-advanced-sorting)
+
+Los desgloses le permiten:
+
+* Desglose un elemento de dimensión de la tabla de forma libre por una dimensión secundaria. Puede mostrar hasta 200 elementos de dimensión para la dimensión secundaria.
+
+### Adición de desgloses a una tabla con varias columnas de dimensión
 
 Cuando se agrega un desglose a una tabla que tiene varias columnas de dimensión, el desglose abarca todos los elementos de dimensión de la fila en la que se agrega.
 
