@@ -5,10 +5,10 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
+source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 93%
+source-wordcount: '435'
+ht-degree: 63%
 
 ---
 
@@ -33,19 +33,17 @@ Por ejemplo:
 
 En algunos informes, es posible que desee atribuir el pedido a la búsqueda de pago. En otros informes, es posible que desee atribuir el pedido a los medios sociales. La atribución permite controlar este aspecto del sistema de informes.
 
-## Definición del modelo de atribución predeterminado de un componente
+## Definición del modelo de atribución de un componente
 
-Puede establecer un modelo de atribución predeterminado para una métrica determinada actualizando la configuración de la métrica en la vista de datos. Al hacerlo, se anula el modelo de atribución de la métrica cada vez que se utiliza en Analysis Workspace.
+Puede cambiar el modelo de atribución predeterminado para un componente determinado actualizando la configuración del componente en la vista de datos. Al hacerlo, se anula el modelo de atribución del componente siempre que se utilice en Analysis Workspace.
 
 >[!NOTE]
 >
->Tenga en cuenta lo siguiente cuando habilite la atribución en una métrica:
+>Tenga en cuenta lo siguiente al habilitar un modelo de atribución no predeterminado en una métrica:
 >
->* **Al usar el componente en un informe con *una sola dimensión*:** la atribución del componente ignora el modelo de asignación cuando se usa un modelo de atribución no predeterminado.
+>* **Al usar la métrica en un informe con *una sola dimensión*:** La atribución de la métrica anula el modelo de asignación establecido en la dimensión. Por ejemplo, una métrica con una atribución de &quot;primer contacto&quot; anula una asignación de dimensión &quot;más reciente&quot;.
 >
->* **Al usar el componente en un informe con *varias dimensiones*:** la atribución del componente retiene el modelo de asignación cuando se usa un modelo de atribución no predeterminado.
->
->   Solo hay varias dimensiones disponibles cuando [se exportan datos a la nube](/help/analysis-workspace/export/export-cloud.md).
+>* **Al usar la métrica en un informe con *varias dimensiones*:** La atribución de la métrica se aplica sobre el modelo de asignación para cada dimensión. Por ejemplo, una métrica con una atribución de &quot;primer contacto&quot; se aplica sobre una asignación de dimensión &quot;más reciente&quot;.
 >
 > Para obtener más información sobre la asignación, consulte [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).
 
