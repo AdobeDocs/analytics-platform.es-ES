@@ -54,7 +54,7 @@ ht-degree: 99%
       + [Enviar datos a Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Conservar datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [Proceso de actualización recomendado](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
-      + [Preparación de la organización](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)
+      + [Prepare su organización](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)
       + Arquitecto y creación de un esquema {#schema}
          + [Diseña tu esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
          + [Cree su esquema](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
