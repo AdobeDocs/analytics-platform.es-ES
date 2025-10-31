@@ -5,7 +5,7 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e4b7f1da451a7ec9171fbb623e0e79e916827fd8
+source-git-commit: 77f350923bb750bf99fe4080e44968f9a52cd7da
 workflow-type: tm+mt
 source-wordcount: '2489'
 ht-degree: 93%
@@ -264,7 +264,7 @@ A continuación se describen las prácticas recomendadas para la configuración 
 >[!MORELIKETHIS]
 >
 >[Configuración de componentes](/help/data-views/component-settings/overview.md)
->&#x200B;>[Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Aprobar métrica calculada](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Compartir segmentos](/help/components/segments/seg-share.md)
+>>[Diccionario de datos](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Aprobar métrica calculada](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Compartir segmentos](/help/components/segments/seg-share.md)
 >
