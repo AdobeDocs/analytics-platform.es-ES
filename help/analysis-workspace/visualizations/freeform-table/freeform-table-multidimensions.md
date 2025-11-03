@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
+source-git-commit: 9314f7d88834a67efb61d0cc0cceef1ccd2fb9cb
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 Puede incluir hasta 5 columnas de dimensión en una tabla de forma libre, lo que le permite ver varios elementos de dimensión en paralelo. Cada fila de elementos de dimensión se comporta como un solo elemento de dimensión concatenado.
 
-Puede aplicar filtros, clasificaciones, desgloses y mucho más a tablas de forma libre con varias columnas de dimensión para crear un análisis más profundo y personalizado.
+Puede aplicar filtros, clasificaciones, desgloses y mucho más a las tablas de forma libre con varias columnas de dimensión para crear un análisis más profundo y personalizado.
 
 ## Elementos de dimensión concatenados
 
-Cuando se agregan varias columnas de dimensión a una tabla de forma libre, cada fila de elementos de dimensión se comporta como un solo elemento de dimensión concatenado. Esta funcionalidad le permite ver datos de métricas para combinaciones específicas de dimensiones.
+Cuando [agrega varias columnas de dimensión a una tabla de forma libre](#add-multiple-dimension-columns), cada fila de elementos de dimensión se comporta como un solo elemento de dimensión concatenado. Esta funcionalidad le permite ver datos de métricas para combinaciones específicas de dimensiones.
 
-Por ejemplo, imagine una tabla de forma libre en la que las dimensiones son _Ciudad_, _Tipo de dispositivo_ y _Día del mes_ y la métrica es _Eventos_. Los 3 elementos de dimensión de la primera fila de esta tabla se convierten en un solo elemento de dimensión concatenado que muestra que hubo 2056 eventos que tuvieron lugar en Mumbai desde teléfonos móviles el día 30 del mes.
+Por ejemplo, considere una tabla de forma libre en la que las columnas de dimensión son _Ciudad_, _Tipo de dispositivo_ y _Día del mes_, y la métrica es _Eventos_. Los 3 elementos de dimensión de la primera fila de esta tabla se convierten en un solo elemento de dimensión concatenado que muestra que hubo 2056 eventos que tuvieron lugar en Mumbai desde teléfonos móviles el día 30 del mes.
 
 | Dimension: City | Dimension: Tipo de dispositivo | Dimension: Día del mes | Métrica: Eventos |
 |---------|----------|---------|---------|
@@ -57,13 +57,13 @@ Puede agregar varias columnas de dimensión de una en una o de forma masiva.
 
      ![Arrastrar varias dimensiones](assets/dimensions-add-multiple.png)
 
-1. Ver cada fila de la tabla como un solo elemento de dimensión. Para obtener más información, consulte [Ver elementos de dimensión concatenados](#view-concatenated-dimension-items).
+1. Ver cada fila de la tabla como un solo elemento de dimensión. Para obtener más información, consulte [Elementos de dimensión concatenados](#view-concatenated-dimension-items).
 
 ## Filtrado de tablas
 
 Puede aplicar filtros a una o varias columnas de dimensión de una tabla de forma libre.
 
-Para obtener información sobre el filtrado de tablas, consulte [Filtrar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables) en [Filtrar y ordenar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Para obtener información sobre el filtrado de tablas, consulte [Filtrar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables) en [Filtrar y ordenar tablas improvisadas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ## Orden de tablas {#sort-tables}
 
