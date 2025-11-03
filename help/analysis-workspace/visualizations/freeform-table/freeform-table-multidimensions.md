@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: ec07eb5dced013eac3d1088f2f49dcea23894395
+source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1274'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,26 @@ ht-degree: 2%
 
 {{release-limited-testing}}
 
-Puede incluir hasta 5 columnas de dimensión en una tabla de forma libre, lo que le permite ver varios elementos de dimensión en paralelo. Cada fila de elementos de dimensión actúa como un solo elemento concatenado.
+Puede incluir hasta 5 columnas de dimensión en una tabla de forma libre, lo que le permite ver varios elementos de dimensión en paralelo. Cada fila de elementos de dimensión se comporta como un solo elemento de dimensión concatenado.
 
-Puede aplicar filtros, clasificaciones, desgloses y mucho más a las tablas de forma libre con varias columnas de dimensión para crear un análisis más completo y personalizado.
+Puede aplicar filtros, clasificaciones, desgloses y mucho más a tablas de forma libre con varias columnas de dimensión para crear un análisis más profundo y personalizado.
+
+## Elementos de dimensión concatenados
+
+Cuando se agregan varias columnas de dimensión a una tabla de forma libre, cada fila de elementos de dimensión se comporta como un solo elemento de dimensión concatenado. Esta funcionalidad le permite ver datos de métricas para combinaciones específicas de dimensiones.
+
+Por ejemplo, imagine una tabla de forma libre en la que las dimensiones son _Ciudad_, _Tipo de dispositivo_ y _Día del mes_ y la métrica es _Eventos_. Los 3 elementos de dimensión de la primera fila de esta tabla se convierten en un solo elemento de dimensión concatenado que muestra que hubo 2056 eventos que tuvieron lugar en Mumbai desde teléfonos móviles el día 30 del mes.
+
+| Dimension: City | Dimension: Tipo de dispositivo | Dimension: Día del mes | Métrica: Eventos |
+|---------|----------|---------|---------|
+| Bombay | Teléfono móvil | 30 | 2.056 |
+| Nueva York | Tableta | 31 | 1.761 |
+| Bangalore | Escritorio | 1 | 1.666 |
+| Delhi | Teléfono móvil | 14 | 1.396 |
+
+A continuación, se muestra cómo aparece esta tabla en Analysis Workspace:
+
+![Ejemplo de varias dimensiones](assets/multi-dim-example.png)
 
 ## Adición de varias columnas de dimensión
 
@@ -39,6 +56,8 @@ Puede agregar varias columnas de dimensión de una en una o de forma masiva.
      Para seleccionar varias dimensiones, mantenga presionada la tecla ***Comando*** (en Mac) o la tecla ***Ctrl*** (en Windows).
 
      ![Arrastrar varias dimensiones](assets/dimensions-add-multiple.png)
+
+1. Ver cada fila de la tabla como un solo elemento de dimensión. Para obtener más información, consulte [Ver elementos de dimensión concatenados](#view-concatenated-dimension-items).
 
 ## Filtrado de tablas
 
@@ -160,9 +179,21 @@ Los desgloses le permiten:
 
 ### Adición de desgloses a una tabla con varias columnas de dimensión
 
-Cuando se agrega un desglose a una tabla que tiene varias columnas de dimensión, el desglose abarca todos los elementos de dimensión de la fila en la que se agrega.
+Cuando se agrega un desglose a una tabla que tiene varias columnas de dimensión, el desglose se aplica al elemento de dimensión concatenado (en todas las columnas de dimensión) en la fila donde se agrega.
 
-Puede agregar un desglose como se describe en [Desglosar dimensiones](/help/components/dimensions/t-breakdown-fa.md).
+Además, puede añadir varias columnas de dimensión dentro de un desglose. Cada fila de elementos de dimensión dentro del desglose también se comporta como un solo elemento de dimensión concatenado.
+
+<!-- update screenshot to show the breakdown, and include this introductory sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows... " -->
+
+![ejemplo de ordenación múltiple](assets/dimensions-multiple-sort.png)
+
+Para obtener más información sobre cómo agregar un desglose, consulte [Desglosar dimensiones](/help/components/dimensions/t-breakdown-fa.md).
+
+## Cree un segmento basado en un elemento de dimensión que incluya varias columnas de dimensión
+
+Cuando crea un segmento basado en un elemento de dimensión que abarca varias columnas de dimensión, cada elemento de dimensión se incluye en la definición del segmento, con los operadores Y que se unen a ellos.
+
+Para obtener información sobre cómo crear un segmento, consulte [Crear segmentos](/help/components/segments/seg-create.md).
 
 ## Dimensiones no admitidas {#unsupported}
 
