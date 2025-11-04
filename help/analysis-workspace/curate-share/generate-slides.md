@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-source-git-commit: 62ef107c52a96178fbf9e41fee49db757488525b
+source-git-commit: 87e3b3cfdf765a57ecdb70921696013bcba4feac
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1585'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
    |---------|----------|
    | **[!UICONTROL Título de portada]** | Especifique un título para la presentación. Este título aparece en la diapositiva de título de la presentación. |
    | **[!UICONTROL Incluir nombre del moderador]** | Especifique el nombre del moderador. Este nombre aparece en la diapositiva de título de la presentación, debajo del título de la portada. |
-   | **[!UICONTROL Paneles y visualizaciones que incluir]** | Elija los paneles y la visualización que desee incluir en la presentación. Puede incluir hasta 50 visualizaciones.<p>Se admiten la mayoría de los paneles y las visualizaciones. Para obtener información acerca de paneles y visualizaciones no compatibles, vea [Elementos y características de proyecto no compatibles](#unsupported-project-elements-and-features).</p> |
+   | **[!UICONTROL Paneles y visualizaciones que incluir]** | Elija los paneles y la visualización que desee incluir en la presentación. Puede incluir hasta 50 visualizaciones.<p>Si una visualización está atenuada, va seguida del texto **[!UICONTROL (no compatible)]** o **[!UICONTROL (datos restringidos)]**.</p><ul><li>**No compatible**: La mayoría de los paneles y visualizaciones son compatibles. Para obtener información acerca de paneles y visualizaciones no compatibles, vea [Elementos y características de proyecto no compatibles](#unsupported-project-elements-and-features).</li><li>**Datos restringidos**: la visualización contiene un componente que una directiva de control de datos aplicada por su organización no puede exportar. Póngase en contacto con el administrador del sistema para ver qué componentes están restringidos para no exportarse y, a continuación, quite los componentes restringidos antes de generar diapositivas.</li></ul> |
    | **[!UICONTROL Enfatizar componentes]** | Elija las métricas y dimensiones de las visualizaciones que desee resaltar en la presentación. Los componentes que elija se clasifican más alto y se les da más peso cuando se crean los temas y la narrativa general de la historia de datos. <p>Cuando no se aplica ningún énfasis, los componentes se muestran en las presentaciones de la siguiente manera:<ul><li>**Métricas y dimensiones:** Cursiva</li><li>**Elementos de Dimension:** Comillas</li></ul></p><p>Cuando se aplica énfasis, los componentes se muestran en las presentaciones de la siguiente manera:</p><ul><li>**Métricas y dimensiones:** Cursiva y negrita</li><li>**Elementos de Dimension:** Negrita cuando se enfatiza la dimensión correspondiente<p>También se aplica un color al elemento de dimensión cuando este se resalta en el gráfico.</p></li></ul> |
 
    <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
@@ -235,5 +235,9 @@ Los siguientes elementos y características de Analysis Workspace utilizados en 
   Los datos de los desgloses se incluyen en las presentaciones generadas, pero se muestran en el mismo nivel que los elementos de dimensión.
 
 * Análisis guiados
+
+* Componentes que una directiva de gobernanza de datos ha restringido la exportación
+
+  Para obtener más información, consulte [Solucionar problemas de exportaciones con errores](/help/components/exports/troubleshoot-exports.md).
 
 
