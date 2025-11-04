@@ -5,7 +5,7 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 9314f7d88834a67efb61d0cc0cceef1ccd2fb9cb
+source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 2%
@@ -89,7 +89,7 @@ Para ordenar los datos de las tablas por una sola columna:
 
 ### Ordenar tablas por varias columnas (ordenación avanzada)
 
-{{release-limited-testing-section}}
+<!-- add this back in when move this section back to the filter and sort article: {{release-limited-testing-section}} -->
 
 #### Aplicar la ordenación a varias columnas
 
@@ -175,7 +175,7 @@ Varias columnas de dimensión permiten:
 
 Los desgloses le permiten:
 
-* Desglose un elemento de dimensión de la tabla de forma libre por una dimensión secundaria. Puede mostrar hasta 200 elementos de dimensión para la dimensión secundaria.
+* Desglose un elemento de dimensión de la tabla de forma libre por una dimensión secundaria. Puede mostrar hasta 400 elementos de dimensión para la dimensión secundaria.
 
 ### Adición de desgloses a una tabla con varias columnas de dimensión
 
