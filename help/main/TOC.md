@@ -438,8 +438,8 @@ ht-degree: 99%
 + Unión {#stitching}
    + [Información general](/help/stitching/overview.md)
    + [Vinculación basada en el campo](/help/stitching/fbs.md)
-   + [Identificación basada en gráficos](/help/stitching/gbs.md)
-   + [Solicitar vinculación](/help/stitching/use-stitching.md)
+   + [Vinculación basada en gráficos](/help/stitching/gbs.md)
+   + [Solicitud de vinculación](/help/stitching/use-stitching.md)
    + [Usar vinculación](/help/stitching/use-stitching-ui.md)
    + [Creación y administración de conjuntos de datos identificados](/help/stitching/stitching-ui.md)
    + [Validar vinculación](/help/stitching/validate.md)

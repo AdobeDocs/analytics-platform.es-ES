@@ -8,7 +8,7 @@ exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
 workflow-type: tm+mt
 source-wordcount: '2491'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
 
    1. En la fila **[!UICONTROL Herramientas del sistema de informes]** de la tabla proporcionada, seleccione el icono de edición ![Editar](/help/assets/icons/Edit.svg).
    1. Desplácese hasta **[!UICONTROL Asistente de IA: conocimiento del producto]** o búsquelo y, a continuación, seleccione el icono de signo más ![AñadirCírculo](/help/assets/icons/AddCircle.svg) situado junto a este permiso.
-   1. Desplácese hasta **[!UICONTROL Data Insights Agent]** o búsquelo y, a continuación, seleccione el icono de signo más ![AddCircle](/help/assets/icons/AddCircle.svg) junto a este permiso.
+   1. Desplácese hasta el permiso **[!UICONTROL Data Insights Agent]** o búsquelo. A continuación, seleccione el icono de signo más ![AddCircle](/help/assets/icons/AddCircle.svg) situado junto a este permiso.
 
-      El permiso **[!UICONTROL Asistente de IA: conocimiento del producto]** y el permiso **[!UICONTROL Data Insights Agent]** se han agregado a la columna **[!UICONTROL Elementos de permiso incluidos]**.
+      El permiso **[!UICONTROL Asistente de IA: conocimiento del producto]** y el permiso **[!UICONTROL Data Insights Agent]** se añaden a la columna **[!UICONTROL Elementos del permiso incluidos]**.
 
       ![Añada el permiso](assets/ai-assistant-permissions.png).
 
@@ -74,23 +74,23 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
 
   Para obtener información adicional sobre el control de acceso, consulte [Control de acceso](/help/technotes/access-control.md#access-control).
 
-* **Acceso a vista de datos**: las vistas de datos deben habilitarse para Data Insights Agent.
+* **Acceso a la vista de datos**: las vistas de datos deben habilitarse para Data Insights Agent.
 
   >[!IMPORTANT]
   >
   >Tenga en cuenta lo siguiente al habilitar las vistas de datos:
   >* Puede habilitar un máximo de 50 vistas de datos por organización IMS. Si habilita más de 50 vistas de datos en todos los perfiles de producto para una organización determinada, Data Insights Agent usa las 50 vistas de datos más utilizadas.
-  >* Data Insights Agent puede hacer referencia a las vistas de datos incluidas en algún momento durante el mismo día en que las habilita.
+  >* Data Insights Agent puede hacer referencia a las vistas de datos incluidas en algún momento durante el mismo día que las habilite.
 
-  Para habilitar las vistas de datos para Data Insights Agent:
+  Para habilitar las vistas de datos para Data Insights Agent, haga lo siguiente:
 
    1. En Customer Journey Analytics, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Vistas de datos]**.
 
-   1. Seleccione una o más vistas de datos que desee habilitar para Data Insights Agent y, a continuación, seleccione **[!UICONTROL Habilitar para Data Insights Agent]**.
+   1. Seleccione una o varias vistas de datos que desee habilitar para Data Insights Agent y, a continuación, seleccione **[!UICONTROL Habilitar para Data Insights Agent]**.
 
-      ![Habilitar vistas de datos para Data Insights Agent](assets/data-view-enable-dia.png)
+      ![Habilitación de vistas de datos para Data Insights Agent](assets/data-view-enable-dia.png)
 
-  Para ver la cantidad de vistas de datos que están habilitadas para Data Insights Agent en su organización IMS:
+  Para ver la cantidad de vistas de datos que están habilitadas para Data Insights Agent en su organización IMS, haga lo siguiente:
 
    1. En Customer Journey Analytics, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Vistas de datos]**.
 
