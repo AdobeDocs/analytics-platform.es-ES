@@ -4,10 +4,10 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: d6477006dfa8134521516b6e0665ff487236c10a
 workflow-type: tm+mt
-source-wordcount: '20424'
-ht-degree: 100%
+source-wordcount: '20761'
+ht-degree: 98%
 
 ---
 
@@ -1063,7 +1063,22 @@ Las plantillas disponibles son las siguientes:
 | **Informe de información general de Journey Optimizer** | Ver un resumen completo de las métricas de tráfico y participación de todas las campañas y recorridos dentro de su entorno.<p>**Esto puede ayudarle** a comprender mejor la eficacia a alto nivel de sus campañas y recorridos.  </p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como ajustar sus campañas y recorridos en función de los niveles de participación de su público destinatario.</p> |
 | **Suscripciones de Journey Optimizer** | Vea las suscripciones y bajas de perfiles asociadas a listas concretas.<p>**Esto puede ayudarle** a comprender mejor la efectividad de las diferentes campañas e iniciativas de suscripción para impulsar la participación y las conversiones.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como ajustar sus campañas de suscripción en función de los niveles de participación de su público destinatario.</p> |
 
+### Brand Concierge {#brand-concierge-templates}
 
+>[!CONTEXTUALHELP]
+>id="template--brand-concierge-b2c"
+>title="Analice la participación del usuario a través de patrones de conversación, comentarios del usuario y la eficacia de sus recomendaciones."
+>abstract="**Esto puede ayudarle** a identificar patrones de participación, evaluar la calidad de la conversación, rastrear las tendencias de satisfacción de los clientes y medir la efectividad de las recomendaciones de vínculos.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como refinar las respuestas de su agente de IA, desarrollar contenido dirigido para problemas frecuentes, mejorar los algoritmos de recomendación o crear rutas especializadas para diferentes segmentos de usuarios."
+
+>[!CONTEXTUALHELP]
+>id="template--brand-concierge--concierge"
+>title="Rastree el ciclo de vida completo de las convocatorias de reunión B2B. Monitorice las tasas de conversión, el rendimiento del consultor e identifique los canales de generación de posibles clientes más efectivos."
+>abstract="**Esto puede ayudarle** a realizar el seguimiento de las tasas de conversión de las reuniones, identificar a los integrantes del equipo de alto rendimiento, comprender las tendencias estacionales en el comportamiento de las reservas y determinar qué páginas generan las convocatorias de reunión más valiosas.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el proceso de convocatoria de reunión, redistribuir recursos a páginas de alta conversión, desarrollar formación dirigida a consultores con tasas de reserva más bajas o implementar nuevas estrategias para reducir las reuniones perdidas."
+
+| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- | 
+| [!UICONTROL **Información general de Brand Concierge**] | Analice la participación del usuario a través de patrones de conversación, comentarios del usuario y la eficacia de sus recomendaciones. <p>**Esto puede ayudarle** a identificar patrones de participación, evaluar la calidad de la conversación, rastrear las tendencias de satisfacción de los clientes y medir la efectividad de las recomendaciones de vínculos.</p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como refinar las respuestas de su agente de IA, desarrollar contenido dirigido para problemas frecuentes, mejorar los algoritmos de recomendación o crear rutas especializadas para diferentes segmentos de usuarios.</p> |
+| **Reuniones B2B de Brand Concierge** | Rastree el ciclo de vida completo de las convocatorias de reunión B2B. Monitorice las tasas de conversión, evalúe el rendimiento de las reservas de los consultores e identifique los canales de generación de posibles clientes más efectivos. <p>**Esto puede ayudarle** a realizar el seguimiento de las tasas de conversión de las reuniones, identificar a los integrantes del equipo de alto rendimiento, comprender las tendencias estacionales en el comportamiento de las reservas y determinar las direcciones URL de las páginas que generan las convocatorias de reunión más valiosas. </p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el proceso de convocatoria de reunión, redistribuir recursos a direcciones URL de páginas de alta conversión, desarrollar formación dirigida a consultores con tasas de reserva más bajas o implementar nuevas estrategias para reducir las reuniones perdidas.</p> |
 
 
 ### Plantillas B2B {#b2b-templates}
