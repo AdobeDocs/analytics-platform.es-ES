@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo publicar públicos desde Customer 
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: f3bd60d6a371a16e606d9af60e3359d8128a3c9f
+source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 100%
+source-wordcount: '2391'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
 
    | Método de creación | Detalles |
    | --- | --- |
-   | Desde la interfaz **[!UICONTROL Públicos]** | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Públicos. Seleccione **[!UICONTROL Generar público]** y se abrirá el [!UICONTROL Generador de públicos]. |
+   | Desde la interfaz de **[!UICONTROL audiencias publicadas]** | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias publicadas]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Públicos. Seleccione **[!UICONTROL Generar público]** y se abrirá el [!UICONTROL Generador de públicos]. |
    | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear un público utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear público]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el segmento del Generador de públicos con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear un público utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mapa ](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** Esta visualización se encuentra en la fase Prueba limitada de la versión y es posible que no esté disponible aún en su entorno.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Los públicos no pueden incluir métricas calculadas. Si intenta crear un público que contenga una métrica calculada, ésta no se incluirá en la definición de público.</p> |
    | Desde la interfaz de usuario de creación/edición de segmentos | Marque la casilla que dice **[!UICONTROL Crear un público a partir de este segmento]**. Mediante este método se rellena previamente el segmento. Consulte [Crear segmentos](/help/components/segments/seg-create.md) para obtener más información. |
 
@@ -153,7 +153,7 @@ En varios puntos antes, durante y después de la publicación del público, pued
 
 Customer Journey Analytics toma todas las combinaciones de espacio de nombres e ID de público publicado y las transmite a Real-Time Customer Data Platform. Customer Journey Analytics envía el público a Experience Platform con la identidad principal establecida en el valor que se haya seleccionado como [!UICONTROL ID de la persona] cuando se configuró la conexión.
 
-A continuación, Real-Time Customer Data Platform examina cada combinación de área de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de áreas de nombres, ID y dispositivos vinculados. Si encuentra un perfil, añade el área de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia al segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
+A continuación, Real-Time Customer Data Platform examina cada combinación de espacio de nombres e ID y busca un perfil del que pueda formar parte. Un perfil es básicamente un clúster de espacios de nombres, ID y dispositivos vinculados. Si encuentra un perfil, añade el espacio de nombres y el ID a los demás ID de este perfil como un atributo de pertenencia al segmento. Por ejemplo, <user@adobe.com> se puede dirigir a todos sus dispositivos y canales. Si no se encuentra un perfil, se crea uno nuevo.
 
 Para ver los públicos de Customer Journey Analytics en Platform:
 
@@ -238,7 +238,7 @@ Customer Journey Analytics transmite los datos a Real-Time Customer Data Platfor
 
 +++**¿Qué identidades envía Customer Journey Analytics?**
 
-Cualquiera de los pares de identidad/área de nombres que se hayan utilizado en la [Configuración de conexión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection). En concreto, el paso cuando un usuario selecciona el campo que desea utilizar como ID de persona.
+Cualquiera de los pares de identidad/espacio de nombres que se hayan utilizado en la [Configuración de conexión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection). En concreto, el paso cuando un usuario selecciona el campo que desea utilizar como ID de persona.
 
 +++
 

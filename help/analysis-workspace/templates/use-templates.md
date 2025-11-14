@@ -4,10 +4,10 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 8b9f45bc68fd90c2b15a91d547256c18d0d7142b
+source-git-commit: 0e282bc341588032fadee45cc128663cf557b21f
 workflow-type: tm+mt
-source-wordcount: '20687'
-ht-degree: 98%
+source-wordcount: '20775'
+ht-degree: 97%
 
 ---
 
@@ -591,6 +591,11 @@ Las plantillas disponibles son las siguientes:
 
 
 <!--Both AA and CJA-->
+
+>[!CONTEXTUALHELP]
+>id="template--audienceOverview"
+>title="Vea qué audiencias se representan entre las personas que visitan el sitio."
+>abstract="**Esto puede ayudarte** a comprender mejor la información general sobre las audiencias, el origen de las audiencias (RTCDP, Customer Journey Analytics, etc.), la superposición de audiencias y mucho más.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing para estas audiencias específicas o crear experiencias adaptadas para clientes que abarcan varias audiencias.<br/>Esta plantilla usa las dimensiones Nombre de audiencia, Origen de audiencia, Nombre de audiencia de salida y Origen de audiencia de salida."
 
 >[!CONTEXTUALHELP]
 >id="template--consentPolicyOverview"

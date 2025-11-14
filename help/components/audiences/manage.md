@@ -4,14 +4,14 @@ description: Descubra cómo administrar públicos en Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 97%
 
 ---
 
-# Administrar públicos
+# Administrar audiencias publicadas
 
 Los públicos se pueden administrar en Customer Journey Analytics mediante **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]**.
 
@@ -35,7 +35,7 @@ La lista de Públicos ➊ muestra los públicos existentes.
 
 Para ver la lista Público:
 
-1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]**.
+1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias publicadas]**.
 
 1. (Opcional) Utilice ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configurar qué columnas mostrar.
 
@@ -62,7 +62,7 @@ Puede editar la configuración de un público en cualquier momento. Cuando edita
 
 Para editar un público, haga lo siguiente:
 
-1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]**.
+1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias publicadas]**.
 
    Se muestra la página Públicos.
 

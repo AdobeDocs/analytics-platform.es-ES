@@ -4,16 +4,18 @@ description: Obtenga información sobre el concepto de publicación de públicos
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
+source-git-commit: ff301a4c76c547bf52e0dfaef5258fd183411c73
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
 # Información general sobre la publicación de públicos
 
-Ahora puede crear y publicar públicos que haya descubierto en Customer Journey Analytics para el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para la segmentación y personalización de clientes. 
+Puede crear y publicar audiencias que haya descubierto en Customer Journey Analytics en [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para personalización y segmentación de clientes.
+
+<!-- add this when Audience Analysis releases: (For information about ingesting audience membership data from Experience Platform Profile datasets into a Customer Journey Analytics connection, see [Audience analysis overview](/help/connections/audience-analysis/audience-analysis-overview.md).) -->
 
 La publicación de públicos proporciona una manera clara de activar y realizar acciones relacionadas con la información contenida en Customer Journey Analytics. Estas acciones pueden incluir:
 
@@ -29,7 +31,7 @@ Los públicos que cree en Customer Journey Analytics no tienen por qué basarse 
 
 ## Terminología clave
 
-**Público**: conjunto o lista de identidades que tienen un área de nombres y un ID específico relacionado con ese área de nombres. Los públicos se pueden transportar desde Adobe Experience Platform y las aplicaciones que se basan en la herramienta (como Customer Journey Analytics). Los públicos pueden contener áreas de nombres mixtas.
+**Público**: conjunto o lista de identidades que tienen un espacio de nombres y un ID específico relacionado con ese espacio de nombres. Los públicos se pueden transportar desde Adobe Experience Platform y las aplicaciones que se basan en la herramienta (como Customer Journey Analytics). Los públicos pueden contener espacios de nombres mixtos.
 
 **Segmento**: Conjunto de reglas que, al evaluarse con un conjunto de datos durante un período de tiempo, produce un subconjunto de datos. Se puede utilizar un segmento en el proceso de creación de un público cuando se asocia con otros servicios de respaldo. Los filtros se definen y mantienen en Customer Journey Analytics.
 
