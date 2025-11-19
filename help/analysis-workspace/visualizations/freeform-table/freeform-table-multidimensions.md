@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
+source-git-commit: 77acfaf2d186e7fe7d6b9d973af5dedb3956f5d5
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1277'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ Puede agregar varias columnas de dimensión de una en una o de forma masiva.
 
      ![Arrastrar varias dimensiones](assets/dimensions-add-multiple.png)
 
-1. Ver cada fila de la tabla como un solo elemento de dimensión. Para obtener más información, consulte [Elementos de dimensión concatenados](#view-concatenated-dimension-items).
+1. Ver cada fila de la tabla como un solo elemento de dimensión. Para obtener más información, consulte [Elementos de dimensión concatenados](#concatenated-dimension-items).
 
 ## Filtrado de tablas
 
@@ -181,11 +181,11 @@ Los desgloses le permiten:
 
 Cuando se agrega un desglose a una tabla que tiene varias columnas de dimensión, el desglose se aplica al elemento de dimensión concatenado (en todas las columnas de dimensión) en la fila donde se agrega.
 
+![ejemplo de desglose multiorden](assets/dimensions-multiple-sort-breakdown.png)
+
 Además, puede añadir varias columnas de dimensión dentro de un desglose. Cada fila de elementos de dimensión dentro del desglose también se comporta como un solo elemento de dimensión concatenado.
 
-<!-- update screenshot to show the breakdown, and include this introductory sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows... " -->
-
-![ejemplo de ordenación múltiple](assets/dimensions-multiple-sort.png)
+<!-- Add a screenshot of a breakdown with multiple cllumns, then add this sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows..." -->
 
 Para obtener más información sobre cómo agregar un desglose, consulte [Desglosar dimensiones](/help/components/dimensions/t-breakdown-fa.md).
 
