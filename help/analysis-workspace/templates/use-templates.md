@@ -4,7 +4,7 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 0e282bc341588032fadee45cc128663cf557b21f
+source-git-commit: 6cb72495bd190a31f0cb1533f0b33a0929d8a35b
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 97%
@@ -482,6 +482,13 @@ Las plantillas disponibles son las siguientes:
 
 ### Web: público {#web-audience}
 
+<!--CJA only-->
+
+>[!CONTEXTUALHELP]
+>id="template--audienceOverview"
+>title="Vea qué audiencias se representan entre las personas que visitan el sitio."
+>abstract="**Esto puede ayudarte** a comprender mejor la información general sobre las audiencias, el origen de las audiencias (RTCDP, Customer Journey Analytics, etc.), la superposición de audiencias y mucho más.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing para estas audiencias específicas o crear experiencias adaptadas para clientes que abarcan varias audiencias.<br/>Esta plantilla usa las dimensiones Nombre de audiencia, Origen de audiencia, Nombre de audiencia de salida y Origen de audiencia de salida."
+
 <!--AA only-->
 
 >[!CONTEXTUALHELP]
@@ -593,11 +600,6 @@ Las plantillas disponibles son las siguientes:
 <!--Both AA and CJA-->
 
 >[!CONTEXTUALHELP]
->id="template--audienceOverview"
->title="Vea qué audiencias se representan entre las personas que visitan el sitio."
->abstract="**Esto puede ayudarte** a comprender mejor la información general sobre las audiencias, el origen de las audiencias (RTCDP, Customer Journey Analytics, etc.), la superposición de audiencias y mucho más.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing para estas audiencias específicas o crear experiencias adaptadas para clientes que abarcan varias audiencias.<br/>Esta plantilla usa las dimensiones Nombre de audiencia, Origen de audiencia, Nombre de audiencia de salida y Origen de audiencia de salida."
-
->[!CONTEXTUALHELP]
 >id="template--consentPolicyOverview"
 >title="Ver el país desde el que las personas visitaron el sitio."
 >abstract="**Esto puede ayudarle** a comprender mejor de qué países provienen los visitantes más populares del sitio.<br/>**En función de lo que aprenda, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing en estos países o asegurarse de que la experiencia del sitio sea óptima en países que tienen diferentes idiomas principales.<br/>Esta plantilla usa la dimensión Países."
@@ -649,6 +651,8 @@ Las plantillas disponibles son las siguientes:
 
 
 Las plantillas disponibles son las siguientes:
+
+<!--need to add audience overview: - **[!UICONTROL Audience overview]** - View which audiences are represented among the people visiting your site.<p>**This can help you** better understand general information about the audiences, where the audiences originated (RTCDP, Customer Journey Analytics, and so forth), audience overlap, and more.</p><p>**Based on what you learn, you might** do any number of things, like use the data to focus on marketing efforts for these specific audiences, or create tailored experiences for customers who span multiple audiences.</p><p>This template uses the Audience Name, Audience Origin, Exited Audience Name, and Exited Audience Origin dimensions.</p> - -->
 
 | Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 

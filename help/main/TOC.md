@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 0c3dfd54dc0cee912cab18644fa984b2be5a26a7
+source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1319'
 ht-degree: 99%
 
 ---
@@ -164,7 +164,8 @@ ht-degree: 99%
       + [Editor](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
    + Análisis de público {#audience-analysis}
       + [Información general](/help/connections/audience-analysis/audience-analysis-overview.md)
-      + [Analizar audiencias de RTCDP](/help/connections/audience-analysis/analyze-audiences.md)
+      + [Configuración](/help/connections/audience-analysis/audience-analysis-configure.md)
+      + [Analizar](/help/connections/audience-analysis/analyze-audiences.md)
 + Herramientas {#tools}
    + Transferencia de recursos {#asset-transfer}
       + [Transferir recursos](../tools/asset-transfer/transfer-assets.md)
