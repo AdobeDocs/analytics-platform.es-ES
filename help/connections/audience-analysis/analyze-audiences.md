@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
+source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 Puede empezar a analizar las audiencias de Experience Platform en Customer Journey Analytics después de [crear una configuración de análisis de audiencia](/help/connections/audience-analysis/audience-analysis-configure.md), cuando los datos de audiencia estén disponibles como dimensiones nuevas en Analysis Workspace.
 
 Hay disponible una plantilla Información general de audiencia en Customer Journey Analytics.
+
+<!-- Can you also use the new audience dimensions in any project, regardless of whether it's a template? I assume so -->
+
+<!-- What are the names of the new dimensions? Are they customized to whatever your audience names are in AEP, or are they always the same? -->
 
 Para obtener información acerca de cómo obtener acceso a la plantilla de información general de Audiencia, vea [Obtener acceso y ejecutar una plantilla](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) en [Usar plantillas](/help/analysis-workspace/templates/use-templates.md).
 
@@ -41,7 +45,7 @@ Muestra datos de todas las audiencias con eventos de uso asociados con la vista 
 
 Seleccione hasta tres audiencias en la tabla de este panel para ver cómo se superponen en el diagrama de Venn correspondiente.
 
-## Uso del público que ha salido
+## Panel de uso de audiencia cerrado
 
 Muestra datos de todas las audiencias de salida con eventos de uso asociados con la vista de datos seleccionada. Los datos siempre se muestran para ayer, por lo que al cambiar el intervalo de fechas del panel, se generan datos inexactos. &quot;Audiencias salientes&quot; son audiencias en las que personas con eventos de uso abandonaron o abandonaron el día anterior.
 

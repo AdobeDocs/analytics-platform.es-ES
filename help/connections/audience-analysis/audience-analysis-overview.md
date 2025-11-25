@@ -6,16 +6,16 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
+source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 4%
 
 ---
 
 # Resumen de análisis de audiencia
 
-<!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md -->
+<!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md and this article: /help/analysis-workspace/templates/use-templates.md-->
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 El análisis de audiencia le permite introducir datos de pertenencia a audiencias de conjuntos de datos de perfil de Experience Platform en una conexión de Customer Journey Analytics. Las audiencias están disponibles como nuevas dimensiones para su uso en Analysis Workspace.
 
-El diagrama siguiente y la tabla asociada muestran una representación de alto nivel de cómo una configuración de análisis de audiencia de Customer Journey Analytics hace que los datos de audiencia de Experience Platform estén disponibles en Analysis Workspace:
+El diagrama siguiente y la tabla asociada muestran una representación de alto nivel de cómo una configuración de análisis de audiencia en Customer Journey Analytics hace que los datos de audiencia de Experience Platform estén disponibles en Analysis Workspace:
 
 ![Resumen del análisis de audiencia](assets/audience-analysis-overview.png)
 
