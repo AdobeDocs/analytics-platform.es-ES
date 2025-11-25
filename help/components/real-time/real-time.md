@@ -4,9 +4,9 @@ title: Información general de informes en tiempo real
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 0e5a64e78e5a471f8b7c9fc32fdbae2b2e70230a
+source-git-commit: 59d48b84ddd34ef161ec0b11f023ccccf9b2e892
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '810'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 6%
 La creación de informes en tiempo real en Customer Journey Analytics muestra y actualiza datos y visualizaciones en uno o varios paneles de Analysis Workspace en tiempo real.
 
 {{ultimate-package}}
+
+>[!TIP]
+>
+>Si tiene derecho al paquete de Ultimate pero no ve la [opción de actualización en tiempo real](use-real-time.md), cree un ticket de atención al cliente para solicitar que se habiliten los informes en tiempo real para su organización.
+
 
 ## Casos de uso
 
@@ -44,7 +49,7 @@ Los informes en tiempo real usan un conjunto de datos consolidado que es complet
 * Creación de informes en tiempo real en un conjunto de datos consolidado que contiene hasta 24 horas de datos móviles.
 * Creación de informes estándar sobre el conjunto de datos consolidado que contiene hasta 13 meses de datos móviles (o más en caso de que tenga licencia del complemento de capacidad de datos extendida).
 
-![Creación de informes en tiempo real](assets/real-time-reporting-latencies.svg){zoomable="yes"}
+![Informes en tiempo real](assets/real-time-reporting-latencies.svg){zoomable="yes"}
 
 ### Latencias
 
