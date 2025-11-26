@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
-source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
+source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 24%
@@ -98,7 +98,7 @@ En **[!UICONTROL Esquemas]** > **[!UICONTROL Datos de ejemplo del CSV - esquema 
 
   >[!NOTE]
   >
-  >El flujo de trabajo define todos los campos del esquema para que sean del tipo Cadena. No puede cambiar este tipo en una fase posterior. Si necesita más flexibilidad en la definición de un esquema ad hoc, considere [usar la API para crear un esquema ad hoc](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/ad-hoc) y luego use el flujo de trabajo [Crear conjunto de datos a partir del esquema](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#schema).
+  >El flujo de trabajo define todos los campos del esquema para que sean del tipo Cadena. No puede cambiar este tipo en una fase posterior. Si necesita más flexibilidad en la definición de un esquema ad hoc, considere [usar la API para crear un esquema ad hoc](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/ad-hoc) y luego use el flujo de trabajo [Crear conjunto de datos a partir del esquema](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema).
   > 
 
 
@@ -155,7 +155,7 @@ Consulte [Configuración de conjuntos de datos ad hoc](/help/connections/create-
 
 >[!IMPORTANT]
 >
->Además de la recomendación general de no usar conjuntos de datos y esquemas ad hoc para datos de series temporales, no puede usar el flujo de trabajo **[!UICONTROL Crear conjunto de datos a partir de CSV]** para datos de series temporales. Este flujo de trabajo define todos los campos para que sean de tipo cadena que no se puede modificar posteriormente. Cuando se agrega un conjunto de datos basado en series temporales (evento o resumen) a una conexión, este tipo de conjunto de datos requiere la definición de al menos un campo de tipo DateTime.<br/>Si necesita usar datos de series temporales ad hoc, considere [usar la API para crear un esquema ad hoc](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) y luego use el flujo de trabajo [Crear conjunto de datos a partir del esquema](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#schema).
+>Además de la recomendación general de no usar conjuntos de datos y esquemas ad hoc para datos de series temporales, no puede usar el flujo de trabajo **[!UICONTROL Crear conjunto de datos a partir de CSV]** para datos de series temporales. Este flujo de trabajo define todos los campos para que sean de tipo cadena que no se puede modificar posteriormente. Cuando se agrega un conjunto de datos basado en series temporales (evento o resumen) a una conexión, este tipo de conjunto de datos requiere la definición de al menos un campo de tipo DateTime.<br/>Si necesita usar datos de series temporales ad hoc, considere [usar la API para crear un esquema ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) y luego use el flujo de trabajo [Crear conjunto de datos a partir del esquema](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema).
 
 
 Después de crear una [conexión](/help/connections/overview.md), puede realizar diversas tareas de administración, como [seleccionar y combinar conjuntos de datos](/help/connections/combined-dataset.md), [comprobar el estado de los conjuntos de datos de una conexión y el estado de la ingesta de datos](/help/connections/manage-connections.md), etc.
@@ -185,7 +185,7 @@ Para crear la vista de datos:
    1. Agregue cualquier campo de esquema o componente estándar que desee incluir en los cuadros de componente **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**. Asegúrese de agregar campos relevantes del conjunto de datos que contiene los datos ad hoc. Para acceder a esos campos:
 
       1. Seleccionar **[!UICONTROL conjuntos de datos de eventos]**.
-      1. Seleccione **[!UICONTROL campos ad hoc y basados en modelos]**.
+      1. Seleccione **[!UICONTROL campos ad hoc y relacionales]**.
 
          ![Vista de datos - componentes ad hoc](assets/cja-dataview-components-adhoc.png)
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
+source-git-commit: b2a13524760f9d466696534bc8b9691f3b4dfb8a
 workflow-type: tm+mt
-source-wordcount: '4990'
-ht-degree: 98%
+source-wordcount: '5005'
+ht-degree: 99%
 
 ---
 # Fragmentos
@@ -128,7 +128,7 @@ Un modelo de atribución determina qué elementos de dimensión obtienen crédit
 
 Un contenedor de atribución define el ámbito deseado para la atribución. Las opciones posibles son las siguientes:
 
-* **Sesión**: se remonta hasta el principio de una sesión en la que se realizó una conversión. Las ventanas retrospectivas de sesión respetan el [tiempo de espera de sesión](/help/data-views/create-dataview.md#session-settings) modificado en una vista de datos. Cuando se selecciona **[!UICONTROL Sesión]**, la [ventana retrospectiva de atribución](#atribution-lookback-window) se establece automáticamente en **[!UICONTROL ventana de informes]** y no se puede cambiar.
+* **Sesión**: se remonta hasta el principio de una sesión en la que se realizó una conversión. Las ventanas de retrospección de la sesión respetan el [Tiempo de espera de sesión](/help/data-views/create-dataview.md#session-settings) modificado en una vista de datos. Cuando se selecciona **[!UICONTROL Sesión]**, la [Ventana de retrospección de atribución](#atribution-lookback-window) se establece automáticamente en **[!UICONTROL Ventana de creación de informes]** y no se puede cambiar.
 * **Persona**: examina las conversiones desde el ámbito del contenedor de la persona.
 * **Cuenta global** [!BADGE B2B Edition]{type=Informative}: examina las conversiones desde el ámbito del contenedor de cuentas globales.
 * **Cuentas** [!BADGE B2B Edition]{type=Informative}: examina las conversiones desde el ámbito del contenedor de la persona.
@@ -139,7 +139,7 @@ Un contenedor de atribución define el ámbito deseado para la atribución. Las 
 
 El período de retroactividad de una atribución es la cantidad de tiempo que una conversión se debe remontar para incluir los puntos de contacto. Si un elemento de dimensión se establece fuera de la ventana de retrospección, el valor no se incluye en ningún cálculo de atribución.
 
-* **[!UICONTROL Ventana de informes]**: Busca hasta el inicio de la ventana de informes desde el momento en que se produjo la conversión.
+* **[!UICONTROL Ventana de creación de informes]**: busca hasta el inicio de la ventana de creación de informes desde el momento en que se produjo la conversión.
 * **14 días**: se remonta hasta 14 días desde que se realizó la conversión.
 * **30 días**: se remonta hasta 30 días desde que se realizó la conversión.
 * **60 días**: se remonta hasta 60 días desde que se realizó la conversión.
@@ -155,7 +155,7 @@ Consideremos el siguiente ejemplo:
 1. El 18 de setiembre, el visitante regresa de nuevo a su sitio a través de un vínculo de medios sociales que consiguió de un amigo. Agregan varios artículos al carro, pero no compran nada.
 1. El 24 de septiembre, su equipo de marketing les enviará un correo electrónico con un cupón para algunos de los artículos del carrito. Aplican el cupón, pero visitan otros sitios para ver si hay otros cupones disponibles. Encontraron otro a través de un anuncio y finalmente hicieron una compra por valor de 50 dólares.
 
-Según la ventana de informes (por ejemplo, del 10 de septiembre al 24 de septiembre), el modelo de atribución, el contenedor y los canales reciben crédito diferente. Consulte la siguiente tabla para ver ejemplos:
+Según la ventana de creación de informes (por ejemplo, del 10 de septiembre al 24 de septiembre), el modelo de atribución, el contenedor y los canales reciben crédito diferente. Consulte la siguiente tabla para ver ejemplos:
 
 | Modelo | Contenedor | Período de retroactividad | Explicación |
 |---|---|---|---|
@@ -286,3 +286,11 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 | [!UICONTROL La sesión empieza] | El número de eventos que fueron el primer evento de una sesión. Cuando se utiliza en una definición de segmento (por ejemplo, &#39;[!UICONTROL Se inicia la sesión]existe&#39;), segmenta solo hasta el primer evento de cada sesión.<p>Este componente debe incluirse en la vista de datos para la siguiente [métrica calculada](/help/components/calc-metrics/default-calcmetrics.md) para que esté disponible en Workspace: <ul><li>Tasa de inicio de sesión</li></p> |
 | [!UICONTROL Sesiones] | Basado en la configuración de sesión de la vista de datos. |
 | [!UICONTROL Tiempo empleado (segundos)] | Suma el tiempo entre dos valores diferentes para una dimensión.<p>Este componente debe incluirse en la vista de datos para que las siguientes [métricas calculadas](/help/components/calc-metrics/default-calcmetrics.md) estén disponibles en Workspace: <ul><li>Tiempo empleado por persona </li><li>Tiempo empleado por sesión</li></p> |
+
+
+## Basado en modelos relacionales {#relational-model-based}
+
+>[!INFO]
+>
+>En la interfaz de Customer Journey Analytics, los conjuntos de datos **[!UICONTROL Relacional]** pueden etiquetarse como **[!UICONTROL Basado en modelo]**.
+>

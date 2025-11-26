@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c1d0775ad7fc1c340a70e57e0f805349d21c639c
+source-git-commit: b2a13524760f9d466696534bc8b9691f3b4dfb8a
 workflow-type: tm+mt
 source-wordcount: '8027'
 ht-degree: 61%
@@ -115,7 +115,7 @@ La experiencia de flujo de trabajo de creación y edición de conexiones reúne 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear y editar una conexión](https://video.tv.adobe.com/v/3409298/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear y editar una conexión](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -182,8 +182,8 @@ En la pantalla **[!UICONTROL Conexiones]** > **[!UICONTROL *Nombre de la conexi�
    | **[!UICONTROL ID de la persona]** | El ID de persona que se utiliza para admitir la creación de informes basados en personas para el conjunto de datos. |
    | **[!UICONTROL Clave]** | La clave que se utiliza para un conjunto de datos de búsqueda. |
    | **[!UICONTROL Clave de coincidencia]** | La clave coincidente que se utiliza para un conjunto de datos de búsqueda. |
-   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
-   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
+   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
+   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
 
    Puede buscar un conjunto de datos específico mediante el campo ![Buscar](/help/assets/icons/Search.svg).
 
@@ -228,8 +228,8 @@ En la pantalla **[!UICONTROL Conexiones]** > **[!UICONTROL *Nombre de la conexi�
    | **[!UICONTROL ID de la persona]** | El ID de persona que se utiliza para admitir la creación de informes basados en personas para el conjunto de datos. |
    | **[!UICONTROL Clave]** | La clave que se utiliza para un conjunto de datos de búsqueda. |
    | **[!UICONTROL Clave de coincidencia]** | La clave coincidente que se utiliza para un conjunto de datos de búsqueda. |
-   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
-   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
+   | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
+   | **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
 
    Puede buscar un conjunto de datos específico mediante el campo ![Buscar](/help/assets/icons/Search.svg).
 
@@ -242,6 +242,9 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >Los valores anteriores al año 1900 para los campos Fecha y Fecha-hora de una fila en cualquier tipo de conjunto de datos se reemplazan por el valor `null` antes de que se ingrese la fila.<br/>Las filas de un conjunto de datos de resumen o evento con un valor de marca de tiempo anterior al año 1900 se pierden de la ingesta.
 
 
+{{relational-model-based}}
+
+
 >[!CONTEXTUALHELP]
 >id="cja_connection_primaryid"
 >title="ID principal"
@@ -250,7 +253,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="cja_connection_optionalcontainers"
 >title="Contenedores opcionales"
->abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global &#x200B;]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra &#x200B;]**: habilita la configuración de grupos de compra en una conexión."
+>abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
@@ -315,7 +318,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="connection_optionalcontainers"
 >title="Contenedores opcionales"
->abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global &#x200B;]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra &#x200B;]**: habilita la configuración de grupos de compra en una conexión."
+>abstract="Selecciona contenedores adicionales.<br/><br/>**[!UICONTROL Cuenta global ]**: habilita la configuración de cuentas globales en una conexión.<br/>**[!UICONTROL Oportunidad]**: habilita la configuración de oportunidades en una conexión.<br/>**[!UICONTROL Grupo de compra ]**: habilita la configuración de grupos de compra en una conexión."
 
 >[!CONTEXTUALHELP]
 >id="connection_personid"
@@ -355,7 +358,7 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >[!CONTEXTUALHELP]
 >id="connection_matchingkeytype"
 >title="Tipo de clave coincidente"
->abstract="Seleccione cómo desea unirse: mediante un coincidencia por campo o una coincidencia por contenedor.<br/><br/>**[!UICONTROL Coincidencia por campo &#x200B;]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. "
+>abstract="Seleccione cómo desea unirse: mediante un coincidencia por campo o una coincidencia por contenedor.<br/><br/>**[!UICONTROL Coincidencia por campo ]**: seleccione un campo para unirse con uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya añadido ni configurado ningún conjunto de datos de evento.<br/>**[!UICONTROL Coincidencia por contenedor]**: seleccione un contenedor para utilizarlo para unirse a uno de los conjuntos de datos de evento. "
 
 >[!CONTEXTUALHELP]
 >id="connection_importnewdata"
@@ -381,37 +384,37 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >id="connection_stitching_enable"
 >title="Habilitación de la vinculación de identidad"
 >abstract="Habilite la vinculación de identidad para elevar este conjunto de datos de evento para el análisis en canales múltiples."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_dialog"
 >title="Habilitación de la vinculación de identidad"
 >abstract="La habilitación de la vinculación de identidad deriva un ID vinculado de un único conjunto de datos o de varios. Este proceso puede incluir la combinación de datos de usuario de sesiones autenticadas y no autenticadas.<br/><br/>Usted es responsable de cumplir con las leyes y regulaciones aplicables. Esta conformidad incluye que obtenga los permisos de usuario final necesarios antes de combinar conjuntos de datos."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_persistentid"
 >title="ID persistente"
 >abstract="Seleccione un ID persistente entre las identidades disponibles. Un ID persistente es un identificador disponible en todos los eventos del conjunto de datos del evento."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_lookbackwindow"
 >title="Período de retroactividad"
 >abstract="Seleccione el período de tiempo adecuado para que la ventana retroactiva se utilice en la reproducción de la vinculación."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_map"
 >title="Mapa de identidad del espacio de nombres"
 >abstract="Seleccione el espacio de nombres a utilizar para elegir el identificador del mapa de identidad."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_graph"
 >title="Gráfico de identidad del espacio de nombres"
 >abstract="Seleccione el espacio de nombres a utilizar para actualizar el identificador en el gráfico de identidad."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_changeto_identitygraph"
@@ -424,23 +427,23 @@ Para cada conjunto de datos que agregó a esta conexión, [!UICONTROL Customer J
 
 >[!IMPORTANT]
 >
->Añada al menos un evento o un conjunto de datos de resumen (estándar o de tipo ad hoc o basado en modelos) a la conexión.
+>Añada al menos un evento o un conjunto de datos de resumen (estándar o de tipo ad hoc o relacional) a su conexión.
 
 Existen diferentes tipos de conjuntos de datos: datos de [!UICONTROL Evento], datos de [!UICONTROL Perfil], datos de [!UICONTROL Búsqueda] y datos de [!UICONTROL Resumen], cada uno basado en su esquema XDM correspondiente.
 
 | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de persona <br/> ID de cuenta [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} |
 |---|---|---|---|---|
-| **[!UICONTROL Evento]** | Datos que representan eventos en el tiempo. Por ejemplo, visitas web, interacciones, transacciones, datos de TPV, datos de encuesta, datos de impresión de publicidad, etc. Estos datos podrían ser datos del flujo de navegación típicos, con un ID de cliente o un ID de cookie y una marca de tiempo. Con los datos de evento, tiene flexibilidad para saber qué ID se utiliza como ID de persona. | Establezca en el campo de marca de tiempo predeterminado a partir de los esquemas basados en eventos en [!UICONTROL Experience Platform]. | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento *Serie temporal*. Algunos ejemplos son *Evento de experiencia XDM* o *Evento de decisión XDM*. | Puede elegir qué ID de persona o ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} desea incluir. Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un área de nombres de identidad. Cualquiera de estas identidades puede usarse como ID de persona o ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. Algunos ejemplos son: ID de cookie, ID con título, ID de usuario, código de seguimiento, ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, etc. |
+| **[!UICONTROL Evento]** | Datos que representan eventos en el tiempo. Por ejemplo, visitas web, interacciones, transacciones, datos de TPV, datos de encuesta, datos de impresión de publicidad, etc. Estos datos podrían ser datos del flujo de navegación típicos, con un ID de cliente o un ID de cookie y una marca de tiempo. Con los datos de evento, tiene flexibilidad para saber qué ID se utiliza como ID de persona. | Establezca en el campo de marca de tiempo predeterminado a partir de los esquemas basados en eventos en [!UICONTROL Experience Platform]. | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento *Serie temporal*. Algunos ejemplos son *Evento de experiencia XDM* o *Evento de decisión XDM*. | Puede elegir qué ID de persona o ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} desea incluir. Cada esquema del conjunto de datos definido en Experience Platform puede tener su propio conjunto de una o más identidades definidas y asociadas a un espacio de nombres de identidad. Cualquiera de estas identidades puede usarse como ID de persona o ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. Algunos ejemplos son: ID de cookie, ID con título, ID de usuario, código de seguimiento, ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, etc. |
 | **[!UICONTROL Búsqueda]** | Ahora puede añadir conjuntos de datos como consultas de campos dentro de todos los tipos de conjuntos de datos: conjuntos de datos de perfil, consulta y evento (este último siempre ha sido compatible). Esta capacidad adicional amplía la capacidad de Customer Journey Analytics para admitir modelos de datos complejos, incluido B2B. Estos datos se utilizan para buscar valores o claves encontrados en los datos de Evento, Perfil o de Búsqueda. Puede agregar hasta dos niveles de búsquedas. (Tenga en cuenta que los [Campos derivados](/help/data-views/derived-fields/derived-fields.md) no se pueden usar como claves coincidentes para búsquedas dentro de Conexiones). Por ejemplo, puede cargar datos de búsqueda que asignen ID numéricos en los datos de evento a nombres de producto. Consulte el [ejemplo B2B](/help/use-cases/b2b/example.md) para ver un ejemplo. | N/A | Cualquier esquema integrado o personalizado basado en una clase XDM con el comportamiento *Record*, excepto la clase *XDM Individual Profile*. | N/A |
-| **[!UICONTROL Perfil]** | Datos que se aplican a su cuenta, sus personas, usuarios o clientes en los datos de [!UICONTROL Evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/A | Cualquier esquema integrado o personalizado basado en la clase *XDM Individual Profile*. | Puede elegir qué ID de persona/ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} desea incluir. Cada conjunto de datos (excepto los de resumen) definido en [!DNL Experience Platform], tiene su propio conjunto de uno o más ID de persona o ID de cuenta [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} definidos. Por ejemplo: ID de cookie, ID con título, ID de usuario, código de seguimiento, ID de cuenta, etc.<br>![ID de persona &#x200B;](assets/person-id.png)**Nota**: Si crea una conexión que incluye conjuntos de datos con distintos ID, lo refleja el sistema de informes. Para combinar conjuntos de datos, debe usar el mismo ID de persona o ID de cuenta [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. |
+| **[!UICONTROL Perfil]** | Datos que se aplican a su cuenta, sus personas, usuarios o clientes en los datos de [!UICONTROL Evento]. Por ejemplo, le permite cargar datos de CRM sobre sus clientes. | N/A | Cualquier esquema integrado o personalizado basado en la clase *XDM Individual Profile*. | Puede elegir qué ID de persona/ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} desea incluir. Cada conjunto de datos (excepto los de resumen) definido en [!DNL Experience Platform], tiene su propio conjunto de uno o más ID de persona o ID de cuenta [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} definidos. Por ejemplo: ID de cookie, ID con título, ID de usuario, código de seguimiento, ID de cuenta, etc.<br>![ID de persona ](assets/person-id.png)**Nota**: Si crea una conexión que incluye conjuntos de datos con distintos ID, lo refleja el sistema de informes. Para combinar conjuntos de datos, debe usar el mismo ID de persona o ID de cuenta [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. |
 | **Resumen** | Datos de series temporales que no están asociados a un ID de persona individual. Los datos de resumen representan datos agregados en un nivel diferente de agregación, por ejemplo campañas. Puede utilizar estos datos en Customer Journey Analytics para admitir varios casos de uso. Consulte [Datos de resumen](/help/data-views/summary-data.md) para obtener más información. | Se establece automáticamente en el campo de marca de tiempo predeterminado a partir de los esquemas de métricas de resumen basados en eventos en Experience Platform. Solo se admite la granularidad por hora o por día. | Cualquier esquema integrado o personalizado basado en la clase *Métricas de resumen de XDM*. | N/A |
 
-Como alternativa, los tipos de conjuntos de datos enumerados arriba pueden basarse en un esquema ad hoc o basado en modelos en lugar de un esquema genérico basado en XDM.
+Alternativamente, los tipos de conjuntos de datos enumerados arriba pueden basarse en un esquema ad hoc o relacional en lugar de un esquema genérico basado en XDM.
 
 | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de la persona |
 |---|---|---|---|---|
-| **[!UICONTROL Ad hoc]** | Datos ad hoc basados en un [esquema ad hoc](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/api/ad-hoc) con campos con espacio de nombres para que los use un solo conjunto de datos. | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. | Cualquier esquema ad hoc basado en una clase basada en el comportamiento *ad hoc* | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. |
-| **[!UICONTROL Modelo]** | Datos basados en modelos basados en un esquema basado en modelos. | En función del tipo de conjunto de datos que seleccione para el conjunto de datos basado en modelos. | Cualquier esquema basado en modelos. | En función del tipo de conjunto de datos que seleccione para el conjunto de datos basado en modelos. |
+| **[!UICONTROL Ad hoc]** | Datos ad hoc basados en un [esquema ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc) con campos con espacio de nombres para que los use un solo conjunto de datos. | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. | Cualquier esquema ad hoc basado en una clase basada en el comportamiento *ad hoc* | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. |
+| **[!UICONTROL Modelo]** | Datos relacionales basados en un esquema relacional. | Depende del tipo de conjunto de datos que seleccione para el conjunto de datos relacional. | Cualquier esquema relacional. | Depende del tipo de conjunto de datos que seleccione para el conjunto de datos relacional. |
 
 
 ### Añadir conjuntos de datos
@@ -459,7 +462,7 @@ Puede agregar uno o más conjuntos de datos de Experience Platform al crear o ed
    | Columna | Descripción |
    |---|---|
    | **[!UICONTROL Conjunto de datos]** | Nombre del conjunto de datos. Seleccione el nombre para dirigirle al conjunto de datos en Experience Platform. Seleccione ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) para mostrar una ventana emergente con más detalles para el conjunto de datos. Puede seleccionar **[!UICONTROL Editar en Platform]** para editar el conjunto de datos directamente en Experience Platform. |
-   | **[!UICONTROL Tipo de conjunto de datos]** | El tipo de conjunto de datos: [Event](#event-dataset), [Profile](#profile-dataset), [Lookup](#lookup-dataset), [Summary](#summary-dataset), [Adhoc](#ad-hoc-dataset) o [Model](#model-based-dataset). |
+   | **[!UICONTROL Tipo de conjunto de datos]** | El tipo de conjunto de datos: [Event](#event-dataset), [Profile](#profile-dataset), [Lookup](#lookup-dataset), [Summary](#summary-dataset), [Adhoc](#ad-hoc-dataset) o [Relational](#relational-dataset). |
    | **[!UICONTROL Número de registros]** | El total de registros del mes anterior para el conjunto de datos en Experience Platform. |
    | **[!UICONTROL Esquema]** | El esquema del conjunto de datos. Seleccione el nombre para dirigirle al esquema en Experience Platform. |
    | **[!UICONTROL Último lote]** | El estado del último lote ingerido en Experience Platform. Consulte [Estados de lotes](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) para ver más información. |
@@ -497,9 +500,9 @@ Para editar un conjunto de datos que ya está configurado para una conexión, en
 
    >[!NOTE]
    >
-   >No puede editar **[!UICONTROL Tipo de conjunto de datos]**, **[!UICONTROL ID de persona]**, **[!UICONTROL área de nombres de identidad]** y **[!UICONTROL Marca de tiempo]** para un [conjunto de datos ad hoc](#ad-hoc-dataset) o [basado en modelos](#model-based-dataset) que forme parte de una conexión guardada. Para cambiar cualquiera de estas configuraciones:
+   >No puede editar **[!UICONTROL Tipo de conjunto de datos]**, **[!UICONTROL ID de persona]**, **[!UICONTROL área de nombres de identidad]** y **[!UICONTROL Marca de tiempo]** para un [conjunto de datos ad hoc](#ad-hoc-dataset) o [relacional](#relational-dataset) que forme parte de una conexión guardada. Para cambiar cualquiera de estas configuraciones:
    >
-   >1. Elimine el conjunto de datos ad hoc o basado en modelos existente de la conexión.
+   >1. Elimine el conjunto de datos ad hoc o relacional existente de la conexión.
    >1. Agregue el mismo conjunto de datos con la configuración actualizada a la conexión.
    >
 
@@ -631,33 +634,33 @@ La configuración específica para un conjunto de datos de resumen es:
 
 >[!NOTE]
 >
->Aunque es posible configurar y seleccionar, por motivos de rendimiento debe evitar utilizar un conjunto de datos ad hoc para datos de series temporales (evento, resumen). Los conjuntos de datos basados en modelos o genéricos XDM son mucho más adecuados para los datos de series temporales que los conjuntos de datos ad hoc.
+>Aunque es posible configurar y seleccionar, por motivos de rendimiento debe evitar utilizar un conjunto de datos ad hoc para datos de series temporales (evento, resumen). Los conjuntos de datos basados en XDM relacionales o genéricos son mucho más adecuados para los datos de series temporales que los conjuntos de datos ad hoc.
 
 La configuración específica para un conjunto de datos ad hoc es:
 
 | Configuración | Tipo de conjunto de datos seleccionado | Descripción |
 |---|---|---|
 | **[!UICONTROL Tipo de conjunto de datos]** | N/A | El tipo de datos del conjunto de datos ad hoc. Los valores posibles son: **[!UICONTROL Event]**, **[!UICONTROL Profile]**, **[!UICONTROL Lookup]** y **[!UICONTROL Summary]**. |
-| **[!UICONTROL ID de la persona]** | Evento, Perfil | Seleccione un campo del esquema ad hoc o basado en modelos que represente el ID de persona. Este campo puede ser cualquier campo del conjunto de datos. Seleccione entre **[!UICONTROL campos del área de nombres de identidad]** o entre **[!UICONTROL campos que no sean de identidad]**. <br/>Solo puede seleccionar un identificador de **[!UICONTROL área de nombres de identidad]** si uno o más de los campos del esquema ad hoc están etiquetados como una identidad y tienen un área de nombres de identidad. |
+| **[!UICONTROL ID de la persona]** | Evento, Perfil | Seleccione un campo del esquema ad hoc o relacional que represente el ID de persona. Este campo puede ser cualquier campo del conjunto de datos. Seleccione entre **[!UICONTROL campos del área de nombres de identidad]** o entre **[!UICONTROL campos que no sean de identidad]**. <br/>Solo puede seleccionar un identificador de **[!UICONTROL área de nombres de identidad]** si uno o más de los campos del esquema ad hoc están etiquetados como una identidad y tienen un área de nombres de identidad. |
 | **[!UICONTROL Área de nombres de identidad]** | Evento | Seleccione un área de nombres de identidad en caso de que haya seleccionado un ID de persona de **[!UICONTROL campos que no sean de identidad]**. |
 | **[!UICONTROL Marca de tiempo]** | Evento, Resumen | Seleccione un campo del esquema ad hoc que represente el campo de marca de tiempo. Este campo puede ser cualquiera de los campos disponibles de tipo `DateTime`. |
 | **[!UICONTROL Clave]** | Consulta | Clave que se utiliza para un conjunto de datos de búsqueda.<br/>Si un registro no contiene un valor para la clave seleccionada para el conjunto de datos de búsqueda, se omitirá el registro. |
 | **[!UICONTROL Clave de coincidencia]** | Consulta | La clave coincidente para unirse a uno de los conjuntos de datos de evento o de búsqueda. Si esta lista está vacía, es probable que no haya agregado ni configurado ningún evento ni conjunto de datos de búsqueda. |
 
 
-#### Conjunto de datos basado en modelos
+#### Conjunto de datos relacional
 
 >[!NOTE]
 >
->Los conjuntos de datos basados en modelos se utilizan principalmente para admitir la próxima capacidad de Experience Platform Data Mirror para Customer Journey Analytics.
+>Los conjuntos de datos relacionales se utilizan principalmente para admitir la próxima capacidad de Experience Platform Data Mirror para Customer Journey Analytics.
 >
 
-La configuración específica para un conjunto de datos basado en modelos es la siguiente:
+La configuración específica para un conjunto de datos relacional es la siguiente:
 
 | Configuración | Tipo de conjunto de datos seleccionado | Descripción |
 |---|---|---|
-| **[!UICONTROL Tipo de conjunto de datos]** | N/A | El tipo de datos del conjunto de datos basado en el modelo.<br/>Si el conjunto de datos contiene datos de series temporales, los valores posibles son: **[!UICONTROL Evento]** y **[!UICONTROL Resumen]**. <br/>Si el conjunto de datos contiene datos de registro, los valores posibles son: **[!UICONTROL Perfil]** y **[!UICONTROL Búsqueda]**. |
-| **[!UICONTROL ID de la persona]** | Evento, Perfil | Seleccione un campo del esquema basado en modelos que represente el ID de persona. La selección se limita a la lista de campos del esquema basado en modelos que están marcados como Identidad y no tienen un área de nombres de identidad. |
+| **[!UICONTROL Tipo de conjunto de datos]** | N/A | El tipo de datos del conjunto de datos relacional.<br/>Si el conjunto de datos contiene datos de series temporales, los valores posibles son: **[!UICONTROL Evento]** y **[!UICONTROL Resumen]**. <br/>Si el conjunto de datos contiene datos de registro, los valores posibles son: **[!UICONTROL Perfil]** y **[!UICONTROL Búsqueda]**. |
+| **[!UICONTROL ID de la persona]** | Evento, Perfil | Seleccione un campo del esquema relacional que represente el ID de persona. La selección se limita a la lista de campos del esquema relacional que están marcados como Identidad y no tienen un área de nombres de identidad. |
 | **[!UICONTROL Marca de tiempo]** | Evento, Resumen | El campo definido como el descriptor de marca de tiempo en el esquema. Este campo se rellena automáticamente. |
 | **[!UICONTROL Clave]** | Consulta | Clave que se utiliza para un conjunto de datos de búsqueda.<br/>Si un registro no contiene un valor para la clave seleccionada para el conjunto de datos de búsqueda, se omitirá el registro. |
 | **[!UICONTROL Clave de coincidencia]** | Consulta | La clave coincidente para unirse a uno de los conjuntos de datos de evento. Si esta lista está vacía, es probable que no haya agregado ni configurado ningún evento ni conjunto de datos de búsqueda. |
@@ -672,7 +675,7 @@ Cada (tipo de conjunto de datos) tiene las siguientes configuraciones comunes:
 
 ### Volver a ingerir datos
 
-A veces, es necesario volver a ingerir datos de uno o varios conjuntos de datos en una conexión. Para conjuntos de datos ad hoc o basados en modelos, debe [eliminar y luego agregar el conjunto de datos una vez más](#edit-a-dataset). Para otros conjuntos de datos, puede actualizar la configuración. Para ello, haga lo siguiente:
+A veces, es necesario volver a ingerir datos de uno o varios conjuntos de datos en una conexión. Para el conjunto de datos ad hoc o relacional, debe [eliminar y luego agregar el conjunto de datos una vez más](#edit-a-dataset). Para otros conjuntos de datos, puede actualizar la configuración. Para ello, haga lo siguiente:
 
 1. Para el conjunto de datos para el que desea volver a introducir los datos:
 
@@ -697,7 +700,7 @@ Al eliminar un conjunto de datos, se le notifican las implicaciones de la elimin
 
 ### Rellenos anteriores
 
-Cuando selecciona ![Historial](/help/assets/icons/History.svg) **[!UICONTROL Rellenos anteriores]** en la interfaz, un cuadro de diálogo **[!UICONTROL Rellenos anteriores: _Nombre del conjunto de datos_]**&#x200B;muestra los rellenos más recientes del conjunto de datos.
+Cuando selecciona ![Historial](/help/assets/icons/History.svg) **[!UICONTROL Rellenos anteriores]** en la interfaz, un cuadro de diálogo **[!UICONTROL Rellenos anteriores: _Nombre del conjunto de datos_]**muestra los rellenos más recientes del conjunto de datos.
 
 
 ## Previsualización de la conexión {#preview}
@@ -742,8 +745,8 @@ Si selecciona Mapa de identidad, obtendrá dos opciones de configuración adicio
 
 | Opción | Descripción |
 |---|---|
-| **[!UICONTROL Usar área de nombres de ID primario]** | Esta opción indica a Customer Journey Analytics que busque la identidad en el Mapa de identidad que está marcado con un atributo `primary=true` y que la utilice como ID de persona para esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. Y esta identidad también es la candidata principal para su uso como ID de persona de Customer Journey Analytics (según la configuración del conjunto de datos en una conexión de Customer Journey Analytics). |
-| **[!UICONTROL Área de nombres]** | (Esta opción solo está disponible si no utiliza el espacio de nombres de ID principal). Los espacios de nombres de identidad son un componente del [servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces). Las áreas de nombres sirven como indicadores del contexto al que se relaciona una identidad. Si especifica un área de nombres, Customer Journey Analytics busca en el Mapa de identidad de cada fila esta clave de área de nombres y utilizará la identidad en el área de nombres como ID de persona para esa fila. Dado que Customer Journey Analytics no puede realizar una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué áreas de nombres están presentes, en el menú desplegable se muestran todas las áreas de nombres posibles. Sepa qué áreas de nombres se especifican en los datos; estas áreas de nombres no se detectan automáticamente. |
+| **[!UICONTROL Usar espacio de nombres de ID primario]** | Esta opción indica a Customer Journey Analytics que busque la identidad en el Mapa de identidad que está marcado con un atributo `primary=true` y que la utilice como ID de persona para esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. Y esta identidad también es la candidata principal para su uso como ID de persona de Customer Journey Analytics (según la configuración del conjunto de datos en una conexión de Customer Journey Analytics). |
+| Espacio de nombres **** | (Esta opción solo está disponible si no utiliza el espacio de nombres de ID principal). Los espacios de nombres de identidad son un componente del [servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces). Los espacios de nombres sirven como indicadores del contexto al que se relaciona una identidad. Si especifica un espacio de nombres, Customer Journey Analytics busca en el Mapa de identidad de cada fila esta clave de espacio de nombres y utilizará la identidad en el espacio de nombres como ID de persona para esa fila. Dado que Customer Journey Analytics no puede realizar una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué áreas de nombres están presentes, en el menú desplegable se muestran todas las áreas de nombres posibles. Sepa qué espacios de nombres se especifican en los datos; estos espacios de nombres no se detectan automáticamente. |
 
 {style="table-layout:auto"}
 
@@ -751,10 +754,10 @@ Si selecciona Mapa de identidad, obtendrá dos opciones de configuración adicio
 
 En esta tabla se muestran las dos opciones de configuración cuando están presentes los casos extremos y cómo se gestionan:
 
-| Opción | No hay ID presentes en el Mapa de identidad | ID múltiples, ninguno marcado como principales | Los ID múltiples se marcan como principales | ID único, marcado como principal o no | Área de nombres no válida con un ID marcado como principal |
+| Opción | No hay ID presentes en el Mapa de identidad | ID múltiples, ninguno marcado como principales | Los ID múltiples se marcan como principales | ID único, marcado como principal o no | Espacio de nombres no válido con un ID marcado como principal |
 |---|---|---|---|---|---|
-| **[!UICONTROL Usar área de nombres de ID primario] verificado** | Customer Journey Analytics descarta la fila. | Customer Journey Analytics descarta la fila porque no hay ningún ID principal especificado. | Todos los ID marcados como principales, con todas las áreas de nombres, se extraen en una lista. A continuación, se ordenan alfabéticamente; con esta nueva clasificación, la primera área de nombres con su primer ID se utiliza como el ID de persona. | El ID único se utiliza como ID de persona. | Aunque el área de nombres puede no ser válida (no está presente en Adobe Experience Platform), Customer Journey Analytics utiliza el ID principal de dicha área de nombres como ID de persona. |
-| **[!UICONTROL Área de nombres de un mapa de identidad específica] seleccionada** | Customer Journey Analytics descarta la fila. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del área de nombres seleccionada se extraen en una lista y el primero se utiliza como ID de persona. (Solo se puede seleccionar un área de nombres válida en el momento de la creación de la conexión, por lo que no es posible utilizar un área de nombres o ID no válida como ID de persona) |
+| **[!UICONTROL Usar espacio de nombres de ID primario] verificado** | Customer Journey Analytics descarta la fila. | Customer Journey Analytics descarta la fila porque no hay ningún ID principal especificado. | Todos los ID marcados como principales, con todos los espacios de nombres, se extraen en una lista. A continuación, se ordenan alfabéticamente; con esta nueva clasificación, el primer espacio de nombres con su primer ID se utiliza como el ID de persona. | El ID único se utiliza como ID de persona. | Aunque el espacio de nombres puede no ser válido (no está presente en Adobe Experience Platform), Customer Journey Analytics utiliza el ID principal de dicho espacio de nombres como ID de persona. |
+| **[!UICONTROL Espacio de nombres de un mapa de identidad específica] seleccionada** | Customer Journey Analytics descarta la fila. | Todos los ID del espacio de nombres seleccionado se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del espacio de nombres seleccionado se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del espacio de nombres seleccionado se extraen en una lista y el primero se utiliza como ID de persona. | Todos los ID del espacio de nombres seleccionado se extraen en una lista y el primero se utiliza como ID de persona. (Solo se puede seleccionar un espacio de nombres válido en el momento de la creación de la conexión, por lo que no es posible utilizar un espacio de nombres o ID no válido como ID de persona) |
 
 {style="table-layout:auto"}
 
@@ -778,5 +781,5 @@ Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
 >[!MORELIKETHIS]
 >
 >* [Resumen de ingesta de datos](/help/data-ingestion/data-ingestion.md)
->* Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=es)
+>* Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
