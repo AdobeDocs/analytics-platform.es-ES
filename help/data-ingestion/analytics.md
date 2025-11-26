@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 9c4ae8174086559ee552c5ffc95a8a7b0009f126
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1193'
 ht-degree: 79%
 
 ---
@@ -20,7 +20,7 @@ En esta guía de inicio rápido se explica cómo utilizar los datos recopilados 
 >
 >Dispone de Adobe Analytics con licencia e implementado en uno o más de sus sitios web, utilizando cualquiera de los métodos de implementación documentados:
 >
->- [Implementar Analytics con Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=es)
+>- [Implementar Analytics con Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
 >- [Implementar Analytics con la extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=es)
 >
@@ -56,7 +56,7 @@ Para crear un conector de origen de Adobe Analytics, debe hacer lo siguiente:
 
    ![Ventana de Adobe Experience Platform con la opción Fuentes seleccionada junto con las aplicaciones de Adobe y la opción Añadir datos resaltada.](./assets/sources-overview.png)
 
-4. Seleccione **[!UICONTROL Grupo de informes]**. En la lista de grupos de informes, seleccione el que quiera utilizar.
+4. Seleccione **[!UICONTROL Grupo de informes]**. En la lista de grupos de informes, seleccione el que quiera utilizar.<br/> Como alternativa, puede usar ![Buscar](/help/assets/icons/Search.svg) **[!UICONTROL _Buscar_]** para buscar un grupo de informes.
 
    ![Ventana de Adobe Experience Platform que muestra la lista de grupos de informes](./assets/report-suites.png)
 
