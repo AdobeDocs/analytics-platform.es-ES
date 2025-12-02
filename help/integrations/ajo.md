@@ -4,7 +4,7 @@ description: Incorpore datos generados por Adobe Journey Optimizer y analícelos
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 9149a072dc8af3fac0d5272fe84baabca7fb6058
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 100%
@@ -28,14 +28,14 @@ Cuando haya habilitado la creación de informes de Customer Journey Analytics pa
 La conexión tiene el nombre **[!UICONTROL Conexión habilitada de AJO (*nombre de zona protegida*)]** y tiene los siguientes valores predeterminados para la configuración y los conjuntos de datos:
 
 | **Configuración de la conexión** | Valor |
-|---|---| 
+|---|---|
 | [!UICONTROL Nombre de la conexión] | `AJO Enabled Connection (`_`sandbox name`_`)` |
 | [!UICONTROL Descripción de la conexión] | [!UICONTROL *Describa su conexión aquí*] |
 | [!UICONTROL Etiquetas] | [!UICONTROL *Seleccionar etiquetas*] |
 
 
 | **Configuración de datos** | Valor |
-|---|---| 
+|---|---|
 | [!UICONTROL Habilitar la ventana de datos móviles] | Habilitado. [!UICONTROL Número de meses seleccionado] `13`. |
 | [!UICONTROL Zona protegida] | [!UICONTROL *nombre de la zona protegida*] (deshabilitado; no se puede modificar esta configuración). |
 | [!UICONTROL Cantidad promedio de eventos diarios] | menos de 1 millón (deshabilitado; no se puede modificar esta configuración). |

@@ -5,7 +5,7 @@ title: Solución de problemas de exportaciones fallidas
 feature: Components
 exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
 role: User
-source-git-commit: 39147f5bd8409578199607fee84cf436cfd624fb
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 7%

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo administrar anotaciones en Workspa
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 91%
@@ -34,7 +34,7 @@ El administrador Anotaciones tiene los siguientes elementos de interfaz:
 La lista de anotaciones ➊ muestra todas las anotaciones que posee, las anotaciones que se han asignado a todos sus proyectos y las anotaciones que se han compartido con usted. La lista tiene las siguientes columnas:
 
 | Columna | Descripción |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Selecciona para favorecer a ![Star](/help/assets/icons/Star.svg) o para desfavorecer de ![StarOutline](/help/assets/icons/StarOutline.svg) de una anotación. |
 | **[!UICONTROL Título y descripción]** | Aparecen en el Generador de anotaciones. Para editar el título y la descripción, selecciona el vínculo del título: abre el [Generador de anotaciones](/help/components/annotations/create-annotations.md#annotation-builder). Se indica una anotación compartida con ![Share](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Vista de datos]** | Las vistas de datos a las que se aplica esta anotación. |

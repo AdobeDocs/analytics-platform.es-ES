@@ -1,28 +1,28 @@
 ---
-title: Solicitar vinculación
+title: Solicitud de vinculación
 description: Cómo solicitar la vinculación
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
-# Solicitar vinculación
+# Solicitud de vinculación
 
 Una vez que su organización cumpla todos los [requisitos previos](overview.md#prerequisites) y comprenda las [limitaciones](overview.md#limitations) comunes y las limitaciones ([basadas en campos](fbs.md#limitations) y [basadas en gráficos](gbs.md#limitations)) específicas del método de vinculación, puede seguir estos pasos para solicitar y empezar a utilizar la vinculación en Customer Journey Analytics.
 
 ## Seleccionar opciones
 
-El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración del relleno inicial, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de solicitar asistencia.
+El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración del relleno inicial, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de solicitar asistencia.
 
 | | Customer Journey Analytics<br/>Seleccionar | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
-| Métodos de vinculación disponibles | <li>Vinculación basada en el campo</li> | <li>Vinculación basada en el campo</li><li>Identificación basada en gráficos</li> | <li>Vinculación basada en el campo</li><li>Identificación basada en gráficos</li> |
+| Métodos de vinculación disponibles | <li>Vinculación basada en el campo</li> | <li>Vinculación basada en el campo</li><li>Vinculación basada en gráficos</li> | <li>Vinculación basada en el campo</li><li>Vinculación basada en gráficos</li> |
 | Duración de relleno de vinculación única | 13 meses | 13 meses | 25 meses |
 | Ventana retrospectiva y frecuencia de reproducción | <li>1 día, todos los días</li><li>hasta 7 días, semanales</li> | <li>1 día, todos los días</li><li>hasta 14 días, semanales</li> | <li>1 día, todos los días</li><li>hasta 30 días por semana</li> |
 | Número máximo de conjuntos de datos permitidos para la vinculación | 5 | 15 | 50 |

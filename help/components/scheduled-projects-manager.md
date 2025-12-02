@@ -4,7 +4,7 @@ title: Proyectos programados
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 9d293854ab1da90ea22865392daf9204679f4fd3
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 41%

@@ -5,7 +5,7 @@ feature: Workspace Basics
 title: Teclas de acceso directo
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 89%
@@ -18,16 +18,16 @@ Las teclas de acceso directo (métodos abreviados de teclado) están disponibles
 
 Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 
-- **⇧** para **[!UICONTROL **&#x200B; shift &#x200B;**]**.
-- **⌘** para **[!UICONTROL **&#x200B; cmd &#x200B;**]** (comando).
-- **⌃** para **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (control).
-- **⌥** para **[!UICONTROL **&#x200B; opt &#x200B;**]** (opción).
-- **⎇** para **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternativo).
+- **⇧** para **[!UICONTROL ** shift **]**.
+- **⌘** para **[!UICONTROL ** cmd **]** (comando).
+- **⌃** para **[!UICONTROL ** ctrl **]** (control).
+- **⌥** para **[!UICONTROL ** opt **]** (opción).
+- **⎇** para **[!UICONTROL ** alt **]** (alternativo).
 
 ## Acciones de navegación
 
 | Acción | Acceso directo a Mac | Acceso directo a Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Crear nuevo proyecto | **[!UICONTROL *cmd+mayús+p *]** | **[!UICONTROL *ctrl+mayús+p *]** |
 | Abrir proyecto existente | **[!UICONTROL *cmd+o *]** | **[!UICONTROL *ctr+o *]** |
 | Ir al panel Paneles | **[!UICONTROL *opt+mayús+1 *]** | **[!UICONTROL *alt+mayús+1 *]** |
@@ -41,7 +41,7 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 ## Acciones de análisis
 
 | Acción | Acceso directo a Mac | Acceso directo a Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Buscar panel izquierdo | **[!UICONTROL *cmd+/*]** | **[!UICONTROL *ctrl+/*]** |
 | Crear una alerta | **[!UICONTROL *cmd+mayús+a *]** | **[!UICONTROL *ctrl+mayús+a *]** |
 | Crear métrica calculada | **[!UICONTROL *cmd+shift+c *]** | **[!UICONTROL *ctrl+mayús+c *]** |
@@ -58,7 +58,7 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 ## Añadir paneles y acciones de visualización
 
 | Acción | Acceso directo a Mac | Acceso directo a Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Nuevo panel Atribución | **[!UICONTROL *opt+e *]** | **[!UICONTROL *alt+e *]** |
 | Nuevo panel en blanco | **[!UICONTROL *opt+b *]** | **[!UICONTROL *alt+b *]** |
 | Nuevo panel improvisado | **[!UICONTROL *opt+a *]** | **[!UICONTROL *alt+a *]** |
@@ -71,14 +71,14 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 ## Mover acciones del panel
 
 | Acción | Acceso directo a Mac | Acceso directo a Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Mover panel hacia arriba | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
 | Mover panel hacia abajo | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
 
 ## Acciones de democratización
 
 | Acción | Acceso directo a Mac | Acceso directo a Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Guardar proyecto | **[!UICONTROL *cmd+s *]** | **[!UICONTROL *ctrl+s *]** |
 | Guardar proyecto como | **[!UICONTROL *cmd+shift+s *]** | **[!UICONTROL *ctrl+mayús+s *]** |
 | Guardar como plantilla | **[!UICONTROL *opt+t *]** | **[!UICONTROL *alt+t *]** |

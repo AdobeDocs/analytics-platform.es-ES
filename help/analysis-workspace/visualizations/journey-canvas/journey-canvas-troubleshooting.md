@@ -4,7 +4,7 @@ title: Solución de problemas de lienzo recorrido
 feature: Visualizations
 role: User
 exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 1%

@@ -5,7 +5,7 @@ title: Información general sobre visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 89%
@@ -21,7 +21,7 @@ Workspace ofrece varias visualizaciones que le permiten generar representaciones
 Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
 | Icono | Nombre | Descripción |
-| :---: | --- | ---| 
+| :---: | --- | ---|
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [Área](/help/analysis-workspace/visualizations/area.md) | Una visualización de gráfico de áreas. Es similar a un gráfico de líneas, pero incluye una zona coloreada bajo la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barra](/help/analysis-workspace/visualizations/bar.md) | Una visualización de gráfico de barras con barras verticales que representan varios valores a través de una o varias métricas. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barra apilada](/help/analysis-workspace/visualizations/bar.md) | Una visualización de gráfico de barras apiladas con barras verticales que representan varios valores a través de una o varias métricas. |

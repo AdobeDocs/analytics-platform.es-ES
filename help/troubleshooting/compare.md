@@ -1,12 +1,12 @@
 ---
 title: Comparación de datos del conector fuente de Analytics con Adobe Analytics
 description: Conozca las diferencias en los datos cuando visualice informes similares en Adobe Analytics y Customer Journey Analytics.
-role: Data Engineer, Data Architect, Admin
+role: Developer, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: servicio de consultas;Servicio de consultas;sintaxis sql
-source-git-commit: d96404479aabe6020566e693245879b5ad4fad9c
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 100%

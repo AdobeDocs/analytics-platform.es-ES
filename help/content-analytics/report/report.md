@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 100%
@@ -155,5 +155,5 @@ Puede desglosar cualquier recurso por dimensiones para comprender mejor dónde a
 >[!MORELIKETHIS]
 >
 >[Componentes de Content Analytics](components.md)
->>[Uso de plantillas](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>[Uso de plantillas](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >

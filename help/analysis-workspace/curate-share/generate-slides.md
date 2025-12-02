@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-source-git-commit: 87e3b3cfdf765a57ecdb70921696013bcba4feac
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1585'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -86,7 +86,7 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
 
 >[!CONTEXTUALHELP]
 >id="cja-presentation-emphasized-components"
->title="Componentes enfatizados"
+>title="Componentes destacados"
 >abstract="Elija entre las visualizaciones hasta 5 métricas y 5 dimensiones que desee resaltar en la presentación. Las métricas que elija se muestran en cursiva, las dimensiones en negrita y los elementos de dimensión en color distinto."
 
 <!-- markdownlint-enable MD034 -->
@@ -157,7 +157,7 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
 
          Asegúrese de que el archivo cargado tenga diseños de patrón con los siguientes nombres: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;.
 
-         Se admiten hasta 15 diseños principales.
+         Se admiten hasta 15 diseños maestros.
 
          Se admiten archivos .pptx y .potx de hasta 25 MB de tamaño.
 
