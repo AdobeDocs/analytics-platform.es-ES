@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Un ejemplo de proyecto B2B basado en personas
 
-Este artículo ilustra un caso de uso en el que desea informar correctamente en Customer Journey Analytics sobre los datos de persona en el contexto de una configuración B2B típica basada en personas. Dicha configuración se ve facilitada por [Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  En este caso de uso se explica cómo configurar y crear informes sobre datos B2B basados en el nivel de perfil (persona) en Customer Journey Analytics.
+Este artículo ilustra un caso de uso en el que desea informar correctamente en Customer Journey Analytics sobre los datos de persona en el contexto de una configuración B2B típica basada en personas. Dicha configuración se ve facilitada por [Real-Time CDP B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  En este caso de uso se explica cómo configurar y crear informes sobre datos B2B basados en el nivel de perfil (persona) en Customer Journey Analytics.
 
 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Se ha publicado una sección separada para casos de uso de informes basados en cuentas con la versión de [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md).
 
@@ -43,7 +43,7 @@ Defina su conexión para incluir todos los conjuntos de datos B2B relevantes de 
 -->
 
 
-La relación entre los esquemas de búsqueda B2B, el esquema de perfil y el esquema de evento se define en la configuración B2B en Experience Platform. Consulte Esquemas en [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) y [Defina una relación de varios a uno entre dos esquemas en Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
+La relación entre los esquemas de búsqueda B2B, el esquema de perfil y el esquema de evento se define en la configuración B2B en Experience Platform. Consulte Esquemas en [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) y [Defina una relación de varios a uno entre dos esquemas en Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 
 Para garantizar una configuración adecuada de una conexión que admita búsquedas basadas en personas de sus datos B2B, utilice la siguiente ilustración para obtener una descripción general y siga estos pasos:
