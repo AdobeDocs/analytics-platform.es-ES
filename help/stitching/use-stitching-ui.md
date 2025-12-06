@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 23b890ec6a3266d1ca0621b09264f1d6a2f82645
+source-git-commit: 6ebd1604e01af068228d7a5e4a78fdccf852f480
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Para habilitar la vinculación en un conjunto de datos de evento dentro de la in
    * Varios campos configurados como identidad y que le permiten seleccionar valores diferentes para un ID persistente y un ID de persona.
    * al menos un campo marcado como identidad principal con un área de nombres asociada en caso de que desee utilizar el mapa de identidad y el área de nombres de identidad principal para un ID persistente o ID de persona.
 
-* El conjunto de datos de evento debe estar [habilitado para el servicio de identidad](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) en caso de que desee usar el gráfico de identidad y la vinculación basada en gráficos.
+* Si desea utilizar la vinculación basada en gráficos y prevé que el conjunto de datos de evento contribuirá al gráfico de identidad, debe [habilitar el conjunto de datos para el servicio de identidad](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service). Un conjunto de datos contribuye al gráfico de identidad cuando el conjunto de datos contiene ID de persona relevantes junto a ID persistentes.
 
 
 ## Comprobaciones previas
@@ -137,7 +137,7 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento d
 
 1. Seleccione una ventana retrospectiva en el menú desplegable **[!UICONTROL Ventana retrospectiva]**. Las opciones disponibles dependen del paquete de Customer Journey Analytics al que esté autorizado.
 
-Una vez guardada una conexión que contiene conjuntos de datos habilitados para la vinculación de identidad, el proceso de vinculación de cada conjunto de datos comienza cuando se inicia la ingesta de datos para ese conjunto de datos.
+Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos habilitados para la vinculación se inicia cuando se inicia la ingesta de datos para estos conjuntos de datos
 
 ## Limitaciones
 
