@@ -2,9 +2,9 @@
 title: Resumen de métricas y dimensiones compartidas
 description: Utilice la misma referencia de dimensión o métrica en varias vistas de datos.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 1de8b8f40a7e1be0de0e6cbed5cc57ff834f2377
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Todas las dimensiones y métricas compartidas se muestran debajo de las cuatro t
    * **[!UICONTROL Grupo de datos de resumen]**: La configuración de [grupo de datos de resumen](/help/data-views/component-settings/summary-data-group.md) del componente.
    * **[!UICONTROL Fecha de creación]**: La fecha en que se creó o importó el componente.
    * **[!UICONTROL Última modificación]**: si el componente se ha modificado después de crearlo, la fecha en que se modificó por última vez.
-* **[!UICONTROL Historial de trabajos]**: seleccione el icono ![Historial](/help/assets/icons/History.svg) para abrir una ventana modal que muestre todas las instancias de importación de dimensiones y métricas desde vistas de datos individuales.
+* **[!UICONTROL Historial de trabajos]**: Si importa o comparte un gran número de componentes, se crea automáticamente un trabajo. Seleccione el icono ![Historial](/help/assets/icons/History.svg) para abrir una ventana modal que muestre todas las instancias de importación de dimensiones y métricas desde vistas de datos individuales. Si ninguna de las acciones de importación o uso compartido es lo suficientemente grande como para almacenar en déclencheur un trabajo, este botón no aparece.
 
 ## Editar componentes o compartir componentes en vistas de datos
 
