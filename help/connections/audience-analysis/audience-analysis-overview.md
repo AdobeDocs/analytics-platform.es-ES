@@ -6,10 +6,10 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
+source-git-commit: f23775342a29d758b478206a77386e18a58312a6
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 4%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->El análisis de audiencias es diferente de la publicación de audiencias, que permite crear y publicar audiencias descubiertas en Customer Journey Analytics para Adobe Experience Platform para la segmentación y personalización de clientes. Para obtener información acerca de la publicación de audiencias, vea [Resumen de publicación de audiencias](/help/components/audiences/audiences-overview.md).
+>Comprenda la diferencia entre el análisis de audiencia y la publicación de audiencias:
+>
+>* **Análisis de audiencia**: le permite introducir datos de pertenencia a audiencias de conjuntos de datos de perfil de Experience Platform en una conexión de Customer Journey Analytics.
+>* **Publicación de audiencias**: Permite crear y publicar audiencias que se hayan descubierto en Customer Journey Analytics en Adobe Experience Platform para personalización y segmentación de clientes. Para obtener información acerca de la publicación de audiencias, vea [Resumen de publicación de audiencias](/help/components/audiences/audiences-overview.md).
 
 El análisis de audiencia le permite introducir datos de pertenencia a audiencias de conjuntos de datos de perfil de Experience Platform en una conexión de Customer Journey Analytics. Las audiencias están disponibles como nuevas dimensiones para su uso en Analysis Workspace.
 
@@ -46,6 +49,12 @@ Al configurar el análisis de audiencia, selecciona la zona protegida y la polí
 
 Para obtener más información, consulte [Configurar análisis de audiencia](/help/connections/audience-analysis/audience-analysis-configure.md).
 
+## Administrar configuraciones de análisis de audiencia
+
+Puede administrar las configuraciones de análisis de audiencia una vez creadas. Puede ver, editar y eliminar configuraciones.
+
+Para obtener información sobre cómo administrar las configuraciones de análisis de audiencia existentes, consulte [Administrar configuraciones de análisis de audiencia](/help/connections/audience-analysis/audience-analysis-manage.md).
+
 ## Analizar datos de audiencias en Customer Journey Analytics
 
 Con los datos de audiencia disponibles en Customer Journey Analytics, puede obtener perspectivas procesables sobre cómo se comportan los miembros de la audiencia en varios canales.
@@ -57,6 +66,16 @@ Por ejemplo, puede rastrear el comportamiento de clientes individuales que se in
 * Miembros de la audiencia que finalmente realizaron una compra en la tienda
 
 Para obtener más información, consulte [Analizar audiencias de Experience Platform en Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).
+
+## Función de análisis de audiencia y requisitos de permisos
+
+Se requieren las siguientes funciones de Customer Journey Analytics y permisos de Experience Platform para el análisis de audiencias:
+
+| Compatibilidad | Requisitos de rol o permiso de Customer Journey Analytics | Requisitos de permiso de Experience Platform |
+|---------|----------|----------|
+| [Crear configuraciones de análisis de audiencia](/help/connections/audience-analysis/audience-analysis-configure.md) | Administrador del sistema | <ul><li>Conjuntos de datos: permisos de lectura</li><li>Esquemas: leer, escribir</li><li>e Áreas de nombres de identidad: Lectura</li></ul> |
+| [Ver dimensiones de análisis de audiencia en la vista de datos](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | Administrador de perfil de producto para el perfil de producto al que está asignada la vista de datos <p>Para obtener más información, consulte [Control de acceso](/help/technotes/access-control.md).</p> | N/A |
+| Uso de dimensiones de análisis de audiencia en Analysis Workspace | Acceso a una vista de datos en la que se añadieron las dimensiones de análisis de audiencia | N/A |
 
 
 

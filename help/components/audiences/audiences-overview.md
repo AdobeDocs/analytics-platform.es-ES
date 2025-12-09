@@ -4,7 +4,7 @@ description: Obtenga información sobre el concepto de publicación de públicos
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: ff301a4c76c547bf52e0dfaef5258fd183411c73
+source-git-commit: a8ac74b31beb3378de282ac4b0b632e0f2bd8230
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 94%
@@ -12,6 +12,17 @@ ht-degree: 94%
 ---
 
 # Información general sobre la publicación de públicos
+
+<!-- Add this when Audience Analysis releases:
+
+>[!NOTE]
+>
+>Understand the difference between audience analysis and audience publishing:
+>
+>* **Audience analysis**: Allows you to ingest audience membership data from Experience Platform Profile datasets into a Customer Journey Analytics connection. For information about audience analysis, see [Audience analysis overview](/help/connections/audience-analysis/audience-analysis-overview.md)
+>* **Audience publishing**: Allows you to create and publish audiences discovered in Customer Journey Analytics to Adobe Experience Platform for customer targeting and personalization. 
+
+-->
 
 Puede crear y publicar audiencias que haya descubierto en Customer Journey Analytics en [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es) en Adobe Experience Platform para personalización y segmentación de clientes.
 
