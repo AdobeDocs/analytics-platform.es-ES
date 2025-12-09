@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 6b8a9fd25aaf83eaad3bc9cba0ce9349afb5471c
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1627'
 ht-degree: 4%
 
 ---
@@ -230,14 +230,18 @@ Los siguientes elementos y características de Analysis Workspace utilizados en 
 
    * Mapa de árbol
 
-* Desgloses
-
-  Los datos de los desgloses se incluyen en las presentaciones generadas, pero se muestran en el mismo nivel que los elementos de dimensión.
-
 * Análisis guiados
 
 * Componentes que una directiva de gobernanza de datos ha restringido la exportación
 
   Para obtener más información, consulte [Solucionar problemas de exportaciones con errores](/help/components/exports/troubleshoot-exports.md).
+
+## Elementos y funciones de proyecto con compatibilidad limitada
+
+* Desgloses
+
+  Como parte del proceso de deduplicación y puntuación al generar perspectivas relevantes, cada desglose dentro de una tabla de forma libre se analiza de forma independiente, y solo se analizan los 5 primeros desgloses dentro de una sola tabla de forma libre.
+
+  Solo se admite el primer nivel de desglose. El desglose de un desglose no se incluye en la presentación.
 
 
