@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 0e86227915404fe62fcd1f27e95eb3b1bb673030
 workflow-type: tm+mt
 source-wordcount: '2268'
 ht-degree: 14%
@@ -219,7 +219,7 @@ En el paso **[!UICONTROL Autenticación]**, seleccione:
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
-  Consulte la documentación de Experience Platform para obtener más información sobre cómo conectarse y autenticarse al usar el conector [Azure Databricks](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulte la documentación de Experience Platform para obtener más información sobre cómo conectarse y autenticarse al usar el conector [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Seleccionar datos
