@@ -6,7 +6,7 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f23775342a29d758b478206a77386e18a58312a6
+source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 3%
@@ -32,12 +32,12 @@ El diagrama siguiente y la tabla asociada muestran una representación de alto n
 
 | Número | Función | Función |
 |---------|----------|---------|
-| 1 | Configuración de análisis de audiencia | Interfaz de configuración en Customer Journey Analytics utilizada para configurar el análisis de audiencia. |
+| 1 | Configuración de análisis de audiencia | Interfaz de configuración de Customer Journey Analytics que se utiliza para configurar el análisis de audiencia. |
 | 2 | Zona protegida | Debe contener el conjunto de datos de perfil que desee agregar a su conexión. |
 | 3 | Conjunto de datos del perfil | Debe incluir los datos de audiencia de Experience Platform que desee analizar. Este conjunto de datos de perfil se agrega a la conexión que seleccione. |
 | 4 | Política de combinación | La política de combinación asociada a las audiencias de Experience Platform que desea analizar. |
 | 5 | Datos de perfil | Los datos de perfil asociados con la política de combinación que seleccione. Estos datos están disponibles en los conjuntos de datos de Experience Platform. |
-| 6 | Nuevo conjunto de datos de búsqueda | Proporciona nombres descriptivos para las nuevas dimensiones de audiencia que se crean. El conjunto de datos de búsqueda se crea automáticamente y se agrega a la conexión, junto con el conjunto de datos de perfil que seleccione. |
+| 6 | Nuevo conjunto de datos de búsqueda | Proporciona nombres descriptivos para las nuevas dimensiones de audiencia que se crean. <p>El conjunto de datos de búsqueda se crea automáticamente y se agrega a la conexión, junto con el conjunto de datos de perfil que seleccione.</p> |
 | 7 | Conexión | Conexión en la que desea agregar el conjunto de datos de perfil seleccionado. |
 | 8 | Nuevas dimensiones de audiencia | Nuevas dimensiones de audiencia <!--and metrics?--> que representan las audiencias de Experience Platform incluidas en el conjunto de datos de perfil que seleccionó y que están disponibles para la creación de informes en Analysis Workspace. Estas dimensiones se crean automáticamente. |
 | 9 | Vistas de datos | Las vistas de datos que seleccione y que estén asociadas a la conexión. Estas son las vistas de datos que desea utilizar para analizar los datos de audiencia de Experience Platform en Analysis Workspace. Estas vistas de datos se configuran automáticamente con los datos de audiencia de Experience Platform para la creación de informes. |
@@ -73,7 +73,7 @@ Se requieren las siguientes funciones de Customer Journey Analytics y permisos d
 
 | Compatibilidad | Requisitos de rol o permiso de Customer Journey Analytics | Requisitos de permiso de Experience Platform |
 |---------|----------|----------|
-| [Crear configuraciones de análisis de audiencia](/help/connections/audience-analysis/audience-analysis-configure.md) | Administrador del sistema | <ul><li>Conjuntos de datos: permisos de lectura</li><li>Esquemas: leer, escribir</li><li>e Áreas de nombres de identidad: Lectura</li></ul> |
+| [Crear configuraciones de análisis de audiencia](/help/connections/audience-analysis/audience-analysis-configure.md) | Administrador del sistema | <ul><li>Conjuntos de datos: permisos de lectura</li><li>Esquemas: leer, escribir</li><li>Áreas de nombres de identidad: lectura</li></ul> |
 | [Ver dimensiones de análisis de audiencia en la vista de datos](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | Administrador de perfil de producto para el perfil de producto al que está asignada la vista de datos <p>Para obtener más información, consulte [Control de acceso](/help/technotes/access-control.md).</p> | N/A |
 | Uso de dimensiones de análisis de audiencia en Analysis Workspace | Acceso a una vista de datos en la que se añadieron las dimensiones de análisis de audiencia | N/A |
 

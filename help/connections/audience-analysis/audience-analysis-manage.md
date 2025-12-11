@@ -6,7 +6,7 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f23775342a29d758b478206a77386e18a58312a6
+source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Para ver las configuraciones de análisis de audiencia existentes:
 
    * **[!UICONTROL Estado]**: El estado de la configuración. Los estados posibles son Completo, En curso o Error. <!--true?-->
 
-   Puede ocultar cualquier columna seleccionando el icono de columna ![Icono de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), anulando la selección de las columnas que desee ocultar y, a continuación, seleccionando **[!UICONTROL Aplicar]**.
+   Puede ocultar cualquier columna seleccionando el icono de columna ![Icono de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), deseleccionando cualquier columna que desee ocultar y, a continuación, seleccionando **[!UICONTROL Aplicar]**.
 
 1. (Opcional) Para filtrar la lista de configuraciones, seleccione **Filtro** ![Icono de filtro de análisis de audiencia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) y, a continuación, filtre según cualquiera de los siguientes criterios:
 
