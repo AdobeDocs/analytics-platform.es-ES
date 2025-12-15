@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-source-git-commit: 1ec10a006578bc5ddf5f08501f8d72a9623245d5
+source-git-commit: 8ddfc194c873bdb3fe12f3aeb04c01bcad83d0a5
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 4%
@@ -159,7 +159,7 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
 
       Asegúrese de que el archivo cargado tenga diseños de patrón con los siguientes nombres: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;.
 
-      Se admiten hasta 15 diseños maestros.
+      Se admiten hasta 25 diseños maestros.
 
       Se admiten archivos .pptx y .potx de hasta 25 MB de tamaño.
 
