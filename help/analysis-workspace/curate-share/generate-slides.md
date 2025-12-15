@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-source-git-commit: 6b8a9fd25aaf83eaad3bc9cba0ce9349afb5471c
+source-git-commit: 1ec10a006578bc5ddf5f08501f8d72a9623245d5
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 4%
@@ -125,49 +125,53 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
 
    Para cargar una plantilla personalizada, realice una de las acciones siguientes:
 
-   * (Recomendado) Descargar una plantilla en blanco y modificarla.
+   +++(Recomendado) Descargue una plantilla en blanco y modifíquela
 
-      1. Descargar [esta plantilla en blanco](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?).
+   1. Descargar [esta plantilla en blanco](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?).
 
-      1. Aplique los estilos personalizados a la plantilla en blanco.
+   1. Aplique los estilos personalizados a la plantilla en blanco.
 
-      1. Vuelva a cargar la plantilla sin cambiar los nombres del diseño maestro:
+   1. Vuelva a cargar la plantilla sin cambiar los nombres del diseño maestro:
 
-         Desde el sistema de archivos, arrastre la plantilla en blanco que tenga los estilos personalizados aplicados al área de colocación.
+      Desde el sistema de archivos, arrastre la plantilla en blanco que tenga los estilos personalizados aplicados al área de colocación.
 
-         O bien
+      O bien
 
-         Seleccione **[!UICONTROL Examinar]**, luego busque y seleccione la plantilla en blanco que tenga los estilos personalizados aplicados desde el sistema de archivos.
+      Seleccione **[!UICONTROL Examinar]**, luego busque y seleccione la plantilla en blanco que tenga los estilos personalizados aplicados desde el sistema de archivos.
 
-      1. En la sección **[!UICONTROL Asignación de diseños]**, cada diseño de diapositiva que se usa en las presentaciones generadas se asigna automáticamente a una diapositiva del tema cargado. Revise las selecciones para asegurarse de que son correctas.
+   1. En la sección **[!UICONTROL Asignación de diseños]**, cada diseño de diapositiva que se usa en las presentaciones generadas se asigna automáticamente a una diapositiva del tema cargado. Revise las selecciones para asegurarse de que son correctas.
 
-         ![Asignación de diseño](assets/generate-slides-layout-mapping.png)
+      ![Asignación de diseño](assets/generate-slides-layout-mapping.png)
 
-      1. (Condicional) Si el diseño de una diapositiva no está asignado correctamente, seleccione **[!UICONTROL Cambiar selección]** sobre la diapositiva elegida en la presentación cargada y, a continuación, elija la diapositiva que coincida con el diseño.
+   1. (Condicional) Si el diseño de una diapositiva no está asignado correctamente, seleccione **[!UICONTROL Cambiar selección]** sobre la diapositiva elegida en la presentación cargada y, a continuación, elija la diapositiva que coincida con el diseño.
 
-         Repita este proceso para cada diapositiva asignada incorrectamente.
+      Repita este proceso para cada diapositiva asignada incorrectamente.
 
-   * Cargue una plantilla personalizada directamente.
+   +++
 
-      1. Desde el sistema de archivos, arrastre la plantilla personalizada al área de colocación.
+   +++Cargar una plantilla personalizada directamente 
 
-         O bien
+   1. Desde el sistema de archivos, arrastre la plantilla personalizada al área de colocación.
 
-         Seleccione **[!UICONTROL Examinar]**, luego busque y seleccione su plantilla personalizada del sistema de archivos.
+      O bien
 
-         Asegúrese de que el archivo cargado tenga diseños de patrón con los siguientes nombres: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;.
+      Seleccione **[!UICONTROL Examinar]**, luego busque y seleccione su plantilla personalizada del sistema de archivos.
 
-         Se admiten hasta 15 diseños maestros.
+      Asegúrese de que el archivo cargado tenga diseños de patrón con los siguientes nombres: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;.
 
-         Se admiten archivos .pptx y .potx de hasta 25 MB de tamaño.
+      Se admiten hasta 15 diseños maestros.
 
-      1. En la sección **[!UICONTROL Asignación de diseños]**, cada diseño de diapositiva que se usa en las presentaciones generadas se asigna automáticamente a una diapositiva del tema cargado. Revise las selecciones para asegurarse de que son correctas.
+      Se admiten archivos .pptx y .potx de hasta 25 MB de tamaño.
 
-         ![Plantilla personalizada de asignación de diseño](assets/generate-slides-layout-mapping-custom-template.png)
+   1. En la sección **[!UICONTROL Asignación de diseños]**, cada diseño de diapositiva que se usa en las presentaciones generadas se asigna automáticamente a una diapositiva del tema cargado. Revise las selecciones para asegurarse de que son correctas.
 
-      1. (Condicional) Si el diseño de una diapositiva no está asignado correctamente, seleccione **[!UICONTROL Cambiar selección]** sobre la diapositiva elegida en la presentación cargada y, a continuación, elija la diapositiva que coincida con el diseño.
+      ![Plantilla personalizada de asignación de diseño](assets/generate-slides-layout-mapping-custom-template.png)
 
-         Repita este proceso para cada diapositiva asignada incorrectamente.
+   1. (Condicional) Si el diseño de una diapositiva no está asignado correctamente, seleccione **[!UICONTROL Cambiar selección]** sobre la diapositiva elegida en la presentación cargada y, a continuación, elija la diapositiva que coincida con el diseño.
+
+      Repita este proceso para cada diapositiva asignada incorrectamente.
+
+   +++
 
 1. Seleccione **[!UICONTROL Exportar PPT]**.
 
