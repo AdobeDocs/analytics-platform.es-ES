@@ -4,7 +4,7 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3fb94d920b240247f13050cf091423335a3d74ec
+source-git-commit: 11a550e0cd67db106e2dd399843c4cf0923467ad
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 97%
@@ -1070,12 +1070,12 @@ Las plantillas disponibles son las siguientes:
 ### Brand Concierge {#brand-concierge-templates}
 
 >[!CONTEXTUALHELP]
->id="template--brand-concierge-b2c"
+>id="template--brand-concierge--concierge"
 >title="Analice la participación del usuario a través de patrones de conversación, comentarios del usuario y la eficacia de sus recomendaciones."
 >abstract="**Esto puede ayudarle** a identificar patrones de participación, evaluar la calidad de la conversación, rastrear las tendencias de satisfacción de los clientes y medir la efectividad de las recomendaciones de vínculos.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como refinar las respuestas de su agente de IA, desarrollar contenido dirigido para problemas frecuentes, mejorar los algoritmos de recomendación o crear rutas especializadas para diferentes segmentos de usuarios."
 
 >[!CONTEXTUALHELP]
->id="template--brand-concierge--concierge"
+>id="template--brand-concierge--meeting"
 >title="Rastree el ciclo de vida completo de las convocatorias de reunión B2B. Monitorice las tasas de conversión, el rendimiento del consultor e identifique los canales de generación de posibles clientes más efectivos."
 >abstract="**Esto puede ayudarle** a realizar el seguimiento de las tasas de conversión de las reuniones, identificar a los integrantes del equipo de alto rendimiento, comprender las tendencias estacionales en el comportamiento de las reservas y determinar qué páginas generan las convocatorias de reunión más valiosas.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el proceso de convocatoria de reunión, redistribuir recursos a páginas de alta conversión, desarrollar formación dirigida a consultores con tasas de reserva más bajas o implementar nuevas estrategias para reducir las reuniones perdidas."
 
