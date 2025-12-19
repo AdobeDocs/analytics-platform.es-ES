@@ -27,7 +27,7 @@ En la vinculación basada en gráficos, se especifica un conjunto de datos de ev
 
 ## IdentityMap
 
-La vinculación basada en gráficos admite el uso del grupo de campos [`identityMap` &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
+La vinculación basada en gráficos admite el uso del grupo de campos [`identityMap` &#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
 
 - Uso de la identidad principal en `identityMap` áreas de nombres para definir el persistentID:
    - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexigráficamente y se selecciona la primera identidad.
@@ -118,7 +118,7 @@ Considere las dos actualizaciones siguientes del gráfico de identidad a lo larg
 
 ![Gráfico de identidad 3579](assets/identity-graphs.svg)
 
-Puede ver un gráfico de identidad a lo largo del tiempo para un perfil específico mediante el [Visor de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Consulte también [Lógica de vinculación del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) para comprender mejor la lógica utilizada al vincular identidades.
+Puede ver un gráfico de identidad a lo largo del tiempo para un perfil específico mediante el [Visor de gráficos de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer). Consulte también [Lógica de vinculación del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-linking-logic) para comprender mejor la lógica utilizada al vincular identidades.
 
 ### Paso 1: Vinculación en tiempo real
 
@@ -222,7 +222,7 @@ Las siguientes limitaciones se aplican específicamente a la vinculación basada
 - Las marcas de tiempo no se tienen en cuenta al consultar el ID de persona mediante el área de nombres especificada. Por lo tanto, es posible que un ID persistente se vincule con un ID de persona de un registro que tenga una marca de tiempo anterior.
 - En escenarios de dispositivos compartidos, donde el área de nombres del gráfico contiene varias identidades, se utiliza la primera identidad lexicográfica. Si los límites y prioridades del área de nombres se configuran como parte de la publicación de reglas de vinculación de gráficos, se utiliza la última identidad del usuario autenticado. Consulte [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md) para obtener más información.
 - Hay un límite estricto de tres meses para rellenar identidades en el gráfico de identidades. Para rellenar el gráfico de identidades, debe utilizar identidades de relleno en caso de que no utilice una aplicación de Experience Platform, como Real-time Customer Data Platform.
-- Se aplican las [protecciones del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails). Vea, por ejemplo, los [límites estáticos](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits) siguientes:
+- Se aplican las [protecciones del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails). Vea, por ejemplo, los [límites estáticos](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails#static-limits) siguientes:
    - Número máximo de identidades en un gráfico: 50.
    - Número máximo de vínculos a una identidad para una sola ingesta por lotes: 50.
    - Número máximo de identidades en un registro XDM para la ingesta de gráficos: 20.
