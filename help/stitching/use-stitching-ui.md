@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 6ebd1604e01af068228d7a5e4a78fdccf852f480
+source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '820'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ Para habilitar la vinculación en un conjunto de datos de evento dentro de la in
    * Varios campos configurados como identidad y que le permiten seleccionar valores diferentes para un ID persistente y un ID de persona.
    * al menos un campo marcado como identidad principal con un área de nombres asociada en caso de que desee utilizar el mapa de identidad y el área de nombres de identidad principal para un ID persistente o ID de persona.
 
-* Si desea utilizar la vinculación basada en gráficos y prevé que el conjunto de datos de evento contribuirá al gráfico de identidad, debe [habilitar el conjunto de datos para el servicio de identidad](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service). Un conjunto de datos contribuye al gráfico de identidad cuando el conjunto de datos contiene ID de persona relevantes junto a ID persistentes.
-
+* Si desea utilizar la vinculación basada en gráficos y prevé que el conjunto de datos de evento contribuirá al gráfico de identidad (ya que el conjunto de datos contiene ID de persona relevantes junto a ID persistentes), debe [habilitar el conjunto de datos para el servicio de identidad](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
 
 ## Comprobaciones previas
 

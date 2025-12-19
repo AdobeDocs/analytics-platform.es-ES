@@ -5,15 +5,14 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: dd4ebd86cbb6640575a0eb05aa00aadfa2c7c410
+source-git-commit: 90a285fcd96866974087c53d402e85b4a2d83ccf
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1512'
 ht-degree: 5%
 
 ---
 
 # Vinculación basada en gráficos
-
 
 En la vinculación basada en gráficos, se especifica un conjunto de datos de evento, así como el ID persistente (cookie) y el área de nombres del ID de persona para ese conjunto de datos. La vinculación basada en gráficos agrega una nueva columna para el ID vinculado al conjunto de datos de evento. Y, a continuación, utiliza el ID persistente para consultar el gráfico de identidades desde el servicio de identidad de Experience Platform, utilizando el área de nombres especificada para actualizar el ID vinculado.
 
@@ -27,7 +26,7 @@ En la vinculación basada en gráficos, se especifica un conjunto de datos de ev
 
 ## IdentityMap
 
-La vinculación basada en gráficos admite el uso del grupo de campos [`identityMap` &#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
+La vinculación basada en gráficos admite el uso del grupo de campos [`identityMap` ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
 
 - Uso de la identidad principal en `identityMap` áreas de nombres para definir el persistentID:
    - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexigráficamente y se selecciona la primera identidad.
@@ -118,7 +117,7 @@ Considere las dos actualizaciones siguientes del gráfico de identidad a lo larg
 
 ![Gráfico de identidad 3579](assets/identity-graphs.svg)
 
-Puede ver un gráfico de identidad a lo largo del tiempo para un perfil específico mediante el [Visor de gráficos de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer). Consulte también [Lógica de vinculación del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-linking-logic) para comprender mejor la lógica utilizada al vincular identidades.
+Puede ver un gráfico de identidad a lo largo del tiempo para un perfil específico mediante el [Visor de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Consulte también [Lógica de vinculación del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) para comprender mejor la lógica utilizada al vincular identidades.
 
 ### Paso 1: Vinculación en tiempo real
 
@@ -126,15 +125,15 @@ La vinculación en tiempo real intenta vincular cada evento, tras la recopilaci�
 
 +++ Detalles
 
-| | Fecha | Id. persistente<br/>`ECID` | Espacio de nombres <br/>`Email` ![Gráfico](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | ID con título (después de la unión en directo) |
+| | Fecha | Id. persistente<br/>`ECID` | Espacio de nombres <br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | ID con título (después de la unión en directo) |
 |--:|---|---|---|---|
-| 1 | 11:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) *sin definir* | `246` |
-| 2 | 14:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 3 | 15:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 4 | 17:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) *sin definir* | `3579` |
-| 5 | 19:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` |
-| 6 | 13-05-2023 15:00 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 7 | 16:30, 13-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` |
+| 1 | 11:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) *sin definir* | `246` |
+| 2 | 14:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 3 | 15:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 4 | 17:00, 12-05-2023 | `3579` | `3579` ![Rama1](/help/assets/icons/Branch1.svg) *sin definir* | `3579` |
+| 5 | 19:00, 12-05-2023 | `3579` | `3579` ![Rama1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` |
+| 6 | 13-05-2023 15:00 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 7 | 16:30, 13-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -149,16 +148,16 @@ A intervalos regulares (en función de la ventana retrospectiva seleccionada), l
 
 +++ Detalles
 
-Con una vinculación de reproducción que se produce el 13 de mayo de 2023 a las 16 :30, con una configuración de ventana retrospectiva de 24 horas, algunos eventos de la muestra se vuelven a vincular (indicado por ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg)).
+Con una vinculación de reproducción que se produce el 13 de mayo de 2023 a las 16 :30, con una configuración de ventana retrospectiva de 24 horas, algunos eventos de la muestra se vuelven a vincular (indicado por ![Reproducir](/help/assets/icons/Replay.svg)).
 
-| | Fecha | Id. persistente<br/>`ECID` | Espacio de nombres <br/>`Email` ![Gráfico](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | Id. con título <br/> (después de la unión activa) | Id. vinculado <br/> (después de la reproducción 24 horas) |
+| | Fecha | Id. persistente<br/>`ECID` | Espacio de nombres <br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | Id. con título <br/> (después de la unión activa) | Id. vinculado <br/> (después de la reproducción 24 horas) |
 |---|---|---|---|---|---|
-| 2 | 14:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 3 | 15:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 4 | 17:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 5 | 19:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 6 | 13-05-2023 15:00 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 7 | 16:30, 13-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
+| 2 | 14:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 3 | 15:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 4 | 17:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 5 | 19:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 6 | 13-05-2023 15:00 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 7 | 16:30, 13-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg)`a.b@yahoo.co.uk`<br/>`246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -166,15 +165,15 @@ Con una vinculación de reproducción que se produce el 13 de mayo de 2023 a las
 Con la vinculación de reproducción que se produce el 13 de mayo de 2023 a las 16 :30, con una configuración de ventana retrospectiva de 7 días, todos los eventos de la muestra se vuelven a vincular.
 
 
-| | Fecha | Id. persistente<br/>`ECID` | Espacio de nombres <br/>`Email` ![Gráfico](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | Id. con título <br/> (después de la unión activa) | ID vinculado <br/> (después de la reproducción 7 días) |
+| | Fecha | Id. persistente<br/>`ECID` | Espacio de nombres <br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | Id. con título <br/> (después de la unión activa) | ID vinculado <br/> (después de la reproducción 7 días) |
 |---|---|---|---|---|---|
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 1 | 11:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) *sin definir* | `246` | `a.b@yahoo.co.uk` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 2 | 14:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 3 | 15:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 4 | 17:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 5 | 19:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 6 | 13-05-2023 15:00 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 7 | 16:30, 13-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 1 | 11:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) *sin definir* | `246` | `a.b@yahoo.co.uk` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 2 | 14:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 3 | 15:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 4 | 17:00, 12-05-2023 | `3579` | `3579` ![Rama1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 5 | 19:00, 12-05-2023 | `3579` | `3579` ![Rama1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 6 | 13-05-2023 15:00 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Reproducir](/help/assets/icons/Replay.svg) 7 | 16:30, 13-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -188,15 +187,15 @@ Cuando recibe una solicitud de privacidad, la ID vinculada se elimina en todos l
 
 La siguiente tabla representa los mismos datos que los que hemos visto anteriormente, pero muestra el efecto que tiene una solicitud de privacidad (por ejemplo, en 2023-05-13 18:00) en los eventos de ejemplo.
 
-| | Fecha | Id. persistente<br/>`ECID` | Espacio de nombres <br/>`Email` ![Gráfico](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | ID vinculado (después de la solicitud de privacidad) |
+| | Fecha | Id. persistente<br/>`ECID` | Espacio de nombres <br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | ID vinculado (después de la solicitud de privacidad) |
 |--:|---|---|---|---|
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 1 | 11:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `246` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 2 | 14:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `246` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 3 | 15:00, 12-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `246` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 4 | 17:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 5 | 19:00, 12-05-2023 | `3579` | `3579` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 6 | 13-05-2023 15:00 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `246` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 7 | 16:30, 13-05-2023 | `246` | `246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![Vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `246` |
+| ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) 1 | 11:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) 2 | 14:00, 12-05-2023 | `246` | `246`![Rama1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) 3 | 15:00, 12-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) 4 | 17:00, 12-05-2023 | `3579` | `3579` ![Rama1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
+| ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) 5 | 19:00, 12-05-2023 | `3579` | `3579` ![Rama1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
+| ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) 6 | 13-05-2023 15:00 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) 7 | 16:30, 13-05-2023 | `246` | `246` ![Rama1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Rama1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `246` |
 
 {style="table-layout:auto"}
 
@@ -222,7 +221,7 @@ Las siguientes limitaciones se aplican específicamente a la vinculación basada
 - Las marcas de tiempo no se tienen en cuenta al consultar el ID de persona mediante el área de nombres especificada. Por lo tanto, es posible que un ID persistente se vincule con un ID de persona de un registro que tenga una marca de tiempo anterior.
 - En escenarios de dispositivos compartidos, donde el área de nombres del gráfico contiene varias identidades, se utiliza la primera identidad lexicográfica. Si los límites y prioridades del área de nombres se configuran como parte de la publicación de reglas de vinculación de gráficos, se utiliza la última identidad del usuario autenticado. Consulte [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md) para obtener más información.
 - Hay un límite estricto de tres meses para rellenar identidades en el gráfico de identidades. Para rellenar el gráfico de identidades, debe utilizar identidades de relleno en caso de que no utilice una aplicación de Experience Platform, como Real-time Customer Data Platform.
-- Se aplican las [protecciones del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails). Vea, por ejemplo, los [límites estáticos](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails#static-limits) siguientes:
+- Se aplican las [protecciones del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails). Vea, por ejemplo, los [límites estáticos](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits) siguientes:
    - Número máximo de identidades en un gráfico: 50.
    - Número máximo de vínculos a una identidad para una sola ingesta por lotes: 50.
    - Número máximo de identidades en un registro XDM para la ingesta de gráficos: 20.
