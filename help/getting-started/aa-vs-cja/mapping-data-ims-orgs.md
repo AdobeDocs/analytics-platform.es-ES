@@ -50,7 +50,7 @@ Para configurar y habilitar la característica *asignar datos de Analytics de va
 
 Una vez que el administrador de cuentas recibe el correo electrónico con la solicitud para asignar datos de Analytics de varias organizaciones, la solicitud se revisa dentro de Adobe. El administrador de cuentas se pone en contacto con usted para cualquier pregunta adicional, formación opcional y otra información.
 
-Una vez aprobada, se crea la asignación solicitada y se le notifica. El nombre de la organización de IMS de origen se anexa al nombre del grupo de informes en la [lista de grupos de informes de Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) en Experience Platform.
+Una vez aprobada, se crea la asignación solicitada y se le notifica. El nombre de la organización de IMS de origen se anexa al nombre del grupo de informes en la [lista de grupos de informes de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) en Experience Platform.
 
 ## Limitaciones y riesgos
 
