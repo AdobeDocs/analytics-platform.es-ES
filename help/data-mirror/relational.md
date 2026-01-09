@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: 0e86227915404fe62fcd1f27e95eb3b1bb673030
+source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2351'
 ht-degree: 14%
 
 ---
@@ -173,6 +173,8 @@ Defina un esquema que modele estos datos. Para configurar el esquema:
 
      ![Descriptor de versión](assets/platform-schema-id.png)
 
+     En un escenario real, es posible que desee usar un campo más apropiado como [descriptor de versión](aep.md#schema). Por ejemplo, un campo que realiza un seguimiento de la última hora de modificación.
+
    * El campo **[!UICONTROL personid]** está configurado, junto con **[!UICONTROL timestamp]** como **[!UICONTROL clave principal]**. Seleccione ![Agregar](/help/assets/icons/Add.svg) **[!UICONTROL Crear clave principal compuesta]** para crear una clave compuesta.
 
      ![Clave compuesta](assets/platform-schema-compositekey.png)
@@ -180,6 +182,8 @@ Defina un esquema que modele estos datos. Para configurar el esquema:
      El campo **[!UICONTROL personid]** también está configurado como **[!UICONTROL identidad]**, con **[!UICONTROL CRMID]** como **[!UICONTROL área de nombres de identidad]**.
 
      ![Descriptor de persona](assets/platform-schema-personid.png)
+
+     El campo **[!UICONTROL personid]** no tiene que ser la **[!UICONTROL clave principal]**. En un escenario en tiempo real, lo más probable es que tengas un campo diferente para rastrear la clave principal, aparte de **[!UICONTROL personid]**.
 
    * El campo **[!UICONTROL timestamp]** está configurado, junto con el campo **[!UICONTROL personid]** como **[!UICONTROL clave principal]**. El campo **[!UICONTROL timestamp]** también está configurado como **[!UICONTROL descriptor Timestamp]**. Solo necesita definir un campo como **[!UICONTROL descriptor de marca de tiempo]** para los datos relacionales de series de tiempo.
 
@@ -189,6 +193,8 @@ Defina un esquema que modele estos datos. Para configurar el esquema:
    Si ha definido la **[!UICONTROL clave principal]**, el **[!UICONTROL descriptor de versión]** y el **[!UICONTROL descriptor de marca de tiempo]** correctamente, desaparecerá la advertencia sobre la definición del esquema.
 
 1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
+
+Del mismo modo, puede configurar un [esquema](aep.md#schema) relacional basado en registros. Por ejemplo, para contener datos de perfil y búsqueda.
 
 
 ## Uso de un conector de origen
@@ -219,7 +225,7 @@ En el paso **[!UICONTROL Autenticación]**, seleccione:
 
    1. Seleccione **[!UICONTROL Siguiente]**.
 
-  Consulte la documentación de Experience Platform para obtener más información sobre cómo conectarse y autenticarse al usar el conector [Azure Databricks](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulte la documentación de Experience Platform para obtener más información sobre cómo conectarse y autenticarse al usar el conector [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Seleccionar datos
@@ -254,7 +260,7 @@ En el paso **[!UICONTROL Detalle del flujo de datos]**:
 
 En el paso **[!UICONTROL Asignación]**, haga lo siguiente:
 
-1. Asigne los campos. Desde el esquema de Google BigQuery (**[!UICONTROL datos de Source]**) hasta los campos del esquema que ha definido en Experience Platform (**[!UICONTROL Campos de destino]**).
+1. Asigne los campos del esquema en Google BigQuery (**[!UICONTROL datos de Source]**) a los campos del esquema que ha definido en Experience Platform (**[!UICONTROL Campos de destino]**).
 
    ![Experience Platform - Conector de Source - Asignación](assets/platform-sources-mapping.png)
 

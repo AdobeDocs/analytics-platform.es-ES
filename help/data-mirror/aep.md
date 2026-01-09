@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: b2a13524760f9d466696534bc8b9691f3b4dfb8a
+source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 2%
 
 ---
@@ -27,17 +27,19 @@ A continuación, encontrará los detalles que debe tener en cuenta al configurar
 
 ## Esquema
 
-Debe crear un [esquema relacional](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational){target="_blank"} que sea la tabla nativa del almacén de datos que desea reflejar. Cuando construya el esquema relacional, asegúrese de que se cumplan los siguientes requisitos:
+Debe crear un [esquema relacional](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"} que sea la tabla nativa del almacén de datos que desea reflejar. Cuando construya el esquema relacional, asegúrese de que se cumplan los siguientes requisitos:
 
 * Cuando se le pida el tipo de esquema relacional, asegúrese de seleccionar la opción manual.
-* Seleccione el esquema adecuado para el tipo de datos. Tenga en cuenta que Experience Platform Data Mirror se utiliza principalmente para datos de series temporales (por ejemplo, datos de eventos).
+* Seleccione el esquema adecuado para el tipo de datos. Tenga en cuenta que Experience Platform Data Mirror se utiliza principalmente para datos de series temporales (por ejemplo, datos de eventos), pero también se puede utilizar para datos basados en registros (búsqueda y perfil).
 
 * Defina los campos del esquema y sus atributos
 * Configure los atributos necesarios para los campos de un esquema relacional:
 
-   * clave principal
-   * identificador de versión
-   * identificador de marca de tiempo (para datos de series de tiempo).
+   * **Clave principal**.
+   * **Descriptor de versión**, que debe configurarse como número secuencial (tipo de campo de tipo entero) o como tipo de campo de fecha y hora. Cuando se utiliza un tipo de campo DateTime, el descriptor de versión define la marca de tiempo de una modificación de los datos, por ejemplo, para contener la última marca de tiempo modificada.
+   * **Descriptor de marca de tiempo** (para datos de series de tiempo), que define la marca de tiempo inmutable en el momento en que se captura un evento. El descriptor de marca de tiempo no es necesario para un esquema relacional basado en registros.
+
+
 
 ## Conjunto de datos
 
@@ -53,9 +55,9 @@ Para configurar el conector de origen de las soluciones nativas del almacén de 
 
 Para obtener información sobre la autenticación con la solución nativa del almacén de datos admitida, consulte la documentación de Experience Platform correspondiente:
 
-* [Databricks de Azure](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Databricks de Azure](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Seleccionar datos
@@ -91,5 +93,5 @@ Una vez que haya terminado la configuración del conector de origen, se crea un 
 >[!MORELIKETHIS]
 >
 >[Guía de inicio rápido de Data Mirror: crear reflejos y utilizar datos relacionales](relational.md)
->[Data Mirror (documentación de Experience Platform)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/data-mirror/overview)
->[Esquemas relacionales (documentación de Experience Platform)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational)
+>[Data Mirror (documentación de Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[Esquemas relacionales (documentación de Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
