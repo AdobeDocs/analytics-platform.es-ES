@@ -27,7 +27,7 @@ Según el paquete de Customer Journey Analytics, también puede utilizar alertas
    * Cambios en las métricas según un porcentaje específico.
    * Métricas que están por encima, por debajo o iguales a un valor específico. (disponible solo para clientes de Adobe Analytics con un paquete Select, Prime o Ultimate)
 
-Este [tutorial en vídeo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) proporciona información general básica sobre las alertas.
+Este [tutorial en vídeo](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/data-science/intelligent-alerts) proporciona información general básica sobre las alertas.
 
 
 
