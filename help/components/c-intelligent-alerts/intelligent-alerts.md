@@ -4,10 +4,10 @@ title: Información general sobre alertas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 65e46a5d2a6759dd83b24bba2d1d4ee283b907c9
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 96%
+source-wordcount: '465'
+ht-degree: 58%
 
 ---
 
@@ -15,16 +15,21 @@ ht-degree: 96%
 
 Las alertas de Customer Journey Analytics permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos.
 
-Según el paquete de Customer Journey Analytics, también puede utilizar alertas para activarlas en función de los umbrales de anomalías. Estas alertas (también conocidas como “Alertas inteligentes”) proporcionan controles granulares que se integran con [Detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) y se activan cuando más los necesita.
+Según el paquete de Customer Journey Analytics, también puede utilizar alertas para activarlas en función de los umbrales de anomalías. Estas alertas (también conocidas como *Alertas inteligentes*) proporcionan controles granulares que se integran con la [Detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) y se activan cuando más las necesita.
 
-Las alertas le permiten:
+* Vista previa de la frecuencia con la que déclencheur una alerta.
+* Enviar alertas por correo electrónico o SMS con vínculos a proyectos de Analysis Workspace autogenerados.
+* Crear *alertas apiladas* que capturan varias métricas en una sola alerta.
+* Generar alertas basadas en:
+   * Anomalías en métricas que existen, que están por encima o por debajo de los valores de umbral esperados.
 
-* Obtener una vista previa de la frecuencia con la que se activará una alerta
-* Enviar alertas por correo electrónico o SMS con vínculos a proyectos de Analysis Workspace autogenerados
-* Crear alertas “apiladas” que capturan varias métricas en una sola alerta
-* Generar alertas en función de anomalías (umbrales del 90 %, 95 %, 99 %, 99,75 % y 99,9 %; cambio de %; por encima/por debajo) (disponible solo para clientes de Customer Journey Analytics con un paquete Select, Prime o Ultimate)
+     [Detección de anomalías](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) crea un valor esperado más un límite superior e inferior usando datos históricos. Si el valor real de la métrica va por encima o por debajo del límite inferior definido como valor de umbral, ese evento se considera una anomalía en el nivel de confianza de umbral y no almacena en déclencheur la alerta. Un umbral más alto (por ejemplo, 99 % o 99,9 %) implica una banda más ancha, lo que resulta en menos alertas causadas por anomalías más extremas. Un umbral más bajo (por ejemplo, 90 %) implica una banda más estrecha, lo que da como resultado más alertas causadas por anomalías menos extremas.
+   * Cambios en las métricas según un porcentaje específico.
+   * Métricas que están por encima, por debajo o iguales a un valor específico. (disponible solo para clientes de Adobe Analytics con un paquete Select, Prime o Ultimate)
 
-El siguiente tutorial de vídeo proporciona información general básica sobre las alertas: [Alertas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=es) (5:34)
+Este [tutorial en vídeo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) proporciona información general básica sobre las alertas.
+
+
 
 ## Explicación de cómo difieren las alertas
 
