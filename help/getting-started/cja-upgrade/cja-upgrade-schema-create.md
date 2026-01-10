@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 100%
@@ -21,18 +21,10 @@ ht-degree: 100%
 >title="Cree el esquema personalizado deseado en Adobe Experience Platform"
 >abstract="Utilice la interfaz de usuario de Adobe Experience Platform para crear un esquema para que Adobe conozca el formato correcto para almacenar los datos.<br><br>Este paso implica crear realmente el esquema acordado por su organización. El tiempo estimado para crear el esquema en la interfaz de Adobe Experience Platform es de aproximadamente una semana, según el número de dimensiones y métricas que sea necesario crear."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create-default-aa"
 >title="Crear un esquema utilizando el grupo de campos Adobe Analytics ExperienceEvent"
 >abstract="Utilice el grupo de campos &quot;Adobe Analytics ExperienceEvent&quot; para crear un esquema en Adobe Experience Platform que contenga todos los campos utilizados por Adobe Analytics.<br><br>Crear un esquema basado en el grupo de campos Adobe Analytics ExperienceEvent es sencillo y tarda solo unos minutos en completarse."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
