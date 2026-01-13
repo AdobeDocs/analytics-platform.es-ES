@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 840bf65d186178fb944041ff486e95ba60dc6037
+source-git-commit: 9d9c4dbba13f61af4a47bbb0f87533fb950976bc
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '708'
 ht-degree: 3%
 
 ---
@@ -80,7 +80,13 @@ Se requieren las siguientes funciones de Customer Journey Analytics y permisos d
 | [Ver dimensiones de análisis de audiencia en la vista de datos](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | Administrador de perfil de producto para el perfil de producto al que está asignada la vista de datos <p>Para obtener más información, consulte [Control de acceso](/help/technotes/access-control.md).</p> | N/A |
 | Uso de dimensiones de análisis de audiencia en Analysis Workspace | Acceso a una vista de datos en la que se añadieron las dimensiones de análisis de audiencia | N/A |
 
+## Límites del análisis de audiencia
 
+Tenga en cuenta los límites siguientes al [configurar el análisis de audiencia](/help/connections/audience-analysis/audience-analysis-configure.md):
+
+* Una sola zona protegida puede admitir hasta 100 configuraciones de análisis de audiencia.
+
+* Una conexión solo se puede asociar a una configuración de análisis de audiencia.
 
 
 
