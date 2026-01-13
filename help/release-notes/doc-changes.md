@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 90a285fcd96866974087c53d402e85b4a2d83ccf
+source-git-commit: b94c60c9832bc699212dda97ad634e8d3260c45c
 workflow-type: tm+mt
-source-wordcount: '5616'
+source-wordcount: '5639'
 ht-degree: 99%
 
 ---
@@ -14,6 +14,13 @@ ht-degree: 99%
 # Actualizaciones de la documentación de Customer Journey Analytics
 
 Se han realizado las siguientes actualizaciones en la documentación de Customer Journey Analytics desde su creación.
+
+## 2026
+
+| Función | Descripción |
+|---|---|
+| **Enero de 2026** | |
+| Diseñar un esquema | Se agregaron información y contexto sustanciales a [Arquitecto su esquema para usar con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md). |
 
 ## 2025
 
@@ -28,7 +35,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Configuración de la atribución | Actualizaciones adicionales para reflejar las nuevas opciones de configuración de atribución del modelo, el contenedor y la ventana de retrospección. |
 | Ingesta y uso de públicos de Experience Platform | Se ha actualizado el artículo de caso de uso sobre cómo [ingerir y usar audiencias de Experience Platform](/help/use-cases/data-ingestion/ingest-aep-segments.md). |
 | Prepare su organización para actualizar a Customer Journey Analytics | Se agregó información sobre cómo [preparar una organización para actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md). |
-| Informe sobre el tráfico generado por LLM e IA | Se agregó [artículo de caso de uso](/help/use-cases/ai-traffic.md) sobre cómo informar sobre tráfico generado por LLM e IA partiendo de campos derivados. El artículo está basado en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM e IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=es). |
+| Informe sobre el tráfico generado por LLM e IA | Se agregó [artículo de caso de uso](/help/use-cases/ai-traffic.md) sobre cómo informar sobre tráfico generado por LLM e IA partiendo de campos derivados. El artículo está basado en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM e IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967). |
 | **Septiembre de 2025** | |
 | Fechas anteriores a 1900 | Se añadió una [nota](/help/connections/create-connection.md#datasets) sobre cómo Customer Journey Analytics administra las fechas anteriores a 1900. |
 | Creación de informes en tiempo real | Se ha agregado documentación sobre la [creación de informes en tiempo real](/help/components/real-time/real-time.md) en Customer Journey Analytics. |
@@ -215,7 +222,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Febrero de 2023** | |
 | Comparar soluciones de Customer Journey Analytics con las soluciones de BI | Nuevo documento sobre una [comparación](../getting-started/cja-vs-bi.md) de Customer Journey Analytics con las soluciones típicas de BI. |
 | Actualización de la documentación de Audiences | Nueva sección sobre [consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency). |
-| Actualización de la documentación de Audiences | Después de crear un público, Adobe crea un segmento de streaming de Experience Platform [&#x200B; para cada nuevo público de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#after-audience-created). |
+| Actualización de la documentación de Audiences | Después de crear un público, Adobe crea un segmento de streaming de Experience Platform [ para cada nuevo público de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#after-audience-created). |
 | Calendarios e intervalos de fechas del Espacio de trabajo | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la IU del calendario. Consulte [Acerca de los intervalos de fechas relativos del panel](/help/components/date-ranges/overview.md#custom-date-ranges). |
 | Cuadros de resultados móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/mobile-app/create-scorecard.md#show-comparison-dates) en Customer Journey Analytics. |
 | **Enero de 2023** | |
@@ -237,7 +244,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Diciembre de 2022** |  |
 | 16 de diciembre de 2022 | Nuevo tema sobre la [administración del uso de los datos de Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Octubre de 2022** | |
-| Octubre de 2022 | Tema nuevo en [protección de contraseña de proyectos programados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=es#password). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html?lang?=es). |
+| Octubre de 2022 | Tema nuevo en [protección de contraseña de proyectos programados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html?lang?=es). |
 | Octubre de 2022 | Tema nuevo en [Claves administradas por el cliente](/help/privacy/cmk.md). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html?lang?=es). |
 | Octubre de 2022 | Tema nuevo sobre [Registro de auditoría de Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Octubre de 2022 | Tema nuevo sobre la visualización [Resumen de métricas clave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=es). |
