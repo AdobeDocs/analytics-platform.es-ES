@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-source-git-commit: 82ca99af8f344b713e285980145fa0ee6ae6ae1c
+source-git-commit: 06e6dd99d318812447d903f2e14e4daba80d4957
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 6%
+source-wordcount: '1694'
+ht-degree: 5%
 
 ---
 
@@ -228,9 +228,7 @@ Los siguientes elementos y características de Analysis Workspace utilizados en 
 
    * Combo
 
-   * Visita en orden previsto
-
-   * Flujo
+   * Tablas improvisadas con varias columnas de dimensión (se admiten tablas con una sola columna de dimensión)
 
    * Lienzo de recorrido
 
