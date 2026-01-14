@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9d9c4dbba13f61af4a47bbb0f87533fb950976bc
+source-git-commit: ca2adce7be8a28fa72323915473a8c2283741889
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '728'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,9 @@ El diagrama siguiente y la tabla asociada muestran una representación de alto n
 
 Al configurar el análisis de audiencia, selecciona la zona protegida y la política de combinación asociadas con las audiencias de Experience Platform que desea analizar. Customer Journey Analytics crea un nuevo conjunto de datos de búsqueda y, a continuación, agrega automáticamente el conjunto de datos de búsqueda y el conjunto de datos de perfil a la conexión que elija.
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>Los datos de audiencia se vuelven a procesar y generar cada noche, lo que hace que los datos de audiencia sean precisos para su análisis solo el día anterior (&quot;ayer&quot;).
 >
 >Las audiencias están disponibles en las vistas de datos de Customer Journey Analytics el día siguiente al de crear la configuración de análisis de audiencia.
 
