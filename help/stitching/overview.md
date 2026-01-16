@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: b85b5b8212cf072ed46bc8eb587ea00984d33ccc
+source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '902'
+ht-degree: 88%
 
 ---
 
@@ -49,8 +49,8 @@ Se beneficia del análisis en canales múltiples si combina uno o más de los co
 
 Puede habilitar la vinculación de dos formas:
 
-- [Solicitud para habilitar la vinculación](/help/stitching/use-stitching.md)
-- [Habilitar la vinculación en la interfaz de Conexiones](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}
+- [Solicitud para habilitar la vinculación](/help/stitching/use-stitching.md). Una vez aprobado, se crea un conjunto de datos duplicado para el conjunto de datos para el que ha solicitado la vinculación. Este conjunto de datos duplicado contiene una columna adicional con el identificador vinculado. Debe crear una conexión nueva o editar una existente que incluya el conjunto de datos enlazado para utilizar los datos enlazados en Customer Journey Analytics.
+- [Habilitar la vinculación en la interfaz de Conexiones](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}. Al configurar la vinculación de un conjunto de datos en la interfaz de Conexiones, la vinculación se produce &quot;sobre la marcha&quot;, durante la ingesta de datos de ese conjunto de datos en Customer Journey Analytics.
 
 ## Limitaciones
 

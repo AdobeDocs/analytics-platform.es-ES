@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
+source-git-commit: 3479227eb703583255d40de3d07d071ad2f89950
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '894'
 ht-degree: 3%
 
 ---
@@ -144,3 +144,11 @@ Además de las [limitaciones de vinculación basadas en el campo](/help/stitchin
 
 * Solo puede vincular un conjunto de datos de evento una vez como parte de una sola conexión. No puede definir el mismo conjunto de datos de evento más de una vez y utilizar una configuración de vinculación independiente para cada instancia. Si desea aplicar diferentes configuraciones de vinculación en el mismo conjunto de datos, utilice una conexión independiente para cada configuración.
 
+
+## Migración
+
+La configuración habilitada en la interfaz Conexiones puede coexistir sin problemas con la vinculación basada en solicitudes.
+
+Por ejemplo, tiene conjuntos de datos enlazados basados en la web en el lago de datos como resultado de solicitudes de vinculación anteriores o actuales. Puede agregar datos vinculados de un conjunto de datos del centro de llamadas mediante la interfaz Conexiones para combinar esos datos con los datos basados en web.
+
+Finalmente, Adobe migrará automáticamente los conjuntos de datos enlazados basados en solicitudes a la nueva experiencia de vinculación en conexiones.
