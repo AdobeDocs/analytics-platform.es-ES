@@ -92,7 +92,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 
 >[!IMPORTANT]
 >
->Ya no puede definir el formato de número en la sección **[!UICONTROL Proyecto y análisis]** > **[!UICONTROL Datos]** de **[!UICONTROL preferencias de usuario]**. El formato de número se determina automáticamente según el [idioma predeterminado configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) para el usuario que ha iniciado sesión.
+>Ya no puede definir el formato de número en la sección **[!UICONTROL Proyecto y análisis]** > **[!UICONTROL Datos]** de **[!UICONTROL preferencias de usuario]**. El formato de número se determina automáticamente según el [idioma predeterminado configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) para el usuario que ha iniciado sesión.
 >
 
 
