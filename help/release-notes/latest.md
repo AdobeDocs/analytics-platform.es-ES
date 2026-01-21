@@ -3,9 +3,9 @@ title: Notas de la versión de Customer Journey Analytics actuales
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: bdf3b87768e123e64ec36154dae0fd1ab5ce1238
+source-git-commit: ea699bcacd985d9da1e3895f7770290dc77da537
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '951'
 ht-degree: 48%
 
 ---
@@ -31,7 +31,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento de enero de 2026. L
 
 ## Correcciones en Customer Journey Analytics
 
-**Analysis Workspace**: AN-423389, AN-423316, AN-422636, AN-422482, AN-422121, AN-422116, AN-422027, AN-421134, AN-420187, AN-406271, AN-405997, AN-406188, AN-405983, AN-405796, AN-404893, AN-404871, AN-404842, AN-404713, AN-405033, AN-404502, AN-404353, AN-404352, AN-404048, AN-403241, AN-402523, AN-400795, AN-396149, AN-390990, AN-390646, AN-383484, AN-376980, AN-371729 347570
+**Analysis Workspace**: AN-423389, AN-423316, AN-422636, AN-422482, AN-422121, AN-422116, AN-422027, AN-421134, AN-420187, AN-406271, AN-405997, AN-406188, AN-405983, AN-405796, AN-404893, AN-404871, AN-404842, AN-404713, AN-405033, AN-404502, AN-404353, AN-404352, AN-404048, AN-403241, AN-402523, AN-400795, AN-396149, AN-390990, AN-390646, AN-383484, AN-376980, AN-371729 347570 404835 AN-
 **Componentes**:
 **Content Analytics**:
 **Análisis guiado**: AN-421274
