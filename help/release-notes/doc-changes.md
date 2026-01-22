@@ -22,7 +22,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Enero de 2026** | |
 | Protección para filas por año en una conexión | Se ha agregado [información de protección para los límites de transferencia de datos](/help/technotes/guardrails.md) acerca del número promedio máximo de filas por año en una conexión. |
 | Ver el centro de datos donde se almacenan los datos | Se agregó [información sobre los centros de datos donde se almacenan los datos](/help/technotes/data-centers.md#view-the-data-center-where-your-data-is-stored). |
-| Preferencias de usuario: formato de número | Ya no puede definir el formato de número en la sección **[!UICONTROL Proyecto y análisis]** > **[!UICONTROL Datos]** de **[!UICONTROL preferencias de usuario]**. El formato de número se determina automáticamente según el [idioma predeterminado configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) para el usuario que ha iniciado sesión. |
+| Preferencias de usuario: formato de número | Ya no puede definir el formato de número en la sección **[!UICONTROL Proyecto y análisis]** > **[!UICONTROL Datos]** de **[!UICONTROL preferencias de usuario]**. El formato de número se determina automáticamente según el [idioma predeterminado configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) para el usuario que ha iniciado sesión. |
 | Diseñar un esquema | Se agregaron información y contexto sustanciales a [Arquitecto su esquema para usar con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md). |
 
 
@@ -39,7 +39,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Configuración de la atribución | Actualizaciones adicionales para reflejar las nuevas opciones de configuración de atribución del modelo, el contenedor y la ventana de retrospección. |
 | Ingesta y uso de públicos de Experience Platform | Se ha actualizado el artículo de caso de uso sobre cómo [ingerir y usar audiencias de Experience Platform](/help/use-cases/data-ingestion/ingest-aep-segments.md). |
 | Prepare su organización para actualizar a Customer Journey Analytics | Se agregó información sobre cómo [preparar una organización para actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md). |
-| Informe sobre el tráfico generado por LLM e IA | Se agregó [artículo de caso de uso](/help/use-cases/ai-traffic.md) sobre cómo informar sobre tráfico generado por LLM e IA partiendo de campos derivados. El artículo está basado en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM e IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967). |
+| Informe sobre el tráfico generado por LLM e IA | Se agregó [artículo de caso de uso](/help/use-cases/ai-traffic.md) sobre cómo informar sobre tráfico generado por LLM e IA partiendo de campos derivados. El artículo está basado en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM e IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=es). |
 | **Septiembre de 2025** | |
 | Fechas anteriores a 1900 | Se añadió una [nota](/help/connections/create-connection.md#datasets) sobre cómo Customer Journey Analytics administra las fechas anteriores a 1900. |
 | Creación de informes en tiempo real | Se ha agregado documentación sobre la [creación de informes en tiempo real](/help/components/real-time/real-time.md) en Customer Journey Analytics. |
@@ -248,7 +248,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Diciembre de 2022** |  |
 | 16 de diciembre de 2022 | Nuevo tema sobre la [administración del uso de los datos de Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Octubre de 2022** | |
-| Octubre de 2022 | Tema nuevo en [protección de contraseña de proyectos programados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html?lang?=es). |
+| Octubre de 2022 | Tema nuevo en [protección de contraseña de proyectos programados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=es#password). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html?lang?=es). |
 | Octubre de 2022 | Tema nuevo en [Claves administradas por el cliente](/help/privacy/cmk.md). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html?lang?=es). |
 | Octubre de 2022 | Tema nuevo sobre [Registro de auditoría de Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Octubre de 2022 | Tema nuevo sobre la visualización [Resumen de métricas clave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=es). |
