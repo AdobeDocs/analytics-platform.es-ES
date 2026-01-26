@@ -4,7 +4,7 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e9799941256524ef148513fb16835a031b241e44
+source-git-commit: 9b941deb424d92744bea99f6ea01f6434d6bc19f
 workflow-type: tm+mt
 source-wordcount: '20935'
 ht-degree: 97%
@@ -1123,3 +1123,5 @@ Las plantillas disponibles son las siguientes:
 >id="template--mixModelerReport"
 >title="Vea información de modelos seleccionados generados por Mix Modeler."
 >abstract="**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Mix Modeler. <br/>**Según estas perspectivas**, usted podrá:<ul><li>Visualice y cuantifique el impacto de las actividades de marketing de su organización.</li><li>Identifique qué canales tienen un alto rendimiento.</li><li>Identifique qué canales pueden necesitar optimización.</li></ul>"
+
+
