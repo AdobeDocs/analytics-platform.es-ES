@@ -4,9 +4,9 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3f369122863df4f3fc339730ced8c193360d07c6
+source-git-commit: e9799941256524ef148513fb16835a031b241e44
 workflow-type: tm+mt
-source-wordcount: '20877'
+source-wordcount: '20935'
 ht-degree: 97%
 
 ---
@@ -1113,3 +1113,13 @@ Las plantillas disponibles son las siguientes:
 | [!UICONTROL **Información general sobre la participación de la cuenta B2B**] | Vea la actividad de sus cuentas en todos los eventos, personas y oportunidades.<p>**Esto puede ayudarle** a comprender mejor si la participación a nivel de cuenta tiene tendencia a subir o bajar, comparar la actividad en todas las cuentas y decidir dónde enfocar los esfuerzos de retención o adquisición.</p><p>**En función de lo que aprenda, puede** hacer muchas cosas, como volver a centrarse en las cuentas que corren menos riesgos, pero que requieren más atención debido a su importancia.</p> |
 | [!UICONTROL **Información general sobre la participación de oportunidad B2B**] | Rastree la participación en la oportunidad y descubra las ofertas que ganen o pierdan impulso.<p>**Esto puede ayudarle** a pronosticar la progresión de la oferta con mayor precisión y a concentrar la habilitación allí donde la participación se intensifique o se estanque.</p><p>**En función de lo que aprenda, puede** hacer muchas cosas, como dirigir algunos esfuerzos adicionales en ofertas que están casi cerradas e investigar por qué otras ofertas están perdiendo impulso.</p> |
 | [!UICONTROL **Actividad de los grupos de compra B2B**] | Visualice la actividad del grupo de compra en cada cuenta para informar de tácticas de marketing de los grupos de compra y la cuenta.<p>**Esto puede ayudarle** a visualizar qué grupos de compra y personas dentro de esos grupos están más involucrados, lo que pondrá de relieve las brechas de participación del grupo.</p><p>**En función de lo que aprenda, puede** hacer muchas cosas, como intentar relacionarse más con personas de los grupos de compra que no parecen estar involucrados.</p> |
+
+
+### Mix Modeler templates {#mix-modeler-templates}
+
+<!-- CJA only -->
+
+>[!CONTEXTUALHELP]
+>id="template--mixModelerReport"
+>title="Vea información de modelos seleccionados generados por Mix Modeler."
+>abstract="**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Mix Modeler. <br/>**Según estas perspectivas**, usted podrá:<ul><li>Visualice y cuantifique el impacto de las actividades de marketing de su organización.</li><li>Identifique qué canales tienen un alto rendimiento.</li><li>Identifique qué canales pueden necesitar optimización.</li></ul>"
