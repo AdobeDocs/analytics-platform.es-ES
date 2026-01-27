@@ -4,9 +4,7 @@ description: Obtenga información sobre cómo administrar las configuraciones de
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
+source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%

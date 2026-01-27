@@ -4,9 +4,7 @@ description: Obtenga información acerca del análisis de audiencias de RTCDP en
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 0719a981cd9d2e1480f744494c9a68fdd66c1beb
+source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 3%
@@ -14,8 +12,6 @@ ht-degree: 3%
 ---
 
 # Resumen de análisis de audiencia
-
-<!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md and this article: /help/analysis-workspace/templates/use-templates.md-->
 
 >[!NOTE]
 >
