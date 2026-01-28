@@ -4,10 +4,10 @@ title: Filtrar Y Ordenar
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
+source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 45%
+source-wordcount: '1575'
+ht-degree: 46%
 
 ---
 
@@ -17,7 +17,7 @@ Las tablas de forma libre en Analysis Workspace son la base del análisis intera
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/327344?captions=spa)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## Filtrado de tablas
 
@@ -188,7 +188,7 @@ El icono de ordenación permanece visible cuando se aplica la ordenación a una 
 
 #### Prioridad de ordenación
 
-Al ordenar los datos de varias columnas, los datos se ordenan según la prioridad asignada a cada columna. La numeración de prioridades se muestra junto al icono de ordenación ![icono de prioridad de ordenación](assets/sort-priority-icon.png).
+Al ordenar los datos de varias columnas, los datos se ordenan según la prioridad asignada a cada columna. La numeración de prioridades se muestra junto al icono de ordenación ![SortOrderDown](/help/assets/icons/SortOrderDown.svg)<sup>➊</sup>.
 
 La columna con prioridad principal decide el orden principal; la columna con prioridad secundaria decide el orden cuando las filas tienen el mismo valor en la columna principal; la columna con prioridad terciaria decide el orden cuando las filas tienen el mismo valor en las columnas principal y secundaria; y así sucesivamente.
 
