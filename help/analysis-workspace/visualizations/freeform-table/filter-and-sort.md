@@ -4,10 +4,10 @@ title: Filtrar Y Ordenar
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 65%
+source-wordcount: '1577'
+ht-degree: 45%
 
 ---
 
@@ -17,7 +17,7 @@ Las tablas de forma libre en Analysis Workspace son la base del análisis intera
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
->[!VIDEO](https://video.tv.adobe.com/v/327344?captions=spa)-->
+>[!VIDEO](https://video.tv.adobe.com/v/23968)-->
 
 ## Filtrado de tablas
 
@@ -132,6 +132,82 @@ Consulte [Resumen de segmentación](/help/components/segments/seg-overview.md) p
 
 ## Orden de tablas
 
-Puede ordenar los datos de una tabla de forma libre según cualquier columna de Analysis Workspace que sea una dimensión o una métrica. Una flecha indica cómo se ordenan los datos (**↓** para descendente o **↑** para ascendente).
+En Analysis Workspace, puede ordenar los datos de una tabla de forma libre por cualquier columna, ya sean dimensiones o métricas. Incluso puede ordenar por varias columnas al mismo tiempo.
 
-![Clasificación](assets/sorting.gif)
+De forma predeterminada, las dimensiones se ordenan en orden ascendente, mientras que las métricas se ordenan en orden descendente.
+
+### Ordenar tablas por una sola columna
+
+Al ordenar los datos de una sola columna como se describe en esta sección, se quitará cualquier [ordenación avanzada](#sort-tables-by-multiple-columns-advanced-sorting) que se haya aplicado a la tabla.
+
+Para ordenar los datos de las tablas por una sola columna:
+
+1. Pase el cursor sobre el encabezado de la columna que quiera ordenar y, a continuación, seleccione el icono **Ordenar** ![Ordenar](/help/assets/icons/SortOrderDown.svg) cuando aparezca.
+
+   ![Menú desplegable Ordenar](assets/sort-dropdown-menu.png)
+
+1. Seleccione **[!UICONTROL Ascendente]** o **[!UICONTROL Descendente]**.
+
+   El icono de ordenación permanece visible cuando se aplica la ordenación a la columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
+
+### Ordenar tablas por varias columnas (ordenación avanzada)
+
+{{release-limited-testing-section}}
+
+#### Aplicar la ordenación a varias columnas
+
+Para ordenar los datos de las tablas por varias columnas:
+
+1. Pase el cursor sobre el encabezado de cualquier columna que desee ordenar y, a continuación, seleccione el icono **Ordenar** ![Ordenar](/help/assets/icons/SortOrderDown.svg) cuando aparezca.
+
+   ![Menú desplegable Ordenar](assets/sort-dropdown-menu.png)
+
+1. Seleccione **[!UICONTROL Clasificación avanzada]**.
+
+   ![Cuadro de diálogo de ordenación avanzada](assets/sort-advanced-dialog.png)
+
+1. En el cuadro de diálogo Ordenación avanzada, realice una de las siguientes acciones:
+
+   * Agregue columnas que aún no se estén ordenando seleccionando el botón **[!UICONTROL Agregar columna de ordenación]**.
+
+   * Elimine las columnas que ya no desee ordenar seleccionando el icono **Quitar** ![Quitar](/help/assets/icons/Close.svg).
+
+   * Arrastre las columnas hacia arriba o hacia abajo en la lista para ajustar la prioridad de ordenación.
+
+     Para obtener más información, consulte [Ordenar prioridad](#sort-priority).
+
+   * Cambie el valor de ordenación seleccionando **[!UICONTROL Ascendente]** o **[!UICONTROL Descendente]** en el menú desplegable.
+
+   * Seleccione una columna diferente seleccionando el menú desplegable de nombre de columna.
+
+1. Seleccione **[!UICONTROL Aplicar]**.
+
+El icono de ordenación permanece visible cuando se aplica la ordenación a una columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
+
+![ejemplo de ordenación múltiple](assets/dimensions-multiple-sort.png)
+
+#### Prioridad de ordenación
+
+Al ordenar los datos de varias columnas, los datos se ordenan según la prioridad asignada a cada columna. La numeración de prioridades se muestra junto al icono de ordenación ![icono de prioridad de ordenación](assets/sort-priority-icon.png).
+
+La columna con prioridad principal decide el orden principal; la columna con prioridad secundaria decide el orden cuando las filas tienen el mismo valor en la columna principal; la columna con prioridad terciaria decide el orden cuando las filas tienen el mismo valor en las columnas principal y secundaria; y así sucesivamente.
+
+Por ejemplo, considere una tabla con las siguientes columnas:
+
+* Día del mes (dimensión)
+
+* Hora del día (dimensión)
+
+* Eventos (métrica)
+
+Puede asignar una prioridad de ordenación a cada columna de la siguiente manera:
+
+| Nombre de la columna (componente) | Tipo de componente | Prioridad de ordenación |
+|---------|----------|---------|
+| Día del mes | Dimensión | 1 |
+| Hora del día | Dimensión | 2 |
+| Eventos | Métrica | 3 |
+
+Al asignar una prioridad de ordenación a cada columna, puede controlar exactamente cómo se muestran los datos en la tabla. En este ejemplo, la información se ordena primero por Día del mes, después por Hora del día y, por último, por Eventos.
+
+![ejemplo de ordenación múltiple](assets/dimensions-multiple-sort.png)

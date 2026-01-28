@@ -3,12 +3,10 @@ title: Incluir varias dimensiones en una tabla de forma libre
 description: Aprenda a incluir varias dimensiones en una tabla de forma libre
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: 77acfaf2d186e7fe7d6b9d973af5dedb3956f5d5
+source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 2%
+source-wordcount: '829'
+ht-degree: 1%
 
 ---
 
@@ -59,95 +57,11 @@ Puede agregar varias columnas de dimensión de una en una o de forma masiva.
 
 1. Ver cada fila de la tabla como un solo elemento de dimensión. Para obtener más información, consulte [Elementos de dimensión concatenados](#concatenated-dimension-items).
 
-## Filtrado de tablas
+## Filtrado y ordenación de tablas
 
-Puede aplicar filtros a una o varias columnas de dimensión de una tabla de forma libre.
+Puede aplicar el filtrado y la ordenación a las columnas de una tabla de forma libre. Puede ordenar los datos de una tabla de forma libre por cualquier columna, ya sean dimensiones o métricas. Incluso puede ordenar por varias columnas al mismo tiempo.
 
-Para obtener información sobre el filtrado de tablas, consulte [Filtrar tablas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables) en [Filtrar y ordenar tablas improvisadas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
-
-## Orden de tablas {#sort-tables}
-
-<!--At GA, move this section into the "Filter and sort tables" article and replace the current "Sort tables" section. Change the "Filter tables" section above to "Filter and sort tables" and link to the other article. Also add row to Guardrails -->
-
-Puede ordenar los datos de una tabla de forma libre por cualquier columna de Analysis Workspace, ya sean dimensiones o métricas.
-
-De forma predeterminada, las dimensiones se ordenan en orden ascendente, mientras que las métricas se ordenan en orden descendente.
-
-### Ordenar tablas por una sola columna
-
-Al ordenar los datos de una sola columna como se describe en esta sección, se quitará cualquier [ordenación avanzada](#sort-tables-by-multiple-columns-advanced-sorting) que se haya aplicado a la tabla.
-
-Para ordenar los datos de las tablas por una sola columna:
-
-1. Pase el cursor sobre el encabezado de la columna que quiera ordenar y, a continuación, seleccione el icono **Ordenar** ![Ordenar](/help/assets/icons/SortOrderDown.svg) cuando aparezca.
-
-   ![Menú desplegable Ordenar](assets/sort-dropdown-menu.png)
-
-1. Seleccione **[!UICONTROL Ascendente]** o **[!UICONTROL Descendente]**.
-
-   El icono de ordenación permanece visible cuando se aplica la ordenación a la columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
-
-### Ordenar tablas por varias columnas (ordenación avanzada)
-
-<!-- add this back in when move this section back to the filter and sort article: {{release-limited-testing-section}} -->
-
-#### Aplicar la ordenación a varias columnas
-
-Para ordenar los datos de las tablas por varias columnas:
-
-1. Pase el cursor sobre el encabezado de cualquier columna que desee ordenar y, a continuación, seleccione el icono **Ordenar** ![Ordenar](/help/assets/icons/SortOrderDown.svg) cuando aparezca.
-
-   ![Menú desplegable Ordenar](assets/sort-dropdown-menu.png)
-
-1. Seleccione **[!UICONTROL Clasificación avanzada]**.
-
-   ![Cuadro de diálogo de ordenación avanzada](assets/sort-advanced-dialog.png)
-
-1. En el cuadro de diálogo Ordenación avanzada, realice una de las siguientes acciones:
-
-   * Agregue columnas que aún no se estén ordenando seleccionando el botón **[!UICONTROL Agregar columna de ordenación]**.
-
-   * Elimine las columnas que ya no desee ordenar seleccionando el icono **Quitar** ![Quitar](/help/assets/icons/Close.svg).
-
-   * Arrastre las columnas hacia arriba o hacia abajo en la lista para ajustar la prioridad de ordenación.
-
-     Para obtener más información, consulte [Ordenar prioridad](#sort-priority).
-
-   * Cambie el valor de ordenación seleccionando **[!UICONTROL Ascendente]** o **[!UICONTROL Descendente]** en el menú desplegable.
-
-   * Seleccione una columna diferente seleccionando el menú desplegable de nombre de columna.
-
-1. Seleccione **[!UICONTROL Aplicar]**.
-
-El icono de ordenación permanece visible cuando se aplica la ordenación a una columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
-
-![ejemplo de ordenación múltiple](assets/dimensions-multiple-sort.png)
-
-#### Prioridad de ordenación
-
-Al ordenar los datos de varias columnas, los datos se ordenan según la prioridad asignada a cada columna. La numeración de prioridades se muestra junto al icono de ordenación ![icono de prioridad de ordenación](assets/sort-priority-icon.png).
-
-La columna con prioridad principal decide el orden principal; la columna con prioridad secundaria decide el orden cuando las filas tienen el mismo valor en la columna principal; la columna con prioridad terciaria decide el orden cuando las filas tienen el mismo valor en las columnas principal y secundaria; y así sucesivamente.
-
-Por ejemplo, considere una tabla con las siguientes columnas:
-
-* Día del mes (dimensión)
-
-* Hora del día (dimensión)
-
-* Eventos (métrica)
-
-Puede asignar una prioridad de ordenación a cada columna de la siguiente manera:
-
-| Nombre de la columna (componente) | Tipo de componente | Prioridad de ordenación |
-|---------|----------|---------|
-| Día del mes | Dimensión | 1 |
-| Hora del día | Dimensión | 2 |
-| Eventos | Métrica | 3 |
-
-Al asignar una prioridad de ordenación a cada columna, puede controlar exactamente cómo se muestran los datos en la tabla. En este ejemplo, la información se ordena primero por Día del mes, después por Hora del día y, por último, por Eventos.
-
-![ejemplo de ordenación múltiple](assets/dimensions-multiple-sort.png)
+Para obtener más información, consulte [Filtrar y ordenar tablas improvisadas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ## Varias columnas y desgloses de dimensión
 
