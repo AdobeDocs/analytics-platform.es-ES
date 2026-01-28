@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+source-git-commit: 99b434e62d859c96bfda53731f3f8a0750850501
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,12 @@ Aunque estos métodos de análisis se pueden utilizar tanto para la vinculación
 >
 >La vinculación (validación) de uno o más conjuntos de datos contribuye en última instancia a un mejor análisis y perspectivas. Sin embargo, este artículo no analiza el valor general de una configuración de Customer Journey Analytics que tiene todos los conjuntos de datos de Experience Platform alineados con el mismo área de nombres de identidad. Y que todos estos conjuntos de datos están muy bien unidos para realizar análisis en todo un recorrido de clientes.
 
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Habilitación y validación de vinculación](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 ## Requisitos previos de vista de datos
 
