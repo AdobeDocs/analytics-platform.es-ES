@@ -33,7 +33,7 @@ Aunque estos métodos de análisis se pueden utilizar tanto para la vinculación
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Habilitación y validación de vinculación](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Habilitación y validación de vinculación](https://video.tv.adobe.com/v/3478123?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
