@@ -110,22 +110,22 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_ajo"
 >title="Usar esta conexión en Customer Journey Analytics"
->abstract="Esta opción le permite aprovechar las funciones avanzadas de creación de informes de Customer Journey Analytics con su conexión de Journey Optimizer. Estas funciones le permiten:<ul><li>Realizar un análisis en profundidad de los datos de Journey Optimizer en Customer Journey Analytics.</li><li>Edite la conexión de Journey Optimizer y las vistas de datos asociadas.</li><li>Analice los eventos de recorrido, las rutas de conversación y el rendimiento de la campaña.</li></ul>**Cuando esta opción está habilitada, cada fila de datos de la conexión se contabiliza en las filas de datos de la licencia cada mes para Customer Journey Analytics y aparece en la interfaz de usuario de uso de conexiones.**<br><br/> Explore esta opción solo si se siente cómodo con el uso adicional de filas de datos en Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo)."
+>abstract="Esta opción le permite aprovechar las funciones avanzadas de creación de informes de Customer Journey Analytics con su conexión de Journey Optimizer. Estas funciones le permiten:<ul><li>Realizar un análisis en profundidad de los datos de Journey Optimizer en Customer Journey Analytics.</li><li>Edite la conexión de Journey Optimizer y las vistas de datos asociadas.</li><li>Analice los eventos de recorrido, las rutas de conversación y el rendimiento de la campaña.</li></ul>**Cuando esta opción está habilitada, cada fila de datos de la conexión se contabiliza en las filas de datos de la licencia cada mes para Customer Journey Analytics y aparece en la interfaz de usuario de uso de conexiones.**<br><br/> Explore esta opción solo si se siente cómodo con el uso adicional de filas de datos en Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/integrations/ajo)."
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_ajo"
 >title="Quitar esta conexión de Customer Journey Analytics"
->abstract="Actualmente, esta conexión de Journey Optimizer se utiliza en Customer Recorrido Analytics. Las conexiones le permiten lo siguiente:<ul><li>Realizar un análisis en profundidad de los datos de Journey Optimizer en Customer Journey Analytics.</li><li>Edite la conexión de Journey Optimizer y las vistas de datos asociadas.</li><li>Analice los eventos de recorrido, las rutas de conversación y el rendimiento de la campaña.</li></ul>**Si elimina la conexión, ya no será posible realizar un análisis detallado en Customer Journey Analytics. La conexión y las vistas de datos asociadas se restablecen a su estado predeterminado y ya no se pueden editar.**<br/><br/>**La facturación de esta conexión en Customer Journey Analytics incluye el mes completo durante el cual se elimina la conexión.**<br/><br/> La conexión permanece habilitada en Journey Optimizer. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo)."
+>abstract="Actualmente, esta conexión de Journey Optimizer se utiliza en Customer Recorrido Analytics. Las conexiones le permiten lo siguiente:<ul><li>Realizar un análisis en profundidad de los datos de Journey Optimizer en Customer Journey Analytics.</li><li>Edite la conexión de Journey Optimizer y las vistas de datos asociadas.</li><li>Analice los eventos de recorrido, las rutas de conversación y el rendimiento de la campaña.</li></ul>**Si elimina la conexión, ya no será posible realizar un análisis detallado en Customer Journey Analytics. La conexión y las vistas de datos asociadas se restablecen a su estado predeterminado y ya no se pueden editar.**<br/><br/>**La facturación de esta conexión en Customer Journey Analytics incluye el mes completo durante el cual se elimina la conexión.**<br/><br/> La conexión permanece habilitada en Journey Optimizer. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/integrations/ajo)."
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_brand_concierge"
 >title="Usar esta conexión en Customer Journey Analytics"
->abstract="Esta opción le permite aprovechar las funcionalidades avanzadas de creación de informes de Customer Journey Analytics con su conexión de Brand Concierge. Estas capacidades le permiten:<ul><li>Realizar un análisis en profundidad de los datos de Brand Concierge en Customer Journey Analytics.</li><li>Edite la conexión de Brand Concierge y las vistas de datos asociadas.</li><li>Analice las métricas de participación, opinión y conversión conversacionales.</li></ul>**Cuando esta opción está habilitada, cada fila de datos de la conexión se contabiliza en las filas de datos de la licencia cada mes para Customer Journey Analytics y aparece en la interfaz de usuario de uso de conexiones.**<br><br/> Explore esta opción solo si se siente cómodo con el uso adicional de filas de datos en Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates)."
+>abstract="Esta opción le permite aprovechar las funcionalidades avanzadas de creación de informes de Customer Journey Analytics con su conexión de Brand Concierge. Estas capacidades le permiten:<ul><li>Realizar un análisis en profundidad de los datos de Brand Concierge en Customer Journey Analytics.</li><li>Edite la conexión de Brand Concierge y las vistas de datos asociadas.</li><li>Analice las métricas de participación, opinión y conversión conversacionales.</li></ul>**Cuando esta opción está habilitada, cada fila de datos de la conexión se contabiliza en las filas de datos de la licencia cada mes para Customer Journey Analytics y aparece en la interfaz de usuario de uso de conexiones.**<br><br/> Explore esta opción solo si se siente cómodo con el uso adicional de filas de datos en Customer Journey Analytics. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates)."
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_brand_concierge"
 >title="Quitar esta conexión de Customer Journey Analytics"
->abstract="Actualmente, esta conexión de Brand Concierge se utiliza en Customer Recorrido Analytics. Las conexiones le permiten lo siguiente:<ul><li>Realizar un análisis en profundidad de los datos de Brand Concierge en Customer Journey Analytics.</li><li>Edite la conexión de Brand Concierge y las vistas de datos asociadas.</li><li>Analice las métricas de participación, opinión y conversión conversacionales.</li></ul>**Si elimina la conexión, ya no será posible realizar un análisis detallado en Customer Journey Analytics. La conexión y las vistas de datos asociadas se restablecen a su estado predeterminado y ya no se pueden editar.**<br/><br/>**La facturación de esta conexión en Customer Journey Analytics incluye el mes completo durante el cual se elimina la conexión.**<br/><br/> La conexión permanece habilitada en Brand Concierge. [Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates)."
+>abstract="Actualmente, esta conexión de Brand Concierge se utiliza en Customer Recorrido Analytics. Las conexiones le permiten lo siguiente:<ul><li>Realizar un análisis en profundidad de los datos de Brand Concierge en Customer Journey Analytics.</li><li>Edite la conexión de Brand Concierge y las vistas de datos asociadas.</li><li>Analice las métricas de participación, opinión y conversión conversacionales.</li></ul>**Si elimina la conexión, ya no será posible realizar un análisis detallado en Customer Journey Analytics. La conexión y las vistas de datos asociadas se restablecen a su estado predeterminado y ya no se pueden editar.**<br/><br/>**La facturación de esta conexión en Customer Journey Analytics incluye el mes completo durante el cual se elimina la conexión.**<br/><br/> La conexión permanece habilitada en Brand Concierge. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates)."
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_product_usage"
@@ -151,7 +151,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_brand_concierge_learn_more"
 >title="Más información"
->abstract="[Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates)."
+>abstract="[Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates)."
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_product_usage_learn_more"
@@ -441,37 +441,37 @@ Usted [agrega uno o más conjuntos de datos](#add-datasets) o [edita conjuntos d
 >id="connection_stitching_enable"
 >title="Habilitación de la vinculación de identidad"
 >abstract="Habilite la vinculación de identidad para elevar este conjunto de datos de evento para el análisis en canales múltiples."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_dialog"
 >title="Habilitación de la vinculación de identidad"
 >abstract="La habilitación de la vinculación de identidad deriva un ID vinculado de un único conjunto de datos o de varios. Este proceso puede incluir la combinación de datos de usuario de sesiones autenticadas y no autenticadas.<br/><br/>Usted es responsable de cumplir con las leyes y regulaciones aplicables. Esta conformidad incluye que obtenga los permisos de usuario final necesarios antes de combinar conjuntos de datos."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_persistentid"
 >title="ID persistente"
 >abstract="Seleccione un ID persistente entre las identidades disponibles. Un ID persistente es un identificador disponible en todos los eventos del conjunto de datos del evento."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_lookbackwindow"
 >title="Período de retroactividad"
 >abstract="Seleccione el período de tiempo adecuado para que la ventana retroactiva se utilice en la reproducción de la vinculación."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_map"
 >title="Mapa de identidad del espacio de nombres"
 >abstract="Seleccione el espacio de nombres a utilizar para elegir el identificador del mapa de identidad."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_graph"
 >title="Gráfico de identidad del espacio de nombres"
 >abstract="Seleccione el espacio de nombres a utilizar para actualizar el identificador en el gráfico de identidad."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview" text="Información general de vinculación"
 
 >[!CONTEXTUALHELP]
 >id="connection_changeto_identitygraph"
@@ -499,7 +499,7 @@ Alternativamente, los tipos de conjuntos de datos enumerados arriba pueden basar
 
 | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de la persona |
 |---|---|---|---|---|
-| **[!UICONTROL Ad hoc]** | Datos ad hoc basados en un [esquema ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc) con campos con espacio de nombres para que los use un solo conjunto de datos. | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. | Cualquier esquema ad hoc basado en una clase basada en el comportamiento *ad hoc* | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. |
+| **[!UICONTROL Ad hoc]** | Datos ad hoc basados en un [esquema ad hoc](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/api/ad-hoc) con campos con espacio de nombres para que los use un solo conjunto de datos. | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. | Cualquier esquema ad hoc basado en una clase basada en el comportamiento *ad hoc* | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. |
 | **[!UICONTROL Modelo]** | Datos relacionales basados en un esquema relacional. | Depende del tipo de conjunto de datos que seleccione para el conjunto de datos relacional. | Cualquier esquema relacional. | Depende del tipo de conjunto de datos que seleccione para el conjunto de datos relacional. |
 
 
@@ -838,5 +838,5 @@ Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
 >[!MORELIKETHIS]
 >
 >* [Resumen de ingesta de datos](/help/data-ingestion/data-ingestion.md)
->* Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
+>* Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=es)
 
