@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
+source-git-commit: a8c158e66b66f2110df12fac794b2223f1922b1f
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 99%
+source-wordcount: '1363'
+ht-degree: 96%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 99%
       + [Configuración de la exclusión](../tools/product-usage/opt-out-settings.md)
 
 + Proyectos de Workspace {#cja-workspace}
-   + [Información general sobre Analysis Workspace](../analysis-workspace/home.md)
+   + [Información general de Analysis Workspace](../analysis-workspace/home.md)
    + [Realizar análisis básico](../analysis-workspace/perform-basic-analysis.md)
    + [Realizar análisis avanzado](../analysis-workspace/perform-adv-analysis.md)
    + Proyectos {#build-workspace-project}
@@ -401,7 +401,7 @@ ht-degree: 99%
       + [Creación de alertas](/help/components/c-intelligent-alerts/alert-builder.md)
       + [Administración de alertas](/help/components/c-intelligent-alerts/alert-manager.md)
       + [Comparación de características](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
-      + [Casos prácticos](/help/components/c-intelligent-alerts/alerts-use-cases.md)
+      + [Casos de uso](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + Exportaciones {#exports}
       + [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md)
       + [Configuración de ubicaciones de exportación en la nube](/help/components/exports/cloud-export-locations.md)
@@ -463,7 +463,7 @@ ht-degree: 99%
    + [Registro de auditoría](../privacy/audit-log.md)
    + [Claves gestionadas por el cliente](../privacy/cmk.md)
 
-+ Casos prácticos {#cja-usecases}
++ Casos de uso {#cja-usecases}
    + [Casos de uso de Customer Journey Analytics](../use-cases/cja-usecases.md)
    + Datos de Adobe Analytics {#aa-data}
       + [Uso de dimensiones del canal de marketing](../use-cases/aa-data/marketing-channels.md)
@@ -494,7 +494,24 @@ ht-degree: 99%
       + [Casos de uso de vistas de datos](/help/use-cases/data-views/data-views-usecases.md)
       + [Uso de dimensiones y métricas de enlace](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [Uso de datos de resumen](/help/use-cases/data-views/summary-data.md)
-      + [Casos de uso de extensión de BI](/help/use-cases/data-views/bi-extension-usecases.md)
+      + Extensión de BI {#bi-extension}
+         + [Casos de uso](/help/use-cases/data-views/bi-extension-usecases.md)
+         + [Conexión y lista de vistas de datos](/help/use-cases/data-views/bi-extension/connect-and-validate.md)
+         + [Tendencia diaria](/help/use-cases/data-views/bi-extension/daily-trend.md)
+         + [Tendencia horaria](/help/use-cases/data-views/bi-extension/hourly-trend.md)
+         + [Tendencia mensual](/help/use-cases/data-views/bi-extension/monthly-trend.md)
+         + [Dimensión única clasificada](/help/use-cases/data-views/bi-extension/single-dimension-ranked.md)
+         + [Clasificación de varias dimensiones](/help/use-cases/data-views/bi-extension/multiple-dimension-ranked.md)
+         + [Contar valores de dimensión distintos](/help/use-cases/data-views/bi-extension/count-distinct-dimension-values.md)
+         + [Usar nombres de intervalo de fechas para filtrar](/help/use-cases/data-views/bi-extension/use-date-range-names-to-filter.md)
+         + [Usar nombres de segmento para segmentar](/help/use-cases/data-views/bi-extension/use-segment-names-to-segment.md)
+         + [Uso de valores de dimensión para segmentar](/help/use-cases/data-views/bi-extension/use-dimension-values-to-segment.md)
+         + [Ordenar](/help/use-cases/data-views/bi-extension/sort.md)
+         + [Límites](/help/use-cases/data-views/bi-extension/limits.md)
+         + [Transformaciones](/help/use-cases/data-views/bi-extension/transformations.md)
+         + [Visualizaciones](/help/use-cases/data-views/bi-extension/visualizations.md)
+         + [Advertencias](/help/use-cases/data-views/bi-extension/caveats.md)
+
    + Campos derivados {#derived-fields}
       + [Informe sobre el tráfico generado por LLM e IA](/help/use-cases/ai-traffic.md)
       + [Informe sobre metas](../use-cases/goals-using-derived-fields.md)
