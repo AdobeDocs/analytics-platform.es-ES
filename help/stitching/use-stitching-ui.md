@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 3479227eb703583255d40de3d07d071ad2f89950
+source-git-commit: 32997d0fd9801099a75287f63197d3b4c2ba81ef
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 3%
+source-wordcount: '938'
+ht-degree: 2%
 
 ---
 
@@ -136,7 +136,13 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento d
 
 1. Seleccione una ventana retrospectiva en el menú desplegable **[!UICONTROL Ventana retrospectiva]**. Las opciones disponibles dependen del paquete de Customer Journey Analytics al que esté autorizado.
 
-Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos habilitados para la vinculación se inicia cuando se inicia la ingesta de datos para estos conjuntos de datos
+Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos habilitados para la vinculación se inicia cuando se inicia la ingesta de datos para estos conjuntos de datos.
+
+>[!CAUTION]
+>
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>
+
 
 ## Limitaciones
 
