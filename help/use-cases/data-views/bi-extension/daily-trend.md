@@ -152,7 +152,7 @@ Debería ver una visualización y una tabla similares a las que se muestran a co
 
 >[!TAB EstudioRS]
 
-1. Escriba las siguientes instrucciones entre ` ```{r} ` y ` ``` ` en un nuevo fragmento.
+1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento.
 
    ```R
    ## Daily Events

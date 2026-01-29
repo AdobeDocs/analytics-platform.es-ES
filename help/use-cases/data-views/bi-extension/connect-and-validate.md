@@ -341,7 +341,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 
 1. Inicie RStudio.
 1. Cree un nuevo archivo R Markdown o descargue [este archivo R markdown de ejemplo](../assets/BI-Extension.Rmd.zip).
-1. En su primer fragmento, escriba las siguientes instrucciones entre ` ```{r} ` y ` ``` `. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar valores del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en los valores necesarios para los distintos parámetros, como `host`, `dbname` y `user`. Por ejemplo:
+1. En su primer fragmento, escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` `. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar valores del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en los valores necesarios para los distintos parámetros, como `host`, `dbname` y `user`. Por ejemplo:
 
    ```R
    library(rstudioapi)
@@ -362,7 +362,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 
    ![Paso de configuración de RStudio 1](../assets/rstudio-config-step1.png)
 
-1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ``` {r} ` y ` ``` `.
+1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ` `` {r} ` y ` `` ` `.
 
    ```R
    con <- dbConnect(
@@ -379,7 +379,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 1. Ejecuta el fragmento. No debería ver ninguna salida si la conexión se ha realizado correctamente.
 
 
-1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ``` {r} ` y ` ``` `.
+1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ` `` {r} ` y ` `` ` `.
 
    ```R
    views <- dbListTables(con)
@@ -389,7 +389,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 1. Ejecuta el fragmento. Debería ver `character(0)` como el único resultado.
 
 
-1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ``` {r} ` y ` ``` `.
+1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ` `` {r} ` y ` `` ` `.
 
    ```R
    glimpse(dv)

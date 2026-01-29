@@ -49,7 +49,7 @@ Un ejemplo del panel **[!UICONTROL Múltiples clasificaciones de Dimension]** pa
    1. Seleccionar **[!UICONTROL compras de suma]**
 
 1. Para modificar el gráfico de barras verticales en una tabla, asegúrese de que ha seleccionado la tabla y seleccione **[!UICONTROL Matriz]** en el panel **[!UICONTROL Visualizaciones]**.
-   * Arrastre **[!UICONTROL product_name]** de **[!UICONTROL Columns]** y suelte el campo debajo de **[!UICONTROL product_category]**y en **[!UICONTROL Rows]** en el panel **[!UICONTROL Visualización]**.
+   * Arrastre **[!UICONTROL product_name]** de **[!UICONTROL Columns]** y suelte el campo debajo de **[!UICONTROL product_category]**&#x200B;y en **[!UICONTROL Rows]** en el panel **[!UICONTROL Visualización]**.
 
 1. Para limitar el número de productos mostrados en la tabla, seleccione **[!UICONTROL product_name is (All)]** en el panel **[!UICONTROL Filtros]**.
 
@@ -244,7 +244,7 @@ Debería ver una visualización y una tabla similares a las que se muestran a co
 
 >[!TAB EstudioRS]
 
-1. Escriba las siguientes instrucciones entre ` ```{r} ` y ` ``` ` en un nuevo fragmento.
+1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento.
 
    ```R
    ## Multiple dimensions ranked

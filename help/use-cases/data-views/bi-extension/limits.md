@@ -260,7 +260,7 @@ La consulta la ejecuta la extensión de BI tal como se define en Jupyter Noteboo
 
 >[!TAB EstudioRS]
 
-1. Escriba las siguientes instrucciones entre ` ```{r} ` y ` ``` ` en un nuevo fragmento.
+1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento.
 
    ```R
    ## Dimension 1 Limited

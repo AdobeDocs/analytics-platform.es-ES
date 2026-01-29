@@ -154,7 +154,7 @@ Verá una visualización que muestra **[!UICONTROL Error al obtener los datos de
 
 >[!TAB EstudioRS]
 
-1. Escriba las siguientes instrucciones entre ` ```{r} ` y ` ``` ` en un nuevo fragmento. Asegúrese de utilizar una categoría adecuada. Por ejemplo, `Hunting`.
+1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento. Asegúrese de utilizar una categoría adecuada. Por ejemplo, `Hunting`.
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value
