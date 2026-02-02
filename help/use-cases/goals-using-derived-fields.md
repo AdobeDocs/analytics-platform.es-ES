@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 39d3a233166e2ce2035df2ce821dd16181e5e13e
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 En este caso de uso se describe cómo utilizar la potencia de los campos derivados para establecer objetivos para una dimensión específica y, a continuación, utilizarlos en el proyecto de Workspace.
 
-Si no está familiarizado con los campos derivados, consulte el [tutorial](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html?lang=es) y la [documentación](../data-views/derived-fields/derived-fields.md) para obtener una introducción.
+Si no está familiarizado con los campos derivados, consulte el [tutorial](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields/derived-fields-in-cja) y la [documentación](../data-views/derived-fields/derived-fields.md) para obtener una introducción.
 
 
 ## Definir metas
@@ -67,7 +67,9 @@ Para utilizar objetivos en el proyecto de Workspace, utilice la funcionalidad de
 
 Puede utilizar estas métricas calculadas para informar sobre el progreso en tablas improvisadas y visualizaciones. Por ejemplo:
 
-![Tabla de forma libre que muestra los objetivos de ingresos de marketing](assets/freeform-table-product-order-goals.png)
+![Tabla de forma libre que muestra los objetivos de ingresos de marketing](assets/freeform-table-marketing-channel-revenue-goals.png)
+
+
 
 
 ### Objetivos de ingresos del canal de marketing
@@ -82,4 +84,4 @@ Puede utilizar estas métricas calculadas para informar sobre el progreso en tab
 
 Puede utilizar estas métricas calculadas para informar sobre el progreso en tablas improvisadas y visualizaciones. Por ejemplo:
 
-![Tabla de forma libre que muestra los objetivos de ingresos de marketing](assets/freeform-table-marketing-channel-revenue-goals.png)
+![Tabla de forma libre que muestra los objetivos de ingresos de marketing](assets/freeform-table-product-order-goals.png)
