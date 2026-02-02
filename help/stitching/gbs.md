@@ -1,35 +1,30 @@
 ---
 title: Vinculación basada en gráficos
-description: Explica el concepto y el trabajo de la vinculación basada en gráficos
+description: Explica el concepto y el trabajo de la vinculación basada en gráficos.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 90a285fcd96866974087c53d402e85b4a2d83ccf
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 5%
+source-wordcount: '1685'
+ht-degree: 4%
 
 ---
 
 # Vinculación basada en gráficos
 
-En la vinculación basada en gráficos, se especifica un conjunto de datos de evento, así como el ID persistente (cookie) y el área de nombres del ID de persona para ese conjunto de datos. La vinculación basada en gráficos agrega una nueva columna para el ID vinculado al conjunto de datos de evento. Y, a continuación, utiliza el ID persistente para consultar el gráfico de identidades desde el servicio de identidad de Experience Platform, utilizando el área de nombres especificada para actualizar el ID vinculado.
-
->[!NOTE]
->
->Debe asegurarse de que el conjunto de datos esté [habilitado para el servicio de identidad](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
->
+En la vinculación basada en gráficos, se especifica un conjunto de datos de evento. Y para ese conjunto de datos de evento, debe especificar el ID persistente (cookie) y el área de nombres de vinculación deseada del gráfico de identidad que contiene los valores de ID de persona. La vinculación basada en gráficos agrega una nueva columna para el ID vinculado al conjunto de datos de evento. El ID persistente se utiliza para consultar el gráfico de identidad desde el servicio de identidad de Experience Platform, utilizando el área de nombres de vinculación especificada para actualizar el ID vinculado.
 
 
 ![Vinculación basada en gráficos](/help/stitching/assets/gbs.png)
 
 ## IdentityMap
 
-La vinculación basada en gráficos admite el uso del grupo de campos [`identityMap` &#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
+La vinculación basada en gráficos admite el uso del grupo de campos [`identityMap` ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
 
 - Uso de la identidad principal en `identityMap` áreas de nombres para definir el persistentID:
-   - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexigráficamente y se selecciona la primera identidad.
+   - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexicográficamente y se selecciona la primera identidad.
    - Si se encuentran varias identidades principales en un solo área de nombres, se selecciona la primera identidad principal lexicográfica disponible.
 
   En el ejemplo siguiente, las áreas de nombres e identidades generan una lista de identidades principales ordenada y, finalmente, la identidad seleccionada.
@@ -98,7 +93,7 @@ La vinculación realiza un mínimo de dos pasadas de datos en un conjunto de dat
 
 - **Vinculación en tiempo real**: intenta vincular cada visita (evento) conforme se va produciendo, utilizando el ID persistente para buscar el ID de persona para el área de nombres seleccionada consultando el gráfico de identidad. Si el ID de persona está disponible desde la búsqueda, este ID de persona se vincula inmediatamente.
 
-- **Reproducir vinculación**: *reproduce* datos basados en identidades actualizadas del gráfico de identidades. En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan a medida que el gráfico de identidad ha resuelto la identidad de un área de nombres. La reproducción está determinada por dos parámetros: **frequency** y **lookback window**. Adobe ofrece las siguientes combinaciones de estos parámetros:
+- **Reproducir vinculación**: *reproduce* datos basados en identidades actualizadas del gráfico de identidades. En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan a medida que el gráfico de identidad ha resuelto la identidad de un área de nombres. Dos parámetros determinan la reproducción: **frequency** y **lookback window**. Adobe ofrece las siguientes combinaciones de estos parámetros:
    - **Retrospectiva diaria en una frecuencia diaria**: Los datos se reproducen todos los días con una ventana retrospectiva de 24 horas. Esta opción ofrece la ventaja de que las reproducciones son mucho más frecuentes, pero los perfiles no autenticados deben autenticarse el mismo día que visitan el sitio.
    - **Retrospectiva semanal de una frecuencia semanal**: los datos se reproducen una vez a la semana con una ventana retrospectiva semanal (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no enlazados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
    - **Retrospectiva quincenal con una frecuencia semanal**: Los datos se reproducen una vez por semana con una ventana retrospectiva quincenal (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no enlazados con menos de dos semanas de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
@@ -117,7 +112,7 @@ Considere las dos actualizaciones siguientes del gráfico de identidad a lo larg
 
 ![Gráfico de identidad 3579](assets/identity-graphs.svg)
 
-Puede ver un gráfico de identidad a lo largo del tiempo para un perfil específico mediante el [Visor de gráficos de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer). Consulte también [Lógica de vinculación del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-linking-logic) para comprender mejor la lógica utilizada al vincular identidades.
+Puede ver un gráfico de identidad a lo largo del tiempo para un perfil específico mediante el [Visor de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Consulte también [Lógica de vinculación del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) para comprender mejor la lógica utilizada al vincular identidades.
 
 ### Paso 1: Vinculación en tiempo real
 
@@ -206,8 +201,13 @@ La siguiente tabla representa los mismos datos que los que hemos visto anteriorm
 Los siguientes requisitos previos se aplican específicamente a la vinculación basada en gráficos:
 
 - El conjunto de datos de evento de Adobe Experience Platform al que desea aplicar la vinculación debe tener una columna que identifique un perfil en cada fila, la **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Experience Platform.
-- El identificador persistente también debe estar [definido como identidad](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/identity) en el esquema.
-- El gráfico de identidad del servicio de identidad de Experience Platform debe tener un área de nombres (por ejemplo `Email` o `Phone`) que desee usar durante la vinculación para resolver el **ID de persona**. Consulte [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home) para obtener más información.
+- El gráfico de identidad del servicio de identidad de Experience Platform debe configurarse en el nivel de zona protegida antes de habilitar la vinculación basada en gráficos.
+   - El gráfico de identidad debe tener un área de nombres (por ejemplo `Email` o `Phone`) que desee usar durante la vinculación para resolver el ID de persona.
+   - El gráfico de identidad debe rellenarse con información de identidades de cualquier conjunto de datos relevante (de tipo *event* o *profile* y que contenga al menos dos áreas de nombres útiles con valores de ID).
+   - Todos los conjuntos de datos que contienen estas identidades relevantes deben estar [habilitados para la ingesta de datos del gráfico de identidades](faq.md#enable-a-dataset-for-the-identity-service). Esta habilitación garantiza que las identidades entrantes se añadan al gráfico a lo largo del tiempo desde todas las fuentes necesarias.
+   - Si ya utiliza el Perfil de datos del cliente en tiempo real o Adobe Journey Optimizer durante un tiempo, el gráfico debería estar configurado hasta cierto punto.<br/>Si también se requiere relleno de vinculación histórica para el conjunto de datos habilitado con la vinculación basada en gráficos, el gráfico ya debe contener identidades históricas para todo el período a fin de obtener los resultados de vinculación deseados.
+- Si desea utilizar la vinculación basada en gráficos y prevé que el conjunto de datos de evento contribuirá al gráfico de identidad, debe [habilitar el conjunto de datos para el servicio de identidad](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
+- El ID persistente y el ID de persona se pueden usar con [identityMap](#identitymap). O el ID persistente y el ID de persona pueden ser campos del esquema XDM, en cuyo caso los campos deben estar [definidos como una identidad](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en) en el esquema.
 
 >[!NOTE]
 >
@@ -221,7 +221,7 @@ Las siguientes limitaciones se aplican específicamente a la vinculación basada
 - Las marcas de tiempo no se tienen en cuenta al consultar el ID de persona mediante el área de nombres especificada. Por lo tanto, es posible que un ID persistente se vincule con un ID de persona de un registro que tenga una marca de tiempo anterior.
 - En escenarios de dispositivos compartidos, donde el área de nombres del gráfico contiene varias identidades, se utiliza la primera identidad lexicográfica. Si los límites y prioridades del área de nombres se configuran como parte de la publicación de reglas de vinculación de gráficos, se utiliza la última identidad del usuario autenticado. Consulte [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md) para obtener más información.
 - Hay un límite estricto de tres meses para rellenar identidades en el gráfico de identidades. Para rellenar el gráfico de identidades, debe utilizar identidades de relleno en caso de que no utilice una aplicación de Experience Platform, como Real-time Customer Data Platform.
-- Se aplican las [protecciones del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails). Vea, por ejemplo, los [límites estáticos](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails#static-limits) siguientes:
+- Se aplican las [protecciones del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails). Vea, por ejemplo, los [límites estáticos](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits) siguientes:
    - Número máximo de identidades en un gráfico: 50.
    - Número máximo de vínculos a una identidad para una sola ingesta por lotes: 50.
    - Número máximo de identidades en un registro XDM para la ingesta de gráficos: 20.

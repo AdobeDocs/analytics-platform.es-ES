@@ -1,30 +1,30 @@
 ---
-title: Vinculación basada en el campo
-description: Explicación del concepto y funcionamiento de la vinculación basada en el campo
+title: Vinculación basada en campos
+description: Explica el concepto y el trabajo de la vinculación basada en el campo.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 90a285fcd96866974087c53d402e85b4a2d83ccf
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 10%
+source-wordcount: '1711'
+ht-degree: 9%
 
 ---
 
 # Vinculación basada en el campo
 
-En la vinculación basada en el campo, puede especificar un conjunto de datos de evento, así como el ID persistente (cookie) y el ID de persona para ese conjunto de datos. La vinculación basada en campos agrega una nueva columna de ID vinculado al conjunto de datos de evento y actualiza este ID vinculado en función de las filas que tienen un ID de persona para ese ID persistente específico. <br/>Puede utilizar la vinculación basada en campos al utilizar Customer Journey Analytics como solución independiente (sin acceso al servicio de identidad de Experience Platform y al gráfico de identidades asociado). O bien, cuando no desee utilizar el gráfico de identidad disponible.
+En la vinculación basada en el campo, se especifica un conjunto de datos de evento, así como el ID persistente (cookie) y el ID de persona para ese conjunto de datos. La vinculación basada en campos agrega una nueva columna de ID vinculado al conjunto de datos de evento y actualiza este ID vinculado en función de las filas que tienen un ID de persona para ese ID persistente específico. <br/>Puede utilizar la vinculación basada en campos al utilizar Customer Journey Analytics como solución independiente (sin acceso al servicio de identidad de Experience Platform y al gráfico de identidades asociado). O bien, cuando no desee utilizar el gráfico de identidad disponible.
 
 ![Vinculación basada en el campo](/help/stitching/assets/fbs.png)
 
 
 ## IdentityMap
 
-La vinculación basada en campos admite el uso del grupo de campos [`identityMap` &#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
+La vinculación basada en campos admite el uso del grupo de campos [`identityMap` ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
 
 - Uso de la identidad principal en `identityMap` áreas de nombres para definir el persistentID:
-   - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexigráficamente y se selecciona la primera identidad.
+   - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexicográficamente y se selecciona la primera identidad.
    - Si se encuentran varias identidades principales en un solo área de nombres, se selecciona la primera identidad principal lexicográfica disponible.
 
   En el ejemplo siguiente, las áreas de nombres e identidades generan una lista de identidades principales ordenada y, finalmente, la identidad seleccionada.
@@ -94,7 +94,7 @@ La vinculación realiza un mínimo de dos pasadas de datos en un conjunto de dat
 
 - **Vinculación en tiempo real**: intenta vincular cada visita (evento) conforme se va produciendo. Las visitas de dispositivos que son *nuevos* al conjunto de datos (nunca se han autenticado) generalmente no se vinculan en este nivel. Las visitas de dispositivos ya reconocidos se vinculan inmediatamente.
 
-- **Reproducir vinculación**: *reproduce* datos basados en identificadores únicos (ID de persona). En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan (a ID de persona). La reproducción está determinada por dos parámetros: **frequency** y **lookback window**. Adobe ofrece las siguientes combinaciones de estos parámetros:
+- **Reproducir vinculación**: *reproduce* datos basados en identificadores únicos (ID de persona). En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan (a ID de persona). Dos parámetros determinan la reproducción: **frequency** y **lookback window**. Adobe ofrece las siguientes combinaciones de estos parámetros:
    - **Retrospectiva diaria en una frecuencia diaria**: Los datos se reproducen todos los días con una ventana retrospectiva de 24 horas. Esta opción ofrece la ventaja de que las reproducciones son mucho más frecuentes, pero los perfiles no autenticados deben autenticarse el mismo día que visitan el sitio.
    - **Retrospectiva semanal de una frecuencia semanal**: los datos se reproducen una vez a la semana con una ventana retrospectiva semanal (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no enlazados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
    - **Retrospectiva quincenal con una frecuencia semanal**: Los datos se reproducen una vez por semana con una ventana retrospectiva quincenal (consulte [opciones](#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no enlazados con menos de dos semanas de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
@@ -214,7 +214,7 @@ Los siguientes requisitos previos se aplican específicamente a la vinculación 
    - Un **ID de persona**, un identificador disponible solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que un perfil se autentica. Puede utilizar prácticamente cualquier identificador que desee. La vinculación tiene en cuenta este campo para contener la información de ID de persona real. Para obtener los mejores resultados de vinculación, se debe enviar un ID de persona dentro de los eventos del conjunto de datos al menos una vez por cada ID persistente. Si planea incluir este conjunto de datos dentro de una conexión de Customer Journey Analytics, es preferible que los demás conjuntos de datos también tengan un identificador común similar.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
@@ -230,4 +230,4 @@ Las siguientes limitaciones se aplican específicamente a la vinculación basada
 - El campo ID de persona debe contener un solo tipo de ID (ID de un solo área de nombres). Por ejemplo, el campo de ID de persona no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
 - Si se producen varios eventos con la misma marca de tiempo para el mismo ID persistente, pero con valores diferentes en el campo ID de persona, la vinculación selecciona el ID en función del orden alfabético. Por lo tanto, si el ID persistente A tiene dos eventos con la misma marca de tiempo y uno de los eventos especifica Bob y el otro Ann, al vincular se selecciona Ann.
 - Tenga cuidado con los escenarios donde los ID de persona contienen valores de marcador de posición, por ejemplo `Undefined`. Consulte las [preguntas frecuentes](faq.md) para obtener más información.
-- No puede utilizar el mismo área de nombres tanto para el ID persistente como para el ID de persona, las áreas de nombres deben excluirse mutuamente.
+- No puede utilizar el mismo área de nombres tanto para el ID persistente como para el ID de persona, las áreas de nombres deben ser mutuamente excluyentes.

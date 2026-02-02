@@ -1,14 +1,14 @@
 ---
-title: Solicitud de vinculación
-description: Cómo solicitar la vinculación
+title: Solicitar vinculación
+description: Obtenga información sobre cómo solicitar la vinculación.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 9ace0679796c3a813b1fbd97c62c20faf64db211
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 7%
+source-wordcount: '573'
+ht-degree: 20%
 
 ---
 
@@ -20,13 +20,11 @@ ht-degree: 7%
 >La vinculación de solicitudes a través de Adobe ya no es necesaria y este método está obsoleto. [Habilitar la vinculación en la interfaz de usuario de Conexiones](use-stitching-ui.md).
 >
 
-
-
-Una vez que su organización cumpla todos los [requisitos previos](overview.md#prerequisites) y comprenda las [limitaciones](overview.md#limitations) comunes y las limitaciones ([basadas en campos](fbs.md#limitations) y [basadas en gráficos](gbs.md#limitations)) específicas del método de vinculación, puede seguir estos pasos para solicitar y empezar a utilizar la vinculación en Customer Journey Analytics.
+Una vez que su organización cumpla [requisitos previos](overview.md#prerequisites) genéricos, comprenda las [limitaciones](overview.md#limitations) comunes y también los requisitos previos y limitaciones específicos del método de vinculación ([basados en el campo](fbs.md) y [basados en gráficos](gbs.md)), puede seguir estos pasos para solicitar y empezar a utilizar la vinculación en Customer Journey Analytics.
 
 ## Seleccionar opciones
 
-El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración del relleno inicial, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de solicitar asistencia.
+El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración inicial del relleno, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de solicitar asistencia.
 
 | | Customer Journey Analytics<br/>Seleccionar | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
@@ -47,7 +45,7 @@ El paquete de Customer Journey Analytics al que está autorizado determina los m
       - Para la vinculación basada en gráficos, especifique el área de nombres del ID persistente y el área de nombres de identidad que se utilizará para consultar el gráfico de identidades.
    - Si el conjunto de datos no admite `identityMap`:
       - Para la vinculación basada en el campo, el nombre de columna del ID de persona para el conjunto de datos deseado (el identificador de persona, que también actúa como vínculo entre conjuntos de datos en el contexto de una conexión).
-      - Para la vinculación basada en gráficos, el área de nombres de identidad que se utilizará para consultar el gráfico de identidad.
+      - En el caso de la vinculación basada en gráficos, es el área de nombres de identidad que desea utilizar para consultar el gráfico de identidad.
    - Su preferencia de ventana retrospectiva y frecuencia de reproducción. Consulta tu paquete de Customer Journey Analytics para ver las [opciones](#options) disponibles.
    - Nombre de la zona protegida.
 
@@ -62,3 +60,11 @@ El paquete de Customer Journey Analytics al que está autorizado determina los m
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
 Una vez configurada la vista de datos, puede ejecutar el análisis de informes de Customer Journey Analytics en varios canales y dispositivos.
+
+## Limitaciones
+
+- Aplique cualquier cambio que realice en el esquema del conjunto de datos de evento de origen también al nuevo esquema del conjunto de datos vinculado.
+
+- Si elimina el conjunto de datos de origen, el conjunto de datos vinculado detiene el procesamiento y el sistema lo elimina.
+
+- Las etiquetas del uso de datos no se propagan automáticamente al esquema del conjunto de datos vinculado. Si tiene etiquetas de uso de datos aplicadas al esquema del conjunto de datos de origen, debe aplicar estas etiquetas de uso de datos manualmente al esquema del conjunto de datos vinculado. Consulte [Administración de etiquetas de uso de datos en Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview) para obtener más información.

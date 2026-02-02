@@ -1,13 +1,13 @@
 ---
 title: Validar vinculación
-description: Validación de la vinculación
+description: Obtenga información sobre cómo validar la vinculación.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: 99b434e62d859c96bfda53731f3f8a0750850501
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Aunque estos métodos de análisis se pueden utilizar tanto para la vinculación
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Habilitación y validación de vinculación](https://video.tv.adobe.com/v/3478123?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Habilitación y validación de vinculación](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Además, debe agregar dos métricas de vinculación basadas en la presencia de v
    En el ejemplo siguiente, `personalEmail.address` sirve como identidad y se usa para crear la métrica **[!UICONTROL _Email set]**.
    ![Métrica del conjunto de correo electrónico](assets/emailset-metric.png)
 
-1. Utilice el campo `stitchedID.namespae.code` para crear una dimensión del área de nombres **[!UICONTROL Email stitched]**. Asegúrese de especificar [Incluir valores de exclusión en la configuración del componente](/help/data-views/component-settings/include-exclude-values.md), de modo que sólo tenga en cuenta los valores del área de nombres a la que intenta elevar filas de datos.
+1. Utilice el campo `stitchedID.namespae.code` para crear una dimensión del área de nombres **[!UICONTROL Email stitched]**. Asegúrese de especificar [Incluir valores de exclusión en la configuración de componentes](/help/data-views/component-settings/include-exclude-values.md), de modo que sólo tenga en cuenta los valores del área de nombres a la que intenta elevar filas de datos.
    1. Seleccione **[!UICONTROL Establecer valores de inclusión/exclusión]**.
    1. Seleccione **[!UICONTROL Si se cumplen todos los criterios]** como **[!UICONTROL Coincidencia]**.
    1. Especifique **[!UICONTROL Es igual que]** `email` como **[!UICONTROL criterio]** para seleccionar eventos que se han elevado al espacio de nombres de correo electrónico.
