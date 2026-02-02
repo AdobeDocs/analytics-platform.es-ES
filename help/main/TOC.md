@@ -9,7 +9,7 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: a8c158e66b66f2110df12fac794b2223f1922b1f
+source-git-commit: 905d32421b4c1d3135a51dfd9898a02e750555d0
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 96%
@@ -139,6 +139,11 @@ ht-degree: 96%
    + [Conjuntos de datos de evento combinados](../connections/combined-dataset.md)
    + [Búsquedas estándar](../connections/standard-lookups.md)
    + [Búsquedas B2B](../connections/transform-datasets-b2b-lookups.md)
+   + Análisis de público {#audience-analysis}
+      + [Información general](/help/connections/audience-analysis/audience-analysis-overview.md)
+      + [Configuración](/help/connections/audience-analysis/audience-analysis-configure.md)
+      + [Administrar](/help/connections/audience-analysis/audience-analysis-manage.md)
+      + [Analizar](/help/connections/audience-analysis/analyze-audiences.md)
 + Vistas de datos {#cja-dataviews}
    + [Información general de las vistas de datos](../data-views/data-views.md)
    + [Creación o edición de una vista de datos](../data-views/create-dataview.md)
@@ -163,11 +168,6 @@ ht-degree: 96%
    + Métricas y dimensiones compartidas{#shared-metrics-dimensions}
       + [Información general](/help/data-views/shared-metrics-dimensions/smd-overview.md)
       + [Editor](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
-   + Análisis de público {#audience-analysis}
-      + [Información general](/help/connections/audience-analysis/audience-analysis-overview.md)
-      + [Configuración](/help/connections/audience-analysis/audience-analysis-configure.md)
-      + [Administrar](/help/connections/audience-analysis/audience-analysis-manage.md)
-      + [Analizar](/help/connections/audience-analysis/analyze-audiences.md)
 + Herramientas {#tools}
    + Transferencia de recursos {#asset-transfer}
       + [Transferir recursos](../tools/asset-transfer/transfer-assets.md)
