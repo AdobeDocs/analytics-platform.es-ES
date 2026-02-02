@@ -1,15 +1,15 @@
 ---
-title: ¿Qué es Report Builder en Customer Journey Analytics?
-description: Describe Report Builder para Customer Journey Analytics
+title: Información general de Report Builder
+description: Obtenga información acerca de la funcionalidad de Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 16%
+source-wordcount: '330'
+ht-degree: 13%
 
 ---
 
@@ -48,7 +48,7 @@ Report Builder para Customer Journey Analytics es un complemento de Microsoft Ex
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder para Customer Journey Analytics](https://video.tv.adobe.com/v/3452583?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder para Customer Journey Analytics](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

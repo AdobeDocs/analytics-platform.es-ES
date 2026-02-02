@@ -1,15 +1,15 @@
 ---
-title: ¿Qué es Report Builder Hub en Customer Journey Analytics?
-description: Describe los componentes de Report Builder Hub
+title: Report Builder Hub
+description: Obtenga información acerca de Report Builder hub.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
+source-git-commit: 1e19e0c79617d27c7039b695c70ca5026fcaf357
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 27%
+source-wordcount: '534'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,7 @@ Utilice el panel **[!UICONTROL Comandos]** para obtener acceso a comandos compat
 | ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar bloque de datos]** | El rango de celdas o celdas seleccionados forman parte de un solo bloque de datos. | Se utiliza para editar un bloque de datos. |
 | ![Actualizar](/help/assets/icons/Refresh.svg) **[!UICONTROL Actualizar bloque de datos]** | La selección contiene al menos un bloque de datos. El comando actualiza solo los bloques de datos de la selección. | Utilice para actualizar uno o más bloques de datos. |
 | ![ActualizarDocumento](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL Actualizar todos los bloques de datos]** | El libro contiene uno o más bloques de datos. | Se utiliza para actualizar todos los bloques de datos del libro |
-| ![Enviar](/help/assets/icons/Send.svg) **[!UICONTROL Enviar libro]** | El libro contiene uno o más bloques de datos. | Se utiliza para enviar el libro como un archivo por correo electrónico. |
+| ![Enviar](/help/assets/icons/Send.svg) **[!UICONTROL Enviar libro]** | El libro contiene uno o más bloques de datos. | Use para [enviar el libro como archivo por correo electrónico](schedule-reportbuilder.md). |
 | ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar bloque de datos]** | La celda o el rango de celdas seleccionado forma parte de uno o más bloques de datos. | Se utiliza para copiar un bloque de datos. |
 | ![Cortar](/help/assets/icons/Cut.svg) **[!UICONTROL Cortar bloque de datos]** | La celda o el rango de celdas seleccionado forma parte de uno o más bloques de datos. | Usar para cortar un bloque de datos. |
 | ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar bloque de datos]** | El rango de celdas o celdas seleccionados forman parte de un solo bloque de datos. | Usar para eliminar un bloque de datos |
@@ -70,6 +70,6 @@ El vínculo **Segmentos** muestra una lista resumida de los segmentos utilizados
 >[!MORELIKETHIS]
 >
 >[Seleccionar vistas de datos](select-data-view.md)
->&#x200B;>[Seleccione un intervalo de fecha](select-date-range.md)
->&#x200B;>[Trabajar con filtros](work-with-filters.md)
+>[Seleccione un intervalo de fecha](select-date-range.md)
+>[Trabajar con filtros](work-with-filters.md)
 >

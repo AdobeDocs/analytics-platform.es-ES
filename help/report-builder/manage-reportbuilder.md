@@ -1,15 +1,15 @@
 ---
-title: Administración de bloques de datos mediante Report Builder en Customer Journey Analytics
-description: Describe cómo utilizar la función de administración en Report Builder
+title: Administración De Bloques De Datos En Report Builder
+description: Obtenga información sobre cómo administrar bloques de datos en Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 21%
+source-wordcount: '517'
+ht-degree: 17%
 
 ---
 
@@ -43,7 +43,7 @@ Utilice el campo ![Buscar](/help/assets/icons/Search.svg) **[!UICONTROL _Buscar_
 
 ## Editar bloques de datos
 
-Puede editar bloques de datos de vistas de datos e intervalos de fechas. O los segmentos aplicados a bloques de datos.
+Puede editar las vistas de datos y los intervalos de fechas para los bloques de datos. O los segmentos aplicados a bloques de datos.
 
 Por ejemplo, puede reemplazar un segmento existente con un nuevo segmento en uno o más bloques de datos.
 

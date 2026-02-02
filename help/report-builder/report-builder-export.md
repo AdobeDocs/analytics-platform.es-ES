@@ -1,15 +1,15 @@
 ---
-title: Exportación de informes desde Report Builder
-description: Describe cómo exportar datos de Report Builder a destinos seguros
+title: Exportación De Informes Desde Report Builder
+description: Obtenga información sobre cómo exportar datos de Report Builder a destinos seguros.
 role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: cc20ddf5da5787af0a29b5d18c00abff816071d2
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 38%
+source-wordcount: '1303'
+ht-degree: 39%
 
 ---
 
@@ -49,17 +49,15 @@ Para exportar informes desde Report Builder:
 
 1. Seleccione [!UICONTROL **Horario**].
 
-<!-- add screenshot -->
-
 1. En la ficha **[!UICONTROL Libros]**, seleccione el icono de signo + para crear una nueva programación
-
-   ![Ficha Programaciones de Report Builder](assets/report-builder-schedule-cloud.png)
 
    O bien
 
    Para exportar el libro según una programación que ya haya creado, selecciónela en la lista de programaciones y, a continuación, seleccione **[!UICONTROL Enviar según lo programado]**.
 
 1. En el panel derecho de [!UICONTROL **Adobe Report Builder**], especifique la siguiente información para continuar creando una nueva programación:
+
+   ![Ficha Programaciones de Report Builder](assets/report-builder-schedule-cloud.png)
 
    | Nombre de campo | Función |
    |---------|----------|
@@ -71,8 +69,8 @@ Para exportar informes desde Report Builder:
    | **[!UICONTROL Proteger el libro con contraseña]** | Especifique una contraseña para proteger el archivo exportado de modo que solo las personas con la contraseña puedan acceder a él. <p>Las contraseñas deben tener al menos 8 caracteres y contener al menos 1 número y 1 carácter especial (como `!`,`@`,`#` y `$`).</p> |
    | **[!UICONTROL Correo electrónico]** | Seleccione esta opción para enviar el archivo a una dirección de correo electrónico específica. Para obtener más información, vea [Programar libros compartiéndolos por correo electrónico](/help/report-builder/schedule-reportbuilder.md). |
    | **[!UICONTROL Otros envíos]** | Seleccione esta opción para enviar el archivo a una cuenta de la nube y, a continuación, utilice los menús desplegables de **[!UICONTROL Cuenta]** y **[!UICONTROL Ubicación]** que se describen a continuación para seleccionar la cuenta y la ubicación. |
-   | **[!UICONTROL Cuenta]** | Seleccione la cuenta de exportación a la nube a la que desea enviar los datos. <p>O bien, si aún no ha configurado una cuenta en la nube que desee utilizar, puede configurar una nueva cuenta:<ol><li>Seleccione [!UICONTROL **Añadir cuenta**] y, a continuación, especifique la siguiente información:<ul><li>[!UICONTROL **Nombre de la cuenta de ubicación**]: especifique un nombre para la cuenta de ubicación. Este nombre aparece al crear una ubicación  </li><li>[!UICONTROL **Descripción de la ubicación de la cuenta**]: proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta.</li><li>**[!UICONTROL Poner la cuenta a disposición de todos los usuarios de su organización]**: seleccione esta opción para permitir que otros usuarios de su organización utilicen la cuenta. Tenga en cuenta lo siguiente al compartir cuentas:<ul><li>Las cuentas que comparta no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las cuentas compartidas.</li><li>Cualquiera puede crear una ubicación para la cuenta compartida.</li></ul></li><li>[!UICONTROL **Tipo de cuenta**]: seleccione el tipo de cuenta de nube a la que está exportando. Los tipos de cuenta disponibles son Amazon S3 Role ARN, Google Cloud Platform, Azure SAS y Azure RBAC.</li></ul><li>Para finalizar la configuración de la cuenta, continúe con el vínculo siguiente que corresponde al [!UICONTROL **tipo de cuenta**] que ha seleccionado:<ul><li>[ARN de la función Amazon S3](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li></ul></ol> |
-   | **[!UICONTROL Ubicación]** | Seleccione la ubicación de la cuenta a la que desea enviar los datos de exportación.<p>O bien, si aún no ha configurado la ubicación que desea utilizar en la cuenta seleccionada, puede configurar una nueva ubicación:<ol><li>Seleccione [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información: <ul><li>[!UICONTROL **Nombre**]: nombre de la ubicación.</li><li>[!UICONTROL **Descripción**]: proporcione una breve descripción de la ubicación para diferenciarla de otras ubicaciones del mismo tipo de ubicación.</li><li>**[!UICONTROL Poner la ubicación a disposición de todos los usuarios de su organización]**: seleccione esta opción para permitir que otros usuarios de su organización utilicen la ubicación. Tenga en cuenta lo siguiente al compartir cuentas:<ul><li>Las ubicaciones que comparte no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las ubicaciones compartidas.</li><li>Las ubicaciones solo se pueden compartir si también se comparte la cuenta a la que está asociada la ubicación.</li></ul></li><li>[!UICONTROL **Ubicación de la cuenta**]: seleccione la cuenta en la que desea crear la ubicación.</li></ul><li>Para finalizar la configuración de la ubicación, continúe con el vínculo de abajo que corresponde al tipo de cuenta que seleccionó en el campo [!UICONTROL **Cuenta de ubicación**]:<ul><li>[ARN de la función Amazon S3](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li></ul> |
+   | **[!UICONTROL Cuenta]** | Seleccione la cuenta de exportación de nube a la que desea enviar los datos. <p>O bien, si aún no ha configurado una cuenta en la nube que desee utilizar, puede configurar una nueva cuenta:<ol><li>Seleccione [!UICONTROL **Añadir cuenta**] y, a continuación, especifique la siguiente información:<ul><li>[!UICONTROL **Nombre de la cuenta de ubicación**]: especifique un nombre para la cuenta de ubicación. Este nombre aparece al crear una ubicación  </li><li>[!UICONTROL **Descripción de la ubicación de la cuenta**]: proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta.</li><li>**[!UICONTROL Poner la cuenta a disposición de todos los usuarios de su organización]**: seleccione esta opción para permitir que otros usuarios de su organización utilicen la cuenta. Tenga en cuenta lo siguiente a la hora de compartir cuentas:<ul><li>Las cuentas que comparta no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las cuentas compartidas.</li><li>Cualquiera puede crear una ubicación para la cuenta compartida.</li></ul></li><li>[!UICONTROL **Tipo de cuenta**]: seleccione el tipo de cuenta de nube a la que está exportando. Los tipos de cuenta disponibles son Amazon S3 Role ARN, Google Cloud Platform, Azure SAS y Azure RBAC.</li></ul><li>Para finalizar la configuración de la cuenta, continúe con el vínculo siguiente que corresponde al [!UICONTROL **tipo de cuenta**] que ha seleccionado:<ul><li>[ARN de la función Amazon S3](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li></ul></ol> |
+   | **[!UICONTROL Ubicación]** | Seleccione la ubicación de la cuenta a la que desea enviar los datos de exportación.<p>O bien, si aún no ha configurado la ubicación que desea utilizar en la cuenta seleccionada, puede configurar una nueva ubicación:<ol><li>Seleccione [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información: <ul><li>[!UICONTROL **Nombre**]: nombre de la ubicación.</li><li>[!UICONTROL **Descripción**]: proporcione una breve descripción de la ubicación para diferenciarla de otras ubicaciones del mismo tipo de ubicación.</li><li>**[!UICONTROL Poner la ubicación a disposición de todos los usuarios de su organización]**: seleccione esta opción para permitir que otros usuarios de su organización utilicen la ubicación. Tenga en cuenta lo siguiente a la hora de compartir cuentas:<ul><li>Las ubicaciones que comparte no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las ubicaciones compartidas.</li><li>Las ubicaciones solo se pueden compartir si también se comparte la cuenta a la que está asociada la ubicación.</li></ul></li><li>[!UICONTROL **Ubicación de la cuenta**]: seleccione la cuenta en la que desea crear la ubicación.</li></ul><li>Para finalizar la configuración de la ubicación, continúe con el vínculo de abajo que corresponde al tipo de cuenta que seleccionó en el campo [!UICONTROL **Cuenta de ubicación**]:<ul><li>[ARN de la función Amazon S3](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li></ul> |
    | **[!UICONTROL Mostrar opciones de horario]** | Seleccione esta opción para ver opciones adicionales para programar la exportación. Deje esta opción sin seleccionar si desea enviar la exportación solo una vez. Cuando esta opción no está seleccionada, la exportación se inicia inmediatamente. |
    | **[!UICONTROL A partir de]** | El día y la hora de inicio de la exportación programada. <p>Esta opción solo está disponible cuando se elige una frecuencia de exportación programada.</p> |
    | **[!UICONTROL Finaliza el]** | El día y la hora de caducidad de la exportación programada. La exportación programada ya no se ejecuta después de la fecha y hora establecidas. <p>Esta opción solo está disponible cuando se elige una frecuencia de exportación programada.</p> |
@@ -111,8 +109,6 @@ Exportar los datos de Customer Journey Analytics a la nube le permite:
 * Exporte bloques de datos que incluyan varias dimensiones.
 
 ## Requisitos de exportación {#export-requirements}
-
-### Requisitos mínimos
 
 Asegúrese de que los bloques de datos, el entorno y los permisos cumplan los siguientes requisitos:
 

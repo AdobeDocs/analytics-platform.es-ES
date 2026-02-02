@@ -1,15 +1,15 @@
 ---
-title: Configuración de Report Builder en Customer Journey Analytics
-description: Describe cómo establecer la configuración del modo sin conexión, idioma, fecha y resolución de problemas.
+title: Configuración De Report Builder
+description: Obtenga información sobre cómo establecer la configuración de Report Builder.
 role: Admin
 feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 31%
+source-wordcount: '249'
+ht-degree: 28%
 
 ---
 

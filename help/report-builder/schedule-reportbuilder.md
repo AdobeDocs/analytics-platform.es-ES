@@ -1,15 +1,15 @@
 ---
-title: Programación de libros mediante Report Builder en Customer Journey Analytics
-description: Aprenda a utilizar la función de programación en Report Builder
+title: Programar libros con Report Builder
+description: Aprenda a utilizar la función de programación en Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 15%
+source-wordcount: '858'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ La función de programación también permite configurar la protección con cont
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Programar libros](https://video.tv.adobe.com/v/3417503/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Programar libros](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
