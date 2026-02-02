@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 0a307bb43c780479df1cdc751fdadfc82f9dda55
+source-git-commit: bc708b34814550b89f6c9916d8bc48850008c1dc
 workflow-type: tm+mt
-source-wordcount: '4044'
-ht-degree: 98%
+source-wordcount: '4015'
+ht-degree: 99%
 
 ---
 
@@ -90,10 +90,12 @@ Puede personalizar estas preferencias para todos los nuevos proyectos de Analysi
 
 Algunas de estas mismas preferencias también se pueden personalizar para proyectos individuales, tal como se describe en la [Información general sobre proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md).
 
+<!--
 >[!IMPORTANT]
 >
->Ya no puede definir el formato de número en la sección **[!UICONTROL Proyecto y análisis]** > **[!UICONTROL Datos]** de **[!UICONTROL preferencias de usuario]**. El formato de número se determina automáticamente según el [idioma predeterminado configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) para el usuario que ha iniciado sesión.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
+-->
 
 
 | Sección | Preferencia | Opciones |
@@ -106,6 +108,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 |  | [Calendario](/help/analysis-workspace/c-panels/panels.md#calendar) | Seleccione de una lista de: <ul><li>Intervalos proporcionados por Adobe (el valor predeterminado es Este mes)</li><li>Hacer que, por defecto, [!UICONTROL los componentes del intervalo de fecha sean relativos al calendario del panel].</li></ul> |
 |  | [Tipo de panel](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>Improvisado (predeterminado)</li><li>En blanco</li><li>Acceso rápido a información</li></ul> |
 |  | Recuento de instancias | Habilitar [!UICONTROL Contar instancias repetidas] para especificar si se cuentan las instancias en los informes. Por ejemplo, cuando se habilita, varias vistas de página consecutivas a la misma página se tratan como varias vistas de página. Cuando está desactivado, varias vistas de página consecutivas a la misma página cuentan como una sola vista de página. <p>**Nota:** Esta configuración solo afecta a determinadas métricas (como Sesiones) y no se aplica a Flujo o Visualizaciones de flujo.</p> |
+|  | Formato de número | <ul><li>1000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Carácter separador de CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Barra vertical</li><li>Periodo</li><li>Espacio</li><li>Tabulación</li></ul> |
 |  | Mostrar anotaciones | Elija si las anotaciones estarán visibles en los proyectos. Para obtener más información sobre las anotaciones, consulte la [Información general sobre anotaciones](/help/components/annotations/overview.md). |
 
