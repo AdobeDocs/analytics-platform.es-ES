@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: cbb18e9d0990d5df64995c2dabe8362c7c37bb45
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 2%
+source-wordcount: '935'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Debe comprobar y cumplir los requisitos previos del método de vinculación que 
 
 Si cumple los requisitos previos, es posible que desee realizar algunas comprobaciones previas de los datos del conjunto de datos de evento antes de habilitar la vinculación de identidad:
 
-* Si va a utilizar campos de esquema XDM para un ID o ID de persona persistentes, asegúrese de que las identidades se marquen correctamente en el esquema del conjunto de datos de evento. [Consulte Información general del área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces).
+* Si va a utilizar campos de esquema XDM para un ID persistente o ID de persona, asegúrese de que las identidades se marquen correctamente en el esquema del conjunto de datos de evento. [Consulte Información general del área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces).
 * Compruebe la cobertura de identidad tanto para el ID persistente como para el ID de persona:
 
    * **ID persistente**
@@ -58,7 +58,7 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 
 
    * **ID de la persona**
-      * Para la vinculación basada en gráficos, asegúrese de que el gráfico de identidades contenga fragmentos que vinculen valores de ID desde el área de nombres de ID persistente y el área de nombres de ID de persona que haya elegido. Puede ejecutar una prueba en el [visor de gráficos de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} y consultar el gráfico en función de algunos valores de ID persistentes de prueba. Compruebe si estos valores de ID persistentes están vinculados a valores de ID de persona en el gráfico.
+      * Para la vinculación basada en gráficos, asegúrese de que el gráfico de identidades contenga fragmentos que vinculen valores de ID desde el área de nombres de ID persistente y el área de nombres de ID de persona que haya elegido. Puede ejecutar una prueba en el [visor de gráficos de identidad de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} y consultar el gráfico en función de algunos valores de ID persistentes de prueba. Compruebe si estos valores de ID persistentes están vinculados a valores de ID de persona en el gráfico.
       * Para la vinculación basada en el campo, consulte 7 días de datos en los que el campo de ID de persona no sea nulo y divida los datos por una consulta de 7 días para todos los eventos del conjunto de datos. Este porcentaje debería ser idealmente superior al 5 %.
 
         Ejemplo de una consulta que puede utilizar para la verificación:
@@ -85,7 +85,13 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 
 
 
-## Habilitación de la vinculación de identidad
+## Habilitación de la vinculación de identidad {#enable-identity-stitching}
+
+>[!CONTEXTUALHELP]
+>id="connection_changeto_identitygraph"
+>title="Cambio en el gráfico de identidad"
+>abstract="Asegúrese de haber terminado la configuración del gráfico de identidad antes de utilizarlo para la vinculación."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Vinculación basada en gráficos"
 
 Para habilitar la vinculación, en la sección del conjunto de datos de evento del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**:
 
@@ -130,7 +136,7 @@ Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 

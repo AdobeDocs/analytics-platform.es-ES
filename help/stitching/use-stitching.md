@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: cbb18e9d0990d5df64995c2dabe8362c7c37bb45
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 20%
+source-wordcount: '407'
+ht-degree: 26%
 
 ---
 
@@ -19,19 +19,6 @@ ht-degree: 20%
 >
 >La vinculación de solicitudes a través de Adobe ya no es necesaria y este método está obsoleto. [Habilitar la vinculación en la interfaz de usuario de Conexiones](use-stitching-ui.md).
 >
-
-Una vez que su organización cumpla [requisitos previos](overview.md#prerequisites) genéricos, comprenda las [limitaciones](overview.md#limitations) comunes y también los requisitos previos y limitaciones específicos del método de vinculación ([basados en el campo](fbs.md) y [basados en gráficos](gbs.md)), puede seguir estos pasos para solicitar y empezar a utilizar la vinculación en Customer Journey Analytics.
-
-## Seleccionar opciones
-
-El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración inicial del relleno, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de solicitar asistencia.
-
-| | Customer Journey Analytics<br/>Seleccionar | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
-|---|---|---|---|
-| Métodos de vinculación disponibles | Vinculación basada en el campo | Vinculación basada en el campo<br/>Vinculación basada en gráficos | Vinculación basada en el campo<br>Vinculación basada en gráficos</li> |
-| Duración de relleno de vinculación única | 13 meses | 13 meses | 25 meses |
-| Ventana retrospectiva y frecuencia de reproducción | 1 día, todos los días<br/>hasta 7 días, semanalmente | 1 día, todos los días<br/>hasta 14 días, semanalmente | 1 día, todos los días<br/>hasta 30 días, semanalmente |
-| Número máximo de conjuntos de datos permitidos para la vinculación | 5 | 15 | 50 |
 
 ## Solicitar asistencia
 
