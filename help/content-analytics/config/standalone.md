@@ -85,7 +85,7 @@ Necesita un administrador del sistema o de producto para agregarlo como administ
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrar usuarios para obtener un perfil de producto](https://video.tv.adobe.com/v/333860/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrar usuarios para obtener un perfil de producto](https://video.tv.adobe.com/v/3475944/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 
 >[!ENDSHADEBOX]
