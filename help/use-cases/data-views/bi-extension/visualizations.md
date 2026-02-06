@@ -4,7 +4,8 @@ description: Caso de uso de visualizaciones para la extensión BI en varias herr
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: cb0102923f10f39becd40cc4187d2e11fb8c4e2f
+exl-id: a357facb-d536-4c81-847c-a6f0d3f041e7
+source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 25%
@@ -216,3 +217,4 @@ La comparación de las capacidades de visualización de **gglot2**, el paquete d
 
 >[!ENDTABS]
 
++++

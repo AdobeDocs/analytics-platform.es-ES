@@ -4,7 +4,7 @@ description: Obtenga información sobre las ubicaciones de los centros de datos 
 solution: Customer Journey Analytics
 role: Admin
 exl-id: a41686bb-1a7b-4d27-8415-f4a1880b7de5
-source-git-commit: 3fd31ea85dc80a2d3070c8136a8a1984fe14c074
+source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 7%
@@ -17,7 +17,7 @@ Adobe Customer Journey Analytics está alojado en centros de datos de clase empr
 
 Una vez aprovisionados, los clientes designan la región en la que residirán sus datos de Adobe Experience Platform. Los datos introducidos en Customer Journey Analytics desde el lago de datos de Adobe Experience Platform se almacenarán en la misma región.
 
-Consulte [Recopilación de datos regionales](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/rdc) en la documentación de Adobe Experience Cloud para obtener más información.
+Consulte [Recopilación de datos regionales](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc) en la documentación de Adobe Experience Cloud para obtener más información.
 
 
 ## Ver el centro de datos donde se almacenan los datos
