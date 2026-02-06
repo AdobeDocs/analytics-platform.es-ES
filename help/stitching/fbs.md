@@ -5,23 +5,27 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: b5afcfe2cac8aa12d7f4d0cf98658149707123e3
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1797'
 ht-degree: 9%
 
 ---
 
 # Vinculación basada en el campo
 
-En la vinculación basada en el campo, se especifica un conjunto de datos de evento, así como el ID persistente (cookie) y el ID de persona para ese conjunto de datos. La vinculación basada en campos agrega una nueva columna de ID vinculado al conjunto de datos de evento y actualiza este ID vinculado en función de las filas que tienen un ID de persona para ese ID persistente específico. <br/>Puede utilizar la vinculación basada en campos al utilizar Customer Journey Analytics como solución independiente (sin acceso al servicio de identidad de Experience Platform y al gráfico de identidades asociado). O bien, cuando no desee utilizar el gráfico de identidad disponible.
+En la vinculación basada en el campo, se especifica un conjunto de datos de evento, así como el ID persistente (cookie) y el ID de persona para ese conjunto de datos. La vinculación basada en campos intenta que la información del ID de persona esté disponible para el análisis de datos de Customer Journey Analytics en cualquier evento anónimo que venga con un ID persistente específico.  Esa información se recupera de las filas que tienen un ID de persona para ese ID persistente específico.
+
+Si no se puede recuperar la información de ID de persona para un evento, se usa el ID persistente en su lugar para ese evento *unstitched*. Como resultado, en una [vista de datos](/help/data-views/data-views.md) asociada a una [conexión](/help/connections/overview.md) que contiene el conjunto de datos habilitado para la vinculación, el componente de ID de persona contiene el valor de ID de persona o el valor de ID persistente en el nivel de evento.
+
+Puede utilizar la vinculación basada en el campo al utilizar Customer Journey Analytics como solución independiente (sin acceso al servicio de identidad de Experience Platform y al gráfico de identidades asociado). O bien, cuando no desee utilizar el gráfico de identidad disponible.
 
 ![Vinculación basada en el campo](/help/stitching/assets/fbs.png)
 
 
 ## IdentityMap
 
-La vinculación basada en campos admite el uso del grupo de campos [`identityMap` &#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
+La vinculación basada en campos admite el uso del grupo de campos [`identityMap` ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
 
 - Uso de la identidad principal en `identityMap` áreas de nombres para definir el persistentID:
    - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexicográficamente y se selecciona la primera identidad.
@@ -120,7 +124,7 @@ Preste atención al siguiente ejemplo, en el que Bob registra diferentes eventos
 
 *Datos tal como aparecieron el día en que se recopilaron:*
 
-| Evento | Marca de tiempo | ID persistente (ID de cookie) | ID de la persona | ID con título (después de la unión en directo) |
+| Evento | Marca de tiempo | ID persistente (ID de cookie) | ID de la persona | ID resultante (después de la unión activa) |
 |---|---|---|---|---|
 | 1 | 12/12/05/2023:01 | `246` ![FlechaDerecha](/help/assets/icons/ArrowRight.svg) | - | **`246`** |
 | 2 | 12/12/05/2023:02 | `246` | `Bob` ![FlechaDerecha](/help/assets/icons/ArrowRight.svg) | `Bob` |
@@ -138,7 +142,7 @@ Preste atención al siguiente ejemplo, en el que Bob registra diferentes eventos
 
 Tanto los eventos no autenticados como los autenticados en los nuevos dispositivos se cuentan como personas independientes (temporalmente). Los eventos no autenticados en dispositivos reconocidos se vinculan en tiempo real.
 
-La atribución funciona cuando la variable personalizada de identificación está vinculada a un dispositivo. En el ejemplo anterior, todos los eventos, excepto los eventos 1, 8, 9 y 10, se vinculan en tiempo real (todos utilizan el identificador `Bob`). La vinculación en tiempo real &quot;resuelve&quot; el ID vinculado para los eventos 4, 6 y 12.
+La atribución funciona cuando la variable personalizada de identificación está vinculada a un dispositivo. En el ejemplo anterior, todos los eventos, excepto los eventos 1, 8, 9 y 10, se vinculan en tiempo real (todos utilizan el identificador `Bob`). La vinculación en tiempo real &quot;resuelve&quot; el ID resultante para los eventos 4, 6 y 12.
 
 Los datos con retraso (datos con una marca de tiempo de más de 24 horas) se gestionan con el &quot;mejor esfuerzo&quot;, a la vez que se prioriza la vinculación de los datos actuales para obtener la máxima calidad.
 
@@ -154,7 +158,7 @@ La siguiente tabla representa los mismos datos que arriba, pero muestra números
 
 *Los mismos datos después de la reproducción:*
 
-| Evento | Marca de tiempo | ID persistente (ID de cookie) | ID de la persona | ID con título (después de la unión en directo) | ID vinculado (después de la reproducción) |
+| Evento | Marca de tiempo | ID persistente (ID de cookie) | ID de la persona | ID resultante (después de la unión activa) | ID resultante (después de la reproducción) |
 |---|---|---|---|---|---|
 | 1 | 12/12/05/2023:01 | `246` | - | `246` | **`Bob`** |
 | 2 | 12/12/05/2023:02 | `246` | `Bob` ![FlechaDerecha](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![Flecha arriba](/help/assets/icons/ArrowUp.svg) |
@@ -178,7 +182,7 @@ La atribución funciona cuando la variable personalizada de identificación est�
 
 ### Paso 3: Solicitud de privacidad
 
-Cuando recibe una solicitud de privacidad, la ID vinculada se elimina en todos los registros del sujeto del usuario de la solicitud de privacidad.
+Cuando recibe una solicitud de privacidad, cualquier información de identificador establecida por el proceso de vinculación al valor de ID de persona se actualiza en todos los registros a un valor de ID persistente para el sujeto del usuario de la solicitud de privacidad.
 
 +++ Detalles
 
@@ -186,7 +190,7 @@ La siguiente tabla representa los mismos datos que los que hemos visto anteriorm
 
 *Los mismos datos después de una solicitud de privacidad para Bob:*
 
-| Evento | Marca de tiempo | ID persistente (ID de cookie) | ID de la persona | ID con título (después de la unión en directo) | ID vinculado (después de la reproducción) | ID de la persona | ID vinculado (después de la solicitud de privacidad) |
+| Evento | Marca de tiempo | ID persistente (ID de cookie) | ID de la persona | ID resultante (después de la unión activa) | ID resultante (después de la reproducción) | ID de la persona | ID resultante (después de la solicitud de privacidad) |
 |---|---|---|---|---|---|---|---|
 | 1 | 12/12/05/2023:01 | `246` | - | `246` | **`Bob`** | - | `246` |
 | 2 | 12/12/05/2023:02 | `246` | Bob ![FlechaDerecha](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![flecha arriba](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) | `246` |
@@ -214,7 +218,7 @@ Los siguientes requisitos previos se aplican específicamente a la vinculación 
    - Un **ID de persona**, un identificador disponible solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que un perfil se autentica. Puede utilizar prácticamente cualquier identificador que desee. La vinculación tiene en cuenta este campo para contener la información de ID de persona real. Para obtener los mejores resultados de vinculación, se debe enviar un ID de persona dentro de los eventos del conjunto de datos al menos una vez por cada ID persistente. Si planea incluir este conjunto de datos dentro de una conexión de Customer Journey Analytics, es preferible que los demás conjuntos de datos también tengan un identificador común similar.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,15 @@ Aunque estos métodos de análisis se pueden utilizar tanto para la vinculación
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Habilitación y validación de vinculación](https://video.tv.adobe.com/v/3478123?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Habilitación y validación de vinculación](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
+
+>[!IMPORTANT]
+>
+>Este artículo describe cómo validar la vinculación de datos [solicitada a través de Adobe](/help/stitching/use-stitching.md) y que se implementa mediante una columna de identidad vinculada agregada a un conjunto de datos vinculado duplicado. El artículo se planea actualizar pronto con detalles sobre cómo validar la vinculación [habilitada a través de la interfaz de usuario de Conexiones](/help/stitching/use-stitching-ui.md).
+
+
 
 ## Requisitos previos de vista de datos
 
