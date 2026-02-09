@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: 7835d4c5b46177ece4a146df8f0d4abb9605c670
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 100%
+source-wordcount: '1094'
+ht-degree: 95%
 
 ---
 
@@ -61,6 +61,8 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 
 * Puede cambiar el nombre de los contenedores en una vista de datos y hacer que los contenedores aparezcan con su nombre nuevo en cualquier proyecto de Workspace basado en la vista de datos.
 
+* Puede habilitar o deshabilitar Data Insights Agent para una vista de datos.
+
 ## Requisitos previos de vistas de datos {#prerequisites}
 
 * Para poder crear vistas de datos, debe [configurar una o más conexiones a conjuntos de datos de Experience Platform](/help/connections/create-connection.md).
@@ -84,9 +86,10 @@ Algunos ajustes de la vista de datos se pueden anular en Analysis Workspace en e
 
 ## Eliminación de vistas de datos {#delete}
 
-Si elimina una vista de datos en [!UICONTROL Customer Journey Analytics], aparecerá un mensaje de error que indica que dejarán de funcionar todos los proyectos de [!UICONTROL Workspace] que dependan de esa vista de datos eliminada.
+Si [elimina una vista de datos](/help/data-views/manage-dataviews.md#delete-data-views) en [!UICONTROL Customer Journey Analytics], un mensaje de error indica que ya no funciona ningún proyecto de [!UICONTROL Workspace] que dependa de esta vista de datos eliminada.
 
 ## Pasos siguientes
 
 * [Creación de vistas de datos](/help/data-views/create-dataview.md)
+* [Administrar vistas de datos](/help/data-views/manage-dataviews.md)
 * [Casos de uso de vistas de datos](/help/use-cases/data-views/data-views-usecases.md)

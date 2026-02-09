@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 16486ded009a9dbd9170240c0941853a4deec0af
+source-git-commit: 7835d4c5b46177ece4a146df8f0d4abb9605c670
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1365'
 ht-degree: 96%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 96%
          + [Añada la lógica de recopilación de datos XDM a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [Implementar el SDK Web manualmente](/help/getting-started/cja-upgrade/cja-upgrade-manual.md)
       + [Implementar el Web SDK con la API](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
-      + [Crea una conexión](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
+      + [Creación de una conexión](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [Crea una vista de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [Creación de un campo derivado del canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [Validar el flujo de datos](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
@@ -147,6 +147,7 @@ ht-degree: 96%
 + Vistas de datos {#cja-dataviews}
    + [Información general de las vistas de datos](../data-views/data-views.md)
    + [Creación o edición de una vista de datos](../data-views/create-dataview.md)
+   + [Administrar vistas de datos](/help/data-views/manage-dataviews.md)
    + [Configuración de sesión](../data-views/session-settings.md)
    + Configuración de componentes {#component-settings}
       + [Información general sobre la configuración de componentes](../data-views/component-settings/overview.md)
@@ -343,7 +344,7 @@ ht-degree: 96%
    + Publicación del público {#audiences}
       + [Información general sobre la publicación de públicos](../components/audiences/audiences-overview.md)
       + [Creación y publicación de públicos](../components/audiences/publish.md)
-      + [Administrar audiencias publicadas](../components/audiences/manage.md)
+      + [Administrar públicos publicados](../components/audiences/manage.md)
    + Dimensiones {#dimensions}
       + [Información general](../components/dimensions/overview.md)
       + [Vista preliminar de dimensiones](../components/dimensions/view-dimensions.md)
@@ -401,7 +402,7 @@ ht-degree: 96%
       + [Creación de alertas](/help/components/c-intelligent-alerts/alert-builder.md)
       + [Administración de alertas](/help/components/c-intelligent-alerts/alert-manager.md)
       + [Comparación de características](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
-      + [Casos de uso](/help/components/c-intelligent-alerts/alerts-use-cases.md)
+      + [Casos prácticos](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + Exportaciones {#exports}
       + [Configuración de cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md)
       + [Configuración de ubicaciones de exportación en la nube](/help/components/exports/cloud-export-locations.md)
@@ -463,7 +464,7 @@ ht-degree: 96%
    + [Registro de auditoría](../privacy/audit-log.md)
    + [Claves gestionadas por el cliente](../privacy/cmk.md)
 
-+ Casos de uso {#cja-usecases}
++ Casos prácticos {#cja-usecases}
    + [Casos de uso de Customer Journey Analytics](../use-cases/cja-usecases.md)
    + Datos de Adobe Analytics {#aa-data}
       + [Uso de dimensiones del canal de marketing](../use-cases/aa-data/marketing-channels.md)

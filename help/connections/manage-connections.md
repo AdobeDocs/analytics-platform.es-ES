@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 32997d0fd9801099a75287f63197d3b4c2ba81ef
+source-git-commit: cb5baf2ec8d3ad4449a9b08d0a025a2d39a11425
 workflow-type: tm+mt
-source-wordcount: '4935'
-ht-degree: 59%
+source-wordcount: '4938'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 59%
 >abstract="Cancela las funciones avanzadas de creación de informes de Customer Journey Analytics con Journey Optimizer."
 
 
-Una vez que haya [creado o editado una o más conexiones](/help/connections/create-connection.md), puede administrarlas en **[!UICONTROL Conexiones]**. La interfaz [!UICONTROL Connections] le permite:
+Una vez que haya [creado o editado una o más conexiones](/help/connections/create-connection.md), puede administrarlas en **[!UICONTROL Conexiones]**. La interfaz [!UICONTROL Conexiones] le permite lo siguiente:
 
 * Vea todas las conexiones de un vistazo, incluido el propietario, el entorno de pruebas y cuándo se crearon y modificaron.
 * Edición de una conexión
@@ -46,9 +46,9 @@ La interfaz **[!UICONTROL Lista]** es la interfaz predeterminada para Conexiones
 
 ![vista de lista](assets/list-view.png)
 
-La interfaz [!UICONTROL List] muestra una tabla de todas las conexiones disponibles.
+La interfaz [!UICONTROL Lista] muestra una tabla de todas las conexiones disponibles.
 
-### Buscar una conexión
+### Búsqueda de una conexión
 
 Puede buscar rápidamente una conexión usando el cuadro de búsqueda ![Búsqueda](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
 
@@ -59,9 +59,9 @@ Para aplicar un filtro a la lista de conexiones, seleccione el icono de filtro y
 | Opción de filtro | Descripción |
 |---------|----------|
 | **[!UICONTROL Conjuntos de datos]** | Solo se muestran las conexiones asociadas a los conjuntos de datos seleccionados. |
-| **[!UICONTROL Propietario]** | Solo se muestran las conexiones propiedad de las personas seleccionadas. |
+| **[!UICONTROL Propietario]** | Solo se muestran las conexiones que pertenecen a las personas seleccionadas. |
 | **[!UICONTROL Zona protegida]** | Solo se muestran las conexiones disponibles en las zonas protegidas seleccionadas. |
-| **[!UICONTROL Uso en CJA]** | Seleccione **[!UICONTROL Activado]** para mostrar solo las conexiones habilitadas para usar con Customer Journey Analytics. Seleccione **[!UICONTROL Desactivado]** para mostrar solamente las conexiones que aún no se han habilitado para usar con Customer Journey Analytics. |
+| **[!UICONTROL Usar en CJA]** | Seleccione **[!UICONTROL Activado]** para mostrar solo las conexiones habilitadas para usar con Customer Journey Analytics. Seleccione **[!UICONTROL Desactivado]** para mostrar solamente las conexiones que aún no se han habilitado para usar con Customer Journey Analytics. |
 
 ### Columnas disponibles
 
@@ -70,21 +70,21 @@ En la tabla están disponibles las siguientes columnas o iconos.
 | Columna o icono | Descripción |
 | --- | --- |
 | **[!UICONTROL _Nombre_]** | Nombre descriptivo de la conexión. Seleccione el nombre del hipervínculo para ver los [detalles de la conexión](#connection-details). |
-| ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | Para ver información sobre [!UICONTROL Conjuntos de datos incluidos], [!UICONTROL Zona protegida], [!UICONTROL Propietario] etc, seleccione ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) junto al nombre de la conexión.<p>Una ventana emergente muestra detalles sobre el conjunto de datos. <p>![Información de conexión emergente](assets/connection-info-popup.png) |
+| ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | Para ver información sobre [!UICONTROL Conjuntos de datos incluidos], [!UICONTROL Zona protegida], [!UICONTROL Propietario] etc, seleccione ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) junto al nombre de la conexión.<p>Una ventana emergente muestra detalles sobre el conjunto de datos. <p>![Ventana emergente de información de la conexión](assets/connection-info-popup.png) |
 | ![Vista de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | Para [crear una vista de datos](#create-a-data-view) para la conexión, seleccione ![Vista de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg). Este icono solo se muestra cuando no hay ninguna vista de datos asociada a la conexión. |
-| ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleccione ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) para abrir un menú contextual. Puede seleccionar: <p>![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Editar]** para [editar](#edit-a-connection) una conexión.<p>![Eliminar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Eliminar]** para [eliminar](#delete-a-connection) una conexión.<p>![Vista de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Cree una nueva vista de datos]** para [crear una nueva vista de datos](#create-a-data-view) para la conexión.<p>![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Mapa de conexión]** para ver un [mapa de conexión](#map-a-connection) para la conexión. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo de conexión &#x200B;]** | El tipo de conexión: basada en **[!UICONTROL persona]** o en **[!UICONTROL cuenta]**. |
-| **[!UICONTROL Conjuntos de datos]** | Uno o más vínculos a los conjuntos de datos que forman parte de la conexión. Puede seleccionar el hipervínculo del conjunto de datos para ver el conjunto de datos en la conexión. Si más conjuntos de datos forman parte de la conexión seleccionada, seleccione **[!UICONTROL +*x* más]** para mostrar el panel **[!UICONTROL Conjuntos de datos incluidos]**. Este panel muestra vínculos a todos los conjuntos de datos y una opción para ![buscar](/help/assets/icons/Search.svg) conjuntos de datos específicos que forman parte de la conexión.<p>![Conjuntos de datos incluidos](assets/datasets-included.png)<p>Seleccione un nombre de conjunto de datos para abrir el conjunto de datos en la interfaz de Experience Platform en una nueva pestaña. |
-| **[!UICONTROL Zona protegida]** | La [zona protegida de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home) desde la que esta conexión obtiene sus conjuntos de datos. Seleccione esta zona protegida cuando cree la conexión. Una vez guardada una conexión, no se puede cambiar la zona protegida. |
+| ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleccione ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) para abrir un menú contextual. Puede seleccionar lo siguiente: <p>![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Editar]** para [editar](#edit-a-connection) una conexión.<p>![Eliminar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Eliminar]** para [eliminar](#delete-a-connection) una conexión.<p>![Vista de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Crear nueva vista de datos]** para [crear una nueva vista de datos](#create-a-data-view) para la conexión.<p>![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Mapa de conexión]** para ver un [mapa de conexión](#map-a-connection) para la conexión. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo de conexión ]** | El tipo de conexión: conexión basada en **[!UICONTROL personas]** o en **[!UICONTROL cuentas]**. |
+| **[!UICONTROL Conjuntos de datos]** | Uno o más vínculos a los conjuntos de datos que forman parte de la conexión. Puede seleccionar el hipervínculo del conjunto de datos para ver el conjunto de datos en la conexión. Si más conjuntos de datos forman parte de la conexión seleccionada, seleccione **[!UICONTROL +*x* más]** para mostrar el panel **[!UICONTROL Conjuntos de datos incluidos]**. Este panel muestra vínculos a todos los conjuntos de datos y una opción para ![buscar](/help/assets/icons/Search.svg) buscar conjuntos de datos específicos que forman parte de la conexión.<p>![Conjuntos de datos incluidos](assets/datasets-included.png)<p>Seleccione un nombre de conjunto de datos para abrir el conjunto de datos en la interfaz de Experience Platform en una nueva pestaña. |
+| **[!UICONTROL Zona protegida]** | La [zona protegida de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home) desde la que esta conexión obtiene sus conjuntos de datos. Seleccione esta zona protegida cuando haya creado la conexión. Una vez guardada una conexión, no puede cambiar la zona protegida. |
 | **[!UICONTROL Propietario]** | La persona que creó la conexión. |
-| **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para conjuntos de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _en]**&#x200B;para conjuntos de datos configurados para importar datos nuevos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** para conjuntos de datos no configurados para importar datos nuevos. |
+| **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para conjuntos de datos: <p>![Estado verde](assets/status-green.svg)    **[!UICONTROL _x _Activado]**para conjuntos de datos configurados para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** para conjuntos de datos no configurados para importar datos nuevos. |
 | **[!UICONTROL Fecha de creación]** | La marca de tiempo en la que se creó la conexión. |
 | **[!UICONTROL Última modificación]** | La marca de tiempo en la que se actualizó la conexión por última vez. |
-| **[!UICONTROL Datos de relleno]** | El estado para los datos de relleno entre conjuntos de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _error de rellenos]**&#x200B;para el número de rellenos con error entre conjuntos de datos,<p>![Estado naranja](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en curso]**&#x200B;para el número de rellenos en procesamiento entre conjuntos de datos,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados para los conjuntos de datos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se definan rellenos para los conjuntos de datos de la conexión. |
+| **[!UICONTROL Datos de relleno]** | El estado para los datos de relleno entre conjuntos de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _error de rellenos]**para el número de rellenos con error entre conjuntos de datos,<p>![Estado naranja](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en curso]**para el número de rellenos en procesamiento entre conjuntos de datos,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados para los conjuntos de datos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se definan rellenos para los conjuntos de datos de la conexión. |
 | **[!UICONTROL Integraciones]** | Muestra todas las aplicaciones de Experience Platform habilitadas con la conexión. |
-| **[!UICONTROL Uso en CJA]** | Muestra si la conexión se ha habilitado para su uso con Customer Journey Analytics. |
+| **[!UICONTROL Usar en CJA]** | Muestra si la conexión se ha habilitado para su uso con Customer Journey Analytics. |
 
-Para configurar qué columnas mostrar en la tabla, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). En el cuadro de diálogo Personalizar tabla, seleccione las columnas que desea mostrar.
+Para definir qué columnas desea mostrar en la tabla, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). En el cuadro de diálogo **[!UICONTROL Personalizar tabla]**, seleccione las columnas que desea mostrar. Luego selecciona **[!UICONTROL Aplicar]**.
 
 ### Edición de una conexión
 
@@ -97,7 +97,7 @@ Como alternativa, puede:
 
 1. Seleccionar la fila de conexión.
 
-1. Seleccione ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Editar]** de la barra de acciones azul.
+1. Seleccionar ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Editar]** en la barra de acciones azul.
 
 Consulte [Crear o editar una conexión](create-connection.md) para obtener más información.
 
@@ -113,7 +113,7 @@ Como alternativa, puede:
 
 1. Seleccionar la fila de conexión.
 
-1. Seleccione ![Eliminar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Eliminar]** de la barra de acciones azul.
+1. Seleccione ![Eliminar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Eliminar]** en la barra de acciones azul.
 
 Al eliminar una conexión, un panel **[!UICONTROL Eliminar conexión]** indica qué vistas de datos se eliminan y qué proyectos de Workspace se ven afectados.
 
@@ -123,7 +123,7 @@ Al eliminar una conexión, un panel **[!UICONTROL Eliminar conexión]** indica q
 
   Seleccione **[!UICONTROL Continuar]** para confirmar la eliminación.
 
-* En ➋ **[!UICONTROL Confirmación]**, escriba el nombre de la conexión en **[!UICONTROL Escriba el nombre de la conexión]** y seleccione **[!UICONTROL Eliminar]** para eliminar la conexión. Seleccione **[!UICONTROL Cancelar]** para cancelar.
+* En ➋ **[!UICONTROL Confirmación]**, escriba el nombre de la conexión en **[!UICONTROL Escribir nombre de conexión]** y seleccione **[!UICONTROL Eliminar]** para eliminar la conexión. Seleccione **[!UICONTROL Cancelar]** para cancelar.
 
 Consulte [Implicaciones de la eliminación](/help/technotes/deletion.md) para obtener más información sobre cómo eliminar una conexión.
 
@@ -139,7 +139,7 @@ Como alternativa, puede:
 
 1. Seleccionar la fila de conexión.
 
-1. Seleccione ![Agregar vista de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Crear vista de datos]** desde la barra de acciones azul.
+1. Seleccione ![Añadir vista de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Crear vista de datos]** en la barra de acciones azul.
 
 Consulte [Creación o edición de una vista de datos](/help/data-views/create-dataview.md) para obtener más información.
 
@@ -147,20 +147,20 @@ Consulte [Creación o edición de una vista de datos](/help/data-views/create-da
 
 Puede utilizar una conexión de Journey Optimizer en Customer Journey Analytics para aportar el siguiente valor adicional a su conexión:
 
-* Realizar un análisis detallado de los datos de Journey Optimizer en Customer Journey Analytics (con el botón **[!UICONTROL Analizar en CJA]** de Journey Optimizer).
+* Realice un análisis detallado de los datos de Journey Optimizer en Customer Journey Analytics (mediante el botón **[!UICONTROL Analizar en CJA]** de Journey Optimizer).
 
   Para obtener más información, consulte [Analizar en Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template) en la documentación de Journey Optimizer.
 
-* Edite la conexión de Journey Optimizer y las vistas de datos asociadas.
+* Edite la conexión de Journey Optimizer y las vistas de datos asociadas
 
-  Para obtener más información acerca de las opciones de edición, vea [Editar una conexión](#edit-a-connection).
+  Para obtener más información sobre las opciones de edición, consulte [Editar una conexión](#edit-a-connection).
 
 
 >[!IMPORTANT]
 >
->Cuando se habilita una conexión de Journey Optimizer para usarla con Customer Journey Analytics como se describe en esta sección, cada fila de datos de la conexión se contabiliza en las filas de datos con licencia cada mes para Customer Journey Analytics y aparece en la interfaz de usuario de uso de conexiones. Seleccione la opción **[!UICONTROL Usar en CJA]** de la conexión solo si se siente cómodo con el uso adicional de filas de datos en Customer Journey Analytics.
+>Cuando se habilita una conexión de Journey Optimizer para usarla con Customer Journey Analytics tal y como se describe en esta sección, cada fila de datos de la conexión se contabiliza para sus filas de datos con licencia cada mes para Customer Journey Analytics y aparece en la interfaz de usuario de uso de conexiones. Seleccione la opción **[!UICONTROL Usar en CJA]** en la conexión solo si se siente cómodo con el uso adicional de filas de datos en Customer Journey Analytics.
 >
->**Si tenía derecho a usar Customer Journey Analytics y Journey Optimizer entre octubre de 2024 y octubre de 2025, consulte el siguiente documento sobre [Conexiones habilitadas para AJO](https://view.adobe.com/viewer/1ed94fc35c7860b260766c620889e7a0#1)**.
+>**Si tenía derecho a usar Customer Journey Analytics y Journey Optimizer entre octubre de 2024 y octubre de 2025, consulte el siguiente documento sobre las [Conexiones habilitadas para AJO](https://view.adobe.com/viewer/1ed94fc35c7860b260766c620889e7a0#1)**.
 
 Para habilitar esta funcionalidad, su organización necesita acceder a Customer Journey Analytics. Si no tiene acceso, póngase en contacto con su representante de ventas de Adobe.
 
@@ -170,52 +170,52 @@ Para utilizar una conexión de Journey Optimizer en Customer Journey Analytics:
 
 1. Busque la conexión de Journey Optimizer que desea utilizar con Customer Journey Analytics.
 
-   1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** en la ficha **[!UICONTROL Conexiones]**.
+   1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** en la pestaña **[!UICONTROL Conexiones]**.
 
    1. En la sección **[!UICONTROL Usar en CJA]**, seleccione **[!UICONTROL Desactivado]**.
 
-      Esto muestra todas las conexiones de Journey Optimizer que no están configuradas actualmente para su uso en Customer Journey Analytics.
+      Se mostrarán todas las conexiones de Journey Optimizer que no están configuradas actualmente para su uso en Customer Journey Analytics.
 
       ![Filtro para mostrar las conexiones no habilitadas para AJO](assets/remove-ajo-connection.png)
 
 1. Seleccione el nombre de la conexión de Journey Optimizer.
 
-1. Seleccionar ![usuarios compartidos](/help/assets/icons/UseInCJA.svg) **[!UICONTROL Usar en CJA]**.
+1. Seleccione ![UsersShare](/help/assets/icons/UseInCJA.svg) **[!UICONTROL Usar en CJA]**.
 
    ![Botón Usar en CJA](assets/connection-use-in-cja.png)
 
-   Se muestra el cuadro de diálogo **[!UICONTROL Usar esta conexión en Customer Journey Analytics]**.
+   Aparecerá el cuadro de diálogo **[!UICONTROL Usar esta conexión en Customer Journey Analytics]**.
 
-1. Habilite la opción **[!UICONTROL Usar conexión en CJA]**.
+1. Active la opción **[!UICONTROL Usar conexión en CJA]**.
 
-1. Seleccione **[!UICONTROL Usar conexión]**. <!-- double-check these dialog button names -->
+1. Seleccione **[!UICONTROL Usar conexión]**. <!-- double-check these dialog button names -->
 
 #### Eliminación de una conexión de Journey Optimizer {#remove-connection-in-cja}
 
-Puede quitar una conexión de Journey Optimizer de Customer Journey Analytics en cualquier momento. Sin embargo, si se elimina la conexión de Customer Journey Analytics después de usarla, se producirá lo siguiente:
+Puede quitar una conexión de Journey Optimizer de Customer Journey Analytics en cualquier momento. Sin embargo, si quita la conexión de Customer Journey Analytics después de usarla, se producirá lo siguiente:
 
-* La conexión de Journey Optimizer y las vistas de datos asociadas se restablecen a su estado predeterminado y ya no se pueden editar
+* La conexión de Journey Optimizer y las vistas de datos asociadas se restablecerán a su estado predeterminado y ya no se podrán editar
 
 * Se eliminará cualquier campo derivado personalizado asociado a la conexión.
 
-* Ya no puede realizar análisis exhaustivos de los datos de Journey Optimizer en Customer Journey Analytics.
+* Ya no podrá realizar un análisis detallado de los datos de Journey Optimizer en Customer Journey Analytics.
 
   Esto significa que el botón **[!UICONTROL Analizar en CJA]** de Journey Optimizer está deshabilitado.
 
 >[!IMPORTANT]
 >
->La facturación de la conexión en Customer Journey Analytics incluye el mes completo durante el cual se elimina la conexión.
+>La facturación de la conexión en Customer Journey Analytics incluye el mes completo durante el cual se quita la conexión.
 
 
-Para eliminar la conexión de Customer Journey Analytics:
+Para quitar la conexión de Customer Journey Analytics:
 
 1. Busque la conexión de Journey Optimizer que desea quitar de Customer Journey Analytics.
 
-   1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** en la ficha **[!UICONTROL Conexiones]**.
+   1. Seleccione ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** en la pestaña **[!UICONTROL Conexiones]**.
 
-   1. En la sección **[!UICONTROL Usar en CJA]**, seleccione **[!UICONTROL En]**.
+   1. En la sección **[!UICONTROL Usar en CJA]**, seleccione **[!UICONTROL Activado]**.
 
-      Esto muestra todas las conexiones de Journey Optimizer que están configuradas actualmente para su uso en Customer Journey Analytics.
+      Se mostrarán todas las conexiones de Journey Optimizer que están configuradas actualmente para su uso en Customer Journey Analytics.
 
       ![Filtro para mostrar las conexiones habilitadas para AJO](assets/enabled-ajo-connection.png)
 
@@ -223,11 +223,11 @@ Para eliminar la conexión de Customer Journey Analytics:
 
 1. Cuando visualice la conexión de Journey Optimizer, seleccione **[!UICONTROL Quitar de CJA]**.
 
-   Se muestra el cuadro de diálogo **[!UICONTROL Quitar esta conexión de Customer Journey Analytics]**:
+   Aparecerá el cuadro de diálogo **[!UICONTROL Quitar esta conexión de Customer Journey Analytics]**:
 
-   ![Quitar del botón de CJA](assets/connection-remove-from-cja.png)
+   ![Botón Quitar de CJA](assets/connection-remove-from-cja.png)
 
-1. Deshabilite la opción **[!UICONTROL Quitar conexión de CJA]**.
+1. Desactive la opción **[!UICONTROL Quitar la conexión de CJA]**.
 
 1. Seleccione **[!UICONTROL Quitar conexión]**.
 
@@ -254,33 +254,33 @@ La página Detalles de conexiones le proporciona una vista detallada del estado 
 | --- | --- |
 | ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Editar conexión]** | Para editar los detalles de una conexión, seleccione ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Editar conexión]**. Consulte [Crear o editar una conexión](create-connection.md) para obtener más información. |
 | **[!UICONTROL *Selector de conjunto de datos *]** | Seleccione uno o todos los conjuntos de datos para mostrar los detalles de la conexión. No puede seleccionar conjuntos de datos múltiples. El valor predeterminado es **[!UICONTROL Todos los conjuntos de datos]**. |
-| **[!UICONTROL *Selector de intervalo de fechas *]** | Seleccione un rango de datos para mostrar los detalles de la conexión. Edite la fecha de inicio, la fecha de finalización o seleccione ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) para abrir el selector de intervalos de fechas. En el selector de intervalos de fechas, seleccione un intervalo de fechas utilizando uno de los períodos predefinidos (por ejemplo, **[!UICONTROL Últimos 6 meses]**) o utilice el calendario para seleccionar las fechas de inicio y finalización. Seleccione **[!UICONTROL Aplicar]** para aplicar el nuevo intervalo de fechas a los detalles de conexión. |
-| **[!UICONTROL Registros de datos de evento]** | El número total de filas del conjunto de datos de evento disponibles para la creación de informes, **para toda la conexión**. Este recuento es independiente de cualquier intervalo de fechas o selección de conjunto de datos. |
-| [!UICONTROL **[!UICONTROL Métricas]**] | Resuma los registros de evento, búsqueda, perfil y conjunto de datos de resumen que se añaden, omiten y eliminan, y el número de lotes añadidos. Estas métricas se basan en **el conjunto de datos y el intervalo de fechas que ha seleccionado**.<p>Seleccione **[!UICONTROL Comprobar detalles]** para mostrar la ventana emergente **[!UICONTROL Comprobar detalles omitidos]**. La ventana emergente enumera el número de registros omitidos y el motivo de todos los conjuntos de datos de evento o conjuntos de datos seleccionados.<p>![Registros omitidos](assets/skipped-records.png)<p>Seleccione la ventana emergente ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) para obtener más información. Por algunas razones omitidas, como [!UICONTROL ID de visitante vacío], la ventana emergente muestra **[!UICONTROL PSQL de muestra para EQS]** (Experience Platform para el servicio de consultas) que puede usar en [servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/home) para consultar los registros omitidos en el conjunto de datos. Seleccione ![Copiar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copiar PSQL de muestra para EQS]** para copiar el SQL. |
-| **[!UICONTROL Registros añadidos]** | Una visualización para indicar cuántas filas se agregaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Se actualiza cada 10 minutos. |
-| **[!UICONTROL Registros omitidos]** | Una visualización para indicar cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Los motivos por los que se omiten registros son: faltan marcas de hora, falta ID de persona o ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, o no es válido, etc. Se actualiza cada 10 minutos. <p>Los ID de persona no válidos (como `undefined`, `00000000` o cualquier combinación de números y letras en un [!UICONTROL ID de persona] que aparecen en un evento más de un millón de veces en un mes determinado) son ID que no se pueden atribuir a ningún usuario o persona en particular. Estas filas no se pueden ingerir en el sistema, y conllevan a la creación de informes e ingestas propensas a errores. Para corregir ID de persona o ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} no válidos, tiene tres opciones:<ul><li>Utilice [Identificación](/help/stitching/overview.md) para rellenar los ID de usuario sin definir o todos cero con ID de usuario válidos.</li><li>Vacíe los ID de usuario, que luego se omiten durante la ingesta (preferible a los ID de usuario no válidos o todos cero).</li><li>Corrija cualquier ID de usuario no válido en el sistema antes de ingerir los datos.</li></ul> |
-| **[!UICONTROL Registros eliminados]** | Una visualización para indicar cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fechas que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en [!DNL Experience Platform], por ejemplo. Se actualiza cada 10 minutos.<p>En algunos casos, este valor también puede incluir registros reemplazados, como con la vinculación o algunas actualizaciones del conjunto de datos de búsqueda. Observe este ejemplo:</p><ul><li>Carga un registro en un conjunto de datos de perfil individual de XDM, configurado para la ingesta como datos de búsqueda de perfil por parte de Customer Journey Analytics. En los detalles de la conexión, este conjunto de datos mostraría un registro añadido.</li><li>Carga un duplicado del registro original en el mismo conjunto de datos de AEP, que ahora contiene dos registros. Customer Journey Analytics ingiere el registro adicional del conjunto de datos de búsqueda de perfiles o cuenta [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. Al ver que ya se ha introducido un perfil o registro de cuenta en la conexión para ese ID de persona o ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, Customer Journey Analytics elimina su versión anterior y agrega los nuevos datos de perfil. En los detalles de la conexión, esta acción representaría 1 registro agregado y 1 registro eliminado, ya que Customer Journey Analytics solo conserva los datos de búsqueda de perfil más recientes para cualquier ID de persona o ID de cuenta ingeridos [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}.</li><li>En total, el conjunto de datos de AEP contiene dos registros que son idénticos. Por otro lado, los detalles de conexión de Customer Journey Analytics muestran el estado de sus datos ingeridos: 2 registros añadidos y 1 registro eliminado para este conjunto de datos de perfil. </li></ul> |
-| ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Campo de búsqueda del conjunto de datos. Puede buscar la tabla de conjuntos de datos por nombre o ID de conjunto de datos. |
-| [!UICONTROL Tabla de conjuntos de datos] | Los conjuntos de datos que forman parte de la conexión. Consulte la tabla siguiente para obtener más información. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) un solo conjunto de datos para mostrar solo los detalles de conexión del conjunto de datos seleccionado. Esto equivale a la selección de un conjunto de datos a partir de **[!UICONTROL _Selector de conjunto de datos_]**. |
+| **[!UICONTROL *Selector de intervalo de fechas *]** | Seleccione un intervalo de fecha para mostrar los detalles de la conexión. Edite la fecha de inicio, la fecha de finalización o seleccione ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) para abrir el selector de intervalos de fechas. En el selector de intervalos de fechas, seleccione un intervalo de fechas utilizando uno de los períodos predefinidos (por ejemplo, **[!UICONTROL Últimos 6 meses]**) o utilice el calendario para seleccionar las fechas de inicio y finalización. Seleccione **[!UICONTROL Aplicar]** para aplicar el nuevo intervalo de fecha a los detalles de la conexión. |
+| **[!UICONTROL Registros de datos de evento]** | El número total de filas del conjunto de datos de evento disponibles para la creación de informes, **para toda la conexión**. Este recuento es independiente de cualquier intervalo de fecha o selección de conjunto de datos. |
+| [!UICONTROL **[!UICONTROL Métricas]**] | Resuma los registros de evento, búsqueda, perfil y conjunto de datos de resumen que se añaden, omiten y eliminan, y el número de lotes añadidos. Estas métricas se basan en **el conjunto de datos y el intervalo de fecha que ha seleccionado**.<p>Seleccione **[!UICONTROL Comprobar detalles]** para mostrar la ventana emergente **[!UICONTROL Comprobar detalles omitidos]**. La ventana emergente enumera el número de registros omitidos y el motivo de todos los conjuntos de datos de evento o conjuntos de datos seleccionados.<p>![Registros omitidos](assets/skipped-records.png)<p>Seleccione la ventana emergente ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) para obtener más información. Por algunas razones que se han omitido, como el [!UICONTROL ID de visitante vacío], la ventana emergente muestra **[!UICONTROL PSQL de muestra para EQS]** (Experience Platform para el servicio de consultas) que puede usar en [Servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/home) para consultar los registros omitidos en el conjunto de datos. Seleccione ![Copiar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copiar PSQL de muestra para EQS]** para copiar el SQL. |
+| **[!UICONTROL Registros añadidos]** | Una visualización para indicar cuántas filas se añadieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fecha que ha seleccionado**. Se actualiza cada 10 minutos. |
+| **[!UICONTROL Registros omitidos]** | Una visualización para indicar cuántas filas se omitieron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fecha que ha seleccionado**. Las razones para omitir registros incluyen que faltan marcas de tiempo, que falta o no es válido el ID de persona o el ID de cuenta de [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, etc. Se actualiza cada 10 minutos. <p>Los ID de persona no válidos (como `undefined`, `00000000` o cualquier combinación de números y letras en un [!UICONTROL ID de persona] que aparecen en un evento más de un millón de veces en un mes determinado) son ID que no se pueden atribuir a ningún usuario o persona en particular. Estas filas no se pueden ingerir en el sistema, y conllevan a la creación de informes e ingestas propensas a errores. Para corregir los ID de persona o ID de cuenta no válidos de [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, tiene tres opciones:<ul><li>Utilice [Identificación](/help/stitching/overview.md) para rellenar los ID de usuario sin definir o todos cero con ID de usuario válidos.</li><li>Deje los ID de usuario en blanco, que también se omitirán durante la ingesta (es preferible a los ID de usuario no válidos o compuestos únicamente por ceros).</li><li>Corrija cualquier ID de usuario no válido en el sistema antes de ingerir los datos.</li></ul> |
+| **[!UICONTROL Registros eliminados]** | Una visualización para indicar cuántas filas se eliminaron en el período de tiempo seleccionado, **para el conjunto de datos y el intervalo de fecha que ha seleccionado**. Alguien podría haber eliminado un conjunto de datos en [!DNL Experience Platform], por ejemplo. Se actualiza cada 10 minutos.<p>En algunos casos, este valor también puede incluir registros reemplazados, como con la vinculación o algunas actualizaciones del conjunto de datos de búsqueda. Observe este ejemplo:</p><ul><li>Carga un registro en un conjunto de datos de perfil individual de XDM, configurado para la ingesta como datos de búsqueda de perfil por parte de Customer Journey Analytics. En los detalles de la conexión, este conjunto de datos mostraría un registro añadido.</li><li>Carga un duplicado del registro original en el mismo conjunto de datos de AEP, que ahora contiene dos registros. Customer Journey Analytics ingiere el registro adicional del conjunto de datos de búsqueda de perfiles o cuenta [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. Al ver que ya se ha introducido un perfil o registro de cuenta en la conexión para ese ID de persona o ID de cuenta de [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, Customer Journey Analytics elimina su versión anterior y añade los nuevos datos de perfil. En los detalles de la conexión, esta acción representaría un registro añadido y uno eliminado, ya que Customer Journey Analytics solo conserva los datos de búsqueda del perfil más reciente para cualquier ID de persona o ID de cuenta ingeridos de [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}.</li><li>En total, el conjunto de datos de AEP contiene dos registros que son idénticos. Por otro lado, los detalles de conexión de Customer Journey Analytics muestran el estado de sus datos ingeridos: 2 registros añadidos y 1 registro eliminado para este conjunto de datos de perfil. </li></ul> |
+| ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Campo de búsqueda del conjunto de datos. Puede buscar la tabla de conjuntos de datos por el nombre de conjunto de datos o el ID de conjunto de datos. |
+| [!UICONTROL Tabla de conjuntos de datos] | Los conjuntos de datos que forman parte de la conexión. Consulte la tabla siguiente para obtener más explicaciones. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) un único conjunto de datos para mostrar solo los detalles de conexión del conjunto de datos seleccionado. Esto equivale a la selección de un conjunto de datos desde el **[!UICONTROL _Selector de conjunto de datos_]**. |
 
 La tabla de conjuntos de datos muestra las siguientes columnas para cada conjunto de datos:
 
 | Columna | Descripción |
 | --- | --- |
-| **[!UICONTROL Conjuntos de datos]** | Nombre del conjunto de datos. Puede seleccionar el hipervínculo para abrir el conjunto de datos en la interfaz de usuario de Experience Platform en una nueva pestaña. Puede seleccionar la fila o la casilla de verificación para mostrar solo los detalles del conjunto de datos seleccionado. |
-| **[!UICONTROL ID de conjunto de datos]** | ID del conjunto de datos generado por Experience Platform. |
-| **[!UICONTROL Registros añadidos]** | El número de registros del conjunto de datos (filas) agregados a una conexión durante el intervalo de fechas seleccionado. |
-| **[!UICONTROL Registros omitidos]** | El número de registros del conjunto de datos (filas) omitidos durante la transferencia de datos para una conexión durante el intervalo de fechas seleccionado. |
-| **[!UICONTROL Registros eliminados]** | El número de registros del conjunto de datos (filas) quitados de una conexión durante el intervalo de fechas seleccionado. |
-| **[!UICONTROL Lotes añadidos]** | El número de lotes que se han agregado a una conexión durante el intervalo de fechas seleccionado. |
-| **[!UICONTROL Última incorporación]** | La marca de tiempo del último lote que se añadió a una conexión. |
-| **[!UICONTROL Tipo de fuente de datos]** | El tipo de origen. El tipo de origen se define al agregar un conjunto de datos a una conexión. |
-| **[!UICONTROL Tipo de conjunto de datos]** | El [tipo de conjunto de datos](create-connection.md#dataset-types). El tipo puede ser **[!UICONTROL Event]**, **[!UICONTROL Profile]**, **[!UICONTROL Lookup]**, **[!UICONTROL Summary]**. Un conjunto de datos adhoc o relacional está identificado por **[!UICONTROL (Adhoc)]** o **[!UICONTROL (Relacional)]**. Por ejemplo, **[!UICONTROL Evento (adhoc)]** o **[!UICONTROL Búsqueda (relacional)]**. |
+| **[!UICONTROL Conjuntos de datos]** | El nombre del conjunto de datos. Puede seleccionar el hipervínculo para abrir el conjunto de datos en la interfaz de usuario de Experience Platform en una nueva pestaña. Puede seleccionar la fila o la casilla de verificación para mostrar solo los detalles del conjunto de datos seleccionado. |
+| **[!UICONTROL ID de conjunto de datos]** | El ID del conjunto de datos generado por Experience Platform. |
+| **[!UICONTROL Registros añadidos]** | El número de registros del conjunto de datos (filas) añadidos a una conexión durante el intervalo de fechas seleccionado.  |
+| **[!UICONTROL Registros omitidos]** | El número de registros del conjunto de datos (filas) omitidos durante la transferencia de datos de una conexión durante el intervalo de fechas seleccionado. |
+| **[!UICONTROL Registros eliminados]** | El número de registros del conjunto de datos (filas) que se han quitado de una conexión durante el intervalo de fechas seleccionado. |
+| **[!UICONTROL Lotes añadidos]** | El número de lotes que se han añadido a una conexión durante el intervalo de fechas seleccionado. |
+| **[!UICONTROL Última incorporación]** | La marca de tiempo del último lote que se ha añadido a una conexión. |
+| **[!UICONTROL Tipo de fuente de datos]** | El tipo de fuente. El tipo de fuente se define al añadir un conjunto de datos a una conexión. |
+| **[!UICONTROL Tipo de conjunto de datos]** | El [tipo de conjunto de datos](create-connection.md#dataset-types). El tipo puede ser **[!UICONTROL Evento]**, **[!UICONTROL Perfil]**, **[!UICONTROL Búsqueda]**, **[!UICONTROL Resumen]**. Un conjunto de datos ad hoc o relacional está identificado por **[!UICONTROL (Ad hoc)]** o **[!UICONTROL (Relacional)]**. Por ejemplo, **[!UICONTROL Evento (ad hoc)]** o **[!UICONTROL Búsqueda (relacional)]**. |
 | **[!UICONTROL Vinculado]** | Si un conjunto de datos está [habilitado para la vinculación en la interfaz de usuario de la conexión](/help/stitching/use-stitching-ui.md), el valor es **[!UICONTROL true]**. De lo contrario, el valor es **[!UICONTROL false]**. Los conjuntos de datos enlazados que son el resultado de la [solicitud para vincular el procedimiento](/help/stitching//use-stitching.md) no se identifican como enlazados en esta tabla y, de forma predeterminada, tienen un valor de **[!UICONTROL false]**. |
 | **[!UICONTROL Esquema]** | El esquema de Adobe Experience Platform en el que se basa este conjunto de datos. |
-| **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar una nueva importación de datos. |
-| **[!UICONTROL Datos de transformación]** | El estado de transformación de los conjuntos de datos de consulta B2B aplicables. Consulte [Transformación de conjuntos de datos para búsquedas B2B](transform-datasets-b2b-lookups.md) para obtener más información.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;para conjuntos de datos aplicables habilitados para la transformación, <p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** para conjuntos de datos aplicables no habilitados para la transformación y<p>**[!UICONTROL N/A]** para todos los demás conjuntos de datos, no aplicables para la transformación. |
-| **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
+| **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar una nueva importación de datos. |
+| **[!UICONTROL Datos de transformación]** | El estado de transformación de los conjuntos de datos de consulta B2B aplicables. Consulte [Transformación de conjuntos de datos para búsquedas B2B](transform-datasets-b2b-lookups.md) para obtener más información.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**para conjuntos de datos aplicables habilitados para la transformación, <p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** para conjuntos de datos aplicables no habilitados para la transformación y<p>**[!UICONTROL N/A]** para todos los demás conjuntos de datos, no aplicables para la transformación. |
+| **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
 
 >[!IMPORTANT]
 >
@@ -289,27 +289,27 @@ La tabla de conjuntos de datos muestra las siguientes columnas para cada conjunt
 
 #### Panel de conexión
 
-Cuando no se selecciona ningún conjunto de datos individual en la tabla de conjuntos de datos, el panel derecho muestra las opciones y los detalles de conexión.
+Cuando no se selecciona ningún conjunto de datos individual en la tabla de conjuntos de datos, el panel derecho muestra las opciones y los detalles de la conexión.
 
 | Opciones | Descripción |
 | --- | --- |
 | ![Actualizar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Actualizar]** | Para actualizar la conexión y permitir que se reflejen los registros añadidos recientemente, seleccione ![Actualizar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Actualizar]**. |
 | ![Eliminar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Eliminar]** | [Elimine](#delete-a-connection) esta conexión. |
 | ![Añadir vista de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Crear vista de datos]** | [Cree una vista de datos](#create-a-data-view) en función de la conexión. Consulte [Vistas de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views) para obtener más información. |
-| **[!UICONTROL Uso en CJA]** | Utilice una conexión de Journey Optimizer en Customer Journey Analytics para añadir valor adicional a la conexión de Journey Optimizer. Para obtener más información, consulte [Usar una conexión Journey Optimizer en Customer Journey Analytics](#use-a-journey-optimizer-connection-in-customer-journey-analytics). |
+| **[!UICONTROL Usar en CJA]** | Utilice una conexión de Journey Optimizer en Customer Journey Analytics para añadir valor adicional a la conexión de Journey Optimizer. Para obtener más información, consulte [Usar una conexión de Journey Optimizer en Customer Journey Analytics](#use-a-journey-optimizer-connection-in-customer-journey-analytics). |
 | **[!UICONTROL Nombre de la conexión]** | Muestra el nombre descriptivo de la conexión. |
 | **[!UICONTROL Descripción de la conexión]** | Muestra una descripción más detallada que describe el propósito de esta conexión. |
-| **[!UICONTROL Zona protegida]** | La [zona protegida de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home) desde la que esta conexión obtiene sus conjuntos de datos. Seleccione esta zona protegida cuando cree la conexión. Una vez guardada una conexión, no se puede cambiar la zona protegida. |
-| **[!UICONTROL ID de conexión]** | Un identificador generado para la conexión. Puede usar ![Copiar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) para copiar el valor. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo de ID principal &#x200B;]** | El tipo de identificador principal para la conexión: **[!UICONTROL Persona]** para una conexión basada en persona, **[!UICONTROL Cuenta]** para una conexión basada en cuenta. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Contenedores &#x200B;]** | Los contenedores configurados para la conexión. |
+| **[!UICONTROL Zona protegida]** | La [zona protegida de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home) desde la que esta conexión obtiene sus conjuntos de datos. Seleccione esta zona protegida cuando haya creado la conexión. Una vez guardada una conexión, no puede cambiar la zona protegida. |
+| **[!UICONTROL ID de conexión]** | Un identificador generado para la conexión. Puede utilizar ![Copiar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) para copiar el valor. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo de ID principal ]** | El tipo de identificador principal de la conexión: **[!UICONTROL Persona]** para una conexión basada en personas, **[!UICONTROL Cuenta]** para una conexión basada en cuentas. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Contenedores ]** | Los contenedores configurados para la conexión. |
 | **[!UICONTROL Vistas de datos mediante conexión]** | Las vistas de datos que utilizan esta conexión. |
-| **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para conjuntos de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;para saber cuántos conjuntos de datos se han configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** para cuántos conjuntos de datos se desactiva la nueva importación de datos nuevos. |
-| **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno para los conjuntos de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos entre conjuntos de datos,<p>![Estado naranja](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en proceso]**&#x200B;para el número de rellenos en proceso entre conjuntos de datos,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados para los conjuntos de datos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se definan rellenos para los conjuntos de datos de la conexión. |
-| **[!UICONTROL Datos de transformación]** | El estado de transformación de los conjuntos de datos de consulta B2B aplicables. Consulte [Transformación de conjuntos de datos para búsquedas B2B](transform-datasets-b2b-lookups.md) para obtener más información.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;para el número de conjuntos de datos habilitados para la transformación. |
+| **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para conjuntos de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**para saber cuántos conjuntos de datos se han configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** para cuántos conjuntos de datos se desactiva la nueva importación de datos nuevos. |
+| **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno para los conjuntos de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos entre conjuntos de datos,<p>![Estado naranja](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en proceso]**para el número de rellenos en proceso entre conjuntos de datos,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados para los conjuntos de datos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se definan rellenos para los conjuntos de datos de la conexión. |
+| **[!UICONTROL Datos de transformación]** | El estado de transformación de los conjuntos de datos de consulta B2B aplicables. Consulte [Transformación de conjuntos de datos para búsquedas B2B](transform-datasets-b2b-lookups.md) para obtener más información.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**para el número de conjuntos de datos habilitados para la transformación. |
 | **[!UICONTROL Creado por]** | El nombre de la persona que ha creado la conexión. |
 | **[!UICONTROL Última modificación]** | La marca de tiempo del último cambio en la conexión. |
-| **[!UICONTROL Última modificación de:]** | Nombre de la persona que modificó la conexión por última vez. |
+| **[!UICONTROL Última modificación de:]** | El nombre de la persona que modificó la conexión por última vez. |
 
 #### Panel Conjunto de datos
 
@@ -317,24 +317,24 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 
 | Detalles | Descripción |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL ID. de cuenta global &#x200B;]** | La identidad que ha especificado como identificador de cuenta global para la conexión. Solo se aplica a una conexión basada en cuentas para la que se ha configurado un contenedor de cuenta global. |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL ID de cuenta &#x200B;]** | La identidad que ha especificado como ID de cuenta para la conexión. Solo se aplica a una conexión basada en cuentas para la que no se ha configurado ningún contenedor de cuenta global. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL ID de cuenta global ]** | La identidad que ha especificado como ID de cuenta global para la conexión. Solo se aplica a una conexión basada en cuentas para la que se ha configurado un contenedor de cuenta global. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL ID de cuenta ]** | La identidad que ha especificado como ID de cuenta para la conexión. Solo se aplica a una conexión basada en cuentas para la que no se ha configurado ningún contenedor de cuenta global. |
 | **[!UICONTROL ID de la persona]** | La identidad que ha especificado como ID de persona para la conexión. |
 | **[!UICONTROL Clave]** | La clave que ha especificado para un conjunto de datos de consulta. |
 | **[!UICONTROL Clave de coincidencia]** | La clave de coincidencia que ha especificado para un conjunto de datos de consulta. |
 | **[!UICONTROL Marca de tiempo]** | La marca de tiempo definida para un conjunto de datos de evento. |
 | **[!UICONTROL Registros disponibles]** | El número total de filas ingeridas para este conjunto de datos, para el período de tiempo particular seleccionado a través del calendario. Una vez añadidos, no hay latencia en cuanto a la aparición de datos en los informes. Sin embargo, cuando crea una conexión completamente nueva, hay [latencia](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq). |
-| **[!UICONTROL Registros añadidos]** | El número de registros del conjunto de datos (filas) agregados a una conexión durante el intervalo de fechas seleccionado. |
-| **[!UICONTROL Registros omitidos]** | El número de registros del conjunto de datos (filas) omitidos durante la transferencia de datos para una conexión durante el intervalo de fechas seleccionado. |
-| **[!UICONTROL Lotes añadidos]** | El número de lotes que se han agregado a una conexión. |
-| **[!UICONTROL Registros eliminados]** | El número de registros del conjunto de datos (filas) quitados de una conexión durante el intervalo de fechas seleccionado. |
-| **[!UICONTROL Última incorporación]** | La marca de tiempo del último lote que se añadió a una conexión. |
-| **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
-| **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos.<p>Para mostrar un cuadro de diálogo con información general de los rellenos anteriores para el conjunto de datos, seleccione <img src="./assets/pastbackfill.svg" alt="Rellenos anteriores" width="15"/> **[!UICONTROL Rellenos anteriores]**. |
-| **[!UICONTROL Tipo de fuente de datos]** | Tipo de fuente de datos definido cuando se agregó el conjunto de datos a la conexión. |
-| **[!UICONTROL Tipo de conjunto de datos]** | El [tipo de conjunto de datos](create-connection.md#dataset-types). El tipo puede ser **[!UICONTROL Event]**, **[!UICONTROL Profile]**, **[!UICONTROL Lookup]**, **[!UICONTROL Summary]**. Un conjunto de datos adhoc o relacional está identificado por **[!UICONTROL (Adhoc)]** o **[!UICONTROL (Relacional)]**. Por ejemplo, **[!UICONTROL Evento (adhoc)]** o **[!UICONTROL Búsqueda (relacional)]**. |
+| **[!UICONTROL Registros añadidos]** | El número de registros del conjunto de datos (filas) añadidos a una conexión durante el intervalo de fechas seleccionado.  |
+| **[!UICONTROL Registros omitidos]** | El número de registros del conjunto de datos (filas) omitidos durante la transferencia de datos de una conexión durante el intervalo de fechas seleccionado. |
+| **[!UICONTROL Lotes añadidos]** | El número de lotes que se ha añadido a una conexión. |
+| **[!UICONTROL Registros eliminados]** | El número de registros del conjunto de datos (filas) que se han quitado de una conexión durante el intervalo de fechas seleccionado. |
+| **[!UICONTROL Última incorporación]** | La marca de tiempo del último lote que se ha añadido a una conexión. |
+| **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar datos nuevos. |
+| **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos.<p>Para mostrar un cuadro de diálogo con información general de los rellenos anteriores para el conjunto de datos, seleccione <img src="./assets/pastbackfill.svg" alt="Rellenos anteriores" width="15"/> **[!UICONTROL Rellenos anteriores]**. |
+| **[!UICONTROL Tipo de fuente de datos]** | Tipo de fuente de datos definido al añadir el conjunto de datos a la conexión. |
+| **[!UICONTROL Tipo de conjunto de datos]** | El [tipo de conjunto de datos](create-connection.md#dataset-types). El tipo puede ser **[!UICONTROL Evento]**, **[!UICONTROL Perfil]**, **[!UICONTROL Búsqueda]**, **[!UICONTROL Resumen]**. Un conjunto de datos ad hoc o relacional está identificado por **[!UICONTROL (Ad hoc)]** o **[!UICONTROL (Relacional)]**. Por ejemplo, **[!UICONTROL Evento (ad hoc)]** o **[!UICONTROL Búsqueda (relacional)]**. |
 | **[!UICONTROL Esquema]** | El esquema de Adobe Experience Platform en el que se basa este conjunto de datos. |
-| **[!UICONTROL ID de conjunto de datos]** | El ID del conjunto de datos, tal como se genera en Experience Platform. |
+| **[!UICONTROL ID de conjunto de datos]** | El ID de conjunto de datos, tal como se genera en Experience Platform. |
 
 
 ## Uso {#connections-usage}
@@ -376,8 +376,8 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 
 >[!CONTEXTUALHELP]
 >id="connections_corereportablerows"
->title="Filas principales notificables"
->abstract="El número total de filas disponibles durante los últimos 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024."
+>title="Filas notificables de datos principales"
+>abstract="El número total de filas disponibles durante los últimos 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de eventos de enero de 2023 a enero de 2024."
 
 >[!CONTEXTUALHELP]
 >id="connections_historicalreportablerows"
@@ -394,12 +394,12 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >[!CONTEXTUALHELP]
 >id="connections_coredatavolume"
 >title="Volumen de datos principales"
->abstract="Cantidad total de datos almacenados en el disco con marca de tiempo para el mes actual (en TB), con un cambio porcentual en comparación con el mes anterior."
+>abstract="La cantidad total de datos almacenados en el disco con marca de tiempo para el mes actual (en TB), con un cambio porcentual en comparación con el mes anterior."
 
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
->title="Filas principales notificables"
+>title="Filas notificables de datos principales"
 >abstract="Las filas principales notificables son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Si un cliente selecciona de enero a marzo, los valores reflejarán la instantánea de marzo."
 
 >[!CONTEXTUALHELP]
@@ -421,13 +421,13 @@ La interfaz de uso utiliza las siguientes métricas:
 
 | Nombre de la métrica | Descripción |
 |---|---|
-| **Filas históricas de informe** | Recuento de filas para el periodo superior a 13 meses. |
-| **Filas principales de informe** | Recuento de filas de los últimos 13 meses. |
-| **Volumen de datos básicos** | Cantidad total de datos almacenados en el disco. |
-| **Tamaño medio de fila** | Cantidad promedio de almacenamiento consumido para cada fila de datos ingerida y almacenada. |
-| **Filas ingeridas** | Cuántas filas se ingieren para el periodo específico. |
+| **Filas notificables de datos históricos** | Recuento de filas para el período superior a 13 meses. |
+| **Filas notificables de datos principales** | Recuento de filas de los últimos 13 meses. |
+| **Volumen de datos principales** | La cantidad total de datos almacenados en el disco. |
+| **Tamaño promedio de fila** | La cantidad promedio de almacenamiento consumido para cada fila de datos introducidos y almacenados. |
+| **Filas ingeridas** | Cuántas filas se ingieren para el período específico. |
 | **Filas notificables** | Cuántas filas de datos tiene como parte de la conexión durante el período específico. |
-| **Filas acumulativas** | Cuántas filas se incorporan hasta el mes específico. |
+| **Filas acumuladas** | Cuántas filas se incorporan hasta el mes específico. |
 
 >[!NOTE]
 >
@@ -438,16 +438,16 @@ La interfaz de uso consta de dos paneles:
 
 * El panel **[!UICONTROL Métricas de uso de claves]** que muestra:
 
-   * Cuatro visualizaciones de resumen que muestran los cambios totales y porcentuales desde el mes anterior para:
+   * Cuatro visualizaciones de resumen que muestran los cambios totales y porcentuales del mes anterior para:
 
-      * **[!UICONTROL Filas de datos principales de las que se puede informar]**. Número total de filas disponibles durante los últimos 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024.
-      * **[!UICONTROL Filas de datos históricos para notificar]**. El número total de filas disponibles durante un período anterior a 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento anterior a enero de 2023.
-      * **[!UICONTROL Volumen de datos básicos]**. Cantidad total de datos almacenados en el disco con marca de tiempo para el mes actual (en TB), con un cambio porcentual en comparación con el mes anterior.
-      * **[!UICONTROL Tamaño medio de fila]**. La cantidad media de almacenamiento consumida por cada fila de datos ingeridos y almacenados para el mes actual (en kB), con un cambio porcentual en comparación con el mes anterior.
+      * **[!UICONTROL Filas notificables de datos principales]**. El número total de filas disponibles durante los últimos trece meses para el mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de eventos de enero de 2023 a enero de 2024.
+      * **[!UICONTROL Filas notificables de datos históricos]**. El número total de filas disponibles durante un período anterior a 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento anterior a enero de 2023.
+      * **[!UICONTROL Volumen de datos principales]**. La cantidad total de datos almacenados en el disco con marca de tiempo para el mes actual (en TB), con un cambio porcentual en comparación con el mes anterior.
+      * **[!UICONTROL Tamaño promedio de fila]**. La cantidad media de almacenamiento consumida por cada fila de datos ingeridos y almacenados para el mes actual (en kB), con un cambio porcentual en comparación con el mes anterior.
 
-   * Una visualización de barras verticales apiladas que muestra las **[!UICONTROL filas de datos principales e históricos]** de los últimos 13 meses.
+   * Una visualización de barras verticales apiladas que muestra las **[!UICONTROL filas de datos notificables de datos principales e históricos]** de los últimos trece meses.
 
-     Cuando pasa el ratón sobre cualquier barra apilada de la visualización, una ventana emergente muestra el número de filas de esa parte específica de la barra. En el ejemplo siguiente, se muestran las filas de los datos principales notificables del mes actual (agosto de 2025: 936 millones (936.347.325)).
+     Cuando se pasa el puntero por encima de cualquier barra apilada de la visualización, una ventana emergente muestra el número de filas de esa parte específica de la barra. En el ejemplo siguiente, se muestran las filas notificables de los datos principales del mes actual (agosto de 2025: 936 millones (936 347 325)).
 
 
      ![Métricas de uso clave](assets/usage-key-usage-metrics.png)
@@ -481,7 +481,7 @@ La interfaz de uso consta de dos paneles:
 
   Puede usar la tabla **[!UICONTROL Desglose de detalles]** para ver las métricas detalladas por conexión, conjunto de datos, zona protegida y etiquetas. Los conjuntos de datos se comunican utilizando ID en lugar de nombres, ya que los nombres de los conjuntos de datos se pueden modificar durante un período de creación de informes. Los conjuntos de datos o conexiones desconocidos se notifican con sus ID.
 
-  Para los meses anteriores a septiembre de 2024, los datos se recopilaron en el nivel de conjunto de datos y se muestran como [!UICONTROL Otros conjuntos de datos] para una mayor claridad. A partir de septiembre de 2024, los datos se recopilarán en un nivel de conjunto de datos granular y [!UICONTROL Otros conjuntos de datos] dejarán de aparecer.
+  Para los meses anteriores a septiembre de 2024, los datos se recopilaron en el nivel de conjunto de datos y se muestran como [!UICONTROL Otros conjuntos de datos] para una mayor claridad. A partir de septiembre de 2024, los datos se recopilan en un nivel de conjunto de datos granular y [!UICONTROL Otros conjuntos de datos] dejan de aparecer.
 
    * Para cambiar el desglose, seleccione una combinación para **[!UICONTROL Ver por]** y **[!UICONTROL Desglosar por]**.
 
