@@ -1,21 +1,22 @@
 ---
-title: Asignación de datos de Analytics de varias organizaciones de IMS
+title: Asignación de datos entre IMS
 description: Descubra cómo puede solicitar asignar datos de grupos de informes de varias organizaciones de IMS de origen a una organización de IMS de destino.
 role: Admin
 solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 hide: true
 hidefromtoc: true
-source-git-commit: 925da525b61c2a24156159f4029303c297e0af10
+exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
+source-git-commit: 16486ded009a9dbd9170240c0941853a4deec0af
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
 
-# Asignación de datos de Analytics de varias organizaciones de IMS
+# Asignación de datos entre IMS
 
-El conector de origen de Analytics solo puede introducir datos de grupos de informes de Adobe Analytics que pertenezcan a la misma organización para la que está autorizado a utilizar Customer Journey Analytics. La función para asignar datos de Analytics de varias organizaciones IMS proporciona una solución para esta limitación. El proceso para habilitar esta función se describe en este artículo.
+El conector de origen de Analytics solo puede introducir datos de grupos de informes de Adobe Analytics que pertenezcan a la misma organización para la que está autorizado a utilizar Customer Journey Analytics. La característica *Asignación de datos entre IMS* es una característica para asignar datos de Analytics de varias organizaciones IMS y proporciona una solución para esta limitación. El proceso para habilitar esta función se describe en este artículo.
 
 
 ## Escenario
@@ -28,7 +29,7 @@ Dispone de varias organizaciones IMS y tiene datos de Analytics en varios grupos
 
 De forma predeterminada, no puede crear informes sobre la combinación de datos de varios grupos de informes en varias organizaciones de IMS en Customer Journey Analytics. El motivo de esta limitación es que la ingesta de datos de Adobe Analytics en Experience Platform a través del conector de origen de Analytics solo admite la ingesta de datos propiedad de una única organización IMS. La organización IMS para la que está aprovisionado y que utiliza para iniciar sesión en Adobe Analytics, Experience Platform y Customer Journey Analytics.
 
-Con la función *asignar datos de Analytics de varias organizaciones de IMS*, puede solicitar a Adobe que asigne datos. La función usa el conector de origen de Analytics para asignar datos de grupos de informes que residen en varias organizaciones IMS de *origen* a conjuntos de datos que forman parte de una organización IMS de *destino*. Por ejemplo:
+Con la función *Asignación de datos entre IMS*, puede solicitar a Adobe que asigne datos. La función usa el conector de origen de Analytics para asignar datos de grupos de informes que residen en varias organizaciones IMS de *origen* a grupos de informes (y conjuntos de datos definitivos) que forman parte de una organización IMS de *destino*. Por ejemplo:
 
 | Ilustración | Explicación |
 |---|---|
@@ -38,7 +39,7 @@ Con la función *asignar datos de Analytics de varias organizaciones de IMS*, pu
 
 ## Cómo usar
 
-Para configurar y habilitar la característica *asignar datos de Analytics de varias organizaciones de IMS*, debe solicitar la asignación a través del administrador de cuentas de Adobe. Para ello, haga lo siguiente:
+Para configurar y habilitar la función *asignación de datos entre IMS*, debe solicitar la asignación a través del administrador de cuentas de Adobe. Para ello, haga lo siguiente:
 
 1. Como administrador de la organización IMS de destino, solicite correos electrónicos de aprobación a todos los administradores de la organización IMS de origen para los que desee asignar grupos de informes. Puede utilizar el siguiente texto como plantilla para que el correo electrónico solicite la aprobación a los administradores de la organización IMS de origen.
 
@@ -50,12 +51,12 @@ Para configurar y habilitar la característica *asignar datos de Analytics de va
 
 Una vez que el administrador de cuentas de Adobe recibe el correo electrónico con la solicitud para asignar datos de Analytics de varias organizaciones, la solicitud se revisa dentro de Adobe. El administrador de cuentas de Adobe se pone en contacto con usted para cualquier pregunta adicional, formación opcional y otra información.
 
-Una vez aprobada, se crea la asignación solicitada y se le notifica. El nombre de la organización de IMS de origen se anexa al nombre del grupo de informes en la [lista de grupos de informes de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) en Experience Platform.
+Una vez aprobada, se crea la asignación solicitada y se le notifica. El nombre de la organización de IMS de origen se anexa al nombre del grupo de informes en la [lista de grupos de informes de Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) en Experience Platform.
 
 
 ## Limitaciones
 
-Las siguientes limitaciones se aplican a los datos de *map Analytics de varias organizaciones de IMS*:
+Las siguientes limitaciones se aplican a la función *Asignación de datos entre IMS*:
 
 * Puede conectar un grupo de informes solo una vez entre organizaciones.
 * Debe eliminar todas las conexiones para una organización de IMS definida como la organización de IMS de destino en una asignación antes de poder solicitar la eliminación de la asignación.
@@ -64,18 +65,18 @@ Las siguientes limitaciones se aplican a los datos de *map Analytics de varias o
 
 ## Consideraciones
 
-Es posible que quiera considerar los siguientes temas antes de solicitar los datos de *map Analytics desde varias organizaciones de IMS*:
+Es posible que quiera considerar los siguientes temas antes de solicitar la función *Asignación de datos entre IMS*:
 
 ### Perfiles
 
-Una vez aprobada la función *asignar datos de Analytics de varias organizaciones de IMS*, puede agregar datos a Experience Platform para uno o más grupos de informes de la organización IMS de destino. Para ello, debe configurar el [conector de origen de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). A continuación, los conjuntos de datos de destino se crean en Experience Platform. Como parte de esta configuración y este proceso, tiene la opción de enviar datos de perfil de uno o varios grupos de informes al servicio de perfil.
+Una vez aprobada la función *Asignación de datos entre IMS*, puede agregar datos a Experience Platform para uno o más grupos de informes de la organización IMS de destino. Para ello, debe configurar el [conector de origen de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). A continuación, los conjuntos de datos de destino se crean en Experience Platform. Como parte de esta configuración y este proceso, tiene la opción de enviar datos de perfil de uno o varios grupos de informes al servicio de perfil.
 
-Calcule el número total de perfiles que son el resultado de la configuración y el proceso, como se ha descrito anteriormente. Asegúrese de que el número total esté dentro del número de perfiles a los que tiene derecho contractualmente para la organización de destino. Aplique [reglas y condiciones de filtrado](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} para incluir o excluir datos de forma selectiva de la ingesta en el servicio de perfil. También puede desactivar la opción para enviar datos de perfil al servicio de perfil para los grupos de informes relevantes.
+Calcule el número total de perfiles que son el resultado de la configuración y el proceso, como se ha descrito anteriormente. Asegúrese de que el número total esté dentro del número de perfiles a los que tiene derecho contractualmente para la organización de destino. Aplique [reglas y condiciones de filtrado](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} para incluir o excluir datos de forma selectiva de la ingesta en el servicio de perfil. También puede desactivar la opción para enviar datos de perfil al servicio de perfil para los grupos de informes relevantes.
 
 
 ### Unión
 
-Una vez aprobada la función *asignar datos de Analytics de varias organizaciones de IMS*, puede agregar datos a Experience Platform para uno o más grupos de informes de la organización IMS de destino. Para ello, debe configurar el [conector de origen de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). A continuación, se crean en Experience Platform los conjuntos de datos de destino de los grupos de informes que configuró en el conector de origen de Analytics. Como parte de esta configuración y este proceso, tiene la opción de enviar datos de perfil de uno o varios grupos de informes al servicio de perfil.
+Una vez aprobada la función *Asignación de datos entre IMS*, puede agregar datos a Experience Platform para uno o más grupos de informes de la organización IMS de destino. Para ello, debe configurar el [conector de origen de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). A continuación, se crean en Experience Platform los conjuntos de datos de destino de los grupos de informes que configuró en el conector de origen de Analytics. Como parte de esta configuración y este proceso, tiene la opción de enviar datos de perfil de uno o varios grupos de informes al servicio de perfil.
 
 Puede usar la vinculación [basada en el campo](/help/stitching/fbs.md) y [basada en gráficos](/help/stitching/gbs.md) en los conjuntos de datos de destino. Cuando utilice la vinculación basada en gráficos en uno o más de estos conjuntos de datos de destinatario, asegúrese de permanecer dentro de sus derechos contractuales para el número de perfiles, como se describe en la sección [Perfiles](#profiles).
 
@@ -88,4 +89,4 @@ Un usuario con permisos suficientes para configurar el conector de origen de Ana
 
 ### Informar sobre datos
 
-La característica *asignar datos de Analytics de varias organizaciones de IMS* es solo un primer paso para garantizar que pueda usar los datos como parte de una [conexión](/help/connections/overview.md) de Customer Journey Analytics, una o más [vistas de datos](/help/data-views/data-views.md) y [proyectos de Workspace](/help/analysis-workspace/home.md). Debe inspeccionar cuidadosamente los datos que ahora están disponibles en una organización IMS. Considere también características como la preparación de datos, campos derivados, tablas de búsqueda adicionales y mucho más antes de poder informar correctamente sobre estos datos.
+La función *Asignación de datos entre IMS* es solo un primer paso para asegurarte de que puedes usar los datos como parte de una [conexión](/help/connections/overview.md) de Customer Journey Analytics, una o más [vistas de datos](/help/data-views/data-views.md) y [proyectos del espacio de trabajo](/help/analysis-workspace/home.md). Debe inspeccionar cuidadosamente los datos que ahora están disponibles en una organización IMS. Considere también características como la preparación de datos, campos derivados, tablas de búsqueda adicionales y mucho más antes de poder informar correctamente sobre estos datos.
