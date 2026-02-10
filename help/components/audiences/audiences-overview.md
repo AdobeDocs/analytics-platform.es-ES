@@ -4,7 +4,7 @@ description: Obtenga información sobre el concepto de publicación de públicos
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+source-git-commit: 9a7ba4913a4724116455566ff783fb270f5e289c
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 79%
