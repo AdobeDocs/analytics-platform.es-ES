@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c5cf15ab-3eb1-4e6b-93a3-3d89694ca0ea
-source-git-commit: c7cf7250f30e2f6023aa7690391aea149ba12eff
+source-git-commit: e65dd6f71c75c06aac078c22ea7d77eed75cd381
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '922'
 ht-degree: 10%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 Una vez que haya [creado o editado una o más vistas de datos](/help/data-views/create-dataview.md), puede administrarlas en **[!UICONTROL Vistas de datos]**.
 
-Seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Vistas de datos]** en la barra de menú principal de Customer Journey Analytics.
+Seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Vistas de datos]** en la barra de menús principal de Customer Journey Analytics.
 
 La interfaz **[!UICONTROL Vistas de datos]** muestra una tabla con todas las vistas de datos disponibles.
 
@@ -35,7 +35,7 @@ En la tabla están disponibles las siguientes columnas e iconos:
 | **[!UICONTROL Propietario]** | Propietario de la vista de datos. |
 | **[!UICONTROL Data Insights Agent]** ![InfoOutline](/help/assets/icons/InfoOutline.svg) | Indica si [Data Insights Agent](/help/data-analysis-ai.md) está **[!UICONTROL habilitado]** o **[!UICONTROL deshabilitado]** para la vista de datos. <br/>Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar una ventana emergente con **[!UICONTROL Estado de Data Insights Agent]** en las vistas de datos. <br/>![Uso de Data Insights Agent](/help/data-views/assets/data-views-dia-status.png) |
 | **[!UICONTROL Integraciones]** | Enumerar integraciones con otras soluciones. Por ejemplo: Análisis de audiencia de Adobe, Content Analytics, Brand Concierge, Journey Optimizer, GenStudio y Análisis de uso. |
-| **[!UICONTROL Usar en CJA]** | Indique si la vista de datos se utiliza en Customer Journey Analytics. Este valor solo está **[!UICONTROL desactivado]** para las vistas de datos que se generan automáticamente como parte de la integración de Adobe Journey Optimizer. |
+| **[!UICONTROL Usar en CJA]** | Indica si la vista de datos se utiliza en Customer Journey Analytics. Este valor solo está **[!UICONTROL desactivado]** para las vistas de datos que se generan automáticamente como parte de la integración de Adobe Journey Optimizer. |
 | **[!UICONTROL Fecha de creación]** | La marca de tiempo cuando se creó la vista de datos. |
 | **[!UICONTROL Última modificación]** | La marca de tiempo cuando se modificó la vista de datos por última vez. |
 
