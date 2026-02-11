@@ -1,14 +1,14 @@
 ---
-title: Adición de búsquedas estándar a sus conjuntos de datos
-description: Utilice búsquedas estándar para aumentar la creación de informes con dimensiones útiles en Customer Journey Analytics.
+title: Añadir Búsquedas Estándar A Los Conjuntos De Datos
+description: Aprenda a utilizar búsquedas estándar para aumentar la creación de informes con dimensiones útiles en Customer Journey Analytics.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 47%
+source-wordcount: '433'
+ht-degree: 42%
 
 ---
 

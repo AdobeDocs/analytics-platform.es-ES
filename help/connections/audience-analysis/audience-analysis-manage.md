@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo administrar las configuraciones de
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 0d38a779-a29f-41c9-81b4-f5523eeae93f
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%
@@ -78,7 +79,3 @@ Para eliminar una configuración de análisis de audiencia existente:
    ![Página principal de análisis de audiencia](assets/audience-analysis-manage-configurations.png)
 
 1. Seleccione la casilla de verificación situada junto a la configuración que desee eliminar y, a continuación, seleccione **[!UICONTROL Eliminar]**.
-
-
-
-

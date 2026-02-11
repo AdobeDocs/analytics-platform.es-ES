@@ -1,10 +1,11 @@
 ---
-title: Analizar audiencias de Experience Platform en Customer Journey Analytics
+title: Analizar Audiencias De Experience Platform En Customer Journey Analytics
 description: Obtenga información sobre cómo analizar audiencias de Experience Platform en Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 095cae34-1337-464a-9682-3c899295c0a8
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -56,11 +57,3 @@ Utilice la tabla de este panel para comprender mejor el comportamiento de la aud
 Muestra dónde se creó originalmente cada audiencia que salió, ya sea en RTCDP, Customer Journey Analytics, etc.
 
 Utilice la tabla de este panel para comprender mejor cómo el origen de la audiencia puede afectar a otros factores. Arrastre la dimensión Nombre de audiencia de salida desde la vista de datos seleccionada y agréguela como un desglose. También puede utilizar cualquier otra dimensión o métrica de interacción (como Página, Acción, etc.) como desglose.
-
-
-
-
-
-
-
-

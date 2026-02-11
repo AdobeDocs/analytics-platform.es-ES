@@ -1,14 +1,14 @@
 ---
 title: Configuración de sesión
-description: Configuración en una Vista de datos que puede utilizar para definir la duración de una sesión y el activador para iniciar una nueva
+description: Obtenga información acerca de la configuración de una vista de datos que puede utilizar para definir la duración de una sesión y el déclencheur para iniciar una nueva
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 88%
+source-wordcount: '465'
+ht-degree: 82%
 
 ---
 

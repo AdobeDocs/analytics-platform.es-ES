@@ -5,10 +5,10 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '946'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -123,5 +123,5 @@ Para obtener más información sobre el análisis en canales múltiples, consult
 Para un análisis más detallado de la funcionalidad de la vinculación, vaya a:
 
 * [Información general de vinculación](/help/stitching/overview.md)
-* [Preguntas frecuentes &#x200B;](/help/stitching/faq.md)
+* [Preguntas frecuentes ](/help/stitching/faq.md)
 

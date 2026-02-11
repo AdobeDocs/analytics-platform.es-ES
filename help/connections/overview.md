@@ -1,20 +1,20 @@
 ---
-title: Información general sobre las conexiones de Customer Journey Analytics
+title: Información general sobre Customer Journey Analytics Connections
 description: Obtenga información sobre las conexiones en Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 09a6ae258d27f8fe9c9a1fc7ed63273620c67c1b
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 80%
+ht-degree: 97%
 
 ---
 
 # Información general sobre conexiones
 
-Las conexiones permiten a los administradores de productos de Customer Journey Analytics definir qué [!DNL &#x200B; Experience Platform] fuentes de datos, como eventos, búsquedas, perfiles y conjuntos de datos de resumen, se incorporan. Las conexiones son la base de Customer Journey Analytics y determinan la disponibilidad de los datos (campos) que puede definir en una [vista de datos](/help/data-views/data-views.md) como dimensión o como métricas.
+Las conexiones permiten a los administradores de productos de Customer Journey Analytics definir qué fuentes de datos de [!DNL  Experience Platform] se ingieren, como conjuntos de datos de evento, búsqueda, perfil y resumen. Las conexiones son la base de Customer Journey Analytics y determinan la disponibilidad de los datos (campos) que puede definir en una [vista de datos](/help/data-views/data-views.md) como dimensión o como métricas.
 
 >[!IMPORTANT]
 >
