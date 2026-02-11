@@ -48,7 +48,7 @@ O bien puede:
 
 Para usar credenciales que no caduquen:
 
-* Crear [credenciales que no caducan en Experience Platform](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
+* Crear [credenciales que no caducan en Experience Platform](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
 * Conceda acceso a las credenciales que no caducan siguiendo los pasos mencionados en [Credenciales que caducan](#Expiring-credentials).
 
 Consulte [Control de acceso de Recorrido del cliente](../technotes/access-control.md) para obtener más información, en concreto los [permisos adicionales del administrador del producto](../technotes/access-control.md#product-admin-additional-permissions) y los [permisos de Customer Journey Analytics en Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
