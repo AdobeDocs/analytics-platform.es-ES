@@ -123,5 +123,5 @@ Para obtener más información sobre el análisis en canales múltiples, consult
 Para un análisis más detallado de la funcionalidad de la vinculación, vaya a:
 
 * [Información general de vinculación](/help/stitching/overview.md)
-* [Preguntas frecuentes ](/help/stitching/faq.md)
+* [Preguntas frecuentes &#x200B;](/help/stitching/faq.md)
 
