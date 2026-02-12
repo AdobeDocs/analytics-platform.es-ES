@@ -3,16 +3,16 @@ title: Notas de la versión de Customer Journey Analytics actuales
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7e98a1abbab4b954df5f7759879203c1d355fd50
+source-git-commit: 7260c9cadbd5b6e5e85f778547635330b8bfc49a
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 34%
+source-wordcount: '1188'
+ht-degree: 32%
 
 ---
 
 # Notas de la versión actuales de Customer Journey Analytics (febrero de 2026)
 
-**Última actualización**: jueves, 11 de febrero de 2026
+**Última actualización**: viernes, 12 de febrero de 2026
 
 Estas notas de la versión abarcan el período de la versión de febrero de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -29,6 +29,7 @@ Estas notas de la versión abarcan el período de la versión de febrero de 2026
 | **Actualizar a la función Recuento distinto aproximado**<p>El algoritmo probabilístico HLL utilizado en la función Approximate Distinct se actualizará pronto. La salida resultante para números que utilizan esta función puede cambiar ligeramente con respecto a los números históricos, de la siguiente manera:<ul><li>Al contar cantidades muy pequeñas de valores únicos, los resultados se mejorarán para utilizar recuentos exactos en lugar de utilizar estimaciones.</li><li>Al contar cualquier cosa más grande, las estimaciones de recuento conservarán la misma precisión que antes de esta actualización (las estimaciones son precisas dentro del 5 por ciento del número exacto, el 95 por ciento del tiempo).</li></ul><p>Para obtener más información sobre la función Approximate Count Distinct, vea [Approximate Count Distinct](/help/components/calc-metrics/cm-adv-functions.md#approximate-count-distinct) en [Funciones avanzadas](/help/components/calc-metrics/cm-adv-functions.md)</p> |  | Marzo de 2026 |
 | **Compatibilidad con Data Mirror**  <p>Con la compatibilidad con los esquemas basados en modelos y la funcionalidad de captura de datos modificados (CDC) para conectores de origen específicos en Experience Platform, Customer Journey Analytics podrá admitir la funcionalidad de [duplicación de datos](/help/data-mirror/data-mirror.md) de soluciones de almacenamiento de datos como [!DNL Snowflake], [!DNL Azure Databricks] y [!DNL Google BigQuery].</p><p>Póngase en contacto con el equipo de cuentas de Adobe para acceder a Beta.</p> | Lanzamiento de la versión beta: 24 de septiembre de 2025. | Por determinar |
 | **Servicios de medios de streaming: compatibilidad con datos de programación** <p>Ahora puede cargar datos de programación del contenido de medios de streaming en directo anterior para rastrear la audiencia de forma más fácil y precisa.</p><p>Los siguientes son ejemplos de contenidos en directo compatibles con la carga de datos de programación:</p><ul><li>Plataformas FAST (Free Ad Supported TV)</li><li>Streams locales</li><li>Deportes en directo</li></ul><p>La carga de datos de programación le permite realizar un seguimiento de los datos del número de espectadores de los programas individuales que se emitieron durante el tiempo designado en el archivo de carga. Incluso puede recopilar datos del número de espectadores de temas específicos o segmentos de programa.</p><p>Estas funciones están disponibles independientemente de cómo haya implementado la recopilación de medios de streaming.</p><p>Anteriormente, era difícil vincular con precisión una sesión determinada a programas específicos cuando se analizaba contenido en directo, y no era posible vincular una sesión determinada a temas o segmentos de programa individuales.</p><p>Para obtener más información, consulte [Cargar datos de programación para realizar un seguimiento del contenido en directo](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 29 de octubre de 2025 | Primer semestre de 2026<p>(Originalmente planificado para su lanzamiento el 29 de octubre de 2025)</p> |
+| **Combinar grupos de informes de varias organizaciones de IMS**<p>Puede utilizar el conector de Source de Analytics para combinar grupos de informes de varias organizaciones de IMS. Esta característica de asignación de datos de [IMS cruzado](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md) permite que las organizaciones tengan una vista combinada de los datos de sus clientes, incluso cuando esos datos de clientes se distribuyen en varias organizaciones IMS. <p>**Nota:** Esta configuración solo está disponible al enviar una solicitud al Servicio de atención al cliente de Adobe.</p> |  | viernes, 12 de febrero de 2026 |
 
 ## Correcciones en Customer Journey Analytics
 
