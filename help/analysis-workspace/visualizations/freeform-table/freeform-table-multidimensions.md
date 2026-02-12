@@ -3,10 +3,11 @@ title: Incluir varias dimensiones en una tabla de forma libre
 description: Aprenda a incluir varias dimensiones en una tabla de forma libre
 feature: Visualizations
 role: User
-source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
+exl-id: 66ebb4fc-feb2-4fa7-a107-37508cca4748
+source-git-commit: 14718476695dcf121c94ba4cb8b2c39e5874342d
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 1%
+source-wordcount: '836'
+ht-degree: 2%
 
 ---
 
@@ -109,11 +110,12 @@ Cuando crea un segmento basado en un elemento de dimensión que abarca varias co
 
 Para obtener información sobre cómo crear un segmento, consulte [Crear segmentos](/help/components/segments/seg-create.md).
 
-## Dimensiones no admitidas {#unsupported}
+## Dimensiones y funciones no compatibles {#unsupported}
 
-Las siguientes combinaciones de dimensiones no son compatibles y Analysis Workspace prohíbe que se agreguen o muestra un mensaje de error después de agregarlas:
+Las siguientes combinaciones y funciones de dimensión no son compatibles cuando se utilizan varias columnas de dimensión y Analysis Workspace prohíbe su uso o muestra un mensaje de error:
 
 * Varias dimensiones que proceden de campos que hacen referencia a [matrices de objetos](/help/use-cases/object-arrays.md) diferentes que se utilizan juntas en la misma tabla de forma libre.
 
   Se permiten varias dimensiones juntas en la misma tabla de forma libre si hacen referencia a la misma matriz de objetos.
 
+* [Elementos de dimensión estáticos](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md#static-dimension-items).
