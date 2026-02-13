@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 687fb6a9f829bf38b91f394e7df811844be6926b
+source-git-commit: 150c8879e441f6a613ae2e51ffbc5df30c202e95
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2281'
 ht-degree: 7%
 
 ---
 
 # Protecciones de Customer Journey Analytics
 
-Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics-b2b.html).
+Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
 
 ## Tipos de límite
 
@@ -92,7 +92,7 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
+Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
 
 
 ## Caducidad automatizada del conjunto de datos
@@ -113,7 +113,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 | Vistas de datos | 2.000 | Protección impuesta por el sistema | Número máximo de [vistas de datos](../data-views/data-views.md) para una organización. |
 | Vistas de datos | 500-1000 | Protección impuesta por el sistema | Número máximo de vistas de datos para una conexión. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 | Conjuntos de datos | 100 | Protección impuesta por el sistema | Número máximo de [conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es) por conexión. |
-| Conexiones | MIL | Protección impuesta por el sistema | Número máximo de [conexiones](../connections/overview.md) para una organización. |
+| Conexiones | 1000 | Protección impuesta por el sistema | Número máximo de [conexiones](../connections/overview.md) para una organización. |
 | Título de conexión | 500 | Protección impuesta por el sistema | Número máximo de caracteres para un título de conexión. |
 | Métricas | 5.000 | Protección impuesta por el sistema | Número máximo de métricas en una vista de datos. |
 | Dimensiones | 5.000 | Protección impuesta por el sistema | Número máximo de dimensiones en una vista de datos. |
@@ -134,12 +134,12 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 | Cadenas únicas | 10 millones - 1 mil millones | Protección impuesta por el sistema | Número máximo de claves únicas por conjunto de datos de búsqueda. Depende del paquete de Customer Journey Analytics (consulte la Descripción del producto).<ul><li>Fundación: 10 millones.</li><li>Seleccione: 100 millones.</li><li>Prime: 250 millones.</li><li>Ultimate: 1.000 millones</li><ul> |
 | Filas por persona | 1 millón | Protección impuesta por el sistema | Número máximo de filas por ID de persona único en un mes determinado dentro de una conexión. |
 | Filas por día | 2.500 millones | Seguridad de rendimiento | Número promedio máximo de filas por día en una conexión. |
-| Filas por conexión y año | Varía según el centro de datos asignado (consulte la descripción para obtener más información) | Seguridad de rendimiento | El límite de filas recomendado por año en una conexión. Los límites enumerados a continuación son aproximados a partir de enero de 2026 y aumentarán con el tiempo para permitir más filas por conexión. Si espera superar estos límites, póngase en contacto con el equipo de su cuenta de Adobe para discutir configuraciones alternativas. <p>El límite de filas varía según el centro de datos asignado, de la siguiente manera:</p><ul><li>**EE. UU. Azure (predeterminado para clientes de EE. UU.)**: aproximadamente 500 000 millones (aproximadamente 42 000 millones al mes)</li><li>**EE. UU. AWS (disponible a petición para clientes de EE. UU.)**: aproximadamente 30 000 millones (unos 2500 millones al mes)</li><li>**Amsterdam**: aproximadamente 200 mil millones (alrededor de 16,5 mil millones por mes)</li><li>**Todos los demás centros de datos**: 25 mil millones (aproximadamente 2 mil millones por mes)</li></ul></p><p>Las organizaciones eligen su centro de datos de Experience Platform cuando compran Experience Platform por primera vez. Esta decisión se basa generalmente en la soberanía de los datos y los requisitos de residencia. Todos los casos de uso de AEP + Aplicaciones (no solo los volúmenes de fila en Customer Journey Analytics) deben tenerse en cuenta al elegir un centro de datos.</p><p>Para obtener información sobre cómo ver a qué centro de datos está asignado, consulte [ubicaciones de alojamiento de Customer Journey Analytics](/help/technotes/data-centers.md)</p> |
+| Filas por conexión y año | Varía según el centro de datos asignado (consulte la descripción para obtener más información) | Seguridad de rendimiento | Límite de filas por año en una conexión. Los límites que se enumeran a continuación entrarán en vigor el 20 de enero de 2026 y pueden aumentar con el tiempo para permitir más filas por conexión. <p>El límite de filas varía según el centro de datos asignado, de la siguiente manera:</p><ul><li>**EE. UU. Azure (predeterminado para clientes de EE. UU.)**: aproximadamente 500 000 millones (aproximadamente 42 000 millones al mes)</li><li>**EE. UU. AWS (disponible a petición para clientes de EE. UU.)**: aproximadamente 30 000 millones (unos 2500 millones al mes)</li><li>**Amsterdam**: aproximadamente 200 mil millones (alrededor de 16,5 mil millones por mes)</li><li>**Todos los demás centros de datos**: 25 mil millones (aproximadamente 2 mil millones por mes)</li></ul><p>Si espera superar estos límites y desea evitar problemas de degradación del rendimiento, póngase en contacto con el equipo de su cuenta de Adobe para discutir configuraciones alternativas.</p><p>Las organizaciones pueden elegir su centro de datos cuando implementen inicialmente AEP+Aplicaciones. Esta decisión se basa generalmente en los requisitos de residencia de datos de cada cliente. Todos los casos de uso de AEP + Aplicaciones (no solo los volúmenes de fila en Customer Journey Analytics) deben tenerse en cuenta al elegir un centro de datos.</p><p>Para obtener información sobre cómo ver a qué centro de datos está asignado, consulte [ubicaciones de alojamiento de Customer Journey Analytics](/help/technotes/data-centers.md).</p> |
 | Tamaño de fila | 2 | Protección de rendimiento / Protección impuesta por el sistema | Tamaño promedio en kilobytes por fila de datos introducidos en Customer Journey Analytics (límite flexible). Las protecciones determinan un límite estático para el tamaño de fila para la ingesta de datos en Experience Platform. |
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es).
+Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Exportación de datos de destinos
@@ -151,7 +151,7 @@ Consulte también [Protecciones de Experience Platform para la ingesta de datos]
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
+Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
 
 
 ## Zona de aterrizaje de datos
@@ -267,7 +267,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 >[!NOTE]
 >
->Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es) de Experience Platform para obtener más información.
+>Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) de Experience Platform para obtener más información.
 
 | Flujo de datos | Latencia esperada |
 |---|---|

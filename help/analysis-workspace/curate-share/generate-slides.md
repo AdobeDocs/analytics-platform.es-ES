@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
-source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
+exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
+source-git-commit: 968fef4fa6a967c9654f594e662bc9bbd7ae2ab4
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1698'
 ht-degree: 4%
 
 ---
@@ -106,7 +107,7 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
    |---------|----------|
    | **[!UICONTROL Título de portada]** | Especifique un título para la presentación. Este título aparece en la diapositiva de título de la presentación. |
    | **[!UICONTROL Incluir nombre del moderador]** | Especifique el nombre del moderador. Este nombre aparece en la diapositiva de título de la presentación, debajo del título de la portada. |
-   | **[!UICONTROL Paneles y visualizaciones que incluir]** | Elija los paneles y la visualización que desee incluir en la presentación. Puede incluir hasta 50 visualizaciones.<p>Si una visualización está atenuada, va seguida del texto **[!UICONTROL (no compatible)]** o **[!UICONTROL (datos restringidos)]**.</p><ul><li>**No compatible**: La mayoría de los paneles y visualizaciones son compatibles. Para obtener información acerca de paneles y visualizaciones no compatibles, vea [Elementos y características de proyecto no compatibles](#unsupported-project-elements-and-features).</li><li>**Datos restringidos**: la visualización contiene un componente que una directiva de control de datos aplicada por su organización no puede exportar. Póngase en contacto con el administrador del sistema para ver qué componentes están restringidos para no exportarse y, a continuación, quite los componentes restringidos antes de generar diapositivas.</li></ul> |
+   | **[!UICONTROL Paneles y visualizaciones incluidos]** | Elija los paneles y la visualización que desee incluir en la presentación. Puede incluir hasta 50 visualizaciones.<p>Si una visualización está atenuada, va seguida del texto **[!UICONTROL (no compatible)]** o **[!UICONTROL (datos restringidos)]**.</p><ul><li>**No compatible**: La mayoría de los paneles y visualizaciones son compatibles. Para obtener información acerca de paneles y visualizaciones no compatibles, vea [Elementos y características de proyecto no compatibles](#unsupported-project-elements-and-features).</li><li>**Datos restringidos**: la visualización contiene un componente que una directiva de control de datos aplicada por su organización no puede exportar. Póngase en contacto con el administrador del sistema para ver qué componentes están restringidos para no exportarse y, a continuación, quite los componentes restringidos antes de generar diapositivas.</li></ul> |
    | **[!UICONTROL Enfatizar componentes]** | Elija las métricas y dimensiones de las visualizaciones que desee resaltar en la presentación. Los componentes que elija se clasifican más alto y se les da más peso cuando se crean los temas y la narrativa general de la historia de datos. <p>Cuando no se aplica ningún énfasis, los componentes se muestran en las presentaciones de la siguiente manera:<ul><li>**Métricas y dimensiones:** Cursiva</li><li>**Elementos de Dimension:** Comillas</li></ul></p><p>Cuando se aplica énfasis, los componentes se muestran en las presentaciones de la siguiente manera:</p><ul><li>**Métricas y dimensiones:** Cursiva y negrita</li><li>**Elementos de Dimension:** Negrita cuando se enfatiza la dimensión correspondiente<p>También se aplica un color al elemento de dimensión cuando este se resalta en el gráfico.</p></li></ul> |
 
    <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
@@ -246,5 +247,3 @@ Los siguientes elementos y características de Analysis Workspace utilizados en 
   Como parte del proceso de deduplicación y puntuación al generar perspectivas relevantes, cada desglose dentro de una tabla de forma libre se analiza de forma independiente, y solo se analizan los 5 primeros desgloses dentro de una sola tabla de forma libre.
 
   Solo se admite el primer nivel de desglose. El desglose de un desglose no se incluye en la presentación.
-
-
