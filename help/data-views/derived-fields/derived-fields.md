@@ -2140,7 +2140,7 @@ La compatibilidad con los campos de búsqueda y perfil en los campos derivados p
 
 >[!MORELIKETHIS]
 >
->- [Blog: Aprovechar al máximo sus datos: un marco para usar campos derivados en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
->- [Blog: Casos de uso de campos derivados de Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
->- [Blog: Mejoras en los campos derivados de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
+>- [Blog: Aprovechar al máximo sus datos: un marco para usar campos derivados en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=es)
+>- [Blog: Casos de uso de campos derivados de Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=es)
+>- [Blog: Mejoras en los campos derivados de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=es)
 
