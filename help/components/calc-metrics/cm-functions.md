@@ -4,10 +4,10 @@ description: Obtenga información sobre las funciones básicas de las métricas 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: e2e87bc3d9f26b01f250d88b924c730fe4edac7b
+source-git-commit: 211f0411d0bf70288cbd46bb219fce7ae99fe03d
 workflow-type: tm+mt
-source-wordcount: '3608'
-ht-degree: 49%
+source-wordcount: '3599'
+ht-degree: 48%
 
 ---
 
@@ -18,7 +18,7 @@ El [Creador de métricas calculadas](cm-workflow/cm-build-metrics.md) permite ap
 
 >[!NOTE]
 >
->Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [COLUMNA MÁXIMA(métricas)](#column-maximum) también permite [COLUMNA MÁXIMA(Visitas a la página + Visitas)](#column-maximum).
+>Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [COLUMN MAXIMUM(metrics)](#column-maximum) también permite [COLUMN MAXIMUM(PageViews + Sessions)](#column-maximum).
 
 
 
@@ -89,11 +89,11 @@ Devuelve el mayor valor en un conjunto de elementos de una dimensión para una c
 
 **Caso de uso**: identifique el valor más alto dentro de un desglose, como el día con la mayor cantidad de visitas o el producto con los ingresos más altos. Esto ayuda a resaltar el rendimiento máximo entre categorías.
 
-**En el Creador de métricas calculadas**: aplique **Máximo de columna** a una métrica como *Ingresos* o *Visitas* al desglosar por *Día* o *Producto*. La función devuelve el valor mayor de esa columna para cada fila.
+**En el Creador de métricas calculadas**: aplique **Máximo de columna** a una métrica como *Ingresos* o *Sesiones* al desglosar por *Día* o *Producto*. La función devuelve el valor mayor de esa columna para cada fila.
 
 >[!TIP]
 >
->Use una instrucción [IF](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Máximo de columna***(Ingresos*), 1, 0) para resaltar el elemento de mayor rendimiento en el desglose.
+>Use una instrucción [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Máximo de columna***(Ingresos*), 1, 0) para resaltar el elemento de mayor rendimiento en el desglose.
 >
 
 ## Mínimo de columna {#column-minimum}
@@ -123,7 +123,7 @@ Devuelve el valor más pequeño en un conjunto de elementos de una dimensión pa
 
 >[!TIP]
 >
->Use una instrucción [IF](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Mínimo de columna***(Ingresos*), 1, 0) para resaltar el elemento con menor rendimiento en su desglose.
+>Use una instrucción [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Mínimo de columna***(Ingresos*), 1, 0) para resaltar el elemento con menor rendimiento en su desglose.
 >
 
 
@@ -149,7 +149,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 **Caso de uso**: calcule el total de todos los valores dentro de un desglose, como los ingresos totales en todos los productos o las visitas totales en todos los días. Esto resulta útil cuando necesita un total general para compararlo con valores de fila individuales.
 
-**En el Creador de métricas calculadas**: aplique **Suma de columna** a una métrica como *Ingresos* o *Visitas* al desglosar por *Producto* o *Día*. La función devuelve el total de todos los valores de esa columna para cada fila.
+**En el Creador de métricas calculadas**: aplique **Suma de columna** a una métrica como *Ingresos* o *Sesiones* al desglosar por *Producto* o *Día*. La función devuelve el total de todos los valores de esa columna para cada fila.
 
 >[!TIP]
 >
@@ -179,7 +179,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 **Caso de uso**: cuente el número de puntos de datos incluidos en un cálculo, como el número de días en un intervalo de fechas o el número de productos en un desglose. Esto resulta útil cuando necesita saber cuántos elementos contribuyen a un valor agregado.
 
-**En el Creador de métricas calculadas**: aplique **Count** a una métrica como *Visits* o *Revenue* para devolver el número total de filas (o puntos de datos) incluidos en el desglose o intervalo de fechas actual.
+**En el Creador de métricas calculadas**: aplique **Count** a una métrica como *Sessions* o *Revenue* para devolver el número total de filas (o puntos de datos) incluidos en el desglose o intervalo de fechas actual.
 
 >[!TIP]
 >
@@ -199,15 +199,15 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTE(métrica)]**
 
-[!BADGE Fila]{type="Neutral"} Devuelve e elevado a la potencia de un número determinado. La constante e es igual a 2,71828182845904, la base del logaritmo natural. EXPONENTE es el inverso de LN, el logaritmo natural de un número.
+[!BADGE Fila]{type="Neutral"} Devuelve *e* elevado a la potencia de un número determinado. La constante *e* es igual a 2,71828182845904, la base del logaritmo natural. EXPONENTE es el inverso de LN, el logaritmo natural de un número.
 
 | Argumento | Descripción |
 |---|---|
-| métrica | El exponente aplicado a la base e. |
+| métrica | Exponente aplicado a la base *e*. |
 
-**Caso de uso**: eleve un número o una métrica a una potencia especificada, como, por ejemplo, al cuadrado de un valor o la aplicación de un factor de crecimiento exponencial. Esto resulta útil para modelar las tendencias de crecimiento o escalar una métrica exponencialmente.
+**Caso de uso**: eleva a *e* a la potencia de un número o métrica determinados. Esto resulta útil para modelar las tendencias de crecimiento o escalar una métrica exponencialmente.
 
-**En el Creador de métricas calculadas**: use **Exponente** con una métrica y un valor de energía. Por ejemplo: **Exponente**(*Visitas*, 2) cuadra la métrica *Visitas*.
+**En el Creador de métricas calculadas**: use **Exponente** con una métrica. Por ejemplo: **Exponente**(*Sesiones*) eleva *e* al poder de la métrica *Sesiones*.
 
 >[!TIP]
 >
@@ -238,7 +238,7 @@ Suma todos los valores numéricos de una métrica dentro de una columna (entre l
 
 **Caso de uso**: calcule el promedio aritmético de un conjunto de valores, como el promedio de ingresos diarios o el número promedio de visitas por campaña. Esto ayuda a establecer una línea de base para comparar valores individuales dentro de un conjunto de datos.
 
-**En el Creador de métricas calculadas**: aplique **Media** a una métrica como *Ingresos* o *Visitas* para devolver el valor promedio en todos los puntos de datos del desglose o intervalo de fechas seleccionado.
+**En el Creador de métricas calculadas**: aplique **Media** a una métrica como *Ingresos* o *Sesiones* para devolver el valor promedio en todos los puntos de datos del desglose o intervalo de fechas seleccionado.
 
 >[!TIP]
 >
@@ -346,7 +346,7 @@ MODULO(MODULO(x,y)+y,y)
 
 **Caso de uso**: identifique el valor por debajo del cual cae un porcentaje determinado de puntos de datos, como el percentil 90 de ingresos diarios o vistas de página. Esto ayuda a medir la distribución y detectar periféricos de alto rendimiento.
 
-**En el Creador de métricas calculadas**: aplique el **Percentil** a una métrica como *Ingresos* o *Visitas*, y especifique el valor de percentil deseado (por ejemplo, **Percentil**(*Ingresos*, 90)). El resultado muestra el umbral en el que el 90 % de los puntos de datos se encuentran por debajo.
+**En el Creador de métricas calculadas**: aplique el **Percentil** a una métrica como *Ingresos* o *Sesiones*, y especifique el valor de percentil deseado (por ejemplo, **Percentil**(*Ingresos*, 90)). El resultado muestra el umbral en el que el 90 % de los puntos de datos se encuentran por debajo.
 
 >[!TIP]
 >
@@ -406,7 +406,7 @@ Devuelve x elevado a la potencia y.
 
 **Caso de uso**: divida un conjunto de datos en cuatro partes iguales para comprender cómo se distribuyen los valores, como identificar el 25 % superior de días por ingresos o visitas. Esto ayuda a segmentar el rendimiento en grupos clasificados para realizar una comparación más detallada.
 
-**En el Creador de métricas calculadas**: aplique **Quartile** a una métrica como *Ingresos* o *Visitas*, y especifique el cuartil que se va a devolver (por ejemplo, **Cuartil**(*Ingresos*, 3) para encontrar el umbral del tercer cuartil o el 25 % superior).
+**En el Creador de métricas calculadas**: aplique **Quartile** a una métrica como *Ingresos* o *Sesiones*, y especifique qué cuartil se devolverá (por ejemplo, **Cuartil**(*Ingresos*, 3) para encontrar el umbral del tercer cuartil o el 25 % superior).
 
 >[!TIP]
 >
@@ -495,9 +495,9 @@ Número máximo de las columnas de cada fila.
 | métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
-**Caso de uso**: identifique el valor más alto de todas las métricas de una sola fila; por ejemplo, determine qué métrica (por ejemplo, *Ingresos*, *Pedidos* o *Visitas*) tiene el valor más alto para un día o segmento específico. Esto ayuda a resaltar qué posibles clientes de métrica dentro de cada fila de datos.
+**Caso de uso**: identifique el valor más alto de todas las métricas de una sola fila; por ejemplo, determine qué métrica (por ejemplo, *Ingresos*, *Pedidos* o *Sesiones*) tiene el valor más alto para un día o segmento específico. Esto ayuda a resaltar qué posibles clientes de métrica dentro de cada fila de datos.
 
-**En el Creador de métricas calculadas**: aplique **Máximo de fila** cuando se incluyan varias métricas en una métrica calculada. Por ejemplo: **Máximo de fila**(*Ingresos*, *Pedidos*, *Visitas*) devuelve el valor más alto entre esas métricas para cada fila.
+**En el Creador de métricas calculadas**: aplique **Máximo de fila** cuando se incluyan varias métricas en una métrica calculada. Por ejemplo: **Máximo de fila**(*Ingresos*, *Pedidos*, *Sesiones*) devuelve el valor más alto entre esas métricas para cada fila.
 
 >[!TIP]
 >
@@ -524,9 +524,9 @@ Número mínimo de las columnas de cada fila.
 | métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos. |
 
-**Caso de uso**: identifique el valor más bajo de todas las métricas de una sola fila, como por ejemplo qué métrica (por ejemplo, *Ingresos*, *Pedidos* o *Visitas*) tiene el valor más pequeño para un día o segmento en particular. Esto ayuda a identificar la métrica de menor rendimiento dentro de cada fila de datos.
+**Caso de uso**: identifique el valor más bajo de todas las métricas de una sola fila, como por ejemplo qué métrica (por ejemplo, *Ingresos*, *Pedidos* o *Sesiones*) tiene el valor más pequeño para un día o segmento en particular. Esto ayuda a identificar la métrica de menor rendimiento dentro de cada fila de datos.
 
-**En el Creador de métricas calculadas**: aplique **Mínimo de fila** al comparar varias métricas. Por ejemplo: **Mínimo de fila**(*Ingresos*, *Pedidos*, *Visitas*) devuelve el valor más pequeño entre esas métricas para cada fila.
+**En el Creador de métricas calculadas**: aplique **Mínimo de fila** al comparar varias métricas. Por ejemplo: **Mínimo de fila**(*Ingresos*, *Pedidos*, *Sesiones*) devuelve el valor más pequeño entre esas métricas para cada fila.
 
 >[!TIP]
 >
@@ -552,7 +552,7 @@ Suma de las columnas de cada fila.
 |---|---|
 | métrica | Requiere al menos una métrica, pero puede tomar cualquier número de métricas como parámetros. |
 
-**Caso de uso**: suma los valores de varias métricas en una sola fila, como sumar *Ingresos* e *Impuestos* para calcular el valor total de la transacción o combinar *Visitas* de diferentes fuentes. Esto ayuda a consolidar las métricas relacionadas en un total.
+**Caso de uso**: suma los valores de varias métricas en una sola fila, como sumar *Ingresos* e *Impuestos* para calcular el valor total de la transacción o combinar *Sesiones* de diferentes fuentes. Esto ayuda a consolidar las métricas relacionadas en un total.
 
 **En el Creador de métricas calculadas**: aplique **Suma de fila** para combinar varias métricas. Por ejemplo: **Suma de fila**(*Ingresos*, *Impuestos*) agrega esas dos métricas a cada fila del desglose.
 
@@ -612,7 +612,7 @@ Suma de las columnas de cada fila.
 
 **Caso de uso**: mida cuántos valores varían del promedio, por ejemplo, evaluando la consistencia de los ingresos diarios o las visitas con el paso del tiempo. Esto ayuda a identificar volatilidad, estabilidad o fluctuaciones inusuales en el rendimiento.
 
-**En el Creador de métricas calculadas**: aplique **Desviación estándar** a una métrica como *Ingresos* o *Visitas* para calcular la propagación de valores dentro del desglose o intervalo de fechas seleccionado. Por ejemplo: **Desviación estándar**(*Ingresos*) muestra cuánto se desvían los ingresos diarios de la media.
+**En el Creador de métricas calculadas**: aplique **Desviación estándar** a una métrica como *Ingresos* o *Sesiones* para calcular la propagación de valores dentro del desglose o intervalo de fechas seleccionado. Por ejemplo: **Desviación estándar**(*Ingresos*) muestra cuánto se desvían los ingresos diarios de la media.
 
 >[!TIP]
 >

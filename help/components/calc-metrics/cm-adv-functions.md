@@ -4,9 +4,9 @@ description: Obtenga información sobre las funciones avanzadas de métricas cal
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: fa66083b922c903f6a7b0608d91f26e85bd8374f
 workflow-type: tm+mt
-source-wordcount: '5241'
+source-wordcount: '5272'
 ht-degree: 98%
 
 ---
@@ -1344,18 +1344,18 @@ Devuelve Pi: 3,14159...
 
 
 
-## Varianza de muestra
+## Varianza de muestra {#sample-variance}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
 >title="Varianza de muestra"
->abstract="Calcula una estimación de la varianza de muestra mediante la fórmula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)).  donde N es el recuento del contenedor de normalización. <br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
+>abstract="Calcula una estimación de la varianza de la muestra mediante la fórmula `(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`. donde `N` es el recuento del contenedor de normalización. <br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA DE MUESTRA (contenedor de normalización, métrica de éxito)]**
 
-Calcula una estimación de la varianza de muestra.
+Calcula una estimación de la varianza de la muestra mediante la fórmula `(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`. donde `N` es el recuento del contenedor de normalización.<br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*.
 
 | Argumento | Descripción |
 | --- | --- |
