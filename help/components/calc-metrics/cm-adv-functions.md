@@ -4,9 +4,9 @@ description: Obtenga información sobre las funciones avanzadas de métricas cal
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: fa66083b922c903f6a7b0608d91f26e85bd8374f
+source-git-commit: a5e07891b23184dfe5d4c3f1b2c4b36b6884fb72
 workflow-type: tm+mt
-source-wordcount: '5272'
+source-wordcount: '5294'
 ht-degree: 98%
 
 ---
@@ -1351,11 +1351,11 @@ Devuelve Pi: 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
 >title="Varianza de muestra"
->abstract="Calcula una estimación de la varianza de la muestra mediante la fórmula `(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`. donde `N` es el recuento del contenedor de normalización. <br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
+>abstract="Calcula una estimación de la varianza de muestra mediante la fórmula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)).  donde N es el recuento del contenedor de normalización. <br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA DE MUESTRA (contenedor de normalización, métrica de éxito)]**
 
-Calcula una estimación de la varianza de la muestra mediante la fórmula `(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`. donde `N` es el recuento del contenedor de normalización.<br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*.
+Calcula una estimación de la varianza de muestra mediante la fórmula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)).  donde N es el recuento del contenedor de normalización.<br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*.
 
 | Argumento | Descripción |
 | --- | --- |
