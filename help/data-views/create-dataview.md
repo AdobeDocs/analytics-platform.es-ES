@@ -19,7 +19,7 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear o editar una vista de datos](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear o editar una vista de datos](https://video.tv.adobe.com/v/345540/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
