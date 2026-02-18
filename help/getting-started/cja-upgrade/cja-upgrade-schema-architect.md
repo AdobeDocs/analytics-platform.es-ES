@@ -25,7 +25,7 @@ ht-degree: 9%
 
 {{upgrade-note-step}}
 
-Adobe recomienda crear un esquema personalizado [Experience Data Model](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) (XDM) para Customer Journey Analytics al implementar [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/es/docs/experience-platform/collection/home). La creación de este esquema se suele realizar antes de que se toquen los cambios de implementación o el código. Un esquema personalizado permite diseñar un contrato de datos conciso y específico de la organización sin heredar las restricciones de Adobe Analytics. Consulte [Elija su esquema para Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) para obtener más información sobre los tipos de esquemas disponibles para su organización.
+Adobe recomienda crear un esquema personalizado [Experience Data Model](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) (XDM) para Customer Journey Analytics al implementar [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home). La creación de este esquema se suele realizar antes de que se toquen los cambios de implementación o el código. Un esquema personalizado permite diseñar un contrato de datos conciso y específico de la organización sin heredar las restricciones de Adobe Analytics. Consulte [Elija su esquema para Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) para obtener más información sobre los tipos de esquemas disponibles para su organización.
 
 Los esquemas están pensados para ser versiones refinadas de cómo desea que se estructuren los datos a largo plazo. Los cambios en los esquemas son costosos porque afectan a la recopilación de datos, la validación y los servicios descendentes. Puede añadir a los esquemas con el tiempo, según lo permitan los requisitos empresariales; sin embargo, los campos de esquema no se pueden eliminar una vez que los datos empiecen a fluir a ellos.
 
@@ -35,20 +35,20 @@ La canalización de datos para Customer Journey Analytics contiene áreas indepe
 
 | Capa | Objetivo principal | Flexibilidad | Qué pertenece | Lo que no pertenece |
 |---|---|---|---|---|
-| **Esquema XDM** | Definir la estructura duradera y el significado de los datos recopilados | Puntos de datos rígidos, considerados inmutables | Forma de evento y entidad, significado de campo, relaciones, valores permitidos, reutilización en varios canales | &quot;ranuras&quot; numeradas (eVar1/prop1), lógica de atribución/persistencia, soluciones específicas para la creación de informes |
-| **Vistas de datos** | Definición del comportamiento de los datos recopilados en el análisis | Flexible; se puede modificar libremente y puede reinterpretar los datos de forma retroactiva | Configuración de componentes, comportamiento de atribución y persistencia, campos derivados, métricas filtradas, métricas calculadas | Significado fundamental de los campos; ese significado debe ser estable en el esquema |
+| **esquema XDM** | Definir la estructura duradera y el significado de los datos recopilados | Puntos de datos rígidos, considerados inmutables | Forma de evento y entidad, significado de campo, relaciones, valores permitidos, reutilización en varios canales | &quot;ranuras&quot; numeradas (eVar1/prop1), lógica de atribución/persistencia, soluciones específicas para la creación de informes |
+| **Vistas de datos** | Definición del comportamiento de los datos recopilados en el análisis | Flexible; se pueden modificar libremente y pueden reinterpretar los datos de forma retroactiva | Configuración de componentes, comportamiento de atribución y persistencia, campos derivados, métricas filtradas, métricas calculadas | Significado fundamental de los campos; ese significado debe ser estable en el esquema |
 
 ## Comparar esquemas con la recopilación de datos de Adobe Analytics
 
 El modelo de datos de Experience que utiliza Customer Journey Analytics ofrece una flexibilidad considerablemente mayor que la mayoría de las demás soluciones de Analytics (incluido Adobe Analytics). El establecimiento de un esquema sólido es la oportunidad que tiene su organización para evitar avanzar restricciones que existen en otros productos de Analytics.
 
-| Hábito común de Adobe Analytics | Mejor enfoque en XDM + Customer Journey Analytics |
+| Hábito Adobe Analytics común | Mejor enfoque en XDM + Customer Journey Analytics |
 |---|---|
-| Diseñando alrededor de las ranuras numeradas (`eVar1`-`eVar250`, `prop1`-`prop75`) | Cree campos con un significado estable (por ejemplo, `search.term`, `content.category`, `user.membershipTier`) y reutilícelos de forma coherente |
-| Codificación de persistencia, asignación o caducidad en el modelo de datos | Capturar hechos duraderos en el esquema; aplicar el comportamiento de atribución y persistencia en el nivel de vista de datos |
+| Diseño en torno a ranuras numeradas (`eVar1`–,`eVar250``prop1` –`prop75`) | Crear campos con significado estable (por ejemplo, `search.term`, `content.category`, `user.membershipTier`) y reutilizarlos de forma coherente |
+| Codificación de persistencia/Asignación/caducidad en el modelo de datos | Capturar hechos duraderos en el esquema; aplicar el comportamiento de atribución y persistencia en el nivel de vista de datos |
 | Duplicación del mismo valor en varias variables para lograr comportamientos de informes | Almacene el valor una vez y cree varios componentes (dimensiones/métricas) a partir de él en vistas de datos |
 | Creación de un &quot;campo de métrica&quot; único para cada recuento que desee | Capture los hechos correctos una vez (a menudo como enumeraciones, booleanos, cadenas) y luego defina las métricas como recuentos filtrados en las vistas de datos |
-| Diseño de variables para la creación de informes &quot;previa a la resolución&quot; | Diseñe su esquema para capturar hechos y utilizar vistas de datos para resolver la semántica de los informes |
+| Diseño de variables para la creación de informes &quot;previa a la resolución&quot; | Diseñe sus esquema para capturar hechos y usar vistas de datos para resolver sistema de informes semántica |
 
 ## Establezca un esquema con atributos comunes
 
@@ -56,10 +56,10 @@ Un esquema unificado en todos los canales es posible cuando se estandariza un co
 
 * **Contexto de la experiencia:** nombre del sitio/aplicación, entorno, configuración regional, canal, marca
 * **Contexto de Recorrido:** identificadores de campaña, contexto de referencia, identificadores de experimento
-* **Estado del usuario:** estado de inicio de sesión, nivel de pertenencia, tipo de cuenta
-* **Detalles de la interacción:** nombre/tipo de interacción, región de interfaz de usuario, etiqueta de elemento, categoría de error
+* **Estado del usuario:** estado de inicio de sesión, nivel de abono cuenta
+* **Detalles de interacción:** nombre/tipo de interacción, área geográfica de IU, etiqueta de elemento, categoría de error
 
-La clave es estandarizar lo que representa el campo independientemente del canal. Evite modelar el mismo concepto de forma diferente en los distintos canales a menos que realmente representen conceptos diferentes. Por ejemplo, puede ser recomendable evitar tener campos de esquema independientes para los ID de campaña web y los ID de campaña móvil. Los campos de esquema independientes dificultan el establecimiento de un retorno multicanal en los datos de gasto en publicidad. Si se requiere una diferenciación en los informes, puede segmentar por canal o concatenar varios campos para proporcionar esa distinción. El mismo campo de esquema se puede utilizar en cualquier número de dimensiones o métricas.
+La clave es estandarizar lo que representa el campo, independientemente de canal. Evite modelar el mismo concepto de manera diferente en todos los canales a menos que realmente representen conceptos diferentes. Por ejemplo, sería prudente evitar tener campos de esquema separados para los ID de campaña web y los ID de campaña móvil. La separación de campos de esquema hace más difícil establecer datos de retorno de la inversión en publicidad canal cruzada. Si se requiere una diferenciación en sistema de informes, puede segmento canal o concatenando varios campos para proporcionar esa distinción. El mismo campo esquema se puede utilizar en cualquier número de dimensiones o métricas.
 
 Una manera práctica de admitir varios canales mientras se mantiene una única estrategia de esquema es usar un patrón de **core + extensions**:
 
@@ -96,7 +96,7 @@ Al diseñar un esquema, manténgase al tanto de los hechos. Por ejemplo, `error.
 * `error.type` (enumeración/cadena) puede activar:
    * &quot;Errores de validación&quot;
    * &quot;Errores de autorización&quot;
-* `user.isLoggedIn` (booleano) puede alimentar:
+* `user.isLoggedIn` (booleano) puede potenciar:
    * &quot;Sesiones autenticadas&quot;
    * &quot;Conversiones autenticadas&quot;
 
@@ -110,25 +110,25 @@ Algunas organizaciones deben continuar con los informes de Adobe Analytics mient
 
 1. **Utilice rutas de campo XDM que Adobe Analytics reconozca y asigne automáticamente:** Cuando envíe campos XDM reconocidos a Adobe Analytics a través de Edge Network, se [asignarán automáticamente](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping) sin necesidad de configuración adicional.
 1. **Use campos XDM personalizados para conceptos específicos de la organización:** Todos los campos XDM que no se asignen automáticamente a una variable de Analytics se reenvían como [Variables de datos de contexto](https://experienceleague.adobe.com/es/docs/analytics/implementation/vars/page-vars/contextdata) en Adobe Analytics.
-1. **Use reglas de procesamiento de Adobe Analytics para asignar esas variables de datos de contexto a props/eVars:** [Las reglas de procesamiento](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) en última instancia le permiten asignar cualquier campo XDM personalizado a cualquier eVar o prop. Este concepto admite la creación de informes de paridad en Adobe Analytics, a la vez que mantiene el esquema limpio y centrado en Customer Journey Analytics.
+1. **Use reglas de procesamiento de Adobe Analytics para asignar esas variables de datos de contexto a props/eVars:** [Las reglas de procesamiento](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) en última instancia le permiten asignar cualquier campo XDM personalizado a cualquier eVar o prop. Este concepto admite la creación de informes de paridad en Adobe Analytics, a la vez que mantiene el esquema limpio y centrado en Customer Journey Analytics.
 
 ## Identificación de partes interesadas y definición de propiedad
 
 El diseño del esquema se realiza correctamente cuando se acuerda y mantiene el significado del campo. Aunque las estructuras organizativas varían, las siguientes funciones suelen participar:
 
-* **Administrador/analista de Analytics**: define preguntas de creación de informes, valida que los campos representan conceptos significativos y revisa la semántica de análisis en las vistas de datos.
+* **Analytics administrador/analista**: define sistema de informes preguntas, valida que los campos representan conceptos significativos y revisa análisis semántica en vistas de datos.
 * **Desarrollador/propietario de la implementación**: Garantiza que los campos se puedan recopilar de forma fiable mediante Web SDK y se ajusta a la capa de datos/instrumentación de la aplicación.
 * **Arquitecto/ingeniero de datos**: garantiza la coherencia del esquema, su reutilización en todos los dominios y la compatibilidad con los servicios descendentes.
-* **Interesado en la administración/privacidad**: revisa la minimización de datos, las expectativas de consentimiento y las restricciones del uso de datos.
+* **responsable de departamento** de privacidad/gobernanza: revisa la minimización de datos, las expectativas de consentimiento y las restricciones de uso de datos.
 
-Defina un propietario claro para los cambios de esquema. Un esquema estable con control de cambios disciplinado evita la rotura descendente y reduce el trabajo repetido. Considere la posibilidad de utilizar un flujo de trabajo o una herramienta de control de seguimiento para democratizar las solicitudes y administrar el control de cambios a lo largo del tiempo.
+Defina un propietario claro para esquema cambios. Un esquema estable con control de cambios disciplinado evita la rotura aguas abajo y reduce el retrabajo. Considere la posibilidad de utilizar una flujo de trabajo o herramientas de gobernanza seguimiento para democratizar las solicitudes y administrar el control de los cambios a lo largo del tiempo.
 
 ## Consideraciones de privacidad y gobernanza
 
 El diseño del esquema debe reflejar las expectativas de privacidad y gobernanza, según las políticas de privacidad de su organización. Tenga en cuenta los siguientes puntos al crear el esquema:
 
 * Recopile solo lo que necesite para admitir casos de uso definidos.
-* Asegúrese de que los requisitos de uso de datos y consentimiento se reflejen en la estrategia de recopilación. Consulte [Usar Web SDK para procesar los datos de consentimiento del cliente](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/consent/sdk) para obtener más información.
+* Asegúrese de que los requisitos de uso de datos y consentimiento se reflejen en la estrategia de recopilación. Consulte [Usar Web SDK para procesar los datos de consentimiento del cliente](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/sdk) para obtener más información.
 * Considere cómo se etiquetan y controlan los campos confidenciales dentro de las herramientas de gobernanza de Adobe Experience Platform. Consulte [Adobe Customer Journey Analytics y control de datos](/help/privacy/privacy-overview.md) para obtener más información.
 
 ## Pasos siguientes

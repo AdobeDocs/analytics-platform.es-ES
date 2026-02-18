@@ -7,8 +7,8 @@ feature: Use Cases, Cross-Channel Analysis
 role: User
 source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ El análisis en canales múltiples hace posible una sola vista consolidada del c
    2. Datos de perfil ![profile](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (por ejemplo, de un sistema CRM, aplicación de centro de llamadas, aplicación de lealtad).
    3. Datos de búsqueda ![lookup](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (por ejemplo, nombre de producto, categoría de un sistema de información de productos).
 
-1. Utilice un ID de área de nombres común en todos los conjuntos de datos. Use [Vinculación](../../stitching/overview.md) para elevar cualquier conjunto de datos basado en evento ![data refresh](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) con respecto a la aportación del ID común en cada fila. Tenga en cuenta que Customer Journey Analytics no utiliza actualmente los servicios de perfil o intentidad de Experience Platform para la vinculación.
+1. Utilice un ID de espacio de nombres común en todos los conjuntos de datos. Use [Vinculación](../../stitching/overview.md) para elevar cualquier conjunto de datos basado en evento ![data refresh](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) con respecto a la aportación del ID común en cada fila. Tenga en cuenta que Customer Journey Analytics no utiliza actualmente los servicios de perfil o intentidad de Experience Platform para la vinculación.
 1. Realice cualquier preparación de datos personalizada para asegurarse de que se incorpora una clave común en los conjuntos de datos de serie temporal en Customer Journey Analytics.
 1. Asigne un ID principal a los datos de búsqueda que pueda unirse a un campo en los datos de evento. Cuenta como filas en licencias.
 1. Establezca el mismo ID principal para los datos de perfil que el ID principal de los datos de evento.
@@ -48,7 +48,7 @@ El análisis en canales múltiples hace posible una sola vista consolidada del c
 
 Al establecer este flujo de trabajo, asegúrese de tener en cuenta los siguientes puntos.
 
-* El análisis de datos entre canales requiere la misma área de nombres de ID en cada registro.
+* El análisis de datos entre canales requiere el mismo espacio de nombres de ID en cada registro.
 * El proceso de unión de conjuntos de datos dispares requiere una clave persona/entidad principal común en todos los conjuntos de datos.
 * Actualmente no se admiten uniones secundarias basadas en claves.
 * El proceso de vinculación permite volver a generar claves de identidades en filas basadas en información de ID transitorio (como un ID de autenticación) de registros que comparten el mismo ID persistente. Esto permite resolver registros dispares en un único ID vinculado para su análisis en el nivel de persona, en lugar de en el nivel de dispositivo o cookie.

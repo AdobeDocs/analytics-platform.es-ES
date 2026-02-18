@@ -163,6 +163,6 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 >[!MORELIKETHIS]
 >
 >[Configuración de componentes de atribución](/help/data-views/component-settings/attribution.md)
->>[Métrica de participación](participation-metric.md)
+>[Métrica de participación](participation-metric.md)
 >
 

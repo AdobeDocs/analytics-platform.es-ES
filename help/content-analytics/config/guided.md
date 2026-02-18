@@ -335,13 +335,13 @@ Sin embargo, puede editar las páginas y los recursos que desea incluir o exclui
 
 ### Invalidaciones del encabezado
 
-Opcionalmente, puede especificar en la sección **[!UICONTROL Anulaciones de encabezado]** un nombre de encabezado y un valor de encabezado secreto.  Este encabezado anula la configuración y garantiza que Content Analytics envíe encabezados HTTP personalizados para evitar la detección de bots o las tecnologías de tráfico de puerta que haya implementado.
+Si lo desea, puede especificar en la sección Anulaciones **[!UICONTROL de]** encabezado un nombre de encabezado y un valor de encabezado secreto.  Esta configuración de anulación de encabezado garantiza que Content Analytics envíe encabezados HTTP personalizados para evitar cualquier detección de bot o tecnologías de tráfico de puerta que haya implementado.
 
-![Sección de invalidaciones de encabezado](/help/content-analytics/assets/aca-configuration-header-overrides.png)
+![Sección de anulaciones de encabezado](/help/content-analytics/assets/aca-configuration-header-overrides.png)
 
-1. Habilitar **[!UICONTROL Configurar invalidaciones de encabezado]**.
-1. Escriba el **[!UICONTROL nombre del encabezado]**. Por ejemplo, `x-asset-service`.
-1. Escriba el **[!UICONTROL valor del encabezado]**. Lo que especifique es secreto y no visible en la interfaz de usuario (a menos que seleccione explícitamente revelar ![Visibilidad](/help/assets/icons/Visibility.svg) el valor durante la entrada).
+1. Habilitar **[!UICONTROL Configurar anulaciones]** de encabezado.
+1. Introduzca el nombre **[!UICONTROL del]** encabezado. Por ejemplo, `x-asset-service`.
+1. Introduzca el valor **[!UICONTROL de]** Header. Todo lo que especifique es secreto y no es visible en la interfaz de usuario (a menos que seleccione revelar ![Visibilidad](/help/assets/icons/Visibility.svg) el valor durante la entrada).
 
 
 ### Resumen {#summary}

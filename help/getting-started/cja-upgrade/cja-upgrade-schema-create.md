@@ -7,8 +7,8 @@ feature: Basics
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
 source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
