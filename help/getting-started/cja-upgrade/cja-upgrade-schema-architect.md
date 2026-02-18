@@ -44,7 +44,7 @@ El modelo de datos de Experience que utiliza Customer Journey Analytics ofrece u
 
 | Hábito Adobe Analytics común | Mejor enfoque en XDM + Customer Journey Analytics |
 |---|---|
-| Diseño en torno a ranuras numeradas (`eVar1`–,`eVar250``prop1` –`prop75`) | Crear campos con significado estable (por ejemplo, `search.term`, `content.category`, `user.membershipTier`) y reutilizarlos de forma coherente |
+| Diseño en torno a ranuras numeradas (`eVar1`–,`eVar250` `prop1` –`prop75`) | Crear campos con significado estable (por ejemplo, `search.term`, `content.category`, `user.membershipTier`) y reutilizarlos de forma coherente |
 | Codificación de persistencia/Asignación/caducidad en el modelo de datos | Capturar hechos duraderos en el esquema; aplicar el comportamiento de atribución y persistencia en el nivel de vista de datos |
 | Duplicación del mismo valor en varias variables para lograr comportamientos de informes | Almacene el valor una vez y cree varios componentes (dimensiones/métricas) a partir de él en vistas de datos |
 | Creación de un &quot;campo de métrica&quot; único para cada recuento que desee | Capture los hechos correctos una vez (a menudo como enumeraciones, booleanos, cadenas) y luego defina las métricas como recuentos filtrados en las vistas de datos |
