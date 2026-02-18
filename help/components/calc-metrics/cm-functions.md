@@ -93,7 +93,7 @@ Devuelve el mayor valor en un conjunto de elementos de una dimensión para una c
 
 >[!TIP]
 >
->Use una instrucción [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Máximo de columna***(Ingresos*), 1, 0) para resaltar el elemento de mayor rendimiento en el desglose.
+>Use una instrucción [IF](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Máximo de columna***(Ingresos*), 1, 0) para resaltar el elemento de mayor rendimiento en el desglose.
 >
 
 ## Mínimo de columna {#column-minimum}
@@ -123,7 +123,7 @@ Devuelve el valor más pequeño en un conjunto de elementos de una dimensión pa
 
 >[!TIP]
 >
->Use una instrucción [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Mínimo de columna***(Ingresos*), 1, 0) para resaltar el elemento con menor rendimiento en su desglose.
+>Use una instrucción [IF](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Mínimo de columna***(Ingresos*), 1, 0) para resaltar el elemento con menor rendimiento en su desglose.
 >
 
 
