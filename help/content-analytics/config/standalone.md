@@ -1,15 +1,12 @@
 ---
 title: Configuración de Content Analytics (independiente)
-description: Le guía por los pasos necesarios para configurar Content Analytics (independiente)
+description: Guía paso a paso para configurar Adobe Content Analytics como solución independiente. Aprenda a configurar esquemas, conjuntos de datos, flujos de datos e informes para obtener perspectivas completas del rendimiento del contenido sin una implementación completa de Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-hide: true
-hidefromtoc: true
-exl-id: 35d63b7d-f35a-4a88-ae14-96724d32a931
-source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
+source-git-commit: f95910d3bd6e9f0e7be7bf272e9c363b4a4a5429
 workflow-type: tm+mt
-source-wordcount: '2517'
+source-wordcount: '2539'
 ht-degree: 6%
 
 ---
@@ -35,15 +32,15 @@ Esta guía utiliza varios términos técnicos, de Experience Platform y Customer
 | Término | Explicación |
 |---|---|
 | **Esquema** | Un [esquema](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto del mundo real, como un evento que se produce en un sitio web, como un clic. Y esboce qué datos deben incluirse en cada instancia de ese objeto. |
-| **Conjunto de datos** | Un [conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview) es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Un conjunto de datos es como una tabla de base de datos en la que cada fila es un evento del sitio web. |
-| **Flujo de datos** | Un [conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview) representa la configuración del lado del servidor que enruta los datos de su sitio web al conjunto de datos correcto en Adobe Experience Platform. Un conjunto de datos actúa como una autopista de datos que conecta el sitio con el almacenamiento. |
-| **Etiquetas** | [Las etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home) en Experience Platform son la próxima generación de funcionalidades de administración de etiquetas de Adobe. Las etiquetas ofrecen a los clientes una alternativa sencilla para implementar y gestionar las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. En Content Analytics, el sistema de administración de etiquetas de Adobe le permite implementar código de seguimiento en su sitio web sin tener que editar todas las páginas de forma similar. La funcionalidad Etiquetas es similar a la funcionalidad que podría conocer de Google Tag Manager. |
+| **Conjunto de datos** | Un [conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Un conjunto de datos es como una tabla de base de datos en la que cada fila es un evento del sitio web. |
+| **Flujo de datos** | Un [conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) representa la configuración del lado del servidor que enruta los datos de su sitio web al conjunto de datos correcto en Adobe Experience Platform. Un conjunto de datos actúa como una autopista de datos que conecta el sitio con el almacenamiento. |
+| **Etiquetas** | [Las etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) en Experience Platform son la próxima generación de funcionalidades de administración de etiquetas de Adobe. Las etiquetas ofrecen a los clientes una alternativa sencilla para implementar y gestionar las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. En Content Analytics, el sistema de administración de etiquetas de Adobe le permite implementar código de seguimiento en su sitio web sin tener que editar todas las páginas de forma similar. La funcionalidad Etiquetas es similar a la funcionalidad que podría conocer de Google Tag Manager. |
 | **Zona protegida** | Experience Platform proporciona [zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home) que dividen una sola instancia de Experience Platform en entornos virtuales independientes para ayudar a desarrollar y evolucionar aplicaciones de experiencia digital. Content Analytics suele usar la zona protegida *Production*. |
-| **Conexión** | [Conexiones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/overview) definen qué conjuntos de datos de Experience Platform se incorporan. Las conexiones definen el vínculo entre el conjunto de datos (donde los datos se almacenan en AEP) y Customer Journey Analytics (donde los analiza). Una conexión hace que los datos recopilados estén disponibles para la creación de informes. |
+| **Conexión** | [Conexiones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview) definen qué conjuntos de datos de Experience Platform se incorporan. Las conexiones definen el vínculo entre el conjunto de datos (donde los datos se almacenan en AEP) y Customer Journey Analytics (donde los analiza). Una conexión hace que los datos recopilados estén disponibles para la creación de informes. |
 | **Vista de datos** | Una [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views) es un contenedor que le permite determinar cómo interpretar los datos de una conexión. Una vista de datos especifica todas las dimensiones y métricas sobre las que puede informar. Una vista de datos es como una configuración que determina las filas y columnas disponibles para su uso en el análisis. |
-| **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home) es una interfaz de explorador de arrastrar y soltar que se usa para generar los informes y análisis de Content Analytics. |
-| **Experiencia** | En Content Analytics, una [experiencia](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics#terminology) hace referencia a todo el contenido de texto de una página web que se puede capturar y analizar en función de la dirección URL de la página. |
-| **Recurso** | En Content Analytics, un [recurso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics#terminology) es un fragmento de contenido individual y único, como una imagen. |
+| **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) es una interfaz de explorador de arrastrar y soltar que se usa para generar los informes y análisis de Content Analytics. |
+| **Experiencia** | En Content Analytics, una [experiencia](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology) hace referencia a todo el contenido de texto de una página web que se puede capturar y analizar en función de la dirección URL de la página. |
+| **Recurso** | En Content Analytics, un [recurso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology) es un fragmento de contenido individual y único, como una imagen. |
 
 
 ## Resumen de configuración
@@ -85,7 +82,7 @@ Necesita un administrador del sistema o de producto para agregarlo como administ
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrar usuarios para obtener un perfil de producto](https://video.tv.adobe.com/v/3475944/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrar usuarios para obtener un perfil de producto](https://video.tv.adobe.com/v/333860/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 
 >[!ENDSHADEBOX]
