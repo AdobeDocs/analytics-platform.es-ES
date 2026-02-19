@@ -4,10 +4,10 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 9b941deb424d92744bea99f6ea01f6434d6bc19f
+source-git-commit: 02aa4b4c9b357efca3d620bb72d8a505153bc079
 workflow-type: tm+mt
-source-wordcount: '20935'
-ht-degree: 97%
+source-wordcount: '21006'
+ht-degree: 96%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 97%
 
 Las plantillas (o plantillas de la compañía) de Analysis Workspace proporcionan información rápida de los escenarios más habituales de creación de informes.  A continuación, se muestran algunos ejemplos de preguntas a las que se puede responder con las plantillas:
 
-* La cantidad de personas que visitan el sitio
-* La cantidad de los visitantes únicos (se cuentan solo una vez)
-* La forma en la que llegaron al sitio (si siguieron un vínculo o llegaron directamente)
-* Las palabras clave utilizadas por los visitantes para buscar el contenido del sitio
-* El tiempo que los visitantes permanecieron en una página determinada o en todo el sitio
-* Los vínculos en los que hicieron clic los visitantes y en qué momento salieron del sitio
-* Los canales de marketing que son más eficaces para generar ingresos o eventos de conversión
-* Cuánto tiempo emplearon en ver un vídeo
-* Qué exploradores y dispositivos utilizaron para visitar el sitio
+* La cantidad de personas que visitan el sitio.
+* La cantidad de los visitantes únicos (se cuentan solo una vez).
+* Cómo llegaron al sitio (si siguieron un vínculo o llegaron directamente).
+* Las palabras clave utilizadas por los visitantes para buscar el contenido del sitio.
+* El tiempo que los visitantes permanecieron en una página determinada o en todo el sitio.
+* Los vínculos en los que hicieron clic los visitantes y en qué momento salieron del sitio.
+* Qué canales de marketing son los más eficaces para generar ingresos o eventos de conversión.
+* Cuánto tiempo emplearon en ver un vídeo.
+* Qué exploradores y dispositivos utilizaron para visitar el sitio.
 
 En la siguiente información se describe cómo acceder a las plantillas y utilizarlas en la pestaña [!UICONTROL Plantillas] en Analysis Workspace.
 
@@ -1117,11 +1117,15 @@ Las plantillas disponibles son las siguientes:
 
 ### Mix Modeler templates {#mix-modeler-templates}
 
+Las plantillas disponibles son las siguientes:
+
+| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- |
+| [!UICONTROL **Datos del modelo incremental de Mix Modeler**] | Vea información de modelos seleccionados generados por Mix Modeler.<p>**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Mix Modeler. <p>**Según estas perspectivas**, usted podrá:<ul><li>Visualice y cuantifique el impacto de las actividades de marketing de su organización.</li><li>Identifique qué canales tienen un alto rendimiento.</li><li>Identifique qué canales pueden necesitar optimización.</li></ul></p> |
+
 <!-- CJA only -->
 
 >[!CONTEXTUALHELP]
->id="template--mixModelerReport"
+>id="template--mixmodeler-incremental-models-insights"
 >title="Vea información de modelos seleccionados generados por Mix Modeler."
 >abstract="**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Mix Modeler. <br/>**Según estas perspectivas**, usted podrá:<ul><li>Visualice y cuantifique el impacto de las actividades de marketing de su organización.</li><li>Identifique qué canales tienen un alto rendimiento.</li><li>Identifique qué canales pueden necesitar optimización.</li></ul>"
-
-
