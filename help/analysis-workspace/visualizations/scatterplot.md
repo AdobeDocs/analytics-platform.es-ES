@@ -40,7 +40,7 @@ La visualización ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICON
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de diagrama de puntos](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de diagrama de puntos](https://video.tv.adobe.com/v/3416859/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
