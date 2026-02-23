@@ -167,7 +167,7 @@ Para obtener más información, consulte [Segmentos rápidos](/help/components/s
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VídeoConsultado](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VídeoConsultado](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

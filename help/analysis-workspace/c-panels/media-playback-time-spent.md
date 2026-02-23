@@ -60,7 +60,7 @@ El tiempo invertido en la reproducción puede ayudarle a conocer lo siguiente:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

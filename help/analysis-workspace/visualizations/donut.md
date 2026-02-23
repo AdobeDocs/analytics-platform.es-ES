@@ -25,7 +25,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel en blanco en_![CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Anillo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut) para ver la versión de_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta el panel en blanco en_![CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Anillo](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/donut) para ver la versión de_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ Similar a un gráfico circular, la visualización ![GraphDonut](/help/assets/ico
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Añadir una visualización de anillo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Añadir una visualización de anillo](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

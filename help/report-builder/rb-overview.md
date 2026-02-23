@@ -48,7 +48,7 @@ Report Builder para Customer Journey Analytics es un complemento de Microsoft Ex
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder para Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/report-builder-for-customer-journey-analytics){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder para Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/report-builder-for-customer-journey-analytics){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

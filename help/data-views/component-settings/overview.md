@@ -59,7 +59,7 @@ La siguiente información describe la configuración que utiliza un componente d
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

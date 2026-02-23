@@ -90,7 +90,7 @@ Repita los pasos anteriores para la versión internacional de la métrica calcul
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada segmentada como métrica sin implementación](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use una métrica calculada segmentada como métrica sin implementación](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

@@ -18,7 +18,7 @@ El [modelo de atribución](models.md) algorítmica en Analysis Workspace difiere
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución algorítmica](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución algorítmica](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

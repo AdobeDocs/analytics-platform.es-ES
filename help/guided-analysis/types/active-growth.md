@@ -31,7 +31,7 @@ El análisis del ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTRO
 Todos los usuarios activos (nuevos + habituales + recurrentes) aparecen como un tono verde azulado encima del eje horizontal, mientras que todos los usuarios inactivos aparecen en naranja debajo del eje horizontal.
 
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/active-growth)
+>[!VIDEO](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/guided-analysis/active-growth)
 
 ## Casos de uso
 

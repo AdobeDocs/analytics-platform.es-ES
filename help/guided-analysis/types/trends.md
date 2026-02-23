@@ -26,7 +26,7 @@ ht-degree: 92%
 El análisis ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Tendencias]** proporciona información valiosa sobre el rendimiento del producto o el comportamiento de los usuarios a lo largo del tiempo. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los eventos deseados.
 
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/trends)
+>[!VIDEO](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/guided-analysis/trends)
 
 ## Casos de uso
 

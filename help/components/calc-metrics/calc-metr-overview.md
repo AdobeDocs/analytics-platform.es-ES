@@ -20,7 +20,7 @@ Las métricas calculadas son personalizadas y se pueden crear a partir de métri
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a las métricas calculadas](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/introduction-to-calculated-metrics-in-customer-journey-analytics){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a las métricas calculadas](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/introduction-to-calculated-metrics-in-customer-journey-analytics){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

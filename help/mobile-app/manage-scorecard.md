@@ -86,7 +86,7 @@ Vea el vídeo para obtener más información acerca de la creación de historias
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para proyectos de cuadros de resultados móviles](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para proyectos de cuadros de resultados móviles](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

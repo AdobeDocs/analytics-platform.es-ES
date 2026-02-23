@@ -19,7 +19,7 @@ Los segmentos rápidos le permiten explorar datos dentro de un proyecto de Works
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/filters/create-a-quick-filter){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/components/filters/create-a-quick-filter){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

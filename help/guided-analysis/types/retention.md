@@ -30,7 +30,7 @@ El análisis ![Retención](/help/assets/icons/Retention.svg) **[!UICONTROL Reten
 
 En este análisis, el eje x del gráfico representa el tiempo desde el evento de inicio inicial de un usuario y el eje y representa el porcentaje de usuarios que participan en uno o más eventos de retorno. Puede ver tanto la retención como la cancelación en todas las duraciones, y las duraciones mostradas se pueden personalizar a través de la configuración de consulta. Debajo del gráfico, una tabla proporciona datos añadidos con la opción de mostrar cohortes individuales, que son un grupo de personas que realizaron el evento inicial en la misma fecha.
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
+>[!VIDEO](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
 
 
 ## Casos de uso

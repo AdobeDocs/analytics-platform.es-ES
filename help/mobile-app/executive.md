@@ -19,7 +19,7 @@ La siguiente información proporciona a los usuarios ejecutivos información sob
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ayuda a los ejecutivos a acceder a los cuadros de resultados móviles](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/assist-executives-to-access-mobile-scorecards){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ayuda a los ejecutivos a acceder a los cuadros de resultados móviles](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/dashboards/assist-executives-to-access-mobile-scorecards){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
