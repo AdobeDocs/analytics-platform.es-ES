@@ -4,9 +4,9 @@ description: Aprenda a utilizar e interpretar el panel Visualizadores simultáne
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 2a4e0bbaedbb335e0282baa932d808cd12b1eb8c
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1176'
 ht-degree: 98%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe el panel Visualizadores simultáneos de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte el [panel Visualizadores simultáneos de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe el panel Visualizadores simultáneos de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte el [panel Visualizadores simultáneos de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ En Analysis Workspace, la métrica Visualizadores simultáneos comprende la cant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/35187/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -130,6 +130,6 @@ No hay ninguna tabla de forma libre disponible en esta vista.  Para ver la fuent
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
->&#x200B;>[Panel Público medio por minuto de medios](average-minute-audience-panel.md)
+>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
+>[Panel Público medio por minuto de medios](average-minute-audience-panel.md)
 >

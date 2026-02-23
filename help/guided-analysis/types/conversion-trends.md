@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 99%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 100%
 El análisis de ![Tendencias de conversión](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Tendencias de conversión]** proporciona una visualización de las tendencias de las tasas de conversión a lo largo del tiempo. El eje horizontal es un intervalo de tiempo, mientras que el eje vertical representa la tasa de conversión.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423492/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/conversion-trends)
 
 
-## Casos prácticos
+## Casos de uso
 
 Los casos de uso de este análisis incluyen:
 

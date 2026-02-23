@@ -4,9 +4,9 @@ description: Aprenda a profundizar en los datos de su audiencia y a dividir esos
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '720'
 ht-degree: 93%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la Tabla de cohorte en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Tabla de cohorte](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe la Tabla de cohorte en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Tabla de cohorte](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ La [!UICONTROL Tabla de cohorte] está disponible para todos los clientes de Cus
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de cohorte en Analysis Workspace](https://video.tv.adobe.com/v/3430075/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de cohorte en Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

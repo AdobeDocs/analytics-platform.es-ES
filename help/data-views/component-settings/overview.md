@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '3738'
-ht-degree: 55%
+source-wordcount: '3739'
+ht-degree: 56%
 
 ---
 
@@ -59,7 +59,7 @@ La siguiente información describe la configuración que utiliza un componente d
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://video.tv.adobe.com/v/3412934/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -435,7 +435,7 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 | ID de elemento (AJO) | El ID del elemento. |
 | Nombre del elemento (AJO) | El nombre del elemento. |
 | Nombre de elemento (mantenido) (AJO) | El nombre del elemento con enlace de persistencia habilitado. |
-| Error de acción de recorrido (AJO) | Mensajes de error generados por acciones de recorrido. |
+| Error de acción de recorrido (AJO) | Mensajes de error generados por acciones del recorrido. |
 | Nombre del nodo de acción del recorrido | Nombre del nodo de la acción de recorrido. |
 | Entradas del recorrido | Verdadero si el evento de paso era un evento de entrada de un recorrido correspondiente a un perfil. |
 | Fin del recorrido (AJO) | El final del recorrido. |
@@ -494,7 +494,7 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 | Recuento de reintentos (AJO) | Número de veces que se reintentó un envío de mensaje antes del éxito o el error. |
 | Nombre de regla | Nombre de la regla que provocó la denegación de entrada del recorrido. |
 | Tipo de selección (AJO) | Es el tipo de selección que se utiliza cuando se deriva un elemento como parte de una decisión. |
-| Envíos (obsoleto) | Recuento total de mensajes enviados en todos los canales. |
+| Envíos (obsoleto) | Recuento del total de mensajes enviados a través de todos los canales. |
 | Mensaje entrante SMS (AJO) | Respuesta de entrada de SMS como, por ejemplo, detener, iniciar, suscribirse, etc. |
 | Mensajes entrantes SMS (AJO) | Respuesta a entrada de SMS, por ejemplo, detener, iniciar, suscribirse, etc. |
 | Tipo de mensaje SMS (AJO) | Proveedor de SMS, por ejemplo, inbound, inboundReply o send. |
@@ -516,7 +516,7 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 | ID de tratamiento (AJO) | El ID del tratamiento seleccionado para el experimento. |
 | Nombre del tratamiento (AJO) | El nombre del tratamiento del experimento. |
 | Visitantes únicos del experimento (AJO) | Los visitantes únicos del experimento. |
-| Bajas (AJO) | Recuento total de bajas. |
+| Bajas (AJO) | Recuento del total de bajas. |
 | Etiqueta de URL (AJO) | Etiqueta descriptiva de la URL |
 | ID de URL (AJO) | Identificador único de la URL en la que ha hecho clic el usuario. |
 

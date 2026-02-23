@@ -4,7 +4,7 @@ title: Información general sobre los intervalos de fechas
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
@@ -16,17 +16,6 @@ ht-degree: 100%
 En un proyecto de Workspace, normalmente se usa el [calendario de un panel](/help/analysis-workspace/c-panels/panels.md#calendar) para especificar el intervalo de fechas para las visualizaciones de ese panel.
 
 Los componentes de intervalo de fechas le permiten definir y anular la configuración de calendario del panel.
-
-<!-- Very old video, should we show it?
-
-+++ View a video illustrating use of calendar and date ranges
-
->[!VIDEO](https://video.tv.adobe.com/v/327349?captions=spa&format=jpeg)
-
-{{videoaa}}
-+++
-
--->
 
 ## Usar intervalos de fechas
 

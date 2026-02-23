@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2701'
 ht-degree: 98%
 
 ---
@@ -29,7 +29,7 @@ La siguiente información instruye a los revisores de datos de Adobe Analytics s
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creación de un cuadro de resultados móvil](https://video.tv.adobe.com/v/3409728?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creación de un cuadro de resultados móvil](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ Un cuadro de resultados de Adobe Analytics muestra visualizaciones de datos clav
 
 Como revisor de este cuadro de resultados, puede utilizar el creador de cuadros de resultados para configurar los mosaicos que aparecerán en el cuadro de resultados de su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. La interfaz del creador de cuadros de resultados se muestra a continuación:
 
-![Generador de cuadros de resultados que muestra la nueva ventana de cuadro de resultados móvil. &#x200B;](assets/scorecard_builder.png)
+![Generador de cuadros de resultados que muestra la nueva ventana de cuadro de resultados móvil. ](assets/scorecard_builder.png)
 
 Para crear el cuadro de resultados, debe hacer lo siguiente:
 
@@ -79,7 +79,7 @@ Para implementar la plantilla del cuadro de resultados:
 
 1. Para añadir un nuevo mosaico a su cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
-   ![Nueva ventana de cuadro de resultados móvil con una flecha que señala a una métrica (Nuevo KPI) que se ha soltado en el cuadro de resultados. &#x200B;](assets/build_list.png)
+   ![Nueva ventana de cuadro de resultados móvil con una flecha que señala a una métrica (Nuevo KPI) que se ha soltado en el cuadro de resultados. ](assets/build_list.png)
 
 
 1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
@@ -170,7 +170,7 @@ Esta visualización muestra las barras horizontales que representan los distinto
 
 ## Asignación de un nombre a los cuadros de resultados {#name}
 
-Para asignar un nombre al cuadro de resultados, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
+Para asignar un nombre al cuadro de resultados, haga clic en el espacio de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
 ![Naming_Scorecards](assets/new_name.png)
 
@@ -212,7 +212,7 @@ Las diapositivas de detalles personalizadas le permiten centrarse aún más en l
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3413786?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -257,7 +257,7 @@ Vea el vídeo para obtener más información acerca de la creación de historias
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para un proyecto de cuadro de resultados móvil](https://video.tv.adobe.com/v/3420559/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para un proyecto de cuadro de resultados móvil](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

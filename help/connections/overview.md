@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 97%
+source-wordcount: '260'
+ht-degree: 93%
 
 ---
 
 # Información general sobre conexiones
 
-Las conexiones permiten a los administradores de productos de Customer Journey Analytics definir qué fuentes de datos de [!DNL &#x200B; Experience Platform] se ingieren, como conjuntos de datos de evento, búsqueda, perfil y resumen. Las conexiones son la base de Customer Journey Analytics y determinan la disponibilidad de los datos (campos) que puede definir en una [vista de datos](/help/data-views/data-views.md) como dimensión o como métricas.
+Las conexiones permiten a los administradores de productos de Customer Journey Analytics definir qué fuentes de datos de [!DNL  Experience Platform] se ingieren, como conjuntos de datos de evento, búsqueda, perfil y resumen. Las conexiones son la base de Customer Journey Analytics y determinan la disponibilidad de los datos (campos) que puede definir en una [vista de datos](/help/data-views/data-views.md) como dimensión o como métricas.
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,11 @@ Las conexiones permiten a los administradores de productos de Customer Journey A
 
 ![Flujo de trabajo Conexiones](assets/connection-workflow.png)
 
-<!-- Outdated interface 
-
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/v/35111/?quality=12&learn=on){target="_blank"} for a demo video.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conectarse a fuentes de datos](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
-
--->
 
 En un nivel superior, el flujo de trabajo Conexiones le permite lo siguiente:
 

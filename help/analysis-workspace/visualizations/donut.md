@@ -4,9 +4,9 @@ title: Anillo
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 86%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel en blanco en_![CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Anillo](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/donut) para ver la versión de_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta el panel en blanco en_![CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**._<br/>_Consulte [Anillo](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut) para ver la versión de_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ Similar a un gráfico circular, la visualización ![GraphDonut](/help/assets/ico
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Añadir una visualización de anillo](https://video.tv.adobe.com/v/3416623/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Añadir una visualización de anillo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -47,7 +47,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Añadir una visu
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

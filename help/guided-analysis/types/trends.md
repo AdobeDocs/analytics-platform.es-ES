@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: e42f04eaa06a761803e76b64a5a16674fb4af57d
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 92%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 92%
 El análisis ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Tendencias]** proporciona información valiosa sobre el rendimiento del producto o el comportamiento de los usuarios a lo largo del tiempo. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los eventos deseados.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423445/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/trends)
 
-## Casos prácticos
+## Casos de uso
 
 Los casos de uso de este análisis incluyen:
 

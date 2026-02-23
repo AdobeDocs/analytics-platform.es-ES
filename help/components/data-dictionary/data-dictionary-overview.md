@@ -4,10 +4,10 @@ title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '570'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Los administradores de Analytics son responsables de seleccionar la información
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://video.tv.adobe.com/v/3422281/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/data-dictionary/use-data-dictionary){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

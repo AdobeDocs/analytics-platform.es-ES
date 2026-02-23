@@ -4,9 +4,9 @@ title: Viñeta
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '271'
 ht-degree: 90%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización de viñeta de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Viñeta](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe la visualización de viñeta de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Viñeta](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ El gráfico de bala presenta una única medida principal (por ejemplo, los ingre
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización del gráfico de viñetas](https://video.tv.adobe.com/v/41511/?captions=spa&quality=12/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización del gráfico de viñetas](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -58,12 +58,12 @@ Puede definir una configuración específica para una visualización de [!UICONT
 
 | Configuración | Descripción |
 |---|---|
-| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta &#x200B;]**&#x200B;es el objetivo principal que busca.**[!UICONTROL &#x200B; Meta baja &#x200B;]**&#x200B;y&#x200B;**[!UICONTROL &#x200B; Meta media &#x200B;]**&#x200B;crean intervalos por debajo de la Meta alta. Nota: Cuando la opción&#x200B;**[!UICONTROL &#x200B; Porcentajes &#x200B;]**&#x200B;esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
+| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta ]**es el objetivo principal que busca.**[!UICONTROL  Meta baja ]**y**[!UICONTROL  Meta media ]**crean intervalos por debajo de la Meta alta. Nota: Cuando la opción**[!UICONTROL  Porcentajes ]**esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
 
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
