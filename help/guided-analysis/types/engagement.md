@@ -35,7 +35,7 @@ Las funciones que aparecen en la parte superior de esta visualización indican q
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de la participación](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de la participación](https://video.tv.adobe.com/v/3447470?captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
