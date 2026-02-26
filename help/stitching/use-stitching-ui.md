@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
+source-git-commit: c6ccbdf89c51deef33b562a053b9c3b4bc626497
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 5%
@@ -91,11 +91,11 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 >id="connection_changeto_identitygraph"
 >title="Cambio en el gráfico de identidad"
 >abstract="Asegúrese de haber terminado la configuración del gráfico de identidad antes de utilizarlo para la vinculación."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/gbs" text="Vinculación basada en gráficos"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Vinculación basada en gráficos"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
->title="ID de la persona"
+>title="ID de persona"
 >abstract="Seleccione un ID de persona (el identificador único de una persona) entre las identidades disponibles. Si desea usar la vinculación basada en gráficos, seleccione **[!UICONTROL Gráfico de identidad]**."
 
 Para habilitar la vinculación, en la sección del conjunto de datos de evento del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**:
@@ -112,14 +112,14 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento d
 
    Si selecciona **[!UICONTROL mapa de identidad]** para el ID persistente, debe seleccionar un área de nombres Tiene dos opciones:
 
-   * Habilitar **[!UICONTROL Usar el área de nombres de identidad principal]** para usar el área de nombres de identidad principal.
+   * Seleccione **[!UICONTROL Usar el área de nombres de identidad principal]** para usar el área de nombres de identidad principal.
    * Seleccione un área de nombres del menú desplegable **[!UICONTROL Área de nombres]**.
 
 1. Seleccione un ID de persona en el menú desplegable **[!UICONTROL ID de persona]**.
 
    Si selecciona **[!UICONTROL mapa de identidad]** para el ID de persona, debe seleccionar un área de nombres. Tiene dos opciones:
 
-   * Habilitar **[!UICONTROL Usar el área de nombres de identidad principal]** para usar el área de nombres de identidad principal.
+   * Seleccione **[!UICONTROL Usar el área de nombres de identidad principal]** para usar el área de nombres de identidad principal.
    * Seleccione un área de nombres del menú desplegable **[!UICONTROL Área de nombres]**.
 
 
@@ -141,7 +141,7 @@ Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
