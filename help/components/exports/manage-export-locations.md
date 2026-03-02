@@ -5,16 +5,16 @@ title: Administrar ubicaciones y cuentas de exportación en la nube
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 25a5c42153e28493321d87fa5227fcf44c244bb6
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1392'
 ht-degree: 3%
 
 ---
 
 # Administrar ubicaciones y cuentas de exportación en la nube
 
-Puede ver, editar y eliminar ubicaciones de exportación de la nube.
+Puede ver, editar y eliminar ubicaciones y cuentas de exportación de la nube.
 
 Para obtener información sobre cómo crear una nueva ubicación, consulte [Configurar ubicaciones de exportación de la nube](/help/components/exports/cloud-export-locations.md).
 
@@ -30,7 +30,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 1. Seleccione el icono **Filter**.
 
-   <!-- add screenshot -->
+   ![Icono de filtro en la página de ubicaciones](assets/locations-filter-icon.png)
 
    Puede filtrar por los siguientes criterios:
 
@@ -48,6 +48,8 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
 1. Seleccione la ficha [!UICONTROL **Ubicaciones**].
 
+   ![Página de ubicaciones](assets/locations-manager.png)
+
 1. (Condicional) Si es administrador del sistema, puede habilitar la opción [!UICONTROL **Ver ubicaciones de todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
 
 1. En el campo de búsqueda, empiece a escribir cualquier información asociada con la ubicación que está buscando. Puede buscar datos de cualquier columna disponible en la tabla.
@@ -62,13 +64,13 @@ Para editar una ubicación:
 
 1. Seleccione la ficha [!UICONTROL **Ubicaciones**].
 
+   ![Ventana de exportaciones que muestra la ficha Ubicaciones y la lista de ubicaciones.](assets/locations-manager.png)
+
 1. (Condicional) Si es administrador del sistema, puede habilitar la opción [!UICONTROL **Ver ubicaciones de todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
 
 1. Seleccione la ubicación que desee editar.
 
-   ![Ventana de exportaciones que muestra la ficha Ubicaciones y la lista de ubicaciones.](assets/locations-edit.png)
-
-1. Seleccione [!UICONTROL **Editar**].
+1. Seleccione [!UICONTROL **Editar**] en la parte inferior de la pantalla.
 
 1. Realice los cambios que desee y, a continuación, seleccione [!UICONTROL **Guardar**].
 
@@ -82,13 +84,13 @@ Para eliminar una ubicación:
 
 1. Seleccione la ficha [!UICONTROL **Ubicaciones**].
 
+   ![Ventana de exportaciones que muestra la ficha Ubicaciones y la lista de ubicaciones.](assets/locations-manager.png)
+
 1. (Condicional) Si es administrador del sistema, puede habilitar la opción [!UICONTROL **Ver ubicaciones de todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
 
 1. Seleccione una o varias ubicaciones que desee eliminar.
 
-   ![Ventana de exportaciones que muestra la ficha Ubicaciones y la lista de ubicaciones](assets/locations-edit.png)
-
-1. Seleccione [!UICONTROL **Eliminar**].
+1. Seleccione [!UICONTROL **Delete**] en la parte inferior de la pantalla.
 
    Aparece el cuadro de diálogo Eliminar ubicación.
 
@@ -110,9 +112,9 @@ Para editar una cuenta:
 
    ![Ventana de exportaciones que muestra la ficha Cuentas de ubicación](assets/account-add.png)
 
-1. (Condicional) Si es administrador del sistema, puede habilitar la opción [!UICONTROL **Ver cuentas de todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
+1. (Condicional) Si es administrador del sistema, puede habilitar la opción [!UICONTROL **Ver cuentas de todos los usuarios**] para ver las cuentas creadas por todos los usuarios de su organización.
 
-1. Seleccione [!UICONTROL **Ver detalles**] en la cuenta que desee editar.
+1. Seleccione [!UICONTROL **Editar detalles**] en la cuenta que desee editar.
 
 1. Realice los cambios que desee y, a continuación, seleccione [!UICONTROL **Guardar**].
 
@@ -128,9 +130,9 @@ Para ver las claves asociadas a una cuenta de exportación:
 
    ![Ventana de exportaciones que muestra la ficha Cuentas de ubicación](assets/account-add.png)
 
-1. (Condicional) Si es administrador del sistema, puede habilitar la opción [!UICONTROL **Ver cuentas de todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
+1. (Condicional) Si es administrador del sistema, puede habilitar la opción [!UICONTROL **Ver cuentas de todos los usuarios**] para ver las cuentas creadas por todos los usuarios de su organización.
 
-1. Seleccione el icono de 3 puntos en la cuenta que desea editar y, a continuación, seleccione [!UICONTROL **Claves de cuenta**].
+1. Seleccione el icono de 3 puntos en la cuenta que desee editar y, a continuación, seleccione [!UICONTROL **Mostrar claves**].
 
 ## Eliminar cuentas
 
@@ -140,9 +142,9 @@ Para ver las claves asociadas a una cuenta de exportación:
 
    ![Ventana de exportaciones que muestra la ficha Cuentas de ubicación](assets/account-add.png)
 
-1. (Condicional) Si es administrador del sistema, puede habilitar la opción [!UICONTROL **Ver cuentas de todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
+1. (Condicional) Si es administrador del sistema, puede habilitar la opción [!UICONTROL **Ver cuentas de todos los usuarios**] para ver las cuentas creadas por todos los usuarios de su organización.
 
-1. Seleccione el icono de 3 puntos en la cuenta que desee editar y, a continuación, seleccione [!UICONTROL **Eliminar cuenta**].
+1. Seleccione el icono de 3 puntos en la cuenta que desea eliminar y, a continuación, seleccione [!UICONTROL **Eliminar cuenta**].
 
 1. Vuelva a seleccionar [!UICONTROL **Eliminar**] en el cuadro de diálogo de confirmación.
 
@@ -156,35 +158,35 @@ Los administradores del sistema pueden restringir la creación de cuentas y ubic
 
 De manera predeterminada, todos los usuarios de la organización pueden crear cuentas y editar las que creen en su entorno de Customer Journey Analytics, tal como se describe en [configurar cuentas de exportación en la nube](/help/components/exports/cloud-export-accounts.md).
 
-Puede restringir la creación de cuentas de los usuarios. Cuando lo haga, los usuarios podrán seguir utilizando las cuentas que hayan creado, pero ya no podrán editarlas. Puede eliminar las cuentas que hayan creado los usuarios, tal como se describe en [Eliminar una cuenta](#delete-an-account).
+Puede restringir la creación de cuentas de los usuarios. Cuando lo haga, los usuarios podrán seguir utilizando las cuentas que hayan creado, pero ya no podrán editarlas. Puede eliminar las cuentas que hayan creado los usuarios, tal como se describe en [Eliminar una cuenta](#delete-accounts).
 
 Para restringir la creación y edición de cuentas a todos los usuarios:
 
 1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Exportaciones]** y, a continuación, seleccione la pestaña [!UICONTROL **Configuración de administración**].
 
-1. En la sección [!UICONTROL **Cuentas de ubicaciones**], anule la selección de la opción [!UICONTROL **Permitir a los usuarios crear y administrar cuentas de ubicación**].
+1. En la sección [!UICONTROL **Cuentas de ubicación**], anule la selección de la opción [!UICONTROL **Permitir a los usuarios crear y administrar cuentas de ubicación**].
 
 1. Seleccione [!UICONTROL **Guardar**].
 
-1. (Opcional) Elimine las cuentas que hayan creado los usuarios y que ya no desee que utilicen, tal como se describe en [Eliminar una cuenta](#delete-an-account).
+1. (Opcional) Elimine las cuentas que hayan creado los usuarios y que ya no desee que utilicen, tal como se describe en [Eliminar una cuenta](#delete-accounts).
 
 ### Configurar si los usuarios pueden crear y editar ubicaciones
 
 De manera predeterminada, todos los usuarios de la organización pueden crear ubicaciones y editar las que creen en su entorno de Customer Journey Analytics, tal como se describe en [configurar ubicaciones de exportación en la nube](/help/components/exports/cloud-export-locations.md).
 
-Puede restringir la creación de ubicaciones por parte de los usuarios. Cuando lo haga, los usuarios podrán seguir utilizando cualquier ubicación que ya hayan creado, pero ya no podrán editarlas. Puede eliminar ubicaciones que hayan creado los usuarios, tal como se describe en [Eliminar ubicaciones](#delete-a-location).
+Puede restringir la creación de ubicaciones por parte de los usuarios. Cuando lo haga, los usuarios podrán seguir utilizando cualquier ubicación que ya hayan creado, pero ya no podrán editarlas. Puede eliminar ubicaciones que hayan creado los usuarios, tal como se describe en [Eliminar ubicaciones](#delete-locations).
 
 Para restringir la creación y edición de ubicaciones a todos los usuarios:
 
-1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Informes]** y, a continuación, seleccione la pestaña [!UICONTROL **Configuración de administración**].
+1. En Customer Journey Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Exportaciones]** y, a continuación, seleccione la pestaña [!UICONTROL **Configuración de administración**].
 
 1. En la sección [!UICONTROL **Ubicaciones**], anule la selección de la opción [!UICONTROL **Permitir a los usuarios crear y administrar ubicaciones**].
 
 1. Seleccione [!UICONTROL **Guardar**].
 
-1. (Opcional) Elimine las ubicaciones que hayan creado los usuarios y que ya no desee que utilicen, tal como se describe en [Eliminar una ubicación](#delete-a-location).
+1. (Opcional) Elimine las ubicaciones que hayan creado los usuarios y que ya no desee que utilicen, tal como se describe en [Eliminar una ubicación](#delete-locations).
 
-### Limitar los tipos de cuentas que los usuarios pueden crear y utilizar
+### Limitar los tipos de cuenta que los usuarios pueden crear y utilizar
 
 Puede limitar los tipos de cuenta que ven los usuarios en las siguientes circunstancias:
 
@@ -207,7 +209,7 @@ Para eliminar cuentas:
 
 1. Busque las cuentas del tipo de cuenta que planea limitar y que se están utilizando para exportaciones programadas.
 
-1. Elimine las cuentas, tal como se describe en [Eliminar una cuenta](#delete-an-account).
+1. Elimine las cuentas, tal como se describe en [Eliminar una cuenta](#delete-accounts).
 
 1. Continúe con la siguiente sección: [Limitar los tipos de cuenta disponibles para los usuarios](#limit-the-account-types-that-are-available-to-users).
 

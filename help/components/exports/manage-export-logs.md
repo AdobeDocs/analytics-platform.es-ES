@@ -5,10 +5,10 @@ title: Administración de registros de exportación
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: bf76b8688dc0c463c032dd94e88450fed5488949
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 8%
+source-wordcount: '936'
+ht-degree: 7%
 
 ---
 
@@ -30,11 +30,13 @@ En el caso de las exportaciones programadas, los registros reflejan la configura
 
 1. Realice una de las siguientes acciones:
 
+   * Los administradores del sistema pueden habilitar la opción para **[!UICONTROL Ver registros de todos los usuarios]**. Cuando esta opción está habilitada, se muestran todos los registros, independientemente del usuario que haya creado la exportación.
+
    * [Personalizar las columnas](#configure-columns) que se muestran.
 
    * Seleccione el **icono de información** ![icono de información](assets/information-icon.png) junto al nombre del registro para ver la exportación asociada con el registro.
 
-   * Seleccione el **icono Editar exportación** ![icono de información](assets/edit-export-icon.png) junto al nombre del registro para editar la exportación asociada con el registro.
+   * Seleccione el **icono Editar exportación** ![Editar exportación](/help/assets/icons/Edit.svg) junto al nombre del registro para editar la exportación asociada con el registro.
 
      Para obtener más información sobre cómo editar una exportación, consulte [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md).
 
@@ -58,7 +60,7 @@ Para encontrar la información que necesita, puede filtrar la lista de registros
    |---------|----------|
    | [!UICONTROL **ID de exportación**] | Especifique el ID de exportación del registro de exportación que desea ver. |
    | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta con el que está asociado el registro. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función Amazon S3**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Pendiente**]: se ha iniciado una instancia específica de una exportación, pero aún no se ha completado.<p>Si se vuelve a ejecutar una exportación con el estado Pendiente, se retrasará el proceso de exportación.</p></li><li>[!UICONTROL **Completado**]: una instancia específica de una exportación ha finalizado el procesamiento y está disponible en la cuenta de exportación.</li><li>[!UICONTROL **Fallido**]<p>Varias situaciones pueden provocar un error en la exportación. Pase el ratón sobre el estado Error para ver los detalles del error.<p>Para obtener más información acerca de los posibles motivos de un error, vea [Solucionar problemas de exportaciones con errores](/help/components/exports/troubleshoot-exports.md).</p> |
+   | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Pendiente**]: se ha iniciado una instancia específica de una exportación, pero aún no se ha completado.<p>Volver a ejecutar una exportación con el estado Pendiente retrasa el proceso de exportación.</p></li><li>[!UICONTROL **Completado**]: una instancia específica de una exportación ha finalizado el procesamiento y está disponible en la cuenta de exportación.</li><li>[!UICONTROL **Fallido**]<p>Varias situaciones pueden provocar un error en la exportación. Pase el ratón sobre el estado Error para ver los detalles del error.</p><p>Para obtener más información acerca de los posibles motivos de un error, vea [Solucionar problemas de exportaciones con errores](/help/components/exports/troubleshoot-exports.md).</p></li></ul> |
 
    {style="table-layout:auto"}
 
@@ -94,11 +96,19 @@ Esta opción no está disponible cuando se seleccionan varios registros.
 
 1. Busque el registro asociado a la exportación que desea editar.
 
-1. Seleccione el icono **Editar exportación** ![icono de registro de exportación](assets/export-icon.png) junto al nombre del registro.
+1. Seleccione el icono **Editar exportación** ![Editar icono de registro de exportación](/help/assets/icons/Edit.svg) junto al nombre del registro.
 
    O bien
 
    Seleccione la casilla que hay junto al registro y, a continuación, seleccione [!UICONTROL **Editar exportación**].
+
+## Volver a ejecutar una exportación completada o fallida
+
+Puede volver a ejecutar una o más exportaciones asociadas con registros de exportación específicos. Para volver a ejecutar una exportación, el registro de exportación debe tener un estado de Completado o Fallido y no tener más de 7 días.
+
+1. Seleccione la casilla de verificación situada junto a uno o varios trabajos de exportación que desee volver a ejecutar.
+
+1. Seleccione **[!UICONTROL Volver a ejecutar]**.
 
 ## Configuración de columnas
 
@@ -123,12 +133,13 @@ Para configurar columnas en la ficha [!UICONTROL Registros]:
    | ID de instancia | El ID de la instancia de Customer Journey Analytics. <!-- True? --> |
    | Nombre de la vista de datos | Nombre de la vista de datos asociada con la exportación. Los usuarios pueden seleccionar la vista de datos cuando creen la exportación, tal como se describe en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md). |
    | Número de archivos | El número de archivos incluidos en la exportación. |
-   | Tamaño | El tamaño de la exportación.<p>El tamaño del archivo se calcula con una base de 1024, que a veces se representa como KIB y MIB. Si el proveedor de la nube calcula el tamaño con una base de 1000, es posible que el tamaño que se muestra en el proveedor sea ligeramente diferente del que se muestra aquí.</p> |
+   | Tamaño | El tamaño de la exportación.<p>El tamaño del archivo se calcula con una base de 1024, que a veces se representa como KiB y MiB. Si el proveedor de la nube calcula el tamaño con una base de 1000, es posible que el tamaño que se muestra en el proveedor sea ligeramente diferente del que se muestra aquí.</p> |
    | Ubicación | Ubicación de la cuenta donde se exportaron los datos. |
    | Cuenta | Cuenta en la que se exportaron los datos. |
-   | Estado | El estado de la exportación. Los estados disponibles son [!UICONTROL Pendientes], [!UICONTROL Entregados] y [!UICONTROL Fallidos]. |
+   | Estado | El estado de la exportación. Los estados disponibles son [!UICONTROL Pendiente], [!UICONTROL Completado] y [!UICONTROL Fallido]. |
    | Fecha de entrega | La fecha en la que se realizó la exportación. |
-   | Tipo de cuenta | El tipo de cuenta de nube donde se exportaron los datos. Los tipos de cuenta disponibles son [!UICONTROL Amazon S3 Role ARN], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] y [!UICONTROL Adobe Experience Platform]. |
+   | Fecha de inicio | La fecha en la que comenzó la exportación. |
+   | Tipo de cuenta | El tipo de cuenta de nube donde se exportaron los datos. Los tipos de cuenta disponibles son [!UICONTROL Amazon S3 Role ARN], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] y [!UICONTROL AEP Data Landing Zone]. |
    | Número de filas | Número de filas incluidas en la tabla exportada. |
 
    {style="table-layout:auto"}

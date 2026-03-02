@@ -5,9 +5,9 @@ title: Administración de exportaciones
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: d0fa233aa5359064e9e0afea1a5384f5e38d017e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1277'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Después de exportar una tabla completa como se describe en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md), las exportaciones están disponibles en la ficha [!UICONTROL Exportaciones] de la página [!UICONTROL Exportaciones].
 
-Solo puede ver las exportaciones que cree.
+Solo puede ver las exportaciones que cree. Los administradores pueden ver todas las exportaciones habilitando la opción **[!UICONTROL Ver exportaciones de todos los usuarios]**.
 
 ## Filtrado y búsqueda de exportaciones
 
@@ -28,16 +28,17 @@ Para encontrar la información que necesita, puede filtrar la lista de exportaci
 
 1. Seleccione la ficha [!UICONTROL **Exportaciones**].
 
-1. Seleccione el icono **Filter**.
+   ![Administrar página de exportaciones](assets/exports-manage.png)
 
-   <!--add screenshot -->
+1. Seleccione el icono **Filtro** ![Icono de filtro](/help/assets/icons/Filter.svg).
 
    Puede filtrar por los siguientes criterios:
 
    | Filtrar | Descripción |
    |---------|----------|
    | [!UICONTROL **Tipo de cuenta**] | El tipo de cuenta al que está asociada la exportación. Están disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función Amazon S3**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Activo**]: indica que una exportación programada aún no ha caducado o que una exportación única aún no ha finalizado. </li><li>[!UICONTROL **Completado**]: indica que una exportación se ha exportado correctamente. En el caso de las exportaciones programadas, esto indica que la programación ha caducado.</li><li>[!UICONTROL **Fallido**]<p>Las siguientes situaciones pueden provocar un error en la exportación. Pase el ratón sobre el estado [!UICONTROL **Error**] para ver los detalles del error. <ul><li>Caducidad de exportación programada</li><li>Se alcanzó el límite de filas para la exportación programada </li></ul> </p></li></ul> |
+   | [!UICONTROL **Estado**] | El estado de la exportación. Los siguientes estados están disponibles: <ul><li>[!UICONTROL **Activo**]: indica que una exportación programada aún no ha caducado o que una exportación única aún no ha finalizado. </li><li>[!UICONTROL **Completado**]: indica que una exportación se ha exportado correctamente. En el caso de las exportaciones programadas, esto indica que la programación ha caducado.</li><li>[!UICONTROL **Fallido**]<p>Las siguientes situaciones pueden provocar un error en la exportación. Pase el ratón sobre el estado [!UICONTROL **Error**] para ver los detalles del error. <ul><li>Caducidad de exportación programada</li><li>Se alcanzó el límite de filas para la exportación programada </li></ul><li>[!UICONTROL **Caducado**]: indica que la exportación ha caducado.</li></ul> |
+   | [!UICONTROL **Creado por**] | El usuario que creó la exportación.<p>Esta opción solo está disponible para los administradores cuando la opción **[!UICONTROL Ver exportaciones para todos los usuarios]** está habilitada. |
    | [!UICONTROL **Frecuencia**] | La frecuencia con la que se produce la exportación. Las frecuencias disponibles son las siguientes: <ul><li>[!UICONTROL **Una vez**]</li><li>[!UICONTROL **Diario**]</li><li>[!UICONTROL **Semanalmente**]</li><li>[!UICONTROL **Mensual**]</li><li>[!UICONTROL **Anual**]</li></ul> |
 
    {style="table-layout:auto"}
@@ -47,6 +48,8 @@ Para encontrar la información que necesita, puede filtrar la lista de exportaci
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
 1. Seleccione la ficha [!UICONTROL **Exportaciones**].
+
+   ![Administrar página de exportaciones](assets/exports-manage.png)
 
 1. En el campo de búsqueda, empiece a escribir cualquier información asociada con la exportación que está buscando. Puede buscar datos de cualquier columna disponible en la tabla.
 
@@ -64,7 +67,21 @@ Puede editar las propiedades, el formato, la programación y la información de 
 
    Se muestra el cuadro de diálogo [!UICONTROL **Exportar tabla completa**].
 
-1. Actualice cualquiera de las opciones disponibles. Para obtener información sobre cada opción, consulte [Exportar tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md).
+1. Actualice cualquiera de las opciones disponibles. Para obtener información sobre cada opción, consulte [Exportar tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables) en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md).
+
+## Renovación de una exportación
+
+Puede renovar una o más exportaciones programadas antes o después de que caduquen. Las exportaciones se renuevan por 1 año a partir de la fecha en que las renueve.
+
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+
+1. En la ficha [!UICONTROL **Exportaciones**], active la casilla que hay junto a una o varias exportaciones que desea renovar.
+
+1. Seleccione [!UICONTROL **Renovar**].
+
+   Se muestra el cuadro de diálogo [!UICONTROL **Exportar tabla completa**]. <!--check process from here. -->
+
+1. Actualice cualquiera de las opciones disponibles. Para obtener información sobre cada opción, consulte [Exportar tablas completas desde Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables) en [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md).
 
 ## Duplicación de una exportación
 
@@ -76,7 +93,7 @@ Puede duplicar una exportación existente.
 
    Esta opción no está disponible cuando se seleccionan varias exportaciones.
 
-1. Seleccione [!UICONTROL **Duplicado**].
+1. Seleccione [!UICONTROL **Duplicar**].
 
    Se crea un duplicado de la exportación. El nombre de la nueva exportación coincide con el nombre de la exportación original, con _[!UICONTROL - Copiar]_ anexado al nombre del archivo.
 
@@ -96,7 +113,7 @@ Puede iniciar manualmente una exportación, ya sea para una exportación program
 
 ## Etiquetado de una exportación
 
-Al aplicar etiquetas a una exportación, puede verlas en la columna [!UICONTROL Etiquetas] de la página [!UICONTROL Exportaciones]. Consulte [Configurar columnas](#configure-columns) para obtener más información.
+Al aplicar etiquetas a una exportación, puede verlas en la columna [!UICONTROL Etiquetas] de la página [!UICONTROL Exportaciones]. Consulte [Configurar columnas](#configure-columns-on-the-exports-page) para obtener más información.
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
@@ -106,13 +123,14 @@ Al aplicar etiquetas a una exportación, puede verlas en la columna [!UICONTROL 
 
 1. En el cuadro de diálogo [!UICONTROL **Exportación de etiquetas**], escriba el nombre de una etiqueta para crear una etiqueta nueva o elija una etiqueta existente en el menú desplegable.
 
-   Cualquier etiqueta común entre las exportaciones seleccionadas se muestra en el cuadro de diálogo de etiquetas. <!-- what happens if one export has a tag and another doesn't? Is the tag removed if you don't select it? I'm guessing not, but maybe check -->
+   Cualquier etiqueta común entre las exportaciones seleccionadas se muestra en el cuadro de diálogo de etiquetas.
 
 1. Seleccione [!UICONTROL **Aplicar etiquetas**].
 
+
 ## Eliminación de una exportación
 
-Puede eliminar las exportaciones desde la página Exportaciones. Las exportaciones programadas que se eliminan ya no se enviarán.
+Puede eliminar las exportaciones desde la página Exportaciones. Al eliminar una exportación, esta se elimina de la página de exportaciones. Las exportaciones programadas que se eliminan se cancelan y ya no se envían.
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
@@ -144,12 +162,26 @@ Seleccione un encabezado de columna para ordenar las exportaciones por esa colum
    | Creado | Fecha y hora de creación de la exportación. <!-- true? --> |
    | Ubicación | Ubicación de la cuenta donde se exportaron los datos. |
    | Cuenta | Cuenta en la que se exportaron los datos. |
-   | Frecuencia | La frecuencia con la que se envía la exportación. Las opciones disponibles son [!UICONTROL Una vez], [!UICONTROL Diario], [!UICONTROL Semanal], [!UICONTROL Mensual por día de la semana], [!UICONTROL Mensual por día del mes], [!UICONTROL Anual por día del mes] y [!UICONTROL Anual por fecha específica]. |
+   | Frecuencia | Frecuencia con la que se envía la exportación. Las opciones disponibles son [!UICONTROL Una vez], [!UICONTROL Diario], [!UICONTROL Semanal], [!UICONTROL Mensual por día de la semana], [!UICONTROL Mensual por día del mes], [!UICONTROL Anual por día del mes] y [!UICONTROL Anual por fecha específica]. |
    | Hora de envío | La hora a la que se envió la exportación. |
    | Enviado por última vez | La última vez que se envió la exportación. |
    | Última modificación | La última vez que se modificó la exportación. Los elementos de la página Exportaciones se ordenan por esta columna de forma predeterminada. |
-   | Tipo de cuenta | El tipo de cuenta de nube donde se exportaron los datos. Los tipos de cuenta disponibles son [!UICONTROL Amazon S3 Role ARN], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] y [!UICONTROL Adobe Experience Platform]. |
+   | Tipo de cuenta | El tipo de cuenta de nube donde se exportaron los datos. Los tipos de cuenta disponibles son [!UICONTROL Amazon S3 Role ARN], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] y [!UICONTROL AEP Data Landing Zone]. |
 
    {style="table-layout:auto"}
 
 1. Asegúrese de que todas las columnas que desee mostrar estén seleccionadas. Las columnas seleccionadas aparecen en la página Exportaciones y muestran la información relevante.
+
+## Creación de una exportación desde la página Exportaciones
+
+Puede crear una exportación desde Analysis Workspace, como se describe en [Exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md), o desde la página Exportaciones, como se describe en esta sección.
+
+Para empezar a crear una exportación desde la página Exportaciones:
+
+1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
+
+1. En la ficha [!UICONTROL **Exportaciones**], seleccione **[!UICONTROL Agregar exportación]**.
+
+1. Rellene los campos disponibles para crear la exportación. Para obtener información sobre cada campo, así como sobre los componentes, las funciones de métricas calculadas y otras características compatibles, vea [Exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md).
+
+
