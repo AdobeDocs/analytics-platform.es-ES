@@ -5,9 +5,9 @@ title: Información general sobre visualizaciones
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1751'
 ht-degree: 89%
 
 ---
@@ -49,6 +49,12 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 <!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
 ## Añadir visualizaciones a un panel
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar visualizaciones al panel improvisado](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/panels/add-components-to-the-freeform-panel){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 1. Abra el proyecto de Workspace donde desea añadir una visualización.
 

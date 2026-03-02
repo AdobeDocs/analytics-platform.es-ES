@@ -4,10 +4,10 @@ title: Área (apilada)
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 94%
+source-wordcount: '204'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describen las visualizaciones Área y Área apilada en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Área y área apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/area) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describen las visualizaciones Área y Área apilada en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Área y área apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/area) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -61,9 +61,15 @@ Use la opción **[!UICONTROL Apilada al 100 %]** en ![Configuración](/help/ass
 
 ![Área apilada que muestra una visualización apilada al 100 %.](assets/area-stacked100.png)
 
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de área](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-area-visualizations){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

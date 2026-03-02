@@ -4,7 +4,7 @@ title: Configuración de fila
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 84%
@@ -12,13 +12,6 @@ ht-degree: 84%
 ---
 
 # Configuración de filas
-
-
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"} para ver un vídeo de demostración.
-
->[!ENDSHADEBOX]
 
 La configuración de filas varía en función del componente que haya arrastrado a la tabla. Para obtener acceso a la configuración de fila de la tabla, seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** junto a una dimensión, segmento, métrica, período de tiempo o desglose dentro de cada uno de estos objetos.
 
@@ -29,6 +22,14 @@ La configuración de filas varía en función del componente que haya arrastrado
 | **[!UICONTROL Desglose por posición]** | De forma predeterminada, esta configuración está deshabilitada y los desgloses se corrigen a elementos de fila estáticos. Por ejemplo, supongamos que desglosa los 3 elementos de dimensión de página principales (página principal, resultados de búsqueda, cierre de compra) por canal de marketing. Después abandona el proyecto y regresa dos semanas más tarde. Al volver a abrir el proyecto, las 3 páginas principales han cambiado, y ahora la página principal, los resultados de búsqueda y el cierre de compra son las 4 o 6 páginas principales. De forma predeterminada, los desgloses del canal de marketing siguen apareciendo en la página principal, los resultados de búsqueda y el cierre de compra, aunque ahora se encuentren en las filas 4-6. <br> Por el contrario, **Desglose por posición** siempre desglosará los tres elementos principales, independientemente de cuáles sean. En referencia al ejemplo anterior, cuando vuelva a abrir el proyecto, los desgloses de canal de marketing se vinculan a las 3 páginas principales de la tabla. Y no a la página principal, los resultados de búsqueda y el cierre de compra, que ahora están en las filas 4-6. |
 | **[!UICONTROL Porcentajes]** | **Calcular porcentajes por columna** (por defecto): los porcentajes visibles en las celdas se calculan en función del total de la columna. <br>**Calcular porcentajes por fila**: los porcentajes de las celdas se calculan a lo largo de la fila, en lugar de a lo largo de la columna, con el total general como denominador. Este cálculo resulta útil en los porcentajes de tendencias. |
 | **[!UICONTROL Totales de columna]** | Esta configuración solo está disponible para [filas estáticas](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md). <br> **Mostrar como suma de las filas actuales** muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total *no* desduplica métricas como las visitas o las personas. <br> **Mostrar total general** muestra una suma del lado del servidor, es decir, el total de las métricas deduplicadas. |
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"} para ver un vídeo de demostración.
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 ## Cambio del recuento de filas
 
@@ -90,4 +91,4 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 
 ## Cambiar altura de fila
 
-Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**.
+Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**.

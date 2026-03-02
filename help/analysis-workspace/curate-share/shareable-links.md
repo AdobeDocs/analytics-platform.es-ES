@@ -5,10 +5,10 @@ title: Crear vínculos compartibles
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 53%
+source-wordcount: '338'
+ht-degree: 39%
 
 ---
 
@@ -35,14 +35,15 @@ También puede compartir un vínculo a una parte específica de un proyecto, com
 * En el menú contextual del encabezado de un panel, seleccione **[!UICONTROL Obtener vínculo del panel]**
 * En el menú contextual de un encabezado de visualización, seleccione **[!UICONTROL Obtener vínculo de visualización]**
 
-[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vínculo dentro o fuera del proyecto](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 ![Menú desplegable después de hacer clic con el botón secundario en el encabezado con el vínculo Obtener visualización resaltado.](assets/get-visualization-link.png)
 
 ## Uso de vínculos en una tabla de contenido {#TOC}
 
-Una sugerencia para aprovechar las distintas opciones de vínculos es incluir siempre una tabla de contenido en la parte superior del proyecto de Workspace. En la tabla de contenido, puede vincular otros proyectos relevantes, paneles específicos y visualizaciones específicas. Esto ayuda al destinatario del proyecto a navegar más fácilmente.
+Una sugerencia para aprovechar las distintas opciones de vínculos es incluir siempre una [tabla de contenido](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) en la parte superior del proyecto de Workspace. En la tabla de contenido, puede vincular otros proyectos relevantes, paneles específicos y visualizaciones específicas. Esto ayuda al destinatario del proyecto a navegar más fácilmente.
 
-[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=es) sobre cómo crear una tabla de contenido mediante vínculos y el editor de texto enriquecido de Workspace.
-
-![Tabla de contenido de un proyecto.](assets/toc.png)

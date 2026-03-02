@@ -4,10 +4,10 @@ title: Barra Horizontal Y Barra Horizontal Apiladas
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 89%
+source-wordcount: '204'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se explican las visualizaciones Barra horizontal y Barra horizontal apilada de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Barra horizontal y barra horizontal apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se explican las visualizaciones Barra horizontal y Barra horizontal apilada de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Barra horizontal y barra horizontal apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -57,11 +57,16 @@ Utilice la opción **[!UICONTROL Apilada al 100 %]** en ![Configuración](/help
 
 ![Barra horizontal apilada al 100 %](assets/horizontal-bar-stacked100.png)
 
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de área](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -4,10 +4,10 @@ title: Texto
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 83%
+source-wordcount: '299'
+ht-degree: 80%
 
 ---
 
@@ -25,12 +25,18 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización Texto de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Texto](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/text) para obtener la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe la visualización Texto de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Texto](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/text) para obtener la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 
 Para añadir texto enriquecido definido por el usuario a su proyecto de Workspace, puede usar una visualización ![Texto](/help/assets/icons/Text.svg) **[!UICONTROL Texto]** o usar descripciones para una visualización y un panel.
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de texto](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-text-visualizations){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 ## Utiliza
 

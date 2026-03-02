@@ -4,10 +4,10 @@ title: Barra Y Barra Apilada
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 91%
+source-wordcount: '211'
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describen las visualizaciones Barra y Barra apilada en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Barra y barra apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bar) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describen las visualizaciones Barra y Barra apilada en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Barra y barra apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bar) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 
 >[!ENDSHADEBOX]
@@ -61,10 +61,16 @@ Use la opción **[!UICONTROL Apilada al 100 %]** en ![Configuración](/help/ass
 
 ![Gráfico de barras apiladas al 100 %.](assets/bar-stacked100.png)
 
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de área](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
