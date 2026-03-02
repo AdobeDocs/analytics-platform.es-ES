@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: c6ccbdf89c51deef33b562a053b9c3b4bc626497
+source-git-commit: a220eaf24ff877537f86027e3d93ec30772438e5
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 5%
+source-wordcount: '1142'
+ht-degree: 4%
 
 ---
 
@@ -91,12 +91,41 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 >id="connection_changeto_identitygraph"
 >title="Cambio en el gráfico de identidad"
 >abstract="Asegúrese de haber terminado la configuración del gráfico de identidad antes de utilizarlo para la vinculación."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/gbs" text="Vinculación basada en gráficos"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Vinculación basada en gráficos"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="ID de persona"
 >abstract="Seleccione un ID de persona (el identificador único de una persona) entre las identidades disponibles. Si desea usar la vinculación basada en gráficos, seleccione **[!UICONTROL Gráfico de identidad]**."
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics"
+>title="Vinculación de métricas"
+>abstract="Las métricas de vinculación se calculan con un conjunto de datos de muestra de los últimos 7 días (sin incluir los datos de hoy)."
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics_gbs_personidcoverage"
+>title="Cobertura de ID de persona"
+>abstract="La cobertura del ID de persona seleccionado que se utiliza para la identificación durante el proceso de identificación (reproducción y emisión).<br/>Para obtener los mejores resultados de vinculación, debe haber una relación (ID persistente, ID de persona) en el gráfico de identidades para cada ID persistente."
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics_fbs_personidcoverage"
+>title="Cobertura de ID de persona"
+>abstract="La cobertura del ID de persona seleccionado que se utiliza para la identificación durante el proceso de identificación (reproducción y emisión).<br/>Para obtener los mejores resultados de vinculación, el ID de persona (información de usuario) debe enviarse al menos en un evento por cada ID persistente (información de dispositivo)."
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics_persistentidcoverage"
+>title="Cobertura de ID persistente"
+>abstract="Este valor se utiliza para la identificación durante el proceso de vinculación (activo y de reproducción), en caso de que no se pueda detectar un valor de ID de persona. <br/>Los eventos sin ID persistente ni ID de persona se perderán de los datos. Para obtener los mejores resultados de vinculación, debe haber un ID persistente en todos los eventos."
+
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics_badids"
+>title="ID incorrectos"
+>abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="Configuración e ID incorrectos"
+
 
 Para habilitar la vinculación, en la sección del conjunto de datos de evento del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**:
 
@@ -141,7 +170,7 @@ Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
