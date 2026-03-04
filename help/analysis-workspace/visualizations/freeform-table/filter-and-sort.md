@@ -4,7 +4,7 @@ title: Filtrar Y Ordenar
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 39af20da14a5fb96fe01db31af5fc37b7e4aee16
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 47%
@@ -148,8 +148,6 @@ Para ordenar los datos de las tablas por una sola columna:
    El icono de ordenación permanece visible cuando se aplica la ordenación a la columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
 
 ### Ordenar tablas por varias columnas (ordenación avanzada)
-
-{{release-limited-testing-section}}
 
 #### Aplicar la ordenación a varias columnas
 
