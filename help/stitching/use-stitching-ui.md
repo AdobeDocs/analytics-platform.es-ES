@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 7d78b955b26d2fcc166d277f9ddf220ff2e03d36
+source-git-commit: 1744d625f2f18202fb7096b0fd904ee26399db34
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1150'
 ht-degree: 4%
 
 ---
@@ -91,7 +91,7 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 >id="connection_changeto_identitygraph"
 >title="Cambio en el gráfico de identidad"
 >abstract="Asegúrese de haber terminado la configuración del gráfico de identidad antes de utilizarlo para la vinculación."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/gbs" text="Vinculación basada en gráficos"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Vinculación basada en gráficos"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
@@ -101,7 +101,7 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="Vinculación de métricas"
->abstract="La vinculación de métricas se calcula mediante un conjunto de datos de muestra, a partir de cualquier dato introducido en los últimos 7 días.<br>Normalmente, esto difiere de los datos de ejemplo."
+>abstract="La vinculación de métricas se calcula mediante un conjunto de datos de muestra, a partir de cualquier dato introducido en los últimos 7 días.<br>Normalmente, esto difiere de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -123,7 +123,7 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
 
 
 Para habilitar la vinculación, en la sección del conjunto de datos de evento del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**:
@@ -169,7 +169,7 @@ Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
