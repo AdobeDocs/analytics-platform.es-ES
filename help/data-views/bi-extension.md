@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: 79b3ca663af6c383eed7ec81e9c430855669d19b
 workflow-type: tm+mt
-source-wordcount: '3249'
-ht-degree: 89%
+source-wordcount: '3462'
+ht-degree: 84%
 
 ---
 
@@ -48,8 +48,31 @@ O bien puede:
 
 Para usar credenciales que no caduquen:
 
-* Crear [credenciales que no caducan en Experience Platform](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
-* Conceda acceso a las credenciales que no caducan siguiendo los pasos mencionados en [Credenciales que caducan](#Expiring-credentials).
+1. Crear [credenciales que no caducan en Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials). Si desea usar credenciales que ya existen y que no caducan, asegúrese de que estas credenciales se hayan [migrado a OAuth](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials).
+
+1. Asegúrese de que las credenciales que no caducan estén disponibles para los perfiles de producto de Customer Journey Analytics. Debe ser administrador del sistema para que la organización ejecute los siguientes pasos.
+   1. Seleccione **[!UICONTROL Admin Console]** de ![aplicación](/help/assets/icons/Apps.svg).
+   1. Compruebe que la credencial que no caduca se agrega a la lista de credenciales de API.
+      1. Seleccione **[!UICONTROL Usuarios]** en el menú superior.
+      1. Seleccione **[!UICONTROL credenciales de API]** en el carril izquierdo.
+      1. Las credenciales nuevas o migradas que no caduquen deben enumerarse y comenzar con **[!UICONTROL EQS-...]**.
+
+      1. Asegúrese de que las credenciales de la API que no caducan tengan acceso al producto y a los perfiles de Customer Journey Analytics.
+
+         1. Seleccione ![ProductDetails](/help/assets/icons/ProductDetails.svg) para la credencial de la API que no caduca **[!UICONTROL EQS-...]**.
+         1. En el panel de detalles del producto **[!UICONTROL EQS-...]**, seleccione ![Más](/help/assets/icons/More.svg) y seleccione **[!UICONTROL Editar credenciales de API]**.
+         1. En el cuadro de diálogo **[!UICONTROL Editar credenciales de API]**, valide los **[!UICONTROL perfiles asignados]**. Si no aparece ningún producto de Customer Journey Analytics:
+            1. Seleccione ![Agregar](/help/assets/icons/Add.svg) y seleccione **[!UICONTROL Customer Journey Analytics]**.
+            1. Seleccione uno o varios perfiles de producto que contengan los usuarios a los que desea proporcionar acceso para el servicio de consulta y la extensión de BI.
+            1. Seleccione **[!UICONTROL Aplicar]**.
+
+1. Compruebe que ve las credenciales de la API que no caducan en el servicio de consultas de Experience Platform.
+
+   1. Seleccione **[!UICONTROL Experience Platform]** de ![aplicación](/help/assets/icons/Apps.svg).
+   1. Seleccione **[!UICONTROL Consultas]** en el carril izquierdo.
+   1. Seleccione **[!UICONTROL Credenciales]** en el menú superior.
+   1. Debería ver sus credenciales de API que no caducan, usando el nombre que proporcionó en el paso 1, en la lista **[!UICONTROL Credenciales que no caducan]**.
+
 
 Consulte [Control de acceso de Recorrido del cliente](../technotes/access-control.md) para obtener más información, en concreto los [permisos adicionales del administrador del producto](../technotes/access-control.md#product-admin-additional-permissions) y los [permisos de Customer Journey Analytics en Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
@@ -66,9 +89,9 @@ Puede utilizar la funcionalidad directamente en las instrucciones SQL utilizando
 
 En Adobe Experience Platform:
 
-1. Seleccione **[!UICONTROL ** Consultas **]** de **[!UICONTROL **&#x200B; ADMINISTRACIÓN DE DATOS &#x200B;**]** en el carril izquierdo.
+1. Seleccione **[!UICONTROL ** Consultas **]** de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]** en el carril izquierdo.
 
-1. Seleccione ![Crear consulta](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL **&#x200B; Crear consulta &#x200B;**]**.
+1. Seleccione ![Crear consulta](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL ** Crear consulta **]**.
 
 1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
@@ -81,13 +104,13 @@ En Adobe Experience Platform:
 
 1. Busque y copie sus credenciales de PostgresSQL en Adobe Experience Platform:
 
-   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL **&#x200B; ADMINISTRACIÓN DE DATOS &#x200B;**]**).
+   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]**).
 
-   1. Seleccione **[!UICONTROL **&#x200B; Credenciales &#x200B;**]** en la barra superior.
+   1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
-   1. Para copiar la cadena de conexión, utilice ![Copiar](assets/Smock_Copy_18_N.svg) en la sección **[!UICONTROL **&#x200B; Comando PSQL &#x200B;**]**.
+   1. Para copiar la cadena de conexión, utilice ![Copiar](assets/Smock_Copy_18_N.svg) en la sección **[!UICONTROL ** Comando PSQL **]**.
 
 1. Abra una ventana de comando o de terminal.
 
@@ -106,9 +129,9 @@ Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y s
 
 1. Busque los detalles de las credenciales de PostgresSQL en Adobe Experience Platform:
 
-   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL **&#x200B; ADMINISTRACIÓN DE DATOS &#x200B;**]**).
+   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]**).
 
-   1. Seleccione **[!UICONTROL **&#x200B; Credenciales &#x200B;**]** en la barra superior.
+   1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
@@ -116,28 +139,28 @@ Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y s
 
 1. En Power BI:
 
-   1. En la ventana principal, seleccione **[!UICONTROL **&#x200B; Obtener datos &#x200B;**]** en la barra de herramientas superior.
+   1. En la ventana principal, seleccione **[!UICONTROL ** Obtener datos **]** en la barra de herramientas superior.
 
    1. Seleccione **[!UICONTROL Más…]** en el carril izquierdo.
 
-   1. En la pantalla **Obtener datos**, busque `PostgresSQL` y seleccione la **[!UICONTROL **&#x200B; base de datos PostgresSQL &#x200B;**]** de la lista.
+   1. En la pantalla **Obtener datos**, busque `PostgresSQL` y seleccione la **[!UICONTROL ** base de datos PostgresSQL **]** de la lista.
 
-   1. En el cuadro de diálogo **[!UICONTROL **&#x200B; Base de datos de PostgressSQL &#x200B;**]**:
+   1. En el cuadro de diálogo **[!UICONTROL ** Base de datos de PostgressSQL **]**:
 
-      1. Pegue el parámetro **[!UICONTROL ** Host **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL **&#x200B; Servidor &#x200B;**]**.
+      1. Pegue el parámetro **[!UICONTROL ** Host **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Servidor **]**.
 
-      1. Pegue el parámetro **[!UICONTROL ** Database **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL **&#x200B; Base de datos &#x200B;**]**.
+      1. Pegue el parámetro **[!UICONTROL ** Database **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Base de datos **]**.
 
-         Añada `?FLATTEN` al parámetro **[!UICONTROL **&#x200B; Base de datos &#x200B;**]**, para que se vea como `prod:cja?FLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/es/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
+         Añada `?FLATTEN` al parámetro **[!UICONTROL ** Base de datos **]**, para que se vea como `prod:cja?FLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/es/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
 
       1. Cuando se le pida el modo **[!UICONTROL Conectividad de datos]**, seleccione **[!UICONTROL DirectQuery]**.
 
       1. Se le solicitará el **[!UICONTROL nombre de usuario]** y la **[!UICONTROL contraseña]**. Utilice los parámetros equivalentes de las [!UICONTROL credenciales] de consultas de Experience Platform.
 
 
-   1. Después de iniciar sesión correctamente, las tablas de la vista de datos de Customer Journey Analytics aparecerán en Power BI en el **[!UICONTROL **&#x200B; navegador &#x200B;**]**. 
+   1. Después de iniciar sesión correctamente, las tablas de la vista de datos de Customer Journey Analytics aparecerán en Power BI en el **[!UICONTROL ** navegador **]**. 
 
-   1. Seleccione las tablas de vista de datos que desee utilizar y seleccione **[!UICONTROL **&#x200B; cargar &#x200B;**]**.
+   1. Seleccione las tablas de vista de datos que desee utilizar y seleccione **[!UICONTROL ** cargar **]**.
 
    Todas las dimensiones y métricas asociadas con una o más tablas seleccionadas aparecen en el panel derecho, listas para utilizarse en las visualizaciones.
 
@@ -149,9 +172,9 @@ Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y s
 
 1. Busque los detalles de las credenciales de PostgresSQL en Adobe Experience Platform:
 
-   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL **&#x200B; ADMINISTRACIÓN DE DATOS &#x200B;**]**).
+   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]**).
 
-   1. Seleccione **[!UICONTROL **&#x200B; Credenciales &#x200B;**]** en la barra superior.
+   1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
@@ -159,29 +182,29 @@ Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y s
 
 1. En Tableau Desktop:
 
-   1. Seleccione **[!UICONTROL ** Más **]** de **[!UICONTROL **&#x200B; A un servidor &#x200B;**]** en el carril izquierdo.
+   1. Seleccione **[!UICONTROL ** Más **]** de **[!UICONTROL ** A un servidor **]** en el carril izquierdo.
 
-   1. Seleccione **[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]** de la lista.
+   1. Seleccione **[!UICONTROL ** PostgresSQL **]** de la lista.
 
    1. En el cuadro de diálogo de [!UICONTROL PostgresSQL]:
 
-      1. Pegue el parámetro **[!UICONTROL ** Host **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL **&#x200B; Servidor &#x200B;**]**.
+      1. Pegue el parámetro **[!UICONTROL ** Host **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Servidor **]**.
 
-      1. Pegue el parámetro **[!UICONTROL ** Host **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL **&#x200B; Servidor &#x200B;**]**.
+      1. Pegue el parámetro **[!UICONTROL ** Host **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Servidor **]**.
 
-      1. Pegue el parámetro **[!UICONTROL ** Database **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL **&#x200B; Base de datos &#x200B;**]**.
+      1. Pegue el parámetro **[!UICONTROL ** Database **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Base de datos **]**.
 
-         Añada `%3FFLATTEN` al parámetro **[!UICONTROL **&#x200B; Base de datos &#x200B;**]**, para que se vea como `prod:cja%3FFLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/es/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
+         Añada `%3FFLATTEN` al parámetro **[!UICONTROL ** Base de datos **]**, para que se vea como `prod:cja%3FFLATTEN`, por ejemplo. Consulte [Acoplar estructuras de datos anidadas para usarlas con herramientas de BI de terceros](https://experienceleague.adobe.com/es/docs/experience-platform/query/key-concepts/flatten-nested-data) para obtener más información.
 
-      1. Seleccione **[!UICONTROL ** Nombre de usuario y contraseña **]** de la lista **[!UICONTROL **&#x200B; Autenticación &#x200B;**]**.
+      1. Seleccione **[!UICONTROL ** Nombre de usuario y contraseña **]** de la lista **[!UICONTROL ** Autenticación **]**.
 
-      1. Pegue el parámetro **[!UICONTROL ** Nombre de usuario **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL **&#x200B; Nombre de usuario &#x200B;**]**.
+      1. Pegue el parámetro **[!UICONTROL ** Nombre de usuario **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Nombre de usuario **]**.
 
-      1. Pegue el parámetro **[!UICONTROL ** Password **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL **&#x200B; Contraseña &#x200B;**]**.
+      1. Pegue el parámetro **[!UICONTROL ** Password **]** de [!UICONTROL Credenciales] de consultas de Experience Platform en el campo de texto **[!UICONTROL ** Contraseña **]**.
 
-      1. Seleccione **[!UICONTROL **&#x200B; Iniciar sesión &#x200B;**]**.
+      1. Seleccione **[!UICONTROL ** Iniciar sesión **]**.
 
-   1. Las vistas de datos de Customer Journey Analytics se muestran como tablas en la lista **[!UICONTROL **&#x200B; Tabla &#x200B;**]**. 
+   1. Las vistas de datos de Customer Journey Analytics se muestran como tablas en la lista **[!UICONTROL ** Tabla **]**. 
 
    1. Arrastre las tablas que desee utilizar en el lienzo.
 
@@ -195,9 +218,9 @@ Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y s
 
 1. Busque los detalles de las credenciales de PostgresSQL en Adobe Experience Platform:
 
-   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL **&#x200B; ADMINISTRACIÓN DE DATOS &#x200B;**]**).
+   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]**).
 
-   1. Seleccione **[!UICONTROL **&#x200B; Credenciales &#x200B;**]** en la barra superior.
+   1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
@@ -222,9 +245,9 @@ Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y s
 
 1. Busque los detalles de las credenciales de PostgresSQL en Adobe Experience Platform:
 
-   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL **&#x200B; ADMINISTRACIÓN DE DATOS &#x200B;**]**).
+   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]**).
 
-   1. Seleccione **[!UICONTROL **&#x200B; Credenciales &#x200B;**]** en la barra superior.
+   1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
@@ -246,9 +269,9 @@ Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y s
 
 1. Busque los detalles de las credenciales de PostgresSQL en Adobe Experience Platform:
 
-   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL **&#x200B; ADMINISTRACIÓN DE DATOS &#x200B;**]**).
+   1. Seleccione **[!UICONTROL ** Consultas **]** en el carril izquierdo (debajo de **[!UICONTROL ** ADMINISTRACIÓN DE DATOS **]**).
 
-   1. Seleccione **[!UICONTROL **&#x200B; Credenciales &#x200B;**]** en la barra superior.
+   1. Seleccione **[!UICONTROL ** Credenciales **]** en la barra superior.
 
    1. Seleccione la base de datos `cja` para su zona protegida de la lista de bases de datos en el menú desplegable **[!UICONTROL Base de datos]**. Por ejemplo `prod:cja`.
 
