@@ -91,7 +91,7 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 >id="connection_changeto_identitygraph"
 >title="Cambio en el gráfico de identidad"
 >abstract="Asegúrese de haber terminado la configuración del gráfico de identidad antes de utilizarlo para la vinculación."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Vinculación basada en gráficos"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/gbs" text="Vinculación basada en gráficos"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
@@ -123,7 +123,7 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
 
 
 Para habilitar la vinculación, en la sección del conjunto de datos de evento del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**:
