@@ -48,7 +48,7 @@ O bien puede:
 
 Para usar credenciales que no caduquen:
 
-1. Crear [credenciales que no caducan en Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials). Si desea usar credenciales que ya existen y que no caducan, asegúrese de que estas credenciales se hayan [migrado a OAuth](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials).
+1. Crear [credenciales que no caducan en Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/credentials#non-expiring-credentials). Si desea usar credenciales que ya existen y que no caducan, asegúrese de que estas credenciales se hayan [migrado a OAuth](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/credentials#migrate-credentials).
 
 1. Asegúrese de que las credenciales que no caducan estén disponibles para los perfiles de producto de Customer Journey Analytics. Debe ser administrador del sistema para que la organización ejecute los siguientes pasos.
    1. Seleccione **[!UICONTROL Admin Console]** de ![aplicación](/help/assets/icons/Apps.svg).
