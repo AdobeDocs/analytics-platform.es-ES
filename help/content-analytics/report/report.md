@@ -1,63 +1,92 @@
 ---
-title: Creación de informes de Content Analytics
-description: Cómo crear un informe sobre Content Analytics
+title: Informes de Content Analytics
+description: Obtenga información sobre cómo informar en Content Analytics mediante visualizaciones como tabla de forma libre, barra y dispersión.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 93ef16462842a819c3b980d557abaaf0cd547b6c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 100%
+source-wordcount: '1473'
+ht-degree: 77%
 
 ---
 
 # Información general sobre creación de informes de Content Analytics
 
-Realiza informes, realiza análisis y obtiene información sobre Content Analytics en [Analysis Workspace](/help/analysis-workspace/home.md). Hay disponible una [plantilla](#template) de Workspace específica para que pueda acceder inmediatamente a un proyecto de Workspace previamente completado con información de contenido relevante.
+Realiza informes, realiza análisis y obtiene información sobre [!DNL Content Analytics] en [Analysis Workspace](/help/analysis-workspace/home.md). Hay disponible una [plantilla](#template) de Workspace específica para que pueda acceder inmediatamente a un proyecto de Workspace previamente completado con información de contenido relevante.
 
-Para empezar a crear informes en Content Analytics desde cero, haga lo siguiente:
+Para crear su propio informe de Content Analytics desde cero, siga estos pasos:
 
 1. [Cree un nuevo proyecto](/help/analysis-workspace/build-workspace-project/create-projects.md) o [abra un proyecto existente](/help/analysis-workspace/build-workspace-project/open-projects.md) en Workspace.
 1. Asegúrese de [seleccionar una vista de datos](/help/analysis-workspace/c-panels/panels.md#data-view) para la creación de informes de Content Analytics. La creación de informes de Content Analytics solo está disponibles para las vistas de datos [configuradas](/help/content-analytics/config/configuration.md).
 1. Arrastre una visualización ![Tabla](/help/assets/icons/Table.svg) [Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) al lienzo.
 1. Utilice [componentes específicos de Content Analytics](components.md) y otros [componentes](/help/components/overview.md) genéricos (como segmentos, intervalos de fechas y anotaciones) para crear sus análisis de Content Analytics.
+1. Use otras [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para mejorar su proyecto.
+
 
 ## Miniaturas
 
-En función de las dimensiones específicas de Content Analytics que utilice en el proyecto, se muestran miniaturas para los recursos y las dimensiones.
+En función de las dimensiones específicas de Content Analytics que utilice en el proyecto, las miniaturas se muestran en las siguientes visualizaciones:
+
+### Tabla de forma libre
 
 ![Miniaturas de Content Analytics](../assets/aca-thumbnails.png)
 
-De forma predeterminada, se muestran las miniaturas de las dimensiones relevantes de Content Analytics. Para configurar la visualización de miniaturas para una dimensión de Content Analytics:
+De manera predeterminada, las miniaturas se muestran en [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). Para configurar la visualización de miniaturas para una dimensión de Content Analytics:
 
 * Pase el puntero por encima de una fila de encabezado para la dimensión de Content Analytics. Por ejemplo, **[!UICONTROL ID de recurso]** o **[!UICONTROL ID de experiencia]**.
 * Seleccione ![Configuración](/help/assets/icons/Setting.svg).
 * En la ventana emergente **[!UICONTROL Configuración de fila]**, debajo de **[!UICONTROL Configuración]**, marque o desmarque **[!UICONTROL Mostrar miniaturas]**.
 
 
+### Barra (apilada) y barra horizontal (apilada)
+
+{{release-limited-testing-section}}
+
+![miniaturas de Content Analytics para gráfico de barras](/help/content-analytics/assets/aca-bar-thumbnail.png)
+
+
+Las miniaturas se muestran como parte de la leyenda en el eje vertical u horizontal. Las miniaturas también se muestran cuando pasa el ratón sobre una barra de [barras (apiladas)](/help/analysis-workspace/visualizations/bar.md) y [barras horizontales (apiladas)](/help/analysis-workspace/visualizations/horizontal-bar.md).
+
+
+### Disperso
+
+{{release-limited-testing-section}}
+
+![miniaturas de Content Analytics para dispersión](/help/content-analytics/assets/aca-scatter-thumbnail.png)
+
+Las miniaturas se muestran cuando pasa el ratón sobre un punto de datos en [dispersión](/help/analysis-workspace/visualizations/scatterplot.md).
+
 ## Previsualizaciones
 
-Para las filas de una dimensión de Content Analytics con miniaturas, puede abrir una ventana emergente de vista previa.
+>[!AVAILABILITY]
+>
+>La funcionalidad para las visualizaciones de barras y puntos que se describe en esta sección se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Lanzamientos de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).
+>
 
-Para abrir la vista previa con los siguientes detalles:
+Puede abrir una ventana emergente de vista previa. Para ello, haga lo siguiente:
 
-* Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg). Verá los siguientes detalles.
+* Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) en una [tabla de forma libre](#freeform-table).
+* Seleccione una barra específica en una visualización de [bar](#bar-and-horizontal-bar) o [barra horizontal](#bar-and-horizontal-bar), o un punto de datos en una visualización de [dispersión](#scatter).
 
-  | Vista previa de la experiencia | Vista previa de recurso |
-  |---|---|
-  | ![Vista previa de experiencia de Content Analytics](../assets/aca-experience-preview.png) | ![Vista previa de recursos de Content Analytics](../assets/aca-asset-preview.png) |
-  | Nombre de la dimensión (por ejemplo, **[!UICONTROL Experience ID])** | Nombre de la dimensión del recurso (por ejemplo, **[!UICONTROL ID del recurso])** |
-  | **[!UICONTROL Impresiones (todo el tiempo)]**: Número de impresiones de la experiencia. | **[!UICONTROL Impresiones (todas las veces)]**: número de impresiones del recurso. |
-  | **[!UICONTROL Recursos]**: número de recursos que contiene esta experiencia. <br/>Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** para inspeccionar los recursos. | **[!UICONTROL Experiencias]**: Número de experiencias en las que se muestra este recurso. <br/>Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** para inspeccionar los recursos. |
-  | **[!UICONTROL Primera impresión]**: Fecha de la primera impresión de la experiencia. | **[!UICONTROL Primera impresión]**: Fecha de la primera impresión del recurso. |
-  | **[!UICONTROL impresión más reciente]**: Fecha de la impresión más reciente de la experiencia. | **[!UICONTROL Impresión más reciente]**: Fecha de la impresión más reciente del recurso. |
-  | **[!UICONTROL Atributos de experiencia]**: Los [atributos](/help/content-analytics/report/components.md#experience-attributes) de la experiencia. | **[!UICONTROL Atributos del recurso]**: Los [atributos](/help/content-analytics/report/components.md#asset-attributes) del recurso. |
+
+Verá los siguientes detalles.
+
+| Vista previa de la experiencia | Vista previa de recurso |
+|---|---|
+| ![Vista previa de experiencia de Content Analytics](../assets/aca-experience-preview.png) | ![Vista previa de recursos de Content Analytics](../assets/aca-asset-preview.png) |
+| Nombre de la dimensión (por ejemplo, **[!UICONTROL Experience ID])** | Nombre de la dimensión del recurso (por ejemplo, **[!UICONTROL ID del recurso])** |
+| **[!UICONTROL Impresiones (todo el tiempo)]**: Número de impresiones de la experiencia. | **[!UICONTROL Impresiones (todas las veces)]**: número de impresiones del recurso. |
+| **[!UICONTROL Recursos]**: número de recursos que contiene esta experiencia. <br/>Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** para inspeccionar los recursos. | **[!UICONTROL Experiencias]**: Número de experiencias en las que se muestra este recurso. <br/>Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** para inspeccionar los recursos. |
+| **[!UICONTROL Primera impresión]**: Fecha de la primera impresión de la experiencia. | **[!UICONTROL Primera impresión]**: Fecha de la primera impresión del recurso. |
+| **[!UICONTROL Impresión más reciente]**: Fecha de la impresión más reciente de la experiencia. | **[!UICONTROL Impresión más reciente]**: Fecha de la impresión más reciente del recurso. |
+| **[!UICONTROL Atributos de experiencia]**: Los [atributos](/help/content-analytics/report/components.md#experience-attributes) de la experiencia. | **[!UICONTROL Atributos del recurso]**: Los [atributos](/help/content-analytics/report/components.md#asset-attributes) del recurso. |
 
 
 ## Plantilla
 
-Hay disponible una [plantilla](/help/analysis-workspace/templates/use-templates.md) de análisis de contenido para ayudarle a saber qué contenido y atributos de contenido tienen el mejor rendimiento. La plantilla forma parte del [caso de uso del canal Web y la participación](/help/analysis-workspace/templates/use-templates.md#web-engagement), y detalla el rendimiento del contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos.
+Hay disponible una [plantilla](/help/analysis-workspace/templates/use-templates.md) de Content Analytics para ayudarle a saber qué contenido y atributos de contenido tienen el mejor rendimiento. La plantilla forma parte del [caso de uso del canal Web y la participación](/help/analysis-workspace/templates/use-templates.md#web-engagement), y detalla el rendimiento del contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos.
 
 En función de lo que aprenda, podría hacer varias cosas. Como promocionar recursos de alto rendimiento en su página de inicio, personalizar el contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que ha empezado a quedar obsoleto.
 
@@ -81,7 +110,7 @@ Este panel le ayuda a comprender qué experiencias y qué recursos de esas exper
 
      >[!NOTE]
      >
-     >Estas visualizaciones solo se muestran si tiene [experiencias incluidas](/help/content-analytics/config/guided.md#experience-capture-and-definition) en la configuración de Content Analytics.
+     >Estas visualizaciones solo aparecen en la plantilla cuando se ha configurado para [incluir experiencias](/help/content-analytics/config/guided.md#experience-capture-and-definition) en la configuración de Content Analytics.
      > 
 
       * **Experience CTR**: una visualización de [cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) que muestra Experience CTR.
@@ -100,7 +129,7 @@ Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-tabl
 Una visualización de [diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) que muestra un diagrama de dispersión de vistas de recursos en comparación con las conversiones de recursos.
 
 * **¿Qué atributos del recurso contribuyen a las conversiones?**
-Content Analytics utiliza IA y GenAI para asignar automáticamente los metadatos de cada recurso, como temas, escenas, colores de primer plano, etc. Un atributo es una etiqueta de metadatos asignada por IA que describe lo que hay en un recurso o experiencia. Por ejemplo: <code>color de primer plano: rojo</code> es un atributo asignado automáticamente. Las visualizaciones le ayudan a identificar qué atributos de sus recursos contribuyen en mayor medida a la conversión.
+Content Analytics usa IA y GenAI para asignar automáticamente [metadatos](/help/content-analytics/report/components.md#asset-metadata) y [atributos](/help/content-analytics/report/components.md#asset-attributes) de cada recurso, como temas, escenas, colores de primer plano y más. Un atributo es una etiqueta de metadatos asignada por IA que describe lo que hay en un recurso o experiencia. Por ejemplo: <code>color de primer plano: rojo</code> es un atributo asignado automáticamente. Las visualizaciones le ayudan a identificar qué atributos de sus recursos contribuyen en mayor medida a la conversión.
 
   El panel consta de las siguientes visualizaciones:
 
@@ -138,7 +167,7 @@ Una visualización de [línea](/help/analysis-workspace/visualizations/line.md) 
 Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra las palabras clave de experiencia principales en función de la métrica de conversión seleccionada.
 
 * **¿Dónde aparecen los recursos en mi sitio?**
-Panel que consta de una tabla de forma libre que detalla dónde aparecen los recursos más vistos en el sitio.
+Panel que consta de una tabla de forma libre que detalla dónde aparecen los recursos más vistos en el sitio. Este análisis le ayuda a comprender qué páginas o secciones se benefician más de sus recursos de mayor rendimiento y dónde optimizar la ubicación.
 
   El panel consta de una visualización:
 
