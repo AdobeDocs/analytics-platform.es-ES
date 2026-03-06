@@ -125,7 +125,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
 
 
 ### Configuración del conjunto de datos

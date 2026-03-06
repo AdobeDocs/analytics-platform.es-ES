@@ -19,7 +19,7 @@ Este artículo proporciona contexto sobre los ID incorrectos y cómo detectar su
 
 >[!INFO]
 >
->Los ID incorrectos también se denominan BAVID en la interfaz de Customer Journey Analytics (se originan en [Analytics BAVID](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444)).
+>Los ID incorrectos también se denominan BAVID en la interfaz de Customer Journey Analytics (se originan en [Analytics BAVID](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16444)).
 >
 
 ## Definición
