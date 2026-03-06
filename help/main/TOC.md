@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 974d8a269be15d3ea6fbbcf96f2ab5457d9c9554
+source-git-commit: e81d2f973a39df580453eca1ff4d5c074a3830aa
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1371'
 ht-degree: 96%
 
 ---
@@ -546,6 +546,7 @@ ht-degree: 96%
 
 + Notas técnicas {#technotes}
    + [Control de acceso](../technotes/access-control.md)
+   + [ID incorrectos](/help/technotes/badids.md)
    + [Centros de datos](../technotes/data-centers.md)
    + [Implicaciones de la eliminación](../technotes/deletion.md)
    + [Dominios](../technotes/domains.md)

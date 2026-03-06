@@ -3,9 +3,9 @@ title: Notas de la versión de Customer Journey Analytics actuales
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3d58f4dccdc7b9ea6f936cc924a30cc06b2317d1
+source-git-commit: fd8c539ae3bb0efc30a7fde7ff8d13a866263a91
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1291'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ Estas notas de la versión abarcan el período de la versión de febrero de 2026
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | -------: | ----:|
+| **Conjuntos de datos de vista previa y rediseño en Conexiones**<p>Al [agregar](/help/connections/create-connection.md#add-datasets) o [editar](/help/connections/create-connection.md#edit-a-dataset) conjuntos de datos en una conexión basada en personas, se mejora la experiencia para obtener una vista previa de los datos. Para vincular conjuntos de datos habilitados, hay disponibles [métricas de vinculación](/help/stitching/use-stitching-ui.md#stitching-metrics) y [identificadores incorrectos](/help/stitching/use-stitching-ui.md#bad-ids) adicionales. | sábado, 06 de marzo de 2026 | sábado, 06 de marzo de 2026 |
 | **Miniaturas y vistas previas adicionales de Content Analytics**<p>Las miniaturas y vistas previas de Content Analytics ahora son compatibles con las visualizaciones de barras (apiladas), barras horizontales (apiladas) y dispersión. | viernes, 05 de marzo de 2026 | Por determinar |
 | **Anulaciones de encabezado** <p>Puede especificar un nombre de encabezado y un valor de encabezado secreto en Content Analytics. Este [encabezado anula la configuración](/help/content-analytics/config/guided.md#header-overrides) y garantiza que Content Analytics enviará encabezados HTTP personalizados para evitar la detección de bots o las tecnologías de tráfico de puerta que haya implementado.</p> |  | martes, 02 de febrero de 2026 |
 | **Combinar grupos de informes de varias organizaciones de IMS**<p>Puede utilizar el conector de Source de Analytics para combinar grupos de informes de varias organizaciones de IMS. Esta característica de asignación de datos de [IMS cruzado](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md) permite que las organizaciones tengan una vista combinada de los datos de sus clientes, incluso cuando esos datos de clientes se distribuyen en varias organizaciones IMS. <p>**Nota:** Esta configuración solo está disponible al enviar una solicitud al Servicio de atención al cliente de Adobe.</p> |  | viernes, 12 de febrero de 2026 |

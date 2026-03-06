@@ -1,14 +1,14 @@
 ---
 title: Habilitar vinculación
-description: Obtenga información sobre cómo habilitar la vinculación en la interfaz de usuario de Conexiones.
+description: Habilite la identificación para conjuntos de datos de evento en Customer Journey Analytics. Obtenga información sobre cómo configurar ID persistentes, ID de persona y ventanas de reproducción en la interfaz de usuario de Conexiones para unir datos.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 1744d625f2f18202fb7096b0fd904ee26399db34
+source-git-commit: b7b2a1f3eb1c149caf65ab3e4321e4f4347695cc
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 4%
+source-wordcount: '1724'
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 
 
    * **ID de la persona**
-      * Para la vinculación basada en gráficos, asegúrese de que el gráfico de identidades contenga fragmentos que vinculen valores de ID desde el área de nombres de ID persistente y el área de nombres de ID de persona que haya elegido. Puede ejecutar una prueba en el [visor de gráficos de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} y consultar el gráfico en función de algunos valores de ID persistentes de prueba. Compruebe si estos valores de ID persistentes están vinculados a valores de ID de persona en el gráfico.
+      * Para la vinculación basada en gráficos, asegúrese de que el gráfico de identidades contenga fragmentos que vinculen valores de ID desde el área de nombres de ID persistente y el área de nombres de ID de persona que haya elegido. Puede ejecutar una prueba en el [visor de gráficos de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} y consultar el gráfico en función de algunos valores de ID persistentes de ejemplo. Compruebe si estos valores de ID persistentes están vinculados a valores de ID de persona en el gráfico.
       * Para la vinculación basada en el campo, consulte 7 días de datos en los que el campo de ID de persona no sea nulo y divida los datos por una consulta de 7 días para todos los eventos del conjunto de datos. Este porcentaje debería ser idealmente superior al 5 %.
 
         Ejemplo de una consulta que puede utilizar para la verificación:
@@ -87,6 +87,8 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 
 ## Habilitación de la vinculación de identidad {#enable-identity-stitching}
 
+Puede habilitar la vinculación de identidad al [agregar](/help/connections/create-connection.md#add-datasets) o [editar](/help/connections/create-connection.md#edit-a-dataset) un conjunto de datos de evento en una conexión basada en persona. La vinculación de identidad no está disponible para conexiones basadas en cuentas.
+
 >[!CONTEXTUALHELP]
 >id="connection_changeto_identitygraph"
 >title="Cambio en el gráfico de identidad"
@@ -101,7 +103,7 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="Vinculación de métricas"
->abstract="La vinculación de métricas se calcula mediante un conjunto de datos de muestra, a partir de cualquier dato introducido en los últimos 7 días.<br>Normalmente, esto difiere de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**."
+>abstract="La vinculación de métricas se calcula mediante un conjunto de datos de muestra, a partir de cualquier dato introducido en los últimos 7 días.<br>Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -123,10 +125,12 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
 
 
-Para habilitar la vinculación, en la sección del conjunto de datos de evento del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**:
+### Configuración del conjunto de datos
+
+Para habilitar la vinculación, en la sección del conjunto de datos de evento **[!UICONTROL Configuración de conjuntos de datos]** del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**:
 
 ![Opciones de vinculación de identidad al habilitar la vinculación de identidad](assets/identity-stitching-ui.png)
 
@@ -158,18 +162,74 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento d
    >Asegúrese de que tiene derecho a utilizar el gráfico de identidad.
    >
 
-   Antes de eso, se muestra el cuadro de diálogo **[!UICONTROL Cambiar al gráfico de identidad]** para asegurarse de que ha finalizado la configuración del gráfico de identidad para el conjunto de datos como parte de los [requisitos previos basados en gráficos](/help/stitching/gbs.md#prerequisites) antes de usar el gráfico de identidad para la vinculación. Seleccione **[!UICONTROL Continuar]** para continuar.
+   Antes de eso, se muestra el cuadro de diálogo **[!UICONTROL Cambiar al gráfico de identidad]** para asegurarse de que ha finalizado la configuración del gráfico de identidad para el conjunto de datos. Esta configuración forma parte de los [requisitos previos basados en gráficos](/help/stitching/gbs.md#prerequisites) para que pueda usar el gráfico de identidad para la vinculación. Seleccione **[!UICONTROL Continuar]** para continuar.
 
    * Seleccione un área de nombres del menú desplegable **[!UICONTROL Área de nombres]**.
 
-
 1. Seleccione una ventana de reproducción del menú desplegable **[!UICONTROL Ventana de reproducción]**. Las opciones disponibles dependen del paquete de Customer Journey Analytics al que esté autorizado.
 
-Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos habilitados para la vinculación se inicia cuando se inicia la ingesta de datos para estos conjuntos de datos.
+1. Seleccione **[!UICONTROL Siguiente]** para ver una vista previa del conjunto de datos de evento sujeto a la vinculación.
+
+
+### Vista previa de los conjuntos de datos
+
+Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de datos]**, al [agregar](/help/connections/create-connection.md#add-datasets) o [editar](/help/connections/create-connection.md#edit-a-dataset) conjuntos de datos en una conexión basada en personas, hay dos paneles de información adicionales disponibles.
+
+>[!NOTE]
+>Para los clientes que tienen Customer Journey Analytics implementado en AWS, esta funcionalidad está pendiente de lanzamiento.
+>
+
+![Opciones de vinculación de identidad al habilitar la vinculación de identidad](assets/identity-stitching-ui-preview.png)
+
+#### Vinculación de métricas
+
+
+
+**[!UICONTROL Se están calculando las métricas de vinculación]** con un conjunto de datos de ejemplo, a partir de cualquier dato ingerido en los últimos 7 días. Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**. La vinculación de métricas proporciona detalles para lo siguiente:
+
+* **[!UICONTROL Cobertura de ID de persona]**: La cobertura del ID de persona seleccionado utilizado para la identificación durante el proceso de vinculación (activo y de reproducción).
+   * Para obtener los mejores resultados de vinculación basada en el campo, se debe enviar un ID de persona (información de usuario) con al menos un evento para cada ID persistente (información de dispositivo).
+   * Para obtener los mejores resultados de vinculación basada en gráficos, debe haber una relación (ID persistente, ID de persona) en el gráfico de identidad para cada ID persistente.
+
+  La cobertura del ID de persona se muestra como porcentaje y se compara con lo que se recomienda en una configuración de desarrollo estable o de producción. Cuanto mayor sea este valor de cobertura, mejores serán los resultados de vinculación con el ID de persona seleccionado.
+
+* **[!UICONTROL Cobertura de ID persistente]**: este valor se usa para la identificación durante el proceso de vinculación (en vivo y en reproducción), en caso de que no se pueda detectar un valor de ID de persona. Los eventos sin ID persistente ni ID de persona se pierden de los datos. Para obtener los mejores resultados de vinculación, debe haber un ID persistente en todos los eventos.
+
+  La cobertura de ID persistente se muestra como porcentaje y se compara con el mínimo recomendado en una configuración de desarrollo estable o de producción.
+
+
+#### ID incorrectos
+
+>[!INFO]
+>
+>Los ID incorrectos también se denominan BAVID en la interfaz de Customer Journey Analytics.
+> 
+
+En Customer Journey Analytics, un ID incorrecto es un identificador:
+
+* con un valor de ID específico que se origina a partir de un ID persistente o un campo de ID de persona en conjuntos de datos habilitados para la vinculación, **y**
+* está en más de un millón (1.000.000) de eventos en los datos de conexión, en un mes.
+
+Cuando un valor de ID se marca como un ID incorrecto, los eventos futuros que contengan ese valor de ID se descartarán de los datos de conexión y no se mostrarán en los informes.
+
+Ejemplos de casos de uso de ID incorrectos:
+
+* Tiene valores personalizados o de marcador de posición en el campo ID de persona (por ejemplo, `undefined`). Estos valores también pueden afectar la [calidad de los datos de vinculación y creación de informes](/help/stitching/faq.md#undefined-person-id-values).
+* En una configuración de vinculación basada en el campo, si varias personas comparten un dispositivo y el número total de transiciones entre usuarios supera las 50 000. En esta situación, el proceso de vinculación se detiene para utilizar la información de ID de persona para ese dispositivo y solo utiliza la información de ID persistente en su lugar. Por lo tanto, todos los eventos de conjuntos de datos de ese dispositivo se envían a los datos de conexión con la identidad de ID persistente, con una alta probabilidad de causar una situación de ID incorrectos.
+
+
+>[!NOTE]
+>Las **[!UICONTROL métricas de vinculación]**, incluidas las **[!UICONTROL ID incorrectas]**, se calculan en función de un conjunto limitado de datos. Para identificar la presencia de ID incorrectos para un conjunto de datos que planea usar para la vinculación, consulte la [nota técnica sobre ID incorrectos](/help/technotes/badids.md).
+>
+
+
+### Guardar
+
+Una vez guardada una conexión, el proceso de vinculación para vincular conjuntos de datos habilitados se inicia en cuanto se inicia la ingesta de datos para estos conjuntos de datos.
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
