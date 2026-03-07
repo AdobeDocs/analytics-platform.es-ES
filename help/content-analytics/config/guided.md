@@ -333,15 +333,15 @@ Sin embargo, puede editar las páginas y los recursos que desea incluir o exclui
 * Para editar qué recursos deben incluirse o excluirse al recopilar datos para el análisis de contenido, seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** debajo de **[!UICONTROL Recurso]**. Se le redirigirá a la [extensión de Adobe Content Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) asociada a la propiedad Etiquetas para la configuración actual de Content Analytics. Puede editar la expresión regular para incluir o excluir recursos. Asegúrese de [publicar](#publish) sus cambios.
 
 
-### Invalidaciones del encabezado
+### Anulaciones de encabezado
 
-Si lo desea, puede especificar en la sección Anulaciones **[!UICONTROL de]** encabezado un nombre de encabezado y un valor de encabezado secreto.  Esta configuración de anulación de encabezado garantiza que Content Analytics envíe encabezados HTTP personalizados para evitar cualquier detección de bot o tecnologías de tráfico de puerta que haya implementado.
+Opcionalmente, puede especificar en la sección **[!UICONTROL Anulaciones de encabezado]** un nombre de encabezado y un valor de encabezado secreto.  Este encabezado anula la configuración y garantiza que Content Analytics envíe encabezados HTTP personalizados para evitar la detección de bots o las tecnologías de tráfico de puerta que haya implementado.
 
-![Sección de anulaciones de encabezado](/help/content-analytics/assets/aca-configuration-header-overrides.png)
+![Sección de invalidaciones de encabezado](/help/content-analytics/assets/aca-configuration-header-overrides.png)
 
-1. Habilitar **[!UICONTROL Configurar anulaciones]** de encabezado.
-1. Introduzca el nombre **[!UICONTROL del]** encabezado. Por ejemplo, `x-asset-service`.
-1. Introduzca el valor **[!UICONTROL de]** Header. Todo lo que especifique es secreto y no es visible en la interfaz de usuario (a menos que seleccione revelar ![Visibilidad](/help/assets/icons/Visibility.svg) el valor durante la entrada).
+1. Habilitar **[!UICONTROL Configurar invalidaciones de encabezado]**.
+1. Escriba el **[!UICONTROL nombre del encabezado]**. Por ejemplo, `x-asset-service`.
+1. Escriba el **[!UICONTROL valor del encabezado]**. Lo que especifique es secreto y no visible en la interfaz de usuario (a menos que seleccione explícitamente revelar ![Visibilidad](/help/assets/icons/Visibility.svg) el valor durante la entrada).
 
 
 ### Resumen {#summary}

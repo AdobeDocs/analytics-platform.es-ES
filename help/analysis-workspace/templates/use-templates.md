@@ -7,7 +7,7 @@ exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 source-git-commit: 02aa4b4c9b357efca3d620bb72d8a505153bc079
 workflow-type: tm+mt
 source-wordcount: '21006'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -486,7 +486,7 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="template--audienceOverview"
->title="Vea qué audiencias se representan entre las personas que visitan el sitio."
+>title="Ver qué públicos se representan entre las personas que visitan el sitio."
 >abstract="**Esto puede ayudarte** a comprender mejor la información general sobre las audiencias, el origen de las audiencias (RTCDP, Customer Journey Analytics, etc.), la superposición de audiencias y mucho más.<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing para estas audiencias específicas o crear experiencias adaptadas para clientes que abarcan varias audiencias.<br/>Esta plantilla usa las dimensiones Nombre de audiencia, Origen de audiencia, Nombre de audiencia de salida y Origen de audiencia de salida."
 
 <!--AA only-->
@@ -654,7 +654,7 @@ Las plantillas disponibles son las siguientes:
 
 | Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| **[!UICONTROL Resumen de audiencia]** | Vea qué audiencias se representan entre las personas que visitan el sitio.<p>**Esto puede ayudarte** a comprender mejor la información general sobre las audiencias, el origen de las audiencias (RTCDP, Customer Journey Analytics, etc.), la superposición de audiencias y mucho más.</p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing para estas audiencias específicas o crear experiencias adaptadas para clientes que abarcan varias audiencias.</p><p>Esta plantilla utiliza las dimensiones Nombre de audiencia, Origen de audiencia, Nombre de audiencia de salida y Origen de audiencia de salida.</p><p>Para obtener más información, consulte [Analizar audiencias de Experience Platform en Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> |
+| **[!UICONTROL Resumen de audiencia]** | Ver qué públicos se representan entre las personas que visitan el sitio.<p>**Esto puede ayudarte** a comprender mejor la información general sobre las audiencias, el origen de las audiencias (RTCDP, Customer Journey Analytics, etc.), la superposición de audiencias y mucho más.</p><p>**En función de lo que sepa, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing para estas audiencias específicas o crear experiencias adaptadas para clientes que abarcan varias audiencias.</p><p>Esta plantilla utiliza las dimensiones Nombre de audiencia, Origen de audiencia, Nombre de audiencia de salida y Origen de audiencia de salida.</p><p>Para obtener más información, consulte [Analizar audiencias de Experience Platform en Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> |
 | [!UICONTROL **Visitantes por primera vez frente a visitantes recurrentes**] | Ver una comparación de los visitantes nuevos que repiten visita. <p>**Esto puede ayudarle** a comprender mejor la eficacia de su sitio para conservar la lealtad de sus clientes o la velocidad a la que está adquiriendo nuevos clientes.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ofrecer incentivos para futuras compras a los visitantes nuevos con el fin de animarlos a que regresen.</p><!-- This template uses the --> |
 | **ID de la persona** | Ver el comportamiento de cada usuario en varios canales.<p>**Esto puede ayudarle** a comprender mejor el recorrido completo del cliente y las interacciones entre varios puntos de contacto.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como personalizar los esfuerzos de marketing para atender mejor las preferencias de los usuarios.</p><!-- This template uses the --> |
 | **Países geográficos** | Ver el país desde el que las personas visitaron el sitio.<p>**Esto puede ayudarle** a comprender mejor de qué países provienen los visitantes más populares del sitio.</p><p>**En función de lo que aprenda, podría** hacer cualquier cosa, como usar los datos para centrarse en las actividades de marketing en estos países o asegurarse de que la experiencia del sitio sea óptima en países que tienen diferentes idiomas principales.</p><p>Esta plantilla usa la dimensión Países. </p> |
@@ -1115,17 +1115,17 @@ Las plantillas disponibles son las siguientes:
 | [!UICONTROL **Actividad de los grupos de compra B2B**] | Visualice la actividad del grupo de compra en cada cuenta para informar de tácticas de marketing de los grupos de compra y la cuenta.<p>**Esto puede ayudarle** a visualizar qué grupos de compra y personas dentro de esos grupos están más involucrados, lo que pondrá de relieve las brechas de participación del grupo.</p><p>**En función de lo que aprenda, puede** hacer muchas cosas, como intentar relacionarse más con personas de los grupos de compra que no parecen estar involucrados.</p> |
 
 
-### Mix Modeler templates {#mix-modeler-templates}
+### Plantillas de Mix Modeler {#mix-modeler-templates}
 
 Las plantillas disponibles son las siguientes:
 
 | Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Datos del modelo incremental de Mix Modeler**] | Vea información de modelos seleccionados generados por Mix Modeler.<p>**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Mix Modeler. <p>**Según estas perspectivas**, usted podrá:<ul><li>Visualice y cuantifique el impacto de las actividades de marketing de su organización.</li><li>Identifique qué canales tienen un alto rendimiento.</li><li>Identifique qué canales pueden necesitar optimización.</li></ul></p> |
+| [!UICONTROL **Datos del modelo incremental de Mix Modeler**] | Vea información de modelos seleccionados generados por Mix Modeler.<p>**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Mix Modeler. <p>**Según estas perspectivas**, usted podrá:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul></p> |
 
 <!-- CJA only -->
 
 >[!CONTEXTUALHELP]
 >id="template--mixmodeler-incremental-models-insights"
 >title="Vea información de modelos seleccionados generados por Mix Modeler."
->abstract="**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Mix Modeler. <br/>**Según estas perspectivas**, usted podrá:<ul><li>Visualice y cuantifique el impacto de las actividades de marketing de su organización.</li><li>Identifique qué canales tienen un alto rendimiento.</li><li>Identifique qué canales pueden necesitar optimización.</li></ul>"
+>abstract="**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Mix Modeler. <br/>**Según estas perspectivas**, usted podrá:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul>"

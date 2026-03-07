@@ -8,7 +8,7 @@ exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
 source-git-commit: 968fef4fa6a967c9654f594e662bc9bbd7ae2ab4
 workflow-type: tm+mt
 source-wordcount: '1698'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -89,7 +89,7 @@ Los artículos de datos constan de una diapositiva de título, una diapositiva d
 >[!CONTEXTUALHELP]
 >id="cja-presentation-emphasized-components"
 >title="Componentes destacados"
->abstract="Elija entre las visualizaciones hasta 5 métricas y 5 dimensiones que desee resaltar en la presentación. Las métricas que elija se muestran en cursiva, las dimensiones en negrita y los elementos de dimensión en color distinto."
+>abstract="Elija entre sus visualizaciones hasta 5 métricas y 5 dimensiones que desee resaltar en la presentación. Las métricas que elija se muestran en cursiva, las dimensiones se muestran en negrita y los elementos de dimensión se muestran en un color distinto."
 
 <!-- markdownlint-enable MD034 -->
 
