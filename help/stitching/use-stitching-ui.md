@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: b7b2a1f3eb1c149caf65ab3e4321e4f4347695cc
+source-git-commit: 53099bd891d939260a95cffc66e7857167901902
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1804'
 ht-degree: 5%
 
 ---
@@ -98,7 +98,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="ID de persona"
->abstract="Seleccione un ID de persona (el identificador único de una persona) entre las identidades disponibles. Si desea usar la vinculación basada en gráficos, seleccione **[!UICONTROL Gráfico de identidad]**."
+>abstract="Seleccione un ID de persona (el identificador único de una persona) entre las identidades disponibles. Si su licencia incluye vinculación basada en gráficos y desea utilizar ese método de vinculación, seleccione **[!UICONTROL Gráfico de identidad]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
@@ -125,7 +125,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
 
 
 ### Configuración del conjunto de datos
@@ -172,6 +172,11 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento *
 
 
 ### Vista previa de los conjuntos de datos
+
+>[!AVAILABILITY]
+>
+>La interfaz **[!UICONTROL Vista previa de conjuntos de datos]** mejorada (que incluye **[!UICONTROL Métricas de vinculación]** y **[!UICONTROL ID incorrectos]**) descrita en esta sección se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Si no está disponible, verá la vista previa del conjunto de datos como parte de la interfaz **[!UICONTROL Configuración del conjunto de datos]**. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Lanzamientos de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).
+>
 
 Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de datos]**, al [agregar](/help/connections/create-connection.md#add-datasets) o [editar](/help/connections/create-connection.md#edit-a-dataset) conjuntos de datos en una conexión basada en personas, hay dos paneles de información adicionales disponibles.
 
@@ -229,7 +234,7 @@ Una vez guardada una conexión, el proceso de vinculación para vincular conjunt
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
