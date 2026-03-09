@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: a2715ff9869796858dec16d3b8b422ef0c9325aa
+source-git-commit: b48858ea8e54bd9f6e7725f1ed0f0086020aab5f
 workflow-type: tm+mt
-source-wordcount: '2776'
-ht-degree: 97%
+source-wordcount: '3251'
+ht-degree: 85%
 
 ---
 
@@ -114,7 +114,52 @@ Cada configuración requiere un nombre único. Por ejemplo, `Example Content Ana
 >title="Nueva vista de datos"
 >abstract="Ha seleccionado una nueva vista de datos para esta configuración. La nueva vista de datos se actualizará para incluir las métricas y dimensiones de análisis de contenido. Se eliminarán las métricas y dimensiones similares de la vista de datos existente.<br/>Si hay una conexión diferente asociada con la nueva vista de datos, la conexión se actualizará para incluir conjuntos de datos del análisis de contenido. Tenga en cuenta que los conjuntos de datos del análisis de contenido no se eliminan de la configuración existente."
 
-<!-- markdownlint-enable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="ac_onboarding_dataviews_button"
+>title="Vista de datos"
+>abstract="Para la configuración de Content Analytics, debe seleccionar una o más vistas de datos. Por lo tanto, puede combinar los datos de Content Analytics con otros datos."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviewsheader"
+>title="Vistas de datos"
+>abstract="Seleccione una o varias vistas de datos existentes de Customer Journey Analytics con las que desee combinar los datos de Content Analytics."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_header_alt"
+>title="Vista de datos"
+>abstract="Seleccione una o más vistas de datos existentes de Customer Journey Analytics con las que desee combinar los datos de Content Analytics.<br/>"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_new_dialog"
+>title="Vistas de datos seleccionadas"
+>abstract="Ha modificado las vistas de datos seleccionadas para esta configuración. Las vistas de datos seleccionadas se actualizarán para incluir las métricas y dimensiones de Content Analytics. Estas métricas y dimensiones se eliminarán de las vistas de datos seleccionadas anteriormente que ya no estén seleccionadas.<br/><br/>Si hay una conexión diferente asociada con las vistas de datos seleccionadas, la conexión se actualizará para incluir los conjuntos de datos de Content Analytics. Los conjuntos de datos de análisis de contenido no se eliminan de la conexión seleccionada originalmente.<br/><br/>Todas las vistas de datos seleccionadas heredan los canales que forman parte de esta configuración."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_change_dialog"
+>title="Vistas de datos seleccionadas"
+>abstract="Ha modificado las vistas de datos seleccionadas para esta configuración. Las vistas de datos seleccionadas se actualizarán para incluir las métricas y dimensiones de Content Analytics. Estas métricas y dimensiones se eliminarán de las vistas de datos seleccionadas anteriormente que ya no estén seleccionadas.<br/><br/>Si hay una conexión diferente asociada con las vistas de datos seleccionadas, la conexión se actualizará para incluir los conjuntos de datos de Content Analytics. Los conjuntos de datos de análisis de contenido no se eliminan de la conexión seleccionada originalmente.<br/><br/>Todas las vistas de datos seleccionadas heredan los canales que forman parte de esta configuración."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_current_cleanup_labels_dialog"
+>title="Vistas de datos seleccionadas"
+>abstract="Ha modificado las vistas de datos seleccionadas para esta configuración. Las vistas de datos seleccionadas se actualizarán para incluir las métricas y dimensiones de Content Analytics. Estas métricas y dimensiones se eliminarán de las vistas de datos seleccionadas anteriormente que ya no estén seleccionadas.<br/><br/>Si hay una conexión diferente asociada con las vistas de datos seleccionadas, la conexión se actualizará para incluir los conjuntos de datos de Content Analytics. Los conjuntos de datos de análisis de contenido no se eliminan de la conexión seleccionada originalmente.<br/><br/>Todas las vistas de datos seleccionadas heredan los canales que forman parte de esta configuración."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_prev_cleanup_labels_dialog"
+>title="Vistas de datos seleccionadas"
+>abstract="Ha modificado las vistas de datos seleccionadas para esta configuración. Las vistas de datos seleccionadas se actualizarán para incluir las métricas y dimensiones de Content Analytics. Estas métricas y dimensiones se eliminarán de las vistas de datos seleccionadas anteriormente que ya no estén seleccionadas.<br/><br/>Si hay una conexión diferente asociada con las vistas de datos seleccionadas, la conexión se actualizará para incluir los conjuntos de datos de Content Analytics. Los conjuntos de datos de análisis de contenido no se eliminan de la conexión seleccionada originalmente.<br/><br/>Todas las vistas de datos seleccionadas heredan los canales que forman parte de esta configuración."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_channels_button"
+>title="Canales"
+>abstract="Habilite y configure uno o varios canales para la configuración."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_channels_header"
+>title="Canales"
+>abstract="Habilite y configure uno o varios canales para la configuración. Todas las vistas de datos que forman parte de la configuración heredan los canales habilitados."
+
 
 Su configuración requiere la selección de una [vista de datos](/help/data-views/data-views.md).
 
