@@ -6,9 +6,10 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 974d8a269be15d3ea6fbbcf96f2ab5457d9c9554
+exl-id: 4f465e71-f1b5-4f38-a1db-645550856849
+source-git-commit: d14163794fd4d31b29bfc6f55622d839b67ab3d7
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1486'
 ht-degree: 1%
 
 ---
@@ -61,7 +62,7 @@ Comprenda cómo se comporta una audiencia específica en un canal determinado (p
 
    * Compare audiencias y no audiencias (o con otra audiencia) en métricas como sesiones, tasa de conversión e ingresos por persona.
 
-1. Informa de tus perspectivas sobre las estrategias de optimización de canal (por ejemplo, reglas de segmentación, ajuste de contenido u oferta).
+1. Utilice las perspectivas generadas para ajustar las estrategias de optimización de canal (por ejemplo, reglas de segmentación, ajuste de contenido u oferta).
 
 #### Consideraciones de resolución de identidad
 
@@ -142,4 +143,3 @@ Comprenda el comportamiento de los clientes que recientemente abandonaron una au
 | Caso de uso | Pregunta empresarial principal | Consideración de resolución de identidad | Organizaciones de alta autenticación/área de nombres única (eventos que ya tienen un ID de persona, como inicio de sesión /CRM) | Organizaciones fragmentadas o con varios espacios de nombres (eventos en ECID + CRM + otros) |
 |---------|----------|---------|---------|---------|
 | Audiencias abandonadas: análisis de pérdida | _&quot;¿Quién acaba de dejar una audiencia clave?&quot;_ <p>_&quot;¿Qué hicieron al salir?&quot;_</p> | La salida de audiencia se rastrea en el mismo ID de persona utilizado para la conexión y la configuración de audiencia. | Las salidas medidas con un ID de inicio de sesión/CRM estable tienden a reflejar un verdadero cambio de comportamiento. <p>Cuando alguien deja una audiencia con este ID, suele significar un cambio real (pérdida, reducción de categoría, inactividad).</p><p>Puede analizar su comportamiento reciente para ajustar los recorridos y las ofertas de recuperación con confianza.</p> | Las salidas solo son visibles cuando los perfiles y eventos comparten el ID configurado y, por lo tanto, requieren una interpretación cuidadosa.<p>Utilice cohortes de salida como una pista o señal sólida, pero se recomienda que se compruebe con otros puntos de datos antes de tomar decisiones críticas.</p> |
-
