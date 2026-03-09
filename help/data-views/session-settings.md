@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 82%
+source-wordcount: '532'
+ht-degree: 65%
 
 ---
 
@@ -34,9 +34,9 @@ Para definir el contexto de una sesión en una vista de datos:
 
 1. Seleccione **[!UICONTROL Vistas de datos]**, opcionalmente desde la **[!UICONTROL Administración de datos]**, en la navegación principal de la interfaz de usuario de Customer Journey Analytics.
 
-2. Cree una nueva vista de datos o edite una existente. Consulte [Creación o edición de una vista de datos](create-dataview.md) para obtener más información.
+1. Cree una nueva vista de datos o edite una existente. Consulte [Creación o edición de una vista de datos](create-dataview.md) para obtener más información.
 
-3. Seleccione la pestaña **[!UICONTROL Configuración.]** Debajo de [!UICONTROL Configuración de sesión]:
+1. Seleccione la pestaña **[!UICONTROL Configuración.]** Debajo de [!UICONTROL Configuración de sesión]:
 
    1. Escriba un valor para **[!UICONTROL tiempo de espera de sesión]** en [!UICONTROL minuto(s)], [!UICONTROL hora(s)], [!UICONTROL día(s)] o [!UICONTROL semana(s)]. El tiempo de espera de sesión determina cuánto tiempo puede estar inactiva una sesión (sin que se produzcan eventos) antes de iniciar una nueva.
 
@@ -44,8 +44,11 @@ Para definir el contexto de una sesión en una vista de datos:
 
       Elija un tiempo de espera de sesión largo (por ejemplo, 3 meses) si combina datos en línea y sin conexión y desea analizar si sus clientes que han adquirido uno o más productos han llamado a su centro de contacto en los tres primeros meses después de la compra.
 
+   1. Seleccione un segmento del menú desplegable **[!UICONTROL Agregar segmentos]** si desea segmentar una vista de datos. También puede arrastrar y soltar un segmento de ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]** en el panel izquierdo de **[!UICONTROL _Colocar un segmento aquí_]**.
 
-   2. Seleccione una métrica de la lista **[!UICONTROL Suelte una métrica aquí]** debajo de **[!UICONTROL Iniciar nueva sesión con una métrica]**. También puede arrastrar y soltar una métrica desde el panel izquierdo en el campo **[!UICONTROL Suelte una métrica]**. La métrica seleccionada define el inicio de una nueva sesión. Puede definir más de una métrica.
+      Solo se enumeran los segmentos que están compartidos, a los que no tiene acceso y que pueden evaluarse en función de los componentes definidos para la vista de datos.
+
+   1. Seleccione una métrica del menú desplegable **[!UICONTROL Iniciar nueva sesión con una métrica]** También puede arrastrar y soltar una métrica de ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Métricas]** en el panel izquierdo de **[!UICONTROL _Colocar una métrica aquí_]**. La métrica seleccionada define el inicio de una nueva sesión. Puede definir más de una métrica.
 
       Puede emplear cualquier tipo de métrica para definir una nueva sesión. Por ejemplo, imagine que desea definir una nueva sesión cada vez que un perfil inicia la aplicación móvil. En **[!UICONTROL Vista de datos]** > **[!UICONTROL Componentes]**, define un componente de tipo métrica, denominado **[!UICONTROL Launch]**, basado en un campo de esquema **[!UICONTROL appInteraction]** **[!UICONTROL Name]**. Además, especifique el componente de métrica **[!UICONTROL Launch]** para contar solo el valor cuando el valor coincida con `launch`.
 
@@ -57,4 +60,4 @@ Para definir el contexto de una sesión en una vista de datos:
 
 
 
-4. Seleccione **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y finalizar]** para guardar la definición de configuración de sesiones.
+1. Seleccione **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y finalizar]** para guardar la definición de configuración de sesiones.
