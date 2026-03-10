@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b48858ea8e54bd9f6e7725f1ed0f0086020aab5f
+source-git-commit: fc1961f3191b80c0351c8935fc331d7605f37f13
 workflow-type: tm+mt
-source-wordcount: '3251'
-ht-degree: 85%
+source-wordcount: '3393'
+ht-degree: 81%
 
 ---
 
@@ -121,13 +121,13 @@ Cada configuración requiere un nombre único. Por ejemplo, `Example Content Ana
 >abstract="Para la configuración de Content Analytics, debe seleccionar una o más vistas de datos. Por lo tanto, puede combinar los datos de Content Analytics con otros datos."
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_dataviewsheader"
+>id="aca_onboarding_dataviews_header"
 >title="Vistas de datos"
 >abstract="Seleccione una o varias vistas de datos existentes de Customer Journey Analytics con las que desee combinar los datos de Content Analytics."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_header_alt"
->title="Vista de datos"
+>title="Vistas de datos"
 >abstract="Seleccione una o más vistas de datos existentes de Customer Journey Analytics con las que desee combinar los datos de Content Analytics.<br/>"
 
 >[!CONTEXTUALHELP]
@@ -330,7 +330,59 @@ En esta sección, puede configurar cómo recopilar los datos de Content Analytic
 >title="Propiedad de etiquetas deshabilitada"
 >abstract="La extensión de Content Analytics ya está activa."
 
-<!-- markdownlint-enable MD034 -->
+
+<!-- For updated ACA -->
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_web_pages_boldheader"
+>title="Recopilación de datos de páginas web"
+>abstract="**Páginas para incluir/excluir**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_web_pages_header"
+>title="Recopilación de datos de páginas web"
+>abstract="Indique qué páginas deben **incluirse** o **excluirse** al recopilar datos para Content Analytics."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_web_assets_boldheader"
+>title="Recopilación de datos de recursos web"
+>abstract="**Recursos para incluir/excluir**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_web_assets_header"
+>title="Recopilación de datos de recursos web"
+>abstract="Indique qué recursos deben **incluirse** o **excluirse** al recopilar datos para Content Analytics."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_experience_locations_boldheader"
+>title="Recopilación de datos de ubicaciones de experiencias móviles"
+>abstract="**Ubicaciones de experiencia para incluir/excluir**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_experience_locations_header"
+>title="Recopilación de datos de ubicaciones de experiencias móviles"
+>abstract="Indique qué ubicaciones de experiencia deben **incluirse** o **excluirse** al recopilar datos para Content Analytics."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_asset_locations_boldheader"
+>title="Recopilación de datos de ubicaciones de recursos móviles"
+>abstract="**Ubicaciones de recursos que se deben incluir o excluir**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_asset_locations_header"
+>title="Recopilación de datos de ubicaciones de recursos móviles"
+>abstract="Indique qué ubicaciones de recursos deben **incluirse** o **excluirse** al recopilar datos para Content Analytics."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_asset_urls_boldheader"
+>title="Recopilación de datos de URL de recursos móviles"
+>abstract="**URL de recursos que incluir/excluir**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_asset_urls_header"
+>title="Recopilación de datos de URL de recursos móviles"
+>abstract="Indique qué direcciones URL de recursos deben **incluirse** o **excluirse** al recopilar datos para Content Analytics."
+
 
 #### Nueva configuración {#new-configuration}
 
