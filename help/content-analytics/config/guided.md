@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: fc1961f3191b80c0351c8935fc331d7605f37f13
+source-git-commit: 6e7776cbaf99d5b2031b0fb3872c331852443b74
 workflow-type: tm+mt
-source-wordcount: '3393'
+source-wordcount: '3419'
 ht-degree: 81%
 
 ---
@@ -431,6 +431,16 @@ Sin embargo, puede editar las páginas y los recursos que desea incluir o exclui
 
 
 ### Anulaciones de encabezado
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_boldheader"
+>title="Anulaciones de encabezado"
+>abstract="**Anulaciones de encabezado**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_header"
+>title="Anulaciones de encabezado"
+>abstract="Función avanzada para evitar la detección de bots o el tráfico de puerta. Content Analytics incluye los encabezados HTTP personalizados al llamar a los extremos."
 
 Opcionalmente, puede especificar en la sección **[!UICONTROL Anulaciones de encabezado]** un nombre de encabezado y un valor de encabezado secreto.  Este encabezado anula la configuración y garantiza que Content Analytics envíe encabezados HTTP personalizados para evitar la detección de bots o las tecnologías de tráfico de puerta que haya implementado.
 
