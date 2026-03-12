@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: bc708b34814550b89f6c9916d8bc48850008c1dc
+source-git-commit: c84e18bcaf7687deada7086bfe1a85a4b83f216b
 workflow-type: tm+mt
 source-wordcount: '4015'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Puede configurar las siguientes preferencias:
 
 ### Preferencias generales
 
-Las preferencias generales se aplican a su experiencia de Customer Journey Analytics en el explorador. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
+Las preferencias generales se aplican a su experiencia de Customer Journey Analytics en el explorador. Para obtener información sobre cómo obtener acceso a estas preferencias, consulte [Editar preferencias](#edit-preferences).
 
 | Preferencia | Opciones |
 | --- | --- |
@@ -56,7 +56,7 @@ Las preferencias generales se aplican a su experiencia de Customer Journey Analy
 >abstract="Cuando se habilita, hay un área de comentarios disponible en el carril derecho de cada proyecto en Analysis Workspace."
 
 
-Puede actualizar las preferencias de la compañía que se aplican a todas las personas y proyectos de su organización. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
+Puede actualizar las preferencias de la compañía que se aplican a todas las personas y proyectos de su organización. Para obtener información sobre cómo obtener acceso a estas preferencias, consulte [Editar preferencias](#edit-preferences).
 
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
@@ -86,14 +86,14 @@ Puede actualizar las preferencias de la compañía que se aplican a todas las pe
 >title="Paleta secuencial"
 >abstract="Se aplica al análisis guiado por Tendencias de frecuencia (barra apilada). Esta paleta tiene un significado numérico de claro a oscuro."
 
-Puede personalizar estas preferencias para todos los nuevos proyectos de Analysis Workspace, nuevos paneles de Analysis Workspace y nuevos análisis guiados. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
+Puede personalizar estas preferencias para todos los nuevos proyectos de Analysis Workspace, nuevos paneles de Analysis Workspace y nuevos análisis guiados. Para obtener información sobre cómo obtener acceso a estas preferencias, consulte [Editar preferencias](#edit-preferences).
 
 Algunas de estas mismas preferencias también se pueden personalizar para proyectos individuales, tal como se describe en la [Información general sobre proyectos](/help/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -132,7 +132,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 >abstract="Seleccione la métrica predeterminada que se utilizará para las tablas de forma libre. Si la vista de datos seleccionada no contiene la métrica predeterminada seleccionada, la tabla cambia automáticamente a otra métrica principal."
 
 
-Puede personalizar las preferencias de tabla de forma libre para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
+Puede personalizar las preferencias de tabla de forma libre para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo obtener acceso a estas preferencias, consulte [Editar preferencias](#edit-preferences).
 
 Algunas de estas mismas preferencias también se pueden personalizar para tablas individuales.
 
@@ -185,7 +185,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 >abstract="Seleccione el contenedor predeterminado que se utilizará para las visualizaciones del [!UICONTROL Lienzo del recorrido]. Si la vista de datos seleccionada no contiene el contenedor predeterminado seleccionado, la visualización del [!UICONTROL Lienzo del recorrido] cambiará automáticamente a otro contenedor principal."
 
 
-Puede actualizar las preferencias de visualización para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
+Puede actualizar las preferencias de visualización para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo obtener acceso a estas preferencias, consulte [Editar preferencias](#edit-preferences).
 
 Algunas de estas mismas preferencias también se pueden personalizar para visualizaciones individuales.
 
