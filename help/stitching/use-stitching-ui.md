@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 53099bd891d939260a95cffc66e7857167901902
+source-git-commit: c1acbea7e22e42a2f64f71af054abe2dd6082130
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 5%
@@ -125,7 +125,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
 
 
 ### Configuración del conjunto de datos
@@ -234,7 +234,7 @@ Una vez guardada una conexión, el proceso de vinculación para vincular conjunt
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
