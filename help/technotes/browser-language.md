@@ -12,4 +12,4 @@ ht-degree: 8%
 
 # Compatibilidad con exploradores e idiomas
 
-Customer Journey Analytics admite todos los exploradores e idiomas compatibles con la interfaz de usuario de Experience Platform, tal como se describe en [Compatibilidad de exploradores e idiomas para la interfaz de usuario de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/browser-language-support#language-support).
+Customer Journey Analytics admite todos los exploradores e idiomas compatibles con la interfaz de usuario de Experience Platform, tal como se describe en [Compatibilidad de exploradores e idiomas para la interfaz de usuario de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-ui/browser-language-support#language-support).
