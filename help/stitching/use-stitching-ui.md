@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: c1acbea7e22e42a2f64f71af054abe2dd6082130
+source-git-commit: 1e0d028db957743416bc7840f5a3682206a3edf3
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1808'
 ht-degree: 5%
 
 ---
@@ -103,7 +103,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="Vinculación de métricas"
->abstract="La vinculación de métricas se calcula mediante un conjunto de datos de muestra, a partir de cualquier dato introducido en los últimos 7 días.<br>Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**."
+>abstract="La vinculación de métricas se calcula mediante un conjunto de datos de muestra que tienen una marca de tiempo de eventos en los últimos 7 días.<br>Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -125,7 +125,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
 
 
 ### Configuración del conjunto de datos
@@ -188,9 +188,7 @@ Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de d
 
 #### Vinculación de métricas
 
-
-
-**[!UICONTROL Se están calculando las métricas de vinculación]** con un conjunto de datos de ejemplo, a partir de cualquier dato ingerido en los últimos 7 días. Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**. La vinculación de métricas proporciona detalles para lo siguiente:
+**[!UICONTROL Se están calculando las métricas de vinculación]** mediante un conjunto de datos de ejemplo que tienen una marca de tiempo de eventos en los últimos siete días. Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**. La vinculación de métricas proporciona detalles para lo siguiente:
 
 * **[!UICONTROL Cobertura de ID de persona]**: La cobertura del ID de persona seleccionado utilizado para la identificación durante el proceso de vinculación (activo y de reproducción).
    * Para obtener los mejores resultados de vinculación basada en el campo, se debe enviar un ID de persona (información de usuario) con al menos un evento para cada ID persistente (información de dispositivo).
@@ -234,7 +232,7 @@ Una vez guardada una conexión, el proceso de vinculación para vincular conjunt
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
