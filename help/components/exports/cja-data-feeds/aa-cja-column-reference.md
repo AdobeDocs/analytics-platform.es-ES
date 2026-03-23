@@ -19,7 +19,7 @@ Esta referencia se ha diseñado para ayudar a los ingenieros de datos a ajustar 
 
 >[!NOTE]
 >
->Esta referencia solo incluye columnas que Adobe considera actuales, según la [referencia de columna de fuente de datos de Analytics](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Si tiene una columna de fuente de datos de Analytics que no aparece en esta tabla y que utiliza de forma activa, consulte el documento de diseño de soluciones de su organización para determinar su mejor equivalente en Customer Journey Analytics.
+>Esta referencia solo incluye columnas que Adobe considera actuales, según la [referencia de columna de fuente de datos de Analytics](https://experienceleague.adobe.com/es/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Si tiene una columna de fuente de datos de Analytics que no aparece en esta tabla y que utiliza de forma activa, consulte el documento de diseño de soluciones de su organización para determinar su mejor equivalente en Customer Journey Analytics.
 
 +++**`accept_language`**
 
