@@ -1,8 +1,8 @@
 ---
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 51c9a7aa620f54bec3f0e4ad2d007dd52ecd12f4
 workflow-type: tm+mt
-source-wordcount: '5005'
-ht-degree: 99%
+source-wordcount: '5228'
+ht-degree: 95%
 
 ---
 # Fragmentos
@@ -294,3 +294,25 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 >
 >En la interfaz de Customer Journey Analytics, los conjuntos de datos **[!UICONTROL Relacional]** pueden etiquetarse como **[!UICONTROL Basado en modelo]**.
 >
+
+## Ventana retrospectiva de fuente de datos de CJA {#cja-df-lookback}
+
+Dado que Customer Journey Analytics utiliza la atribución de tiempo del informe para cada componente, no tiene un concepto de persistencia más allá de su ventana retrospectiva. Esta columna de fuente de datos de Analytics hace referencia al comportamiento de nivel de visitante que se extiende a todo el historial del visitante. Cuanto más larga sea la ventana retrospectiva para este componente en Customer Journey Analytics, más cerca podrá estar de la funcionalidad de Adobe Analytics.
+
+## Columnas de la publicación de fuentes de datos CJA {#cja-df-post}
+
+Esta columna de fuente de datos de Analytics contiene una versión preprocesada y otra posprocesada (prefijo de `post_`). Las columnas con el prefijo `post_` contienen el valor que se utiliza finalmente en los informes. La siguiente tabla compara las propiedades de estas columnas:
+
+| Valor de columna preprocesado | Valor de columna posprocesado |
+| --- | --- |
+| Tal como se recopiló | Se utiliza en informes |
+| Antes de procesar reglas | Después de procesar las reglas |
+| Antes de las reglas VISTA | Después de las reglas VISTA |
+| No se ha aplicado asignación | Se aplica la asignación |
+
+La mayoría de las organizaciones solo usan `post_` columnas cuando están disponibles.
+
+Dado que Customer Journey Analytics no tiene un concepto de preprocesamiento y posprocesamiento, es difícil volver a crear ambas columnas en las fuentes de datos de CJA. Si desea realizar aproximaciones de estas columnas, puede utilizar la misma columna con la configuración de atribución independiente aplicada:
+
+* **Columna preprocesada**: sin atribución
+* **Columna posprocesada**: aplique la misma configuración de asignación y caducidad que su variable de Analytics en la configuración de vista de datos. La mayoría de los componentes utilizarían una asignación de &quot;Último&quot; y una caducidad de &quot;Visita&quot;.
