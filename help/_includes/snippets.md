@@ -325,4 +325,4 @@ Esta columna de fuente de datos de Analytics contiene datos que no se pueden tra
 
 ## agente de usuario de fuente de datos de CJA {#cja-df-ua}
 
-No se pueden recopilar simultáneamente información del agente de usuario e información de búsqueda del dispositivo; la población de estas dimensiones se excluye mutuamente. Debe elegir si desea recopilar información sobre el agente de usuario directamente o sobre la búsqueda de dispositivos (basada en el agente de usuario) al [configurar una secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
+No se pueden recopilar simultáneamente información del agente de usuario e información de búsqueda del dispositivo; la población de estas dimensiones se excluye mutuamente. Debe elegir si desea recopilar información sobre el agente de usuario directamente o sobre la búsqueda de dispositivos (basada en el agente de usuario) al [configurar una secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#geolocation-device-lookup).

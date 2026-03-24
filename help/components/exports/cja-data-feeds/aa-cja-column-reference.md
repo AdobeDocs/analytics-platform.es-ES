@@ -20,7 +20,7 @@ Esta referencia ayuda a los ingenieros de datos a evaluar las columnas de fuente
 
 >[!NOTE]
 >
->Esta referencia solo incluye columnas que Adobe considera actuales, según la [referencia de columna de fuente de datos de Analytics](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Si tiene una columna de fuente de datos de Analytics que no aparece en esta tabla y que utiliza de forma activa, consulte el documento de diseño de soluciones de su organización para determinar su mejor equivalente en Customer Journey Analytics.
+>Esta referencia solo incluye columnas que Adobe considera actuales, según la [referencia de columna de fuente de datos de Analytics](https://experienceleague.adobe.com/es/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Si tiene una columna de fuente de datos de Analytics que no aparece en esta tabla y que utiliza de forma activa, consulte el documento de diseño de soluciones de su organización para determinar su mejor equivalente en Customer Journey Analytics.
 
 +++**`accept_language`**
 
@@ -141,7 +141,7 @@ Sugerencias del cliente recopiladas mediante la API de JavaScript de sugerencias
 
 En Adobe Analytics, las sugerencias del cliente se incluían como una cadena concatenada en esta columna. Se considera un enfoque más moderno que la columna `user_agent`.
 
-Puede recopilar estos datos mediante la cadena de contexto [`highEntropyUserAgentHints`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context) al configurar Web SDK. Se rellenan varios campos XDM en lugar de una cadena concatenada larga:
+Puede recopilar estos datos mediante la cadena de contexto [`highEntropyUserAgentHints`](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/context) al configurar Web SDK. Se rellenan varios campos XDM en lugar de una cadena concatenada larga:
 
 * **Versión del sistema operativo**: `xdm.environment.browserDetails.userAgentClientHints.platformVersion`
 * **Arquitectura**: `xdm.environment.browserDetails.userAgentClientHints.architecture`
@@ -151,7 +151,7 @@ Puede recopilar estos datos mediante la cadena de contexto [`highEntropyUserAgen
 * **Nombre del explorador**: `xdm.environment.browserDetails.userAgentClientHints.brand`
 * **Versión del explorador**: `xdm.environment.browserDetails.userAgentClientHints.version`
 
-Consulte [Sugerencias del cliente del agente de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints) para obtener más información.
+Consulte [Sugerencias del cliente del agente de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/collection/use-cases/client-hints) para obtener más información.
 
 {{cja-df-ua}}
 
@@ -297,7 +297,7 @@ Customer Journey Analytics no incluye un concepto de grupos de informes con marc
 
 El ID de visitante personalizado, si se establece mediante `visitorID`.
 
-Customer Journey Analytics admite cualquier número de identidades usando [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap). Si su organización utiliza identidades personalizadas, es probable que esto ocurra dentro del mapa de identidad.
+Customer Journey Analytics admite cualquier número de identidades usando [`identityMap`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/identitymap). Si su organización utiliza identidades personalizadas, es probable que esto ocurra dentro del mapa de identidad.
 
 {{cja-df-post}}
 
@@ -363,7 +363,7 @@ Enumera cada evento que se contó como duplicado.
 
 {{cja-df-na}}
 
-Customer Journey Analytics no tiene un solo campo que actúe como un indicador de deduplicación para todas las métricas. En su lugar, cada métrica contiene su propia [configuración del componente de anulación de duplicación de métricas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication). Como tal, no hay ningún campo equivalente en Customer Journey Analytics para esta columna de fuente de datos de Adobe Analytics.
+Customer Journey Analytics no tiene un solo campo que actúe como un indicador de deduplicación para todas las métricas. En su lugar, cada métrica contiene su propia [configuración del componente de anulación de duplicación de métricas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication). Como tal, no hay ningún campo equivalente en Customer Journey Analytics para esta columna de fuente de datos de Adobe Analytics.
 
 +++
 
@@ -371,7 +371,7 @@ Customer Journey Analytics no tiene un solo campo que actúe como un indicador d
 
 Un indicador que determina que el evento de compra de esta visita se ignora porque es un duplicado.
 
-Aunque no hay una traducción directa a esta columna de fuente de datos de Analytics, su funcionalidad de actuar para deduplicar compras sigue existiendo. Si usa el grupo de campos [[!UICONTROL Detalles de Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), puede establecer la [configuración del componente de anulación de duplicación de métricas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication) donde **[!UICONTROL ID de anulación de duplicación]** es `xdm.commerce.purchases.id`.
+Aunque no hay una traducción directa a esta columna de fuente de datos de Analytics, su funcionalidad de actuar para deduplicar compras sigue existiendo. Si usa el grupo de campos [[!UICONTROL Detalles de Commerce]](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/commerce-details), puede establecer la [configuración del componente de anulación de duplicación de métricas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication) donde **[!UICONTROL ID de anulación de duplicación]** es `xdm.commerce.purchases.id`.
 
 Si se requiere una traducción directa donde desee un indicador para compras duplicadas, puede utilizar un [campo derivado](/help/data-views/derived-fields/derived-fields.md) mediante la función **Deduplicar** en el conjunto de reglas.
 
@@ -406,7 +406,7 @@ Es probable que esta columna se asigne a docenas de métricas independientes, se
 
 {{cja-df-post}}
 
-Si el esquema utiliza el grupo de campos [[!UICONTROL Detalles de Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), algunas métricas podrían asignarse directamente a los siguientes campos XDM:
+Si el esquema utiliza el grupo de campos [[!UICONTROL Detalles de Commerce]](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/commerce-details), algunas métricas podrían asignarse directamente a los siguientes campos XDM:
 
 * **Cierres de compra**: `xdm.commerce.checkouts.value`
 * **Adiciones al carro de compras**: `xdm.commerce.productListAdds.value`
@@ -419,7 +419,7 @@ Si el esquema utiliza el grupo de campos [[!UICONTROL Detalles de Commerce]](htt
 Algunas métricas pueden utilizar la serialización de eventos, que es la forma en que Adobe Analytics permite un control total sobre la deduplicación. Puede usar la configuración del componente [Anulación de duplicación de métricas](/help/data-views/component-settings/metric-deduplication.md) para lograr la paridad de anulación de duplicación.
 
 * Si la métrica se deduplica por visita en Adobe Analytics, puede establecer el ámbito de deduplicación en sesión en la configuración de componentes de esa métrica.
-* Si la métrica anula la duplicación por ID de evento en Adobe Analytics, es probable que el objeto XDM de esa métrica contenga un campo `value` y `id`. Si el esquema utiliza el grupo de campos [[!UICONTROL Detalles de Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), es probable que esas métricas residan en estos campos XDM, en los que puede establecer el campo **[!UICONTROL ID de anulación de duplicación]** en la configuración de componentes de la métrica:
+* Si la métrica anula la duplicación por ID de evento en Adobe Analytics, es probable que el objeto XDM de esa métrica contenga un campo `value` y `id`. Si el esquema utiliza el grupo de campos [[!UICONTROL Detalles de Commerce]](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/commerce-details), es probable que esas métricas residan en estos campos XDM, en los que puede establecer el campo **[!UICONTROL ID de anulación de duplicación]** en la configuración de componentes de la métrica:
 
    * **Cierres de compra**: `xdm.commerce.checkouts.id`
    * **Adiciones al carro de compras**: `xdm.commerce.productListAdds.id`
@@ -438,7 +438,7 @@ Un indicador que determina si la visita se excluye de la creación de informes. 
 
 Customer Journey Analytics no acepta &quot;visitas excluidas&quot; de forma predeterminada. Sin embargo, puede volver a crear esta funcionalidad si tiene un campo XDM que marca determinadas visitas que se deben excluir:
 
-1. Asegúrese de que el campo XDM que marca las visitas excluidas se incluye como componente (dimensión o métrica, según cómo tenga configurado este indicador). Seleccionar [Ocultar componente en los informes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview) es probablemente beneficioso para este campo.
+1. Asegúrese de que el campo XDM que marca las visitas excluidas se incluye como componente (dimensión o métrica, según cómo tenga configurado este indicador). Seleccionar [Ocultar componente en los informes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/overview) es probablemente beneficioso para este campo.
 1. En [Configuración de vista de datos](/help/data-views/session-settings.md), seleccione el menú desplegable **[!UICONTROL Agregar segmento]** y seleccione **[!UICONTROL Crear segmento]**.
 1. Cree un segmento que excluya todos los eventos en los que el componente Excluir visita existe o contiene valores que desea excluir.
 1. Seleccione **[!UICONTROL Guardar]** tanto en el segmento como en la vista de datos.
