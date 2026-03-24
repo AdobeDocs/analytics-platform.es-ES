@@ -1,8 +1,8 @@
 ---
-source-git-commit: 51c9a7aa620f54bec3f0e4ad2d007dd52ecd12f4
+source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
 workflow-type: tm+mt
-source-wordcount: '5228'
-ht-degree: 95%
+source-wordcount: '5360'
+ht-degree: 93%
 
 ---
 # Fragmentos
@@ -301,7 +301,7 @@ Dado que Customer Journey Analytics utiliza la atribución de tiempo del informe
 
 ## Columnas de la publicación de fuentes de datos CJA {#cja-df-post}
 
-Esta columna de fuente de datos de Analytics contiene una versión preprocesada y otra posprocesada (prefijo de `post_`). Las columnas con el prefijo `post_` contienen el valor que se utiliza finalmente en los informes. La siguiente tabla compara las propiedades de estas columnas:
+Esta columna de fuente de datos de Analytics contiene una versión preprocesada y otra posprocesada (prefijo de `post_`). Las columnas con el prefijo `post_` contienen el valor que se utiliza finalmente en los informes. La mayoría de las organizaciones solo usan `post_` columnas cuando están disponibles. La siguiente tabla compara las propiedades de estas columnas:
 
 | Valor de columna preprocesado | Valor de columna posprocesado |
 | --- | --- |
@@ -310,9 +310,19 @@ Esta columna de fuente de datos de Analytics contiene una versión preprocesada 
 | Antes de las reglas VISTA | Después de las reglas VISTA |
 | No se ha aplicado asignación | Se aplica la asignación |
 
-La mayoría de las organizaciones solo usan `post_` columnas cuando están disponibles.
-
-Dado que Customer Journey Analytics no tiene un concepto de preprocesamiento y posprocesamiento, es difícil volver a crear ambas columnas en las fuentes de datos de CJA. Si desea realizar aproximaciones de estas columnas, puede utilizar la misma columna con la configuración de atribución independiente aplicada:
+Dado que Customer Journey Analytics no tiene un concepto de preprocesamiento y posprocesamiento, es difícil volver a crear ambas columnas en las fuentes de datos de CJA. Si desea realizar aproximaciones de estas columnas, puede arrastrar el mismo campo XDM varias veces a la columna de dimensiones para crear varios componentes con diferentes configuraciones de atribución:
 
 * **Columna preprocesada**: sin atribución
 * **Columna posprocesada**: aplique la misma configuración de asignación y caducidad que su variable de Analytics en la configuración de vista de datos. La mayoría de los componentes utilizarían una asignación de &quot;Último&quot; y una caducidad de &quot;Visita&quot;.
+
+## Columnas de búsqueda de fuentes de datos de CJA {#cja-df-lookup}
+
+Esta columna de fuente de datos de Analytics utiliza una tabla de búsqueda para identificar el valor deseado. En Customer Journey Analytics, el valor se proporciona directamente sin tablas de búsqueda. Asegúrese de que el flujo de trabajo incluya el valor final en lugar de un valor de búsqueda intermedio.
+
+## Columnas no aplicables de la fuente de datos de CJA {#cja-df-na}
+
+Esta columna de fuente de datos de Analytics contiene datos que no se pueden traducir a un equivalente de Customer Journey Analytics debido a las diferencias en la arquitectura de datos.
+
+## agente de usuario de fuente de datos de CJA {#cja-df-ua}
+
+No se pueden recopilar simultáneamente información del agente de usuario e información de búsqueda del dispositivo; la población de estas dimensiones se excluye mutuamente. Debe elegir si desea recopilar información sobre el agente de usuario directamente o sobre la búsqueda de dispositivos (basada en el agente de usuario) al [configurar una secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
