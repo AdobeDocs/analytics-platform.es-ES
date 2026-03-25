@@ -4,10 +4,10 @@ title: Editar entradas de componente
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
+source-git-commit: 8e4808f99e0610a450e0a29fb218ae4c7d77052b
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 67%
+source-wordcount: '1252'
+ht-degree: 62%
 
 ---
 
@@ -29,7 +29,19 @@ Para editar un componente en el diccionario de datos:
 
 1. (Opcional) En el campo de búsqueda, empiece a escribir el nombre del componente que desea editar.
 
-   El tipo de componente se puede identificar mediante colores e iconos. **Dimensiones** ![Los iconos de dimensión](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) son naranjas, **Segmentos** ![Los iconos de segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) son azules, **Intervalos de fechas** ![Los iconos de intervalos de fecha](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) son morados y **Métricas** ![Los iconos de métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) son verdes. El icono de Adobe indica una plantilla de métrica calculada o un segmento, y el icono de la calculadora ![Icono Calculadora](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indicó una métrica calculada que creó un administrador de Analytics en su organización.
+   El tipo de componente se puede identificar mediante colores e iconos.
+
+   * **Dimensiones** ![El icono de Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) es naranja
+
+   * **Segmentos** ![El icono del segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) es azul
+
+   * **Los intervalos de fechas** ![El icono del intervalo de fechas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) son de color morado
+
+   * **Las métricas** ![el icono de métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) son verdes
+
+   * **Icono de Adobe** ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o de segmento
+
+   * **Icono de la calculadora** ![Icono de la calculadora](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una métrica calculada que creó un administrador de Analytics en su organización
 
 1. (Opcional) Seleccione el icono **Filtrar** ![del diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) y, a continuación, cualquiera de las siguientes opciones para filtrar la lista de componentes:
 
