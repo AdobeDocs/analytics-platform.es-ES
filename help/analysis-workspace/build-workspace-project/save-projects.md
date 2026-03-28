@@ -4,7 +4,7 @@ title: Guardar proyectos
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 873247c643b3be4bb561955af84dd4bbb4e1d81f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 95%
@@ -87,8 +87,9 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
   Puede guardar el proyecto en una carpeta diferente. El proyecto original no se verá afectado.
 
 
-<!-- Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es) that becomes available to your organization under **[!UICONTROL Project > New]** |
+<!-- 
+Cannot find this option in CJA 
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
 ## Guardar automáticamente
@@ -157,7 +158,8 @@ Si el explorador se bloquea o si se agota el tiempo de espera de la sesión, la 
 Para **nuevos** proyectos que nunca se han guardado, los cambios no guardados no se pueden recuperar.
 
 
-<!-- Shouldn't this belong to another page?  Moved it to a new open projects page
+<!--
+Shouldn't this belong to another page?  Moved it to a new open projects page
 
 
 ## Open previously saved version

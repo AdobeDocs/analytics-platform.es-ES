@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear un intervalo de fechas que p
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 92%
@@ -27,7 +27,8 @@ Cualquiera puede crear un intervalo de fechas personalizado. Puede crear un inte
 
 Para definir la anotación, utilice el [[!UICONTROL Generador de intervalos de fechas]](#annotation-builder).
 
-<!-- Should we really mention API here. If so, we can do it all over the place in the docs...
+<!--
+Should we really mention API here. If so, we can do it all over the place in the docs...
 | **Use the [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | The Customer Journey Analytics Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe Developer. These APIs use the same data and methods that Adobe uses inside the product UI. |
 -->
 

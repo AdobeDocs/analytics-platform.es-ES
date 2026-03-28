@@ -4,7 +4,7 @@ title: Descargar Proyectos Y Datos
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 1cb9e18f79e8ca49b63aa7d8117ce6c61a020454
+source-git-commit: 873247c643b3be4bb561955af84dd4bbb4e1d81f
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 22%
@@ -67,7 +67,7 @@ La opción **[!UICONTROL Copiar al portapapeles]** del menú contextual le permi
 >Puede usar la tecla de acceso directo **_cmd + c_** (macOS) o **_ctrl + c_** (Windows) para copiar la selección en el portapapeles. A continuación, use **_cmd + v_** (macOS) o **_ctrl + v_** (Windows) para pegar los datos.
 
 
-![Opción Copiar selección al portapapeles. &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
+![Opción Copiar selección al portapapeles. ](assets/copy-clipboard.png){zoomable="yes"}
 
 ## Descarga de datos dentro de una visualización como archivo CSV {#download-data}
 
@@ -77,7 +77,8 @@ Para ello, haga lo siguiente:
 
 * En el encabezado de cualquier tabla o visualización, seleccione **[!UICONTROL Descargar datos como CSV]** en el menú contextual. Esto descarga los datos mostrados en la tabla o la fuente de datos subyacente para una visualización como CSV. 
 
-<!-- Only relevant as soon as CJA supports Map visualization 
+<!-- 
+Only relevant as soon as CJA supports Map visualization 
   >[!NOTE]
   >
   >  Note: the Map visualization does not support this option.
@@ -116,8 +117,8 @@ Las siguientes funciones de una tabla de forma libre se aplican al archivo desca
 
 A medida que el archivo se descarga, verá las siguientes notificaciones:
 
-* Se ha solicitado un **[!UICONTROL _nombre de tabla _-_Dimension _.csv azul._x _% completado]**&#x200B;que indica el progreso. Para cancelar la descarga en cualquier momento, selecciona **[!UICONTROL Cancelar descarga]**. Seleccione ![CrossSize100](/help/assets/icons/CrossSize100.svg) si desea cerrar el mensaje, lo que no cancela la descarga.
-* Se ha descargado una notificación de finalización verde **[!UICONTROL _Table name _-_Dimension _.csv]**&#x200B;una vez que se haya completado la descarga del archivo. El archivo se descarga en la carpeta de descargas configurada para su explorador.
+* Se ha solicitado un **[!UICONTROL _nombre de tabla _-_Dimension _.csv azul._x _% completado]**que indica el progreso. Para cancelar la descarga en cualquier momento, selecciona **[!UICONTROL Cancelar descarga]**. Seleccione ![CrossSize100](/help/assets/icons/CrossSize100.svg) si desea cerrar el mensaje, lo que no cancela la descarga.
+* Se ha descargado una notificación de finalización verde **[!UICONTROL _Table name _-_Dimension _.csv]**una vez que se haya completado la descarga del archivo. El archivo se descarga en la carpeta de descargas configurada para su explorador.
 
 Si solicita más de una descarga a la vez, recibirá una notificación avisando que cada descarga adicional se pone en cola hasta que finalice la descarga anterior.
 

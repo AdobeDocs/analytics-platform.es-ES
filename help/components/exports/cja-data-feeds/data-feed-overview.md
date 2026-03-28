@@ -5,7 +5,8 @@ title: Información general sobre las fuentes de datos de Analytics
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: b0b86424399ea79deca8f1d522d52354dfaaa8c7
+exl-id: 991a7861-cbde-4d55-935c-d56c8031853e
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 40%
@@ -37,12 +38,14 @@ Los siguientes recursos le ayudan a comprender el flujo de trabajo básico de la
 * Prácticas recomendadas de fuentes de datos<!--add link-->: Prácticas recomendadas para crear y administrar fuentes de datos.
 * Crear una fuente de datos <!--add link-->: detalles técnicos para crear una fuente de datos; explicación más detallada de los campos individuales
 * Administrar fuentes de datos <!--add link-->: Más información sobre cómo navegar por la interfaz de la fuente de datos
-* Contenido de fuente de datos <!--add link-->: comprenda qué hay dentro del archivo comprimido <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* Contenido de fuente de datos <!--add link-->: Explicación sobre el contenido del archivo comprimido
 * Definiciones de columnas de datos <!--add link-->: Una lista completa de todas las columnas disponibles.
+
+<!-- Is this still the output users can download from the destination? I aske Jun. -->
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar por la interfaz de la fuente de datos](https://video.tv.adobe.com/v/3428561?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar por la interfaz de la fuente de datos](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -50,6 +53,6 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar por
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Buscar su ID de fuente de datos](https://video.tv.adobe.com/v/3418479?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Buscar su ID de fuente de datos](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]

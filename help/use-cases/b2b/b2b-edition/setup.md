@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B Edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 10%
@@ -240,9 +240,11 @@ Los datos que admiten la referencia de diseño de la solución se estructuran co
 
 Las dimensiones y métricas de evento se admiten a través de un esquema basado en series temporales (eventos) y uno o más conjuntos de datos que contienen datos de evento.
 
-<!--For example: the Account ID field is mapped to **[!UICONTROL Account ID]**. See below for a preview of the data typically available in such a dataset.
+<!--
+For example: the Account ID field is mapped to **[!UICONTROL Account ID]**. See below for a preview of the data typically available in such a dataset.
 
-![B2B event schema and datasets](assets/b2b-event-schema-datasets.png)-->
+![B2B event schema and datasets](assets/b2b-event-schema-datasets.png)
+-->
 
 
 ### Datos de persona

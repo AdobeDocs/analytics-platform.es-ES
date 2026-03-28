@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
@@ -55,7 +55,8 @@ La opción de usar el esquema de Adobe Analytics existente con Customer Journey 
 
 
 
-<!-- Not sure about any of this: 
+<!-- 
+Not sure about any of this: 
 
 If you plan to use your Adobe Analytics schema, the following steps are required:
 

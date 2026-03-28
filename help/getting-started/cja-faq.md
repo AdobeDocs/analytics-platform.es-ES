@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '2210'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -145,15 +145,16 @@ Adobe ha cambiado recientemente la forma en que procesa los datos en Customer Jo
 
 ## &#x200B;5. Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión] {#data-retention}
 
-La configuración [**[!UICONTROL Habilitar la ventana de datos móvil &#x200B;]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (tres o seis meses, etc). Se configura en un nivel de [!UICONTROL conexión], no de [!UICONTROL conjunto de datos]. La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables.
+La configuración [**[!UICONTROL Habilitar la ventana de datos móvil ]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (tres o seis meses, etc). Se configura en un nivel de [!UICONTROL conexión], no de [!UICONTROL conjunto de datos]. La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables.
 
 La principal ventaja es que solo almacena o genera informes sobre datos que son aplicables y útiles, y elimina los datos más antiguos que ya no son útiles. Le ayuda a mantenerse por debajo de los límites del contrato y reduce el riesgo de costes adicionales.
 
 ## &#x200B;6. Implicaciones de la eliminación de objetos o componentes {#deletion}
 
-Consulte [Implicaciones de eliminación y restablecimiento](/help/technotes/deletion.md) para obtener una descripción general de las implicaciones cuando elimina o restablece objetos o componentes de Customer Journey Analytics o Experience Platform.
+Consulte [Implicaciones de la eliminación y restablecimiento](/help/technotes/deletion.md) para obtener información general sobre las implicaciones cuando elimina o restablece objetos o componentes de Customer Journey Analytics o Experience Platform.
 
-<!-- Refer to deletion guide 
+<!-- 
+Refer to deletion guide 
 
 For data deletion, you should be concerned about six types of components: sandbox, schema, dataset, connection, data view, and Workspace project. Here are some possible scenarios around deleting any of these components:
 
@@ -264,7 +265,7 @@ El uso de la recopilación de datos regionales ofrece varias ventajas:
 Actualmente, la recopilación de datos regionales incluye las siguientes ubicaciones (sujetas a cambios):
 
 
-| Tipo de RDC | Centros de recopilación de datos |
+| Tipo de recopilación de datos regionales  | Centros de recopilación de datos |
 | --- | --- |
 | Global (predeterminado) | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
 | Solo para América del Norte y América del Sur | Oregón, Virginia |
