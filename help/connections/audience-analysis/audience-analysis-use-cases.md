@@ -4,10 +4,8 @@ description: Conozca los casos de uso de Análisis de audiencia.
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 4f465e71-f1b5-4f38-a1db-645550856849
-source-git-commit: b9efb621523f8bbfbb3afe7db4db2e60fcddd34c
+source-git-commit: ac86664e0136563d904021c72347fb544cda4a6d
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 1%
