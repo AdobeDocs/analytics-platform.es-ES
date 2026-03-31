@@ -603,4 +603,4 @@ El proyecto final debería ser similar al que se muestra a continuación.
 >[!MORELIKETHIS]
 >
 >[Datos de resumen](/help/data-views/summary-data.md)
->[Configuración del componente del grupo de datos de resumen ](/help/data-views/component-settings/summary-data-group.md)
+>[Configuración del componente del grupo de datos de resumen &#x200B;](/help/data-views/component-settings/summary-data-group.md)
