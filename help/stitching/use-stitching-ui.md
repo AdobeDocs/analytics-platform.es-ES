@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 1ad1698f10dd026b0bd5e67599ef35ab3c552286
+source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 6%
+source-wordcount: '1727'
+ht-degree: 4%
 
 ---
 
@@ -125,7 +125,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
 
 
 ### Configuración del conjunto de datos
@@ -172,11 +172,6 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento *
 
 
 ### Vista previa de los conjuntos de datos
-
->[!AVAILABILITY]
->
->La interfaz **[!UICONTROL Vista previa de conjuntos de datos]** mejorada (que incluye **[!UICONTROL Métricas de vinculación]** y **[!UICONTROL ID incorrectos]**) descrita en esta sección se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Si no está disponible, verá la vista previa del conjunto de datos como parte de la interfaz **[!UICONTROL Configuración del conjunto de datos]**. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Lanzamientos de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).
->
 
 Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de datos]**, al [agregar](/help/connections/create-connection.md#add-datasets) o [editar](/help/connections/create-connection.md#edit-a-dataset) conjuntos de datos en una conexión basada en personas, hay dos paneles de información adicionales disponibles.
 
@@ -232,7 +227,7 @@ Una vez guardada una conexión, el proceso de vinculación para vincular conjunt
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
