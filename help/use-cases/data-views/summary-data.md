@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: b54083d85c0e07605c567a8d44824884cdc18c4d
 workflow-type: tm+mt
-source-wordcount: '5021'
+source-wordcount: '5014'
 ht-degree: 15%
 
 ---
@@ -35,7 +35,7 @@ Utilice los siguientes datos de resumen de ejemplo para este caso de uso, que mu
 | 2 | Campaña 123 | 50 | 4000 | def123 | facebook | def-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 3 | Campaña 123 | 125 | 6000 | ghi123 | facebook | ghi-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 4 | Campaña 456 | 25 | 2500 | abc456 | facebook | abc-adgroup | 18T18:20:39.000Z, 07-2024 |
-| 5 | Campaña 456 | 10 | MIL | def456 | facebook | def-adgroup | 18T18:20:39.000Z, 07-2024 |
+| 5 | Campaña 456 | 10 | 1000 | def456 | facebook | def-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 6 | Campaña 456 | 115 | 5500 | ghi456 | facebook | ghi-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 7 | Campaña 789 | 200 | 9000 | abc789 | facebook | abc-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 8 | Campaña 789 | 20 | 2000 | def789 | facebook | def-adgroup | 18T18:20:39.000Z, 07-2024 |
@@ -468,10 +468,10 @@ Para asegurarse de que puede crear informes sobre los datos correctos en Workspa
          | Nombre del componente | Conjunto de datos | Tipo de datos del esquema | Ruta de esquema |
          |---|---|---|---|
          | Grupo de publicidad (búsqueda) | Ejemplo de conjunto de datos de búsqueda | Cadena | *_tenant*.ad_group |
-         | Grupo de publicidad (resumen) | Ejemplo de conjunto de datos de resumen | Cadena | *_tenant*.ad_group |
+         | Grupo de publicidad | Ejemplo de conjunto de datos de resumen | Cadena | *_tenant*.ad_group |
          | ID de campaña | Ejemplo de conjunto de datos de resumen | Cadena | *_tenant*.campaign_id |
          | Nombre de campaña (búsqueda) | Ejemplo de conjunto de datos de búsqueda | Cadena | *_tenant*.campaign_name |
-         | Nombre de campaña (resumen) | Ejemplo de conjunto de datos de resumen | Cadena | *_tenant*.campaign_name |
+         | Nombre de la campaña | Ejemplo de conjunto de datos de resumen | Cadena | *_tenant*.campaign_name |
          | Red | Ejemplo de conjunto de datos de resumen | Cadena | *_tenant*.network |
          | Nombre de página | Ejemplo de conjunto de datos de evento | Cadena | *_tenant*.page_name |
          | Identificación de la persona | Ejemplo de conjunto de datos de evento | Cadena | *_tenant*.person_id |
@@ -554,8 +554,8 @@ Verá un lienzo vacío con un panel [!UICONTROL Forma libre], que consta de una 
 1. Arrastre **[!UICONTROL Código de seguimiento (evento)]** de **[!UICONTROL Dimensiones]** y suelte la dimensión en la tabla de forma libre vacía.
 1. Arrastre **[!UICONTROL Pedidos]** desde **[!UICONTROL Métricas]** y suelte la métrica en la columna **[!UICONTROL Eventos]** para reemplazar esa columna en la tabla de forma libre.
 1. Arrastre **[!UICONTROL Ingresos]** de **[!UICONTROL Métricas]** y suelte la métrica para agregarla como una columna adicional a la tabla de forma libre.
-1. Arrastre **[!UICONTROL Impresiones (resumen)]** de **[!UICONTROL Métricas]** y suelte la métrica para agregarla como una columna adicional a la tabla de forma libre.
-1. Arrastre **[!UICONTROL Costo (resumen)]** de **[!UICONTROL Métricas]** y suelte la métrica para agregarla como una columna adicional a la tabla de forma libre.
+1. Arrastre **[!UICONTROL Impresiones]** desde **[!UICONTROL Métricas]** y suelte la métrica para agregarla como una columna adicional a la tabla de forma libre.
+1. Arrastre **[!UICONTROL Cost]** desde **[!UICONTROL Metrics]** y suelte la métrica para agregarla como una columna adicional a la tabla de forma libre.
 1. Para guardar el proyecto, seleccione **[!UICONTROL Proyecto]** > **[!UICONTROL Guardar]** y proporcione un nombre para el proyecto. Por ejemplo, `Example Project Using Summary Data`.
 
 Desea utilizar el poder de los informes en los datos de resumen e informar sobre el coste por impresión y el retorno de la inversión en publicidad (ROAS). Para informar sobre estas métricas, debe crear dos métricas calculadas.
@@ -565,13 +565,13 @@ Desea utilizar el poder de los informes en los datos de resumen e informar sobre
    1. Especifique `Cost per Impression` para **[!UICONTROL Name]**.
    1. Seleccione **[!UICONTROL Moneda]** para **[!UICONTROL Formato]**.
    1. Especifique `4` para **[!UICONTROL Lugares decimales]**.
-   1. Use ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo (resumen)]** **[!UICONTROL ÷]** **[!UICONTROL Impresiones (resumen)]** como **[!UICONTROL Definición]**.
+   1. Usar ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo]** **[!UICONTROL ÷]** **[!UICONTROL Impresiones]** como **[!UICONTROL Definición]**.
    1. Seleccione **[!UICONTROL Guardar]**.
 1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** para agregar otra nueva métrica calculada.
    1. Especifique `Return on Ad Spend` para **[!UICONTROL Name]**.
    1. Seleccione **[!UICONTROL Moneda]** para **[!UICONTROL Formato]**.
    1. Seleccione `2` para **[!UICONTROL lugares decimales]**.
-   1. Usar ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ingresos (Último toque | 30 días)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo (resumen)]** como **[!UICONTROL Definición]**.
+   1. Use ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ingresos (último contacto | 30 días)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo]** como **[!UICONTROL Definición]**.
    1. Seleccione **[!UICONTROL Guardar]**.
 
 Añada las métricas calculadas al informe.
@@ -603,4 +603,4 @@ El proyecto final debería ser similar al que se muestra a continuación.
 >[!MORELIKETHIS]
 >
 >[Datos de resumen](/help/data-views/summary-data.md)
->[Configuración del componente del grupo de datos de resumen &#x200B;](/help/data-views/component-settings/summary-data-group.md)
+>[Configuración del componente del grupo de datos de resumen ](/help/data-views/component-settings/summary-data-group.md)
