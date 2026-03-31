@@ -276,7 +276,7 @@ Puede administrar los componentes de la zona de colocación de la siguiente mane
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de filtros en Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de filtros en Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -284,7 +284,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de filtros e
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables dinámicos](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables dinámicos](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
