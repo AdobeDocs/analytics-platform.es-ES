@@ -23,8 +23,8 @@ Estas son algunas de las preguntas recuentes sobre la vinculación:
 Puede utilizar una visualización de flujo con la dimensión ID de conjunto de datos.
 
 1. Inicie sesión en [Customer Journey Analytics](https://analytics.adobe.com) y cree un proyecto de Workspace en blanco.
-2. Seleccione la pestaña **[!UICONTROL ** Visualizaciones **]** en el lado izquierdo y arrastre la visualización de **[!UICONTROL ** Flujo **]** al lienzo situado a la derecha.
-3. Seleccione la pestaña **[!UICONTROL ** Componentes **]** en el lado izquierdo y arrastre la dimensión **[!UICONTROL ** ID de conjunto de datos **]** a la ubicación del centro etiquetada como **[!UICONTROL ** Dimensión o elemento **]**.
+2. Seleccione la pestaña **[!UICONTROL ** Visualizaciones **]** en el lado izquierdo y arrastre la visualización de **[!UICONTROL **&#x200B; Flujo &#x200B;**]** al lienzo situado a la derecha.
+3. Seleccione la pestaña **[!UICONTROL ** Componentes **]** en el lado izquierdo y arrastre la dimensión **[!UICONTROL ** ID de conjunto de datos **]** a la ubicación del centro etiquetada como **[!UICONTROL **&#x200B; Dimensión o elemento &#x200B;**]**.
 4. Este informe de flujo es interactivo. Para expandir los flujos a páginas posteriores o anteriores, seleccione cualquiera de los valores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
 Puede utilizar un conjunto de datos de búsqueda si desea cambiar el nombre de los elementos de la dimensión de ID de conjunto de datos.
