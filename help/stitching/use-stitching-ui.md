@@ -1,20 +1,20 @@
 ---
 title: Habilitar vinculación
-description: Habilite la identificación para conjuntos de datos de evento en Customer Journey Analytics. Obtenga información sobre cómo configurar ID persistentes, ID de persona y ventanas de reproducción en la interfaz de usuario de Conexiones para unir datos.
+description: Habilite la vinculación para conjuntos de datos de evento en Customer Journey Analytics. Configure ID persistentes, ID de persona y ventanas de reproducción en la interfaz de usuario de Conexiones.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: f9c2f9cef97e00eb491b815ab8e83820b2dfc032
+source-git-commit: d42f0eb658f26d16bd21bb6ca47d5dd7c228e614
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1717'
 ht-degree: 4%
 
 ---
 
 # Habilitación de la vinculación
 
-Puede habilitar la vinculación en uno o varios conjuntos de datos de evento que haya configurado como parte de la conexión. El paquete de Customer Journey Analytics con licencia determina el número de conjuntos de datos de evento que puede habilitar para la vinculación
+Puede habilitar la vinculación en uno o varios conjuntos de datos de evento que haya configurado como parte de la conexión. El paquete de Customer Journey Analytics con licencia determina el número de conjuntos de datos de evento que puede habilitar para la vinculación.
 
 Habilita la vinculación como parte de [configuración del conjunto de datos](/help/connections/create-connection.md#dataset-settings) para un conjunto de datos de evento al [crear una conexión](/help/connections/create-connection.md) o al [editar una conexión](/help/connections/manage-connections.md#edit-a-connection).
 
@@ -22,15 +22,14 @@ Habilita la vinculación como parte de [configuración del conjunto de datos](/h
 
 Debe comprobar y cumplir los requisitos previos del método de vinculación que especifique: [vinculación basada en el campo](fbs.md#prerequisites) o [vinculación basada en gráficos](gbs.md#prerequisites).
 
-
 ## Comprobaciones previas
 
 Si cumple los requisitos previos, es posible que desee realizar algunas comprobaciones previas de los datos del conjunto de datos de evento antes de habilitar la vinculación de identidad:
 
-* Si va a utilizar campos de esquema XDM para un ID persistente o ID de persona, asegúrese de que las identidades se marquen correctamente en el esquema del conjunto de datos de evento. [Consulte Información general del área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces).
+* Si va a usar el esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) campos para el ID persistente o el ID de persona, asegúrese de que las identidades se marquen correctamente en el esquema para el conjunto de datos de evento. [Consulte Información general del área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces).
 * Compruebe la cobertura de identidad tanto para el ID persistente como para el ID de persona:
 
-   * **ID persistente**
+   * **[!UICONTROL ID persistente]**
 
      Consulte 7 días de datos en los que el campo de ID persistente no sea nulo y divida por una consulta de 7 días de datos para todos los eventos del conjunto de datos. Este porcentaje debe ser superior al 95 %.
 
@@ -53,11 +52,11 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
       * `{PERSISTENT_ID_FIELD}` es el campo para el identificador persistente. Por ejemplo: `identityMap.ecid[0]`.
       * `{DATASET_TABLE_NAME}` es el nombre de tabla para el conjunto de datos de evento.
       * `{FORMAT_STRING}` es la cadena de formato para el campo de marca de tiempo. Por ejemplo: `MM/DD/YY HH12:MI AM`.
-      * `{START_DATE} ` es la fecha de inicio. Por ejemplo: `2024-01-01 00:00:00`.
+      * `{START_DATE}` es la fecha de inicio. Por ejemplo: `2024-01-01 00:00:00`.
       * `{END_DATE}` es la fecha de finalización en formato estándar. Por ejemplo: `2024-01-08 00:00:00`.
 
 
-   * **ID de la persona**
+   * **[!UICONTROL ID de la persona]**
       * Para la vinculación basada en gráficos, asegúrese de que el gráfico de identidades contenga fragmentos que vinculen valores de ID desde el área de nombres de ID persistente y el área de nombres de ID de persona que haya elegido. Puede ejecutar una prueba en el [visor de gráficos de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} y consultar el gráfico en función de algunos valores de ID persistentes de ejemplo. Compruebe si estos valores de ID persistentes están vinculados a valores de ID de persona en el gráfico.
       * Para la vinculación basada en el campo, consulte 7 días de datos en los que el campo de ID de persona no sea nulo y divida los datos por una consulta de 7 días para todos los eventos del conjunto de datos. Este porcentaje debería ser idealmente superior al 5 %.
 
@@ -125,14 +124,14 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
 
 
 ### Configuración del conjunto de datos
 
-Para habilitar la vinculación, en la sección del conjunto de datos de evento **[!UICONTROL Configuración de conjuntos de datos]** del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**:
+Para habilitar la vinculación, en la sección del conjunto de datos de evento **[!UICONTROL Configuración de conjuntos de datos]** del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**.
 
-![Opciones de vinculación de identidad al habilitar la vinculación de identidad](assets/identity-stitching-ui.png)
+![Opciones de vinculación de identidad al habilitar la función](assets/identity-stitching-ui.png)
 
 1. Seleccione **[!UICONTROL Habilitar vinculación de identidad]**.
 
@@ -142,18 +141,17 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento *
 
 1. Seleccione un ID persistente del menú desplegable **[!UICONTROL ID persistente]**.
 
-   Si selecciona **[!UICONTROL mapa de identidad]** para el ID persistente, debe seleccionar un área de nombres Tiene dos opciones:
+   Si selecciona **[!UICONTROL mapa de identidad]** para el identificador persistente, seleccione un área de nombres. Tiene dos opciones:
 
    * Seleccione **[!UICONTROL Usar el área de nombres de identidad principal]** para usar el área de nombres de identidad principal.
    * Seleccione un área de nombres del menú desplegable **[!UICONTROL Área de nombres]**.
 
 1. Seleccione un ID de persona en el menú desplegable **[!UICONTROL ID de persona]**.
 
-   Si selecciona **[!UICONTROL mapa de identidad]** para el ID de persona, debe seleccionar un área de nombres. Tiene dos opciones:
+   Si selecciona **[!UICONTROL mapa de identidad]** para el ID de persona, seleccione un área de nombres. Tiene dos opciones:
 
    * Seleccione **[!UICONTROL Usar el área de nombres de identidad principal]** para usar el área de nombres de identidad principal.
    * Seleccione un área de nombres del menú desplegable **[!UICONTROL Área de nombres]**.
-
 
    Si selecciona **[!UICONTROL Gráfico de identidad]** para el ID de persona (para usar [vinculación basada en gráficos](/help/stitching/gbs.md)), debe seleccionar un área de nombres.
 
@@ -175,9 +173,14 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento *
 
 Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de datos]**, al [agregar](/help/connections/create-connection.md#add-datasets) o [editar](/help/connections/create-connection.md#edit-a-dataset) conjuntos de datos en una conexión basada en personas, hay dos paneles de información adicionales disponibles.
 
-![Opciones de vinculación de identidad al habilitar la vinculación de identidad](assets/identity-stitching-ui-preview.png)
+![Opciones de vinculación de identidad al habilitar la función](assets/identity-stitching-ui-preview.png)
 
 #### Vinculación de métricas
+
+>[!AVAILABILITY]
+>
+>La vinculación de métricas no está disponible para la vinculación basada en gráficos.
+>
 
 **[!UICONTROL Las métricas de vinculación]** se calculan usando un conjunto de datos de muestra con marcas de tiempo de evento de los últimos 7 días. Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**. La vinculación de métricas proporciona detalles para lo siguiente:
 
@@ -191,8 +194,12 @@ Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de d
 
   La cobertura de ID persistente se muestra como porcentaje y se compara con el mínimo recomendado en una configuración de desarrollo estable o de producción.
 
-
 #### ID incorrectos
+
+>[!AVAILABILITY]
+>
+>Los ID incorrectos no están disponibles para la vinculación basada en gráficos.
+>
 
 >[!INFO]
 >
@@ -223,7 +230,7 @@ Una vez guardada una conexión, el proceso de vinculación para vincular conjunt
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
