@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
+source-git-commit: f9c2f9cef97e00eb491b815ab8e83820b2dfc032
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1712'
 ht-degree: 4%
 
 ---
@@ -125,7 +125,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
 >abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
 
 
 ### Configuración del conjunto de datos
@@ -175,10 +175,6 @@ Para habilitar la vinculación, en la sección del conjunto de datos de evento *
 
 Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de datos]**, al [agregar](/help/connections/create-connection.md#add-datasets) o [editar](/help/connections/create-connection.md#edit-a-dataset) conjuntos de datos en una conexión basada en personas, hay dos paneles de información adicionales disponibles.
 
->[!NOTE]
->Para los clientes que tienen Customer Journey Analytics implementado en AWS, esta funcionalidad está pendiente de lanzamiento.
->
-
 ![Opciones de vinculación de identidad al habilitar la vinculación de identidad](assets/identity-stitching-ui-preview.png)
 
 #### Vinculación de métricas
@@ -227,7 +223,7 @@ Una vez guardada una conexión, el proceso de vinculación para vincular conjunt
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
