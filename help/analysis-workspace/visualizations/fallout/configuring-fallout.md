@@ -4,56 +4,62 @@ title: Configuración De Una Visualización De Abandonos
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 295e4c9b3b9dff5ba650456c3f62817b30fe1e3d
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '914'
+ht-degree: 39%
 
 ---
 
 # Configurar una visualización de abandonos {#configure-fallout-visualization}
 
 
-Puede especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional. Normalmente, un punto de contacto es una página del sitio. Sin embargo, los puntos de contacto no se limitan a las páginas. Por ejemplo, puede añadir eventos, como unidades, así como personas únicas y visitas de retorno. También puede agregar dimensiones, como una categoría, un tipo de explorador o un término de búsqueda interna.
+Puede especificar **puntos de contacto** para crear una secuencia de visitas en el orden previsto multidimensional. En muchos casos, un punto de contacto es una página del sitio. Sin embargo, los puntos de contacto no se limitan a las páginas. Por ejemplo, puede añadir eventos, como unidades, así como personas únicas y visitas de retorno. También puede agregar dimensiones, como una categoría, un tipo de explorador o un término de búsqueda interna.
 
-Incluso puede añadir segmentos dentro de un punto de contacto. Por ejemplo, es posible que desee comparar segmentos como los usuarios de iOS y Android™. Arrastre los segmentos deseados sobre las visitas en el orden previsto, y la información sobre esos segmentos se añadirá al informe de visitas en el orden previsto. Si desea mostrar únicamente esos segmentos, puede eliminar la línea de base de Todas las visitas.
+Incluso puede añadir segmentos dentro de un punto de contacto. Por ejemplo, es posible que quiera comparar segmentos como los usuarios de iOS y Android. Arrastre los segmentos deseados sobre las visitas en el orden previsto, y la información sobre esos segmentos se añadirá al informe de visitas en el orden previsto. Si desea mostrar solo esos segmentos, puede quitar la línea de base de Todas las personas.
 
-No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
+Las visualizaciones de visitas en el orden previsto no tienen limitaciones en cuanto al número de puntos de contacto que puede añadir o al número de componentes que puede utilizar.
 
-Puede realizar rutas en dimensiones, métricas y segmentos. Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
+Puede realizar rutas en dimensiones, métricas y segmentos. Por ejemplo, supongamos que alguien está mirando `shoes, shirt` en una página y en la siguiente mira `shirt, socks`. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
 ## Usar
 
 1. Añada una visualización de ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Abandonos]**. Consulte [Añadir una visualización a un panel](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
-1. Arrastre una página, por ejemplo inicio, desde la dimensión Página al menú desplegable *Agregar punto de contacto*.
+
+1. Arrastre un componente al menú desplegable **[!UICONTROL Agregar punto de contacto]**.
+
+   >[!TIP]
+   >
+   >Puede agregar una sola página al informe de visitas en el orden previsto, en lugar de toda la dimensión. Haga clic en la flecha derecha ![ChevronRight](/help/assets/icons/ChevronRight.svg) de la dimensión de página para seleccionar una página específica, como **[!UICONTROL inicio]**, y agregarla al informe de visitas en el orden previsto.
 
    ![La página de inicio de la dimensión Página de inicio se arrastró al campo Añadir punto de contacto.](assets/fallout-drag.png)
 
-   Pase el puntero por encima de un punto de contacto para ver el abandono y otra información sobre ese nivel, como el nombre del punto de contacto y el recuento de personas en ese punto. Y vea la tasa de éxito para ese punto de contacto (así como compare la tasa de éxito con otros puntos de contacto).
-
-   Los números dentro de un círculo en la parte gris de la barra muestran la visita en el orden previsto entre puntos de contacto (no la visita en el orden previsto total hasta ese punto). El **[!UICONTROL % de puntos de contacto]** muestra la visita en orden imprevisto desde el paso anterior al actual en el informe de visita en el orden previsto.
-
-   También puede agregar una única página al informe de visitas en el orden previsto, en vez de toda la dimensión. Haga clic en la flecha derecha ![ChevronRight](/help/assets/icons/ChevronRight.svg) en la dimensión de página para elegir la página específica que desea añadir al informe de visitas en el orden previsto.
-
 1. Siga añadiendo puntos de contacto hasta que la secuencia se haya completado.
 
-   Puede **combinar varios puntos de contacto** arrastrando uno o varios componentes adicionales a un punto de contacto.
+   Los números dentro de un círculo en la parte gris de la barra muestran la visita en el orden previsto entre puntos de contacto (no la visita en el orden previsto total hasta ese punto). Los números en círculo de la parte verde de la barra muestran la caída correcta desde el punto de contacto anterior al punto de contacto actual.
 
-   >[!NOTE]
-   >
-   >Varios segmentos se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
+   ![Visualización de abandonos](assets/fallout-visualization.png)
 
-   ![Página:CamerRoll o página: puntos de contacto de la cámara resaltados.](assets/fallout-or.png)
+   Al agregar puntos de contacto, puede realizar cualquiera de las siguientes acciones:
 
-1. También puede **limitar puntos de contacto individuales al siguiente evento** (en lugar de *eventualmente*) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones **[!UICONTROL Ruta eventual]** y **[!UICONTROL Evento siguiente]**, como se muestra aquí:
+   * Combine varios componentes arrastrando uno o más componentes adicionales a un único punto de contacto.
 
-   ![La vista Todas las visitas que muestra resaltada la opción Ruta eventual. &#x200B;](assets/fallout-nexthit.png)
+     >[!NOTE]
+     >
+     >Varios segmentos se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
 
-   | Opción | Descripción |
-   |---|---|
-   | **[!UICONTROL Ruta eventual]** (predeterminada) | Se cuentan las personas que *eventualmente* aterrizarán en la siguiente página del recorrido, pero no necesariamente en el siguiente evento. |
-   | **[!UICONTROL Evento siguiente]** | Se cuentan las personas que aterrizarán en la siguiente página de la ruta en el siguiente evento. |
+   * Reordene los puntos de contacto arrastrándolos a un nivel diferente dentro de la jerarquía de visitas en el orden previsto.
 
+   * Combine dos puntos de contacto arrastrando un punto de contacto a otro. Suelte el punto de contacto cuando vea la palabra **[!UICONTROL Combinar]**.
+
+   * Restrinja los puntos de contacto individuales al siguiente evento (a diferencia de *eventualmente*) dentro de la ruta. Debajo de cada punto de contacto hay un selector con las opciones **[!UICONTROL Ruta de acceso eventual]** y **[!UICONTROL Siguiente evento]**, como se muestra a continuación:
+
+     | Opción | Descripción |
+     |---|---|
+     | **[!UICONTROL Ruta eventual]** (predeterminada) | Se cuentan las personas que *eventualmente* aterrizarán en la siguiente página del recorrido, pero no necesariamente en el siguiente evento. |
+     | **[!UICONTROL Evento siguiente]** | Se cuentan las personas que aterrizarán en la siguiente página de la ruta en el siguiente evento. |
+
+   * Pase el ratón sobre un punto de contacto para ver las visitas en el orden previsto y otra información sobre ese nivel. La información incluye el nombre del punto de contacto, el recuento de personas y la tasa de éxito. También puede comparar la tasa de éxito con otros puntos de contacto.
 
 ## Configuración {#settings}
 
@@ -73,7 +79,21 @@ Como parte de la visualización, hay disponibles ajustes específicos.
 
 Como parte de la visualización, hay opciones específicas de menú contextual disponibles.
 
-![Opciones de visitas en el orden previsto](assets/fallout-options.png)
+### Acceso al menú contextual
+
+Puede acceder al menú contextual de cualquiera de las siguientes maneras:
+
+* Pase el ratón sobre un punto de contacto de la visualización y seleccione **[!UICONTROL Haga clic para analizar]**.
+
+  ![Acceder al menú contextual desde el cursor](assets/fallout-tooltip-analyze.png)
+
+* Haga clic con el botón derecho en un punto de contacto de la visualización.
+
+  ![Opciones de visitas en el orden previsto](assets/fallout-options.png)
+
+### Opciones del menú contextual
+
+Las opciones de menú contextual disponibles son las siguientes:
 
 | Opción | Descripción |
 |--- |--- |
