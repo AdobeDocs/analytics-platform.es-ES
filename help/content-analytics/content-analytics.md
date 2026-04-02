@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 58254cab90d907ad9675c30dfc1b835910214b3a
+source-git-commit: b85f6cd32fc5e097dc2ec5604fca18f50bfcf288
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 96%
+source-wordcount: '861'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Content Analytics utiliza los siguientes términos clave:
 
 ## Funcionamiento
 
-Content Analytics usa los datos de vista de imágenes web en conjuntos de datos de evento en Experience Platform para [recopilar datos de evento de contenido](config/datacollection.md). Estos eventos de experiencia de contenido requieren que los datos se recopilen con Experience Platform Edge Network (Web SDK, API de servidor). Los datos de comportamiento se pueden recopilar con Web SDK o el conector de Source de Analytics.
+Content Analytics usa los datos de vista de imágenes web en conjuntos de datos de evento en Experience Platform para [recopilar datos de evento de contenido](config/datacollection.md). Estos eventos de experiencia de contenido requieren que los datos se recopilen con Experience Platform Edge Network (SDK web, API de servidor). Los datos de comportamiento se pueden recopilar con el SDK web o el conector de origen de Analytics.
 
 ![Content Analytics: funcionamiento](assets/aca-overview.gif)
 
@@ -63,11 +63,16 @@ Content Analytics usa los datos de vista de imágenes web en conjuntos de datos 
 >Si ha adquirido la licencia del complemento Escudo de privacidad y seguridad, tenga en cuenta que (cualquier dato generado) las experiencias y los recursos, sujetos a Content Analytics, no están cubiertos por el etiquetado DULE ni por las claves gestionadas por el cliente. Además, Content Analytics no es un servicio compatible con HIPAA.
 >
 
+>[!IMPORTANT]
+>
+>Content Analytics solo admite la funcionalidad en inglés.
+>
+
 
 >[!MORELIKETHIS]
 >
 >[Creación de informes de Content Analytics](report/report.md)
->&#x200B;>[Configurar Adobe Analytics](config/configuration.md)
->&#x200B;>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=es#M454)
+>[Configurar Adobe Analytics](config/configuration.md)
+>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
