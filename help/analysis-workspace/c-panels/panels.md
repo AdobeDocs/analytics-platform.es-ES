@@ -4,10 +4,10 @@ title: Información General Sobre Los Paneles En Analysis Workspace
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: d89c9dd2ab42ada9d0af259c21a77f183384b680
+source-git-commit: 11df56f5d757602403098d1c6b4330e935a438a2
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 43%
+source-wordcount: '2721'
+ht-degree: 42%
 
 ---
 
@@ -26,7 +26,7 @@ Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UI
 | [Experimentación](experimentation.md) | Compare diferentes variaciones de experiencias de usuario, marketing o mensajería para determinar cuál es la mejor manera de impulsar un resultado específico. |
 | [de forma libre](freeform-panel.md) | Realice comparaciones y desgloses ilimitados y, a continuación, añada visualizaciones para contar una historia de datos enriquecida. |
 | [Público medio por minuto de medios](average-minute-audience-panel.md) | Analizar público medio por minuto para un fragmento de contenido específico o durante un período de tiempo personalizado. |
-| [Espectadores simultáneos de medios &#x200B;](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
+| [Espectadores simultáneos de medios ](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
 | [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analice el tiempo invertido en la reproducción para comprender dónde se produce el pico de concurrencia o dónde se producen los descensos. |
 | [Elemento siguiente o anterior](next-previous.md) | Mostrar las páginas siguientes o anteriores a las que se dirigen los usuarios. |
 | [Información rápida](quickinsight.md) | Crea rápidamente una tabla de forma libre y una visualización complementaria para analizar y descubrir información de manera más rápida. |
@@ -89,7 +89,7 @@ Se administra un panel de las siguientes formas:
 
 ## Vista de datos
 
-Cada panel está asociado con una [vista de datos](/help/data-views/data-views.md). Puede identificar ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre de la vista de datos *]**&#x200B;en el menú desplegable situado en la parte superior derecha del panel.
+Cada panel está asociado con una [vista de datos](/help/data-views/data-views.md). Puede identificar ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre de la vista de datos *]**en el menú desplegable situado en la parte superior derecha del panel.
 
 Al crear un proyecto de Workspace en blanco, la vista de datos predeterminada para el panel inicial es la vista de datos en la que trabajaste por última vez en Customer Journey Analytics.
 
@@ -219,20 +219,20 @@ Por ejemplo, puede agregar dos menús desplegables dinámicos utilizando una dim
 
 Para cualquier métrica, segmento o componente de intervalo de fechas que suelte **mientras mantiene** ⇧, se crea un menú desplegable de segmentos. Este menú desplegable le permite filtrar el panel en función de los elementos disponibles para el componente colocado.
 
-Para cualquier componente *dimension* que suelte **mientras mantiene** ⇧, se creará un menú desplegable de segmentos. Ese menú desplegable le permite filtrar el panel en función de los elementos disponibles para los elementos de dimensión colocados (menú desplegable de segmentos [static](#static)) o el componente de dimensión (menú desplegable de segmentos [dynamic](#dynamic)). Para configurar el menú desplegable explícitamente para filtrar mediante segmentos:
+Para cualquier componente *dimension* que suelte **mientras mantiene** ⇧, se creará el menú desplegable de segmentos. Ese menú desplegable le permite filtrar el panel en función de los elementos disponibles para los elementos de dimensión colocados (menú desplegable de segmentos [static](#static)) o el componente de dimensión (menú desplegable de segmentos [dynamic](#dynamic)). Para configurar el menú desplegable explícitamente para filtrar un panel mediante segmentos:
 
-* Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) y seleccione ![Filtro](/help/assets/icons/Filter.svg) en el menú contextual del componente ❾.
+* Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) y seleccione ![Filtrar](/help/assets/icons/Filter.svg) **[!UICONTROL Segmento]** | **[!UICONTROL Filtra los datos del panel]** del menú contextual del componente ❾.
 
 
 #### Desglose de un panel
 
-Para cualquier componente *dimension* que suelte **mientras mantiene** ⇧, se creará un menú desplegable de segmentos. Puede configurar el menú desplegable para que se desglose en su lugar. Para configurar el menú desplegable explícitamente para que se desglose mediante desgloses:
+Para cualquier componente *dimension* que suelte **mientras mantiene** ⇧, se creará un menú desplegable de segmentos. Puede configurar ese menú desplegable para desglosar el panel en función de los elementos disponibles para los elementos de dimensión colocados ([menú desplegable de desglose estático](#static)) o el componente de dimensión ([menú desplegable de desglose dinámico](#dynamic)). Para configurar el menú desplegable explícitamente para desglosar un panel mediante desgloses:
 
-* Seleccione ![Filter](/help/assets/icons/Filter.svg) y seleccione ![Breakdown](/help/assets/icons/Breakdown.svg) del menú contextual del componente ❾.
+* Seleccione ![Filtro](/help/assets/icons/Filter.svg) y seleccione ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** | **[!UICONTROL Desglose los datos del panel]** del menú contextual del componente ❾.
 
 >[!IMPORTANT]
 >
->Los desgloses solo están disponibles para dimensiones y elementos de dimensión, no para segmentos, intervalos de fechas o métricas.
+>Desglose solo está disponible para dimensiones y elementos de dimensión que utilice en la zona de colocación.
 >
 
 
@@ -276,7 +276,7 @@ Puede administrar los componentes de la zona de colocación de la siguiente mane
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de filtros en Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de filtros en Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -284,7 +284,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de filtros e
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables dinámicos](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables dinámicos](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
