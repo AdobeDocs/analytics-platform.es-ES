@@ -3,9 +3,8 @@ title: Notas previas al lanzamiento de Customer Journey Analytics
 description: Vea las notas previas al lanzamiento de Customer Journey Analytics más recientes
 feature: Release Notes
 hide: true
-hidefromtoc: true
 exl-id: 61982e38-b43a-41b5-85e0-59ed374463a9
-source-git-commit: 9a489831ebbb579a2f0e368426dfed73b1ee5962
+source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 80%

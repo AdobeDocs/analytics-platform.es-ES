@@ -2,10 +2,10 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: bac8472ed61d2c7421fb43957c22d18edaac67ec
+source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
 workflow-type: tm+mt
 source-wordcount: '1389'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 + Notas de la versión {#releases}
    + [Última versión](../release-notes/latest.md)
-   + [Notas de versión preliminar](../release-notes/pre-release-notes.md)
+   + {hide-from-toc}[Notas previas al lanzamiento](../release-notes/pre-release-notes.md)
    + [Versiones de 2026](../release-notes/2026.md)
    + [Versiones de 2025](../release-notes/2025.md)
    + [Versiones de 2024](../release-notes/2024.md)
@@ -43,10 +43,10 @@ ht-degree: 95%
 
 + Actualizar y comparar {#compare-aa-cja}
    + Actualizar a Customer Journey Analytics {#upgrade-to-cja}
-      + [Introducción](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
-      + [Elegir la ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
-      + [Enviar datos a Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
-      + [Conservar datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
+      + {hide-from-toc}[Introducción](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
+      + {hide-from-toc}[Elija su ruta de actualización](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
+      + {hide-from-toc}[Enviar datos a la plataforma](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
+      + {hide-from-toc}[Conservar datos históricos](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [Proceso de actualización recomendado](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
       + [Prepare su organización](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)
       + Arquitecto y creación de un esquema {#schema}
@@ -406,10 +406,10 @@ ht-degree: 95%
       + [Administración de registros de exportación](/help/components/exports/manage-export-logs.md)
       + [Resolución de problemas de exportaciones](/help/components/exports/troubleshoot-exports.md)
       + Fuentes de datos {#cja-data-feeds}
-         + [Resumen del feed de datos](/help/components/exports/cja-data-feeds/data-feed-overview.md)
-         + [Comparar fuentes de datos de Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md)
-         + [Preparación para asignar columnas](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
-         + [Asignación de columnas](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
+         + {hide-from-toc}[Resumen de la fuente de datos](/help/components/exports/cja-data-feeds/data-feed-overview.md)
+         + {hide-from-toc}[Comparar fuentes de datos de Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md)
+         + {hide-from-toc}[Preparar para asignar columnas](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
+         + {hide-from-toc}[Asignar columnas](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
    + Diccionario de datos {#data-dictionary}
       + [Información general](../components/data-dictionary/data-dictionary-overview.md)
       + [Visualización de información de componentes en el diccionario de datos](../components/data-dictionary/view-data-dictionary.md)
@@ -532,7 +532,7 @@ ht-degree: 95%
          + [Vincular reproducciones de sesión](/help/use-cases/third-party/quantum-metric/tie-session-replays.md)
          + [Usar mapas de calor](/help/use-cases/third-party/quantum-metric/heatmap.md)
          + [Añadir eventos de fricción](/help/use-cases/third-party/quantum-metric/friction-events.md)
-         + [Conector de fuente](/help/use-cases/third-party/quantum-metric/source-connector.md)
+         + {hide-from-toc}[Conector de Source](/help/use-cases/third-party/quantum-metric/source-connector.md)
 
 + Labs {#labs}
    + [Guía del usuario de Labs](../labs/labs.md)

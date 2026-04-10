@@ -5,9 +5,8 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
-hidefromtoc: true
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
+source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
 workflow-type: tm+mt
 source-wordcount: '2981'
 ht-degree: 96%
