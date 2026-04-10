@@ -1,6 +1,8 @@
 ---
 source-git-commit: 46e050f3acb874d9276e43092f12daa7c013b778
-translation-type: tm+mt
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 # Código de conducta de Adobe
@@ -25,7 +27,7 @@ Ejemplos de comportamiento inaceptable por parte de los participantes:
 * Comentarios insultantes o despectivos (trolling) y ataques personales o políticos
 * Acoso público o privado
 * Publicación de información privada de terceros sin su consentimiento, como direcciones físicas o electrónicas
-* Otros tipos de conducta que pudieran considerarse inapropiadas en un entorno profesional.
+* Otros tipos de conducta que pudieran considerarse inapropiadas en un entorno profesional
 
 ## Nuestras responsabilidades
 
@@ -47,4 +49,4 @@ Los administradores del proyecto que no cumplan o hagan cumplir de buena fe el C
 
 ## Atribución
 
-El presente Código de conducta es una adaptación de la versión 1.4 del [Contributor Covenant](https://contributor-covenant.org), disponible en [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+El presente Código de conducta es una adaptación de la versión 1.4 del [Contributor Covenant](https://contributor-covenant.org), disponible en [https://www.contributor-covenant.org/es/version/1/4/code-of-conduct](https://www.contributor-covenant.org/es/version/1/4/code-of-conduct)
