@@ -1,8 +1,8 @@
 ---
 source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5360'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # Fragmentos
@@ -288,32 +288,32 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 | [!UICONTROL Tiempo empleado (segundos)] | Suma el tiempo entre dos valores diferentes para una dimensión.<p>Este componente debe incluirse en la vista de datos para que las siguientes [métricas calculadas](/help/components/calc-metrics/default-calcmetrics.md) estén disponibles en Workspace: <ul><li>Tiempo empleado por persona </li><li>Tiempo empleado por sesión</li></p> |
 
 
-## Basado en modelos relacionales {#relational-model-based}
+## Basado en modelo relacional {#relational-model-based}
 
 >[!INFO]
 >
->En la interfaz de Customer Journey Analytics, los conjuntos de datos **[!UICONTROL Relacional]** pueden etiquetarse como **[!UICONTROL Basado en modelo]**.
+>En la interfaz de Customer Journey Analytics, los conjuntos de datos **[!UICONTROL relacionales]** pueden etiquetarse como **[!UICONTROL basados en modelos]**.
 >
 
-## Ventana retrospectiva de fuente de datos de CJA {#cja-df-lookback}
+## Ventana de retrospección de la fuente de datos de CJA {#cja-df-lookback}
 
-Dado que Customer Journey Analytics utiliza la atribución de tiempo del informe para cada componente, no tiene un concepto de persistencia más allá de su ventana retrospectiva. Esta columna de fuente de datos de Analytics hace referencia al comportamiento de nivel de visitante que se extiende a todo el historial del visitante. Cuanto más larga sea la ventana retrospectiva para este componente en Customer Journey Analytics, más cerca podrá estar de la funcionalidad de Adobe Analytics.
+Dado que Customer Journey Analytics utiliza la atribución de tiempo del informe para cada componente, no tiene un concepto de persistencia más allá de su ventana de retrospección. Esta columna de fuente de datos de Analytics hace referencia al comportamiento a nivel de visitante que se extiende a todo el historial del visitante. Cuanto más larga sea la ventana de retrospección para este componente en Customer Journey Analytics, más cerca podrá estar de la funcionalidad de Adobe Analytics.
 
-## Columnas de la publicación de fuentes de datos CJA {#cja-df-post}
+## Columnas de la publicación de fuentes de datos de CJA {#cja-df-post}
 
-Esta columna de fuente de datos de Analytics contiene una versión preprocesada y otra posprocesada (prefijo de `post_`). Las columnas con el prefijo `post_` contienen el valor que se utiliza finalmente en los informes. La mayoría de las organizaciones solo usan `post_` columnas cuando están disponibles. La siguiente tabla compara las propiedades de estas columnas:
+Esta columna de fuente de datos de Analytics contiene una versión preprocesada y otra posprocesada (un prefijo de `post_`). Las columnas con el prefijo de `post_` contienen el valor que se utiliza finalmente en la creación de informes. La mayoría de las organizaciones solo utilizan columnas `post_` cuando están disponibles. La siguiente tabla compara las propiedades de estas columnas:
 
 | Valor de columna preprocesado | Valor de columna posprocesado |
 | --- | --- |
-| Tal como se recopiló | Se utiliza en informes |
-| Antes de procesar reglas | Después de procesar las reglas |
-| Antes de las reglas VISTA | Después de las reglas VISTA |
-| No se ha aplicado asignación | Se aplica la asignación |
+| Tal como se recopiló | Usado en la creación de informes |
+| Antes de procesar las reglas | Después de procesar las reglas |
+| Antes de las reglas de VISTA | Después de las reglas de VISTA |
+| No se aplica ninguna asignación | Se aplica la asignación |
 
 Dado que Customer Journey Analytics no tiene un concepto de preprocesamiento y posprocesamiento, es difícil volver a crear ambas columnas en las fuentes de datos de CJA. Si desea realizar aproximaciones de estas columnas, puede arrastrar el mismo campo XDM varias veces a la columna de dimensiones para crear varios componentes con diferentes configuraciones de atribución:
 
 * **Columna preprocesada**: sin atribución
-* **Columna posprocesada**: aplique la misma configuración de asignación y caducidad que su variable de Analytics en la configuración de vista de datos. La mayoría de los componentes utilizarían una asignación de &quot;Último&quot; y una caducidad de &quot;Visita&quot;.
+* **Columna posprocesada**: aplique la misma configuración de asignación y caducidad que su variable de Analytics en la configuración de vista de datos. La mayoría de los componentes utilizarían una asignación de “Último” y una caducidad de “Visita”.
 
 ## Columnas de búsqueda de fuentes de datos de CJA {#cja-df-lookup}
 
@@ -325,4 +325,4 @@ Esta columna de fuente de datos de Analytics contiene datos que no se pueden tra
 
 ## agente de usuario de fuente de datos de CJA {#cja-df-ua}
 
-No se pueden recopilar simultáneamente información del agente de usuario e información de búsqueda del dispositivo; la población de estas dimensiones se excluye mutuamente. Debe elegir si desea recopilar información sobre el agente de usuario directamente o sobre la búsqueda de dispositivos (basada en el agente de usuario) al [configurar una secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
+No puede recopilar simultáneamente información del agente de usuario e información de búsqueda del dispositivo; la población de estas dimensiones se excluye mutuamente. Debe elegir si desea recopilar información sobre el agente de usuario directamente o sobre la búsqueda de dispositivos (basada en el agente de usuario) al [configurar una secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
