@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización Flujo en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Flujo &#x200B;](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe la visualización Flujo en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Flujo ](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ Con la visualización puede:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una visualización de flujo](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una visualización de flujo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

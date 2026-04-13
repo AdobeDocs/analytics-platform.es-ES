@@ -25,7 +25,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización de visitas en el orden previsto en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Visita en orden previsto](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** version of this article._
+_En este artículo se describe la visualización de visitas en el orden previsto en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Visita en orden previsto](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ Una visualización ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)�
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una visualización de visitas en orden previsto](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear una visualización de visitas en orden previsto](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

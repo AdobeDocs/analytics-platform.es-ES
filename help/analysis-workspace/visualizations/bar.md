@@ -15,7 +15,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describen las visualizaciones Barra y Barra apilada en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Barra y barra apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bar) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describen las visualizaciones Barra y Barra apilada en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Barra y barra apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bar) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 
 >[!ENDSHADEBOX]
@@ -63,7 +63,7 @@ Use la opción **[!UICONTROL Apilada al 100 %]** en ![Configuración](/help/ass
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de área](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de área](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

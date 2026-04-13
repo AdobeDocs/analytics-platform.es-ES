@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe el panel Tiempo invertido en la reproducción de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte el [panel Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_En este artículo se describe el panel Tiempo invertido en la reproducción de medios en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulte el [panel Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ El tiempo invertido en la reproducción puede ayudarle a conocer lo siguiente:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
