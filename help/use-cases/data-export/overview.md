@@ -27,7 +27,7 @@ ht-degree: 7%
 
 Esta sección proporciona casos de uso de exportación de datos y cómo implementar estos casos de uso con una o más funcionalidades de Customer Journey Analytics o Experience Platform. Cada funcionalidad se detalla en un artículo independiente.
 
-## Primeros pasos
+## Introducción
 
 Una de las diferencias únicas entre Adobe Analytics y Customer Journey Analytics está relacionada con el procesamiento de datos para la atribución y la sesionización. Consulte [Comparar el procesamiento de datos entre Adobe Analytics y Customer Journey Analytics](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) para obtener más información.
 

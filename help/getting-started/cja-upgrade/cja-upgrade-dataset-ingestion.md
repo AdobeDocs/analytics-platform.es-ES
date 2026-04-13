@@ -31,7 +31,7 @@ Después de configurar la implementación del SDK web o la API, debe comprobar l
 
 1. En la interfaz de usuario de Experience Platform, seleccione **[!UICONTROL Monitorización]** en el panel de navegación izquierdo.
 
-   Se muestra el panel de control Monitorización. Este panel de control le permite ver los estados de los datos de entrada procedentes de la ingesta por lotes o de streaming.
+   Se muestra el panel de control Monitorización. Este panel de control le permite ver los estados de los datos de entrada procedentes de la ingesta por lotes o de la ingesta de streaming.
 
    <!-- insert screenshot -->
 
