@@ -27,7 +27,7 @@ El análisis ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg)**[
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [análisis de fricción de Funnel](https://video.tv.adobe.com/v/3421663/?quality=12&learn=onn){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [análisis de fricción de Funnel](https://video.tv.adobe.com/v/3431275/?captions=spa&quality=12&learn=onn){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
