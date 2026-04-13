@@ -4,9 +4,10 @@ description: Caso de uso de tendencia mensual para la extensión de BI en varias
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 9be5180e-6926-431e-aa70-61cb98130ef6
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -154,7 +155,7 @@ Debería ver una visualización y una tabla similares a las que se muestran a co
 
 >[!TAB EstudioRS]
 
-1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento.
+1. Introduzca el siguiente bloque de código en un nuevo fragmento.
 
    ```R
    ## Hourly Events

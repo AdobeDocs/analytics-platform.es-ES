@@ -4,9 +4,10 @@ description: Caso de uso de transformaciones para la extensión BI en varias her
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 2022a841-fc2a-4a76-8d91-8227e7a2130a
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1676'
 ht-degree: 0%
 
 ---
@@ -236,7 +237,7 @@ Los componentes de Customer Journey Analytics (dimensiones, métricas, filtros, 
 
 **Transformaciones personalizadas**
 
-1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento.
+1. Introduzca el siguiente bloque de código en un nuevo fragmento.
 
    ```R
    df <- dv %>%
@@ -269,4 +270,3 @@ LIMIT 1000
 >[!ENDTABS]
 
 +++
-

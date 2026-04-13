@@ -4,9 +4,10 @@ description: Caso de uso de clasificación de varias dimensiones para la extensi
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 7c8d01ac-47a3-4348-83ef-fea66695fbb2
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -244,7 +245,7 @@ Debería ver una visualización y una tabla similares a las que se muestran a co
 
 >[!TAB EstudioRS]
 
-1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento.
+1. Introduzca el siguiente bloque de código en un nuevo fragmento.
 
    ```R
    ## Multiple dimensions ranked

@@ -4,9 +4,10 @@ description: Utilice valores de dimensión para segmentar casos de uso de la ext
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 8557b424-4a5e-4996-8e2f-cf1bcafe64c5
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -154,7 +155,7 @@ Verá una visualización que muestra **[!UICONTROL Error al obtener los datos de
 
 >[!TAB EstudioRS]
 
-1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento. Asegúrese de utilizar una categoría adecuada. Por ejemplo, `Hunting`.
+1. Introduzca el siguiente bloque de código en un nuevo fragmento. Asegúrese de utilizar una categoría adecuada. Por ejemplo, `Hunting`.
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value
@@ -173,4 +174,3 @@ Verá una visualización que muestra **[!UICONTROL Error al obtener los datos de
 >[!ENDTABS]
 
 +++
-

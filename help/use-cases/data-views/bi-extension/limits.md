@@ -4,9 +4,10 @@ description: Limita el caso de uso de la extensión de BI en varias herramientas
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 55666295-6161-4fbc-b326-231cb5780d4f
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -260,7 +261,7 @@ La consulta la ejecuta la extensión de BI tal como se define en Jupyter Noteboo
 
 >[!TAB EstudioRS]
 
-1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento.
+1. Introduzca el siguiente bloque de código en un nuevo fragmento.
 
    ```R
    ## Dimension 1 Limited
