@@ -4,7 +4,8 @@ description: Utilice nombres de intervalos de fechas para filtrar casos de uso d
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: a10818ec-a25c-4e4e-a551-14ff501750fa
+source-git-commit: 0299762a2c901852ba6b0940093809a116fa6b11
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 1%
@@ -138,7 +139,7 @@ Debería ver una visualización y una tabla similares a las que se muestran a co
 
 >[!TAB EstudioRS]
 
-1. Escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` ` en un nuevo fragmento. Asegúrese de utilizar el nombre de intervalo de fechas adecuado. Por ejemplo, `Last Year 2023`.
+1. Escriba las siguientes instrucciones entre ` ```{r} ` y ` ``` ` en un nuevo fragmento. Asegúrese de utilizar el nombre de intervalo de fechas adecuado. Por ejemplo, `Last Year 2023`.
 
    ```R
    ## Monthly Events for Last Year
