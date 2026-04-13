@@ -25,7 +25,7 @@ ht-degree: 99%
 
 El análisis del ![Versión](/help/assets/icons/Release.svg) **[!UICONTROL Impacto de la versión]** muestra una comparación del rendimiento de los indicadores clave antes y después de una fecha determinada. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en el centro del gráfico representa la fecha que desea comparar antes y después. Esta fecha suele representar un cambio notable en el producto que desea medir, como una actualización del producto o el lanzamiento de una campaña.
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
+>[!VIDEO](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
 
 ## Casos de uso
 

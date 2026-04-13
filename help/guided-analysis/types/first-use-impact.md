@@ -26,7 +26,7 @@ ht-degree: 99%
 El análisis del ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL impacto del primer uso]** muestra una comparación del rendimiento de los indicadores clave antes y después de que un usuario use una función del producto por primera vez. El eje horizontal de este informe es un intervalo de tiempo relativo antes y después del evento, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en medio del gráfico representa el día 0 del momento en que un usuario determinado utiliza por primera vez una función. Dado que los usuarios no siempre adoptan funciones el mismo día y que los despliegues pueden producirse potencialmente durante varios días, el día 0 puede significar algo distinto para cada usuario individual.
 
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/first-use-impact)
+>[!VIDEO](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/guided-analysis/first-use-impact)
 
 
 ## Casos de uso

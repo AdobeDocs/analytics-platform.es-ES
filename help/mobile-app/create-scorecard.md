@@ -29,7 +29,7 @@ La siguiente información instruye a los revisores de datos de Adobe Analytics s
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creación de un cuadro de resultados móvil](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creación de un cuadro de resultados móvil](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -257,7 +257,7 @@ Vea el vídeo para obtener más información acerca de la creación de historias
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para un proyecto de cuadro de resultados móvil](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para un proyecto de cuadro de resultados móvil](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 

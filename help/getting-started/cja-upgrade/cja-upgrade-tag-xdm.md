@@ -29,7 +29,7 @@ Después de [crear la etiqueta y añadir la extensión del SDK web](/help/gettin
 
 ## Configuración de elementos de datos
 
-Los Data Elements son los componentes básicos del diccionario de datos (o mapa de datos). Utilice Data Elements para recopilar, organizar y entregar datos a través de la tecnología de marketing y publicidad. Los elementos de datos de la etiqueta se configuran para que se lean en la capa de datos y se puedan utilizar para enviar datos a Adobe Experience Platform. (Para obtener más información sobre los elementos de datos, consulte [Elementos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) en la documentación de etiquetas).
+Los Data Elements son los componentes básicos del diccionario de datos (o mapa de datos). Utilice Data Elements para recopilar, organizar y entregar datos a través de la tecnología de marketing y publicidad. Los elementos de datos de la etiqueta se configuran para que se lean en la capa de datos y se puedan utilizar para enviar datos a Adobe Experience Platform. (Para obtener más información sobre los elementos de datos, consulte [Elementos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/data-elements) en la documentación de etiquetas).
 
 Las secciones siguientes describen elementos de datos sugeridos y otros elementos de datos comunes que puede configurar.
 
@@ -257,7 +257,7 @@ Para definir una regla, debe hacer lo siguiente:
 
 1. Repita este proceso para cada regla que desee añadir al sitio.
 
-   Para obtener más información sobre las reglas, consulte [Reglas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) en la documentación de etiquetas.
+   Para obtener más información sobre las reglas, consulte [Reglas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/rules) en la documentación de etiquetas.
 
 1. Continúe con [Generar y publicar la etiqueta](#build-and-publish-your-tag).
 

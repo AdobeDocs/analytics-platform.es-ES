@@ -108,7 +108,7 @@ Consulte [Uso de dimensiones y métricas de enlace en Customer Journey Analytics
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones del enlace](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -34,7 +34,7 @@ El análisis de ![Cronología](/help/assets/icons/Timeline.svg) **[!UICONTROL Cr
 >* **Administradores**: *la propiedad PersonID es necesaria para este análisis. Añada el ID de persona a la vista de datos.*
 >* **No administradores**: *la propiedad PersonID es necesaria para este análisis. Póngase en contacto con el administrador de Customer Journey Analytics para añadir el ID de persona a la vista de datos.*
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
+>[!VIDEO](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
 
 
 
