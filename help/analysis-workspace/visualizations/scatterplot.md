@@ -20,7 +20,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización de puntos en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_<br/>_Consulte [Puntos](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_En este artículo se describe la visualización de puntos en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_Consulte [Puntos](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +35,7 @@ La visualización ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICON
 
 
 
-![Ejemplo de diagrama de puntos que muestra varios elementos de dimensión ](assets/scatter.png)
+![Ejemplo de diagrama de puntos que muestra varios elementos de dimensión &#x200B;](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
