@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e1aab5822d650b6ae5ed335d85a09fe9ed46a2f0
+source-git-commit: a4287ab5b341f156d039b4bc35dc03482ba3f60c
 workflow-type: tm+mt
-source-wordcount: '5799'
+source-wordcount: '5819'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 |---|---|
+| **Abril de 2026** | |
+| Casos de uso de análisis de cohorte actualizados | En función de los comentarios añadidos, se han añadido ejemplos de Analysis Workspace a los casos de uso del análisis de cohorte. |
 | **Marzo de 2026** | |
 | Desglose de un panel | Se ha reestructurado la documentación en torno a la zona de colocación [para un panel](/help/analysis-workspace/c-panels/panels.md#drop-zone) a fin de admitir la nueva funcionalidad [break down](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Nota técnica sobre los ID incorrectos (BAVID) | Nueva [nota técnica sobre identificadores incorrectos](/help/technotes/badids.md). La nota técnica explica la definición de un ID incorrecto, dónde se utilizan los ID incorrectos en la interfaz de Customer Journey Analytics y cómo investigar los datos de la conexión en busca de ID incorrectos. |
