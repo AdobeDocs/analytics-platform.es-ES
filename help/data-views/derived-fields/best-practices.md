@@ -6,9 +6,9 @@ feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
 hide: true
-source-git-commit: afb577bb72f2528c15acbc30794c900ea62b51b6
+source-git-commit: e5dea7e234585bd28a00df95342879dcba5b932f
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2741'
 ht-degree: 1%
 
 ---
@@ -132,7 +132,7 @@ En esta sección se describe el uso incorrecto de los campos derivados. Especial
 
 * Recortar/en minúsculas: use la configuración de los componentes [Substring](/help/data-views/component-settings/substring.md) y [Behavior](/help/data-views/component-settings/behavior.md) a menos que necesite transformaciones combinadas de varios pasos.
 * Exclusión de valor: use [Incluir valores de exclusión](/help/data-views/component-settings/include-exclude-values.md) para métricas o valores de dimensión en el nivel de componente de vista de datos, no en un campo derivado.
-* Atribución y persistencia: evite simular dimensiones en un campo derivado con [Siguiente o Anterior](./derived-fields.md#next-or-previous) u otra lógica secuencial. Use la configuración de vista de datos [Atribución](/help/data-views/component-settings/attribution.md) y [Persistencia](/help/data-views/component-settings/persistence.md) para las dimensiones.
+* Atribución y persistencia: use la configuración de la vista de datos [Persistencia](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modelo de asignación]** y **[!UICONTROL Caducidad]**) para las dimensiones en lugar de simularlas en un campo derivado con [Siguiente o Anterior](./derived-fields.md#next-or-previous) u otra lógica secuencial.
 * Agrupación numérica: mantenga el campo derivado numérico y permita que la vista de datos cree una dimensión agrupada en la parte superior, en lugar de programar etiquetas de intervalo en una cadena [Case When](./derived-fields.md#case-when).
 * Lógica condicional: convertir la lógica de indicador simple 0 o 1 en una de las siguientes:
    * la métrica original con la lógica de filtro incluir o excluir valores como se aplica en Analysis Workspace.
@@ -161,7 +161,7 @@ Customer Journey Analytics permite forzar los campos numéricos a dimensiones y 
    * Establezca el tipo de componente en **[!UICONTROL Métrica]** en la vista de datos.
    * Si el componente representa una métrica de subconjunto (por ejemplo, **[!UICONTROL Vistas de página de cierre de compra]**), utilice una métrica filtrada dentro de la vista de datos en lugar de una cadena derivada más una métrica calculada en la parte superior.
 * Si el resultado es una etiqueta:
-   * Establezca el tipo de componente en **[!UICONTROL Dimension]** y configure las opciones [Attribution](/help/data-views/component-settings/attribution.md) y [persistence](/help/data-views/component-settings/persistence.md) en consecuencia.
+   * Establezca el tipo de componente en **[!UICONTROL Dimension]** y configure la configuración de [Persistencia](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modelo de asignación]** y **[!UICONTROL Caducidad]**) según corresponda.
 
 ## Dificultades del canal de marketing y de la lógica de campaña
 
@@ -284,12 +284,12 @@ En esta sección se describe el uso excesivo de [Siguiente o Anterior](./derived
 ### Diagnóstico de riesgos: calidad de los datos, alto mantenimiento
 
 * Complejidad y fragilidad: la lógica secuencial pesada es más difícil de razonar y puede romperse si cambian las reglas de sesionización o el orden.
-* Redundancia con atribución o persistencia: algunos casos de uso (por ejemplo, la atribución de canal de último contacto en una sesión) se tratan mejor en la configuración de atribución de vistas de datos.
+* Redundancia con persistencia de dimensión: algunos casos de uso (por ejemplo, Canal de último contacto en una sesión) se tratan mejor en la configuración de la vista de datos [Persistencia](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modelo de asignación]**) de la dimensión.
 
 ### Recomendaciones
 
-* Para patrones que se asemejan a una atribución estándar, use los valores de la dimensión [attribution](/help/data-views/component-settings/attribution.md) y [persistence](/help/data-views/component-settings/persistence.md) en la vista de datos en lugar de simularlos con [Next o Previous](./derived-fields.md#next-or-previous).
-* Reserve [Siguiente o Anterior](./derived-fields.md#next-or-previous) para una ruta de varios pasos avanzada o un etiquetado funnel que la atribución por sí sola no pueda lograr (por ejemplo: concatenación de secuencia de canal).
+* Para patrones que se asemejan a la persistencia estándar (por ejemplo, llevar un valor hacia adelante en una sesión o persona), use la configuración de [Persistencia](/help/data-views/component-settings/persistence.md) de la dimensión (**[!UICONTROL Modelo de asignación]** y **[!UICONTROL Caducidad]**) en la vista de datos en lugar de simular estos patrones con [Siguiente o Anterior](./derived-fields.md#next-or-previous).
+* Reserve [Siguiente o Anterior](./derived-fields.md#next-or-previous) para una ruta de varios pasos avanzada o un etiquetado funnel que la persistencia de la dimensión por sí sola no pueda lograr (por ejemplo: concatenación de secuencia de canal).
 
 ## Ignorar contexto de nivel de persona y sesión
 
@@ -350,13 +350,15 @@ Compruebe también la configuración de vista de datos de cada componente deriva
 ### Patrones
 
 * Una dimensión derivada tiene una atribución predeterminada (por ejemplo: Último contacto con caducidad de sesión) pero el nombre de campo derivado implica una semántica diferente (por ejemplo: `First Campaign of Visit`, `Original Source`).
+* Una dimensión derivada tiene la configuración predeterminada [Persistencia](/help/data-views/component-settings/persistence.md) (por ejemplo: **[!UICONTROL Más reciente]** asignación con caducidad de **[!UICONTROL Sesión]**), pero el nombre de la dimensión derivada implica una semántica diferente (por ejemplo, `First Campaign of Visit` o `Original Source`).
 
 
 ### Diagnóstico de riesgos: calidad de datos
 
-* Discordancia semántica: la etiqueta de la dimensión sugiere un comportamiento [attribution](/help/data-views/component-settings/attribution.md) o [expiration](/help/data-views/component-settings/persistence.md) diferente (por ejemplo: primer contacto o origen original) al que está realmente configurado.
-* Esta discrepancia aumenta el riesgo de que los analistas malinterpreten los informes o comparen componentes que parecen similares por su nombre, pero que utilizan modelos de atribución diferentes.
+* Discordancia semántica: la etiqueta de la dimensión sugiere un comportamiento de asignación o caducidad diferente (por ejemplo, asignación original o caducidad a nivel de persona) al que está configurado realmente.
+* Esta discrepancia aumenta el riesgo de que los analistas malinterpreten los informes o comparen componentes que parecen similares por su nombre, pero que utilizan modelos de asignación diferentes.
 
 ### Recomendaciones
 
 * Ajuste el modelo de asignación [y la caducidad](/help/data-views/component-settings/persistence.md) en esa dimensión para alinear el nombre y el comportamiento. Por ejemplo, una dimensión de campo derivado denominada `Original Source` debe utilizar Atribución de primer contacto con caducidad establecida en Persona.
+* Ajuste el **[!UICONTROL modelo de asignación]** y la **[!UICONTROL caducidad]** en la configuración de [Persistencia](/help/data-views/component-settings/persistence.md) de la dimensión para alinear el nombre y el comportamiento. Por ejemplo, `Original Source` debe establecer **[!UICONTROL Modelo de asignación]** en **[!UICONTROL Original]** con **[!UICONTROL Caducidad]** establecido en **[!UICONTROL Persona]**.
