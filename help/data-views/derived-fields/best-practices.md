@@ -6,7 +6,7 @@ feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
 hide: true
-source-git-commit: 4dd1e90a377c0939048397a0ec4af08123d324c1
+source-git-commit: 97339504546df94b6962170eb4bbae184193885c
 workflow-type: tm+mt
 source-wordcount: '2741'
 ht-degree: 1%
@@ -362,4 +362,3 @@ Compruebe también la configuración de vista de datos de cada componente deriva
 
 * Ajuste el modelo de asignación [y la caducidad](/help/data-views/component-settings/persistence.md) en esa dimensión para alinear el nombre y el comportamiento. Por ejemplo, una dimensión de campo derivado denominada `Original Source` debe utilizar Atribución de primer contacto con caducidad establecida en Persona.
 * Ajuste el **[!UICONTROL modelo de asignación]** y la **[!UICONTROL caducidad]** en la configuración de [Persistencia](/help/data-views/component-settings/persistence.md) de la dimensión para alinear el nombre y el comportamiento. Por ejemplo, `Original Source` debe establecer **[!UICONTROL Modelo de asignación]** en **[!UICONTROL Original]** con **[!UICONTROL Caducidad]** establecido en **[!UICONTROL Persona]**.
-
