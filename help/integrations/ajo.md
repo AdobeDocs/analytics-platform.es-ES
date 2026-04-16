@@ -64,7 +64,7 @@ Cuando se habilita el complemento de mensajería transaccional de alto rendimien
 * **[!UICONTROL Widget de latencia de P95 de 7 días móviles]**: muestra la latencia de P95 como un valor único, incluido el cambio porcentual desde la semana anterior.
 * **[!UICONTROL Widget de rendimiento de P95 de 7 días móviles]**: muestra el rendimiento de P95 como un valor único, incluido el cambio porcentual desde la semana anterior.
 
-Para obtener más información sobre estos conjuntos de datos y el complemento de mensajería transaccional de alto rendimiento, consulte [Activar el modo de alto rendimiento para campañas activadas por API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput) en la documentación de Adobe Journey Optimizer.
+Para obtener más información sobre estos conjuntos de datos y el complemento de mensajería transaccional de alto rendimiento, consulte [Activar el modo de alto rendimiento para campañas activadas por API](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput) en la documentación de Adobe Journey Optimizer.
 
 ### Vista de datos
 
