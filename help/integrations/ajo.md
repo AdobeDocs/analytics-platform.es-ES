@@ -4,10 +4,10 @@ description: Incorpore datos generados por Adobe Journey Optimizer y analícelos
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 830e16ecd4c43da114c63af51e4bb6e88bbb4ff8
 workflow-type: tm+mt
-source-wordcount: '3514'
-ht-degree: 100%
+source-wordcount: '3770'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Cuando haya habilitado la creación de informes de Customer Journey Analytics pa
 
 ### Conexión
 
-La conexión tiene el nombre **[!UICONTROL Conexión habilitada de AJO (*nombre de zona protegida*)]** y tiene los siguientes valores predeterminados para la configuración y los conjuntos de datos:
+La conexión tiene el nombre **[!UICONTROL Conexión habilitada con AJO (*nombre de zona protegida*)]** y tiene los siguientes valores predeterminados para la configuración y los conjuntos de datos:
 
 | **Configuración de la conexión** | Valor |
 |---|---|
@@ -44,17 +44,33 @@ La conexión tiene el nombre **[!UICONTROL Conexión habilitada de AJO (*nombre 
 | Nombre del conjunto de datos | Esquema | Tipo de conjunto de datos | Tipo de fuente de datos | Identificación de la persona | Clave | Clave de coincidencia | Importar datos nuevos | Datos de relleno |
 |---|---|---|---|---|---|---|---|---|
 | [!UICONTROL Conjunto de datos de entidad de AJO] | [!UICONTROL Esquema de registro de entidad de AJO] | [!UICONTROL Búsqueda] | [!UICONTROL Otro] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![Estado verde](assets/../../connections/assets/status-green.svg) Activado | ![Estado gris](assets/../../connections/assets/status-gray.svg) Desactivado |
-| [!UICONTROL Eventos de paso de recorrido] | [!UICONTROL Esquema de evento de paso de recorrido para Journey Orchestration] | [!UICONTROL Evento] | [!UICONTROL Otro] | [!UICONTROL  IdentityMap(\&lt;primary\>)] | - | - | ![Estado verde](assets/../../connections/assets/status-green.svg) Activado | ![Estado gris](assets/../../connections/assets/status-gray.svg) Desactivado |
+| [!UICONTROL Eventos de paso de recorrido] | [!UICONTROL Esquema de evento de paso de recorrido para Journey Orchestration] | [!UICONTROL Evento] | [!UICONTROL Otro] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Estado verde](assets/../../connections/assets/status-green.svg) Activado | ![Estado gris](assets/../../connections/assets/status-gray.svg) Desactivado |
 | [!UICONTROL Conjunto de datos de evento de experiencia de seguimiento de correo electrónico AJO] | [!UICONTROL Esquema de evento de experiencia de seguimiento de correo electrónico AJO] | [!UICONTROL Evento] | [!UICONTROL Otro] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Estado verde](assets/../../connections/assets/status-green.svg) Activado | ![Estado gris](assets/../../connections/assets/status-gray.svg) Desactivado |
 | [!UICONTROL Conjunto de datos de evento de comentarios de mensajes AJO] | [!UICONTROL Esquema de evento de comentarios de mensajes AJO] | [!UICONTROL Evento] | [!UICONTROL Otro] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Estado verde](assets/../../connections/assets/status-green.svg) Activado | ![Estado gris](assets/../../connections/assets/status-gray.svg) Desactivado |
 | [!UICONTROL Conjunto de datos de evento de experiencia de seguimiento push AJO] | [!UICONTROL Esquema de evento de experiencia de seguimiento push AJO] | [!UICONTROL Evento] | [!UICONTROL Otro] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Estado verde](assets/../../connections/assets/status-green.svg) Activado | ![Estado gris](assets/../../connections/assets/status-gray.svg) Desactivado |
+| [!UICONTROL Conjunto de datos de evento de comentarios de mensajes de AJO - Sin perfil] <br/> (consulte la sección [Conjuntos de datos de complementos de alto rendimiento](#high-throughput-add-on-datasets) más abajo) | [!UICONTROL Esquema de evento de comentarios de mensajes AJO] | [!UICONTROL Evento] | [!UICONTROL Otro] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Estado verde](assets/../../connections/assets/status-green.svg) Activado | ![Estado gris](assets/../../connections/assets/status-gray.svg) Desactivado |
+| [!UICONTROL Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil] <br/> (consulte la sección [Conjuntos de datos de complementos de alto rendimiento](#high-throughput-add-on-datasets) a continuación) | [!UICONTROL Esquema de evento de experiencia de seguimiento de correo electrónico AJO] | [!UICONTROL Evento] | [!UICONTROL Otro] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Estado verde](assets/../../connections/assets/status-green.svg) Activado | ![Estado gris](assets/../../connections/assets/status-gray.svg) Desactivado |
 
+#### Conjuntos de datos de complementos de alto rendimiento
+
+Cuando el complemento de mensajería transaccional de alto rendimiento está habilitado para su organización de IMS, se incluyen dos conjuntos de datos adicionales no generados por el sistema y sin perfil en la conexión:
+
+* Conjunto de datos de evento de comentarios de mensajes de AJO - Sin perfil
+
+* Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil
+
+Cuando se habilita el complemento de mensajería transaccional de alto rendimiento, hay dos nuevos widgets disponibles en los informes de Journey Optimizer a nivel global (zona protegida) (no están disponibles en el nivel de por campaña):
+
+* **[!UICONTROL Widget de latencia de P95 de 7 días móviles]**: muestra la latencia de P95 como un valor único, incluido el cambio porcentual desde la semana anterior.
+* **[!UICONTROL Widget de rendimiento de P95 de 7 días móviles]**: muestra el rendimiento de P95 como un valor único, incluido el cambio porcentual desde la semana anterior.
+
+Para obtener más información sobre estos conjuntos de datos y el complemento de mensajería transaccional de alto rendimiento, consulte [Activar el modo de alto rendimiento para campañas activadas por API](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput) en la documentación de Adobe Journey Optimizer.
 
 ### Vista de datos
 
 La vista de datos tiene el nombre **Habilitar vista de datos AJO (*nombre de zona protegida*)**.
 
-- En la pestaña **[!UICONTROL Configurar]**, los siguientes valores están configurados de forma predeterminada.
+* En la pestaña **[!UICONTROL Configurar]**, los siguientes valores están configurados de forma predeterminada.
 
   | Configuración | Valor |
   |---|---|
@@ -83,13 +99,13 @@ La vista de datos tiene el nombre **Habilitar vista de datos AJO (*nombre de zon
   | [!UICONTROL Primer día de la semana] | Domingo |
 
 
-- En la pestaña **Componentes**:
-   - Todas las métricas y dimensiones que tienen [!UICONTROL (AJO)] anexados a su nombre se añaden automáticamente como parte de esta configuración automática.
-   - Algunas de las métricas o dimensiones que se han añadido automáticamente se basan en campos derivados. Estos campos derivados se crean específicamente para esta integración. Por ejemplo, la métrica [!UICONTROL Clics en páginas de destino (AJO)] se basa en el campo derivado [!UICONTROL Clics en páginas de destino].
-   - Algunas de las métricas o dimensiones tienen una configuración adicional. Por ejemplo, [!UICONTROL Queja de spam (AJO)] tiene la configuración [!UICONTROL Formato] e [!UICONTROL Incluir valores de exclusión] aplicada.
-   - Todas las métricas y dimensiones agregadas automáticamente tienen una etiqueta de contexto llamada `:`*`name_of_metric_or_dimension`*. Por ejemplo, la métrica [!UICONTROL Clics en página de destino (AJO)] tiene la etiqueta de contexto `:Landing page clicks (AJO)`.
+* En la pestaña **Componentes**:
+   * Todas las métricas y dimensiones que tienen [!UICONTROL (AJO)] anexados a su nombre se añaden automáticamente como parte de esta configuración automática.
+   * Algunas de las métricas o dimensiones que se han añadido automáticamente se basan en campos derivados. Estos campos derivados se crean específicamente para esta integración. Por ejemplo, la métrica [!UICONTROL Clics en páginas de destino (AJO)] se basa en el campo derivado [!UICONTROL Clics en páginas de destino].
+   * Algunas de las métricas o dimensiones tienen una configuración adicional. Por ejemplo, [!UICONTROL Queja de spam (AJO)] tiene la configuración [!UICONTROL Formato] e [!UICONTROL Incluir valores de exclusión] aplicada.
+   * Todas las métricas y dimensiones agregadas automáticamente tienen una etiqueta de contexto llamada `:`*`name_of_metric_or_dimension`*. Por ejemplo, la métrica [!UICONTROL Clics en página de destino (AJO)] tiene la etiqueta de contexto `:Landing page clicks (AJO)`.
 
-- En la pestaña **[!UICONTROL Configuración]**, no no se aplican valores de configuración específicos
+* En la pestaña **[!UICONTROL Configuración]**, no no se aplican valores de configuración específicos
 
 >[!IMPORTANT]
 >
@@ -117,6 +133,8 @@ Seleccione y configure los siguientes conjuntos de datos:
 | Conjunto de datos de evento de experiencia de seguimiento push de AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento push como “[!UICONTROL Lanzamientos de aplicaciones]”. |
 | Eventos de paso de recorrido | Evento | ID de persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventos que muestran qué perfiles participaron en cada nodo del recorrido. |
 | Conjunto de datos de entidad de AJO | Búsqueda | Clave: `_id`<br>Clave de coincidencia: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene clasificaciones que asocian metadatos de Recorridos y Campañas a todos los datos de eventos de Journey Optimizer. |
+| Conjunto de datos de evento de comentarios de mensajes de AJO - Sin perfil | Evento | ID de la persona: `IdentityMap` | Contiene eventos de comentarios de entrega de mensajes que no son de perfil. Solo está disponible cuando el complemento de mensajería transaccional de alto rendimiento [High Throughput](#high-throughput-add-on-datasets) está habilitado. |
+| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil | Evento | ID de la persona: `IdentityMap` | Contiene eventos de experiencia de seguimiento de correo electrónico sin perfil. Solo está disponible cuando el complemento de mensajería transaccional de alto rendimiento [High Throughput](#high-throughput-add-on-datasets) está habilitado. |
 
 {style="table-layout:auto"}
 
