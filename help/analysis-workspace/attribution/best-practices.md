@@ -3,7 +3,7 @@ title: Prácticas recomendadas de atribución
 description: Comprenda las prácticas recomendadas para decidir qué modelo de atribución utilizar.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 1b6e1d432bfe4b0574b8ee68bcfa940941f3c36f
+source-git-commit: ee6eb18fc2a720e61670c571847bacf836b0b039
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 66%
@@ -64,3 +64,4 @@ Si todavía no tiene un modelo de atribución que proporcione respuestas satisfa
 * Es posible que necesite utilizar los servicios de un científico de datos en lugar de depender solo de Analysis Workspace.
 * Puede confiar en los datos sin procesar, como en las fuentes de datos de Adobe.
 * Considere utilizar [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por ejemplo, si quiere tener en cuenta los datos de sus impresiones.
+
