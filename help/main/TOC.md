@@ -2,7 +2,7 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 01e2c7668bf31d9a3ed1ee55d8692a3616f5de4d
+source-git-commit: 35d365dec8bc9afdfd55405dbcfa082280515b18
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 94%
@@ -159,7 +159,6 @@ ht-degree: 94%
    + [Referencia de componente estándar](../data-views/component-reference.md)
    + [Extensión de BI](../data-views/bi-extension.md)
    + [Campos derivados](../data-views/derived-fields/derived-fields.md)
-   + {hide-from-toc}[Prácticas recomendadas: ocultas](/help/data-views/derived-fields/best-practices.md)
    + [Datos de resumen](../data-views/summary-data.md)
    + [Etiquetas y políticas](../data-views/data-governance.md)
    + Métricas y dimensiones compartidas{#shared-metrics-dimensions}
@@ -514,9 +513,10 @@ ht-degree: 94%
          + [Visualizaciones](/help/use-cases/data-views/bi-extension/visualizations.md)
          + [Advertencias](/help/use-cases/data-views/bi-extension/caveats.md)
 
-   + Campos derivados {#derived-fields}
-      + [Informe sobre el tráfico generado por LLM e IA](/help/use-cases/ai-traffic.md)
-      + [Informe sobre metas](../use-cases/goals-using-derived-fields.md)
+      + Campos derivados {#derived-fields}
+         + [Directrices de campos derivados](/help/use-cases/data-views/derived-fields/guidelines.md)
+         + [Informe sobre el tráfico generado por LLM e IA](/help/use-cases/data-views/derived-fields/ai-traffic.md)
+         + [Informe sobre metas](/help/use-cases/data-views/derived-fields/goals-using-derived-fields.md)
    + Análisis de productos {#product-analysis}
       + [Análisis de productos](/help/use-cases/product-analysis.md)
    + Unión {#stitching}
