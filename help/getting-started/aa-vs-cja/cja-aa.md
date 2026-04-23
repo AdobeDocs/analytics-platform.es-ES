@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 3294e1516f9478348743d0f1e9761b8b3497b1d2
 workflow-type: tm+mt
-source-wordcount: '2709'
-ht-degree: 100%
+source-wordcount: '2708'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 
 | Función | Notas |
 | --- | --- |
-| **Advertising Cloud** | Puede [recopilar datos históricos de ID de AMO e ID de EF para usarlos en Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/advertising/integrations/analytics/planning/rvars-to-evars). |
+| **Advertising** | Puede [recopilar datos históricos de ID de AMO e ID de EF para usarlos en Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/advertising/integrations/analytics/planning/rvars-to-evars). |
 | **Alertas** | El proceso de [utilización de alertas en Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md) es casi idéntico al de las alertas en Adobe Analytics. <p>Sin embargo, debido al tiempo que tarda la recopilación de datos en Customer Journey Analytics, las alertas horarias no están disponibles. En Customer Journey Analytics, las alertas se pueden configurar para alertas diarias, semanales o mensuales.</p> |
 | **Analytics for Target (A4T)** | La [integración entre Adobe Customer Journey Analytics y Target](https://experienceleague.adobe.com/es/docs/target/using/integrate/cja/target-reporting-in-cja) proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización. |
 | **Publicación del público** | Compatible si tiene licencia con la plataforma de datos del cliente o los productos de Journey Optimizer de Adobe. [Publicación de públicos](/help/components/audiences/audiences-overview.md) envía públicos al perfil del cliente en tiempo real en Experience Platform. |
