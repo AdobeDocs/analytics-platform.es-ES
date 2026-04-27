@@ -5,10 +5,10 @@ title: Preparación para asignar columnas de fuentes de datos de Adobe Analytics
 feature: Components
 hide: true
 exl-id: d0a9e697-1e48-4cfb-8613-2f932bf5015b
-source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
+source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 2%
+source-wordcount: '1088'
+ht-degree: 3%
 
 ---
 

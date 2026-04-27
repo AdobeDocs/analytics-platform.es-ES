@@ -2,9 +2,9 @@
 title: Información general sobre el uso del producto
 description: Vea información e informes sobre cómo su organización utiliza Customer Journey Analytics.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 22f3059ffef5df76028f36ffa00da8f98956dee1
+source-git-commit: 73238f03021b14567c20c686ab72d84afbaa9f81
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '660'
 ht-degree: 91%
 
 ---
@@ -89,7 +89,7 @@ Al habilitar el uso del producto, están disponibles las siguientes dimensiones.
    * [!UICONTROL Atribución]
    * [!UICONTROL Panel en blanco]
    * [!UICONTROL Experimentación]
-   * [!UICONTROL Freeform]
+   * [!UICONTROL de forma libre]
    * [!UICONTROL Elemento siguiente o anterior]
    * [!UICONTROL Información rápida]
    * [!UICONTROL Tendencias]
@@ -110,7 +110,7 @@ Al habilitar el uso del producto, están disponibles las siguientes dimensiones.
    * [!UICONTROL Tabla de cohorte]
    * [!UICONTROL Visita en orden previsto]
    * [!UICONTROL Flujo]
-   * [!UICONTROL Informe breve del lienzo de recorridos]
+   * [!UICONTROL informe breve de lienzo de Recorrido]
    * [!UICONTROL Área]
    * [!UICONTROL Area stacked]
    * [!UICONTROL Barra]

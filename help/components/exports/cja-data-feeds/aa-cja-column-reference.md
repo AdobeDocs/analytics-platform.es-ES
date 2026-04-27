@@ -4,10 +4,10 @@ description: Determine cómo tomar una columna de fuente de datos de Adobe Analy
 feature: Components
 hide: true
 exl-id: 81d6e79e-8324-4726-9a48-10177b0a91b1
-source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
+source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
 workflow-type: tm+mt
-source-wordcount: '3768'
-ht-degree: 47%
+source-wordcount: '3912'
+ht-degree: 48%
 
 ---
 
@@ -76,7 +76,7 @@ La dimensión de ID de EF de AMO que se utiliza en las integraciones de Adobe Ad
 
 +++**`browser`**
 
-ID numérica que representa el explorador.
+Un ID numérico que representa el explorador.
 
 {{cja-df-lookup}}
 
@@ -212,7 +212,7 @@ Versión de la API o del SDK cliente utilizado para compilar y enviar la solicit
 
 +++**`color`**
 
-Identificador de profundidad de color basado en el valor de la columna `c_color`.
+ID de profundidad de color basada en el valor de la columna `c_color`.
 
 {{cja-df-lookup}}
 
@@ -228,7 +228,7 @@ ID numérica que representa la dimensión Tipo de conexión.
 
 +++**`cookies`**
 
-La dimensión Compatibilidad con cookies.<br>S: Habilitado<br>N: No habilitado<br>D: Desconocido
+Dimensión de compatibilidad con cookies.<br>Y: Habilitado<br>N: Deshabilitado<br>U: Desconocido
 
 {{cja-df-post}}
 
@@ -272,7 +272,7 @@ El tipo de cambio cuando se produjo la transacción. Adobe se asocia con XE para
 
 +++**`customer_perspective`**
 
-Determina si la visita es una visita en segundo plano de un dispositivo móvil.
+Determina si la visita fue una visita móvil en segundo plano.
 
 {{cja-df-post}}
 
@@ -472,7 +472,7 @@ La dimensión Dominio de referencia original. Basado en `first_hit_referrer`. El
 
 +++**`first_hit_ref_type`**
 
-ID numérica que representa el tipo de referente del primer referente del visitante.
+Un ID numérico que representa el tipo de referente del primer referente del visitante.
 
 {{cja-df-lookup}}
 
@@ -558,7 +558,7 @@ La dirección IPv6 comprimida, si está disponible. Exclusivo de forma mutua par
 
 +++**`javascript`**
 
-Identificador de búsqueda de la versión de JavaScript basado en `j_jscript`.
+ID de búsqueda de la versión de JavaScript basado en `j_jscript`.
 
 {{cja-df-lookup}}
 
@@ -580,7 +580,7 @@ Versión de JavaScript admitida por el explorador.
 
 +++**`language`**
 
-ID numérica que representa el idioma del visitante.
+ID numérico que representa el idioma del visitante.
 
 {{cja-df-lookup}}
 
@@ -646,7 +646,7 @@ Acción móvil. Se recopila automáticamente cuando se llama a `trackAction` en 
 
 +++**`mobileappid`**
 
-ID de la aplicación móvil. Almacena el nombre y la versión de la aplicación en el siguiente formato: `[AppName] [BundleVersion]`. 
+ID de la aplicación móvil. Almacena el nombre y la versión de la aplicación en el siguiente formato: `[AppName] [BundleVersion]`.
 
 `xdm.application.name` + `xdm.application.version`
 
@@ -1025,7 +1025,7 @@ La dimensión Páginas no encontradas, que generalmente se utiliza para 404 pág
 
 +++**`page_url`**
 
-**`page_url`**: dirección URL de la visita. Utiliza un tipo de datos de texto.<br>**`post_page_url`**: se eliminó para las solicitudes de imagen de seguimiento de vínculos (`tl()`).
+**`page_url`**: dirección URL de la visita. Utiliza un tipo de datos de texto.<br>**`post_page_url`**: Eliminado para las solicitudes de imagen de seguimiento de vínculos (`tl()`).
 
 {{cja-df-post}}
 
@@ -1103,7 +1103,7 @@ La dimensión Referente. Tenga en cuenta que mientras `referrer` utiliza un tipo
 
 +++**`ref_domain`**
 
-La dimensión Dominio de referencia. Se basa en la columna`referrer`.
+La dimensión Dominio de referencia. Se basa en la columna `referrer`.
 
 +++
 
@@ -1646,7 +1646,7 @@ Si el ID de visitante se ha generado recientemente, proporciona la marca de tiem
 
 +++**`visid_type`**
 
-No para uso externo; Adobe lo utiliza internamente para procesar optimizaciones. ID numérico que representa el método utilizado para identificar al visitante.<br>`0`: ID de visitante personalizado o desconocido/no aplicable<br>`1`: IP y reserva del agente de usuario <br>`2`: encabezado de suscriptor móvil HTTP <br>`3`: valor de la cookie heredada (`s_vi`) <br>`4`: valor de la cookie de reserva (`s_fid`) <br>`5`: servicio de identidad
+No para uso externo; Adobe lo utiliza internamente para procesar optimizaciones. Identificador numérico que representa el método utilizado para identificar al visitante.<br>`0`: Id. de visitante personalizado o desconocido/no aplicable<br>`1`: IP y reserva del agente de usuario <br>`2`: Encabezado de suscriptor móvil HTTP <br>`3`: Valor de la cookie heredada (`s_vi`) <br>`4`: Valor de la cookie de reserva (`s_fid`) <br>`5`: Servicio de identidad
 
 {{cja-df-post}}
 
@@ -1686,7 +1686,7 @@ Se basa en la columna `visit_referrer`. El primer dominio de referencia de la vi
 
 +++**`visit_ref_type`**
 
-ID numérica que representa el tipo de referente del primer referente de la visita.
+ID numérico que representa el tipo de referente del primer referente de la visita.
 
 {{cja-df-lookup}}
 
@@ -1694,7 +1694,7 @@ ID numérica que representa el tipo de referente del primer referente de la visi
 
 +++**`visit_search_engine`**
 
-ID numérica que representa el primer motor de búsqueda de la visita.
+ID numérico que representa el primer motor de búsqueda de la visita.
 
 {{cja-df-lookup}}
 

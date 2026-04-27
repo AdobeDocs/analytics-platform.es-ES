@@ -5,7 +5,7 @@ title: Información general sobre las fuentes de datos de Analytics
 feature: Components
 hide: true
 exl-id: 991a7861-cbde-4d55-935c-d56c8031853e
-source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
+source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 40%
