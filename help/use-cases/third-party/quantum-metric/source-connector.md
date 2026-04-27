@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
-source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
+source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 1%
+source-wordcount: '435'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Al crear un conector de origen para datos de métricas cuánticas se crea autom�
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
->Aunque puede agregar datos de métricas cuánticas a la misma conexión que el resto de los datos de Customer Journey Analytics, esos datos no se pueden vincular sin un ID de persona común entre los dos conjuntos de datos. Si se desea este comportamiento, Adobe recomienda usar la [extensión Tag](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/analytics/quantum-metric) en lugar del conector de origen.
+>Aunque puede agregar datos de métricas cuánticas a la misma conexión que el resto de los datos de Customer Journey Analytics, esos datos no se pueden vincular sin un ID de persona común entre los dos conjuntos de datos. Si se desea este comportamiento, Adobe recomienda usar la [extensión Tag](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) en lugar del conector de origen.
 
 ## Paso 3: Crear una vista de datos en Customer Journey Analytics
 
