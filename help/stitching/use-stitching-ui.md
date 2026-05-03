@@ -7,8 +7,8 @@ role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 source-git-commit: d42f0eb658f26d16bd21bb6ca47d5dd7c228e614
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 4%
+source-wordcount: '1788'
+ht-degree: 14%
 
 ---
 
@@ -101,30 +101,30 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
->title="Vinculación de métricas"
+>title="Unificación de métricas"
 >abstract="La vinculación de métricas se calcula mediante un conjunto de datos de muestra con marcas de tiempo de evento de los últimos 7 días.<br>Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
 >title="Cobertura de ID de persona"
->abstract="La cobertura del ID de persona seleccionado que se utiliza para la identificación durante el proceso de identificación (reproducción y emisión).<br/>Para obtener los mejores resultados de vinculación, debe haber una relación (ID persistente, ID de persona) en el gráfico de identidades para cada ID persistente."
+>abstract="La cobertura del ID de persona seleccionado que se utiliza para la identificación durante el proceso de unificación (en tiempo real y repetición).<br/>Para obtener los mejores resultados de unificación, debe haber una relación (ID persistente, ID de persona) en el gráfico de identidades para cada ID persistente."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_fbs_personidcoverage"
 >title="Cobertura de ID de persona"
->abstract="La cobertura del ID de persona seleccionado que se utiliza para la identificación durante el proceso de identificación (reproducción y emisión).<br/>Para obtener los mejores resultados de vinculación, el ID de persona (información de usuario) debe enviarse al menos en un evento por cada ID persistente (información de dispositivo)."
+>abstract="La cobertura del ID de persona seleccionado que se utiliza para la identificación durante el proceso de unificación (en tiempo real y repetición).<br/>Para obtener los mejores resultados de unificación, el ID de persona (información de usuario) debe enviarse al menos en un evento por cada ID persistente (información de dispositivo)."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_persistentidcoverage"
 >title="Cobertura de ID persistente"
->abstract="Este valor se utiliza para la identificación durante el proceso de vinculación (activo y de reproducción), en caso de que no se pueda detectar un valor de ID de persona. <br/>Los eventos sin ID persistente ni ID de persona se perderán de los datos. Para obtener los mejores resultados de vinculación, debe haber un ID persistente en todos los eventos."
+>abstract="Este valor se utiliza para la identificación durante el proceso de vinculación (activo y de reproducción), en caso de que no se pueda detectar un valor de ID de persona. <br/>Los eventos sin ID persistente ni ID de persona se perderán de los datos. Para obtener los mejores resultados de unificación, debe haber un ID persistente en todos los eventos."
 
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_badids"
 >title="ID incorrectos"
->abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos de informes."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
+>abstract="Los ID incorrectos son valores de ID que afectan gravemente a los datos del sistema de informes."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID incorrectos"
 
 
 ### Configuración del conjunto de datos
@@ -175,7 +175,7 @@ Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de d
 
 ![Opciones de vinculación de identidad al habilitar la función](assets/identity-stitching-ui-preview.png)
 
-#### Vinculación de métricas
+#### Unificación de métricas
 
 >[!AVAILABILITY]
 >
@@ -190,7 +190,7 @@ Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de d
 
   La cobertura del ID de persona se muestra como porcentaje y se compara con lo que se recomienda en una configuración de desarrollo estable o de producción. Cuanto mayor sea este valor de cobertura, mejores serán los resultados de vinculación con el ID de persona seleccionado.
 
-* **[!UICONTROL Cobertura de ID persistente]**: este valor se usa para la identificación durante el proceso de vinculación (en vivo y en reproducción), en caso de que no se pueda detectar un valor de ID de persona. Los eventos sin ID persistente ni ID de persona se pierden de los datos. Para obtener los mejores resultados de vinculación, debe haber un ID persistente en todos los eventos.
+* **[!UICONTROL Cobertura de ID persistente]**: este valor se usa para la identificación durante el proceso de vinculación (en vivo y en reproducción), en caso de que no se pueda detectar un valor de ID de persona. Los eventos sin ID persistente ni ID de persona se pierden de los datos. Para obtener los mejores resultados de unificación, debe haber un ID persistente en todos los eventos.
 
   La cobertura de ID persistente se muestra como porcentaje y se compara con el mínimo recomendado en una configuración de desarrollo estable o de producción.
 
@@ -230,7 +230,7 @@ Una vez guardada una conexión, el proceso de vinculación para vincular conjunt
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
