@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b3988dcc0568245bc6aed7aa80cf1c636c61fc7d
+source-git-commit: da88f281e0b7657306c6c90851d615860721fe16
 workflow-type: tm+mt
-source-wordcount: '3432'
-ht-degree: 81%
+source-wordcount: '3511'
+ht-degree: 79%
 
 ---
 
@@ -26,7 +26,7 @@ Para acceder a la configuración de Content Analytics
 
 En la pantalla **[!UICONTROL Configuración de Content Analytics]**, verá una tabla de configuraciones de Content Analytics existentes.
 
-![Configuraciones de Content Analytics](../assets/aca-configuration-table.png)
+![configuraciones de Content Analytics](../assets/aca-configuration-table.png)
 Para cada configuración, están disponibles los siguientes detalles:
 
 | Columna | Descripción |
@@ -36,7 +36,7 @@ Para cada configuración, están disponibles los siguientes detalles:
 | **[!UICONTROL Creado el]** | La marca de tiempo de creación de la configuración. |
 | **[!UICONTROL Modificado el]** | La marca de tiempo de la última modificación de la configuración. |
 | **[!UICONTROL Zona protegida]** | La zona protegida dentro de la organización en la que se configura y se implementa (o se planea implementar) Content Analytics. |
-| **[!UICONTROL Estado]** | El estado de la configuración. El estado puede ser:<br/>![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Borrador]**: la configuración se guardó para más tarde y no se implementó.<br/>![StatusRed](/help/assets/icons/StatusRed.svg) **[!UICONTROL Error]**: la configuración ha fallado. Puede seleccionar **[!UICONTROL Editar]** para obtener información sobre el error. Adobe aborda activamente cualquier implementación fallida. Póngase en contacto con el Servicio de atención al cliente para obtener más información.<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Completado]**: la configuración se ha completado e implementado correctamente. |
+| **[!UICONTROL Estado]** | El estado de la configuración. El estado puede ser:<br/>![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Borrador]**: la configuración se guardó para más tarde y no se implementó.<br/>![StatusRed](/help/assets/icons/StatusRed.svg) **[!UICONTROL Error]**: la configuración ha fallado. Puede seleccionar **[!UICONTROL Editar]** para obtener información sobre el error. Adobe aborda activamente cualquier implementación fallida. Póngase en contacto con el Servicio de atención al cliente para obtener más información.<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Completo]**: la configuración se completó e implementó correctamente. |
 
 Puede utilizar ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para personalizar la tabla. Seleccione qué columnas desea mostrar en el cuadro de diálogo **[!UICONTROL Personalizar tabla]** y seleccione **[!UICONTROL Aplicar]** para aplicar los cambios.
 
@@ -193,7 +193,7 @@ Su configuración requiere la selección de una [vista de datos](/help/data-view
    Puede realizar las siguientes acciones:
 
    * Para buscar un conjunto de datos específico, utilice el campo ![Buscar](/help/assets/icons/Search.svg).
-   * Para filtrar la lista de vistas de datos disponibles, seleccione ![Mostrar filtro](/help/assets/icons/Filter.svg). Puede filtrar la lista en [!UICONTROL Conexión], [!UICONTROL Propietario] y [!UICONTROL Zona protegida].<br/>Utilice ![Ocultar](/help/assets/icons/Filter.svg) **[!UICONTROL Ocultar segmentos]** para ocultar el panel de segmentos.
+   * Para filtrar la lista de vistas de datos disponibles, seleccione ![Mostrar filtro](/help/assets/icons/Filter.svg). Puede filtrar la lista en [!UICONTROL Conexión], [!UICONTROL Propietario] y [!UICONTROL Espacio aislado].<br/>Use ![Ocultar](/help/assets/icons/Filter.svg) **[!UICONTROL Ocultar segmentos]** para ocultar el panel de segmentos.
    * Para definir qué columnas desea mostrar en la tabla, seleccione ![Configuración de columna](/help/assets/icons/ColumnSetting.svg). Seleccione qué columnas desea mostrar en el cuadro de diálogo **[!UICONTROL Personalizar tabla]** y seleccione **[!UICONTROL Aplicar]** para aplicar los cambios.
 
 1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) la vista de datos que desee utilizar.
@@ -519,3 +519,4 @@ Para recopilar datos para la configuración de Content Analytics, debe publicar 
 >
 >[Configuración manual](manual.md)
 >
+
