@@ -2,10 +2,10 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 8fe31fe0603c2b17fee930011cce915df3c76200
+source-git-commit: f59958b9d290138480fe4b5588d1b5660250be12
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 94%
+source-wordcount: '1427'
+ht-degree: 93%
 
 ---
 
@@ -406,10 +406,11 @@ ht-degree: 94%
       + [Administración de registros de exportación](/help/components/exports/manage-export-logs.md)
       + [Resolución de problemas de exportaciones](/help/components/exports/troubleshoot-exports.md)
       + Fuentes de datos {#cja-data-feeds}
-         + {hide-from-toc}[Resumen de la fuente de datos](/help/components/exports/cja-data-feeds/data-feed-overview.md)
+         + {hide-from-toc}[Resumen de fuente de datos](/help/components/exports/cja-data-feeds/data-feed-overview.md)
          + {hide-from-toc}[Comparar fuentes de datos de Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md)
          + {hide-from-toc}[Preparar para asignar columnas](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
          + {hide-from-toc}[Asignar columnas](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
+         + {hide-from-toc}[Crear una fuente de datos](/help/components/exports/cja-data-feeds/create-feed.md)
    + Diccionario de datos {#data-dictionary}
       + [Información general](../components/data-dictionary/data-dictionary-overview.md)
       + [Visualización de información de componentes en el diccionario de datos](../components/data-dictionary/view-data-dictionary.md)
