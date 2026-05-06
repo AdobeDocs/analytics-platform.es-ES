@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 19351a7155eda77d1768b486c7e39dcf7cdba935
+source-git-commit: 93f38f57021bf66cacd700ce6fbc46338fd6a034
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Por lo tanto, las solicitudes de privacidad no deben limitarse al conjunto de da
 
 El servicio de higiene funciona con *identidades principales*, pero las tablas de la base de datos externa que se reflejan tienen *claves principales*, no identidades principales.
 
-Las consecuencias de la diferencia entre identidades principales y claves principales son que las eliminaciones de higiene no se pueden ejecutar directamente en las tablas relacionales. Como resultado, debe:
+Las consecuencias de la diferencia entre identidades principales y claves principales son que las eliminaciones de higiene no se pueden ejecutar directamente en estas tablas relacionales. Como resultado, debe:
 
 * Elimine datos en sus propias tablas de origen dentro de la solución de almacén de datos y asegúrese de que las operaciones de eliminación fluyen a través de CDC (o la columna de cambio manual).
 * Envíe solicitudes de higiene y privacidad a Adobe para cualquier conjunto de datos basado en XDM descendente con información de identidad (por ejemplo: vistas de Customer Journey Analytics, conjuntos de datos de Real-Time Customer Data Platform, conjuntos de datos específicos de Adobe Journey Optimizer y más).
