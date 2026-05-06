@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 93f38f57021bf66cacd700ce6fbc46338fd6a034
+source-git-commit: 664d14beaa6bc8b01169cef9d50b2ca3a2de44d8
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,20 @@ Este artículo describe los factores que debe tener en cuenta al configurar conj
 
 Cuando se agrega una nueva columna a una tabla de origen en un conjunto de datos reflejado de datos habilitado para CDC, ese cambio puede almacenar en déclencheur las actualizaciones de todas las filas existentes. Estas actualizaciones se procesan como cambios a través de los CDC, que:
 
-* Puede comportarse como una reescritura de tabla completa desde una perspectiva de coste.
-* Puede aumentar drásticamente el volumen de ingesta, especialmente con cualquier precio futuro de *multiplicador de cambio* (por ejemplo, las operaciones de combinación podrían cobrarse a tarifas más altas).
+* Puede comportarse como una reescritura de tabla completa desde una perspectiva en curso.
+* Puede aumentar drásticamente el volumen de ingesta, lo que podría hacer que la actualización exceda sus derechos de ingesta.
 
 La estrategia recomendada para las columnas de la tabla de origen:
 
-* Asegúrese de que la mayoría de las columnas relevantes, si no todas, se definan inicialmente.
+* Asegúrese de que todas las columnas relevantes se hayan definido inicialmente.
 * Asigne cada columna que pueda pensar que necesita inicialmente.
+* Si se identifica una columna nueva como necesaria, elimine el conjunto de datos actual y vuelva a configurar el conector con la columna actualizada. Esto garantiza que los datos se rellenen de forma más eficiente y oportuna.
 
 Esta estrategia:
 
 * Evita una costosa evolución del esquema más adelante (actualizaciones masivas al añadir columnas).
 * Mantiene el volumen de cambios más predecible que cuando se agregan o modifican columnas más adelante.
-* Podría incurrir en algunos costes de cálculo adicionales en el lado de la base de datos externa, ya que el Data Warehouse podría interpretar todas las columnas como actualizaciones.
+* Ayuda a limitar los posibles costes de cálculo en la base de datos externa, ya que el Data Warehouse podría interpretar la nueva columna como una actualización de todas las filas.
 
 Para gestionar nuevas columnas en tablas externas del Data Warehouse, siga estos pasos:
 
@@ -48,7 +49,7 @@ Este enfoque minimiza el impacto en ambas partes.
 
 Las solicitudes de privacidad deben producirse del mismo modo en que se gestionan hoy las solicitudes de privacidad para esquemas no relacionales, ya que las solicitudes de privacidad son indiferentes a cómo se estructuran los datos.
 
-Los datos reflejados en un conjunto de datos a partir de datos externos basados en un esquema relacional pasan a formar parte del ecosistema de Adobe y se pueden compartir de muchas maneras. Por ejemplo, mediante la publicación de audiencias.
+Los datos reflejados desde un esquema relacional externo forman parte del ecosistema de Adobe y se pueden compartir en todo el ecosistema, por ejemplo, mediante la publicación de audiencias de Customer Journey Analytics. El envío de una solicitud de privacidad garantiza que las identidades y los datos asociados se gestionen correctamente en todo el ecosistema de Adobe.
 
 Por lo tanto, las solicitudes de privacidad no deben limitarse al conjunto de datos reflejado, sino que también deben implicar actualizaciones de los datos de origen en la base de datos externa.
 
@@ -64,7 +65,7 @@ Las consecuencias de la diferencia entre identidades principales y claves princi
 La diferencia entre la identidad principal y la clave principal introduce un modelo de responsabilidad compartida:
 
 * Adobe procesa la higiene donde hay identidades presentes.
-* Usted, como cliente, es responsable de alinear sus propios procesos de higiene en la base de datos de origen con las solicitudes de higiene que se envían a Adobe.
+* Usted, como cliente, es responsable de alinear sus propios procesos de higiene en la base de datos de origen con las solicitudes de higiene enviadas a Adobe.
 
 ## Diferencias de gobernanza
 
@@ -76,3 +77,18 @@ La diferencia de gobernanza tiene el siguiente impacto:
 
 * Un control y una configuración más manuales funcionan para usted como cliente.
 * Puede necesitar una guía explícita, por lo que no supone que el etiquetado único a través de grupos de campos sea suficiente para un control adecuado.
+
+## Unión
+
+Los esquemas relacionales tienen las siguientes consideraciones en relación con la vinculación:
+
+* Se admite parcialmente la vinculación basada en gráficos. No se pueden habilitar los esquemas relacionales para el perfil o la contribución al gráfico.
+* La vinculación basada en el campo es totalmente compatible.
+
+
+## Campos y claves del sistema
+
+Las siguientes consideraciones se aplican a las claves y los campos del sistema:
+
+* La clave principal, el descriptor de versión y el descriptor de marca de tiempo deben ser campos de nivel raíz en el esquema XDM relacional. Use [asignación de campos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante la ingesta para admitir este requisito.
+* Puede omitir los campos de origen apropiados durante la [fase de asignación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
