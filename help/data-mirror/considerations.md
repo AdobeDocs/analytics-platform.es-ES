@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 19351a7155eda77d1768b486c7e39dcf7cdba935
+source-git-commit: 93f38f57021bf66cacd700ce6fbc46338fd6a034
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Por lo tanto, las solicitudes de privacidad no deben limitarse al conjunto de da
 
 El servicio de higiene funciona con *identidades principales*, pero las tablas de la base de datos externa que se reflejan tienen *claves principales*, no identidades principales.
 
-Las consecuencias de la diferencia entre identidades principales y claves principales son que las eliminaciones de higiene no se pueden ejecutar directamente en las tablas relacionales. Como resultado, debe:
+Las consecuencias de la diferencia entre identidades principales y claves principales son que las eliminaciones de higiene no se pueden ejecutar directamente en estas tablas relacionales. Como resultado, debe:
 
 * Elimine datos en sus propias tablas de origen dentro de la solución de almacén de datos y asegúrese de que las operaciones de eliminación fluyen a través de CDC (o la columna de cambio manual).
 * Envíe solicitudes de higiene y privacidad a Adobe para cualquier conjunto de datos basado en XDM descendente con información de identidad (por ejemplo: vistas de Customer Journey Analytics, conjuntos de datos de Real-Time Customer Data Platform, conjuntos de datos específicos de Adobe Journey Optimizer y más).
@@ -68,7 +68,7 @@ La diferencia entre la identidad principal y la clave principal introduce un mod
 
 ## Diferencias de gobernanza
 
-En XDM [schemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) y conceptos subyacentes como [grupos de campos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field) definido dentro de un grupo de campos propaga sus etiquetas en todos los conjuntos de datos donde se utiliza el grupo de campos. Por ejemplo, un campo de correo electrónico `emailID` en un grupo de campos `identities`, está etiquetado como el mismo en todos los conjuntos de datos donde se utiliza el grupo de campos `identities`.
+En XDM [schemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) y conceptos subyacentes como [grupos de campos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field) definido dentro de un grupo de campos propaga sus etiquetas en todos los conjuntos de datos donde se utiliza el grupo de campos. Por ejemplo, un campo de correo electrónico `emailID` en un grupo de campos `identities`, está etiquetado como el mismo en todos los conjuntos de datos donde se utiliza el grupo de campos `identities`.
 
 En un esquema relacional, un nombre de columna es independiente. Una columna denominada `email` de la tabla `customers` es independiente y distinta de una columna denominada `email` de la tabla `prospects`. Este comportamiento implica que las etiquetas (como las etiquetas de uso DULE y las políticas) deben aplicarse individualmente a los campos de los conjuntos de datos reflejados. En función del ejemplo anterior, debe aplicar etiquetas tanto al campo `email` del conjunto de datos `customers` como al campo `email` del conjunto de datos `prospects`.
 
