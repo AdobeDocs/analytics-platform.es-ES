@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 8a42b98220875986d35852213a43460d1f583e55
 workflow-type: tm+mt
-source-wordcount: '2794'
-ht-degree: 97%
+source-wordcount: '2959'
+ht-degree: 93%
 
 ---
 
@@ -48,14 +48,11 @@ Para configurar una vista de datos nueva o existente, haga lo siguiente:
 
 
 1. Seleccione la pestaña **[!UICONTROL Configurar]** (si no está activa).
-
-
 1. Especificar datos de [!UICONTROL Configuración], [!UICONTROL Contenedor] y [!UICONTROL Calendario] (consulte más abajo).
 1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
 
 
 ### Configuración {#configure-settings}
-
 
 >[!CONTEXTUALHELP]
 >id="dataview_externalid"
@@ -80,7 +77,7 @@ Proporciona una configuración general para la vista de datos.
 >[!CONTEXTUALHELP]
 >id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Vistas de datos en Adobe Journey Optimizer"
->abstract="Customer Journey Analytics necesita utilizar una conexión y una vista de datos que sean compatibles con Adobe Journey Optimizer. De forma predeterminada, se crean automáticamente una conexión y una vista de datos para este fin.<br/>También puede habilitar esta opción para que sea la vista de datos predeterminada que se utilice en los informes de Adobe Journey Optimizer. Cuando está habilitada, todos los componentes necesarios para Journey Optimizer se añaden a esta vista de datos, y todos los conjuntos de datos de Journey Optimizer necesarios se añaden a la conexión asociada a esta vista de datos."
+>abstract="Customer Journey Analytics debe utilizar una conexión y una vista de datos que sean compatibles con Adobe Journey Optimizer. De forma predeterminada, se crea una conexión y una vista de datos con esta finalidad.<br/> Como alternativa, puede habilitar esta opción para que sea la vista de datos predeterminada que se utilice en la creación de informes de Adobe Journey Optimizer. Cuando se habilita, todos los componentes necesarios para Journey Optimizer se añaden a esta vista de datos y todos los conjuntos de datos de Journey Optimizer necesarios se añaden a la conexión asociada con esta vista de datos."
 >additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/integrations/ajo#connection" text="Qué componentes y conjuntos de datos se añaden."
 
 
@@ -110,7 +107,7 @@ Designa el nombre de los contenedores para la vista de datos. Los nombres de con
 
 {style="table-layout:auto"}
 
-### Ajustes de IA
+### Configuración de IA
 
 Seleccione **[!UICONTROL Habilitar para Data Insights Agent]** para habilitar la vista de datos para [Data Insights Agent](/help/data-analysis-ai.md). Data Insights Agent es un agente de conversación de IA generativa al que se puede acceder desde el asistente de IA de Customer Journey Analytics. Le ayuda a analizar rápidamente los datos con indicaciones de texto. El agente crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando los datos reales.
 
@@ -122,10 +119,10 @@ Indica el formato de calendario que desea que siga la vista de datos. Puede tene
 | Configuración | Descripción |
 | --- | --- |
 | [!UICONTROL **Zona horaria**] | Elija en qué zona horaria desea que se presenten los datos. Si elige una zona horaria que funcione según el horario de verano, los datos se ajustan automáticamente para reflejarlo. En primavera, cuando los relojes se adelantan, hay un espacio de una hora. En otoño, cuando los relojes se atrasan, se repite una hora durante el cambio del horario de verano. |
-| [!UICONTROL **Tipo de calendario**] | Determine cómo se agrupan las semanas del mes.<br>**Gregoriano:** formato de calendario estándar. Los trimestres se agrupan por mes.<br>**Venta minorista 4-5-4:** calendario de venta minorista estandarizado 4-5-4. El primer y último mes del trimestre contiene cuatro semanas, mientras que el segundo mes del trimestre consta de cinco semanas.<br>**Personalizado (4-5-4):** similar al calendario 4-5-4 excepto que puede elegir el primer día del año y el año en el que se produce la semana extra.<br>**Personalizado (4-4-5):** el primer y el segundo meses de cada trimestre contienen 4 semanas, mientras que la última semana de cada trimestre constan de 5 semanas.<br>**Personalizado (5-4-4):** el primer mes de cada trimestre consta de 5 semanas, mientras que el segundo y el tercer mes de cada trimestre constan de 4 semanas. |
+| [!UICONTROL **Tipo de calendario**] | Determine cómo se agrupan las semanas del mes.<br>**Gregoriano:** Formato de calendario estándar. Los trimestres se agrupan por mes.<br>**4-5-4 Ventas minoristas:** Calendario comercial estandarizado 4-5-4. El primer y último mes del trimestre contiene cuatro semanas, mientras que el segundo mes del trimestre consta de cinco semanas.<br>**Personalizado (4-5-4):** similar al calendario 4-5-4 excepto que puede elegir el primer día del año y el año en el que se produce la semana extra.<br>**Personalizado (4-4-5):** el primer y el segundo meses de cada trimestre contienen 4 semanas, mientras que la última semana de cada trimestre constan de 5 semanas.<br>**Personalizado (5-4-4):** el primer mes de cada trimestre consta de 5 semanas, mientras que el segundo y el tercer mes de cada trimestre constan de 4 semanas. |
 | [!UICONTROL **Primer mes del año**] y [!UICONTROL **primer día de la semana**] | Visible para el tipo de calendario gregoriano. Especifique en qué mes desea que comience el año del calendario y cada semana. |
 | [!UICONTROL **Primer día del año actual**] | Visible para tipos de calendario personalizados. Especifique qué día del año desea que comience el año actual. El calendario aplica automáticamente el formato del primer día de cada semana en función de este valor. |
-| [!UICONTROL **Año que incluye la semana “extra”**] | Con la mayoría de los calendarios de 364 días (52 semanas de 7 días cada uno), cada año se acumulan varios días restantes hasta formar una semana extra. Esta semana extra se agrega al último mes de ese año. Especifique a qué año desea agregar la semana adicional.<br><br/>**Semanas adicionales y años bisiestos**<br/> Al seleccionar un **[!UICONTROL Tipo de calendario]** personalizado (**[!UICONTROL Personalizado (4-5-4)]**, **[!UICONTROL Personalizado (4-4-5)]** o **[!UICONTROL Personalizado (5-4-4)]**), los días restantes se acumulan cada año hasta que sumen una semana adicional completa (siete días). Esa semana adicional se añade al año que seleccione en **[!UICONTROL Año que incluye la semana “extra”]**.<br/><br/>Los años bisiestos no se muestran de forma intencionada en el **[!UICONTROL Año que incluye la semana “extra”]**. Sin embargo, un año bisiesto puede contener 53 semanas. Para que un año bisiesto contenga 53 semanas, seleccione un año no bisiesto en **[!UICONTROL Año que incluye la semana “extra”]** para garantizar que la desviación acumulada de la fecha sume hasta siete días para el año bisiesto de destino. Por ejemplo: para tener 53 semanas en 2024, seleccione **[!UICONTROL 2019]**. De 2019 a 2024, la desviación de fecha total es de siete días (2020 (+2), 2021 (+1), 2022 (+1), 2023 (+1) y 2024 (+2)), lo que se traduce en una semana 53 en 2024.<br/><br/>La selección de **[!UICONTROL Primer día del año actual]** afecta al lugar dónde se ubica la semana adicional. Confirme la configuración con la vista previa del calendario. |
+| [!UICONTROL **Año que incluye la semana “extra”**] | Con la mayoría de los calendarios de 364 días (52 semanas de 7 días cada uno), cada año se acumulan varios días restantes hasta formar una semana extra. Esta semana extra se agrega al último mes de ese año. Especifique a qué año desea agregar la semana adicional.<br><br/>**Semanas adicionales y años bisiestos**<br/> Al seleccionar un **[!UICONTROL Tipo de calendario]** personalizado (**[!UICONTROL Personalizado (4-5-4)]**, **[!UICONTROL Personalizado (4-4-5)]** o **[!UICONTROL Personalizado (5-4-4)]**), los días restantes se acumulan cada año hasta que sumen una semana adicional completa (siete días). Esa semana adicional se añade al año que seleccione en **[!UICONTROL Año que incluye la semana “extra”]**.<br/><br/>Los años bisiestos no se muestran de forma intencionada en el **[!UICONTROL Año que incluye la semana “extra”]**. Sin embargo, un año bisiesto puede contener 53 semanas. Para que un año bisiesto contenga 53 semanas, seleccione un año no bisiesto en **[!UICONTROL Año que incluye la semana “extra”]** para garantizar que la desviación acumulada de la fecha sume hasta siete días para el año bisiesto de destino. Por ejemplo: para tener 53 semanas en 2024, seleccione **[!UICONTROL 2019]**. De 2019 a 2024, la deriva de fecha total es de 7 días (2020 (+2), 2021 (+1), 2022 (+1), 2023 (+1) y 2024 (+2)), lo que resulta en una semana 53 en 2024.<br/><br/>La selección de **[!UICONTROL Primer día del año actual]** afecta dónde aterriza la semana extra. Confirme la configuración con la vista previa del calendario. |
 
 {style="table-layout:auto"}
 
@@ -143,7 +140,7 @@ A continuación, puede establecer los componentes de una vista de datos, lo que 
 
    Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos y sus [!UICONTROL Campos de esquema] a continuación.  Los componentes ya incluidos son estándar (generados por el sistema) necesarios para todas las vistas de datos (como Eventos, Personas, Métricas de sesiones y las dimensiones Minuto, Trimestre y Semana). Adobe también aplica el filtro **[!UICONTROL Contiene datos]** y **[!UICONTROL no está obsoleto]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos y que no están obsoletos.
 
-1. Busque un campo de esquema mediante ![icono de búsqueda](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Buscar campos de esquema]** o busque un campo accediendo a cualquiera de las colecciones de conjuntos de datos, como ![Carpeta](/help/assets/icons/Folder.svg) **[!UICONTROL Conjuntos de datos de eventos]** o ![Carpeta](/help/assets/icons/Folder.svg) **[!UICONTROL Conjuntos de datos de búsqueda]**.  En el caso de los conjuntos de datos de eventos, hay disponibles colecciones independientes para ![Carpeta](/help/assets/icons/Folder.svg) **[!UICONTROL Campos XDM]** y ![Carpeta](/help/assets/icons/Folder.svg) **[!UICONTROL Campos ad hoc y relacionales]**.<br/>Como alternativa, puede crear un campo derivado utilizando ![Icono de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crear campo derivado**. Consulte [Campos derivados](./derived-fields/derived-fields.md) para obtener más información.
+1. Busque un campo de esquema mediante ![icono de búsqueda](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Buscar campos de esquema]** o busque un campo accediendo a cualquiera de las colecciones de conjuntos de datos, como ![Carpeta](/help/assets/icons/Folder.svg) **[!UICONTROL Conjuntos de datos de eventos]** o ![Carpeta](/help/assets/icons/Folder.svg) **[!UICONTROL Conjuntos de datos de búsqueda]**. Para los conjuntos de datos de evento, hay disponibles colecciones independientes para ![Folder](/help/assets/icons/Folder.svg) **[!UICONTROL campos XDM]** y ![Folder](/help/assets/icons/Folder.svg) **[!UICONTROL Campos adhoc y relacionales]**.<br/>También puede crear un campo derivado mediante ![Icono de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crear campo derivado** . Consulte [Campos derivados](./derived-fields/derived-fields.md) para obtener más información.
 
 1. Cuando haya encontrado el campo de esquema específico o haya definido el campo derivado, arrastre ese campo, como, por ejemplo, ![icono de controlador](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Nombre de página]**, desde el carril izquierdo hasta la sección **[!UICONTROL Métricas]** o **[!UICONTROL Dimensiones]** debajo de **[!UICONTROL Componentes incluidos]**.
 Puede arrastrar el mismo campo de esquema a las secciones de dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras. Por ejemplo, desde el campo pageName puede crear una dimensión llamada `Product Pages` y otra titulada `Error pages`, utilizando una [Configuración de componentes](component-settings/overview.md) diferente la derecha.
@@ -164,7 +161,7 @@ Si arrastra una carpeta de campos del esquema desde el carril izquierdo, los cam
    * [[!UICONTROL Persistencia]](component-settings/persistence.md)
    * [[!UICONTROL Clasificación de valor]](component-settings/value-bucketing.md)
 
-1. Seleccione **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
+1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
 
 ### Duplicado de métricas o dimensiones
 
@@ -242,7 +239,7 @@ Los **[!UICONTROL componentes incluidos]** contienen la lista de **[!UICONTROL M
    * **[!UICONTROL Gobernanza de datos]**: seleccione una o más etiquetas de las subcategorías [!UICONTROL Etiquetas personalizadas], [!UICONTROL Etiquetas de contrato], [!UICONTROL Etiquetas de identidad], [!UICONTROL Etiquetas de confidencialidad], [!UICONTROL Ecosistema de socios] o [!UICONTROL Directivas].
    * **[!UICONTROL Otros]**: seleccione una o más de las opciones [!UICONTROL Contiene datos], [!UICONTROL Es identidad] o [!UICONTROL No está obsoleto].
 
-  Seleccione **[!UICONTROL Aplicar]** para aplicar los filtros. 
+  Seleccione **[!UICONTROL Aplicar]** para aplicar los filtros.
 
 
 
@@ -255,7 +252,7 @@ Los **[!UICONTROL componentes incluidos]** contienen la lista de **[!UICONTROL M
 1. Configure los segmentos para aplicarlos a toda la vista de datos. Consulte [Configuración (segmentos)](#settings-filters) más abajo.
 1. Configure el tiempo de espera de sesión y las métricas. Consulte [Configuración de sesión](#session-settings) más abajo.
 
-1. Seleccione **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
+1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
 
 ### Configuración (segmentos) {#segment-settings}
 
