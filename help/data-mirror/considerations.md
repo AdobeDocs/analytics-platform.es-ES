@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 664d14beaa6bc8b01169cef9d50b2ca3a2de44d8
+source-git-commit: 80083aad28e6efd0d9498264cb540d9f2898f2bc
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 1%
@@ -28,7 +28,21 @@ La estrategia recomendada para las columnas de la tabla de origen:
 
 * Asegúrese de que todas las columnas relevantes se hayan definido inicialmente.
 * Asigne cada columna que pueda pensar que necesita inicialmente.
-* Si se identifica una columna nueva como necesaria, elimine el conjunto de datos actual y vuelva a configurar el conector con la columna actualizada. Esto garantiza que los datos se rellenen de forma más eficiente y oportuna.
+
+Si desea agregar una columna nueva, existen dos opciones, en función de si se requiere relleno retroactivo:
+
+* Relleno retroactivo:
+
+   * Elimine el conjunto de datos actual.
+   * Vuelva a configurar el conector con la columna actualizada.
+
+  Esto garantiza que los datos se rellenen de forma más eficiente y oportuna.
+
+* Sin relleno retroactivo:
+
+   * Agregue la columna en la tabla de origen.
+   * Añada la columna en el esquema del conjunto de datos de destinatario.
+   * Actualice la asignación para incluir el nuevo campo (columna) de la tabla de origen al conjunto de datos de destino.
 
 Esta estrategia:
 
@@ -36,14 +50,6 @@ Esta estrategia:
 * Mantiene el volumen de cambios más predecible que cuando se agregan o modifican columnas más adelante.
 * Ayuda a limitar los posibles costes de cálculo en la base de datos externa, ya que el Data Warehouse podría interpretar la nueva columna como una actualización de todas las filas.
 
-Para gestionar nuevas columnas en tablas externas del Data Warehouse, siga estos pasos:
-
-1. Cree un nuevo esquema con la columna añadida.
-1. Configure un nuevo conector de origen que incorpore los datos.
-1. Cargue el relleno correctamente.
-1. Utilice los cambios de CDC a partir de ahora.
-
-Este enfoque minimiza el impacto en ambas partes.
 
 ## Privacy Service
 
@@ -69,7 +75,7 @@ La diferencia entre la identidad principal y la clave principal introduce un mod
 
 ## Diferencias de gobernanza
 
-En XDM [schemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) y conceptos subyacentes como [grupos de campos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field) definido dentro de un grupo de campos propaga sus etiquetas en todos los conjuntos de datos donde se utiliza el grupo de campos. Por ejemplo, un campo de correo electrónico `emailID` en un grupo de campos `identities`, está etiquetado como el mismo en todos los conjuntos de datos donde se utiliza el grupo de campos `identities`.
+En XDM [schemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) y conceptos subyacentes como [grupos de campos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field) definido dentro de un grupo de campos propaga sus etiquetas en todos los conjuntos de datos donde se utiliza el grupo de campos. Por ejemplo, un campo de correo electrónico `emailID` en un grupo de campos `identities`, está etiquetado como el mismo en todos los conjuntos de datos donde se utiliza el grupo de campos `identities`.
 
 En un esquema relacional, un nombre de columna es independiente. Una columna denominada `email` de la tabla `customers` es independiente y distinta de una columna denominada `email` de la tabla `prospects`. Este comportamiento implica que las etiquetas (como las etiquetas de uso DULE y las políticas) deben aplicarse individualmente a los campos de los conjuntos de datos reflejados. En función del ejemplo anterior, debe aplicar etiquetas tanto al campo `email` del conjunto de datos `customers` como al campo `email` del conjunto de datos `prospects`.
 
@@ -90,5 +96,5 @@ Los esquemas relacionales tienen las siguientes consideraciones en relación con
 
 Las siguientes consideraciones se aplican a las claves y los campos del sistema:
 
-* La clave principal, el descriptor de versión y el descriptor de marca de tiempo deben ser campos de nivel raíz en el esquema XDM relacional. Use [asignación de campos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante la ingesta para admitir este requisito.
-* Puede omitir los campos de origen apropiados durante la [fase de asignación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
+* La clave principal, el descriptor de versión y el descriptor de marca de tiempo deben ser campos de nivel raíz en el esquema XDM relacional. Use [asignación de campos](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante la ingesta para admitir este requisito.
+* Puede omitir los campos de origen apropiados durante la [fase de asignación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
