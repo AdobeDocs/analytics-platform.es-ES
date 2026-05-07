@@ -119,7 +119,7 @@ Content Analytics administra las identidades del canal web de la siguiente maner
 * No se admite la vinculación basada en campos porque el esquema es propiedad del sistema. Por lo tanto, no se puede añadir otro campo al esquema para admitir la vinculación basada en el campo
 
 
-Para asegurarse de que los datos de identidad de Content Analytics y los datos de identidad de Web SDK se vinculan correctamente en el nivel de campo, modifique la llamada de retorno de Web SDK [en antes del envío de evento](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}.
+Para asegurarse de que los datos de identidad de Content Analytics y los datos de identidad de Web SDK se vinculan correctamente en el nivel de campo, modifique la llamada de retorno de Web SDK [en antes del envío de evento](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}.
 
 1. Vaya a la propiedad **[!UICONTROL Etiquetas]** que contiene las extensiones del SDK web de Adobe Experience Platform y de Adobe Content Analytics.
 1. Seleccione ![Complemento](/help/assets/icons/Plug.svg) **[!UICONTROL Extensiones]**.
