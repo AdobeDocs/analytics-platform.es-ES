@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 35d63b7d-f35a-4a88-ae14-96724d32a931
-source-git-commit: 1930e9da5d1cc8b5fb7ddc592535f035e4842a7b
+source-git-commit: beb2e35354d3da1fe6d22f4221e30ff0ccde3138
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 6%
+source-wordcount: '2631'
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ Content Analytics tiene licencia como producto independiente, pero la configurac
 
 Antes de comenzar la configuración de Content Analytics independiente, debe:
 
-* Obtenga información básica sobre los conceptos de análisis web, familiaridad con los sistemas de administración de etiquetas y conocimientos básicos de JavaScript.
+* Obtenga información básica sobre los conceptos de análisis web y móvil, familiaridad con los sistemas de administración de etiquetas y conocimientos básicos de JavaScript. En el caso de Content Analytics para el canal móvil, debe tener habilidades de desarrollo de aplicaciones móviles.
 * Planifique de 4 a 6 horas para la configuración inicial, además de tiempo adicional para probar y validar la configuración.
 
 ## Terminología
@@ -48,12 +48,12 @@ Esta guía utiliza varios términos técnicos, de Experience Platform y Customer
 
 Esta configuración le guiará en la configuración de todas las aplicaciones necesarias para tener una implementación de Content Analytics **independiente** en funcionamiento. Puede dividir la configuración en tres fases, en las que cada fase se basa en la anterior:
 
-**Fase 1** - [Prepare su entorno](#prepare-your-environment). En esta fase, se configuran los permisos de usuario y se verifica la infraestructura de datos. Sin estos permisos y estructura de datos adecuados, no puede completar los pasos restantes. Estos son los pasos necesarios:
+**Fase 1** - [Prepare su entorno](#prepare-your-environment). En esta fase, se configuran los permisos de usuario y se verifica la infraestructura de datos. Con estos permisos y estructura de datos adecuados, puede completar los pasos restantes. Estos son los pasos necesarios:
 
 1. **Configure el control de acceso y los permisos** para admitir la configuración y la implementación de Content Analytics.
 1. **Configure un esquema y un conjunto de datos** para definir el modelo (esquema) de los datos desde los que desea recopilar datos de análisis de contenido y dónde recopilarlos (conjunto de datos).
 
-**Fase 2** - [Configurar la recopilación de datos](#configure-data-collection). En esta fase, se crea la canalización que captura los datos de contenido del sitio web. Por lo tanto, Content Analytics sabe qué contenido interactúan los visitantes con el contenido.
+**Fase 2** - [Configurar la recopilación de datos](#configure-data-collection). En esta fase, se crea la canalización que captura los datos de contenido del sitio web. Por lo tanto, Content Analytics sabe con qué contenido se relacionan los visitantes.
 
 1. **Configure una secuencia de datos** para configurar cómo se enrutarán los datos recopilados al conjunto de datos.
 1. **Use etiquetas de sitio web** para configurar reglas y elementos de datos con respecto a los datos de su capa de datos en el sitio web y para asegurarse de que los datos se envíen al conjunto de datos configurado.
@@ -73,7 +73,7 @@ En esta fase, se configuran los permisos de usuario y se verifica la infraestruc
 
 ### Configuración del control de acceso y los permisos
 
-Esta sección describe qué acceso necesita al producto, los perfiles del producto y los permisos necesarios para configurar Content Analytics independiente. Aunque solo le interesa la funcionalidad de Content Analytics, para que funcione correctamente, sigue necesitando acceso y permisos para otros productos de Experience Platform.
+Esta sección describe qué acceso necesita a los productos y los perfiles de producto, así como los permisos necesarios para configurar Content Analytics independiente. Aunque solo le interesa la funcionalidad de Content Analytics, para que funcione correctamente, sigue necesitando acceso y permisos para otros productos de Experience Platform.
 
 #### Control de acceso
 
@@ -164,7 +164,7 @@ Para Content Analytics, debe comprobar si los siguientes recursos y permisos aso
       * Ver espacio aislado
 
 
-En la interfaz Permisos puede comprobar tanto las funciones como los permisos asociados. Y qué usuarios pertenecen a la función.
+En la interfaz Permisos puede comprobar tanto las funciones como los permisos asociados. La interfaz también muestra qué usuarios pertenecen a la función.
 
 1. Acceda a Experience Platform para su organización.
 1. En la pantalla de bienvenida, en **[!UICONTROL Acceso rápido]**, seleccione **[!UICONTROL Ver todo]**.
@@ -200,24 +200,18 @@ Para Content Analytics, debe comprobar si se incluyen los siguientes permisos de
    * Todas las vistas de datos disponibles.
 
 * Herramientas de informes
-   * ¿Acceso guiado a análisis?
    * Creación de métricas calculadas
    * Creación de segmentos
-   * ¿Acceso a Labs?
    * Creación de anotación
-   * Creación de audiencias?
-   * ¿Vista de audiencia?
    * Acceso a registros de auditoría
    * Uso compartido de vínculos del proyecto con cualquier persona
    * Previsión
    * Asistente de IA: conocimiento del producto
    * Data Insights Agent
    * Pies de ilustración inteligentes
-   * ¿Contar datos?
 
 * Herramientas de vista de datos
-   * ¿Exportación de tabla completa?
-   * ¿Extensión de CJA BI?
+   * Exportación de tablas completas
 
 Para comprobar y actualizar estos permisos para Customer Journey Analytics:
 
@@ -240,7 +234,7 @@ Para comprobar y actualizar estos permisos para Customer Journey Analytics:
 
 ### Configurar esquema y conjunto de datos
 
-Para recopilar datos de su sitio web, sujetos a las perspectivas de Content Analytics, primero debe definir qué tipo de datos desea recopilar. Y también cómo se almacenan esos datos. Ambos conceptos se explican en [Configuración de un esquema y un conjunto de datos](/help/data-ingestion/aepwebsdk.md#set-up-a-schema-and-dataset) en la guía de inicio rápido [Ingesta de datos mediante Adobe Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md).
+Para recopilar datos del sitio web para obtener información de Content Analytics, primero debe definir qué tipo de datos desea recopilar. También debe definir cómo se almacenan esos datos. Ambos conceptos se explican en [Configuración de un esquema y un conjunto de datos](/help/data-ingestion/aepwebsdk.md#set-up-a-schema-and-dataset) en [Ingesta de datos mediante Adobe Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md) e [Ingesta de datos mediante la guía de inicio rápido de Adobe Experience Platform Mobile SDK](/help/data-ingestion/aepmobilesdk.md).
 
 
 ## Configuración de la recopilación de datos
@@ -254,14 +248,14 @@ Ha definido qué datos recopilar y cómo almacenar esos datos. El siguiente paso
 
 ### Usar etiquetas
 
-Ha definido qué datos recopilar (esquema), cómo almacenar esos datos (conjunto de datos) y cómo se enrutan los datos recopilados del sitio web al conjunto de datos (conjunto de datos). Como paso siguiente, debe etiquetar el sitio web para configurar reglas y elementos de datos con los datos de la capa de datos del sitio web. El etiquetado del sitio web garantiza que los datos se envíen al conjunto de datos configurado. El etiquetado de su sitio web con la ayuda de las etiquetas se explica en [Usar etiquetas](/help/data-ingestion/aepwebsdk.md#use-tags) en la guía de inicio rápido de [Ingesta de datos mediante Adobe Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md).
+Ha definido qué datos recopilar (esquema), cómo almacenar esos datos (conjunto de datos) y cómo se enrutan los datos recopilados del sitio web al conjunto de datos (conjunto de datos). Como paso siguiente, debe etiquetar el sitio web para configurar reglas y elementos de datos con los datos de la capa de datos del sitio web. El etiquetado del sitio web garantiza que los datos se envíen al conjunto de datos configurado. Etiquetar su sitio web con etiquetas se explica en Usar etiquetas en las guías de inicio rápido de [Web SDK](/help/data-ingestion/aepwebsdk.md#use-tags) y [Mobile SDK](/help/data-ingestion/aepmobilesdk.md#use-tags).
 
 
 ### Implementar y validar
 
 Ahora puede implementar el código en la versión de desarrollo de su sitio web dentro de la etiqueta `<head>`. Cuando se implementa, el sitio web comienza a recopilar datos en Adobe Experience Platform. Estos datos están sujetos a Content Analytics.
 
-Valide la implementación, corríjala donde sea necesario y, una vez correcta, impleméntelo en el entorno de ensayo y producción mediante la función de flujo de trabajo de publicación de Etiquetas
+Valide la implementación, corrija lo que sea necesario y, una vez sea correcta, impleméntela en el entorno de ensayo y producción utilizando la función de flujo de trabajo de publicación de Etiquetas.
 
 
 ## Configuración de informes
@@ -270,12 +264,12 @@ En esta fase se ponen a disposición los datos recopilados para su análisis en 
 
 ### Configuración de una conexión con el conjunto de datos
 
-Para informar sobre los datos recopilados y configurarlos para Content Analytics, debe configurar una conexión en Customer Journey Analytics. La conexión se conecta al conjunto de datos que contiene los datos recopilados. La forma de configurar una conexión se explica en [Configurar una conexión](../../data-ingestion/aepwebsdk.md#set-up-a-connection) en la guía de inicio rápido de [Ingesta de datos mediante Adobe Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md).
+Para informar sobre los datos recopilados y configurarlos para Content Analytics, debe configurar una conexión en Customer Journey Analytics. La conexión se conecta al conjunto de datos que contiene los datos recopilados. Consulte [Configurar una conexión](../../data-ingestion/aepwebsdk.md#set-up-a-connection) en las guías de inicio rápido de [Web SDK](/help/data-ingestion/aepwebsdk.md) y [Mobile SDK](/help/data-ingestion/aepmobilesdk.md#set-up-a-connection).
 
 
 ### Configurar una vista de datos
 
-El paso final para configurar Content Analytics es definir una vista de datos. Una vista de datos es un contenedor específico de Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión. Una vista de datos permite definir métricas y dimensiones a partir de los datos de uno o varios conjuntos de datos a los que está conectado Customer Journey Analytics. La configuración de una vista de datos se explica en [Configuración de una vista de datos](/help/data-ingestion/aepwebsdk.md#set-up-a-data-view) en la guía de inicio rápido de [Ingesta de datos mediante Adobe Experience Platform Web SDK](/help/data-ingestion/aepwebsdk.md).
+El paso final para configurar Content Analytics es definir una vista de datos. Una vista de datos es un contenedor específico de Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión. Una vista de datos permite definir métricas y dimensiones a partir de los datos de uno o varios conjuntos de datos a los que está conectado Customer Journey Analytics. Consulte [Configurar una vista de datos](/help/data-ingestion/aepwebsdk.md#set-up-a-data-view) en las guías de inicio rápido de [Web SDK](/help/data-ingestion/aepwebsdk.md) y [Mobile SDK](/help/data-ingestion/aepmobilesdk.md#set-up-a-data-view).
 
 
 ### Configuración de Content Analytics
@@ -284,7 +278,7 @@ Ahora tiene todo lo necesario para configurar Content Analytics.
 
 #### Configuración guiada
 
-Use el [asistente de configuración guiada](guided.md) y seleccione la vista de datos que creó como parte del paso [Configurar una vista de datos](#set-up-a-data-view). Esta selección garantiza que Content Analytics se configure e implemente sobre los datos que recopile de su sitio web.
+Use el [asistente de configuración guiada](guided.md) y seleccione la vista de datos que creó como parte del paso [Configurar una vista de datos](#set-up-a-data-view). Esta selección garantiza que Content Analytics se configure e implemente sobre los datos que recopile de su sitio web y aplicación móvil.
 
 Tenga en cuenta que el asistente de configuración guiada configura los siguientes objetos específicos de Content Analytics adicionales:
 
@@ -296,7 +290,6 @@ Tenga en cuenta que el asistente de configuración guiada configura los siguient
   >
   >Asegúrese de seleccionar la opción para crear una propiedad Nuevas etiquetas como parte del paso [Recopilación de datos](guided.md#new-configuration-1) del asistente.
   >
-
 
 #### Configuración manual
 

@@ -5,8 +5,8 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
-exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
-source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
+exl-id: a8795fe-f5aa-458f-9e01-53ff1ffe6372
+source-git-commit: d8d82830188a24bc01bac35c22a27c7f12f9e615
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 4%

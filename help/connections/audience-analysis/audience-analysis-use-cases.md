@@ -4,17 +4,18 @@ description: Conozca los casos de uso de Análisis de audiencia.
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-exl-id: 4f465e71-f1b5-4f38-a1db-645550856849
-source-git-commit: ac86664e0136563d904021c72347fb544cda4a6d
+hide: true
+exl-id: f465e71-f1b5-4f38-a1db-645550856849
+source-git-commit: d8d82830188a24bc01bac35c22a27c7f12f9e615
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 1%
+source-wordcount: '1517'
+ht-degree: 0%
 
 ---
 
 # Casos de uso de Audience Analysis {#analyze-audiences-use-cases}
 
-Audience Analysis permite crear informes con los datos de pertenencia a audiencias de Experience Platform en Customer Journey Analytics. Esto se logra mediante configuraciones administradas mediante el asistente de configuraciones de Análisis de audiencia, que le ayuda a determinar qué conjunto de datos de perfil está ingiriendo, además de otros parámetros y detalles de configuración. (Para obtener información general más detallada, consulte [Resumen de análisis de audiencia](/help/connections/audience-analysis/audience-analysis-overview.md).)
+Audience Analysis permite crear informes con los datos de pertenencia a audiencias de Experience Platform en Customer Journey Analytics. Esto se logra mediante configuraciones administradas mediante el asistente de configuraciones de Análisis de audiencia, que le ayuda a determinar qué conjunto de datos de perfil está ingiriendo, además de otros parámetros y detalles de configuración. (Para obtener información general más detallada, consulte [Resumen de análisis de audiencia](/help/connections/audience-analysis/audience-analysis-overview.md). )
 
 Este documento incluye casos de uso de ejemplo que resaltan el valor que proporciona Análisis de audiencia. Antes de revisar los casos de uso, familiarícese primero con las consideraciones de creación de informes que se indican a continuación. Es importante tener en cuenta estas consideraciones al revisar los casos de uso, ya que pueden afectar al resultado final de los informes.
 
