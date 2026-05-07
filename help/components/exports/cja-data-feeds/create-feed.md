@@ -3,10 +3,10 @@ title: Crear un feed de datos
 description: Aprenda a crear una fuente de datos y conozca la información del archivo que debe proporcionar a Adobe.
 hide: true
 feature: Components
-source-git-commit: a565bc01f47255b98436a52c00a933a6f845e9ec
+source-git-commit: 54a7f59847b752a4e898b488a90520e8b31d3622
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 20%
+source-wordcount: '2439'
+ht-degree: 19%
 
 ---
 
@@ -27,16 +27,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_datafeed_os_strings"
->title="Reemplazar cadenas del sistema operativo"
->abstract="Esta opción limpia la salida de datos detectando las siguientes secuencias de cadenas incrustadas en los datos del cliente y reemplazándolas por un espacio: <br/>Windows: CRLF, CR o TAB<br/>Mac y Linux: \n, \r o \t"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="aa_datafeed_export_file"
+>id="cja_datafeed_export_file"
 >title="Manifiesto"
 >abstract="Elija si desea incluir un archivo de manifiesto con cada entrega de feed de datos. Los archivos de manifiesto contienen información para cada archivo incluido en el feed de datos. Al enviar datos del feed de datos en un solo paquete, también puede optar por incluir un archivo de finalización, pero se recomiendan los archivos de manifiesto. "
 
@@ -45,7 +36,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_datafeed_notify"
+>id="cja_datafeed_notify"
 >title="Notificar cuando se complete"
 >abstract="Especifique una o varias direcciones de correo electrónico a las que se debe enviar una notificación después de enviar el feed de datos. Las múltiples direcciones de correo electrónico deben separarse con una coma."
 
@@ -54,7 +45,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_datafeed_lookback_date_range"
+>id="cja_datafeed_lookback_date_range"
 >title="Intervalo de fecha de retroactividad"
 >abstract="Controla la distancia a la que se muestra Customer Journey Analytics al procesar la entrega de fuentes de datos.<br/>Esta configuración no altera la ventana de frecuencia (hora o día). Sin embargo, el intervalo de fechas de retrospectiva puede influir en los datos que se envían. La calificación de segmentos, el cálculo de sesiones y la persistencia de dimensiones se ven afectados por el intervalo de fechas retrospectivo."
 
