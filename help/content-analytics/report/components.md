@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 21bf687f3cff101ee1b3e4be3d870de270f82e89
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 100%
+source-wordcount: '1020'
+ht-degree: 88%
 
 ---
 
@@ -21,8 +21,8 @@ Content Analytics añade las siguientes categorías de componentes (dimensiones,
 * [Eventos de la experiencia](#experience-events)
 * [Metadatos del recurso](#asset-metadata)
 * [Atributos del recurso](#asset-attributes)
-* [Eventos de recursos](#asset-events)
-* [Métricas calculadas ](#calculated-metrics)
+* [Eventos del recurso](#asset-events)
+* [Métricas calculadas](#calculated-metrics)
 
 En las tablas siguientes, ![Generado por IA](/help/assets/icons/AI.svg) indica un par atributo/valor generado por IA/ML.
 
@@ -30,8 +30,12 @@ En las tablas siguientes, ![Generado por IA](/help/assets/icons/AI.svg) indica u
 
 | Título | Descripción | Tipo |
 |---|---|---|
-| Canal de la experiencia | Canal para la experiencia. | Dimensión |
-| ID de la experiencia | ID único de la experiencia. | Dimensión |
+| ID SOURCE | Para Content Analytics, el valor es `ContentAnalytics`. | Dimensión |
+| Canal | Canal para la experiencia. El valor es `Web` o `Mobile`. | Dimensión |
+| ID de experiencia de contenido | ID único de la experiencia. <br>Para **web**: URL de la página web. <br/>Para **web granular**: un hash calculado del lado del cliente basado en la carga útil de contenido (textos, imágenes, ctas) con el prefijo `web-`. <br/>Para **mobile**: un hash calculado del lado del cliente basado en la carga útil de contenido (textos, imágenes, ctas) con el prefijo `mobile-`. | Dimensión |
+| Content Experience Source | Para **web**: la dirección URL de la página web.<br/>Para **móvil**: el nombre de pantalla, pasado a través de Experience Platform Mobile SDK. | Dimensión |
+| Canal de experiencia (obsoleto) | Canal para la experiencia. El valor es `Web` o `Mobile`. | Dimensión |
+| Extras de experiencia | Cualquier otro dato adicional que desee rastrear. Como ID externo o ubicación. | Dimensión |
 | URL de miniatura de la experiencia | URL de la miniatura de la experiencia. | Dimensión |
 | Profundidad porcentual horizontal de la experiencia | Valor cuantificable de la profundidad porcentual horizontal de la experiencia. | Campo derivado de Dimensión<br/> |
 | Profundidad porcentual vertical de la experiencia | Valor cuantificable de la profundidad porcentual vertical de la experiencia. | Campo derivado de Dimensión<br/> |
@@ -77,12 +81,14 @@ En las tablas siguientes, ![Generado por IA](/help/assets/icons/AI.svg) indica u
 | Título | Descripción | Tipo |
 |---|---|---|
 | ID del recurso | Identificador único del recurso. El binario de recursos determina la exclusividad. Si el binario del recurso cambia, el ID sí cambia. El ID único puede ser la dirección URL, pero también puede ser un hash creado. | Dimensión |
+| Origen de recursos | | Dimensión |
 | Ruta HTML del recurso | Ruta de HTML concatenada para el recurso. | Dimensión |
 | URL de vínculo del recurso | Anclaje de página más cercano del recurso. | Dimensión |
 | Anchura de visualización del recurso | Anchura de visualización del recurso de contenido. | Dimensión |
 | Altura de visualización del recurso | Altura de visualización del recurso de contenido. | Dimensión |
 | Resto absoluto de recurso | Resto absoluto del recurso de contenido. | Dimensión |
 | Máximo absoluto del recurso | Máximo absoluto del recurso de contenido. | Dimensión |
+| Extras de recursos | Cualquier otro dato adicional que desee rastrear. Como ID externo o ubicación. | Dimensión |
 
 {style="table-layout:fixed"}
 
@@ -135,12 +141,12 @@ En las tablas siguientes, ![Generado por IA](/help/assets/icons/AI.svg) indica u
 {style="table-layout:fixed"}
 -->
 
-## Métricas calculadas 
+## Métricas calculadas
 
 | Título | Descripción | Tipo |
 |---|---|---|
 | Tasa de clics del recurso | Clics del recursos/Vistas del recurso | Métrica calculada |
-| Tasa de clics de experiencia | Clics de la experiencias/Vistas de la experiencia | Métrica calculada |
+| Tasa de clics en la experiencia | Clics de la experiencias/Vistas de la experiencia | Métrica calculada |
 
 {style="table-layout:fixed"}
 
