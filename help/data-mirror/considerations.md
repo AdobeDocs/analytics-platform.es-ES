@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 664d14beaa6bc8b01169cef9d50b2ca3a2de44d8
+source-git-commit: 80083aad28e6efd0d9498264cb540d9f2898f2bc
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 1%
@@ -28,7 +28,21 @@ La estrategia recomendada para las columnas de la tabla de origen:
 
 * Asegúrese de que todas las columnas relevantes se hayan definido inicialmente.
 * Asigne cada columna que pueda pensar que necesita inicialmente.
-* Si se identifica una columna nueva como necesaria, elimine el conjunto de datos actual y vuelva a configurar el conector con la columna actualizada. Esto garantiza que los datos se rellenen de forma más eficiente y oportuna.
+
+Si desea agregar una columna nueva, existen dos opciones, en función de si se requiere relleno retroactivo:
+
+* Relleno retroactivo:
+
+   * Elimine el conjunto de datos actual.
+   * Vuelva a configurar el conector con la columna actualizada.
+
+  Esto garantiza que los datos se rellenen de forma más eficiente y oportuna.
+
+* Sin relleno retroactivo:
+
+   * Agregue la columna en la tabla de origen.
+   * Añada la columna en el esquema del conjunto de datos de destinatario.
+   * Actualice la asignación para incluir el nuevo campo (columna) de la tabla de origen al conjunto de datos de destino.
 
 Esta estrategia:
 
@@ -36,14 +50,6 @@ Esta estrategia:
 * Mantiene el volumen de cambios más predecible que cuando se agregan o modifican columnas más adelante.
 * Ayuda a limitar los posibles costes de cálculo en la base de datos externa, ya que el Data Warehouse podría interpretar la nueva columna como una actualización de todas las filas.
 
-Para gestionar nuevas columnas en tablas externas del Data Warehouse, siga estos pasos:
-
-1. Cree un nuevo esquema con la columna añadida.
-1. Configure un nuevo conector de origen que incorpore los datos.
-1. Cargue el relleno correctamente.
-1. Utilice los cambios de CDC a partir de ahora.
-
-Este enfoque minimiza el impacto en ambas partes.
 
 ## Privacy Service
 
