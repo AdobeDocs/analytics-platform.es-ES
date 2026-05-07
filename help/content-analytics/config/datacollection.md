@@ -1,16 +1,17 @@
 ---
 title: Recopilación de datos de Content Analytics
-description: Información general sobre cómo se recopilan los datos en Content Analytics
+description: Descubra cómo se recopilan los datos en Content Analytics.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: a593221a9eb81d747777aedb323fd44a32c470be
+source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 53%
+source-wordcount: '1093'
+ht-degree: 52%
 
 ---
+
 
 # Recopilación de datos de Content Analytics
 
@@ -119,7 +120,7 @@ Content Analytics administra las identidades del canal web de la siguiente maner
 * No se admite la vinculación basada en campos porque el esquema es propiedad del sistema. Por lo tanto, no se puede añadir otro campo al esquema para admitir la vinculación basada en el campo
 
 
-Para asegurarse de que los datos de identidad de Content Analytics y los datos de identidad de Web SDK se vinculan correctamente en el nivel de campo, modifique la llamada de retorno de Web SDK [en antes del envío de evento](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}.
+Para asegurarse de que los datos de identidad de Content Analytics y los datos de identidad de Web SDK se vinculan correctamente en el nivel de campo, modifique la llamada de retorno de Web SDK [en antes del envío de evento](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}.
 
 1. Vaya a la propiedad **[!UICONTROL Etiquetas]** que contiene las extensiones del SDK web de Adobe Experience Platform y de Adobe Content Analytics.
 1. Seleccione ![Complemento](/help/assets/icons/Plug.svg) **[!UICONTROL Extensiones]**.

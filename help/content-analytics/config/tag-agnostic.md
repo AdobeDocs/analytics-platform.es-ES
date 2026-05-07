@@ -1,16 +1,17 @@
 ---
 title: Configuración independiente de etiquetas de Content Analytics
-description: Obtenga información sobre cómo configurar Content Analytics sin utilizar etiquetas de recopilación de datos de Experience Platform
+description: Obtenga información sobre cómo configurar Content Analytics sin utilizar etiquetas de recopilación de datos de Experience Platform.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 hide: true
-source-git-commit: d324e2b03d47ba1cf8e5abbadc817b98b27ea68e
+source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
 
 ---
+
 
 # Configuración agnóstica de etiquetas de Content Analytics
 
@@ -44,7 +45,7 @@ Use `npm` para instalar la biblioteca.
 
 Cargue la biblioteca directamente desde la CDN.
 
-1. Inicialice la [biblioteca JavaScript de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library) y cargue el paquete de Content Analytics:
+1. Inicialice la [biblioteca JavaScript de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library) y cargue el paquete de Content Analytics:
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -66,7 +67,7 @@ Cargue la biblioteca directamente desde la CDN.
    ```
 
    dónde
-   * `alloy/2.x.x` hace referencia a la versión que desea usar de la [biblioteca de Web SDK JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library).
+   * `alloy/2.x.x` hace referencia a la versión que desea usar de la [biblioteca de Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library).
    * `content-analytics/1.x.x` hace referencia a la versión que desea utilizar de la biblioteca SDK de Content Analytics.
 
 2. La compilación independiente expone `window.contentAnalytics` como función de inicialización.

@@ -1,16 +1,17 @@
 ---
 title: Configuración guiada de Content Analytics
-description: Cómo configurar Content Analytics mediante una configuración guiada de incorporación
+description: Obtenga información sobre cómo configurar Content Analytics mediante una configuración guiada de incorporación.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 21bf687f3cff101ee1b3e4be3d870de270f82e89
+source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
 workflow-type: tm+mt
-source-wordcount: '3991'
+source-wordcount: '3992'
 ht-degree: 48%
 
 ---
+
 
 # Configuración guiada de Content Analytics
 

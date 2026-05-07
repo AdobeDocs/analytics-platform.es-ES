@@ -1,16 +1,17 @@
 ---
 title: Configuración de Content Analytics
-description: Información general sobre cómo configurar Content Analytics
+description: Obtenga información sobre cómo configurar Content Analytics para la web y el canal móvil.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: beb2e35354d3da1fe6d22f4221e30ff0ccde3138
+source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 77%
+source-wordcount: '776'
+ht-degree: 76%
 
 ---
+
 
 # Configuración de Content Analytics
 
@@ -39,7 +40,7 @@ Antes de configurar Content Analytics, asegúrese de que se cumplen los siguient
 ### Web
 
 * Ha incluido en la lista de permitidos el agente de usuario y la dirección IP para el servicio de caracterización que se utiliza en Content Analytics. La cadena del agente de usuario que se va a configurar es: <code>AdobeFeaturization/1.0</code>.
-* Si ha implementado [Web SDK mediante JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library){target="_blank"} para la recopilación de datos de comportamiento normal, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> Actualice la biblioteca de JavaScript.
+* Si ha implementado [Web SDK mediante JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library){target="_blank"} para la recopilación de datos de comportamiento normal, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> Actualice la biblioteca de JavaScript.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y para administrar vistas de datos.
 * Si decide recopilar experiencias de Content Analytics, asegúrese de configurar y actualizar el control de versiones de Content Analytics en función de los cambios realizados en las páginas web.
 * Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions){target="_blank"}:

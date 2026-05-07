@@ -5,12 +5,13 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 21bf687f3cff101ee1b3e4be3d870de270f82e89
+source-git-commit: f29a55379d83fc9bdd89c82f0b27c4321a139908
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 47%
 
 ---
+
 
 # Información general sobre creación de informes de Content Analytics
 
