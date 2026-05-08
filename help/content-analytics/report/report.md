@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: f29a55379d83fc9bdd89c82f0b27c4321a139908
+source-git-commit: 8c4bd397aa2863c7365778cb545ec42d9b0f4528
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1419'
 ht-degree: 47%
 
 ---
@@ -100,7 +100,11 @@ Para utilizar la plantilla:
 1. En el cuadro de diálogo **[!UICONTROL Configurar la plantilla]**, seleccione una métrica del cuadro de diálogo **[!UICONTROL Seleccionar una métrica de conversión]**. Por ejemplo, **[!UICONTROL CTR del recurso]**.
 1. Seleccione **[!UICONTROL Continuar]**.
 
-Se abre un proyecto de **[!UICONTROL Información general de Content Analytics]** en [Analysis Workspace](/help/analysis-workspace/home.md). El proyecto consta de cuatro [paneles](/help/analysis-workspace/c-panels/panels.md), donde cada panel proporciona [tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) y [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para responder a una pregunta específica. Puede usar el desglose **[!UICONTROL Canal de contenido]** para [desglosar](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel) el panel del canal de contenido que le interesa: **[!UICONTROL web]** o **[!UICONTROL móvil]**.
+Se abre un proyecto de **[!UICONTROL Información general de Content Analytics]** en [Analysis Workspace](/help/analysis-workspace/home.md). El proyecto consta de cuatro [paneles](/help/analysis-workspace/c-panels/panels.md), donde cada panel proporciona [tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) y [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para responder a una pregunta específica.
+
+Puede usar el desglose **[!UICONTROL Canal de contenido]** para [desglosar](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel) el panel del canal de contenido que le interesa: **[!UICONTROL web]** o **[!UICONTROL móvil]**.
+
+![Desglose del canal de contenido en el panel de Analysis Workspace](/help/content-analytics/assets/aca-content-channel-selector.png)
 
 Los cuatro paneles son:
 
