@@ -5,8 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 badgePremium: label="Beta"
-hide: true
-source-git-commit: 80083aad28e6efd0d9498264cb540d9f2898f2bc
+source-git-commit: 725ec404666d706801f06eb4ea46628b02506d59
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 1%
