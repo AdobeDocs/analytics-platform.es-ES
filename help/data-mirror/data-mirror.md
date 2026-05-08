@@ -6,10 +6,10 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
-source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
+source-git-commit: dc3aa31c280c1a8ee8a0187edeca9bd34a2c9e2e
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 2%
+source-wordcount: '447'
+ht-degree: 4%
 
 ---
 
@@ -26,20 +26,20 @@ Utilice Experience Platform Data Mirror para sincronizar inserciones, actualizac
 Data Mirror proporciona las siguientes funciones esenciales para la sincronización de bases de datos:
 
 * **Aplicación de clave principal.** Garantiza la exclusividad dentro de los conjuntos de datos y evita registros duplicados durante la ingesta.
-* **Ingesta de cambios a nivel de fila.** admite cambios de datos granulares, incluidas actualizaciones y eliminaciones con control de precisión.
-* **Relaciones de esquema.** Habilita relaciones de clave principal y externa entre conjuntos de datos mediante descriptores.
-* **Control de eventos desordenado.** procesos cambian eventos utilizando descriptores de versión y marca de tiempo, incluso cuando llegan fuera de secuencia.
-* **Integración directa con el almacén.** se conecta con los almacenes de datos en la nube compatibles para sincronizar cambios en tiempo real.
+* **Ingesta de cambios a nivel de fila.** Admite cambios de datos granulares, incluidas actualizaciones y eliminaciones con control de precisión.
+* **Relaciones de esquema.** Habilita relaciones de clave externa y principal entre conjuntos de datos mediante descriptores.
+* **Control de eventos desordenado.** Los procesos cambian eventos utilizando descriptores de versión y marca de tiempo, incluso cuando llegan fuera de secuencia.
+* **Integración directa con el almacén.** Se conecta con almacenes de datos en la nube compatibles para la sincronización de cambios en tiempo real.
 
 Utilice Data Mirror para introducir cambios directamente desde los sistemas de origen, aplicar la integridad del esquema y hacer que los datos estén disponibles para los flujos de trabajo de análisis, orquestación de recorrido y conformidad. Data Mirror elimina los procesos complejos de ETL ascendentes y acelera la implementación al permitir la duplicación directa de los modelos de base de datos existentes. Esta eliminación puede mejorar la gobernanza de los datos mediante un control preciso de las eliminaciones y las operaciones de higiene de los datos.
 
-Consulte también la [documentación de Experience Platform en Data Mirror](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}.
+Consulte también la [documentación de Experience Platform en Data Mirror](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}.
 
 ## Data Mirror para Customer Journey Analytics
 
 >[!NOTE]
 >
->La funcionalidad Experience Platform Data Mirror para Customer Journey Analytics está disponible en **versión beta pública** hasta el 25 de marzo de 2026. Los clientes pueden ingerir hasta 2 millones de filas de cambios al día en el lago de datos de Adobe Experience Platform a través de conectores de origen. Adobe se reserva el derecho de finalizar el acceso beta a la funcionalidad de Experience Platform Data Mirror en caso de que su organización supere estos límites. <br/>Para solicitar acceso a esta funcionalidad, comuníquese con el equipo de cuenta de Adobe.
+>Data Mirror es una característica actualmente en fase beta que admite la sincronización de datos de almacenes de datos seleccionados mediante la captura de datos modificados (CDC) para su análisis en Customer Journey Analytics.<br/>Esta característica estará disponible para el público general en Customer Journey Analytics el 18 de junio de 2026. Consulte la Descripción del producto aplicable para comprender cómo podría afectar al consumo límite de ingesta anual a partir de ahora. Tenga en cuenta que su organización seguirá teniendo acceso a la función cuando Data Mirror pase de la versión beta a la versión de disponibilidad general.
 >
 
 Experience Platform Data Mirror para Customer Journey Analytics está disponible para las soluciones nativas seleccionadas del Data Warehouse ([!DNL Azure Databricks], [!DNL Google BigQuery] y [!DNL Snowflake]). La versión de Customer Journey Analytics de Experience Platform Data Mirror requiere la configuración adecuada de las siguientes aplicaciones o componentes:
@@ -51,5 +51,5 @@ Experience Platform Data Mirror para Customer Journey Analytics está disponible
 >[!MORELIKETHIS]
 >
 >[Guía de inicio rápido de Data Mirror: crear reflejos y utilizar datos relacionales](relational.md)
->[Data Mirror (documentación de Experience Platform)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/data-mirror/overview)
+>[Data Mirror (documentación de Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
 >[Esquemas relacionales (documentación de Experience Platform)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational)
