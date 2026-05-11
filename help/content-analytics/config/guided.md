@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
+source-git-commit: 3e08fa116d3690cad450f92825bfd34023dbee24
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4018'
 ht-degree: 48%
 
 ---
@@ -502,6 +502,16 @@ Para configurar la recopilación de datos:
 
 
 ##### Anulaciones de encabezado {#web-header-overrides}
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_boldheader"
+>title="Anulaciones de encabezado"
+>abstract="**Anulaciones de encabezado**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_header"
+>title="Anulaciones de encabezado"
+>abstract="Función avanzada para evitar la detección de bots o el tráfico de puerta. Content Analytics incluye los encabezados HTTP personalizados al llamar a los extremos."
 
 <!-- needs modification for mobile channel -->
 
