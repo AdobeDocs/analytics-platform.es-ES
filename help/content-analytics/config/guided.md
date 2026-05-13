@@ -5,10 +5,15 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 3e08fa116d3690cad450f92825bfd34023dbee24
+TQID: https://experienceleague.adobe.com/qfRVeaFTYitZOsleqfzxYsSlo5YZrTjdFqJSjIza-hg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 48%
+source-wordcount: 4071
+ht-degree: 47%
 
 ---
 
@@ -491,6 +496,8 @@ Para configurar la recopilación de datos:
       1. Seleccione **[!UICONTROL Crear nueva clase]**.
       1. Especifique un **[!UICONTROL Nombre de Etiquetas]**, por ejemplo `ACA Test for Documentation`.
       1. Especifique **[!UICONTROL dominios]**, por ejemplo, `example.com`.
+
+     Use una nueva propiedad Tags si desea crear una implementación de etiquetas [agnostic](/help/content-analytics/config/tags-agnostic.md) de Content Analytics para el canal web. La propiedad Etiquetas se crea, pero no se utiliza en la implementación agnóstica. Sin embargo, la implementación independiente requiere que haya ejecutado el asistente de configuración guiada al menos una vez.
 
 * Indique qué páginas deben incluirse o excluirse al recopilar datos para Content Analytics. Asegúrese de excluir las páginas de identificación personal.
 
