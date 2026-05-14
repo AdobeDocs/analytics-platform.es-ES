@@ -3,10 +3,10 @@ title: Crear un feed de datos
 description: Aprenda a crear una fuente de datos y conozca la información del archivo que debe proporcionar a Adobe.
 hide: true
 feature: Components
-source-git-commit: 46d54e388fecac0b62eccfe54fe91620a46474a7
+source-git-commit: da47de2de52a3cc0d9aa768141bd7368042e1c66
 workflow-type: tm+mt
-source-wordcount: '2724'
-ht-degree: 21%
+source-wordcount: '2466'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ Al crear un feed de datos, debe proporcionar a Adobe lo siguiente:
 
 * Los datos que desea incluir en cada archivo
 
-* La frecuencia con la que se debe enviar la fuente de datos (incluida la ventana retrospectiva si elige incluir las visitas que llegan tarde)
+* La frecuencia con la que se debe enviar la fuente de datos (incluido el retraso de procesamiento para capturar las visitas que llegan tarde)
 
 Antes de crear un feed de datos, es importante tener una comprensión básica de las fuentes de datos y asegurarse de que cumple todos los requisitos previos. Para obtener más información, consulte [Información general sobre feeds de datos](data-feed-overview.md).
 
@@ -51,11 +51,9 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
 <!-- markdownlint-enable MD034 -->
 
-<!-- added help for Dynamic lookups to this page: help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md -->
-
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 
-1. Seleccione el icono de 9 cuadrados en la esquina superior derecha, luego seleccione [!UICONTROL **Customer Journey Analytics**].
+1. Selecciona [!UICONTROL **Customer Journey Analytics**] del conmutador de aplicaciones ![Aplicación](/help/assets/icons/Apps.svg) en la parte superior derecha de la interfaz.
 
 1. En la barra de navegación superior, vaya a [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
@@ -69,30 +67,28 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre**] | El nombre de la fuente de datos. Los nombres deben ser únicos dentro del grupo de informes seleccionado y pueden tener hasta 255 caracteres de longitud. <!--[Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)--> |
+   | [!UICONTROL **Nombre**] | El nombre de la fuente de datos. Los nombres deben ser únicos en la vista de datos seleccionada y pueden tener hasta 255 caracteres de longitud. <!--[Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)--> |
    | [!UICONTROL **Etiquetas**] | Aplique cualquier etiqueta a la fuente de datos para facilitar la categorización. <!--You can filter on tags as described in [Filter and search the list of data feeds](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md).--> |
    | [!UICONTROL **Descripción**] | Especifique una descripción para la fuente de datos. La descripción que agregue será visible al editar la fuente de datos. |
    | [!UICONTROL **Vista de datos**] | Seleccione la vista de datos que contiene los datos que desea exportar. |
 
 1. En la sección [!UICONTROL **Estructura de datos**], asegúrese de que la vista de datos correcta esté seleccionada en el campo **[!UICONTROL Vista de datos]**. <p>Tenga en cuenta lo siguiente al seleccionar una vista de datos:</p> <ul><li>Si se crean varias fuentes de datos para la misma vista de datos, cada fuente de datos debe tener definiciones de columnas diferentes.</li><li>La lista de columnas disponibles depende de la empresa de inicio de sesión a la que pertenezca la vista de datos seleccionada. Si cambia la vista de datos, puede cambiar la lista de columnas disponibles. </li></ul>
 
-1. Agregue columnas a la configuración de la fuente de datos. En la sección **[!UICONTROL Disponible]** de la izquierda, seleccione las columnas que desee incluir y después seleccione **[!UICONTROL Incluir]**. Todas las columnas de datos de Adobe Analytics están disponibles. Para seleccionar varias columnas, mantenga presionada la tecla **[!UICONTROL Mayús]**, o bien mantenga presionada la tecla **[!UICONTROL Comando]** (en macOS) o la tecla **[!UICONTROL Ctrl]** (en Windows). Haga clic en **[!UICONTROL Agregar todo]** para incluir todas las columnas en un feed de datos.
-
-   Las columnas que agregue aparecerán en la sección **[!UICONTROL Included]** de la derecha.
+1. Agregue columnas a la configuración de la fuente de datos. En la sección del carril de componente de la izquierda, localice las columnas que desee incluir y, a continuación, arrástrelas al lienzo para crear la estructura de datos. Para seleccionar varias columnas, mantenga presionada la tecla **[!UICONTROL Mayús]**, o bien mantenga presionada la tecla **[!UICONTROL Comando]** (en macOS) o la tecla **[!UICONTROL Ctrl]** (en Windows).
 
    Utilice la siguiente información para comprender las dimensiones que siempre se incluyen, las dimensiones que no se pueden incluir y las métricas que se deben sustituir:
 
    +++ Dimensiones que siempre se incluyen en las fuentes de datos
 
-   En cada fuente de datos se deben incluir los siguientes componentes:
+   Las siguientes dimensiones se incluyen de forma predeterminada en todas las fuentes de datos y no se pueden eliminar:
 
-   | Nombre del componente | Notas | Fuentes de datos | Otros informes |
+   | Nombre de la dimensión | Notas | Fuentes de datos | Otros informes |
    |---|---|---|---|
-   | Marca de tiempo | Marca de tiempo del periodo del evento. Granularidad de milisegundos. Representado en UTC. | Obligatorio | No disponible |
+   | Marca de tiempo | Marca de tiempo del periodo del evento. Granularidad de microsegundos. Representado en UTC. | Obligatorio | No disponible |
    | Identificador de fila | Identificador de fila único | Obligatorio | No disponible |
    | ID de sesión | Identificador único de cada sesión | Obligatorio | No disponible |
    | ID de persona | El identificador personal de la vista de datos y la conexión | Obligatorio | Estándar opcional |
-   | ID de cuenta (B2B) | ID de cuenta al utilizar el contenedor de cuenta | Obligatorio (solo B2B) | Estándar opcional (sólo B2B) |
+   | ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | ID de cuenta al utilizar el contenedor de cuenta | Obligatorio | Estándar opcional |
 
    +++
 
@@ -100,7 +96,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    Las dimensiones estándar de Customer Journey Analytics no se pueden incluir en las fuentes de datos. En la tabla siguiente se enumeran estas dimensiones:
 
-   | Nombre del componente | Notas | Fuentes de datos |
+   | Nombre de la dimensión | Notas | Fuentes de datos |
    |---|---|---|
    | 5 minutos | Intervalos de cinco minutos cuando ocurrieron los eventos (redondeados hacia abajo) | No disponible |
    | 15 minutos | Intervalos de quince minutos cuando ocurrieron los eventos (redondeados hacia abajo) | No disponible |
@@ -128,13 +124,13 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    Se deben sustituir las siguientes métricas de Customer Journey Analytics:
 
-   | Nombre del componente | Notas | Fuentes de datos |
+   | Nombre de la métrica | Notas | Fuentes de datos |
    |---|---|---|
-   | Cuentas | [B2B edition] según el identificador de cuenta especificado en la conexión | No disponible. Utilice un recuento distinto del ID de cuenta. |
-   | Grupo de compras | [B2B edition] Grupos de compra basados en el identificador del grupo de compra en la conexión | No disponible. Utiliza un recuento distinto del ID del grupo de compra. |
+   | Cuentas [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Según el ID de cuenta especificado en la conexión | No disponible. Utilice un recuento distinto del ID de cuenta. |
+   | Comprando grupo [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Comprar grupos en función del ID del grupo de compra en la conexión | No disponible. Utiliza un recuento distinto del ID del grupo de compra. |
    | Eventos | Número de filas de todos los conjuntos de datos de evento de una conexión | No disponible. Utilice un recuento distinto del ID de fila. |
-   | Cuentas globales | [B2B edition] basado en el identificador de cuentas globales de la conexión | No disponible. Utilice un recuento distinto del ID de cuentas globales. |
-   | Oportunidades | [B2B edition] oportunidades basadas en el ID de oportunidad en la conexión | No disponible. Utilice un recuento distinto del ID de oportunidad. |
+   | Cuentas globales [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Según el ID de cuentas globales de la conexión | No disponible. Utilice un recuento distinto del ID de cuentas globales. |
+   | Oportunidades [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Oportunidades basadas en el ID de oportunidad en la conexión | No disponible. Utilice un recuento distinto del ID de oportunidad. |
    | Personas | Según el ID de persona especificado en una conexión | No disponible. Utilice un recuento distinto del ID de persona. |
    | Conversaciones | Número de conversaciones | No disponible. Utilice un recuento distinto del ID de conversación. |
    | Terminaciones de sesión | Número de eventos que fueron el último evento de una sesión | No disponible |
@@ -158,12 +154,10 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | Mes del año | Dimensión de partición de tiempo | Enero-diciembre | No disponible |
    | Sesiones por primera vez | Métrica | Primera sesión definida por una persona dentro de la ventana de creación de informes | No disponible |
    | Sesiones de retorno | Métrica | Sesiones que no fueron la primera sesión de una persona | No disponible |
-   | ID de persona | Dimensión | El identificador personal de la vista de datos y la conexión | **Obligatorio** |
    | Área de nombres de ID de persona | Dimensión | Tipo de ID del que consta el ID de persona (por ejemplo, correo electrónico o ID de cookie) | Disponible |
-   | ID de cuenta global | [B2B edition] Dimension | ID de cuenta global al usar el contenedor de cuenta global | Disponible |
-   | ID de cuenta | [B2B edition] Dimension | ID de cuenta al utilizar el contenedor de cuenta | **Obligatorio** (solo B2B) |
-   | ID de oportunidad | [B2B edition] Dimension | ID de oportunidad al utilizar el contenedor de oportunidad | Disponible |
-   | ID de grupo de compras | [B2B edition] Dimension | ID del grupo de compra al utilizar el contenedor de grupo de compra | Disponible |
+   | ID de cuenta global [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Dimensión | ID de cuenta global al usar el contenedor de cuenta global | Disponible |
+   | ID de oportunidad [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Dimensión | ID de oportunidad al utilizar el contenedor de oportunidad | Disponible |
+   | Comprando el identificador de grupo [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Dimensión | ID del grupo de compra al utilizar el contenedor de grupo de compra | Disponible |
    | Trimestre del año | Dimensión de partición de tiempo | T1, T2, T3, T4 | No disponible |
    | Repetir sesión | Métrica | Sesiones que no fueron la primera sesión de una persona | No disponible |
    | Tipo de sesión | Dimensión | Dos valores: Primera vez o Retorno | No disponible |
@@ -182,9 +176,9 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | [!UICONTROL **Tipo de fuente**] | Seleccione el tipo de fuente que desea crear:<ul><li>[!UICONTROL **Fuente activa**]: exporta datos actuales y futuros.</li><li>[!UICONTROL **Fuente de relleno**]: exporta datos históricos entre dos fechas pasadas.</li></ul> |
    | [!UICONTROL **Fecha de inicio**] | Especifique la fecha en la que desea que comience la fuente de datos. Para empezar a procesar fuentes de datos para datos históricos de inmediato, asegúrese de seleccionar [!UICONTROL **Fuente de relleno**] y luego establezca esta fecha en cualquier fecha del pasado en que se estén recopilando datos. La fecha de inicio se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de finalización**] | Especifique la fecha en la que desea que finalice la fuente de datos. La fecha de finalización se basa en la zona horaria de la vista de datos. |
-   | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>Seleccione esta opción para incluir datos de una hora o de un día:</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. Utilice esta opción para fuentes de relleno o para fuentes activas.</li><li>**Por hora**: las fuentes contienen datos de una sola hora. Utilice esta opción para las fuentes activas.</li></ul> |
+   | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>En el caso de las fuentes en directo, seleccione esta opción para incluir datos de una hora o de un día. Las fuentes de relleno deben ser diarias.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. Utilice esta opción para fuentes de relleno o para fuentes activas.</li><li>**Por hora**: las fuentes contienen datos de una sola hora. Utilice esta opción para las fuentes activas.</li></ul> |
    | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla la distancia a la que se muestra Customer Journey Analytics al procesar la entrega de fuentes de datos. <p>Esta configuración no altera la ventana de frecuencia (hora o día), que define el lapso de tiempo de los eventos que se incluirán en la salida de fuente de datos. Sin embargo, el intervalo de fechas de retrospectiva puede influir en los datos que se envían de las siguientes maneras: </p><ul><li>**Calificación de segmentos**: Cuando se aplica un segmento a su definición de fuente de datos, cualquier evento dentro del intervalo de fechas retrospectivas determina si una persona cumple los requisitos. La configuración del contenedor del segmento determina el ámbito. (Los contenedores posibles son: Persona, Sesión o Evento. B2B tiene los siguientes contenedores adicionales: Cuenta global, Cuenta, Oportunidad, Grupo de compra).  <p>Por ejemplo, si se utiliza un contenedor de persona y la persona se califica durante el intervalo de fechas retrospectivas, también se calificarán todos los eventos de esa persona durante la ventana de frecuencia.</p></li><li>**Cálculo de sesión**: los límites de sesión se calculan usando datos dentro del intervalo de fechas retrospectivo.</li><li>**Transformaciones de campo derivadas**: todas las funciones de campo derivadas que hacen referencia a contenedores (como las funciones Resumir, Deduplicar y Profundidad) utilizan el intervalo de fecha retrospectiva en las exportaciones de fuentes de datos.</li><li>**Persistencia de Dimension**: Si elige establecer la persistencia en una dimensión individual, también elige una caducidad para determinar cuánto tiempo persiste un elemento de dimensión más allá del evento en el que está establecido. <p>El intervalo de fechas de retrospectiva afecta a la persistencia de la dimensión cuando la caducidad se establece en cualquiera de las siguientes opciones de la vista de datos:</p><ul><li>Para cada dimensión de la definición de fuente de datos que usa [!UICONTROL **Ventana de informes**] como caducidad, el intervalo de fecha retrospectiva se convierte en la nueva ventana de informes.</li><li>Para cada dimensión de la definición de fuente de datos que usa [!UICONTROL **Tiempo personalizado**] como caducidad, y si la hora personalizada que se selecciona se extiende más allá del intervalo de fechas de retrospectiva, se ignora la hora personalizada y se usa el intervalo de fechas de retrospectiva para la caducidad de la dimensión.<p>Para obtener más información acerca de cómo establecer la persistencia en dimensiones dentro de la vista de datos, vea [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).</p></li></ul> |
-   | [!UICONTROL **Retraso de procesamiento**] | Elija si desea esperar un tiempo determinado antes de procesar un archivo de fuente de datos. Las visitas que llegan tarde y que se producen durante el retraso del procesamiento se incluyen en la fuente de datos.<p>Un retraso puede resultar útil para ofrecer a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos. También se puede utilizar para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente. En la mayoría de los casos, no es necesario un retraso. Puede retrasar una fuente hasta 8 horas (480 minutos) o incluso más si selecciona un período de tiempo personalizado (9999 minutos de retraso o aproximadamente 1 semana).<p>Si no se establece ningún retraso, solo se incluyen en la fuente los eventos que se encuentran dentro de la ventana de frecuencia (el último día o la última hora).</p> <p>Las visitas deben comenzar después de este límite para que se incluyan; no se incluyen las visitas que comienzan antes del límite y finalizan dentro del retraso de procesamiento.</p> <p>Necesario para sesiones, persistencia y segmentos.</p><p>No se utiliza para dimensiones. Las dimensiones se controlan por dimensión en función de su asignación y caducidad. Las retrospectivas de Dimension no pueden superar el retraso de procesamiento.</p> |
+   | [!UICONTROL **Retraso de procesamiento**] | Elija la cantidad de tiempo de espera antes de procesar un archivo de fuente de datos. Las visitas que llegan tarde y que se producen durante el retraso del procesamiento se incluyen en la fuente de datos. <p>Un retraso puede resultar útil para ofrecer a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos. También se puede utilizar para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente. </p><p>Puede retrasar una fuente 2, 3, 4 u 8 horas.<p>Las sesiones deben comenzar después del límite de retraso de procesamiento para que se incluyan; no se incluyen las sesiones que comienzan antes del límite y finalizan dentro del retraso de procesamiento.</p> |
 
 1. En la sección [!UICONTROL **Destino**], configure el destino al que desea enviar los datos.
 
@@ -210,59 +204,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-## Administrar plantillas de columna
 
-Las plantillas le permiten reutilizar las mismas columnas para futuras fuentes de datos que cree.
-
-Al administrar plantillas, puede crear nuevas plantillas, utilizar plantillas que ya se han creado, copiar plantillas, editar plantillas y eliminar plantillas.
-
-**[!UICONTROL Administrador]** > **[!UICONTROL Fuentes de datos]** > **[!UICONTROL Administrar plantillas]**
-
-![Administrar plantillas de columna](assets/data-feed-template-manage.png)
-
-### Creación de una plantilla de columna
-
-Al crear varias fuentes de datos que utilicen las mismas columnas, Adobe recomienda crear plantillas de columna. Cualquier plantilla de columna que cree estará disponible para su uso por parte de cualquier persona de su organización.
-
-Para crear una plantilla de columna:
-
-1. En Adobe Analytics, vaya a [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**] > **[!UICONTROL Administrar plantillas]**.
-
-1. Seleccione **[!UICONTROL Crear nueva plantilla]** para crear una nueva plantilla de columna.
-
-   ![Crear plantilla de columna](assets/data-feed-template-create.png)
-
-1. En el campo **[!UICONTROL Nombre de plantilla]**, especifique un nombre para la plantilla.
-
-1. En la sección **[!UICONTROL Disponible]** de la izquierda, seleccione las columnas que desee incluir y después seleccione **[!UICONTROL Incluir]**. Todas las columnas de datos disponibles en Adobe Analytics están disponibles. Para seleccionar varias columnas, mantenga presionada la tecla **[!UICONTROL Mayús]**, o bien mantenga presionada la tecla **[!UICONTROL Comando]** (en macOS) o la tecla **[!UICONTROL Ctrl]** (en Windows). Haga clic en **[!UICONTROL Agregar todo]** para incluir todas las columnas en un feed de datos.
-
-   Las columnas que agregue aparecerán en la sección **[!UICONTROL Included]** de la derecha.
-
-1. Seleccione **[!UICONTROL Guardar]**.
-
-### Edición de una plantilla de columna
-
-1. En Adobe Analytics, vaya a [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**] > **[!UICONTROL Administrar plantillas]**.
-
-1. Seleccione la plantilla que desee editar y, a continuación, seleccione **[!UICONTROL Editar]**.
-
-1. Realice las modificaciones que desee y seleccione **[!UICONTROL Guardar]**.
-
-### Copiar una plantilla de columna
-
-1. En Adobe Analytics, vaya a [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**] > **[!UICONTROL Administrar plantillas]**.
-
-1. Seleccione la plantilla que desee copiar y, a continuación, seleccione **[!UICONTROL Copiar]**.
-
-1. En el campo **[!UICONTROL Nombre de plantilla]**, especifique un nombre para la plantilla.
-
-1. Realice cambios adicionales y, a continuación, seleccione **[!UICONTROL Guardar]**.
-
-### Eliminar plantillas de columna
-
-1. En Adobe Analytics, vaya a [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**] > **[!UICONTROL Administrar plantillas]**.
-
-1. Seleccione una o más plantillas que desee eliminar y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
 
 <!-- why would you want to do this? -->
