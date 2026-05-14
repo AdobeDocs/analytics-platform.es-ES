@@ -4,10 +4,16 @@ title: Configuración de una visualización de lienzo de recorrido
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 73238f03021b14567c20c686ab72d84afbaa9f81
+TQID: https://experienceleague.adobe.com/pC3wjv6Q7RHRfDfHq75CP2Lqd-HzN-s7iLZ9t4N4ZR0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 11f60dbdd2858f173896a131c08229e0c7f29a69
 workflow-type: tm+mt
-source-wordcount: '6252'
-ht-degree: 98%
+source-wordcount: 6456
+ht-degree: 91%
 
 ---
 
@@ -111,19 +117,19 @@ Los nodos se crean de las siguientes maneras: arrastrando componentes de Workspa
    |---------|----------|----------|
    | Métrica | Área en blanco del lienzo | El nodo muestra dónde se soltó el componente, sin conexión con ningún nodo existente. |
    | Métrica | Un nodo existente | El componente se combina automáticamente con el nodo existente. (Consulte [Combinación de nodos](#combine-nodes) para obtener más información). |
-   | Métrica | Una flecha entre dos nodos existentes | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. (Consulte [Conexión de nodos](#connect-nodes) para obtener más información). |
+   | Métrica | Una flecha entre dos nodos existentes | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información. |
    | Dimensión | Área en blanco del lienzo | Se crean tres nodos para los tres elementos de dimensión principales en los que se soltó el componente, sin conexión con ningún nodo existente. (**Nota:** Si solo se muestran uno o dos nodos, significa que los datos solo están disponibles para uno o dos de los elementos de dimensión. Si no se muestran nodos, significa que no hay datos disponibles para ninguno de los elementos de dimensión. En este caso, intente añadirlos a un punto diferente del recorrido, ajustar el intervalo de fechas de la visualización o elegir una dimensión diferente).<p>Mantenga pulsada la tecla Mayús cuando suelte la dimensión en el lienzo para añadirla como un solo nodo con tres elementos de dimensión.</p> |
    | Dimensión | Un nodo existente | Se aplica automáticamente un desglose al nodo con los cinco elementos de dimensión principales mostrados.<!--what happens if you hold Shift?--><p>Para ver el desglose en una nueva visualización de tabla de forma libre, seleccione el vínculo [!UICONTROL **Abrir en tabla de forma libre**] en el nodo.</p> |
    | Dimensión | Una flecha que conecta dos nodos existentes | Se crean tres nodos para los tres elementos de dimensión principales que siguen al primer evento después del primer nodo (de personas/sesiones que finalmente llegan al segundo nodo). Los nodos se muestran entre los dos nodos existentes en los que se soltó el componente y cada nodo está conectado a los dos nodos existentes. (**Nota:** Si solo se muestran uno o dos nodos, significa que los datos solo están disponibles para uno o dos de los elementos de dimensión. Si no se muestran nodos, significa que no hay datos disponibles para ninguno de los elementos de dimensión. En este caso, intente añadirlos a un punto diferente del recorrido, ajustar el intervalo de fechas de la visualización o elegir una dimensión diferente).<p>Mantenga pulsada la tecla Mayús cuando suelte la dimensión en el lienzo para añadirla como un solo nodo con tres elementos de dimensión. (Consulte [Conexión de nodos](#connect-nodes) para obtener más información).</p> |
    | Elemento de dimensión | Área en blanco del lienzo | El nodo muestra dónde se soltó el componente, sin conexión con ningún nodo existente. |
    | Elemento de dimensión | Un nodo existente | El componente se combina automáticamente con el nodo existente. |
-   | Elemento de dimensión | Una flecha que conecta dos nodos existentes | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. (Consulte [Conexión de nodos](#connect-nodes) para obtener más información). |
+   | Elemento de dimensión | Una flecha que conecta dos nodos existentes | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información. |
    | Segmento | Área en blanco del lienzo | El nodo muestra dónde se soltó el componente sin estar conectado con ningún otro nodo.<p>El número y el porcentaje que aparecen en el nodo incluyen el total de la métrica principal, segmentada por el segmento seleccionado.</p> <p>Por ejemplo, si se selecciona Personas como métrica principal para el recorrido y luego se añade un segmento de Hoy a un área en blanco del lienzo, se muestran todas las personas que tuvieron un evento hoy.</p> |
    | Segmento | Un nodo existente | Aplica el segmento al nodo existente. |
-   | Segmento | Una flecha que conecta dos nodos | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. (Consulte [Conexión de nodos](#connect-nodes) para obtener más información).<p>Aplica el segmento al punto de la ruta donde se soltó el componente.</p> |
+   | Segmento | Una flecha que conecta dos nodos | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información.<p>Aplica el segmento al punto de la ruta donde se soltó el componente.</p> |
    | Intervalo de fecha | Área en blanco del lienzo | El nodo muestra dónde se soltó el componente, sin conexión con ningún otro nodo.<p>El número y el porcentaje que aparecen en el nodo incluyen el total de la métrica principal, segmentado por el intervalo de fecha seleccionado.</p> <p>Por ejemplo, si se selecciona Personas como métrica principal para el recorrido, al añadir después un intervalo de fecha de Este mes a un área en blanco del lienzo se muestran todas las personas que tuvieron un evento durante el mes actual.</p> |
    | Intervalo de fecha | Un nodo existente | Aplica el intervalo de fecha únicamente a este panel. |
-   | Intervalo de fecha | Una flecha que conecta dos nodos | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. (Consulte [Conexión de nodos](#connect-nodes) para obtener más información).<p>Aplica el intervalo de fecha al punto de la ruta donde se soltó el componente.</p> |
+   | Intervalo de fecha | Una flecha que conecta dos nodos | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información.<p>Aplica el intervalo de fecha al punto de la ruta donde se soltó el componente.</p> |
    | Múltiples componentes | Un área en blanco del lienzo | **Si ninguno de los componentes es una dimensión:**<p>Cada componente se muestra como un nodo independiente donde se soltaron los componentes, sin conexión con ningún nodo existente.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. </p><p>**Si alguno de los componentes que está añadiendo son dimensiones:**</p><p>Cada componente se muestra como un nodo independiente donde se soltaron los componentes, sin conexión con ningún nodo existente.</p><p>Solo se puede añadir una dimensión a la vez. Cuando se añade la dimensión, se crean tres nodos para los tres elementos de dimensión principales en los que se soltó el componente.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. Los tres elementos de dimensión principales se combinan con cada nodo. (Consulte [Combinación de nodos](#combine-nodes) para obtener más información).</p> |
    | Múltiples componentes | Un nodo existente | Todos los componentes se combinan con el nodo existente.<p>Si alguno de los componentes que está añadiendo es una dimensión, los tres elementos de dimensión principales se combinan con el nodo.</p> <p>Solo se puede añadir una dimensión a la vez.</p> |
    | Múltiples componentes | Una flecha que conecta dos nodos existentes | **Si ninguno de los componentes es una dimensión:**<p>Cada componente se muestra como un nodo independiente en el lugar donde se soltaron los componentes y cada nodo está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información.<p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. (Los componentes deben ser del mismo tipo para combinarse en un solo nodo). (Consulte [Combinación de nodos](#combine-nodes) para obtener más información).</p><p>**Si alguno de los componentes que está añadiendo son dimensiones:**</p><p>Cada componente se muestra como un nodo independiente en el lugar donde se soltaron los componentes y cada nodo está conectado a ambos nodos existentes.</p><p>Solo se puede añadir una dimensión a la vez. Cuando se añade la dimensión, se crean tres nodos para los tres elementos principales de la dimensión que siguen al primer evento después del primer nodo (de personas o sesiones que finalmente llegan al segundo nodo). Cada nodo está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. Los tres elementos de dimensión principales se combinan con cada nodo y cada nodo está conectado a ambos nodos existentes. Consulte [Combinación de nodos](#combine-nodes) para obtener más información.</p> |
@@ -436,6 +442,8 @@ La opción para aplicar un desglose a los datos está disponible para los siguie
 
 * Varias flechas entre nodos
 
+* Datos de visitas en el orden previsto (cuando este se muestra en un nodo)
+
 Al aplicar un desglose, tenga en cuenta lo siguiente:
 
 * Los desgloses se aplican a la métrica principal. La métrica secundaria no se verá afectada.
@@ -448,13 +456,15 @@ Al aplicar un desglose, tenga en cuenta lo siguiente:
 
 #### Aplicación de un desglose a uno o varios nodos o flechas
 
-1. En una visualización de Lienzo de recorrido, seleccione uno o varios nodos a los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
+1. En una visualización de lienzo de Recorrido, realice una de las siguientes acciones:
 
-   O bien
+   * Haga clic con el botón derecho en la visita en orden previsto que se produce en un nodo (cuando se muestra la visita en orden previsto) al que desee aplicar un desglose.
 
-   En una visualización de Lienzo de recorrido, seleccione una o varias flechas entre dos nodos donde desee aplicar el desglose y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+   * Seleccione uno o varios nodos a los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
-   Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
+   * Seleccione una o más flechas entre 2 nodos a los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+
+     Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
 
 1. Seleccione [!UICONTROL **Desglose**].
 
@@ -496,17 +506,21 @@ La opción para crear un público está disponible para los siguientes objetos d
 
 * Varias flechas entre nodos
 
+* Datos de visitas en el orden previsto (cuando este se muestra en un nodo)
+
 Cuando se crea un público desde varios nodos o flechas, estos se unen con el operador OR.
 
 Para crear un público:
 
-1. En una visualización de Lienzo de recorrido, seleccione uno o varios nodos en los que desee crear un público y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
+1. En una visualización de lienzo de Recorrido, realice una de las siguientes acciones:
 
-   O bien
+   * Haga clic con el botón derecho en la visita en orden previsto que se produce en un nodo (cuando se muestra la visita en orden previsto) para el que desee crear una audiencia.
 
-   En una visualización de Lienzo de recorrido, seleccione una o varias flechas entre dos nodos donde desee crear un público y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+   * Seleccione uno o varios nodos para los que desee crear una audiencia y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
-   Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
+   * Seleccione una o más flechas entre 2 nodos para los que desea crear una audiencia y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+
+     Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
 
    >[!NOTE]
    >
@@ -530,21 +544,33 @@ La opción para ver las tendencias está disponible para los siguientes objetos 
 
 * Varias flechas entre nodos
 
+* Datos de visitas en el orden previsto (cuando este se muestra en un nodo)
+
 Para ver los datos de tendencias:
 
-1. En una visualización de Lienzo de recorrido, seleccione uno o varios nodos cuyos datos de tendencias desee ver y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
+1. En una visualización de lienzo de Recorrido, realice una de las siguientes acciones:
 
-   O bien
+   * Haga clic con el botón secundario del mouse (ratón) en la visita en orden previsto que se produce en un nodo (cuando se muestra la visita en orden previsto) cuyos datos de tendencia desee ver.
 
-   En una visualización de Lienzo de recorrido, seleccione una o varias flechas entre dos nodos cuyos datos de tendencias desee ver y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+   * Seleccione uno o varios nodos para los que desee ver datos de tendencia y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
-   Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
+   * Seleccione una o más flechas entre 2 nodos para los que desee ver datos de tendencia y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+
+     Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
 
 1. Seleccione [!UICONTROL **Tendencia**].
 
 ### Creación de un segmento basado en un nodo o una flecha
 
-Puede crear un nuevo segmento basado en un nodo o una flecha dentro de un recorrido. Una vez creado el segmento, puede utilizarlo en cualquier lugar de Analysis Workspace.
+La opción para crear un segmento está disponible para los siguientes objetos del lienzo:
+
+* Nodos individuales
+
+* Las flechas entre los nodos
+
+* Datos de visitas en el orden previsto (cuando este se muestra en un nodo)
+
+Una vez creado el segmento, puede utilizarlo en cualquier lugar de Analysis Workspace.
 
 Los segmentos creados en Lienzo de Recorrido utilizan la [segmentación secuencial](/help/components/segments/seg-sequential-build.md). Esto significa que el segmento utiliza el operador THEN para vincular la secuencia de eventos (el recorrido) por los que fluyeron las personas, hasta el nodo o la flecha seleccionados. Todos los eventos que coincidan con el nodo o la flecha seleccionados se incluirán en el segmento.
 
@@ -552,11 +578,11 @@ Si crea un segmento basado en un nodo que tenga varias rutas que fluyen hacia é
 
 Para crear un segmento:
 
-1. En una visualización de Lienzo de recorrido, haga clic con el botón derecho en el nodo o la flecha que desee utilizar para crear el segmento.
+1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en el nodo, la flecha o los datos de visitas en el orden previsto que desee utilizar para crear el segmento.
 
-1. Seleccione [!UICONTROL **Crear segmento de nodo**] o [!UICONTROL **Crear segmento a partir de la flecha**].
+1. Seleccione [!UICONTROL **Crear segmento a partir del nodo**], [!UICONTROL **Crear segmento a partir de la flecha**] o [!UICONTROL **Crear segmento a partir de la visita en orden previsto**].
 
-   Aparecerá el generador de segmentos. En la sección [!UICONTROL **Definición**], la definición del segmento se crea en función del nodo o la flecha que seleccionó y su contexto dentro del recorrido.
+   Aparecerá el generador de segmentos. En la sección [!UICONTROL **Definición**], la definición del segmento se crea en función del nodo, la flecha o la visita en orden previsto que haya seleccionado y su contexto dentro del recorrido.
 
 1. Especifique un título para el segmento y realice cualquier otro cambio. Para obtener más información sobre cómo crear un segmento, consulte [Generador de segmentos](/help/components/segments/seg-builder.md).
 
@@ -571,6 +597,22 @@ Para eliminar nodos en Lienzo de recorrido:
 1. En una visualización de Lienzo de recorrido, seleccione uno o varios nodos que desee eliminar y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
 1. Seleccione [!UICONTROL **Eliminar**].
+
+### Excluir nodos
+
+Cuando se excluye un nodo de un recorrido, los datos del recorrido se actualizan para excluir a los usuarios que han pasado por él. La definición del segmento para el recorrido también se actualiza para excluir a los usuarios que pasaron por ese nodo.
+
+Para excluir un nodo de un recorrido:
+
+1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en el nodo que desee excluir.
+
+1. Seleccione [!UICONTROL **Excluir del recorrido**].
+
+Para volver a incluir un nodo excluido en la recorrido:
+
+1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en el nodo excluido.
+
+1. Seleccione [!UICONTROL **Quitar exclusión de recorrido**].
 
 ### Eliminación de flechas entre nodos
 
