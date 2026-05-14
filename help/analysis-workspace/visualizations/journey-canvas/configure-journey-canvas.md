@@ -22,9 +22,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 11f60dbdd2858f173896a131c08229e0c7f29a69
+source-git-commit: 5513a755345188e6f7ff5d4c566d807d09e25f68
 workflow-type: tm+mt
-source-wordcount: 6456
+source-wordcount: 6457
 ht-degree: 91%
 
 ---
@@ -466,7 +466,7 @@ Al aplicar un desglose, tenga en cuenta lo siguiente:
 
 * Los datos de desglose se actualizan si los cambios se realizan en un punto anterior del recorrido.
 
-#### Aplicación de un desglose a uno o varios nodos o flechas
+#### Aplicar un desglose a nodos, flechas o datos de visitas en el orden previsto
 
 1. En una visualización de lienzo de Recorrido, realice una de las siguientes acciones:
 
@@ -572,7 +572,7 @@ Para ver los datos de tendencias:
 
 1. Seleccione [!UICONTROL **Tendencia**].
 
-### Creación de un segmento basado en un nodo o una flecha
+### Cree un segmento basado en un nodo, una flecha o datos de visitas en el orden previsto
 
 La opción para crear un segmento está disponible para los siguientes objetos del lienzo:
 
@@ -612,7 +612,7 @@ Para eliminar nodos en Lienzo de recorrido:
 
 ### Excluir nodos
 
-Cuando se excluye un nodo de un recorrido, los datos del recorrido se actualizan para excluir a los usuarios que han pasado por él. La definición del segmento para el recorrido también se actualiza para excluir a los usuarios que pasaron por ese nodo.
+Cuando se excluye un nodo de un recorrido, los datos del recorrido se actualizan para excluir los recorridos que pasaron por ese nodo. La definición del segmento para el recorrido también se actualiza para excluir los recorridos que pasaron por ese nodo.
 
 Para excluir un nodo de un recorrido:
 
