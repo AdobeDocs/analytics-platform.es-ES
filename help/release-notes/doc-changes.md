@@ -4,9 +4,9 @@ description: Enumera las actualizaciones de contenido para la documentación de 
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
+source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
 workflow-type: tm+mt
-source-wordcount: '6910'
+source-wordcount: '6915'
 ht-degree: 94%
 
 ---
@@ -21,7 +21,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 |---|---|
 | **Mayo de 2026** | |
-| Configuración no basada en etiquetas para Content Analytics | [Documentación](/help/content-analytics/config/tags-agnostic.md) sobre cómo implementar Content Analytics para el canal web sin requerir etiquetas de recopilación de datos de Experience Platform. |
+| Biblioteca JavaScript para Content Analytics | Documentación sobre cómo implementar Content Analytics para el canal web mediante la [biblioteca JavaScript de Content Analytics](/help/content-analytics/config/tags-agnostic.md) sin requerir etiquetas de recopilación de datos de Experience Platform. |
 | Consideraciones de Data Mirror | [Documentación](/help/data-mirror/considerations.md) que describe los factores que debe tener en cuenta al configurar [conjuntos de datos de Data Mirror](/help/data-mirror/data-mirror.md). |
 | Canal móvil de Content Analytics | Actualizaciones a [documentación de Content Analytics](/help/content-analytics/content-analytics.md) para describir las capacidades y la configuración del canal móvil de Content Analytics. |
 | **Abril de 2026** | |

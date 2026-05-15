@@ -18,9 +18,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
+source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
 workflow-type: tm+mt
-source-wordcount: 4071
+source-wordcount: 4074
 ht-degree: 47%
 
 ---
@@ -505,7 +505,7 @@ Para configurar la recopilación de datos:
       1. Especifique un **[!UICONTROL Nombre de Etiquetas]**, por ejemplo `ACA Test for Documentation`.
       1. Especifique **[!UICONTROL dominios]**, por ejemplo, `example.com`.
 
-     Use una nueva propiedad Tags si desea crear una implementación de etiquetas [agnostic](/help/content-analytics/config/tags-agnostic.md) de Content Analytics para el canal web. La propiedad Etiquetas se crea, pero no se utiliza en la implementación agnóstica. Sin embargo, la implementación independiente requiere que haya ejecutado el asistente de configuración guiada al menos una vez.
+     Utilice una nueva propiedad Tags si desea crear una implementación independiente de Etiquetas para el canal Web mediante la [biblioteca JavaScript de Content Analytics](/help/content-analytics/config/tags-agnostic.md). La propiedad Etiquetas se crea, pero no se utiliza en la implementación agnóstica. Sin embargo, la implementación independiente requiere que haya ejecutado el asistente de configuración guiada al menos una vez.
 
 * Indique qué páginas deben incluirse o excluirse al recopilar datos para Content Analytics. Asegúrese de excluir las páginas de identificación personal.
 

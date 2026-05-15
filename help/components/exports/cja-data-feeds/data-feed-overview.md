@@ -5,53 +5,31 @@ title: Información general sobre las fuentes de datos de Analytics
 feature: Components
 hide: true
 exl-id: 991a7861-cbde-4d55-935c-d56c8031853e
-source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
+source-git-commit: 5e77857ca846767e3b9e7479baa4a4b18c6e3c8f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 40%
+source-wordcount: '221'
+ht-degree: 21%
 
 ---
 
 # Resumen de fuentes de datos
 
-Las fuentes de datos son una forma eficaz de obtener datos sin procesar de Customer Journey Analytics. Estos datos sin procesar se pueden utilizar en otras plataformas fuera de Adobe para su uso según convenga a su organización. Los datos se entregan en lotes por hora al final de cada hora o en lotes diarios al final de cada día.
+Las fuentes de datos son una forma eficaz de obtener datos sin procesar de Customer Journey Analytics. Puede utilizar estos datos sin procesar en otras plataformas fuera de Adobe según convenga a su organización. Los datos se entregan en lotes por hora al final de cada hora o en lotes diarios al final de cada día.
 
 ## Requisitos previos
 
-Asegúrese de cumplir todos los requisitos antes de utilizar fuentes de datos.
+Asegúrese de cumplir todos los requisitos antes de utilizar fuentes de datos:
 
-* Una implementación en funcionamiento con los datos que se están ingiriendo en Adobe Customer Journey Analytics. <!-- For more information, see Data ingestion overview - add link -->
-* Su cuenta es un administrador de productos de Analytics o pertenece a un perfil de producto con acceso a fuentes de datos. <!--???-->
-* Un contenedor configurado en Amazon S3, Google Cloud Platform, Azure RBAC o Azure SAS.<!--Which cloud providers do we support??-->
-* (Heredado: requerido solo para los tipos de destino FTP y SFTP heredados) Tenga a mano un sitio FTP y credenciales (credenciales de FTP proporcionadas por su organización).<!--Delete???-->
+* Implementación en funcionamiento con datos que se están ingiriendo en Adobe Customer Journey Analytics <!-- For more information, see Data ingestion overview - add link -->
+* Su cuenta es un administrador de productos de Analytics o pertenece a un perfil de producto con acceso a fuentes de datos <!--???-->
+* Un contenedor configurado en {DNL Amazon S3}, {DNL Google Cloud Platform}, {DNL Azure RBAC} o {DNL Azure SAS}
 
-## Comparación de fuentes de datos en Customer Journey Analytics y Adobe Analytics
+## Introducción
 
-La funcionalidad de las fuentes de datos en Customer Journey Analytics difiere de la de Adobe Analytics. Para obtener más información, consulte [Comparar fuentes de datos en Customer Journey Analytics y Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md).
+Para empezar a utilizar fuentes de datos en Customer Journey Analytics, primero debe comprender cómo difieren las fuentes de datos en Customer Journey Analytics de las fuentes de datos en Adobe Analytics. Después de comprender las diferencias, puede asignar fuentes de datos de Adobe Analytics a Customer Journey Analytics y, a continuación, empezar a crear una fuente de datos.
 
+1. [Comprenda las diferencias entre las fuentes de datos en Customer Journey Analytics y Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md).
 
-## Pasos siguientes
+1. [Asigne columnas de fuentes de datos de Adobe Analytics a Customer Journey Analytics](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md).
 
-Los siguientes recursos le ayudan a comprender el flujo de trabajo básico de la obtención de fuentes de datos. Después de comprender el flujo de trabajo básico, puede trabajar con equipos de su organización para almacenar o introducir datos sin procesar en una base de datos.
-
-* Prácticas recomendadas de fuentes de datos<!--add link-->: Prácticas recomendadas para crear y administrar fuentes de datos.
-* Crear una fuente de datos <!--add link-->: detalles técnicos para crear una fuente de datos; explicación más detallada de los campos individuales
-* Administrar fuentes de datos <!--add link-->: Más información sobre cómo navegar por la interfaz de la fuente de datos
-* Contenido de fuente de datos <!--add link-->: Explicación sobre el contenido del archivo comprimido
-* Definiciones de columnas de datos <!--add link-->: Una lista completa de todas las columnas disponibles.
-
-<!-- Is this still the output users can download from the destination? I aske Jun. -->
-
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar por la interfaz de la fuente de datos](https://video.tv.adobe.com/v/3428561?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
-
->[!ENDSHADEBOX]
-
-
-
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Buscar su ID de fuente de datos](https://video.tv.adobe.com/v/3418479?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
-
->[!ENDSHADEBOX]
+1. [Crear una fuente de datos](/help/components/exports/cja-data-feeds/create-feed.md).

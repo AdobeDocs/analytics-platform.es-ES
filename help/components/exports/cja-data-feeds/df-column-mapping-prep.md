@@ -5,9 +5,9 @@ title: Preparación para asignar columnas de fuentes de datos de Adobe Analytics
 feature: Components
 hide: true
 exl-id: d0a9e697-1e48-4cfb-8613-2f932bf5015b
-source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
+source-git-commit: 4ffcb03421c0e3a31803fad7734d935078169778
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1092'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Customer Journey Analytics proporciona una arquitectura más flexible que Adobe Analytics para determinar las columnas que están disponibles para incluirlas en una fuente de datos. La mayoría de las organizaciones deberían esperar exportar desde Customer Journey Analytics columnas de fuentes de datos diferentes a las exportadas desde Adobe Analytics. Estas diferencias se deben a los siguientes factores:
 
-* **[Arquitectura de esquema](#schema-architecture)**: las columnas de fuentes de datos de Adobe Analytics derivan de variables de Analytics, mientras que las columnas de fuentes de datos de Customer Journey Analytics derivan del esquema de vista de datos.
+* **[Arquitectura del esquema de fuente de datos](#schema-architecture)**: las columnas de fuente de datos de Adobe Analytics se derivan de variables de Analytics, mientras que las columnas de fuente de datos de Customer Journey Analytics se derivan de la configuración de vista de datos.
 
 * **[Procesamiento de datos](#data-processing)**: existen diferencias fundamentales de procesamiento de datos entre Adobe Analytics y Customer Journey Analytics, especialmente la existencia de columnas preprocesadas y posprocesadas para muchas columnas de Adobe Analytics.
 
@@ -28,7 +28,7 @@ Antes de empezar a asignar columnas de fuentes de datos de Adobe Analytics a col
 
 Después de revisar esta información, siga las instrucciones de asignación de cada columna de fuente de datos de Adobe Analytics que planee mantener en Customer Journey Analytics, tal como se describe en [Referencia de columna de datos](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md).
 
-## Arquitectura de esquemas
+## Arquitectura del esquema de fuentes de datos
 
 Customer Journey Analytics proporciona una arquitectura más flexible que Adobe Analytics para determinar qué columnas están disponibles para incluir en una fuente de datos:
 
@@ -40,13 +40,13 @@ Es fácil incluir todas las columnas y muchos clientes lo hacen, incluso cuando 
 
 ### Arquitectura de Customer Journey Analytics
 
-Cualquier componente que se incluya en el esquema de vista de datos se puede incluir como columnas de fuente de datos. Para obtener información detallada sobre este proceso para cada posible columna de fuente de datos de Adobe Analytics, consulte [Referencia de columna de datos](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md).
+Cualquier componente que se incluya en la configuración de vista de datos se puede incluir como columnas de fuente de datos. Para obtener información detallada sobre este proceso para cada posible columna de fuente de datos de Adobe Analytics, consulte [Referencia de columna de datos](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md).
 
-Los componentes se incluyen en el esquema de vista de datos de cualquiera de las formas descritas en la siguiente tabla:
+Los componentes se incluyen en la configuración de vista de datos de cualquiera de las formas descritas en la siguiente tabla:
 
-| Método para la inclusión en el esquema de vista de datos | Información adicional |
+| Método para la inclusión en la configuración de vista de datos | Información adicional |
 |---------|----------|
-| Los campos de esquema XDM se depuran como componentes en la vista de datos | Los campos que existen en el esquema XDM pasan a formar parte del esquema de vista de datos en Customer Journey Analytics después de depurarse como componentes en la vista de datos. <p>El número de campos disponibles de forma predeterminada en el esquema XDM de Customer Journey Analytics puede variar según la forma en que se recopilen los datos para la implementación de Customer Journey Analytics, de la siguiente manera:</p><ul><li>**Nuevas implementaciones de Web SDK**: Si su implementación de Customer Journey Analytics usa un esquema personalizado, es probable que muchas columnas que existen en las fuentes de datos de Adobe Analytics no existan en Customer Journey Analytics. Del mismo modo, Customer Journey Analytics puede contener campos que no existen en las fuentes de datos de Adobe Analytics.<p>Si es posible, consulte al equipo o a la persona que creó el esquema XDM para la implementación de Customer Journey Analytics de su organización. Muchas de las decisiones sobre los campos Adobe Analytics que se necesitaban en Customer Journey Analytics se tomaban cuando se creaba el esquema XDM. Para obtener más información, consulte [Arquitectura del esquema para su uso con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).</p></li><li>**Implementaciones del conector de Source de Analytics**: Existen asignaciones de campo uno a uno de forma predeterminada para muchas columnas de fuentes de datos porque el conector de Source de Analytics utiliza el grupo de campos Evento de experiencia de Analytics en el esquema XDM. Para obtener información sobre qué campos de Adobe Analytics se asignan a campos de este grupo de campos, consulte [Asignaciones de campos de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics) en la documentación de Experience Platform.</li></ul> |
+| Los campos de esquema XDM se depuran como componentes en la vista de datos | Los campos que existen en el esquema XDM pasan a formar parte de la configuración de vista de datos en Customer Journey Analytics después de depurarse como componentes en la vista de datos. <p>El número de campos disponibles de forma predeterminada en el esquema XDM de Customer Journey Analytics puede variar según la forma en que se recopilen los datos para la implementación de Customer Journey Analytics, de la siguiente manera:</p><ul><li>**Nuevas implementaciones de Web SDK**: Si su implementación de Customer Journey Analytics usa un esquema personalizado, es probable que muchas columnas que existen en las fuentes de datos de Adobe Analytics no existan en Customer Journey Analytics. Del mismo modo, Customer Journey Analytics puede contener campos que no existen en las fuentes de datos de Adobe Analytics.<p>Si es posible, consulte al equipo o a la persona que creó el esquema XDM para la implementación de Customer Journey Analytics de su organización. Muchas de las decisiones sobre los campos Adobe Analytics que se necesitaban en Customer Journey Analytics se tomaban cuando se creaba el esquema XDM. Para obtener más información, consulte [Arquitectura del esquema para su uso con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).</p></li><li>**Implementaciones del conector de Source de Analytics**: Existen asignaciones de campo uno a uno de forma predeterminada para muchas columnas de fuentes de datos porque el conector de Source de Analytics utiliza el grupo de campos Evento de experiencia de Analytics en el esquema XDM. Para obtener información sobre qué campos de Adobe Analytics se asignan a campos de este grupo de campos, consulte [Asignaciones de campos de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics) en la documentación de Experience Platform.</li></ul> |
 | Los componentes se crean en la vista de datos utilizando campos derivados | Puede crear componentes directamente dentro de una vista de datos, creando así columnas de fuente de datos que no están disponibles en el esquema XDM. |
 
 ## Procesamiento de datos
@@ -69,7 +69,7 @@ Identifique qué columnas de fuentes de datos de Adobe Analytics utiliza su orga
 
 * **Identificar campos que se aplican a su organización**: aunque no todos los clientes de Adobe Analytics exportan todas las columnas disponibles, muchos exportan más de lo que realmente utilizan.
 
-  Antes de empezar a exportar fuentes de datos desde Customer Journey Analytics, primero debe determinar qué columnas de fuentes de datos de Adobe Analytics utiliza su organización actualmente y, a continuación, asegurarse de que esos componentes existan en el esquema de vista de datos de Customer Journey Analytics. Para recopilar esta información, póngase en contacto con los equipos o las personas de su organización que consumen contenido de fuentes de datos para Adobe Analytics.
+  Antes de empezar a exportar fuentes de datos desde Customer Journey Analytics, primero debe determinar qué columnas de fuentes de datos de Adobe Analytics utiliza su organización actualmente y, a continuación, asegurarse de que esos componentes existan en la configuración de la vista de datos de Customer Journey Analytics. Para recopilar esta información, póngase en contacto con los equipos o las personas de su organización que consumen contenido de fuentes de datos para Adobe Analytics.
 
 ## Columnas en canales múltiples
 

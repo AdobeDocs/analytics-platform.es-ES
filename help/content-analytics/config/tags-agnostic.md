@@ -1,20 +1,20 @@
 ---
-title: Configuración independiente de etiquetas de Content Analytics
-description: Obtenga información sobre cómo configurar Content Analytics sin utilizar etiquetas de recopilación de datos de Experience Platform.
+title: Content Analytics JavaScript Kibrary
+description: Obtenga información sobre cómo configurar Content Analytics sin utilizar etiquetas de recopilación de datos de Experience Platform y utilizar la biblioteca JavaScript de Content Analytics en su lugar.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
+source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 
-# Configuración agnóstica de etiquetas de Content Analytics
+# Biblioteca JavaScript de Content Analytics
 
-La biblioteca JavaScript de Adobe Content Analytics permite el seguimiento de eventos relacionados con el contenido en sitios web mediante el envío de datos de contenido a Adobe Experience Platform a través de Experience Platform Edge Network. Utilice esta biblioteca cuando desee implementar Content Analytics sin etiquetas Adobe Experience Platform (Launch).
+La biblioteca JavaScript de Adobe Content Analytics permite el seguimiento de eventos relacionados con el contenido en sitios web mediante el envío de datos de contenido a Adobe Experience Platform a través de Experience Platform Edge Network. Utilice esta biblioteca cuando desee implementar Content Analytics sin etiquetas de Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ La biblioteca JavaScript de Adobe Content Analytics permite el seguimiento de ev
 >
 >* Adobe Experience Platform Web SDK (Alloy) debe inicializarse en la página antes de llamar a `initializeContentLibrary`.
 >* Complete el asistente de configuración guiada de Content Analytics para guiarle por todos los pasos necesarios para configurar los requisitos previos de una configuración de Content Analytics.
->* Una vez finalizada la configuración guiada, los ajustes de JavaScript, específicos de su configuración, están disponibles en esa vista de configuración.
+>* Una vez finalizada la configuración guiada, los ajustes de JavaScript están disponibles para su uso.
 
 
 ## Instalación
@@ -131,7 +131,7 @@ initializeContentLibrary({
 });
 ```
 
-## Filtro de evento
+## Filtrado de eventos
 
 Controle qué direcciones URL de página y direcciones URL de recursos se incluyen en la recopilación de datos mediante expresiones regulares. Utilice los ejemplos de patrones siguientes como punto de partida y valide los patrones con un comprobador regex antes de la implementación.
 
