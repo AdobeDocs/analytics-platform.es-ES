@@ -5,8 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 hide: true
 role: Admin
-feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
 source-git-commit: c444ee455da66fe6f4a95a362b21b50adc328a11
 workflow-type: tm+mt
 source-wordcount: 988
@@ -27,7 +29,7 @@ Sin la vinculación de cuentas, los eventos que no contengan un ID de cuenta se 
 La vinculación de cuentas realiza las siguientes operaciones en los conjuntos de datos:
 
 * **Elevar la identidad de la persona**: el ID de persona de cada evento se eleva al área de nombres de identidad deseada mediante el gráfico de identidades.
-* **Agregar información de cuenta que falta**: Para los eventos que contienen un ID de persona, la asignación de persona a cuenta [3} se usa para derivar y agregar la información de cuenta. ](#prerequisites)Cualquier información de la cuenta en el propio evento se utiliza como método de reserva.
+* **Agregar información de cuenta que falta**: Para los eventos que contienen un ID de persona, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la información de cuenta. &#x200B;](#prerequisites)Cualquier información de la cuenta en el propio evento se utiliza como método de reserva.
 
 ## Requisitos previos
 
