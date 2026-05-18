@@ -18,10 +18,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
+source-git-commit: add42fb00c3ce65d9c40bb023bd6bf8bdd397ee1
 workflow-type: tm+mt
-source-wordcount: 4074
-ht-degree: 47%
+source-wordcount: 4111
+ht-degree: 46%
 
 ---
 
@@ -369,7 +369,9 @@ En el canal web, puedes configurar [captura y definición de la experiencia](#ex
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_button"
 >title="Recopilación de datos"
->abstract="Defina qué propiedad Etiquetas desea utilizar o cree una nueva. Y defina las páginas y los recursos que desea incluir o excluir mediante expresiones regulares."
+>abstract="Defina qué propiedad Etiquetas desea utilizar o cree una nueva. Y defina las páginas y los recursos que desea incluir o excluir mediante expresiones regulares.<br/>Para una implementación no basada en etiquetas, seleccione **[!UICONTROL Crear nuevo]**.  Se crea una propiedad Etiquetas, pero no es necesario que la utilice."
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Biblioteca JavaScript de Content Analytics"
+
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
