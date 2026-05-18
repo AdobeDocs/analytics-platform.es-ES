@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
 exl-id: 0db3f6f7-9d7e-41bf-8eb5-02e439bab10a
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 29%
+source-wordcount: '1391'
+ht-degree: 33%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-audience-analysis-sandbox"
 >title="Zona protegida"
->abstract="Seleccione la zona protegida que contiene los conjuntos de datos de perfil de Experience Platform correctos. Estos conjuntos de datos deben contener los datos de audiencia sobre los que desee informar en Analysis Workspace. "
+>abstract="Seleccione la zona protegida que contiene los conjuntos de datos de perfil de Experience Platform correctos. Estos conjuntos de datos deben contener los datos de público sobre los que desea informar en Analysis Workspace. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -46,7 +46,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-audience-namespace"
 >title="Utilizar el espacio de nombres de identidad principal"
->abstract="Active esta opción si desea que Customer Journey Analytics busque la identidad en el mapa de identidad que está marcado con un atributo primary=true y a continuación, utilice esa identidad como ID de persona de esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. <br/>Si deja esta opción deshabilitada, seleccione un área de nombres del campo Área de nombres de identidad a continuación. Customer Journey Analytics busca en el mapa de identidad de cada fila esta clave de espacio de nombres y utiliza la identidad bajo ese espacio de nombres como ID de persona de esa fila."
+>abstract="Active esta opción si desea que Customer Journey Analytics busque la identidad en el mapa de identidad que está marcado con un atributo primary=true y a continuación, utilice esa identidad como ID de persona de esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. <br/>Si deja esta opción desactivada, seleccione un espacio de nombres en el campo Espacio de nombres de identidad a continuación. Customer Journey Analytics busca en el mapa de identidad de cada fila esta clave de espacio de nombres y utiliza la identidad bajo ese espacio de nombres como ID de persona de esa fila."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -98,7 +98,7 @@ Para crear una configuración de análisis de audiencia:
 
    | Campo | Descripción |
    |---------|----------|
-   | **[!UICONTROL ID de la persona]** | Seleccione un campo del esquema que represente el ID de persona.<p>La selección se limita a la lista de campos del esquema que están marcados como Identidad y no tienen un área de nombres de identidad. **[!UICONTROL IdentityMap]** está seleccionado de manera predeterminada y es apropiado para la mayoría de las configuraciones. </p><p>Si no hay ID de persona para elegir, significa que uno o más ID de persona no se han definido en el esquema. Consulte [Definición de campos de identidad en la IU](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/identity) para obtener más información.</p> |
+   | **[!UICONTROL ID de la persona]** | Seleccione un campo del esquema relacional que represente el ID de persona.<p>La selección se limita a la lista de campos del esquema que están marcados como Identidad y no tienen un área de nombres de identidad. **[!UICONTROL IdentityMap]** está seleccionado de manera predeterminada y es apropiado para la mayoría de las configuraciones. </p><p>Si no hay ID de persona para elegir, significa que uno o más ID de persona no se han definido en el esquema. Consulte [Definición de campos de identidad en la IU](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/identity) para obtener más información.</p> |
    | **[!UICONTROL Usar área de nombres de identidad principal]** | Esta opción se muestra si selecciona **[!UICONTROL Mapa de identidad]** para el ID de persona. <p>Active esta opción si desea que Customer Journey Analytics busque la identidad en el mapa de identidad que está marcado con un atributo primary=true y a continuación, utilice esa identidad como ID de persona de esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. Y esta identidad también es la candidata principal para su uso como ID de persona de Customer Journey Analytics (según cómo está configurado el conjunto de datos en una conexión de Customer Journey Analytics).</p> |
    | **[!UICONTROL Espacio de nombres de identidad]** | Esta opción se muestra si selecciona **[!UICONTROL Mapa de identidad]** para el ID de persona. Esta opción está desactivada si utiliza el área de nombres de ID principal. <p>Los espacios de nombres de identidad son un componente del [servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces). Los espacios de nombres sirven como indicadores del contexto al que se relaciona una identidad. Si especifica un área de nombres, Customer Journey Analytics busca en el mapa de identidad de cada fila esta clave de área de nombres y utiliza la identidad de dicha área de nombres como ID de persona para esa fila. Dado que Customer Journey Analytics no puede realizar una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué áreas de nombres están presentes, en el menú desplegable se muestran todas las áreas de nombres posibles. Debe saber qué espacios de nombres se especifican en los datos; estos espacios de nombres no se detectan automáticamente.</p> |
 

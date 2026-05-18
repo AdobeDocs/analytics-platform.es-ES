@@ -5,10 +5,19 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 2816ea67c009d461fb05393741b74979dd65a212
+TQID: https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: caf1e4497d5dbe370ce23481ee1fbf1b6db59bf6
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 14%
+source-wordcount: 1788
+ht-degree: 20%
 
 ---
 
@@ -97,12 +106,12 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="ID de persona"
->abstract="Seleccione un ID de persona (el identificador único de una persona) entre las identidades disponibles. Si su licencia incluye vinculación basada en gráficos y desea utilizar ese método de vinculación, seleccione **[!UICONTROL Gráfico de identidad]**."
+>abstract="Seleccione un ID de persona (el identificador único de una persona) entre las identidades disponibles. Si su licencia incluye la unificación basada en gráficos y desea usar ese método de vinculación, seleccione **[!UICONTROL Gráfico de identidad]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="Unificación de métricas"
->abstract="La vinculación de métricas se calcula mediante un conjunto de datos de muestra con marcas de tiempo de evento de los últimos 7 días.<br>Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**."
+>abstract="La unificación de métricas se calcula mediante un conjunto de datos de muestra con marcas de tiempo de evento de los últimos 7 días.<br>Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Previsualización]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -117,7 +126,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_persistentidcoverage"
 >title="Cobertura de ID persistente"
->abstract="Este valor se utiliza para la identificación durante el proceso de vinculación (activo y de reproducción), en caso de que no se pueda detectar un valor de ID de persona. <br/>Los eventos sin ID persistente ni ID de persona se perderán de los datos. Para obtener los mejores resultados de unificación, debe haber un ID persistente en todos los eventos."
+>abstract="Este valor se utiliza para la identificación durante el proceso de unificación (en tiempo real y repetición), en caso de que no se pueda detectar un valor de ID de persona. <br/>Los eventos sin ID persistente ni ID de persona se pierden de los datos. Para obtener los mejores resultados de unificación, debe haber un ID persistente en todos los eventos."
 
 
 >[!CONTEXTUALHELP]
