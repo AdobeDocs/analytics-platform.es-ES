@@ -5,10 +5,16 @@ title: Exportar Tablas Completas A La Nube
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: b9efb621523f8bbfbb3afe7db4db2e60fcddd34c
+TQID: https://experienceleague.adobe.com/7Bqz2dh9v-BhLey5fWNjnQkgFAXQd3QDnTzz8rd7BFA
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3268'
-ht-degree: 58%
+source-wordcount: 3268
+ht-degree: 59%
 
 ---
 
@@ -19,7 +25,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-full-table-export"
 >title="Crear exportaciones de tablas completas similares a la de Data Warehouse"
->abstract="Las exportaciones de tabla completa están disponibles en cuanto se ven los datos en Analysis Workspace. Puede crear o programar exportaciones de tabla completas según sea necesario.<br><br>Puede crear exportaciones de tabla completas en solo unos minutos si ya sabe qué datos incluir en la exportación."
+>abstract="Las exportaciones de tabla completa están disponibles en cuanto se ven los datos en Analysis Workspace. Puede crear o programar exportaciones de tablas completas según sea necesario.<br><br>Puede crear exportaciones de tablas completas en solo unos minutos si ya sabe qué datos incluir en la exportación."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -391,7 +397,7 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
 
   Por ejemplo, una atribución de métrica de &quot;primer contacto&quot; anula una asignación de dimensión &quot;más reciente&quot;.
 
-* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [&#128279;](/help/data-views/component-settings/persistence.md).
+* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [](/help/data-views/component-settings/persistence.md).
 
   Por ejemplo, se aplica una atribución de métrica de &quot;primer contacto&quot; además de una asignación de dimensión &quot;más reciente&quot;. Además, la atribución de métricas se aplica a pares de elementos de dimensión posasignados como si fueran elementos de dimensión únicos, en lugar de a cada elemento de dimensión de forma independiente, como se hace normalmente en una tabla de forma libre.
 
