@@ -5,10 +5,17 @@ title: Cómo exportar datos del proyecto
 feature: Curate and Share
 exl-id: 3d467050-4bf0-4bdb-b7d2-eba67fbd526d
 role: User
-source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
+TQID: https://experienceleague.adobe.com/THoHVmp3vbNeG4C9teqfWmp8mpaHGBsda-zKSFaF8Is
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 247b308f55a1ac29c5fc8a7d689580451af43378
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: 299
+ht-degree: 96%
 
 ---
 
@@ -22,7 +29,7 @@ En las siguientes secciones se describen los tipos de archivo admitidos, los dis
 
 Puede exportar informes de Customer Journey Analytics como un archivo PDF, CSV o JSON.
 
-* **PDF:** proporciona una manera sencilla de compartir datos visuales con las partes interesadas. Los archivos PDF contienen todas las tablas y visualizaciones mostradas (visibles) en el proyecto. 
+* **PDF:** proporciona una manera sencilla de compartir datos visuales con las partes interesadas. Los archivos PDF contienen todas las tablas y visualizaciones mostradas (visibles) en el proyecto.
 
 * **CSV:** le permite ver datos sin procesar en una aplicación de hoja de cálculo, como Excel. Los archivos CSV contienen datos de texto sin formato.
 
@@ -35,7 +42,7 @@ Hay varios métodos disponibles para exportar desde Analysis Workspace. A la hor
 | Método de exportación | Utilice este método si desea… |
 |---------|----------|
 | [Descargar en su estación de trabajo](/help/analysis-workspace/export/download-send.md) | <li>Descargar proyectos en su estación de trabajo personal.</li><li>Descargar solo datos ad hoc (no programados).</li> <li>Descargar un máximo de 50 000 filas.</li> <!--true? Are there 2 different options to download to your workstation? is this emailing it? --> |
-| [Enviar a otros usuarios](/help/analysis-workspace/export/t-schedule-report.md) | <li>Enviar por correo electrónico datos de Customer Journey Analytics exportados a otros usuarios de la organización.</li><li>Enviar el correo electrónico ad hoc o según una programación.</li> <li>Incluya un máximo de 50 000 filas en el correo electrónico.</li> <!--true?--> |
+| [Enviar a otros usuarios](/help/analysis-workspace/export/t-schedule-report.md) | <li>Enviar por correo electrónico datos de Customer Journey Analytics exportados a otros usuarios de la organización.</li><li>Enviar el correo electrónico ad hoc o según una programación.</li> <li>Incluya un máximo de 400 filas en el correo electrónico.</li> <!--true?--> |
 | [Exportar a una aplicación en la nube](/help/analysis-workspace/export/export-cloud.md) | <li>Exportar a una ubicación de la nube, como <ul><li>Zona de aterrizaje de datos de Adobe Experience Platform</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>Exportar datos ad hoc o según una programación.</li><li>Almacenar mayores cantidades de datos de Customer Journey Analytics.</li><li>Exportar tablas completas que contengan miles o millones de filas.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}
