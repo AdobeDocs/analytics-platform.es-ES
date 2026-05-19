@@ -5,10 +5,16 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+TQID: https://experienceleague.adobe.com/78Bp5YSZg7Qs-qBnCfIoS6mjxda7CAglDG19Qq07Fw4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b21c7889-c659-4a99-a779-de1bae57e47eid: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 69%
+source-wordcount: 720
+ht-degree: 65%
 
 ---
 
@@ -18,7 +24,7 @@ En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicion
 
 ## Comprobar que los usuarios de la aplicación pueden acceder a Adobe Analytics
 
-1. Configure nuevos usuarios en la [Admin Console de Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es).
+1. Configure nuevos usuarios en [CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es).
 
 1. Para poder compartir los cuadros de resultados, debe conceder a los usuarios de la aplicación permisos para acceder a componentes del cuadro de resultados como Analysis Workspace, las vistas de datos en los que se basan los informes de valoración, así como segmentos, métricas y dimensiones.
 
@@ -59,7 +65,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
    Aparece la pantalla **[!UICONTROL Elija una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo.
 
-1. Haga que pulsen el nombre de la compañía de inicio de sesión o de la organización de Experience Cloud con la que acceder al cuadro de resultados que ha compartido.
+1. Haga que pulsen el nombre de la empresa de inicio de sesión o de la organización empresarial de CX que se aplica al cuadro de resultados que ha compartido.
 
    A continuación, la lista de cuadros de resultados muestra todos los cuadros de resultados que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
 

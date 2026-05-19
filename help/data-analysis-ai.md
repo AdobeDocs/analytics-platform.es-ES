@@ -5,10 +5,16 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 684f7e95e872ed3cc56a12725dd63459ed488ecc
+TQID: https://experienceleague.adobe.com/BPrXvtXRO3WdxhjucGLGuoWL1AIvwcoUVhqIPX3NEek
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: '2548'
-ht-degree: 89%
+source-wordcount: 2592
+ht-degree: 87%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 89%
 
 >[!AVAILABILITY]
 >
->Data Insights Agent está disponible para los clientes elegibles durante tiempo limitado. El acceso a Data Insights Agent finaliza el miércoles, 31 de marzo de 2026. Para seguir utilizando Data Insights Agent después de dicha fecha sin interrupciones, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Adobe Experience Platform Agent Orchestrator.
+>Data Insights Agent está disponible para los clientes elegibles durante tiempo limitado. El acceso a Data Insights Agent estará disponible hasta el 31 de marzo de 2026. Para seguir utilizando Data Insights Agent después de dicha fecha sin interrupciones, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Adobe Experience Platform Agent Orchestrator.
 
 Data Insights Agent, al que puede acceder desde el [Asistente de IA](/help/ai-assistant.md) de Customer Journey Analytics, es un agente de conversación de IA generativa que responde de forma rápida y eficaz a las preguntas sobre sus datos. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y los datos reales.
 
@@ -28,7 +34,7 @@ El uso de Data Insights Agent para responder preguntas centradas en los datos en
 
 | Función | Dentro del ámbito | Fuera del ámbito |
 | --- | --- | --- |
-| **Tipos de visualización** | <ul><li>Línea</li><li>Varias líneas</li><li>Tabla de forma libre</li><li>Barra</li><li>Anillo</li><li>Número de resumen</li></ul> | <ul><li>Flujo</li><li>Visita en orden previsto</li><li>Tabla de cohorte</li><li>Área, área apilada</li><li>Barra apilada</li><li>Viñeta</li><li>Combo</li><li>Histograma</li><li>Barra horizontal, barra horizontal apilada</li><li>Resumen de métricas clave</li><li>Disperso</li><li>Cambio de resumen</li><li>Texto</li><li>Mapa de árbol</li><li>Venn</li><li>Análisis guiado: Crecimiento activo, tendencias de conversión, participación, impacto de primer uso, frecuencia, canal, crecimiento neto, impacto de versión, retención, cronología, tendencias</li></ul> |
+| **Tipos de visualización** | <ul><li>Línea</li><li>Varias líneas</li><li>Tabla de forma libre</li><li>Barra</li><li>Anillo</li><li>Número de resumen</li></ul> | <ul><li>Flujo</li><li>Visita en orden previsto</li><li>Tabla de cohortes</li><li>Área, área apilada</li><li>Barra apilada</li><li>Viñeta</li><li>Combinado</li><li>Histograma</li><li>Barra horizontal, barra horizontal apilada</li><li>Resumen de métricas clave</li><li>Dispersión</li><li>Cambio de resumen</li><li>Texto</li><li>Gráfico de rectángulos</li><li>Venn</li><li>Análisis guiado: Crecimiento activo, tendencias de conversión, participación, impacto de primer uso, frecuencia, canal, crecimiento neto, impacto de versión, retención, cronología, tendencias</li></ul> |
 | **Acciones de Workspace y capacidades del agente** | <ul><li>Crear y actualizar visualizaciones<p>Genera una tabla de forma libre y una visualización asociada (como una línea, una barra, un anillo, etc.).</p><p>Por ejemplo, *¿Cuál es la ganancia entre las SKU de febrero a mayo?*</p></li><li>Formular preguntas de seguimiento<p>Responda a una indicación dentro del contexto desde cualquier indicación anterior. Por ejemplo:</p> <ul><li>Indicación 1: *Tendencias de eventos a partir de marzo.*</li><li>Indicación 2: *Mostrarme los datos de marzo a abril en su lugar*</li></ul> </li><li>Detección de indicaciones fuera de ámbito<p>Si envía una indicación que está fuera del ámbito, como *Exportar este proyecto*, Data Insights Agent le responde informándole de que la pregunta está fuera del ámbito.</p></li></ul> | <ul><li>Compartir</li><li>Exportar</li><li>Descargar</li><li>Administrar preferencias de usuario</li><li>Administrar vista de datos</li><li>Aplicación de paneles de Analytics</li><li>Atribución</li><li>Resumen o respuesta en línea<p>Data Insights Agent no puede responder en línea en el carril de chat con una respuesta resumida de una indicación de usuario. Algunos ejemplos de mensajes fuera del ámbito son: *Hacerme un resumen de los datos de mi última indicación* y *Resumir los elementos destacados de la visualización de líneas.*</p></li></ul> |
 | **Preguntas aclaratorias** | Si formula una pregunta que carece de contexto suficiente para que Data Insights Agent la responda o es demasiado genérica, Data Insights Agent responde con una pregunta aclaratoria o con opciones sugeridas. <p>Las siguientes preguntas aclaratorias son ejemplos de preguntas relacionadas con los componentes:</p><ul><li>Métrica: *¿A qué métrica de “ingresos” se refiere?*</li><li>Dimensión: *¿En cuál de las siguientes “regiones” desea centrarse?*</li><li>Segmento: *¿Qué segmento de “cuenta” quiere aplicar?*</li><li>Intervalo de fechas: *Por “mes pasado”, ¿se refiere al último mes completo o a los últimos 30 días?*</li></ul><p>La siguiente pregunta aclaratoria es un ejemplo de una pregunta relacionada con los elementos de dimensión:</p> <ul><li>¿A qué “nombre de tienda” se refiere? (Por ejemplo: tienda n.º 5274, tienda n.º 2949, etc.).</li></ul> | Las preguntas aclaratorias se limitan a los componentes y elementos de dimensión. Data Insights Agent no puede aclarar cuestiones como vistas de datos, visualizaciones, granularidad de datos, comparación y ámbito. Cuando no se pueden utilizar preguntas aclaratorias, el agente recurre de forma predeterminada a lo que es más probable que esté preguntando. Si devuelve una visualización o una granularidad de datos inesperada, puede formular una pregunta de seguimiento o ajustar la visualización y los datos. |
 | **Verificación y corrección de datos** | La verificación y corrección de los datos se puede confirmar consultando la tabla de forma libre y la visualización de datos que se han generado. <p>Por ejemplo, si solicita a Data Insights Agent que *muestre las tendencias de los pedidos el mes pasado*, podrá confirmar que la métrica (“pedidos”) y el intervalo de fechas (“el mes pasado”) correctos se seleccionaron en el panel, la visualización de datos y la tabla de forma libre recién generados.</p> | Data Insights Agent no responde informándole de los componentes o visualizaciones que se han añadido. |
@@ -106,7 +112,7 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
 
 1. Vaya a [experience.adobe.com](https://experience.adobe.com/) e inicie sesión con su Adobe ID.
 
-2. Seleccione **Customer Journey Analytics** en la página de inicio de Experience Cloud.
+2. Seleccione **Customer Journey Analytics** de la página de inicio de Adobe CX Enterprise.
 
 3. Seleccione **[!UICONTROL Proyecto en blanco]** en el banner de la parte superior de la página de proyectos para abrir un nuevo proyecto en blanco.
 
@@ -172,13 +178,13 @@ Por último, veamos los ingresos por categoría de producto.
 
 ![Anillo](/help/assets/ai-asst-result3.png)
 
-## Acceso a Data Insights Agent en todas las aplicaciones de Experience Cloud
+## Acceso a Data Insights Agent en todas las aplicaciones empresariales de CX
 
-Adobe Experience Platform Agent Orchestrator le permite acceder a la funcionalidad de Data Insights Agent en varias aplicaciones de Adobe Experience Cloud, como Adobe Journey Optimizer y Real-Time CDP.
+Adobe Experience Platform Agent Orchestrator le permite acceder a la funcionalidad de Data Insights Agent en varias aplicaciones empresariales de CX, como Adobe Journey Optimizer y Real-Time CDP.
 
 Agent Orchestrator interpreta su solicitud, determina qué agentes especializados son necesarios y los organiza para que proporcionen la respuesta correcta. Realiza un seguimiento del contexto a lo largo de interacciones de varios turnos, para que puedas basarte en consultas anteriores de forma natural.
 
-Para obtener más información, consulte [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/es/products/experience-platform/agent-orchestrator.html).
+Para obtener más información, consulte [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
 
 ## Ejemplos de indicaciones de visualización de datos
 
