@@ -6,10 +6,15 @@ solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
 TQID: https://experienceleague.adobe.com/6qERpivKabPPCynMGNKrLhhOMcROnlp7HKpbvXpzNSg
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1127

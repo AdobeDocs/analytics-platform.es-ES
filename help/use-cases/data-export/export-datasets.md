@@ -6,9 +6,12 @@ feature: Use Cases
 role: Admin
 exl-id: b861f765-b18d-4be2-b4c7-c66186d37d99
 TQID: https://experienceleague.adobe.com/0R5S0Bmx8nJxyCRFycmkEm0KN-43zlRYEDHdKSO-IR4
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1187

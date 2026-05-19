@@ -6,10 +6,15 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
 TQID: https://experienceleague.adobe.com/eeNrn3hVytufmz195UHNakznBoVRQ0A-qfOYucFF-X0
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1899
