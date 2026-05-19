@@ -5,10 +5,28 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/ECcpEFMughC-9Tf1P6-0f82-NusPJ4r5johJMLnD34w
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 99%
+source-wordcount: 1186
+ht-degree: 96%
 
 ---
 
@@ -18,7 +36,7 @@ Customer Journey Analytics es una solución de análisis de próxima generación
 
 La arquitectura de Customer Journey Analytics de alto nivel se muestra aquí:
 
-![Arquitectura de Customer Journey Analytics](assets/cja-overview.svg)
+![Arquitectura de Customer Journey Analytics](assets/cja-overview.png)
 
 Esta arquitectura ilustra cómo Customer Journey Analytics le permite lo siguiente:
 

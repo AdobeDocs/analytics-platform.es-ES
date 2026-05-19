@@ -5,10 +5,20 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
-source-git-commit: ff0a5eb5b04f604eff41a18b05199b517d1a2d14
+TQID: https://experienceleague.adobe.com/6qERpivKabPPCynMGNKrLhhOMcROnlp7HKpbvXpzNSg
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 1%
+source-wordcount: 1127
+ht-degree: 2%
 
 ---
 
@@ -33,7 +43,7 @@ Con la función *Asignación de datos entre IMS*, puede solicitar a Adobe que as
 
 | Ilustración | Explicación |
 |---|---|
-| ![Asignar datos en varias organizaciones de IMS](/help/getting-started/assets/map-data-across-ims-orgs.svg) | Esta asignación le permite informar sobre grupos de informes que existen en la organización IMS 1, la organización IMS 2 y la organización IMS 3 desde una conexión en Customer Journey Analytics aprovisionada dentro de la organización IMS 3. |
+| ![Asignar datos en varias organizaciones de IMS](/help/getting-started/assets/map-data-across-ims-orgs.png) | Esta asignación le permite informar sobre grupos de informes que existen en la organización IMS 1, la organización IMS 2 y la organización IMS 3 desde una conexión en Customer Journey Analytics aprovisionada dentro de la organización IMS 3. |
 
 {style="table-layout:fixed"}
 

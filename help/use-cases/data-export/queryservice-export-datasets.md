@@ -5,10 +5,25 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 14a90758-91eb-4610-8802-1edfdb8b9689
-source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
+TQID: https://experienceleague.adobe.com/J-5oxLDw4sLVFcXYQhN5cpTkH76C5wAfWFECrIydb-s
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 3%
+source-wordcount: 3355
+ht-degree: 5%
 
 ---
 
@@ -30,7 +45,7 @@ La exportación de datos mediante el servicio de consulta (Data Distiller) y la 
 - definiendo una **consulta programada** que genera los datos para su fuente de datos como un conjunto de datos de salida ![conjunto de datos de salida](../assets/output-dataset.svg), mediante **servicio de consulta**.
 - definiendo una **exportación programada del conjunto de datos** que exporta el conjunto de datos de salida a un destino de almacenamiento en la nube, con **exportación del conjunto de datos**.
 
-![Fuente de datos](../assets/queryservice-export-datasets.svg)
+![Fuente de datos](../assets/queryservice-export-datasets.png)
 
 
 ## Requisitos previos
@@ -364,7 +379,7 @@ Se admiten los siguientes destinos de almacenamiento en la nube:
 - [Zona de aterrizaje de datos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone)
 - [Almacenamiento en la nube de Google](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage)
 - [Amazon S3](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
-- [blob de Azure](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob)
+- [Azure Blob](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob)
 - [SFTP](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/sftp)
 
 
