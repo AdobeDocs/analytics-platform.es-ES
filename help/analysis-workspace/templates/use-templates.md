@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dfa7d88f871edf97b688d3263eb68017ba047690
+source-git-commit: 24eb9e6c8f4fc02154d2cf93f111ab0956795f76
 workflow-type: tm+mt
-source-wordcount: 21144
+source-wordcount: 21131
 ht-degree: 98%
 
 ---
@@ -406,7 +406,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Descubra qué contenido y atributos de contenido tienen el mejor rendimiento."
->abstract="**Esto puede ayudarle** a conocer el rendimiento de su contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza la IA para generar atributos automáticamente y etiquetar el contenido con ellos. <a href="https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics" target="_blank">Más información</a>.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como promocionar recursos de alto rendimiento en su página de inicio, personalizar contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto."
+>abstract="**Esto puede ayudarle** a conocer el rendimiento de su contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza la IA para generar atributos automáticamente y etiquetar el contenido con ellos.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como promocionar recursos de alto rendimiento en su página de inicio, personalizar contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto."
 
 
 Las plantillas disponibles son las siguientes:
@@ -1067,7 +1067,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-landing-page"
 >title="Ver el comportamiento del usuario, los patrones de participación, las tasas de conversión y otras métricas clave."
->abstract="**Esto puede ayudarle** a comprender mejor la eficacia de su página de destino. <br/>**A partir de lo que aprenda, puede** hacer muchas cosas, como optimizar el rendimiento de su página de destino."
+>abstract="**Esto puede ayudarle** a comprender mejor la efectividad de su página de destino. <br/>**A partir de lo que aprenda, puede** hacer muchas cosas, como optimizar el rendimiento de su página de destino."
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-channel"
