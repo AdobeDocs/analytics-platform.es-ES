@@ -4,9 +4,15 @@ title: Información general de informes en tiempo real
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: 855
 ht-degree: 6%
 
 ---
@@ -49,7 +55,7 @@ Los informes en tiempo real usan un conjunto de datos consolidado que es complet
 * Creación de informes en tiempo real en un conjunto de datos consolidado que contiene hasta 24 horas de datos móviles.
 * Creación de informes estándar sobre el conjunto de datos consolidado que contiene hasta 13 meses de datos móviles (o más en caso de que tenga licencia del complemento de capacidad de datos extendida).
 
-![Informes en tiempo real](assets/real-time-reporting-latencies.svg){zoomable="yes"}
+![Creación de informes en tiempo real](assets/real-time-reporting-latencies.png){zoomable="yes"}
 
 ### Latencias
 
@@ -68,7 +74,7 @@ Si se produce una interrupción del servicio durante más de media hora, los dat
 
 Tenga en cuenta la siguiente limitación para los informes en tiempo real:
 
-* Los informes en tiempo real solo incluyen datos disponibles en un periodo móvil de 24 horas. Datos superiores a   Los informes de 24 horas de antigüedad no están disponibles para los informes en tiempo real. Una vez que la [actualización en tiempo real](use-real-time.md) de un informe se haya deshabilitado o desactivado automáticamente, todos los datos relevantes volverán a estar disponibles en el [conjunto de datos consolidado](/help/connections/combined-dataset.md) que se suele usar para la generación de informes en Customer Journey Analytics.
+* Los informes en tiempo real solo incluyen datos disponibles en un periodo móvil de 24 horas. Los datos con más de 24 horas de antigüedad no están disponibles para los informes en tiempo real. Una vez que la [actualización en tiempo real](use-real-time.md) de un informe se haya deshabilitado o desactivado automáticamente, todos los datos relevantes volverán a estar disponibles en el [conjunto de datos consolidado](/help/connections/combined-dataset.md) que se suele usar para la generación de informes en Customer Journey Analytics.
 * La atribución, la segmentación, las métricas calculadas y mucho más solo funcionan en los datos disponibles dentro del período móvil de 24 horas. Por ejemplo, un segmento de *Visitantes repetidos* incluye muy pocas personas en un informe en tiempo real, porque el informe solo incluye a las personas que lo visitaron varias veces en las últimas 24 horas. Se aplica una limitación similar cuando crea un informe en tiempo real sobre las personas que anteriormente hicieron clic en una campaña que ya no está activa.
 * La creación de informes en tiempo real funciona mejor con datos de nivel de evento y sesión, y debe tener cuidado al utilizar la creación de informes en tiempo real con datos de nivel de persona. Dado que solo los eventos del periodo móvil de 24 horas están disponibles para los informes en tiempo real, el historial de eventos de una persona también se limita a esta ventana. Tenga en cuenta la preferencia por los datos de nivel de evento y de sesión al seleccionar una dimensión y métricas (calculadas). Y cuando utiliza funcionalidades como desgloses, siguiente o anterior, y más en el panel habilitado para la actualización en tiempo real.
 * No se puede combinar la vinculación con los informes en tiempo real. La creación de informes en tiempo real trata de los datos de nivel de evento y de sesión, y es menos relevante para los datos basados en personas.

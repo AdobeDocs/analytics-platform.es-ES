@@ -5,10 +5,15 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
+TQID: https://experienceleague.adobe.com/a-Mu3MKfpRsUqgxx7JWP3NR4vji62VaNFi-hI5teDZI
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 76%
+source-wordcount: 780
+ht-degree: 75%
 
 ---
 
@@ -19,10 +24,9 @@ Este artículo describe, en un nivel superior, cómo configurar Content Analytic
 
 Antes de configurar Content Analytics, debe asegurarse de que se cumplan [los requisitos previos](#prerequisites), de que dispone del [control de acceso](#access-control) necesario y de que conoce las [limitaciones](#limitations).
 
+Los pasos para configurar Content Analytics son los siguientes:
 
-Pasos de alto nivel
-
-![Configuración de Content Analytics](../assets/aca-configuration.svg){zoomable="yes"}
+![Configuración de Content Analytics](../assets/aca-configuration.png){zoomable="yes"}
 
 1. Utilice la [configuración guiada](guided.md) del asistente de análisis de contenido para guiarle por todos los pasos necesarios para establecer los requisitos previos de una configuración de Content Analytics. Puede guardar las configuraciones en cualquier momento y volver más tarde.
 1. Una vez que se sienta cómodo con los valores de configuración, puede implementar la configuración. Esta implementación crea todos los artefactos necesarios en función de lo que haya configurado en el asistente.
@@ -40,7 +44,7 @@ Antes de configurar Content Analytics, asegúrese de que se cumplen los siguient
 ### Web
 
 * Ha incluido en la lista de permitidos el agente de usuario y la dirección IP para el servicio de caracterización que se utiliza en Content Analytics. La cadena del agente de usuario que se va a configurar es: <code>AdobeFeaturization/1.0</code>.
-* Si ha implementado [Web SDK mediante JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library){target="_blank"} para la recopilación de datos de comportamiento normal, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> Actualice la biblioteca de JavaScript.
+* Si ha implementado [Web SDK mediante JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library){target="_blank"} para la recopilación de datos de comportamiento normal, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> Actualice la biblioteca de JavaScript.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y para administrar vistas de datos.
 * Si decide recopilar experiencias de Content Analytics, asegúrese de configurar y actualizar el control de versiones de Content Analytics en función de los cambios realizados en las páginas web.
 * Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions){target="_blank"}:

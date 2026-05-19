@@ -6,13 +6,18 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: a9c22cfd7077fd9e1ac4b9ea4ec0e016e9d2425b
+TQID: https://experienceleague.adobe.com/pXiDvk--5tAJYGj8lfq7KQfVLQqVOePbBZqCXT10rZ0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: 1485
 ht-degree: 2%
 
 ---
-
 
 # Conceptos y funciones de B2B edition
 
@@ -39,7 +44,7 @@ Customer Journey Analytics se basa en el concepto de tres contenedores: Persona,
 
 Puede redefinir cómo se asignan los nombres a estos contenedores al configurar una vista de datos, pero la jerarquía y las relaciones entre los contenedores están predeterminadas. El contenedor de sesión se genera en función de cómo defina una sesión en la [configuración de sesión](/help/data-views/session-settings.md) de la vista de datos.
 
-![B2C](assets/b2c-containers.svg){zoomable="yes"}
+![B2C](assets/b2c-containers.png){zoomable="yes"}
 
 
 ### Contenedores B2B
@@ -48,14 +53,14 @@ En Customer Journey Analytics B2B edition, se agrega un contenedor de cuenta a l
 
 La jerarquía y las relaciones entre los contenedores están predeterminadas. Oportunidad, grupo de compra y persona son contenedores del mismo nivel del contenedor de cuenta. En esa jerarquía, el contenedor de sesión entre el contenedor de persona y el contenedor de evento se genera en función de cómo defina una sesión en la [configuración de sesión](/help/data-views/session-settings.md) de la vista de datos. Actualmente no se generan ni admiten contenedores de sesión adicionales, por ejemplo, entre el contenedor de cuenta y el contenedor de evento. Consulte la tabla siguiente para obtener una descripción y un uso básico de los contenedores B2B.
 
-![B2B](assets/b2b-containers.svg){zoomable="yes"}
+![B2B](assets/b2b-containers.png){zoomable="yes"}
 
 | Contenedor B2B | Descripción<br/>Caso de uso básico |
 |---|---|
 | Cuenta | Una compañía que es cliente o cliente potencial de su negocio. La empresa podría ser una filial o división de una organización más grande. La cuenta representa la organización a la que realiza ventas y a la que desea realizar un seguimiento en ese nivel de organización. |
 | Cuenta global (opcional) | La sociedad matriz superior de un grupo de sociedades vinculadas. Una cuenta global no tiene compañía matriz, pero puede tener filiales o divisiones que pertenezcan a la cuenta global. Cuando tenga el contenedor de cuenta global configurado en la conexión, una cuenta que no tenga ninguna matriz o filiales deberá aparecer en el campo de cuenta y en el campo de cuenta global. |
 | Oportunidad (opcional) | Una colección de productos y servicios que se venden juntos. Una oportunidad a menudo implicaba varias etapas en el ciclo de ventas hasta el cierre de la venta.<br>Utilizaría datos para medir la progresión de la oportunidad a través del funnel de ventas. Por ejemplo, un informe que proporciona detalles sobre las principales oportunidades que se movieron de la fase 3 a la fase 4. |
-| Grupo comprador (opcional) | Colección de personas de una organización que participan en el proceso de toma de decisiones para adquirir un producto o servicio. <br/>Utilizaría los datos del grupo de compra para rastrear los grupos de compra a través de la administración de campañas. Por ejemplo, cree un segmento de audiencia de grupos de compra clave.<br/> Lo más probable es que desee una búsqueda del grupo comprador en los datos de perfil para poder informar sobre las personas de un grupo comprador. |
+| Grupo comprador (opcional) | Colección de personas de una organización que participan en el proceso de toma de decisiones para adquirir un producto o servicio. <br/>Utilizaría los datos del grupo de compra para rastrear los grupos de compra a través de la administración de campañas. Por ejemplo, cree un segmento de audiencia de grupos de compra clave.<br/> Es muy probable que desee una búsqueda del grupo comprador en los datos de perfil, para poder informar sobre las personas de un grupo comprador. |
 | Persona | Una persona, a menudo identificada por una dirección de correo electrónico única que ha interactuado con la compañía. <br/>Utilizaría los datos de perfil para identificar a las personas que trabajan para una cuenta. Por ejemplo: diríjase a todas las personas de una cuenta que se hayan registrado en una conferencia. |
 
 >[!IMPORTANT]
@@ -93,7 +98,7 @@ Customer Journey Analytics B2B distingue entre los siguientes tipos de datos y c
 
 Un ejemplo de conexión basada en cuentas en Customer Journey Analytics B2B edition:
 
-![Ejemplo de conexión basada en cuentas](assets/b2b-datasets.svg)
+![Ejemplo de conexión basada en cuentas](assets/b2b-datasets.png)
 
 Customer Journey Analytics B2B edition ofrece la interfaz [Connection map](/help/connections/create-connection.md#connection-map) para ofrecerle una descripción general de las relaciones entre los conjuntos de datos de su conexión.
 

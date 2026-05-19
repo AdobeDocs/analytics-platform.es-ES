@@ -4,10 +4,16 @@ description: Obtenga información sobre cómo publicar públicos desde Customer 
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
+TQID: https://experienceleague.adobe.com/BPbSzyh6eg3QC6NcAVgo06GAISzVH2CX35Z-Q32xMbE
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '2391'
-ht-degree: 99%
+source-wordcount: 2478
+ht-degree: 98%
 
 ---
 
@@ -72,7 +78,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | Método de creación | Detalles |
    | --- | --- |
    | Desde la interfaz de **[!UICONTROL audiencias publicadas]** | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias publicadas]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Públicos. Seleccione **[!UICONTROL Generar público]** y se abrirá el [!UICONTROL Generador de públicos]. |
-   | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear un público utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear público]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el segmento del Generador de públicos con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear un público utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mapa &#x200B;](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** Esta visualización se encuentra en la fase Prueba limitada de la versión y es posible que no esté disponible aún en su entorno.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Los públicos no pueden incluir métricas calculadas. Si intenta crear un público que contenga una métrica calculada, ésta no se incluirá en la definición de público.</p> |
+   | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear un público utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear público]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el segmento del Generador de públicos con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear un público utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Lienzo de recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mapa ](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** Esta visualización se encuentra en la fase Prueba limitada de la versión y es posible que no esté disponible aún en su entorno.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Los públicos no pueden incluir métricas calculadas. Si intenta crear un público que contenga una métrica calculada, ésta no se incluirá en la definición de público.</p> |
    | Desde la interfaz de usuario de creación/edición de segmentos | Marque la casilla que dice **[!UICONTROL Crear un público a partir de este segmento]**. Mediante este método se rellena previamente el segmento. Consulte [Crear segmentos](/help/components/segments/seg-create.md) para obtener más información. |
 
    {style="table-layout:auto"}
@@ -84,7 +90,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
 1. Seleccione **[!UICONTROL [!UICONTROL Ver ID de muestra]]** para ver una muestra de los ID de este público. En el cuadro de diálogo **[!UICONTROL ID de muestra]** puede utilizar ![Búsqueda](/help/assets/icons/Search.svg) [!UICONTROL *Búsqueda de los ID de muestra*] para buscar los ID de muestra.
 
 1. Compruebe la configuración del público y seleccione **[!UICONTROL Publicar]**.
-Recibirá un mensaje de confirmación que indica que el público se ha publicado. La publicación solo tardará un minuto o dos en mostrarse en Experience Platform. 
+Recibirá un mensaje de confirmación que indica que el público se ha publicado. La publicación solo tardará un minuto o dos en mostrarse en Experience Platform.
 
 1. Seleccione **[!UICONTROL Ver el público en AEP]** dentro del mismo mensaje y se le redirigirá a la [Interfaz de usuario de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/overview) en Adobe Experience Platform. Para obtener más información, vaya más abajo.
 
@@ -136,7 +142,7 @@ Tenga en cuenta lo siguiente cuando trabaje con públicos que se publican desde 
 
 En varios puntos antes, durante y después de la publicación del público, pueden producirse latencias. A continuación se muestra una información general de las posibles latencias.
 
-![Latencias en la publicación del público tal como se describe en esta sección.](assets/latency-diagram.svg)
+![Latencias en la publicación del público tal como se describe en esta sección.](assets/latency-diagram.png)
 
 |  | Punto de latencia | Duración de la latencia |
 | --- | --- | --- |
@@ -159,7 +165,7 @@ Para ver los públicos de Customer Journey Analytics en Platform:
 
 1. Expanda **[!UICONTROL Cliente]** en el panel izquierdo y, a continuación, seleccione **[!UICONTROL Públicos]**. <!-- is there a folder called "Customer Journey Analytics? -->
 
-1. Seleccione la pestaña **[!UICONTROL Examinar]**. 
+1. Seleccione la pestaña **[!UICONTROL Examinar]**.
 
 1. Para localizar el público que publicó desde Customer Journey Analytics, realice una de las siguientes acciones:
 
@@ -206,7 +212,7 @@ Los públicos de Customer Journey Analytics no se incluyen en el trabajo de eval
 * **Recuentos determinísticos en Real-Time Customer Data Platform**: el recuento de Real-Time Customer Data Platform es fijo y no cambia hasta el siguiente intervalo de publicación.
 * **Fragmentación de perfiles**: tenga en cuenta que los perfiles existentes en Real-Time Customer Data Platform pueden no contribuir a nuevos recuentos de perfiles al importar desde Customer Journey Analytics.
 
-Al diferenciar claramente estos aspectos, puede comprender y administrar mejor los datos de público en Customer Journey Analytics y Real-Time Customer Data Platform.—>
+Al diferenciar claramente estos aspectos, puede comprender y administrar mejor los datos de audiencia en Customer Journey Analytics y Real-Time Customer Data Platform.—>
 
 ## Preguntas frecuentes {#faq}
 

@@ -5,9 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: ec56bc657961b2e4e8318ab14cd676288398462f
+TQID: https://experienceleague.adobe.com/Jj2ZXUQocZs5QtKkDhEuySQjf1oR01uae9vcy6U4jxg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: 1129
 ht-degree: 100%
 
 ---
@@ -23,7 +28,7 @@ Tiene varias opciones de ingesta de datos en Customer Journey Analytics. En algu
 
 La arquitectura de Customer Journey Analytics de alto nivel se muestra aquí:
 
-![Arquitectura de Customer Journey Analytics](/help/getting-started/assets/cja-overview.svg)
+![Arquitectura de Customer Journey Analytics](/help/getting-started/assets/cja-overview.png)
 
 Esta arquitectura ilustra cómo Customer Journey Analytics le permite lo siguiente:
 
@@ -114,5 +119,5 @@ Ver [Ingesta y uso de datos ad hoc](./adhoc.md)
 
 >[!MORELIKETHIS]
 >
->Blog: [Análisis detallado del procesamiento y la ingesta de datos en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=es)
+>Blog: [Análisis detallado del procesamiento y la ingesta de datos en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
 
