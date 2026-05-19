@@ -5,9 +5,25 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+autotag-review: '2026-05-19T08:17:07.805Z'
+TQID: 'https://experienceleague.adobe.com/ZApVB2SBLls5HAfUSb32CZ6-jers0cVaQjCXX9ThODo'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: 905
 ht-degree: 93%
 
 ---
@@ -39,7 +55,7 @@ Para utilizar el conector de origen de Analytics para introducir datos históric
 
    O bien
 
-   Si ya tiene un conector de origen de Analytics, [asigne campos del conector de origen al esquema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+   Si ya tiene un conector de origen de Analytics, [asigne campos del conector de origen a su esquema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. Añadir el conjunto de datos del conector de origen de Analytics a la conexión, tal como se muestra a continuación.
 
@@ -108,7 +124,7 @@ Para añadir el conjunto de datos creado automáticamente a la misma conexión q
 
 1. Seleccione **[!UICONTROL Añadir conjuntos de datos]** y, a continuación, seleccione **[!UICONTROL Guardar]** para guardar la conexión.
 
-1. (Condicional) Si utiliza conjuntos de datos de consulta, deberá crear el conjunto de datos de consulta y añadirlo a la conexión. Para obtener más información, consulte [Crear conjuntos de datos de consulta para clasificar datos en Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
+1. (Condicional) Si utiliza conjuntos de datos de consulta, deberá crear el conjunto de datos de consulta y añadirlo a la conexión. Para obtener más información, consulte [Creación de conjuntos de datos de consulta para clasificar datos en Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
 
    Esto solo es necesario si aún no lo ha hecho al configurar la implementación del SDK web.
 

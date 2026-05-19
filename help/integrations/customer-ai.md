@@ -5,10 +5,27 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
+autotag-review: '2026-05-19T09:14:55.236Z'
+TQID: 'https://experienceleague.adobe.com/4SG79HyhFS5kr-kXXVGb-cTI8j3St6CwztOW-x1xXi8'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2:
+  - id: cbde176d-5423-4c67-8a87-bc8faefd3a44
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 97%
+source-wordcount: 983
+ht-degree: 93%
 
 ---
 
@@ -24,20 +41,20 @@ La inteligencia artificial aplicada al cliente se basa en datos de comportamient
 
 La inteligencia artificial aplicada al cliente se puede integrar con Customer Journey Analytics en el sentido de que los conjuntos de datos habilitados para la inteligencia artificial aplicada al cliente se pueden aprovechar en las vistas de datos y los sistemas de informes de Customer Journey Analytics. Puede realizar lo siguiente:
 
-* **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**. 
+* **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**.
    * Caso de uso: comprender la probabilidad de conversión de los clientes de un segmento específico.
    * Ejemplo: un experto en marketing de una cadena hotelera quiere comprender la probabilidad de que un cliente de un hotel compre una entrada para un espectáculo en el recinto de conciertos del hotel.
 * **Analizar qué eventos o atributos de éxito están asociados con las puntuaciones de tendencia**.
    * Ejemplo de caso de uso: comprender los atributos o los eventos de éxito asociados con las puntuaciones de tendencia.
    * Ejemplo: un experto en marketing de una cadena hotelera quiere comprender cómo las compras de entradas para espectáculos en el recinto de conciertos de un hotel se asocian con las puntuaciones de tendencia.
-* **Seguir el flujo de entrada de la tendencia de los clientes sobre diferentes ejecuciones de puntuación**. 
+* **Seguir el flujo de entrada de la tendencia de los clientes sobre diferentes ejecuciones de puntuación**.
    * Ejemplo de caso de uso: entender a las personas que inicialmente eran usuarios de baja tendencia y, con el tiempo, se convirtieron en usuarios de alta tendencia.
    * Ejemplo: un experto en marketing de una cadena hotelera quiere comprender cuáles clientes de hotel se identificaron inicialmente como clientes con baja tendencia a comprar una entrada para un espectáculo, pero con el tiempo se convirtieron en clientes con una alta tendencia para comprar una entrada para un espectáculo.
-* **Observe la distribución de la tendencia**. 
+* **Observe la distribución de la tendencia**.
    * Caso de uso: comprender la distribución de las puntuaciones de tendencia para ser más precisos a la hora de definir segmentos.
-   * Ejemplo: un minorista desea hacer una promoción específica de 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analiza los datos y decide segmentar solo a los clientes principales con un 80 % o más.
-* **Observar la tendencia de realizar una acción para una cohorte en particular a lo largo del tiempo**. 
-   * Caso de uso: rastrear una cohorte específica a lo largo del tiempo. 
+   * Ejemplo: un minorista desea hacer una promoción específica de 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analiza los datos y decide segmentar solo los clientes principales con una puntuación del 80 % o más.
+* **Observar la tendencia de realizar una acción para una cohorte en particular a lo largo del tiempo**.
+   * Caso de uso: rastrear una cohorte específica a lo largo del tiempo.
    * Ejemplo: un experto en marketing puede rastrear su nivel bronce frente a su nivel plata, o su nivel plata frente a su nivel oro a lo largo del tiempo. Puede ver la tendencia de cada cohorte a reservar el hotel a lo largo del tiempo.
 
 Para integrar realmente los datos de inteligencia artificial aplicada al cliente con Customer Journey Analytics, siga estos pasos:
@@ -67,7 +84,7 @@ A continuación se muestra un ejemplo de esquema de XDM que Customer Journey Ana
 
 ![Esquema de CAI](assets/cai-schema.png)
 
-(Tenga en cuenta que el ejemplo es un conjunto de datos de perfil; el mismo conjunto de objetos de esquema formaría parte de un conjunto de datos de evento de experiencia que Customer Journey Analytics obtendría. El conjunto de datos de evento de experiencia incluiría marcas de tiempo como fecha de la puntuación). Todos los clientes puntuados en este modelo tendrían una puntuación, una scoreDate, etc. asociadas a ellos.
+(Tenga en cuenta que el ejemplo es un conjunto de datos de perfil; el mismo conjunto de objetos de esquema formaría parte de un conjunto de datos de evento de experiencia que Customer Journey Analytics obtendría. El conjunto de datos de evento de experiencia incluiría marcas de tiempo como fecha de la puntuación). Todos los clientes puntuados en este modelo tendrían una puntuación, un scoreDate, etc. asociado a ellos.
 
 ## Paso 3: Crear vistas de datos en función de estas conexiones
 

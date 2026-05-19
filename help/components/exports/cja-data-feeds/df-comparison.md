@@ -5,9 +5,22 @@ title: Comparación de la funcionalidad de las fuentes de datos en Customer Jour
 feature: Components
 hide: true
 exl-id: 32b71016-7c53-409f-9ce4-521a40e2eb96
-source-git-commit: 46d54e388fecac0b62eccfe54fe91620a46474a7
+autotag-review: '2026-05-19T08:44:26.806Z'
+TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: 934
 ht-degree: 2%
 
 ---

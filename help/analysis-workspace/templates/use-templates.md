@@ -4,9 +4,32 @@ title: Uso de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+autotag-review: '2026-05-19T09:53:18.849Z'
+TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '21144'
+source-wordcount: 21144
 ht-degree: 98%
 
 ---
@@ -190,7 +213,7 @@ Para acceder a todas las plantillas creadas previamente que están disponibles:
 >[!CONTEXTUALHELP]
 >id="template--keyMetricsReport"
 >title="Consultar un informe que muestra en paralelo las métricas de vistas de página, visitas y visitantes únicos. Los datos se muestran a lo largo de un período de tiempo y se comparan con los períodos anteriores."
->abstract="**Esto puede ayudarle** a comparar estas métricas importantes para obtener una imagen más completa del número de personas únicas que visitan el sitio, el número de veces que se visitaron las páginas y la cantidad de sesiones.<br/>**En función de lo que aprenda, podría** hacer cualquier cosa, como evaluar el número promedio de páginas que vio cada persona al visitar el sitio en una semana o mes determinados, y cómo cambió eso durante ciertas épocas del año o antes y después de ejecutar las campañas de marketing. <br/>Esta plantilla usa la dimensión Día, la métrica Vistas de página, la métrica Visitas y la métrica Visitantes únicos."
+>abstract="**Esto puede ayudarle** a comparar estas métricas importantes para obtener una imagen más completa del número de personas únicas que visitan el sitio, el número de veces que se visitaron las páginas y la cantidad de sesiones.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como evaluar el promedio de páginas que vio cada persona al visitar el sitio en una semana o mes determinados, y cómo eso cambió durante determinadas épocas del año o antes y después de que se ejecutaran las campañas de marketing. <br/>Esta plantilla usa la dimensión Día, la métrica Vistas de página, la métrica Visitas y la métrica Visitantes únicos."
 
 >[!CONTEXTUALHELP]
 >id="template--siteSectionRankedReport"
@@ -373,7 +396,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--exitPageRankedReport"
 >title="Vea las páginas principales a las que los usuarios acceden inmediatamente antes de abandonar el sitio."
->abstract="**Esto puede ayudarle** a comprender mejor qué páginas están alejando a la gente del sitio. <br/>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en su sitio.<br/>Esta plantilla usa la métrica Sesiones. También utiliza la visualización Barra y la visualización Tabla de forma libre."
+>abstract="**Esto puede ayudarle** a comprender mejor qué páginas están alejando a las personas del sitio. <br/>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en su sitio.<br/>Esta plantilla usa la métrica Sesiones. También utiliza la visualización Barra y la visualización Tabla de forma libre."
 
 >[!CONTEXTUALHELP]
 >id="template--productUsageOverviewReport"

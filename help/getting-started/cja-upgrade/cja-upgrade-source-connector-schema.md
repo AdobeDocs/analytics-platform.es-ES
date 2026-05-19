@@ -5,9 +5,23 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+autotag-review: '2026-05-19T08:17:31.632Z'
+TQID: 'https://experienceleague.adobe.com/ov6cr-MF9OeH8OU23Km0KdD2l0LirVpVor4nndHpqo8'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 587
 ht-degree: 100%
 
 ---
@@ -48,7 +62,7 @@ Para utilizar el conector de origen de Analytics para introducir datos históric
 
    O bien
 
-   Si ya tiene un conector de origen de Analytics, [asigne campos del conector de origen al esquema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+   Si ya tiene un conector de origen de Analytics, [asigne campos del conector de origen a su esquema XDM](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. [Adición del conjunto de datos del conector de origen de Analytics a la conexión](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
@@ -62,7 +76,7 @@ Este esquema para el conector de origen de Analytics debe contener:
 
 * Todos los grupos de campos (incluidos los grupos de campos personalizados que haya creado) incluidos en el esquema personalizado que haya creado para la implementación del SDK web. (Todos los campos personalizados que no formen parte de un grupo de campos predeterminado deberían haberse añadido al esquema del SDK web como parte de un grupo de campos personalizados).
 
-* El grupo de campos Plantilla de Adobe Analytics ExperienceEvent 
+* El grupo de campos Plantilla de Adobe Analytics ExperienceEvent
 
 Para crear el esquema personalizado que se utilizará con el conector de origen de Analytics:
 

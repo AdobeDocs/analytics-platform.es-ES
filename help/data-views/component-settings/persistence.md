@@ -5,13 +5,25 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+autotag-review: '2026-05-19T09:11:25.584Z'
+TQID: 'https://experienceleague.adobe.com/n0OW9ezQRIXl-e4qneDwlqUR7d2d-osnG31QYhsBBOI'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1117
 ht-degree: 78%
 
 ---
-
 
 # Configuración de componentes de [!UICONTROL persistencia] {#persistence-component-settings}
 
@@ -46,7 +58,7 @@ La [!UICONTROL persistencia] es la capacidad de un valor de dimensión determina
 | --- | --- |
 | [!UICONTROL Establecer persistencia] | Habilite la persistencia para la dimensión. Si la persistencia no está habilitada, la dimensión solo se relaciona con métricas que existen en el mismo evento. Esta opción está desactivada de manera predeterminada. |
 | [!UICONTROL Asignación] | Especifique el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son:<ul><li>**[!UICONTROL Más reciente]**: los valores de la dimensión persisten hasta que los valores subsiguientes los sobrescriban</li><li> **[!UICONTROL Original]**: el primer valor de esta dimensión persiste y no se sobrescribe con valores posteriores</li><li>**[!UICONTROL Todos]**: todos los valores de esta dimensión persisten simultáneamente</li><li>**[!UICONTROL Primero conocido]**: Se usa el primer valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li><li>**[!UICONTROL Último conocido]**: se usa el último valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li></ul> |
-| [!UICONTROL Caducidad] | Especifique la ventana de persistencia para una dimensión. Las opciones son: <ul><li>**[!UICONTROL Sesión]** (valor predeterminado). </li><li>**[!UICONTROL Persona]**</li><li>**[!UICONTROL Tiempo personalizado]**</li><li>**[!UICONTROL Métrica]**</li></ul>. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). El tiempo de caducidad máximo que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
+| [!UICONTROL Caducidad] | Especifique la ventana de persistencia para una dimensión. Las opciones son: <ul><li>**[!UICONTROL Sesión]** (valor predeterminado).</li><li>**[!UICONTROL Persona]**</li><li>**[!UICONTROL Tiempo personalizado]**</li><li>**[!UICONTROL Métrica]**</li></ul>. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). El tiempo de caducidad máximo que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
 
 {style="table-layout:auto"}
 

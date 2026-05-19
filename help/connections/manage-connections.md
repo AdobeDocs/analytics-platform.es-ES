@@ -6,9 +6,27 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+autotag-review: '2026-05-19T08:50:02.853Z'
+TQID: 'https://experienceleague.adobe.com/iJ5jp3wtWSrJzCnJqIceIHwwLideF-U2puXvit5GFac'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2:
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '4956'
+source-wordcount: 5351
 ht-degree: 97%
 
 ---
@@ -63,7 +81,7 @@ En la tabla están disponibles las siguientes columnas o iconos.
 | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para conjuntos de datos: <p>![Estado verde](assets/status-green.svg)    **[!UICONTROL _x _Activado]**&#x200B;para conjuntos de datos configurados para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** para conjuntos de datos no configurados para importar datos nuevos. |
 | **[!UICONTROL Fecha de creación]** | La marca de tiempo en la que se creó la conexión. |
 | **[!UICONTROL Última modificación]** | La marca de tiempo en la que se actualizó la conexión por última vez. |
-| **[!UICONTROL Datos de relleno]** | El estado para los datos de relleno entre conjuntos de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _error de rellenos]**&#x200B;para el número de rellenos con error entre conjuntos de datos,<p>![Estado naranja](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en curso]**&#x200B;para el número de rellenos en procesamiento entre conjuntos de datos,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados para los conjuntos de datos, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se definan rellenos para los conjuntos de datos de la conexión. |
+| **[!UICONTROL Datos de relleno]** | El estado para los datos de relleno entre conjuntos de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos entre conjuntos de datos,<p>![Estado naranja](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en curso]**&#x200B;para el número de rellenos en procesamiento entre conjuntos de datos,<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados para los conjuntos de datos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se definan rellenos para los conjuntos de datos de la conexión. |
 | **[!UICONTROL Integraciones]** | Muestra todas las aplicaciones de Experience Platform habilitadas con la conexión. |
 | **[!UICONTROL Usar en CJA]** | Muestra si la conexión se ha habilitado para su uso con Customer Journey Analytics. |
 
@@ -82,7 +100,7 @@ Para aplicar un filtro a la lista de conexiones, seleccione ![Filtro](/help/asse
 | **[!UICONTROL Conjuntos de datos]** | Solo se muestran las conexiones asociadas a los conjuntos de datos seleccionados. |
 | **[!UICONTROL Propietario]** | Solo se muestran las conexiones que pertenecen a las personas seleccionadas. |
 | **[!UICONTROL Zona protegida]** | Solo se muestran las conexiones disponibles en las zonas protegidas seleccionadas. |
-| **[!UICONTROL Tipo de conexión]** | Filtrar por conexiones de **[!UICONTROL B2B edition]** basadas en **[!UICONTROL persona]** o en [!BADGE cuenta]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. |
+| **[!UICONTROL Tipo de conexión]** | Filtrar por conexiones de [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} basadas en **[!UICONTROL persona]** o en **[!UICONTROL cuenta]**. |
 | **[!UICONTROL Usar en CJA]** | Seleccione **[!UICONTROL Activado]** para mostrar solo las conexiones habilitadas para usar con Customer Journey Analytics. Seleccione **[!UICONTROL Desactivado]** para mostrar solamente las conexiones que aún no se han habilitado para usar con Customer Journey Analytics. |
 | **[!UICONTROL Integraciones]** | Solo se muestran las conexiones con las integraciones seleccionadas. |
 
@@ -271,7 +289,7 @@ La tabla de conjuntos de datos muestra las siguientes columnas para cada conjunt
 | --- | --- |
 | **[!UICONTROL Conjuntos de datos]** | El nombre del conjunto de datos. Puede seleccionar el hipervínculo para abrir el conjunto de datos en la interfaz de usuario de Experience Platform en una nueva pestaña. Puede seleccionar la fila o la casilla de verificación para mostrar solo los detalles del conjunto de datos seleccionado. |
 | **[!UICONTROL ID de conjunto de datos]** | El ID del conjunto de datos generado por Experience Platform. |
-| **[!UICONTROL Registros añadidos]** | El número de registros del conjunto de datos (filas) añadidos a una conexión durante el intervalo de fechas seleccionado.  |
+| **[!UICONTROL Registros añadidos]** | El número de registros del conjunto de datos (filas) añadidos a una conexión durante el intervalo de fechas seleccionado. |
 | **[!UICONTROL Registros omitidos]** | El número de registros del conjunto de datos (filas) omitidos durante la transferencia de datos de una conexión durante el intervalo de fechas seleccionado. |
 | **[!UICONTROL Registros eliminados]** | El número de registros del conjunto de datos (filas) que se han quitado de una conexión durante el intervalo de fechas seleccionado. |
 | **[!UICONTROL Lotes añadidos]** | El número de lotes que se han añadido a una conexión durante el intervalo de fechas seleccionado. |
@@ -282,7 +300,7 @@ La tabla de conjuntos de datos muestra las siguientes columnas para cada conjunt
 | **[!UICONTROL Esquema]** | El esquema de Adobe Experience Platform en el que se basa este conjunto de datos. |
 | **[!UICONTROL Importar datos nuevos]** | Estado de la importación de nuevos datos para el conjunto de datos: <p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;si el conjunto de datos está configurado para importar datos nuevos y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** si el conjunto de datos está configurado para no importar una nueva importación de datos. |
 | **[!UICONTROL Datos de transformación]** | El estado de transformación de los conjuntos de datos de consulta B2B aplicables. Consulte [Transformación de conjuntos de datos para búsquedas B2B](transform-datasets-b2b-lookups.md) para obtener más información.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _Activado]**&#x200B;para conjuntos de datos aplicables habilitados para la transformación, <p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _x Desactivado_]** para conjuntos de datos aplicables no habilitados para la transformación y<p>**[!UICONTROL N/A]** para todos los demás conjuntos de datos, no aplicables para la transformación. |
-| **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
+| **[!UICONTROL Datos de relleno]** | El estado de los datos de relleno del conjunto de datos.<p>![Estado rojo](assets/status-red.svg)   **[!UICONTROL _x _rellenos fallidos]**&#x200B;para el número de rellenos fallidos,<p>![Estado rojo](assets/status-orange.svg)   **[!UICONTROL _x _rellenos en procesamiento]**&#x200B;para el número de rellenos que se están procesando.<p>![Estado verde](assets/status-green.svg)   **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados, y<p>![Estado gris](assets/status-gray.svg)   **[!UICONTROL _Desactivado_]** en caso de que no se hayan configurado rellenos. |
 
 >[!IMPORTANT]
 >
@@ -326,7 +344,7 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 | **[!UICONTROL Clave de coincidencia]** | La clave de coincidencia que ha especificado para un conjunto de datos de consulta. |
 | **[!UICONTROL Marca de tiempo]** | La marca de tiempo definida para un conjunto de datos de evento. |
 | **[!UICONTROL Registros disponibles]** | El número total de filas ingeridas para este conjunto de datos, para el período de tiempo particular seleccionado a través del calendario. Una vez añadidos, no hay latencia en cuanto a la aparición de datos en los informes. Sin embargo, cuando crea una conexión completamente nueva, hay [latencia](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq). |
-| **[!UICONTROL Registros añadidos]** | El número de registros del conjunto de datos (filas) añadidos a una conexión durante el intervalo de fechas seleccionado.  |
+| **[!UICONTROL Registros añadidos]** | El número de registros del conjunto de datos (filas) añadidos a una conexión durante el intervalo de fechas seleccionado. |
 | **[!UICONTROL Registros omitidos]** | El número de registros del conjunto de datos (filas) omitidos durante la transferencia de datos de una conexión durante el intervalo de fechas seleccionado. |
 | **[!UICONTROL Lotes añadidos]** | El número de lotes que se ha añadido a una conexión. |
 | **[!UICONTROL Registros eliminados]** | El número de registros del conjunto de datos (filas) que se han quitado de una conexión durante el intervalo de fechas seleccionado. |
@@ -442,7 +460,7 @@ La interfaz de uso consta de dos paneles:
 
    * Cuatro visualizaciones de resumen que muestran los cambios totales y porcentuales del mes anterior para:
 
-      * **[!UICONTROL Filas notificables de datos principales]**. El número total de filas disponibles durante los últimos trece meses para el mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de eventos de enero de 2023 a enero de 2024.
+      * **[!UICONTROL Filas notificables de datos principales]**. El número total de filas disponibles durante los últimos 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de eventos de enero de 2023 a enero de 2024.
       * **[!UICONTROL Filas notificables de datos históricos]**. El número total de filas disponibles durante un período anterior a 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento anterior a enero de 2023.
       * **[!UICONTROL Volumen de datos principales]**. La cantidad total de datos almacenados en el disco con marca de tiempo para el mes actual (en TB), con un cambio porcentual en comparación con el mes anterior.
       * **[!UICONTROL Tamaño promedio de fila]**. La cantidad media de almacenamiento consumida por cada fila de datos ingeridos y almacenados para el mes actual (en kB), con un cambio porcentual en comparación con el mes anterior.

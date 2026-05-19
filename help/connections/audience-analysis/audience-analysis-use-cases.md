@@ -6,9 +6,25 @@ feature: Audiences
 role: Admin
 hide: true
 exl-id: f465e71-f1b5-4f38-a1db-645550856849
-source-git-commit: d8d82830188a24bc01bac35c22a27c7f12f9e615
+autotag-review: '2026-05-19T06:52:01.796Z'
+TQID: 'https://experienceleague.adobe.com/6kLQ-wzYZDWnzi-FcZsUxr7derTgtmu053nKTBQLhvw'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: 1517
 ht-degree: 0%
 
 ---

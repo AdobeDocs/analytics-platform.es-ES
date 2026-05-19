@@ -5,9 +5,23 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+autotag-review: '2026-05-19T08:20:10.493Z'
+TQID: 'https://experienceleague.adobe.com/CZMnHpY8nofEV8fbpLSe7TUZCR7nOd8xKWoMkCzfH0I'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: 1664
 ht-degree: 100%
 
 ---
@@ -53,7 +67,7 @@ Para definir un elemento de datos de nombre de página:
 
 1. Inicie sesión en experience.adobe.com con sus credenciales de Adobe ID.
 
-1. En Adobe Experience Platform, vaya a **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Etiquetas]**.
+1. En Adobe Experience Platform, vaya a **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Etiquetas]**.
 
 1. En la página **[!UICONTROL Propiedades de la etiqueta]**, seleccione la etiqueta recién creada en la lista de propiedades para abrirla.
 
@@ -185,7 +199,7 @@ Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
 
    * **[!UICONTROL Zona protegida]**: seleccione la zona protegida en la lista.
 
-   * **[!UICONTROL Esquema]**: seleccione el esquema en la lista. 
+   * **[!UICONTROL Esquema]**: seleccione el esquema en la lista.
 
 1. Asigne el atributo `identification > core > ecid`, definido en el esquema, al elemento de datos ECID. Seleccione el icono del cilindro para elegir fácilmente el elemento de datos ECID de su lista de elementos de datos.
 

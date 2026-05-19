@@ -4,9 +4,26 @@ description: Obtenga información sobre los componentes que definen la atribuci�
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+autotag-review: '2026-05-19T08:22:43.786Z'
+TQID: 'https://experienceleague.adobe.com/x7iU00nL86QSOohkEYY4PFio9NIWHECIxQdon1mvOjU'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: 84
 ht-degree: 100%
 
 ---
@@ -30,7 +47,7 @@ El concepto de atribución en Adobe Analytics incluye tres componentes:
 {{attribution-container}}
 
 
-## Período de retroactividad
+## Ventana de retroactividad
 
 {{attribution-lookback-window}}
 

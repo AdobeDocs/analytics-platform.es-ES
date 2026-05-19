@@ -5,9 +5,26 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+autotag-review: '2026-05-19T08:11:57.362Z'
+TQID: 'https://experienceleague.adobe.com/mu-yJABb7bfRMW6Kn5DBUZuSxggVyIUeOeGQHMgxetM'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: 818
 ht-degree: 100%
 
 ---
@@ -41,7 +58,7 @@ Para crear un esquema para utilizarlo con un conjunto de datos de consulta en Cu
 
 1. En Adobe Experience Platform, seleccione **[!UICONTROL Esquemas]** en la sección **[!UICONTROL Administración de datos]** del carril izquierdo.
 
-1. Seleccione **[!UICONTROL Crear esquema]**. 
+1. Seleccione **[!UICONTROL Crear esquema]**.
 
    ![Botón Crear esquema](assets/schema-create.png)
 
@@ -79,7 +96,7 @@ Para crear un conjunto de datos de consulta para utilizarlo con un esquema en Cu
 
 1. En la sección **[!UICONTROL Detalles del conjunto de datos]**, seleccione **[!UICONTROL Nuevo conjunto de datos]**.
 
-1. Especifique un nombre y una descripción para la aplicación. 
+1. Especifique un nombre y una descripción para la aplicación.
 
 1. En el campo **[!UICONTROL Esquema]**, seleccione el esquema que creó para los conjuntos de datos de consulta, tal como se describe en [Crear un esquema para los conjuntos de datos de consulta](#create-a-schema-for-lookup-datasets).
 

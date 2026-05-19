@@ -4,10 +4,23 @@ title: Configuración De Una Visualización De Flujo
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+autotag-review: '2026-05-19T08:39:50.563Z'
+TQID: 'https://experienceleague.adobe.com/QqjZAQQWPWP8ykksBH5k9TrW8Cgd-Lt6mSnczBREGfs'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 79%
+source-wordcount: 1843
+ht-degree: 80%
 
 ---
 
@@ -46,7 +59,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
 >title="Incluir repeticiones"
->abstract="Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. "
+>abstract="Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_limit_occurrence"
@@ -204,8 +217,8 @@ En el ejemplo siguiente, se incluyen **todas** las ocurrencias de *Categoría pr
 
 >[!MORELIKETHIS]
 >
->[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de la visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

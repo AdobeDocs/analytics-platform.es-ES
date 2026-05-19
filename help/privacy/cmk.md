@@ -1,13 +1,29 @@
 ---
 title: Teclas administradas por el cliente
-description: 'Obtenga información sobre cómo configurar teclas administradas por el cliente para Customer Journey Analytics. '
+description: Obtenga información sobre cómo configurar teclas administradas por el cliente para Customer Journey Analytics.
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 feature: Privacy
 role: Admin
-source-git-commit: cdc8d889a05c55d2f4765d0837023d007a5a230d
+autotag-review: '2026-05-19T09:16:21.318Z'
+TQID: 'https://experienceleague.adobe.com/jx1pw9U5sw42999O132esMBoUcQ8hWuUKzzN3WLAcyY'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2:
+  - id: c5ed78d1-99be-42e1-b164-a20a3685241e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 91%
+source-wordcount: 561
+ht-degree: 87%
 
 ---
 

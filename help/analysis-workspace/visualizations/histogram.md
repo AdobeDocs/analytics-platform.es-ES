@@ -4,10 +4,22 @@ title: Histograma
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+autotag-review: '2026-05-19T08:31:33.712Z'
+TQID: 'https://experienceleague.adobe.com/X9T4RpAiJ8uL0clPhyjffdl02kwd-k2Jv3O5t6iHfss'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 90%
+source-wordcount: 486
+ht-degree: 83%
 
 ---
 
@@ -21,7 +33,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización Histograma en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Histograma](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/histogram) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización del histograma en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Histograma](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/histogram) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +64,7 @@ Como parte de la visualización, hay una configuración específica del histogra
 | Configuración del histograma | Descripción |
 |---|---|
 | **[!UICONTROL Iniciando el intervalo]** | Determina por qué contenedor empieza el histograma. La opción predeterminada es “1”. Puede ajustar los números iniciales de 0 hasta el infinito (sin números negativos). |
-| **[!UICONTROL Intervalos de métricas]** | Le permite aumentar/disminuir el número de rangos de datos (intervalos). El número máximo de intervalos es 50. |
+| **[!UICONTROL Intervalos de métricas]** | Le permite aumentar/disminuir el número de rangos de datos (contenedores). El número máximo de contenedores es 50. |
 | **[!UICONTROL Tamaño del intervalo de métricas]** | Le permite establecer el tamaño de cada contenedor. Por ejemplo, puede cambiar el tamaño del contenedor de 1 vista de página a 2 vistas de página. |
 | **[!UICONTROL Método de recuento]** | Seleccione entre **[!UICONTROL Cuenta global]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Cuenta]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Grupo de compras]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Oportunidad]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Persona]**, **[!UICONTROL Sesión]** o **[!UICONTROL Evento]**. Por ejemplo, vistas de página por cuenta [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, vistas de página por sesión, o vistas de página por persona, o vistas de página por evento. |
 
@@ -60,15 +72,15 @@ Como parte de la visualización, hay una configuración específica del histogra
 
 **Ejemplos**:
 
-| Iniciando el intervalo | Intervalos de métricas | Tamaño del intervalo de métricas | Resultado  |
+| Iniciando el intervalo | Intervalos de métricas | Tamaño del intervalo de métricas | Resultado |
 |:----:|:--:|:--:|:--|
 | 1 | 5 | 2 | ![Histograma, iniciando el intervalo 1, intervalos de métricas 5, tamaño de intervalo de métricas 2](assets/histogram-1-5-2.png) |
 | 0 | 3 | 5 | ![Histograma, iniciando el intervalo 0, intervalos de métricas 3, tamaño del intervalo de métricas 5](assets/histogram-0-3-5.png) |
 
 >[!MORELIKETHIS]
 >
->[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de la visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >[Uso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=es)
 

@@ -4,10 +4,22 @@ title: Panel en blanco
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+autotag-review: '2026-05-19T08:00:53.869Z'
+TQID: 'https://experienceleague.adobe.com/9NadwNSz8ZcRD1AamnIN9257lmUSf2leoB087AHnUGU'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 93%
+source-wordcount: 266
+ht-degree: 85%
 
 ---
 
@@ -26,7 +38,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel en blanco en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulte [Panel en blanco](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/blank-panel) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta el panel en blanco en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Vea [Panel en blanco](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/blank-panel) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
