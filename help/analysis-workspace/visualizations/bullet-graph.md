@@ -6,11 +6,16 @@ exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
 autotag-review: '2026-05-19T08:01:11.240Z'
 TQID: 'https://experienceleague.adobe.com/G3lsqQvpMi7qfHIF0n5bymHloch0SaHuqwpl-3T04Fs'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 297
@@ -40,7 +45,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de viñetas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vea [Bullet](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de viñetas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vea [Bullet](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +68,7 @@ Puede definir una configuración específica para una visualización de [!UICONT
 
 | Configuración | Descripción |
 |---|---|
-| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta ]**es el objetivo principal que busca.**[!UICONTROL  Meta baja ]**y**[!UICONTROL  Meta media ]**crean intervalos por debajo de la Meta alta. Nota: Cuando la opción**[!UICONTROL  Porcentajes ]**esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
+| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta &#x200B;]**&#x200B;es el objetivo principal que busca.**[!UICONTROL &#x200B; Meta baja &#x200B;]**&#x200B;y&#x200B;**[!UICONTROL &#x200B; Meta media &#x200B;]**&#x200B;crean intervalos por debajo de la Meta alta. Nota: Cuando la opción&#x200B;**[!UICONTROL &#x200B; Porcentajes &#x200B;]**&#x200B;esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
 
 >[!MORELIKETHIS]
 >

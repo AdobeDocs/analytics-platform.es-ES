@@ -7,11 +7,17 @@ role: User
 exl-id: d122a415-fb22-48f7-9377-8349dba274e5
 autotag-review: '2026-05-19T09:45:42.786Z'
 TQID: 'https://experienceleague.adobe.com/snwj7xbkzdBzHE073kpVyfNQ0iWxHBrxhm58NJOiwy8'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2: id: f24857a4-4b64-4b25-b237-d43026362144
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 2021
@@ -349,7 +355,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 
 1. Inicie RStudio.
 1. Cree un nuevo archivo R Markdown o descargue [este archivo R markdown de ejemplo](../assets/BI-Extension.Rmd.zip).
-1. En su primer fragmento, escriba las siguientes instrucciones entre ` ```{r} ` y ` ``` `. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar valores del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en los valores necesarios para los distintos parámetros, como `host`, `dbname` y `user`. Por ejemplo:
+1. En su primer fragmento, escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` `. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar valores del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en los valores necesarios para los distintos parámetros, como `host`, `dbname` y `user`. Por ejemplo:
 
    ```R
    library(rstudioapi)
@@ -370,7 +376,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 
    ![Paso de configuración de RStudio 1](../assets/rstudio-config-step1.png)
 
-1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ``` {r} ` y ` ``` `.
+1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ` `` {r} ` y ` `` ` `.
 
    ```R
    con <- dbConnect(
@@ -387,7 +393,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 1. Ejecuta el fragmento. No debería ver ninguna salida si la conexión se ha realizado correctamente.
 
 
-1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ``` {r} ` y ` ``` `.
+1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ` `` {r} ` y ` `` ` `.
 
    ```R
    views <- dbListTables(con)
@@ -397,7 +403,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 1. Ejecuta el fragmento. Debería ver `character(0)` como el único resultado.
 
 
-1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ``` {r} ` y ` ``` `.
+1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ` `` {r} ` y ` `` ` `.
 
    ```R
    glimpse(dv)

@@ -7,11 +7,20 @@ hide: true
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 988
@@ -32,7 +41,7 @@ Sin la vinculación de cuentas, los eventos que no contengan un ID de cuenta se 
 La vinculación de cuentas realiza las siguientes operaciones en los conjuntos de datos:
 
 * **Elevar la identidad de la persona**: el ID de persona de cada evento se eleva al área de nombres de identidad deseada mediante el gráfico de identidades.
-* **Agregar información de cuenta que falta**: Para los eventos que contienen un ID de persona, la asignación de persona a cuenta [3} se usa para derivar y agregar la información de cuenta. ](#prerequisites)Cualquier información de la cuenta en el propio evento se utiliza como método de reserva.
+* **Agregar información de cuenta que falta**: Para los eventos que contienen un ID de persona, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la información de cuenta. &#x200B;](#prerequisites)Cualquier información de la cuenta en el propio evento se utiliza como método de reserva.
 
 ## Requisitos previos
 
