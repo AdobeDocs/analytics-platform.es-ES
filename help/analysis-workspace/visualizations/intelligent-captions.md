@@ -4,9 +4,16 @@ title: Pies de ilustración inteligentes
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+autotag-review: '2026-05-19T08:31:54.599Z'
+TQID: 'https://experienceleague.adobe.com/k-0eP4wFf0vl3zYmUDUOv1V9xI6utt7AOjJqCo2mAB4'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: 802
 ht-degree: 100%
 
 ---
@@ -81,7 +88,7 @@ Puede copiar los subtítulos en un portapapeles y pegarlos en un PowerPoint u ot
 
 ### Mostrar todos los subtítulos inteligentes o subtítulos inteligentes individuales  {#show-all-or-individual}
 
-Puede mostrar todos los subtítulos inteligentes a la vez en una vista expandida o puede mostrar subtítulos inteligentes individuales en una vista uno por uno. 
+Puede mostrar todos los subtítulos inteligentes a la vez en una vista expandida o puede mostrar subtítulos inteligentes individuales en una vista uno por uno.
 
 * Para mostrar todos los subtítulos inteligentes, seleccione ![Mostrar todos los subtítulos inteligentes](/help/assets/icons/Maximize.svg).
 * Para mostrar subtítulos inteligentes individuales, uno por uno, seleccione ![Mostrar subtítulos inteligentes individuales](/help/assets/icons/Minimize.svg).

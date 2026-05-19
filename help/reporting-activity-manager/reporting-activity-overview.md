@@ -5,9 +5,16 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c3964147-06f1-462a-aea1-e681c4ef15b1
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+autotag-review: '2026-05-19T09:20:21.544Z'
+TQID: 'https://experienceleague.adobe.com/p3-A9niD983wGg3yw78Hcrb1q0ApWZxHrw8xfpZ9ESg'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: d897176a-4262-4425-ba97-0aa9fcc9c1aa
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: 273
 ht-degree: 100%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 100%
 
 El [!UICONTROL Administrador de actividades de creación de informes] está disponible para los administradores.
 
-Si su organización experimenta una degradación en el rendimiento de creación de informes durante las horas de de mayor actividad de creación de informes, el Administrador de actividades de creación de informes le permite autodiagnosticar y corregir los problemas de capacidad sin la intervención del Servicio de atención al cliente de Adobe. Puede administrar fácilmente las colas de creación de informes dentro de una sola interfaz y actuar inmediatamente para mejorar la experiencia de los usuarios. 
+Si su organización experimenta una degradación en el rendimiento de creación de informes durante las horas de de mayor actividad de creación de informes, el Administrador de actividades de creación de informes le permite autodiagnosticar y corregir los problemas de capacidad sin la intervención del Servicio de atención al cliente de Adobe. Puede administrar fácilmente las colas de creación de informes dentro de una sola interfaz y actuar inmediatamente para mejorar la experiencia de los usuarios.
 
 ## Beneficios
 

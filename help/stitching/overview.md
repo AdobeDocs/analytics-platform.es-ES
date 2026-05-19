@@ -5,18 +5,25 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
+autotag-review: '2026-05-19T09:24:34.962Z'
+TQID: 'https://experienceleague.adobe.com/Y7Q0pAx9s4p2YxrcfVKsvJcppHFmtNCKAgA0oCc0CeA'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 54%
+source-wordcount: 1022
+ht-degree: 58%
 
 ---
 
-# Información general de vinculación
+# Información general sobre la vinculación
 
 >[!NOTE]
 >
->Debe tener el paquete de Customer Journey Analytics **Select** o superior (para la vinculación basada en el campo [Prime](fbs.md)) o el paquete de Customer Journey Analytics **&#x200B;**&#x200B;o superior (para la vinculación basada en gráficos [graph-based stitching](gbs.md)) para utilizar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
+>Debe tener el paquete de Customer Journey Analytics **Select** o superior (para la vinculación basada en el campo [Prime](fbs.md)) o el paquete de Customer Journey Analytics **** o superior (para la vinculación basada en gráficos [graph-based stitching](gbs.md)) para utilizar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
 Vinculación de identidad (o simplemente, vinculación) es una potente función que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal de Customer Journey Analytics. Esta característica le permite combinar y ejecutar informes sin problemas en varios conjuntos de datos de diferentes canales, según un identificador común (ID de persona).
 
@@ -40,7 +47,7 @@ Antes de usar la vinculación, asegúrese de que su organización está preparad
 
 - Importe los datos deseados en Adobe Experience Platform:
 
-   - Para obtener datos de Adobe Analytics, consulte [Uso de los datos de grupos de informes de Adobe Analytics en Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). 
+   - Para obtener datos de Adobe Analytics, consulte [Uso de los datos de grupos de informes de Adobe Analytics en Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
    - Para ver otros tipos de datos, consulte [Crear un esquema](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/create-schema-ui) y [Ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home) en la documentación de Adobe Experience Platform.
 
 Se beneficia del análisis en canales múltiples si combina uno o más de los conjuntos de datos enlazados con otros conjuntos de datos, como los datos del centro de llamadas, como parte de la definición de la conexión de Customer Journey Analytics. Esta configuración de conexión supone que esos otros conjuntos de datos ya contienen un ID de persona del mismo espacio de nombres en tantas filas como sea posible.
@@ -52,7 +59,7 @@ Una vez que su organización cumpla [requisitos previos](overview.md#prerequisit
 La vinculación es una función innovadora y sólida, pero tiene limitaciones en cuanto a su uso.
 
 - Solo se admiten conjuntos de datos de evento. No se admiten otros conjuntos de datos, como conjuntos de datos de búsqueda.
-- La vinculación no transforma el campo que se utiliza para la misma de ninguna manera. La vinculación utiliza el valor del campo especificado tal como existe en el conjunto de datos no identificado del lago de datos. 
+- La vinculación no transforma el campo que se utiliza para la misma de ninguna manera. La vinculación utiliza el valor del campo especificado tal como existe en el conjunto de datos no identificado del lago de datos.
 - El proceso de vinculación distingue entre mayúsculas y minúsculas. Por ejemplo, los valores de identidad `Bob` y `BOB` se tratan como dos personas independientes.
 
 Asegúrese de no confundir la vinculación con lo siguiente:
@@ -64,7 +71,7 @@ Asegúrese de no confundir la vinculación con lo siguiente:
 
 ## Opciones
 
-El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración inicial del relleno, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de habilitar la vinculación.
+El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración inicial del relleno, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de habilitar la vinculación.
 
 | | Customer Journey Analytics<br/>Seleccionar | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
@@ -98,7 +105,7 @@ La vinculación admite los siguientes conjuntos de datos de Journey Optimizer ge
 >
 >[Vinculación basada en el campo](fbs.md)
 >[Vinculación basada en gráficos](gbs.md)
->[Uso de la vinculación](use-stitching.md)
->[Validación de la vinculación](validate.md)
+>[Usar vinculación](use-stitching.md)
+>[Validar vinculación](validate.md)
 >[Preguntas frecuentes sobre la vinculación](faq.md)
 

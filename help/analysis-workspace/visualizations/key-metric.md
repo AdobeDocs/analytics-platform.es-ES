@@ -4,10 +4,17 @@ title: Resumen de métricas clave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: a85cc758f414c8c9f702ed83d1dd2675bf29a30f
+autotag-review: '2026-05-19T08:31:00.048Z'
+TQID: 'https://experienceleague.adobe.com/y3VfcvJp8lCmBLHy4-zPEb6Y7dzjfcDPjSMlKGPNR-A'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 94%
+source-wordcount: 960
+ht-degree: 91%
 
 ---
 
@@ -21,7 +28,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_En este artículo se describe la visualización Resumen de métricas clave en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Resumen de métricas clave](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) para ver la versión de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización Resumen de métricas clave en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Resumen de métricas clave](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -139,7 +146,7 @@ Como parte de la configuración de visualización, hay disponibles opciones espe
 | **[!UICONTROL Mostrar porcentaje de comparación y líneas de tendencia]** | Muestre u oculte los datos de comparación. Cuando están ocultos, el gráfico de líneas de comparación y los objetos de cambio de resumen no se ven. |
 | **[!UICONTROL Mostrar número total]** | Mostrar u ocultar el número de resumen |
 | **[!UICONTROL Mostrar diferencia en bruto]** | Mostrar u ocultar la diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario |
-| **[!UICONTROL Valor abreviado]** | Seleccione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente el valor numérico. Cuando esta opción esté seleccionada, introduzca un número para definir la cantidad de abreviatura. Por ejemplo:<br/><table><tr><td>**Valor original**</td><td>**Abreviatura**</td><td>**Resultado**</td></tr><tr><td>12.011.141,25 USD</td><td>No seleccionado</td><td align="right">12.011.141,25 USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en 1</td><td align="right">12 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en 2</td><td align="right">12,0 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en 2</td><td align="right">12,011 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en 3</td><td align="right">12,011 mills. USD</td></tr></table> |
+| **[!UICONTROL Valor abreviado]** | Seleccione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente el valor numérico. Cuando esta opción esté seleccionada, introduzca un número para definir la cantidad de abreviatura. Por ejemplo:<br/><table><tr><td>**Valor original**</td><td>**Abreviatura**</td><td>**Resultado**</td></tr><tr><td>$12,011,141.25</td><td>No seleccionado</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en 1</td><td align="right">12 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en 2</td><td align="right">12,0 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en 2</td><td align="right">12,011 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en 3</td><td align="right">12,011 mills. USD</td></tr></table> |
 
 ## Edición de la visualización
 
@@ -153,6 +160,6 @@ Después de crear la visualización, puede editar la configuración original.
 
 >[!MORELIKETHIS]
 >
->[Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Agregar una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de la visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)

@@ -5,9 +5,16 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+autotag-review: '2026-05-19T08:07:04.110Z'
+TQID: 'https://experienceleague.adobe.com/SP2BT-sh552jPgJRQOpUv2QuEE6iYfz6TX06s6wON34'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: 561
 ht-degree: 100%
 
 ---

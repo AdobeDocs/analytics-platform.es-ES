@@ -5,17 +5,23 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
+autotag-review: '2026-05-19T07:16:56.858Z'
+TQID: 'https://experienceleague.adobe.com/v5QCNZReBnq8uFMSUSJz1VBbzm2J8ztbr8mciozSY0E'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ae3aff40-b2f6-4df1-8c01-0b0720d1510fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b4489fa2-c6d6-4934-a3a0-e7b4e196f986
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: 660
 ht-degree: 100%
 
 ---
 
-
 # Asistente de IA para Adobe Customer Journey Analytics
 
-El asistente de IA es una experiencia conversacional que permite a los profesionales realizar tareas a un ritmo rápido. Tanto si la tarea consiste en conocer conceptos, solucionar problemas o bien buscar a través de la información. También permite a los no expertos realizar tareas de expertos y aumenta la calidad global del trabajo.
+El asistente de IA es una experiencia conversacional que permite a los profesionales realizar tareas a un ritmo rápido. Tanto si la tarea consiste en conocer conceptos, solucionar problemas o bien buscar a través de la información. El asistente de IA también permite a los no expertos realizar tareas de expertos y aumenta la calidad global del trabajo.
 
 El Asistente de IA de Customer Journey Analytics está entrenado en la documentación de Adobe Experience League. Cuando se formula una pregunta, el Asistente de IA responde con una respuesta útil que da lugar a un aprendizaje rápido.
 
@@ -23,7 +29,7 @@ Como usuario principiante, puede utilizar el Asistente de IA para conocer concep
 
 Algunos ejemplos de preguntas relativas a los conceptos son las siguientes:
 
-* ¿Cuál es la diferencia entre la ingesta por lotes y la de streaming?
+* ¿Cuál es la diferencia entre la ingesta por lotes y la ingesta de streaming?
 * ¿Para qué se utiliza mejor Customer Journey Analytics?
 * ¿Cómo se configura una vista de datos?
 
@@ -43,7 +49,7 @@ El Asistente de IA para Customer Journey Analytics está disponible en todos los
 
 Data Insights Agent, al que puede acceder desde el Asistente de IA de Customer Journey Analytics, es un agente de conversación de IA generativa que responde de forma rápida y eficaz a las preguntas sobre sus datos. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando sus datos reales.
 
-Para obtener más información sobre el uso de Data Insights Agent en el Asistente para IA, consulte [Visualizar datos con Data Insights Agent](/help/data-analysis-ai.md).
+Para obtener más información sobre el uso de Data Insights Agent en el asistente de IA, consulte [Visualizar datos con Data Insights Agent](/help/data-analysis-ai.md).
 
 ## Acceso a las funciones
 

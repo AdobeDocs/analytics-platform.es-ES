@@ -4,9 +4,16 @@ description: Obtenga información sobre cómo configurar Content Analytics sin u
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: 35abfb5b77384b16beaddab2554a7d48d10be012
+autotag-review: '2026-05-19T06:56:34.440Z'
+TQID: 'https://experienceleague.adobe.com/GUYf0ZoTlAkoIIPWzfZTm0-eMvBjN8ieYSu6goHu3GA'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: 484
 ht-degree: 4%
 
 ---
@@ -52,7 +59,7 @@ Use `npm` para instalar la biblioteca.
 
 Cargue la biblioteca directamente desde la CDN.
 
-1. Inicialice la [biblioteca JavaScript de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library) y cargue el paquete de Content Analytics:
+1. Inicialice la [biblioteca JavaScript de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library) y cargue el paquete de Content Analytics:
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -74,7 +81,7 @@ Cargue la biblioteca directamente desde la CDN.
    ```
 
    dónde
-   * `alloy/2.x.x` hace referencia a la versión que desea usar de la [biblioteca de Web SDK JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library).
+   * `alloy/2.x.x` hace referencia a la versión que desea usar de la [biblioteca de Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library).
    * `content-analytics/1.x.x` hace referencia a la versión que desea utilizar de la biblioteca SDK de Content Analytics.
 
 2. La compilación independiente expone `window.contentAnalytics` como función de inicialización.

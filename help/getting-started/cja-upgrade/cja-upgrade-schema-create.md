@@ -5,9 +5,16 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
+autotag-review: '2026-05-19T08:15:52.067Z'
+TQID: 'https://experienceleague.adobe.com/RxYBLvBJnhWb-YL6HeVpTz-9dKrr5DQZhOBond8Xano'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: 1294
 ht-degree: 100%
 
 ---
@@ -24,12 +31,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create-default-aa"
 >title="Crear un esquema utilizando el grupo de campos Adobe Analytics ExperienceEvent"
->abstract="Utilice el grupo de campos &quot;Adobe Analytics ExperienceEvent&quot; para crear un esquema en Adobe Experience Platform que contenga todos los campos utilizados por Adobe Analytics.<br><br>Crear un esquema basado en el grupo de campos Adobe Analytics ExperienceEvent es sencillo y tarda solo unos minutos en completarse."
+>abstract="Utilice el grupo de campos “Adobe Analytics ExperienceEvent” para crear un esquema en Adobe Experience Platform que contenga todos los campos utilizados por Adobe Analytics.<br><br>Crear un esquema basado en el grupo de campo Adobe Analytics ExperienceEvent es sencillo y puede completarse en tan solo unos minutos."
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
 >title="Habilitar el esquema para el perfil"
->abstract="Habilite el perfil en su esquema para utilizarlo en Adobe Real-time CDP. Este paso aparece porque ha seleccionado el deseo de integrarse con Adobe Real-time CDP.<br><br>Dado que este paso implica hacer clic en un solo cuadro, este paso solo lleva unos minutos."
+>abstract="Habilite el perfil en su esquema para utilizarlo en Adobe Real-time CDP. Este paso se muestra porque ha indicado que desea integrar con Adobe Real-time CDP.<br><br>Dado que este paso implica hacer clic en un solo cuadro, este paso solo lleva unos minutos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +64,7 @@ Para crear un esquema personalizado:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
-1. Seleccione **[!UICONTROL Crear esquema]**. 
+1. Seleccione **[!UICONTROL Crear esquema]**.
 
 1. En el paso **[!UICONTROL Seleccionar una clase]** del asistente Crear esquema:
 

@@ -3,9 +3,17 @@ description: Aprenda a ver los datos de tendencias de una tabla de forma libre e
 title: Visualización de datos de tendencias de una tabla de forma libre
 feature: Freeform Tables
 role: User, Admin
-source-git-commit: 6ffc02c537a5e0b24edab34c87866d5c8413ae6f
+exl-id: 57fc0a64-658f-4931-952e-ab8479ae61d1
+autotag-review: '2026-05-19T08:43:04.024Z'
+TQID: 'https://experienceleague.adobe.com/-WIC1VpPmJXOXAn3ltwvIRKY9iDbnKgxEJl3XF4VEBc'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 0%
 
 ---
@@ -76,4 +84,3 @@ Cuando no se selecciona el minigráfico de la tabla conectada, las visualizacion
 ## Incluir criterios de filtro en visualizaciones de líneas conectadas
 
 Para obtener información sobre cuándo se incluyen los criterios de filtro en las visualizaciones de líneas conectadas, consulte [Incluir criterios de filtro en datos de tendencias en minigráficos y visualizaciones de líneas](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#include-filter-criteria-in-trended-data-in-sparklines-and-line-visualizations)
-

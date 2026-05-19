@@ -5,9 +5,16 @@ solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
 exl-id: 095cae34-1337-464a-9682-3c899295c0a8
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+autotag-review: '2026-05-19T10:44:54.802Z'
+TQID: 'https://experienceleague.adobe.com/ljj9CIUW58m27w8Mo9HlRJ0kgYXGIgqwuarPR2wNUjw'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: 503
 ht-degree: 0%
 
 ---

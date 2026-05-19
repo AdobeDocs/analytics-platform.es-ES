@@ -5,9 +5,16 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
+autotag-review: '2026-05-19T09:50:19.249Z'
+TQID: 'https://experienceleague.adobe.com/ez4GO2CJ0g-nOGI4GlYrZQhuGKxQRvWoXPe4vcHGznU'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: 685
 ht-degree: 1%
 
 ---
@@ -38,7 +45,7 @@ Este caso de uso requiere un campo de esquema dedicado al que enviar datos. Pued
 
 ## Paso 2: Capturar eventos de fricción utilizando la extensión de etiqueta de métrica cuántica
 
-Consulte [Extensión de métrica cuántica](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/analytics/quantum-metric) en la guía Destinos de Adobe Experience Platform para obtener instrucciones sobre cómo configurar las etiquetas para incluir datos de métrica cuántica. El uso de esta extensión pasa más filas a un conjunto de datos existente.
+Consulte [Extensión de métrica cuántica](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) en la guía Destinos de Adobe Experience Platform para obtener instrucciones sobre cómo configurar las etiquetas para incluir datos de métrica cuántica. El uso de esta extensión pasa más filas a un conjunto de datos existente.
 
 Utilice etiquetas en la recopilación de datos de Adobe Experience Platform para definir manualmente el nombre del evento de fricción de modo que se pueda incluir en el objeto XDM y analizarse. Una forma de hacerlo es mediante el código personalizado de la regla:
 

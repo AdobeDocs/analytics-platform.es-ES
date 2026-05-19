@@ -5,9 +5,16 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+autotag-review: '2026-05-19T08:58:30.172Z'
+TQID: 'https://experienceleague.adobe.com/bG1thChKFsIHc1--pfT2rXHBgcay21qgpSa-ifilfF8'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e1471301-a189-438e-8d48-264a8db508a6id: e6d52a4d-79b6-4c52-8c8b-df194d83a207
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: 1166
 ht-degree: 96%
 
 ---
@@ -111,10 +118,10 @@ La zona horaria de los datos de resumen se define en el nivel de esquema de resu
   | 29-07-2024T01:00:00 | *GMT predeterminado* | 29-07-2024T01:00:00 | GMT | 29-07-2024T01:00:00 |
   | 29-07-2024T01:00:00 | *GMT predeterminado* | 29-07-2024T01:00:00 | PST | 28-07-2024T18:00:00 |
   | 2024-07-30T01:00:00-05:00 | *GMT predeterminado* | 30-07-2024T06:00:00 | GMT | 30-07-2024T06:00:00 |
-  | 2024-07-30T01:00:00-05:00 | *GMT predeterminado* | 2024-07-30T06:00:00 | PST | 29-07-2024T23:00:00 |
+  | 2024-07-30T01:00:00-05:00 | *GMT predeterminado* | 30-07-2024T06:00:00 | PST | 29-07-2024T23:00:00 |
   | 02-08-2024 | *GMT predeterminado* | 02-08-2024-02T00:00:00 | IST | 02-08-2024-02T05:00:00 |
   | 29-07-2024-29T01:00:00 | `America/`<br/>`Los_Angeles` | 28-07-2024-T18:00:00 | PST | 28-07-2024T18:00:00 |
-  | 30-07-2024-30T01:00:00-05:00 | `Australia/`<br/>`Sydney` | 30-07-2024-30T17:00:00 | CET | 30-07-2024-30T08:00:00 |
+  | 2024-07-30T01:00:00-05:00 | `Australia/`<br/>`Sydney` | 30-07-2024-30T17:00:00 | CET | 30-07-2024-30T08:00:00 |
 
   Para las zonas horarias con una diferencia de 30 minutos (por ejemplo, IST, hora estándar de India), la diferencia de 30 minutos se elimina al informar sobre datos de resumen. Por ejemplo: 12:30 aparece como 12:00.
 
@@ -154,5 +161,5 @@ Asegúrese de que la configuración de los componentes de un grupo de datos de r
 >[!MORELIKETHIS]
 >
 >- Consulte el artículo [Uso de datos de resumen](/help/use-cases/data-views/summary-data.md) para ver un ejemplo de caso de uso detallado sobre cómo utlizar los datos de resumen e informar sobre ellos.
->- Blog: [Los datos de resumen favorecen los conjuntos de datos de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=es)
+>- Blog: [Los datos de resumen favorecen los conjuntos de datos de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

@@ -5,17 +5,14 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
-TQID: https://experienceleague.adobe.com/6qERpivKabPPCynMGNKrLhhOMcROnlp7HKpbvXpzNSg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+autotag-review: '2026-05-19T09:13:16.649Z'
+TQID: 'https://experienceleague.adobe.com/sMivwoUTSa8KcQcaK8kR5PlbCF8stVNGeL5YET4usMI'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 2%
@@ -61,7 +58,7 @@ Para configurar y habilitar la función *asignación de datos entre IMS*, debe s
 
 Una vez que el administrador de cuentas de Adobe recibe el correo electrónico con la solicitud para asignar datos de Analytics de varias organizaciones, la solicitud se revisa dentro de Adobe. El administrador de cuentas de Adobe se pone en contacto con usted para cualquier pregunta adicional, formación opcional y otra información.
 
-Una vez aprobada, se crea la asignación solicitada y se le notifica. El nombre de la organización de IMS de origen se anexa al nombre del grupo de informes en la [lista de grupos de informes de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) en Experience Platform.
+Una vez aprobada, se crea la asignación solicitada y se le notifica. El nombre de la organización de IMS de origen se anexa al nombre del grupo de informes en la [lista de grupos de informes de Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) en Experience Platform.
 
 
 ## Limitaciones
@@ -81,7 +78,7 @@ Es posible que quiera considerar los siguientes temas antes de solicitar la func
 
 Una vez aprobada la función *Asignación de datos entre IMS*, puede agregar datos a Experience Platform para uno o más grupos de informes de la organización IMS de destino. Para ello, debe configurar el [conector de origen de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). A continuación, los conjuntos de datos de destino se crean en Experience Platform. Como parte de esta configuración y este proceso, tiene la opción de enviar datos de perfil de uno o varios grupos de informes al servicio de perfil.
 
-Calcule el número total de perfiles que son el resultado de la configuración y el proceso, como se ha descrito anteriormente. Asegúrese de que el número total esté dentro del número de perfiles a los que tiene derecho contractualmente para la organización de destino. Aplique [reglas y condiciones de filtrado](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} para incluir o excluir datos de forma selectiva de la ingesta en el servicio de perfil. También puede desactivar la opción para enviar datos de perfil al servicio de perfil para los grupos de informes relevantes.
+Calcule el número total de perfiles que son el resultado de la configuración y el proceso, como se ha descrito anteriormente. Asegúrese de que el número total esté dentro del número de perfiles a los que tiene derecho contractualmente para la organización de destino. Aplique [reglas y condiciones de filtrado](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} para incluir o excluir datos de forma selectiva de la ingesta en el servicio de perfil. También puede desactivar la opción para enviar datos de perfil al servicio de perfil para los grupos de informes relevantes.
 
 
 #### Unión

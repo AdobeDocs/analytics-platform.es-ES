@@ -5,9 +5,16 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
+autotag-review: '2026-05-19T07:52:30.794Z'
+TQID: 'https://experienceleague.adobe.com/ZsIk0j5B2rxVYSdzeqlzKCAOYMQOwh-p941UbzKXYgM'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: 437
 ht-degree: 63%
 
 ---
@@ -86,7 +93,7 @@ Para actualizar el modelo de atribución predeterminado de un componente:
 
 {{attribution-container}}
 
-## Período de retroactividad
+## Ventana de retroactividad
 
 {{attribution-lookback-window}}
 

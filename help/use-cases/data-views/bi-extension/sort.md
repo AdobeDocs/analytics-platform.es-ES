@@ -5,9 +5,16 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: bac873a8-9003-400d-9f52-fcf734c2f56b
-source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
+autotag-review: '2026-05-19T09:43:53.421Z'
+TQID: 'https://experienceleague.adobe.com/aC2w3GsxVbt4SF-AmnaEfpHqgZn0WUmivwhiaTZLLYM'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: 738
 ht-degree: 1%
 
 ---

@@ -4,9 +4,16 @@ description: Incorpore datos generados por Gestión de decisiones de Adobe Journ
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+autotag-review: '2026-05-19T07:19:20.352Z'
+TQID: 'https://experienceleague.adobe.com/n3xsScsv43IG-tOQhgNjeqB2UmWzbIVw7sv5CcpZPd0'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: df066828-d385-4da6-af58-80137fb27d7b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: 753
 ht-degree: 100%
 
 ---
@@ -32,10 +39,10 @@ Seleccione y configure los siguientes conjuntos de datos:
 
 | Conjunto de datos | Tipo de conjunto de datos | Configuración de la conexión | Descripción |
 | --- | --- | --- | --- |
-| ODE DecisionEvents: toma de decisiones de la _zona protegida_  | Evento | ID de persona: `IdentityMap` | Contiene datos generados automáticamente para eventos de decisión de Gestión de decisiones. _Zona protegida_ hace referencia al nombre de zona protegida específico. |
+| ODE DecisionEvents: toma de decisiones de la _zona protegida_ | Evento | ID de persona: `IdentityMap` | Contiene datos generados automáticamente para eventos de decisión de Gestión de decisiones. _Zona protegida_ hace referencia al nombre de zona protegida específico. |
 | Conjunto de datos de evento de comentarios de mensajes de Adobe Journey Optimizer | Evento | ID de persona: `IdentityMap` | Contiene eventos de envío de mensajes. |
-| Conjunto de datos de evento de experiencia de seguimiento del correo electrónico de Adobe Journey Optimizer | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento del correo electrónico. |
-| Conjunto de datos de evento de experiencia de seguimiento push de Adobe Journey Optimizer | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento push. |
+| Conjunto de datos de evento de experiencia de seguimiento del correo electrónico de Adobe Journey Optimizer | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento del correo electrónico. |
+| Conjunto de datos de evento de experiencia de seguimiento push de Adobe Journey Optimizer | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento push. |
 | Conjunto de datos de entidad de Adobe Journey Optimizer | Búsqueda | Clave: `_id`<br>Clave de coincidencia: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene clasificaciones que asocian metadatos de Recorridos y campañas a todos los datos de eventos de Adobe Journey Optimizer. |
 
 {style="table-layout:auto"}
@@ -54,12 +61,12 @@ Puede crear las dimensiones siguientes en una vista de datos para lograr una par
 
 | Dimensión | Elemento de esquema | Configuración de componentes |
 | --- | --- | --- |
-| Nombre de la actividad | `_experience.decisioning.`<br/>`propositionDetails.activity.name` | Tipo de componente: Dimensión |
-| Identificador de contenedor | `_experience.decisioning.containerID` | Tipo de componente: Dimensión |
-| Identificador de correlación | `_experience.decisioning.`<br/>`propositions.scopeDetails.correlationID` | Tipo de componente: Dimensión |
-| Nombre de opción de decisión | `_experience.decisioning.`<br/>`propositionDetails.selections.name` | Tipo de componente: Dimensión |
-| Nombre de opción de decisión de reserva | `_experience.decisioning.`<br/>`propositionDetails.fallback.name` | Tipo de componente: Dimensión |
-| Nombre de ubicación | `_experience.decisioning.`<br/>`propositionDetails.placement.name` | Tipo de componente: Dimensión |
+| Nombre de la actividad | `_experience.decisioning.`<br/>`propositionDetails.activity.name` | Tipo de componente: dimensión |
+| Identificador de contenedor | `_experience.decisioning.containerID` | Tipo de componente: dimensión |
+| Identificador de correlación | `_experience.decisioning.`<br/>`propositions.scopeDetails.correlationID` | Tipo de componente: dimensión |
+| Nombre de opción de decisión | `_experience.decisioning.`<br/>`propositionDetails.selections.name` | Tipo de componente: dimensión |
+| Nombre de opción de decisión de reserva | `_experience.decisioning.`<br/>`propositionDetails.fallback.name` | Tipo de componente: dimensión |
+| Nombre de ubicación | `_experience.decisioning.`<br/>`propositionDetails.placement.name` | Tipo de componente: dimensión |
 
 {style="table-layout:auto"}
 
@@ -71,14 +78,14 @@ Puede crear las siguientes métricas en una vista de datos para lograr una parid
 | Métrica | Descripción | Elemento de esquema | Configuración de componentes |
 | --- | --- | --- | --- |
 | Tipo de evento (cambie el nombre para hacer referencia a un evento específico, por ejemplo, `Feedback` para `message.feedback`) [1] | Cantidad de un tipo específico de evento | `eventType` | Tipo de componente: Métrica<br/>**[!UICONTROL Establecer valores de exclusión de inclusión ]**: Activado<br/>**[!UICONTROL Coincidencia]**: [!UICONTROL Si se cumplen todos los criterios]<br/>**[!UICONTROL Criterios ]**:**[!UICONTROL  Igual a ]**`message.feedback` |
-| Puntuación de opción de decisión | Valor calculado para una opción de decisión en el contexto de un solo ámbito. | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | Tipo de componente: Métrica |
-| Puntuación de opción de decisión de reserva | Valor calculado para una opción de decisión de reserva en el contexto de un solo ámbito. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | Tipo de componente: Métrica |
-| Ofertas descartadas | El número de ofertas descartadas o rechazadas sin ninguna otra interacción directa. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo de componente: Métrica |
-| Visualización de ofertas | Número de ofertas visualizadas en el perfil. | `_experience.decisioning.`<br/>`propositionEventType.display` | Tipo de componente: Métrica |
-| Interacción de ofertas | El número de ofertas con las que interactuó el perfil. | `_experience.decisioning.`<br/>`propositionEventType.interact` | Tipo de componente: Métrica |
-| Ofertas enviadas | Número de ofertas enviadas al perfil. | `_experience.decisioning.`<br/>`propositionEventType.send` | Tipo de componente: Métrica |
-| Activador de ofertas | El número de ofertas elegidas para ser mostradas por el SDK del cliente. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Tipo de componente: Métrica |
-| Cancelación la suscripción de ofertas | El número de ofertas solicitadas por perfil que no se mostrarán en el futuro. | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | Tipo de componente: Métrica |
+| Puntuación de opción de decisión | Valor calculado para una opción de decisión en el contexto de un solo ámbito. | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | Tipo de componente: métrica |
+| Puntuación de opción de decisión de reserva | Valor calculado para una opción de decisión de reserva en el contexto de un solo ámbito. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | Tipo de componente: métrica |
+| Ofertas descartadas | El número de ofertas descartadas o rechazadas sin ninguna otra interacción directa. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo de componente: métrica |
+| Visualización de ofertas | Número de ofertas visualizadas en el perfil. | `_experience.decisioning.`<br/>`propositionEventType.display` | Tipo de componente: métrica |
+| Interacción de ofertas | El número de ofertas con las que interactuó el perfil. | `_experience.decisioning.`<br/>`propositionEventType.interact` | Tipo de componente: métrica |
+| Ofertas enviadas | Número de ofertas enviadas al perfil. | `_experience.decisioning.`<br/>`propositionEventType.send` | Tipo de componente: métrica |
+| Activador de ofertas | El número de ofertas elegidas para ser mostradas por el SDK del cliente. | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Tipo de componente: métrica |
+| Cancelación la suscripción de ofertas | El número de ofertas solicitadas por perfil que no se mostrarán en el futuro. | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | Tipo de componente: métrica |
 
 {style="table-layout:auto"}
 

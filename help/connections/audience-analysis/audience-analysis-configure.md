@@ -5,9 +5,16 @@ solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
 exl-id: 0db3f6f7-9d7e-41bf-8eb5-02e439bab10a
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+autotag-review: '2026-05-19T10:44:07.732Z'
+TQID: 'https://experienceleague.adobe.com/pJMss6WVPH8LAAJXlmblmeMOHvOmk5dq0Zzy-Ab-Mt0'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: 1391
 ht-degree: 33%
 
 ---
@@ -86,7 +93,7 @@ Para crear una configuración de análisis de audiencia:
    | Campo | Descripción |
    |---------|----------|
    | **[!UICONTROL Política de combinación]** | Seleccione la política de combinación que corresponde al conjunto de datos de perfil que desea utilizar para el análisis de público. <p>Las políticas de combinación determinan cómo Adobe Experience Platform combina los datos de perfil de varios conjuntos de datos en perfiles de cliente unificados que se utilizan para la creación de audiencias. La política de combinación que seleccione afecta a los atributos del perfil que se incluyen en las audiencias. Cada día se genera una instantánea de estos datos en Experience Platform. Esta instantánea proporciona una vista estática de los datos en un momento específico y no incluye datos de evento.</p><p>Seleccione la política de combinación **[!UICONTROL Basada en tiempo predeterminado]** si ve varias políticas de combinación y no está seguro de cuál elegir. También puede consultar con su equipo de datos para comprender mejor qué audiencias están asociadas con cada política de combinación.</p> |
-   | **[!UICONTROL Conjunto de datos de perfil]** | El conjunto de datos de perfil asociado a la política de combinación seleccionada. Este conjunto de datos de perfil incluye los datos de audiencia de Experience Platform que desea analizar. Este conjunto de datos de perfil se agrega a la conexión que seleccione.<p>Después de elegir una política de combinación, se muestra la exportación de instantáneas de perfil. Por ejemplo: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>Para obtener más información, consulte [Conjuntos de datos de atributos de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/query#profile-attribute-datasets) en la Guía de paneles de Experience Platform.</p> |
+   | **[!UICONTROL Conjunto de datos de perfil]** | El conjunto de datos de perfil asociado a la política de combinación seleccionada. Este conjunto de datos de perfil incluye los datos de audiencia de Experience Platform que desea analizar. Este conjunto de datos de perfil se agrega a la conexión que seleccione.<p>Después de elegir una política de combinación, se muestra la exportación de instantáneas de perfil. Por ejemplo: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>Para obtener más información, consulte [Conjuntos de datos de atributos de perfil](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets) en la Guía de paneles de Experience Platform.</p> |
 
 1. En la sección **[!UICONTROL Conexión]**, haga clic en **[!UICONTROL Seleccionar una conexión]**.
 
@@ -102,7 +109,7 @@ Para crear una configuración de análisis de audiencia:
    | **[!UICONTROL Usar área de nombres de identidad principal]** | Esta opción se muestra si selecciona **[!UICONTROL Mapa de identidad]** para el ID de persona. <p>Active esta opción si desea que Customer Journey Analytics busque la identidad en el mapa de identidad que está marcado con un atributo primary=true y a continuación, utilice esa identidad como ID de persona de esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. Y esta identidad también es la candidata principal para su uso como ID de persona de Customer Journey Analytics (según cómo está configurado el conjunto de datos en una conexión de Customer Journey Analytics).</p> |
    | **[!UICONTROL Espacio de nombres de identidad]** | Esta opción se muestra si selecciona **[!UICONTROL Mapa de identidad]** para el ID de persona. Esta opción está desactivada si utiliza el área de nombres de ID principal. <p>Los espacios de nombres de identidad son un componente del [servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces). Los espacios de nombres sirven como indicadores del contexto al que se relaciona una identidad. Si especifica un área de nombres, Customer Journey Analytics busca en el mapa de identidad de cada fila esta clave de área de nombres y utiliza la identidad de dicha área de nombres como ID de persona para esa fila. Dado que Customer Journey Analytics no puede realizar una exploración completa de todos los conjuntos de datos de todas las filas para determinar qué áreas de nombres están presentes, en el menú desplegable se muestran todas las áreas de nombres posibles. Debe saber qué espacios de nombres se especifican en los datos; estos espacios de nombres no se detectan automáticamente.</p> |
 
-   <!-- Add this when B2B releases for AuA **[!UICONTROL Account ID]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}|  (only displayed for account-based connections) The Account ID that is used to support account-based reporting for the dataset. -->
+   <!-- Add this when B2B releases for AuA **[!UICONTROL Account ID]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}|  (only displayed for account-based connections) The Account ID that is used to support account-based reporting for the dataset. -->
 
 1. En la sección **[!UICONTROL Vistas de datos]**, haga clic en **[!UICONTROL Seleccionar vistas de datos]**.
 
