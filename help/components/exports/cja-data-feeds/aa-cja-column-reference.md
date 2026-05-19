@@ -4,7 +4,7 @@ description: Determine cómo tomar una columna de fuente de datos de Adobe Analy
 feature: Components
 hide: true
 exl-id: 81d6e79e-8324-4726-9a48-10177b0a91b1
-source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
+source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
 workflow-type: tm+mt
 source-wordcount: '3912'
 ht-degree: 48%
@@ -959,7 +959,7 @@ Un indicador que determina si la visita actual es una visita nueva. Configurado 
 
 +++**`os`**
 
-ID numérico que representa el sistema operativo del visitante. Se basa en la columna`user_agent`.
+ID numérico que representa el sistema operativo del visitante. Se basa en la columna `user_agent`.
 
 {{cja-df-lookup}}
 

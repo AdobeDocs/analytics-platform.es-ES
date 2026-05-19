@@ -6,10 +6,28 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+TQID: https://experienceleague.adobe.com/mzyzOOuWJ1gOiLnUGvjQGrxysdoAMFm2RrXYQutiMT8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 99%
+source-wordcount: 1530
+ht-degree: 97%
 
 ---
 
@@ -42,7 +60,7 @@ Las funciones principales de Analysis Workspace están disponibles a través del
 
 | Icono | Función | Descripción |
 |:---:|---|---|
-| ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL Paneles]** | [Los paneles](/help/analysis-workspace/c-panels/panels.md) se utilizan para organizar el análisis dentro de un proyecto y pueden tener muchas tablas y visualizaciones. Muchos de los paneles que se proporcionan en Analysis Workspace generan un conjunto completo de análisis basados en unas pocas entradas de usuario.  |
+| ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL Paneles]** | [Los paneles](/help/analysis-workspace/c-panels/panels.md) se utilizan para organizar el análisis dentro de un proyecto y pueden tener muchas tablas y visualizaciones. Muchos de los paneles que se proporcionan en Analysis Workspace generan un conjunto completo de análisis basados en unas pocas entradas de usuario. |
 | ![Análisis guiado](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL Análisis guiado]** | El [análisis guiado](../guided-analysis/overview.md) te permite ofrecer datos de alta calidad y perspectivas sobre el recorrido del cliente a través de flujos de trabajo guiados. Puedes crear un análisis para incluirlo en tu proyecto de Workspace o incluir un análisis existente guardado anteriormente. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizaciones]** | Las [Visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), como una barra o un gráfico de líneas se pueden utilizar para que los datos cobren vida visualmente. En el panel del extremo izquierdo, selecciona el icono **[!UICONTROL Visualizaciones]** del medio para ver la lista completa de visualizaciones disponibles. |
 | ![Depurar](/help/assets/icons/Curate.svg) | **[!UICONTROL Componentes]** | [Los componentes](/help/components/overview.md) incluyen los siguientes elementos:<ul><li>![Dimensiones](/help/assets/icons/Dimensions.svg) [Dimensión](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [&#x200B; Métricas](/help/components/apply-create-metrics.md)</li><li>![Segmentación](/help/assets/icons/Segmentation.svg) [Segmentos](/help/components/segments/seg-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalos de fecha](/help/components/date-ranges/overview.md)</li></ul> |
@@ -124,7 +142,7 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 | Ayuda | Descripción |
 |---|---|
 | Vídeos de **&#x200B;**&#x200B;| Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
-| **[!UICONTROL Documentación de ayuda]** | Abre la documentación (que acabas de leer…) en una nueva pestaña del explorador. |
+| **[!UICONTROL Documentación de ayuda]** | Abra la documentación (en realidad acaba de leer...) en una nueva pestaña del explorador. |
 | **[!UICONTROL Foro de ayuda]** | Abre el foro de comunidades de Experience League de Adobe Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Teclas de acceso directo]** | Mostrar una descripción general de los métodos abreviados de teclado que se pueden utilizar en Workspace. |
 | **[!UICONTROL Habilitar depurador]** | Habilitar depurador. Se volverá a cargar el proyecto. |
@@ -141,7 +159,7 @@ La sincronización de visualizaciones te permite controlar qué tabla de datos o
 
 Empezar a utilizar Analysis Workspace
 
-1. Inicia sesión en [Adobe Experience Cloud](https://experience.adobe.com).
+1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
 1. Selecciona **[!UICONTROL Customer Journey Analytics]** del conmutador de aplicaciones ![Aplicación](/help/assets/icons/Apps.svg) en la parte superior derecha de la interfaz.
 1. La página **[!UICONTROL Proyectos]** de Analysis Workspace se muestra de forma predeterminada. Si se ha seleccionado un proyecto específico o se ha estado trabajando en él recientemente, ese proyecto se muestra de forma predeterminada.
 
@@ -161,7 +179,7 @@ Cuando crea el proyecto, este recopila información procesable y está listo par
 
 ## Recursos adicionales {#resources}
 
-- La página de [aterrizaje de aprendizaje](/help/getting-started/landing.md#learning) en Customer Journey Analytics. Esta página es una buena manera de familiarizarse con Analysis Workspace. Especialmente los elementos fundamentales de aprendizaje de Workspace. Esta plantilla estándar te guía por la terminología común y los pasos para crear tu primer análisis en Workspace. 
+- La página de [aterrizaje de aprendizaje](/help/getting-started/landing.md#learning) en Customer Journey Analytics. Esta página es una buena manera de familiarizarse con Analysis Workspace. Especialmente los elementos fundamentales de aprendizaje de Workspace. Esta plantilla estándar te guía por la terminología común y los pasos para crear tu primer análisis en Workspace.
 - Adobe ofrece cientos de [tutoriales de formación en vídeo de Analytics](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/overview).
-- Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/release-notes/experience-cloud/current) para obtener actualizaciones acerca de las nuevas funciones.
+- Consulte [Notas de la versión de CX Enterprise](https://experienceleague.adobe.com/es/docs/release-notes/experience-cloud/current) para obtener actualizaciones sobre las nuevas funciones.
 
