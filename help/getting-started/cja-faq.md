@@ -5,10 +5,16 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
+TQID: https://experienceleague.adobe.com/HdeLAq13nYEHMV5ns75gTgux9KKRE0on5TiMRw6ZHoo
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
 workflow-type: tm+mt
-source-wordcount: '2210'
-ht-degree: 100%
+source-wordcount: 2320
+ht-degree: 95%
 
 ---
 
@@ -76,7 +82,7 @@ Cuando se activa por primera vez, Adobe proporciona un relleno de datos vinculad
 
 +++
 
-## &#x200B;3. Introducción de datos en [!UICONTROL Customer Journey Analytics] {#ingest}
+## &#x200B;3. Obteniendo datos en [!UICONTROL Customer Journey Analytics] {#ingest}
 
 +++**¿Puedo combinar datos de diferentes zonas protegidas de [!UICONTROL Adobe Experience Platform] en una conexión de [!UICONTROL Customer Journey Analytics]?**
 
@@ -128,13 +134,13 @@ No, puede utilizar cualquier ID, incluido un hash de un ID de cliente, que no es
 +++
 
 
-## &#x200B;4. Consideraciones sobre la latencia {#latency}
+## &#x200B;4. Consideraciones de latencia {#latency}
 
 >[!NOTE]
 >
 >No hay un tamaño de datos fijo en Customer Journey Analytics y, por lo tanto, Adobe no puede comprometerse con un tiempo de ingesta estándar. Adobe está trabajando activamente para reducir estas latencias a través de las nuevas actualizaciones y la optimización de la ingesta.
 
-* Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote > 50 millones de filas: más de 90 minutos.) Si la identificación está habilitada, la ingesta puede tardar hasta 4 horas. Consulte los [mecanismos de protección](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/guardrails) para obtener más información. 
+* Eventos o datos activos: procesados e ingeridos en un plazo de 90 minutos, una vez que los datos estén disponibles en Adobe Experience Platform. (Tamaño del lote > 50 millones de filas: más de 90 minutos.) Si la vinculación está habilitada, la ingesta puede tardar hasta 4 horas. Consulte los [mecanismos de protección](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/guardrails) para obtener más información.
 * Rellenos secundarios pequeños: en un plazo de siete días
 * Rellenos de fondo grandes: en 30 días
 
@@ -143,7 +149,7 @@ Adobe ha cambiado recientemente la forma en que procesa los datos en Customer Jo
 * Los datos de evento del día “actual” se transmiten como datos activos. Cualquier dato con una hora de evento anterior a las 11:59:59 pm (23:59:59) del día anterior se trata como un relleno.
 * Cualquier dato de evento con una marca de tiempo de más de 24 horas (incluso si está en el mismo lote que los datos más recientes) se considera relleno y se ingiere con una prioridad inferior.
 
-## &#x200B;5. Configurar la ventana móvil para la retención de datos de [!UICONTROL Conexión] {#data-retention}
+## &#x200B;5. Establecer la ventana móvil para la retención de datos de [!UICONTROL Connection] {#data-retention}
 
 La configuración [**[!UICONTROL Habilitar la ventana de datos móvil ]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es#create-connection) permite definir la retención de datos de Customer Journey Analytics como un período de tiempo variable en meses (tres o seis meses, etc). Se configura en un nivel de [!UICONTROL conexión], no de [!UICONTROL conjunto de datos]. La retención de datos se basa en marcas de hora de conjuntos de datos de evento y se aplica solo a conjuntos de datos de evento. No existe ninguna configuración de retención de datos para conjuntos de datos de búsqueda o perfil, ya que no hay marcas de tiempo aplicables.
 
@@ -186,9 +192,9 @@ Si tiene pensado incorporar datos de Adobe Analytics a través del [Conector de 
 
 ## &#x200B;8. Componentes de [!UICONTROL Adobe Analytics]
 
-+++**¿Puedo compartir/publicar [!UICONTROL públicos] de [!DNL Customer Journey Analytics] en Real-Time CDP de Experience Platform, o en otras aplicaciones de Experience Cloud?**
++++**¿Puedo compartir/publicar [!UICONTROL audiencias] de [!DNL Customer Journey Analytics] en Experience Platform Real-Time CDP u otras aplicaciones de CX Enterprise?**
 
-Ahora puede [crear y publicar los públicos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/publish) que haya identificado en Customer Journey Analytics (CJA) en el Perfil del cliente en tiempo real (RTCP) de Adobe Experience Platform para la segmentación y personalización de clientes. 
+Ahora puede [crear y publicar los públicos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/publish) que haya identificado en Customer Journey Analytics (CJA) en el Perfil del cliente en tiempo real (RTCP) de Adobe Experience Platform para la segmentación y personalización de clientes.
 
 +++
 
@@ -222,11 +228,11 @@ Depende de su caso práctico; consúltelo con su equipo de cuentas de Adobe. Pue
 
 +++
 
-## &#x200B;9. Cálculo del tamaño de la conexión {#estimate-size}
+## &#x200B;9. Calcular tamaño de conexión {#estimate-size}
 
 Consulte el [Uso de conexiones](/help/connections/manage-connections.md#usage).
 
-## &#x200B;10. Con respecto a los excedentes de uso {#overage}
+## &#x200B;10. Con respecto a los usos adicionales {#overage}
 
 Adobe supervisa y aplica los límites de uso con regularidad. “Filas de datos” hace referencia a las filas medias diarias de datos disponibles para su análisis dentro de Customer Journey Analytics.
 
@@ -247,7 +253,7 @@ Obtenga más información sobre las [implicaciones de la eliminación de conjunt
 
 ## &#x200B;12. Recopilación de datos regionales
 
-Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y las soluciones de Adobe y ajenas a Adobe se produzcan lo más cerca posible de los visitantes. Una vez que los datos se recopilan a nivel regional en un centro de recopilación de datos (DCC, también conocido como sitio perimetral, parte de la red de Platform Edge), se reenvían a través de una conexión segura a las soluciones relevantes en función de su secuencia de datos y/o el reenvío de eventos.
+Adobe CX Enterprise utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y las soluciones de Adobe y de otras marcas se produzcan lo más cerca posible de los visitantes. Una vez que los datos se recopilan a nivel regional en un centro de recopilación de datos (DCC, también conocido como sitio perimetral, parte de la red de Platform Edge), se reenvían a través de una conexión segura a las soluciones relevantes en función de su secuencia de datos y/o el reenvío de eventos.
 
 ![Flujo de datos mediante redes perimetrales](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
@@ -265,7 +271,7 @@ El uso de la recopilación de datos regionales ofrece varias ventajas:
 Actualmente, la recopilación de datos regionales incluye las siguientes ubicaciones (sujetas a cambios):
 
 
-| Tipo de recopilación de datos regionales  | Centros de recopilación de datos |
+| Tipo de recopilación de datos regionales | Centros de recopilación de datos |
 | --- | --- |
 | Global (predeterminado) | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
 | Solo para América del Norte y América del Sur | Oregón, Virginia |
