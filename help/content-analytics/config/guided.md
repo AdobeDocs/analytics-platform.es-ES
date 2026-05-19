@@ -370,7 +370,7 @@ En el canal web, puedes configurar [captura y definición de la experiencia](#ex
 >id="aca_onboarding_datacollection_button"
 >title="Recopilación de datos"
 >abstract="Defina qué propiedad Etiquetas desea utilizar o cree una nueva. Y defina las páginas y los recursos que desea incluir o excluir mediante expresiones regulares.<br/>Para una implementación no basada en etiquetas, seleccione **[!UICONTROL Crear nuevo]**.  Se crea una propiedad Etiquetas, pero no es necesario que la utilice."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Biblioteca JavaScript de Content Analytics"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Biblioteca JavaScript de Content Analytics"
 
 
 >[!CONTEXTUALHELP]
