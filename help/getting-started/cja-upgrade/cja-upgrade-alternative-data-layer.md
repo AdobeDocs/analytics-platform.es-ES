@@ -5,10 +5,23 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/86uAMXhpBXaVnjA8Zh2G7Ail-XKR2HjrYNyge5BRMRc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 50%
+source-wordcount: 696
+ht-degree: 54%
 
 ---
 
@@ -55,7 +68,7 @@ A continuación se indican las ventajas y desventajas de utilizar esta alternati
 
 | Ventajas | Desventajas |
 |----------|---------|
-| <ul><li>**Ofrece todas las ventajas de alojar datos en Experience Edge Network**: <p>Estas ventajas son:</p><ul><li>Informes de alto rendimiento y disponibilidad de datos porque Adobe Experience Platform se ha creado para potenciar [casos de uso de personalización en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es)</li><li>Consolidación de la implementación de la recopilación de datos de Adobe Experience Cloud entre otros productos de Experience Cloud (AJO, RTCDP, etc.)</li><li>No depende de la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)</li></ul><li>**Utiliza la lógica actual de la capa de datos**: Este método usa la lógica actual de la capa de datos en lugar de una implementación convencional de Web SDK. Aunque este método requiere cierta configuración, no requiere una implementación completamente nueva desde cero y no requiere rellenar elementos de datos o reglas de etiquetas. Permite asignar datos de la capa de datos a XDM, en lugar de rellenar un objeto XDM desde cero.</li></ul> | <ul><li>**Requiere asignación para enviar datos a la plataforma**: cuando su organización esté lista para usar Customer Journey Analytics, debe enviar datos a un conjunto de datos en Adobe Experience Platform. <p>Dado que esta opción le permite colocar toda la capa de datos del lado del cliente en el objeto de datos y enviarlo a Adobe, el resultado es una cantidad significativa de datos que Adobe no puede interpretar fácilmente. Para permitir que Adobe interprete los datos, debe utilizar la asignación de secuencia de datos para asignar cada campo individual al campo XDM deseado.</p></li><li>**Implementación rígida**: La implementación está restringida a lo que proporciona la capa de datos en el momento en que se envía la visita. Esto puede ser aceptable para organizaciones con necesidades de datos básicas, pero la mayoría de las organizaciones deben evitar este tipo de implementación rígida en favor de una implementación más flexible que permita rellenar los elementos de datos.</li><li>**Es más difícil implementar futuros cambios**: cualquier campo que agregue a los datos más adelante debe asignarse a XDM en la secuencia de datos.</li></ul> |
+| <ul><li>**Ofrece todas las ventajas de alojar datos en Experience Edge Network**: <p>Estas ventajas son:</p><ul><li>Informes de alto rendimiento y disponibilidad de datos porque Adobe Experience Platform se ha creado para potenciar [casos de uso de personalización en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es)</li><li>Consolide la implementación de la recopilación de datos empresariales de Adobe CX entre otros productos empresariales de CX (AJO, RTCDP, etc.)</li><li>No depende de la nomenclatura de Adobe Analytics (prop, eVar, evento, etc.)</li></ul><li>**Utiliza la lógica actual de la capa de datos**: Este método usa la lógica actual de la capa de datos en lugar de una implementación convencional de Web SDK. Aunque este método requiere cierta configuración, no requiere una implementación completamente nueva desde cero y no requiere rellenar elementos de datos o reglas de etiquetas. Permite asignar datos de la capa de datos a XDM, en lugar de rellenar un objeto XDM desde cero.</li></ul> | <ul><li>**Requiere asignación para enviar datos a Platform**: cuando su organización esté lista para utilizar Customer Journey Analytics, debe enviar los datos a un conjunto de datos en Adobe Experience Platform. <p>Dado que esta opción le permite colocar toda la capa de datos del lado del cliente en el objeto de datos y enviarlo a Adobe, el resultado es una cantidad significativa de datos que Adobe no puede interpretar fácilmente. Para permitir que Adobe interprete los datos, debe utilizar la asignación de secuencia de datos para asignar cada campo individual al campo XDM deseado.</p></li><li>**Implementación rígida**: La implementación está restringida a lo que proporciona la capa de datos en el momento en que se envía la visita. Esto puede ser aceptable para organizaciones con necesidades de datos básicas, pero la mayoría de las organizaciones deben evitar este tipo de implementación rígida en favor de una implementación más flexible que permita rellenar los elementos de datos.</li><li>**Es más difícil implementar futuros cambios**: cualquier campo que agregue a los datos más adelante debe asignarse a XDM en la secuencia de datos.</li></ul> |
 
 {style="table-layout:auto"}
 

@@ -5,10 +5,31 @@ title: Compartir proyectos
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+TQID: https://experienceleague.adobe.com/qAYUiD5wa5PhvEjTi397PC4n0xX0rWKJSYaAjCR6jtg
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: a3b826fd-7a63-4a83-8736-83eee6668f44
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+  - id: f21d8c43-b886-433b-93ea-5982cbfc16b7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: '2092'
-ht-degree: 99%
+source-wordcount: 2181
+ht-degree: 89%
 
 ---
 
@@ -59,9 +80,9 @@ Puede compartir una función específica con usuarios o grupos, o bien compartir
 
 Cuando comparta una función de proyecto específica con usuarios y grupos de su organización, tenga en cuenta lo siguiente:
 
-* Las funciones del proyecto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar copia]**, y **[!UICONTROL Solo lectura]**) están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en la [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-getting-started).
+* Las funciones del proyecto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar copia]**, y **[!UICONTROL Solo lectura]**) están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en [CX Enterprise Admin Console](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-getting-started).
 
-* En Customer Journey Analytics, los grupos se definen mediante perfiles de producto en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-getting-started). Los administradores pueden compartir con cualquier grupo, incluido *Todos*. Los no administradores pueden compartir con los grupos de los que son miembros, excepto con el grupo *Todos*.
+* En Customer Journey Analytics, los grupos se definen mediante perfiles de producto en [CX Enterprise Admin Console](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-getting-started). Los administradores pueden compartir con cualquier grupo, incluido *Todos*. Los no administradores pueden compartir con los grupos de los que son miembros, excepto con el grupo *Todos*.
 
 * El usuario que desempeña varias funciones siempre obtiene la mayor experiencia. Este escenario puede ocurrir si se añade un usuario como individuo y además, como parte de un grupo. Por ejemplo, si a un usuario se le asigna la función **[!UICONTROL Editar original]** como individuo y la función **[!UICONTROL Solo lectura]** como miembro de un grupo, el usuario recibirá una experiencia de proyecto **[!UICONTROL Editar original]**.
 
@@ -106,7 +127,7 @@ Si hay cambios no guardados, se le pedirá que guarde primero el proyecto.
 
    O bien
 
-   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**). Obtenga más información sobre la [depuración del proyecto](curate.md).
+   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**). Más información sobre la [depuración del proyecto](curate.md).
 
 
 ## Compartir un vínculo a un proyecto
@@ -131,8 +152,8 @@ Para compartir el vínculo del proyecto con los usuarios de su organización, ha
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="Requiere autenticación de Experience Cloud"
->abstract="Su organización requiere que los usuarios inicien sesión en Experience Cloud para poder utilizar este vínculo."
+>title="Requerir autenticación de CX Enterprise"
+>abstract="Su organización requiere que los usuarios inicien sesión en CX Enterprise para utilizar este vínculo."
 
 
 Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/view-only-projects.md) a proyectos de Analysis Workspace a las personas que no tienen acceso a Customer Journey Analytics. Este acceso concedido puede incluir lo siguiente:
@@ -155,7 +176,7 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 >
 >* Un proyecto podría resultar inaccesible si muchos usuarios intentan acceder a un vínculo determinado al mismo tiempo. De forma predeterminada, más de 190 personas pueden acceder a un solo vínculo cada 5 minutos. Si su organización alcanza este límite, espere 5 minutos e intente acceder al vínculo de nuevo.
 >
->* Para las licencias [!DNL Healthcare Shield] y [!DNL Privacy & Security Shield], la característica [!UICONTROL Compartir con cualquiera] requiere autenticación de Experience Cloud. Para los clientes de [!DNL Healthcare Shield], aparece la advertencia &quot;HIPAA cumplimiento&quot;, pero aún puede usar esta característica después de autenticarse en Experience Cloud.
+>* Para las licencias [!DNL Healthcare Shield] y [!DNL Privacy & Security Shield], la función [!UICONTROL Compartir con cualquiera] requiere la autenticación de CX Enterprise. Para los clientes de [!DNL Healthcare Shield], aparece la advertencia &quot;HIPAA cumplimiento&quot;, pero aún puede utilizar esta función después de autenticarse en CX Enterprise.
 
 >[!BEGINSHADEBOX]
 
@@ -182,15 +203,15 @@ Para compartir un proyecto de Analysis Workspace con cualquier persona:
 
 1. Elija si desea habilitar la siguiente opción de seguridad (esta opción la puede controlar su administrador de Customer Journey Analytics):
 
-   * **[!UICONTROL Requiere autenticación de Experience Cloud]:**
+   * **[!UICONTROL Requerir autenticación empresarial de CX]:**
 
-     Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de Adobe Experience Cloud en la que se creó el proyecto que está compartiendo. Sin embargo, no es necesario que los usuarios con los que comparte tengan acceso a Customer Journey Analytics.
+     Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son aquellos que pueden iniciar sesión en la organización de CX Enterprise donde se creó el proyecto que está compartiendo. Sin embargo, no es necesario que los usuarios con los que comparte tengan acceso a Customer Journey Analytics.
 
      Los administradores de Customer Journey Analytics pueden configurar esta preferencia para la compañía, como se describe en [Preferencias](/help/analysis-workspace/user-preferences.md). Dependiendo de cómo haya configurado esta opción el administrador, puede encontrarse con los siguientes escenarios:
 
       * Si esta opción no está visible es que su administrador de Customer Journey Analytics no ha habilitado esta función.
 
-      * Si esta opción está habilitada y no se puede deshabilitar, la opción bloqueada significa que su administrador de Customer Journey Analytics requiere la autenticación de Experience Cloud para cualquier persona que acceda a proyectos de Analysis Workspace. Este siempre es el caso de las organizaciones que conceden licencias a Healthcare Shield.
+      * Si esta opción está habilitada y no puede deshabilitarla, la opción bloqueada significa que el administrador de Customer Journey Analytics requiere la autenticación de CX Enterprise para cualquier persona que acceda a proyectos de Analysis Workspace. Este siempre es el caso de las organizaciones que conceden licencias a Healthcare Shield.
 
 1. Junto al campo **[!UICONTROL Compartir con cualquiera (no es necesario iniciar sesión)]**, seleccione ![Vínculo](/help/assets/icons/Link.svg) para copiar el vínculo en el portapapeles del sistema.
 

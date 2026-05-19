@@ -5,10 +5,10 @@ exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 89%
+source-wordcount: '827'
+ht-degree: 86%
 
 ---
 
@@ -29,9 +29,9 @@ Este flujo de trabajo utiliza el conector de origen de Analytics y varía en fun
 
 ## Ingesta de datos mediante el SDK web de Adobe Experience Platform y Edge Network
 
-[SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) es una biblioteca JavaScript del lado del cliente que permite a los clientes de Adobe Experience Cloud interactuar con los distintos servicios de Experience Cloud a través de Adobe Experience Platform Edge Network.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) es una biblioteca JavaScript del lado del cliente que permite a los clientes de Adobe CX Enterprise interactuar con los distintos servicios de CX Enterprise a través de Adobe Experience Platform Edge Network.
 
-1. [Configure la extensión Adobe Experience Platform Web SDK en tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es) para enviar datos a Adobe Experience Cloud desde propiedades web, a través de Adobe Experience Platform Edge Network.
+1. [Configure la extensión Adobe Experience Platform Web SDK en tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es) para enviar datos a CX Enterprise desde propiedades web, a través de Adobe Experience Platform Edge Network.
 1. Usar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=es) para crear una o varias [conexiones](/help/connections/create-connection.md) y [vistas de datos](/help/data-views/data-views.md) que informarán al sistema de informes entre canales.
 
 ## Ingesta de datos con ingesta por lotes y de streaming

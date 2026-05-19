@@ -4,9 +4,20 @@ title: Agregar Y Administrar Comentarios En Proyectos
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
+TQID: https://experienceleague.adobe.com/DWntPKJ6AU2MKBWWVc3MxWYFYXUPlmoMbk8pAdrKYg4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: 1898
 ht-degree: 1%
 
 ---
@@ -113,7 +124,7 @@ La función de comentarios de Analysis Workspace facilita la colaboración con o
 
 Tenga en cuenta lo siguiente al utilizar el símbolo @ para incluir a las personas en un comentario:
 
-* Las personas que incluya recibirán notificaciones en función de su configuración de notificaciones de Adobe Experience Cloud.
+* Las personas que incluya recibirán notificaciones en función de su configuración de notificaciones de CX Enterprise.
 
   Para obtener más información, vea [Recibir notificaciones sobre comentarios](#receive-notifications-about-comments).
 
@@ -149,9 +160,9 @@ Para incluir a otra persona en el comentario:
 
 ## Recibir notificaciones sobre comentarios
 
-Los propietarios del proyecto y [determinadas personas que menciona](#include-others-in-a-comment) reciben notificaciones según su configuración de notificaciones de Adobe Experience Cloud. De forma predeterminada, reciben una notificación en la aplicación, visible desde el icono [Experience Cloud notification](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#view-notifications) ![Experience Cloud notification icon](assets/experience-cloud-notification.svg) en Customer Journey Analytics.
+Los propietarios del proyecto y [las personas que mencione](#include-others-in-a-comment) reciben notificaciones basadas en su configuración de notificaciones de CX Enterprise. De forma predeterminada, reciben una notificación en la aplicación, visible desde el icono [CX Enterprise notification](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#view-notifications) ![CX Enterprise notification icon](assets/experience-cloud-notification.svg) en Customer Journey Analytics.
 
-Además, las personas pueden configurar su configuración de notificaciones de Experience Cloud para recibir notificaciones por correo electrónico y notificaciones de Slack mediante [suscripción a notificaciones por correo electrónico](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) y [suscripción a notificaciones de Slack](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#slack).
+Además, las personas pueden configurar su configuración de notificaciones de CX Enterprise para recibir notificaciones por correo electrónico y notificaciones de Slack mediante [suscripción a notificaciones por correo electrónico](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) y [suscripción a notificaciones de Slack](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#slack).
 
 ## Colocar una insignia para un comentario existente
 

@@ -3,10 +3,18 @@ description: Explica la estrategia de lanzamiento continuo de funciones para Cus
 title: Estrategia de lanzamiento de funcionalidades de Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/KTMrEfZBHkdpRHlEGj8s4hfAtlPPjAqQrh6mtS-yAWM
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
+workflow-type: tm+mt
+source-wordcount: 402
+ht-degree: 90%
 
 ---
 
@@ -20,9 +28,9 @@ Las versiones de Customer Journey Analytics operan en un modelo de entrega conti
 
 * **Prueba limitada**: una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas del cliente para garantizar que la funcionalidad satisfaga sus necesidades y expectativas.
 
-* **Inicio del despliegue**: el despliegue de una versión por fases comienza con la prueba limitada. Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
+* **Inicio del despliegue**: el despliegue de una versión por fases comienza con la prueba limitada. Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. La implementación por fases se produce en el nivel de organización empresarial de CX, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
 
-* **Disponibilidad general (GA)**: la funcionalidad está disponible para el 100% de las organizaciones de Experience Cloud y la versión de la funcionalidad está completa.
+* **Disponibilidad general (GA)**: La funcionalidad está disponible para el 100% de las organizaciones empresariales de CX y la versión de la funcionalidad está completa.
 
 Con cada versión de la funcionalidad, los plazos desde la fase de producción hasta su disponibilidad general pueden variar. El objetivo es reducir el número de versiones, de modo que en los 2 meses posteriores al comienzo de la producción, la funcionalidad esté disponible de forma general.
 
