@@ -70,9 +70,9 @@ Para configurar el conector de origen de las soluciones nativas del almacén de 
 
 Para obtener información sobre la autenticación con la solución nativa del almacén de datos admitida, consulte la documentación de Experience Platform correspondiente:
 
-* [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure Databricks](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Seleccionar datos
@@ -108,5 +108,5 @@ Una vez que haya terminado la configuración del conector de origen, se crea un 
 >[!MORELIKETHIS]
 >
 >[Guía de inicio rápido de Data Mirror: crear reflejos y utilizar datos relacionales](relational.md)
->[Data Mirror (documentación de Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[Data Mirror (documentación de Experience Platform)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/data-mirror/overview)
 >[Esquemas relacionales (documentación de Experience Platform)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational)

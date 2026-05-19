@@ -66,7 +66,7 @@ Use `npm` para instalar la biblioteca.
 
 Cargue la biblioteca directamente desde la CDN.
 
-1. Inicialice la [biblioteca JavaScript de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library) y cargue el paquete de Content Analytics:
+1. Inicialice la [biblioteca JavaScript de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library) y cargue el paquete de Content Analytics:
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -88,7 +88,7 @@ Cargue la biblioteca directamente desde la CDN.
    ```
 
    dónde
-   * `alloy/2.x.x` hace referencia a la versión que desea usar de la [biblioteca de Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library).
+   * `alloy/2.x.x` hace referencia a la versión que desea usar de la [biblioteca de Web SDK JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library).
    * `content-analytics/1.x.x` hace referencia a la versión que desea utilizar de la biblioteca SDK de Content Analytics.
 
 2. La compilación independiente expone `window.contentAnalytics` como función de inicialización.
