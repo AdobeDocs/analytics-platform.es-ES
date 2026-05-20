@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 347135b036e8232f3c93c57c845f6c5491a75918
+source-git-commit: 2c808412ce401447d356a896b1caef7872106ddc
 workflow-type: tm+mt
-source-wordcount: 21131
+source-wordcount: 21132
 ht-degree: 98%
 
 ---
@@ -406,7 +406,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Descubra qué contenido y atributos de contenido tienen el mejor rendimiento."
->abstract="**Esto puede ayudarle** a conocer el rendimiento de su contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza la IA para generar atributos automáticamente y etiquetar el contenido con ellos.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como promocionar recursos de alto rendimiento en su página de inicio, personalizar contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto."
+>abstract="**Esto puede ayudarle** a conocer el rendimiento de su contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza la IA para generar atributos automáticamente y etiquetar el contenido con ellos. [Más información &#x200B;](/help/content-analytics/content-analytics.md)<br/>**En función de lo que sepa, podría** hacer cualquier cosa, como promocionar recursos de alto rendimiento en su página de inicio, personalizar el contenido para segmentos específicos con el fin de incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto."
 
 
 Las plantillas disponibles son las siguientes:
