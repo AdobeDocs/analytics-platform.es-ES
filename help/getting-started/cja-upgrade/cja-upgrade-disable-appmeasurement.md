@@ -21,7 +21,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 0c3564ba382f12e6a331f00a2edc1c9f324acc2d
 workflow-type: tm+mt
 source-wordcount: 149
 ht-degree: 100%
@@ -50,4 +50,3 @@ Antes de deshabilitar Adobe Analytics, revise la información de [Evaluar cuánd
 >[!NOTE]
 >
 >Esta información aún no está disponible. Estará disponible en un futuro próximo.
-
