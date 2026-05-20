@@ -396,7 +396,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--exitPageRankedReport"
 >title="Vea las páginas principales a las que los usuarios acceden inmediatamente antes de abandonar el sitio."
->abstract="**Esto puede ayudarle** a comprender mejor qué páginas están alejando a las personas del sitio. <br/>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en su sitio.<br/>Esta plantilla usa la métrica Sesiones. También utiliza la visualización Barra y la visualización Tabla de forma libre."
+>abstract="**Esto puede ayudarle** a comprender mejor qué páginas están alejando a la gente del sitio. <br/>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en su sitio.<br/>Esta plantilla usa la métrica Sesiones. También utiliza la visualización Barra y la visualización Tabla de forma libre."
 
 >[!CONTEXTUALHELP]
 >id="template--productUsageOverviewReport"
