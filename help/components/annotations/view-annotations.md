@@ -4,10 +4,20 @@ description: Obtenga información sobre cómo ver anotaciones en Analysis Worksp
 role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+TQID: https://experienceleague.adobe.com/9BgN7yumKsO-0--9-VFhpg7rPKJfNWtW7dXHWANFmtM
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 86%
+source-wordcount: 214
+ht-degree: 85%
 
 ---
 

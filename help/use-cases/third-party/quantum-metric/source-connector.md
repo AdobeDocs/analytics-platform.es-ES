@@ -5,10 +5,25 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
-exl-id: a8795fe-f5aa-458f-9e01-53ff1ffe6372
-source-git-commit: d8d82830188a24bc01bac35c22a27c7f12f9e615
+exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
+TQID: https://experienceleague.adobe.com/LLrYpPlbagFAIeuD9TMgA3E8lrcUrMxMSWLC-8SiiIY
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2:
+  - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 942cc774812d4a6b3b7f45df837ff9277e8f9b46
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: 435
 ht-degree: 4%
 
 ---

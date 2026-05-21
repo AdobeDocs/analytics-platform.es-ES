@@ -4,10 +4,21 @@ title: Comparación de fechas
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 role: User
-source-git-commit: 5a9cb206076755d5b34a8ec9108ca88a9468bfe3
+TQID: https://experienceleague.adobe.com/LhPSvchJbDMPV-HmGSA2JaBZxoPQ7UyEKd7GMS-33UU
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 82%
+source-wordcount: 770
+ht-degree: 90%
 
 ---
 
@@ -17,12 +28,12 @@ La comparación de fechas de Analysis Workspace le permite tomar cualquier colum
 
 ## Comparar períodos de tiempo
 
-El análisis requiere contexto, y este lo proporciona a menudo un período de tiempo previo. Por ejemplo, la pregunta *¿Cuánto más favorable o peor le va ahora en comparación con el año pasado por estas fechas?* es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna *diferencia* que muestra el cambio porcentual en comparación con un período de tiempo concreto.
+El análisis requiere contexto, y este lo proporciona a menudo un período de tiempo previo. Por ejemplo, la pregunta *¿Cuánto mejor o peor estás haciendo ahora en comparación con esta época del año pasado?* es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna *diferencia* que muestra el cambio porcentual en comparación con un período de tiempo concreto.
 
 1. Cree una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) con cualquier dimensión y métrica que quiera comparar a lo largo de un período de tiempo.
 1. Establezca el período de tiempo en el panel o la columna para determinar el lapso de tiempo de comparación, y si es una comparación de tiempo móvil o fijo.
 
-   Para crear una comparación de tiempo móvil, establezca el intervalo de fechas del panel o la columna en un intervalo de fechas móvil (por ejemplo, **[!UICONTROL últimos 7 días]**, **[!UICONTROL últimos 30 días]**, etc.).
+   Para crear una comparación de tiempo móvil, establezca el intervalo de fechas del panel o la columna en un intervalo de fechas móvil (por ejemplo, **[!UICONTROL últimos siete días]**, **[!UICONTROL últimos 30 días]**, etc.).
 
    Para crear una comparación de tiempo fijo, establezca el intervalo de fechas del panel o la columna en un intervalo de fechas personalizado.
 
@@ -34,11 +45,11 @@ El análisis requiere contexto, y este lo proporciona a menudo un período de ti
    >
    >Esta opción del botón secundario está deshabilitada para filas de métricas, filas de intervalos de fechas y filas de dimensiones de tiempo.
 
-1. Según cómo haya configurado el intervalo de fechas de la tabla, tiene estas opciones para comparar:
+1. En función de cómo haya configurado el intervalo de fechas de la tabla, tiene estas opciones para comparar:
 
    | Opción | Descripción |
    |---|---|
-   | **[!UICONTROL *x* semanas/meses/trimestres/años anteriores a este intervalo de fechas]** | Compare con el intervalo de fechas seleccionado inmediatamente antes de este intervalo de fechas. |
+   | **[!UICONTROL *x* semanas/meses/trimestres/años anteriores a este intervalo de fechas]** | Compare con el intervalo de fechas seleccionado inmediatamente antes de este intervalo de fechas. |
    | **[!UICONTROL Estas x semanas/meses/trimestres/años desde el año pasado hasta este intervalo de fechas]** | Compárelo con el mismo intervalo de fechas de hace un año. |
    | **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]** | Le permite definir un intervalo de fechas personalizado. |
 
@@ -60,17 +71,17 @@ Ahora puede añadir un período de tiempo a cada columna en una tabla, lo que pe
 
    ![](assets/add-time-period-column.png)
 
-1. Según cómo haya configurado el intervalo de fechas de la tabla, tiene estas opciones para comparar:
+1. En función de cómo haya configurado el intervalo de fechas de la tabla, tiene estas opciones para comparar:
 
    | Opción | Descripción |
    |---|---|
-   | **[!UICONTROL *x* semanas/meses/trimestres/años anteriores a este intervalo de fechas]** | Añada una columna con la semana/mes/etc. inmediatamente anterior a este intervalo de fechas. |
+   | **[!UICONTROL *x* semanas/meses/trimestres/años anteriores a este intervalo de fechas]** | Agregue una columna con la semana, el mes, etc. inmediatamente antes de este intervalo de fechas. |
    | **[!UICONTROL Estas *x* semanas/meses/trimestres/años desde el año pasado hasta este intervalo de fechas]** | Añada el mismo intervalo de fechas de hace un año. |
    | **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]** | Le permite crear un intervalo de fechas personalizado. |
 
    >[!NOTE]
    >
-   >Cuando seleccione un número de días personalizado, por ejemplo, del 7 al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL los 14 días anteriores a este intervalo de fechas]** y un **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]**.
+   >Cuando seleccione un número de días personalizado, por ejemplo del 7 al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL los 14 días anteriores a este intervalo de fechas]** y un **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]**.
 
 1. El período de tiempo se inserta en la parte superior de la columna seleccionada:
 

@@ -5,10 +5,27 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 79b3ca663af6c383eed7ec81e9c430855669d19b
+TQID: https://experienceleague.adobe.com/RrX-gp2IY-Ny1D1yzR2whV2GuU98mysma8tQmUEubF8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3462'
-ht-degree: 84%
+source-wordcount: 3756
+ht-degree: 82%
 
 ---
 
@@ -158,7 +175,7 @@ Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y s
       1. Se le solicitará el **[!UICONTROL nombre de usuario]** y la **[!UICONTROL contraseña]**. Utilice los parámetros equivalentes de las [!UICONTROL credenciales] de consultas de Experience Platform.
 
 
-   1. Después de iniciar sesión correctamente, las tablas de la vista de datos de Customer Journey Analytics aparecerán en Power BI en el **[!UICONTROL **&#x200B; navegador &#x200B;**]**. 
+   1. Después de iniciar sesión correctamente, las tablas de la vista de datos de Customer Journey Analytics aparecerán en Power BI en el **[!UICONTROL **&#x200B; navegador &#x200B;**]**.
 
    1. Seleccione las tablas de vista de datos que desee utilizar y seleccione **[!UICONTROL **&#x200B; cargar &#x200B;**]**.
 
@@ -204,7 +221,7 @@ Actualmente, la [!DNL Customer Journey Analytics BI extension] es compatible y s
 
       1. Seleccione **[!UICONTROL **&#x200B; Iniciar sesión &#x200B;**]**.
 
-   1. Las vistas de datos de Customer Journey Analytics se muestran como tablas en la lista **[!UICONTROL **&#x200B; Tabla &#x200B;**]**. 
+   1. Las vistas de datos de Customer Journey Analytics se muestran como tablas en la lista **[!UICONTROL **&#x200B; Tabla &#x200B;**]**.
 
    1. Arrastre las tablas que desee utilizar en el lienzo.
 
@@ -330,7 +347,7 @@ Al usar la extensión de BI, se aplican los siguientes valores predeterminados y
 * La extensión de BI requiere un límite de filas para los resultados de la consulta. El valor predeterminado es 50, pero puede invalidarlo en SQL con `LIMIT n`, donde `n` es 1 - 50000.
 * La extensión de BI requiere un intervalo de fechas para limitar las filas utilizadas en los cálculos. El valor predeterminado son los últimos 30 días, pero puede invalidarlo en la cláusula de SQL `WHERE` con las columnas especiales [`timestamp`](#timestamp) o [`daterange`](#date-range).
 * La extensión de BI requiere consultas acumuladas. No puede usar SQL como `SELECT * FROM ...` para obtener las filas subyacentes sin procesar. En un nivel superior, las consultas agregadas deben utilizar:
-   * Seleccione totales usando `SUM` y/o `COUNT`.<br/> Por ejemplo, `SELECT SUM(metric1), COUNT(*) FROM ...`
+   * Seleccionar totales usando `SUM` y/o `COUNT`.<br/> Por ejemplo, `SELECT SUM(metric1), COUNT(*) FROM ...`
    * Seleccione las métricas desglosadas por una dimensión. <br/>Por ejemplo, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
    * Seleccione valores de métrica distintos.<br/>Por ejemplo, `SELECT DISTINCT dimension1 FROM ...`
 
@@ -389,8 +406,8 @@ HAVING m1 > 100</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Valores de dimensión
-distintos, superiores </td>
+            <td>Distinto, superior 
+valores de dimensión </td>
             <td>
                 <pre><code>SELECT DISTINCT dim1 FROM dv1</code></pre>
                 <pre><code>SELECT dim1 AS dv1
@@ -414,9 +431,9 @@ WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Desgloses
-de varias dimensiones
-y superiores distintos </td>
+            <td>De varias dimensiones
+desglose
+y distintivos de primer nivel </td>
             <td>
                 <pre><code>SELECT dim1, dim2, SUM(metric1) AS m1
 FROM dv1
@@ -432,9 +449,9 @@ FROM dv1</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Subselección:
-Filtrar resultados
-adicionales </td>
+            <td>Subseleccionar:
+Filtrar adicionales
+resultados </td>
             <td>
                 <pre><code>SELECT dim1, m1
 FROM (
@@ -446,8 +463,8 @@ DONDE dim1 en ('A', 'B')</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Subselección:
-Realización de consultas en
+            <td>Subseleccionar:
+Realización de consultas
 vistas de datos </td>
             <td>
                 <pre><code>SELECT key, SUM(m1) AS total
@@ -469,9 +486,9 @@ ORDER BY total</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Subselección:
-Fuente con capas,
-filtrado
+            <td>Subseleccionar: 
+Fuente con capas, 
+filtrado, 
 y agregación </td>
             <td>Capas con subselecciones:
 <pre><code>SELECT rows.dim1, SUM(rows.m1) AS total
@@ -500,9 +517,9 @@ GROUP BY rows.item</code></pre>
         </td>
         </tr>
         <tr>
-            <td>Selecciones donde
+            <td>Selecciona dónde
 las métricas van antes que
-o se mezclan con
+ o se mezclan con
 las dimensiones </td>
             <td>
                 <pre><code>SELECT SUM(metric1) AS m1, dim1
@@ -663,7 +680,7 @@ Estas funciones se pueden usar en dimensiones de la cláusula `SELECT`, `WHERE` 
 | [Trimestre](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#quarter) | ``SELECT QUARTER(`timestamp`)`` | Genere una identidad de dimensión dinámica en el campo pasado. |
 | [Hora](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#hour) | ``SELECT HOUR(`timestamp`)`` | Genere una identidad de dimensión dinámica en el campo pasado. Utilice el ID del elemento en lugar del valor, ya que necesita el número y no el nombre descriptivo. |
 | [Minuto](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#minute) | ``SELECT MINUTE(`timestamp`)`` | Genere una identidad de dimensión dinámica en el campo pasado. |
-| [Extraer](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | Genere una identidad de dimensión dinámica en el campo pasado. Utilice el ID del elemento en lugar del valor para algunas partes de esta función, ya que necesita el número y no el nombre descriptivo.<br/>Las partes compatibles son:<br>- Palabras clave: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/>- Cadenas:  `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` o `'MINUTE'`. |
+| [Extraer](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | Genere una identidad de dimensión dinámica en el campo pasado. Utilice el ID del elemento en lugar del valor para algunas partes de esta función, ya que necesita el número y no el nombre descriptivo.<br/>Las partes compatibles son:<br>- Palabras clave: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/>- Cadenas: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` o `'MINUTE'`. |
 | [Fecha (parte)](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | Genere una identidad de dimensión dinámica en el campo pasado. Utilice el ID del elemento en lugar del valor para algunas partes de esta función, ya que necesita el número y no el nombre descriptivo.<br/>Las partes de cadena compatibles son: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` o `'MINUTE'`. |
 | [Fecha (truncada)](https://spark.apache.org/docs/latest/api/sql/index.html?lang=es#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | Genere una identidad de dimensión dinámica en el campo pasado.<br/>Las granularidades de cadena compatibles son: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, o `'MINUTE'`. |
 
@@ -675,6 +692,6 @@ Alguna funcionalidad de SQL solo es compatible parcialmente con la extensión de
 
 | Función | Ejemplo | Detalles |
 |---|---|---|
-| MIN() y MAX() | ``MIN(daterange)`` o <br/> ``MAX(daterange)`` | `MIN()` en `timestamp`, `daterange` o cualquiera de `daterangeX` como `daterangeday` devolverá 2 años atrás.<br/><br/> `MAX()` en `timestamp`, `daterange` o cualquiera de `daterangeX` como `daterangeday` devolverá la fecha/hora actual.<br/><br/>`MIN()` o `MAX()` en cualquier otra dimensión, métrica o expresión devolverá 0. |
+| MIN() y MAX() | ``MIN(daterange)`` o <br/> ``MAX(daterange)`` | `MIN()` en `timestamp`, `daterange` o cualquiera de `daterangeX` como `daterangeday` devolverá 2 años atrás.<br/><br/> `MAX()` el `timestamp`, `daterange` o cualquiera de los `daterangeX` como `daterangeday` devolverá la fecha/hora actual.<br/><br/>`MIN()` o `MAX()` en cualquier otra dimensión, métrica o expresión devolverá 0. |
 
 {style="table-layout:auto"}

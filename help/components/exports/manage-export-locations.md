@@ -5,9 +5,20 @@ title: Administrar ubicaciones y cuentas de exportación en la nube
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 25a5c42153e28493321d87fa5227fcf44c244bb6
+TQID: https://experienceleague.adobe.com/fFXssOZV4eb8Yo1cADhBgXXte-umE4i5CtYVleEVD1w
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: 1395
 ht-degree: 3%
 
 ---
@@ -34,7 +45,7 @@ Para encontrar la información que necesita, puede filtrar la lista de ubicacion
 
    Puede filtrar por los siguientes criterios:
 
-   | Filtrar | Descripción |
+   | Filtro | Descripción |
    |---------|----------|
    | [!UICONTROL **Tipo de ubicación**]<!--should this be changed to Account type?--> | El tipo de cuenta con el que está asociada la ubicación. Pueden estar disponibles los siguientes tipos de cuenta: <ul><li>[!UICONTROL **Zona de aterrizaje de datos de AEP**]</li><li>[!UICONTROL **ARN de la función Amazon S3**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **Cuenta**] | El nombre de la cuenta a la que está asociada la ubicación. |

@@ -5,9 +5,30 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+TQID: https://experienceleague.adobe.com/BuizkumbeMPhg7dWvJrFta3CYfQnqivOlXd2RtX9gm4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+  - id: df28738e-9c71-4aa8-929e-edde22340cc6
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3551'
+source-wordcount: 3648
 ht-degree: 87%
 
 ---
@@ -322,7 +343,7 @@ Para definir un elemento de datos ECID, debe hacer lo siguiente:
 
 3. En el cuadro de diálogo [!UICONTROL Crear elemento de datos], haga lo siguiente:
 
-   - Asigne un nombre al elemento de datos, por ejemplo `ECID`.
+   - Asigne un nombre al elemento de datos como, por ejemplo, `ECID`.
 
    - Seleccione **[!UICONTROL Servicio de Experience Cloud ID]** en la lista [!UICONTROL Extensión].
 
@@ -342,7 +363,7 @@ Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
 
 3. En el cuadro de diálogo [!UICONTROL Crear elemento de datos], haga lo siguiente:
 
-   - Asigne un nombre al elemento de datos, por ejemplo `XDM - Page View`.
+   - Asigne un nombre al elemento de datos como, por ejemplo, `XDM - Page View`.
 
    - Seleccione **[!UICONTROL SDK web de Adobe Experience Platform]** en la lista [!UICONTROL Extensión].
 
@@ -450,7 +471,7 @@ Para compilar y publicar una etiqueta, debe hacer lo siguiente:
 
    ![Publicar - Compilar biblioteca](./assets/build-library.png)
 
-Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación simples o complejos que deben admitir la implementación del SDK web de Adobe Experience Platform.
+Las etiquetas de Adobe Experience Platform admiten flujos de trabajo de publicación simples o complejos que deben adaptarse a su implementación del SDK web de Adobe Experience Platform.
 
 Consulte la [Información general de la publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es) para obtener más información.
 
@@ -489,7 +510,7 @@ Valide la implementación, corrija lo que sea necesario y, una vez sea correcta,
 
 Para utilizar los datos de Adobe Experience Platform en Customer Journey Analytics, se crea una conexión que incluye los datos resultantes de la configuración del esquema, el conjunto de datos y el flujo de trabajo.
 
-Una conexión le permite integrar conjuntos de datos de Adobe Experience Platform en Workspace. Para informar sobre estos conjuntos de datos, primero debe establecer una conexión entre conjuntos de datos en Adobe Experience Platform y Workspace.
+Una conexión le permite integrar conjuntos de datos de Adobe Experience Platform el Espacio de trabajo. Para informar sobre estos conjuntos de datos, primero debe establecer una conexión entre conjuntos de datos en Adobe Experience Platform y Workspace.
 
 Para crear la conexión:
 

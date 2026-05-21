@@ -5,10 +5,23 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+TQID: https://experienceleague.adobe.com/4fwNjSWPcLFNewlSHjxJq6MVWQY1Lc0-CpSomNkU69M
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: 443
+ht-degree: 89%
 
 ---
 
@@ -60,9 +73,9 @@ El análisis guiado y [Analysis Workspace](../analysis-workspace/home.md) coinci
 
 Mientras que [Analysis Workspace](../analysis-workspace/home.md) y el análisis guiado utilizan los mismos datos subyacentes, la forma en que cada herramienta permite formar consultas de esos datos es diferente.
 
-* **Analysis Workspace es una experiencia centrada en la dimensión.** Las tablas suelen consistir en filas dimensionales, mientras que las columnas suelen ser métricas. Los segmentos se pueden aplicar tanto a filas como a columnas para obtener los datos deseados.
+* **Analysis Workspace es una experiencia centrada en dimensiones.** Las tablas suelen consistir en filas dimensionales, mientras que las columnas suelen ser métricas. Los segmentos se pueden aplicar tanto a filas como a columnas para obtener los datos deseados.
 
-* **El análisis guiado es una experiencia centrada en el evento y el usuario.** Cada análisis comienza seleccionando eventos. A continuación, se pueden añadir dimensiones y segmentos para especificar esos datos de evento.
+* **El análisis guiado es un evento y una experiencia centrada en el usuario.** Cada análisis comienza seleccionando eventos. A continuación, se pueden añadir dimensiones y segmentos para restringir los datos de evento.
 
 ![Vistas de Analysis Workspace y del análisis guiado](assets/structure.png){style="border:1px solid gray"}
 

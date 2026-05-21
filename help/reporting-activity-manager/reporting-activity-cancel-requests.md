@@ -5,9 +5,21 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
 role: Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/Rzq3IeZudRcTRC60v2RsijL-g-rno7xPS6Lc5jZlMbs
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: 1497
 ht-degree: 100%
 
 ---
@@ -50,7 +62,7 @@ Puede cancelar solicitudes individuales que consuman una gran cantidad de capaci
 
 1. (Opcional) Para restringir solicitudes futuras durante un período de tiempo determinado:
 
-   1. Habilite la opción para [!UICONTROL **Restringir las solicitudes posteriores**].
+   1. Habilite la opción para [!UICONTROL **Restringir solicitudes subsiguientes**].
 
       ![Solicitud de cancelación 1 que muestra Restringir las solicitudes posteriores seleccionadas y el mensaje de cancelación.](assets/restrict-subsequent-requests.png)
 
@@ -118,7 +130,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más proyect
 
 1. Seleccione la conexión en la que desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
 
 1. Seleccione la pestaña [!UICONTROL **Proyectos**] y, a continuación, seleccione uno o varios proyectos.
 
@@ -174,13 +186,13 @@ Para cancelar las solicitudes por la aplicación:
 
 1. Seleccione la conexión en la que desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
 
 1. Seleccione la pestaña [!UICONTROL **Aplicaciones**] y, a continuación, seleccione una o varias aplicaciones.
 
    <!-- add screenshot -->
 
-1. Seleccione [!UICONTROL **Cancelar solicitudes**].
+1. Seleccione [!UICONTROL **todas las solicitudes**].
 
    Se muestra el cuadro de diálogo [!UICONTROL **Cancelar solicitudes de informe _x_ de x proyectos**].
 
@@ -188,7 +200,7 @@ Para cancelar las solicitudes por la aplicación:
 
 1. (Opcional) Para restringir solicitudes futuras durante un período de tiempo determinado:
 
-   1. Habilite la opción para [!UICONTROL **Restringir las solicitudes posteriores**].
+   1. Habilite la opción para [!UICONTROL **Restringir solicitudes subsiguientes**]
 
       ![Solicitud de cancelación 1 que muestra la solicitud Restringir las solicitudes posteriores por la aplicación seleccionada.](assets/restrict-subsequent-requests-application.png)
 

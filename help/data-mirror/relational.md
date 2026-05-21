@@ -6,10 +6,25 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
+TQID: https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 14%
+source-wordcount: 2356
+ht-degree: 15%
 
 ---
 
@@ -127,7 +142,7 @@ Defina un esquema que modele estos datos. Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en **[!UICONTROL Administración de datos]**.
 
-1. Seleccione **[!UICONTROL Crear esquema]**. 
+1. Seleccione **[!UICONTROL Crear esquema]**.
 1. En el menú desplegable, seleccione **[!UICONTROL Relacional]**.
 1. Si ve una ventana emergente con la opción de seleccionar entre **[!UICONTROL Crear manualmente]** o **[!UICONTROL Cargar un archivo DDL]**:
    1. Seleccione **[!UICONTROL seleccionar Crear manualmente]**.
@@ -351,7 +366,7 @@ Para crear la vista de datos:
 
 4. En el paso **[!UICONTROL Componentes]**, haga lo siguiente:
 
-   1. Agregue cualquier campo de esquema o componente estándar que desee incluir en los cuadros de componente **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**. Asegúrese de agregar campos relevantes del conjunto de datos que contiene los datos reflejados. Para acceder a esos campos:
+   1. Agregue cualquier campo de esquema o componente estándar que quiera incluir en los cuadros de componentes **[!UICONTROL MÉTRICAS]** o **[!UICONTROL DIMENSIONES]**. Asegúrese de agregar campos relevantes del conjunto de datos que contiene los datos reflejados. Para acceder a esos campos:
 
       1. Seleccionar **[!UICONTROL conjuntos de datos de eventos]**.
       1. Seleccione **[!UICONTROL campos ad hoc y relacionales]**.

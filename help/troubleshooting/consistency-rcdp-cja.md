@@ -4,13 +4,24 @@ title: Coherencia de las métricas y abono a públicos
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+TQID: https://experienceleague.adobe.com/IYlFUArrqejRjs5uDJ0MNGixQG4IP6ly4qLQBMALCjA
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 90%
+source-wordcount: 671
+ht-degree: 100%
 
 ---
-
 
 # Coherencia de las métricas y abono a públicos
 
@@ -22,7 +33,7 @@ Al comparar los recuentos de miembros de público entre Real-time CDP y Customer
 
 Real-time CDP y Customer Journey Analytics no comparten la misma definición de una persona en la actualidad. Real-time CDP se basa completamente en la información del [gráfico de identidad](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=es) para crear un perfil combinado.
 
-Customer Journey Analytics se puede configurar para usar [vinculación](../stitching/overview.md). Si usa [Vinculación basada en el campo](/help/stitching/fbs.md) como mecanismo de vinculación, especifique un identificador de un conjunto de datos en el lago de datos para vincular los datos de ese conjunto de datos con el propósito de elevar el conjunto de datos con perfiles combinados mejorados. Si usa [vinculación basada en gráficos](/help/stitching/gbs.md) como mecanismo de vinculación, un proceso similar está usando el gráfico de identidad, basado en un área de nombres de identidad especificada.
+Customer Journey Analytics se puede configurar para usar [vinculación](../stitching/overview.md). Si usa la [vinculación basada en el campo](/help/stitching/fbs.md) como mecanismo de vinculación, especifique un identificador de un conjunto de datos en el lago de datos para vincular los datos de ese conjunto de datos con el propósito de elevar el conjunto de datos con mejores perfiles combinados. Si usa la [vinculación basada en gráficos](/help/stitching/gbs.md) como mecanismo de vinculación, un proceso similar está usando el gráfico de identidad, basado en un espacio de nombres de identidad especificado.
 
 
 ## Diferencias en la configuración del conjunto de datos

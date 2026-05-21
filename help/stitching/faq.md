@@ -5,10 +5,25 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 1bba52c332f1594b0b07466b499e24b5c62726fd
+TQID: https://experienceleague.adobe.com/0y2eqwQxkHefcODFhxXCuioMnL-YCXm21335Z2upPB0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 81%
+source-wordcount: 2341
+ht-degree: 79%
 
 ---
 
@@ -199,7 +214,7 @@ Tenga cuidado con la &#39;contracción de personas&#39;, que se produce cuando s
 | 2 | 2023-05-12 12:02 | 123 | Cory | **Cory** |
 | 3 | 2023-05-12 12:03 | 456 | No definido | **No definido** |
 | 4 | 2023-05-12 12:04 | 456 | - | **No definido** |
-| 5 | 12/05/2023 12:05 | 789 | No definido | **No definido** |
+| 5 | 2023-05-12 12:05 | 789 | No definido | **No definido** |
 | 6 | 2023-05-12 12:06 | 012 | No definido | **No definido** |
 | 7 | 2023-05-12 12:07 | 012 | - | **No definido** |
 | 8 | 2023-05-12 12:03 | 789 | No definido | **No definido** |

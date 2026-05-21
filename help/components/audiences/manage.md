@@ -4,14 +4,24 @@ description: Descubra cómo administrar públicos en Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/SVEj1knpMzmtkIlwAYSb6o0PYBR9wf7JbrLMcMM2V8g
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: 774
 ht-degree: 97%
 
 ---
 
-# Administrar audiencias publicadas
+# Administrar públicos publicados
 
 Los públicos se pueden administrar en Customer Journey Analytics mediante **[!UICONTROL Componentes]** > **[!UICONTROL Públicos]**.
 
@@ -25,7 +35,7 @@ La administración de públicos creados anteriormente le permite:
 * Obtener información sobre **cuánto tiempo se tardó en producir un público** de Customer Journey Analytics. Y la cantidad de tiempo que tardó el público en aparecer en Real-Time Customer Platform con fines de activación.
 * Compruebe si **Real-Time Customer Platform** está usando los públicos de Customer Journey Analytics activamente. O, idealmente, cualquier aplicación de Experience Platform que consuma los públicos creados por Customer Journey Analytics.
 
-Si cuenta con acceso a [Vista de públicos](/help/technotes/access-control.md#user-level-access), podrá ver los públicos. Si cuenta con acceso a [Crear público](/help/technotes/access-control.md#user-level-access), podrá editar y eliminar públicos. 
+Si cuenta con acceso a [Vista de públicos](/help/technotes/access-control.md#user-level-access), podrá ver los públicos. Si cuenta con acceso a [Crear público](/help/technotes/access-control.md#user-level-access), podrá editar y eliminar públicos.
 
 ## Buscar públicos en la lista de Públicos
 
@@ -110,7 +120,7 @@ El panel de filtro consta de las siguientes secciones.
 
 | Propietario | Descripción |
 |---|---|
-| ![Propietarios](/help/components/audiences/assets/audiences-filter-owner.png){width="300"} | La sección **[!UICONTROL Propietario]** le permite filtrar por propietarios. <ul><li>Utilice la opción ![Buscar](/help/assets/icons/Search.svg) para buscar los propietarios que desea usar para filtrar.</li><li>Puede seleccionar más de un propietario. </li></ul> |
+| ![Propietarios](/help/components/audiences/assets/audiences-filter-owner.png){width="300"} | La sección **[!UICONTROL Propietario]** le permite filtrar por los propietarios. <ul><li>Utilice la opción ![Buscar](/help/assets/icons/Search.svg) para buscar los propietarios que desea usar para filtrar.</li><li>Puede seleccionar más de un propietario. </li></ul> |
 
 ## Frecuencia de actualización
 

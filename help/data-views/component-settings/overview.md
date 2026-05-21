@@ -5,10 +5,28 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/Ozf-XAsirDMkZLIQCX4SLGD7SvKinu3O4fwJ4ifgSvQ
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2:
+  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3739'
-ht-degree: 56%
+source-wordcount: 3784
+ht-degree: 53%
 
 ---
 
@@ -404,7 +422,7 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 | ID de correlación | ID de correlación. |
 | Recuento de ofertas (AJO) | El número de elementos de oferta de la propuesta. |
 | Clave de enlace del elemento de decisión | Un identificador compuesto que combina el ID de elemento con el ID de solicitud de Experience Decisioning, lo que permite la persistencia de los datos entre interacciones. |
-| Proveedor de decisiones (AJO) | El proveedor al que se le pidió que tomara la decisión. Esta dimensión se utiliza cuando varios servicios pueden tomar decisiones para la misma ubicación o actividad. |
+| Proveedor de decisiones (AJO) | El proveedor al que se le pidió que tomara la decisión. Esta dimensión se utiliza cuando varios servicios pueden tomar decisiones sobre la misma ubicación o actividad. |
 | Proveedor de decisiones (mantenido) (AJO) | El proveedor de decisiones con enlace de persistencia habilitado. |
 | ID de directiva de decisión (AJO) | El ID de la política de decisión utilizada a la hora de decidir qué elementos incluir en esta proposición. |
 | Métrica Dedup (AJO) | Métrica de desduplicación. |
@@ -427,7 +445,7 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 | Rechazos entrantes (AJO) | Recuento total de rechazos en los canales entrantes. |
 | Impresiones entrantes (AJO) | Recuento total de impresiones en los canales entrantes. |
 | Envíos entrantes (AJO) | Recuento total de envíos entre canales entrantes. |
-| Entrante activado (AJO) | El SDK de Adobe eligió mostrar la propuesta. Otros factores pueden impedir que se muestre realmente. |
+| Entrante activado (AJO) | La propuesta se ha elegido para que se muestre en la SDK de Adobe. Otros factores pueden impedir que se muestre realmente. |
 | El tiempo de envío está optimizado (AJO) | ¿Está optimizada la ejecución del mensaje SendTimeOptimized? |
 | Es un recorrido de prueba | ¿Forma parte el evento de la ejecución de un recorrido de prueba? |
 | Es un mensaje de prueba (AJO) | ¿El mensaje se envía como una ejecución de prueba? |
@@ -444,7 +462,7 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 | Nombre de regla de exclusión de recorrido | Nombre de la regla que provocó la denegación de entrada del recorrido. |
 | Exclusiones del recorrido (AJO) | Indique si el evento de paso actual ha resultado en un descarte de recorrido para un perfil. Esto suele ocurrir debido a que se aplican reglas de límite o concurrencia, lo que impide una mayor progresión del recorrido. |
 | Tipo de salida del recorrido (AJO) | El tipo de salida que se produjo para la instancia de recorrido. |
-| Errores del recorrido | Proporciona el estado actual del paso que ha terminado de ejecutarse. |
+| Errores del recorrido | Indica el estado actual del paso que ha terminado de ejecutarse. |
 | ID del recorrido | El ID del recorrido. |
 | Nombre del recorrido | El nombre del recorrido. |
 | Nombre y versión del recorrido | El nombre y la versión del recorrido. |
@@ -500,13 +518,13 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 | Tipo de mensaje SMS (AJO) | Proveedor de SMS, por ejemplo, inbound, inboundReply o send. |
 | Proveedor de SMS (AJO) | El proveedor de SMS, por ejemplo, Sinch o Twilio. |
 | Denuncia de spam (AJO) | Recuento total de quejas de spam. |
-| Nombre de estrategia (AJO) | Nombre de estrategia. El nombre de la estrategia de la que se derivó el elemento. |
+| Nombre de estrategia (AJO) | Nombre de estrategia. Nombre de estrategia del que se derivó el elemento. |
 | Nombre de estrategia (mantenido) (AJO) | El nombre de la estrategia con enlace de persistencia habilitado. |
 | Adiciones a la lista de suscripción (AJO) | Recuento total de adiciones a una lista de suscripción. |
 | ID de la lista de suscripción (AJO) | Identificador único de la lista de suscripción. |
 | Eliminaciones de la lista de suscripción (AJO) | Recuento total de eliminaciones de una lista de suscripción. |
 | Superficie (AJO) | La superficie de canal en la que apareció el mensaje. |
-| Segmentado (obsoleto) | Hace un recuento del número de veces que una propuesta se ha dirigido a una persona. Es el número de veces que se ha considerado una propuesta para mostrarla a una persona. |
+| Segmentado (obsoleto) | Este recuento representa el número de veces que una propuesta se ha dirigido a una persona. Es el número de veces que se ha considerado una propuesta para mostrarla a una persona. |
 | Nombre de regla de segmentación (AJO) | El nombre de la regla de segmentación. |
 | Evento de prueba (AJO) | Evento de prueba. |
 | Tiempo para el inicio | Hora de inicio. |

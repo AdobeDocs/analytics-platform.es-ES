@@ -4,10 +4,25 @@ description: Incorpore datos generados por Adobe Journey Optimizer y analícelos
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 830e16ecd4c43da114c63af51e4bb6e88bbb4ff8
+TQID: https://experienceleague.adobe.com/kmZ-AYMcKxwZftFSqJQpTH3zDTDT1CxlNw-MVO6Ikn4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3770'
-ht-degree: 93%
+source-wordcount: 3841
+ht-degree: 90%
 
 ---
 
@@ -83,7 +98,7 @@ La vista de datos tiene el nombre **Habilitar vista de datos AJO (*nombre de zon
 
   | Compatibilidad | Valor |
   |---|---|
-  | [!UICONTROL Establecer como vista de datos predeterminada en Adobe Journey Optimizer] | Habilitado (predeterminado).<br/><br/>Esta opción de configuración le permite designar una vista de datos para utilizarla con Journey Optimizer, sin necesidad de realizar una configuración manual. Para obtener información sobre cómo habilitar esta opción de configuración (si no está habilitada de forma predeterminada), consulte la sección [Compatibilidad](/help/data-views/create-dataview.md#compatibility) en [Creación o edición de una vista de datos](/help/data-views/create-dataview.md). <br/><br/>Cuando deshabilita la opción, un cuadro de diálogo le preguntará si desea continuar cambiando la vista de datos predeterminada. Al seleccionar **[!UICONTROL Continuar]**, debe seleccionar otra vista de datos como vista de datos predeterminada. Seleccionar **[!UICONTROL Confirmar]** para confirmar la selección. Seleccionar **[!UICONTROL Cancelar]** para cancelar el cambio de la vista de datos predeterminada. |
+  | [!UICONTROL Establecer como vista de datos predeterminada en Adobe Journey Optimizer] | Habilitada (predeterminada).<br/><br/>Esta opción de configuración le permite designar una vista de datos para usarla con Journey Optimizer, sin necesidad de realizar una configuración manual. Para obtener información sobre cómo habilitar esta opción de configuración (si no está habilitada de forma predeterminada), consulte la sección [Compatibilidad](/help/data-views/create-dataview.md#compatibility) en [Creación o edición de una vista de datos](/help/data-views/create-dataview.md). <br/><br/>Cuando deshabilita la opción, un cuadro de diálogo le preguntará si desea continuar cambiando la vista de datos predeterminada. Al seleccionar **[!UICONTROL Continuar]**, debe seleccionar otra vista de datos como vista de datos predeterminada. Seleccionar **[!UICONTROL Confirmar]** para confirmar la selección. Seleccionar **[!UICONTROL Cancelar]** para cancelar el cambio de la vista de datos predeterminada. |
 
   | Contenedores | Valor |
   |---|---|
@@ -128,13 +143,13 @@ Seleccione y configure los siguientes conjuntos de datos:
 
 | Conjunto de datos | Tipo de conjunto de datos | Configuración de la conexión | Descripción |
 | --- | --- | --- | --- |
-| Conjunto de datos de evento de comentarios de mensaje de AJO | Evento | ID de la persona: `IdentityMap` | Contiene eventos de envío de mensajes, como “[!UICONTROL Envíos]” y “[!UICONTROL Devoluciones]”. |
+| Conjunto de datos de evento de comentarios de mensaje de AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de envío de mensajes, como “[!UICONTROL Envíos]” y “[!UICONTROL Devoluciones]”. |
 | Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento de correo electrónico como “[!UICONTROL Aperturas]”, “[!UICONTROL Clics]” y “[!UICONTROL Cancela la suscripción]”. |
-| Conjunto de datos de evento de experiencia de seguimiento push de AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento push como “[!UICONTROL Lanzamientos de aplicaciones]”. |
+| Conjunto de datos de evento de experiencia de seguimiento push de AJO | Evento | ID de persona: `IdentityMap` | Contiene eventos de seguimiento push como “[!UICONTROL Lanzamientos de aplicaciones]”. |
 | Eventos de paso de recorrido | Evento | ID de persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventos que muestran qué perfiles participaron en cada nodo del recorrido. |
 | Conjunto de datos de entidad de AJO | Búsqueda | Clave: `_id`<br>Clave de coincidencia: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene clasificaciones que asocian metadatos de Recorridos y Campañas a todos los datos de eventos de Journey Optimizer. |
-| Conjunto de datos de evento de comentarios de mensajes de AJO - Sin perfil | Evento | ID de la persona: `IdentityMap` | Contiene eventos de comentarios de entrega de mensajes que no son de perfil. Solo está disponible cuando el complemento de mensajería transaccional de alto rendimiento [High Throughput](#high-throughput-add-on-datasets) está habilitado. |
-| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil | Evento | ID de la persona: `IdentityMap` | Contiene eventos de experiencia de seguimiento de correo electrónico sin perfil. Solo está disponible cuando el complemento de mensajería transaccional de alto rendimiento [High Throughput](#high-throughput-add-on-datasets) está habilitado. |
+| Conjunto de datos de evento de comentarios de mensajes de AJO - Sin perfil | Evento | ID de persona: `IdentityMap` | Contiene eventos de comentarios de entrega de mensajes que no son de perfil. Solo está disponible cuando el complemento de mensajería transaccional de alto rendimiento [High Throughput](#high-throughput-add-on-datasets) está habilitado. |
+| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil | Evento | ID de persona: `IdentityMap` | Contiene eventos de experiencia de seguimiento de correo electrónico sin perfil. Solo está disponible cuando el complemento de mensajería transaccional de alto rendimiento [High Throughput](#high-throughput-add-on-datasets) está habilitado. |
 
 {style="table-layout:auto"}
 
@@ -230,7 +245,7 @@ Puede crear las métricas siguientes en una vista de datos para lograr una parid
 | Métrica Dedup (AJO) | Métrica Dedup | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de comentarios de mensajes de AJO, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | `_id` | Tipo de componente: métrica |
 | Entregado (AJO) | Recuento total de mensajes entregados. | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de comentarios de mensajes de AJO, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | Campos derivados | Tipo de componente: métrica (campo derivado) |
 | Descartado (AJO) | Cuenta cada vez que el SDK de Adobe cierra el mensaje en la aplicación, independientemente de la acción que el usuario final elija para cerrarlo. | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de comentarios de mensajes de AJO, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo de componente: métrica |
-| Visualizaciones (AJO) | Este recuento muestra los mensajes AJO. Esto incluye aperturas de correo electrónico, visualizaciones web y visualizaciones en la aplicación. Las plataformas móviles no informan de las visualizaciones de mensajes SMS y push, por lo que no se contabilizan. | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO, conjunto de datos de evento de comentarios de mensajes de AJO | Campos derivados | Tipo de componente: métrica (campo derivado) |
+| Visualizaciones (AJO) | Este recuento muestra los mensajes de AJO. Esto incluye aperturas de correo electrónico, visualizaciones web y visualizaciones en la aplicación. Las plataformas móviles no informan de las visualizaciones de mensajes SMS y push, por lo que no se contabilizan. | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO, conjunto de datos de evento de comentarios de mensajes de AJO | Campos derivados | Tipo de componente: métrica (campo derivado) |
 | Aperturas de correos electrónicos (AJO) | Recuento total de correos abiertos | Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Tipo de componente: métrica |
 | Clics de entrada (AJO) | Recuento total de clics en los canales entrantes | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de comentarios de mensajes de AJO, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | `_experience.decisioning.`<br/>`propositionEventType.interact` | Tipo de componente: métrica |
 | Rechazos entrantes (AJO) | Recuento total de rechazos en los canales entrantes | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de comentarios de mensajes de AJO, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo de componente: métrica |
@@ -254,8 +269,8 @@ Puede crear las métricas siguientes en una vista de datos para lograr una parid
 | Denuncia de spam (AJO) | Recuento total de reclamaciones por spam | Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Tipo de componente: métrica |
 | Adiciones a la lista de suscripción (AJO) | Recuento total de adiciones a la lista de suscripción. | Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | Campos derivados | Tipo de componente: métrica (campo derivado) |
 | Eliminaciones de la lista de suscripción (AJO) | Recuento total de eliminaciones de la lista de suscripción. | Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | Campos derivados | Tipo de componente: métrica (campo derivado) |
-| Segmentado (AJO) | Hace un recuento del número de veces que una propuesta se ha dirigido a una persona. Es el número de veces que se ha considerado una propuesta para mostrarla a una persona. | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de comentarios de mensajes de AJO, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | Campos derivados | Tipo de componente: métrica (campo derivado) |
-| Activado (AJO) | El SDK de Adobe eligió mostrar la propuesta. Otros factores pueden impedir que se muestre realmente. | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de comentarios de mensajes de AJO, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Tipo de componente: métrica |
+| Segmentado (AJO) | Este recuento representa el número de veces que una propuesta se ha dirigido a una persona. Es el número de veces que se ha considerado una propuesta para mostrarla a una persona. | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de comentarios de mensajes de AJO, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | Campos derivados | Tipo de componente: métrica (campo derivado) |
+| Activado (AJO) | La propuesta se ha elegido para que se muestre en la SDK de Adobe. Otros factores pueden impedir que se muestre realmente. | Conjunto de datos de evento de experiencia de seguimiento push de AJO, eventos de paso de recorrido, conjunto de datos de evento de comentarios de mensajes de AJO, conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | `_experience.decisioning.`<br/>`propositionEventType.trigger` | Tipo de componente: métrica |
 | Visitantes únicos del experimento (AJO) | Los visitantes únicos del experimento | Conjunto de datos de entidad de AJO | `_experience.customerJourneyManagement.`<br/>`entities.experiment.experimentId` | Tipo de componente: métrica |
 | Bajas (AJO) | Recuento del total de bajas | Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | Tipo de componente: métrica |
 

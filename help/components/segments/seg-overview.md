@@ -4,13 +4,27 @@ description: Conozca para qué sirven los segmentos y cómo crear un segmento si
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/omsyiimc8b3EsGvJYb0V-jHqOxUp-8S7fFQ8dXUGUxs
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 100%
+source-wordcount: 1494
+ht-degree: 99%
 
 ---
-
 
 # Información general sobre la segmentación
 
@@ -119,7 +133,7 @@ El contenedor Persona incluye cada sesión y cada evento para las personas que c
 - Todas las sesiones de estas personas.
 - Todos los datos de evento de estas personas.
 
-Al ser el contenedor con la definición más amplia, los informes generados en el nivel de contenedor Persona devuelven eventos y sesiones para todas las personas que cumplen los requisitos del segmento. Por tanto, el contenedor Persona es el más propenso a cambiar en función de intervalos de fechas definidos. 
+Al ser el contenedor con la definición más amplia, los informes generados en el nivel de contenedor Persona devuelven eventos y sesiones para todas las personas que cumplen los requisitos del segmento. Por tanto, el contenedor Persona es el más propenso a cambiar en función de intervalos de fechas definidos.
 Los contenedores de persona pueden incluir valores basados en el historial general de una persona:
 
 - Días antes de la primera compra.
@@ -206,8 +220,8 @@ Traditional Analytics comes with numerous out-of-the-box templates and calculate
 
 >[!MORELIKETHIS]
 >
->[Creación de segmentos](seg-create.md)
->>[Generador de segmentos](seg-builder.md)
->>[Segmentos rápidos](seg-quick.md)
->>[Segmentos secuenciales](seg-sequential-build.md)
->>[Administración de segmentos](seg-manage.md)
+>[Crear segmentos](seg-create.md)
+>[Generador de segmentos](seg-builder.md)
+>[Segmentos rápidos](seg-quick.md)
+>[Segmentos secuenciales](seg-sequential-build.md)
+>[Administración de segmentos](seg-manage.md)

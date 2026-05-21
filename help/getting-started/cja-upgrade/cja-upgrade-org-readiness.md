@@ -4,14 +4,33 @@ description: Más información sobre la ruta recomendada al actualizar de Adobe 
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 7c0342a68f75774fd7b29979d3ce610f22d047ae
+exl-id: bd19250e-91c0-49f6-b6dc-3abd641344aa
+TQID: https://experienceleague.adobe.com/DtETa7Qh3l2X9YSjkX56zX8CmDTWVpGvvyrd9HFayt4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 8%
+source-wordcount: 1186
+ht-degree: 15%
 
 ---
 
-# Prepare a su organización para actualizar a Customer Journey Analytics
+# Prepare su organización para actualizar a Customer Journey Analytics
 
 Parte de una actualización correcta (como se describe en [Actualización de Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)) es preparar a su organización centrándose en ciertas consideraciones operativas. Para preparar a su organización, se recomienda que:
 
@@ -37,10 +56,10 @@ En la tabla siguiente se describen algunas de las características principales q
 
 | Función | Ventaja | Ejemplo |
 |---------|----------|---------|
-| **[Alojamiento para todo tipo de datos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home)** | Customer Journey Analytics se combina con la capacidad de Experience Platform para albergar todo tipo de esquemas y tipos de datos. | Una organización minorista podría proporcionar visibilidad al recorrido completo del cliente integrando los siguientes tipos de datos en una sola vista: <ul><li>Transacciones del flujo de navegación web</li><li>Transacciones de aplicaciones móviles</li><li>Transacciones en tienda</li><li>CRM y datos de fidelidad</li></ul> |
+| **[Alojamiento para todo tipo de datos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home)** | Customer Journey Analytics se combina con la capacidad de Experience Platform para albergar todo tipo de esquemas y datos. | Una organización minorista podría proporcionar visibilidad al recorrido completo del cliente integrando los siguientes tipos de datos en una sola vista: <ul><li>Transacciones del flujo de navegación web</li><li>Transacciones de aplicaciones móviles</li><li>Transacciones en tienda</li><li>CRM y datos de fidelidad</li></ul> |
 | **[Análisis en canales múltiples](/help/use-cases/cross-channel/cross-channel.md)** | Habilita una sola vista consolidada del comportamiento de los clientes en varios canales mediante la unificación de datos de varias propiedades web, móviles y sin conexión. | Una organización minorista que recopile datos de varios canales puede realizar el siguiente tipo de análisis:<p>Un comprador hace clic en un anuncio de búsqueda de pago, navega por Internet, recibe una notificación push y compra en la tienda dos días después. Esta perspectiva unificada permite una atribución precisa entre canales, lo que muestra cómo los puntos de contacto digitales contribuyen a las ventas en la tienda. También admite una segmentación más precisa, como dirigirse a clientes &quot;navegados en línea, comprados en la tienda&quot; con ofertas adaptadas. Además, ofrece informes de ingresos claros y multicanal en un tablero, sustituyendo las perspectivas fragmentadas y aisladas por una comprensión integral del comportamiento de los clientes. |
 | **[Procesamiento de intervalo de tiempo](/help/getting-started/aa-to-cja.md#get-comfortable-with-report-time-processing)** | Aplique configuraciones retroactivas y cree varias versiones de persistencia de variables sin necesidad de cambiar la forma en que se recopilan los datos subyacentes. | Dado que Customer Journey Analytics le permite crear y ajustar métricas, dimensiones y modelos de atribución sobre la marcha sin reingerir ni reprocesar datos, una organización minorista podría ver cómo una campaña social reciente influyó en las ventas en línea y en las tiendas sin necesidad de pedir a los ingenieros que reconstruyeran conjuntos de datos. Podrían cambiar instantáneamente el modelo de atribución de último contacto a primer contacto o atribución personalizada basada en reglas. |
-| **[Análisis de contenido](/help/content-analytics/content-analytics.md)** | Ayuda a los especialistas en marketing a comprender cómo afecta el contenido a los indicadores de rendimiento clave que ha definido una empresa. Además de los datos de comportamiento, Content Analytics recopila datos sobre cómo se consume el contenido y cómo este genera impacto. | Al integrar datos web, de aplicaciones, de correo electrónico e incluso de tiendas, una organización minorista podría ver exactamente cómo contribuye cada parte del contenido digital que crea al recorrido y la conversión de los clientes. <p>La organización minorista podría ver que una &quot;Guía de estilo de mezclilla de verano&quot; en una popular plataforma de medios sociales genera una alta participación entre los miembros más fieles, y que esos miembros tienen un 40% más de probabilidades de comprar mezclilla en la tienda en una semana.</p> |
+| **[Content Analytics](/help/content-analytics/content-analytics.md)** | Ayuda a los especialistas en marketing a comprender cómo afecta el contenido a los indicadores de rendimiento clave que ha definido una empresa. Además de los datos de comportamiento, Content Analytics recopila datos sobre cómo se consume el contenido y cómo este genera impacto. | Al integrar datos web, de aplicaciones, de correo electrónico e incluso de tiendas, una organización minorista podría ver exactamente cómo contribuye cada parte del contenido digital que crea al recorrido y la conversión de los clientes. <p>La organización minorista podría ver que una &quot;Guía de estilo de mezclilla de verano&quot; en una popular plataforma de medios sociales genera una alta participación entre los miembros más fieles, y que esos miembros tienen un 40% más de probabilidades de comprar mezclilla en la tienda en una semana.</p> |
 
 ### Nombrar un patrocinador ejecutivo
 
@@ -114,7 +133,7 @@ Consulte los siguientes recursos para recopilar esta información:
 
   Proporciona información sobre el número de proyectos, segmentos, métricas calculadas, grupos de informes y usuarios dentro de su organización.
 
-* [Prepararse para migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)
+* [Preparación para migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)
 
   Proporciona información sobre cómo prepararse para migrar componentes, proyectos y usuarios.
 
@@ -149,4 +168,3 @@ Identifique a los Campeones en toda su organización. Estos campeones deben ser:
 ## Siga los pasos de actualización recomendados
 
 Cuando esté listo para iniciar el proceso de actualización, siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los pasos de actualización generados dinámicamente en la Guía de actualización de Customer Journey Analytics. Para acceder a la guía desde Customer Journey Analytics, seleccione la pestaña **[!UICONTROL Workspace]** y, a continuación, seleccione **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en la pantalla.
-

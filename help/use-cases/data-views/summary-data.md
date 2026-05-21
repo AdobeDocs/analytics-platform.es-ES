@@ -5,10 +5,26 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: b54083d85c0e07605c567a8d44824884cdc18c4d
+TQID: https://experienceleague.adobe.com/ST-1vL8gbeSqaYYHakxjYWcDOryNucEVHiONAQk7gU4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '5014'
-ht-degree: 15%
+source-wordcount: 4858
+ht-degree: 16%
 
 ---
 
@@ -50,7 +66,7 @@ Utilice los siguientes datos de resumen de ejemplo para este caso de uso, que mu
 | 17 | Campaña 321 | 20 | 2500 | def321 | facebook | def-adgroup | 18T18:20:39.000Z, 07-2024 |
 | 18 | Campaña 321 | 15 | 2250 | ghi321 | facebook | ghi-adgroup | 18T18:20:39.000Z, 07-2024 |
 
-[![DataDownload](/help/assets/icons/DataDownload.svg)](./assets/summary-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg) descargar datos de resumen de muestra](./assets/summary-data.csv)
 
 +++
 
@@ -249,7 +265,7 @@ Los datos de evento están disponibles en el Ejemplo de conjunto de datos de eve
 | 18-07-2024-19:15:39+00:00 | 178 | página de confirmación | person-142def654 |  | 1 | 174,25 |
 | 18-07-2024-19:15:39+00:00 | 179 | página de inicio | person-143ghi654 | ghi654 |  |  |
 
-[![DataDownload](/help/assets/icons/DataDownload.svg)](./assets/event-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg) descargar datos de evento de muestra](./assets/event-data.csv)
 
 +++
 
@@ -278,7 +294,7 @@ Los datos de búsqueda están disponibles en el Ejemplo de conjunto de datos de 
 | 17 | def321 | def-adgroup | Campaña 321 |
 | 18 | ghi321 | ghi-adgroup | Campaña 321 |
 
-[![DataDownload](/help/assets/icons/DataDownload.svg)](./assets/lookup-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg) descargar datos de búsqueda de muestra](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -293,7 +309,7 @@ Los datos de resumen necesitan un esquema de resumen en Experience Platform. Un 
 
 Para crear un esquema de resumen en Experience Platform:
 
-1. Seleccione **[!UICONTROL Experience Platform]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
+1. Seleccione **[!UICONTROL Experience Platform]** del conmutador de aplicaciones ![App](/help/assets/icons/Apps.svg).
 1. Seleccione **[!UICONTROL Esquemas]** en el carril izquierdo.
 1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Crear esquema]**.
 1. Seleccione **[!UICONTROL Manual]** en el diálogo **[!UICONTROL Crear un esquema]**. A continuación, usa **[!UICONTROL Select]** para continuar.
@@ -342,7 +358,7 @@ Para almacenar los datos de resumen en Experience Platform, primero debe crear u
 
 Para crear un conjunto de datos:
 
-1. Seleccione **[!UICONTROL Experience Platform]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
+1. Seleccione **[!UICONTROL Experience Platform]** del conmutador de aplicaciones ![App](/help/assets/icons/Apps.svg).
 1. Seleccione **[!UICONTROL Conjuntos de datos]** en el carril izquierdo.
 1. Seleccione ![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Crear conjunto de datos]**.
 1. En la pantalla **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Crear conjuntos de datos]**, seleccione **[!UICONTROL Crear conjunto de datos a partir del esquema]**.
@@ -356,7 +372,7 @@ Aparecerá una pantalla con los detalles del nuevo conjunto de datos.
 
 Para cargar los datos de ejemplo en este conjunto de datos:
 
-1. Seleccione **[!UICONTROL Experience Platform]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
+1. Seleccione **[!UICONTROL Experience Platform]** del conmutador de aplicaciones ![App](/help/assets/icons/Apps.svg).
 1. Seleccione **[!UICONTROL Flujos de trabajo]** en el carril izquierdo.
    1. Seleccione **[!UICONTROL Asignar CSV a esquema XDM]** de las opciones **[!UICONTROL Ingesta de datos]** en la pantalla **[!UICONTROL Flujos de trabajo]**.
    1. Seleccione **[!UICONTROL Launch]** del panel **[!UICONTROL Asignar CSV al esquema XDM]**.
@@ -386,7 +402,7 @@ En **[!UICONTROL Fuentes]** > **[!UICONTROL Flujo de datos - XX/XX/XXXX, XX:XX X
 Para utilizar los datos de ejemplo en Customer Journey Analytics, cree una conexión que incluya el Conjunto de datos de resumen de ejemplo de Experience Platform.
 
 
-1. Seleccione **[!UICONTROL Customer Journey Analytics]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
+1. Seleccione **[!UICONTROL Customer Journey Analytics]** del conmutador de aplicaciones ![App](/help/assets/icons/Apps.svg).
 1. Seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Seleccione **[!UICONTROL Crear nueva conexión]**.
 1. En **[!UICONTROL Conexiones]** > **[!UICONTROL Conexión sin título]**:
@@ -427,7 +443,7 @@ Los datos de los conjuntos de datos se añaden a Customer Journey Analytics, que
 
 Después de un tiempo, compruebe que los datos de los conjuntos de datos se cargan correctamente en Customer Journey Analytics.
 
-1. Seleccione **[!UICONTROL Customer Journey Analytics]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
+1. Seleccione **[!UICONTROL Customer Journey Analytics]** del conmutador de aplicaciones ![App](/help/assets/icons/Apps.svg).
 1. Seleccione **[!UICONTROL Conexiones]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Seleccione su conexión, por ejemplo **[!UICONTROL Ejemplo de conexión con datos de resumen]**.
 1. Seleccione un intervalo de fechas adecuado en los detalles de **[!UICONTROL Conexión]** > **[!UICONTROL Ejemplo de conexión con datos de resumen]**.
@@ -442,7 +458,7 @@ En la lista de **[!UICONTROL Conjuntos de datos]**, los valores de la columna **
 
 Para asegurarse de que puede crear informes sobre los datos correctos en Workspace, debe crear una vista de datos que contenga las métricas y dimensiones relevantes.
 
-1. Seleccione **[!UICONTROL Customer Journey Analytics]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
+1. Seleccione **[!UICONTROL Customer Journey Analytics]** del conmutador de aplicaciones ![App](/help/assets/icons/Apps.svg).
 1. Seleccione **[!UICONTROL Vistas de datos]**, opcionalmente desde **[!UICONTROL Administración de datos]**, en el menú superior.
 1. Seleccione **[!UICONTROL Crear nueva vista de datos]**.
 1. En **[!UICONTROL Vistas de datos]**, pase por las pantallas del asistente para configurar la vista de datos.
@@ -541,7 +557,7 @@ Ahora ha configurado la vista de datos para la creación de informes adecuada so
 
 Para informar sobre los datos de resumen, cree un nuevo proyecto en Analysis Workspace.
 
-1. Seleccione **[!UICONTROL Customer Journey Analytics]** del   ![Aplicación](/help/assets/icons/Apps.svg)   conmutador de aplicación.
+1. Seleccione **[!UICONTROL Customer Journey Analytics]** del conmutador de aplicaciones ![App](/help/assets/icons/Apps.svg).
 1. Seleccione **[!UICONTROL Workspace]** en el menú superior.
 1. Seleccione **[!UICONTROL Crear proyecto]**.
 1. Seleccione **[!UICONTROL Proyecto Workspace en blanco]** del cuadro de diálogo con opciones para crear un proyecto Workspace en blanco.
@@ -571,7 +587,7 @@ Desea utilizar el poder de los informes en los datos de resumen e informar sobre
    1. Especifique `Return on Ad Spend` para **[!UICONTROL Name]**.
    1. Seleccione **[!UICONTROL Moneda]** para **[!UICONTROL Formato]**.
    1. Seleccione `2` para **[!UICONTROL lugares decimales]**.
-   1. Use ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ingresos (último contacto | 30 días)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo]** como **[!UICONTROL Definición]**.
+   1. Usar ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ingresos (Último toque | 30 días)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo]** como **[!UICONTROL Definición]**.
    1. Seleccione **[!UICONTROL Guardar]**.
 
 Añada las métricas calculadas al informe.

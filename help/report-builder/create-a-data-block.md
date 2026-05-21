@@ -6,10 +6,24 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
+TQID: https://experienceleague.adobe.com/MdIYz3KjKm6YUCTNT31LGIvEvfezHyOpemy7xg1FCvE
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 23%
+source-wordcount: 773
+ht-degree: 25%
 
 ---
 
@@ -114,7 +128,7 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 >[!MORELIKETHIS]
 >
 >[Seleccionar una vista de datos](select-data-view.md)
->[Seleccione un intervalo de fecha](select-date-range.md)
+>[Selección de un intervalo de fechas](select-date-range.md)
 >[Filtrar dimensiones](filter-dimensions.md)
 >[Trabajar con segmentos](work-with-filters.md)
 >

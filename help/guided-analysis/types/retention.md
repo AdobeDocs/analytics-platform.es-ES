@@ -5,10 +5,24 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/6cjieHRKJPeLix2qWLjI8GT5uZtdCRSbJmX7JCF2dtI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 97%
+source-wordcount: 1278
+ht-degree: 96%
 
 ---
 
@@ -52,12 +66,12 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Evento de inicio]**: los criterios del evento en el que un usuario debe participar para optar a la inclusión en su análisis. Los usuarios que participan en el evento de inicio se contabilizan en la columna &quot;Usuarios&quot; de la tabla. Este evento sirve como denominador para las tasas de retención mostradas. Se admite un evento y se pueden aplicar filtros de propiedad según sea necesario. De forma predeterminada, los eventos de inicio y retorno están vinculados, lo que significa que un usuario debe realizar el evento seleccionado una vez para ser incluido en la cohorte y, a continuación, otra vez para ser contabilizado como usuario recurrente. En el menú Más, puede desvincular los eventos de inicio y retorno si desea que la acción de retorno sea diferente de la acción de inclusión.
 * **[!UICONTROL Eventos de retorno]**: los criterios del evento en el que un usuario debe participar para contabilizarse como usuario recurrente en los intervalos de duración. Puede seleccionar hasta tres eventos de retorno para comparar la retención.
-* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen: 
+* **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen:
    * **[!UICONTROL Métrica]**: muestre el número de [!UICONTROL usuarios] o el [!UICONTROL porcentaje de usuarios] retenidos. El denominador para el porcentaje de usuarios retenidos es el de los usuarios incluidos para la cohorte y es el mismo en todos los intervalos de duración.
-   * **[!UICONTROL Recurrente]**: le permite controlar cómo se contabilizan los usuarios recurrentes. Las opciones incluyen: 
+   * **[!UICONTROL Recurrente]**: le permite controlar cómo se contabilizan los usuarios recurrentes. Las opciones incluyen:
       * **[!UICONTROL A partir de]**: a menudo denominada retención &quot;sin límite&quot;, esta opción contabiliza un usuario si regresa en la duración especificada o después de ella. Por ejemplo, el día 7 o en cualquier momento después del día 7. Esta opción es útil para mostrar cómo los usuarios siguen participando y, como resultado, genera una curva de retención más suave.
       * **[!UICONTROL Exactamente el]**: a menudo denominada retención &quot;limitada&quot;, esta opción contabiliza a un usuario si regresa exactamente en la duración especificada. Por ejemplo, el día 7 exactamente. Esta opción es útil para mostrar cómo los usuarios regresan dentro de lapsos de tiempo específicos y genera una curva de retención con más ondulación como resultado. Nota: El análisis de cohorte en Analysis Workspace utiliza el recuento &quot;exactamente el&quot; como base para su análisis.
-   * **[!UICONTROL Cada]**: el período de tiempo que desea que tenga cada intervalo de duración. Las opciones incluyen: 
+   * **[!UICONTROL Cada]**: el período de tiempo que desea que tenga cada intervalo de duración. Las opciones incluyen:
       * **[!UICONTROL Día/Semana/Mes]**: las opciones disponibles dependen del intervalo de fechas seleccionado. Estas opciones son idénticas a la configuración de **[!UICONTROL Intervalo]** cuando se selecciona el intervalo de fechas y actualiza esa configuración automáticamente.
       * **[!UICONTROL Secciones personalizadas]**: esta opción solo está disponible para la configuración &quot;En cada&quot;. Permite contabilizar usuarios en un periodo de tiempo mayor; por ejemplo, del día 7 al 10, en lugar de solo el día 7.
    * **[!UICONTROL Configuración de la duración]**: permite controlar los intervalos de duración que se muestran en el gráfico y la tabla. Una duración es el período de tiempo después del evento de inicio en el que se ha producido el evento de retorno. Nota: Los usuarios que cumplen los requisitos para los intervalos de duración se basan en el tiempo transcurrido, no en los días del calendario. Por ejemplo, si un usuario cumple los requisitos para un evento a las 11:55 p. m. del 6 de septiembre y luego cumple los requisitos para un evento de retorno a las 12:05 a. m. del 7 de septiembre, no aparecerá en el bloque de duración de 1 día. Deberán transcurrir 24 horas completas para que el usuario pueda optar al intervalo de duración de 1 día. Los intervalos de duración disponibles dependen del intervalo de fechas que establezca.

@@ -3,9 +3,24 @@ description: Obtenga información acerca de los segmentos secuenciales que utili
 title: Segmentos secuenciales
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/TqLnqudV-SrIk7SdMT7dUeNBAwaa5FkoZocUkwrod6g
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: 2491
 ht-degree: 4%
 
 ---
@@ -101,7 +116,7 @@ La tabla siguiente explica con más detalle los operadores de restricción de ti
 |--- |--- |
 | **[!UICONTROL Después]** | El operador [!UICONTROL After] se usa para especificar un límite mínimo de tiempo entre dos puntos de comprobación. Al establecer los valores de Después, el límite de tiempo comienza cuando se aplica el segmento. Por ejemplo, si el operador [!UICONTROL After] se configura en un contenedor para identificar a las personas que visitan la página A, pero no regresan a la página B hasta después de un día, ese día empezará cuando el visitante abandone la página A.  Para que el visitante se incluya en el segmento, debe transcurrir un mínimo de 1440 minutos (un día) desde que se salió de la página A para ver la página B. |
 | **[!UICONTROL En]** | El operador [!UICONTROL Within] se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador [!UICONTROL Within] se configura en un contenedor para identificar a las personas que visitan la página A y luego regresan para visitar la página B en un día, ese día comienza cuando la persona abandona la página A. Para ser incluido en el segmento, la persona tiene un tiempo máximo de un día antes de abrir la página B. Para que la persona se incluya en el segmento, la apertura de la página B debe realizarse en un máximo de 1440 minutos (un día) después de salir de la página A para ver la página B. |
-| **[!UICONTROL Después pero dentro de]** | Al usar los operadores [!UICONTROL After] y [!UICONTROL Within], ambos operadores comienzan y finalizan en paralelo, no en secuencia. <br/>Por ejemplo, genera un segmento con el contenedor establecido en: `After = 1 Week(s) and Within = 2 Week(s)`.<br/>Las condiciones para identificar a los visitantes en este segmento solamente se cumplen entre una y dos semanas. Ambas condiciones se aplican desde el momento de la primera vista de página. |
+| **[!UICONTROL Después pero dentro de]** | Al usar los operadores [!UICONTROL After] y [!UICONTROL Within], ambos operadores comienzan y finalizan en paralelo, no en secuencia. <br/>Por ejemplo, genera un segmento con el contenedor establecido en: `After = 1 Week(s) and Within = 2 Week(s)`.<br/>Las condiciones para identificar a los visitantes en este segmento solo se cumplen entre una y dos semanas. Ambas condiciones se aplican desde el momento de la primera vista de página. |
 
 
 #### Ejemplos
@@ -110,15 +125,15 @@ Algunos ejemplos de uso de las restricciones de tiempo.
 
 ##### Operador [!UICONTROL After]
 
-Identifique a las personas que visitaron una página y luego otra página solo después de dos semanas. Por ejemplo, las personas que visitaron la página de inicio, pero las | La página de zapatos solo después de dos semanas.
+Identifique a las personas que visitaron una página y luego otra página solo después de dos semanas. Por ejemplo, las personas que visitaron la página de inicio, pero las | Zapatos página solo después de dos semanas.
 
 ![Secuencia posterior](assets/sequence-after.png)
 
-Si el 1 de junio de 2024 a las 00:01 se produce una vista de página de la página principal, entonces cambie una vista de página a Mujer | Los zapatos coincidirán siempre y cuando la vista de esa página sea posterior al 15 de junio de 2024 00:01.
+Si el 1 de junio de 2024 a las 00:01 se produce una vista de página de la página principal, entonces cambie una vista de página a Mujer | Los zapatos coincidirán siempre y cuando la vista de esa página se produzca después del 15 de junio de 2024 00:01.
 
 ##### Operador [!UICONTROL Within]
 
-Identifique a las personas que visitaron una página y luego otra en un plazo de cinco minutos. Por ejemplo, las personas que visitaron la página de inicio y luego la sección Mujer | Zapatos de la página en 5 minutos.
+Identifique a las personas que visitaron una página y luego otra en un plazo de cinco minutos. Por ejemplo, las personas que visitaron la página de inicio y luego la sección Mujer | Zapatos página en 5 minutos.
 
 ![Secuencia en](assets/sequence-within.png)
 
@@ -126,11 +141,11 @@ Si el 1 de junio de 2024 se produce una vista de página de la página principal
 
 ##### [!UICONTROL Después de] pero [!UICONTROL Dentro de] operador
 
-Identifique a las personas que visitaron una página y luego visitaron otra después de dos semanas pero dentro del plazo de un mes. Por ejemplo, las personas que visitaron la página de inicio y luego, después de dos semanas y dentro del plazo de un mes, las mujeres | Página de zapatos.
+Identifique a las personas que visitaron una página y luego visitaron otra después de dos semanas pero dentro del plazo de un mes. Por ejemplo, las personas que visitaron la página de inicio y luego, después de dos semanas y dentro del plazo de un mes, las mujeres | Página Zapatos.
 
 ![Secuencia posterior a pero dentro de](assets/sequence-afterbutwithin.png)
 
-Cualquier persona que acceda a la página de inicio el 1 de junio de 2024 y que vuelva a visitar a las mujeres | La página Zapatos será válida después del 15 de junio de 2019 a las 00:01, pero antes del 1 de julio de 2019 para el segmento.
+Cualquier persona que acceda a la página de inicio el 1 de junio de 2024 y que vuelva a visitar a las mujeres | Página de zapatos después del 15 de junio de 2019 00:01, pero antes del 1 de julio de 2019 califica para el segmento.
 
 
 ### Restricciones de [!UICONTROL Event], [!UICONTROL Session] y [!UICONTROL Dimension]

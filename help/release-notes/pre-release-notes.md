@@ -4,9 +4,25 @@ description: Vea las notas previas al lanzamiento de Customer Journey Analytics 
 feature: Release Notes
 hide: true
 exl-id: 61982e38-b43a-41b5-85e0-59ed374463a9
-source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
+TQID: https://experienceleague.adobe.com/V4jdf363mA1GmsYjZ7yv3MiAMc7sJ7U3s7kXeY47Uyo
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: 662
 ht-degree: 80%
 
 ---
@@ -17,7 +33,7 @@ ht-degree: 80%
 >
 >Este documento está diseñado como **vista previa** de las notas de la versión del mes actual. Los elementos de la versión están sujetos a cambios y se pueden añadir o eliminar en la versión final.
 
-Estas notas de la versión abarcan el período de lanzamiento del 2 de junio de 2025 al 15 de julio de 2025. Las versiones de Adobe Customer Journey Analytics funcionan con un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
+Estas notas de la versión abarcan el período de lanzamiento del 2 de junio de 2025 al 15 de julio de 2025. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones.
 
 Consulte la siguiente documentación para ver las notas de la versión de Adobe Experience Platform y sus otras aplicaciones:
 
@@ -31,9 +47,9 @@ Consulte la siguiente documentación para ver las notas de la versión de Adobe 
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **El panel izquierdo de Analysis Workspace ya no se abre y se cierra al pasar el puntero por encima** | El panel izquierdo de Analysis Workspace se utiliza para añadir elementos como componentes, paneles y visualizaciones al proyecto. La opción para abrir temporalmente el panel izquierdo pasando el puntero sobre uno de los iconos del extremo izquierdo ya no está disponible. En su lugar, simplemente haga clic en uno de estos iconos para mantener el panel abierto y, a continuación, haga clic en el mismo icono para cerrarlo. |  | 2 de junio de 2025 <p>(Originalmente planificado para su lanzamiento el 29 de mayo de 2025)</p> |
+| **El panel izquierdo de Analysis Workspace ya no se abre y se cierra al pasar el ratón por encima** | El panel izquierdo de Analysis Workspace se utiliza para añadir elementos como componentes, paneles y visualizaciones al proyecto. La opción para abrir temporalmente el panel izquierdo pasando el puntero sobre uno de los iconos del extremo izquierdo ya no está disponible. En su lugar, simplemente haga clic en uno de estos iconos para mantener el panel abierto y, a continuación, haga clic en el mismo icono para cerrarlo. |  | 2 de junio de 2025 <p>(Originalmente planificado para su lanzamiento el 29 de mayo de 2025)</p> |
 | **Customer Journey Analytics B2B Edition** | Customer Journey Analytics B2B Edition ayuda a las empresas B2B a alinear sus equipos de marketing, ventas y productos al proporcionar perspectivas de cuenta procesables que impulsan el crecimiento de los ingresos. Con la cuenta en el centro del modelo de datos, todo el análisis se centra en el recorrido de la cuenta. Al añadir una nueva capa de entidades (cuentas, oportunidades y grupos de compra) sobre los eventos basados en personas y tiempo, se crea una imagen completa del ciclo vital de ingresos y marketing B2B. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition) |  | 18 de junio de 2025 |
-| **Compatibilidad con destinos seguros en Report Builder** | Se han añadido nuevos destinos de exportación al complemento Report Builder. Se admiten los siguientes destinos de almacenamiento en la nube: <ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul> |  | 18 de junio de 2025 |
+| **Compatibilidad con destinos seguros en Report Builder** | Se han añadido nuevos destinos de exportación al complemento Report Builder. Se admiten los siguientes destinos de almacenamiento en la nube: <ul><li>ARN de función de Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul> |  | 18 de junio de 2025 |
 | **Nueva experiencia de vista previa** | El panel de vista previa, utilizado para previsualizar segmentos, métricas calculadas, etc., utiliza ahora una visualización de barras horizontales en lugar de una visualización de anillo. |  | 18 de junio de 2025 |
 | **Cuadro de diálogo del modelo de atribución modificado** | Ahora puede definir el contenedor y el período de tiempo por separado en el cuadro de diálogo del modelo de atribución. |  | 18 de junio de 2025 |
 | **Mapa de conexión** | El [mapa de conexión tiene una interfaz](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection#connection-map) nueva que muestra la configuración de la conexión. |  | 18 de junio de 2025 |
