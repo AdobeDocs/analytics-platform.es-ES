@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5513a755345188e6f7ff5d4c566d807d09e25f68
+source-git-commit: c6b215f9fe718d0d3e8f81b7f55421c909b69c5a
 workflow-type: tm+mt
-source-wordcount: 6457
-ht-degree: 91%
+source-wordcount: 6499
+ht-degree: 90%
 
 ---
 
@@ -87,6 +87,15 @@ Consulte [Información general sobre el lienzo de recorrido](/help/analysis-work
 
 
 ## Configuración de opciones de visualización
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_percentage_value"
+>title="Elija cómo se calculan los porcentajes"
+>abstract="Los porcentajes que se muestran en cada nodo se basan en las métricas principales y secundarias que configure. Puede elegir si los porcentajes están relacionados con el nodo de inicio, el nodo anterior o todos los datos del grupo de informes."
+
+<!-- markdownlint-enable MD034 -->
 
 Hay varias opciones de configuración disponibles en el encabezado del lienzo de recorrido.
 
