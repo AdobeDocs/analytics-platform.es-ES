@@ -4,10 +4,15 @@ title: Segmentos rápidos
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/DvRdeldUVvvaUfzWVV-vTflR1iZvMUH68pZQTL1d8D8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 21%
+source-wordcount: 1200
+ht-degree: 19%
 
 ---
 
@@ -19,7 +24,7 @@ Los segmentos rápidos le permiten explorar datos dentro de un proyecto de Works
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/components/filters/create-a-quick-filter){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/filters/create-a-quick-filter){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +102,7 @@ El área de condición especifica las condiciones (hasta un máximo de tres). Pa
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Solo está disponible cuando se define más de una condición. Seleccione en el menú desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) entre las condiciones. La selección determina la lógica booleana para el segmento rápido. No se puede mezclar lógica cuando se tienen tres condiciones. La lógica booleana es **[!UICONTROL AND]** o **[!UICONTROL OR]**. |
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | Añade otra condición al segmento rápido. Este botón solo está disponible cuando ha definido una o dos condiciones para el segmento rápido. |
 | **[!UICONTROL Aplicar]** | Aplique los cambios al segmento rápido. |
-| **[!UICONTROL Abrir creador]** | Se le solicitará confirmación con un cuadro de diálogo **[!UICONTROL ¿Está seguro?]**. Si seleccionas **[!UICONTROL Aceptar]**, ya no podrás modificar tu segmento en el [Generador de segmentos rápidos](#quick-segment-builder). Se ha cambiado el nombre de tu segmento rápido a **[!UICONTROL Segmento]** y ahora tiene una barra izquierda delgada de color azul más oscuro.<br/>Se abre el generador de segmentos [normal](seg-builder.md) con la opción de **[!UICONTROL Poner este segmento a disposición de todos los proyectos y agregarlo a la lista de componentes]**. <ul><li>Si selecciona esta opción y selecciona **[!UICONTROL Aplicar]**, el segmento se agrega a la lista de componentes ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** en el panel de componentes.</li><li>Si no selecciona esta opción y selecciona **[!UICONTROL Aplicar]**, el segmento sigue siendo un segmento solo de proyecto de Workspace.</li></ul> |
+| **[!UICONTROL Abrir creador]** | Se le pedirá confirmación con un **[!UICONTROL ¿Está seguro?]** diálogo. Si seleccionas **[!UICONTROL Aceptar]**, ya no podrás modificar tu segmento en el [Generador de segmentos rápidos](#quick-segment-builder). Se ha cambiado el nombre de tu segmento rápido a **[!UICONTROL Segmento]** y ahora tiene una barra izquierda delgada de color azul más oscuro.<br/>Se abre el generador de segmentos [normal](seg-builder.md) con la opción de **[!UICONTROL Poner este segmento a disposición de todos los proyectos y agregarlo a la lista de componentes]**. <ul><li>Si selecciona esta opción y selecciona **[!UICONTROL Aplicar]**, el segmento se agrega a la lista de componentes ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** en el panel de componentes.</li><li>Si no selecciona esta opción y selecciona **[!UICONTROL Aplicar]**, el segmento sigue siendo un segmento solo de proyecto de Workspace.</li></ul> |
 | **[!UICONTROL Cancelar]** | Seleccione para cancelar la creación o edición de un segmento rápido. |
 
 ## Segmentos rápidos en comparación con segmentos

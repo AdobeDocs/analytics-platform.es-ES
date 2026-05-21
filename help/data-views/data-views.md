@@ -5,10 +5,16 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+TQID: https://experienceleague.adobe.com/WNPt241AppdCZVtsYmyLM2mRa2nqvrfYFbIP6K5NR1U
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 93%
+source-wordcount: 1124
+ht-degree: 88%
 
 ---
 
@@ -20,7 +26,7 @@ Una vista de datos es un contenedor específico del Customer Journey Analytics q
 >
 >Cualquier configuración que seleccione o cambie en una vista de datos es retroactiva y no destructiva. En otras palabras, no cambian permanentemente los datos subyacentes.
 
-Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). O bien, puede crear vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, puede tener una vista de datos en la que todas las dimensiones estén configuradas como [!UICONTROL Último contacto] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como [!UICONTROL Primer contacto].
+Puede crear distintas vistas de datos para la misma conexión, con conjuntos de componentes muy diferentes (dimensiones/métricas). También puede crear vistas de datos con diferentes configuraciones para el tiempo de espera de visita, la atribución, etc. Por ejemplo, podría tener una vista de datos donde todas las dimensiones estén configuradas como [!UICONTROL Último contacto] y, simultáneamente, otra vista de datos (basada en el mismo conjunto de datos) con todas las dimensiones definidas como [!UICONTROL Primer contacto].
 
 Los proyectos del Espacio de trabajo en Customer Journey Analytics se basan en vistas de datos.
 
@@ -35,7 +41,7 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 * Puede cambiar un componente de una métrica a una dimensión y viceversa. Puede crear métricas a partir de campos de cadena o crear dimensiones a partir de campos numéricos. Esta funcionalidad facilita las cosas, ya que no tiene que crear un campo numérico en el esquema XDM para cada métrica que desee. En su lugar, puede crearlo de manera espontánea en el cuadro de diálogo de vistas de datos. Estos son algunos ejemplos:
    * **Cree una o varias métricas y/o dimensiones a partir de un único campo de esquema**. Se trata de una relación de uno a varios. Por ejemplo, puede crear una o más métricas de ingresos o una o más dimensiones de ingresos desde un único campo de esquema.
    * **Utilice un campo de cadena como métrica**: Al rellenar un esquema en Experience Platform con un conjunto de datos, es posible que no sepa por adelantado qué elementos de esquema necesita. Por ejemplo, es posible que no se haya dado cuenta de que necesitaba una métrica para *Errores de una página*. Como resultado, no se ha creado ningún elemento de esquema numérico a este efecto. Al utilizar un elemento de cadena como métrica, ahora puede utilizar la configuración de vistas de datos para especificar que cada vez que una cadena contenga la palabra `error`, se pueda utilizar como métrica.
-   * **Utilizar un campo numérico como dimensión**: por ejemplo, si desea extraer la métrica Ingresos de la dimensión Ingresos, la dimensión Ingresos debería mostrar cada valor como un elemento de dimensión; y el número de instancias para cada elemento de dimensión como una métrica. 
+   * **Utilizar un campo numérico como dimensión**: por ejemplo, si desea extraer la métrica Ingresos de la dimensión Ingresos, la dimensión Ingresos debería mostrar cada valor como un elemento de dimensión; y el número de instancias para cada elemento de dimensión como una métrica.
 
 * Puede crear varias métricas con diferentes modelos de atribución o con diferentes ventanas retrospectivas desde el mismo campo de esquema.
 
@@ -46,7 +52,7 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 * Puede ver más información relacionada con el esquema sobre los componentes. Por ejemplo:
 
    * de qué tipo de conjunto de datos (evento, perfil, consulta, resumen) se origina el componente,
-   * de qué tipo de esquema (cadena, entero, etc.) se origina y
+   * qué tipo de esquema (cadena, entero, etc.) originario de, y
    * la ruta del esquema (el campo XDM en el que se basa).
 
 * Puede etiquetar un componente para que le resulte más fácil buscarlo en Workspace.

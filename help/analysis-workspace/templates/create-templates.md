@@ -4,9 +4,15 @@ title: Creación y administración de plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/xTwvC1oPjibPO1fMs1ig4CTqonTwEq20gY-FxlWgHSM
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: 1888
 ht-degree: 100%
 
 ---
@@ -44,7 +50,7 @@ Para crear una nueva plantilla que pueden utilizar las personas de su compañía
    | **[!UICONTROL Descripción]** | Suministre una breve descripción de la plantilla que describa los usos previstos. |
    | **[!UICONTROL Por qué utilizar esta plantilla]** | Ofrezca una breve explicación para informar a los miembros de la organización sobre cómo se podría utilizar esta plantilla. Esta explicación se muestra en la página Vista previa de la plantilla. |
    | **[!UICONTROL Canales]** | Seleccione los canales aplicables correspondientes a esta plantilla. Puede seleccionar varios canales: **[!UICONTROL web]**, **[!UICONTROL móvil]**, **[!UICONTROL canales múltiples]**, **[!UICONTROL centro de llamadas]** y **[!UICONTROL En la tienda]**.<p>Las selecciones que realice determinarán dónde se mostrará la plantilla y qué segmentos se aplicarán a los usuarios que acceden a ella desde la página Plantillas de la organización.</p> |
-   | **[!UICONTROL Casos de uso]** | Seleccione los casos de uso aplicables a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL Participación]**, **[!UICONTROL Conversión]**, **[!UICONTROL Público]**, **[!UICONTROL Adquisición]** y **[!UICONTROL Journey Optimizer]**. <p>Las selecciones que realice determinarán la ubicación de la plantilla en la página Plantillas de la organización. Los usuarios pueden navegar hasta la plantilla o pueden filtrar la lista por caso de uso. </p><p>**Nota:** Cuando selecciona la opción **[!UICONTROL Journey Optimizer]**, la plantilla está disponible para su uso en Adobe Journey Optimizer. En Journey Optimizer, hay disponible un menú desplegable en la página **[!UICONTROL Informes]**, que permite a los usuarios seleccionar esta plantilla o la plantilla predeterminada. Consulte [Introducción a la experiencia de creación de informes actualizada](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) en la documentación de Journey Optimizer.</p><p>Tenga en cuenta lo siguiente al seleccionar la opción Journey Optimizer:</p><ul><li>Esta opción solo está disponible si los datos de Journey Optimizer existen en la vista de datos que está utilizando en Customer Journey Analytics. </li><li>Cuando se utiliza esta plantilla en Journey Optimizer, se utiliza la vista de datos establecida como vista de datos predeterminada en Adobe Journey Optimizer, independientemente de la vista de datos que se haya seleccionado con esta plantilla en Customer Journey Analytics. <br/>Para obtener más información sobre cómo establecer una vista de datos como vista de datos predeterminada en Journey Optimizer, consulte [Compatibilidad](/help/data-views/create-dataview.md#compatibility) en [Creación o edición de una vista de datos](/help/data-views/create-dataview.md).</li></ul> |
+   | **[!UICONTROL Casos de uso]** | Seleccione los casos de uso aplicables a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL Participación]**, **[!UICONTROL Conversión]**, **[!UICONTROL Público]**, **[!UICONTROL Adquisición]** y **[!UICONTROL Journey Optimizer]**. <p>Las selecciones que realice determinarán la ubicación de la plantilla en la página Plantillas de la organización. Los usuarios pueden navegar hasta la plantilla o pueden filtrar la lista por caso de uso. </p><p>**Nota:** Cuando selecciona la opción **[!UICONTROL Journey Optimizer]**, la plantilla está disponible para su uso en Adobe Journey Optimizer. En Journey Optimizer, hay disponible un menú desplegable en la página **[!UICONTROL Informes]**, que permite a los usuarios seleccionar esta plantilla o la plantilla predeterminada. Consulte [Introducción a la experiencia de creación de informes actualizada](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) en la documentación de Journey Optimizer.</p><p>Tenga en cuenta lo siguiente al seleccionar la opción Journey Optimizer:</p><ul><li>Esta opción solo está disponible si los datos de Journey Optimizer existen en la vista de datos que está utilizando en Customer Journey Analytics.</li><li>Cuando se utiliza esta plantilla en Journey Optimizer, se utiliza la vista de datos establecida como vista de datos predeterminada en Adobe Journey Optimizer, independientemente de la vista de datos que se haya seleccionado con esta plantilla en Customer Journey Analytics. <br/>Para obtener más información sobre cómo establecer una vista de datos como vista de datos predeterminada en Journey Optimizer, consulte [Compatibilidad](/help/data-views/create-dataview.md#compatibility) en [Creación o edición de una vista de datos](/help/data-views/create-dataview.md).</li></ul> |
    | **[!UICONTROL Tipo de actividad de Journey Optimizer]** | Elija el tipo de actividad de Journey Optimizer que desea asociar a esta plantilla: **[!UICONTROL Campañas]**, **[!UICONTROL Recorridos]**, **[!UICONTROL Páginas de destino]**, **[!UICONTROL Informes]** o **[!UICONTROL Suscripciones]**. <p>Deje este campo en blanco si desea que esta plantilla esté asociada a todos los tipos de actividad.</p><p>Este campo solo se muestra si **[!UICONTROL Journey Optimizer]** está seleccionado en el campo **[!UICONTROL Casos de uso]**.</p> |
    | **[!UICONTROL Actividad de Journey Optimizer]** | Elija la actividad de Journey Optimizer que desee asociar a esta plantilla. <p>Deje este campo en blanco si desea que esta plantilla se asocie a todas las actividades del tipo de actividad seleccionada.</p><p>Este campo solo se muestra si **[!UICONTROL Journey Optimizer]** está seleccionado en el campo **[!UICONTROL Casos de uso]**.</p> |
    | **[!UICONTROL Etiquetas]** | Especifique las etiquetas que desea aplicar a la plantilla. Las personas pueden filtrar la lista de plantillas por las etiquetas que añada. |
@@ -57,7 +63,7 @@ Para obtener información sobre cómo los usuarios pueden crear un proyecto basa
 
 Los administradores pueden editar o eliminar las plantillas de la compañía.
 
-1. En Analysis Workspace, seleccione la pestaña [!UICONTROL **Workspace**] y, a continuación, en **[!UICONTROL Plantillas]**, en el carril izquierdo, seleccione las plantillas **[!UICONTROL _nombre_compañía_inicio_sesión _]**.
+1. En Analysis Workspace, seleccione la pestaña [!UICONTROL **Workspace**] y, a continuación, en **[!UICONTROL Plantillas]**, en el carril izquierdo, seleccione las plantillas **[!UICONTROL _nombre _compañía_inicio_sesión_]**.
 
 1. Si está viendo plantillas en una vista de columna ![icono de vista de columna](assets/column-view-icon.png):
 
@@ -75,7 +81,7 @@ Los administradores pueden editar o eliminar las plantillas de la compañía.
 
    1. Busque la plantilla que desea editar o eliminar.
 
-      ![Vista de tarjeta de plantilla de la compañía](assets/company-template-cards.png)
+      ![Vista de tarjeta de la plantilla de la compañía](assets/company-template-cards.png)
 
    1. Pase el puntero por encima de la plantilla y seleccione **[!UICONTROL Vista previa]**.
 
@@ -95,12 +101,12 @@ Los administradores pueden editar o eliminar las plantillas de la compañía.
    | **[!UICONTROL Descripción]** | Suministre una breve descripción de la plantilla que describa los usos previstos. |
    | **[!UICONTROL Por qué utilizar esta plantilla]** | Ofrezca una breve explicación para informar a los miembros de la organización sobre cómo se podría utilizar esta plantilla. Esta explicación se muestra en la página Vista previa de la plantilla. |
    | **[!UICONTROL Canales]** | Seleccione los canales aplicables correspondientes a esta plantilla. Puede seleccionar varios canales: **[!UICONTROL web]**, **[!UICONTROL móvil]**, **[!UICONTROL canales múltiples]**, **[!UICONTROL centro de llamadas]** y **[!UICONTROL En la tienda]**. Si no se selecciona ningún canal, la plantilla se incluye con todos los canales.<p>Las selecciones que realice determinarán dónde se mostrará la plantilla y qué filtros se aplicarán a los usuarios que acceden a ella desde la página Plantillas de la organización.</p> |
-   | **[!UICONTROL Casos de uso]** | Seleccione los casos de uso aplicables a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL Participación]**, **[!UICONTROL Conversión]**, **[!UICONTROL Público]**, **[!UICONTROL Adquisición]** y **[!UICONTROL Journey Optimizer]**. <p>Las selecciones que realice determinarán la ubicación de la plantilla en la página Plantillas de la organización. Los usuarios pueden navegar hasta la plantilla o pueden filtrar la lista por caso de uso. </p><p>**Nota:** Cuando selecciona la opción **[!UICONTROL Journey Optimizer]**, la plantilla está disponible para su uso en Adobe Journey Optimizer. En Journey Optimizer, hay disponible un menú desplegable en la página **[!UICONTROL Informes]**, que permite a los usuarios seleccionar esta plantilla o la plantilla predeterminada. Consulte [Introducción a la experiencia de creación de informes actualizada](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) en la documentación de Journey Optimizer.</p><p>Tenga en cuenta lo siguiente al seleccionar la opción Journey Optimizer:</p><ul><li>Esta opción solo está disponible si los datos de Journey Optimizer existen en la vista de datos que está utilizando en Customer Journey Analytics. </li><li>Cuando se utiliza esta plantilla en Journey Optimizer, se utiliza la vista de datos establecida como vista de datos predeterminada en Adobe Journey Optimizer, independientemente de la vista de datos que se haya seleccionado con esta plantilla en Customer Journey Analytics. <br/>Para obtener más información sobre cómo establecer una vista de datos como vista de datos predeterminada en Journey Optimizer, consulte [Compatibilidad](/help/data-views/create-dataview.md#compatibility) en [Creación o edición de una vista de datos](/help/data-views/create-dataview.md).</li></ul> |
+   | **[!UICONTROL Casos de uso]** | Seleccione los casos de uso aplicables a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL Participación]**, **[!UICONTROL Conversión]**, **[!UICONTROL Público]**, **[!UICONTROL Adquisición]** y **[!UICONTROL Journey Optimizer]**. <p>Las selecciones que realice determinarán la ubicación de la plantilla en la página Plantillas de la organización. Los usuarios pueden navegar hasta la plantilla o pueden filtrar la lista por caso de uso. </p><p>**Nota:** Cuando selecciona la opción **[!UICONTROL Journey Optimizer]**, la plantilla está disponible para su uso en Adobe Journey Optimizer. En Journey Optimizer, hay disponible un menú desplegable en la página **[!UICONTROL Informes]**, que permite a los usuarios seleccionar esta plantilla o la plantilla predeterminada. Consulte [Introducción a la experiencia de creación de informes actualizada](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) en la documentación de Journey Optimizer.</p><p>Tenga en cuenta lo siguiente al seleccionar la opción Journey Optimizer:</p><ul><li>Esta opción solo está disponible si los datos de Journey Optimizer existen en la vista de datos que está utilizando en Customer Journey Analytics.</li><li>Cuando se utiliza esta plantilla en Journey Optimizer, se utiliza la vista de datos establecida como vista de datos predeterminada en Adobe Journey Optimizer, independientemente de la vista de datos que se haya seleccionado con esta plantilla en Customer Journey Analytics. <br/>Para obtener más información sobre cómo establecer una vista de datos como vista de datos predeterminada en Journey Optimizer, consulte [Compatibilidad](/help/data-views/create-dataview.md#compatibility) en [Creación o edición de una vista de datos](/help/data-views/create-dataview.md).</li></ul> |
    | **[!UICONTROL Tipo de actividad de Journey Optimizer]** | Elija el tipo de actividad de Journey Optimizer que desea asociar a esta plantilla: **[!UICONTROL Campañas]**, **[!UICONTROL Recorridos]**, **[!UICONTROL Páginas de destino]**, **[!UICONTROL Informes]** o **[!UICONTROL Suscripciones]**. <p>Deje este campo en blanco si desea que esta plantilla esté asociada a todos los tipos de actividad.</p><p>Este campo solo se muestra si **[!UICONTROL Journey Optimizer]** está seleccionado en el campo **[!UICONTROL Casos de uso]**.</p> |
    | **[!UICONTROL Actividad de Journey Optimizer]** | Elija la actividad de Journey Optimizer que desee asociar a esta plantilla. <p>Deje este campo en blanco si desea que esta plantilla se asocie a todas las actividades del tipo de actividad seleccionada.</p><p>Este campo solo se muestra si **[!UICONTROL Journey Optimizer]** está seleccionado en el campo **[!UICONTROL Casos de uso]**.</p> |
    | **[!UICONTROL Etiquetas]** | Especifique las etiquetas que desea aplicar a la plantilla. Las personas pueden filtrar la lista de plantillas por las etiquetas que añada. |
 
-1. Seleccione [!UICONTROL **Guardar como plantilla**].
+1. Seleccione [!UICONTROL **Guardar como plantilla**]
 
 ## Cambiar el nombre, etiquetar o aprobar plantillas
 
@@ -152,7 +158,7 @@ Para agregar los componentes que faltan a una plantilla:
 
       1. Vaya a la plantilla que aún no esté lista para usar con la vista de datos y, a continuación, seleccione el icono de información junto al nombre de la plantilla.
 
-         ![Información de la plantilla de la compañía](assets/company-template-info.png)
+         ![Información de plantilla de la compañía](assets/company-template-info.png)
 
       1. Seleccione **[!UICONTROL Vista previa]**.
 
@@ -162,7 +168,7 @@ Para agregar los componentes que faltan a una plantilla:
 
       1. Busque la plantilla que aún no está lista para usar con la vista de datos.
 
-         ![Vista de tarjeta de la plantilla de la compañía](assets/company-template-cards.png)
+         ![Vista de tarjeta de plantilla de la compañía](assets/company-template-cards.png)
 
       1. Pase el puntero por encima de la plantilla y seleccione **[!UICONTROL Vista previa]**.
 

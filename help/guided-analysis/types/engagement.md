@@ -5,9 +5,14 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/sqRGQu7Vg5jdCGXT-NWIeExSrBeMVK5hXg0VvD2LtIM
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: 766
 ht-degree: 98%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 98%
 <!-- markdownlint-enable MD034 -->
 
 
-El análisis de ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Participación]** proporciona información sobre la frecuencia de uso de una función en comparación con la cantidad de personas que la utilizan. Este análisis funciona mejor cuando se comparan varias funciones entre sí. Ayuda a tomar decisiones de inversión al comprender cuáles son sus funciones principales, potentes, puntuales y cuestionables. 
+El análisis de ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Participación]** proporciona información sobre la frecuencia de uso de una función en comparación con la cantidad de personas que la utilizan. Este análisis funciona mejor cuando se comparan varias funciones entre sí. Ayuda a tomar decisiones de inversión al comprender cuáles son sus funciones principales, potentes, puntuales y cuestionables.
 
 Las funciones que aparecen en la parte superior de esta visualización indican que las utilizan con frecuencia los usuarios activos. Las funciones que se sitúan a la derecha de esta visualización indican que son muy utilizadas por los usuarios activos. El promedio de veces que se utiliza una función divide el gráfico horizontalmente. El porcentaje medio de usuarios activos divide el gráfico verticalmente. Las medianas se calculan en función de los eventos seleccionados en la consulta, no de todos los datos.
 
@@ -35,7 +40,7 @@ Las funciones que aparecen en la parte superior de esta visualización indican q
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de la participación](https://video.tv.adobe.com/v/3447470?captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de la participación](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -82,8 +87,8 @@ El análisis de [!UICONTROL Participación] ofrece la siguiente configuración d
 
 El intervalo de fechas deseado para el análisis. Esta configuración consta de dos componentes:
 
-* **[!UICONTROL Intervalo]**: la granularidad de fecha por la que desea ver datos de tendencia. Este análisis trata [!UICONTROL Intervalo] de manera similar a [!UICONTROL Contado como] en el carril de consultas. No se admiten usuarios activos por hora.
-* **[!UICONTROL Fecha]**: La fecha de inicio y finalización. Los ajustes preestablecidos de intervalo de fechas móviles y los intervalos personalizados guardados anteriormente están disponibles para su comodidad, o puede utilizar el selector de calendario para elegir un intervalo de fechas fijo.
+* **[!UICONTROL Intervalo]**: la granularidad de la fecha por la que desea ver datos de tendencia. Este análisis trata [!UICONTROL Intervalo] de manera similar a [!UICONTROL Contado como] en el carril de consultas. No se admiten usuarios activos por hora.
+* **[!UICONTROL Fecha]**: la fecha de inicio y finalización. Los ajustes preestablecidos de intervalo de fechas móviles y los intervalos personalizados guardados anteriormente están disponibles para su comodidad, o puede utilizar el selector de calendario para elegir un intervalo de fechas fijo.
 
 <!--
 ## Example

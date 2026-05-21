@@ -5,16 +5,22 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 976170212fb9904a32db93368fbda5f143f4a462
+TQID: https://experienceleague.adobe.com/vNCqAk1-4e34AJrXqzHJgrTDtly-FZTqOGRISjkX5Q8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2281'
-ht-degree: 7%
+source-wordcount: 2441
+ht-degree: 9%
 
 ---
 
 # Protecciones de Customer Journey Analytics
 
-Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics-b2b.html).
+Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
 
 ## Tipos de límite
 
@@ -88,11 +94,11 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 | Frecuencia de actualización de audiencia | 4 | Protección impuesta por el sistema | Frecuencia máxima en horas que se puede actualizar una [audiencia](../components/audiences/audiences-overview.md). |
 | Ventana retrospectiva de actualización de audiencia | 90 | Protección impuesta por el sistema | Número máximo de días para actualizar la ventana retrospectiva. |
 | Actualizando fecha de caducidad de audiencia | 13 | Protección impuesta por el sistema | La audiencia deja de actualizarse durante un número máximo de meses a partir de la fecha de creación. Los clientes pueden prolongar esta duración otros 13 meses. |
-| Número de audiencias actualizadas | 76, 150 | Protección impuesta por el sistema | Número máximo de audiencias de actualización. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
+| Número de audiencias actualizadas | 75, 150 | Protección impuesta por el sistema | Número máximo de audiencias de actualización. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
+Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
 
 
 ## Caducidad automatizada del conjunto de datos
@@ -121,7 +127,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 | Descripción de anotación | 250 | Protección impuesta por el sistema | Número máximo de caracteres para una descripción de anotación. |
 | Campos de esquema | 10 | Protección impuesta por el sistema | Número máximo de campos de esquema (sin incluir los campos estándar) al definir reglas para un [campo derivado](../data-views/derived-fields/derived-fields.md). |
 | Campos de búsqueda/perfil | 3 | Protección impuesta por el sistema | Número máximo de campos de esquema de búsqueda o perfil dentro del número máximo de campos de esquema (sin incluir los campos estándar) al definir reglas para un campo derivado. |
-| Campos derivados | De 100 a 500 | Protección impuesta por el sistema | Número máximo de campos derivados por conexión. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
+| Campos derivados | 100 - 500 | Protección impuesta por el sistema | Número máximo de campos derivados por conexión. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
@@ -139,7 +145,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es).
+Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Exportación de datos de destinos
@@ -151,7 +157,7 @@ Consulte también [Protecciones de Experience Platform para la ingesta de datos]
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
+Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
 
 
 ## Zona de aterrizaje de datos
@@ -168,8 +174,8 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Conjuntos de datos vinculados | De 5 a 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
-| Longitud de relleno | De 6 a 25 | Protección impuesta por el sistema | Número máximo de meses de datos de relleno. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
+| Conjuntos de datos vinculados | 5 - 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
+| Longitud de relleno | 6 - 25 | Protección impuesta por el sistema | Número máximo de meses de datos de relleno. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 | Ventana retrospectiva/Frecuencia de repetición | 1/1 - 30/7 | Protección impuesta por el sistema | Ventana retrospectiva máxima en días/frecuencia de reproducción. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
@@ -179,8 +185,8 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Conjuntos de datos vinculados | De 15 a 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
-| Longitud de relleno | De 6 a 25 | Protección impuesta por el sistema | Número máximo de meses de datos de relleno. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
+| Conjuntos de datos vinculados | 15 - 50 | Protección impuesta por el sistema | Número máximo de conjuntos de datos enlazados por cliente. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
+| Longitud de relleno | 6 - 25 | Protección impuesta por el sistema | Número máximo de meses de datos de relleno. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 | Ventana retrospectiva/Frecuencia de repetición | 1/1 - 30/7 | Protección impuesta por el sistema | Ventana retrospectiva máxima en días/frecuencia de reproducción. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 
 
@@ -194,7 +200,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 | Contenedores anidados por segmento | 10 | Protección impuesta por el sistema | Número máximo de contenedores anidados por segmento. |
 | Reglas por segmento | 100 | Protección impuesta por el sistema | Número máximo de reglas por segmento. |
 | Comparaciones de cadenas por Dimension y por segmento | 100 | Protección impuesta por el sistema | Número máximo de comparaciones de cadenas por dimensión por segmento. |
-| Métricas calculadas  | 50 000 | Protección impuesta por el sistema | Número máximo de métricas calculadas para una organización. |
+| Métricas calculadas | 50 000 | Protección impuesta por el sistema | Número máximo de métricas calculadas para una organización. |
 | Segmentos | 50 000 | Protección impuesta por el sistema | Número máximo de segmentos que puede definir para una organización. |
 | Llamadas de API | 120 | Protección impuesta por el sistema | Solicitudes de API por minuto (12 solicitudes cada 6 segundos). |
 
@@ -267,7 +273,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 >[!NOTE]
 >
->Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es) de Experience Platform para obtener más información.
+>Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) de Experience Platform para obtener más información.
 
 | Flujo de datos | Latencia esperada |
 |---|---|

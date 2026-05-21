@@ -4,9 +4,14 @@ title: Información general sobre los intervalos de fechas
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/SLxxyE8fc1OPZ1uc90jCDCE1vfnbF6Kctpbkcrk8WYs
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: 530
 ht-degree: 100%
 
 ---
@@ -25,8 +30,8 @@ O bien, puede utilizar un intervalo de fechas en una tabla de forma libre como u
 
 ![Uso del intervalo de fechas](/help/components/date-ranges/assets/date-ranges-usage.png)
 
-- **Métrica**.  Por ejemplo, para comparar una dimensión durante dos meses diferentes para una métrica específica.
-- **Dimensión**.  Para comparar una métrica en diferentes elementos de dimensión para la dimensión de intervalo de fechas.
+- **Métrica**. Por ejemplo, para comparar una dimensión durante dos meses diferentes para una métrica específica.
+- **Dimensión**. Para comparar una métrica en diferentes elementos de dimensión para la dimensión de intervalo de fechas.
 
 >[!NOTE]
 >
@@ -59,7 +64,7 @@ Analysis Workspace proporciona una serie de intervalos de fechas predeterminados
 | Hoy | Esta semana | Este mes | Este trimestre | Este año |
 | Ayer | Esta semana (sin incluir hoy) | Este mes (sin incluir hoy) | Este trimestre (sin incluir hoy) | Este año (sin incluir hoy) |
 | Hace 2 días | Hace 2 semanas | Hace 2 meses |   |  |
-| Hace 3 días | Hace 3 semanas | Hace 3 meses  |  | |
+| Hace 3 días | Hace 3 semanas | Hace 3 meses |  | |
 | Últimos 7 días | Semana pasada | Mes pasado | Último trimestre | Año pasado |
 | Últimos 14 días | Últimas 2 semanas completas | 2 últimos meses completos | Últimos 4 trimestres completos | |
 | Últimos 30 días | Últimas 3 semanas completas | 3 últimos meses completos | | |

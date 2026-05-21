@@ -5,10 +5,16 @@ exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
+TQID: https://experienceleague.adobe.com/ur8f2cMDdoncdUzZ8FDAUYbJZ-8JOyAKKZ5p5Go-OkM
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 49%
+source-wordcount: 1089
+ht-degree: 48%
 
 ---
 
@@ -25,7 +31,7 @@ Si su organización utiliza el [conector de origen de Analytics](https://experie
 ## Requisitos previos
 
 * Los datos del grupo de informes ya deben estar importados en Adobe Experience Platform usando el [conector de origen de Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/analytics). No se admiten otras fuentes de datos, ya que los canales de marketing dependen de las reglas de procesamiento de un grupo de informes de Analytics.
-* Las reglas de procesamiento de canal de marketing ya deben estar configuradas. Consulte [Reglas de procesamiento para canales de marketing](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules) en la guía Componentes de Adobe Analytics.
+* Las reglas de procesamiento de canal de marketing ya deben estar configuradas. Consulte [Reglas de procesamiento para canales de marketing](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules) en la guía Componentes de Adobe Analytics.
 
 ## Elementos de esquema de canal de marketing
 
@@ -33,8 +39,8 @@ Una vez que haya establecido el conector de origen de Analytics en un grupo de i
 
 1. [Cree una conexión](/help/connections/create-connection.md) que incluya un conjunto de datos basado en el conector de origen de Analytics.
 2. [Cree una vista de datos](/help/data-views/create-dataview.md) que incluya las siguientes dimensiones:
-   * **`channel.typeAtSource`**: equivalente a la dimensión [Canal de marketing](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/marketing-channel).
-   * **`channel._id`**: equivalente a los [Detalles de canal de marketing](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/marketing-detail)
+   * **`channel.typeAtSource`**: equivalente a la dimensión [Canal de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel).
+   * **`channel._id`**: equivalente a los [Detalles de canal de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-detail)
 3. Proporcione a cada dimensión el modelo de atribución y la persistencia deseados. Si desea dimensiones de primer toque y de último toque, arrastre cada dimensión de canal de marketing al área de componentes varias veces. Proporcione a cada dimensión el modelo de atribución y la persistencia deseados. Adobe también recomienda asignar a cada dimensión un nombre para mostrar para facilitar su uso el Espacio de trabajo.
 4. Cree la vista de datos.
 
@@ -77,5 +83,5 @@ Como la arquitectura de Adobe Experience Platform es diferente a un grupo de inf
 * Compruebe que las diferencias arquitectónicas enumeradas anteriormente no afectan a la comparación. Estas diferencias incluyen la eliminación de canales que no anulan el canal de último contacto y la eliminación de los criterios de regla que son el primer resultado de una visita (sesión).
 * Compruebe que su conexión utiliza el mismo grupo de informes que Adobe Analytics. Si la conexión de Customer Journey Analytics contiene varios grupos de informes con sus propias reglas de procesamiento de canal de marketing, no hay una manera fácil de compararla con Adobe Analytics. Desea crear una conexión independiente para cada grupo de informes con el fin de comparar los datos.
 * Asegúrese de comparar los mismos intervalos de fechas y de que la configuración de la zona horaria de su vista de datos sea la misma que la del grupo de informes.
-* Utilice un modelo de atribución personalizado cuando visualice los datos del grupo de informes. Por ejemplo, utilice la dimensión [Canal de marketing](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/marketing-channel) con métricas que utilicen un modelo de atribución no predeterminado. Adobe aconseja no comparar las dimensiones predeterminadas [Canal de primer contacto](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/first-touch-channel) o [Canal de último contacto](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/last-touch-channel), porque dependen de la atribución recopilada en el grupo de informes. Customer Journey Analytics no se basa en los datos de atribución de un grupo de informes sino que se calcula cuando se ejecuta un informe de Customer Journey Analytics.
+* Utilice un modelo de atribución personalizado cuando visualice los datos del grupo de informes. Por ejemplo, utilice la dimensión [Canal de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel) con métricas que utilicen un modelo de atribución no predeterminado. Adobe aconseja no comparar las dimensiones predeterminadas [Canal de primer contacto](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/first-touch-channel) o [Canal de último contacto](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/last-touch-channel), porque dependen de la atribución recopilada en el grupo de informes. Customer Journey Analytics no se basa en los datos de atribución de un grupo de informes sino que se calcula cuando se ejecuta un informe de Customer Journey Analytics.
 * Algunas métricas no tienen una comparación razonable debido a las diferencias de arquitectura entre los datos del grupo de informes y los datos de Platform. Algunos ejemplos son visitas/sesiones, personas/personas y ocurrencias/eventos.

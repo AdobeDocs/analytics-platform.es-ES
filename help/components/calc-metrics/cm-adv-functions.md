@@ -4,10 +4,16 @@ description: Obtenga información sobre las funciones avanzadas de métricas cal
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 76b4ac60c8e3ae2dd62f86a35bdf1c582f60b10f
+TQID: https://experienceleague.adobe.com/aXOUGaFZ-hlW9ROWRUWuCFh0d4UKIyjKNsypmAZIsbE
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '5286'
-ht-degree: 97%
+source-wordcount: 5381
+ht-degree: 96%
 
 ---
 
@@ -29,7 +35,7 @@ Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa 
 
 Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métrica Vistas de página al informe, de repente hay más filas para sus ingresos, todas con valor de cero. Probablemente, no quiera que esa métrica adicional afecte a ninguna **[MEDIA](cm-functions.md#mean)**, **[MÍNIMO DE FILA](cm-functions.md#row-min)**, **[CUARTIL](cm-functions.md#quartile)** y más cálculos que tenga en la columna de ingresos. En este caso, comprobaría el parámetro `include-zeros`.
 
-Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros. En ese caso, puede optar por no marcar el parámetro para incluir ceros
+Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros.  En ese caso, puede optar por no marcar el parámetro para incluir ceros
 
 
 ## Y {#and}
@@ -362,7 +368,7 @@ Devuelve la suma de los últimos n elementos de la columna x. Si n > 0, sume los
 
 | Argumento | Descripción |
 | --- | --- |
-| número | El último número N de filas para las que se devuelve la suma. Si N &lt;= 0 utilice todas las filas anteriores.  |
+| número | El último número N de filas para las que se devuelve la suma. Si N &lt;= 0 utilice todas las filas anteriores. |
 | métrica | La métrica para la que desea obtener la suma acumulativa. |
 
 ### Ejemplos
@@ -391,7 +397,7 @@ Devuelve el promedio de los últimos n elementos de la columna x. Si n > 0, sume
 
 | Argumento | Descripción |
 | --- | --- |
-| número | El último número N de filas para las que se devuelve el promedio. Si N &lt;= 0 utilice todas las filas anteriores.  |
+| número | El último número N de filas para las que se devuelve el promedio. Si N &lt;= 0 utilice todas las filas anteriores. |
 | métrica | La métrica para la que desea el promedio acumulado. |
 
 >[!NOTE]
@@ -675,7 +681,7 @@ Mayor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 |---|---|
 | logical_test | Obligatorio. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE |
 | value_if_true | El valor que desea que sea devuelto si el argumento logical_test se evalúa como TRUE. (Este argumento es 0 de forma predeterminada si no se incluye). |
-| value_if_false | El valor que desee que se devuelva si el argumento logical_test evalúa en FALSE. (El valor predeterminado de este argumento es 0 si no se incluye.) |
+| value_if_false | El valor que desea que sea devuelto si el argumento logical_test se evalúa como FALSE. (Este argumento es 0 de forma predeterminada si no se incluye). |
 
 
 ## Menor que {#less-than}
@@ -759,14 +765,14 @@ El alza de la proporción comparada con el valor de control.
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
 >title="Regresión lineal: coeficiente de correlación"
->abstract="Regresión lineal: Y = a X + b. Devuelve el coeficiente de correlación."
+>abstract="Regresión lineal: Y = a X + b.  Devuelve el coeficiente de correlación."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros))]**
 
 
-[!BADGE Tabla]{type="Neutral"} Regresión lineal: Y = a X + b. Devuelve el coeficiente de correlación.
+[!BADGE Tabla]{type="Neutral"} Regresión lineal: Y = a X + b.  Devuelve el coeficiente de correlación.
 
 
 | Argumento | Descripción |
@@ -809,7 +815,7 @@ El alza de la proporción comparada con el valor de control.
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-linear"
 >title="Regresión lineal: predicción Y"
->abstract="Y = a X + b. Devuelve Y."
+>abstract="Regresión lineal: Y = a X + b. Devuelve Y."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -834,7 +840,7 @@ El alza de la proporción comparada con el valor de control.
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-linear"
 >title="Regresión lineal: pendiente"
->abstract="Y = a X + b. Devuelve a."
+>abstract="Regresión lineal: Y = a X + b. Devuelve a."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -878,13 +884,13 @@ El alza de la proporción comparada con el valor de control.
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-log"
 >title="Regresión logística: coeficiente de correlación"
->abstract="Regresión logística: Y = a X + b. Devuelve el coeficiente de correlación."
+>abstract="Regresión logarítmica: Y = a ln(X) + b. Devuelve el coeficiente de correlación."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve el coeficiente de correlación.
+[!BADGE Tabla]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve el coeficiente de correlación.
 
 | Argumento | Descripción |
 |---|---|
@@ -900,13 +906,13 @@ El alza de la proporción comparada con el valor de control.
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-log"
 >title="Regresión logística: intersección"
->abstract="Regresión logística: Y = a ln(X) + b. Devuelve b."
+>abstract="Regresión logarítmica: Y = a ln(X) + b. Devuelve b."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve b.
+[!BADGE Tabla]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve b.
 
 | Argumento | Descripción |
 |---|---|
@@ -916,20 +922,20 @@ El alza de la proporción comparada con el valor de control.
 
 
 
-## Regresión logística: predicción Y  {#log-regression-predicted-y}
+## Regresión logística: predicción Y {#log-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-log"
->title="Regresión logística: predicción Y "
->abstract="Regresión logística: Y = a ln(X) + b. Devuelve Y."
+>title="Regresión logística: predicción Y"
+>abstract="Regresión logarítmica: Y = a ln(X) + b. Devuelve Y."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Fila]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve Y.
+[!BADGE Fila]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve Y.
 
 | Argumento | Descripción |
 |---|---|
@@ -939,20 +945,20 @@ El alza de la proporción comparada con el valor de control.
 
 
 
-## Regresión logística: pendiente  {#log-regression-slope}
+## Regresión logística: pendiente {#log-regression-slope}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-log"
->title="Regresión logística: pendiente "
->abstract="Regresión logística: Y = a ln(X) + b. Devuelve a."
+>title="Regresión logística: pendiente"
+>abstract="Regresión logarítmica: Y = a ln(X) + b. Devuelve a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve a.
+[!BADGE Tabla]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve a.
 
 | Argumento | Descripción |
 |---|---|
@@ -1167,13 +1173,13 @@ Devuelve Pi: 3,14159...
 
 
 
-## Regresión cuadrática: coeficiente de correlación  {#quadratic-regression-correlation-coefficient}
+## Regresión cuadrática: coeficiente de correlación {#quadratic-regression-correlation-coefficient}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-quadratic"
->title="Regresión cuadrática: coeficiente de correlación "
+>title="Regresión cuadrática: coeficiente de correlación"
 >abstract="Regresión cuadrática: Y = (a + bX) ^ 2, Devuelve el coeficiente de correlación."
 
 <!-- markdownlint-enable MD034 -->
@@ -1188,13 +1194,13 @@ Devuelve Pi: 3,14159...
 | metric_Y | Una métrica que le gustaría correlacionar con metric_X |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos |
 
-## Regresión cuadrática: intersección  {#quadratic-regression-intercept}
+## Regresión cuadrática: intersección {#quadratic-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-quadratic"
->title="Regresión cuadrática: intersección "
+>title="Regresión cuadrática: intersección"
 >abstract="Regresión cuadrática: Y = (a + bX) ^ 2, Devuelve a."
 
 <!-- markdownlint-enable MD034 -->
@@ -1299,13 +1305,13 @@ Devuelve Pi: 3,14159...
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos |
 
 
-## Regresión recíproca: predicción Y  {#reciprocal-regression-predicted-y}
+## Regresión recíproca: predicción Y {#reciprocal-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-reciprocal"
->title="Regresión recíproca: predicción Y "
+>title="Regresión recíproca: predicción Y"
 >abstract="Regresión recíproca: Y = a + b X ^ -1. Devuelve Y."
 
 <!-- markdownlint-enable MD034 -->
@@ -1351,11 +1357,11 @@ Devuelve Pi: 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
 >title="Varianza de muestra"
->abstract="Calcula una estimación de la varianza de muestra mediante la fórmula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)).  donde N es el recuento del contenedor de normalización. <br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
+>abstract="Calcula una estimación de la varianza de muestra mediante la fórmula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)). donde N es el recuento del contenedor de normalización. <br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*."
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA DE MUESTRA (contenedor de normalización, métrica de éxito)]**
 
-Calcula una estimación de la varianza de muestra mediante la fórmula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)).  donde N es el recuento del contenedor de normalización.<br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*.
+Calcula una estimación de la varianza de muestra mediante la fórmula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)). donde N es el recuento del contenedor de normalización.<br/>Esto se usa como parte de los cálculos de confianza *válidos en cualquier momento*. Por lo general, esta función no es útil por sí sola, pero se puede utilizar para comprobar cálculos o para realizar cálculos de confianza *manualmente*.
 
 | Argumento | Descripción |
 | --- | --- |

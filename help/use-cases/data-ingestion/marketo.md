@@ -5,10 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/UXeVx5LF0ww0guz-62swqmGapSfjiTduYjojcZqqIYQ
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 13%
+source-wordcount: 1129
+ht-degree: 14%
 
 ---
 
@@ -31,15 +37,15 @@ Consulte [comparación de informes](#reporting-comparison) para obtener más inf
 
 Para informar sobre los datos de Marketo Engage en Customer Journey Analytics:
 
-+++ &#x200B;1. Asigne campos de datos de origen de Marketo a sus destinos XDM
++++ &#x200B;1. Asignar campos de datos de origen de Marketo a sus destinos XDM
 
-Asigne los objetos [Personas](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
+Asigne los objetos [Personas](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
 
 +++
 
-+++ &#x200B;2. Ingresar datos de Marketo en Adobe Experience Platform
++++ &#x200B;2. Ingesta de datos de Marketo en Adobe Experience Platform
 
-Utilice el [conector de Marketo Engage](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
+Utilice el [conector de Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones conectadas a la plataforma.
 
 +++
 
@@ -50,13 +56,13 @@ Para informar sobre conjuntos de datos de Experience Platform, primero debe esta
 +++
 
 
-+++ &#x200B;4. Cree una o varias vistas de datos
++++ &#x200B;4. Creación de una o más vistas de datos
 
-Una [vista de datos &#x200B;](/help/data-views/data-views.md)es un contenedor específico de Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión. Especifica todas las dimensiones y métricas disponibles en Analysis Workspace; en este caso, métricas y dimensiones específicas de Marketo. También especifica de qué columnas obtienen los datos esas dimensiones y métricas. Las vistas de datos se definen a fin de prepararse para la creación de informes en Analysis Workspace.
+Una [vista de datos ](/help/data-views/data-views.md)es un contenedor específico de Customer Journey Analytics que le permite determinar cómo interpretar los datos de una conexión. Especifica todas las dimensiones y métricas disponibles en Analysis Workspace; en este caso, métricas y dimensiones específicas de Marketo. También especifica de qué columnas obtienen los datos esas dimensiones y métricas. Las vistas de datos se definen a fin de prepararse para la creación de informes en Analysis Workspace.
 
 +++ 
 
-+++ &#x200B;5. Crear informes en Analysis Workspace
++++ &#x200B;5. Informe en Analysis Workspace
 
 Un caso de uso que puede explorar es: ¿Cuántas visitas de páginas web de posibles clientes tuvo entre abril y junio de 2020?
 
@@ -90,7 +96,7 @@ Customer Journey Analytics es una herramienta de análisis avanzada en canales m
 
 #### Funcionalidades clave
 
-* **Fuentes de datos**: Pueden combinar varios conjuntos de datos (web, CRM, correo electrónico, centro de llamadas, sin conexión, Marketo, etc.) para generar informes de recorrido del cliente a 360°.
+* **Fuentes de datos**: Pueden combinar varios conjuntos de datos (web, CRM, correo electrónico, centro de llamadas, sin conexión, Marketo, etc.) para informes de recorrido del cliente de 360°.
 * **Análisis de autoservicio**: arrastre y suelte el espacio de trabajo con paneles y visualizaciones altamente interactivos y personalizables.
 * **Atribución avanzada**: admite modelos de atribución complejos, multitáctiles y personalizados en todos los datos conectados, no solo en los programas de marketing.
 * **Análisis de audiencias y rutas**: segmentación profunda, cohorte y análisis de rutas entre recorridos de compradores.

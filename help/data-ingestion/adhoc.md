@@ -5,10 +5,16 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
-source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
+TQID: https://experienceleague.adobe.com/eqmDvuaNGFj8q2pfKNCzf5-affyrUTYP7MA5UgsRrCI
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 24%
+source-wordcount: 1674
+ht-degree: 26%
 
 ---
 
@@ -76,7 +82,7 @@ Para iniciar el flujo de trabajo:
 
       1. Seleccione **[!UICONTROL Finalizar]**.
 
-Una vez que los datos se hayan preparado y cargado correctamente, se le redirigirá a **[!UICONTROL Conjuntos de datos]** en la interfaz de Experience Platform.<br/> Verá la **[!UICONTROL actividad del conjunto de datos]** para su **[!UICONTROL conjunto de datos de ejemplo del CSV]** con el estado ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Procesando]**.
+Una vez que los datos se hayan preparado y cargado correctamente, se le redirigirá a **[!UICONTROL Conjuntos de datos]** en la interfaz de Experience Platform.<br/> Verá la **[!UICONTROL actividad del conjunto de datos]** para su **[!UICONTROL Conjunto de datos de ejemplo del CSV]** con el estado ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Procesando]**.
 
 ![Actividad de conjunto de datos para datos ad hoc](assets/datasets-dataset-activity.png)
 
@@ -126,7 +132,7 @@ Para crear la conexión:
 
    1. Seleccione **[!UICONTROL Agregar conjuntos de datos]**.
 
-1. En el paso **[!UICONTROL Seleccionar conjuntos de datos]**, en **[!UICONTROL Agregar conjuntos de datos]**, haga lo siguiente:
+1. En el paso **[!UICONTROL Seleccionar conjuntos de datos]** en **[!UICONTROL Agregar conjuntos de datos]**:
 
    1. Seleccione el conjunto de datos que creó anteriormente, por ejemplo **[!UICONTROL Datos de ejemplo del CSV]**, y cualquier otro conjunto de datos que desee incluir en la conexión. Los conjuntos de datos ad hoc tienen **[!UICONTROL Adhoc]** [!UICONTROL Tipo de conjunto de datos].
 
@@ -155,7 +161,7 @@ Consulte [Configuración de conjuntos de datos ad hoc](/help/connections/create-
 
 >[!IMPORTANT]
 >
->Además de la recomendación general de no usar conjuntos de datos y esquemas ad hoc para datos de series temporales, no puede usar el flujo de trabajo **[!UICONTROL Crear conjunto de datos a partir de CSV]** para datos de series temporales. Este flujo de trabajo define todos los campos para que sean de tipo cadena que no se puede modificar posteriormente. Cuando se agrega un conjunto de datos basado en series temporales (evento o resumen) a una conexión, este tipo de conjunto de datos requiere la definición de al menos un campo de tipo DateTime.<br/>Si necesita usar datos de series temporales ad hoc, considere [usar la API para crear un esquema ad hoc](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) y luego use el flujo de trabajo [Crear conjunto de datos a partir del esquema](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#schema).
+>Además de la recomendación general de no usar conjuntos de datos y esquemas ad hoc para datos de series temporales, no puede usar el flujo de trabajo **[!UICONTROL Crear conjunto de datos a partir de CSV]** para datos de series temporales. Este flujo de trabajo define todos los campos para que sean de tipo cadena que no se puede modificar posteriormente. Cuando agrega un conjunto de datos basado en series temporales (evento o resumen) a una conexión, este tipo de conjunto de datos requiere la definición de al menos un campo de tipo DateTime.<br/>Si necesita usar datos de series temporales ad hoc, considere [usar la API para crear un esquema ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) y luego use el flujo de trabajo [Crear conjunto de datos a partir del esquema](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#schema).
 
 
 Después de crear una [conexión](/help/connections/overview.md), puede realizar diversas tareas de administración, como [seleccionar y combinar conjuntos de datos](/help/connections/combined-dataset.md), [comprobar el estado de los conjuntos de datos de una conexión y el estado de la ingesta de datos](/help/connections/manage-connections.md), etc.
@@ -182,7 +188,7 @@ Para crear la vista de datos:
 
 1. En el paso **[!UICONTROL Componentes]**, haga lo siguiente:
 
-   1. Agregue cualquier campo de esquema o componente estándar que desee incluir en los cuadros de componente **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**. Asegúrese de agregar campos relevantes del conjunto de datos que contiene los datos ad hoc. Para acceder a esos campos:
+   1. Agregue cualquier campo de esquema o componente estándar que quiera incluir en los cuadros de componentes **[!UICONTROL MÉTRICAS]** o **[!UICONTROL DIMENSIONES]**. Asegúrese de agregar campos relevantes del conjunto de datos que contiene los datos ad hoc. Para acceder a esos campos:
 
       1. Seleccionar **[!UICONTROL conjuntos de datos de eventos]**.
       1. Seleccione **[!UICONTROL campos ad hoc y relacionales]**.

@@ -4,10 +4,16 @@ title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: b013518d8f1782219dd2cf9e5b5a89b877e3b92d
+TQID: https://experienceleague.adobe.com/oXojotjMV8EEF3S31JyO4eFIn62iYH0zPHGO6ylhFR0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 97%
+source-wordcount: 2318
+ht-degree: 93%
 
 ---
 
@@ -26,7 +32,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Experimentación en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte el [panel Analytics for Target](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) para obtener información sobre cómo analizar las actividades y experiencias de Adobe Target en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._
+_Este artículo documenta el panel Experimentación en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Panel de Analytics for Target](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) para obtener información sobre cómo analizar las actividades y experiencias de Adobe Target en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -49,10 +55,10 @@ Para utilizar el panel de experimentación, asegúrese de seguir estos requisito
 
 ### Crear conexión con conjuntos de datos del experimento
 
-El esquema de datos recomendado es que los datos del experimentación estén en una [Matriz de objetos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/array) que contiene el experimento y los datos de variante en dos dimensiones independientes. Ambas dimensiones deben estar en una **sola** matriz de objetos. Si tiene los datos de experimetación en una sola dimensión (con datos de experimento y de variante en una cadena delimitada), puede utilizar la configuración [subcadena](/help/data-views/component-settings/substring.md) en vistas de datos para dividirl la dimensión en dos y usarlas en el panel.
+El esquema de datos recomendado es que los datos del experimentación estén en una [Matriz de objetos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) que contiene el experimento y los datos de variante en dos dimensiones independientes. Ambas dimensiones deben estar en una **sola** matriz de objetos. Si tiene los datos de experimetación en una sola dimensión (con datos de experimento y de variante en una cadena delimitada), puede utilizar la configuración [subcadena](/help/data-views/component-settings/substring.md) en vistas de datos para dividirl la dimensión en dos y usarlas en el panel.
 
 
-Una vez que se hayan [ingerido](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home) los datos del experimentación en Adobe Experience Platform, [cree una conexión en Customer Journey Analytics](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
+Una vez que se hayan [ingerido](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) los datos del experimentación en Adobe Experience Platform, [cree una conexión en Customer Journey Analytics](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
 
 ### Añadir etiquetas de contexto en vistas de datos
 
@@ -107,7 +113,7 @@ Para utilizar el panel de experimentación:
 
 El panel Experimentación devuelve un completo conjunto de datos y visualizaciones para ayudarle a comprender mejor el rendimiento de sus experimentos. En la parte superior del panel, se proporcionan visualizaciones de [cambio de resumen](../visualizations/summary-number-change.md) como recordatorio de la configuración del panel que ha seleccionado. En cualquier momento, puede editar el panel haciendo clic en el lápiz de edición en la parte superior derecha.
 
-También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. La conclusión se basa en la relevancia estadística (consulte [Metodología estadística](#adobes-statistical-methodology).) Puede ver los números de resumen de la variante que tienen mejor rendimiento, con la mayor subida y confianza.
+También se obtiene un resumen de texto que indica si el experimento es concluyente o no y resume el resultado. La conclusión se basa en la relevancia estadística (consulte [Metodología estadística](#adobes-statistical-methodology)). Puede ver los números de resumen de la variante con mejor rendimiento, con el alza y la confianza más altas.
 
 Para cada métrica de éxito seleccionada, se muestra una visualización de [tabla de forma libre](../visualizations/freeform-table/freeform-table.md) y una visualización de [línea](../visualizations/line.md) de tasa de conversión.
 
@@ -146,7 +152,7 @@ Una secuencia de confianza del 95 % incluirá el valor “verdadero” de la m�
 
 Customer Journey Analytics permite a los analistas seleccionar cualquier dimensión como experimento. Pero, ¿cómo se interpreta un análisis en el que la dimensión elegida como experimento no es aquella para la que se aleatorizan las personas?
 
-Por ejemplo, piense en un anuncio que vea una persona. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar las personas el *anuncio B* en lugar del *anuncio A*. El efecto causal de mostrar el anuncio B, en lugar del anuncio A, tiene una importancia fundamental para llegar a la decisión de marketing. Este efecto causal puede medirse como el ingreso promedio en toda la población, si se sustituye el status quo de mostrar el anuncio A por la estrategia alternativa de mostrar el anuncio B.
+Por ejemplo, piense en un anuncio que vea una persona. Puede que le interese medir el cambio en alguna métrica (por ejemplo, ingresos promedio) si decide mostrar las personas *ad B* en lugar de *ad A*. El efecto causal de mostrar el anuncio B, en lugar del anuncio A, es de importancia central para llegar a la decisión de comercialización. Este efecto causal puede medirse como el ingreso promedio en toda la población, si se sustituye el status quo de mostrar el anuncio A por la estrategia alternativa de mostrar el anuncio B.
 
 Las pruebas A/B son el criterio de referencia dentro de la industria para medir de manera objetiva los efectos de este tipo de intervenciones. La razón fundamental por la que una prueba A/B da lugar a una estimación causal se debe a la aleatorización de las personas para recibir una de las posibles variantes.
 
@@ -170,7 +176,7 @@ No todas las métricas calculadas son compatibles con el panel Experimentación.
 
 Las métricas calculadas que incluyen cualquiera de las siguientes métricas o constantes no son compatibles con el panel Experimentación:
 
-* Métricas base de un [conjunto de datos de resumen](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/summary-data)
+* Métricas base de un [conjunto de datos de resumen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data)
 * Métricas base divididas entre sí o multiplicadas juntas (por ejemplo, `Revenue`/`Orders`)
 * Constantes que se agregan o sustraen de una métrica base (por ejemplo, `Revenue+50`)
 * Cualquiera de las siguientes métricas base:
@@ -180,8 +186,8 @@ Las métricas calculadas que no son compatibles con el panel Experimentación ti
 
 ## Uso de métricas calculadas en el panel Experimentación
 
-Consulte esta publicación de blog para obtener información sobre el [uso de métricas calculadas en el panel Experimentación](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119?profile.language=es).
+Consulte esta publicación de blog para obtener información sobre el [uso de métricas calculadas en el panel Experimentación](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
 
 >[!MORELIKETHIS]
->[Dominio de la experimentación de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338?profile.language=es)
+>[Dominio de la experimentación de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
 >

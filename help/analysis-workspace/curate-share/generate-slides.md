@@ -5,9 +5,15 @@ title: Generar presentaciones desde informes de Workspace
 feature: Curate and Share
 role: User
 exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
-source-git-commit: b9efb621523f8bbfbb3afe7db4db2e60fcddd34c
+TQID: https://experienceleague.adobe.com/FS8pF5-orvK65JCWs8stf2gMbrUXYmcsM-DXJhzlML4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: 1720
 ht-degree: 9%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->La narración de datos es una habilidad de Data Insights Agent y está disponible para los clientes elegibles por tiempo limitado. El acceso a Data Insights Agent finaliza el miércoles, 31 de marzo de 2026. Para seguir utilizando Data Insights Agent u otros agentes de Adobe Experience Platform sin interrupción, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Adobe Experience Platform Agent Orchestrator.
+>La narración de datos es una habilidad de Data Insights Agent y está disponible para los clientes elegibles por tiempo limitado. El acceso a Data Insights Agent finalizará el 31 de marzo de 2026. Para seguir utilizando Data Insights Agent u otros agentes de Adobe Experience Platform sin interrupción, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Adobe Experience Platform Agent Orchestrator.
 
 
 Los usuarios con [los permisos necesarios](#permission-requirements-to-generate-slides) pueden generar automáticamente presentaciones .pptx basadas en proyectos de Analysis Workspace. Al generar estas presentaciones de diapositivas, Customer Journey Analytics crea automáticamente una historia a partir de sus datos identificando perspectivas clave y convirtiéndolas en diapositivas listas para las partes interesadas.

@@ -5,9 +5,15 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 35d63b7d-f35a-4a88-ae14-96724d32a931
-source-git-commit: beb2e35354d3da1fe6d22f4221e30ff0ccde3138
+TQID: https://experienceleague.adobe.com/gWxcD93bl5qrSNaMf1CJF4yoIUrAg6qUF8b-4RXLquQ
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a67cb189-a535-41f6-afa2-448f39c4759f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: 2631
 ht-degree: 9%
 
 ---
@@ -33,15 +39,15 @@ Esta guía utiliza varios términos técnicos, de Experience Platform y Customer
 | Término | Explicación |
 |---|---|
 | **Esquema** | Un [esquema](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) es un conjunto de reglas que representan y validan la estructura y el formato de los datos. En un nivel superior, los esquemas proporcionan una definición abstracta de un objeto del mundo real, como un evento que se produce en un sitio web, como un clic. Y esboce qué datos deben incluirse en cada instancia de ese objeto. |
-| **Conjunto de datos** | Un [conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview) es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Un conjunto de datos es como una tabla de base de datos en la que cada fila es un evento del sitio web. |
-| **Flujo de datos** | Un [conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview) representa la configuración del lado del servidor que enruta los datos de su sitio web al conjunto de datos correcto en Adobe Experience Platform. Un conjunto de datos actúa como una autopista de datos que conecta el sitio con el almacenamiento. |
-| **Etiquetas** | [Las etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home) en Experience Platform son la próxima generación de funcionalidades de administración de etiquetas de Adobe. Las etiquetas ofrecen a los clientes una alternativa sencilla para implementar y gestionar las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. En Content Analytics, el sistema de administración de etiquetas de Adobe le permite implementar código de seguimiento en su sitio web sin tener que editar todas las páginas de forma similar. La funcionalidad Etiquetas es similar a la funcionalidad que podría conocer de Google Tag Manager. |
+| **Conjunto de datos** | Un [conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Un conjunto de datos es como una tabla de base de datos en la que cada fila es un evento del sitio web. |
+| **Flujo de datos** | Un [conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) representa la configuración del lado del servidor que enruta los datos de su sitio web al conjunto de datos correcto en Adobe Experience Platform. Un conjunto de datos actúa como una autopista de datos que conecta el sitio con el almacenamiento. |
+| **Etiquetas** | [Las etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) en Experience Platform son la próxima generación de funcionalidades de administración de etiquetas de Adobe. Las etiquetas ofrecen a los clientes una alternativa sencilla para implementar y gestionar las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. En Content Analytics, el sistema de administración de etiquetas de Adobe le permite implementar código de seguimiento en su sitio web sin tener que editar todas las páginas de forma similar. La funcionalidad Etiquetas es similar a la funcionalidad que podría conocer de Google Tag Manager. |
 | **Zona protegida** | Experience Platform proporciona [zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home) que dividen una sola instancia de Experience Platform en entornos virtuales independientes para ayudar a desarrollar y evolucionar aplicaciones de experiencia digital. Content Analytics suele usar la zona protegida *Production*. |
-| **Conexión** | [Conexiones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/overview) definen qué conjuntos de datos de Experience Platform se incorporan. Las conexiones definen el vínculo entre el conjunto de datos (donde los datos se almacenan en AEP) y Customer Journey Analytics (donde los analiza). Una conexión hace que los datos recopilados estén disponibles para la creación de informes. |
+| **Conexión** | [Conexiones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview) definen qué conjuntos de datos de Experience Platform se incorporan. Las conexiones definen el vínculo entre el conjunto de datos (donde los datos se almacenan en AEP) y Customer Journey Analytics (donde los analiza). Una conexión hace que los datos recopilados estén disponibles para la creación de informes. |
 | **Vista de datos** | Una [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views) es un contenedor que le permite determinar cómo interpretar los datos de una conexión. Una vista de datos especifica todas las dimensiones y métricas sobre las que puede informar. Una vista de datos es como una configuración que determina las filas y columnas disponibles para su uso en el análisis. |
-| **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home) es una interfaz de explorador de arrastrar y soltar que se usa para generar los informes y análisis de Content Analytics. |
-| **Experiencia** | En Content Analytics, una [experiencia](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics#terminology) hace referencia a todo el contenido de texto de una página web que se puede capturar y analizar en función de la dirección URL de la página. |
-| **Recurso** | En Content Analytics, un [recurso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics#terminology) es un fragmento de contenido individual y único, como una imagen. |
+| **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) es una interfaz de explorador de arrastrar y soltar que se usa para generar los informes y análisis de Content Analytics. |
+| **Experiencia** | En Content Analytics, una [experiencia](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology) hace referencia a todo el contenido de texto de una página web que se puede capturar y analizar en función de la dirección URL de la página. |
+| **Recurso** | En Content Analytics, un [recurso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology) es un fragmento de contenido individual y único, como una imagen. |
 
 
 ## Resumen de configuración

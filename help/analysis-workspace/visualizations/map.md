@@ -4,10 +4,16 @@ title: Mapa
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+TQID: https://experienceleague.adobe.com/HFEY-P7m7s0Mukkzw-vWL7I5-WHSncEppX-basxJHGw
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 10%
+source-wordcount: 2815
+ht-degree: 11%
 
 ---
 
@@ -42,7 +48,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vea [Map](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +115,7 @@ A continuación se muestran las plantillas y la etiqueta de contexto necesaria. 
 | Regiones geográficas | [!UICONTROL Información geográfica: Región geográfica] |
 | Ciudades geográficas | [!UICONTROL Ciudad geográfica: Ciudad geográfica] |
 | Estados geográficos de EE. UU. | [!UICONTROL Geo: Geo State] |
-| DMA de EE. UU. geográfico | [!UICONTROL Geo: Geo Dma] |
+| DMA geográfica de EE. UU. | [!UICONTROL Geo: Geo Dma] |
 
 Para agregar estas etiquetas de contexto:
 
@@ -149,7 +155,7 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
 | Función | Customer Journey Analytics | Adobe Analytics |
 |---------|----------|---------|
-| Fuente de datos | Utilice cualquier segmento disponible en la vista de datos como fuente de datos. | Proporciona las siguientes opciones: <ul><li>Latitud/longitud móvil</li><li>Dimension geográfico<br/>Representa datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. </li></ul> |
+| Fuente de datos | Utilice cualquier segmento disponible en la vista de datos como fuente de datos. | Proporciona las siguientes opciones: <ul><li>Latitud y longitud en el mapa</li><li>Dimension geográfico<br/>Representa datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. </li></ul> |
 | Precisión | Para conjuntos de datos con precisión profunda, puede configurar las dimensiones en la vista de datos para mostrar hasta 5 decimales. Esto permite que la visualización del mapa sea precisa en un solo metro. <p>Para obtener más información, vea [Configurar ubicaciones precisas para las dimensiones](#configure-precise-locations-for-dimensions).</p> | Los datos son precisos para los niveles [!UICONTROL País], [!UICONTROL Región] y [!UICONTROL Ciudad]. (No se desciende al nivel del código postal ni DMA). |
 | Creación de segmentos a partir de una selección | Cree un segmento basado en un área específica que seleccione en la visualización de mapas. <p>Para obtener más información, consulte [Crear un segmento a partir de la visualización del mapa](#create-a-segment-from-the-map-visualization).</p> | Cree un segmento basado en los datos de los que se informa en la visualización de mapas en general. |
 | Crear una audiencia a partir de una selección | Cree una audiencia basada en un área específica que seleccione en la visualización de mapas. <p>Para obtener más información, consulte [Crear una audiencia a partir de la visualización del mapa](#create-an-audience-from-the-map-visualization). | No se puede crear una audiencia a partir de la visualización del mapa. |

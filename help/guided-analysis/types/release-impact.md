@@ -5,10 +5,15 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/2PKIwvFwCv5FiL7WgeJPksm74c8m5B4L33RZouD-t1o
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 99%
+source-wordcount: 545
+ht-degree: 97%
 
 ---
 
@@ -25,7 +30,7 @@ ht-degree: 99%
 
 El análisis del ![Versión](/help/assets/icons/Release.svg) **[!UICONTROL Impacto de la versión]** muestra una comparación del rendimiento de los indicadores clave antes y después de una fecha determinada. El eje horizontal de este informe es un intervalo de tiempo, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en el centro del gráfico representa la fecha que desea comparar antes y después. Esta fecha suele representar un cambio notable en el producto que desea medir, como una actualización del producto o el lanzamiento de una campaña.
 
->[!VIDEO](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
 
 ## Casos de uso
 
@@ -61,7 +66,7 @@ El análisis del [!UICONTROL Impacto de la versión] ofrece la siguiente configu
 La selección de fecha en el análisis del impacto funciona de forma diferente a otros análisis, ya que el informe gira en torno a la fecha especificada en el carril de la consulta. Las opciones disponibles son las siguientes:
 
 * **[!UICONTROL Intervalo]**: la granularidad de fecha por la que desea ver los datos de tendencias. Las opciones válidas incluyen [!UICONTROL Diario], [!UICONTROL Semanal], [!UICONTROL Mensual] y [!UICONTROL Trimestral]. Cambiar el intervalo afecta a las opciones disponibles para el periodo Antes y después.
-* **[!UICONTROL Antes y después del período]**: la cantidad de tiempo que se debe analizar antes y después de la fecha especificada en el carril de la consulta. Las opciones disponibles dependen de la selección de [!UICONTROL Intervalo].
+* **[!UICONTROL Antes y después del período]**: la cantidad de tiempo que se debe analizar antes y después de la fecha especificada en el carril de la consulta. Las opciones disponibles dependen de la selección [!UICONTROL Intervalo].
 
 
 <!--

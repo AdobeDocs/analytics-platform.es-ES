@@ -6,10 +6,15 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 973e999b611d578da12018e60becf48efd7a76f8
+TQID: https://experienceleague.adobe.com/9PqVAdD1FP8I5rNimNfSoUrVNOTmMAXaPgMMsYT8gGQ
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: c38ed341-fab2-46df-9d72-88d8166edebbid: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 51%
+source-wordcount: 838
+ht-degree: 50%
 
 ---
 
@@ -86,7 +91,7 @@ Para enviar un archivo según una programación a los destinatarios por correo e
 
 >[!NOTE]
 >
->La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de Customer Journey Analytics que hayan adquirido el producto de complemento [Healthcare Shield](https://business.adobe.com/es/solutions/industries/healthcare.html?lang=es).
+>La opción de proteger con contraseña un proyecto programado solo aparece para los clientes de Customer Journey Analytics que hayan adquirido el producto de complemento [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html?lang=es).
 
 Adobe utiliza la contraseña para cifrar proyectos programados, independientemente de si se envían en formato .pdf o .csv.
 
@@ -103,7 +108,7 @@ Los requisitos de contraseña cumplen con los estándares de Adobe y requieren u
 ### Proteger con contraseña un proyecto programado nuevo
 
 1. Una vez guardado el proyecto, vaya a **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo ahora]** o **[!UICONTROL Compartir]** > **[!UICONTROL Enviar archivo según lo programado]**.
-1. Siga las instrucciones anteriores, en [Enviar archivo ahora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=es#now) o [Enviar archivo según lo programado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=es#schedule).
+1. Siga las instrucciones anteriores, en [Enviar archivo ahora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) o [Enviar archivo según lo programado](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule).
 
 ### Proteger con contraseña un proyecto programado existente
 
@@ -111,7 +116,7 @@ Al proteger con contraseña un proyecto programado existente, el propietario del
 
 ![Notificación por correo electrónico de Customer Journey Analytics indicando que su organización necesita cifrado con contraseña.](assets/email-password.png)
 
-1. Inicie sesión en Customer Journey Analytics. 
+1. Inicie sesión en Customer Journey Analytics.
 1. Seleccione **[!UICONTROL Ver proyecto programado]**.
 1. En el diálogo **[!UICONTROL Editar proyecto programado]**, introduzca una contraseña y vuelva a introducirla.
 1. Informe a los destinatarios del proyecto programado sobre esta contraseña. No distribuya la contraseña a personas que no sean destinatarios del proyecto programado.

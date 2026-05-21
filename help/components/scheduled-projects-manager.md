@@ -4,9 +4,15 @@ title: Proyectos programados
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/MOIr6V7GnwTw8-luvhS14IrE7PKspoVOCRXYGBnAUxA
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: 794
 ht-degree: 41%
 
 ---
@@ -25,7 +31,7 @@ La lista Proyectos programados ➊ muestra columnas para:
 
 | Columna | Descripción |
 | --- | --- |
-| ![SeleccionarCuadro](/help/assets/icons/SelectBox.svg) | Cuando se seleccionan uno o más proyectos programados, aparece una barra de acciones azul en la parte inferior de la interfaz Proyectos programados. Consulte las [acciones](#actions) para obtener más información.  |
+| ![SeleccionarCuadro](/help/assets/icons/SelectBox.svg) | Cuando se seleccionan uno o más proyectos programados, aparece una barra de acciones azul en la parte inferior de la interfaz Proyectos programados. Consulte las [acciones](#actions) para obtener más información. |
 | ![Star](/help/assets/icons/Star.svg) | Seleccione para favorecer a ![Star](/help/assets/icons/Star.svg) o para anular el favor de ![StarOutline](/help/assets/icons/StarOutline.svg) en un proyecto programado. |
 | **[!UICONTROL ID de programación]** | ID que se utiliza principalmente con fines de depuración. |
 | **[!UICONTROL Nombre]** | Nombre de este proyecto.<br/>Seleccione ![EsquemaDeInformación](/help/assets/icons/InfoOutline.svg) para ver más detalles del proyecto programado.<br/>Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual. Desde este menú puede:<ul><li>![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** un proyecto programado.</li><li>![Etiquetas](/help/assets/icons/Labels.svg) **[!UICONTROL Etiquetar]** un proyecto programado.</li><li>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Apruebe]** un proyecto programado.</li><li>![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar CSV]**: exporte un proyecto programado a un archivo CSV.</li></ul> |
