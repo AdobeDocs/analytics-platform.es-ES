@@ -6,11 +6,19 @@ feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 role: Admin
 TQID: https://experienceleague.adobe.com/cyNvsdN-bSBY2VqCdxAZvWhyTx8--sOUMifbuYrZKTM
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1680
@@ -345,7 +353,7 @@ En la interfaz de usuario de Experience Platform, haga lo siguiente:
    1. (opcional) Escriba **[!UICONTROL Descripción]**.
    1. Seleccione **[!UICONTROL Finalizar]**.
 1. Configure el esquema para que contenga un grupo de campos personalizados (por ejemplo, **[!UICONTROL Pertenencia a la audiencia]**) que contenga dos campos llamados **[!UICONTROL audienceMembershipId]** y **[!UICONTROL audienceMembershipName]**.
-1. Asegúrese de que el campo **[!UICONTROL personID]** sea una **[!UICONTROL identidad]**, **[!UICONTROL identidad principal]** y que tenga **[!UICONTROL Correo electrónico]** como el área de nombres de ID**[!UICONTROL identidad]**.
+1. Asegúrese de que el campo **[!UICONTROL personID]** sea una **[!UICONTROL identidad]**, **[!UICONTROL identidad principal]** y que tenga **[!UICONTROL Correo electrónico]** como el área de nombres de ID&#x200B;**[!UICONTROL identidad]**.
 
    ![Segmento para exportación](assets/segment-for-export.png)
 

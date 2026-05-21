@@ -6,11 +6,23 @@ role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/7K973UjBfK9BFYOQUia-JDb5yc4uZWMOzqHXXRR1nwc
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: b21c7889-c659-4a99-a779-de1bae57e47eid: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b21c7889-c659-4a99-a779-de1bae57e47e
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2770
@@ -50,7 +62,7 @@ Un cuadro de resultados de Adobe Analytics muestra visualizaciones de datos clav
 
 Como revisor de este cuadro de resultados, puede utilizar el creador de cuadros de resultados para configurar los mosaicos que aparecerán en el cuadro de resultados de su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. La interfaz del creador de cuadros de resultados se muestra a continuación:
 
-![Generador de cuadros de resultados que muestra la nueva ventana de cuadro de resultados móvil. ](assets/scorecard_builder.png)
+![Generador de cuadros de resultados que muestra la nueva ventana de cuadro de resultados móvil. &#x200B;](assets/scorecard_builder.png)
 
 Para crear el cuadro de resultados, debe hacer lo siguiente:
 
@@ -85,7 +97,7 @@ Para implementar la plantilla del cuadro de resultados:
 
 1. Para añadir un nuevo mosaico a su cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
-   ![Nueva ventana de cuadro de resultados móvil con una flecha que señala a una métrica (Nuevo KPI) que se ha soltado en el cuadro de resultados. ](assets/build_list.png)
+   ![Nueva ventana de cuadro de resultados móvil con una flecha que señala a una métrica (Nuevo KPI) que se ha soltado en el cuadro de resultados. &#x200B;](assets/build_list.png)
 
 
 1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
