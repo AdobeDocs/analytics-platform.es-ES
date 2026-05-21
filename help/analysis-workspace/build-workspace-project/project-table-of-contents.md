@@ -55,4 +55,4 @@ Para ver la tabla de contenido de un proyecto:
 
 >[!MORELIKETHIS]
 >
->* [Simplificar la navegación del panel de control con la nueva función de tabla de contenido en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+>* [Simplificar la navegación del panel de control con la nueva función de tabla de contenido en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=es)
