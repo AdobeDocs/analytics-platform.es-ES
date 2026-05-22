@@ -5,25 +5,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
 TQID: https://experienceleague.adobe.com/oKewVodxYwDlnsuqGclK6ZYEmN-pXNqbc5ud6OkIUK4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: de8f8e06f074fdcb0219ce7286785d870c2093b4
 workflow-type: tm+mt
-source-wordcount: 599
-ht-degree: 22%
+source-wordcount: 589
+ht-degree: 23%
 
 ---
 
@@ -45,7 +35,9 @@ El Administrador de alertas tiene los siguientes elementos de interfaz:
 
 ### Lista de alertas
 
-La lista de alertas ➊ muestra todas las alertas que posee, las alertas cuyo ámbito se ha asignado a todos sus proyectos y las alertas que se han compartido con usted. La lista tiene las siguientes columnas:
+La lista de alertas ➊ muestra las alertas que ha creado. Si es administrador, verá todas las alertas.
+
+La lista tiene las siguientes columnas:
 
 | Columna | Descripción |
 |---|---|
@@ -54,7 +46,7 @@ La lista de alertas ➊ muestra todas las alertas que posee, las alertas cuyo á
 | **[!UICONTROL Tipo]** | Muestra si se trata de una alerta de datos de Customer Journey Analytics o de una alerta de uso de llamadas al servidor. |
 | **[!UICONTROL Habilitado]** | Indica si la alerta está habilitada o deshabilitada. |
 | **[!UICONTROL Vista de datos]** | Las vistas de datos a las que se aplica esta alerta. |
-| **[!UICONTROL Propietario]** | El propietario de la alerta. Si no es el administrador, solo verá las alertas que le pertenecen o que han compartido con usted. |
+| **[!UICONTROL Propietario]** | El propietario de la alerta. Si no es administrador, solo verá las alertas que le pertenecen. Un administrador puede ver todas las alertas. |
 | **[!UICONTROL Etiquetas]** | Las etiquetas de esta alerta. |
 | **[!UICONTROL Fecha de caducidad]** | La fecha y hora en que la alerta está configurada para caducar. |
 | **[!UICONTROL Fecha de modificación]** | La fecha y la hora de la última modificación de la alerta. |
