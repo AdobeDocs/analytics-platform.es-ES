@@ -22,9 +22,9 @@ subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: de8f8e06f074fdcb0219ce7286785d870c2093b4
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: 997
 ht-degree: 9%
 
 ---
@@ -51,6 +51,7 @@ Tenga en cuenta las siguientes implicaciones antes de eliminar conjuntos de dato
 
 | Acción | Implicaciones |
 | --- | --- |
+| Eliminar uno o más registros de un conjunto de datos en [!UICONTROL Experience Platform] | Los registros se eliminan de las conexiones de Customer Journey Analytics que tienen el conjunto de datos definido como parte de la configuración de conexión. |
 | Eliminar un conjunto de datos en [!UICONTROL Experience Platform] | El flujo de datos de ese conjunto de datos en Experience Platform se detiene en cualquier conexión que incluya ese conjunto de datos. Los datos de ese conjunto de datos no se eliminan automáticamente de las conexiones con Customer Journey Analytics asociadas. |
 | Eliminar un lote de un conjunto de datos en [!UICONTROL Experience Platform] | Si se elimina un lote de un conjunto de datos de [!UICONTROL Adobe Experience Platform], se eliminará el mismo lote de cualquier conexión de [!UICONTROL Customer Journey Analytics] que contenga ese lote específico. [!UICONTROL Customer Journey Analytics] recibirá una notificación de los lotes que se eliminaron en [!UICONTROL Adobe Experience Platform]. |
 | Eliminar un lote de [!UICONTROL Experience Platform] **mientras se está ingiriendo** en [!UICONTROL Customer Journey Analytics] | Si solo hay un lote en el conjunto de datos, no aparecerán datos ni datos parciales de dicho lote en [!UICONTROL Customer Journey Analytics]. La ingesta se revierte. Si, por ejemplo, hay 5 lotes en el conjunto de datos y 3 de ellos ya se han introducido cuando se eliminó el cuarto lote, los datos de esos 3 lotes aparecerán en [!UICONTROL Customer Journey Analytics]. |
