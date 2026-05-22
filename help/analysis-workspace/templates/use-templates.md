@@ -1067,7 +1067,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-landing-page"
 >title="Ver el comportamiento del usuario, los patrones de participación, las tasas de conversión y otras métricas clave."
->abstract="**Esto puede ayudarle** a comprender mejor la eficacia de su página de destino. <br/>**A partir de lo que aprenda, puede** hacer muchas cosas, como optimizar el rendimiento de su página de destino."
+>abstract="**Esto puede ayudarle** a comprender mejor la efectividad de su página de destino. <br/>**A partir de lo que aprenda, puede** hacer muchas cosas, como optimizar el rendimiento de su página de destino."
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-channel"
