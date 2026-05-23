@@ -16,10 +16,10 @@ subfeature_v2:
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 766
-ht-degree: 98%
+source-wordcount: 758
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,7 @@ Las funciones que aparecen en la parte superior de esta visualización indican q
 * Las funciones de la parte inferior izquierda de la matriz son las funciones de **bajo impacto**; no están muy extendidas ni se utilizan con frecuencia.
 * Las funciones de la parte inferior derecha de la matriz son las funciones **puntuales**; están bastante extendidas pero no se utilizan con frecuencia.
 
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de la participación](https://video.tv.adobe.com/v/3447470?captions=spa){target="_blank"} para ver un vídeo de demostración.
-
->[!ENDSHADEBOX]
+>[!VIDEO](https://video.tv.adobe.com/v/3447470/?captions=spa&quality=12&learn=on)
 
 ## Casos de uso
 
