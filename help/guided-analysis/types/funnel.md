@@ -6,24 +6,15 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 TQID: https://experienceleague.adobe.com/-AW7cK4fHNV58e539KKcqBx-pRpIpIRWcrS7CA9ZUYc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 98%
+source-wordcount: 685
+ht-degree: 100%
 
 ---
 
@@ -38,14 +29,9 @@ ht-degree: 98%
 
 <!-- markdownlint-enable MD034 -->
 
-El análisis ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Canal &#x200B;]**&#x200B;proporciona una representación visual de un recorrido de usuario esencial de su producto. El eje horizontal representa cada paso que debe atravesar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes.
+El análisis ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Canal ]**proporciona una representación visual de un recorrido de usuario esencial de su producto. El eje horizontal representa cada paso que debe atravesar un usuario. El eje vertical representa el porcentaje de usuarios o sesiones en cada paso. Todos los pasos deben realizarse en el orden previsto, pero pueden producirse en cualquier momento dentro de la ventana de creación de informes.
 
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [análisis de fricción de Funnel](https://video.tv.adobe.com/v/3431275/?captions=spa&quality=12&learn=onn){target="_blank"} para ver un vídeo de demostración.
-
->[!ENDSHADEBOX]
-
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on)
 
 ## Casos de uso
 
@@ -67,7 +53,7 @@ El carril de consulta permite configurar los siguientes componentes:
 
 * **[!UICONTROL Vista]**: cambie entre este análisis y [Tendencias de conversión](conversion-trends.md).
 * **[!UICONTROL Pasos]**: los puntos de contacto del evento que desea rastrear. Cada barra del gráfico representa un paso. Se pueden incluir hasta diez pasos.
-   * [!UICONTROL Comparación]: cada paso proporciona una opción para comparar varios eventos en un solo paso de canal y crear un “canal ramificado”. Esta función le permite comparar la fricción de dos recorridos en paralelo sin crear dos análisis independientes. Resulta útil cuando hay opciones de paso o cuando se está ejecutando un experimento A/B en el canal. Consulte [Canal](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) en los tutoriales de Customer Journey Analytics para ver un vídeo que explica cómo comparar canales.
+   * [!UICONTROL Comparación]: cada paso proporciona una opción para comparar varios eventos en un solo paso de canal y crear un “canal ramificado”. Esta función le permite comparar la fricción de dos recorridos en paralelo sin crear dos análisis independientes. Resulta útil cuando hay opciones de paso o cuando se está ejecutando un experimento A/B en el canal. Consulte [Canal](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) en los tutoriales de Customer Journey Analytics para ver un vídeo que explica cómo comparar canales.
 * **[!UICONTROL Contabilizado como]**: el ámbito que desea aplicar al canal. Las opciones incluyen [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
    * [!UICONTROL Sesiones]: todos los pasos deben realizarse dentro de la misma sesión para que se contabilicen.
    * [!UICONTROL Usuarios]: todos los pasos deben realizarse dentro de la ventana de creación de informes seleccionada para que se contabilicen.
