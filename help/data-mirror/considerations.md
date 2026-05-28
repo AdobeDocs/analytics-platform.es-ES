@@ -89,7 +89,7 @@ La diferencia entre la identidad principal y la clave principal introduce un mod
 
 ## Diferencias de gobernanza
 
-En XDM [schemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) y conceptos subyacentes como [grupos de campos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field) definido dentro de un grupo de campos propaga sus etiquetas en todos los conjuntos de datos donde se utiliza el grupo de campos. Por ejemplo, un campo de correo electrónico `emailID` en un grupo de campos `identities`, está etiquetado como el mismo en todos los conjuntos de datos donde se utiliza el grupo de campos `identities`.
+En XDM [schemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) y conceptos subyacentes como [grupos de campos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field) definido dentro de un grupo de campos propaga sus etiquetas en todos los conjuntos de datos donde se utiliza el grupo de campos. Por ejemplo, un campo de correo electrónico `emailID` en un grupo de campos `identities`, está etiquetado como el mismo en todos los conjuntos de datos donde se utiliza el grupo de campos `identities`.
 
 En un esquema relacional, un nombre de columna es independiente. Una columna denominada `email` de la tabla `customers` es independiente y distinta de una columna denominada `email` de la tabla `prospects`. Este comportamiento implica que las etiquetas (como las etiquetas de uso DULE y las políticas) deben aplicarse individualmente a los campos de los conjuntos de datos reflejados. En función del ejemplo anterior, debe aplicar etiquetas tanto al campo `email` del conjunto de datos `customers` como al campo `email` del conjunto de datos `prospects`.
 
@@ -110,9 +110,9 @@ Los esquemas relacionales tienen las siguientes consideraciones en relación con
 
 Las siguientes consideraciones se aplican a las claves y los campos del sistema:
 
-* La clave principal, el descriptor de versión y el descriptor de marca de tiempo deben ser campos de nivel raíz en el esquema XDM relacional. Use [asignación de campos](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante la ingesta para admitir este requisito.
-* Puede omitir los campos de origen apropiados durante la [fase de asignación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
+* La clave principal, el descriptor de versión y el descriptor de marca de tiempo deben ser campos de nivel raíz en el esquema XDM relacional. Use [asignación de campos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante la ingesta para admitir este requisito.
+* Puede omitir los campos de origen apropiados durante la [fase de asignación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
 
 ## Tamaño del lote de datos reflejados
 
-Para cualquier conjunto de datos reflejado que esté configurado como parte de una conexión, debe asegurarse de que cada uno de los lotes para introducir datos para el conjunto de datos reflejado no supere los 100 GB. Consulte las [protecciones para la ingesta por lotes](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"} para obtener más información.
+Para cualquier conjunto de datos reflejado que esté configurado como parte de una conexión, debe asegurarse de que cada uno de los lotes para introducir datos para el conjunto de datos reflejado no supere los 100 GB. Consulte las [protecciones para la ingesta por lotes](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"} para obtener más información.
