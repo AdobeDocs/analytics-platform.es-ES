@@ -7,22 +7,14 @@ role: Admin
 badgePremium: label="Beta"
 autotag-review: '2026-05-19T06:55:09.938Z'
 TQID: 'https://experienceleague.adobe.com/uZjXZUKUMeXLxxpTRrkCZrPsGhxseSxOtJ9X0ZjG5wU'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: bfef374d-acfd-4c57-bf74-a2b36053c545id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 889
 ht-degree: 1%
 
 ---
@@ -89,7 +81,7 @@ La diferencia entre la identidad principal y la clave principal introduce un mod
 
 ## Diferencias de gobernanza
 
-En XDM [schemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) y conceptos subyacentes como [grupos de campos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field) definido dentro de un grupo de campos propaga sus etiquetas en todos los conjuntos de datos donde se utiliza el grupo de campos. Por ejemplo, un campo de correo electrónico `emailID` en un grupo de campos `identities`, está etiquetado como el mismo en todos los conjuntos de datos donde se utiliza el grupo de campos `identities`.
+En XDM [schemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) y conceptos subyacentes como [grupos de campos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field) definido dentro de un grupo de campos propaga sus etiquetas en todos los conjuntos de datos donde se utiliza el grupo de campos. Por ejemplo, un campo de correo electrónico `emailID` en un grupo de campos `identities`, está etiquetado como el mismo en todos los conjuntos de datos donde se utiliza el grupo de campos `identities`.
 
 En un esquema relacional, un nombre de columna es independiente. Una columna denominada `email` de la tabla `customers` es independiente y distinta de una columna denominada `email` de la tabla `prospects`. Este comportamiento implica que las etiquetas (como las etiquetas de uso DULE y las políticas) deben aplicarse individualmente a los campos de los conjuntos de datos reflejados. En función del ejemplo anterior, debe aplicar etiquetas tanto al campo `email` del conjunto de datos `customers` como al campo `email` del conjunto de datos `prospects`.
 
@@ -110,5 +102,9 @@ Los esquemas relacionales tienen las siguientes consideraciones en relación con
 
 Las siguientes consideraciones se aplican a las claves y los campos del sistema:
 
-* La clave principal, el descriptor de versión y el descriptor de marca de tiempo deben ser campos de nivel raíz en el esquema XDM relacional. Use [asignación de campos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante la ingesta para admitir este requisito.
-* Puede omitir los campos de origen apropiados durante la [fase de asignación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
+* La clave principal, el descriptor de versión y el descriptor de marca de tiempo deben ser campos de nivel raíz en el esquema XDM relacional. Use [asignación de campos](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante la ingesta para admitir este requisito.
+* Puede omitir los campos de origen apropiados durante la [fase de asignación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
+
+## Tamaño del lote de datos reflejados
+
+Para cualquier conjunto de datos reflejado que esté configurado como parte de una conexión, debe asegurarse de que cada uno de los lotes para introducir datos para el conjunto de datos reflejado no supere los 100 GB. Consulte las [protecciones para la ingesta por lotes](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"} para obtener más información.
