@@ -20,9 +20,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 889
 ht-degree: 1%
 
 ---
@@ -112,3 +112,7 @@ Las siguientes consideraciones se aplican a las claves y los campos del sistema:
 
 * La clave principal, el descriptor de versión y el descriptor de marca de tiempo deben ser campos de nivel raíz en el esquema XDM relacional. Use [asignación de campos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante la ingesta para admitir este requisito.
 * Puede omitir los campos de origen apropiados durante la [fase de asignación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
+
+## Tamaño del lote de datos reflejados
+
+Para cualquier conjunto de datos reflejado que esté configurado como parte de una conexión, debe asegurarse de que cada uno de los lotes para introducir datos para el conjunto de datos reflejado no supere los 100 GB. Consulte las [protecciones para la ingesta por lotes](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"} para obtener más información.

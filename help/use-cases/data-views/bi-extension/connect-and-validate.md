@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 65ddb8af8bf2fdb45eaaef0ad5d824314c35087e
 workflow-type: tm+mt
-source-wordcount: 2021
+source-wordcount: 1963
 ht-degree: 10%
 
 ---
@@ -120,7 +120,7 @@ Power BI Desktop admite los siguientes escenarios para el parámetro `FLATTEN`. 
       ![Credenciales del servicio de consulta](../assets/queryservice-credentials.png)
 
 1. Inicie Tableau.
-   1. Seleccione **[!UICONTROL PostgreSQL]** del carril izquierdo debajo de **[!UICONTROL A un servidor]**. Si no está disponible, seleccione **[!UICONTROL Más...]** y seleccione **[!UICONTROL PostgreSQL]** de los **[!UICONTROL Conectores instalados]**.
+   1. Seleccione **[!UICONTROL PostgreSQL]** del carril izquierdo debajo de **[!UICONTROL A un servidor]**. Si no está disponible, seleccione **[!UICONTROL Más...]** y **[!UICONTROL PostgreSQL]** de los **[!UICONTROL Conectores instalados]**.
       ![Conectores Tableau](../assets/tableau-connectors.png)
    1. En el cuadro de diálogo **[!UICONTROL PostgreSQL]**, en la ficha **[!UICONTROL General]**:
       ![Cuadro de diálogo de inicio de sesión en Tableau](../assets/tableau-signin.png)
@@ -355,7 +355,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 
 1. Inicie RStudio.
 1. Cree un nuevo archivo R Markdown o descargue [este archivo R markdown de ejemplo](../assets/BI-Extension.Rmd.zip).
-1. En su primer fragmento, escriba las siguientes instrucciones entre ` ` ``{r} ` y ` `` ` `. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar valores del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en los valores necesarios para los distintos parámetros, como `host`, `dbname` y `user`. Por ejemplo:
+1. En el primer fragmento, introduzca las siguientes instrucciones. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar valores del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en los valores necesarios para los distintos parámetros, como `host`, `dbname` y `user`. Por ejemplo:
 
    ```R
    library(rstudioapi)
@@ -376,7 +376,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 
    ![Paso de configuración de RStudio 1](../assets/rstudio-config-step1.png)
 
-1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ` `` {r} ` y ` `` ` `.
+1. Cree un nuevo fragmento e introduzca las siguientes instrucciones.
 
    ```R
    con <- dbConnect(
@@ -393,7 +393,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 1. Ejecuta el fragmento. No debería ver ninguna salida si la conexión se ha realizado correctamente.
 
 
-1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ` `` {r} ` y ` `` ` `.
+1. Cree un nuevo fragmento e introduzca las siguientes instrucciones.
 
    ```R
    views <- dbListTables(con)
@@ -403,7 +403,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
 1. Ejecuta el fragmento. Debería ver `character(0)` como el único resultado.
 
 
-1. Cree un nuevo fragmento e introduzca las siguientes instrucciones entre ` ` `` {r} ` y ` `` ` `.
+1. Cree un nuevo fragmento e introduzca las siguientes instrucciones.
 
    ```R
    glimpse(dv)

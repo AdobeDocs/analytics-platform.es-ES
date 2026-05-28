@@ -26,24 +26,24 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
 workflow-type: tm+mt
 source-wordcount: 2441
 ht-degree: 9%
 
 ---
 
-# Protecciones de Customer Journey Analytics
+# protecciones de Customer Journey Analytics
 
-Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics-b2b.html).
+Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [Descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [Descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [Descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics-b2b.html).
 
 ## Tipos de límite
 
 Existen dos tipos de límites predeterminados en este documento:
 
-| Tipo de protección | Descripción |
+| tipo de protección | Descripción |
 |----------|---------|
-| **Protecciones de rendimiento (límite flexible)** | Las protecciones de rendimiento son límites de uso relacionados con el ámbito de los casos de uso. Al superar las protecciones de rendimiento, puede experimentar una degradación y latencia del rendimiento. Adobe no es responsable de esta degradación del rendimiento. Los clientes que superen de forma consistente una protección de rendimiento pueden optar por licenciar la capacidad adicional para evitar la degradación del rendimiento. |
+| **Protecciones de rendimiento (límite flexible)** | Las protecciones de rendimiento son límites de uso relacionados con el ámbito de los casos de uso. Al superar las barreras de rendimiento, puede experimentar una degradación y latencia del rendimiento. Adobe no es responsable de esta degradación del rendimiento. Los clientes que exceden de manera consistente una protección de rendimiento pueden optar por licenciar capacidad adicional para evitar la degradación del rendimiento. |
 | **Protecciones impuestas por el sistema (límite estricto)** | La interfaz de usuario o la API de Customer Journey Analytics aplican las protecciones impuestas por el sistema. Estos son límites que no se pueden superar, ya que la interfaz de usuario y la API le impiden hacerlo o devuelven un error. |
 
 {style="table-layout:auto"}
@@ -86,7 +86,7 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 {style="table-layout:auto"}
 
 
-<!-- at flatview GA, add: - Dimension columns per freeform table - 5 - System-enforced Guardrail - Maximum number of dimensions per freeform table. -->
+<!-- at flatview GA, add: - Dimension columns per freeform table - 5 - System-enforced guardrail - Maximum number of dimensions per freeform table. -->
 
 <!--
 
@@ -154,9 +154,9 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 | Campos | 10.000 | Protección impuesta por el sistema | Número máximo de propiedades o campos por fila en un conjunto de datos. |
 | Cadenas únicas | 10 millones - 1 mil millones | Protección impuesta por el sistema | Número máximo de claves únicas por conjunto de datos de búsqueda. Depende del paquete de Customer Journey Analytics (consulte la Descripción del producto).<ul><li>Fundación: 10 millones.</li><li>Seleccione: 100 millones.</li><li>Prime: 250 millones.</li><li>Ultimate: 1.000 millones</li><ul> |
 | Filas por persona | 1 millón | Protección impuesta por el sistema | Número máximo de filas por ID de persona único en un mes determinado dentro de una conexión. |
-| Filas por día | 2.500 millones | Seguridad de rendimiento | Número promedio máximo de filas por día en una conexión. |
-| Filas por conexión y año | Varía según el centro de datos asignado (consulte la descripción para obtener más información) | Seguridad de rendimiento | Límite de filas por año en una conexión. Los límites que se enumeran a continuación entrarán en vigor el 20 de enero de 2026 y pueden aumentar con el tiempo para permitir más filas por conexión. <p>El límite de filas varía según el centro de datos asignado, de la siguiente manera:</p><ul><li>**EE. UU. Azure (predeterminado para clientes de EE. UU.)**: aproximadamente 500 000 millones (aproximadamente 42 000 millones al mes)</li><li>**EE. UU. AWS (disponible a petición para clientes de EE. UU.)**: aproximadamente 30 000 millones (unos 2500 millones al mes)</li><li>**Amsterdam**: aproximadamente 200 mil millones (alrededor de 16,5 mil millones por mes)</li><li>**Todos los demás centros de datos**: 25 mil millones (aproximadamente 2 mil millones por mes)</li></ul><p>Si espera superar estos límites y desea evitar problemas de degradación del rendimiento, póngase en contacto con el equipo de su cuenta de Adobe para discutir configuraciones alternativas.</p><p>Las organizaciones pueden elegir su centro de datos cuando implementen inicialmente AEP+Aplicaciones. Esta decisión se basa generalmente en los requisitos de residencia de datos de cada cliente. Todos los casos de uso de AEP + Aplicaciones (no solo los volúmenes de fila en Customer Journey Analytics) deben tenerse en cuenta al elegir un centro de datos.</p><p>Para obtener información sobre cómo ver a qué centro de datos está asignado, consulte [ubicaciones de alojamiento de Customer Journey Analytics](/help/technotes/data-centers.md).</p> |
-| Tamaño de fila | 2 | Protección de rendimiento / Protección impuesta por el sistema | Tamaño promedio en kilobytes por fila de datos introducidos en Customer Journey Analytics (límite flexible). Las protecciones determinan un límite estático para el tamaño de fila para la ingesta de datos en Experience Platform. |
+| Filas por día | 2.500 millones | Protección de rendimiento | Número promedio máximo de filas por día en una conexión. |
+| Filas por conexión y año | Varía según el centro de datos asignado (consulte la descripción para obtener más información) | Protección de rendimiento | Límite de filas por año en una conexión. Los límites que se enumeran a continuación entrarán en vigor el 20 de enero de 2026 y pueden aumentar con el tiempo para permitir más filas por conexión. <p>El límite de filas varía según el centro de datos asignado, de la siguiente manera:</p><ul><li>**EE. UU. Azure (predeterminado para clientes de EE. UU.)**: aproximadamente 500 000 millones (aproximadamente 42 000 millones al mes)</li><li>**EE. UU. AWS (disponible a petición para clientes de EE. UU.)**: aproximadamente 30 000 millones (unos 2500 millones al mes)</li><li>**Amsterdam**: aproximadamente 200 mil millones (alrededor de 16,5 mil millones por mes)</li><li>**Todos los demás centros de datos**: 25 mil millones (aproximadamente 2 mil millones por mes)</li></ul><p>Si espera superar estos límites y desea evitar problemas de degradación del rendimiento, póngase en contacto con el equipo de su cuenta de Adobe para discutir configuraciones alternativas.</p><p>Las organizaciones pueden elegir su centro de datos cuando implementen inicialmente AEP+Aplicaciones. Esta decisión se basa generalmente en los requisitos de residencia de datos de cada cliente. Todos los casos de uso de AEP + Aplicaciones (no solo los volúmenes de fila en Customer Journey Analytics) deben tenerse en cuenta al elegir un centro de datos.</p><p>Para obtener información sobre cómo ver a qué centro de datos está asignado, consulte [ubicaciones de alojamiento de Customer Journey Analytics](/help/technotes/data-centers.md).</p> |
+| Tamaño de fila | 2 | Protección de rendimiento / Protección reforzada por el sistema | Tamaño promedio en kilobytes por fila de datos introducidos en Customer Journey Analytics (límite flexible). Un límite estático para el tamaño de fila viene determinado por las protecciones para la ingesta de datos en Experience Platform. |
 
 {style="table-layout:auto"}
 
@@ -167,8 +167,8 @@ Consulte también [Protecciones de Experience Platform para la ingesta de datos]
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Exportación de datos | Almacenamiento total autorizado de Data Lake | Seguridad de rendimiento | El cliente puede utilizar la exportación del conjunto de datos de destino para exportar los datos del cliente en el lago de datos hasta el almacenamiento total autorizado del lago de datos. |
-| Conjuntos de datos disponibles | Perfil y evento | Protección forzada del sistema | Conjuntos de datos de evento, perfil o búsqueda creados en la interfaz de usuario de Experience Platform después de ingerir o recopilar datos a través de fuentes, SDK web, SDK móvil, Conector de datos de Analytics y Audience Manager. |
+| Exportación de datos | Almacenamiento total autorizado de Data Lake | Protección de rendimiento | El cliente puede utilizar la exportación del conjunto de datos de destino para exportar los datos del cliente en el lago de datos hasta el almacenamiento total autorizado del lago de datos. |
+| Conjuntos de datos disponibles | Perfil y evento | Protección impuesta por el sistema | Conjuntos de datos de evento, perfil o búsqueda creados en la interfaz de usuario de Experience Platform después de ingerir o recopilar datos a través de fuentes, SDK web, SDK móvil, Conector de datos de Analytics y Audience Manager. |
 
 {style="table-layout:auto"}
 
@@ -279,7 +279,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
-| Filas portátiles del Perfil de persona de negocios (BPP) | 1 millón | Seguridad de rendimiento | Promedio de filas notificables por 1000 perfiles notificables de personas de negocios. |
+| Filas portátiles del Perfil de persona de negocios (BPP) | 1 millón | Protección de rendimiento | Promedio de filas notificables por 1000 perfiles notificables de personas de negocios. |
 
 
 
