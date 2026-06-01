@@ -93,13 +93,13 @@ Para verificar esta estrategia de ID, debe ejecutar un programa piloto de vincul
 
 +++Asignar campos de datos de origen de Marketo a sus destinos XDM
 
-Asigne los objetos [Personas](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
+Asigne los objetos [Personas](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) y [Actividades](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) a sus respectivos campos de destino de esquema XDM.
 
 +++
 
 +++Ingesta de datos de Marketo en Adobe Experience Platform
 
-Use el [conector de Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones de Experience Platform.
+Use el [conector de Marketo Engage](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) para llevar los datos de Marketo a Experience Platform y mantenerlos actualizados mediante aplicaciones de Experience Platform.
 
 +++
 
