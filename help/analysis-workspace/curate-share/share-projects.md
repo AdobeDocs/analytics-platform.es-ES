@@ -28,7 +28,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: 2181
+source-wordcount: 2168
 ht-degree: 89%
 
 ---
@@ -102,8 +102,8 @@ Para compartir una función de proyecto específica con usuarios o grupos de su 
 
    O bien
 
-   Para compartir solo un proyecto individual, puede abrir el proyecto que desee compartir y, a continuación, seleccionar **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios del espacio de trabajo]**.
-Si hay cambios no guardados, se le pedirá que guarde primero el proyecto.
+   Para compartir solo un proyecto individual, puede abrir el proyecto que desee compartir y, a continuación, seleccionar **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**.
+Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
 
    Se muestra el cuadro de diálogo Compartir proyecto. Las secciones [!UICONTROL **Compartir por vínculo**] y [!UICONTROL **Configuración**] del cuadro de diálogo solo son visibles cuando se comparte un único proyecto.
 
@@ -153,7 +153,7 @@ Para compartir el vínculo del proyecto con los usuarios de su organización, ha
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
 >title="Requerir autenticación de CX Enterprise"
->abstract="Su organización requiere que los usuarios inicien sesión en CX Enterprise para utilizar este vínculo."
+>abstract="Su organización requiere que los usuarios inicien sesión en CX Enterprise para poder usar este vínculo."
 
 
 Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/view-only-projects.md) a proyectos de Analysis Workspace a las personas que no tienen acceso a Customer Journey Analytics. Este acceso concedido puede incluir lo siguiente:
