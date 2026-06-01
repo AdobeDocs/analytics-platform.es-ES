@@ -26,10 +26,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: b4547b6c48adb97f6749ef54147f369632c44fa9
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 4%
+source-wordcount: 496
+ht-degree: 3%
 
 ---
 
@@ -61,6 +61,13 @@ Consulte también la [documentación de Experience Platform en Data Mirror](http
 >
 >Data Mirror es una característica actualmente en fase beta que admite la sincronización de datos de almacenes de datos seleccionados mediante la captura de datos modificados (CDC) para su análisis en Customer Journey Analytics.<br/>Esta característica estará disponible para el público general en Customer Journey Analytics el 18 de junio de 2026. Consulte la Descripción del producto aplicable para comprender cómo podría afectar al consumo límite de ingesta anual a partir de ahora. Tenga en cuenta que su organización seguirá teniendo acceso a la función cuando Data Mirror pase de la versión beta a la versión de disponibilidad general.
 >
+
+>[!IMPORTANT]
+>
+>Los conjuntos de datos de captura de datos modificados que cree en Experience Platform para Data Mirror for Customer Journey Analytics no deben reutilizarse en otras soluciones de Experience Platform como Real-Time Customer Data Platform o Journey Optimizer. Si desea utilizar los mismos datos para estas soluciones, considere la posibilidad de crear conjuntos de datos alternativos con los mismos datos.
+>
+
+
 
 Experience Platform Data Mirror para Customer Journey Analytics está disponible para las soluciones nativas seleccionadas del Data Warehouse ([!DNL Azure Databricks], [!DNL Google BigQuery] y [!DNL Snowflake]). La versión de Customer Journey Analytics de Experience Platform Data Mirror requiere la configuración adecuada de las siguientes aplicaciones o componentes:
 
