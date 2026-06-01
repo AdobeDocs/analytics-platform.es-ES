@@ -6,31 +6,15 @@ exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 TQID: https://experienceleague.adobe.com/5rXDQ-Ygp3TrEMbpK1UaUcRwSrc81VkUKauxth4-AUs
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e634a07b-b7ca-4af3-a124-3024ce559e17
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
 source-wordcount: 4356
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -70,7 +54,7 @@ Las preferencias generales se aplican a su experiencia de Customer Journey Analy
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="Requerir autenticación de CX Enterprise"
->abstract="Cuando está habilitada, las personas a las que se les da acceso a un proyecto desde la opción **[!UICONTROL Compartir con cualquiera]** de Analysis Workspace deben autenticarse con sus credenciales de CX Enterprise."
+>abstract="Cuando está habilitada, las personas que tienen acceso a un proyecto desde la opción **[!UICONTROL Compartir con cualquiera]** de Analysis Workspace deben autenticarse mediante sus credenciales de CX Enterprise."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -115,7 +99,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -123,7 +107,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
 | **Mostrar** | | |
-|  | [Ver densidad](/help/analysis-workspace/build-workspace-project/view-density.md) | Elige cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacta</li><li>Cómoda</li><li>Expandido (predeterminado)</li></ul> |
+|  | [Ver densidad](/help/analysis-workspace/build-workspace-project/view-density.md) | Elige cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacto</li><li>Cómodo</li><li>Expandido (predeterminado)</li></ul> |
 | | [Paleta de color](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Elija las paletas de colores de visualización que se utilizan en Analysis Workspace y en análisis guiado. <ul><li> Paleta categórica: se aplica a muchas visualizaciones de Analysis Workspace y al análisis guiado. Cada color representa un valor categórico distinto. Elija entre las opciones que proporciona Adobe o introduzca una paleta personalizada definida por valores hexadecimales delimitados por comas.</li><li> Paleta divergente: se aplica a la tabla de cohortes en Analysis Workspace y al análisis guiado de crecimiento de usuarios. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio.<li> Paleta secuencial: se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro.</li></ul> |
 | **Datos** | | |
 |  | [Vista de datos](/help/analysis-workspace/c-panels/panels.md#data-view) | Elige desde dónde las tablas y las visualizaciones obtienen sus datos. <ul><li>Más reciente (predeterminado)</li><li>Vista de datos específicos seleccionados de una lista</li></ul> |
@@ -131,7 +115,7 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 |  | [Tipo de panel](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>Improvisado (predeterminado)</li><li>En blanco</li><li>Acceso rápido a información</li></ul> |
 |  | Recuento de instancias | Habilitar [!UICONTROL Contar instancias repetidas] para especificar si se cuentan las instancias en los informes. Por ejemplo, cuando se habilita, varias vistas de página consecutivas a la misma página se tratan como varias vistas de página. Cuando está desactivado, varias vistas de página consecutivas a la misma página cuentan como una sola vista de página. <p>**Nota:** Esta configuración solo afecta a determinadas métricas (como Sesiones) y no se aplica a Flujo o Visualizaciones de flujo.</p> |
 |  | Formato de número | <ul><li>1.000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
-|  | Carácter separador de CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Canalización</li><li>Período</li><li>Espacio</li><li>Tabulación</li></ul> |
+|  | Carácter separador de CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Barra vertical</li><li>Periodo</li><li>Espacio</li><li>Tabulación</li></ul> |
 |  | Mostrar anotaciones | Elija si las anotaciones estarán visibles en los proyectos. Para obtener más información sobre las anotaciones, consulte la [Información general sobre anotaciones](/help/components/annotations/overview.md). |
 
 
@@ -163,7 +147,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
 | **Tabla** | | |
-| | Tipo de tabla | <ul><li>Forma libre</li><li>Generador de tablas</li></ul> |
+| | Tipo de tabla | <ul><li>De forma libre</li><li>Generador de tablas</li></ul> |
 | | Métrica predeterminada de la tabla | <ul><li>Eventos</li><li>Sesiones</li><li>Personas</li></ul> |
 | | Dimensión predeterminada de tabla | Elija entre Minuto, Hora, Día, Semana, Mes, Trimestre o Año. |
 | | Alinear fechas | Seleccione esta opción para alinear fechas de cada columna con todas a partir de la misma fila. |
@@ -252,7 +236,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Mostrar minigráficos | Se muestran u ocultan gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas. |
 | | Mostrar máx. y mín. en los reflectores | Se muestran valores mínimos y máximos en gráficos de líneas principales y de comparación. |
 | | Mostrar comparación | Se muestran datos de comparación. Cuando están ocultos, el gráfico de líneas de comparación y los objetos de cambio de resumen no se ven. |
-| | Opciones de valor numérico | En la sección [!UICONTROL **Resumen de métricas clave**] <ul><li>Mostrar cambio en el porcentaje</li><li>Mostrar diferencia en bruto</li>Diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario</ul> |
+| | Opciones de valor numérico | En la sección [!UICONTROL **Resumen de métricas clave**] <ul><li>Mostrar cambio de porcentaje</li><li>Mostrar diferencia en bruto</li>Diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario</ul> |
 | **[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
 | | Contenedor | Seleccione un contenedor preferido para analizar las rutas. El contenedor preferido le ayuda a comprender la participación de la cuenta en varios niveles de contenedor B2B [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, la participación de la persona en el nivel de persona (entre sesiones) o a restringir el análisis a una sola sesión. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Cuentas globales [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>Cuentas [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>Grupos de compra [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>Oportunidades [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>Sesión</li><li>Persona</li></ul> |
 | **[Flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
@@ -268,9 +252,9 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. <p>Para obtener más información, consulte [Barra y barra apilada](/help/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histograma](/help/analysis-workspace/visualizations/histogram.md)** | | |
 | | Número de contenedores | Elija el número de intervalos de fechas (contenedores) en la visualización. El número máximo de contenedores es 50. <p>Para obtener más información, consulte [Histograma](/help/analysis-workspace/visualizations/histogram.md).</p> |
-| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Acción</li><li>Sesión</li><li>Persona</li></ul> <p>Por ejemplo, cuando se usa junto con las vistas de página, puede elegir las vistas de página por persona, las vistas de página por visita o por evento. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
+| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Sesión</li><li>Persona</li></ul> <p>Por ejemplo, cuando se usa junto con las vistas de página, puede elegir las vistas de página por persona, las vistas de página por visita o por evento. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
 | **[Cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | Valor | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Cambio en el porcentaje</li><li>Diferencia en bruto</li></ul> |
+| | Valor | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Cambio porcentual</li><li>Diferencia en bruto</li></ul> |
 | | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Cambio de resumen. |
 | | Leyenda visible | Permite ocultar el texto de leyenda detallado para la visualización de Cambio de resumen. |
 | **[Número de resumen](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
