@@ -24,7 +24,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3b6264a1e159632e5a3246554c055488cfc6b39b
+source-git-commit: 632179a04d3fa05943ff1cc15c3670e7a81b3ea2
 workflow-type: tm+mt
 source-wordcount: 5863
 ht-degree: 93%
@@ -485,7 +485,7 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >abstract="Número total de inicios de medios mensuales disponibles durante los últimos 13 meses del mes actual, con una variación porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de inicios de medios disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024."
 
 >[!CONTEXTUALHELP]
->id="△△ "
+>id="connections_breakdown_monthlymediastarts"
 >title="Inicios de medios mensuales"
 >abstract="Los inicios de medios mensuales son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Si un cliente selecciona de enero a marzo, los valores reflejarán la instantánea de marzo."
 
