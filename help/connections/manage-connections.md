@@ -24,9 +24,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4882eaa340d1139b8f93affb645219c999d293f0
+source-git-commit: 3b6264a1e159632e5a3246554c055488cfc6b39b
 workflow-type: tm+mt
-source-wordcount: 5865
+source-wordcount: 5863
 ht-degree: 93%
 
 ---
@@ -62,8 +62,8 @@ Una vez que haya [creado o editado una o más conexiones](/help/connections/crea
 
 La interfaz **[!UICONTROL Lista]** es la interfaz predeterminada para Conexiones. Si no está seleccionada, seleccione la pestaña **[!UICONTROL Lista]** para tener acceso a la interfaz.
 
-La interfaz **[!UICONTROL Lista]** muestra una tabla de todas las conexiones disponibles.
-
+La interfaz **[!UICONTROL List]** muestra una tabla de todas las conexiones disponibles.
+△
 ![vista de lista](assets/list-view.png)
 
 En la tabla están disponibles las siguientes columnas o iconos.
@@ -434,7 +434,7 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 
 
 >[!CONTEXTUALHELP]
->id="connections_extendeddatacapacitiyrows"
+>id="connections_extendeddatacapacityrows"
 >title="Filas de capacidad de datos extendidas"
 >abstract="El número total de filas disponibles durante un período anterior a 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento anterior a enero de 2023."
 
@@ -460,7 +460,7 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 
 
 >[!CONTEXTUALHELP]
->id="connections_b2b_correportablebpp"
+>id="connections_b2b_coreportablebpp"
 >title="Filas reportables del perfil del profesional principal"
 >abstract="Número total de filas del perfil empresarial disponibles durante los últimos 13 meses del mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de eventos de enero de 2023 a enero de 2024."
 
