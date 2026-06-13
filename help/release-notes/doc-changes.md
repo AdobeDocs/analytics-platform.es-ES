@@ -6,36 +6,14 @@ solution: Customer Journey Analytics
 feature: Release Notes
 autotag-review: '2026-05-19T11:00:09.733Z'
 TQID: 'https://experienceleague.adobe.com/hHcvSYqGtYuKbPLvtu2qALBNLA0cogWxEUYxu-ktUvM'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: e634a07b-b7ca-4af3-a124-3024ce559e17id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5eid: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 50c7bb7b18b45b5ffac0eebacca2bb0d2ed0c28d
 workflow-type: tm+mt
-source-wordcount: 6915
+source-wordcount: 6944
 ht-degree: 94%
 
 ---
@@ -49,6 +27,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 |---|---|
+| **Junio de 2026** | |
+| Nueva guía de GA4 | Se ha agregado [transición de Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **Mayo de 2026** | |
 | Biblioteca JavaScript para Content Analytics | Documentación sobre cómo implementar Content Analytics para el canal web mediante la [biblioteca JavaScript de Content Analytics](/help/content-analytics/config/tags-agnostic.md) sin requerir etiquetas de recopilación de datos de Experience Platform. |
 | Consideraciones de Data Mirror | [Documentación](/help/data-mirror/considerations.md) que describe los factores que debe tener en cuenta al configurar [conjuntos de datos de Data Mirror](/help/data-mirror/data-mirror.md). |
@@ -83,7 +63,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Configuración de la atribución | Actualizaciones adicionales para reflejar las nuevas opciones de configuración de atribución del modelo, el contenedor y la ventana de retrospección. |
 | Ingesta y uso de públicos de Experience Platform | Se ha actualizado el artículo de caso de uso sobre cómo [ingerir y usar audiencias de Experience Platform](/help/use-cases/data-ingestion/ingest-aep-segments.md). |
 | Prepare su organización para actualizar a Customer Journey Analytics | Se agregó información sobre cómo [preparar una organización para actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md). |
-| Informe sobre el tráfico generado por LLM e IA | Se agregó [artículo de caso de uso](/help/use-cases/data-views/derived-fields/ai-traffic.md) sobre cómo informar sobre tráfico generado por LLM e IA partiendo de campos derivados. El artículo está basado en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM e IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=es). |
+| Informe sobre el tráfico generado por LLM e IA | Se agregó [artículo de caso de uso](/help/use-cases/data-views/derived-fields/ai-traffic.md) sobre cómo informar sobre tráfico generado por LLM e IA partiendo de campos derivados. El artículo está basado en el artículo de blog [Seguimiento y análisis del tráfico generado por LLM e IA en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967). |
 | **Septiembre de 2025** | |
 | Fechas anteriores a 1900 | Se añadió una [nota](/help/connections/create-connection.md#datasets) sobre cómo Customer Journey Analytics administra las fechas anteriores a 1900. |
 | Creación de informes en tiempo real | Se ha agregado documentación sobre la [creación de informes en tiempo real](/help/components/real-time/real-time.md) en Customer Journey Analytics. |
@@ -270,7 +250,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Febrero de 2023** | |
 | Comparar soluciones de Customer Journey Analytics con las soluciones de BI | Nuevo documento sobre una [comparación](../getting-started/cja-vs-bi.md) de Customer Journey Analytics con las soluciones típicas de BI. |
 | Actualización de la documentación de Audiences | Nueva sección sobre [consideraciones de latencia](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency). |
-| Actualización de la documentación de Audiences | Después de crear un público, Adobe crea un segmento de streaming de Experience Platform [&#x200B; para cada nuevo público de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#after-audience-created). |
+| Actualización de la documentación de Audiences | Después de crear un público, Adobe crea un segmento de streaming de Experience Platform [ para cada nuevo público de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#after-audience-created). |
 | Calendarios e intervalos de fechas del Espacio de trabajo | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la IU del calendario. Consulte [Acerca de los intervalos de fechas relativos del panel](/help/components/date-ranges/overview.md#custom-date-ranges). |
 | Cuadros de resultados móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/mobile-app/create-scorecard.md#show-comparison-dates) en Customer Journey Analytics. |
 | **Enero de 2023** | |
@@ -292,7 +272,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Diciembre de 2022** |  |
 | 16 de diciembre de 2022 | Nuevo tema sobre la [administración del uso de los datos de Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Octubre de 2022** | |
-| Octubre de 2022 | Tema nuevo en [protección de contraseña de proyectos programados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=es#password). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html?lang?=es). |
+| Octubre de 2022 | Tema nuevo en [protección de contraseña de proyectos programados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html?lang?=es). |
 | Octubre de 2022 | Tema nuevo en [Claves administradas por el cliente](/help/privacy/cmk.md). Esta función es compatible con [Preparación para HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html?lang?=es). |
 | Octubre de 2022 | Tema nuevo sobre [Registro de auditoría de Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Octubre de 2022 | Tema nuevo sobre la visualización [Resumen de métricas clave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=es). |
@@ -360,7 +340,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Septiembre de 2021 | Documentación de [Calendarios de clientes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#calendar) |
 | Septiembre de 2021 | Documentación de [Campos booleanos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=es) |
 | Septiembre de 2021 | Se ha desglosado la configuración de componentes en vistas de datos en archivos individuales:<ul><li>Información general sobre la configuración de [[!UICONTROL componentes]](/help/data-views/component-settings/overview.md)</li><li>Configuración de componentes de [[!UICONTROL atribución]](/help/data-views/component-settings/attribution.md)</li><li>Configuración de los componentes de [[!UICONTROL comportamiento]](/help/data-views/component-settings/behavior.md)</li><li>Configuración de componentes de [[!UICONTROL formato]](/help/data-views/component-settings/format.md)</li><li>Configuración de componentes de [[!UICONTROL Incluir/excluir]](/help/data-views/component-settings/include-exclude-values.md)</li><li>Configuración de componentes de [[!UICONTROL anulación de deduplicación de métricas]](/help/data-views/component-settings/metric-deduplication.md)</li><li>Sin configuración de componentes de [[!UICONTROL valor]](/help/data-views/component-settings/no-value-options.md)</li><li>Configuración de componentes de [[!UICONTROL persistencia]](/help/data-views/component-settings/persistence.md)</li><li>Configuración de componentes de [[!UICONTROL bloque de valores]](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
-| Septiembre de 2021 | Nueva sección sobre las [implicaciones de la combinación de grupos de informes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=es#6.-considerations-when-merging-report-suites-in-cja) en Customer Journey Analytics. |
+| Septiembre de 2021 | Nueva sección sobre las [implicaciones de la combinación de grupos de informes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#6.-considerations-when-merging-report-suites-in-cja) en Customer Journey Analytics. |
 | **Agosto de 2021** | |
 | Agosto de 2021 | Nueva sección sobre la experiencia de [Conexiones](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=es) mejorada en Customer Journey Analytics. |
 | Agosto de 2021 | Nueva sección sobre la [distinción entre mayúsculas y minúsculas en las dimensiones de vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es#configure-behavior-settings). |
