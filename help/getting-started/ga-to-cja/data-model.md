@@ -79,7 +79,7 @@ GA4 registra automáticamente un conjunto de eventos a través de su SDK. La sig
 
 En GA4, los eventos personalizados tienen un nombre y hasta 25 parámetros. En Customer Journey Analytics, los eventos personalizados se asignan a campos de esquema XDM personalizados definidos durante la implementación:
 
-* El **nombre de evento** se convierte en un valor de campo en un campo XDM (normalmente [`xdm.eventType`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)).
+* El **nombre de evento** se convierte en un valor de campo en un campo XDM (normalmente [`xdm.eventType`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent)).
 * Cada **parámetro** se convierte en un campo de esquema XDM independiente. Cualquier campo XDM puede exponerse como dimensión o como métrica al [configurar una vista de datos](/help/data-views/component-settings/overview.md).
 
 >[!NOTE]

@@ -234,7 +234,7 @@ Arrastre cualquiera de estas dimensiones del panel Componentes a una [[!UICONTRO
 
 >[!NOTE]
 >
->Debido a que los exploradores modernos han reducido los detalles en la cadena del agente de usuario, los valores completos y precisos dependen de la recopilación de [sugerencias del cliente del agente de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints) en la configuración de su Web SDK.
+>Debido a que los exploradores modernos han reducido los detalles en la cadena del agente de usuario, los valores completos y precisos dependen de la recopilación de [sugerencias del cliente del agente de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/collection/use-cases/client-hints) en la configuración de su Web SDK.
 
 +++
 
