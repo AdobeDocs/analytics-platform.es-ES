@@ -21,16 +21,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 046df00868ca4a5b3bab3eb36cca7d91b141333a
 workflow-type: tm+mt
-source-wordcount: 685
-ht-degree: 85%
+source-wordcount: 704
+ht-degree: 83%
 
 ---
 
 # Informe sobre datos de Google Analytics
 
-Una vez que los datos están disponibles en Customer Journey Analytics, los siguientes ejemplos proporcionan escenarios útiles para la creación de informes sobre ellos.
+Una vez que los datos están disponibles en Customer Journey Analytics, los siguientes ejemplos proporcionan escenarios útiles para la creación de informes sobre ellos. Para obtener una búsqueda completa de los equivalentes de informes GA4 en Customer Journey Analytics, consulte [informes GA4 en Customer Journey Analytics](/help/getting-started/ga-to-cja/reports.md).
 
 ## Visualizar datos web y datos de aplicaciones como conjuntos de datos combinados
 
