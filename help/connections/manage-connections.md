@@ -24,9 +24,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ffa7a6d6502dc687b5bbd0aafe4b7e7ec82313fe
+source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
 workflow-type: tm+mt
-source-wordcount: 5831
+source-wordcount: 5868
 ht-degree: 91%
 
 ---
@@ -488,6 +488,13 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >id="connections_breakdown_monthlymediastarts"
 >title="Inicios de medios mensuales"
 >abstract="Los inicios de medios mensuales son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_aca_monthlyreportablerows"
+>title="Filas mensuales de Content Analytics"
+>abstract="Las filas mensuales de Content Analytics son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+
 
 
 La interfaz [!UICONTROL Uso] muestra el uso de filas ingeridas y notificables en todas las conexiones. Si no está seleccionada, seleccione la pestaña **[!UICONTROL Uso]** para tener acceso a la interfaz.
