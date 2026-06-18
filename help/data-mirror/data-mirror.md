@@ -4,7 +4,6 @@ description: Obtenga información sobre cómo sincronizar datos entre las soluci
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
 autotag-review: '2026-05-19T08:55:53.979Z'
 TQID: 'https://experienceleague.adobe.com/10YCh2cnMTVriKKVOyYfzFfngvGQ2VVHOxzedE5NpWA'
@@ -26,16 +25,14 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b4547b6c48adb97f6749ef54147f369632c44fa9
+source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: 455
 ht-degree: 3%
 
 ---
 
 # Información general sobre Experience Platform Data Mirror
-
-{{release-limited-testing}}
 
 Data Mirror es una funcionalidad de Experience Platform que permite la ingesta de cambios a nivel de fila desde bases de datos externas al lago de datos mediante esquemas relacionales. Conserva las relaciones de datos, fuerza la exclusividad y admite el control de versiones sin requerir procesos de extracción, transformación y carga (ETL) en sentido ascendente.
 
@@ -59,7 +56,7 @@ Consulte también la [documentación de Experience Platform en Data Mirror](http
 
 >[!NOTE]
 >
->Data Mirror es una característica actualmente en fase beta que admite la sincronización de datos de almacenes de datos seleccionados mediante la captura de datos modificados (CDC) para su análisis en Customer Journey Analytics.<br/>Esta característica estará disponible para el público general en Customer Journey Analytics el 18 de junio de 2026. Consulte la Descripción del producto aplicable para comprender cómo podría afectar al consumo límite de ingesta anual a partir de ahora. Tenga en cuenta que su organización seguirá teniendo acceso a la función cuando Data Mirror pase de la versión beta a la versión de disponibilidad general.
+>Data Mirror es una característica que admite la sincronización de datos de almacenes de datos seleccionados mediante la captura de datos de cambio (CDC) para su análisis en Customer Journey Analytics.<br/>Consulte la descripción del producto aplicable para comprender cómo la característica puede afectar al consumo límite de ingesta anual.
 >
 
 >[!IMPORTANT]

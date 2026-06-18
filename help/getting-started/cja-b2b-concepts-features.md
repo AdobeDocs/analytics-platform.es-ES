@@ -23,10 +23,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+source-git-commit: 9c87ce4fb30c7d1d66ce88174443369ef44a7377
 workflow-type: tm+mt
-source-wordcount: 1485
-ht-degree: 2%
+source-wordcount: 1545
+ht-degree: 3%
 
 ---
 
@@ -95,6 +95,9 @@ También puede establecer el contenedor predeterminado para estas visualizacione
 
 Los segmentos, la atribución y las visualizaciones junto con los contenedores B2B le admiten en el análisis y las perspectivas profundos de B2B.
 
+## Esquemas
+
+El Editor B2B de Customer Journey Analytics usa el [Modelo de datos de Adobe Experience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) para estandarizar los datos B2B y definir esquemas para los datos B2B. Puede basar sus esquemas en las [clases estándar que se proporcionan en Real-time CDP B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) o puede usar sus propias clases y esquemas personalizados. Los [casos de uso](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) artículos utilizan clases y esquemas de Real-time CDP B2B edition, sin embargo, no se requiere una licencia de Real-time CDP B2B edition para utilizar las clases y esquemas estándar.
 
 ## Conjuntos de datos
 
