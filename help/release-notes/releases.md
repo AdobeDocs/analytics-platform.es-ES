@@ -19,9 +19,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 402
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Las versiones de Customer Journey Analytics operan en un modelo de entrega conti
 
 * **Prueba limitada**: una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas del cliente para garantizar que la funcionalidad satisfaga sus necesidades y expectativas.
 
-* **Inicio del despliegue**: el despliegue de una versión por fases comienza con la prueba limitada. Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. La implementación por fases se produce en el nivel de organización empresarial de CX, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
+* **Inicio del despliegue**: el despliegue de una versión por fases comienza con la prueba limitada. Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. El despliegue por fases se produce en el nivel de organización de CX Enterprise, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
 
-* **Disponibilidad general (GA)**: La funcionalidad está disponible para el 100% de las organizaciones empresariales de CX y la versión de la funcionalidad está completa.
+* **Disponibilidad general (DG)**: la funcionalidad está disponible para el 100 % de las organizaciones de CX Enterprise y la versión de la funcionalidad está completa.
 
 Con cada versión de la funcionalidad, los plazos desde la fase de producción hasta su disponibilidad general pueden variar. El objetivo es reducir el número de versiones, de modo que en los 2 meses posteriores al comienzo de la producción, la funcionalidad esté disponible de forma general.
 
