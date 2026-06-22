@@ -27,54 +27,47 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c818dd36bc900b3945b87503afad8e944a3716a7
+source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 100%
+source-wordcount: 229
+ht-degree: 51%
 
 ---
 
-# Notas de la versión actual de Customer Journey Analytics (mayo de 2026)
+# Notas de la versión actuales de Customer Journey Analytics (junio de 2026)
 
-**Última actualización**: 13 de mayo de 2026
+**Última actualización**: 22 de junio de 2026
 
-Estas notas de la versión corresponden al período de mayo de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el período de la versión de junio de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Funciones nuevas o actualizadas
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | -----------|-----------|-----------|
-| **Colecciones Postman de API de CJA** <br/>Hay disponible una colección Postman descargable para llamar a los extremos de API de CJA.<p>Para obtener más información, consulte [analytics-cja-postman-collections repositorio de Github](https://github.com/AdobeDocs/analytics-cja-postman-collections).  </p> | | 1 de mayo de 2026 |
-| **Servidores MCP para Customer Journey Analytics** <br/>Los servidores MCP (Model Context Protocol) de Analytics le permiten conectar un cliente MCP compatible a Adobe Customer Journey Analytics. Una vez conectado, el cliente de MCP puede invocar herramientas específicas del producto para recuperar datos, ejecutar consultas o realizar operaciones admitidas como parte de un flujo de trabajo LLM o agéntico. Para obtener más información, consulte [Servidores MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/).<p>Si ha utilizado estos servidores MCP durante el período beta, tenga en cuenta que hay diferentes direcciones URL entre los extremos beta y de producción. Asegúrese de que todos los flujos de trabajo agénticos creados durante el periodo beta se actualicen para usar los puntos finales de producción antes del 31 de mayo.</p> | | 5 de mayo de 2026 |
-| **Compatibilidad de Content Analytics con experiencias nativas de aplicaciones móviles**<br/> Las organizaciones pueden ampliar su análisis del rendimiento del contenido a aplicaciones de iOS y Android, capturando recursos de imagen y elementos de experiencia granulares para comprender qué contenido en la aplicación impulsa la participación del usuario y los resultados empresariales.<p> La [documentación](/help/content-analytics/content-analytics.md) se ha actualizado para describir la configuración y las capacidades del canal móvil. La información sobre la [extensión de Content Analytics Mobile SDK](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/) está disponible en [Adobe Developer](https://developer.adobe.com/).</p><p>Las perspectivas están disponibles para todos los clientes de Adobe Content Analytics.</p> | | 6 de mayo de 2026 |
-| **Mejoras en el lienzo del recorrido** <br/> Las siguientes mejoras están disponibles en las visualizaciones del lienzo del recorrido: <ul><li>[Excluir notas](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#exclude-nodes) de un recorrido.</li><li>Use los datos de visitas en el orden previsto de un nodo para [crear segmentos](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#create-a-segment-based-on-a-node-or-arrow), [tendencias](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#view-trend-data), [audiencias](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#create-an-audience) y [desgloses](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#apply-a-breakdown).</li></ul> | | 18 de mayo de 2026 |
-| **Content Analytics: miniaturas y vistas previas de visualización de línea** <br/>[Las miniaturas y vistas previas](/help/content-analytics/report/report.md) ya están disponibles para los recursos y experiencias en las visualizaciones de línea para Content Analytics. |  | 20 de mayo de 2026 |
-| **Servicios de medios de streaming: compatibilidad con los datos programados** <br/>Ahora puede cargar datos programados de contenidos multimedia transmitidos en directo en el pasado para realizar un seguimiento más fácil y preciso del número de espectadores.<p>Los siguientes son ejemplos de contenidos en directo compatibles con la carga de datos de programación:</p><ul><li>Plataformas FAST (Free Ad Supported TV)</li><li>Streams locales</li><li>Deportes en directo</li></ul><p>La carga de datos de programación le permite realizar un seguimiento de los datos del número de espectadores de los programas individuales que se emitieron durante el tiempo designado en el archivo de carga. Incluso puede recopilar datos del número de espectadores de temas específicos o segmentos de programa.</p><p>Estas funciones están disponibles independientemente de cómo haya implementado la recopilación de medios de streaming.</p><p>Anteriormente, era difícil vincular con precisión una sesión determinada a programas específicos cuando se analizaba contenido en directo, y no era posible vincular una sesión determinada a temas o segmentos de programa individuales.</p><p>Para obtener más información, consulte [Cargar datos de programación para realizar un seguimiento del contenido en directo](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 29 de octubre de 2025 | Primer semestre de 2026<p>(Originalmente planificado para su lanzamiento el 29 de octubre de 2025)</p> |
+| **Data Mirror** <br/>[Data Mirror](/help/data-mirror/data-mirror.md) es una funcionalidad de Experience Platform que habilita la ingesta de cambios a nivel de fila (captura de datos de cambio) desde soluciones de Data Warehouse externas ([!DNL Snowflake], [!DNL Azure Databricks] y [!DNL Google BigQuery]) a Customer Journey Analytics mediante esquemas relacionales. Conserva las relaciones de datos, fuerza la exclusividad y admite el control de versiones sin requerir procesos de extracción, transformación y carga (ETL) en sentido ascendente. | 25 de marzo de 2026 | 17 de junio de 2026 |
 
-{style="table-layout:auto"}
+### Correcciones en Customer Journey Analytics
 
-
-## Correcciones en Customer Journey Analytics
-
-**Analysis Workspace**: AN-446522, AN-445779, AN-445759, AN-444676, AN-442813, AN-441943, AN-441717, AN-441538, AN-441123, AN-440976, AN-440952, AN-440919, AN-439797, AN-434855, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
+**Analysis Workspace**:
 **Componentes**:
-**Conexiones**: AN-449652, AN-444560, AN-442824, AN-440937, AN-440092, AN-439823, AN-429781
-**Content Analytics**:
+**Conexiones**:
+**Content Analytics**: AN-451203, AN-447596
 **Análisis guiado**:
-**Exportaciones**: AN-438953, AN-437115
-**Vistas de datos**: AN-442809
+**Exportaciones**:
+**Vistas de datos**:
 **Implementación**:
-**Report Builder**: AN-448697, AN-447128, AN-441148, AN-441136, AN-438147, AN-425150
-**Sistema de informes**: AN-445123, AN-442231, AN-442169, AN-441811, AN-441733, AN-440505, AN-440300, AN-434824, AN-434210, AN-424000, AN-423359, AN-406242
+**Report Builder**: AN-440912
+**Sistema de informes**:
 **Segmentación**:
 **Informes programados**:
 **Dimensiones y métricas compartidas**:
-**Otros**: AN-449159, AN-444661, AN-443900, AN-397985
+**Análisis de audiencia**: AN-449656, AN-450400
+**Otros**:
 
-## Recursos relacionados
-
-* [Notas de la versión anteriores de Customer Journey Analytics de 2025](/help/release-notes/2025.md)
-* [Notas de la versión de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
-* [Notas de la versión de la colección de medios de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=es)
-* [Notas de la versión de CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
-* [Actualizaciones de la documentación de Customer Journey Analytics](/help/release-notes/doc-changes.md)
+>[!MORELIKETHIS]
+>
+>* [Notas de la versión anteriores de Customer Journey Analytics de 2026](/help/release-notes/2026.md)
+>* [Notas de la versión de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
+>* [Notas de la versión de la colección de medios de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=es)
+>* [Notas de la versión de CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
+>* [Actualizaciones de documentación de Customer Journey Analytics](/help/release-notes/doc-changes.md)

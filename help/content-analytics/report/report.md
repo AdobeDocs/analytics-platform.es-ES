@@ -22,10 +22,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 236959f0e060e35a285777f40b8d1ef90855ed5c
+source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
 workflow-type: tm+mt
-source-wordcount: 1438
-ht-degree: 46%
+source-wordcount: 1215
+ht-degree: 51%
 
 ---
 
@@ -74,18 +74,11 @@ Las miniaturas se muestran cuando pasa el ratón sobre un punto de datos en [dis
 
 ### Líneas
 
-{{release-limited-testing-section}}
-
 ![miniaturas de Content Analytics para la línea](/help/content-analytics/assets/aca-line-thumbnail.png)
 
 Las miniaturas se muestran cuando pasa el ratón sobre un punto de datos de [línea](/help/analysis-workspace/visualizations/line.md).
 
 ## Previsualizaciones
-
->[!AVAILABILITY]
->
->Las visualizaciones de barras y dispersión descritas en esta sección se encuentran en Prueba limitada y es posible que no estén disponibles en su entorno. Esta nota se elimina cuando la funcionalidad está disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Lanzamientos de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).
->
 
 Puede abrir una ventana emergente de vista previa. Para ello, haga lo siguiente:
 
@@ -152,9 +145,9 @@ Una visualización de [barra horizontal](/help/analysis-workspace/visualizations
       * **Recursos de mayor rendimiento**
 Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (que incluye [miniaturas](#thumbnails) y [vistas previas](#previews)) para los recursos de mayor rendimiento.
 Assets: vistas comparadas con la conversión.
-Una visualización de [diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) que muestra un diagrama de dispersión de vistas de recursos en comparación con las conversiones de recursos.
+Una visualización [diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) que muestra un diagrama de dispersión de vistas de recursos en comparación con las conversiones de recursos.
 
-* **¿Qué atributos del recurso contribuyen a las conversiones?**
+* **¿Qué atributos de recursos contribuyen a las conversiones?**
 Content Analytics utiliza IA y GenAI para asignar automáticamente metadatos y atributos, como temas, escenas y colores de primer plano, a cada recurso.
 
    * **Atributos de recurso de conversión principales**
@@ -206,5 +199,5 @@ Puede desglosar cualquier recurso por dimensiones para comprender mejor dónde a
 >[!MORELIKETHIS]
 >
 >[componentes de Content Analytics](components.md)
->[Uso de plantillas](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>[Usar plantillas](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >
