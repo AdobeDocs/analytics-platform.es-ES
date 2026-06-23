@@ -14,14 +14,45 @@ subfeature_v2:
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: b7493ad9283b5830c36b8e3ac942bf9295b693f8
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 78%
+source-wordcount: 461
+ht-degree: 88%
 
 ---
 
-# Monitorización del estado del diccionario de datos
+# Monitorización del estado del diccionario de datos {#monitor-data-dictionary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="component_datadictionary"
+>title="Diccionario de datos"
+>abstract="Cuando se selecciona esta opción, el componente principal se comparte con todas las personas que tienen acceso a los componentes duplicados (tanto los propietarios como cualquier persona con los que se comparten los componentes). A continuación, estos usuarios pueden seleccionar el componente principal de la lista de componentes para proyectos futuros. Sin embargo, no pueden editar el componente, aunque sean los propietarios de un componente duplicado que se haya consolidado. <br/>Esta opción solo está disponible cuando el componente principal es un segmento, una métrica calculada o un intervalo de fechas. Las métricas y dimensiones siempre están disponibles para todos los usuarios."
+>
+>When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="datadictionary_share_primary"
+>title="Compartir componente principal"
+>abstract="Cuando se selecciona esta opción, el componente principal se comparte con todas las personas que tienen acceso a los componentes duplicados (tanto los propietarios como cualquier persona con los que se comparten los componentes). A continuación, estos usuarios pueden seleccionar el componente principal de la lista de componentes para proyectos futuros. Sin embargo, no pueden editar el componente, aunque sean los propietarios de un componente duplicado que se haya consolidado. <br/>Esta opción solo está disponible cuando el componente principal es un segmento, una métrica calculada o un intervalo de fechas. Las métricas y dimensiones siempre están disponibles para todos los usuarios."
+>
+>When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-enable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="datadictionary_delete_duplicates"
+>title="Eliminar duplicados reemplazados"
+>abstract="Cuando se selecciona esta opción, los duplicados consolidados ya no están disponibles para su uso. Anule la selección de esta opción si desea que los duplicados sigan estando disponibles."
+
+<!-- markdownlint-enable MD034 -->
 
 Los administradores de Customer Journey Analytics son responsables de mantener un diccionario de datos en buen estado.
 
