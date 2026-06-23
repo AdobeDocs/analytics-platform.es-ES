@@ -22,10 +22,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 536a1c7151521b26fccd486704d5c9426b039f53
 workflow-type: tm+mt
-source-wordcount: 10489
-ht-degree: 99%
+source-wordcount: 10387
+ht-degree: 97%
 
 ---
 
@@ -349,7 +349,7 @@ Para utilizar la plantilla, debe especificar los parámetros correctos para cada
 
 ### Obtener parámetro de cadena de consulta {#querystring}
 
-Esta plantilla de función extrae valores de la cadena de consulta.
+Esta plantilla de función extrae los valores de cadena de consulta del parámetro de consulta especificado. El parámetro de consulta distingue entre mayúsculas y minúsculas. Inserte una función [Lowercase](#lowercase) para asegurarse de que se tienen en cuenta todas las variaciones en mayúsculas y minúsculas del parámetro de consulta.
 
 +++ Detalles
 
@@ -512,7 +512,7 @@ Aplica condicionales, según los criterios definidos en uno o varios campos. Est
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li><li>Fecha</li></ul> | <ul><li>Contenedor [!UICONTROL If], [!UICONTROL Else If]:</p><ul><li>[!UICONTROL Valor]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Criterio] (consulte los operadores incluidos, según el tipo de valor seleccionado)</li></ul></li><li>[!UICONTROL Luego establezca el valor en], [!UICONTROL De lo contrario, establezca el valor en &#x200B;]:</p><ul><li>[!UICONTROL Valor]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul></li></ul> | <p>Cadenas</p><ul><li>Es igual a</li><li>Es igual a cualquier término</li><li>Contiene la frase</li><li>Contiene cualquier término</li><li>Contiene todos los términos</li><li>Comienza con</li><li>Comienza con cualquier término</li><li>Termina por</li><li>Finaliza con cualquier término</li><li>No es igual que</li><li>No coincide con ningún término</li><li>No contiene la frase</li><li>No contiene ningún término</li><li>No contiene todos los términos</li><li>No empieza con</li><li>No comienza con ningún término</li><li>No finaliza con</li><li>No termina con ningún término</li><li>Se ha establecido</li><li>No se ha establecido</li></ul><p>Numérico</p><ul><li>Es igual a</li><li>No es igual que</li><li>es mayor que</li><li>es mayor o igual que</li><li>Es menor que</li><li>es menor o igual que</li><li>Se ha establecido</li><li>No se ha establecido</li></ul><p>Fechas</p><ul><li>Es igual a</li><li>No es igual que</li><li>es posterior a</li><li>Es posterior o igual a</li><li>Es antes de</li><li>Es anterior o igual a</li><li>Se ha establecido</li><li>No se ha establecido</li></ul> | <ul><li>5 funciones por campo derivado</li><li>200 [operadores](#operators) por campo derivado. Un ejemplo de operador único es &quot;El dominio de referencia contiene Google&quot;. </li></ul> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>Contenedor [!UICONTROL If], [!UICONTROL Else If]:</p><ul><li>[!UICONTROL Valor]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Criterio] (consulte los operadores incluidos, según el tipo de valor seleccionado)</li></ul></li><li>[!UICONTROL Luego establezca el valor en], [!UICONTROL De lo contrario, establezca el valor en &#x200B;]:</p><ul><li>[!UICONTROL Valor]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul></li></ul> | <p>Cadenas</p><ul><li>Es igual a</li><li>Es igual a cualquier término</li><li>Contiene la frase</li><li>Contiene cualquier término</li><li>Contiene todos los términos</li><li>Comienza con</li><li>Comienza con cualquier término</li><li>Finaliza con</li><li>Finaliza con cualquier término</li><li>No es igual a</li><li>No coincide con ningún término</li><li>No contiene la frase</li><li>No contiene ningún término</li><li>No contiene todos los términos</li><li>No comienza con</li><li>No comienza con ningún término</li><li>No finaliza con</li><li>No termina con ningún término</li><li>Está establecido</li><li>No está establecido</li></ul><p>Numéricos</p><ul><li>Es igual a</li><li>No es igual a</li><li>es mayor que</li><li>es mayor o igual que</li><li>Es menor que</li><li>es menor o igual que</li><li>Está establecido</li><li>No está establecido</li></ul><p>Fechas</p><ul><li>Es igual a</li><li>No es igual a</li><li>es posterior a</li><li>Es posterior o igual a</li><li>Es antes de</li><li>Es anterior o igual a</li><li>Está establecido</li><li>No está establecido</li></ul> | <ul><li>5 funciones por campo derivado</li><li>200 [operadores](#operators) por campo derivado. Un ejemplo de operador único es &quot;El dominio de referencia contiene Google&quot;. </li></ul> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -748,15 +748,15 @@ Define un conjunto de valores que se reemplazan por los valores correspondientes
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo para clasificar]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>[!UICONTROL Cuando el valor es igual a] y [!UICONTROL Reemplazar valores por]:</p><ul><li>Cadena</li></ul><li>Mostrar valores originales<ul><li>Booleano</li></ul></li></ul> | <p>N/A</p> | <ul><li>5 funciones por campo derivado</li><li>200 [operadores](#operators) por campo derivado. Cada entrada de [!UICONTROL Cuando el valor es igual al valor original] [!UICONTROL Reemplazar el valor por uno nuevo] se considera una operación.</li></ul> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo para clasificar]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>[!UICONTROL Cuando el valor es igual a] y [!UICONTROL Reemplazar valores por]:</p><ul><li>Cadena</li></ul><li>Mostrar valores originales<ul><li>Booleano</li></ul></li></ul> | <p>N/D</p> | <ul><li>5 funciones por campo derivado</li><li>200 [operadores](#operators) por campo derivado. Cada entrada de [!UICONTROL Cuando el valor es igual al valor original] [!UICONTROL Reemplazar el valor por uno nuevo] se considera una operación.</li></ul> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
 
 ## Caso de uso 1 {#classify-uc1}
 
-Tiene un archivo CSV que incluye una columna de clave para `hotelID` y una o más columnas adicionales asociadas a `hotelID`: `city`, `rooms`, `hotel name`.
-Está recopilando [!DNL Hotel ID] en una dimensión, pero desea crear una dimensión [!DNL Hotel Name] derivada de `hotelID` en el archivo CSV.
+Tiene un archivo CSV que incluye una columna de clave para `hotelID` y una o más columnas adicionales asociadas con `hotelID`: `city`, `rooms`, `hotel name`.
+Está recopilando [!DNL Hotel ID] en una dimensión, pero desea crear una dimensión de [!DNL Hotel Name] derivada de `hotelID` en el archivo CSV.
 
 **Estructura y contenido del archivo CSV**
 
@@ -893,7 +893,7 @@ Combina valores de campo en un único campo derivado nuevo con delimitadores def
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Valor]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li><li>Cadena</li></ul></li><li>[!UICONTROL Delimitador]:<ul><li>Cadena</li></ul></li> </ul> | <p>N/A</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Valor]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li><li>Cadena</li></ul></li><li>[!UICONTROL Delimitador]:<ul><li>Cadena</li></ul></li> </ul> | <p>N/D</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -978,7 +978,7 @@ Devuelve la diferencia entre dos fechas o dos campos de fecha-hora.
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Salida |
 |---|---|---|---|---|
-| <ul><li>Fecha</li><li>Fecha-hora</li></ul> | <ul><li>[!UICONTROL Ámbito]<ul><li>Evento</li><li>Sesión</li><li>Persona</li></ul></li><li>[!UICONTROL Valor]<ul><li>Fecha</li><li>Fecha-hora</li><li>Fecha estática (introducida por el usuario)</li><li>Fecha-hora estática (introducida por el usuario)</li><li>Fecha dinámica<ul><li>Hoy</li></ul></li><li>Fecha-hora dinámica<ul><li>Ahora</li></ul></li></ul></li><li>[!UICONTROL Granularidad]:<ul><li>Segundos</li><li>Minutos</li><li>Horas</li><li>Días</li><li>Semanas</li><li>Meses</li><li>Trimestres</li><li>Años</li></ul></li><li>Para cada devolución de fecha o fecha-hora:<ul><li>Primero (dentro de la sesión o persona)</li><li>Último (dentro de la sesión o persona)</li></ul></li></ul> | <p>N/A</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Fecha</li><li>Fecha-hora</li></ul> | <ul><li>[!UICONTROL Ámbito]<ul><li>Evento</li><li>Sesión</li><li>Persona</li></ul></li><li>[!UICONTROL Valor]<ul><li>Fecha</li><li>Fecha-hora</li><li>Fecha estática (introducida por el usuario)</li><li>Fecha-hora estática (introducida por el usuario)</li><li>Fecha dinámica<ul><li>Hoy</li></ul></li><li>Fecha-hora dinámica<ul><li>Ahora</li></ul></li></ul></li><li>[!UICONTROL Granularidad]:<ul><li>Seconds</li><li>Minutes</li><li>Horas</li><li>Days</li><li>Weeks</li><li>Months</li><li>Trimestres</li><li>Años</li></ul></li><li>Para cada devolución de fecha o fecha-hora:<ul><li>Primero (dentro de la sesión o persona)</li><li>Último (dentro de la sesión o persona)</li></ul></li></ul> | <p>N/D</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1014,8 +1014,8 @@ También puede usar el valor práctico de intervalo de fecha dinámico Ahora par
 
 Desea comprender la hora de búsqueda en minutos antes de que un cliente, dentro de una sesión, realice un pedido.
 
-Defina un nuevo campo derivado de `Time Between Search And Order In Minutes` que es el resultado de dos funciones [[!UICONTROL CASO DE QUE]](#case-when) para definir valores de [!UICONTROL Hora de búsqueda] y [!UICONTROL Hora del pedido].
-A continuación, utilice estos dos valores para calcular la diferencia con una función [!UICONTROL ARITMÉTICA DE FECHAS] con [!UICONTROL Ámbito] establecido en [!UICONTROL Sesión], los valores establecidos en [!UICONTROL Hora de búsqueda] y [!UICONTROL Hora del pedido] y [!UICONTROL Granularidad de salida] establecida en [!UICONTROL Minuto]. Para ambos valores, seleccione [!UICONTROL Devolver el primero] para garantizar que se devuelvan las primeras [!UICONTROL Hora de búsqueda] y [!UICONTROL Hora del pedido].
+Usted define un nuevo campo derivado de `Time Between Search And Order In Minutes` que es el resultado de dos funciones [[!UICONTROL CASE WHEN]](#case-when) para definir valores de [!UICONTROL Tiempo de búsqueda] y [!UICONTROL Tiempo de pedido].
+A continuación, utilice estos dos valores para calcular la diferencia con una función [!UICONTROL DATE MATH] con [!UICONTROL Ámbito] establecido en [!UICONTROL Sesión], valores establecidos en [!UICONTROL Hora de búsqueda] y [!UICONTROL Hora de pedido] y [!UICONTROL Granularidad de salida] establecidos en [!UICONTROL Minuto]. Para ambos valores, selecciona [!UICONTROL Devolver el primer] para garantizar que se devuelva el primer [!UICONTROL Tiempo de búsqueda] y el [!UICONTROL Tiempo de pedido].
 
 ![Captura de pantalla de la regla Aritmética de fechas 3](assets/datemath-3.png)
 
@@ -1044,7 +1044,7 @@ Evita contar un valor varias veces.
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Limitaciones | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li></ul> | <ul><li>[!UICONTROL Valor]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li><li>Cadena</li></ul></li><li>[!UICONTROL Ámbito]:<ul><li>Persona</li><li>Sesión</li></ul></li><li>[!UICONTROL ID de deduplicación]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li><li>Cadena</li></ul><li>[!UICONTROL Valor a mantener]:<ul><li>Mantener primera instancia</li><li>Mantener última instancia</li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li></ul> | <ul><li>[!UICONTROL Valor]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li><li>Cadena</li></ul></li><li>[!UICONTROL Ámbito]:<ul><li>Persona</li><li>Sesión</li></ul></li><li>[!UICONTROL ID de deduplicación]:<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li><li>Cadena</li></ul><li>[!UICONTROL Valor a mantener]:<ul><li>Mantener primera instancia</li><li>Mantener última instancia</li></ul></li></ul> | <p>N/D</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1254,7 +1254,7 @@ Valores de consulta que utilizan un campo de un conjunto de datos de consulta y 
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo al que aplicar la consulta]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Conjunto de datos de consulta]</li><ul><li>Conjunto de datos</li></ul><li>[!UICONTROL Clave de coincidencia]<ul><li>Reglas</li><li>Campos</li></ul></li><li>Valores que se deben devolver<ul><li>Reglas</li><li>Campos</li></ul></li></ul> | <p>N/A</p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo o valor derivado para un procesamiento posterior en la siguiente regla</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo al que aplicar la consulta]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Conjunto de datos de consulta]</li><ul><li>Conjunto de datos</li></ul><li>[!UICONTROL Clave de coincidencia]<ul><li>Reglas</li><li>Campos</li></ul></li><li>Valores que se deben devolver<ul><li>Reglas</li><li>Campos</li></ul></li></ul> | <p>N/D</p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo o valor derivado para un procesamiento posterior en la siguiente regla</p> |
 
 {style="table-layout:auto"}
 
@@ -1287,7 +1287,7 @@ Puede insertar rápidamente una función [!UICONTROL Consulta] en el generador d
 1. Seleccione **[!UICONTROL Campos de esquema]** en el selector.
 1. Seleccione ![Icono del campo de esquema](assets/Smock_Folder_18_N.svg) **[!UICONTROL Conjuntos de datos de consulta]**.
 1. Seleccione el conjunto de datos de consulta y busque el campo que desee utilizar para la consulta.
-1. Arrastre y suelte el campo de consulta en cualquiera de los campos de entrada disponibles para una función (por ejemplo, Case When). Si es válido, un cuadro azul, etiquetado **[!UICONTROL + Añadir]**, le permite soltar el campo e insertar automáticamente una función de consulta antes de la función en la que soltó el campo de consulta. La función de consulta insertada se rellenará automáticamente con valores relevantes para todos los campos.
+1. Arrastre y suelte el campo de búsqueda en cualquiera de los campos de entrada disponibles para una función (por ejemplo, Case When). Si es válido, un cuadro azul, etiquetado **[!UICONTROL + Agregar]**, le permite soltar el campo e insertar automáticamente una función de búsqueda antes de la función en la que soltó el campo de búsqueda. La función de búsqueda insertada se rellena automáticamente con valores relevantes para todos los campos.
    ![Arrastre de la consulta](assets/lookup-drag.png)
 
 +++
@@ -1311,7 +1311,7 @@ Convierte los valores de un campo a minúsculas y los almacena en un nuevo campo
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul> | <p>N/A</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul> | <p>N/D</p> | <p>2 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1368,7 +1368,7 @@ Utilice operadores matemáticos básicos (sumar, restar, multiplicar, dividir y 
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Numérico</li></ul> | <ul><li>Uno o varios campos numéricos</li><li>Uno o varios operadores (sumar, restar, multiplicar, dividir, elevar a una potencia)</li><li>Valor de entrada del usuario</li></ul> | <ul><li>`+` (sumar)</li><li>`-` (restar)</li><li>`*` (multiplicar)</li><li>`/` (dividir)</li><li>`^` (elevar a una potencia)</li></ul> | <ul><li>25 operaciones por campo derivado</li><li>5 funciones matemáticas por campo derivado</li></ul> | <p>Nuevo campo derivado</p> |
+| <ul><li>Numéricos</li></ul> | <ul><li>Uno o varios campos numéricos</li><li>Uno o varios operadores (sumar, restar, multiplicar, dividir, elevar a una potencia)</li><li>Valor de entrada del usuario</li></ul> | <ul><li>`+` (sumar)</li><li>`-` (restar)</li><li>`*` (multiplicar)</li><li>`/` (dividir)</li><li>`^` (elevar a una potencia)</li></ul> | <ul><li>25 operaciones por campo derivado</li><li>5 funciones matemáticas por campo derivado</li></ul> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1455,7 +1455,7 @@ Combina valores de dos campos diferentes en un nuevo campo derivado.
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul> | <p>N/D</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1527,7 +1527,7 @@ Toma un campo como entrada y resuelve el valor siguiente o anterior de ese campo
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Método]:<ul><li>Valor anterior</li><li>Siguiente valor</li></ul></li><li>[!UICONTROL Ámbito]:<ul><li>Persona</li><li>Sesión</li></ul></li><li>[!UICONTROL Índice]:<ul><li>Numérico</li></ul><li>[!UICONTROL Incluir repeticiones]:<ul><li>Booleano</li></ul></li></ul> | <p>N/A</p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Método]<ul><li>Valor anterior</li><li>Siguiente valor</li></ul></li><li>[!UICONTROL Ámbito]:<ul><li>Persona</li><li>Sesión</li></ul></li><li>[!UICONTROL Índice]:<ul><li>Numéricos</li></ul><li>[!UICONTROL Incluir repeticiones]:<ul><li>Booleano</li></ul></li></ul> | <p>N/D</p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1605,7 +1605,7 @@ Reemplaza un valor de un campo mediante una expresión regular en un nuevo campo
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul><ul><li>[!UICONTROL Regex]</li><ul><li>Cadena</li></ul></li><li>[!UICONTROL Formato de salida]:<ul><li>Cadena</li></ul></ul><ul><li>Con distinción de mayúsculas y minúsculas</li><ul><li>Booleano</li></ul></li></ul></li> | <p>N/A</p> | <p>1 función por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul><ul><li>[!UICONTROL Regex]</li><ul><li>Cadena</li></ul></li><li>[!UICONTROL Formato de salida]:<ul><li>Cadena</li></ul></ul><ul><li>Con distinción de mayúsculas y minúsculas</li><ul><li>Booleano</li></ul></li></ul></li> | <p>N/D</p> | <p>1 función por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1708,7 +1708,7 @@ Divide un valor de un campo en un nuevo campo derivado.
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul><ul><li>[!UICONTROL Método]:</li><ul><li>Desde la izquierda</li><li>Desde la derecha</li><li>Convertir en matriz</li></ul></li><li>Para el delimitador:<ul><li>Cadena</li></ul><li>Para el índice:<ul><li>Numérico</li></ul></li> | <p>N/A</p> | <p>2 funciones por campo derivado</p> <p>Devuelve un máximo de diez valores</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li><li>Numéricos</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></ul><ul><li>[!UICONTROL Método]:</li><ul><li>Desde la izquierda</li><li>Desde la derecha</li><li>Convertir en matriz</li></ul></li><li>Para el delimitador:<ul><li>Cadena</li></ul><li>Para el índice:<ul><li>Numéricos</li></ul></li> | <p>N/D</p> | <p>2 funciones por campo derivado</p> <p>Devuelve un máximo de diez valores</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -1806,7 +1806,7 @@ Aplica funciones de tipo agregación a métricas o dimensiones en los niveles de
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li><li>Numérico</li><li>Fecha</li></ul> | <ul><li>Valor<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>Resumir métodos</li><li>Ámbito<ul><li>Evento</li><li>Sesión</li><li>Persona</li></ul></li></ul> | <ul><li>Numérico<ul><li>MAX: devuelve el mayor valor de un conjunto de valores</li><li>MIN: devuelve el valor más pequeño de un conjunto de valores</li><li>MEDIAN: devuelve el valor mediano de un conjunto de valores</li><li>MEAN: devuelve el promedio de un conjunto de valores</li><li>SUM: devuelve la suma de un conjunto de valores</li><li>COUNT: devuelve el número de valores recibidos</li><li>DISTINCT: devuelve un conjunto de valores distintos</li></ul></li><li>Cadenas<ul><li>DISTINCT: devuelve un conjunto de valores distintos</li><li>COUNT DISTINCT: devuelve el número de valores distintos</li><li>MOST COMMON: devuelve el valor de cadena que se recibe con más frecuencia</li><li>LEAST COMMON: devuelve el valor de cadena que se recibe con menor frecuencia</li><li>FIRST: el primer valor recibido; solo aplicable a las tablas de sesión y evento</li><li>LAST: el último valor recibido; solo aplicable a las tablas de sesión y evento</li></ul></li><li>Fechas<ul><li>DISTINCT: devuelve un conjunto de valores distintos</li><li>COUNT DISTINCT: devuelve el número de valores distintos</li><li>MOST COMMON: devuelve el valor de cadena que se recibe con más frecuencia</li><li>LEAST COMMON: devuelve el valor de cadena que se recibe con menor frecuencia</li><li>FIRST: el primer valor recibido; solo aplicable a las tablas de sesión y evento</li><li>LAST: el último valor recibido; solo aplicable a las tablas de sesión y evento</li><li>EARLIEST: el valor más antiguo recibido (determinado por la hora); solo aplicable a las tablas de sesión y evento</li><li>LATEST: el último valor recibido (determinado por la hora); solo aplicable a las tablas de sesión y evento</li></ul></li></ul> | 3 funciones por campo derivado | Nuevo campo derivado |
+| <ul><li>Cadena</li><li>Numéricos</li><li>Fecha</li></ul> | <ul><li>Valor<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>Resumir métodos</li><li>Ámbito<ul><li>Evento</li><li>Sesión</li><li>Persona</li></ul></li></ul> | <ul><li>Numéricos<ul><li>MAX: devuelve el mayor valor de un conjunto de valores</li><li>MIN: devuelve el valor más pequeño de un conjunto de valores</li><li>MEDIAN: devuelve el valor mediano de un conjunto de valores</li><li>MEAN: devuelve el promedio de un conjunto de valores</li><li>SUM: devuelve la suma de un conjunto de valores</li><li>COUNT: devuelve el número de valores recibidos</li><li>DISTINCT: devuelve un conjunto de valores distintos</li></ul></li><li>Cadenas<ul><li>DISTINCT: devuelve un conjunto de valores distintos</li><li>COUNT DISTINCT: devuelve el número de valores distintos</li><li>MOST COMMON: devuelve el valor de cadena que se recibe con más frecuencia</li><li>LEAST COMMON: devuelve el valor de cadena que se recibe con menor frecuencia</li><li>FIRST: el primer valor recibido; solo aplicable a las tablas de sesión y evento</li><li>LAST: el último valor recibido; solo aplicable a las tablas de sesión y evento</li></ul></li><li>Fechas<ul><li>DISTINCT: devuelve un conjunto de valores distintos</li><li>COUNT DISTINCT: devuelve el número de valores distintos</li><li>MOST COMMON: devuelve el valor de cadena que se recibe con más frecuencia</li><li>LEAST COMMON: devuelve el valor de cadena que se recibe con menor frecuencia</li><li>FIRST: el primer valor recibido; solo aplicable a las tablas de sesión y evento</li><li>LAST: el último valor recibido; solo aplicable a las tablas de sesión y evento</li><li>EARLIEST: el valor más antiguo recibido (determinado por la hora); solo aplicable a las tablas de sesión y evento</li><li>LATEST: el último valor recibido (determinado por la hora); solo aplicable a las tablas de sesión y evento</li></ul></li></ul> | 3 funciones por campo derivado | Nuevo campo derivado |
 
 {style="table-layout:auto"}
 
@@ -1880,7 +1880,7 @@ Recorta los espacios en blanco, los caracteres especiales o el número de caract
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>Recortar espacios en blanco</li><li>Recortar caracteres especiales<ul><li>Entrada de caracteres especiales</li></ul></li><li>Recortar desde la izquierda<ul><li>De <ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>A<ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>Longitud</li></ul></li></ul></li><li>Recortar por la derecha<ul><li>De <ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>A<ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>Longitud</li></ul></li></ul></li></ul> | <p>N/A</p> | <p>1 función por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo]<ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul></li><li>Recortar espacios en blanco</li><li>Recortar caracteres especiales<ul><li>Entrada de caracteres especiales</li></ul></li><li>Recortar desde la izquierda<ul><li>Desde <ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>Longitud</li></ul></li></ul></li><li>Recortar por la derecha<ul><li>Desde <ul><li>Fin de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li></ul></li><li>Hasta<ul><li>Inicio de cadena</li><li>Posición<ul><li>Posición #</li></ul></li><li>Cadena<ul><li>Valor de cadena</li><li>Índice</li><li>Indicador para incluir cadena</li></ul></li><li>Longitud</li></ul></li></ul></li></ul> | <p>N/D</p> | <p>1 función por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 
 ## Caso de uso 1 {#trim-uc1}
@@ -1931,7 +1931,7 @@ Los datos sobre los nombres de páginas recopilados incluyen algunos caracteres 
 
 Crea un campo derivado de `Page Name`. Utilice la función [!UICONTROL RECORTAR] para definir una regla para [!UICONTROL Recortar caracteres especiales] del campo [!UICONTROL Nombre] utilizando los [!UICONTROL caracteres especiales] `#?%&/`.
 
-![Captura de pantalla de la regla Dividir: primer valor](assets/trim-2.png)
+![Captura de pantalla de la regla División: primer valor](assets/trim-2.png)
 
 ### Datos después {#trim-uc2-dataafter}
 
@@ -1999,7 +1999,7 @@ Cambia el tipo de campo de un campo para que esté disponible para transformacio
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Numérico</li><li>Fecha</li><li>Fecha-hora</li><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo] | <p><ul><li>Entero<ul><li>A cadena</li></ul></li><li>Doble<ul><li>A cadena<ul><li>Incluir número de posiciones decimales que se heredarán (¿máximo de cinco?)</li></ul></li><li>A entero</li></ul></li><li>Byte<ul><li>A cadena</li></ul></li><li>Largo<ul><li>A cadena</li></ul></li><li>Fecha<ul><li>A cadena<ul><li>Proporcionar la posibilidad de definir el formato de salida</li></ul></li><li>Ejemplos<ul><li>Fecha (ejemplo del 7 de enero de 2025)<ul><li data-stringify-indent="1" data-stringify-border="0">MM-DD-AA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 01-07-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM-DD-AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 01-07-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-AA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 07-01-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 07-01-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AA-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 25-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AAAA-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 2025-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/AA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 01/07/25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 01/07/2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AAAA/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 2025/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AA/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 25/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MMM DD, AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 7 de enero de 2025</li></ul></li></ul></li></ul></li></ul></li><li>Fecha-hora<ul><li>A cadena<ul><li>Proporcionar la posibilidad de definir el formato de salida</li></ul></li><li>Ejemplos<ul><li data-stringify-indent="0" data-stringify-border="0">Fecha-hora (ejemplo del 7 de enero de 2025 a la 1:30pm, 52 segundos)<ul><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AA-hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM-DD-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 01-07-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AA-hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-25-13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD/MM/AA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07/01/25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD/MM/AAAA hhmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07/01/2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AAAA/MM/DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 2025/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AA/MM/DD hh:mm :ss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 25/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD MMM, AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07 de enero de 2025 13:30:52</li></ul></li></ul></li></ul></li><li>Cadena<ul><li>A numérico<ul><li>Si tenemos valores que no son numéricos, devolverán un valor nulo.</li><li>Necesitaremos que el usuario introduzca la precisión y la configuración regional que utilizará. </li></ul></li></ul></li></ul></li></ul></p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Numéricos</li><li>Fecha</li><li>Fecha-hora</li><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo] | <p><ul><li>Entero<ul><li>A cadena</li></ul></li><li>Doble<ul><li>A cadena<ul><li>Incluir número de posiciones decimales que se heredarán (¿máximo de cinco?)</li></ul></li><li>A entero</li></ul></li><li>Byte<ul><li>A cadena</li></ul></li><li>Largo<ul><li>A cadena</li></ul></li><li>Fecha<ul><li>A cadena<ul><li>Proporcionar la posibilidad de definir el formato de salida</li></ul></li><li>Ejemplos<ul><li>Fecha (ejemplo del 7 de enero de 2025)<ul><li data-stringify-indent="1" data-stringify-border="0">MM-DD-AA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 01-07-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM-DD-AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 01-07-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-AA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 07-01-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 07-01-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AA-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 25-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AAAA-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 2025-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/AA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 01/07/25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 01/07/2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AAAA/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 2025/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AA/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 25/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MMM DD, AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Ej: 7 de enero de 2025</li></ul></li></ul></li></ul></li></ul></li><li>Fecha-hora<ul><li>A cadena<ul><li>Proporcionar la posibilidad de definir el formato de salida</li></ul></li><li>Ejemplos<ul><li data-stringify-indent="0" data-stringify-border="0">Fecha-hora (ejemplo del 7 de enero de 2025 a la 1:30pm, 52 segundos)<ul><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AA-hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM-DD-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 01-07-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AA-hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-25-13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD/MM/AA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07/01/25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD/MM/AAAA hhmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07/01/2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AAAA/MM/DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 2025/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AA/MM/DD hh:mm :ss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 25/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD MMM, AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Ej: 07 de enero de 2025 13:30:52</li></ul></li></ul></li></ul></li><li>Cadena<ul><li>A numérico<ul><li>Si tenemos valores que no son numéricos, devolverán un valor nulo.</li><li>Necesitaremos que el usuario introduzca la precisión y la configuración regional que utilizará. </li></ul></li></ul></li></ul></li></ul></p> | <p>3 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -2050,7 +2050,7 @@ Analiza diferentes partes de una dirección URL, incluidos el protocolo, el host
 
 | Tipo de datos de entrada | Entrada | Operadores incluidos | Límite | Salida |
 |---|---|---|---|---|
-| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo]</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Opción]:<ul><li>[!UICONTROL Obtener protocolo]</li><li>[!UICONTROL Obtener host]</li><li>[!UICONTROL Obtener ruta]</li><li>[!UICONTROL Obtener valor de cadena de consulta]<ul><li>[!UICONTROL Parámetro de consulta]:<ul><li>Cadena</li></ul></li></ul></li><li>[!UICONTROL Obtener valor de hash]</li></ul></li></ul></li></ul> | <p>N/A</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
+| <ul><li>Cadena</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Reglas</li><li>Campos estándar</li><li>Campos</li></ul><li>[!UICONTROL Opción]:<ul><li>[!UICONTROL Obtener protocolo]</li><li>[!UICONTROL Obtener host]</li><li>[!UICONTROL Obtener ruta]</li><li>[!UICONTROL Obtener valor de cadena de consulta]<ul><li>[!UICONTROL Parámetro de consulta]:<ul><li>Cadena</li></ul></li></ul></li><li>[!UICONTROL Obtener valor de hash]</li></ul></li></ul></li></ul> | <p>N/D</p> | <p>5 funciones por campo derivado</p> | <p>Nuevo campo derivado</p> |
 
 {style="table-layout:auto"}
 
@@ -2133,23 +2133,23 @@ Las siguientes limitaciones se aplican a la funcionalidad del Campo derivado en 
 
 | Función | Limitaciones |
 |---|---|
-| <p>Caso de que</p> | <ul><li>5 funciones Case When por campo derivado</li><li>200 [operadores](#operators) por campo derivado</li></ul> |
+| <p>Case When</p> | <ul><li>5 funciones Case When por campo derivado</li><li>200 [operadores](#operators) por campo derivado</li></ul> |
 | <p>Clasificar</p> | <ul><li>5 funciones Clasificar por campo derivado</li><li>200 [operadores](#operators) por campo derivado</li></ul> |
 | <p>Concatenar</p> | <ul><li>2 funciones Concatenar por campo derivado</li><li>Tres valores por función Concatenar</ul> |
 | <p>Aritmética de fechas</p> | <ul><li>Dos funciones Aritmética de fechas por campo derivado</li></ul> |
 | <p>Deduplicar</p> | <ul><li>5 Funciones Deduplicar por campo derivado</li></ul> |
 | <p>Profundidad</p> | <ul><li>Tres funciones Profundidad por campo derivado</li></ul> |
 | <p>Buscar y reemplazar</p> | <ul><li>2 Funciones Buscar y reemplazar por campo derivado</li></ul> |
-| <p>Buscar</p> | <ul><li>5 Funciones de consulta por campo derivado</li></ul> |
+| <p>Búsqueda</p> | <ul><li>5 Funciones de consulta por campo derivado</li></ul> |
 | <p>Minúsculas</p> | <ul><li>2 funciones Minúsculas por campo derivado</li></ul> |
 | <p>Matemáticas</p> | <ul><li>25 operaciones por campo derivado</li><li>5 funciones matemáticas por campo derivado</li></ul> |
 | <p>Combinar campos</p> | <ul><li>2 funciones Combinar campos por campo derivado</li></ul> |
 | <p>Siguiente o anterior</p> | <ul><li>3 Funciones Siguiente o Anterior por campo derivado</li></ul> |
-| <p>Reemplazar Regex</p> | <ul><li>1 función Reemplazar regex por campo derivado</li></ul> |
-| <p>Dividir</p> | <ul><li>2 Dividir funciones por campo derivado</li><li>Se devuelve un máximo de diez valores</ul> |
+| <p>Reemplazar regex</p> | <ul><li>1 función Reemplazar regex por campo derivado</li></ul> |
+| <p>División</p> | <ul><li>2 Dividir funciones por campo derivado</li><li>Se devuelve un máximo de diez valores</ul> |
 | <p>Resumir</p> | <ul><li>3 Funciones Resumir por campo derivado</li></ul> |
 | <p>Recortar</p> | <ul><li>1 función Recortar por campo derivado</li></ul> |
-| <p>Convertir tipo</p> | <ul><li>Tres funciones Conversión de tipos por campo derivado</li></ul> |
+| <p>Conversión de tipos</p> | <ul><li>Tres funciones Conversión de tipos por campo derivado</li></ul> |
 | <p>Análisis de URL</p> | <ul><li>5 funciones Análisis de URL por campo derivado</li></ul> |
 
 {style="table-layout:auto"}
