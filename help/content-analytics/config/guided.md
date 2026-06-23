@@ -25,10 +25,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: e557971b741732dae55ba56ee4a44c039a5e3d78
 workflow-type: tm+mt
-source-wordcount: 4111
-ht-degree: 64%
+source-wordcount: 4177
+ht-degree: 63%
 
 ---
 
@@ -546,6 +546,13 @@ Opcionalmente, puede especificar en la sección **[!UICONTROL Anulaciones de enc
 1. Habilitar **[!UICONTROL Configurar invalidaciones de encabezado]**.
 1. Escriba el **[!UICONTROL nombre del encabezado]**. Por ejemplo, `x-asset-service`.
 1. Escriba el **[!UICONTROL valor del encabezado]**. Lo que especifique es secreto y no está visible en la interfaz de usuario (a menos que seleccione explícitamente revelar ![Visibilidad](/help/assets/icons/Visibility.svg) del valor durante la entrada).
+
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
+>title="Sin conectores de origen"
+>abstract="Los medios de pago requieren conectores de origen de Experience Platform para los editores de anuncios. No hay conectores de Google Ads o Meta Ads disponibles en esta zona protegida. Configure uno o más de estos conectores en la interfaz de **[!UICONTROL Experience Platform]** > **[!UICONTROL Sources]** y vuelva a este paso para continuar con la configuración de los medios de pago de Content Analytics."
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/advertising/ads" text="Fuente de Google Ads"
 
 #### Guardar {#web-save}
 
