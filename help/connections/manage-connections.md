@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
 workflow-type: tm+mt
 source-wordcount: 5868
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -445,44 +445,44 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 
 >[!CONTEXTUALHELP]
 >id="connections_aca_corereportablerows"
->title="Filas principales de Content Analytics de las que se puede informar"
->abstract="Número total de filas específicas de Content Analytics disponibles durante los últimos 13 meses del mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de eventos de enero de 2023 a enero de 2024."
+>title="Filas notificables de datos principales de Content Analytics"
+>abstract="El número total de filas disponibles de Content Analytics durante los últimos 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024."
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_aca_monthlyreportablerows"
 >title="Filas mensuales de Content Analytics"
->abstract="Registra el número de filas de Content Analytics disponibles para la creación de informes. Las filas notificables son las filas introducidas menos las filas que se omiten y eliminan durante la ingesta. Las filas notificables sirven como métrica clave para la facturación y el uso de datos."
+>abstract="Realiza el seguimiento del número de filas de Content Analytics disponibles para la creación de informes. Las filas notificables son las filas introducidas menos las filas que se omiten y eliminan durante la ingesta. Las filas notificables sirven como métrica clave para la facturación y el uso de datos."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_corereportablerows"
->title="Filas principales de Content Analytics de las que se puede informar"
->abstract="Las filas principales de Content Analytics que se pueden incluir en informes son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>title="Filas notificables de datos principales de Content Analytics"
+>abstract="Las filas principales notificables de Content Analytics son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 
 >[!CONTEXTUALHELP]
 >id="connections_b2b_coreportablebpp"
->title="Filas reportables del perfil del profesional principal"
->abstract="Número total de filas del perfil empresarial disponibles durante los últimos 13 meses del mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de eventos de enero de 2023 a enero de 2024."
+>title="Filas notificables del perfil del profesional principal"
+>abstract="El número total de filas disponibles notificables del perfil de la empresa durante los últimos 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024."
 
 >[!CONTEXTUALHELP]
 >id="connections_b2b_historicalreportablebpp"
->title="Filas históricas informables de perfil empresarial"
->abstract="Número total de filas del perfil de negocio disponibles durante un período anterior a 13 meses en el mes actual, con un cambio porcentual en comparación con el mes anterior. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento anterior a enero de 2023."
+>title="Filas notificables históricas de la empresa"
+>abstract="El número total de filas disponibles notificables de la empresa durante un período anterior a 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior. Por ejemplo, el 1 de febrero de 2024, el número muestra el total de filas disponibles con una marca de tiempo de evento anterior a enero de 2023."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_corereportablebpp"
->title="Filas reportables del perfil empresarial principal"
->abstract="Las filas de los informes del perfil de negocio principal son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>title="Filas notificables del perfil de la empresa"
+>abstract="Las filas principales notificables del perfil de la empresa son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_historicalreportablebpp"
->title="Filas históricas informables de perfil empresarial"
->abstract="Las filas históricas de los informes de perfil de negocio son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>title="Filas notificables históricas de la empresa"
+>abstract="Las filas históricas notificables del perfil de la empresa son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="connections_monthlymediastarts"
 >title="Inicios de medios mensuales"
->abstract="Número total de inicios de medios mensuales disponibles durante los últimos 13 meses del mes actual, con una variación porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de inicios de medios disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024."
+>abstract="El número total de inicios de medios mensuales durante los últimos 13 meses para el mes actual, con un cambio porcentual en comparación con el mes anterior.  Por ejemplo, el 1 de febrero de 2024, el número muestra el total de inicios de medios disponibles con una marca de tiempo de evento de enero de 2023 a enero de 2024."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_monthlymediastarts"
