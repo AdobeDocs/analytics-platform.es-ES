@@ -27,16 +27,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
+source-git-commit: 9d0d572a176bf61f2b02ba1c98f0fc4202797692
 workflow-type: tm+mt
-source-wordcount: 229
-ht-degree: 51%
+source-wordcount: 298
+ht-degree: 39%
 
 ---
 
 # Notas de la versión actuales de Customer Journey Analytics (junio de 2026)
 
-**Última actualización**: 22 de junio de 2026
+**Última actualización**: 23 de junio de 2026
 
 Estas notas de la versión abarcan el período de la versión de junio de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -45,6 +45,7 @@ Estas notas de la versión abarcan el período de la versión de junio de 2026. 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | -----------|-----------|-----------|
 | **Data Mirror** <br/>[Data Mirror](/help/data-mirror/data-mirror.md) es una funcionalidad de Experience Platform que habilita la ingesta de cambios a nivel de fila (captura de datos de cambio) desde soluciones de Data Warehouse externas ([!DNL Snowflake], [!DNL Azure Databricks] y [!DNL Google BigQuery]) a Customer Journey Analytics mediante esquemas relacionales. Conserva las relaciones de datos, fuerza la exclusividad y admite el control de versiones sin requerir procesos de extracción, transformación y carga (ETL) en sentido ascendente. | 25 de marzo de 2026 | 17 de junio de 2026 |
+| **Valide los datos en el Asistente de IA** <br/>Puede usar el Asistente de IA para [validar la calidad de los datos de los conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation). Con la tecnología de Agent Orchestrator, la capacidad de validación de datos puede realizar validaciones estadísticas y semánticas de conjuntos de datos, analizar campos de conjuntos de datos, identificar problemas de calidad de datos y devolver resúmenes de lenguajes naturales con perspectivas procesables. | | 22 de junio de 2026 |
 
 ### Correcciones en Customer Journey Analytics
 
