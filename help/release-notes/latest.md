@@ -27,16 +27,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9d0d572a176bf61f2b02ba1c98f0fc4202797692
+source-git-commit: 8cdfe0db0aabba05fbebe7d9215182e0fca31d66
 workflow-type: tm+mt
-source-wordcount: 298
-ht-degree: 39%
+source-wordcount: 615
+ht-degree: 44%
 
 ---
 
 # Notas de la versión actuales de Customer Journey Analytics (junio de 2026)
 
-**Última actualización**: 23 de junio de 2026
+**Última actualización**: 25 de junio de 2026
 
 Estas notas de la versión abarcan el período de la versión de junio de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -49,21 +49,27 @@ Estas notas de la versión abarcan el período de la versión de junio de 2026. 
 
 ### Correcciones en Customer Journey Analytics
 
-**Analysis Workspace**:
+**Analysis Workspace**: AN-456858, AN-455865, AN-455706, AN-455592, AN-455484, AN-455180, AN-454999, AN-454170, AN-454145, AN-453793, AN-452921, AN-452009, AN-451958, AN-451643, AN-451600, AN-451525, AN-451477, AN-451262, AN-451161, AN-450772, AN-443594, AN-434416, AN-, AN-, AN-, AN-
 **Componentes**:
-**Conexiones**:
+**Conexiones**: AN-457065, AN-453705
 **Content Analytics**: AN-451203, AN-447596
 **Análisis guiado**:
-**Exportaciones**:
-**Vistas de datos**:
+**Exportaciones**: AN-452006, AN-451989, AN-440567
+**Vistas de datos**: AN-451198
 **Implementación**:
-**Report Builder**: AN-440912
-**Sistema de informes**:
+**Report Builder**: AN-440912, AN-457586, AN-457533, AN-455713, AN-455623, AN-455063, AN-454512, AN-454053, AN-453977, AN-453781, AN-453683, AN-451974, AN-451735, AN-451731, AN-451190, AN-449813, AN-447173, AN-447139, AN-446184, AN-445794, AN-445354, AN-442819, AN-, AN-, AN-, AN-
+**Informes**: AN-454589, AN-454517, AN-453982, AN-451822, AN-451497, AN-451463, AN-451259, AN-451215, AN-450661, AN-447699, AN-448375, AN-447692
 **Segmentación**:
-**Informes programados**:
+**Informes programados**: AN-451980, AN-451882, AN-450715
 **Dimensiones y métricas compartidas**:
 **Análisis de audiencia**: AN-449656, AN-450400
-**Otros**:
+**Otros**: AN-457063, AN-454140, AN-453937, AN-453825, AN-452959, AN-452934, AN-452296, AN-451781, AN-450974
+
+## Funciones aplazadas
+
+| Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
+| -----------|-----------|-----------|
+| **Servicios de medios de streaming: compatibilidad con los datos programados** <br/>Ahora puede cargar datos programados de contenido de medios de streaming transmitidos en directo en el pasado para realizar un seguimiento más fácil y preciso del número de espectadores.<p>Los siguientes son ejemplos de contenidos en directo compatibles con la carga de datos de programación:</p><ul><li>Plataformas FAST (Free Ad Supported TV)</li><li>Streams locales</li><li>Deportes en directo</li></ul><p>La carga de datos de programación le permite realizar un seguimiento de los datos del número de espectadores de los programas individuales que se emitieron durante el tiempo designado en el archivo de carga. Incluso puede recopilar datos del número de espectadores de temas específicos o segmentos de programa.</p><p>Estas funciones están disponibles independientemente de cómo haya implementado la recopilación de medios de streaming.</p><p>Anteriormente, era difícil vincular con precisión una sesión determinada a programas específicos cuando se analizaba contenido en directo, y no era posible vincular una sesión determinada a temas o segmentos de programa individuales.</p><p>Para obtener más información, consulte [Cargar datos de programación para realizar un seguimiento del contenido en directo](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-use-cases/track-schedule-data) | 29 de octubre de 2025 | Por determinar<p>(Originalmente planificado para el 29 de octubre de 2025)</p> |
 
 >[!MORELIKETHIS]
 >
