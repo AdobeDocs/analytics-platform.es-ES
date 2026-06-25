@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 8c577ff8508f15944ced77aaf20b692c911fdd3e
 workflow-type: tm+mt
-source-wordcount: 934
+source-wordcount: 933
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Las fuentes de datos tanto en Customer Journey Analytics como en Adobe Analytics
 | **Métricas calculadas**<br/> | No disponible | No disponible |
 | **Modelo de persistencia** | Flexible. La configuración de persistencia de la vista de datos (asignación y caducidad) se aplica en el momento del informe cuando se genera la fuente. Admite todas las configuraciones de asignación disponibles en una vista de datos: **Original**, **Más reciente**, **Todos**, **Primero conocido** y **Último conocido**. | Solo se representan los modelos de atribución **más reciente (último contacto)** y **valor original (primer contacto)**. La asignación lineal se gestiona del mismo modo que el último contacto. |
 | **Formato de archivo de salida** | Parquet<p>Admite de forma nativa datos anidados y estructurados complejos. Las listas de productos se representan como matrices estructuradas u objetos anidados. </p><p>Requiere una herramienta compatible con Parquet para leer, como BigQuery, Snowflake o Apache Spark.</p> | TSV<p>Filas planas legibles por humanos. No admite de forma nativa los datos estructurados; los campos complejos, como las listas de productos, deben codificarse como cadenas delimitadas por propiedad que requieran una lógica de análisis personalizada.</p> |
-| **Destinos de envío** | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform, Snowflake. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. También admite **SFTP**. |
+| **Destinos de envío** | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. También admite **SFTP**. |
 
 {style="table-layout:auto"}
 
