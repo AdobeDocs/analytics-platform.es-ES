@@ -7,20 +7,14 @@ hide: true
 exl-id: 32b71016-7c53-409f-9ce4-521a40e2eb96
 autotag-review: '2026-05-19T08:44:26.806Z'
 TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 8c577ff8508f15944ced77aaf20b692c911fdd3e
 workflow-type: tm+mt
-source-wordcount: 934
+source-wordcount: 933
 ht-degree: 2%
 
 ---
@@ -34,7 +28,7 @@ Las fuentes de datos tanto en Customer Journey Analytics como en Adobe Analytics
 | **Entrada de datos**<br/> Tipo de datos que se pueden recopilar e incluir en las fuentes de datos. | Admite entrada de datos en canales múltiples, incluidos datos web, datos del centro de llamadas, datos del punto de venta, etc. | Admite principalmente la entrada de datos web y móviles. Se pueden introducir otros tipos de datos (como datos del centro de llamadas o del punto de venta) mediante fuentes de datos, pero con capacidades de procesamiento muy limitadas. |
 | **Procesamiento de datos**<br/> Los datos se procesan en diferentes etapas, según el producto que esté usando. | Los datos se procesan a las **horas del informe** y, por lo tanto, se pueden usar muchas características de informes para cambiar los datos históricos, como la vinculación, los campos derivados y la segmentación. | Los datos se procesan a las **horas de recopilación** y, por lo tanto, las características de los informes como las reglas de procesamiento y las reglas de VISTA no afectan los datos históricos. |
 | **Frecuencia de envío**<br/> Determina la frecuencia con la que se envía la fuente de datos y el período de tiempo incluido en la fuente. | **Diario** (de medianoche a medianoche en el huso horario de la vista de datos) o **Por hora**. | **Diario** (de medianoche a medianoche en el huso horario del grupo de informes) o **Por hora**. Las fuentes de 15 minutos son posibles, pero no están disponibles de forma predeterminada. |
-| **Visitas que llegan tarde**<br/> Las visitas cuyas marcas de tiempo pertenecen a una ventana de frecuencia de envío anterior pero llegan después de que esa ventana ya haya transcurrido. <p>Por ejemplo, las visitas que llegan tarde podrían proceder de una aplicación móvil que almacena en búfer los eventos sin conexión y los envía cuando se vuelve a conectar.</p> | La configuración **Demora del procesamiento** controla cuánto tiempo espera el sistema después de que se cierre la ventana de frecuencia antes de activar la exportación, lo que le da tiempo adicional para que lleguen los datos retrasados. | Las visitas que llegan tarde pueden ser **incluidas o excluidas** mediante la opción de configuración **Visitas que llegan tarde**. <p>La configuración de la ventana retrospectiva **1&rbrace; controla hasta dónde llega el sistema para incluir datos retrasados.**</p> |
+| **Visitas que llegan tarde**<br/> Las visitas cuyas marcas de tiempo pertenecen a una ventana de frecuencia de envío anterior pero llegan después de que esa ventana ya haya transcurrido. <p>Por ejemplo, las visitas que llegan tarde podrían proceder de una aplicación móvil que almacena en búfer los eventos sin conexión y los envía cuando se vuelve a conectar.</p> | La configuración **Demora del procesamiento** controla cuánto tiempo espera el sistema después de que se cierre la ventana de frecuencia antes de activar la exportación, lo que le da tiempo adicional para que lleguen los datos retrasados. | Las visitas que llegan tarde pueden ser **incluidas o excluidas** mediante la opción de configuración **Visitas que llegan tarde**. <p>La configuración de la ventana retrospectiva **1} controla hasta dónde llega el sistema para incluir datos retrasados.**</p> |
 | **Visitas desordenadas**<br/> Visitas cuyas marcas de tiempo no coinciden con el orden en que se recibieron. | Como Customer Journey Analytics acepta datos de flujo continuo y por lotes, no hay garantías de que los eventos de una persona determinada lleguen en orden de marca de hora. Customer Journey Analytics reordena los datos por marca de tiempo por persona en el momento del informe. <p>La configuración **Demora el procesamiento** ayuda a reducir los eventos desordenados en la salida de la fuente de datos, ya que concede más tiempo para que los datos por lotes lleguen antes de la exportación. No se garantiza el orden de los eventos en la entrega.</p><p>**Importante**: el consumidor final de los datos de la fuente de datos debe poder controlar las marcas de tiempo desordenadas por persona, ya que no se garantiza el orden de visitas en la entrega de la fuente de datos.</p> | Adobe Analytics requiere que los datos lleguen en orden por visitante en el momento de la recopilación, pero no se garantiza la ordenación de visitas en la entrega de fuentes de datos.</p> |
 | **Ventana de relleno**<br/> Exporta datos históricos entre dos fechas pasadas. | Limitado a la ventana de datos móviles de la conexión. | Limitado al límite de retención de datos del grupo de informes: **25 meses** de forma predeterminada. |
 | **Segmentación** | Los segmentos se pueden aplicar a las fuentes de datos mediante el segmento de vista de datos, un segmento específico de la fuente o ambos. | Los segmentos no se pueden aplicar. |
@@ -45,7 +39,7 @@ Las fuentes de datos tanto en Customer Journey Analytics como en Adobe Analytics
 | **Métricas calculadas**<br/> | No disponible | No disponible |
 | **Modelo de persistencia** | Flexible. La configuración de persistencia de la vista de datos (asignación y caducidad) se aplica en el momento del informe cuando se genera la fuente. Admite todas las configuraciones de asignación disponibles en una vista de datos: **Original**, **Más reciente**, **Todos**, **Primero conocido** y **Último conocido**. | Solo se representan los modelos de atribución **más reciente (último contacto)** y **valor original (primer contacto)**. La asignación lineal se gestiona del mismo modo que el último contacto. |
 | **Formato de archivo de salida** | Parquet<p>Admite de forma nativa datos anidados y estructurados complejos. Las listas de productos se representan como matrices estructuradas u objetos anidados. </p><p>Requiere una herramienta compatible con Parquet para leer, como BigQuery, Snowflake o Apache Spark.</p> | TSV<p>Filas planas legibles por humanos. No admite de forma nativa los datos estructurados; los campos complejos, como las listas de productos, deben codificarse como cadenas delimitadas por propiedad que requieran una lógica de análisis personalizada.</p> |
-| **Destinos de envío** | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform, Snowflake. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. También admite **SFTP**. |
+| **Destinos de envío** | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. También admite **SFTP**. |
 
 {style="table-layout:auto"}
 
