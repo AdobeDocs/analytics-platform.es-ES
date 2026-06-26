@@ -27,7 +27,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b31ae6194d30115f4d653addaf5efff5790e987c
+source-git-commit: 9c3546c33914feb7a00b5bb78a575dd511cabb5f
 workflow-type: tm+mt
 source-wordcount: 615
 ht-degree: 44%
@@ -78,3 +78,4 @@ Estas notas de la versión abarcan el período de la versión de junio de 2026. 
 >* [Notas de la versión de la colección de medios de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=es)
 >* [Notas de la versión de CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
 >* [Actualizaciones de documentación de Customer Journey Analytics](/help/release-notes/doc-changes.md)
+
