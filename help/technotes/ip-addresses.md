@@ -7,19 +7,12 @@ exl-id: 5c52986c-7ff3-45b5-9039-2bfb6529238c
 role: Admin
 autotag-review: '2026-05-19T09:27:51.516Z'
 TQID: 'https://experienceleague.adobe.com/4DM6LjcCM4xWw8j-1xcEvJ8XOVdvF5zNiOXir538Z0A'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
 source-wordcount: 196
 ht-degree: 32%
@@ -158,4 +151,4 @@ Esta página incluye las direcciones IP que debe agregar a la lista de permitido
 >
 >[Dominios utilizados por Customer Journey Analytics](domains.md)
 >
->[Direcciones IP utilizadas por CX Enterprise](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/ip-addresses)
+>[Direcciones IP utilizadas por CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)

@@ -3,32 +3,15 @@ title: Análisis de productos en Customer Journey Analytics
 description: Descubra qué funciones puede utilizar dentro de Customer Journey Analytics para realizar análisis de productos de forma eficaz.
 exl-id: b185a2ed-18c8-4fb3-8c69-693d5fee0e67
 TQID: https://experienceleague.adobe.com/24OrFfxJY7XuqMYoTrmijM5xRfsdGhfA-aKe5tY-7xw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
-  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
-  - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: f3ca85c1-72de-4df2-97ed-05753cd77c47
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8id: bfef374d-acfd-4c57-bf74-a2b36053c545id: c91f8bd2-df97-4c6a-afcd-f1cde8221302id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: f3ca85c1-72de-4df2-97ed-05753cd77c47
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 3%
+source-wordcount: 896
+ht-degree: 4%
 
 ---
 
@@ -54,15 +37,15 @@ Los datos precisos del producto son la piedra angular de un análisis eficaz del
 Las siguientes funciones de Adobe Experience Platform y Customer Journey Analytics le permiten introducir y administrar los datos de sus productos a escala:
 
 * Adobe Experience Platform
-   * [Conjuntos de datos&#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)
-   * [Preparación de datos&#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/data-prep/home)
-   * [Data Distiller&#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview)
+   * [Conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
+   * [Preparación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-prep/home)
+   * [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
-   * [Conexiones&#x200B;](/help/connections/overview.md)
+   * [Conexiones](/help/connections/overview.md)
    * [Vistas de datos](/help/data-views/data-views.md), incluidos [campos derivados&#x200B;](/help/data-views/derived-fields/derived-fields.md)
-   * [Segmentos&#x200B;](/help/components/segments/seg-overview.md)
+   * [Segmentos](/help/components/segments/seg-overview.md)
    * [Métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md)
-   * [Análisis guiado&#x200B;: Cronología&#x200B;](/help/guided-analysis/types/timeline.md)
+   * [Análisis guiado: línea de tiempo](/help/guided-analysis/types/timeline.md)
 
 ## Medir adquisición y activación
 
@@ -75,10 +58,10 @@ El crecimiento del producto depende de perspectivas procesables de funnel que at
 
 Las siguientes funciones de Customer Journey Analytics le permiten medir tanto la adquisición como la activación de forma eficaz:
 
-* [Análisis guiado&#x200B;: Crecimiento activo](/help/guided-analysis/types/active-growth.md)
+* [Análisis guiado: crecimiento activo](/help/guided-analysis/types/active-growth.md)
 * [Análisis guiado: crecimiento neto](/help/guided-analysis/types/net-growth.md)
 * [Análisis guiado: tendencias](/help/guided-analysis//types/trends.md)
-* [Panel de Attribution&#x200B;](/help/analysis-workspace/c-panels/attribution.md)
+* [Panel de atribución](/help/analysis-workspace/c-panels/attribution.md)
 * [Tabla de forma libre](/help/analysis-workspace/c-panels/freeform-panel.md) que incluye la dimensión de canal de marketing (creando mediante un [campo derivado](/help/data-views/derived-fields/derived-fields.md))
 
 ## Medir la participación y la adopción
@@ -95,9 +78,9 @@ Las siguientes funciones de Customer Journey Analytics le ayudan a realizar un s
 * [Análisis guiado: Funnel](/help/guided-analysis/types/funnel.md)
 * [Análisis guiado: Tendencias de conversión](/help/guided-analysis/types/conversion-trends.md)
 * [Análisis guiado: Impacto de la versión](/help/guided-analysis/types/release-impact.md)
-* [Análisis guiado: Impacto del primer uso&#x200B;](/help/guided-analysis/types/first-use-impact.md)
+* [Análisis guiado: Impacto del primer uso](/help/guided-analysis/types/first-use-impact.md)
 * [Análisis guiado: línea de tiempo](/help/guided-analysis/types/timeline.md)
-* [Tablas improvisadas&#x200B;](/help/analysis-workspace/c-panels/freeform-panel.md)
+* [Tablas improvisadas](/help/analysis-workspace/c-panels/freeform-panel.md)
 * [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)
 
 ## Medir la retención y la pérdida
@@ -108,10 +91,10 @@ La retención mide cuántos usuarios siguen interactuando con el producto despu�
 
 Las siguientes funciones de Customer Journey Analytics le ayudan a realizar un seguimiento de la retención y la pérdida de forma eficaz:
 
-* [Análisis guiado: Retención](/help/guided-analysis/types/retention.md)&#x200B;
+* [Análisis guiado: Retención](/help/guided-analysis/types/retention.md)
 * [Análisis guiado: crecimiento activo](/help/guided-analysis/types/active-growth.md)
 * [Análisis guiado: crecimiento neto](/help/guided-analysis/types/net-growth.md)
-* [Tabla de cohortes&#x200B;](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+* [Tabla de cohortes](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 
 ## Perspectivas de productos procesables
 
@@ -119,13 +102,13 @@ Las perspectivas solo proporcionan valor cuando impulsan la acción. Convierta l
 
 Las siguientes funciones de CX Enterprise le permiten actuar con información de forma eficaz:
 
-* [Crear y publicar audiencias](/help/components/audiences/publish.md)&#x200B; para la activación desde Customer Journey Analytics
+* [Crear y publicar audiencias](/help/components/audiences/publish.md) para la activación desde Customer Journey Analytics
 * Activar audiencias a través de productos de CX Enterprise:
    * [Ejecute experimentos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) en AJO y Adobe Target y mida el impacto de las variaciones en Customer Journey Analytics mediante el [panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md)
-   * [Entregue compromisos en la aplicación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/in-app/get-started-in-app) a los usuarios en AJO
-* [Activar audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activation-overview) en destinos externos con Adobe Real-time CDP&#x200B;
+   * [Entregue participaciones en la aplicación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/get-started-in-app) a los usuarios de AJO.
+* [Activar audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview) en destinos externos con Adobe Real-time CDP.
 
-## Comparta perspectivas con la organización&#x200B;
+## Compartir perspectivas con la organización
 
 Comunique los resultados clave entre los equipos para alinear los esfuerzos, fomentar la colaboración y garantizar que todos trabajen en pos de objetivos empresariales y de productos compartidos.
 

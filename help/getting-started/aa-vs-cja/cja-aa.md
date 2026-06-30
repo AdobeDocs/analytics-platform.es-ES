@@ -6,46 +6,12 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 TQID: https://experienceleague.adobe.com/3TqNaNKkAo2Ug92F5244fVbnv-Po6x5l2sAf3ZHZuCw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d13dba12-733d-4914-8d92-d643658bbe5d
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: d47d27f9-fcd6-414d-a127-a8a739dac811
-  - id: ddf59f64-0e46-4986-a525-056acc143c70
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e0be3531-517c-451a-b2ff-6fcafd56ca0d
-  - id: e2ff1689-912e-40ed-a029-ed8d02d9f34a
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: e634a07b-b7ca-4af3-a124-3024ce559e17
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d13dba12-733d-4914-8d92-d643658bbe5did: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: d47d27f9-fcd6-414d-a127-a8a739dac811id: ddf59f64-0e46-4986-a525-056acc143c70id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e0be3531-517c-451a-b2ff-6fcafd56ca0did: e2ff1689-912e-40ed-a029-ed8d02d9f34aid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
 source-wordcount: 3109
 ht-degree: 99%
@@ -136,7 +102,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Generador de reglas de clasificación** | Admitido mediante [subcadenas](/help/data-views/component-settings/substring.md) en Customer Journey Analytics. Utiliza manipulaciones de cadenas en el tiempo del informe en lugar de conjuntos de datos de búsqueda. |
 | **Longitud de sesión personalizada** | La longitud de sesión se puede configurar mediante las opciones de [Configuración de sesión](../../data-views/create-dataview.md#session-settings) en una Vista de datos. Consulte [Configuración de sesiones](../../data-views/session-settings.md) para obtener más información. <br/>La gestión de eventos móviles en segundo plano se admite mediante el SDK móvil de Adobe Experience Platform. Consulte [Ciclo de vida para Edge Network](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/) para obtener más información. |
 | **Conversión de moneda** | Se admite como parte del [formato de un componente de métrica](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/format) en una vista de datos. |
-| **Atributos del cliente** | Los conjuntos de datos de perfil son el equivalente de la atribución del cliente. Los conjuntos de datos de perfil no se importan automáticamente desde CX Enterprise, pero deben cargarse en Experience Platform antes de que estén disponibles en Customer Journey Analytics. |
+| **Atributos del cliente** | Los conjuntos de datos de perfil son el equivalente de la atribución del cliente. Los conjuntos de datos de perfil no se importan de manera automática desde Experience Cloud, pero deben cargarse en Experience Platform antes de que estén disponibles en Customer Journey Analytics. |
 | **Fuentes de datos** | La exportación de datos de primera generación de conjuntos de datos está disponible a través de la [API de acceso a datos de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/data-access/api) y mediante [Destinos de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/export-datasets). Estas opciones proporcionan una exportación a nivel de evento/fila de todos los datos recopilados o introducidos en el lago de datos de Experience Platform. Las columnas de datos de procesamiento posterior no están disponibles porque las columnas posteriores se calculan en el momento de la consulta. La exportación de columnas de publicación está disponible a través del sistema de creación de informes. |
 | **Creación de informes de Data Warehouse** | La [Exportación de tablas completas de Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) es la evolución de los informes de Data Warehouse en Adobe Analytics, con muchas funciones nuevas y a menudo solicitadas que no están disponibles en Data Warehouse en la actualidad. |
 | **Métricas y dimensiones de Entradas, Salidas y Tiempo empleado** | Todas estas son ahora compatibles (las entradas y salidas ahora se denominan inicios de sesión y fines de sesión) y se calculan de forma ligeramente distinta. |
