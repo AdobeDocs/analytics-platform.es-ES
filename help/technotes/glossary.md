@@ -23,9 +23,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: 331
 ht-degree: 95%
 
 ---
@@ -38,12 +38,11 @@ Algunos términos de Customer Journey Analytics difieren de cómo se han utiliza
 | --- | --- | --- |
 | Buscar un conjunto de datos | Clasificación de | Utilice la consulta para recuperar el valor del conjunto de datos especificado para una clave o clave coincidente (en un conjunto de datos de evento) donde haya una relación de 1 a 1. Por ejemplo: puede especificar “tracking_code” como la clave que coincide con el “tracking_code” en el conjunto de datos de evento. |
 | Conjunto de datos del perfil | Atributo del cliente | Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en un conjunto de datos de perfil en Adobe Experience Platform. Una vez que haya creado una conexión con ese conjunto de datos en Customer Journey Analytics y haya creado una vista de datos, aproveche los datos el Espacio de trabajo. |
-| CX Organización empresarial | Inicio de sesión de la empresa | Consulte [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es#topic_C31CB834F109465A82ED57FF0563B3F1). |
+| Organización de CX Enterprise (Experience Cloud) | Inicio de sesión de la empresa | Consulte [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es#topic_C31CB834F109465A82ED57FF0563B3F1). |
 | N/A | Grupo de informes | Los grupos de informes en la sensación tradicional de Adobe Analytics ya no existen. En su lugar, se crean [vistas de datos](/help/data-views/create-dataview.md) (virtuales) a partir de los conjuntos de datos de Platform con los que se establecieron conexiones. |
 | Segmento | Segmento | Los segmentos solían ser &quot;filtros&quot;. Se los ha cambiado a &quot;segmentos&quot;. |
 | Vista de datos | Grupo de informes virtuales | En Adobe Analytics, un grupo de informes virtuales es una vista filtrada de un grupo de informes principal. La principal diferencia entre un grupo de informes virtuales y una vista de datos en Customer Journey Analytics es que el grupo de informes virtuales es un subconjunto de un grupo de informes “base” o “principal” y, como tal, hereda parte de su configuración. Dado que los grupos de informes principales/básicos ya no existen, puede definir vistas de datos con su propia configuración. |
 
 ## Glosario de Adobe Experience Platform
 
-Adobe Experience Platform estandariza los datos y el contenido en toda la empresa, lo que potencia los perfiles de los consumidores en tiempo real, permite la ciencia de datos y acelera la velocidad de contenido para impulsar la personalización de la experiencia a lo largo del recorrido del cliente.
-Consulte [el glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=es) para obtener más información.
+Adobe Experience Platform estandariza los datos y el contenido en toda la empresa, lo que potencia los perfiles de los consumidores en tiempo real, permite la ciencia de datos y acelera la velocidad de contenido para impulsar la personalización de la experiencia a lo largo del recorrido del cliente.Consulte [el glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=es) para obtener más información.

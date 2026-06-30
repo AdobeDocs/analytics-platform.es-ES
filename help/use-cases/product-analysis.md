@@ -25,10 +25,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 3%
+source-wordcount: 896
+ht-degree: 4%
 
 ---
 
@@ -54,15 +54,15 @@ Los datos precisos del producto son la piedra angular de un análisis eficaz del
 Las siguientes funciones de Adobe Experience Platform y Customer Journey Analytics le permiten introducir y administrar los datos de sus productos a escala:
 
 * Adobe Experience Platform
-   * [Conjuntos de datos&#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)
-   * [Preparación de datos&#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/data-prep/home)
-   * [Data Distiller&#x200B;](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview)
+   * [Conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)
+   * [Preparación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-prep/home)
+   * [Data Distiller](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
-   * [Conexiones&#x200B;](/help/connections/overview.md)
+   * [Conexiones](/help/connections/overview.md)
    * [Vistas de datos](/help/data-views/data-views.md), incluidos [campos derivados&#x200B;](/help/data-views/derived-fields/derived-fields.md)
-   * [Segmentos&#x200B;](/help/components/segments/seg-overview.md)
+   * [Segmentos](/help/components/segments/seg-overview.md)
    * [Métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md)
-   * [Análisis guiado&#x200B;: Cronología&#x200B;](/help/guided-analysis/types/timeline.md)
+   * [Análisis guiado: línea de tiempo](/help/guided-analysis/types/timeline.md)
 
 ## Medir adquisición y activación
 
@@ -75,10 +75,10 @@ El crecimiento del producto depende de perspectivas procesables de funnel que at
 
 Las siguientes funciones de Customer Journey Analytics le permiten medir tanto la adquisición como la activación de forma eficaz:
 
-* [Análisis guiado&#x200B;: Crecimiento activo](/help/guided-analysis/types/active-growth.md)
+* [Análisis guiado: crecimiento activo](/help/guided-analysis/types/active-growth.md)
 * [Análisis guiado: crecimiento neto](/help/guided-analysis/types/net-growth.md)
 * [Análisis guiado: tendencias](/help/guided-analysis//types/trends.md)
-* [Panel de Attribution&#x200B;](/help/analysis-workspace/c-panels/attribution.md)
+* [Panel de atribución](/help/analysis-workspace/c-panels/attribution.md)
 * [Tabla de forma libre](/help/analysis-workspace/c-panels/freeform-panel.md) que incluye la dimensión de canal de marketing (creando mediante un [campo derivado](/help/data-views/derived-fields/derived-fields.md))
 
 ## Medir la participación y la adopción
@@ -95,9 +95,9 @@ Las siguientes funciones de Customer Journey Analytics le ayudan a realizar un s
 * [Análisis guiado: Funnel](/help/guided-analysis/types/funnel.md)
 * [Análisis guiado: Tendencias de conversión](/help/guided-analysis/types/conversion-trends.md)
 * [Análisis guiado: Impacto de la versión](/help/guided-analysis/types/release-impact.md)
-* [Análisis guiado: Impacto del primer uso&#x200B;](/help/guided-analysis/types/first-use-impact.md)
+* [Análisis guiado: Impacto del primer uso](/help/guided-analysis/types/first-use-impact.md)
 * [Análisis guiado: línea de tiempo](/help/guided-analysis/types/timeline.md)
-* [Tablas improvisadas&#x200B;](/help/analysis-workspace/c-panels/freeform-panel.md)
+* [Tablas improvisadas](/help/analysis-workspace/c-panels/freeform-panel.md)
 * [Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)
 
 ## Medir la retención y la pérdida
@@ -108,10 +108,10 @@ La retención mide cuántos usuarios siguen interactuando con el producto despu�
 
 Las siguientes funciones de Customer Journey Analytics le ayudan a realizar un seguimiento de la retención y la pérdida de forma eficaz:
 
-* [Análisis guiado: Retención](/help/guided-analysis/types/retention.md)&#x200B;
+* [Análisis guiado: Retención](/help/guided-analysis/types/retention.md)
 * [Análisis guiado: crecimiento activo](/help/guided-analysis/types/active-growth.md)
 * [Análisis guiado: crecimiento neto](/help/guided-analysis/types/net-growth.md)
-* [Tabla de cohortes&#x200B;](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+* [Tabla de cohortes](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 
 ## Perspectivas de productos procesables
 
@@ -119,13 +119,13 @@ Las perspectivas solo proporcionan valor cuando impulsan la acción. Convierta l
 
 Las siguientes funciones de CX Enterprise le permiten actuar con información de forma eficaz:
 
-* [Crear y publicar audiencias](/help/components/audiences/publish.md)&#x200B; para la activación desde Customer Journey Analytics
+* [Crear y publicar audiencias](/help/components/audiences/publish.md) para la activación desde Customer Journey Analytics
 * Activar audiencias a través de productos de CX Enterprise:
    * [Ejecute experimentos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) en AJO y Adobe Target y mida el impacto de las variaciones en Customer Journey Analytics mediante el [panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md)
-   * [Entregue compromisos en la aplicación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/in-app/get-started-in-app) a los usuarios en AJO
-* [Activar audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activation-overview) en destinos externos con Adobe Real-time CDP&#x200B;
+   * [Entregue participaciones en la aplicación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/in-app/get-started-in-app) a los usuarios de AJO.
+* [Activar audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activation-overview) en destinos externos con Adobe Real-time CDP.
 
-## Comparta perspectivas con la organización&#x200B;
+## Compartir perspectivas con la organización
 
 Comunique los resultados clave entre los equipos para alinear los esfuerzos, fomentar la colaboración y garantizar que todos trabajen en pos de objetivos empresariales y de productos compartidos.
 
