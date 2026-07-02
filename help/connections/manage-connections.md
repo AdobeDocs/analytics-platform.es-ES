@@ -26,8 +26,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
 workflow-type: tm+mt
-source-wordcount: 5868
-ht-degree: 95%
+source-wordcount: 5884
+ht-degree: 97%
 
 ---
 
@@ -62,8 +62,7 @@ Una vez que haya [creado o editado una o más conexiones](/help/connections/crea
 
 La interfaz **[!UICONTROL Lista]** es la interfaz predeterminada para Conexiones. Si no está seleccionada, seleccione la pestaña **[!UICONTROL Lista]** para tener acceso a la interfaz.
 
-La interfaz **[!UICONTROL List]** muestra una tabla de todas las conexiones disponibles.
-△
+La interfaz **[!UICONTROL Lista]** muestra una tabla de todas las conexiones disponibles.△
 ![vista de lista](assets/list-view.png)
 
 En la tabla están disponibles las siguientes columnas o iconos.
@@ -441,7 +440,7 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_extendeddatacapacityrows"
 >title="Filas de capacidad de datos extendidas"
->abstract="Las filas de capacidad de datos extendida son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas de capacidad de datos extendida son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="connections_aca_corereportablerows"
@@ -493,7 +492,7 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_monthlyreportablerows"
 >title="Filas mensuales de Content Analytics"
->abstract="Las filas mensuales de Content Analytics son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas mensuales de Content Analytics son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 
 
@@ -584,6 +583,5 @@ La interfaz de uso consta de dos paneles:
 
 >[!MORELIKETHIS]
 >
->[Ver, solucionar problemas y modificar la configuración de conexión](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja) tutorial.
->[Administre su uso de Customer Journey Analytics](/help/technotes/estimate-usage.md)
+>Tutorial [Ver, solucionar problemas y modificar la configuración de conexiónt](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).Administrar el uso de Customer Journey Analytics&rbrack;(/help/technotes/estimate-usage.md)
 >
