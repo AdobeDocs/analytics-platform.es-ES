@@ -3,6 +3,7 @@ title: Notas de la versión de Customer Journey Analytics actuales
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
+hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -27,25 +28,28 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9c3546c33914feb7a00b5bb78a575dd511cabb5f
+source-git-commit: b27408ce620b9dc62c06e4dc6dda00b2aef1c46d
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 44%
+source-wordcount: 746
+ht-degree: 38%
 
 ---
 
-# Notas de la versión actuales de Customer Journey Analytics (junio de 2026)
+# Notas de la versión actuales de Customer Journey Analytics (julio de 2026)
 
-**Última actualización**: 25 de junio de 2026
+**Última actualización**: 8 de julio de 2026
 
-Estas notas de la versión abarcan el período de la versión de junio de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el periodo de la versión de julio de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Funciones nuevas o actualizadas
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | -----------|-----------|-----------|
-| **Data Mirror** <br/>[Data Mirror](/help/data-mirror/data-mirror.md) es una funcionalidad de Experience Platform que habilita la ingesta de cambios a nivel de fila (captura de datos de cambio) desde soluciones de Data Warehouse externas ([!DNL Snowflake], [!DNL Azure Databricks] y [!DNL Google BigQuery]) a Customer Journey Analytics mediante esquemas relacionales. Conserva las relaciones de datos, fuerza la exclusividad y admite el control de versiones sin requerir procesos de extracción, transformación y carga (ETL) en sentido ascendente. | 25 de marzo de 2026 | 17 de junio de 2026 |
-| **Valide los datos en el Asistente de IA** <br/>Puede usar el Asistente de IA para [validar la calidad de los datos de los conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation). Con la tecnología de Agent Orchestrator, la capacidad de validación de datos puede realizar validaciones estadísticas y semánticas de conjuntos de datos, analizar campos de conjuntos de datos, identificar problemas de calidad de datos y devolver resúmenes de lenguajes naturales con perspectivas procesables. | | 22 de junio de 2026 |
+| **Análisis de subeventos** <br/>El análisis de subeventos le permite analizar los datos en un nivel más granular que el nivel de evento. En lugar de filtrar eventos completos, puede segmentar contenedores individuales dentro de un evento. <p>Por ejemplo, puede segmentar una categoría de producto específica sin incluir todos los demás productos comprados en el mismo pedido. También puede definir objetos o matrices que formen parte de los datos de evento como contenedores independientes dentro de una vista de datos.</p> | Julio de 8 | Finales de julio de 2026 |
+| **CJA B2B: compatibilidad con conjuntos de datos ad hoc y relacionales** <br/>Los conjuntos de datos ad hoc y relacionales ahora también son compatibles con las conexiones basadas en cuentas B2B de CJA.<p>(Vínculo a la documentación a continuación).</p> | | 20 de julio de 2026 |
+| **Datos de medios de pago** <br/>Los medios de pago se agregan como un tercer canal para Content Analytics.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
+| **Actualización de la interfaz de usuario de uso de conexiones** <br/>Puede ver los detalles de uso de cada módulo individual, como Customer Journey Analytics o Customer Journey Analytics B2B edition. Además, puede desglosar los informes de uso de cada uno de los módulos por mes.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
+| **Colaborador empresarial de CX: valide sus datos al migrar de Adobe Analytics a Customer Journey Analytics** <br/>Una nueva habilidad de colaborador empresarial de CX le permite validar los datos de su implementación de Customer Journey Analytics con los datos de su implementación de Adobe Analytics existente. <p>Esta aptitud compara automáticamente cada dimensión, métrica y tendencia y, a continuación, genera perspectivas y recomendaciones impulsadas por IA que puede implementar para facilitar la migración a Customer Journey Analytics.</p><p>(Vínculo a la documentación a continuación).</p> | | Finales de julio de 2026 |
 
 ### Correcciones en Customer Journey Analytics
 
