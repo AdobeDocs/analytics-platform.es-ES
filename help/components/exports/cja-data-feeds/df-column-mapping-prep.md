@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
 source-wordcount: 1092
 ht-degree: 3%
@@ -29,6 +29,8 @@ ht-degree: 3%
 ---
 
 # Preparación para asignar columnas de fuentes de datos de Adobe Analytics a Customer Journey Analytics
+
+{{release-limited-testing}}
 
 Customer Journey Analytics proporciona una arquitectura más flexible que Adobe Analytics para determinar las columnas que están disponibles para incluirlas en una fuente de datos. La mayoría de las organizaciones deberían esperar exportar desde Customer Journey Analytics columnas de fuentes de datos diferentes a las exportadas desde Adobe Analytics. Estas diferencias se deben a los siguientes factores:
 

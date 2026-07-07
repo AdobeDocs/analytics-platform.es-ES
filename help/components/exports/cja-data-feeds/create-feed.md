@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 9c3546c33914feb7a00b5bb78a575dd511cabb5f
+source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
 source-wordcount: 2675
 ht-degree: 29%
@@ -26,6 +26,8 @@ ht-degree: 29%
 ---
 
 # Creación de un feed de datos
+
+{{release-limited-testing}}
 
 Al crear un feed de datos, debe proporcionar a Adobe lo siguiente:
 

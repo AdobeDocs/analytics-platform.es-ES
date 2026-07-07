@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 840107d7c99277b0d75a5344b59109c6690b0596
+source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
 source-wordcount: 954
 ht-degree: 2%
@@ -26,6 +26,8 @@ ht-degree: 2%
 ---
 
 # Comparación de fuentes de datos en Customer Journey Analytics y Adobe Analytics
+
+{{release-limited-testing}}
 
 Las fuentes de datos tanto en Customer Journey Analytics como en Adobe Analytics permiten exportar datos sin procesar a plataformas de terceros. Si anteriormente utilizaba fuentes de datos en Adobe Analytics, utilice la siguiente información para comprender las diferencias en las funciones y los conceptos disponibles:
 
