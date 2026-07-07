@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 6af3e9063dc192814c888e786ca61ff1703aedf5
 workflow-type: tm+mt
 source-wordcount: 4177
-ht-degree: 63%
+ht-degree: 65%
 
 ---
 
@@ -551,8 +551,8 @@ Opcionalmente, puede especificar en la sección **[!UICONTROL Anulaciones de enc
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
 >title="Sin conectores de origen"
->abstract="Los medios de pago requieren conectores de origen de Experience Platform para los editores de anuncios. No hay conectores de Google Ads o Meta Ads disponibles en esta zona protegida. Configure uno o más de estos conectores en la interfaz de **[!UICONTROL Experience Platform]** > **[!UICONTROL Sources]** y vuelva a este paso para continuar con la configuración de los medios de pago de Content Analytics."
->additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/advertising/ads" text="Fuente de Google Ads"
+>abstract="Los medios de pago requieren conectores de origen de Experience Platform para los editores de publicidad. No hay conectores de Google Ads ni Meta Ads disponibles en esta zona protegida. Configure uno o más de estos conectores en la interfaz de **[!UICONTROL Experience Platform]** > **[!UICONTROL Orígenes]** y vuelva a este paso para continuar con la configuración de los medios de pago de Content Analytics."
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/advertising/ads" text="Origen de Google Ads"
 
 ##### Guardar {#web-save}
 
