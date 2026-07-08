@@ -1,5 +1,5 @@
 ---
-title: Notas de la versión de Customer Journey Analytics actuales
+title: Notas de la versión actuales de Customer Journey Analytics
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ce00cd801894776f2128a86504f5c78afe438986
+source-git-commit: 4dd845eaf5f101e21a8e754ac588cb837398b975
 workflow-type: tm+mt
-source-wordcount: 655
-ht-degree: 44%
+source-wordcount: 666
+ht-degree: 41%
 
 ---
 
@@ -44,10 +44,10 @@ Estas notas de la versión abarcan el periodo de la versión de julio de 2026. L
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | -----------|-----------|-----------|
-| **Análisis de subeventos** <br/>El análisis de subeventos le permite analizar los datos en un nivel más granular que el nivel de evento. En lugar de filtrar eventos completos, puede segmentar contenedores individuales dentro de un evento. <p>Por ejemplo, puede segmentar una categoría de producto específica sin incluir todos los demás productos comprados en el mismo pedido. También puede definir objetos o matrices que formen parte de los datos de evento como contenedores independientes dentro de una vista de datos.</p> | 15 de julio de 2026 | Finales de julio de 2026 |
+| **Análisis de subeventos** <br/>El análisis de subeventos le permite analizar los datos en un nivel más granular que el nivel de evento. En lugar de filtrar eventos completos, puede segmentar contenedores individuales dentro de un evento. <p>Por ejemplo, puede segmentar una categoría de producto específica sin incluir todos los demás productos comprados en el mismo pedido. También puede definir objetos o matrices que formen parte de los datos de evento como contenedores independientes dentro de una vista de datos.</p><p>(Vínculo a la documentación a continuación).</p> | 15 de julio de 2026 | Finales de julio de 2026 |
 | **B2B edition: la compatibilidad con conjuntos de datos ad hoc y relacionales** <br/>Los conjuntos de datos ad hoc y relacionales ahora también se admiten en conexiones basadas en cuentas en Customer Journey Analytics B2B edition.<p>(Vínculo a la documentación a continuación).</p> | | 20 de julio de 2026 |
 | **Content Analytics: datos de medios de pago** <br/>Los medios de pago ya están disponibles como un tercer canal para Content Analytics.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
-| **Actualización de la IU de uso de Conexiones** <br/>Ahora puede ver los detalles de uso de cada módulo individual, como Customer Journey Analytics o Customer Journey Analytics B2B edition. Además, ahora puede desglosar los informes de uso de cada uno de los módulos por mes.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
+| **Actualización de la interfaz de uso de conexiones** <br/>En la interfaz de uso al administrar las conexiones, ahora puede ver los detalles de uso de cada módulo individual, como Customer Journey Analytics o Customer Journey Analytics B2B edition. <p>Además, ahora puede desglosar los informes de uso de cada uno de los módulos por mes.</p><p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
 | **Colaborador empresarial de CX: valide sus datos al migrar de Adobe Analytics a Customer Journey Analytics** <br/>Una nueva habilidad de colaborador empresarial de CX le permite validar los datos de su implementación de Customer Journey Analytics con los datos de su implementación de Adobe Analytics existente. <p>Esta aptitud compara automáticamente cada dimensión, métrica y tendencia según sea necesario. También puede comparar todos los grupos de informes de Adobe Analytics con todas las vistas de datos de Customer Journey Analytics. A continuación, la aptitud genera perspectivas y recomendaciones impulsadas por IA que puede implementar para facilitar la migración a Customer Journey Analytics.</p><p>(Vínculo a la documentación a continuación).</p> | | Finales de julio de 2026 |
 
 ### Correcciones en Customer Journey Analytics
@@ -67,13 +67,13 @@ Estas notas de la versión abarcan el periodo de la versión de julio de 2026. L
 **Informes programados**: AN-450715
 **Dimensiones y métricas compartidas**:
 **Análisis de audiencia**:
-**Otro**: AN-457063,
+**Otro**: AN-457063
 
 ## Funciones aplazadas
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | -----------|-----------|-----------|
-| **Servicios de medios de streaming: compatibilidad con los datos programados** <br/>Ahora puede cargar datos programados de contenido de medios de streaming transmitidos en directo en el pasado para realizar un seguimiento más fácil y preciso del número de espectadores.<p>Los siguientes son ejemplos de contenidos en directo compatibles con la carga de datos de programación:</p><ul><li>Plataformas FAST (Free Ad Supported TV)</li><li>Streams locales</li><li>Deportes en directo</li></ul><p>La carga de datos de programación le permite realizar un seguimiento de los datos del número de espectadores de los programas individuales que se emitieron durante el tiempo designado en el archivo de carga. Incluso puede recopilar datos del número de espectadores de temas específicos o segmentos de programa.</p><p>Estas funciones están disponibles independientemente de cómo haya implementado la recopilación de medios de streaming.</p><p>Anteriormente, era difícil vincular con precisión una sesión determinada a programas específicos cuando se analizaba contenido en directo, y no era posible vincular una sesión determinada a temas o segmentos de programa individuales.</p><p>Para obtener más información, consulte [Cargar datos de programación para realizar un seguimiento del contenido en directo](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-use-cases/track-schedule-data) | 29 de octubre de 2025 | Por determinar<p>(Originalmente planificado para el 29 de octubre de 2025)</p> |
+| **Servicios de medios de streaming: compatibilidad con los datos programados** <br/>Ahora puede cargar datos programados de contenido de medios de streaming transmitidos en directo en el pasado para realizar un seguimiento más fácil y preciso del número de espectadores.<p>Los siguientes son ejemplos de contenidos en directo compatibles con la carga de datos de programación:</p><ul><li>Plataformas FAST (Free Ad Supported TV)</li><li>Streams locales</li><li>Deportes en directo</li></ul><p>La carga de datos de programación le permite realizar un seguimiento de los datos del número de espectadores de los programas individuales que se emitieron durante el tiempo designado en el archivo de carga. Incluso puede recopilar datos del número de espectadores de temas específicos o segmentos de programa.</p><p>Estas funciones están disponibles independientemente de cómo haya implementado la recopilación de medios de streaming.</p><p>Anteriormente, era difícil vincular con precisión una sesión determinada a programas específicos cuando se analizaba contenido en directo, y no era posible vincular una sesión determinada a temas o segmentos de programa individuales.</p><p>Para obtener más información, consulte [Cargar datos de programación para rastrear contenido en vivo](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-use-cases/track-schedule-data). | 29 de octubre de 2025 | Por determinar<p>(Originalmente planificado para el 29 de octubre de 2025)</p> |
 
 >[!MORELIKETHIS]
 >
