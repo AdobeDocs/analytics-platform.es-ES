@@ -3,35 +3,16 @@ title: Notas de la versión de Customer Journey Analytics actuales
 description: Visualización de las notas de la última versión de Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b27408ce620b9dc62c06e4dc6dda00b2aef1c46d
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ce00cd801894776f2128a86504f5c78afe438986
 workflow-type: tm+mt
-source-wordcount: 746
-ht-degree: 38%
+source-wordcount: 655
+ht-degree: 44%
 
 ---
 
@@ -45,29 +26,30 @@ Estas notas de la versión abarcan el periodo de la versión de julio de 2026. L
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | -----------|-----------|-----------|
-| **Análisis de subeventos** <br/>El análisis de subeventos le permite analizar los datos en un nivel más granular que el nivel de evento. En lugar de filtrar eventos completos, puede segmentar contenedores individuales dentro de un evento. <p>Por ejemplo, puede segmentar una categoría de producto específica sin incluir todos los demás productos comprados en el mismo pedido. También puede definir objetos o matrices que formen parte de los datos de evento como contenedores independientes dentro de una vista de datos.</p> | Julio de 8 | Finales de julio de 2026 |
-| **CJA B2B: compatibilidad con conjuntos de datos ad hoc y relacionales** <br/>Los conjuntos de datos ad hoc y relacionales ahora también son compatibles con las conexiones basadas en cuentas B2B de CJA.<p>(Vínculo a la documentación a continuación).</p> | | 20 de julio de 2026 |
-| **Datos de medios de pago** <br/>Los medios de pago se agregan como un tercer canal para Content Analytics.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
-| **Actualización de la interfaz de usuario de uso de conexiones** <br/>Puede ver los detalles de uso de cada módulo individual, como Customer Journey Analytics o Customer Journey Analytics B2B edition. Además, puede desglosar los informes de uso de cada uno de los módulos por mes.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
-| **Colaborador empresarial de CX: valide sus datos al migrar de Adobe Analytics a Customer Journey Analytics** <br/>Una nueva habilidad de colaborador empresarial de CX le permite validar los datos de su implementación de Customer Journey Analytics con los datos de su implementación de Adobe Analytics existente. <p>Esta aptitud compara automáticamente cada dimensión, métrica y tendencia y, a continuación, genera perspectivas y recomendaciones impulsadas por IA que puede implementar para facilitar la migración a Customer Journey Analytics.</p><p>(Vínculo a la documentación a continuación).</p> | | Finales de julio de 2026 |
+| **Análisis de subeventos** <br/>El análisis de subeventos le permite analizar los datos en un nivel más granular que el nivel de evento. En lugar de filtrar eventos completos, puede segmentar contenedores individuales dentro de un evento. <p>Por ejemplo, puede segmentar una categoría de producto específica sin incluir todos los demás productos comprados en el mismo pedido. También puede definir objetos o matrices que formen parte de los datos de evento como contenedores independientes dentro de una vista de datos.</p> | 15 de julio de 2026 | Finales de julio de 2026 |
+| **B2B edition: la compatibilidad con conjuntos de datos ad hoc y relacionales** <br/>Los conjuntos de datos ad hoc y relacionales ahora también se admiten en conexiones basadas en cuentas en Customer Journey Analytics B2B edition.<p>(Vínculo a la documentación a continuación).</p> | | 20 de julio de 2026 |
+| **Content Analytics: datos de medios de pago** <br/>Los medios de pago ya están disponibles como un tercer canal para Content Analytics.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
+| **Actualización de la IU de uso de Conexiones** <br/>Ahora puede ver los detalles de uso de cada módulo individual, como Customer Journey Analytics o Customer Journey Analytics B2B edition. Además, ahora puede desglosar los informes de uso de cada uno de los módulos por mes.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
+| **Colaborador empresarial de CX: valide sus datos al migrar de Adobe Analytics a Customer Journey Analytics** <br/>Una nueva habilidad de colaborador empresarial de CX le permite validar los datos de su implementación de Customer Journey Analytics con los datos de su implementación de Adobe Analytics existente. <p>Esta aptitud compara automáticamente cada dimensión, métrica y tendencia según sea necesario. También puede comparar todos los grupos de informes de Adobe Analytics con todas las vistas de datos de Customer Journey Analytics. A continuación, la aptitud genera perspectivas y recomendaciones impulsadas por IA que puede implementar para facilitar la migración a Customer Journey Analytics.</p><p>(Vínculo a la documentación a continuación).</p> | | Finales de julio de 2026 |
 
 ### Correcciones en Customer Journey Analytics
 
-**Analysis Workspace**: AN-456858, AN-455865, AN-455706, AN-455592, AN-455484, AN-455180, AN-454999, AN-454170, AN-454145, AN-453793, AN-452921, AN-452009, AN-451958, AN-451643, AN-451600, AN-451525, AN-451477, AN-451262, AN-451161, AN-450772, AN-443594, AN-434416, AN-, AN-, AN-, AN-
+**Analysis Workspace**: AN-457527, AN-451161, AN-459034, AN-458071, AN-458398
 **Componentes**:
-**Conexiones**: AN-457065, AN-453705
-**Content Analytics**: AN-451203, AN-447596
+**Conexiones**: AN-457065
+**Content Analytics**:
 **Análisis guiado**:
-**Exportaciones**: AN-452006, AN-451989, AN-440567
-**Vistas de datos**: AN-451198
+**Exportaciones**:
+**Vistas de datos**: AN-453201
+**Ingesta de datos**:
 **Implementación**:
-**Report Builder**: AN-440912, AN-457586, AN-457533, AN-455713, AN-455623, AN-455063, AN-454512, AN-454053, AN-453977, AN-453781, AN-453683, AN-451974, AN-451735, AN-451731, AN-451190, AN-449813, AN-447173, AN-447139, AN-446184, AN-445794, AN-445354, AN-442819, AN-, AN-, AN-, AN-
-**Informes**: AN-454589, AN-454517, AN-453982, AN-451822, AN-451497, AN-451463, AN-451259, AN-451215, AN-450661, AN-447699, AN-448375, AN-447692
+**Report Builder**: AN-457533, AN-453683
+**Informes**: AN-457607, AN-447692, AN-451259, AN-455713
 **Segmentación**:
-**Informes programados**: AN-451980, AN-451882, AN-450715
+**Informes programados**: AN-450715
 **Dimensiones y métricas compartidas**:
-**Análisis de audiencia**: AN-449656, AN-450400
-**Otros**: AN-457063, AN-454140, AN-453937, AN-453825, AN-452959, AN-452934, AN-452296, AN-451781, AN-450974
+**Análisis de audiencia**:
+**Otro**: AN-457063,
 
 ## Funciones aplazadas
 
