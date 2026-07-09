@@ -6,30 +6,15 @@ feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
 TQID: https://experienceleague.adobe.com/BuizkumbeMPhg7dWvJrFta3CYfQnqivOlXd2RtX9gm4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df28738e-9c71-4aa8-929e-edde22340cc6id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
-source-wordcount: 3648
-ht-degree: 87%
+source-wordcount: 3523
+ht-degree: 84%
 
 ---
 
@@ -57,7 +42,6 @@ Para lograrlo, debe llevar a cabo lo siguiente:
 >
 > Esta guía de inicio rápido es una guía simplificada sobre cómo introducir datos recopilados del sitio en Adobe Experience Platform y utilizarlos en Customer Journey Analytics. Se recomienda estudiar la información adicional cuando se haga referencia a ella.
 
-
 ## Configurar un esquema y un conjunto de datos
 
 Para introducir datos en Adobe Experience Platform, primero debe definir qué datos desea recopilar. Todos los datos ingeridos en Adobe Experience Platform deben cumplir una estructura estándar y desnormalizada para que las funciones y características consecutivas puedan reconocerlos y actuar en consecuencia. Modelo de datos de experiencia (XDM) es el marco estándar que proporciona esta estructura en forma de esquemas.
@@ -68,15 +52,14 @@ Todos los datos ingeridos en Adobe Experience Platform deben cumplir un esquema 
 
 ### Configurar un esquema
 
-Desea rastrear algunos datos mínimos de los perfiles que visitan el sitio web como, por ejemplo, el nombre de la página o la identificación.
-Primero debe definir un esquema que modele estos datos.
+Desea rastrear algunos datos mínimos de los perfiles que visitan el sitio web como, por ejemplo, el nombre de la página o la identificación.Primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
 
 1. En la interfaz de usuario de Adobe Experience Platform, en el carril izquierdo, seleccione **[!UICONTROL Esquemas]** en [!UICONTROL ADMINISTRACIÓN DE DATOS].
 
 1. Seleccione **[!UICONTROL Crear esquema]**.
-.
+
 1. En el paso Seleccionar una clase del asistente Crear esquema:
 
    1. Seleccione **[!UICONTROL Evento de experiencia]**.
@@ -299,9 +282,9 @@ Para crear y configurar la extensión del SDK web de Adobe Experience Platform, 
 
    Seleccione **[!UICONTROL Guardar]**.
 
-Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=es) para obtener más información.
+Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) para obtener más información.
 
-El SDK web incluye el [!UICONTROL servicio de Adobe Experience Cloud ID] de forma nativa, por lo que no es necesario que añada la extensión del servicio de ID a la etiqueta.
+Web SDK incluye el servicio de identidad de Experience Platform, por lo que no es necesario agregar la extensión de etiqueta [!UICONTROL Experience Cloud ID Service] a la propiedad.
 
 #### **Elementos de datos**
 
@@ -333,27 +316,7 @@ Para definir un elemento de datos de nombre de página, debe hacer lo siguiente:
 
    - Seleccione **[!UICONTROL Guardar]**.
 
-Ahora desea configurar un elemento de datos que haga referencia al Experience Cloud ID que proporciona automáticamente el SDK web de Adobe Experience Platform y que está disponible a través de la extensión del servicio de ID de Experience Cloud.
-
-Para definir un elemento de datos ECID, debe hacer lo siguiente:
-
-1. Seleccione **[!UICONTROL Elementos de datos]** en el carril izquierdo.
-
-2. Seleccione **[!UICONTROL Agregar elemento de datos]**.
-
-3. En el cuadro de diálogo [!UICONTROL Crear elemento de datos], haga lo siguiente:
-
-   - Asigne un nombre al elemento de datos como, por ejemplo, `ECID`.
-
-   - Seleccione **[!UICONTROL Servicio de Experience Cloud ID]** en la lista [!UICONTROL Extensión].
-
-   - Seleccione **[!UICONTROL ECID]** en la lista [!UICONTROL Tipo de elemento de datos].
-
-     ![Elemento de datos ECID](./assets/ecid-dataelement.png)
-
-   - Seleccione **[!UICONTROL Guardar]**.
-
-Por último, ahora desea asignar cualquiera de los elementos de datos específicos al esquema definido anteriormente. Puede definir otro elemento de datos que proporcione una representación del esquema XDM.
+A continuación, desea asignar cualquiera de los elementos de datos específicos al esquema definido anteriormente. Puede definir otro elemento de datos que proporcione una representación del esquema XDM.
 
 Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
 
@@ -372,13 +335,6 @@ Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
    - Seleccione la zona protegida en la lista [!UICONTROL Zona protegida].
 
    - Seleccione el esquema en la lista [!UICONTROL Esquema].
-
-   - Asigne el atributo `identification > core > ecid`, definido en el esquema, al elemento de datos ECID. Seleccione el icono del cilindro para elegir fácilmente el elemento de datos ECID de su lista de elementos de datos.
-
-     ![Seleccionar un elemento de datos ECID](./assets/pick-ecid-dataelement.png)
-
-     ![Asignar un elemento de datos ECID](./assets/map-ecid.png)
-
 
    - Asigne el atributo `web > webPageDetails > name`, definido en el esquema, al elemento de datos Nombre de página.
 
@@ -621,4 +577,4 @@ Consulte [Información general de Analysis Workspace](../analysis-workspace/home
 
 >[!SUCCESS]
 >
->Ha completado todos los pasos. Comience por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform. A continuación, configuró una secuencia de datos en Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, ha definido e implementado la etiqueta que contiene las extensiones (SDK web de Adobe Experience Platform, servicio de Experience Cloud ID), los elementos de datos y las reglas para capturar datos de su sitio web y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento del sitio web y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.
+>Ha completado todos los pasos. Comience por definir qué datos desea recopilar (esquema) y dónde almacenarlos (conjunto de datos) en Adobe Experience Platform. A continuación, configuró una secuencia de datos en Edge Network para garantizar que los datos se puedan reenviar a ese conjunto de datos. A continuación, definió e implementó la etiqueta que contiene la extensión, los elementos de datos y las reglas de Adobe Experience Platform Web SDK para capturar datos del sitio web y enviarlos al conjunto de datos. Ha definido una conexión en Customer Journey Analytics para utilizar los datos de seguimiento del sitio web y otros datos. La definición de la vista de datos le permite especificar qué dimensión y métricas debe utilizar y, finalmente, crear su primer proyecto visualizando y analizando los datos.

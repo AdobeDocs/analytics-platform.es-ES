@@ -6,24 +6,15 @@ feature: Basics
 role: User
 autotag-review: '2026-05-19T07:16:36.730Z'
 TQID: 'https://experienceleague.adobe.com/8ijMa5NbkCx0H48qSZkYrgTDRaVCSBmO9twZvWFJ83o'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 96%
+source-wordcount: 632
+ht-degree: 90%
 
 ---
 
@@ -35,11 +26,11 @@ Los datos de Adobe Analytics contienen varios campos de identidad. Tres campos d
 
 Adobe Analytics ID (AAID) es el identificador de dispositivo principal de Adobe Analytics y se garantiza que existe en cada evento que pasa a través del conector de origen de Analytics. A veces, AAID se denomina «ID de Analytics heredado» o `s_vi` id de cookie. Sin embargo, se crea un AAID aunque la cookie `s_vi` no esté presente. AAID se representa mediante las columnas `post_visid_high/post_visid_low` de [fuentes de datos de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es#columns%2C-descriptions%2C-and-data-types).
 
-En el conector de origen de Analytics, AAID se transforma en `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. El campo AAID de un evento determinado contiene una sola identidad que puede ser de varios tipos según se describe en [Orden de operaciones para los ID de Analytics](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=es). (AAID puede contener una combinación de tipos entre eventos en un grupo de informes completo. El tipo de cada evento se indica en la columna `post_visid_type` de las fuentes de datos de Analytics). Vea también: [Referencia de columna de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es).
+En el conector de origen de Analytics, AAID se transforma en `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. El campo AAID de un evento determinado contiene una sola identidad que puede ser de varios tipos según se describe en [Orden de operaciones para los ID de Analytics](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html). (AAID puede contener una combinación de tipos entre eventos en un grupo de informes completo. El tipo de cada evento se indica en la columna `post_visid_type` de las fuentes de datos de Analytics). Vea también: [Referencia de columna de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es).
 
 ## ECID
 
-ECID (Experience Cloud ID), también conocido como MCID (ID de Marketing Cloud), es un campo de identificador de dispositivo independiente que se rellena en Adobe Analytics cuando Analytics se implementa mediante el [Servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=es). ECID se representa mediante la columna `mcvisid` en las fuentes de datos de Adobe Analytics.
+ECID (Experience Cloud ID), también conocido como MCID (Marketing Cloud ID), es un campo de identificador de dispositivo independiente que se rellena en Adobe Analytics cuando Analytics se implementa mediante el [Servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=es) (AppMeasurement) o el Servicio de identidad de Experience Platform (Web SDK). ECID se representa mediante la columna `mcvisid` en las fuentes de datos de Adobe Analytics.
 
 Si existe un ECID en un evento, AAID puede basarse en ECID en función de si el [período de gracia](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es) de Analytics está configurado. Consulte: [Solicitudes de Experience Cloud ID y Analytics](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=es).
 
@@ -65,8 +56,7 @@ Los elementos entre corchetes &lt;> representan lugares en los que aparecerían 
 
 Dentro de identityMap:
 
-* Si ECID está presente, se marca como la identidad principal del evento. Tenga en cuenta que, en este caso, AAID puede basarse en ECID según el análisis anterior.
-De lo contrario, AAID se marca como la identidad principal del evento.
+* Si ECID está presente, se marca como la identidad principal del evento. Tenga en cuenta que, en este caso, AAID puede basarse en ECID según el análisis anterior.De lo contrario, AAID se marca como la identidad principal del evento.
 * AACUSTOMID nunca se marca como ID principal para el evento. Sin embargo, si AACUSTOMID está presente, AAID se basa en AACUSTOMID según se ha mencionado anteriormente.
 
 Cuando la identidad o identidades se copian en `identityMap`, `endUserIDs._experience.mcid.namespace.code` también se configura en el mismo evento:

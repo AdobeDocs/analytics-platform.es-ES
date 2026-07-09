@@ -7,22 +7,15 @@ feature: Basics
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
 autotag-review: '2026-05-19T08:20:10.493Z'
 TQID: 'https://experienceleague.adobe.com/CZMnHpY8nofEV8fbpLSe7TUZCR7nOd8xKWoMkCzfH0I'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
-source-wordcount: 1664
-ht-degree: 100%
+source-wordcount: 1377
+ht-degree: 95%
 
 ---
 
@@ -43,13 +36,13 @@ Después de [crear la etiqueta y añadir la extensión del SDK web](/help/gettin
 
 ## Configuración de elementos de datos
 
-Los Data Elements son los componentes básicos del diccionario de datos (o mapa de datos). Utilice Data Elements para recopilar, organizar y entregar datos a través de la tecnología de marketing y publicidad. Los elementos de datos de la etiqueta se configuran para que se lean en la capa de datos y se puedan utilizar para enviar datos a Adobe Experience Platform. (Para obtener más información sobre los elementos de datos, consulte [Elementos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/data-elements) en la documentación de etiquetas).
+Los Data Elements son los componentes básicos del diccionario de datos (o mapa de datos). Utilice Data Elements para recopilar, organizar y entregar datos a través de la tecnología de marketing y publicidad. Los elementos de datos de la etiqueta se configuran para que se lean en la capa de datos y se puedan utilizar para enviar datos a Adobe Experience Platform. (Para obtener más información sobre los elementos de datos, consulte [Elementos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) en la documentación de etiquetas).
 
 Las secciones siguientes describen elementos de datos sugeridos y otros elementos de datos comunes que puede configurar.
 
-Existen diferentes tipos de elementos de datos. Dos elementos de datos habituales que puede que desee configurar son: uno que captura el nombre de página que las personas están viendo en el sitio y otro que captura el ID de Experience Cloud de cada persona que visita el sitio.
+Existen diferentes tipos de elementos de datos. Un elemento de datos común que puede querer configurar es el que captura el nombre de página que las personas están viendo en el sitio.
 
-Después de configurar estos dos elementos de datos, puede configurar elementos de datos adicionales para los datos específicos que desea capturar.
+Después de configurar el elemento de datos del nombre de página, puede configurar elementos de datos adicionales para los datos específicos que desea capturar.
 
 Por último, después de definir todos los elementos de datos deseados, debe asignar los elementos de datos al [esquema que creó](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) anteriormente. Para ello, es preciso definir un elemento de datos XDM que proporcione una representación del esquema XDM.
 
@@ -93,55 +86,11 @@ Para definir un elemento de datos de nombre de página:
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-   Ahora desea configurar un elemento de datos que haga referencia al Experience Cloud ID que proporciona automáticamente el SDK web de Adobe Experience Platform y que está disponible a través de la extensión del servicio de ID de Experience Cloud.
-
-1. Continúe con [Elemento de datos ECID](#ecid-data-element).
-
-#### Elemento de datos ECID
-
-Un elemento de datos común que se aplica a la mayoría de las organizaciones es un elemento de datos que captura el identificador de Experience Cloud de cada persona que visita el sitio.
-
-Para definir un elemento de datos ECID, debe hacer lo siguiente:
-
-1. Inicie sesión en experience.adobe.com con sus credenciales de Adobe ID.
-
-1. En Adobe Experience Platform, vaya a **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Etiquetas]**.
-
-1. Seleccione la etiqueta recién creada de la lista de [!UICONTROL Propiedades de la etiqueta] para abrirla.
-
-1. (Condicional) Instale la extensión del Servicio de Experience Cloud ID si aún no está instalada:
-
-   1. Seleccione **[!UICONTROL Extensiones]** en el carril izquierdo.
-
-   1. La pestaña **[!UICONTROL Instalado]** se selecciona de forma predeterminada. Si el mosaico **[!UICONTROL Servicio de Experience Cloud ID]** aparece en la lista, vaya al paso 5.
-
-   1. Si el mosaico **[!UICONTROL Servicio de Experience Cloud ID]** no aparece en la lista, seleccione la pestaña **[!UICONTROL Catálogo]**.
-
-   1. En el campo de búsqueda, busque **[!UICONTROL Servicio de Experience Cloud ID]** y, a continuación, seleccione el mosaico cuando aparezca
-
-   1. Seleccione **[!UICONTROL Instalar]** > **[!UICONTROL Guardar]**.
-
-1. Seleccione **[!UICONTROL Elementos de datos]** en el carril izquierdo.
-
-1. Seleccione **[!UICONTROL Agregar elemento de datos]**.
-
-1. En el cuadro de diálogo **[!UICONTROL Crear elemento de datos]**, especifique la siguiente información:
-
-   * **[!UICONTROL Nombre]**: el nombre del elemento de datos. Por ejemplo `ECID`.
-
-   * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL Servicio de Experience Cloud ID]** en la lista.
-
-   * **[!UICONTROL Tipo de elemento de datos]**: seleccione **[!UICONTROL ECID]** en la lista.
-
-     ![Elemento de datos ECID](assets/ecid-dataelement.png)
-
-1. Seleccione **[!UICONTROL Guardar]**.
-
 1. Continúe con [Creación de elementos de datos adicionales](#create-additional-data-elements).
 
 ### Creación de elementos de datos adicionales
 
-Cree un elemento de datos para cada tipo de datos que desee recopilar. Utilice el mismo proceso que se describe en [Elemento de datos de nombre de página](#page-name-data-element) y [Elemento de datos ECID](#ecid-data-element) para crear cada elemento de datos adicional.
+Cree un elemento de datos para cada tipo de datos que desee recopilar. Utilice el mismo proceso descrito en [Elemento de datos Page name](#page-name-data-element) para crear cada elemento de datos adicional.
 
 Los elementos de datos que cree deben tener un campo correlativo en el esquema.
 
@@ -200,12 +149,6 @@ Para definir un elemento de datos de objeto XDM, debe hacer lo siguiente:
    * **[!UICONTROL Zona protegida]**: seleccione la zona protegida en la lista.
 
    * **[!UICONTROL Esquema]**: seleccione el esquema en la lista.
-
-1. Asigne el atributo `identification > core > ecid`, definido en el esquema, al elemento de datos ECID. Seleccione el icono del cilindro para elegir fácilmente el elemento de datos ECID de su lista de elementos de datos.
-
-   ![Seleccionar un elemento de datos ECID](assets/pick-ecid-dataelement.png)
-
-   ![Asignar un elemento de datos ECID](assets/map-ecid.png)
 
 1. Asigne el atributo `web > webPageDetails > name`, definido en el esquema, al elemento de datos Nombre de página.
 
@@ -271,7 +214,7 @@ Para definir una regla, debe hacer lo siguiente:
 
 1. Repita este proceso para cada regla que desee añadir al sitio.
 
-   Para obtener más información sobre las reglas, consulte [Reglas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/rules) en la documentación de etiquetas.
+   Para obtener más información sobre las reglas, consulte [Reglas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) en la documentación de etiquetas.
 
 1. Continúe con [Generar y publicar la etiqueta](#build-and-publish-your-tag).
 
