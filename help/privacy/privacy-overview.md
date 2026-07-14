@@ -65,4 +65,4 @@ La Ley de Privacidad del Consumidor de California (CCPA) mejora los derechos de 
 
 >[!MORELIKETHIS]
 >
->* [Blog: Mantenimiento de la gobernanza efectiva en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)
+>* [Blog: Mantenimiento de la gobernanza efectiva en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=es)
