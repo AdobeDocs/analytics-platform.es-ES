@@ -3,13 +3,12 @@ title: Análisis de subeventos
 description: Descubra cómo el análisis de subeventos le permite filtrar productos individuales u otros contenedores dentro de un evento en Customer Recorrido Analytics, lo que elimina el sangrado de atribución en los informes de productos.
 feature: Segmentation
 hold: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: b4bec7c8e476bc2dbffce42bd52ff535b90dcb86
+hide: true
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: c504a631398d14479c9a2b70d9ef43ac88e35704
 workflow-type: tm+mt
-source-wordcount: 564
+source-wordcount: 565
 ht-degree: 0%
 
 ---
@@ -32,9 +31,9 @@ En el análisis de subeventos, la lógica de exclusión se comporta de forma dif
 
 ## Ejemplo
 
-Desea medir únicamente los ingresos de la categoría de grupos profesionales. Sin análisis de subeventos, la aplicación de un segmento para trajes profesionales incluye ingresos de cada producto en cualquier pedido (evento) que contenga al menos un producto con la categoría de trajes profesionales. Con el análisis de subeventos, el filtro se aplica al nivel de producto y solo se devuelven ingresos para los productos de la categoría de trajes profesionales.
+Desea medir únicamente los ingresos de la categoría de trajes profesionales. Sin análisis de subeventos, la aplicación de un segmento para trajes profesionales incluye ingresos de cada producto en cualquier pedido (evento) que contenga al menos un producto con la categoría de trajes profesionales. Con el análisis de subeventos, el filtro se aplica al nivel de producto y solo se devuelven ingresos para los productos de la categoría de trajes profesionales.
 
-También desea medir los ingresos en línea de todas las demás categorías, excepto la categoría Hombres.
+También desea medir los ingresos en línea de todas las demás categorías, excepto la categoría de trajes profesionales.
 
 >[!BEGINTABS]
 
@@ -48,7 +47,7 @@ Como resultado, se tienen en cuenta todos los pedidos que contienen al menos **[
 
 >[!TAB Análisis de subeventos]
 
-En el generador de segmentación o como parte de un **[!UICONTROL segmento rápido]**, especificas **[!UICONTROL Incluir]** el **[!UICONTROL Dimension]** **[!UICONTROL product_category]** **[!UICONTROL es igual a]** **[!UICONTROL Professional Suites]** en el contenedor de **[!UICONTROL Productos]**.
+En el generador de segmentación o como parte de un **[!UICONTROL segmento rápido]**, especifica que **[!UICONTROL se incluya]** el **[!UICONTROL Dimension]** **[!UICONTROL product_category]** **[!UICONTROL es igual a]** **[!UICONTROL Trajes profesionales]** en el contenedor de **[!UICONTROL Productos]**.
 
 ![Panel que muestra la segmentación en el nivel de subevento para los trajes profesionales de la categoría de productos](./assets/product-category-segmentation-subevents.png)
 
