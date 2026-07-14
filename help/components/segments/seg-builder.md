@@ -3,24 +3,17 @@ description: Descubra cómo el Generador de segmentos proporciona un lienzo al q
 title: Generar segmentos
 feature: Filters, Segments
 role: User
+hold: true
 exl-id: 160021f1-6942-4682-9114-d375307d9912
 TQID: https://experienceleague.adobe.com/MFqcgWkCqZbtbI58nF8boBZU3YzfcuAAsJxXbjBcT5E
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: b342654b753f679f86750e43efbed1eb149e1b17
 workflow-type: tm+mt
-source-wordcount: 1691
-ht-degree: 88%
+source-wordcount: 1851
+ht-degree: 79%
 
 ---
 
@@ -91,7 +84,9 @@ Una parte vital de la creación de la definición del segmento es el uso de dime
 
 Para añadir un componente, haga lo siguiente:
 
-1. Arrastre y suelte un componente del panel de componentes hasta **[!UICONTROL Arrastre y suelte aquí métricas, segmentos o dimensiones]**. Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+1. Arrastre y suelte un componente del panel de componentes hasta **[!UICONTROL Arrastre y suelte aquí métricas, segmentos o dimensiones]**.
+   * Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+   * Puede usar ![Filter](/help/assets/icons/Filter.svg) en la barra de componentes para filtrar ![Marca de verificación](/help/assets/icons/Checkmark.svg) **[!UICONTROL Aprobado]**, ![Estrella](/help/assets/icons/Star.svg) **[!UICONTROL Favoritos]**, ![DataDimension](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensiones]**, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Métricas]**, ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]**, ![Calendario](/help/assets/icons/Calendar.svg) Componentes de **[!UICONTROL intervalos de fechas]** y ![nivel](/help/assets/icons/Layer.svg) **[!UICONTROL *contenedor *]**(como Productos, Assets de contenido). También puede filtrar las etiquetas ![Label](/help/assets/icons/Label.svg).
 1. Especifique los detalles del componente. Por ejemplo, seleccione un valor en **[!UICONTROL Seleccionar valor]**. O bien, introduzca un valor El hecho de especificar uno o varios valores y cómo hacerlo dependen del componente y del operador.
 1. Si lo desea, modifique el operador predeterminado. Por ejemplo, de **[!UICONTROL es igual a]** a **[!UICONTROL es igual a cualquiera de]**. Consulte [Operadores](seg-operators.md) para obtener información general sobre los operadores disponibles.
 
@@ -116,7 +111,7 @@ Puede agrupar varios componentes en uno o varios contenedores y definir la lógi
 * Para añadir otro componente al contenedor, arrastre y suelte un componente del panel del componente en el contenedor. Utilice la línea de inserción azul como guía.
 * Para añadir otro componente fuera del contenedor, arrastre y suelte un componente del panel del componente fuera del contenedor, pero dentro del contenedor de definición principal. Utilice la línea de inserción azul como guía.
 * Para modificar la lógica entre los componentes de un contenedor, entre contenedores o entre un contenedor y un componente, seleccione los operadores **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** adecuados. Al seleccionar Entonces, convierte el segmento en un segmento secuencial. Consulte [Crear segmento secuencial](seg-sequential-build.md) para obtener más información.
-* Para cambiar el nivel de contenedor, selecciona ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL Cuenta global]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Cuenta](/help/assets/icons/Account.svg) **[!UICONTROL Cuenta]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Oportunidad](/help/assets/icons/Opportunity.svg) **[!UICONTROL Oportunidad]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Grupo de compra](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Grupo de compra]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Evento]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Sesión]** o ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Persona]**.
+* Para cambiar el nivel de contenedor, selecciona ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL Cuenta global]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Cuenta](/help/assets/icons/Account.svg) **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Oportunidad](/help/assets/icons/Opportunity.svg) **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Grupo de compra](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Grupo de compra]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Evento]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Sesión]**, ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Persona]** o ![Capa](/help/assets/icons/Layer.svg) **[!UICONTROL Objeto]**. Cuando seleccione ![Objeto ]**de**[!UICONTROL  capa](/help/assets/icons/Layer.svg), seleccione el [contenedor personalizado](/help/data-views/create-dataview.md#containers-1) que desea utilizar. Por ejemplo, Productos o Assets de contenido.
 
 Puede usar ![Configuración](/help/assets/icons/Setting.svg) en un contenedor para las siguientes acciones:
 
@@ -128,6 +123,9 @@ Puede usar ![Configuración](/help/assets/icons/Setting.svg) en un contenedor pa
 | **[!UICONTROL Contenedor de nombres]** | Cambie el nombre del contenedor desde la descripción predeterminada. Escriba un nombre en el campo de texto. Si no proporciona ninguna entrada, se utiliza la descripción predeterminada. |
 | **[!UICONTROL Eliminar contenedor]** | Elimine el contenedor de la definición. |
 
+Cuando arrastra una dimensión o métrica que ha definido como [contenedor](/help/data-views/create-dataview.md#containers-1) al Generador de segmentos o al Panel de segmentos rápidos, el sistema selecciona automáticamente el contenedor adecuado y no utiliza el contenedor predeterminado **[!UICONTROL Evento]**. Este comportamiento mantiene el alcance del segmento en el contenedor individual en lugar de en todo el evento.
+
+Al arrastrar componentes de nivel de evento [container](/help/data-views/create-dataview.md#containers-1) y de nivel de evento en una sola regla de segmento, el sistema utiliza el contenedor de evento **[!UICONTROL Event]**, que es el contenedor compartido más alto (menos granular). Si todos los componentes que forman parte de una regla de segmento se encuentran en el mismo nivel de contenedor, se utiliza ese contenedor.
 
 ## Intervalos de fechas
 
@@ -138,7 +136,7 @@ Puede generar segmentos que contengan intervalos de fechas móviles. Por lo tant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
