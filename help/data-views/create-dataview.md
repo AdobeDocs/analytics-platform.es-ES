@@ -5,6 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
+hold: true
 TQID: https://experienceleague.adobe.com/EXiKrWVfmMRgZ4GF0OR410Mr2-P5IEjPy3Hf0FmRDJ8
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -24,10 +25,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: b342654b753f679f86750e43efbed1eb149e1b17
 workflow-type: tm+mt
-source-wordcount: 2959
-ht-degree: 93%
+source-wordcount: 3278
+ht-degree: 84%
 
 ---
 
@@ -63,11 +64,16 @@ Para configurar una vista de datos nueva o existente, haga lo siguiente:
 
 ![Configuración de una vista de datos B2B](assets/dataview-configure-b2b.png)
 
+>[!TAB Separación de contenedores]
+
+![Configurar vista de datos con la ficha de contenedores independiente](assets/data-view-configure-containers.png)
+
+
 >[!ENDTABS]
 
 
 1. Seleccione la pestaña **[!UICONTROL Configurar]** (si no está activa).
-1. Especificar datos de [!UICONTROL Configuración], [!UICONTROL Contenedor] y [!UICONTROL Calendario] (consulte más abajo).
+1. Especificar datos de **[!UICONTROL Configuración]**, **[!UICONTROL Contenedor]** y **[!UICONTROL Calendario]** (consulte más abajo).
 1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
 
 
@@ -126,6 +132,9 @@ Designa el nombre de los contenedores para la vista de datos. Los nombres de con
 
 {style="table-layout:auto"}
 
+Cuando vea **[!UICONTROL Se han movido los contenedores. Los contenedores ya están disponibles en la ficha Contenedores]**, donde puede definir contenedores en una ficha [Contenedores](#containers-1) independiente.
+
+
 ### Configuración de IA
 
 Seleccione **[!UICONTROL Habilitar para Data Insights Agent]** para habilitar la vista de datos para [Data Insights Agent](/help/data-analysis-ai.md). Data Insights Agent es un agente de conversación de IA generativa al que se puede acceder desde el asistente de IA de Customer Journey Analytics. Le ayuda a analizar rápidamente los datos con indicaciones de texto. El agente crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando los datos reales.
@@ -145,6 +154,77 @@ Indica el formato de calendario que desea que siga la vista de datos. Puede tene
 
 {style="table-layout:auto"}
 
+## Contenedores
+
+{{release-limited-testing-section}}
+
+
+>[!BEGINTABS]
+
+>[!TAB Estándar]
+
+![Configuración de una vista de datos](assets/data-view-containers-b2c.png)
+
+>[!TAB B2B Edition]
+
+![Configuración de una vista de datos B2B](assets/data-view-containers-b2b.png)
+
+>[!ENDTABS]
+
+En la ficha **[!UICONTROL Contenedores]** puede cambiar el nombre de los contenedores del sistema y agregar contenedores personalizados.
+
+Agrega contenedores personalizados a su vista de datos para que pueda usar estos contenedores para [análisis de subeventos](/help/components/segments/sub-event.md). Los contenedores personalizados se pueden definir desde:
+
+* objetos o matrices disponibles dentro de los conjuntos de datos que forman parte de la conexión. Por ejemplo, **[!UICONTROL productListItems]**, **[!UICONTROL content_assets]** o **[!UICONTROL placeContext.activePOIs]**.
+* campos derivados que devuelven una matriz mediante el uso de la función [Split](/help/data-views/derived-fields/derived-fields.md#split).
+* componentes de vista de datos configurados para devolver una matriz usando la configuración del componente [Substring](/help/data-views/component-settings/substring.md) con la opción [Delimitador](/help/data-views/component-settings/substring.md#delimiter).
+
+### Contenedores del sistema
+
+Para cambiar el nombre de los contenedores del sistema:
+
+1. Seleccione ![Editar](/help/assets/icons/Edit.svg) para editar el **[!UICONTROL nombre para mostrar]** del contenedor.
+1. Defina un nuevo nombre para el contenedor.
+1. Seleccione **[!UICONTROL Guardar]**.
+
+
+### Contenedores personalizados
+
+Para agregar un contenedor personalizado:
+
+1. Seleccione **[!UICONTROL Agregar contenedor personalizado]**.
+1. En el diálogo **[!UICONTROL Agregar contenedor]**:
+   1. Seleccione un contenedor del menú desplegable **[!UICONTROL Contenedor]**. Por ejemplo: **[!UICONTROL productListItems.productCategories]**. Tras la selección, verá valores actualizados para **[!UICONTROL Ruta de esquema]** y **[!UICONTROL Tipo de esquema]**.
+
+   1. Escriba un **[!UICONTROL nombre para mostrar]** para el contenedor. Por ejemplo: `Product Categories`.
+   1. Seleccione **[!UICONTROL Guardar]**.
+
+Para editar un contenedor personalizado:
+
+1. Seleccione ![Más](/help/assets/icons/More.svg) para el contenedor personalizado en la columna **[!UICONTROL Nombre para mostrar]**.
+1. Seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** en el menú contextual.
+1. En el diálogo **[!UICONTROL Editar contenedor]**:
+   1. Modifique **[!UICONTROL Contenedor]**, **[!UICONTROL Nombre para mostrar]** o ambos.
+   1. Seleccione **[!UICONTROL Guardar]**.
+
+Para eliminar un contenedor personalizado:
+
+1. Seleccione ![Más](/help/assets/icons/More.svg) para el contenedor personalizado en la columna Nombre para mostrar.
+1. Seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** del menú contextual.
+
+   >[!NOTE]
+   >
+   >El contenedor personalizado se elimina sin confirmación.
+   >
+
+Para cambiar la lista de contenedores personalizados:
+
+1. Seleccione ![ColumnSetting](/help/assets/icons/ColumnSetting.svg).
+1. En **[!UICONTROL Personalizar tabla]**:
+   1. Seleccione las columnas que desea mostrar.
+   1. Seleccione **[!UICONTROL Guardar]**.
+
+
 ## Componentes
 
 A continuación, puede establecer los componentes de una vista de datos, lo que significa que puede crear métricas y dimensiones a partir de elementos de esquema. También puede utilizar componentes estándares.
@@ -157,13 +237,11 @@ A continuación, puede establecer los componentes de una vista de datos, lo que 
 
    ![Pestaña Componentes](assets/dataview-components.png)
 
-   Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos y sus [!UICONTROL Campos de esquema] a continuación.  Los componentes ya incluidos son estándar (generados por el sistema) necesarios para todas las vistas de datos (como Eventos, Personas, Métricas de sesiones y las dimensiones Minuto, Trimestre y Semana). Adobe también aplica el filtro **[!UICONTROL Contiene datos]** y **[!UICONTROL no está obsoleto]** de forma predeterminada, de modo que solo aparecen los campos de esquema que contienen datos y que no están obsoletos.
+   Puede ver la [!UICONTROL Conexión] en la parte superior izquierda, que contiene los conjuntos de datos y sus [!UICONTROL Campos de esquema] a continuación.  Los componentes ya incluidos son estándar (generados por el sistema) necesarios para todas las vistas de datos (como Eventos, Personas, Métricas de sesiones y las dimensiones Minuto, Trimestre y Semana).<ul><li>Cuando haya definido c[contenedores personalizados](#containers-1), las métricas de estos contenedores se agregarán e identificarán automáticamente usando ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL _nombre de contenedor personalizado _Ocurrencias]**.</li><li>El filtro **[!UICONTROL no está obsoleto]** se aplica de manera predeterminada, de modo que solo aparecen los campos de esquema que no están obsoletos.</li></ul>
 
 1. Busque un campo de esquema mediante ![icono de búsqueda](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Buscar campos de esquema]** o busque un campo accediendo a cualquiera de las colecciones de conjuntos de datos, como ![Carpeta](/help/assets/icons/Folder.svg) **[!UICONTROL Conjuntos de datos de eventos]** o ![Carpeta](/help/assets/icons/Folder.svg) **[!UICONTROL Conjuntos de datos de búsqueda]**. Para los conjuntos de datos de evento, hay disponibles colecciones independientes para ![Folder](/help/assets/icons/Folder.svg) **[!UICONTROL campos XDM]** y ![Folder](/help/assets/icons/Folder.svg) **[!UICONTROL Campos adhoc y relacionales]**.<br/>También puede crear un campo derivado mediante ![Icono de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crear campo derivado** . Consulte [Campos derivados](./derived-fields/derived-fields.md) para obtener más información.
 
-1. Cuando haya encontrado el campo de esquema específico o haya definido el campo derivado, arrastre ese campo, como, por ejemplo, ![icono de controlador](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Nombre de página]**, desde el carril izquierdo hasta la sección **[!UICONTROL Métricas]** o **[!UICONTROL Dimensiones]** debajo de **[!UICONTROL Componentes incluidos]**.
-Puede arrastrar el mismo campo de esquema a las secciones de dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras. Por ejemplo, desde el campo pageName puede crear una dimensión llamada `Product Pages` y otra titulada `Error pages`, utilizando una [Configuración de componentes](component-settings/overview.md) diferente la derecha.
-Si arrastra una carpeta de campos del esquema desde el carril izquierdo, los campos de la carpeta se ordenarán automáticamente en la sección correspondiente. Los campos de cadena terminan en la sección [!UICONTROL Dimensiones] y los tipos de esquema numérico terminan en la sección [!UICONTROL Métricas]. También puede hacer clic en **[!UICONTROL Añadir todo]** y todos los campos del esquema se añadirán a su sección respectiva.
+1. Cuando haya encontrado el campo de esquema específico o haya definido el campo derivado, arrastre ese campo, como, por ejemplo, ![icono de controlador](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Nombre de página]**, desde el carril izquierdo hasta la sección **[!UICONTROL Métricas]** o **[!UICONTROL Dimensiones]** debajo de **[!UICONTROL Componentes incluidos]**.Puede arrastrar el mismo campo de esquema a las secciones de dimensiones o métricas varias veces y configurar la misma dimensión o métrica de diferentes maneras. Por ejemplo, desde el campo pageName puede crear una dimensión llamada `Product Pages` y otra titulada `Error pages`, utilizando una [Configuración de componentes](component-settings/overview.md) diferente la derecha.Si arrastra una carpeta de campos del esquema desde el carril izquierdo, los campos de la carpeta se ordenarán automáticamente en la sección correspondiente. Los campos de cadena terminan en la sección [!UICONTROL Dimensiones] y los tipos de esquema numérico terminan en la sección [!UICONTROL Métricas]. También puede hacer clic en **[!UICONTROL Añadir todo]** y todos los campos del esquema se añadirán a su sección respectiva.
 
 1. Una vez seleccionado un componente, la configuración aparece a la derecha.
 

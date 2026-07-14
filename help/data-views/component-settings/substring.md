@@ -5,6 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
+hold: true
 autotag-review: '2026-05-19T09:11:52.108Z'
 TQID: 'https://experienceleague.adobe.com/zvIcmaZiq3dtL-6b8fal6l2pWVLUbfVcOGWgyuqMqjE'
 product_v2:
@@ -17,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 65ed91c47b271257451243db6f7e50e127ff4b68
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 93%
+source-wordcount: 955
+ht-degree: 91%
 
 ---
 
@@ -62,7 +63,7 @@ Utilice este método para campos que utilizan un delimitador para separar varios
 * **[!UICONTROL Criterio]**: Cómo desea tratar la lista delimitada de valores.
    * **[!UICONTROL Desde la izquierda]**: Comience desde el principio de la lista delimitada y cuente hacia adelante.
    * **[!UICONTROL Desde la derecha]**: Comience desde el final de la lista delimitada y cuente hacia atrás.
-   * **[!UICONTROL Convertir en matriz]**: Trate esta dimensión como si fuera un elemento de esquema de matriz de objetos.
+   * **[!UICONTROL Convertir en matriz]**: Trate esta dimensión como si fuera un elemento de esquema de matriz de objetos. La dimensión está disponible como [contenedor personalizado](/help/data-views/create-dataview.md#containers-1) que puede seleccionar en la vista de datos y usar para el [análisis de subeventos](/help/components/segments/sub-event.md) en un proyecto del área de trabajo.
 * **[!UICONTROL Delimitador]**: El delimitador que utiliza el campo.
 * **[!UICONTROL Índice]**: Solo está presente si el criterio es De izquierda a derecha. El número de elemento como si estuviera en una matriz. Por ejemplo, si la entrada de cadena es `"Fox,Turtle,Rabbit,Wolf"` con un índice de 3, el resultado es `"Rabbit"`. Si el índice es superior al número de elementos delimitados, se aplica [Sin opciones de valor](no-value-options.md).
 
