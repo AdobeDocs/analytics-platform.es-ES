@@ -17,7 +17,7 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5da7d5ec554e61244e839fb1affebc0be9ecb109
+source-git-commit: 8a63b9948d58c4057db7fa74b36e9d0e0210f946
 workflow-type: tm+mt
 source-wordcount: 1596
 ht-degree: 56%
@@ -164,4 +164,3 @@ Este ejemplo ilustra cómo usar las opciones de menú contextual **[!UICONTROL C
    1. Seleccione **[!UICONTROL Restablecer filas con nombre cambiado]** en la ventana emergente **[!UICONTROL Filas con nombre cambiado]**.
 
       ![Restablecer tabla de forma libre](assets/popup-reset.png)
-
