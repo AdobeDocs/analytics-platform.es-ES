@@ -4,6 +4,7 @@ description: Descubra cómo las etiquetas y políticas de datos definidas en Ado
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
+hold: true
 autotag-review: '2026-05-19T08:59:31.818Z'
 TQID: 'https://experienceleague.adobe.com/SoIHLRSx90B4j8EkHWBVt3rVtt-968TN8ocWU2zuYN4'
 product_v2:
@@ -22,22 +23,27 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 1254207526535e44c848dfeed0052339fbd8d65d
 workflow-type: tm+mt
-source-wordcount: 622
-ht-degree: 99%
+source-wordcount: 745
+ht-degree: 66%
 
 ---
 
-# Etiquetas y políticas
+# Etiquetas, políticas y acciones de marketing
 
 Al crear un conjunto de datos en Experience Platform, puede crear [etiquetas del uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference) para algunos o todos los elementos del conjunto de datos. Puede ver estas etiquetas y políticas en Customer Journey Analytics.
 
-Las siguientes etiquetas son de especial interés para Customer Journey Analytics:
+Las siguientes etiquetas y acciones de marketing son de especial interés para Customer Journey Analytics:
 
-* La etiqueta`C8` **[!UICONTROL Sin medición]**. Esta etiqueta significa que los datos no se pueden usar para los análisis en los sitios web o las aplicaciones de su organización.
 
-* La etiqueta`C12`: **[!UICONTROL Sin exportación de datos general]**. Los campos de esquema etiquetados de esta manera no se pueden exportar ni descargar de Customer Journey Analytics (a través de la creación de informes, exportación, API, etc.)
+| Etiqueta | Acción de marketing | Definición |
+|---------|----------|---------|
+| `C2` | [!UICONTROL Exportar a terceros] | La etiqueta y la acción de marketing asociada significan que los datos no se pueden exportar a terceros si la directiva DULE correspondiente está habilitada. |
+| `C3` | [!UICONTROL Combinar con datos directamente identificables] | La etiqueta y la acción de marketing asociada significan que los datos no se pueden combinar ni utilizar de otro modo con información directamente identificable, si la directiva DULE correspondiente está habilitada. |
+| `C8` | [!UICONTROL Analytics] | La etiqueta y la acción de marketing asociada significan que los datos no se pueden utilizar para análisis en los sitios web o las aplicaciones de la organización, si la directiva DULE correspondiente está habilitada. |
+| `C9` | [!UICONTROL Ciencia de datos] | La etiqueta y la acción de marketing asociada significan que los datos no se pueden utilizar en flujos de trabajo de ciencia de datos si la directiva DULE correspondiente está habilitada. |
+| `C12` | [!UICONTROL Exportación de datos] | La etiqueta y la acción de marketing asociada significan que los campos de esquema etiquetados de esta manera no se pueden exportar ni descargar desde Customer Journey Analytics (a través de creación de informes, exportación, API, etc.), si la directiva DULE correspondiente está habilitada. |
 
 >[!NOTE]
 >
@@ -45,10 +51,17 @@ Las siguientes etiquetas son de especial interés para Customer Journey Analytic
 
 El etiquetado, en sí, no significa que se apliquen estas etiquetas de uso de datos. Para eso sirven las políticas. Puede crear políticas mediante la [IU de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/policies/user-guide) o la [API del servicio de políticas](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/api/overview) de Experience Platform.
 
-Hay dos políticas definidas por Adobe disponibles en Experience Platform que pueden aparecer en Customer Journey Analytics y afectar a la creación de informes y a la exportación de datos:
+Hay cinco directivas definidas por Adobe disponibles en Experience Platform que pueden aparecer en Customer Journey Analytics y afectar a la exportación de datos y sistemas de informes:
 
-* Directiva **[!UICONTROL Restringir el análisis de uso y la medición basada en el usuario]**, utilizando la etiqueta`C8` y directiva
-* **[!UICONTROL Restringir la exportación de datos]** utilizando la etiqueta`C12`.
+
+| Política | Etiqueta |
+|---------|----------|
+| [!UICONTROL Restringir la exportación de datos de terceros] | `C2` |
+| [!UICONTROL Restringir la combinación de datos directamente identificables] | `C3` |
+| [!UICONTROL Restringir el análisis de uso y la medición basada en usuarios] | `C8` |
+| [!UICONTROL Restringir la ciencia de datos] | `C9` |
+| [!UICONTROL Restringir la exportación de datos] | `C12` |
+
 
 ## Visualización de etiquetas de datos en las vistas de datos de Customer Journey Analytics
 
@@ -82,7 +95,7 @@ Haga clic en **[!UICONTROL Aplicar]** para ver qué políticas están habilitada
 
 ## Cómo afectan las políticas habilitadas a las vistas de datos
 
-Si una o más políticas están activadas con las etiquetas C8 o C12, los componentes del esquema que tengan aplicadas determinadas etiquetas de datos no se pueden añadir a las vistas de datos.
+Si una o más políticas están activadas con etiquetas C1, C2, C3, C8, C9 o C12, esos componentes de esquema que tienen determinadas etiquetas de datos aplicadas no se pueden añadir a las vistas de datos.
 
 Estos componentes aparecen atenuados en la lista del carril izquierdo [!UICONTROL Campos del esquema]:
 

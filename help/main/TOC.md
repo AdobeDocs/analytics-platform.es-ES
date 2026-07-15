@@ -2,9 +2,9 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 6b2b6fbf16c7aa7a7a31bb46ac63e4150bf2cfc8
+source-git-commit: 2b0562aa931f2909192929d9ccf2312f08c0d712
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1462'
 ht-degree: 92%
 
 ---
@@ -145,6 +145,12 @@ ht-degree: 92%
       + [Administrar](/help/connections/audience-analysis/audience-analysis-manage.md)
       + [Analizar](/help/connections/audience-analysis/analyze-audiences.md)
       + [Casos de uso](/help/connections/audience-analysis/audience-analysis-use-cases.md)
+   + Informes y filtrado de consentimiento {#consent-reporting-filtering}
+      + [Información general](/help/connections/consent-reporting-filtering/consent-overview.md)
+      + [Configuración](/help/connections/consent-reporting-filtering/consent-configure.md)
+      + [Administrar](/help/connections/consent-reporting-filtering/consent-manage.md)
+      + [Analizar](/help/connections/consent-reporting-filtering/consent-analyze.md)
+      + [Casos de uso](/help/connections/consent-reporting-filtering/consent-use-cases.md)
 + Vistas de datos {#cja-dataviews}
    + [Información general de las vistas de datos](../data-views/data-views.md)
    + [Creación o edición de una vista de datos](../data-views/create-dataview.md)

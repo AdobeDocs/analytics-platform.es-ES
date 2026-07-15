@@ -4,6 +4,7 @@ description: Describe cómo funciona la gobernanza de datos en Customer Journey 
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
+hold: true
 autotag-review: '2026-05-19T09:18:17.400Z'
 TQID: 'https://experienceleague.adobe.com/oDdNRwjtEU2vmeDvQ3DcM8w6XKQTBoTaXAIhmgjSoBk'
 product_v2:
@@ -19,10 +20,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 116c169326e98f4e3d649c2fe72dbff44eaa0225
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 100%
+source-wordcount: 560
+ht-degree: 88%
 
 ---
 
@@ -42,6 +43,12 @@ Esta integración le permite administrar el cumplimiento de normas más fácilme
 
 [Más información](/help/data-views/data-governance.md)
 
+## Informes y filtrado de consentimiento
+
+Customer Journey Analytics puede utilizar los datos de pertenencia a directivas de consentimiento de los conjuntos de datos de perfil de Experience Platform para informar sobre el consentimiento del visitante y, opcionalmente, excluir a los visitantes que no consientan antes de que se incorporen sus datos. La creación de informes de consentimiento hace que las políticas de consentimiento estén disponibles como componentes en Analysis Workspace y el filtrado de consentimiento excluye a los visitantes que no consienten en el momento de la ingesta en función de las acciones de marketing que configure.
+
+[Más información](/help/connections/consent-reporting-filtering/consent-overview.md)
+
 ## Solicitudes de privacidad
 
 Adobe gestiona las solicitudes de privacidad de acuerdo con las leyes locales e internacionales aplicables.
@@ -54,9 +61,7 @@ Customer Journey Analytics no se suscribirá directamente al servicio central de
 
 ## CCPA
 
-La Ley de Privacidad del Consumidor de California (CCPA) mejora los derechos de privacidad y la protección del consumidor para los residentes de California, Estados Unidos. Esta ley entró en vigor el 1 de enero de 2020.
-La CCPA otorga nuevos derechos de privacidad de datos a los residentes de California, como el derecho a acceder a sus datos personales y eliminarlos, a saber si sus datos personales se venden o revelan (y a quién) y a rechazar la venta de sus datos personales.
-De acuerdo con la CCPA, el Servicio de privacidad aceptará las solicitudes de exclusión de la venta de datos personales.
+La Ley de Privacidad del Consumidor de California (CCPA) mejora los derechos de privacidad y la protección del consumidor para los residentes de California, Estados Unidos. Esta ley entró en vigor el 1 de enero de 2020.La CCPA otorga nuevos derechos de privacidad de datos a los residentes de California, como el derecho a acceder a sus datos personales y eliminarlos, a saber si sus datos personales se venden o revelan (y a quién) y a rechazar la venta de sus datos personales.De acuerdo con la CCPA, el Servicio de privacidad aceptará las solicitudes de exclusión de la venta de datos personales.
 
 >[!MORELIKETHIS]
 >
