@@ -2,16 +2,15 @@
 title: Análisis de subeventos
 description: Descubra cómo el análisis de subeventos le permite filtrar productos individuales u otros contenedores dentro de un evento en Customer Recorrido Analytics, lo que elimina el sangrado de atribución en los informes de productos.
 feature: Segmentation
-hold: true
 hide: true
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: c504a631398d14479c9a2b70d9ef43ac88e35704
+source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 0%
+source-wordcount: 630
+ht-degree: 9%
 
 ---
 
@@ -26,9 +25,9 @@ El análisis de subeventos permite analizar los datos de eventos en un nivel má
 - Segmentación en un canal de medios específico dentro de los datos de análisis de medios.
 
 
-En Customer Journey Analytics, puede definir contenedores dentro de una vista de datos para la que desea utilizar el análisis de subeventos. Sin análisis de subeventos, la segmentación en un atributo de elemento de contenedor devuelve todos los eventos en los que cualquier elemento de un evento coincide con el atributo de elemento de contenedor. El resultado es una atribución incorrecta y métricas de ingresos infladas. El análisis de subeventos define el filtro como filas de elemento individuales dentro de un evento y resuelve estos problemas.
+En Customer Journey Analytics, puede definir contenedores dentro de una vista de datos para la que desea utilizar el análisis de subeventos. Sin el análisis de subeventos, la segmentación en un atributo de elemento de contenedor devuelve todos los eventos, sesiones, personas, cuentas (globales) [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, grupos compradores [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, oportunidades [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} u otros [contenedores](/help/data-views/create-dataview.md#containers-1) que haya definido. El resultado es una atribución incorrecta y métricas de ingresos infladas. El análisis de subeventos establece el ámbito del filtro en filas de contenedor individuales dentro de un evento y resuelve estos problemas.
 
-En el análisis de subeventos, la lógica de exclusión se comporta de forma diferente a la exclusión estándar a nivel de evento frente al contenedor. Cuando excluye atributos de elementos dentro del contenedor, el segmento devuelve eventos que **tienen elementos** dentro del contenedor, pero que no coinciden con los criterios de exclusión. El segmento no devuelve ningún evento sin elementos.
+En el análisis de subeventos, la lógica de exclusión se comporta de forma diferente a la exclusión estándar a nivel de evento en el contenedor. Cuando excluye atributos de elementos dentro del contenedor, el segmento devuelve eventos que **tienen elementos** dentro del contenedor, pero que no coinciden con los criterios de exclusión. El segmento no devuelve ningún evento sin elementos.
 
 
 ## Ejemplo

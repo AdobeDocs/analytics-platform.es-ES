@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 11156e1f2db094595cc3333ccb0b896037da4715
+source-git-commit: 8f55bd26df5d06a459b275beb9c92669e15b2fd0
 workflow-type: tm+mt
-source-wordcount: 1178
-ht-degree: 25%
+source-wordcount: 1203
+ht-degree: 20%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 25%
 
 La vinculación de cuentas B2B enriquece los conjuntos de datos de evento con información de cuenta y permite un análisis completo del recorrido completo del cliente en Customer Journey Analytics. Cuando los eventos carecen de un ID de cuenta, que Customer Journey Analytics B2B edition requiere para la ingesta, la vinculación de cuentas deriva y agrega esa información automáticamente mediante un [conjunto de datos de asignación de persona a cuenta](#prerequisites) que usted proporcione.
 
-Sin la vinculación de cuentas, los eventos que no contengan un ID de cuenta se perderán durante la ingesta. La vinculación de cuentas elimina esta barrera al buscar la cuenta asociada con la persona en cada evento, agregando el ID de cuenta a medida que se incorpora el evento y de forma retroactiva.
+Sin la vinculación de cuentas, los eventos que no contengan un ID de cuenta se perderán durante la ingesta. La vinculación de cuentas resuelve esta limitación buscando la cuenta asociada con la persona en cada evento y añadiendo el ID de cuenta tanto cuando se incorpora el evento como de forma retroactiva.
 
 >[!NOTE]
 >
@@ -68,12 +68,12 @@ Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conex
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="Espacio de nombres de identificador de persona"
->abstract="Seleccione un espacio de nombres de identificador de persona, por ejemplo, Correo electrónico, al que desee elevar cualquier ID de persona."
+>abstract="Seleccione el área de nombres de identidad de la persona más relevante para la creación de informes. Por ejemplo, Correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
 >title="Conjunto de datos de persona a cuenta"
->abstract="Seleccione el conjunto de datos de búsqueda que asigna los ID de persona a los ID de cuenta."
+>abstract="Seleccione el campo del conjunto de datos que contiene los ID de persona. El área de nombres de este campo puede diferir o ser la misma que el área de nombres de identificador de persona seleccionada (configuración de vinculación B2B). Si las dos áreas de nombres son diferentes, vincule las áreas de nombres en el gráfico de identidad."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person"
@@ -83,14 +83,12 @@ Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conex
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="Cuenta"
->abstract="Seleccione el campo del conjunto de datos que contiene el ID de cuenta. Ese campo no puede ser el mismo que el campo **[!UICONTROL Persona]** ni el campo **[!UICONTROL Hora de inicio]**."
+>abstract="Seleccione el campo del conjunto de datos que contiene los valores del identificador único de cuenta. La información del ID de cuenta estará disponible en las filas de cualquier conjunto de datos de evento con la vinculación habilitada."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
 >title="Hora de inicio"
 >abstract="Seleccione un campo de marca de tiempo que indique cuándo se activó la relación persona a cuenta."
->additional-url=""
->additional-url=""
 
 
 1. En Customer Journey Analytics, vaya a **[!UICONTROL Conexiones]** y [cree una nueva conexión](/help/connections/create-connection.md#create-a-connection) o [edite una conexión existente](/help/connections/create-connection.md#edit-a-connection).
@@ -138,8 +136,6 @@ Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conex
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Habilitar vinculación de persona a cuenta"
 >abstract="Si se ha habilitado, este conjunto de datos utiliza la vinculación de cuentas B2B. Seleccione un **[!UICONTROL ID de persona]** obligatorio para buscar el ID de cuenta en función del conjunto de datos persona a cuenta.<br/>Si está deshabilitado, este conjunto de datos *no* utiliza la vinculación de cuentas B2B y tendrá que seleccionar un **[!UICONTROL ID de cuenta]** obligatorio en su lugar."
->additional-url=""
->additional-url=""
 
 
 Después de configurar la vinculación B2B en el nivel de conexión, debe habilitar la vinculación de cuentas B2B individualmente para cada conjunto de datos de evento que desee vincular.
@@ -180,7 +176,7 @@ Una vez que haya configurado la configuración de vinculación B2B y haya termin
 
 >[!IMPORTANT]
 >
->Una vez guardada una conexión, la configuración de vinculación B2B se vuelve inmutable. Para ver la configuración después de guardar, selecciona **Abrir configuración de vinculación B2B**. Todos los campos se mostrarán en estado de solo lectura. Además, si el conjunto de datos que se usa para la asignación de [persona a cuenta](#prerequisites) se elimina en Experience Platform, se eliminará esta conexión.
+>Una vez guardada una conexión, la configuración de vinculación B2B se vuelve inmutable. Para ver la configuración después de guardar, selecciona **Abrir configuración de vinculación B2B**. Todos los campos aparecen en estado de solo lectura. Además, si el conjunto de datos usado para la asignación de [persona a cuenta](#prerequisites) se elimina en Experience Platform, se eliminará esta conexión.
 
 ## Programación de actualización de datos
 
@@ -195,7 +191,7 @@ La vinculación de cuentas deriva el mapa de identidad de su [conjunto de datos 
 
 La vinculación de cuentas respeta las solicitudes estándar de privacidad e higiene para las identidades de la persona, de acuerdo con el comportamiento de vinculación B2C. Si posteriormente se elimina un ID de persona mediante una solicitud de privacidad o higiene, se invierte la vinculación asociada realizada mediante el gráfico de identidad.
 
-Las entidades B2B, como cuentas, ID de cuenta e ID de cuenta globales que se añaden a eventos mediante la vinculación, no se eliminan como parte de solicitudes de privacidad o higiene. Estos valores no contienen información personal, por lo que no existe ninguna obligación legal de eliminarlos.
+Las entidades B2B como cuentas, ID de cuenta e ID de cuenta globales añadidas a eventos mediante la vinculación no se eliminan durante las solicitudes de privacidad o higiene. Estos valores no contienen información personal, por lo que no existe ninguna obligación legal de eliminarlos.
 
 >[!MORELIKETHIS]
 >

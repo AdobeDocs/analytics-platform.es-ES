@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ff99ee131e9bae9fc2815fb54e5b5c14577450f7
+source-git-commit: ddbeb022f4850c2f872f612c86fb37a94b43a73d
 workflow-type: tm+mt
-source-wordcount: 10342
-ht-degree: 92%
+source-wordcount: 10413
+ht-degree: 90%
 
 ---
 
@@ -339,7 +339,7 @@ Se [añaden uno o varios conjuntos de datos](#add-datasets) o se [editan los con
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
 >title="ID de cuenta"
->abstract="Seleccione un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos de Experience Platform."
+>abstract="Seleccione un ID de cuenta de los campos de identidad no personal o no personal disponibles definidos en el esquema del conjunto de datos en Experience Platform. Los valores contenidos se utilizan como identificadores de cuenta únicos en el nivel de fila siempre que la información del ID de cuenta relacionado no esté disponible en el conjunto de datos de persona a cuenta."
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountfield"
@@ -404,7 +404,7 @@ Se [añaden uno o varios conjuntos de datos](#add-datasets) o se [editan los con
 >[!CONTEXTUALHELP]
 >id="connection_personid"
 >title="ID de persona"
->abstract="Selecciona un ID de persona entre las identidades disponibles de los esquemas del conjunto de datos en Experience Platform."
+>abstract="Seleccione un campo de tipo identity o identityMap con una buena cobertura de eventos. Los valores contenidos se elevan a los del área de nombres de identificador de persona configurada anteriormente (en la configuración de vinculación B2B)."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountid"
@@ -732,7 +732,7 @@ Para un conjunto de datos de evento en una conexión basada en cuentas, puede es
 
 | Configuración | Descripción |
 | --- | --- |
-| **[!UICONTROL ID de cuenta global]** | Seleccione un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos de Experience Platform. Aplicable cuando se ha añadido una cuenta global como contenedor a la conexión. <p>Si un registro no contiene un valor para la identidad que ha seleccionado como ID de cuenta para el conjunto de datos de evento, se omitirá el registro. |
+| **[!UICONTROL ID de cuenta global]** | Aplicable cuando se ha añadido una cuenta global como contenedor a la conexión.<br/>Seleccione un ID de cuenta global (el identificador único de una cuenta) de los campos de identidad no personal o no personal disponibles definidos en el esquema del conjunto de datos en Experience Platform. Los valores contenidos se utilizan como identificadores de cuenta únicos en el nivel de fila siempre que la información del ID de cuenta relacionado no esté disponible en el conjunto de datos de persona a cuenta.  <p>Si un registro no contiene un valor para la identidad que ha seleccionado como ID de cuenta para el conjunto de datos de evento, se omitirá el registro. |
 | **[!UICONTROL ID de cuenta]** | Seleccione un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos de Experience Platform. Aplicable cuando no ha añadido una cuenta global como contenedor a su conexión. |
 | **[!UICONTROL ID de oportunidad]** | Seleccione un ID de oportunidad (el identificador único de una oportunidad) entre las identidades disponibles definidas en el esquema del conjunto de datos de Experience Platform. |
 | **[!UICONTROL ID del grupo de compras]** | Seleccione un ID del grupo de compras (el identificador único de un grupo de compras) entre las identidades disponibles definidas en el esquema del conjunto de datos de Experience Platform. |
