@@ -79,5 +79,5 @@ Como parte de la visualización, hay una configuración específica del histogra
 
 >[!MORELIKETHIS]
 >
->[Agregar una visualización a un panelConfiguración de la visualizaciónMenú contextual de visualizaciónUso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
+>[Agregar una visualización a un panelConfiguración de la visualizaciónMenú contextual de visualizaciónUso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=es)
 
