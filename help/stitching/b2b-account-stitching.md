@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8f55bd26df5d06a459b275beb9c92669e15b2fd0
+source-git-commit: 8348295450f9901c74de7a8188d370e0fc612723
 workflow-type: tm+mt
-source-wordcount: 1203
-ht-degree: 20%
+source-wordcount: 1205
+ht-degree: 13%
 
 ---
 
@@ -73,17 +73,17 @@ Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conex
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
 >title="Conjunto de datos de persona a cuenta"
->abstract="Seleccione el campo del conjunto de datos que contiene los ID de persona. El área de nombres de este campo puede diferir o ser la misma que el área de nombres de identificador de persona seleccionada (configuración de vinculación B2B). Si las dos áreas de nombres son diferentes, vincule las áreas de nombres en el gráfico de identidad."
+>abstract="Seleccione el conjunto de datos de búsqueda que asigna los ID de persona a los ID de cuenta."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person"
 >title="Persona"
->abstract="Seleccione el campo del conjunto de datos que contiene el ID de persona. Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL Cuenta]** ni el campo **[!UICONTROL Hora de inicio]**."
+>abstract="Seleccione el campo del conjunto de datos que contiene los ID de persona. El área de nombres de este campo puede ser diferente o ser la misma que el área de nombres del identificador de persona seleccionado. Si difieren, las dos áreas de nombres deben vincularse en el gráfico de identidades."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="Cuenta"
->abstract="Seleccione el campo del conjunto de datos que contiene los valores del identificador único de cuenta. La información del ID de cuenta estará disponible en las filas de cualquier conjunto de datos de evento con la vinculación habilitada."
+>abstract="Seleccione el campo del conjunto de datos que contiene los valores del identificador único de cuenta. La información del ID de cuenta estará disponible en las filas de cualquier conjunto de datos de evento con la vinculación de persona a cuenta habilitada."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
@@ -135,8 +135,7 @@ Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conex
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Habilitar vinculación de persona a cuenta"
->abstract="Si se ha habilitado, este conjunto de datos utiliza la vinculación de cuentas B2B. Seleccione un **[!UICONTROL ID de persona]** obligatorio para buscar el ID de cuenta en función del conjunto de datos persona a cuenta.<br/>Si está deshabilitado, este conjunto de datos *no* utiliza la vinculación de cuentas B2B y tendrá que seleccionar un **[!UICONTROL ID de cuenta]** obligatorio en su lugar."
-
+>abstract="Si se habilita, este conjunto de datos utiliza la vinculación de persona a cuenta B2B. Los valores de **[!UICONTROL ID de persona]** se elevarán a los del área de nombres del identificador de persona configurado y, a continuación, se utilizarán para buscar el ID de cuenta en función del **[!UICONTROL conjunto de datos de persona a cuenta]** (interfaz de configuración de vinculación B2B).<br/>Si está deshabilitado, este conjunto de datos no utiliza la vinculación de persona a cuenta B2B y, en su lugar, debe seleccionar un **[!UICONTROL ID de cuenta]** necesario."
 
 Después de configurar la vinculación B2B en el nivel de conexión, debe habilitar la vinculación de cuentas B2B individualmente para cada conjunto de datos de evento que desee vincular.
 

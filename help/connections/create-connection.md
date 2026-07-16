@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ddbeb022f4850c2f872f612c86fb37a94b43a73d
+source-git-commit: 3eae7d76014165ec03151b7c2ec87952f357d4a3
 workflow-type: tm+mt
-source-wordcount: 10413
+source-wordcount: 10479
 ht-degree: 90%
 
 ---
@@ -404,12 +404,22 @@ Se [añaden uno o varios conjuntos de datos](#add-datasets) o se [editan los con
 >[!CONTEXTUALHELP]
 >id="connection_personid"
 >title="ID de persona"
->abstract="Seleccione un campo de tipo identity o identityMap con una buena cobertura de eventos. Los valores contenidos se elevan a los del área de nombres de identificador de persona configurada anteriormente (en la configuración de vinculación B2B)."
+>abstract="Selecciona un ID de persona entre las identidades disponibles de los esquemas del conjunto de datos en Experience Platform."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountid"
 >title="ID de cuenta"
 >abstract="Seleccione un ID de cuenta (el identificador único de una cuenta) entre las identidades disponibles definidas en el esquema del conjunto de datos de Experience Platform."
+
+>[!CONTEXTUALHELP]
+>id="connection_b2bstitching_personid"
+>title="ID de persona"
+>abstract="Seleccione un campo de tipo identity o identityMap con una buena cobertura de eventos. Los valores contenidos se elevarán a los del área de nombres de identificador de persona configurada anteriormente."
+
+>[!CONTEXTUALHELP]
+>id="connection_b2bstitching_accountid"
+>title="ID de cuenta"
+>abstract="De forma opcional, seleccione un ID de cuenta de los campos de identidad no personal o no personal disponibles definidos en el esquema del conjunto de datos. Los valores contenidos se utilizarán como identificador único de cuenta en el nivel de fila, siempre que la información del ID de cuenta relacionado no esté disponible en el conjunto de datos persona a cuenta."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
