@@ -5,23 +5,14 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hold: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: eafeab50e86b3e98f372c70a0fd43494015ca002
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8did: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
 workflow-type: tm+mt
-source-wordcount: 990
+source-wordcount: 1058
 ht-degree: 2%
 
 ---
@@ -29,6 +20,15 @@ ht-degree: 2%
 # Resumen de filtrado e informes de consentimiento
 
 La creación de informes y el filtrado de consentimiento utilizan los datos de pertenencia a directivas de consentimiento almacenados en los conjuntos de datos de Perfil de Adobe Experience Platform para ayudarle a crear informes sobre el consentimiento del visitante y, opcionalmente, excluir a los visitantes que no dan su consentimiento antes de que sus datos se introduzcan en Customer Journey Analytics.
+
+## Requisitos previos
+
+Antes de configurar la creación de informes y el filtrado de consentimiento, asegúrese de lo siguiente:
+
+* Su organización dispone de una licencia para Adobe Healthcare Shield o Privacy &amp; Security Shield.
+* Tiene permisos de administrador del sistema en Customer Journey Analytics.
+* La zona protegida que desea utilizar contiene un conjunto de datos de perfil con datos de pertenencia a directivas de consentimiento en el campo `consentPoliciesIDMap`.
+* La conexión que desea configurar ya existe. Para obtener más información, consulte [Crear o editar una conexión](/help/connections/create-connection.md).
 
 El diagrama siguiente y la tabla asociada muestran una representación de alto nivel de cómo el sistema de informes y el filtrado de consentimiento hace que los datos de directivas de consentimiento estén disponibles en Analysis Workspace y filtra los datos de visitantes en el momento de la ingesta:
 
