@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: eafeab50e86b3e98f372c70a0fd43494015ca002
+source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: 388
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 Puede introducir datos de directivas de consentimiento de conjuntos de datos de perfil de Experience Platform en una conexión de Customer Journey Analytics.
 
-Después de [crear una configuración de filtrado y creación de informes de consentimiento](/help/connections/consent-reporting-filtering/consent-configure.md), los datos de la directiva de consentimiento estarán disponibles como componentes nuevos en las vistas de datos en la conexión configurada. Puede utilizar estos componentes en cualquier lugar de Analysis Workspace si tiene acceso a una vista de datos donde existan.
+Después de [crear una configuración de filtrado y creación de informes de consentimiento](/help/connections/consent-reporting-filtering/consent-configure.md) y habilitar la creación de informes, los datos de la directiva de consentimiento estarán disponibles como componentes nuevos en las vistas de datos en la conexión configurada. Puede utilizar estos componentes en cualquier lugar de Analysis Workspace si tiene acceso a una vista de datos donde existan.
 
 ## Componentes de política de consentimiento
 
