@@ -5,20 +5,13 @@ feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c2d922af3eaf86e487e6c2a5318c7693f1be3dcc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f51766fdcb891b8cea93ea047b011792dc3c0ae6
 workflow-type: tm+mt
-source-wordcount: 1626
+source-wordcount: 1628
 ht-degree: 55%
 
 ---
@@ -37,7 +30,7 @@ La configuración de filas varía en función del componente que haya arrastrado
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -113,14 +106,14 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 
 ## Cambiar altura de fila
 
-Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**.
+Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**.
 
 
 ## Clasificaciones en línea
 
 Las clasificaciones en línea permiten cambiar el nombre de las filas de una tabla de forma libre o combinarlas. Y para crear un campo derivado a partir de las filas modificadas de una tabla.
 
-El ejemplo siguiente ilustra cómo usar las opciones de menú contextual **[!UICONTROL Cambiar nombre de fila seleccionada]**, **[!UICONTROL Combinar filas seleccionadas]** y **[!UICONTROL Crear como campo derivado]**. Y cómo restablecer la tabla de forma libre modificada.
+El ejemplo siguiente ilustra cómo usar las opciones de menú contextual **[!UICONTROL Cambiar nombre de fila seleccionada]**, **[!UICONTROL Combinar filas seleccionadas]** y **[!UICONTROL Crear filas modificadas como campo derivado]**. Y cómo restablecer la tabla de forma libre modificada.
 
 * Cambie el nombre de la fila **[!UICONTROL Sin valor]** a **[!UICONTROL Otro]**.
 
