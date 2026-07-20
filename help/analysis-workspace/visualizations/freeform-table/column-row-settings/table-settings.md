@@ -16,9 +16,9 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+source-git-commit: f51766fdcb891b8cea93ea047b011792dc3c0ae6
 workflow-type: tm+mt
-source-wordcount: 1602
+source-wordcount: 1628
 ht-degree: 55%
 
 ---
@@ -89,9 +89,9 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 | **[!UICONTROL Selección de tendencia]** | Cree una visualización de gráfico de líneas de tendencias para la selección. |
 | **[!UICONTROL Mostrar solamente las filas seleccionadas]** | Mostrar solo las filas seleccionadas en la visualización. |
 | **[!UICONTROL Mostrar todas las filas]** | Mostrar todas las filas de la visualización. |
-| **[!UICONTROL Cambiar el nombre de la fila seleccionada]** | *Disponibilidad limitada de pruebas*<br/> Cambie el nombre de la fila seleccionada. Escriba un **[!UICONTROL Nombre]** en el cuadro de diálogo **[!UICONTROL Cambiar nombre de fila seleccionada]**. Seleccione **[!UICONTROL Aceptar]** para confirmar o **[!UICONTROL Cancelar]** para cancelar. Una vez que se cambia el nombre de una fila de una tabla de forma libre, el nombre de la dimensión de la columna de encabezado se anexa con **[!UICONTROL (modificado)]** y un icono ![Gear](/help/assets/icons/Gear.svg) está disponible para restablecer las filas con el nombre cambiado en la columna de encabezado de dimensión. Consulte [Ejemplo de clasificación en línea](#inline-classifications-example). |
-| **[!UICONTROL Combinar filas seleccionadas]** | *Disponibilidad limitada para pruebas*<br/> Combina las filas seleccionadas. Escriba un **[!UICONTROL Nombre]** en el cuadro de diálogo **[!UICONTROL Combinar filas seleccionadas]**. Seleccione **[!UICONTROL Aceptar]** para confirmar o **[!UICONTROL Cancelar]** para cancelar. Una vez combinadas las filas de una tabla de forma libre, el nombre de dimensión de la columna de encabezado se anexa con **[!UICONTROL (modificado)]** y un icono ![Gear](/help/assets/icons/Gear.svg) está disponible para restablecer las filas con nombre cambiado en la columna de encabezado de dimensión. Consulte [Ejemplo de clasificación en línea](#inline-classifications-example). |
-| **[!UICONTROL Crear como campo derivado]** | *Disponibilidad limitada para pruebas *<br/>*Para ver esta opción del menú contextual, debe ser administrador de productos de Customer Journey Analytics.*<br/> Disponible en cualquier fila seleccionada de una tabla de forma libre que se modifique como resultado de cambiar el nombre de las filas o combinarlas. Cuando se selecciona, la [interfaz de campo derivada](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field) se abre con las modificaciones que ya se han prerrellenado en la tabla de forma libre. Consulte [Ejemplo de clasificación en línea](#inline-classifications-example). |
+| **[!UICONTROL Cambiar el nombre de la fila seleccionada]** | Cambie el nombre de la fila seleccionada. Escriba un **[!UICONTROL Nombre]** en el cuadro de diálogo **[!UICONTROL Cambiar nombre de fila seleccionada]**. Seleccione **[!UICONTROL Aceptar]** para confirmar o **[!UICONTROL Cancelar]** para cancelar. Una vez que se cambia el nombre de una fila de una tabla de forma libre, el nombre de la dimensión de la columna de encabezado se anexa con **[!UICONTROL (modificado)]** y un icono ![Gear](/help/assets/icons/Gear.svg) está disponible para restablecer las filas modificadas en la columna de encabezado de dimensión. Ver [clasificaciones en línea](#inline-classifications). |
+| **[!UICONTROL Combinar filas seleccionadas]** | Combine las filas seleccionadas. Escriba un **[!UICONTROL Nombre]** en el cuadro de diálogo **[!UICONTROL Combinar filas seleccionadas]**. Seleccione **[!UICONTROL Aceptar]** para confirmar o **[!UICONTROL Cancelar]** para cancelar. Una vez combinadas las filas de una tabla de forma libre, el nombre de dimensión de la columna de encabezado se anexa con **[!UICONTROL (modificado)]** y un icono ![Gear](/help/assets/icons/Gear.svg) está disponible para restablecer las filas modificadas de la columna de encabezado de dimensión. Ver [clasificaciones en línea](#inline-classifications). |
+| **[!UICONTROL Crear filas modificadas como campo derivado]** | *Debe ser administrador de productos de Customer Journey Analytics para ver esta opción de menú contextual.*<br/> Disponible en cualquier fila seleccionada de una tabla de forma libre que se modifique como resultado de cambiar el nombre de las filas o combinarlas. Cuando se selecciona, la [interfaz de campo derivada](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field) se abre con las modificaciones que ya se han prerrellenado en la tabla de forma libre. Ver [clasificaciones en línea](#inline-classifications). |
 | **[!UICONTROL Crear anotación a partir de la selección]** | Abra [Generador de anotaciones](/help/components/annotations/create-annotations.md#annotation-builder) para generar una anotación para la selección. |
 | **[!UICONTROL Crear segmento de selección]** | Abra [Generador de segmentos](/help/components/segments/seg-builder.md) para generar un segmento a partir de la selección. |
 | **[!UICONTROL Crear público a partir de la selección]** | Abra [Generador de audiencias](/help/components/audiences/publish.md#audience-builder) para generar una audiencia a partir de la selección. |
@@ -116,52 +116,52 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**.
 
 
-## Ejemplo de clasificaciones en línea
+## Clasificaciones en línea
 
-{{release-limited-testing-section}}
+Las clasificaciones en línea permiten cambiar el nombre de las filas de una tabla de forma libre o combinarlas. Y para crear un campo derivado a partir de las filas modificadas de una tabla.
 
-Este ejemplo ilustra cómo usar las opciones de menú contextual **[!UICONTROL Cambiar nombre de fila seleccionada]**, **[!UICONTROL Combinar filas seleccionadas]** y **[!UICONTROL Crear como campo derivado]**. Y cómo restablecer la tabla de forma libre modificada.
+El ejemplo siguiente ilustra cómo usar las opciones de menú contextual **[!UICONTROL Cambiar nombre de fila seleccionada]**, **[!UICONTROL Combinar filas seleccionadas]** y **[!UICONTROL Crear filas modificadas como campo derivado]**. Y cómo restablecer la tabla de forma libre modificada.
 
 * Cambie el nombre de la fila **[!UICONTROL Sin valor]** a **[!UICONTROL Otro]**.
 
-   1. Seleccione **[!UICONTROL Cambiar el nombre de la fila seleccionada]** en el menú contextual de la fila **[!UICONTROL Sin valor]** seleccionada.
+  1. Seleccione **[!UICONTROL Cambiar el nombre de la fila seleccionada]** en el menú contextual de la fila **[!UICONTROL Sin valor]** seleccionada.
 
-      ![Seleccionar la opción de menú contextual Cambiar nombre de fila seleccionada](assets/context-rename.png)
+     ![Seleccionar la opción de menú contextual Cambiar nombre de fila seleccionada](assets/context-rename.png)
 
-   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre de fila seleccionada]**:
+  1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre de fila seleccionada]**:
 
-      ![Cambiar el nombre del cuadro de diálogo de fila seleccionado](assets/dialog-rename.png)
+     ![Cambiar el nombre del cuadro de diálogo de fila seleccionado](assets/dialog-rename.png)
 
-      1. Escriba <code>Otro</code> para **[!UICONTROL Name]**.
-      1. Seleccione **[!UICONTROL Aceptar]**.
+     1. Escriba <code>Otro</code> para **[!UICONTROL Name]**.
+     1. Seleccione **[!UICONTROL Aceptar]**.
 
 * Combine **[!UICONTROL Hombres]** y **[!UICONTROL Mujeres]** filas a una fila de **[!UICONTROL Adultos]**.
 
-   1. Seleccione la fila **[!UICONTROL Hombres]** y **[!UICONTROL Mujeres]**.
-   1. Seleccione **[!UICONTROL Combinar filas seleccionadas]** en el menú contextual de cualquiera de las filas seleccionadas.
+  1. Seleccione la fila **[!UICONTROL Hombres]** y **[!UICONTROL Mujeres]**.
+  1. Seleccione **[!UICONTROL Combinar filas seleccionadas]** en el menú contextual de cualquiera de las filas seleccionadas.
 
-      ![Seleccione la opción de menú Combinar filas seleccionadas](assets/context-combine.png)
+     ![Seleccione la opción de menú Combinar filas seleccionadas](assets/context-combine.png)
 
-   1. En el diálogo **[!UICONTROL Combinar filas seleccionadas]**:
+  1. En el diálogo **[!UICONTROL Combinar filas seleccionadas]**:
 
-      ![Combinar diálogo de fila seleccionado](assets/dialog-combine.png)
+     ![Combinar diálogo de fila seleccionado](assets/dialog-combine.png)
 
-      1. Ingresar <code>adultos</code> para **[!UICONTROL Name]**.
-      1. Seleccione **[!UICONTROL Aceptar]**.
+     1. Ingresar <code>adultos</code> para **[!UICONTROL Name]**.
+     1. Seleccione **[!UICONTROL Aceptar]**.
 
 * Cree un campo derivado de las modificaciones en la tabla de forma libre.
 
-   1. Seleccione **[!UICONTROL Crear como campo derivado]** del menú contextual para cualquier fila seleccionada en la tabla modificada.
+  1. Seleccione **[!UICONTROL Crear filas modificadas como campo derivado]** del menú contextual para cualquier fila seleccionada en la tabla modificada.
 
-      ![Seleccione la opción de menú Crear como campo derivado](assets/context-derived.png)
+     ![Seleccione la opción de menú Crear filas modificadas como campo derivado](assets/context-derived.png)
 
-   1. Inspeccione, modifique y guarde opcionalmente la definición del campo derivado en función de todas las modificaciones realizadas en la tabla.
+  1. Inspeccione, modifique y guarde opcionalmente la definición del campo derivado en función de todas las modificaciones realizadas en la tabla.
 
-      ![Cuadro de diálogo Crear campo derivado](assets/dialog-derived.png)
+     ![Cuadro de diálogo Crear campo derivado](assets/dialog-derived.png)
 
 * Restablezca la tabla de forma libre al estado antes de realizar modificaciones.
 
-   1. Seleccione ![engranaje](/help/assets/icons/Gear.svg) junto al **[!UICONTROL _nombre de dimensión _(modificado)]**.
-   1. Seleccione **[!UICONTROL Restablecer filas con nombre cambiado]** en la ventana emergente **[!UICONTROL Filas con nombre cambiado]**.
+  1. Seleccione ![engranaje](/help/assets/icons/Gear.svg) junto al **[!UICONTROL _nombre de dimensión _(modificado)]**.
+  1. Seleccione **[!UICONTROL Restablecer filas modificadas]** en la ventana emergente **[!UICONTROL Filas renombradas]**.
 
-      ![Restablecer tabla de forma libre](assets/popup-reset.png)
+     ![Restablecer tabla de forma libre](assets/popup-reset.png)
