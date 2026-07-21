@@ -5,18 +5,11 @@ feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 54e64aeb652d41a39e52b01c0a54edd1ecfd0cdc
 workflow-type: tm+mt
 source-wordcount: 1630
 ht-degree: 53%
@@ -37,7 +30,7 @@ La configuración de filas varía en función del componente que haya arrastrado
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -89,9 +82,9 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 | **[!UICONTROL Selección de tendencia]** | Cree una visualización de gráfico de líneas de tendencias para la selección. |
 | **[!UICONTROL Mostrar solamente las filas seleccionadas]** | Mostrar solo las filas seleccionadas en la visualización. |
 | **[!UICONTROL Mostrar todas las filas]** | Mostrar todas las filas de la visualización. |
-| **[!UICONTROL Cambiar el nombre de la fila seleccionada]** | Cambie el nombre de la fila seleccionada. Escriba un **[!UICONTROL Nombre]** en el cuadro de diálogo **[!UICONTROL Cambiar nombre de fila seleccionada]**. Seleccione **[!UICONTROL Aceptar]** para confirmar o **[!UICONTROL Cancelar]** para cancelar. Una vez que se cambia el nombre de una fila de una tabla de forma libre, el nombre de la dimensión de la columna de encabezado se anexa con **[!UICONTROL (modificado)]** y un icono ![Gear](/help/assets/icons/Gear.svg) está disponible para restablecer las filas modificadas en la columna de encabezado de dimensión. Ver [clasificaciones en línea](#inline-classifications). |
-| **[!UICONTROL Combinar filas seleccionadas]** | Combine las filas seleccionadas. Escriba un **[!UICONTROL Nombre]** en el cuadro de diálogo **[!UICONTROL Combinar filas seleccionadas]**. Seleccione **[!UICONTROL Aceptar]** para confirmar o **[!UICONTROL Cancelar]** para cancelar. Una vez combinadas las filas de una tabla de forma libre, el nombre de dimensión de la columna de encabezado se anexa con **[!UICONTROL (modificado)]** y un icono ![Gear](/help/assets/icons/Gear.svg) está disponible para restablecer las filas modificadas de la columna de encabezado de dimensión. Ver [clasificaciones en línea](#inline-classifications). |
-| **[!UICONTROL Crear filas modificadas como campo derivado]** | *Debe ser administrador de productos de Customer Journey Analytics para ver esta opción de menú contextual.*<br/> Disponible en cualquier fila seleccionada de una tabla de forma libre que se modifique como resultado de cambiar el nombre de las filas o combinarlas. Cuando se selecciona, la [interfaz de campo derivada](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field) se abre con las modificaciones que ya se han prerrellenado en la tabla de forma libre. Ver [clasificaciones en línea](#inline-classifications). |
+| **[!UICONTROL Cambiar el nombre de la fila seleccionada]** | Cambie el nombre de la fila seleccionada. Escriba un **[!UICONTROL Nombre]** en el cuadro de diálogo **[!UICONTROL Cambiar nombre de fila seleccionada]**. Seleccione **[!UICONTROL Aceptar]** para confirmar o **[!UICONTROL Cancelar]** para cancelar. Una vez que se cambia el nombre de una fila de una tabla de forma libre, el nombre de la dimensión de la columna de encabezado se anexa con **[!UICONTROL (modificado)]** y un icono ![Gear](/help/assets/icons/Gear.svg) está disponible para restablecer las filas modificadas en la columna de encabezado de dimensión. Ver [clasificaciones en línea](#inline-classifications-example). |
+| **[!UICONTROL Combinar filas seleccionadas]** | Combine las filas seleccionadas. Escriba un **[!UICONTROL Nombre]** en el cuadro de diálogo **[!UICONTROL Combinar filas seleccionadas]**. Seleccione **[!UICONTROL Aceptar]** para confirmar o **[!UICONTROL Cancelar]** para cancelar. Una vez combinadas las filas de una tabla de forma libre, el nombre de dimensión de la columna de encabezado se anexa con **[!UICONTROL (modificado)]** y un icono ![Gear](/help/assets/icons/Gear.svg) está disponible para restablecer las filas modificadas de la columna de encabezado de dimensión. Ver [clasificaciones en línea](#inline-classifications-example). |
+| **[!UICONTROL Crear filas modificadas como campo derivado]** | *Debe ser administrador de productos de Customer Journey Analytics para ver esta opción de menú contextual.*<br/> Disponible en cualquier fila seleccionada de una tabla de forma libre que se modifique como resultado de cambiar el nombre de las filas o combinarlas. Cuando se selecciona, la [interfaz de campo derivada](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field) se abre con las modificaciones que ya se han prerrellenado en la tabla de forma libre. Ver [clasificaciones en línea](#inline-classifications-example). |
 | **[!UICONTROL Crear anotación a partir de la selección]** | Abra [Generador de anotaciones](/help/components/annotations/create-annotations.md#annotation-builder) para generar una anotación para la selección. |
 | **[!UICONTROL Crear segmento de selección]** | Abra [Generador de segmentos](/help/components/segments/seg-builder.md) para generar un segmento a partir de la selección. |
 | **[!UICONTROL Crear público a partir de la selección]** | Abra [Generador de audiencias](/help/components/audiences/publish.md#audience-builder) para generar una audiencia a partir de la selección. |
@@ -113,7 +106,7 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 
 ## Cambiar altura de fila
 
-Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**.
+Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**.
 
 
 ## Clasificaciones en línea {#inline-classifications-example}
