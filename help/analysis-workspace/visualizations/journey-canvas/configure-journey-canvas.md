@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c6b215f9fe718d0d3e8f81b7f55421c909b69c5a
+source-git-commit: 782311939794bab0f04da1df3dccdc3a9847449f
 workflow-type: tm+mt
-source-wordcount: 6499
-ht-degree: 90%
+source-wordcount: 6697
+ht-degree: 88%
 
 ---
 
@@ -92,8 +92,44 @@ Consulte [Información general sobre el lienzo de recorrido](/help/analysis-work
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_percentage_value"
->title="Elija cómo se calculan los porcentajes"
+>title="Valor porcentual"
 >abstract="Los porcentajes que se muestran en cada nodo se basan en las métricas principales y secundarias que configure. Puede elegir si los porcentajes están relacionados con el nodo de inicio, el nodo anterior o todos los datos del grupo de informes."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_arrow_settings"
+>title="Configuración de flecha"
+>abstract="Elija si desea mostrar u ocultar las etiquetas en el lienzo. Las etiquetas son nombres personalizados creados dentro del lienzo de Recorrido."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_arrow_settings_ajo"
+>title="Configuración de flecha"
+>abstract="Elija si desea mostrar u ocultar etiquetas y valores en el lienzo. Las etiquetas pueden ser nombres personalizados creados dentro del lienzo de Recorrido o pueden ser etiquetas o condiciones creadas en Journey Optimizer. Los valores son números y porcentajes que indican las personas o sesiones que se movieron de un nodo al siguiente en el recorrido. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_show_fallout"
+>title="Mostrar visitas"
+>abstract="Los datos de visitas en el orden previsto muestran el porcentaje y el número de personas o sesiones en cada nodo del recorrido que no llegaron al siguiente nodo del recorrido. Es posible que hayan realizado otras acciones en el sitio, pero nunca cumplieron los criterios definidos por el siguiente nodo del recorrido.<br/>Los datos de visitas en el orden previsto muestran personas o sesiones (independientemente de la métrica principal que haya elegido) y se basan en la configuración del contenedor de lienzo de Recorrido."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_compare"
+>title="Comparar con"
+>abstract="Intervalo de fecha utilizado para comparar los datos de recorrido actuales con un período anterior. Al seleccionar un intervalo de fechas de comparación, cada nodo del recorrido muestra el cambio porcentual entre el intervalo de fechas actual y el seleccionado, en función de la métrica principal. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -147,10 +183,10 @@ Los nodos se crean de las siguientes maneras: arrastrando componentes de Workspa
    | Elemento de dimensión | Una flecha que conecta dos nodos existentes | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información. |
    | Segmento | Área en blanco del lienzo | El nodo muestra dónde se soltó el componente sin estar conectado con ningún otro nodo.<p>El número y el porcentaje que aparecen en el nodo incluyen el total de la métrica principal, segmentada por el segmento seleccionado.</p> <p>Por ejemplo, si se selecciona Personas como métrica principal para el recorrido y luego se añade un segmento de Hoy a un área en blanco del lienzo, se muestran todas las personas que tuvieron un evento hoy.</p> |
    | Segmento | Un nodo existente | Aplica el segmento al nodo existente. |
-   | Segmento | Una flecha que conecta dos nodos | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información.<p>Aplica el segmento al punto de la ruta donde se soltó el componente.</p> |
+   | Segmento | Una flecha que conecta dos nodos | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. (Consulte [Conexión de nodos](#connect-nodes) para obtener más información).<p>Aplica el segmento al punto de la ruta donde se soltó el componente.</p> |
    | Intervalo de fecha | Área en blanco del lienzo | El nodo muestra dónde se soltó el componente, sin conexión con ningún otro nodo.<p>El número y el porcentaje que aparecen en el nodo incluyen el total de la métrica principal, segmentado por el intervalo de fecha seleccionado.</p> <p>Por ejemplo, si se selecciona Personas como métrica principal para el recorrido, al añadir después un intervalo de fecha de Este mes a un área en blanco del lienzo se muestran todas las personas que tuvieron un evento durante el mes actual.</p> |
    | Intervalo de fecha | Un nodo existente | Aplica el intervalo de fecha únicamente a este panel. |
-   | Intervalo de fecha | Una flecha que conecta dos nodos | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información.<p>Aplica el intervalo de fecha al punto de la ruta donde se soltó el componente.</p> |
+   | Intervalo de fecha | Una flecha que conecta dos nodos | El nodo se muestra entre los dos nodos existentes donde se soltó el componente y está conectado a ambos nodos existentes. (Consulte [Conexión de nodos](#connect-nodes) para obtener más información).<p>Aplica el intervalo de fecha al punto de la ruta donde se soltó el componente.</p> |
    | Múltiples componentes | Un área en blanco del lienzo | **Si ninguno de los componentes es una dimensión:**<p>Cada componente se muestra como un nodo independiente donde se soltaron los componentes, sin conexión con ningún nodo existente.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. </p><p>**Si alguno de los componentes que está añadiendo son dimensiones:**</p><p>Cada componente se muestra como un nodo independiente donde se soltaron los componentes, sin conexión con ningún nodo existente.</p><p>Solo se puede añadir una dimensión a la vez. Cuando se añade la dimensión, se crean tres nodos para los tres elementos de dimensión principales en los que se soltó el componente.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. Los tres elementos de dimensión principales se combinan con cada nodo. (Consulte [Combinación de nodos](#combine-nodes) para obtener más información).</p> |
    | Múltiples componentes | Un nodo existente | Todos los componentes se combinan con el nodo existente.<p>Si alguno de los componentes que está añadiendo es una dimensión, los tres elementos de dimensión principales se combinan con el nodo.</p> <p>Solo se puede añadir una dimensión a la vez.</p> |
    | Múltiples componentes | Una flecha que conecta dos nodos existentes | **Si ninguno de los componentes es una dimensión:**<p>Cada componente se muestra como un nodo independiente en el lugar donde se soltaron los componentes y cada nodo está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información.<p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. (Los componentes deben ser del mismo tipo para combinarse en un solo nodo). (Consulte [Combinación de nodos](#combine-nodes) para obtener más información).</p><p>**Si alguno de los componentes que está añadiendo son dimensiones:**</p><p>Cada componente se muestra como un nodo independiente en el lugar donde se soltaron los componentes y cada nodo está conectado a ambos nodos existentes.</p><p>Solo se puede añadir una dimensión a la vez. Cuando se añade la dimensión, se crean tres nodos para los tres elementos principales de la dimensión que siguen al primer evento después del primer nodo (de personas o sesiones que finalmente llegan al segundo nodo). Cada nodo está conectado a ambos nodos existentes. Consulte [Conexión de nodos](#connect-nodes) para obtener más información.</p><p>Mantenga pulsada la tecla Mayús cuando suelte los componentes en el lienzo para añadirlos como un nodo combinado. Los tres elementos de dimensión principales se combinan con cada nodo y cada nodo está conectado a ambos nodos existentes. Consulte [Combinación de nodos](#combine-nodes) para obtener más información.</p> |

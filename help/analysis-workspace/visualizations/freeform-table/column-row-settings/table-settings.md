@@ -16,10 +16,10 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f51766fdcb891b8cea93ea047b011792dc3c0ae6
+source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
 workflow-type: tm+mt
-source-wordcount: 1628
-ht-degree: 55%
+source-wordcount: 1630
+ht-degree: 53%
 
 ---
 
@@ -106,9 +106,9 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 | **[!UICONTROL Modificar modelos de atribución]** | Modifique el modelo de atribución para la columna. |
 | **[!UICONTROL Comparar modelo de atribución]** | Especifique un nuevo modelo de atribución y compárelo con el modelo de atribución de la columna seleccionada. Se añade una nueva columna con las nuevas métricas del modelo de atribución. Además, se añade una columna Cambio porcentual para la comparación. |
 | **[!UICONTROL Restablecer anchos de columna]** | Restablezca el ancho de columna predeterminado. |
-| **[!UICONTROL Crear anotación a partir de la selección]** | Abra **[!UICONTROL Detalles de anotación]** para añadir una anotación. |
-| **[!UICONTROL Crear segmento de selección]** | Abra **[!UICONTROL Generador de segmentos]** para generar un segmento a partir de la selección. |
-| **[!UICONTROL Crear público a partir de la selección]** | Abra el cuadro de diálogo **[!UICONTROL Crear público]** para generar un público a partir de la selección. |
+| **[!UICONTROL Crear anotación a partir de la selección]** | Abra [Generador de anotaciones](/help/components/annotations/create-annotations.md#annotation-builder) para generar una anotación para la selección. |
+| **[!UICONTROL Crear segmento de selección]** | Abra [Generador de segmentos](/help/components/segments/seg-builder.md) para generar un segmento a partir de la selección. |
+| **[!UICONTROL Crear público a partir de la selección]** | Abra [Generador de audiencias](/help/components/audiences/publish.md#audience-builder) para generar una audiencia a partir de la selección. |
 
 
 ## Cambiar altura de fila
@@ -116,7 +116,9 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 Puede establecer la [densidad de visualización](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**.
 
 
-## Clasificaciones en línea
+## Clasificaciones en línea {#inline-classifications-example}
+
+{{release-limited-testing-section}}
 
 Las clasificaciones en línea permiten cambiar el nombre de las filas de una tabla de forma libre o combinarlas. Y para crear un campo derivado a partir de las filas modificadas de una tabla.
 
@@ -162,6 +164,6 @@ El ejemplo siguiente ilustra cómo usar las opciones de menú contextual **[!UIC
 * Restablezca la tabla de forma libre al estado antes de realizar modificaciones.
 
   1. Seleccione ![engranaje](/help/assets/icons/Gear.svg) junto al **[!UICONTROL _nombre de dimensión _(modificado)]**.
-  1. Seleccione **[!UICONTROL Restablecer filas modificadas]** en la ventana emergente **[!UICONTROL Filas renombradas]**.
+  1. Seleccione **[!UICONTROL Restablecer filas modificadas]** en la ventana emergente **[!UICONTROL Filas modificadas]**.
 
      ![Restablecer tabla de forma libre](assets/popup-reset.png)
