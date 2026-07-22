@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
+source-git-commit: 1dce83d0b5c760830084c1bf4e14f613b998dc10
 workflow-type: tm+mt
-source-wordcount: 1239
-ht-degree: 13%
+source-wordcount: 1245
+ht-degree: 11%
 
 ---
 
@@ -77,12 +77,12 @@ Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conex
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person"
->title="Persona"
+>title="ID de persona"
 >abstract="Seleccione el campo del conjunto de datos que contiene los ID de persona. El área de nombres de este campo puede ser diferente o ser la misma que el área de nombres del identificador de persona seleccionado. Si difieren, las dos áreas de nombres deben vincularse en el gráfico de identidades."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
->title="Cuenta"
+>title="ID de cuenta"
 >abstract="Seleccione el campo del conjunto de datos que contiene los valores del identificador único de cuenta. La información del identificador de cuenta estará disponible en las filas de cualquier conjunto de datos de evento con la vinculación de **[!UICONTROL persona a cuenta]** habilitada."
 
 >[!CONTEXTUALHELP]
@@ -116,8 +116,8 @@ Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conex
       | Campo | Requerido | Descripción |
       |---|:---:|---|
       | **[!UICONTROL Conjunto de datos de persona a cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione la búsqueda (registro o conjunto de datos de series no temporales) que asigna personas a las cuentas. |
-      | **[!UICONTROL Persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de persona. Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL Cuenta]** ni el campo **[!UICONTROL Hora de inicio]**. |
-      | **[!UICONTROL Cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de cuenta. Ese campo no puede ser el mismo que el campo **[!UICONTROL Persona]** ni el campo **[!UICONTROL Hora de inicio]**. |
+      | **[!UICONTROL ID de la persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de persona. Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL ID de cuenta]** o que el campo **[!UICONTROL Hora de inicio]**. |
+      | **[!UICONTROL ID de cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de cuenta. Ese campo no puede ser el mismo que el campo **[!UICONTROL ID de persona]** o que el campo **[!UICONTROL Hora de inicio]**. |
       | **Hora de inicio** | | Seleccione un campo de marca de tiempo que indique cuándo se activó la relación persona a cuenta. |
 
       >[!NOTE]
