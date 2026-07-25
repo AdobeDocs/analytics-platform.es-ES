@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
+source-git-commit: 5f347e3dc3080e47f0dd81d34aa6f4341a892061
 workflow-type: tm+mt
-source-wordcount: 696
-ht-degree: 39%
+source-wordcount: 800
+ht-degree: 33%
 
 ---
 
@@ -46,10 +46,11 @@ Estas notas de la versión abarcan el periodo de la versión de julio de 2026. L
 | -----------|-----------|-----------|
 | **Análisis de subeventos** <br/>[El análisis de subeventos](/help/components/segments/sub-event.md) le permite analizar los datos en un nivel más granular que el nivel de evento. En lugar de filtrar eventos completos, puede segmentar contenedores individuales dentro de un evento. <p>Por ejemplo, puede segmentar una categoría de producto específica sin incluir todos los demás productos comprados en el mismo pedido. También puede definir objetos o matrices que formen parte de los datos de evento como [contenedores personalizados](/help/data-views/create-dataview.md#custom-containers) independientes dentro de una vista de datos. | 21 de julio de 2026 | Finales de julio de 2026 |
 | **B2B edition: la compatibilidad con conjuntos de datos ad hoc y relacionales** <br/>Los conjuntos de datos ad hoc y relacionales ahora también se admiten en conexiones basadas en cuentas en Customer Journey Analytics B2B edition.<p>(Vínculo a la documentación a continuación).</p> | | 20 de julio de 2026 |
+| **Colaborador de CX Enterprise: Analice los datos de Customer Journey Analytics** <br/>Adobe CX Enterprise Coworker Chat ahora puede realizar análisis de datos avanzados que anteriormente solo eran posibles en Analysis Workspace. El chat de compañeros accede a los datos de sus vistas de datos de Customer Journey Analytics, lo que le permite explorar esos datos y obtener respuestas a las preguntas en lenguaje natural.<p>Para obtener más información, consulte [Analizar datos de Customer Journey Analytics con el chat de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/analytics-chat).</p> | | 23 de julio de 2026 |
+| **Colaborador empresarial de CX: valide sus datos al migrar de Adobe Analytics a Customer Journey Analytics** <br/>Una nueva habilidad de colaborador empresarial de CX le permite validar los datos de su implementación de Customer Journey Analytics con los datos de su implementación de Adobe Analytics existente. <p>Esta aptitud compara automáticamente cada dimensión, métrica y tendencia según sea necesario. También puede comparar todos los grupos de informes de Adobe Analytics con todas las vistas de datos de Customer Journey Analytics. A continuación, la aptitud genera perspectivas y recomendaciones impulsadas por IA que puede implementar para facilitar la migración a Customer Journey Analytics.</p><p>Para obtener más información, vea [Validar datos con el compañero al actualizar de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja).</p> | | 24 de julio de 2026 |
+| **Clasificaciones en línea**<br/>[&#x200B; Las clasificaciones en línea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications) le permiten cambiar el nombre de filas o combinarlas en una tabla de forma libre. Y para crear un campo derivado a partir de las filas modificadas de una tabla. | 20 de julio de 2026 | 25 de julio de 2026 |
 | **Content Analytics: datos de medios de pago** <br/>Los medios de pago ya están disponibles como un tercer canal para Content Analytics.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
 | **Actualización de la interfaz de uso de conexiones** <br/>En la interfaz de uso al administrar las conexiones, ahora puede ver los detalles de uso de cada módulo individual, como Customer Journey Analytics o Customer Journey Analytics B2B edition. <p>Además, ahora puede desglosar los informes de uso de cada uno de los módulos por mes.</p><p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
-| **Colaborador empresarial de CX: valide sus datos al migrar de Adobe Analytics a Customer Journey Analytics** <br/>Una nueva habilidad de colaborador empresarial de CX le permite validar los datos de su implementación de Customer Journey Analytics con los datos de su implementación de Adobe Analytics existente. <p>Esta aptitud compara automáticamente cada dimensión, métrica y tendencia según sea necesario. También puede comparar todos los grupos de informes de Adobe Analytics con todas las vistas de datos de Customer Journey Analytics. A continuación, la aptitud genera perspectivas y recomendaciones impulsadas por IA que puede implementar para facilitar la migración a Customer Journey Analytics.</p><p>(Vínculo a la documentación a continuación).</p> | | Finales de julio de 2026 |
-| **Clasificaciones en línea**<br/>[&#x200B; Las clasificaciones en línea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications) le permiten cambiar el nombre de filas o combinarlas en una tabla de forma libre. Y para crear un campo derivado a partir de las filas modificadas de una tabla. | 20 de julio de 2026 | 25 de julio de 2026 |
 
 ### Correcciones en Customer Journey Analytics
 
