@@ -4,22 +4,15 @@ description: Compare los atributos del cliente de las herramientas de creación 
 keywords: flujo de navegación;fuente de datos;fuente de datos;fuente de datos;comparación de productos;Analysis Workspace;Report Builder;Exportación de tabla completa
 feature: Components
 hold: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: d5ecbbc28bc3892a2114de2c73df3287f22cf1a0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: c7fc5df2a0fd7393b48bfe6bdfa7dccdfffde46c
 workflow-type: tm+mt
-source-wordcount: 345
-ht-degree: 59%
+source-wordcount: 390
+ht-degree: 53%
 
 ---
 
@@ -32,16 +25,15 @@ Utilice esta página para comparar las herramientas de creación de informes y e
 |---|---|---|---|---|---|---|
 | **Método de acceso** | Explorador | Microsoft Excel | Explorador | Configurar mediante el explorador | Herramientas de API de RESTful | Herramientas compatibles con MCP |
 | **Granularidad de los datos** | Agregado | Agregado | Agregado | Evento | Agregado | Agregado |
-| **Experience Cloud ID (ECID) disponible** | No | No | Sí | Sí | No | No |
+| **Experience Cloud ID (ECID) disponible** | No | No | No | Sí | No | No |
 | **Marca de tiempo disponible** | No | No | No | Sí | No | No |
 | **Nivel de procesamiento** | Procesamiento completo | Procesamiento completo | Procesamiento completo | Procesamiento completo | Procesamiento completo | Procesamiento completo |
 | **Datos de filtro de bots incluidos** | No | No | No | No | No | No |
-| **Aparece poco tráfico (valores exclusivos excedidos)** <br> [Más información](/help/components/dimensions/high-cardinality.md) | Sí | Sí | No | No | Sí | Sí |
-| **Límite de fila visible (antes de la paginación)** | 400 | 50,000 | Ilimitado | Ilimitado | 50,000 | 50,000 |
-| **Vistas de datos múltiples** | Sí | Sí | No | No | Sí | Sí |
+| **Límite de fila visible (antes de la paginación)** | 400 | 50,000 | Límite de 3 millones, 30 millones, 150 millones o 300 millones, según el nivel | Límite de 3 millones, 30 millones, 150 millones o 300 millones, según el nivel | 50,000 | 50,000 |
+| **Vistas de datos múltiples** | Sí, un proyecto puede contener datos de varias vistas de datos | Sí, un proyecto puede contener datos de varias vistas de datos | No, una exportación solo puede contener datos de una vista de datos | No, una exportación solo puede contener datos de una vista de datos | Sí | Sí |
 | **Número de desgloses** | Sin límite | Hasta 2 | Ilimitado | Ilimitado | Sin límite, ejecutar en varias consultas | Ilimitado |
 | **Segmentación** <br> [Más información](/help/components/segments/seg-overview.md) | Sí | Sí | Sí | Sí, con [limitaciones](/help/components/exports/cja-data-feeds/df-segmentation.md) | Sí | Sí |
-| **Métricas calculadas** <br> [Más información](/help/components/calc-metrics/calc-metr-overview.md) | Sí, con [Atribución](/help/analysis-workspace/attribution/overview.md) | Sí, con Atribución | No | No | Sí, con Atribución | Sí, con Atribución |
+| **Métricas calculadas** <br> [Más información](/help/components/calc-metrics/calc-metr-overview.md) | Sí | Sí | Sí, con [limitaciones](/help/analysis-workspace/export/export-cloud.md#calculated-metric-functions-support) | No | Sí | Sí |
 | **Campos derivados** <br> [Más información](/help/data-views/derived-fields/derived-fields.md) | Sí | Sí | Sí | Sí | Sí | Sí |
 | **Análisis de cohorte** | [Sí](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | No | No |
 | **Atribución** <br> [Más información](/help/analysis-workspace/attribution/overview.md) | Sí | Limitado | No | No | Sí | Sí |
