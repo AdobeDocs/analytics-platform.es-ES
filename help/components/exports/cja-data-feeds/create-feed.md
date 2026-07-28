@@ -18,10 +18,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 0cc15e1c3dcbd8609a47954af8602ad617c67a51
+source-git-commit: bb3fcdcd879c503c311a58cf2fd982dd38305c6a
 workflow-type: tm+mt
-source-wordcount: 2774
-ht-degree: 28%
+source-wordcount: 3225
+ht-degree: 26%
 
 ---
 
@@ -97,25 +97,28 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    |---------|----------|
    | [!UICONTROL **Nombre**] | El nombre de la fuente de datos. Los nombres deben ser únicos en la vista de datos seleccionada y pueden tener hasta 255 caracteres de longitud. <!--[Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)--> |
    | [!UICONTROL **Etiquetas**] | Aplique cualquier etiqueta a la fuente de datos para facilitar la categorización. <!--You can filter on tags as described in [Filter and search the list of data feeds](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md).--> |
-   | [!UICONTROL **Descripción**] | Especifique una descripción para la fuente de datos. La descripción que agregue será visible al editar la fuente de datos. |
+   | [!UICONTROL **Descripción**] | Especifique una descripción para la fuente de datos (máximo 500 caracteres). La descripción que agregue será visible al editar la fuente de datos. |
    | [!UICONTROL **Vista de datos**] | Seleccione la vista de datos que contiene los datos que desea exportar.<p>Tenga en cuenta lo siguiente al seleccionar una vista de datos:</p> <ul><li>Si se crean varias fuentes de datos para la misma vista de datos, cada fuente de datos debe tener definiciones de columnas diferentes.</li><li>La lista de columnas disponibles depende de la empresa de inicio de sesión a la que pertenezca la vista de datos seleccionada. Si cambia la vista de datos, puede cambiar la lista de columnas disponibles. </li></ul> |
 
 1. Seleccione [!UICONTROL **Siguiente**].
 
 1. En la ficha [!UICONTROL **Estructura de datos**], asegúrese de que la vista de datos correcta esté seleccionada en el campo **[!UICONTROL Vista de datos]**.
 
+   <!--add screenshot-->
+
 1. En el menú desplegable [!UICONTROL **Segmentos**], busque y seleccione cualquier segmento para filtrar los datos incluidos en la fuente.
 
    Cuando se aplican varios segmentos, se unen con un operador AND. (Para unir segmentos con un operador OR, primero debe crear un nuevo segmento en el generador de segmentos y, a continuación, aplicar el nuevo segmento a la fuente de datos).
 
-1. Agregue componentes a la configuración de la fuente de datos. En el carril izquierdo, busque los componentes que desee incluir y arrástrelos al lienzo para crear la estructura de datos. Para seleccionar varios componentes, mantén pulsada **[!UICONTROL Mayús]**, o manteniendo pulsado **[!UICONTROL Comando]** (en macOS) o **[!UICONTROL Ctrl]** (en Windows).
+1. Agregue componentes a la configuración de la fuente de datos. El carril izquierdo muestra solo los componentes válidos para las fuentes de datos.
 
-   >[!NOTE]
-   >
-   >Los datos del agente de usuario y los datos de búsqueda del dispositivo no pueden existir en la misma configuración de fuente de datos. Si intenta añadir componentes en conflicto, se muestra un error. Para obtener más información, consulte [Configurar la búsqueda de dispositivos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#geolocation-device-lookup) en [Crear y configurar flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) en la guía de recopilación de datos.
+   * **Arrastrar y soltar**: arrastre los componentes desde el carril izquierdo al lienzo. Mantenga presionado **[!UICONTROL Mayús]** o **[!UICONTROL Comando]** (macOS) o **[!UICONTROL Ctrl]** (Windows) para seleccionar y arrastrar varios componentes a la vez.
+   * **Botón Más**: selecciona el icono Más ![Agregar](/help/assets/icons/Add.svg) junto a cualquier componente del carril izquierdo para agregarlo al lienzo.
+   * **[!UICONTROL Mostrar todo]**: seleccione **[!UICONTROL Mostrar todo]** en la parte inferior de la lista de componentes para abrir un cuadro de diálogo que muestre todos los componentes disponibles. Seleccione la casilla que hay junto a cada componente que desee agregar y, a continuación, seleccione **[!UICONTROL Agregar selección]**. Cuando hay una etiqueta de filtro o término de búsqueda activa en el carril izquierdo, también aparece el botón **[!UICONTROL Agregar todo]**, que le permite agregar todos los resultados filtrados a la vez.
 
+   Cuando se agrega un componente que pertenece a un campo de matriz XDM (por ejemplo, un campo de propuesta Adobe Journey Optimizer), aparece en el lienzo como un grupo anidado contraíble en lugar de un elemento plano. El grupo refleja la estructura de datos subyacente y genera como una matriz anidada en el archivo exportado.
 
-   Utilice la siguiente información para comprender las dimensiones que siempre se incluyen, las dimensiones que no se pueden incluir y las métricas que se deben sustituir:
+   <!--add screenshot-->
 
    +++ Dimensiones que siempre se incluyen en las fuentes de datos
 
@@ -155,6 +158,47 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | Semana | Semana en que se produjo un evento | No disponible |
    | Semana del año | Semana del año en que se produjo un evento | No disponible |
    | Año | Año en el que se produjo un evento | No disponible |
+
+   +++
+
+   +++ Dimensiones que no se pueden usar juntas en fuentes de datos
+
+   >[!IMPORTANT]
+   >
+   >Ciertas dimensiones no se pueden usar juntas en conjuntos de datos de Experience Platform y, por lo tanto, no se pueden incluir en la misma fuente de datos.
+   >
+   >Si decide incluir las dimensiones **Agente de usuario** o **ID móvil** en su fuente de datos, las dimensiones que se indican a continuación no se podrán agregar a la fuente de datos.
+   >
+   >Si utiliza Web SDK, esta restricción se aplica en las secuencias de datos antes de que los datos lleguen a un conjunto de datos de Experience Platform. Para obtener más información, consulte [Configurar la búsqueda de dispositivos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#geolocation-device-lookup) en [Crear y configurar flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) en la guía de recopilación de datos.
+
+   Las siguientes dimensiones no se pueden usar junto con las dimensiones **Agente de usuario** o **ID móvil**:
+
+   * Tipo de explorador
+   * Explorador
+   * Fabricante de dispositivos móviles
+   * Tipo de dispositivo móvil
+   * Compatibilidad con el audio del dispositivo móvil
+   * DRM móvil
+   * Máquina virtual Java móvil
+   * Servicios de información móvil
+   * Compatibilidad con la imagen del dispositivo móvil
+   * Profundidad de color del dispositivo móvil
+   * Protocolos de red móvil
+   * Número de dispositivo móvil
+   * Longitud máxima del correo electrónico móvil
+   * Decoración de correo móvil
+   * Pulsar y hablar móvil
+   * Ancho de la pantalla del dispositivo móvil
+   * Longitud máxima de la dirección URL del explorador móvil
+   * Sistema operativo móvil (obsoleto)
+   * Altura de la pantalla del dispositivo móvil
+   * Compatibilidad con el video del dispositivo móvil
+   * Compatibilidad con cookies del dispositivo móvil
+   * Longitud máxima del marcador móvil
+   * Tamaño de la pantalla del dispositivo móvil
+   * Nombre de dispositivo móvil
+   * Tipos de sistemas operativos
+   * Sistemas operativos
 
    +++
 
@@ -207,17 +251,29 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    +++
 
+1. (Opcional) Reordene los componentes del lienzo arrastrándolos. El orden definido se conserva como el orden de las columnas en el archivo de fuente de datos exportado.
 
-1. En la ficha [!UICONTROL **Envío**], especifique la siguiente información:
+1. (Opcional) Use los paneles **[!UICONTROL Resumen de fuente]** y **[!UICONTROL Vista previa de esquema]** en la parte derecha de la página para revisar la estructura de datos antes de continuar:
+
+   * **[!UICONTROL Resumen de fuente]** muestra un recuento activo del total de componentes, columnas, dimensiones y métricas que agregó.
+   * La **[!UICONTROL Vista previa del esquema]** muestra una representación JSON del esquema de la fuente de datos que se actualiza a medida que se agregan o reordenan componentes.
+   * El botón **[!UICONTROL Filas de ejemplo]** abre un cuadro de diálogo que muestra filas de salida de ejemplo para que pueda comprobar que la estructura tiene el aspecto correcto. Este cuadro de diálogo solo muestra datos de ejemplo y no refleja los datos reales.
+
+   <!--add screenshot-->
+
+1. En la ficha [!UICONTROL **Envío**], en la sección [!UICONTROL **Programar**], elija el tipo de fuente que desea crear (activa o de relleno) y, a continuación, especifique la ventana de informes, la frecuencia y otras opciones de configuración:
+
+   <!--add screenshot-->
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Tipo de fuente**] | Seleccione el tipo de fuente que desea crear:<ul><li>[!UICONTROL **Fuente activa**]: exporta datos actuales y futuros.</li><li>[!UICONTROL **Fuente de relleno**]: exporta datos históricos entre dos fechas pasadas.</li></ul> |
-   | [!UICONTROL **Fecha de inicio**] | Especifique la fecha en la que desea que comience la fuente de datos. Para empezar a procesar fuentes de datos para datos históricos de inmediato, asegúrese de seleccionar [!UICONTROL **Fuente de relleno**] y luego establezca esta fecha en cualquier fecha del pasado en que se estén recopilando datos. La fecha de inicio se basa en la zona horaria de la vista de datos. |
-   | [!UICONTROL **Fecha de finalización**] | Especifique la fecha en la que desea que finalice la fuente de datos. La fecha de finalización se basa en la zona horaria de la vista de datos. |
-   | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>En el caso de las fuentes en directo, seleccione esta opción para incluir datos de una hora o de un día. Las fuentes de relleno deben ser diarias.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. Utilice esta opción para fuentes de relleno o para fuentes activas.</li><li>**Por hora**: las fuentes contienen datos de una sola hora. Utilice esta opción para las fuentes activas.</li></ul> |
-   | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. <p>Esta configuración no altera la ventana de frecuencia (hora o día), que define el lapso de tiempo de los eventos que se incluirán en la salida de fuente de datos. Sin embargo, el intervalo de fechas de retrospectiva puede influir en los datos que se envían de las siguientes maneras: </p><ul><li>**Calificación de segmentos**: Cuando se aplica un segmento a su definición de fuente de datos, cualquier evento dentro del intervalo de fechas retrospectivas determina si una persona cumple los requisitos. La configuración del contenedor del segmento determina el ámbito. (Los contenedores posibles son: Persona, Sesión o Evento. B2B tiene los siguientes contenedores adicionales: Cuenta global, Cuenta, Oportunidad, Grupo de compra).  <p>Por ejemplo, si se utiliza un contenedor de persona y la persona se califica durante el intervalo de fechas retrospectivas, también se calificarán todos los eventos de esa persona durante la ventana de frecuencia.</p></li><li>**Cálculo de sesión**: los límites de sesión se calculan usando datos dentro del intervalo de fechas retrospectivo.</li><li>**Transformaciones de campo derivadas**: todas las funciones de campo derivadas que hacen referencia a contenedores utilizan el intervalo de fecha retrospectiva en las exportaciones de fuentes de datos.</li><li>**Persistencia de Dimension**: Si elige establecer la persistencia en una dimensión individual, también elige una caducidad para determinar cuánto tiempo persiste un elemento de dimensión más allá del evento en el que está establecido. <p>El intervalo de fechas de retrospectiva afecta a la persistencia de la dimensión cuando la caducidad se establece en cualquiera de las siguientes opciones de la vista de datos:</p><ul><li>Para cada dimensión de la definición de fuente de datos que usa [!UICONTROL **Ventana de informes**] como caducidad, el intervalo de fecha retrospectiva se convierte en la nueva ventana de informes.</li><li>Para cada dimensión de la definición de fuente de datos que usa [!UICONTROL **Tiempo personalizado**] como caducidad, y si la hora personalizada que se selecciona se extiende más allá del intervalo de fechas de retrospectiva, se ignora la hora personalizada y se usa el intervalo de fechas de retrospectiva para la caducidad de la dimensión.<p>Para obtener más información acerca de cómo establecer la persistencia en dimensiones dentro de la vista de datos, vea [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).</p></li></ul> |
-   | [!UICONTROL **Retraso de procesamiento**] | Elija la cantidad de tiempo de espera antes de procesar un archivo de fuente de datos. Las visitas que llegan tarde y que se producen durante el retraso del procesamiento se incluyen en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente. </p><p>Puede retrasar una fuente 2, 3, 4 u 8 horas.<p>Las sesiones deben comenzar después del límite de retraso de procesamiento para que se incluyan; no se incluyen las sesiones que comienzan antes del límite y finalizan dentro del retraso de procesamiento.</p> |
+   | [!UICONTROL **Tipo de fuente**] | Seleccione el tipo de fuente que desea crear:<ul><li>[!UICONTROL **Fuente activa**]: exporta datos actuales y futuros.</li><li>[!UICONTROL **Fuente de relleno**]: Exporta datos históricos. </li></ul> |
+   | [!UICONTROL **Fecha de inicio**] | La fecha en la que comienza la fuente de datos. Para las fuentes en directo, debe ser hoy o una fecha futura. Para las fuentes de relleno, debe ser una fecha pasada dentro del período de retención de datos de la vista de datos. La fecha de inicio se basa en la zona horaria de la vista de datos. |
+   | [!UICONTROL **Fecha de caducidad**] <br/>Disponible solo para las fuentes en directo | La fecha en la que caduca la fuente de datos y ya no se ejecuta. La fecha se basa en la zona horaria de la vista de datos. |
+   | [!UICONTROL **Fecha de finalización**]<br/> Disponible solo para fuentes de relleno | La fecha en la que finaliza la fuente de datos. La fecha de finalización no puede ser futura. La fecha se basa en la zona horaria de la vista de datos. |
+   | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>En el caso de las fuentes en directo, seleccione esta opción para incluir datos de una hora o de un día. Para las fuentes de relleno, este campo está bloqueado a **Daily** y no se puede cambiar.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. <p>Esta opción es necesaria para las fuentes de relleno y opcional para las fuentes en directo.</p></li><li>**Por hora**: las fuentes contienen datos de una sola hora. <p>Esta opción solo está disponible para fuentes en directo.</p></li></ul> |
+   | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. El valor predeterminado es de 30 días. <p>Esta configuración no altera la ventana de frecuencia (hora o día), que define el lapso de tiempo de los eventos que se incluirán en la salida de fuente de datos. Sin embargo, el intervalo de fechas de retrospectiva puede influir en los datos que se envían de las siguientes maneras: </p><ul><li>**Calificación de segmentos**: Cuando se aplica un segmento a su definición de fuente de datos, cualquier evento dentro del intervalo de fechas retrospectivas determina si una persona cumple los requisitos. La configuración del contenedor del segmento determina el ámbito. (Los contenedores posibles son: Persona, Sesión o Evento. B2B tiene los siguientes contenedores adicionales: Cuenta global, Cuenta, Oportunidad, Grupo de compra).  <p>Por ejemplo, si se utiliza un contenedor de persona y la persona se califica durante el intervalo de fechas retrospectivas, también se calificarán todos los eventos de esa persona durante la ventana de frecuencia.</p></li><li>**Cálculo de sesión**: los límites de sesión se calculan usando datos dentro del intervalo de fechas retrospectivo.</li><li>**Transformaciones de campo derivadas**: todas las funciones de campo derivadas que hacen referencia a contenedores utilizan el intervalo de fecha retrospectiva en las exportaciones de fuentes de datos.</li><li>**Persistencia de Dimension**: Si elige establecer la persistencia en una dimensión individual, también elige una caducidad para determinar cuánto tiempo persiste un elemento de dimensión más allá del evento en el que está establecido. <p>El intervalo de fechas de retrospectiva afecta a la persistencia de la dimensión cuando la caducidad se establece en cualquiera de las siguientes opciones de la vista de datos:</p><ul><li>Para cada dimensión de la definición de fuente de datos que usa [!UICONTROL **Ventana de informes**] como caducidad, el intervalo de fecha retrospectiva se convierte en la nueva ventana de informes.</li><li>Para cada dimensión de la definición de fuente de datos que usa [!UICONTROL **Tiempo personalizado**] como caducidad, y si la hora personalizada que se selecciona se extiende más allá del intervalo de fechas de retrospectiva, se ignora la hora personalizada y se usa el intervalo de fechas de retrospectiva para la caducidad de la dimensión.<p>Para obtener más información acerca de cómo establecer la persistencia en dimensiones dentro de la vista de datos, vea [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).</p></li></ul> |
+   | [!UICONTROL **Retraso de procesamiento**] | Elija la cantidad de tiempo de espera antes de procesar un archivo de fuente de datos. El valor predeterminado es de dos horas. Las visitas que llegan tarde y que se producen durante el retraso del procesamiento se incluyen en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente. </p><p>Puede retrasar una fuente 2, 3, 4 u 8 horas.</p><p>Las sesiones deben comenzar después del límite de retraso de procesamiento para que se incluyan; no se incluyen las sesiones que comienzan antes del límite y finalizan dentro del retraso de procesamiento.</p> |
    | [!UICONTROL **Formato de compresión**] | Seleccione el formato de compresión para los archivos de salida de Parquet enviados a su destino de nube. Elija entre los siguientes formatos:<ul><li>[!UICONTROL **Rápido**]: Compresión y descompresión rápidas con tamaños de archivo moderados. Ampliamente compatible con plataformas de datos modernas como BigQuery, Snowflake y Apache Spark.</li><li>[!UICONTROL **GZip**]: Ampliamente compatible, incluso con herramientas que no admiten Snappy de forma nativa. Se recomienda si la canalización descendente requiere un estándar de compresión ampliamente reconocido.</li><li>[!UICONTROL **Z Standard (Zstd)**]: Alta eficiencia de compresión con descompresión rápida. Adecuado si minimizar el tamaño del archivo es una prioridad y sus herramientas admiten Zstd.</li></ul> |
 
 1. En la ficha [!UICONTROL **Delivery**], en la sección [!UICONTROL **Destination**], configure el destino al que desea enviar los datos.

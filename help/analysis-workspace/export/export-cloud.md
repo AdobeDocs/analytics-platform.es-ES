@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: c7fc5df2a0fd7393b48bfe6bdfa7dccdfffde46c
 workflow-type: tm+mt
 source-wordcount: 3268
 ht-degree: 59%
@@ -166,7 +166,7 @@ Para exportar tablas completas desde Analysis Workspace:
    | Finaliza el | El día y la hora de caducidad de la exportación programada. La exportación programada ya no se ejecuta después de la fecha y hora establecidas. <p>Esta opción solo está disponible cuando se elige una frecuencia de exportación programada.</p> |
    | Ver los destinos de todos los usuarios | Los administradores del sistema pueden seleccionar esta opción para ver todas las cuentas y ubicaciones, independientemente de quién las haya creado. |
    | Cuenta | Seleccione la cuenta de exportación a la nube a la que desea enviar los datos. <p>O bien, si aún no ha configurado una cuenta en la nube que desee utilizar, puede configurar una nueva cuenta:<ol><li>En el menú desplegable **[!UICONTROL Cuenta]**, seleccione **[!UICONTROL Agregar cuenta]** y, a continuación, especifique la siguiente información:<ul><li>**[!UICONTROL Nombre de la cuenta de ubicación]**: especifique un nombre para la cuenta de ubicación. Este nombre aparece al crear una ubicación </li><li>**[!UICONTROL Descripción de la ubicación de la cuenta]**: proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta.</li><li>**Poner la cuenta a disposición de todos los usuarios de su organización**: seleccione esta opción si desea permitir que otros usuarios de su organización utilicen la cuenta.</li><li>**[!UICONTROL Tipo de cuenta]**: seleccione el tipo de cuenta en la nube a la que está exportando. Los tipos de cuenta disponibles son ARN de la función Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake y Zona de aterrizaje de datos de AEP.</li></ul><li>Para finalizar la configuración de la cuenta, continúe con el vínculo siguiente que corresponde al **[!UICONTROL tipo de cuenta]** que ha seleccionado:<ul><li>[Zona de aterrizaje de datos de AEP](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[ARN de la función Amazon S3](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
-   | Ubicación | Seleccione la ubicación de la cuenta a la que desea enviar los datos de exportación.<p>O bien, si aún no ha configurado una cuenta en la nube que desee utilizar, puede configurar una nueva cuenta:<ol><li>En el menú desplegable **[!UICONTROL Ubicación]**, seleccione **[!UICONTROL Agregar ubicación]** y, a continuación, especifique la siguiente información:<ul><li>**[!UICONTROL Nombre]**: nombre de la ubicación.</li><li>**[!UICONTROL Descripción]**: proporcione una breve descripción de la ubicación para diferenciarla de otras ubicaciones del mismo tipo de ubicación.</li><li>**Poner la ubicación a disposición de todos los usuarios de su organización**: seleccione esta opción si desea permitir que otros usuarios de su organización utilicen la ubicación.</li><li>**[!UICONTROL Ubicación de la cuenta]**: seleccione la cuenta en la que desea crear la ubicación.</li></ul><li>Para finalizar la configuración de la ubicación, continúe con el vínculo de abajo que corresponde al tipo de cuenta que seleccionó en el campo **[!UICONTROL Cuenta de ubicación]**:<ul><li>[Zona de aterrizaje de datos de AEP](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[ARN de la función Amazon S3](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
+   | Ubicación | Seleccione la ubicación de la cuenta a la que desea enviar los datos de exportación.<p>O bien, si aún no ha configurado una cuenta en la nube que desee utilizar, puede configurar una nueva cuenta:<ol><li>En el menú desplegable **[!UICONTROL Ubicación]**, seleccione **[!UICONTROL Agregar ubicación]** y, a continuación, especifique la siguiente información:<ul><li>**[!UICONTROL Nombre]**: nombre de la ubicación.</li><li>**[!UICONTROL Descripción]**: proporcione una breve descripción de la ubicación para diferenciarla de otras ubicaciones del mismo tipo de ubicación.</li><li>**Poner la ubicación a disposición de todos los usuarios de su organización**: seleccione esta opción si desea permitir que otros usuarios de su organización utilicen la ubicación.</li><li>**[!UICONTROL Ubicación de la cuenta]**: seleccione la cuenta en la que desea crear la ubicación.</li></ul><li>Para finalizar la configuración de la ubicación, continúe con el vínculo de abajo que corresponde al tipo de cuenta que seleccionó en el campo **[!UICONTROL Cuenta de ubicación]**:<ul><li>[Zona de aterrizaje de datos de AEP](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[ARN de función de Amazon S3](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
    | Notificaciones | Añada usuarios y grupos que desee que reciban notificaciones cuando esta exportación falle o esté a punto de caducar. Empiece a escribir el nombre o la dirección de correo electrónico de un usuario o empiece a escribir el nombre de un grupo y, a continuación, selecciónelo cuando aparezca en la lista desplegable. |
 
    {style="table-layout:auto"}
@@ -238,22 +238,22 @@ Las siguientes funciones no son compatibles y se eliminarán automáticamente de
 
 Los siguientes componentes no son compatibles y Analysis Workspace le pide que los quite de la tabla cuando realice una exportación de tabla completa:
 
-* Métricas calculadas que utilizan funciones no admitidas en la definición de la métrica (consulte [Funciones de métrica calculadas no admitidas](#unsupported-calculated-metric-functions) para obtener más información)
+* Métricas calculadas que utilizan funciones no admitidas en la definición de la métrica (consulte [Funciones de métrica calculadas no admitidas](#calculated-metric-functions-support) para obtener más información)
 * Componentes que un administrador ha restringido para que no se exporten (consulte la sección *Segmento sobre políticas de control de datos en vistas de datos* en [Etiquetas y políticas](/help/data-views/data-governance.md) para obtener más información)
 * Cualquier dimensión que cumpla todos los criterios siguientes:
-   * Se crea a partir de un campo que forma parte de una [matriz de objetos](/help/use-cases/object-arrays.md) (similar a las variables de varios valores en Adobe Analytics).
-   * Tiene [habilitada la persistencia](/help/data-views/component-settings/persistence.md).
-   * No usa [dimensión de enlace](/help/use-cases/data-views/binding-dimensions-metrics.md).
+  * Se crea a partir de un campo que forma parte de una [matriz de objetos](/help/use-cases/object-arrays.md) (similar a las variables de varios valores en Adobe Analytics).
+  * Tiene [habilitada la persistencia](/help/data-views/component-settings/persistence.md).
+  * No usa [dimensión de enlace](/help/use-cases/data-views/binding-dimensions-metrics.md).
 * Varias dimensiones que proceden de campos que hacen referencia a diferentes [matrices de objetos](/help/use-cases/object-arrays.md). (Se permiten varias dimensiones que hagan referencia a la misma matriz de objetos).
 * Más de 10 dimensiones y 10 métricas por informe (se admiten hasta 10 dimensiones y 10 métricas)
 * En columnas de la tabla:
-   * Intervalos de fechas
-   * Dimensiones
+  * Intervalos de fechas
+  * Dimensiones
 * En filas de la tabla:
-   * Métricas calculadas
-   * Métricas
-   * Intervalos de fechas
-   * Segmentos
+  * Métricas calculadas
+  * Métricas
+  * Intervalos de fechas
+  * Segmentos
 
 ## Compatibilidad con funciones de métricas calculadas
 
