@@ -26,7 +26,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
+source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
 workflow-type: tm+mt
 source-wordcount: 2441
 ht-degree: 9%
@@ -250,8 +250,8 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
 | Filas por informe | 3 millones - 300 millones | Protección impuesta por el sistema | Número máximo de filas de informes por informe. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
-| Desgloses por tabla | 5 | Protección impuesta por el sistema | Número máximo de desgloses por tabla. |
-| Métricas por tabla | 5 | Protección impuesta por el sistema | Número máximo de métricas por tabla. |
+| Dimensiones por tabla | 10 | Protección impuesta por el sistema | Número máximo de dimensiones por tabla. |
+| Métricas por tabla | 10 | Protección impuesta por el sistema | Número máximo de métricas por tabla. |
 | Frecuencia de programación | 1 | Protección impuesta por el sistema | Las exportaciones se pueden programar una vez (1) al día o en un horario más largo (por ejemplo: una vez cada 2 días o semanalmente). |
 
 {style="table-layout:auto"}
