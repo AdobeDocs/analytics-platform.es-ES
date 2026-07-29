@@ -5,20 +5,14 @@ feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 role: User
 TQID: https://experienceleague.adobe.com/LhPSvchJbDMPV-HmGSA2JaBZxoPQ7UyEKd7GMS-33UU
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a4b5baeec55de64b1fbaf009b9da34c93cf12f24
 workflow-type: tm+mt
-source-wordcount: 770
-ht-degree: 90%
+source-wordcount: 798
+ht-degree: 75%
 
 ---
 
@@ -28,10 +22,10 @@ La comparación de fechas de Analysis Workspace le permite tomar cualquier colum
 
 ## Comparar períodos de tiempo
 
-El análisis requiere contexto, y este lo proporciona a menudo un período de tiempo previo. Por ejemplo, la pregunta *¿Cuánto mejor o peor estás haciendo ahora en comparación con esta época del año pasado?* es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna *diferencia* que muestra el cambio porcentual en comparación con un período de tiempo concreto.
+El análisis requiere contexto y un período de tiempo anterior a menudo proporciona esa información. Por ejemplo, la pregunta *¿Cuánto mejor o peor estás haciendo ahora en comparación con esta época del año pasado?* es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna *diferencia* que muestra el cambio porcentual en comparación con un período de tiempo concreto.
 
 1. Cree una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) con cualquier dimensión y métrica que quiera comparar a lo largo de un período de tiempo.
-1. Establezca el período de tiempo en el panel o la columna para determinar el lapso de tiempo de comparación, y si es una comparación de tiempo móvil o fijo.
+1. Para determinar el lapso de tiempo de comparación y si es una comparación de tiempo móvil o fija, establezca el período de tiempo en el panel o la columna.
 
    Para crear una comparación de tiempo móvil, establezca el intervalo de fechas del panel o la columna en un intervalo de fechas móvil (por ejemplo, **[!UICONTROL últimos siete días]**, **[!UICONTROL últimos 30 días]**, etc.).
 
@@ -65,7 +59,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un período de ti
 
 ## Agregar una columna Periodo de tiempo para comparar
 
-Ahora puede añadir un período de tiempo a cada columna en una tabla, lo que permite añadir un período diferente al período en que está establecido el calendario.
+Ahora puede agregar un período de tiempo a cada columna de una tabla. Esto le permite agregar un período de tiempo diferente al período en el que está establecido el calendario.
 
 1. Haga clic con el botón secundario en una columna de la tabla y seleccione **[!UICONTROL Añadir columna de periodo de tiempo]**.
 
@@ -81,7 +75,7 @@ Ahora puede añadir un período de tiempo a cada columna en una tabla, lo que pe
 
    >[!NOTE]
    >
-   >Cuando seleccione un número de días personalizado, por ejemplo del 7 al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL los 14 días anteriores a este intervalo de fechas]** y un **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]**.
+   >Cuando seleccione un número de días personalizado, por ejemplo, del 7 al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL los 14 días anteriores a este intervalo de fechas]** y un **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]**.
 
 1. El período de tiempo se inserta en la parte superior de la columna seleccionada:
 
@@ -95,7 +89,7 @@ Ahora puede añadir un período de tiempo a cada columna en una tabla, lo que pe
 
 Puede alinear fechas de cada columna con todas a partir de la misma fila.
 
-Por ejemplo, realiza una comparación día tras día de la última semana (que termina el 5 de octubre de 2024) y de la semana anterior. De forma predeterminada, la columna izquierda comenzará el 22 de septiembre y la columna derecha comenzará el 29 de septiembre.
+Por ejemplo, realiza una comparación día tras día de la última semana (que termina el 5 de octubre de 2024) y de la semana anterior. De forma predeterminada, la columna izquierda comienza el 22 de septiembre y la columna derecha comienza el 29 de septiembre.
 
 ![Fechas no alineadas](assets/not-align-dates.png)
 
@@ -105,7 +99,8 @@ Puede habilitar **[!UICONTROL Alinear fechas de cada columna para que todas empi
 
 Tenga en cuenta lo siguiente al utilizar esta opción:
 
-* Esta configuración está habilitada de forma predeterminada para todos los proyectos nuevos.
+* El sistema habilita esta configuración de forma predeterminada para todos los proyectos nuevos.
 
 * Esta configuración se aplica a toda la tabla. Por ejemplo, si cambia esta configuración para un desglose dentro de la tabla, se aplicará la configuración a toda la tabla.
 
+* Cuando esta configuración está habilitada, aparecen pequeños rótulos de fecha en la esquina superior derecha de todas las celdas de la columna para anotar la celda con la fecha adecuada (y la hora, cuando corresponda).
