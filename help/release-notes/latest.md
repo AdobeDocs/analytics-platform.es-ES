@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5f347e3dc3080e47f0dd81d34aa6f4341a892061
+source-git-commit: d16eaa5e7939585f7ade164ef0c680095b8ed2c3
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: 799
 ht-degree: 33%
 
 ---
@@ -50,7 +50,7 @@ Estas notas de la versión abarcan el periodo de la versión de julio de 2026. L
 | **Colaborador empresarial de CX: valide sus datos al migrar de Adobe Analytics a Customer Journey Analytics** <br/>Una nueva habilidad de colaborador empresarial de CX le permite validar los datos de su implementación de Customer Journey Analytics con los datos de su implementación de Adobe Analytics existente. <p>Esta aptitud compara automáticamente cada dimensión, métrica y tendencia según sea necesario. También puede comparar todos los grupos de informes de Adobe Analytics con todas las vistas de datos de Customer Journey Analytics. A continuación, la aptitud genera perspectivas y recomendaciones impulsadas por IA que puede implementar para facilitar la migración a Customer Journey Analytics.</p><p>Para obtener más información, vea [Validar datos con el compañero al actualizar de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja).</p> | | 24 de julio de 2026 |
 | **Clasificaciones en línea**<br/>[&#x200B; Las clasificaciones en línea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications) le permiten cambiar el nombre de filas o combinarlas en una tabla de forma libre. Y para crear un campo derivado a partir de las filas modificadas de una tabla. | 20 de julio de 2026 | 25 de julio de 2026 |
 | **Content Analytics: datos de medios de pago** <br/>Los medios de pago ya están disponibles como un tercer canal para Content Analytics.<p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
-| **Actualización de la interfaz de uso de conexiones** <br/>En la interfaz de uso al administrar las conexiones, ahora puede ver los detalles de uso de cada módulo individual, como Customer Journey Analytics o Customer Journey Analytics B2B edition. <p>Además, ahora puede desglosar los informes de uso de cada uno de los módulos por mes.</p><p>(Vínculo a la documentación a continuación).</p> | | 31 de julio de 2026 |
+| **Actualización de la interfaz de uso de conexiones** <br/>En la [interfaz de uso](/help/connections/manage-connections.md#usage) al administrar las conexiones, ahora puede ver los detalles de uso de cada módulo individual, como Customer Journey Analytics o Customer Journey Analytics B2B edition. <br/>Además, ahora puede desglosar los informes de uso de cada uno de los módulos por mes. | 23 de julio de 2026 | 30 de julio de 2026 |
 
 ### Correcciones en Customer Journey Analytics
 

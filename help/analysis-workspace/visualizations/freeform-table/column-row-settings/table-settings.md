@@ -16,9 +16,9 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 54e64aeb652d41a39e52b01c0a54edd1ecfd0cdc
+source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: 1650
 ht-degree: 53%
 
 ---
@@ -51,7 +51,7 @@ Para cambiar el número de filas que se muestran:
 
    ![Tabla de forma libre que muestra el menú desplegable de para el número de filas mostradas. Se ha seleccionado 400 filas.](assets/change-row-count.gif)
 
-1. En el menú desplegable, seleccione el número de filas que desee que muestre la tabla.
+1. En el menú desplegable, seleccione el número de filas de la tabla que desea mostrar.
 
 
 ## Menú contextual
@@ -118,8 +118,6 @@ Puede establecer la [densidad de visualización](https://experienceleague.adobe.
 
 ## Clasificaciones en línea {#inline-classifications-example}
 
-{{release-limited-testing-section}}
-
 Las clasificaciones en línea permiten cambiar el nombre de las filas de una tabla de forma libre o combinarlas. Y para crear un campo derivado a partir de las filas modificadas de una tabla.
 
 El ejemplo siguiente ilustra cómo usar las opciones de menú contextual **[!UICONTROL Cambiar nombre de fila seleccionada]**, **[!UICONTROL Combinar filas seleccionadas]** y **[!UICONTROL Crear filas modificadas como campo derivado]**. Y cómo restablecer la tabla de forma libre modificada.
@@ -139,7 +137,7 @@ El ejemplo siguiente ilustra cómo usar las opciones de menú contextual **[!UIC
 
 * Combine **[!UICONTROL Hombres]** y **[!UICONTROL Mujeres]** filas a una fila de **[!UICONTROL Adultos]**.
 
-  1. Seleccione la fila **[!UICONTROL Hombres]** y **[!UICONTROL Mujeres]**.
+  1. Seleccione **[!UICONTROL Hombres]** y **[!UICONTROL Mujeres]** filas.
   1. Seleccione **[!UICONTROL Combinar filas seleccionadas]** en el menú contextual de cualquiera de las filas seleccionadas.
 
      ![Seleccione la opción de menú Combinar filas seleccionadas](assets/context-combine.png)
@@ -152,6 +150,11 @@ El ejemplo siguiente ilustra cómo usar las opciones de menú contextual **[!UIC
      1. Seleccione **[!UICONTROL Aceptar]**.
 
 * Cree un campo derivado de las modificaciones en la tabla de forma libre.
+
+  >[!NOTE]
+  >
+  >  Solo puede crear un campo derivado a partir de modificaciones en la tabla de forma libre cuando es administrador de productos de Customer Journey Analytics.
+
 
   1. Seleccione **[!UICONTROL Crear filas modificadas como campo derivado]** del menú contextual para cualquier fila seleccionada en la tabla modificada.
 
