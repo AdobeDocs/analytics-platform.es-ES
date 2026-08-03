@@ -6,22 +6,11 @@ feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
 TQID: https://experienceleague.adobe.com/ad4wWxqEZZxsnSTpus7pxFMlwNo3nNUpHeS9VfxrEdw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 806
@@ -68,8 +57,8 @@ En Customer Journey Analytics, los eventos no se recopilan en orden y se utiliza
 
 * La configuración puede _reproducir_ datos diaria o semanalmente, asociando eventos anónimos con eventos conocidos. Consulte [Vinculación](../../stitching/overview.md) para obtener más información.
 * La creación de sesiones y los valores persistentes cambian cada vez
-   * se recopilen nuevos datos o
-   * la vinculación agrega eventos al historial de una persona.
+  * se recopilen nuevos datos o
+  * la vinculación agrega eventos al historial de una persona.
 
 El procesamiento de tiempo del informe afecta a la exportación de datos desde Customer Journey Analytics. Las exportaciones que incluyen valores persistentes no coincidirán con los informes de Customer Journey Analytics y los valores se alejarán con el tiempo.
 
@@ -77,22 +66,22 @@ Para mantener la coherencia de las métricas, se prefiere el uso de las nuevas f
 
 * nuevas fuentes de datos y procesamiento sujetos a exportación de datos
 
-   * incluir fuentes de datos no digitales,
-   * aplicar atribución y sesionización personalizadas basadas en reglas empresariales, y
-   * mantenga los recorridos del cliente actualizados con la vinculación.
+  * incluir fuentes de datos no digitales,
+  * aplicar atribución y sesionización personalizadas basadas en reglas empresariales, y
+  * mantenga los recorridos del cliente actualizados con la vinculación.
 
 * realización de casos prácticos de exportación de datos personalizados
 
-   * exportar datos a donde los necesite, incluidas las herramientas de Business Intelligence (BI) y los destinos de nube,
-   * mantener los datos sincronizados con Analysis Workspace mediante la integración de herramientas de BI,
-   * no es necesario replicar la lógica de procesamiento en sus propios sistemas,
-   * nueva compatibilidad con métricas calculadas, campos derivados y segmentación, y
+  * exportar datos a donde los necesite, incluidas las herramientas de Business Intelligence (BI) y los destinos de nube,
+  * mantener los datos sincronizados con Analysis Workspace mediante la integración de herramientas de BI,
+  * no es necesario replicar la lógica de procesamiento en sus propios sistemas,
+  * nueva compatibilidad con métricas calculadas, campos derivados y segmentación, y
 
 * consideración de la seguridad y la gobernanza de datos por diseño
 
-   * supervisar todas las exportaciones de datos por usuario y destino,
-   * establecer límites sobre qué datos están disponibles para la exportación, y
-   * establezca alertas para los problemas de envío y límites en las ventanas de envío programadas.
+  * supervisar todas las exportaciones de datos por usuario y destino,
+  * establecer límites sobre qué datos están disponibles para la exportación, y
+  * establezca alertas para los problemas de envío y límites en las ventanas de envío programadas.
 
 
 ## Casos de uso y funcionalidades
