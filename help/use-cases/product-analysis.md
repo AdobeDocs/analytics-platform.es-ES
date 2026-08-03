@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -54,15 +54,15 @@ Los datos precisos del producto son la piedra angular de un análisis eficaz del
 Las siguientes funciones de Adobe Experience Platform y Customer Journey Analytics le permiten introducir y administrar los datos de sus productos a escala:
 
 * Adobe Experience Platform
-   * [Conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)
-   * [Preparación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-prep/home)
-   * [Data Distiller](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview)
+  * [Conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)
+  * [Preparación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-prep/home)
+  * [Data Distiller](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
-   * [Conexiones](/help/connections/overview.md)
-   * [Vistas de datos](/help/data-views/data-views.md), incluidos [campos derivados&#x200B;](/help/data-views/derived-fields/derived-fields.md)
-   * [Segmentos](/help/components/segments/seg-overview.md)
-   * [Métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md)
-   * [Análisis guiado: línea de tiempo](/help/guided-analysis/types/timeline.md)
+  * [Conexiones](/help/connections/overview.md)
+  * [Vistas de datos](/help/data-views/data-views.md), incluidos [campos derivados&#x200B;](/help/data-views/derived-fields/derived-fields.md)
+  * [Segmentos](/help/components/segments/seg-overview.md)
+  * [Métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md)
+  * [Análisis guiado: línea de tiempo](/help/guided-analysis/types/timeline.md)
 
 ## Medir adquisición y activación
 
@@ -121,8 +121,8 @@ Las siguientes funciones de CX Enterprise le permiten actuar con información de
 
 * [Crear y publicar audiencias](/help/components/audiences/publish.md) para la activación desde Customer Journey Analytics
 * Activar audiencias a través de productos de CX Enterprise:
-   * [Ejecute experimentos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) en AJO y Adobe Target y mida el impacto de las variaciones en Customer Journey Analytics mediante el [panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md)
-   * [Entregue participaciones en la aplicación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/in-app/get-started-in-app) a los usuarios de AJO.
+  * [Ejecute experimentos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) en AJO y Adobe Target y mida el impacto de las variaciones en Customer Journey Analytics mediante el [panel Experimentación](/help/analysis-workspace/c-panels/experimentation.md)
+  * [Entregue participaciones en la aplicación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/in-app/get-started-in-app) a los usuarios de AJO.
 * [Activar audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activation-overview) en destinos externos con Adobe Real-time CDP.
 
 ## Compartir perspectivas con la organización

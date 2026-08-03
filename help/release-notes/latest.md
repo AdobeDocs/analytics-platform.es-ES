@@ -27,7 +27,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ffa9d10d58481d19627633b6a2030c11b6d5b229
+source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
 workflow-type: tm+mt
 source-wordcount: 826
 ht-degree: 32%
@@ -44,7 +44,7 @@ Estas notas de la versión abarcan el periodo de la versión de julio de 2026. L
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | -----------|-----------|-----------|
-| **Integración de LLM Optimizer**<br> La [integración entrante de LLM Optimizer](/help/integrations/llmo.md#inbound-integration) le permite introducir datos de LLM Optimizer en Customer Journey Analytics para un análisis más detallado. | 28 de julio de 2026 | 28 de julio de 2026 |
+| **Integración de Visibilidad de la marca**<br> La [integración de entrada de Visibilidad de la marca](/help/integrations/bv.md#inbound-integration) le permite introducir datos de Visibilidad de la marca en Customer Journey Analytics para un análisis más detallado. | 28 de julio de 2026 | 28 de julio de 2026 |
 | **Análisis de subeventos** <br/>[El análisis de subeventos](/help/components/segments/sub-event.md) le permite analizar los datos en un nivel más granular que el nivel de evento. En lugar de filtrar eventos completos, puede segmentar contenedores individuales dentro de un evento. <p>Por ejemplo, puede segmentar una categoría de producto específica sin incluir todos los demás productos comprados en el mismo pedido. También puede definir objetos o matrices que formen parte de los datos de evento como [contenedores personalizados](/help/data-views/create-dataview.md#custom-containers) independientes dentro de una vista de datos. | 21 de julio de 2026 | Finales de julio de 2026 |
 | **B2B edition: la compatibilidad con conjuntos de datos ad hoc y relacionales** <br/>Los conjuntos de datos ad hoc y relacionales ahora también se admiten en conexiones basadas en cuentas en Customer Journey Analytics B2B edition.<p>(Vínculo a la documentación a continuación).</p> | | 20 de julio de 2026 |
 | **Colaborador de CX Enterprise: Analice los datos de Customer Journey Analytics** <br/>Adobe CX Enterprise Coworker Chat ahora puede realizar análisis de datos avanzados que anteriormente solo eran posibles en Analysis Workspace. El chat de compañeros accede a los datos de sus vistas de datos de Customer Journey Analytics, lo que le permite explorar esos datos y obtener respuestas a las preguntas en lenguaje natural.<p>Para obtener más información, consulte [Analizar datos de Customer Journey Analytics con el chat de compañeros](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/chat/analytics-chat).</p> | | 23 de julio de 2026 |

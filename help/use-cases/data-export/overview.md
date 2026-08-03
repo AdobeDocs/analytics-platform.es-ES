@@ -68,8 +68,8 @@ En Customer Journey Analytics, los eventos no se recopilan en orden y se utiliza
 
 * La configuración puede _reproducir_ datos diaria o semanalmente, asociando eventos anónimos con eventos conocidos. Consulte [Vinculación](../../stitching/overview.md) para obtener más información.
 * La creación de sesiones y los valores persistentes cambian cada vez
-   * se recopilen nuevos datos o
-   * la vinculación agrega eventos al historial de una persona.
+  * se recopilen nuevos datos o
+  * la vinculación agrega eventos al historial de una persona.
 
 El procesamiento de tiempo del informe afecta a la exportación de datos desde Customer Journey Analytics. Las exportaciones que incluyen valores persistentes no coincidirán con los informes de Customer Journey Analytics y los valores se alejarán con el tiempo.
 
@@ -77,22 +77,22 @@ Para mantener la coherencia de las métricas, se prefiere el uso de las nuevas f
 
 * nuevas fuentes de datos y procesamiento sujetos a exportación de datos
 
-   * incluir fuentes de datos no digitales,
-   * aplicar atribución y sesionización personalizadas basadas en reglas empresariales, y
-   * mantenga los recorridos del cliente actualizados con la vinculación.
+  * incluir fuentes de datos no digitales,
+  * aplicar atribución y sesionización personalizadas basadas en reglas empresariales, y
+  * mantenga los recorridos del cliente actualizados con la vinculación.
 
 * realización de casos prácticos de exportación de datos personalizados
 
-   * exportar datos a donde los necesite, incluidas las herramientas de Business Intelligence (BI) y los destinos de nube,
-   * mantener los datos sincronizados con Analysis Workspace mediante la integración de herramientas de BI,
-   * no es necesario replicar la lógica de procesamiento en sus propios sistemas,
-   * nueva compatibilidad con métricas calculadas, campos derivados y segmentación, y
+  * exportar datos a donde los necesite, incluidas las herramientas de Business Intelligence (BI) y los destinos de nube,
+  * mantener los datos sincronizados con Analysis Workspace mediante la integración de herramientas de BI,
+  * no es necesario replicar la lógica de procesamiento en sus propios sistemas,
+  * nueva compatibilidad con métricas calculadas, campos derivados y segmentación, y
 
 * consideración de la seguridad y la gobernanza de datos por diseño
 
-   * supervisar todas las exportaciones de datos por usuario y destino,
-   * establecer límites sobre qué datos están disponibles para la exportación, y
-   * establezca alertas para los problemas de envío y límites en las ventanas de envío programadas.
+  * supervisar todas las exportaciones de datos por usuario y destino,
+  * establecer límites sobre qué datos están disponibles para la exportación, y
+  * establezca alertas para los problemas de envío y límites en las ventanas de envío programadas.
 
 
 ## Casos de uso y funcionalidades

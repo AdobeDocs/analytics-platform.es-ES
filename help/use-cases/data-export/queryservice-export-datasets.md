@@ -22,7 +22,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: 3355
+source-wordcount: 3315
 ht-degree: 5%
 
 ---
@@ -209,11 +209,11 @@ A continuación se muestra un ejemplo para aplicar correctamente la atribución 
 
   Para hacer esto, tienes que...
 
-   - Utilice una tabla de estado de procesamiento, `checkpoint_log`, para realizar un seguimiento de la hora de ingesta actual frente a la hora de la última ingesta. Consulte [esta guía](https://experienceleague.adobe.com/es/docs/experience-platform/query/key-concepts/incremental-load) para obtener más información.
-   - deshabilite la eliminación de columnas del sistema para que pueda usar `_acp_system_metadata.ingestTime`.
-   - Use un máximo interno de `SELECT` para obtener los campos que desee usar y restringir los eventos al período retroactivo para los cálculos de creación de sesiones o de atribución. Por ejemplo, 90 días.
-   - Use un siguiente nivel `SELECT` para aplicar las funciones de creación de sesiones y/o de ventana de atribución y otros cálculos.
-   - Use `INSERT INTO` en la tabla de resultados para restringir la retrospectiva únicamente a los eventos que han llegado desde la última hora de procesamiento. Para ello, filtre `_acp_system_metadata.ingestTime ` respecto al tiempo almacenado por última vez en la tabla de estado de procesamiento.
+  - Utilice una tabla de estado de procesamiento, `checkpoint_log`, para realizar un seguimiento de la hora de ingesta actual frente a la hora de la última ingesta. Consulte [esta guía](https://experienceleague.adobe.com/es/docs/experience-platform/query/key-concepts/incremental-load) para obtener más información.
+  - deshabilite la eliminación de columnas del sistema para que pueda usar `_acp_system_metadata.ingestTime`.
+  - Use un máximo interno de `SELECT` para obtener los campos que desee usar y restringir los eventos al período retroactivo para los cálculos de creación de sesiones o de atribución. Por ejemplo, 90 días.
+  - Use un siguiente nivel `SELECT` para aplicar las funciones de creación de sesiones y/o de ventana de atribución y otros cálculos.
+  - Use `INSERT INTO` en la tabla de resultados para restringir la retrospectiva únicamente a los eventos que han llegado desde la última hora de procesamiento. Para ello, filtre `_acp_system_metadata.ingestTime ` respecto al tiempo almacenado por última vez en la tabla de estado de procesamiento.
 
   **Ejemplo de funciones de la ventana de sesiones**
 
