@@ -30,7 +30,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
-source-wordcount: 3920
+source-wordcount: 3921
 ht-degree: 48%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 48%
 
 {{release-limited-testing}}
 
-No es posible realizar una asignación de true 1:1 entre columnas de fuentes de datos de Adobe Analytics y Customer Journey Analytics. Los dos productos difieren fundamentalmente y la implementación de cada organización puede variar significativamente.
+No es posible realizar una asignación 1:1 verdadera entre las columnas de fuentes de datos de Adobe Analytics y Customer Journey Analytics. Los dos productos difieren fundamentalmente y la implementación de cada organización puede variar significativamente.
 
 Esta referencia ayuda a los ingenieros de datos a evaluar las columnas de fuentes de datos de Adobe Analytics e identificar los equivalentes de Customer Journey Analytics más cercanos para sus flujos de trabajo.
 
@@ -446,12 +446,12 @@ Algunas métricas pueden utilizar la serialización de eventos, que es la forma 
 * Si la métrica se deduplica por visita en Adobe Analytics, puede establecer el ámbito de deduplicación en sesión en la configuración de componentes de esa métrica.
 * Si la métrica anula la duplicación por ID de evento en Adobe Analytics, es probable que el objeto XDM de esa métrica contenga un campo `value` y `id`. Si el esquema utiliza el grupo de campos [[!UICONTROL Detalles de Commerce]](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/commerce-details), es probable que esas métricas residan en estos campos XDM, en los que puede establecer el campo **[!UICONTROL ID de anulación de duplicación]** en la configuración de componentes de la métrica:
 
-   * **Cierres de compra**: `xdm.commerce.checkouts.id`
-   * **Adiciones al carro de compras**: `xdm.commerce.productListAdds.id`
-   * **Aperturas del carro de compras**: `xdm.commerce.productListOpens.id`
-   * **Eliminaciones del carro de compras**: `xdm.commerce.productListRemovals.id`
-   * **Vistas del carro de compras**: `xdm.commerce.productListViews.id`
-   * **Vistas del producto**: `xdm.commerce.productViews.id`
+  * **Cierres de compra**: `xdm.commerce.checkouts.id`
+  * **Adiciones al carro de compras**: `xdm.commerce.productListAdds.id`
+  * **Aperturas del carro de compras**: `xdm.commerce.productListOpens.id`
+  * **Eliminaciones del carro de compras**: `xdm.commerce.productListRemovals.id`
+  * **Vistas del carro de compras**: `xdm.commerce.productListViews.id`
+  * **Vistas del producto**: `xdm.commerce.productViews.id`
 
 Si desea anular la duplicación de la métrica Pedidos, consulte `duplicate_purchase`.
 

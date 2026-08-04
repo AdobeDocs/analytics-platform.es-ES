@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 034186edab4bcd66073236e070a37ee9317830e4
+source-git-commit: feb7b3364e7981c42e3a31f75acfbddfdc463485
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 36%
+source-wordcount: 795
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento de agosto de 2026. 
 | **Compatibilidad con etiquetas de uso de datos adicionales**<br> Customer Journey Analytics ahora admite las siguientes etiquetas de uso de datos adicionales para elementos dentro de un conjunto de datos:<ul><li>C2: Restringir la exportación de datos de terceros (disponible ahora)</li><li>C3 - Restringir la combinación de datos directamente identificables (disponible ahora)</li><li>C9: Restringir la ciencia de datos (lanzamiento previsto para agosto)</li></ul><p>Para obtener más información, vea [Etiquetas, directivas y acciones de marketing](/help/data-views/data-governance.md).</p> | | Agosto de 2026 |
 | **Filtrado e informes de directivas de consentimiento**<br> Ahora puede informar sobre los visitantes que coinciden con las directivas de consentimiento de Adobe Experience Platform. (Las dimensiones y métricas de la política de consentimiento se agregan a las vistas de datos de la conexión).<p>Además, puede excluir a los visitantes que no consientan antes de que sus datos se introduzcan en Customer Journey Analytics.</p><p>Para obtener más información, consulte Información general sobre creación de informes y filtrado de consentimiento.</p> | | Agosto de 2026 |
 | **Planificador de migración: de Adobe Analytics a Customer Journey Analytics**<br> El Planificador de migración proporciona un asistente de migración que automatiza algunas de las tareas más complejas y que requieren más tiempo asociadas con una actualización de Adobe Analytics a Customer Journey Analytics, incluida la creación de esquemas XDM y la migración de AppMeasurement o la extensión de Analytics (etiquetas) a Experience Platform Web SDK. <p>(Vínculo a la documentación a continuación).</p> | | Finales de agosto o septiembre de 2026 |
-| **B2B: vinculación de persona a cuenta**<br> Ahora puede usar la vinculación de identidad para vincular la información de cuenta a cada evento del conjunto de datos. Dado que cuenta es el contenedor de informes más alto de Customer Journey Analytics B2B edition, los eventos que no incluyen un ID de cuenta se pierden durante la ingesta.</li></ul><p>(Vínculo a la documentación a continuación).</p> | | Finales de agosto o septiembre de 2026 |
+| **B2B: la vinculación de cuenta a cuenta**<br> La vinculación de cuenta B2B enriquece los conjuntos de datos de evento con información de cuenta y permite un análisis completo del recorrido completo del cliente en Customer Journey Analytics. <p>Cuando los eventos carecen de un ID de cuenta, que Customer Journey Analytics B2B edition requiere para la ingesta, la vinculación de cuentas deriva y agrega esa información automáticamente mediante el conjunto de datos de asignación persona a cuenta que proporcione.</p><p>(Vínculo a la documentación a continuación).</p> | | Finales de agosto o septiembre de 2026 |
 | **Guía de primeras llamadas de la API de informes de CJA**<br> La guía de primeras llamadas de la API de Adobe Customer Journey Analytics proporciona instrucciones y ejemplos para configurar solicitudes de informes básicas. | | 10 de agosto de 2026 |
 | **Guía de tendencias de fecha de API de informes de CJA**<br> La guía de tendencias de fecha de API de Adobe Customer Journey Analytics proporciona instrucciones y ejemplos para configurar solicitudes de informes básicas. | | 17 de agosto de 2026 |
 
