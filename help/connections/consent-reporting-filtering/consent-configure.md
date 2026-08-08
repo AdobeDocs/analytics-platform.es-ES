@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
+source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
 workflow-type: tm+mt
-source-wordcount: 728
+source-wordcount: 770
 ht-degree: 2%
 
 ---
@@ -62,7 +62,11 @@ Para crear una configuración de filtrado y creación de informes de consentimie
 
 1. Seleccione **[!UICONTROL Usar vistas de datos]**.
 
-1. (Opcional) En la sección **[!UICONTROL Filtrado]**, puede habilitar el filtrado para las siguientes acciones de marketing:
+1. (Opcional) En la sección **[!UICONTROL Filtrado]**, seleccione [!UICONTROL **Activar filtrado**] para filtrar los datos de consentimiento.
+
+   Cuando el filtrado está habilitado, Customer Journey Analytics ingiere los datos de un visitante solo si este coincide con cualquier política de consentimiento habilitada. Para obtener más información, consulte [Filtrado de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering) en [Resumen de filtrado e informes de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md).
+
+1. (Opcional) Habilite el filtrado para las siguientes acciones de marketing:
 
    >[!NOTE]
    >
@@ -70,8 +74,8 @@ Para crear una configuración de filtrado y creación de informes de consentimie
 
    | Acción de marketing | Descripción |
    |---------|----------|
-   | **[!UICONTROL Analytics]** | Filtrar datos utilizados para los informes estándar de Customer Journey Analytics en Analysis Workspace. |
-   | **[!UICONTROL Ciencia de datos]** | Filtrar datos utilizados para casos de uso de análisis avanzados, aprendizaje automático y ciencia de datos. |
+   | **[!UICONTROL Datos de Analytics]** | Filtrar datos utilizados para los informes estándar de Customer Journey Analytics en Analysis Workspace. |
+   | **[!UICONTROL Datos de ciencia de datos]** | Filtrar datos utilizados para casos de uso de análisis avanzados, aprendizaje automático y ciencia de datos. |
 
 1. Seleccione **[!UICONTROL Crear]** para crear la configuración.
 

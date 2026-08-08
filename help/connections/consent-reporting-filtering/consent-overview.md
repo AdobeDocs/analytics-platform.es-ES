@@ -19,10 +19,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
+source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
 workflow-type: tm+mt
-source-wordcount: 1058
-ht-degree: 2%
+source-wordcount: 1060
+ht-degree: 3%
 
 ---
 
@@ -81,8 +81,8 @@ Tenga en cuenta lo siguiente al utilizar el filtrado de consentimiento:
 
   | Acción de marketing | Descripción |
   |---------|----------|
-  | **[!UICONTROL Analytics]** | Informes estándar de Customer Journey Analytics en Analysis Workspace. |
-  | **[!UICONTROL Ciencia de datos]** | Casos de uso de análisis avanzados, aprendizaje automático y ciencia de datos. |
+  | **[!UICONTROL Datos de Analytics]** | Creación de informes estándar de Customer Journey Analytics en Analysis Workspace. |
+  | **[!UICONTROL Datos de ciencia de datos]** | Casos de uso de análisis avanzados, aprendizaje automático y ciencia de datos. |
 
 * Los datos de un visitante se incorporan solamente si el visitante coincide con **todas** las directivas de consentimiento aplicables. Si a un visitante le falta alguna política aplicable, se excluyen los datos de ese visitante.
 
