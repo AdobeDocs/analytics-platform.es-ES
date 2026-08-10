@@ -7,27 +7,11 @@ exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
 autotag-review: '2026-05-19T11:02:42.011Z'
 TQID: 'https://experienceleague.adobe.com/k0nhhAy1CuLa7bEhu1XGqjsQdn9nEAnGb1LbMMeiCLM'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: f3ca85c1-72de-4df2-97ed-05753cd77c47
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: f3ca85c1-72de-4df2-97ed-05753cd77c47id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 2842
@@ -44,11 +28,11 @@ Este artículo proporciona directrices (prácticas recomendadas, protecciones y 
 
 * **Optimizar rendimiento**: identifique patrones que ralentizan la ejecución de consultas o alcancen los límites del sistema para seleccionar la herramienta adecuada para el trabajo:
 
-   * [Campos derivados](/help/data-views/derived-fields/derived-fields.md)
-   * [Configuración de vista de datos](/help/data-views/component-settings/overview.md)
-   * [Preparación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-prep/home)
-   * [Métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md)
-   * [Conjuntos de datos de búsqueda](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+  * [Campos derivados](/help/data-views/derived-fields/derived-fields.md)
+  * [Configuración de vista de datos](/help/data-views/component-settings/overview.md)
+  * [Preparación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-prep/home)
+  * [Métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md)
+  * [Conjuntos de datos de búsqueda](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
 
 * **Mejore la capacidad de mantenimiento**: genere una lógica de campo derivada que sea clara, modular y fácil de actualizar.
 * **Garantizar la corrección**: evite errores lógicos comunes en la clasificación, la atribución y la transformación de datos.
@@ -105,8 +89,8 @@ Customer Journey Analytics aplica [límites explícitos de funciones y operadore
 **Patrones**
 
 * [Caso muy grande When](/help/data-views/derived-fields/derived-fields.md#case-when) funciona con cadenas **[!UICONTROL If]** y **[!UICONTROL Else If]** complejas:
-   * Muchas condiciones (por ejemplo: más de 20 operadores) o anidamiento profundo (más de 3 o 4 niveles de [Case When](/help/data-views/derived-fields/derived-fields.md#case-when) **[!UICONTROL If]** y **[!UICONTROL Else If]** anidados).
-   * Condiciones repetidas en el mismo campo con valores diferentes.
+  * Muchas condiciones (por ejemplo: más de 20 operadores) o anidamiento profundo (más de 3 o 4 niveles de [Case When](/help/data-views/derived-fields/derived-fields.md#case-when) **[!UICONTROL If]** y **[!UICONTROL Else If]** anidados).
+  * Condiciones repetidas en el mismo campo con valores diferentes.
 * Coincidencia de cadena constante repetida.
 
   +++ Ejemplo
@@ -138,26 +122,26 @@ En esta sección se describe el uso incorrecto de los campos derivados. Especial
 **Patrones**
 
 * Un campo derivado replica el comportamiento ya disponible en la configuración del componente:
-   * Normalización de mayúsculas y minúsculas, recorte o filtrado simple (por ejemplo: excluyendo `unknown`, `undefined` o `null`) sin complejidad adicional.
-   * Agrupación básica en intervalos de números.
+  * Normalización de mayúsculas y minúsculas, recorte o filtrado simple (por ejemplo: excluyendo `unknown`, `undefined` o `null`) sin complejidad adicional.
+  * Agrupación básica en intervalos de números.
 
-     +++ Ejemplo
+    +++ Ejemplo
 
-     ![Uso incorrecto del agrupamiento básico](assets/best-practices-wrong-usage.png)
+    ![Uso incorrecto del agrupamiento básico](assets/best-practices-wrong-usage.png)
 
-     +++
+    +++
 
-     En su lugar, use [agrupación de valores](/help/data-views/component-settings/value-bucketing.md) en una dimensión de la vista de datos.
-   * Lógica de persistencia o atribución codificada con [Siguiente o Anterior](/help/data-views/derived-fields/derived-fields.md#next-or-previous) o lógica de secuencia manual donde la configuración de la vista de datos [atribución](/help/data-views/component-settings/attribution.md) y [caducidad](/help/data-views/component-settings/persistence.md) sería suficiente.
-   * Una métrica derivada que simplemente cuenta una métrica existente bajo una condición.
+    En su lugar, use [agrupación de valores](/help/data-views/component-settings/value-bucketing.md) en una dimensión de la vista de datos.
+  * Lógica de persistencia o atribución codificada con [Siguiente o Anterior](/help/data-views/derived-fields/derived-fields.md#next-or-previous) o lógica de secuencia manual donde la configuración de la vista de datos [atribución](/help/data-views/component-settings/attribution.md) y [caducidad](/help/data-views/component-settings/persistence.md) sería suficiente.
+  * Una métrica derivada que simplemente cuenta una métrica existente bajo una condición.
 
-     +++ Ejemplo
+    +++ Ejemplo
 
-     ![Uso incorrecto de la lógica condicional](assets/best-practices-wrong-usage-2.png)
+    ![Uso incorrecto de la lógica condicional](assets/best-practices-wrong-usage-2.png)
 
-     +++
+    +++
 
-     Este enfoque replica lo que podría lograr una métrica filtrada o [Incluir valores de exclusión](/help/data-views/component-settings/include-exclude-values.md).
+    Este enfoque replica lo que podría lograr una métrica filtrada o [Incluir valores de exclusión](/help/data-views/component-settings/include-exclude-values.md).
 
 **Diagnóstico de riesgo: calidad de datos, alto mantenimiento**
 
@@ -172,8 +156,8 @@ En esta sección se describe el uso incorrecto de los campos derivados. Especial
 * Atribución y persistencia: use la configuración de la vista de datos [Persistencia](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modelo de asignación]** y **[!UICONTROL Caducidad]**) para las dimensiones en lugar de simularlas en un campo derivado con [Siguiente o Anterior](/help/data-views/derived-fields/derived-fields.md#next-or-previous) u otra lógica secuencial.
 * Agrupación numérica: mantenga el campo derivado numérico y permita que la vista de datos cree una dimensión agrupada en la parte superior, en lugar de programar etiquetas de intervalo en una cadena [Case When](/help/data-views/derived-fields/derived-fields.md#case-when).
 * Lógica condicional: convertir la lógica de indicador simple 0 o 1 en una de las siguientes:
-   * la métrica original con la lógica de filtro incluir o excluir valores como se aplica en Analysis Workspace.
-   * una métrica filtrada mediante la configuración del componente vista de datos.
+  * la métrica original con la lógica de filtro incluir o excluir valores como se aplica en Analysis Workspace.
+  * una métrica filtrada mediante la configuración del componente vista de datos.
 
 ## Clasificaciones erróneas de métricas y dimensiones
 
@@ -182,8 +166,8 @@ En esta sección se analiza la clasificación errónea de métricas y dimensione
 **Patrones**
 
 * Un campo derivado produce claramente:
-   * Salidas numéricas (recuento, proporción o aritmética) pero el componente está configurado como dimensión.
-   * Salidas categóricas (etiquetas o cadenas), pero el componente se configura como una métrica.
+  * Salidas numéricas (recuento, proporción o aritmética) pero el componente está configurado como dimensión.
+  * Salidas categóricas (etiquetas o cadenas), pero el componente se configura como una métrica.
 * Un campo derivado codifica los indicadores 0/1 como cadenas.
 
 Customer Journey Analytics permite forzar los campos numéricos a dimensiones y los campos de cadena a métricas en el nivel de vista de datos, pero la desalineación puede crear informes confusos.
@@ -195,10 +179,10 @@ Customer Journey Analytics permite forzar los campos numéricos a dimensiones y 
 **Recomendaciones**
 
 * Si el resultado es numérico:
-   * Establezca el tipo de componente en **[!UICONTROL Métrica]** en la vista de datos.
-   * Si el componente representa una métrica de subconjunto (por ejemplo, **[!UICONTROL Vistas de página de cierre de compra]**), utilice una métrica filtrada dentro de la vista de datos en lugar de una cadena derivada más una métrica calculada en la parte superior.
+  * Establezca el tipo de componente en **[!UICONTROL Métrica]** en la vista de datos.
+  * Si el componente representa una métrica de subconjunto (por ejemplo, **[!UICONTROL Vistas de página de cierre de compra]**), utilice una métrica filtrada dentro de la vista de datos en lugar de una cadena derivada más una métrica calculada en la parte superior.
 * Si el resultado es una etiqueta:
-   * Establezca el tipo de componente en **[!UICONTROL Dimension]** y configure la configuración de [Persistencia](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modelo de asignación]** y **[!UICONTROL Caducidad]**) según corresponda.
+  * Establezca el tipo de componente en **[!UICONTROL Dimension]** y configure la configuración de [Persistencia](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modelo de asignación]** y **[!UICONTROL Caducidad]**) según corresponda.
 
 ## Dificultades del canal de marketing y de la lógica de campaña
 
@@ -212,9 +196,9 @@ Esta sección analiza los escollos del canal de marketing y de la lógica de cam
 
 * Los canales de marketing de Customer Journey Analytics suelen implementarse utilizando campos derivados.
 
-   * Campos derivados que implementan el canal de marketing o el agrupamiento de campañas en función de parámetros de URL, referente, página de aterrizaje y mucho más.
-   * Orden sospechoso: aparece una regla de captador global genérica antes de que se apliquen reglas más específicas.
-   * Tratamiento incompleto de todas las opciones posibles: no se ha establecido ninguna rama explícita para **[!UICONTROL Dominio de referencia]** o **[!UICONTROL No se ha establecido el parámetro de consulta]**.
+  * Campos derivados que implementan el canal de marketing o el agrupamiento de campañas en función de parámetros de URL, referente, página de aterrizaje y mucho más.
+  * Orden sospechoso: aparece una regla de captador global genérica antes de que se apliquen reglas más específicas.
+  * Tratamiento incompleto de todas las opciones posibles: no se ha establecido ninguna rama explícita para **[!UICONTROL Dominio de referencia]** o **[!UICONTROL No se ha establecido el parámetro de consulta]**.
 
 **Diagnóstico de riesgo: calidad de los datos**
 
@@ -301,8 +285,8 @@ En esta sección se describe el uso de la lógica de estilo calculada en un camp
 **Diagnóstico de riesgo: calidad de los datos**
 
 * Cuestión de gobernanza y diseño: la aritmética puede estar mejor situada como:
-   * Una métrica de campo derivado (si desea el campo derivado como métrica estándar controlada para todos los usuarios).
-   * Una métrica calculada en Analysis Workspace (si la métrica calculada es específica del análisis).
+  * Una métrica de campo derivado (si desea el campo derivado como métrica estándar controlada para todos los usuarios).
+  * Una métrica calculada en Analysis Workspace (si la métrica calculada es específica del análisis).
 
 **Recomendaciones**
 
@@ -340,8 +324,8 @@ En esta sección se describe la omisión del contexto de nivel de persona y sesi
 
 * Un campo derivado supone implícitamente un [nivel de contenedor](/help/getting-started/cja-b2b-concepts-features.md#containers) en particular (evento, sesión o persona) pero:
 
-   * El campo derivado no hace referencia a atributos de nivel de persona o sesión.
-   * La configuración de sesión de vista de datos entra en conflicto con la lógica deseada.
+  * El campo derivado no hace referencia a atributos de nivel de persona o sesión.
+  * La configuración de sesión de vista de datos entra en conflicto con la lógica deseada.
 
 **Diagnóstico de riesgo: calidad de datos**
 
