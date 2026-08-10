@@ -35,7 +35,7 @@ En la vinculación basada en gráficos, se especifica un conjunto de datos de ev
 
 >[!NOTE]
 >
->El [servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home) es un servicio principal de Experience Platform que no requiere licencias adicionales. Consulte [Explicación del rol del servicio de identidad dentro de la infraestructura de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home#understanding-the-role-of-identity-service-within-the-experience-platform-infrastructure) para obtener más información.
+>El [servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home) es un servicio principal de Experience Platform que no requiere licencias adicionales. Consulte [Explicación del rol del servicio de identidad dentro de la infraestructura de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home#understanding-the-role-of-identity-service-within-the-experience-platform-infrastructure) para obtener más información.
 >
 
 Si no se puede recuperar la información de ID de persona para un evento, se usa el ID persistente en su lugar para ese evento *unstitched*. Como resultado, en una [vista de datos](/help/data-views/data-views.md) asociada a una [conexión](/help/connections/overview.md) que contiene el conjunto de datos habilitado para la vinculación, el componente de vista de datos de ID de persona contiene el valor de ID de persona o el valor de ID persistente en el nivel de evento.
@@ -231,7 +231,7 @@ Los siguientes requisitos previos se aplican específicamente a la vinculación 
   - Todos los conjuntos de datos que contienen estas identidades relevantes deben estar [habilitados para la ingesta de datos del gráfico de identidades](faq.md#enable-a-dataset-for-the-identity-service). Esta habilitación garantiza que las identidades entrantes se añadan al gráfico a lo largo del tiempo desde todas las fuentes necesarias.
   - Si ya utiliza el Perfil de datos del cliente en tiempo real o Adobe Journey Optimizer durante un tiempo, el gráfico debería estar configurado hasta cierto punto.<br/>Si también se requiere relleno de vinculación histórica para el conjunto de datos habilitado con la vinculación basada en gráficos, el gráfico ya debe contener identidades históricas para todo el período a fin de obtener los resultados de vinculación deseados.
 - Si desea utilizar la vinculación basada en gráficos y prevé que el conjunto de datos de evento contribuirá al gráfico de identidad, debe [habilitar el conjunto de datos para el servicio de identidad](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
-- El ID persistente y el ID de persona se pueden usar con [identityMap](#identitymap). O el ID persistente y el ID de persona pueden ser campos del esquema XDM, en cuyo caso los campos deben estar [definidos como una identidad](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en) en el esquema.
+- El ID persistente y el ID de persona se pueden usar con [identityMap](#identitymap). O el ID persistente y el ID de persona pueden ser campos del esquema XDM, en cuyo caso los campos deben estar [definidos como una identidad](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/identity?lang=en) en el esquema.
 
 >[!NOTE]
 >
