@@ -20,16 +20,23 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 711e4bd71a4939eec96a6c454242e96b350fe4e2
 workflow-type: tm+mt
-source-wordcount: 1899
-ht-degree: 70%
+source-wordcount: 2017
+ht-degree: 64%
 
 ---
 
 # Vinculación basada en gráficos
 
-En la vinculación basada en gráficos, se especifica un conjunto de datos de evento, el ID persistente (cookie) de ese conjunto de datos y el área de nombres de ID de persona deseada desde el gráfico de identidad. La vinculación basada en gráficos intenta que la información del ID de persona esté disponible para el análisis de datos de Customer Journey Analytics en cualquier evento. El ID persistente se utiliza para consultar el gráfico de identidad del servicio de identidad de Experience Platform y obtener el ID de persona del área de nombres especificada.
+En la vinculación basada en gráficos, se especifica un conjunto de datos de evento, el ID persistente (cookie) de ese conjunto de datos y el área de nombres de ID de persona deseada desde el gráfico de identidad. La vinculación basada en gráficos intenta que la información del ID de persona esté disponible para el análisis de datos de Customer Journey Analytics en cualquier evento. El ID persistente se utiliza para consultar el gráfico de identidad del servicio de identidad de Experience Platform y obtener el ID de persona del área de nombres especificada. Es el mismo servicio de identidad que utilizan otras aplicaciones de Experience Platform, como Real-Time Customer Data Platform (como se muestra en la ilustración siguiente).
+
+![Servicio de identidad](assets/uis-gbs.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>El [servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home) es un servicio principal de Experience Platform que no requiere licencias adicionales. Consulte [Explicación del rol del servicio de identidad dentro de la infraestructura de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home#understanding-the-role-of-identity-service-within-the-experience-platform-infrastructure) para obtener más información.
+>
 
 Si no se puede recuperar la información de ID de persona para un evento, se usa el ID persistente en su lugar para ese evento *unstitched*. Como resultado, en una [vista de datos](/help/data-views/data-views.md) asociada a una [conexión](/help/connections/overview.md) que contiene el conjunto de datos habilitado para la vinculación, el componente de vista de datos de ID de persona contiene el valor de ID de persona o el valor de ID persistente en el nivel de evento.
 
@@ -41,8 +48,8 @@ Si no se puede recuperar la información de ID de persona para un evento, se usa
 La vinculación basada en gráficos admite el uso del [`identityMap`grupo de campos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity) en los siguientes casos:
 
 - Uso de la identidad principal en espacios de nombres de `identityMap` para definir el persistentID:
-   - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexicográficamente y se selecciona la primera identidad.
-   - Si se encuentran varias identidades principales en un solo espacio de nombres, se selecciona la primera identidad principal lexicográfica disponible.
+  - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexicográficamente y se selecciona la primera identidad.
+  - Si se encuentran varias identidades principales en un solo espacio de nombres, se selecciona la primera identidad principal lexicográfica disponible.
 
   En el ejemplo siguiente, los espacios de nombres y las identidades generan una lista de identidades principales ordenada y, finalmente, la identidad seleccionada.
 
@@ -73,7 +80,7 @@ La vinculación basada en gráficos admite el uso del [`identityMap`grupo de cam
   </table>
 
 - Uso del espacio de nombres `identityMap` para definir el persistentID:
-   - Si se encuentran varios valores para persistentID en un espacio de nombres `identityMap`, se utiliza la primera identidad lexicográfica disponible.
+  - Si se encuentran varios valores para persistentID en un espacio de nombres `identityMap`, se utiliza la primera identidad lexicográfica disponible.
 
   En el ejemplo siguiente, ha seleccionado ECID como el espacio de nombres que se utilizará. Esa selección genera una lista de identidades ordenadas y, finalmente, la identidad seleccionada.
 
@@ -111,10 +118,10 @@ La vinculación realiza un mínimo de dos pasadas en los datos de un conjunto de
 - **Vinculación en tiempo real**: intenta vincular cada visita (evento) conforme se va produciendo, utilizando el ID persistente para buscar el ID de persona para el espacio de nombres seleccionado consultando el gráfico de identidad. Si el ID de persona está disponible desde la búsqueda, este ID de persona se vincula inmediatamente.
 
 - **Reproducir vinculación**: *reproduce* datos basados en identidades actualizadas del gráfico de identidades. En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistentes) se vinculan a medida que el gráfico de identidad ha resuelto la identidad de un espacio de nombres. Dos parámetros determinan la reproducción: **frequency** y **lookback window**. Adobe ofrece las siguientes combinaciones de estos parámetros:
-   - **Retrospectiva diaria con una frecuencia diaria**: los datos se reproducen todos los días con un período de retroactividad de 24 horas. Esta opción ofrece la ventaja de que las reproducciones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
-   - **Retrospectiva semanal con una frecuencia semanal**: los datos se reproducen una vez a la semana con un período de retroactividad semanal (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
-   - **Retrospectiva quincenal con una frecuencia semanal**: los datos se reproducen una vez por semana con un período de retroactividad quincenal (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de dos semanas de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
-   - **Retrospectiva mensual con una frecuencia semanal**: los datos se reproducen cada semana con un período de retroactividad mensual (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de un mes de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
+  - **Retrospectiva diaria con una frecuencia diaria**: los datos se reproducen todos los días con un período de retroactividad de 24 horas. Esta opción ofrece la ventaja de que las reproducciones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
+  - **Retrospectiva semanal con una frecuencia semanal**: los datos se reproducen una vez a la semana con un período de retroactividad semanal (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
+  - **Retrospectiva quincenal con una frecuencia semanal**: los datos se reproducen una vez por semana con un período de retroactividad quincenal (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de dos semanas de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
+  - **Retrospectiva mensual con una frecuencia semanal**: los datos se reproducen cada semana con un período de retroactividad mensual (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de un mes de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
 
 - **Privacidad**: cuando se reciben solicitudes relacionadas con la privacidad, además de quitar la identidad solicitada del conjunto de datos de origen, se debe deshacer cualquier vinculación de esa identidad entre eventos no autenticados. Además, la identidad debe quitarse del gráfico de identidad para evitar una vinculación futura basada en gráficos para esa identidad específica.
 
@@ -160,7 +167,7 @@ A intervalos regulares (en función del período retrospectivo seleccionado), la
 
 +++ Detalles
 
-Con una reproducción de la vinculación que se produce el 13 de mayo de 2023 a las 16:30, con una configuración del período retrospectivo de 24 horas, algunos eventos de la muestra se vuelven a vincular (indicado por ![Reproducir](/help/assets/icons/Replay.svg)).
+Con una vinculación de reproducción a las 16:30 del 2023-05-13, con una configuración de ventana retrospectiva de 24 horas, algunos eventos de la muestra se vuelven a vincular (indicado por ![Reproducir](/help/assets/icons/Replay.svg)).
 
 | | Hora | ID persistente<br/>`ECID` | Espacio de nombres<br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | Id. resultante <br/>(después de la unión activa) | Id. resultante <br/>(después de la reproducción 24 horas) |
 |---|---|---|---|---|---|
@@ -174,7 +181,7 @@ Con una reproducción de la vinculación que se produce el 13 de mayo de 2023 a 
 {style="table-layout:auto"}
 
 
-Con una reproducción de la vinculación que se produce el 13 de mayo de 2023 a las 16:30, con una configuración del período retrospectivo de siete días, todos los eventos de la muestra se vuelven a vincular.
+Con la vinculación de reproducción a las 16:30 del 2023-05-13, con una configuración de ventana retrospectiva de 7 días, todos los eventos de la muestra se vuelven a vincular.
 
 
 | | Hora | ID persistente<br/>`ECID` | Espacio de nombres<br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | Id. resultante <br/>(después de la unión activa) | Id. resultante <br/>(después de 7 días de reproducción) |
@@ -197,7 +204,7 @@ Cuando recibe una solicitud de privacidad, el ID resultante se elimina en todos 
 
 +++ Detalles
 
-La siguiente tabla representa los mismos datos que los anteriores, pero muestra el efecto que tiene una solicitud de privacidad (por ejemplo, el 13 de mayo de 2023 a las 18:00) en los eventos de muestra.
+La siguiente tabla representa los mismos datos que los que hemos visto anteriormente, pero muestra el efecto que una solicitud de privacidad (por ejemplo, las 18:00 del 13-05-2023) tiene en los eventos de ejemplo.
 
 | | Hora | ID persistente<br/>`ECID` | Espacio de nombres<br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | ID resultante (después de la solicitud de privacidad) |
 |--:|---|---|---|---|
@@ -219,10 +226,10 @@ Los siguientes requisitos previos se aplican específicamente a la vinculación 
 
 - El conjunto de datos de evento de Adobe Experience Platform al que desea aplicar la vinculación debe tener una columna que identifique un perfil en cada fila, el **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Experience Platform.
 - El gráfico de identidad del servicio de identidad de Experience Platform debe configurarse en el nivel de zona protegida antes de habilitar la vinculación basada en gráficos.
-   - El gráfico de identidad debe tener un área de nombres (por ejemplo `Email` o `Phone`) que desee usar durante la vinculación para resolver el ID de persona.
-   - El gráfico de identidad debe rellenarse con información de identidades de cualquier conjunto de datos relevante (de tipo *event* o *profile* y que contenga al menos dos áreas de nombres útiles con valores de ID).
-   - Todos los conjuntos de datos que contienen estas identidades relevantes deben estar [habilitados para la ingesta de datos del gráfico de identidades](faq.md#enable-a-dataset-for-the-identity-service). Esta habilitación garantiza que las identidades entrantes se añadan al gráfico a lo largo del tiempo desde todas las fuentes necesarias.
-   - Si ya utiliza el Perfil de datos del cliente en tiempo real o Adobe Journey Optimizer durante un tiempo, el gráfico debería estar configurado hasta cierto punto.<br/>Si también se requiere relleno de vinculación histórica para el conjunto de datos habilitado con la vinculación basada en gráficos, el gráfico ya debe contener identidades históricas para todo el período a fin de obtener los resultados de vinculación deseados.
+  - El gráfico de identidad debe tener un área de nombres (por ejemplo `Email` o `Phone`) que desee usar durante la vinculación para resolver el ID de persona.
+  - El gráfico de identidad debe rellenarse con información de identidades de cualquier conjunto de datos relevante (de tipo *event* o *profile* y que contenga al menos dos áreas de nombres útiles con valores de ID).
+  - Todos los conjuntos de datos que contienen estas identidades relevantes deben estar [habilitados para la ingesta de datos del gráfico de identidades](faq.md#enable-a-dataset-for-the-identity-service). Esta habilitación garantiza que las identidades entrantes se añadan al gráfico a lo largo del tiempo desde todas las fuentes necesarias.
+  - Si ya utiliza el Perfil de datos del cliente en tiempo real o Adobe Journey Optimizer durante un tiempo, el gráfico debería estar configurado hasta cierto punto.<br/>Si también se requiere relleno de vinculación histórica para el conjunto de datos habilitado con la vinculación basada en gráficos, el gráfico ya debe contener identidades históricas para todo el período a fin de obtener los resultados de vinculación deseados.
 - Si desea utilizar la vinculación basada en gráficos y prevé que el conjunto de datos de evento contribuirá al gráfico de identidad, debe [habilitar el conjunto de datos para el servicio de identidad](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
 - El ID persistente y el ID de persona se pueden usar con [identityMap](#identitymap). O el ID persistente y el ID de persona pueden ser campos del esquema XDM, en cuyo caso los campos deben estar [definidos como una identidad](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/identity?lang=en) en el esquema.
 
@@ -239,7 +246,7 @@ Las siguientes limitaciones se aplican específicamente a la vinculación basada
 - En escenarios de dispositivos compartidos, donde el espacio de nombres del gráfico contiene varias identidades, se utiliza la primera identidad lexicográfica. Si los límites y las prioridades del espacio de nombres se configuran como parte de la publicación de reglas de vinculación de gráficos, se utiliza la última identidad del usuario autenticado. Consulte [Dispositivos compartidos](/help/use-cases/stitching/shared-devices.md) para obtener más información.
 - Hay un límite rígido de tres meses para la reposición de identidades en el gráfico de identidad. Para rellenar el gráfico de identidad, debe utilizar identidades de reposición en caso de que no utilice una aplicación de Experience Platform, como la plataforma de datos de clientes en tiempo real.
 - Se aplican los [mecanismos de protección del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails). Consulte, por ejemplo, los [límites estáticos](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails#static-limits) siguientes:
-   - Número máximo de identidades en un gráfico: 50.
-   - Número máximo de vínculos en una identidad para una sola ingesta por lotes: 50.
-   - Número máximo de identidades en un registro XDM para la ingesta de gráficos: 20.
-   - Número mínimo de identidades en un registro XDM para la ingesta de gráficos: 2.
+  - Número máximo de identidades en un gráfico: 50.
+  - Número máximo de vínculos en una identidad para una sola ingesta por lotes: 50.
+  - Número máximo de identidades en un registro XDM para la ingesta de gráficos: 20.
+  - Número mínimo de identidades en un registro XDM para la ingesta de gráficos: 2.
