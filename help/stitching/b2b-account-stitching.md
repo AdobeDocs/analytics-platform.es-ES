@@ -20,16 +20,16 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 593dc8e9eb32e092545b74882ce2a85bcecc3c56
+source-git-commit: 6e2c1271de0e1ea82820c108eec08ec815d776f3
 workflow-type: tm+mt
-source-wordcount: 1349
-ht-degree: 9%
+source-wordcount: 1921
+ht-degree: 13%
 
 ---
 
 # Vinculación de cuentas B2B
 
-La vinculación de cuentas B2B enriquece los conjuntos de datos de evento con información de cuenta y permite un análisis completo del recorrido completo del cliente en Customer Journey Analytics. Cuando los eventos carecen de un ID de cuenta, que Customer Journey Analytics B2B edition requiere para la ingesta, la vinculación de cuentas deriva y agrega esa información automáticamente mediante un [conjunto de datos de asignación de persona a cuenta](#prerequisites) que usted proporcione.
+La vinculación de cuentas B2B enriquece los conjuntos de datos de evento con las identidades de cuenta y permite un análisis completo del recorrido completo del cliente en Customer Journey Analytics. Cuando los eventos carecen de un ID de cuenta, que Customer Journey Analytics B2B edition requiere para la ingesta, la vinculación de cuentas deriva y agrega esa información automáticamente mediante un [conjunto de datos de asignación de persona a cuenta](#prerequisites) que usted proporcione.
 
 Sin la vinculación de cuentas, los eventos que no contengan un ID de cuenta se perderán durante la ingesta. La vinculación de cuentas resuelve esta limitación buscando la cuenta asociada con la persona en cada evento y añadiendo el ID de cuenta tanto cuando se incorpora el evento como de forma retroactiva.
 
@@ -40,7 +40,93 @@ Sin la vinculación de cuentas, los eventos que no contengan un ID de cuenta se 
 La vinculación de cuentas realiza las siguientes operaciones en los conjuntos de datos:
 
 * **Elevar identidad de persona**: el ID de persona de cada evento se eleva al área de nombres de identidad configurada mediante el gráfico de identidades.
-* **Agregar información de cuenta que falta**: Para los eventos que contienen un ID de persona, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la información de cuenta. &#x200B;](#prerequisites)Cualquier información de la cuenta en el propio evento se utiliza como método de reserva.
+* **Agregar identidades de cuenta que faltan**: Para los eventos que contienen un ID de persona, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la identidad de la cuenta. &#x200B;](#prerequisites)Cualquier identidad de cuenta en el propio evento se utiliza como método de reserva.
+
+## Cómo funciona la vinculación de cuentas B2B
+
+Para ilustrar cómo funciona la vinculación de cuentas B2B, se utiliza el conjunto de datos que se muestra a continuación como punto de partida.
+
+### Conjunto de datos de evento base
+
+En Customer Journey Analytics B2B edition, los eventos sin ID de cuenta en este conjunto de datos de evento de ejemplo no vinculado se omiten y no se incorporan (![DeleteOutline](/help/assets/icons/DeleteOutline.svg)).
+
+| Acción | Marca de tiempo | ID persistente | ID de cuenta | ID de persona | Tipo de evento |
+|:---:|--|--|---|---|---|
+| ![Agregar datos](/help/assets/icons/DataAdd.svg) | 1/3/25 | 1234 | Adobe | matt@adobe.com | Page view |
+| ![FiltrarEliminar](/help/assets/icons/DeleteOutline.svg) | 1/3/25 | 5678 |  | | |
+| ![Agregar datos](/help/assets/icons/DataAdd.svg) | 3/4/25 | 9012 | Ubiquidad | cory@sky.com |  |
+| ![Agregar datos](/help/assets/icons/DataAdd.svg) | 3/7/25 | 4321 | Cielo | emily@sky.com | Centro de llamadas |
+| ![FiltrarEliminar](/help/assets/icons/DeleteOutline.svg) | 5/5/25 | 6106 | | carmen@adobe.com |  |
+| ![Agregar datos](/help/assets/icons/DataAdd.svg) | 6/1/25 | 8989 | Ubiquidad | cassidy@ubiquity.com | |
+| ![FiltrarEliminar](/help/assets/icons/DeleteOutline.svg) | 6/2/25 | 1111 |  | | |
+
+La vinculación de cuentas B2B evita que los eventos se ignoren y no se ingieran mediante las siguientes operaciones:
+
+* [Elevar identidades de personas](#elevate-person-identities).
+* [Agregar identidades de cuenta faltantes](#add-missing-account-identitiers).
+
+
+### Elevar identidades de persona
+
++++ Detalles
+
+Para admitir la vinculación de cuentas B2B, debe proporcionar un conjunto de datos de asignación persona a cuenta. Por ejemplo:
+
+| ID de CRM | ID de cuenta |
+|---|---|
+| 12hsd123 | Adobe |
+| f82jsd32 | Cielo |
+| hg2023m2 | Cielo |
+| b978bbw9 | Ubiquidad |
+| fs453ghi | Adobe |
+
+Ese conjunto de datos de asignación de persona a cuenta se eleva mediante la vinculación basada en gráficos. Por ejemplo, proporciona un correo electrónico como el área de nombres que debe utilizar. El resultado es un conjunto de datos de asignación de persona a cuenta actualizado con ID de persona elevados.
+
+| ID de CRM | ID de persona elevado | ID de cuenta |
+|---|---|---|
+| 12hsd123 | matt@adobe.com | Adobe |
+| f82jsd32 | emily@sky.com | Cielo |
+| hg2023m2 | cory@sky.com | Cielo |
+| b978bbw9 | cassidy@ubiquity.com | Ubiquidad |
+| fs453ghi | carmen@adobe.com | Adobe |
+
+La vinculación basada en gráficos también se utiliza para elevar los ID de persona en el conjunto de datos de evento de experiencia. Por ejemplo, vea el valor actualizado de **emily@adobe.com**.
+
+| Marca de tiempo | ID persistente | ID de cuenta original | ID de persona original | ID de persona elevado |
+|--|--|---|---|---|
+| 1/3/25 | 1234 | Adobe | matt@adobe.com | matt@adobe.com |
+| 1/3/25 | 5678 |  | | **emily@adobe.com** |
+| 3/4/25 | 9012 | Ubiquidad | cory@sky.com | cory@sky.com |
+| 3/7/25 | 4321 | Cielo | emily@sky.com | emily@sky.com |
+| 5/5/25 | 6106 | | carmen@adobe.com | carmen@adobe.com |
+| 6/1/25 | 8989 | Ubiquidad | cassidy@ubiquity.com | cassidy@ubiquity.com |
+| 6/2/25 | 1111 |  | 111 | 111 |
+
+
++++
+
+### Añadir los identificadores de cuenta faltantes
+
++++ Detalles
+
+El conjunto de datos persona a cuenta se utiliza una vez más para elevar los ID de cuenta en el conjunto de datos de evento de experiencia. Por ejemplo, vea el valor agregado **Sky** para emily@sky.com y **Adobe** para carmen@adobe.com. Y el valor actualizado **Sky** (de Ubiquity) para cory@sky.com.
+
+| Marca de tiempo | ID persistente | ID de cuenta original | ID de persona original | ID de cuenta elevado | ID de persona elevado |
+|---|---|---|---|---|---|
+| 1/3/25 | 1234 | Adobe | matt@adobe.com | Adobe | matt@adobe.com |
+| 1/3/25 | 5678 | | | **Cielo** | **emily@sky.com** |
+| 3/4/25 | 9012 | Ubiquidad | cory@sky.com | **Cielo** | cory@sky.com |
+| 3/7/25 | 4321 | Cielo | emily@sky.com | Cielo | emily@sky.com |
+| 5/5/25 | 6106 | | carmen@adobe.com | **Adobe** | carmen@adobe.com |
+| 6/1/25 | 8989 | Ubiquidad | cassidy@ubiquity.com | Ubiquidad | cassidy@ubiquity.com |
+| 6/2/25 | 1111 |  | 1111 |  | 1111 |
+
++++
+
+### Resultado
+
+Este ejemplo muestra cómo la vinculación de cuentas B2B actualiza los datos del evento de experiencia con identificadores de persona que falta e identificadores de cuenta incorrectos y que faltan, en función del conjunto de datos de asignación de persona a cuenta que ha proporcionado como entrada.
+
 
 ## Requisitos previos
 
@@ -56,7 +142,7 @@ Antes de habilitar la vinculación de cuentas B2B, prepare los siguientes conjun
 
 ## Habilitar vinculación de cuentas {#enable-account-stitching}
 
-Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conexión y, a continuación, activar la vinculación de cuentas en conjuntos de datos de evento individuales dentro de esa conexión.
+Primero debe habilitar y configurar la vinculación de cuentas B2B en el nivel de conexión. Cuando la vinculación de cuentas B2B se configura para una conexión, puede activar la vinculación de cuentas en conjuntos de datos de evento individuales dentro de esa conexión.
 
 ### Configuración de vinculación B2B {#configure-b2b-stitching-settings}
 
@@ -93,13 +179,15 @@ Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conex
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_mapping_creation_time"
->title="Hora de creación de asignación"
+>title="Hora de creación de asignaciones"
 >abstract="De forma opcional, seleccione el campo que representa la fecha y la hora en que se creó la asignación de persona a cuenta. Útil para situaciones en las que una persona cambia de cuenta varias veces con el paso del tiempo."
 
 
 1. En Customer Journey Analytics, vaya a **[!UICONTROL Conexiones]** y [cree una nueva conexión](/help/connections/create-connection.md#create-a-connection) o [edite una conexión existente](/help/connections/create-connection.md#edit-a-connection).
 
 1. En **[!UICONTROL Configuración de conexión]**, establezca **[!UICONTROL ID principal]** en ![Creación](/help/assets/icons/Building.svg) **[!UICONTROL Cuenta]**.
+
+1. Asegúrese de seleccionar los **[!UICONTROL contenedores opcionales]** que desea utilizar en su conexión B2B. No puede modificar la selección de estos contenedores una vez que ha guardado una configuración de vinculación B2B.
 
 1. Seleccione **[!UICONTROL Abrir configuración de vinculación B2B]**.
 
@@ -124,7 +212,7 @@ Puede habilitar y configurar la vinculación de cuentas B2B en el nivel de conex
       | **[!UICONTROL Conjunto de datos de persona a cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione la búsqueda (registro o conjunto de datos de series no temporales) que asigna personas a las cuentas. |
       | **[!UICONTROL ID de la persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de persona. Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL ID de cuenta]** o que el campo **[!UICONTROL Hora de inicio]**. |
       | **[!UICONTROL ID de cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de cuenta. Ese campo no puede ser el mismo que el campo **[!UICONTROL ID de persona]** o que el campo **[!UICONTROL Hora de inicio]**. |
-      | **Hora de creación de la asignación** | | De forma opcional, seleccione el campo que representa la fecha y la hora en que se creó la asignación de persona a cuenta. Útil para situaciones en las que una persona cambia de cuenta varias veces con el paso del tiempo.<br/><br/>**Ejemplo** (cuando el campo **update_date** está seleccionado):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** antes del 1 de mayo de 2026: a@b.com está asignado a Apple.</li><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** el o después del 1 de mayo de 2026: a@b.com está asignado a Adobe.</li><ul> |
+      | **Hora de creación de la asignación** | | De forma opcional, seleccione el campo que representa la fecha y la hora en que se creó la asignación de persona a cuenta. Útil para situaciones en las que una persona cambia de cuenta varias veces con el paso del tiempo.<br/><br/>**Ejemplo** (cuando el campo **update_date** está seleccionado):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** antes del 1 de mayo de 2026: a@b.com está asignado a Apple.</li><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** el o después del 1 de mayo de 2026: a@b.com está asignado a Adobe.</li></ul>Cuando no se especifica ningún tiempo de asignación, se utiliza la primera cuenta lexicográfica para la asignación a. Este mismo algoritmo también se usa cuando dos nombres de cuenta diferentes tienen exactamente el mismo valor **[!UICONTROL update_date]** y se especifica una hora de creación de asignación. |
 
       >[!NOTE]
       >
@@ -185,7 +273,7 @@ Una vez que haya configurado la configuración de vinculación B2B y haya termin
 
 ## Programación de actualización de datos
 
-La vinculación de cuentas deriva el mapa de identidad de su [conjunto de datos persona a cuenta](#prerequisites) diariamente y utiliza esta información para actualizar los conjuntos de datos habilitados para la vinculación en la siguiente programación:
+La vinculación de cuentas deriva el mapa de identidad de su [conjunto de datos persona a cuenta](#prerequisites) diariamente y utiliza esta información para actualizar los conjuntos de datos habilitados para vincular a corto y largo plazo en la siguiente programación:
 
 | Reproducción | Frecuencia | Ventana Datos |
 |---|---|---|
