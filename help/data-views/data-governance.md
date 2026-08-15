@@ -23,10 +23,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 1254207526535e44c848dfeed0052339fbd8d65d
+source-git-commit: 0b6dc1d738b5f1a8aa430c990f8eb24df5d95653
 workflow-type: tm+mt
-source-wordcount: 745
-ht-degree: 66%
+source-wordcount: 770
+ht-degree: 65%
 
 ---
 
@@ -95,7 +95,9 @@ Haga clic en **[!UICONTROL Aplicar]** para ver qué políticas están habilitada
 
 ## Cómo afectan las políticas habilitadas a las vistas de datos
 
-Si una o más políticas están activadas con etiquetas C1, C2, C3, C8, C9 o C12, esos componentes de esquema que tienen determinadas etiquetas de datos aplicadas no se pueden añadir a las vistas de datos.
+Si una o más políticas están activadas con C3 o C8, los componentes de esquema que tienen determinadas etiquetas de datos aplicadas no se pueden añadir a las vistas de datos.
+
+Si se activan una o más directivas con C9, cualquier componente de esquema etiquetado con C9 no estará disponible para su uso con [servidores MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/).
 
 Estos componentes aparecen atenuados en la lista del carril izquierdo [!UICONTROL Campos del esquema]:
 
