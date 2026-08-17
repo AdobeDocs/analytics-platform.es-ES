@@ -5,26 +5,15 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 TQID: https://experienceleague.adobe.com/BPbSzyh6eg3QC6NcAVgo06GAISzVH2CX35Z-Q32xMbE
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
 workflow-type: tm+mt
-source-wordcount: 2478
-ht-degree: 98%
+source-wordcount: 2520
+ht-degree: 94%
 
 ---
 
@@ -35,7 +24,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="Frecuencia de actualización"
->abstract="Vea la frecuencia con la que se reevalúa el abono de un público.<br/>Los públicos únicos solo se evalúan una vez."
+>abstract="Frecuencia con la que se reevalúa el abono de una audiencia.<br/>Las audiencias únicas se evalúan solo una vez y no se contabilizan en el límite de actualización."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -43,8 +32,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
->title="Límite de público"
->abstract="Los públicos actualizados están limitados a la frecuencia con la que se actualizan."
+>title="Actualizar límite de audiencia"
+>abstract="El número de audiencias del entorno que están configuradas para actualizarse automáticamente con una frecuencia programada. Los límites están entre 75 y 150, según sus derechos de Customer Journey Analytics. Las actualizaciones únicas no se contabilizan para este límite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -89,7 +78,7 @@ Lea esta [información general](/help/components/audiences/audiences-overview.md
    | Método de creación | Detalles |
    | --- | --- |
    | Desde la interfaz de **[!UICONTROL audiencias publicadas]** | Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Audiencias publicadas]** en el menú principal de Customer Journey Analytics. Se muestra la interfaz Públicos. Seleccione **[!UICONTROL Generar público]** y se abrirá el [!UICONTROL Generador de públicos]. |
-   | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear un público utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear público]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el segmento del Generador de públicos con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear un público utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Lienzo de recorrido](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mapa &#x200B;](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** Esta visualización se encuentra en la fase Prueba limitada de la versión y es posible que no esté disponible aún en su entorno.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Los públicos no pueden incluir métricas calculadas. Si intenta crear un público que contenga una métrica calculada, ésta no se incluirá en la definición de público.</p> |
+   | Desde una visualización en Analysis Workspace | Muchas visualizaciones en Analysis Workspace permiten crear un público utilizando el menú contextual. Por ejemplo, puede seleccionar **[!UICONTROL Crear público]** en el menú contextual de un elemento en una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o en un nodo en [Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>Mediante este método se rellena previamente el segmento del Generador de públicos con la dimensión o el elemento de dimensión que haya seleccionado.</p><p>Las siguientes visualizaciones le permiten crear un público utilizando el menú contextual:</p><ul><li>[Tabla de cohorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Visita en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flujo](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Lienzo de recorridos](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mapa ](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** Esta visualización se encuentra en la fase Prueba limitada de la versión y es posible que no esté disponible aún en su entorno.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** Los públicos no pueden incluir métricas calculadas. Si intenta crear un público que contenga una métrica calculada, ésta no se incluirá en la definición de público.</p> |
    | Desde la interfaz de usuario de creación/edición de segmentos | Marque la casilla que dice **[!UICONTROL Crear un público a partir de este segmento]**. Mediante este método se rellena previamente el segmento. Consulte [Crear segmentos](/help/components/segments/seg-create.md) para obtener más información. |
 
    {style="table-layout:auto"}
@@ -117,7 +106,7 @@ Configure estas opciones para definir o actualizar el público.
 | **[!UICONTROL Nombre]** | El nombre del público. Por ejemplo, `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL Etiquetas]** | Cualquier etiqueta que desee asignar al público con fines organizativos. Puede seleccionar una o varias etiquetas preexistentes o introducir una nueva. |
 | **[!UICONTROL Descripción]** | Descripción del público, para diferenciarlo de otros. Por ejemplo, `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL Frecuencia de actualización]** | La frecuencia con la que desea actualizar el público.<p/>Puede cambiar entre <ul><li>Público **[!UICONTROL único]**: público (predeterminado) que no necesita ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas y específicas.<br/>Debe especificar un **[!UICONTROL intervalo de fechas único]**. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para especificar un intervalo de fechas.</li><li>Un público que se actualiza. Puede seleccionar las siguientes opciones:<ul><li>**[!UICONTROL Cada 4 horas]**: un público que se actualiza cada 4 horas.</li><li>**[!UICONTROL Diario]**: un público que se actualiza diariamente</li><li>**[!UICONTROL Semanal]**: un público que se actualiza semanalmente.</li><li>**[!UICONTROL Mensual]**: un público que se actualiza mensualmente</li></ul></li>Para actualizar públicos, debe especificar lo siguiente:<ul><li>**[!UICONTROL Actualice la ventana de retroactividad]**. Defina el número de días retroactivos a partir de hoy en los que se evaluará a un público. Puede seleccionar entre las opciones o definir un tiempo personalizado. El máximo es de 90 días.</li><li>**[!UICONTROL Fecha de caducidad]**: defina cuándo el público dejará de actualizarse. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar una fecha. El valor predeterminado es 1 año a partir de la fecha de creación. Los públicos que caducan se tratan de manera similar a los informes programados que caducan. El administrador recibe un correo electrónico un mes antes de que el público caduque.</li></ul> Tenga en cuenta que hay un límite de 75 a 150 actualizaciones de público, según los derechos de Customer Journey Analytics.</li></ul> |
+| **[!UICONTROL Frecuencia de actualización]** | La frecuencia con la que desea actualizar el público.<p/><p>Puede configurar una actualización programada para un número limitado de audiencias (entre 75 y 150), en función de sus derechos de Customer Journey Analytics. </p><p>Puede elegir entre las siguientes opciones:</p><ul><li>Público **[!UICONTROL único]**: público (predeterminado) que no necesita ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas y específicas.<br/>Debe especificar un **[!UICONTROL intervalo de fechas único]**. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para especificar un intervalo de fechas.</li><li>Un público que se actualiza. Puede seleccionar las siguientes opciones de refrescamiento programado:<ul><li>**[!UICONTROL Cada 4 horas]**: un público que se actualiza cada 4 horas.</li><li>**[!UICONTROL Diario]**: un público que se actualiza diariamente</li><li>**[!UICONTROL Semanal]**: un público que se actualiza semanalmente.</li><li>**[!UICONTROL Mensual]**: un público que se actualiza mensualmente</li></ul></li>Para actualizar públicos, debe especificar lo siguiente:<ul><li>**[!UICONTROL Actualice la ventana de retroactividad]**. Defina el número de días retroactivos a partir de hoy en los que se evaluará a un público. Puede seleccionar entre las opciones o definir un tiempo personalizado. El máximo es de 90 días.</li><li>**[!UICONTROL Fecha de caducidad]**: defina cuándo el público dejará de actualizarse. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar una fecha. El valor predeterminado es 1 año a partir de la fecha de creación. Los públicos que caducan se tratan de manera similar a los informes programados que caducan. El administrador recibe un correo electrónico un mes antes de que el público caduque.</li></ul></ul> |
 | **[!UICONTROL Filtro]** | Los filtros son la entrada principal al público. Arrastre y suelte uno o varios segmentos del panel izquierdo ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** en el área Segmento. Puede utilizar ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar segmentos*] para buscar segmentos. Se pueden añadir hasta 20 segmentos. Los segmentos pueden unirse con los operadores **[!UICONTROL And]** o **[!UICONTROL Or]**.<p>Al crear un público a partir de una visualización en Analysis Workspace (como una tabla de forma libre o un lienzo de recorridos), se conservan los segmentos aplicados al panel o a la columna. Puede quitar cualquier segmento que se aplique automáticamente.</p> |
 | **[!UICONTROL Previsualización de datos]** | Seleccione ![Información](/help/assets/icons/Info.svg) para mostrar u ocultar la [previsualización de datos](#data-preview) para el intervalo de fechas seleccionado. |
 
