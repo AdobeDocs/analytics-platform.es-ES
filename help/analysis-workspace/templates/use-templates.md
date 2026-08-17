@@ -6,11 +6,27 @@ role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 89f0a1e54662c59d474b1fba28eb8420612e9243
 workflow-type: tm+mt
 source-wordcount: 21140
@@ -247,7 +263,7 @@ Para acceder a todas las plantillas creadas previamente que están disponibles:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Tutorial de formación**] | Conozca la terminología común de Analysis Workspace y los pasos para crear su primer análisis |
 | [!UICONTROL **Páginas**] | <!--duplicated in Engagement section--> Identificar las páginas más populares y menos populares. <p>**Esto puede ayudarle** a entender mejor a su público y el tipo de información que más les interesa.</p><p>**En función de lo que aprenda, puede** hacer cualquier cosa, como ajustar los metadatos de la página para aumentar la visibilidad en páginas menos vistas o dedicar tiempo a mejorar el contenido de sus páginas más vistas.</p><p>Esta plantilla usa la dimensión Página y la métrica Vistas de página.</p> |
@@ -395,7 +411,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Métricas clave**] | <!--duplicated in Most popular section--> Consultar un informe que muestra en paralelo las métricas de vistas de página, visitas y visitantes únicos. Los datos se muestran a lo largo de un período de tiempo y se comparan con los períodos anteriores. <p>**Esto puede ayudarle** a comparar estas métricas importantes para obtener una imagen más completa del número de personas únicas que visitan el sitio, el número de veces que se visitaron las páginas y la cantidad de sesiones.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como evaluar el promedio de páginas que vio cada persona al visitar el sitio en una semana o mes determinados, y cómo eso cambió durante determinadas épocas del año o antes y después de que se ejecutaran las campañas de marketing. </p><p>Esta plantilla usa la dimensión Día, la métrica Vistas de página, la métrica Visitas y la métrica Visitantes únicos.</p> |
 | [!UICONTROL **Vistas de páginas**] | <!--duplicated in Most popular section-->Ver el número total de vistas de la página. Los datos se muestran a lo largo de un período de tiempo y se comparan con los períodos anteriores. <p>**Esto puede ayudarle** a comprender mejor cómo el tráfico del sitio puede aumentar o disminuir con el tiempo.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como evaluar la eficacia de una campaña de marketing lanzada recientemente comparando el tráfico del sitio antes y después del lanzamiento de la campaña. O puede comparar el tráfico de los días festivos año tras año.</p><p>Esta plantilla usa la dimensión Día y la métrica Vistas de página.</p> |
@@ -473,7 +489,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Canal de conversión de productos**] | Ver la conversión del producto en una visualización de canal que muestra carros de compras, cierres de compra y pedidos. También puede ver porcentajes de conversión, promedios de ingresos, promedios unitarios y promedios de pedidos.<p>**Esto puede ayudarle** a comprender mejor cómo avanzan y abandonan las personas durante el proceso de conversión.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el sitio web para facilitar un proceso de cierre de compra más fluido.</p> |
 | **Productos** | Ver qué productos están impulsando las métricas clave, como los más vendidos o los más vistos. <p>**Esto puede ayudarle** a comprender mejor qué productos tienen más éxito.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como aumentar los fondos para productos exitosos y disminuirlos para productos menos exitosos.</p><p>Esta plantilla utiliza la métrica Pedidos y la dimensión Producto. |
@@ -659,7 +675,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | **[!UICONTROL Resumen de audiencia]** | Ver qué públicos se representan entre las personas que visitan el sitio.<p>**Esto puede ayudarle a** comprender mejor la información general sobre el público, dónde se originó (RTCDP, Customer Journey Analytics, etc.), su superposición y mucho más.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como usar los datos para centrarse en los esfuerzos de marketing para este público en concreto o crear experiencias adaptadas para los clientes que abarcan varios públicos.</p><p>Esta plantilla utiliza las dimensiones Nombre de audiencia, Origen de audiencia, Nombre de audiencia de salida y Origen de audiencia de salida.</p><p>Para obtener más información, consulte [Analizar audiencias de Experience Platform en Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> |
 | [!UICONTROL **Visitantes por primera vez frente a visitantes recurrentes**] | Ver una comparación de los visitantes nuevos que repiten visita. <p>**Esto puede ayudarle** a comprender mejor la eficacia de su sitio para conservar la lealtad de sus clientes o la velocidad a la que está adquiriendo nuevos clientes.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ofrecer incentivos para futuras compras a los visitantes nuevos con el fin de animarlos a que regresen.</p><!-- This template uses the --> |
@@ -779,7 +795,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Informe de información general sobre los canales**] | Al utilizar la atribución personalizada, esta plantilla muestra cómo llegan los visitantes al sitio.<p>**Esto puede ayudarle** a entender mejor cuáles de sus canales de marketing son los más efectivos.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como invertir más en canales de marketing efectivos y desinvertir en canales de marketing menos eficaces.</p><p>Esta plantilla usa la dimensión ID (variables/canal de mercadotecnia) y la métrica Ingresos.</p> |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Canal de primer contacto**] | Consulte el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (de forma predeterminada, 30 días). <p>**Esto puede ayudarle** a comprender mejor qué canales de marketing dirigen el tráfico inicial a su sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Canal de primer contacto.</p> |
@@ -849,7 +865,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Pantallas de aplicaciones móviles**] | Ver el número de eventos, sesiones y personas asociadas con cada pantalla en la aplicación móvil.<p>**Esto puede ayudarle** a comprender mejor qué pantallas del sitio son las más populares.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el contenido en las pantallas más populares.</p><p>Esta plantilla utiliza las métricas Eventos, Sesiones, Personas y Porcentaje de cambio. También utiliza la dimensión Mosaico de página.</p> |
 | **Acciones de la aplicación móvil** | Vea las acciones que realizan las personas en la aplicación móvil. <p>**Esto puede ayudarle** a comprender mejor cómo usan su aplicación las personas y el valor que obtienen de ella.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como desarrollar funciones que complementen o mejoren las que sean más populares.</p><p>Esta plantilla utiliza las métricas Eventos, Sesiones, Personas y Porcentaje de cambio. |
@@ -885,7 +901,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Operador de telefonía móvil**] | Ver la compañía de telecomunicaciones que proporciona conectividad de red celular a los dispositivos móviles que los usuarios utilizan para acceder al sitio.<p>**Esto puede ayudarle** a comprender mejor qué operadores de telefonía móvil son los más populares entre su base de usuarios.</p><p>**En función de lo que aprenda, podría** hacer cualquier cosa, como adaptar la entrega de contenido en función de las capacidades de red de diferentes operadores para garantizar una experiencia de usuario sin problemas.</p><p>Esta plantilla usa la dimensión Operador de telefonía móvil.</p> |
 | **Dispositivos** | Ver la marca y el modelo de dispositivos móviles que los usuarios utilizan para acceder al sitio.<p>**Esto puede ayudarle** a comprender mejor qué dispositivos móviles son los más populares entre su base de usuarios.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar la representación del sitio para los dispositivos móviles más comunes.</p><p>Esta plantilla usa la dimensión Nombre de dispositivo móvil.</p> |
@@ -949,7 +965,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Minuto de la hora**] | Ver el número de eventos, sesiones y personas del sitio, desglosado por minuto. Por ejemplo, si tiene un informe con un periodo de tiempo de creación de informes de un solo día, el primer minuto de cada hora del día se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarle** a comprender mejor las tendencias a nivel granular.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como optimizar los recursos para las horas punta al minuto.</p><p>Esta plantilla utiliza la dimensión Minuto de la hora.</p> |
 | **Hora del día** | Vea eventos, sesiones y personas del sitio, desglosados por hora del día. Por ejemplo, si tiene un informe que abarca del 1 de enero al 7 de enero, la primera hora de cada día se agrupa en el mismo elemento de dimensión.<p>**Esto puede ayudarle** a comprender mejor a qué hora del día se visita el sitio con mayor y menor frecuencia.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como asignar más recursos informáticos al sitio durante las horas de mayor tráfico.</p><p>Esta plantilla utiliza la dimensión Hora del día.</p> |
@@ -989,7 +1005,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Información general multicanal**] | Ver la distribución del tráfico en múltiples canales. <p>**Esto puede ayudarle** a comprender mejor qué canales están impulsando el tráfico y la participación con más éxito. </p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrar los esfuerzos de marketing en los canales que están logrando el mayor retorno de la inversión.</p><p>Esta plantilla utiliza las métricas de usuario, sesión y evento.</p> |
 | **Web+aplicación** | Vea conjuntamente el tráfico web y el tráfico móvil.<p>**Esto puede ayudarle** a comprender mejor la distribución del tráfico web y móvil a su sitio.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como asignar más recursos a su experiencia de aplicación móvil cuando alcanza un determinado nivel de tráfico.</p><p>Esta plantilla utiliza las métricas Sesiones web, Sesiones de aplicación móvil y Sesiones en canales múltiples web+aplicación.</p> |
@@ -1026,7 +1042,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Panel de control del centro de llamadas**] | Ver los datos del centro de llamadas, incluido el motivo por el que los clientes han llamado y la cantidad de veces. <p>**Esto puede ayudarle** a comprender mejor dónde están experimentando los clientes los problemas y dónde se están gastando los recursos del centro de llamadas.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como solucionar problemas de productos que aumentan el tráfico del centro de llamadas y que, en última instancia, mejoran la rentabilidad de los productos.</p> |
 | **Punto de venta** | Ver datos de transacciones del punto de venta (TPV), incluidos los ingresos obtenidos, los pedidos realizados y las unidades vendidas. Esta plantilla también incluye visualizaciones que muestran información sobre las principales tiendas, los principales productos y las principales categorías de productos, así como las ventas en línea frente a las ventas sin conexión. <p>**Esto puede ayudarle** a comprender mejor cuáles son sus productos más vendidos en las tiendas y en línea.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como asignar más recursos de marketing a los productos y canales de mayor rendimiento.</p><p>Esta plantilla utiliza las métricas Usuarios, Ingresos y Pedidos.</p> |
@@ -1065,7 +1081,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Campañas de Journey Optimizer**] | Vea métricas esenciales para sus campañas de Journey Optimizer, incluidas campañas de correo electrónico, experimentación, in-app, SMS y más.<p>**Esto puede ayudarle** a comprender mejor detalles como el recuento de clics y la cantidad de mensajes enviados, lo que ofrece una perspectiva completa de la eficacia y del nivel de participación de su campaña.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como ajustar sus campañas en función de los niveles de participación de su público destinatario.</p> |
 | **Recorridos de Journey Optimizer** | Vea métricas esenciales para sus recorridos de Journey Optimizer, incluidos recorridos de correo electrónico, experimentación, in-app, SMS y más.<p>**Esto puede ayudarle** a comprender mejor detalles como el recuento de clics y la cantidad de mensajes enviados, lo que ofrece una perspectiva completa de la efectividad y del nivel de participación de su recorrido.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como ajustar sus campañas en función de los niveles de participación de su público destinatario.</p> |
@@ -1085,7 +1101,7 @@ Las plantillas disponibles son las siguientes:
 >title="Rastree el ciclo de vida completo de las convocatorias de reunión B2B. Monitorice las tasas de conversión, el rendimiento del consultor e identifique los canales de generación de posibles clientes más efectivos."
 >abstract="**Esto puede ayudarle** a realizar un seguimiento de las tasas de conversión de las reuniones, identificar a los integrantes del equipo con un alto rendimiento, comprender las tendencias estacionales en el comportamiento de las reservas y determinar qué páginas generan las convocatorias de reunión más valiosas.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el proceso de convocatoria de reunión, redistribuir recursos a páginas con un alto nivel de conversión, desarrollar cursos de formación dirigidos a consultores con tasas de reserva más bajas o implementar nuevas estrategias para reducir las reuniones perdidas."
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Información general de Brand Concierge**] | Analice la participación del usuario a través de patrones de conversación, comentarios del usuario y la eficacia de sus recomendaciones. <p>**Esto puede ayudarle** a identificar patrones de participación, evaluar la calidad de la conversación, hacer un seguimiento de las tendencias de satisfacción de los clientes y medir la eficacia de las recomendaciones de vínculos.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como perfeccionar las respuestas de su agente de IA, desarrollar contenido dirigido para problemas frecuentes, mejorar los algoritmos de recomendación o crear rutas especializadas para diferentes segmentos de usuarios.</p> |
 | **Reuniones B2B de Brand Concierge** | Rastree el ciclo de vida completo de las convocatorias de reunión B2B. Monitorice las tasas de conversión, evalúe el rendimiento de las reservas de los consultores e identifique los canales de generación de posibles clientes más efectivos. <p>**Esto puede ayudarle** a realizar el seguimiento de las tasas de conversión de las reuniones, identificar a los integrantes del equipo de alto rendimiento, comprender las tendencias estacionales en el comportamiento de las reservas y determinar las direcciones URL de las páginas que generan las convocatorias de reunión más valiosas. </p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el proceso de convocatoria de reunión, redistribuir recursos a direcciones URL de páginas de alta conversión, desarrollar formación dirigida a consultores con tasas de reserva más bajas o implementar nuevas estrategias para reducir las reuniones perdidas.</p> |
@@ -1115,7 +1131,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Información general sobre la participación de la cuenta B2B**] | Vea la actividad de sus cuentas en todos los eventos, personas y oportunidades.<p>**Esto puede ayudarle** a comprender mejor si la participación a nivel de cuenta tiene tendencia a subir o bajar, comparar la actividad en todas las cuentas y decidir dónde enfocar los esfuerzos de retención o adquisición.</p><p>**En función de lo que aprenda, puede** hacer muchas cosas, como volver a centrarse en las cuentas que corren menos riesgos, pero que requieren más atención debido a su importancia.</p> |
 | [!UICONTROL **Información general sobre la participación de oportunidad B2B**] | Rastree la participación en la oportunidad y descubra las ofertas que ganen o pierdan impulso.<p>**Esto puede ayudarle** a pronosticar la progresión de la oferta con mayor precisión y a concentrar la habilitación allí donde la participación se intensifique o se estanque.</p><p>**En función de lo que aprenda, puede** hacer muchas cosas, como dirigir algunos esfuerzos adicionales en ofertas que están casi cerradas e investigar por qué otras ofertas están perdiendo impulso.</p> |
@@ -1126,7 +1142,7 @@ Las plantillas disponibles son las siguientes:
 
 Las plantillas disponibles son las siguientes:
 
-| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Datos del modelo incremental de Mix Modeler**] | Vea información de modelos seleccionados generados por Mix Modeler.<p>**Esto puede ayudarle** a comprender mejor la información incremental de los modelos generados en Mix Modeler. <p>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul></p> |
 
