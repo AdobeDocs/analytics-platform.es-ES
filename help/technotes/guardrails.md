@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
+source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
 workflow-type: tm+mt
-source-wordcount: 2441
+source-wordcount: 2440
 ht-degree: 9%
 
 ---
@@ -109,7 +109,7 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 | Frecuencia de actualización de audiencia | 4 | Protección impuesta por el sistema | Frecuencia máxima en horas que se puede actualizar una [audiencia](../components/audiences/audiences-overview.md). |
 | Ventana retrospectiva de actualización de audiencia | 90 | Protección impuesta por el sistema | Número máximo de días para actualizar la ventana retrospectiva. |
 | Actualizando fecha de caducidad de audiencia | 13 | Protección impuesta por el sistema | La audiencia deja de actualizarse durante un número máximo de meses a partir de la fecha de creación. Los clientes pueden prolongar esta duración otros 13 meses. |
-| Número de audiencias actualizadas | 75, 150 | Protección impuesta por el sistema | Número máximo de audiencias de actualización. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
+| Número de audiencias actualizadas | 75 - 150 | Protección impuesta por el sistema | Número máximo de [audiencias que están configuradas para actualizarse](/help/components/audiences/publish.md#audience-builder) en una frecuencia programada (las actualizaciones únicas no se contabilizan en este límite). El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 
 {style="table-layout:auto"}
 
@@ -301,7 +301,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 | Vinculación (característica opcional; consulte [Información general sobre la vinculación](../stitching/overview.md) para obtener más información) | &lt; 4 horas |
 | Relleno de menos de 10 000 millones de eventos en el conector Source de Adobe Analytics (máximo de 13 meses de datos históricos) | &lt; 4 semanas |
 | Publicación de audiencias en el Perfil del cliente en tiempo real, lo que incluye la creación automática del segmento de flujo continuo y permite que el segmento esté listo para recibir los datos. | ≈ 60 minutos |
-| Frecuencia de actualización para audiencias | Actualización única: latencia inferior a 5 minutos.<br/>Actualizar cada 4 horas, diaria, semanal o mensual (la latencia va de la mano con la frecuencia de actualización). |
+| Frecuencia de actualización para audiencias | Actualice cada 4 horas, diariamente, semanalmente o mensualmente. |
 
 | Latencias de informes en tiempo real | Latencia esperada |
 |---|---|

@@ -33,10 +33,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
+source-git-commit: e2ec268ef4a2d84d51089e7b59b3df5b0ad6f48d
 workflow-type: tm+mt
-source-wordcount: 6984
-ht-degree: 99%
+source-wordcount: 7019
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 |---|---|
+| **Agosto de 2026** | |
+| Se ha aclarado la información sobre la actualización de audiencias | Cuando [publicaron audiencias](/help/components/audiences/publish.md#audience-builder), aclaró que el número de audiencias que se pueden programar para actualizarse depende de sus derechos de Customer Journey Analytics y está entre 75 y 150. |
 | **Julio de 2026** | |
 | Visibilidad de la marca de integración entrante | Documentación para la [integración entrante de Visibilidad de la marca](/help/integrations/bv.md#inbound-integration). |
 | Interfaz de uso | Actualizaciones de la documentación de [Interfaz de uso](/help/connections/manage-connections.md#usage) para Conexiones. |
