@@ -25,10 +25,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6af3e9063dc192814c888e786ca61ff1703aedf5
+source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
 workflow-type: tm+mt
-source-wordcount: 4177
-ht-degree: 65%
+source-wordcount: 4186
+ht-degree: 64%
 
 ---
 
@@ -84,12 +84,12 @@ El asistente de configuración guiada consta de cuatro secciones ([Detalles](#de
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_button"
 >title="Detalles"
->abstract="Introduzca un nombre para la conexión. En las secciones **[!UICONTROL Vista de datos]**, **[!UICONTROL Captura y definición de experiencias]** y **[!UICONTROL Recopilación de datos]**, proporcione más detalles para garantizar que Content Analytics se pueda configurar correctamente."
+>abstract="Introduzca un nombre para la conexión. Proporcione un nombre para la configuración y elija el simulador para pruebas que contiene los datos de análisis de contenido que desea analizar."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="Detalles"
->abstract="Esta guía establece los requisitos necesarios para configurar el análisis de contenido. Proporcione un nombre para esta configuración"
+>abstract="Esta guía establece los requisitos necesarios para configurar el análisis de contenido. Asigne un nombre a esta configuración y seleccione la zona protegida que contiene los datos de análisis de contenido que desea analizar."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -297,17 +297,17 @@ Para configurar la recopilación de datos:
 
 * Utilice una propiedad de etiquetas móviles existente o cree una nueva propiedad de etiquetas móviles.
 
-   * Para utilizar una propiedad de etiquetas móviles existente:
+  * Para utilizar una propiedad de etiquetas móviles existente:
 
-      1. Seleccione **[!UICONTROL Elegir existente]**.
-      2. Seleccione una propiedad existente en el menú desplegable **[!UICONTROL Propiedad Etiquetas]**. Puede empezar a escribir para buscar y limitar las opciones disponibles. No puede seleccionar una propiedad Etiquetas que ya utilice otra configuración de Content Analytics implementada.
+    1. Seleccione **[!UICONTROL Elegir existente]**.
+    2. Seleccione una propiedad existente en el menú desplegable **[!UICONTROL Propiedad Etiquetas]**. Puede empezar a escribir para buscar y limitar las opciones disponibles. No puede seleccionar una propiedad Etiquetas que ya utilice otra configuración de Content Analytics implementada.
 
 
-   * Para crear una nueva propiedad de etiquetas móviles:
+  * Para crear una nueva propiedad de etiquetas móviles:
 
-      1. Seleccione **[!UICONTROL Crear nueva clase]**.
-      1. Especifique un **[!UICONTROL Nombre de Etiquetas]**, por ejemplo `ACA Test for Documentation`.
-      1. Especifique **[!UICONTROL dominios]**, por ejemplo, `example.com`.
+    1. Seleccione **[!UICONTROL Crear nueva clase]**.
+    1. Especifique un **[!UICONTROL Nombre de Etiquetas]**, por ejemplo `ACA Test for Documentation`.
+    1. Especifique **[!UICONTROL dominios]**, por ejemplo, `example.com`.
 
 * Indique qué ubicaciones de experiencia deben excluirse al recopilar datos para Content Analytics. Asegúrese de excluir las ubicaciones de experiencias que permitan identificarse personalmente.
 
@@ -489,8 +489,8 @@ Para editar experiencias existentes o incluir unas nuevas en una configuración 
 
 * Alternar **[!UICONTROL Incluir experiencias]** para habilitar o deshabilitar:
 
-   * Proceso que genera atributos de experiencia a partir de datos de evento de Content Analytics
-   * La plantilla de informes de Customer Journey Analytics.
+  * Proceso que genera atributos de experiencia a partir de datos de evento de Content Analytics
+  * La plantilla de informes de Customer Journey Analytics.
 
 * Seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** para editar aún más la configuración de la recopilación de datos para experiencias en Content Analytics. Se le redirige a la extensión [Adobe Content Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) en la propiedad Etiquetas que está asociada a la configuración actual.
 
@@ -502,19 +502,19 @@ Para configurar la recopilación de datos:
 
 * Utilice una propiedad de etiquetas web existente o cree una nueva propiedad de etiquetas web.
 
-   * Para utilizar una propiedad de etiquetas web existente:
+  * Para utilizar una propiedad de etiquetas web existente:
 
-      1. Seleccione **[!UICONTROL Elegir existente]**.
-      2. Seleccione una propiedad existente en el menú desplegable **[!UICONTROL Propiedad Etiquetas]**. Puede empezar a escribir para buscar y limitar las opciones disponibles. No puede seleccionar una propiedad Etiquetas que ya utilice otra configuración de Content Analytics implementada.
+    1. Seleccione **[!UICONTROL Elegir existente]**.
+    2. Seleccione una propiedad existente en el menú desplegable **[!UICONTROL Propiedad Etiquetas]**. Puede empezar a escribir para buscar y limitar las opciones disponibles. No puede seleccionar una propiedad Etiquetas que ya utilice otra configuración de Content Analytics implementada.
 
 
-   * Para crear una nueva propiedad de etiquetas web:
+  * Para crear una nueva propiedad de etiquetas web:
 
-      1. Seleccione **[!UICONTROL Crear nueva clase]**.
-      1. Especifique un **[!UICONTROL Nombre de Etiquetas]**, por ejemplo `ACA Test for Documentation`.
-      1. Especifique **[!UICONTROL dominios]**, por ejemplo, `example.com`.
+    1. Seleccione **[!UICONTROL Crear nueva clase]**.
+    1. Especifique un **[!UICONTROL Nombre de Etiquetas]**, por ejemplo `ACA Test for Documentation`.
+    1. Especifique **[!UICONTROL dominios]**, por ejemplo, `example.com`.
 
-     Utilice una nueva propiedad Tags si desea crear una implementación independiente de Etiquetas para el canal Web mediante la [biblioteca JavaScript de Content Analytics](/help/content-analytics/config/tags-agnostic.md). La propiedad Etiquetas se crea, pero no se utiliza en la implementación agnóstica. Sin embargo, la implementación independiente requiere que haya ejecutado el asistente de configuración guiada al menos una vez.
+    Utilice una nueva propiedad Tags si desea crear una implementación independiente de Etiquetas para el canal Web mediante la [biblioteca JavaScript de Content Analytics](/help/content-analytics/config/tags-agnostic.md). La propiedad Etiquetas se crea, pero no se utiliza en la implementación agnóstica. Sin embargo, la implementación independiente requiere que haya ejecutado el asistente de configuración guiada al menos una vez.
 
 * Indique qué páginas deben incluirse o excluirse al recopilar datos para Content Analytics. Asegúrese de excluir las páginas de identificación personal.
 
@@ -582,24 +582,24 @@ Al crear o editar una configuración, tiene estas opciones:
 * **[!UICONTROL Guardar para más tarde]**: los cambios realizados en una configuración se guardarán. Puede volver a consultar la configuración en una fase posterior para realizar más cambios o implementar la configuración. Solo se requiere un valor para [!UICONTROL Nombre] para guardar una configuración.
 * **[!UICONTROL Implementar]**: La configuración o los cambios realizados en una configuración se han guardado e implementado. Todos los campos marcados como ![Obligatorio](/help/assets/icons/Required.svg) deben tener los valores adecuados. La implementación consiste en lo siguiente:
 
-   * Configuración de **[!UICONTROL Customer Journey Analytics]**:
-      * La vista de datos seleccionada se actualiza para incluir dimensiones y métricas de Content Analytics.
-      * La Conexión asociada a la vista de datos seleccionada se modifica para incluir los conjuntos de datos de eventos y atributos de Content Analytics.
-      * Se añade una plantilla de informes de Content Analytics a Workspace.
+  * Configuración de **[!UICONTROL Customer Journey Analytics]**:
+    * La vista de datos seleccionada se actualiza para incluir dimensiones y métricas de Content Analytics.
+    * La Conexión asociada a la vista de datos seleccionada se modifica para incluir los conjuntos de datos de eventos y atributos de Content Analytics.
+    * Se añade una plantilla de informes de Content Analytics a Workspace.
 
 
-   * Configuración de **[!UICONTROL Adobe Experience Platform]**:
-      * La creación de esquemas para modelar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
-      * La creación de conjuntos de datos para recopilar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
-      * La creación de un flujo de datos que utiliza el servicio de caracterización para generar y actualizar atributos de contenido a partir de eventos de Content Analytics.
+  * Configuración de **[!UICONTROL Adobe Experience Platform]**:
+    * La creación de esquemas para modelar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
+    * La creación de conjuntos de datos para recopilar eventos de Content Analytics, atributos de recursos y atributos de experiencia (si están configurados).
+    * La creación de un flujo de datos que utiliza el servicio de caracterización para generar y actualizar atributos de contenido a partir de eventos de Content Analytics.
 
 
-   * Configuración de la **[!UICONTROL recopilación de datos]**:
-      * La propiedad de Etiquetas nueva o existente está configurada para admitir la recopilación de datos de Content Analytics. Esta configuración implica la inclusión de la extensión de Content Analytics de Adobe para las etiquetas.
-      * Se crea una secuencia de datos para los eventos de Content Analytics.
-      * La extensión de Content Analytics de Adobe está configurada para garantizar que los eventos de Content Analytics se envíen a la secuencia de datos de Content Analytics.
-      * Si Web SDK o Mobile SDK no están configurados para la propiedad Tags, se crea una nueva configuración de Web SDK o Mobile SDK para enviar únicamente eventos de Content Analytics.
-      * Si Web SDK o Mobile SDK están configurados para la propiedad Tags, no se realizan cambios en la configuración existente de Web SDK o Mobile SDK.
+  * Configuración de la **[!UICONTROL recopilación de datos]**:
+    * La propiedad de Etiquetas nueva o existente está configurada para admitir la recopilación de datos de Content Analytics. Esta configuración implica la inclusión de la extensión de Content Analytics de Adobe para las etiquetas.
+    * Se crea una secuencia de datos para los eventos de Content Analytics.
+    * La extensión de Content Analytics de Adobe está configurada para garantizar que los eventos de Content Analytics se envíen a la secuencia de datos de Content Analytics.
+    * Si Web SDK o Mobile SDK no están configurados para la propiedad Tags, se crea una nueva configuración de Web SDK o Mobile SDK para enviar únicamente eventos de Content Analytics.
+    * Si Web SDK o Mobile SDK están configurados para la propiedad Tags, no se realizan cambios en la configuración existente de Web SDK o Mobile SDK.
 
 
 * **[!UICONTROL Guardar]**: los cambios realizados en una configuración implementada se guardan y la implementación se actualiza.

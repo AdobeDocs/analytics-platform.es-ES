@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 6e2c1271de0e1ea82820c108eec08ec815d776f3
+source-git-commit: a4ff89823bf1e4e4aa6d299b74567ed8cb486d06
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1924
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ Para ilustrar cómo funciona la vinculación de cuentas B2B, se utiliza el conju
 En Customer Journey Analytics B2B edition, los eventos sin ID de cuenta en este conjunto de datos de evento de ejemplo no vinculado se omiten y no se incorporan (![DeleteOutline](/help/assets/icons/DeleteOutline.svg)).
 
 | Acción | Marca de tiempo | ID persistente | ID de cuenta | ID de persona | Tipo de evento |
-|:---:|--|--|---|---|---|
+|:---:|--:|--|---|---|---|
 | ![Agregar datos](/help/assets/icons/DataAdd.svg) | 1/3/25 | 1234 | Adobe | matt@adobe.com | Page view |
 | ![FiltrarEliminar](/help/assets/icons/DeleteOutline.svg) | 1/3/25 | 5678 |  | | |
 | ![Agregar datos](/help/assets/icons/DataAdd.svg) | 3/4/25 | 9012 | Ubiquidad | cory@sky.com |  |
@@ -212,7 +212,7 @@ Primero debe habilitar y configurar la vinculación de cuentas B2B en el nivel d
       | **[!UICONTROL Conjunto de datos de persona a cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione la búsqueda (registro o conjunto de datos de series no temporales) que asigna personas a las cuentas. |
       | **[!UICONTROL ID de la persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de persona. Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL ID de cuenta]** o que el campo **[!UICONTROL Hora de inicio]**. |
       | **[!UICONTROL ID de cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de cuenta. Ese campo no puede ser el mismo que el campo **[!UICONTROL ID de persona]** o que el campo **[!UICONTROL Hora de inicio]**. |
-      | **Hora de creación de la asignación** | | De forma opcional, seleccione el campo que representa la fecha y la hora en que se creó la asignación de persona a cuenta. Útil para situaciones en las que una persona cambia de cuenta varias veces con el paso del tiempo.<br/><br/>**Ejemplo** (cuando el campo **update_date** está seleccionado):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** antes del 1 de mayo de 2026: a@b.com está asignado a Apple.</li><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** el o después del 1 de mayo de 2026: a@b.com está asignado a Adobe.</li></ul>Cuando no se especifica ningún tiempo de asignación, se utiliza la primera cuenta lexicográfica para la asignación a. Este mismo algoritmo también se usa cuando dos nombres de cuenta diferentes tienen exactamente el mismo valor **[!UICONTROL update_date]** y se especifica una hora de creación de asignación. |
+      | **Hora de creación de la asignación** | | De forma opcional, seleccione el campo que representa la fecha y la hora en que se creó la asignación de persona a cuenta. Útil para situaciones en las que una persona cambia de cuenta varias veces con el paso del tiempo.<br/><br/>**Ejemplo** (cuando el campo **update_date** está seleccionado):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** antes del 1 de mayo de 2026: a@b.com está asignado a Apple.</li><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** el o después del 1 de mayo de 2026: a@b.com está asignado a Adobe.</li></ul>Cuando no se especifica ningún tiempo de asignación, se utiliza la primera cuenta lexicográfica. Este mismo algoritmo también se usa cuando dos nombres de cuenta diferentes tienen exactamente el mismo valor **[!UICONTROL update_date]** y se especifica una hora de creación de asignación. |
 
       >[!NOTE]
       >
@@ -278,7 +278,7 @@ La vinculación de cuentas deriva el mapa de identidad de su [conjunto de datos 
 | Reproducción | Frecuencia | Ventana Datos |
 |---|---|---|
 | A corto plazo | Semanal | Últimos 7 días |
-| A largo plazo | Mensual | Últimos 3 meses |
+| A largo plazo | Mensual | Últimos 3 meses (paquete Prime)<br/>Últimos 6 meses (paquete Ultimate) |
 
 ## Privacidad e higiene de los datos
 
