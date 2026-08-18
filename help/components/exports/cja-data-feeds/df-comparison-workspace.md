@@ -4,9 +4,9 @@ keywords: flujo de navegación;fuente de datos;fuente de datos;Fuente de datos
 title: Comparación de la funcionalidad de las fuentes de datos en Customer Journey Analytics y Adobe Analytics
 feature: Components
 hide: true
-source-git-commit: a72ed21bdea40e2441443d7218d9fd7c906adc3e
+source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Los datos de una exportación de fuentes de datos no siempre coinciden exactamen
 
 ## Intervalo de fechas de retrospectiva (fuentes de datos) frente al intervalo de fechas de creación de informes (Analysis Workspace)
 
-El intervalo de fechas de retrospectiva en las fuentes de datos determina hasta dónde se remonta Customer Journey Analytics al encontrar eventos que cumplen los requisitos para una entrega de fuente de datos. En ese sentido, el intervalo de fechas de retrospectiva es similar al intervalo de fechas de creación de informes en Analysis Workspace. Sin embargo, existen diferencias clave.
+El intervalo de fechas de retrospectiva en las fuentes de datos determina hasta dónde se remonta Customer Journey Analytics al encontrar eventos que cumplen los requisitos para una entrega de fuente de datos. Para obtener más información sobre el intervalo de fechas de retrospectiva, incluidos ejemplos, consulte [Comprender el intervalo de fechas de retrospectiva](/help/components/exports/cja-data-feeds/create-feed.md#understand-the-lookback-date-range).
+
+En ese sentido, el intervalo de fechas de retrospectiva es similar al intervalo de fechas de creación de informes en Analysis Workspace. Sin embargo, existen diferencias clave.
 
 | Diferencias clave | Intervalo de fechas de creación de informes (Analysis Workspace) | Intervalo de fecha de retrospectiva (fuentes de datos) |
 |---------|---------|----------|

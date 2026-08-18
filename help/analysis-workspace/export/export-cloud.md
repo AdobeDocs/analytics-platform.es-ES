@@ -6,28 +6,15 @@ feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
 TQID: https://experienceleague.adobe.com/7Bqz2dh9v-BhLey5fWNjnQkgFAXQd3QDnTzz8rd7BFA
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: c7fc5df2a0fd7393b48bfe6bdfa7dccdfffde46c
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: f62c202f92ffc842a9abe2a91bec5231a606f67c
 workflow-type: tm+mt
-source-wordcount: 3268
-ht-degree: 59%
+source-wordcount: 3275
+ht-degree: 58%
 
 ---
 
@@ -167,7 +154,7 @@ Para exportar tablas completas desde Analysis Workspace:
    | Ver los destinos de todos los usuarios | Los administradores del sistema pueden seleccionar esta opción para ver todas las cuentas y ubicaciones, independientemente de quién las haya creado. |
    | Cuenta | Seleccione la cuenta de exportación a la nube a la que desea enviar los datos. <p>O bien, si aún no ha configurado una cuenta en la nube que desee utilizar, puede configurar una nueva cuenta:<ol><li>En el menú desplegable **[!UICONTROL Cuenta]**, seleccione **[!UICONTROL Agregar cuenta]** y, a continuación, especifique la siguiente información:<ul><li>**[!UICONTROL Nombre de la cuenta de ubicación]**: especifique un nombre para la cuenta de ubicación. Este nombre aparece al crear una ubicación </li><li>**[!UICONTROL Descripción de la ubicación de la cuenta]**: proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta.</li><li>**Poner la cuenta a disposición de todos los usuarios de su organización**: seleccione esta opción si desea permitir que otros usuarios de su organización utilicen la cuenta.</li><li>**[!UICONTROL Tipo de cuenta]**: seleccione el tipo de cuenta en la nube a la que está exportando. Los tipos de cuenta disponibles son ARN de la función Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake y Zona de aterrizaje de datos de AEP.</li></ul><li>Para finalizar la configuración de la cuenta, continúe con el vínculo siguiente que corresponde al **[!UICONTROL tipo de cuenta]** que ha seleccionado:<ul><li>[Zona de aterrizaje de datos de AEP](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[ARN de la función Amazon S3](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
    | Ubicación | Seleccione la ubicación de la cuenta a la que desea enviar los datos de exportación.<p>O bien, si aún no ha configurado una cuenta en la nube que desee utilizar, puede configurar una nueva cuenta:<ol><li>En el menú desplegable **[!UICONTROL Ubicación]**, seleccione **[!UICONTROL Agregar ubicación]** y, a continuación, especifique la siguiente información:<ul><li>**[!UICONTROL Nombre]**: nombre de la ubicación.</li><li>**[!UICONTROL Descripción]**: proporcione una breve descripción de la ubicación para diferenciarla de otras ubicaciones del mismo tipo de ubicación.</li><li>**Poner la ubicación a disposición de todos los usuarios de su organización**: seleccione esta opción si desea permitir que otros usuarios de su organización utilicen la ubicación.</li><li>**[!UICONTROL Ubicación de la cuenta]**: seleccione la cuenta en la que desea crear la ubicación.</li></ul><li>Para finalizar la configuración de la ubicación, continúe con el vínculo de abajo que corresponde al tipo de cuenta que seleccionó en el campo **[!UICONTROL Cuenta de ubicación]**:<ul><li>[Zona de aterrizaje de datos de AEP](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[ARN de función de Amazon S3](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
-   | Notificaciones | Añada usuarios y grupos que desee que reciban notificaciones cuando esta exportación falle o esté a punto de caducar. Empiece a escribir el nombre o la dirección de correo electrónico de un usuario o empiece a escribir el nombre de un grupo y, a continuación, selecciónelo cuando aparezca en la lista desplegable. |
+   | Notificar problemas, cuando se haya completado o cuando caduque | Añada usuarios y grupos que desee que reciban notificaciones cuando esta exportación falle o esté a punto de caducar. Empiece a escribir el nombre o la dirección de correo electrónico de un usuario o empiece a escribir el nombre de un grupo y, a continuación, selecciónelo cuando aparezca en la lista desplegable. |
 
    {style="table-layout:auto"}
 
@@ -410,7 +397,7 @@ Si se utiliza un modelo de atribución no predeterminado en un informe, el model
 
   Por ejemplo, una atribución de métrica de &quot;primer contacto&quot; anula una asignación de dimensión &quot;más reciente&quot;.
 
-* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [&#128279;](/help/data-views/component-settings/persistence.md).
+* **En el caso de los informes que incluyen la atribución de métricas en varias dimensiones al mismo tiempo:** [la atribución de métricas](/help/data-views/component-settings/attribution.md) se aplica además del modelo de asignación de dimensión [](/help/data-views/component-settings/persistence.md).
 
   Por ejemplo, se aplica una atribución de métrica de &quot;primer contacto&quot; además de una asignación de dimensión &quot;más reciente&quot;. Además, la atribución de métricas se aplica a pares de elementos de dimensión posasignados como si fueran elementos de dimensión únicos, en lugar de a cada elemento de dimensión de forma independiente, como se hace normalmente en una tabla de forma libre.
 
