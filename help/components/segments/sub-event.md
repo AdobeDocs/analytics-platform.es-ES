@@ -2,20 +2,16 @@
 title: Análisis de subeventos
 description: Descubra cómo el análisis de subeventos le permite filtrar productos individuales u otros contenedores dentro de un evento en Customer Recorrido Analytics, lo que elimina el sangrado de atribución en los informes de productos.
 feature: Segmentation
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 8a5568b3b6136bc3f8b507f551fbb6d169e4b88a
 workflow-type: tm+mt
-source-wordcount: 636
-ht-degree: 9%
+source-wordcount: 680
+ht-degree: 8%
 
 ---
 
 # Análisis de subeventos
-
-{{release-limited-testing}}
 
 El análisis de subeventos permite analizar los datos de eventos en un nivel más granular que el nivel de evento. En lugar de filtrar eventos completos, puede segmentar contenedores individuales dentro de los eventos. Por ejemplo:
 
@@ -56,7 +52,7 @@ En el generador de segmentación o como parte de un **[!UICONTROL segmento rápi
 ![Panel que muestra la segmentación en el nivel de subevento para los trajes profesionales de la categoría de productos](./assets/product-category-segmentation-subevents.png)
 
 Como resultado, se tienen en cuenta todos los pedidos que contienen al menos **[!UICONTROL Trajes profesionales]** **[!UICONTROL product_category]**, y solo se incluyen los ingresos de los productos que pertenecen a los **[!UICONTROL Trajes profesionales]** **[!UICONTROL product_category]** para la métrica **[!UICONTROL Ingresos]**.
-Cuando se informa sobre categorías, solo se informa de **[!UICONTROL Trajes profesionales]** **[!UICONTROL product_category]**.
+Cuando se informa sobre categorías, solo se informa sobre **[!UICONTROL Grupos profesionales]** **[!UICONTROL product_category]**.
 
 >[!TAB Análisis de subeventos (excluir)]
 

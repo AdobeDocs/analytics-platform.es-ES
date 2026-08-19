@@ -5,22 +5,14 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: e7c2598015d3ee271bb7e0f64937fd1c457b5433
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 8a5568b3b6136bc3f8b507f551fbb6d169e4b88a
 workflow-type: tm+mt
-source-wordcount: 4033
+source-wordcount: 4088
 ht-degree: 20%
 
 ---
@@ -111,6 +103,8 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 1. En el menú desplegable [!UICONTROL **Segmentos**], busque y seleccione cualquier segmento para filtrar los datos incluidos en la fuente.
 
    Cuando se aplican varios segmentos, se unen con un operador AND. Para unir segmentos con un operador OR, primero debe crear un nuevo segmento en el generador de segmentos y, a continuación, aplicar el nuevo segmento a la fuente de datos.
+
+   Los segmentos que aplique aquí se añaden a los que ya se puedan aplicar en la vista de datos.
 
 1. Agregue componentes a la configuración de la fuente de datos. El carril izquierdo muestra solo los componentes válidos para las fuentes de datos.
 
@@ -301,8 +295,8 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | [!UICONTROL **Fecha de inicio**] | La fecha en la que comienza la fuente de datos. Para las fuentes en directo, debe ser hoy o una fecha futura. Para las fuentes de relleno, debe ser una fecha pasada dentro del período de retención de datos de la vista de datos. La fecha de inicio se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de caducidad**] <br/>Disponible solo para las fuentes en directo | La fecha en la que caduca la fuente de datos y ya no se ejecuta. La fecha se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de finalización**]<br/> Disponible solo para fuentes de relleno | La fecha en la que finaliza la fuente de datos. La fecha de finalización no puede ser futura. La fecha se basa en la zona horaria de la vista de datos. |
-   | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>En el caso de las fuentes en directo, seleccione esta opción para incluir datos de una hora o de un día. Para las fuentes de relleno, este campo está bloqueado a **Daily** y no se puede cambiar.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. <p>Esta opción es necesaria para las fuentes de relleno y opcional para las fuentes activas.</p></li><li>**Por hora**: las fuentes contienen datos de una sola hora. <p>Esta opción solo está disponible para fuentes en directo.</p></li></ul> |
-   | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. El valor predeterminado es de 30 días. <p>El intervalo de fecha retrospectiva afecta a la calificación de segmentos, el cálculo de sesiones, las transformaciones de campos derivados y la persistencia de dimensiones. <p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprender el intervalo de fechas de retrospectiva](#understand-the-lookback-date-range).</p> |
+   | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>En el caso de las fuentes en directo, seleccione esta opción para incluir datos de una hora o de un día. En el caso de las fuentes de relleno, este campo está bloqueado en **Daily**, lo que significa que los datos se agrupan en fragmentos diarios.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. <p>Esta opción es necesaria para las fuentes de relleno y opcional para las fuentes activas.</p></li><li>**Por hora**: las fuentes contienen datos de una sola hora. <p>Esta opción solo está disponible para fuentes en directo.</p></li></ul> |
+   | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. El valor predeterminado es de 30 días.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivo** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos incluidos.</p> <p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprender el intervalo de fechas de retrospectiva](#understand-the-lookback-date-range).</p> |
    | [!UICONTROL **Retraso de procesamiento**] | Elija la cantidad de tiempo de espera antes de procesar un archivo de fuente de datos. El valor predeterminado es de dos horas. Cualquier evento que llegue tarde y que se produzca durante el retraso del procesamiento se incluye en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente. </p><p>Las sesiones deben comenzar después del límite de retraso de procesamiento para que se incluyan; no se incluyen las sesiones que comienzan antes del límite y finalizan dentro del retraso de procesamiento.</p><p>Customer Journey Analytics determina de forma dinámica el retraso óptimo en función del tiempo que tardan los eventos en llegar a la fuente, pero puede establecerlo de forma manual para que se retrase durante 2, 3, 4 u 8 horas.</p> |
    | [!UICONTROL **Formato de compresión**] | Seleccione el formato de compresión para los archivos de salida de Parquet enviados a su destino de nube. Elija entre los siguientes formatos:<ul><li>[!UICONTROL **Rápido**]: Compresión y descompresión rápidas con tamaños de archivo moderados. Ampliamente compatible con plataformas de datos modernas como BigQuery, Snowflake y Apache Spark.</li><li>[!UICONTROL **GZip**]: Ampliamente compatible, incluso con herramientas que no admiten Snappy de forma nativa. Se recomienda si la canalización descendente requiere un estándar de compresión ampliamente reconocido.</li><li>[!UICONTROL **Z Standard (Zstd)**]: Alta eficiencia de compresión con descompresión rápida. Adecuado si minimizar el tamaño del archivo es una prioridad y sus herramientas admiten Zstd.</li></ul> |
 
