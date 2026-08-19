@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 782311939794bab0f04da1df3dccdc3a9847449f
+source-git-commit: 397c62d5090deede87a7ce31129b6afe6c9351ee
 workflow-type: tm+mt
-source-wordcount: 6697
-ht-degree: 88%
+source-wordcount: 7316
+ht-degree: 79%
 
 ---
 
@@ -149,8 +149,9 @@ Para definir la configuración de la visualización del lienzo de recorrido:
    |---------|----------|
    | [!UICONTROL **Valor porcentual**] | El valor porcentual que se muestra en cada nodo del recorrido.<p>![Valor porcentual](assets/journey-canvas-percentage.png)</p> <p>Tenga en cuenta lo siguiente al configurar los valores porcentuales que se muestran en los nodos del recorrido:</p><ul><li>En cada nodo de la métrica principal se muestra un porcentaje. También se muestra un porcentaje para la métrica secundaria si hay una configurada. (Para obtener más información sobre la configuración de la métrica principal y secundaria, consulte [Empezar a crear una visualización de lienzo de recorrido](#begin-building-a-journey-canvas-visualization)).</li><li>Los porcentajes incluyen todas las personas o sesiones que están incluidas en la vista de datos dentro del intervalo de fecha del panel. El uso de _personas_ o _sesiones_ depende de la configuración del contenedor. (Para obtener más información sobre la configuración del contenedor, consulte [Empezar a crear una visualización de lienzo de recorrido](#begin-building-a-journey-canvas-visualization)).</li></ul> <p>Elija entre las siguientes opciones:</p> <ul><li>[!UICONTROL **Porcentaje del nodo de inicio**]: calcula los porcentajes mostrados en cada nodo en relación con el nodo de inicio. Los porcentajes se basan en la métrica principal y secundaria que haya seleccionado. <p>Un _nodo de inicio_ es un nodo que no tiene nodos conectados que lo precedan.</p><p>Un recorrido puede contener varios nodos de inicio. Sin embargo, se utiliza [!UICONTROL **Porcentaje del total**] si el recorrido contiene dos o más nodos de inicio que llevan a un nodo común. Si desea utilizar [!UICONTROL **Porcentaje del nodo de inicio**], actualice el recorrido para que cada nodo del recorrido pueda rastrearse hasta un solo nodo de inicio.</p></li><li>[!UICONTROL **Porcentaje del nodo anterior**]: calcula los porcentajes mostrados en cada nodo en relación con el nodo anterior. Los porcentajes se basan en la métrica principal y secundaria que haya seleccionado.</li><li>[!UICONTROL **Porcentaje del total**]: calcula los porcentajes mostrados en cada nodo en relación con todos los datos de la vista de datos. Los porcentajes se basan en la métrica principal y secundaria que haya seleccionado.</li></ul> |
    | [!UICONTROL **Configuración de flecha**] | Las flechas que aparecen entre los nodos del lienzo de recorrido se pueden configurar para que muestren etiquetas y valores personalizados. <p>![Configuración de flecha](assets/journey-canvas-arrow-settings.png)</p><p>_Etiquetas_ son nombres personalizados que aparecen en las flechas. En una flecha determinada solo se muestra una etiqueta. Las etiquetas pueden ser cualquiera de las siguientes y se muestran en este orden de preferencia:</p><ol><li>Se ha añadido un nombre personalizado desde el lienzo de recorrido (tal como se describe en [Añadir o actualizar una etiqueta en una flecha](#add-or-update-a-label-on-an-arrow))</li><li>Una etiqueta de Journey Optimizer</li><li>Una condición de Journey Optimizer</li></ol><p>_Valores_ son los números y porcentajes que aparecen en las flechas e indican las personas o sesiones que se movieron de un nodo al siguiente en el recorrido. (Es decir, quienes no abandonaron el recorrido en un paso determinado). </p><p>Las siguientes opciones están disponibles para los recorridos que no se originaron en Journey Optimizer y para los recorridos de Journey Optimizer que no se han modificado significativamente en el lienzo de recorrido: (las modificaciones significativas incluyen añadir o quitar nodos, añadir o quitar flechas o cambiar los componentes de un nodo).</p><ul><li>[!UICONTROL **Sin etiquetas**]: no se muestran etiquetas en las flechas del recorrido. </br> Esta opción solo está disponible si el recorrido se ha modificado en </li><li>[!UICONTROL **Solo etiquetas**]: las etiquetas se muestran en las flechas del recorrido.</li></ul><p>Las siguientes opciones están disponibles para los recorridos de Journey Optimizer que se han modificado significativamente en el lienzo de Recorrido: (Las modificaciones importantes incluyen agregar o quitar nodos, agregar o quitar flechas o cambiar los componentes de un nodo).(**Nota**: Estas opciones solo se muestran cuando se detectan datos de Journey Optimizer en la misma vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Descripción general de Analysis Workspace](/help/analysis-workspace/home.md)).</p><ul><li>[!UICONTROL **Sin etiquetas ni valores**]: no se muestran etiquetas ni valores en las flechas del recorrido.</li><li>[!UICONTROL **Solo etiquetas**]: en las flechas del recorrido solo se muestran etiquetas. No se muestran valores.</li><li>[!UICONTROL **Solo valores**]: en las flechas del recorrido solo se muestran valores. No se muestran las etiquetas.</li><li>[!UICONTROL **Valores y etiquetas**]: tanto las etiquetas como los valores se muestran en las flechas del recorrido.</li></ul> |
+   | [!UICONTROL **Comparar con**] | Intervalo de fecha utilizado para comparar los datos de recorrido actuales con un período anterior. Puede elegir cualquiera de los siguientes intervalos de fechas para comparar:<ul><li>**[!UICONTROL 4 semanas antes]**</li><li>**[!UICONTROL 2 trimestres antes]**</li><li>**[!UICONTROL 1 año antes]**</li><li>**[!UICONTROL Intervalo de fechas personalizado]**</li></ul><p>Al seleccionar un intervalo de fechas de comparación, cada nodo del recorrido muestra el cambio porcentual entre el intervalo de fechas actual y el seleccionado, en función de la métrica principal. Esto le permite identificar si el recorrido está teniendo un mejor o peor rendimiento en comparación con un período de tiempo anterior.</p> |
    | [!UICONTROL **Mostrar visitas**] | Los datos de visitas en orden previsto muestran un porcentaje y un número que abandonan cada nodo del recorrido. Los datos de visitas en orden previsto se basan en la métrica asociada a la configuración del contenedor del recorrido; no se basan en la métrica principal o secundaria. <p>![visita en orden previsto](assets/journey-canvas-fallout.png)</p><p>De manera predeterminada, el contenedor es _Persona_, por lo que la métrica utilizada para los datos de visitas en el orden previsto es _Personas_. Si el contenedor cambia a _Sesión_, la métrica usada para los datos de visitas en el orden previsto es _Sesiones_, y así sucesivamente.</p><p>Por ejemplo, con _Persona_ como configuración del contenedor, el abandono muestra el porcentaje y el número de personas en cada nodo del recorrido que nunca llegaron a ninguno de los nodos inmediatamente posteriores. Es posible que hayan realizado otras acciones en el sitio, pero no cumplieron los criterios definidos por ninguno de los nodos que siguen inmediatamente.</p> <p>Para obtener más información acerca de la configuración del contenedor de lienzo de recorrido, consulte [Empezar a crear una visualización de lienzo de recorrido](#begin-building-a-journey-canvas-visualization). |
-   | **Controles de zoom** | Los siguientes controles de zoom están disponibles en la esquina superior derecha del lienzo:<ul><li>**Aumentar** ![icono de aumentar](assets/zoom-in-icon.png): amplía áreas específicas de la visualización.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</li><li>**Reducir** ![icono de reducir](assets/zoom-out-icon.png): reduce la visualización para permitir más espacio en el lienzo.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</p></li><li>**Ajustar pantalla** ![icono de ajustar pantalla](assets/fill-screen-icon.png): ajusta la configuración actual de zoom y de desplazamiento para que la visualización completa ocupe toda la pantalla.</li></ul><p>Para desplazarse por el lienzo después de aumentar o reducir, haga clic con el ratón y arrastre hasta la ubicación deseada.</p> |
+   | **Controles** | Los siguientes controles están disponibles en la esquina superior derecha del lienzo:<ul><li>**Ajustar pantalla** ![icono de ajustar pantalla](assets/fill-screen-icon.png): ajusta la configuración actual de zoom y de desplazamiento para que la visualización completa ocupe toda la pantalla.</li><li>**Organizar** ![organizar icono](assets/organize.svg): Reorganiza los nodos para minimizar las flechas de cruce y optimizar el espaciado, según las conexiones de nodos. </li><li>**Aumentar** ![icono de aumentar](assets/zoom-in-icon.png): amplía áreas específicas de la visualización.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</li><li>**Reducir** ![icono de reducir](assets/zoom-out-icon.png): reduce la visualización para permitir más espacio en el lienzo.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</p></li></ul><p>Para desplazarse por el lienzo después de aumentar o reducir, haga clic con el ratón y arrastre hasta la ubicación deseada.</p> |
 
 1. Continúe con [Adición de nodos](#add-nodes).
 
@@ -209,7 +210,7 @@ Los nodos se crean de las siguientes maneras: arrastrando componentes de Workspa
 
 ### Mostrar los nodos principales en función de los nodos existentes
 
-Puede mostrar automáticamente los nodos inmediatos principales en función de los nodos que ya están en el lienzo. Puede añadir los nodos principales al lienzo de recorrido o verlos en una tabla de forma libre.
+Puede mostrar automáticamente los nodos inmediatos o posibles principales en función de los nodos que ya están en el lienzo. Puede añadir los nodos principales al lienzo de recorrido o verlos en una tabla de forma libre.
 
 El lienzo de recorrido utiliza la métrica principal para determinar qué nodos mostrar.
 
@@ -221,13 +222,19 @@ Esta opción está disponible para los siguientes objetos del lienzo:
 
 #### Mostrar los nodos principales después de un nodo existente
 
-Puede seleccionar un nodo y mostrar en el recorrido los elementos de dimensión principales que aparecen inmediatamente después de él. Puede añadir los tres elementos de dimensión principales al lienzo de recorrido como nodos independientes o puede ver todos los elementos de dimensión principales en una tabla de forma libre.
+Puede seleccionar un nodo y mostrar en el recorrido los principales elementos de dimensión inmediatos o posibles que le siguen. Puede añadir los tres elementos de dimensión principales al lienzo de recorrido como nodos independientes o puede ver todos los elementos de dimensión principales en una tabla de forma libre.
 
 1. Haga clic con el botón derecho en el nodo en el que desee mostrar los elementos de dimensión principales que van después de él en el recorrido.
 
    El nodo no puede tener ningún nodo existente que salga de él en el recorrido.
 
 1. Seleccione [!UICONTROL **Mostrar los nodos principales después de este nodo**].
+
+1. Seleccione si desea mostrar los elementos de dimensión que aparecen inmediatamente o finalmente después del nodo seleccionado:
+
+   * [!UICONTROL **Inmediatamente después de**]: Muestra los elementos de dimensión principales que vienen directamente después del nodo seleccionado. Utilícelo cuando desee saber qué ha sucedido inmediatamente después de un paso determinado del recorrido. Por ejemplo, puede ver qué página visitan los usuarios inmediatamente después de visitar una página de producto determinada.
+
+   * [!UICONTROL **Finalmente después de**]: muestra los elementos de dimensión principales que vienen después del nodo seleccionado en cualquier punto del recorrido, no necesariamente en el siguiente paso. Utilícelo cuando el nodo seleccionado sea el evento clave del análisis y desee ver lo que hacen las personas en cualquier momento posterior. Por ejemplo: después de una compra, puede ver las páginas principales que las personas suelen visitar en cualquier momento posterior del recorrido.
 
 1. Seleccione dónde desea mostrar los elementos de dimensión:
 
@@ -241,13 +248,19 @@ Puede seleccionar un nodo y mostrar en el recorrido los elementos de dimensión 
 
 #### Mostrar los nodos principales antes de un nodo existente
 
-Puede seleccionar un nodo y mostrar en el recorrido los elementos de dimensión principales que aparecen inmediatamente antes de él en el recorrido. Puede añadir los tres elementos de dimensión principales al lienzo de recorrido como nodos independientes o puede ver todos los elementos de dimensión principales en una tabla de forma libre.
+Puede seleccionar un nodo y mostrar en el recorrido los principales elementos de dimensión inmediatos o posibles que le precedan. Puede añadir los tres elementos de dimensión principales al lienzo de recorrido como nodos independientes o puede ver todos los elementos de dimensión principales en una tabla de forma libre.
 
 1. Haga clic con el botón derecho en el nodo en el que desea mostrar los elementos de dimensión principales que le preceden en el recorrido.
 
    Este nodo no puede tener ningún nodo existente que llegue a él en el recorrido.
 
 1. Seleccione [!UICONTROL **Mostrar los nodos principales antes de este nodo**].
+
+1. Seleccione si desea mostrar los elementos de dimensión que llegan inmediatamente o finalmente antes del nodo seleccionado:
+
+   * [!UICONTROL **Inmediatamente antes de**]: Muestra los elementos de dimensión principales que se encuentran directamente antes del nodo seleccionado. Utilícelo cuando desee saber qué ha sucedido inmediatamente antes de un paso determinado del recorrido. Por ejemplo, puede ver qué página visitan los usuarios inmediatamente antes de visitar una página de producto determinada.
+
+   * [!UICONTROL **Finalmente antes de**]: muestra los elementos de dimensión principales que aparecen antes del nodo seleccionado en cualquier punto del recorrido, no necesariamente en el paso anterior. Utilícelo cuando el nodo seleccionado sea el evento clave del análisis y desee ver qué hicieron las personas en cualquier momento antes de realizarlo. Por ejemplo, antes de realizar una compra, puede ver las páginas principales que las personas habían visitado en cualquier momento anterior del recorrido.
 
 1. Seleccione dónde desea mostrar los elementos de dimensión:
 
@@ -321,7 +334,9 @@ Puede realizar cualquiera de las siguientes acciones para combinar nodos en Lien
 
 * Desde el carril izquierdo, arrastre varios componentes simultáneamente a una zona en blanco del lienzo mientras mantiene pulsada la tecla Mayús.
 
-<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
+* En el lienzo, seleccione los nodos que desea combinar, haga clic con el botón derecho en uno de los nodos seleccionados y, a continuación, seleccione [!UICONTROL **Combinar nodos**].
+
+  Para seleccionar varios nodos, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
 
 #### Lógica al combinar nodos
 
@@ -329,7 +344,7 @@ La lógica que se aplica a los nodos cuando se combinan es diferente según los 
 
 >[!TIP]
 >
->Para ver la lógica de un nodo combinado, haga clic con el botón derecho en el nodo y seleccione [!UICONTROL **Crear segmento de nodo**]. La lógica se muestra en la sección [!UICONTROL **Definición**].
+>Puede ver la lógica de un nodo combinado seleccionando el icono de información o la flecha desplegable del nodo.
 
 
 | Tipos de componentes para combinar | Lógica (operador) empleada |
@@ -341,6 +356,12 @@ La lógica que se aplica a los nodos cuando se combinan es diferente según los 
 | Dimensión + Métrica, Intervalo de fecha o Segmento | Unido con AND |
 | Intervalo de fecha + Métrica, Segmento o Dimensión | Unido con AND |
 | Segmento + Métrica, Intervalo de fecha o Dimensión | Unido con AND |
+
+#### Separar componentes de nodos combinados
+
+Puede dividir los componentes que se incluyen en un nodo combinado en sus propios nodos independientes:
+
+1. Haga clic con el botón secundario en el nodo que desee dividir y, a continuación, seleccione [!UICONTROL **Separar componentes en nodos**].
 
 ### Conexión de nodos
 
@@ -357,6 +378,8 @@ Los nodos están conectados por una flecha. Tanto la dirección como la anchura 
 * **Anchura**: indica el volumen porcentual de un nodo a otro
 
   ![Dirección y anchura de la flecha](assets/journey-canvas-arrow-width.png)
+
+Cuando un recorrido de Journey Optimizer contiene varias rutas de acceso entre los mismos dos nodos (por ejemplo, condiciones diferentes que conducen al mismo paso siguiente), cada ruta de acceso aparece como una flecha independiente.
 
 #### Lógica al conectar nodos
 
@@ -670,6 +693,38 @@ Para volver a incluir un nodo excluido en la recorrido:
 1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en el nodo excluido.
 
 1. Seleccione [!UICONTROL **Quitar exclusión de recorrido**].
+
+### Cambiar la forma y el estilo de las flechas entre los nodos
+
+Puede cambiar la curvatura y el estilo de las flechas entre los nodos de un recorrido.
+
+#### Cambiar la curvatura de una flecha
+
+Para cambiar la curvatura de una flecha en un lienzo de Recorrido:
+
+1. En una visualización de lienzo de Recorrido, arrastre una flecha entre dos nodos.
+
+Para restablecer una flecha a su posición predeterminada:
+
+1. Haga clic con el botón derecho en la flecha que desee restablecer.
+
+1. Seleccione [!UICONTROL **Restablecer posición de flecha**].
+
+   Si existen varias flechas entre los mismos dos nodos, todas las flechas entre esos nodos se restablecen a sus posiciones predeterminadas.
+
+#### Cambiar el estilo de una flecha
+
+Para cambiar el estilo de una flecha en el lienzo de Recorrido:
+
+1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en la flecha entre los dos nodos cuyo estilo desee cambiar.
+
+1. Seleccione [!UICONTROL **Cambiar estilo de flecha**] y, a continuación, seleccione uno de los estilos siguientes:
+
+   * [!UICONTROL **Sólido**]
+   * [!UICONTROL **Guiones**]
+   * [!UICONTROL **Puntos**]
+   * [!UICONTROL **Punto de guión**]
+   * [!UICONTROL **Animado**]
 
 ### Eliminación de flechas entre nodos
 

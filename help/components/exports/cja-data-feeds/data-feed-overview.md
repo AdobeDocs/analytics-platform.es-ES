@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
 workflow-type: tm+mt
-source-wordcount: 221
-ht-degree: 21%
+source-wordcount: 230
+ht-degree: 20%
 
 ---
 
@@ -45,6 +45,8 @@ Asegúrese de cumplir todos los requisitos antes de utilizar fuentes de datos:
 Para empezar a utilizar fuentes de datos en Customer Journey Analytics, primero debe comprender cómo difieren las fuentes de datos en Customer Journey Analytics de las fuentes de datos en Adobe Analytics. Después de comprender las diferencias, puede asignar fuentes de datos de Adobe Analytics a Customer Journey Analytics y, a continuación, empezar a crear una fuente de datos.
 
 1. [Comprenda las diferencias entre las fuentes de datos en Customer Journey Analytics y Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md).
+
+1. [Comprenda las discrepancias de datos entre las fuentes de datos y Analysis Workspace](/help/components/exports/cja-data-feeds/df-comparison-workspace.md).
 
 1. [Asigne columnas de fuentes de datos de Adobe Analytics a Customer Journey Analytics](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md).
 
