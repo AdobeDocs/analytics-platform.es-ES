@@ -40,6 +40,6 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="conversation-insights_config_dataview"
->title="Vista de datos"
+>title="Vista de datos
 >abstract="Seleccione la vista de datos asociada a la conexión que desee utilizar para el análisis de Conversation Insights. Las métricas y dimensiones de Perspectivas de conversación se agregarán a la vista de datos que seleccione."
 
