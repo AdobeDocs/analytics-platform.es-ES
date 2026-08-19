@@ -5,22 +5,14 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: e2e75dda2d61cd707b2a224ec5ac43a492ffa42e
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: e7c2598015d3ee271bb7e0f64937fd1c457b5433
 workflow-type: tm+mt
-source-wordcount: 4066
+source-wordcount: 4033
 ht-degree: 20%
 
 ---
@@ -338,7 +330,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="Intervalo de fecha de retroactividad"
->abstract="Controla hasta dónde llega Customer Journey Analytics al procesar cada envío.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fecha retrospectiva** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos incluidos.</p><p>Una retrospectiva más larga mejora la precisión; una retrospectiva más corta mejora el rendimiento.</p>"
+>abstract="Controla hasta dónde llega Customer Journey Analytics al procesar cada envío.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivo** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos incluidos.</p><p>Una retrospectiva más larga mejora la precisión; una retrospectiva más corta mejora el rendimiento.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -351,7 +343,7 @@ Al configurar esta opción, tenga en cuenta los siguientes conceptos importantes
 * Un intervalo de fecha retrospectiva más largo suele generar datos más precisos; un intervalo más corto resulta en un mejor rendimiento de entrega.
 * El intervalo de fechas de retrospectiva, junto con la ventana de frecuencia, funcionan de manera similar al intervalo de fechas de los informes de Analysis Workspace. Sin embargo, existen [diferencias clave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Estas diferencias pueden provocar discrepancias de datos entre los informes de Workspace y las entregas de fuentes de datos.
 
-La calificación de segmentos, el cálculo de sesión, la persistencia de dimensiones y las transformaciones de campos derivados se tienen en cuenta al procesar datos dentro del intervalo de fechas retrospectivo:
+La calificación de segmentos, el cálculo de sesiones, la persistencia de dimensiones y las transformaciones de campos derivados se tienen en cuenta al procesar datos dentro del intervalo de fechas retrospectivo:
 
 ### Calificación de segmentos
 
@@ -370,13 +362,13 @@ En este caso, los usuarios se incluyen en la fuente de datos solamente si cumple
 * El usuario tenía un evento con una marca de tiempo dentro de la ventana de frecuencia de fuente de datos (la hora o el día dados de la fuente de datos).
 * El usuario se calificó para el segmento _Campaign B_ **en algún momento dentro del intervalo de fechas retrospectivas**.
 
-  En el caso de un evento correspondiente que se produjo hace nueve días, esto significa que el usuario **se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 30 días, pero el usuario **no se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en siete días.
+  Para un evento correspondiente que se produjo hace 9 días, esto significa que el usuario **se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 30 días, pero el usuario **no se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 7 días.
 
 >[!ENDSHADEBOX]
 
 ### Cálculo de sesión
 
-Los límites de la sesión se calculan con datos dentro del intervalo de fechas retrospectivo. Quizá esto sea más importante con respecto a cuál es el ID de sesión. ¿Podría afectar al ID de sesión? Podría afectar a muchas cosas, como la persistencia basada en sesiones.
+Los límites de la sesión se calculan con datos dentro del intervalo de fechas retrospectivo. <!--Maybe this matters more regarding what the session ID is? Could it impact the Session ID? This could impact several factors, such as session-based persistence.-->
 
 ### Persistencia de Dimension
 
@@ -405,13 +397,13 @@ En este caso, la campaña original solo se mostrará en la salida de la fuente d
 
 * El usuario calificó para la campaña original **en algún momento dentro del intervalo de fechas retrospectivas**.
 
-  Si el usuario cumplía los requisitos para la campaña original hace 9 días, la campaña original **se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 30 días, pero la campaña original **no se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 7 días.
+  Si el usuario se calificó para la campaña original hace 9 días, la campaña original **se incluye** en la fuente de datos si el intervalo de fechas retrospectivas se establece en 30 días, pero la campaña original **no se incluye** en la fuente de datos si el intervalo de fechas retrospectivas se establece en 7 días.
 
 >[!ENDSHADEBOX]
 
 ### Transformaciones de campo derivadas
 
-Cualquier función de campo derivada que haga referencia a contenedores utiliza el intervalo de fechas de retrospectiva en las exportaciones de fuentes de datos. ¿Qué capacidades de fecha existen en los campos derivados? No estoy seguro de cómo se aplica esto.
+Cualquier función de campo derivada que haga referencia a contenedores utiliza el intervalo de fechas de retrospectiva en las exportaciones de fuentes de datos. ¿Qué capacidades de fecha existen en los campos derivados? <!--Not sure how this applies.-->
 
 
 
