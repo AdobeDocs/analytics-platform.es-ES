@@ -5,22 +5,14 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: e2e75dda2d61cd707b2a224ec5ac43a492ffa42e
 workflow-type: tm+mt
-source-wordcount: 4036
+source-wordcount: 4066
 ht-degree: 20%
 
 ---
@@ -160,6 +152,26 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | Semana | Semana en que se produjo un evento | No disponible |
    | Semana del año | Semana del año en que se produjo un evento | No disponible |
    | Año | Año en el que se produjo un evento | No disponible |
+
+   +++
+
+   +++ Métricas que no se pueden incluir en las fuentes de datos
+
+   Las siguientes métricas estándar de Customer Journey Analytics no se pueden incluir en las fuentes de datos:
+
+   | Nombre de la métrica | Notas | Fuentes de datos |
+   |---|---|---|
+   | Perfil de visitantes de Adobe | | No disponible |
+   | Unión de oportunidades de Adobe | | No disponible |
+   | Perfil de oportunidades de Adobe | | No disponible |
+   | Unión de cuentas de Adobe | | No disponible |
+   | Perfil de cuentas de Adobe | | No disponible |
+   | Adobe Buying Groups Union | | No disponible |
+   | Perfil de grupos de compra de Adobe | | No disponible |
+   | Unión de cuentas globales de Adobe | | No disponible |
+   | Perfil de cuentas globales de Adobe | | No disponible |
+   | Adobe Persons Union | | No disponible |
+   | Perfil de personas de Adobe | | No disponible |
 
    +++
 
@@ -318,20 +330,20 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="Intervalo de fecha de retroactividad"
->abstract="Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. Esta configuración es similar al intervalo de fechas de los informes de Analysis Workspace, pero con diferencias importantes:<ul><li>Los eventos se incluyen en la fuente de datos si tienen marcas de tiempo incluidas en la ventana de frecuencia, no dentro del intervalo de fechas retrospectivo. (En Analysis Workspace, los eventos se incluyen en un informe si tienen marcas de tiempo incluidas dentro del intervalo de fechas del informe).</li><li>Los eventos con marcas de tiempo que se incluyen en el intervalo de fechas de retrospectiva (pero fuera de la ventana de frecuencia) aún pueden influir en los datos que aparecen en la fuente a través de la calificación de segmentos, el cálculo de sesiones, las transformaciones de campos derivados y la persistencia de dimensiones.</li><p>Un intervalo de fechas retrospectiva más largo suele dar como resultado eventos más precisos; un intervalo más corto da como resultado un mejor rendimiento de entrega.</p>"
+>abstract="Controla hasta dónde llega Customer Journey Analytics al procesar cada envío.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fecha retrospectiva** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos incluidos.</p><p>Una retrospectiva más larga mejora la precisión; una retrospectiva más corta mejora el rendimiento.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
+El intervalo de fechas retrospectivo controla hasta dónde llega Customer Journey Analytics al procesar cada entrega de fuente de datos.
 
-
-El intervalo de fechas retrospectivo controla hasta dónde llega Customer Journey Analytics al procesar la entrega de fuentes de datos. El valor predeterminado es de 30 días.
+Los eventos deben seguir teniendo marcas de tiempo incluidas en la ventana de frecuencia (hora o día) para que se incluyan en el envío, pero los datos incluidos en el **intervalo de fecha retrospectiva** proporcionan el contexto histórico necesario para clasificar correctamente esos eventos.
 
 Al configurar esta opción, tenga en cuenta los siguientes conceptos importantes:
 
 * Un intervalo de fecha retrospectiva más largo suele generar datos más precisos; un intervalo más corto resulta en un mejor rendimiento de entrega.
-* El intervalo de fechas de retrospectiva en las fuentes de datos es similar al intervalo de fechas de los informes en Analysis Workspace, pero existen [diferencias clave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Estas diferencias pueden provocar discrepancias de datos entre los informes de Workspace y las entregas de fuentes de datos.
-* El intervalo de fechas de retrospectiva no altera la ventana de frecuencia (hora o día), que define el lapso de tiempo de los eventos que se incluyen en la salida de la fuente de datos.
-* Los datos que se incluyen en el intervalo de fechas de retrospectiva pueden influir en lo que se incluye en la fuente de datos (ventana de frecuencia), según los factores que se describen en las secciones siguientes.
+* El intervalo de fechas de retrospectiva, junto con la ventana de frecuencia, funcionan de manera similar al intervalo de fechas de los informes de Analysis Workspace. Sin embargo, existen [diferencias clave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Estas diferencias pueden provocar discrepancias de datos entre los informes de Workspace y las entregas de fuentes de datos.
+
+La calificación de segmentos, el cálculo de sesión, la persistencia de dimensiones y las transformaciones de campos derivados se tienen en cuenta al procesar datos dentro del intervalo de fechas retrospectivo:
 
 ### Calificación de segmentos
 
@@ -357,10 +369,6 @@ En este caso, los usuarios se incluyen en la fuente de datos solamente si cumple
 ### Cálculo de sesión
 
 Los límites de la sesión se calculan con datos dentro del intervalo de fechas retrospectivo. Quizá esto sea más importante con respecto a cuál es el ID de sesión. ¿Podría afectar al ID de sesión? Podría afectar a muchas cosas, como la persistencia basada en sesiones.
-
-### Transformaciones de campo derivadas
-
-Cualquier función de campo derivada que haga referencia a contenedores utiliza el intervalo de fechas de retrospectiva en las exportaciones de fuentes de datos. ¿Qué capacidades de fecha existen en los campos derivados? No estoy seguro de cómo se aplica esto.
 
 ### Persistencia de Dimension
 
@@ -393,6 +401,9 @@ En este caso, la campaña original solo se mostrará en la salida de la fuente d
 
 >[!ENDSHADEBOX]
 
+### Transformaciones de campo derivadas
+
+Cualquier función de campo derivada que haga referencia a contenedores utiliza el intervalo de fechas de retrospectiva en las exportaciones de fuentes de datos. ¿Qué capacidades de fecha existen en los campos derivados? No estoy seguro de cómo se aplica esto.
 
 
 
