@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+source-git-commit: 8a5568b3b6136bc3f8b507f551fbb6d169e4b88a
 workflow-type: tm+mt
-source-wordcount: 4036
+source-wordcount: 4088
 ht-degree: 20%
 
 ---
@@ -112,6 +112,8 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    Cuando se aplican varios segmentos, se unen con un operador AND. Para unir segmentos con un operador OR, primero debe crear un nuevo segmento en el generador de segmentos y, a continuación, aplicar el nuevo segmento a la fuente de datos.
 
+   Los segmentos que aplique aquí se añaden a los que ya se puedan aplicar en la vista de datos.
+
 1. Agregue componentes a la configuración de la fuente de datos. El carril izquierdo muestra solo los componentes válidos para las fuentes de datos.
 
    * **Arrastrar y soltar**: arrastre los componentes desde el carril izquierdo al lienzo. Mantenga presionado **[!UICONTROL Mayús]** o **[!UICONTROL Comando]** (macOS) o **[!UICONTROL Ctrl]** (Windows) para seleccionar y arrastrar varios componentes a la vez.
@@ -160,6 +162,26 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | Semana | Semana en que se produjo un evento | No disponible |
    | Semana del año | Semana del año en que se produjo un evento | No disponible |
    | Año | Año en el que se produjo un evento | No disponible |
+
+   +++
+
+   +++ Métricas que no se pueden incluir en las fuentes de datos
+
+   Las siguientes métricas estándar de Customer Journey Analytics no se pueden incluir en las fuentes de datos:
+
+   | Nombre de la métrica | Notas | Fuentes de datos |
+   |---|---|---|
+   | Perfil de visitantes de Adobe | | No disponible |
+   | Unión de oportunidades de Adobe | | No disponible |
+   | Perfil de oportunidades de Adobe | | No disponible |
+   | Unión de cuentas de Adobe | | No disponible |
+   | Perfil de cuentas de Adobe | | No disponible |
+   | Adobe Buying Groups Union | | No disponible |
+   | Perfil de grupos de compra de Adobe | | No disponible |
+   | Unión de cuentas globales de Adobe | | No disponible |
+   | Perfil de cuentas globales de Adobe | | No disponible |
+   | Adobe Persons Union | | No disponible |
+   | Perfil de personas de Adobe | | No disponible |
 
    +++
 
@@ -281,8 +303,8 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | [!UICONTROL **Fecha de inicio**] | La fecha en la que comienza la fuente de datos. Para las fuentes en directo, debe ser hoy o una fecha futura. Para las fuentes de relleno, debe ser una fecha pasada dentro del período de retención de datos de la vista de datos. La fecha de inicio se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de caducidad**] <br/>Disponible solo para las fuentes en directo | La fecha en la que caduca la fuente de datos y ya no se ejecuta. La fecha se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de finalización**]<br/> Disponible solo para fuentes de relleno | La fecha en la que finaliza la fuente de datos. La fecha de finalización no puede ser futura. La fecha se basa en la zona horaria de la vista de datos. |
-   | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>En el caso de las fuentes en directo, seleccione esta opción para incluir datos de una hora o de un día. Para las fuentes de relleno, este campo está bloqueado a **Daily** y no se puede cambiar.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. <p>Esta opción es necesaria para las fuentes de relleno y opcional para las fuentes activas.</p></li><li>**Por hora**: las fuentes contienen datos de una sola hora. <p>Esta opción solo está disponible para fuentes en directo.</p></li></ul> |
-   | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. El valor predeterminado es de 30 días. <p>El intervalo de fecha retrospectiva afecta a la calificación de segmentos, el cálculo de sesiones, las transformaciones de campos derivados y la persistencia de dimensiones. <p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprender el intervalo de fechas de retrospectiva](#understand-the-lookback-date-range).</p> |
+   | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>En el caso de las fuentes en directo, seleccione esta opción para incluir datos de una hora o de un día. En el caso de las fuentes de relleno, este campo está bloqueado en **Daily**, lo que significa que los datos se agrupan en fragmentos diarios.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. <p>Esta opción es necesaria para las fuentes de relleno y opcional para las fuentes activas.</p></li><li>**Por hora**: las fuentes contienen datos de una sola hora. <p>Esta opción solo está disponible para fuentes en directo.</p></li></ul> |
+   | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. El valor predeterminado es de 30 días.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivo** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos incluidos.</p> <p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprender el intervalo de fechas de retrospectiva](#understand-the-lookback-date-range).</p> |
    | [!UICONTROL **Retraso de procesamiento**] | Elija la cantidad de tiempo de espera antes de procesar un archivo de fuente de datos. El valor predeterminado es de dos horas. Cualquier evento que llegue tarde y que se produzca durante el retraso del procesamiento se incluye en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente. </p><p>Las sesiones deben comenzar después del límite de retraso de procesamiento para que se incluyan; no se incluyen las sesiones que comienzan antes del límite y finalizan dentro del retraso de procesamiento.</p><p>Customer Journey Analytics determina de forma dinámica el retraso óptimo en función del tiempo que tardan los eventos en llegar a la fuente, pero puede establecerlo de forma manual para que se retrase durante 2, 3, 4 u 8 horas.</p> |
    | [!UICONTROL **Formato de compresión**] | Seleccione el formato de compresión para los archivos de salida de Parquet enviados a su destino de nube. Elija entre los siguientes formatos:<ul><li>[!UICONTROL **Rápido**]: Compresión y descompresión rápidas con tamaños de archivo moderados. Ampliamente compatible con plataformas de datos modernas como BigQuery, Snowflake y Apache Spark.</li><li>[!UICONTROL **GZip**]: Ampliamente compatible, incluso con herramientas que no admiten Snappy de forma nativa. Se recomienda si la canalización descendente requiere un estándar de compresión ampliamente reconocido.</li><li>[!UICONTROL **Z Standard (Zstd)**]: Alta eficiencia de compresión con descompresión rápida. Adecuado si minimizar el tamaño del archivo es una prioridad y sus herramientas admiten Zstd.</li></ul> |
 
@@ -318,20 +340,20 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="Intervalo de fecha de retroactividad"
->abstract="Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. Esta configuración es similar al intervalo de fechas de los informes de Analysis Workspace, pero con diferencias importantes:<ul><li>Los eventos se incluyen en la fuente de datos si tienen marcas de tiempo incluidas en la ventana de frecuencia, no dentro del intervalo de fechas retrospectivo. (En Analysis Workspace, los eventos se incluyen en un informe si tienen marcas de tiempo incluidas dentro del intervalo de fechas del informe).</li><li>Los eventos con marcas de tiempo que se incluyen en el intervalo de fechas de retrospectiva (pero fuera de la ventana de frecuencia) aún pueden influir en los datos que aparecen en la fuente a través de la calificación de segmentos, el cálculo de sesiones, las transformaciones de campos derivados y la persistencia de dimensiones.</li><p>Un intervalo de fechas retrospectiva más largo suele dar como resultado eventos más precisos; un intervalo más corto da como resultado un mejor rendimiento de entrega.</p>"
+>abstract="Controla hasta dónde llega Customer Journey Analytics al procesar cada envío.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivo** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos incluidos.</p><p>Una retrospectiva más larga mejora la precisión; una retrospectiva más corta mejora el rendimiento.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
+El intervalo de fechas retrospectivo controla hasta dónde llega Customer Journey Analytics al procesar cada entrega de fuente de datos.
 
-
-El intervalo de fechas retrospectivo controla hasta dónde llega Customer Journey Analytics al procesar la entrega de fuentes de datos. El valor predeterminado es de 30 días.
+Los eventos deben seguir teniendo marcas de tiempo incluidas en la ventana de frecuencia (hora o día) para que se incluyan en el envío, pero los datos incluidos en el **intervalo de fecha retrospectiva** proporcionan el contexto histórico necesario para clasificar correctamente esos eventos.
 
 Al configurar esta opción, tenga en cuenta los siguientes conceptos importantes:
 
 * Un intervalo de fecha retrospectiva más largo suele generar datos más precisos; un intervalo más corto resulta en un mejor rendimiento de entrega.
-* El intervalo de fechas de retrospectiva en las fuentes de datos es similar al intervalo de fechas de los informes en Analysis Workspace, pero existen [diferencias clave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Estas diferencias pueden provocar discrepancias de datos entre los informes de Workspace y las entregas de fuentes de datos.
-* El intervalo de fechas de retrospectiva no altera la ventana de frecuencia (hora o día), que define el lapso de tiempo de los eventos que se incluyen en la salida de la fuente de datos.
-* Los datos que se incluyen en el intervalo de fechas de retrospectiva pueden influir en lo que se incluye en la fuente de datos (ventana de frecuencia), según los factores que se describen en las secciones siguientes.
+* El intervalo de fechas de retrospectiva, junto con la ventana de frecuencia, funcionan de manera similar al intervalo de fechas de los informes de Analysis Workspace. Sin embargo, existen [diferencias clave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Estas diferencias pueden provocar discrepancias de datos entre los informes de Workspace y las entregas de fuentes de datos.
+
+La calificación de segmentos, el cálculo de sesiones, la persistencia de dimensiones y las transformaciones de campos derivados se tienen en cuenta al procesar datos dentro del intervalo de fechas retrospectivo:
 
 ### Calificación de segmentos
 
@@ -350,17 +372,13 @@ En este caso, los usuarios se incluyen en la fuente de datos solamente si cumple
 * El usuario tenía un evento con una marca de tiempo dentro de la ventana de frecuencia de fuente de datos (la hora o el día dados de la fuente de datos).
 * El usuario se calificó para el segmento _Campaign B_ **en algún momento dentro del intervalo de fechas retrospectivas**.
 
-  En el caso de un evento correspondiente que se produjo hace nueve días, esto significa que el usuario **se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 30 días, pero el usuario **no se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en siete días.
+  Para un evento correspondiente que se produjo hace 9 días, esto significa que el usuario **se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 30 días, pero el usuario **no se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 7 días.
 
 >[!ENDSHADEBOX]
 
 ### Cálculo de sesión
 
-Los límites de la sesión se calculan con datos dentro del intervalo de fechas retrospectivo. Quizá esto sea más importante con respecto a cuál es el ID de sesión. ¿Podría afectar al ID de sesión? Podría afectar a muchas cosas, como la persistencia basada en sesiones.
-
-### Transformaciones de campo derivadas
-
-Cualquier función de campo derivada que haga referencia a contenedores utiliza el intervalo de fechas de retrospectiva en las exportaciones de fuentes de datos. ¿Qué capacidades de fecha existen en los campos derivados? No estoy seguro de cómo se aplica esto.
+Los límites de la sesión se calculan con datos dentro del intervalo de fechas retrospectivo. <!--Maybe this matters more regarding what the session ID is? Could it impact the Session ID? This could impact several factors, such as session-based persistence.-->
 
 ### Persistencia de Dimension
 
@@ -389,10 +407,13 @@ En este caso, la campaña original solo se mostrará en la salida de la fuente d
 
 * El usuario calificó para la campaña original **en algún momento dentro del intervalo de fechas retrospectivas**.
 
-  Si el usuario cumplía los requisitos para la campaña original hace 9 días, la campaña original **se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 30 días, pero la campaña original **no se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 7 días.
+  Si el usuario se calificó para la campaña original hace 9 días, la campaña original **se incluye** en la fuente de datos si el intervalo de fechas retrospectivas se establece en 30 días, pero la campaña original **no se incluye** en la fuente de datos si el intervalo de fechas retrospectivas se establece en 7 días.
 
 >[!ENDSHADEBOX]
 
+### Transformaciones de campo derivadas
+
+Cualquier función de campo derivada que haga referencia a contenedores utiliza el intervalo de fechas de retrospectiva en las exportaciones de fuentes de datos. ¿Qué capacidades de fecha existen en los campos derivados? <!--Not sure how this applies.-->
 
 
 
