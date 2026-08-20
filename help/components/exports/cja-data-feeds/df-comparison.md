@@ -7,20 +7,14 @@ hide: true
 exl-id: 32b71016-7c53-409f-9ce4-521a40e2eb96
 autotag-review: '2026-05-19T08:44:26.806Z'
 TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
-source-wordcount: 954
+source-wordcount: 1074
 ht-degree: 2%
 
 ---
@@ -31,16 +25,51 @@ ht-degree: 2%
 
 Las fuentes de datos tanto en Customer Journey Analytics como en Adobe Analytics permiten exportar datos sin procesar a plataformas de terceros. Si anteriormente utilizaba fuentes de datos en Adobe Analytics, utilice la siguiente información para comprender las diferencias en las funciones y los conceptos disponibles:
 
+## Funcionalidad disponible solo en fuentes de datos de Customer Journey Analytics
+
+* Campos derivados
+
+  Incluir componentes de campo derivados en fuentes de datos.
+
+* Unión
+
+  Habilita la resolución de identidades entre dispositivos, vinculando eventos entre dispositivos a una sola persona.
+
+* Vista estructurada de datos
+
+  Utiliza datos estructurados al crear fuentes de datos en archivos enviados. Las fuentes de datos de Adobe Analytics utilizan una cadena.
+
+* Carril del componente con dimensiones y métricas que coinciden con Analysis Workspace
+
+  Utiliza dimensiones y métricas disponibles en la vista de datos. En Adobe Analytics, se utiliza una lista predefinida de campos y columnas.
+
+* Los segmentos aplicados a la vista de datos se heredan automáticamente en la fuente de datos
+
+* Los segmentos se pueden aplicar directamente a la fuente de datos (además de los segmentos que ya se hayan aplicado en la vista de datos)
+
+* Las fuentes coinciden con la zona horaria de la vista de datos <!-- how did it work in AA? -->
+
+* Entrega en parquet
+
+  Genera un archivo de Parquet moderno, que admite de forma nativa datos complejos anidados y estructurados. Las listas de productos se representan como matrices estructuradas u objetos anidados.
+
+* Rutas de estilo Hive
+
+* Los cambios realizados en los componentes de la vista de datos se propagan a las fuentes de datos
+
+<!-- * Web MCP when it's added -->
+
+
+## Comparación de funcionalidades
+
 | **Conceptos y opciones de configuración** | **Customer Journey Analytics** | **Adobe Analytics** |
 |---------|----------|---------|
 | **Entrada de datos**<br/> Tipo de datos que se pueden recopilar e incluir en las fuentes de datos. | Admite entrada de datos en canales múltiples, incluidos datos web, datos del centro de llamadas, datos del punto de venta, etc. | Admite principalmente la entrada de datos web y móviles. Se pueden introducir otros tipos de datos (como datos del centro de llamadas o del punto de venta) mediante fuentes de datos, pero con capacidades de procesamiento muy limitadas. |
 | **Procesamiento de datos**<br/> Los datos se procesan en diferentes etapas, según el producto que esté usando. | Los datos se procesan a las **horas del informe** y, por lo tanto, se pueden usar muchas características de informes para cambiar los datos históricos, como la vinculación, los campos derivados y la segmentación. | Los datos se procesan a las **horas de recopilación** y, por lo tanto, las características de los informes como las reglas de procesamiento y las reglas de VISTA no afectan los datos históricos. |
 | **Frecuencia de envío**<br/> Determina la frecuencia con la que se envía la fuente de datos y el período de tiempo incluido en la fuente. | **Diario** (de medianoche a medianoche en el huso horario de la vista de datos) o **Por hora**. | **Diario** (de medianoche a medianoche en el huso horario del grupo de informes) o **Por hora**. Las fuentes de 15 minutos son posibles, pero no están disponibles de forma predeterminada. |
-| **Visitas que llegan tarde**<br/> Las visitas cuyas marcas de tiempo pertenecen a una ventana de frecuencia de envío anterior pero llegan después de que esa ventana ya haya transcurrido. <p>Por ejemplo, las visitas que llegan tarde podrían proceder de una aplicación móvil que almacena en búfer los eventos sin conexión y los envía cuando se vuelve a conectar.</p> | La configuración **Demora del procesamiento** controla cuánto tiempo espera el sistema después de que se cierre la ventana de frecuencia antes de activar la exportación, lo que le da tiempo adicional para que lleguen los datos retrasados. | Las visitas que llegan tarde pueden ser **incluidas o excluidas** mediante la opción de configuración **Visitas que llegan tarde**. <p>La configuración de la ventana retrospectiva **1&rbrace; controla hasta dónde llega el sistema para incluir datos retrasados.**</p> |
+| **Visitas que llegan tarde**<br/> Las visitas cuyas marcas de tiempo pertenecen a una ventana de frecuencia de envío anterior pero llegan después de que esa ventana ya haya transcurrido. <p>Por ejemplo, las visitas que llegan tarde podrían proceder de una aplicación móvil que almacena en búfer los eventos sin conexión y los envía cuando se vuelve a conectar.</p> | La configuración **Demora del procesamiento** controla cuánto tiempo espera el sistema después de que se cierre la ventana de frecuencia antes de activar la exportación, lo que le da tiempo adicional para que lleguen los datos retrasados. | Las visitas que llegan tarde pueden ser **incluidas o excluidas** mediante la opción de configuración **Visitas que llegan tarde**. <p>La configuración de la ventana retrospectiva **1} controla hasta dónde llega el sistema para incluir datos retrasados.**</p> |
 | **Visitas desordenadas**<br/> Visitas cuyas marcas de tiempo no coinciden con el orden en que se recibieron. | Como Customer Journey Analytics acepta datos de flujo continuo y por lotes, no hay garantías de que los eventos de una persona determinada lleguen en orden de marca de hora. Aunque Customer Journey Analytics realiza nuevos pedidos por marca de tiempo por persona, solo puede exportar los datos que han llegado. Esto significa que las visitas que llegan tarde pueden exportarse después de las visitas con una marca de tiempo posterior.<p>La configuración **Demora el procesamiento** ayuda a reducir los eventos desordenados en la salida de la fuente de datos, ya que concede más tiempo para que los datos por lotes lleguen antes de la exportación. No se garantiza el orden de los eventos en la entrega.</p><p>**Importante**: el consumidor final de los datos de la fuente de datos debe poder controlar las marcas de tiempo desordenadas por persona, ya que no se garantiza el orden de visitas en la entrega de la fuente de datos.</p> | Adobe Analytics requiere que los datos lleguen en orden por visitante en el momento de la recopilación, pero no se garantiza la ordenación de visitas en la entrega de fuentes de datos.</p> |
 | **Ventana de relleno**<br/> Exporta datos históricos entre dos fechas pasadas. | Limitado a la ventana de datos móviles de la conexión. | Limitado al límite de retención de datos del grupo de informes: **25 meses** de forma predeterminada. |
-| **Segmentación** | Los segmentos se pueden aplicar a las fuentes de datos mediante el segmento de vista de datos, un segmento específico de la fuente o ambos. | Los segmentos no se pueden aplicar. |
-| **Unión** | Compatible. Habilita la resolución de identidades entre dispositivos, vinculando eventos entre dispositivos a una sola persona. | No compatible. Los datos enlazados no se pueden exportar mediante fuentes de datos de Adobe Analytics. |
 | **Esquema**<br/> El esquema de la fuente de datos determina qué columnas están disponibles para incluirlas en una fuente de datos. | El esquema de fuente de datos se basa en la configuración de vista de datos.  Los componentes disponibles para incluir en el esquema de fuente de datos son un subconjunto de los componentes disponibles en la configuración de vista de datos.</p> | Una lista estática predefinida de más de 1100 variables. Muchas columnas se exportan como **pares preprocesados y posprocesados** (por ejemplo, `eVar1` / `post_eVar1`), lo que representa gran parte del recuento de columnas. |
 | **Búsquedas**<br/> Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en la fuente de datos; de lo contrario, no estarán disponibles. | No es necesario, ya que las búsquedas y las clasificaciones están disponibles como dimensiones depuradas directamente en la vista de datos. Cuando se depura una búsqueda o clasificación como una dimensión en la vista de datos, los valores resueltos aparecen como columnas normales en la salida de Parquet, en línea con los datos de evento, no como archivos de referencia independientes. | Se utiliza para hacer coincidir un número de una columna de fuente de datos con un valor real. Específico para un determinado conjunto de elementos (explorador, sistema operativo, dispositivo móvil y se aplican como un archivo independiente que viene con la fuente de datos). |
 | **Definición de sesión**<br/> <!--(could be included in the data processing section instead)--> | Definido en la vista de datos | Definido en el momento de la colección. |
