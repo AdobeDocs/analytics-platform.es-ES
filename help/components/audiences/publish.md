@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
+source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
 source-wordcount: 2520
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="Frecuencia de actualización"
->abstract="Frecuencia con la que se reevalúa el abono de una audiencia.<br/>Las audiencias únicas se evalúan solo una vez y no se contabilizan en el límite de actualización."
+>abstract="Frecuencia con la que se vuelve a evaluar la pertenencia de una audiencia.<br/>Las solicitudes únicas se evalúan una sola vez y no se contabilizan en el límite de actualización."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
 >title="Actualizar límite de audiencia"
->abstract="El número de audiencias del entorno que están configuradas para actualizarse automáticamente con una frecuencia programada. Los límites están entre 75 y 150, según sus derechos de Customer Journey Analytics. Las actualizaciones únicas no se contabilizan para este límite."
+>abstract="El número de audiencias del entorno que están configuradas para actualizarse automáticamente con una frecuencia programada. Los límites están entre 75 y 150, según sus derechos de Customer Journey Analytics. Las solicitudes únicas no se contabilizan en este límite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -117,7 +117,7 @@ Configure estas opciones para definir o actualizar el público.
 | **[!UICONTROL Nombre]** | El nombre del público. Por ejemplo, `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL Etiquetas]** | Cualquier etiqueta que desee asignar al público con fines organizativos. Puede seleccionar una o varias etiquetas preexistentes o introducir una nueva. |
 | **[!UICONTROL Descripción]** | Descripción del público, para diferenciarlo de otros. Por ejemplo, `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL Frecuencia de actualización]** | La frecuencia con la que desea actualizar el público.<p/><p>Puede configurar una actualización programada para un número limitado de audiencias (entre 75 y 150), en función de sus derechos de Customer Journey Analytics. </p><p>Puede elegir entre las siguientes opciones:</p><ul><li>Público **[!UICONTROL único]**: público (predeterminado) que no necesita ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas y específicas.<br/>Debe especificar un **[!UICONTROL intervalo de fechas único]**. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para especificar un intervalo de fechas.</li><li>Un público que se actualiza. Puede seleccionar las siguientes opciones de refrescamiento programado:<ul><li>**[!UICONTROL Cada 4 horas]**: un público que se actualiza cada 4 horas.</li><li>**[!UICONTROL Diario]**: un público que se actualiza diariamente</li><li>**[!UICONTROL Semanal]**: un público que se actualiza semanalmente.</li><li>**[!UICONTROL Mensual]**: un público que se actualiza mensualmente</li></ul></li>Para actualizar públicos, debe especificar lo siguiente:<ul><li>**[!UICONTROL Actualice la ventana de retroactividad]**. Defina el número de días retroactivos a partir de hoy en los que se evaluará a un público. Puede seleccionar entre las opciones o definir un tiempo personalizado. El máximo es de 90 días.</li><li>**[!UICONTROL Fecha de caducidad]**: defina cuándo el público dejará de actualizarse. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar una fecha. El valor predeterminado es 1 año a partir de la fecha de creación. Los públicos que caducan se tratan de manera similar a los informes programados que caducan. El administrador recibe un correo electrónico un mes antes de que el público caduque.</li></ul></ul> |
+| **[!UICONTROL Frecuencia de actualización]** | La frecuencia con la que desea actualizar el público.<p/><p>Puede configurar una actualización programada para un número limitado de audiencias (entre 75 y 150), en función de sus derechos de Customer Journey Analytics. </p><p>Puede elegir entre las siguientes opciones:</p><ul><li>**[!UICONTROL Una vez]**: una solicitud única que no necesita ninguna actualización. Por ejemplo, esto podría resultar útil para campañas únicas y específicas.<br/>Debe especificar un **[!UICONTROL intervalo de fechas único]**. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para especificar un intervalo de fechas.</li><li>Un público que se actualiza. Puede seleccionar las siguientes opciones de refrescamiento programado:<ul><li>**[!UICONTROL Cada 4 horas]**: un público que se actualiza cada 4 horas.</li><li>**[!UICONTROL Diario]**: un público que se actualiza diariamente</li><li>**[!UICONTROL Semanal]**: un público que se actualiza semanalmente.</li><li>**[!UICONTROL Mensual]**: un público que se actualiza mensualmente</li></ul></li>Para actualizar públicos, debe especificar lo siguiente:<ul><li>**[!UICONTROL Actualice la ventana de retroactividad]**. Defina el número de días retroactivos a partir de hoy en los que se evaluará a un público. Puede seleccionar entre las opciones o definir un tiempo personalizado. El máximo es de 90 días.</li><li>**[!UICONTROL Fecha de caducidad]**: defina cuándo el público dejará de actualizarse. Puede utilizar ![Calendario](/help/assets/icons/Calendar.svg) para seleccionar una fecha. El valor predeterminado es 1 año a partir de la fecha de creación. Los públicos que caducan se tratan de manera similar a los informes programados que caducan. El administrador recibe un correo electrónico un mes antes de que el público caduque.</li></ul></ul> |
 | **[!UICONTROL Filtro]** | Los filtros son la entrada principal al público. Arrastre y suelte uno o varios segmentos del panel izquierdo ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** en el área Segmento. Puede utilizar ![Buscar](/help/assets/icons/Search.svg) [!UICONTROL *Buscar segmentos*] para buscar segmentos. Se pueden añadir hasta 20 segmentos. Los segmentos pueden unirse con los operadores **[!UICONTROL And]** o **[!UICONTROL Or]**.<p>Al crear un público a partir de una visualización en Analysis Workspace (como una tabla de forma libre o un lienzo de recorridos), se conservan los segmentos aplicados al panel o a la columna. Puede quitar cualquier segmento que se aplique automáticamente.</p> |
 | **[!UICONTROL Previsualización de datos]** | Seleccione ![Información](/help/assets/icons/Info.svg) para mostrar u ocultar la [previsualización de datos](#data-preview) para el intervalo de fechas seleccionado. |
 
