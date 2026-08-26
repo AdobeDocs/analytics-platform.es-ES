@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 hide: true
-source-git-commit: a4f7eef26a019f4f8a716f44d49985290b135112
+source-git-commit: 9df4c8cff6c0c044902453e5fb8380fbb5c5ac2d
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '170'
 ht-degree: 4%
 
 ---
@@ -25,6 +25,6 @@ El ámbito de un componente de métrica determina cómo se utiliza el componente
 | Ámbito | Descripción |
 |---|---|
 | Basado en eventos | El ámbito del componente de métrica se basa en eventos. |
-| Basado en perfiles | El ámbito del componente de métrica se basa en el perfil. Cuando se utiliza el componente en informes e intervalos de fechas, la métrica devuelve la población de los datos de perfil, independientemente del intervalo de fechas aplicado al panel. Los filtros de fecha y las comparaciones de intervalos de fechas no afectan a la creación de informes de esta métrica. |
+| Basado en perfiles | El ámbito del componente de métrica se basa en el perfil. Cuando se utiliza el componente en los informes, la métrica devuelve la población de los datos de perfil, independientemente del intervalo de fechas aplicado al panel. Los filtros de fecha y las comparaciones de intervalos de fechas no afectan a la creación de informes de esta métrica. |
 | Basado en el total | El ámbito del componente de métrica se basa en perfiles y eventos. Cuando se utiliza el componente en los informes, la métrica devuelve la población de los datos de perfil y evento, independientemente del intervalo de fechas aplicado al panel. Los filtros de fecha y las comparaciones de intervalos de fechas no afectan a la creación de informes de esta métrica. |
 
