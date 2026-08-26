@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 hide: true
-source-git-commit: f7bbbaf0b737ab33088c7c585d6415f93deff4c8
+source-git-commit: 1ce48a6e077ee1069c55f3ef8969ed2eced4742e
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1388'
 ht-degree: 4%
 
 ---
 
 # Total de informes de población
 
-La creación de informes de población total introduce la capacidad de analizar entidades definidas en conjuntos de datos de perfil y búsqueda, y crear informes sobre ellas, además de series de eventos basadas en el tiempo procedentes de conjuntos de datos de evento. Esta capacidad habilita nuevas clases de consultas, métricas y definiciones de audiencia que reflejan el ámbito completo de la base de clientes de una empresa.
+La creación de informes de población total presenta la capacidad de analizar entidades definidas en conjuntos de datos de búsqueda y perfil que existen en una conexión de Customer Journey Analytics, y crear informes sobre ellas. Ese análisis y la creación de informes van más allá de la serie de eventos basada en el tiempo de conjuntos de datos de eventos. La capacidad habilita nuevas clases de consultas, métricas y definiciones de audiencia que reflejan el ámbito completo de la base de clientes de una empresa.
 
 Customer Journey Analytics se basa en eventos. Cada métrica, cada visualización, cada panel y cada informe se anclan a un intervalo de fecha y hora y a los eventos que se producen durante ese intervalo de fecha y hora. Hace preguntas a las soluciones como:
 
