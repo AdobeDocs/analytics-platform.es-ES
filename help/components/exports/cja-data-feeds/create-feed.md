@@ -5,23 +5,15 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 8a5568b3b6136bc3f8b507f551fbb6d169e4b88a
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: fdd9b5738103166d7c64666f85d0c508c7176fd0
 workflow-type: tm+mt
-source-wordcount: 4088
-ht-degree: 20%
+source-wordcount: 4178
+ht-degree: 21%
 
 ---
 
@@ -113,6 +105,14 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    Cuando se aplican varios segmentos, se unen con un operador AND. Para unir segmentos con un operador OR, primero debe crear un nuevo segmento en el generador de segmentos y, a continuación, aplicar el nuevo segmento a la fuente de datos.
 
    Los segmentos que aplique aquí se añaden a los que ya se puedan aplicar en la vista de datos.
+
+1. (Opcional) En el carril izquierdo, utilice el campo **buscar** para localizar componentes específicos o seleccione el icono **Ordenar** ![Icono de ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) para aplicar cualquiera de las siguientes opciones de ordenación:
+
+   | Opción | Función |
+   |---------|----------|
+   | [!UICONTROL **Recomendado**] | Ordena los componentes con los recomendados en la parte superior de la lista. Los componentes que usted u otras personas de su organización utilizan con más frecuencia y más recientemente aparecen en la parte superior de la lista. |
+   | [!UICONTROL **Alfabético**] | Ordena los componentes alfabéticamente. |
+   | [!UICONTROL **Categórica**] | Ordena los componentes según su tipo (dimensión, métrica, segmento, intervalo de fecha). |
 
 1. Agregue componentes a la configuración de la fuente de datos. El carril izquierdo muestra solo los componentes válidos para las fuentes de datos.
 
