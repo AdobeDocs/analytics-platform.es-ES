@@ -23,10 +23,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 563f5d89ee9977a956565f68cb2b75adcfb37c0f
 workflow-type: tm+mt
-source-wordcount: 1309
-ht-degree: 40%
+source-wordcount: 1343
+ht-degree: 39%
 
 ---
 
@@ -53,10 +53,6 @@ Utilice el siguiente proceso al exportar libros de Report Builder a la nube:
 ![Proceso de exportación descrito en los pasos del 1 al 4.](assets/report-builder-export-process.png)
 
 ## Exportación de un informe desde Report Builder
-
->[!NOTE]
->
->Antes de exportar los datos como se describe en esta sección, obtenga más información acerca de [el proceso de exportación](#understand-the-export-process) en la sección anterior.
 
 Para exportar informes desde Report Builder:
 
@@ -100,6 +96,10 @@ Para exportar informes desde Report Builder:
    Los datos se envían a la cuenta en la nube especificada con la frecuencia especificada.
 
 1. (Opcional) Una vez creada la exportación, tanto si decide enviarla ahora como en una programación definida, puede verla y administrarla en la [página Exportaciones](/help/components/exports/manage-exports.md) y verla en los [Registros de exportación](/help/components/exports/manage-export-logs.md).</p>
+
+>[!NOTE]
+>
+>Una programación exporta la versión del libro que existía cuando se creó. Si posteriormente cambia y guarda el libro, la programación existente no recoge esos cambios y continúa exportando la versión original. Para exportar un libro actualizado, cree una nueva programación después de guardar los cambios.
 
 ## Administración de exportaciones
 

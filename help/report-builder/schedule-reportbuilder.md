@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 563f5d89ee9977a956565f68cb2b75adcfb37c0f
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 14%
+source-wordcount: 934
+ht-degree: 13%
 
 ---
 
@@ -29,8 +29,11 @@ Una vez guardado el libro y completado el análisis, puede compartirlo con otros
 
 Puede crear varias programaciones para un solo libro. Por ejemplo, se crean dos programaciones para enviar un libro de trabajo al equipo diariamente y al administrador una vez a la semana.
 
-La función de programación también permite configurar la protección con contraseña de un libro y editar los libros programados anteriormente.
+La función de programación también permite configurar la protección con contraseña de un libro y editar la programación de libros programados anteriormente.
 
+>[!NOTE]
+>
+>Una programación envía la versión del libro que existía cuando se creó. Si posteriormente cambia y guarda el libro, la programación existente no recoge esos cambios y continúa enviando la versión original. Para distribuir un libro actualizado, cree una nueva programación después de guardar los cambios.
 
 >[!BEGINSHADEBOX]
 
