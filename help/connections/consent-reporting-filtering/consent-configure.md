@@ -1,27 +1,19 @@
 ---
 title: Configuración de informes y filtros de consentimiento
-description: Aprenda a utilizar el asistente de aprovisionamiento para habilitar los informes de consentimiento y el filtrado opcional en tiempo de ingesta para una conexión en Customer Journey Analytics.
+description: Obtenga información sobre cómo crear una configuración para habilitar los informes de consentimiento y el filtrado opcional en tiempo de ingesta para una conexión en Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hide: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8did: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 981
-ht-degree: 14%
+source-wordcount: 1326
+ht-degree: 11%
 
 ---
 
@@ -32,7 +24,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-consent-merge-policy"
 >title="Política de combinación"
->abstract="Las políticas de combinación combinan datos de perfil de varios conjuntos de datos con perfiles de cliente unificados utilizados para la creación de públicos. Seleccione “Basada en tiempo predeterminado” si ve varias políticas de combinación y no está seguro de cuál elegir. O bien, consulte con su equipo de datos para conocer qué públicos están asociados con cada política de combinación."
+>abstract="Las políticas de combinación combinan datos de perfil de varios conjuntos de datos con perfiles de cliente unificados utilizados para la creación de públicos. Seleccione la política de combinación que corresponde al conjunto de datos de perfil que contiene los datos de pertenencia a la política de consentimiento (el campo `consentPoliciesIDMap`) sobre el que desea informar. O bien, consulte con su equipo de datos para conocer qué públicos están asociados con cada política de combinación."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,6 +55,24 @@ ht-degree: 14%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-enable-reporting"
+>title="Habilitar creación de informes"
+>abstract="Active esta opción para utilizar Analysis Workspace para informar sobre los datos de consentimiento disponibles en la conexión. Las dimensiones y métricas de la política de consentimiento se añaden a las vistas de datos que seleccione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-enable-filtering"
+>title="Habilitar filtrado"
+>abstract="Active esta opción para excluir los datos de visitante sin consentimiento de la ingesta en Customer Journey Analytics. Cuando se habilita, los datos de un visitante se incorporan solamente si el visitante coincide con todas las directivas de consentimiento que se habilitan a continuación. <br>Esta opción está destinada a organizaciones con requisitos para excluir datos de visitantes que no consientan en el momento de la ingesta."
+
+<!-- markdownlint-enable MD034 -->
+
 Los administradores del sistema pueden activar los informes de consentimiento y, opcionalmente, el filtrado de consentimiento para una o más conexiones. Para obtener información general, consulte [Información general sobre la creación de informes y el filtrado de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md).
 
 >[!IMPORTANT]
@@ -71,13 +81,15 @@ Los administradores del sistema pueden activar los informes de consentimiento y,
 
 ## Crear una configuración
 
-Al crear una configuración para los informes y el filtrado de consentimiento, se selecciona la zona protegida y el conjunto de datos de perfil que contienen los datos de pertenencia a la directiva de consentimiento, se elige la conexión o conexiones que se van a configurar y se elige si se filtran los datos de cada acción de marketing. A continuación, Customer Journey Analytics crea automáticamente el conjunto de datos de búsqueda de la política de consentimiento y los componentes de la política de consentimiento.
+Al crear una configuración para la creación de informes y el filtrado de consentimiento, se selecciona la zona protegida y la política de combinación que contienen los datos de pertenencia a la política de consentimiento, se elige la conexión o conexiones que se van a configurar y se elige si se filtran los datos de cada acción de marketing. A continuación, Customer Journey Analytics crea automáticamente el conjunto de datos de búsqueda de la política de consentimiento y los componentes de la política de consentimiento.
 
 Para crear una configuración de filtrado y creación de informes de consentimiento:
 
 1. En Customer Journey Analytics, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Informes y filtrado de consentimiento]**.
 
 1. Seleccione **[!UICONTROL Crear configuración]**.
+
+   ![página de configuración de consentimiento](assets/consent-configure.png)
 
 1. En la sección **[!UICONTROL Detalles]**, especifique la siguiente información:
 
@@ -86,32 +98,50 @@ Para crear una configuración de filtrado y creación de informes de consentimie
    | **[!UICONTROL Nombre]** | Especifique un nombre para la configuración. |
    | **[!UICONTROL Zona protegida]** | Seleccione el simulador para pruebas de Experience Platform que contiene el conjunto de datos de perfil con los datos de pertenencia a directivas de consentimiento. <p>Existe un máximo de un conjunto de datos de búsqueda de directivas de consentimiento por zona protegida. Varias configuraciones en la misma zona protegida comparten el mismo conjunto de datos de búsqueda.</p> |
 
-1. En la sección **[!UICONTROL Conjunto de datos de perfil]**, seleccione el conjunto de datos de perfil que contiene los datos de pertenencia a directivas de consentimiento (el campo `consentPoliciesIDMap`) sobre los que desea informar. Al habilitar los informes de consentimiento, este conjunto de datos de perfil se agrega a la conexión que seleccione si aún no forma parte de ella.
+1. En la sección **[!UICONTROL Conjunto de datos de perfil]**, en el campo **[!UICONTROL Política de combinación]**, seleccione la política de combinación que corresponde al conjunto de datos de perfil que contiene los datos de pertenencia a la política de consentimiento (el campo `consentPoliciesIDMap`) sobre los que desea informar. Al habilitar los informes de consentimiento, este conjunto de datos de perfil se agrega a la conexión que seleccione si aún no forma parte de ella.<p>Las políticas de combinación determinan cómo Adobe Experience Platform combina los datos de perfil de varios conjuntos de datos en perfiles de cliente unificados que se utilizan para los datos de pertenencia a directivas de consentimiento. Cada día se genera una instantánea de estos datos en Experience Platform. Esta instantánea proporciona una vista estática de los datos en un momento específico y no incluye datos de evento.</p><p>Seleccione la política de combinación **[!UICONTROL Basada en tiempo predeterminado]** si ve varias políticas de combinación y no está seguro de cuál elegir. También puede consultar a su equipo de datos para comprender mejor qué datos de consentimiento están asociados con cada política de combinación.</p>
 
-1. En la sección **[!UICONTROL Conexión]**, seleccione **[!UICONTROL Seleccionar una conexión]**, marque la casilla de verificación que hay junto a una o más conexiones que configurar y, a continuación, seleccione **[!UICONTROL Usar conexión]**.
+1. En la sección **[!UICONTROL Conexión]**, seleccione **[!UICONTROL Seleccionar una conexión]**, active la casilla de verificación situada junto a la conexión que desea configurar y, a continuación, seleccione **[!UICONTROL Usar conexión]**.
 
    La creación de informes y el filtrado de consentimiento se aplican al nivel de conexión. Todas las vistas de datos de una conexión configurada heredan el mismo comportamiento.
 
-1. En la sección **[!UICONTROL Vistas de datos]**, haga clic en **[!UICONTROL Seleccionar vistas de datos]**.
+1. En el campo **[!UICONTROL ID de persona]**, seleccione un campo del esquema basado en modelos que represente el ID de persona. La selección se limita a la lista de campos del esquema que están marcados como &quot;Identidad&quot; y no tienen un área de nombres de identidad.
 
-1. En el cuadro de diálogo Vistas de datos, active la casilla que hay junto a una o varias vistas de datos que desea utilizar para la creación de informes de consentimiento. Estas vistas de datos se configuran automáticamente con los datos de consentimiento de Experience Platform para la creación de informes.
+1. Elija si desea habilitar la creación de informes para los datos de consentimiento.
 
-1. Seleccione **[!UICONTROL Usar vistas de datos]**.
+   Para obtener información sobre cuándo habilitar los informes, consulte [Informes de consentimiento frente a filtrado](/help/connections/consent-reporting-filtering/consent-overview.md#consent-reporting-vs-filtering).
 
-1. (Opcional) En la sección **[!UICONTROL Filtrado]**, seleccione [!UICONTROL **Activar filtrado**] para filtrar los datos de consentimiento.
+   Para habilitar y configurar los informes:
 
-   Cuando el filtrado está habilitado, Customer Journey Analytics ingiere los datos de un visitante solo si este coincide con cualquier política de consentimiento habilitada. Para obtener más información, consulte [Filtrado de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering) en [Resumen de filtrado e informes de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md).
+   1. En la sección **[!UICONTROL Informes]**, seleccione **[!UICONTROL Habilitar informes]**.
 
-1. (Opcional) Habilite el filtrado para las siguientes acciones de marketing:
+   1. Seleccione las vistas de datos asociadas a la conexión que desee utilizar al analizar los datos de consentimiento de Platform en Analysis Workspace. En la sección **[!UICONTROL Vistas de datos]**, haga clic en **[!UICONTROL Seleccionar vistas de datos]**.
 
-   >[!NOTE]
-   >
-   >Cuando el filtrado para una acción de marketing está habilitado, Customer Journey Analytics ingiere los datos de un visitante solo si este coincide con **todas** las directivas de consentimiento que se aplican a esa acción de marketing. Para obtener más información, consulte [Filtrado de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering) en [Resumen de filtrado e informes de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md).
+   1. En el cuadro de diálogo Vistas de datos, active la casilla que hay junto a una o varias vistas de datos que desea utilizar para la creación de informes de consentimiento. Estas vistas de datos se configuran automáticamente con los datos de consentimiento de Experience Platform para la creación de informes.
 
-   | Acción de marketing | Descripción |
-   |---------|----------|
-   | **[!UICONTROL Datos de Analytics]** | Filtrar datos utilizados para los informes estándar de Customer Journey Analytics en Analysis Workspace. |
-   | **[!UICONTROL Datos de ciencia de datos]** | Filtrar datos utilizados para casos de uso de análisis avanzados, aprendizaje automático y ciencia de datos. |
+   1. Seleccione **[!UICONTROL Usar vistas de datos]**.
+
+1. Elija si desea activar el filtrado, que excluye los visitantes que no consienten en el momento de la ingesta.
+
+   Cuando el filtrado está habilitado, Customer Journey Analytics ingiere los datos de un visitante solo si este coincide con todas las directivas de consentimiento habilitadas.
+
+   Para obtener información sobre cuándo habilitar el filtrado, consulte [Informes de consentimiento frente a filtrado](/help/connections/consent-reporting-filtering/consent-overview.md#consent-reporting-vs-filtering).
+
+   Para activar y configurar el filtrado:
+
+   1. En la sección **[!UICONTROL Filtrado]**, seleccione **[!UICONTROL Habilitar filtrado]** para filtrar los datos de consentimiento.
+
+   1. Habilite el filtrado para una o ambas de las siguientes acciones de marketing:
+
+      >[!NOTE]
+      >
+      >Cuando el filtrado para una acción de marketing está habilitado, Customer Journey Analytics ingiere los datos de un visitante solo si este coincide con **todas** las directivas de consentimiento que se aplican a esa acción de marketing. Para obtener más información, consulte [Filtrado de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering) en [Resumen de filtrado e informes de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md).
+
+      Las acciones de marketing están vinculadas a las etiquetas y políticas de uso de datos que se configuran en Experience Platform. Para obtener más información, vea [Etiquetas, directivas y acciones de marketing](/help/data-views/data-governance.md).
+
+      | Acción de marketing | Descripción |
+      | --------- | ---------- |
+      | **[!UICONTROL Datos de Analytics]** | Filtrar datos utilizados para los informes estándar de Customer Journey Analytics en Analysis Workspace. |
+      | **[!UICONTROL Datos de ciencia de datos]** | Filtrar datos utilizados para casos de uso de análisis avanzados, aprendizaje automático y ciencia de datos. |
 
 1. Seleccione **[!UICONTROL Crear]** para crear la configuración.
 
