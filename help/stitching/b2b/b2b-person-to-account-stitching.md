@@ -231,7 +231,7 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Habilitar vinculación de persona a cuenta"
 >abstract="Si se ha habilitado, este conjunto de datos utiliza la vinculación de persona a cuenta B2B. Los valores de **[!UICONTROL ID de persona persistente]** se elevarán a los del **[!UICONTROL área de nombres de identificador de persona]** configurado y, a continuación, se utilizarán para buscar el ID de cuenta en función del conjunto de datos de persona a cuenta.<br/>Si está deshabilitado, este conjunto de datos no utiliza la vinculación de persona a cuenta B2B y tendrá que seleccionar un **[!UICONTROL ID de cuenta]** necesario en su lugar."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
 
 Después de configurar B2B person para la vinculación de cuentas en el nivel de conexión, debe habilitar B2B person para la vinculación de cuentas individualmente para cada conjunto de datos de evento que desee vincular.
 
