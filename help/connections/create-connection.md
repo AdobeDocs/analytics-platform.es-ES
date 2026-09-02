@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
+source-git-commit: 9c0ddbb48c5cb1c62bded02d1455f2631ab1679f
 workflow-type: tm+mt
-source-wordcount: 10479
+source-wordcount: 10488
 ht-degree: 90%
 
 ---
@@ -413,8 +413,8 @@ Se [añaden uno o varios conjuntos de datos](#add-datasets) o se [editan los con
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_personid"
->title="ID de persona"
->abstract="Seleccione un campo de tipo identity o identityMap con una buena cobertura de eventos. Los valores contenidos se elevarán a los del área de nombres de identificador de persona configurada anteriormente."
+>title="ID de persona persistente"
+>abstract="Seleccione un campo de tipo identity o identityMap disponible en todos los eventos, como el campo que contiene los ECID. Estos identificadores se elevarán a los ID de persona desde el área de nombres de identificador de persona configurado anteriormente."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
@@ -964,7 +964,7 @@ En esta tabla se muestran las dos opciones de configuración cuando están prese
 
 Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
 
-1. Vaya a [Servicios de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/home) y cree una consulta.
+1. Vaya a [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/home) y cree una consulta.
 
    La consulta tendría un aspecto similar al siguiente:
 

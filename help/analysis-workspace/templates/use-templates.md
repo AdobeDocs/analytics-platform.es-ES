@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e8f86da8d18cfa6a30e4a8330ae5492e9d0aa2f0
+source-git-commit: bac086b2636f835a5dc494b9cd05eb7b560f0bed
 workflow-type: tm+mt
-source-wordcount: 21213
-ht-degree: 98%
+source-wordcount: 21458
+ht-degree: 97%
 
 ---
 
@@ -153,17 +153,17 @@ Para acceder a todas las plantillas creadas previamente que están disponibles:
 
    * **[[!UICONTROL El más popular]](#most-popular)**
 
-   * **[[!UICONTROL Web]** > **[!UICONTROL Participación]](#engagement)**
+   * **[!UICONTROL Web]** > **[[!UICONTROL Participación]](#web-engagement)**
 
-   * **[[!UICONTROL Web]** > **[!UICONTROL Conversión]](#web-conversion)**
+   * **[!UICONTROL Web]** > **[[!UICONTROL Conversión]](#web-conversion)**
 
-   * **[[!UICONTROL Web]** > **[!UICONTROL Público]](#web-audience)**
+   * **[!UICONTROL Web]** > **[[!UICONTROL Audiencia]](#web-audience)**
 
-   * **[[!UICONTROL Web]** > **[!UICONTROL Adquisición]](#web-acquisition)**
+   * **[!UICONTROL Web]** > **[[!UICONTROL Adquisición]](#web-acquisition)**
 
-   * **[[!UICONTROL Móvil]** > **[!UICONTROL Aplicación móvil]](#mobile-mobile-app)**
+   * **[!UICONTROL Móvil]** > **[[!UICONTROL Aplicación Móvil]](#mobile-mobile-app)**
 
-   * **[[!UICONTROL Móvil]** > **[!UICONTROL Información del dispositivo móvil]](#mobile-mobile-device-information)**
+   * **[!UICONTROL Móvil]** > **[[!UICONTROL Información de dispositivo móvil]](#mobile-mobile-device-information)**
 
    * **[[!UICONTROL Partición de tiempo]](#time-parting)**
 
@@ -171,7 +171,13 @@ Para acceder a todas las plantillas creadas previamente que están disponibles:
 
    * **[[!UICONTROL Otros canales]](#other-channels)**
 
-   * **[[!UICONTROL AJO]](#ajo)**
+   * **[[!UICONTROL Journey Optimizer]](#ajo-templates)**
+
+   * **[[!UICONTROL Brand Concierge]](#brand-concierge)**
+
+   * **[[!UICONTROL Mix Modeler]](#mix-modeler)**
+
+
 
 ### Más popular {#most-popular}
 
@@ -409,6 +415,12 @@ Las plantillas disponibles son las siguientes:
 >abstract="**Esto puede ayudarle** a conocer el rendimiento de su contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza la IA para generar atributos automáticamente y etiquetar el contenido con ellos. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics).<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como promocionar recursos de alto rendimiento en su página de inicio, personalizar contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto."
 
 
+
+>[!CONTEXTUALHELP]
+>id="template--content-analytics-paid-media"
+>title="Descubra qué contenido de medios de pago y atributos de contenido tienen el mejor rendimiento."
+>abstract="**Esto puede ayudarte** a conocer el rendimiento de tu contenido multimedia de pago a nivel granular. Puede revisar el alcance, la participación, el gasto y la eficacia de los medios de pago en redes, cuentas, campañas, experiencias y recursos. Las métricas y dimensiones de este panel permanecen intencionadamente en el granulado de resumen de recursos de medios de pago. No combine conjuntos de datos de resumen con datos de evento.  [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics).<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como volver a centrarse en cómo gasta dinero en sus canales de medios de pago, gastar más dinero en campañas de bajo rendimiento o gastar más dinero en campañas con recursos de alto rendimiento."
+
 Las plantillas disponibles son las siguientes:
 
 &#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
@@ -427,7 +439,8 @@ Las plantillas disponibles son las siguientes:
 | **Páginas de entrada** | Ver las páginas principales a las que acceden los usuarios al visitar el sitio por primera vez. <p>**Esto puede ayudarle** a comprender mejor qué páginas dirigen la mayor cantidad de tráfico al sitio o a comprender mejor las primeras impresiones que los visitantes tienen en el sitio.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como optimizar la experiencia inicial que obtienen los usuarios en el sitio o asegurarse de que las páginas que ven los usuarios por primera vez al entrar en el sitio sean acogedoras y proporcionen los vínculos necesarios a otras áreas del sitio.</p><p>Esta plantilla usa la métrica Sesiones. También utiliza la visualización Barra y la visualización Tabla de forma libre.</p> |
 | **Páginas de salida** | Vea las páginas principales a las que los usuarios acceden inmediatamente antes de abandonar el sitio.<p>**Esto puede ayudarle** a comprender mejor qué páginas están alejando a la gente del sitio. </p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en su sitio.</p><p>Esta plantilla usa la métrica Sesiones. También utiliza la visualización Barra y la visualización Tabla de forma libre.</p> |
 | **Información general sobre el uso del producto** | Vea cómo se utiliza el producto de Customer Journey Analytics en su organización. <p>**Esto puede ayudarle** a comprender mejor cuántas personas utilizan Customer Journey Analytics, con qué frecuencia lo usan y las tendencias de uso a lo largo del tiempo. También puede ver el número de proyectos que se crean y los detalles sobre esos proyectos (como qué componentes, visualizaciones y paneles se utilizan más habitualmente), así como muchas otras estadísticas sobre el uso.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como eliminar proyectos o componentes que no use, o proporcionar formación al usuario para las funciones más populares.</p> |
-| **Content Analytics** | Descubra qué contenido y atributos de contenido tienen el mejor rendimiento.<p>**Esto puede ayudarle** a conocer el rendimiento de su contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza la IA para generar atributos automáticamente y etiquetar el contenido con ellos. Consulte [Content Analytics](/help/content-analytics/content-analytics.md){target="_blank"} para obtener más información.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como promocionar recursos de alto rendimiento en su página de inicio, personalizar contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto.</p> |
+| **Content Analytics** | Descubra qué contenido y atributos de contenido tienen el mejor rendimiento.<p>**Esto puede ayudarle** a conocer el rendimiento de su contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos. Content Analytics utiliza la IA para generar atributos automáticamente y etiquetar el contenido con ellos. Consulte [Content Analytics](/help/content-analytics/content-analytics.md) para obtener más información.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como promocionar recursos de alto rendimiento en su página de inicio, personalizar contenido para segmentos específicos para incluir atributos de alto rendimiento o rotar el contenido que haya empezado a quedar obsoleto.</p> |
+| **Content Analytics de medios de pago** | Descubra qué contenido de medios de pago y atributos de contenido tienen el mejor rendimiento.<p>**Esto puede ayudarte** a conocer el rendimiento de tu contenido multimedia de pago a nivel granular. Puede revisar el alcance, la participación, el gasto y la eficacia de los medios de pago en redes, cuentas, campañas, experiencias y recursos. Las métricas y dimensiones de este panel permanecen intencionadamente en el granulado de resumen de recursos de medios de pago. No combine conjuntos de datos de resumen con datos de evento. Consulte [Content Analytics](/help/content-analytics/content-analytics.md) para obtener más información.<p/><p>**En función de lo que aprenda, podría** hacer muchas cosas, como volver a centrarse en cómo gasta dinero en sus canales de medios de pago, gastar más dinero en campañas de bajo rendimiento o gastar más dinero en campañas con recursos de alto rendimiento.</p> |
 
 ### Web: conversión {#web-conversion}
 
@@ -1051,7 +1064,7 @@ Las plantillas disponibles son las siguientes:
 | **Encuesta** | Ver la participación del usuario en sus encuestas. Ver el número de inicios y finalizaciones, las preguntas y respuestas principales y el número de primeros participantes frente a los repetidos.<p>**Esto puede ayudarle** a comprender mejor los niveles de participación y la tasa de éxito de sus encuestas.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ajustar las futuras encuestas para obtener una mejor participación.</p><p>Esta plantilla utiliza las métricas Usuarios, Eventos, Inicios de encuesta, Encuestas completadas y Tasa de finalización de encuestas.</p> |
 | **Información general sobre el uso del producto** | Vea cómo utiliza su organización Customer Journey Analytics.<p>**Esto puede ayudarle** a comprender mejor cuántas personas de su organización usan Customer Journey Analytics, con qué frecuencia lo usan y las tendencias de uso a lo largo del tiempo. También puede ver el número de proyectos creados y los detalles sobre esos proyectos. Vea qué componentes, visualizaciones y paneles se utilizan con mayor frecuencia, entre otras estadísticas de uso. [Más información](/help/tools/product-usage/usage-overview.md)</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como eliminar proyectos o componentes que no use, o proporcionar formación al usuario para las funciones más populares.</p> |
 
-### Journey Optimizer {#AJO-templates}
+### Journey Optimizer {#ajo-templates}
 
 <!--CJA only-->
 
@@ -1139,13 +1152,7 @@ Las plantillas disponibles son las siguientes:
 | [!UICONTROL **Actividad de los grupos de compra B2B**] | Visualice la actividad del grupo de compra en cada cuenta para informar de tácticas de marketing de los grupos de compra y la cuenta.<p>**Esto puede ayudarle** a visualizar qué grupos de compra y personas dentro de esos grupos están más involucrados, lo que pondrá de relieve las brechas de participación del grupo.</p><p>**En función de lo que aprenda, puede** hacer muchas cosas, como intentar relacionarse más con personas de los grupos de compra que no parecen estar involucrados.</p> |
 
 
-### Plantillas de Mix Modeler {#mix-modeler-templates}
-
-Las plantillas disponibles son las siguientes:
-
-&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
-| --- | --- |
-| [!UICONTROL **Datos del modelo incremental de Mix Modeler**] | Vea información de modelos seleccionados generados por Mix Modeler.<p>**Esto puede ayudarle** a comprender mejor la información incremental de los modelos generados en Mix Modeler. <p>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul></p> |
+### Mix Modeler {#mix-modeler-templates}
 
 <!-- CJA only -->
 
@@ -1153,3 +1160,13 @@ Las plantillas disponibles son las siguientes:
 >id="template--mixmodeler-incremental-models-insights"
 >title="Vea información de modelos seleccionados generados por Mix Modeler."
 >abstract="**Esto puede ayudarle** a comprender mejor la información incremental de los modelos generados en Mix Modeler. <br/>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul>"
+
+Las plantillas disponibles son las siguientes:
+
+&#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- |
+| [!UICONTROL **Datos del modelo incremental de Mix Modeler**] | Vea información de modelos seleccionados generados por Mix Modeler.<p>**Esto puede ayudarle** a comprender mejor la información incremental de los modelos generados en Mix Modeler. <p>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul></p> |
+
+
+
+
