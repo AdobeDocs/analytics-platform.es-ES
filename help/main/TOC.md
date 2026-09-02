@@ -2,7 +2,7 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 99135905f825cbef805c1664f6fb554497df3c3d
+source-git-commit: a971b268208ec49b5ccd84b11543263ff3a1abea
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 91%
@@ -472,7 +472,7 @@ ht-degree: 91%
   + [Validar vinculación](/help/stitching/validate.md)
   + [Preguntas frecuentes](/help/stitching/faq.md)
   + B2B {#b2b}
-    + {hide-from-toc}[Vinculación de persona a cuenta](/help/stitching/b2b/b2b-person-to-account-stitching.md)
+    + [Vinculación de persona a cuenta](/help/stitching/b2b/b2b-person-to-account-stitching.md)
 
 + Total de informes de población {#tpr}
   + {hide-from-toc}[Información general](/help/tpr/tpr.md)
