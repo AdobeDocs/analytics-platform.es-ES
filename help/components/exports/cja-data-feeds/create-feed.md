@@ -5,22 +5,14 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: fdd9b5738103166d7c64666f85d0c508c7176fd0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
 workflow-type: tm+mt
-source-wordcount: 4178
+source-wordcount: 4217
 ht-degree: 21%
 
 ---
@@ -77,6 +69,15 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_datafeed_required_dimensions"
+>title="Dimensiones requeridas"
+>abstract="Cada fuente de datos debe incluir ciertas dimensiones, identificadas por una etiqueta **Requerido** junto al nombre de la dimensión. Estas dimensiones proporcionan la estructura mínima necesaria para el análisis a nivel de evento."
+
+<!-- markdownlint-enable MD034 -->
+
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 
 1. Selecciona [!UICONTROL **Customer Journey Analytics**] del conmutador de aplicaciones ![Aplicación](/help/assets/icons/Apps.svg) en la parte superior derecha de la interfaz.
@@ -114,13 +115,13 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    Los segmentos que aplique aquí se añaden a los que ya se puedan aplicar en la vista de datos.
 
-1. (Opcional) En el carril izquierdo, utilice el campo **buscar** para localizar componentes específicos o seleccione el icono **Ordenar** ![Icono de ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) para aplicar cualquiera de las siguientes opciones de ordenación:
+1. (Opcional) En el carril izquierdo, utilice el campo **search** para localizar componentes específicos. O bien, seleccione el icono **Ordenar** ![Icono de ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) para aplicar cualquiera de las siguientes opciones de ordenación:
 
    | Opción | Función |
-   |---------|----------|
+   | --------- | ---------- |
    | [!UICONTROL **Recomendado**] | Ordena los componentes con los recomendados en la parte superior de la lista. Los componentes que usted u otras personas de su organización utilizan con más frecuencia y más recientemente aparecen en la parte superior de la lista. |
    | [!UICONTROL **Alfabético**] | Ordena los componentes alfabéticamente. |
-   | [!UICONTROL **Categórica**] | Ordena los componentes según su tipo (dimensión, métrica, segmento, intervalo de fecha). |
+   | [!UICONTROL **Categórica**] | Ordena componentes similares a [!UICONTROL **Recomendado**], excepto que las métricas calculadas y las métricas estándar se agrupan por separado en lugar de mezclarse. |
 
 1. Agregue componentes a la configuración de la fuente de datos. El carril izquierdo muestra solo los componentes válidos para las fuentes de datos.
 
@@ -138,11 +139,11 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    | Nombre de la dimensión | Notas | Fuentes de datos | Otros informes |
    |---|---|---|---|
-   | Marca de tiempo UTC | La fecha y la hora en que se produjo el evento, representadas en la zona horaria UTC. Admite granularidad de subsegundos (microsegundos). | Obligatorio | No disponible |
-   | ID de fila | El identificador único de cada fila se incluye en el feed de datos. | Obligatorio | No disponible |
-   | ID de sesión | El identificador único de cada sesión se incluye el feed de datos. | Obligatorio | No disponible |
-   | ID de persona | El identificador personal de la vista de datos y la conexión | Obligatorio | Estándar opcional |
-   | ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | ID de cuenta al utilizar el contenedor de cuenta | Obligatorio | Estándar opcional |
+   | Marca de tiempo UTC | La fecha y la hora en que se produjo el evento, representadas en la zona horaria UTC. Admite granularidad de subsegundos (microsegundos). | Requerido | No disponible |
+   | ID de fila | El identificador único de cada fila se incluye en el feed de datos. | Requerido | No disponible |
+   | ID de sesión | El identificador único de cada sesión se incluye el feed de datos. | Requerido | No disponible |
+   | ID de persona | El identificador personal de la vista de datos y la conexión | Requerido | Estándar opcional |
+   | ID de cuenta [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | ID de cuenta al utilizar el contenedor de cuenta | Requerido | Estándar opcional |
 
    +++
 
