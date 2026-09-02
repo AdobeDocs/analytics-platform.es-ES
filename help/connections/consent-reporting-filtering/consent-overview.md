@@ -19,16 +19,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 3%
+source-wordcount: 1311
+ht-degree: 1%
 
 ---
 
 # Resumen de filtrado e informes de consentimiento
 
-La creación de informes y el filtrado de consentimiento utilizan los datos de pertenencia a directivas de consentimiento almacenados en los conjuntos de datos de Perfil de Adobe Experience Platform para ayudarle a crear informes sobre el consentimiento del visitante y, opcionalmente, excluir a los visitantes que no dan su consentimiento antes de que sus datos se introduzcan en Customer Journey Analytics.
+Los informes y filtros de consentimiento utilizan los datos de pertenencia a directivas de consentimiento almacenados en los conjuntos de datos de Perfil de Adobe Experience Platform para ayudarle a crear informes sobre el consentimiento del visitante. Además, puede optar por excluir a los visitantes que no consientan antes de que sus datos se incorporen en Customer Journey Analytics.
 
 ## Requisitos previos
 
@@ -55,7 +55,23 @@ El diagrama siguiente y la tabla asociada muestran una representación de alto n
 
 ## Informes de consentimiento frente a filtrado
 
-La creación de informes y el filtrado de consentimiento son dos funcionalidades independientes. Puede habilitar los informes de consentimiento por su cuenta o habilitar tanto los informes como el filtrado a la vez.
+La creación de informes y el filtrado de consentimiento son dos funcionalidades independientes. **Informes de consentimiento** le permite usar Analysis Workspace para informar sobre qué visitantes coinciden con las distintas directivas de consentimiento que se han configurado en los conjuntos de datos del perfil de Experience Platform. **Filtro de consentimiento** indica a Customer Journey Analytics que excluya a los visitantes que no consientan en el momento de la ingesta.
+
+Puede habilitar los informes de consentimiento o el filtrado individualmente, o bien utilizar ambos juntos. Habilitar la creación de informes de consentimiento por sí solo es suficiente para muchos casos de uso empresariales.
+
+La siguiente información describe los motivos para utilizar cada configuración:
+
+* **Más común:**
+
+  **Usar datos de consentimiento para informes (sin filtrar)**: esta configuración es útil cuando desea analizar la pertenencia a directivas de consentimiento en Analysis Workspace y no necesita excluir ningún dato de visitante de la ingesta.
+
+* **Menos común:**
+
+  **Use datos de consentimiento para generar informes y filtrar datos de consentimiento**: esta configuración es útil cuando desea analizar los datos de pertenencia a directivas de consentimiento en Analysis Workspace y cuando su organización también requiere que excluya los datos de visitantes sin consentimiento en el momento de la ingesta.
+
+* **Poco común:**
+
+  **Filtrar datos de consentimiento (sin informe)**: esta configuración es poco común, pero podría resultar útil cuando su organización requiere que excluya datos de visitantes sin consentimiento en el momento de la ingesta, pero no necesita informar sobre otras opciones de consentimiento que no forman parte de los datos filtrados. Por ejemplo, los requisitos de cumplimiento de normas de su organización pueden obligarle a filtrar datos en función del consentimiento, sin que tenga que crear y mantener el conjunto de datos de búsqueda de políticas de consentimiento que utiliza la creación de informes.
 
 ### Informes de consentimiento
 
@@ -79,10 +95,12 @@ Tenga en cuenta lo siguiente al utilizar el filtrado de consentimiento:
 
   Una acción de marketing representa una categoría de uso de datos. Customer Journey Analytics determina qué políticas de consentimiento se aplican a cada acción de marketing y usted habilita el filtrado para cada acción de marketing de forma independiente al [crear su configuración](/help/connections/consent-reporting-filtering/consent-configure.md#create-a-configuration).
 
+  Las acciones de marketing están vinculadas a las etiquetas y políticas de uso de datos que se configuran en Experience Platform. Para obtener más información, vea [Etiquetas, directivas y acciones de marketing](/help/data-views/data-governance.md).
+
   | Acción de marketing | Descripción |
-  |---------|----------|
-  | **[!UICONTROL Datos de Analytics]** | Creación de informes estándar de Customer Journey Analytics en Analysis Workspace. |
-  | **[!UICONTROL Datos de ciencia de datos]** | Casos de uso de análisis avanzados, aprendizaje automático y ciencia de datos. |
+  | --------- | ---------- |
+  | **[!UICONTROL Datos de Analytics]** | Filtrar datos utilizados para los informes estándar de Customer Journey Analytics en Analysis Workspace. |
+  | **[!UICONTROL Datos de ciencia de datos]** | Filtrar datos utilizados para casos de uso de análisis avanzados, aprendizaje automático y ciencia de datos. |
 
 * Los datos de un visitante se incorporan solamente si el visitante coincide con **todas** las directivas de consentimiento aplicables. Si a un visitante le falta alguna política aplicable, se excluyen los datos de ese visitante.
 

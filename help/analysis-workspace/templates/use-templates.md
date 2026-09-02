@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 89f0a1e54662c59d474b1fba28eb8420612e9243
+source-git-commit: e8f86da8d18cfa6a30e4a8330ae5492e9d0aa2f0
 workflow-type: tm+mt
-source-wordcount: 21140
+source-wordcount: 21213
 ht-degree: 98%
 
 ---
@@ -522,7 +522,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--bots"
 >title="Ver las vistas de página y las tendencias relativas al tráfico de bots en el sitio."
->abstract="**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar supervisando la actividad de los bots para poder identificar nuevos patrones."
+>abstract="**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar monitorizando la actividad de los bots para poder identificar nuevos patrones."
 
 >[!CONTEXTUALHELP]
 >id="template--firstvsrepeatvisitors"
@@ -677,6 +677,7 @@ Las plantillas disponibles son las siguientes:
 
 &#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
+| [!UICONTROL **Descripción general de la directiva de consentimiento**] | Vea los visitantes en función de los datos de pertenencia a directivas de consentimiento de Adobe Experience Platform.<p>**Esto puede ayudarle** como punto de partida para la creación de informes sobre la pertenencia a directivas de consentimiento de visitantes. Cuando se configura una vista de datos para la creación de informes de consentimiento, Customer Journey Analytics pone automáticamente a disposición de Analysis Workspace una plantilla de análisis de política de consentimiento. <br/>**En función de lo que sepa, podría** hacer muchas cosas, como excluir de los informes de análisis a los visitantes que no consientan.</p> |
 | **[!UICONTROL Resumen de audiencia]** | Ver qué públicos se representan entre las personas que visitan el sitio.<p>**Esto puede ayudarle a** comprender mejor la información general sobre el público, dónde se originó (RTCDP, Customer Journey Analytics, etc.), su superposición y mucho más.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como usar los datos para centrarse en los esfuerzos de marketing para este público en concreto o crear experiencias adaptadas para los clientes que abarcan varios públicos.</p><p>Esta plantilla utiliza las dimensiones Nombre de audiencia, Origen de audiencia, Nombre de audiencia de salida y Origen de audiencia de salida.</p><p>Para obtener más información, consulte [Analizar audiencias de Experience Platform en Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> |
 | [!UICONTROL **Visitantes por primera vez frente a visitantes recurrentes**] | Ver una comparación de los visitantes nuevos que repiten visita. <p>**Esto puede ayudarle** a comprender mejor la eficacia de su sitio para conservar la lealtad de sus clientes o la velocidad a la que está adquiriendo nuevos clientes.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ofrecer incentivos para futuras compras a los visitantes nuevos con el fin de animarlos a que regresen.</p><!-- This template uses the --> |
 | **ID de la persona** | Ver el comportamiento de cada usuario en varios canales.<p>**Esto puede ayudarle** a comprender mejor el recorrido completo del cliente y las interacciones entre varios puntos de contacto.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como personalizar los esfuerzos de marketing para atender mejor las preferencias de los usuarios.</p><!-- This template uses the --> |

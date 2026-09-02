@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: 590
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Comprenda cuántos visitantes coinciden con cada directiva de consentimiento ant
 
 1. Cree una configuración y seleccione la zona protegida, el conjunto de datos de perfil y la conexión que contienen los datos de pertenencia a la directiva de consentimiento.
 
-1. Deje desactivado el filtrado de **[!UICONTROL Analytics]** y **[!UICONTROL Ciencia de datos]**.
+1. Deje desactivados los filtros de **[!UICONTROL datos de Analytics]** y **[!UICONTROL datos de ciencia de datos]**.
 
 1. En Analysis Workspace, cree una tabla de forma libre con la dimensión **[!UICONTROL Nombre de directiva]** y la métrica **[!UICONTROL Visitantes con consentimiento]** para ver la cobertura por directiva.
 
@@ -70,7 +70,7 @@ Asegúrese de que los informes estándar incluyan solo los visitantes que hayan 
 
 1. Cree o edite una configuración para la conexión que alimente los informes de Analytics.
 
-1. Habilite la opción de filtrado **[!UICONTROL Analytics]**.
+1. Habilite la opción de filtrado **[!UICONTROL Datos de Analytics]**.
 
 1. Confirme la configuración. A partir de este momento, Customer Journey Analytics únicamente ingiere los datos de un visitante si coinciden con todas las directivas de consentimiento aplicables a la acción de marketing analítica.
 
@@ -86,7 +86,7 @@ Aplique diferentes requisitos de consentimiento a los informes estándar y a los
 
 1. Cree o edite una configuración para la conexión correspondiente.
 
-1. Habilite la opción **[!UICONTROL Analytics]**, la opción **[!UICONTROL Ciencia de datos]** o ambas, según los requisitos de consentimiento de cada caso de uso.
+1. Habilite la opción **[!UICONTROL Datos de Analytics]**, **[!UICONTROL Datos de ciencia de datos]** o ambas, según los requisitos de consentimiento de cada caso de uso.
 
 1. Confirme la configuración. Customer Journey Analytics evalúa de forma independiente las políticas de consentimiento que se aplican a cada acción de marketing habilitada.
 
