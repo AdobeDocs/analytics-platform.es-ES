@@ -35,13 +35,13 @@ Este artículo explica en detalle cómo Content Analytics recopila datos
 En el contexto de este artículo se utilizan las definiciones siguientes:
 
 * **Experiencia**:
-   * Para el canal **web**, una experiencia se define como el contenido de texto de una página web completa. Para la recopilación de datos, Content Analytics registra el Experience ID que se basa en la dirección URL de la página. Posteriormente, el texto de la página se captura mediante el servicio de recuperación.
-   * Para el canal **mobile**, se define y rastrea una experiencia en la aplicación móvil con la extensión Content Analytics para Adobe Experience Platform Mobile SDK.
+  * Para el canal **web**, una experiencia se define como el contenido de texto de una página web completa. Para la recopilación de datos, Content Analytics registra el Experience ID que se basa en la dirección URL de la página. Posteriormente, el texto de la página se captura mediante el servicio de recuperación.
+  * Para el canal **mobile**, se define y rastrea una experiencia en la aplicación móvil con la extensión Content Analytics para Adobe Experience Platform Mobile SDK.
 * **Experience ID**:
-   * Para el canal web, el ID de experiencia es una combinación única de la URL relevante (URL base más cualquier parámetro que dirija el contenido de la página) y [versión de experiencia](manual.md#versioning).
-      * Usted especifica, como parte de la [configuración](configuration.md), qué parámetros son relevantes para cualquier URL completa dada.
-      * Usted define un [identificador de versión](manual.md#versioning) para usar, de modo que recopile correctamente los cambios en sus experiencias.
-   * Para el canal **mobile**, el ID de experiencia es el valor devuelto por el uso de la llamada a la API `registerExperience`.
+  * Para el canal web, el ID de experiencia es una combinación única de la URL relevante (URL base más cualquier parámetro que dirija el contenido de la página) y [versión de experiencia](manual.md#versioning).
+    * Usted especifica, como parte de la [configuración](configuration.md), qué parámetros son relevantes para cualquier URL completa dada.
+    * Usted define un [identificador de versión](manual.md#versioning) para usar, de modo que recopile correctamente los cambios en sus experiencias.
+  * Para el canal **mobile**, el ID de experiencia es el valor devuelto por el uso de la llamada a la API `registerExperience`.
 * **Recurso**: Una imagen. Content Analytics registra la dirección URL del recurso.
 * **ID de recurso**: La dirección URL del recurso.
 * **URL relevante**: La URL base más cualquier parámetro que dirija el contenido de la página.
@@ -64,8 +64,8 @@ Esta sección detalla los eventos específicos de Content Analytics web. Consult
 Un evento de Content Analytics consta de:
 
 * Campos estándar
-   * Marca de tiempo
-   * Identidad
+  * Marca de tiempo
+  * Identidad
 * Vistas de experiencias (si las hay, y si están configuradas)
 * Clics en experiencias (si los hay y si están configurados)
 * Vistas de recursos (si las hay y si están configuradas)
@@ -107,11 +107,11 @@ Para reducir el número de solicitudes de red enviadas desde la página, Content
 
 * Web SDK o Adobe AppMeasurement envían un evento.
 * La visibilidad cambia a oculta, por ejemplo:
-   * La página se descarga
-   * Se cambia de pestaña
-   * Se minimiza el explorador
-   * Se cierra el explorador
-   * Se bloquea la pantalla
+  * La página se descarga
+  * Se cambia de pestaña
+  * Se minimiza el explorador
+  * Se cierra el explorador
+  * Se bloquea la pantalla
 * La dirección URL cambia, lo que da como resultado una dirección URL relevante modificada.
 * Las vistas de recursos registradas y listas para enviar superan las 32.
 

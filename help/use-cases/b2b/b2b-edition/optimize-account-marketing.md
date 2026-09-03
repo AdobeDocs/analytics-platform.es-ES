@@ -36,8 +36,8 @@ Para tener esta comprensión, desea analizar y explorar:
 
 * Impacto de marketing:
 
-   * En todas las campañas, canales y contenido.
-   * Al comprar grupos dentro de cuentas,
+  * En todas las campañas, canales y contenido.
+  * Al comprar grupos dentro de cuentas,
 
 * Progresión de canalización de ventas.
 * Oportunidades de ampliación de venta y venta cruzada.

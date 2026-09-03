@@ -120,7 +120,7 @@ El panel de filtro consta de las siguientes secciones.
 
 | Propietario | Descripción |
 |---|---|
-| ![Propietarios](/help/components/audiences/assets/audiences-filter-owner.png){width="300"} | La sección **[!UICONTROL Propietario]** le permite filtrar por los propietarios. <ul><li>Utilice la opción ![Buscar](/help/assets/icons/Search.svg) para buscar los propietarios que desea usar para filtrar.</li><li>Puede seleccionar más de un propietario. </li></ul> |
+| ![Propietarios](/help/components/audiences/assets/audiences-filter-owner.png){width="300"} | La sección **[!UICONTROL Propietario]** le permite filtrar por propietarios. <ul><li>Utilice la opción ![Buscar](/help/assets/icons/Search.svg) para buscar los propietarios que desea usar para filtrar.</li><li>Puede seleccionar más de un propietario. </li></ul> |
 
 ## Frecuencia de actualización
 

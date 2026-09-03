@@ -43,7 +43,7 @@ El único carácter comodín admitido para los operadores que admiten caracteres
 Por ejemplo, tiene un nombre de página denominado *Mi excelente producto*.
 
 * La regla de segmento **[!UICONTROL Nombre de página]** **[!UICONTROL coincide con]** `* product` coincidirá con el nombre de página anterior.
-* Sin embargo, la regla **[!UICONTROL Nombre de página]** **[!UICONTROL coincide]** `My \* product` coincide únicamente con el nombre de página *Mi* Producto*.
+* Sin embargo, la regla **[!UICONTROL Nombre de página]** **[!UICONTROL coincide con]** `My \* product` coincide únicamente con el nombre de página *Mi producto**.
 
 ## Operadores estándar
 

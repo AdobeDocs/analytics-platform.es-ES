@@ -77,8 +77,8 @@ El carril de consulta permite configurar los siguientes componentes:
 El análisis de [!UICONTROL Participación] ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
 * **[!UICONTROL Medianas]**: determine dónde se muestran las líneas medianas y cómo se relacionan los puntos trazados con esas medias.
-   * **[!UICONTROL Estándar]**: muestra el valor absoluto de uso y participación.
-   * **[!UICONTROL Normalizado]**: muestra los cambios relativos de cada mediana.
+  * **[!UICONTROL Estándar]**: muestra el valor absoluto de uso y participación.
+  * **[!UICONTROL Normalizado]**: muestra los cambios relativos de cada mediana.
 * **[!UICONTROL Superposición de eventos principales]**: vea el rendimiento de los eventos en comparación con los 20 eventos principales, según la actualización y relevancia de la empresa y el usuario (el mismo algoritmo aplicado al selector de eventos en el carril de consultas).
 
 ### Comparación del tiempo

@@ -20,7 +20,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 2491
+source-wordcount: 2496
 ht-degree: 4%
 
 ---
@@ -47,8 +47,8 @@ Un segmento secuencial tiene [funcionalidad básica](#basics) y opciones adicion
 
 * Los datos que se van a [incluir](#include) como parte de la secuencia general para la definición del segmento. O para una secuencia definida como parte de un contenedor. De forma predeterminada, se tienen en cuenta todos los datos coincidentes. Esos datos son identificados por ![UserGroup](/help/assets/icons/UserGroup.svg) [!UICONTROL Incluir a todos].
 
-   * Seleccione ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** para tener en cuenta solamente los datos anteriores a la secuencia.
-   * Seleccione ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** para tener en cuenta solamente los datos después de la secuencia.
+  * Seleccione ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** para tener en cuenta solamente los datos anteriores a la secuencia.
+  * Seleccione ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** para tener en cuenta solamente los datos después de la secuencia.
 
 * Qué datos [excluir](#exclude) como parte de la definición del segmento secuencial.
 
@@ -129,7 +129,7 @@ Identifique a las personas que visitaron una página y luego otra página solo d
 
 ![Secuencia posterior](assets/sequence-after.png)
 
-Si el 1 de junio de 2024 a las 00:01 se produce una vista de página de la página principal, entonces cambie una vista de página a Mujer | Los zapatos coincidirán siempre y cuando la vista de esa página se produzca después del 15 de junio de 2024 00:01.
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 00:01 horas, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre y cuando la vista de esa página se produzca después del 15 de junio de 2024 a las 00:01.
 
 ##### Operador [!UICONTROL Within]
 
@@ -137,7 +137,7 @@ Identifique a las personas que visitaron una página y luego otra en un plazo de
 
 ![Secuencia en](assets/sequence-within.png)
 
-Si el 1 de junio de 2024 se produce una vista de página de la página principal a las 12:01, se abrirá una vista de página para la página principal | Los zapatos coincidirán siempre que la vista de esa página se produzca antes del 15 de junio de 2024 12:16.
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 12:01, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre y cuando esa vista de página se produzca antes del 15 de junio de 2024 a las 12:16.
 
 ##### [!UICONTROL Después de] pero [!UICONTROL Dentro de] operador
 
@@ -145,7 +145,7 @@ Identifique a las personas que visitaron una página y luego visitaron otra desp
 
 ![Secuencia posterior a pero dentro de](assets/sequence-afterbutwithin.png)
 
-Cualquier persona que acceda a la página de inicio el 1 de junio de 2024 y que vuelva a visitar a las mujeres | Página de zapatos después del 15 de junio de 2019 00:01, pero antes del 1 de julio de 2019 califica para el segmento.
+Cualquier persona que acceda a la página de inicio el 1 de junio de 2024 y que vuelva a visitar a las mujeres | Página de Zapatos después del 15 de junio de 2019 00:01, pero antes del 1 de julio de 2019 califican para el segmento.
 
 
 ### Restricciones de [!UICONTROL Event], [!UICONTROL Session] y [!UICONTROL Dimension]

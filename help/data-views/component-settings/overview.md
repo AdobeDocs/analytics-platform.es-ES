@@ -108,8 +108,8 @@ Las ventajas de las etiquetas de contexto son:
 * **Coherencia**: todas las personas de su organización que trabajen en uno o más proyectos basados en una vista de datos que utilice etiquetas de contexto obtendrán el mismo comportamiento.
 * **Visibilidad de características y plantillas**: Algunas visualizaciones y características solo aparecen cuando se asigna la etiqueta de contexto adecuada. Por ejemplo:
 
-   * Una visualización [Map](/help/analysis-workspace/visualizations/map.md) solo se muestra correctamente cuando Customer Journey Analytics sabe qué componentes representan latitud y longitud.
-   * Las [plantillas](/help/analysis-workspace/templates/use-templates.md) específicas solo están visibles cuando se aplican las etiquetas de contexto correctas y los componentes asociados están disponibles.
+  * Una visualización [Map](/help/analysis-workspace/visualizations/map.md) solo se muestra correctamente cuando Customer Journey Analytics sabe qué componentes representan latitud y longitud.
+  * Las [plantillas](/help/analysis-workspace/templates/use-templates.md) específicas solo están visibles cuando se aplican las etiquetas de contexto correctas y los componentes asociados están disponibles.
 
 Las etiquetas de contexto pueden ser necesarias en las siguientes situaciones:
 

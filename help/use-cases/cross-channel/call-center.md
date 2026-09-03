@@ -35,14 +35,14 @@ Customer Journey Analytics dispone de una función robusta y muy útil que permi
 * Acceso a Adobe Experience Platform y Customer Journey Analytics
 * Si el conjunto de datos incluye registros de un sistema de respuesta de voz interactivo, Adobe recomienda procesar los datos para incluir únicamente interacciones rápidas antes de importarlos a Platform.
 * Si el conjunto de datos incluye registros de llamadas, Adobe recomienda incluir las columnas siguientes:
-   * Fecha y hora en que se inició la llamada
-   * Motivo de la llamada
-   * ID del centro de llamadas
-   * ID del agente del centro de llamadas
-   * Duración de la llamada
-   * Resultado de la llamada
-   * Coste de la llamada (si está disponible)
-   * Cualquier metadato adicional de la llamada que su organización desee incluir
+  * Fecha y hora en que se inició la llamada
+  * Motivo de la llamada
+  * ID del centro de llamadas
+  * ID del agente del centro de llamadas
+  * Duración de la llamada
+  * Resultado de la llamada
+  * Coste de la llamada (si está disponible)
+  * Cualquier metadato adicional de la llamada que su organización desee incluir
 
 ## Importación de datos web y de centros de llamadas en Platform
 

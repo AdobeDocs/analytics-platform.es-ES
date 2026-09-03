@@ -166,23 +166,23 @@ Para agregar los componentes que faltan a una plantilla:
 
    * **Si está viendo plantillas en una vista de columna** ![icono de vista de columna](assets/column-view-icon.png):
 
-      1. Vaya a la plantilla que aún no esté lista para usar con la vista de datos y, a continuación, seleccione el icono de información junto al nombre de la plantilla.
+     1. Vaya a la plantilla que aún no esté lista para usar con la vista de datos y, a continuación, seleccione el icono de información junto al nombre de la plantilla.
 
-         ![Información de plantilla de la compañía](assets/company-template-info.png)
+        ![Información de plantilla de la compañía](assets/company-template-info.png)
 
-      1. Seleccione **[!UICONTROL Vista previa]**.
+     1. Seleccione **[!UICONTROL Vista previa]**.
 
-         ![Página de vista previa de la plantilla](assets/template-preview.png)
+        ![Página de vista previa de la plantilla](assets/template-preview.png)
 
    * **Si está viendo plantillas en una vista de tarjeta** ![icono de vista de tarjeta](assets/card-view-icon.png):
 
-      1. Busque la plantilla que aún no está lista para usar con la vista de datos.
+     1. Busque la plantilla que aún no está lista para usar con la vista de datos.
 
-         ![Vista de tarjeta de plantilla de la compañía](assets/company-template-cards.png)
+        ![Vista de tarjeta de plantilla de la compañía](assets/company-template-cards.png)
 
-      1. Pase el puntero por encima de la plantilla y seleccione **[!UICONTROL Vista previa]**.
+     1. Pase el puntero por encima de la plantilla y seleccione **[!UICONTROL Vista previa]**.
 
-         ![Página de vista previa de la plantilla](assets/template-preview.png)
+        ![Página de vista previa de la plantilla](assets/template-preview.png)
 
 1. En la sección **[!UICONTROL Componentes faltantes]**, se muestra una lista de los componentes que faltan en la vista de datos. Seleccione **[!UICONTROL Añada estos componentes a su vista de datos]**.
 

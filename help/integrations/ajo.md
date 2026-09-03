@@ -115,10 +115,10 @@ La vista de datos tiene el nombre **Habilitar vista de datos AJO (*nombre de zon
 
 
 * En la pestaña **Componentes**:
-   * Todas las métricas y dimensiones que tienen [!UICONTROL (AJO)] anexados a su nombre se añaden automáticamente como parte de esta configuración automática.
-   * Algunas de las métricas o dimensiones que se han añadido automáticamente se basan en campos derivados. Estos campos derivados se crean específicamente para esta integración. Por ejemplo, la métrica [!UICONTROL Clics en páginas de destino (AJO)] se basa en el campo derivado [!UICONTROL Clics en páginas de destino].
-   * Algunas de las métricas o dimensiones tienen una configuración adicional. Por ejemplo, [!UICONTROL Queja de spam (AJO)] tiene la configuración [!UICONTROL Formato] e [!UICONTROL Incluir valores de exclusión] aplicada.
-   * Todas las métricas y dimensiones agregadas automáticamente tienen una etiqueta de contexto llamada `:`*`name_of_metric_or_dimension`*. Por ejemplo, la métrica [!UICONTROL Clics en página de destino (AJO)] tiene la etiqueta de contexto `:Landing page clicks (AJO)`.
+  * Todas las métricas y dimensiones que tienen [!UICONTROL (AJO)] anexados a su nombre se añaden automáticamente como parte de esta configuración automática.
+  * Algunas de las métricas o dimensiones que se han añadido automáticamente se basan en campos derivados. Estos campos derivados se crean específicamente para esta integración. Por ejemplo, la métrica [!UICONTROL Clics en páginas de destino (AJO)] se basa en el campo derivado [!UICONTROL Clics en páginas de destino].
+  * Algunas de las métricas o dimensiones tienen una configuración adicional. Por ejemplo, [!UICONTROL Queja de spam (AJO)] tiene la configuración [!UICONTROL Formato] e [!UICONTROL Incluir valores de exclusión] aplicada.
+  * Todas las métricas y dimensiones agregadas automáticamente tienen una etiqueta de contexto llamada `:`*`name_of_metric_or_dimension`*. Por ejemplo, la métrica [!UICONTROL Clics en página de destino (AJO)] tiene la etiqueta de contexto `:Landing page clicks (AJO)`.
 
 * En la pestaña **[!UICONTROL Configuración]**, no no se aplican valores de configuración específicos
 

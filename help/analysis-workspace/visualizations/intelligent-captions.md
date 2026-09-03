@@ -152,14 +152,14 @@ Los siguientes parámetros rigen el acceso a los subtítulos inteligentes:
 * **Acceso contractual**: si no puede usar subtítulos inteligentes, póngase en contacto con el administrador de su organización o con el representante de cuentas de Adobe (administrador). Para poder utilizar subtítulos inteligentes en su organización, debe aceptar determinados términos legales relacionados con la inteligencia artificial generativa.
 
 * **Permisos**: en [!UICONTROL Adobe Admin Console], el permiso para **[!UICONTROL Subtítulos inteligentes]** de las [!UICONTROL herramientas de creación de informes determina el acceso]. Un [administrador de perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) debe seguir estos pasos en [!UICONTROL Admin Console]:
-   1. Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos y servicios]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Perfiles de productos]**.
-   1. Seleccione el título del perfil de producto para el que desea proporcionar acceso a Subtítulos inteligentes.
-   1. En el perfil de producto específico, seleccione **[!UICONTROL Permisos]**.
-   1. Seleccione ![Editar](/help/assets/icons/Edit.svg) para editar **[!UICONTROL Herramientas de creación de informes]**.
-   1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) para añadir **Subtítulos inteligentes** a **[!UICONTROL Elementos de permiso incluidos]**.
+  1. Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos y servicios]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Perfiles de productos]**.
+  1. Seleccione el título del perfil de producto para el que desea proporcionar acceso a Subtítulos inteligentes.
+  1. En el perfil de producto específico, seleccione **[!UICONTROL Permisos]**.
+  1. Seleccione ![Editar](/help/assets/icons/Edit.svg) para editar **[!UICONTROL Herramientas de creación de informes]**.
+  1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) para añadir **Subtítulos inteligentes** a **[!UICONTROL Elementos de permiso incluidos]**.
 
-      ![Añadir permiso](./assets/intelligent-captions-permissions.png)
+     ![Añadir permiso](./assets/intelligent-captions-permissions.png)
 
-   1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
+  1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
 Consulte [Control de acceso](/help/technotes/access-control.md#access-control) para obtener más información.

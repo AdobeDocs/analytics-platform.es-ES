@@ -74,8 +74,8 @@ La configuración del canal de marketing funciona de forma diferente entre los d
   ![Es la primera página de la visita](../assets/first-page-of-visit.png)
 
 * **Anular canal de último contacto**: esta configuración del Administrador de canal de marketing normalmente impide que determinados canales obtengan crédito de canal de último contacto. Platform ignora esta configuración, lo que permite que canales generales como Directo o Interno atribuyan métricas de formas potencialmente no deseadas. Adobe recomienda eliminar canales en los que tenga la opción Anular canal de último contacto desactivada.
-   * Puede eliminar el canal de marketing Directo en el Administrador de canales de marketing y, a continuación, basarse en el elemento de dimensión Sin valor de Customer Journey Analytics para ese canal. También puede cambiar el nombre de este elemento de dimensión a Directo o excluir por completo el elemento de dimensión al configurar una vista de datos.
-   * También puede crear una clasificación de canal de marketing que clasifique cada valor en sí mismo excepto para los canales que desee excluir en Customer Journey Analytics. A continuación, puede utilizar esta dimensión de clasificación al crear una vista de datos en lugar de `channel.typeAtSource`.
+  * Puede eliminar el canal de marketing Directo en el Administrador de canales de marketing y, a continuación, basarse en el elemento de dimensión Sin valor de Customer Journey Analytics para ese canal. También puede cambiar el nombre de este elemento de dimensión a Directo o excluir por completo el elemento de dimensión al configurar una vista de datos.
+  * También puede crear una clasificación de canal de marketing que clasifique cada valor en sí mismo excepto para los canales que desee excluir en Customer Journey Analytics. A continuación, puede utilizar esta dimensión de clasificación al crear una vista de datos en lugar de `channel.typeAtSource`.
 
   ![Anular canal de último toque](../assets/override-last-touch-channel.png)
 

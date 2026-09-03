@@ -41,17 +41,17 @@ La versión inicial de Audience Analysis establece las bases esenciales necesari
 
 * **Los datos de pertenencia a audiencias son precisos solamente el día anterior (&quot;ayer&quot;)**: Los datos de pertenencia a audiencias siempre contendrán el último conjunto de datos de instantánea de perfil generado por el servicio de perfil unificado. Este conjunto de datos de perfil es una instantánea diaria y es precisa solo para el día anterior (&quot;ayer&quot;), y se regenera y vuelve a procesar automáticamente cada noche. Las dimensiones de audiencia están disponibles para la creación de informes y desgloses, no para la reconstrucción de estados de audiencia históricos.
 
-   * Ejemplo: independientemente del intervalo temporal para la creación de informes que se haya elegido, la audiencia de la que se puede realizar el informe de CJA siempre respetará el estado de pertenencia a audiencia presente en la última instantánea de perfil ingerida (&quot;ayer&quot;).
+  * Ejemplo: independientemente del intervalo temporal para la creación de informes que se haya elegido, la audiencia de la que se puede realizar el informe de CJA siempre respetará el estado de pertenencia a audiencia presente en la última instantánea de perfil ingerida (&quot;ayer&quot;).
 
-      * Por ejemplo, si se amplía la ventana de tiempo de la creación de informes a &quot;últimos 30 días&quot;, se incluirán más eventos y se dará la impresión de que el tamaño de la audiencia está cambiando. Sin embargo, la composición del perfil de la audiencia siempre coincidirá con la instantánea de &quot;ayer&quot;, independientemente de la ventana de tiempo elegida.
+    * Por ejemplo, si se amplía la ventana de tiempo de la creación de informes a &quot;últimos 30 días&quot;, se incluirán más eventos y se dará la impresión de que el tamaño de la audiencia está cambiando. Sin embargo, la composición del perfil de la audiencia siempre coincidirá con la instantánea de &quot;ayer&quot;, independientemente de la ventana de tiempo elegida.
 
 * **Las dimensiones deben tener un evento correspondiente para ser incluidas**: las dimensiones de Análisis de audiencia solo pueden analizarse donde existan eventos correspondientes en CJA. Si un momento de comportamiento, canal o ciclo vital no se representa como un evento en la conexión de CJA, no se puede analizar.
 
-   * Ejemplo: Una audiencia que se utiliza para dirigirse a personas con un anuncio incluiría significativamente más personas en la audiencia de RTCDP que en la de CJA. Esto se debe a que la audiencia de CJA está limitada a las personas que tuvieron un evento en CJA durante la ventana de creación de informes.
+  * Ejemplo: Una audiencia que se utiliza para dirigirse a personas con un anuncio incluiría significativamente más personas en la audiencia de RTCDP que en la de CJA. Esto se debe a que la audiencia de CJA está limitada a las personas que tuvieron un evento en CJA durante la ventana de creación de informes.
 
 * **La resolución de identidad se basa únicamente en un área de nombres única**: la resolución de identidad depende totalmente del área de nombres de identidad seleccionada como parte de la configuración de Análisis de audiencia. El análisis se limitará a dicho área de nombres de identidad, y los eventos que no entren en ella no estarán disponibles para los informes de análisis de audiencia.
 
-   * Ejemplo: Para un conjunto de datos de evento vinculado que combina CRM y ECID, y la configuración de Análisis de audiencia utiliza el ID de CRM, solo las filas que contengan un ID de CRM se reconocerán como parte de la audiencia de la que se puede realizar un informe en CJA. Por lo tanto, el tamaño de audiencia resultante puede ser menor de lo previsto.
+  * Ejemplo: Para un conjunto de datos de evento vinculado que combina CRM y ECID, y la configuración de Análisis de audiencia utiliza el ID de CRM, solo las filas que contengan un ID de CRM se reconocerán como parte de la audiencia de la que se puede realizar un informe en CJA. Por lo tanto, el tamaño de audiencia resultante puede ser menor de lo previsto.
 
 ## Casos de uso de ejemplo
 
@@ -145,9 +145,9 @@ Comprenda el comportamiento de los clientes que recientemente abandonaron una au
 
    * Filtre por perfiles que salieron de Audience X ayer y después observe lo siguiente:
 
-      * Su comportamiento antes de la salida (últimas sesiones, errores, exposición de precio/oferta, mezcla de canales).
+     * Su comportamiento antes de la salida (últimas sesiones, errores, exposición de precio/oferta, mezcla de canales).
 
-      * Su comportamiento después de la salida (si cambiaron de producto, bajaron de categoría, quedaron inactivos).
+     * Su comportamiento después de la salida (si cambiaron de producto, bajaron de categoría, quedaron inactivos).
 
    * Desglose esa cohorte de salida por región, dispositivo, tenencia y nivel de valor para encontrar bolsillos de alto impacto.
 

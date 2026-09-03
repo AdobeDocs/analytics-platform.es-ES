@@ -22,8 +22,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 42%
+source-wordcount: 452
+ht-degree: 43%
 
 ---
 
@@ -58,13 +58,13 @@ The catch here is that they can only populate those IDs today if they have a dir
 ### Campos de búsqueda estándar disponibles
 
 * `browser`
-   * `browser`, `group_id`, `id`
+  * `browser`, `group_id`, `id`
 * `browser_group`
-   * `browser_group`, `id`
+  * `browser_group`, `id`
 * `os`
-   * `os`, `group_id`, `id`
+  * `os`, `group_id`, `id`
 * `os_group`
-   * `os_group`, `id`
+  * `os_group`, `id`
 * `mobile_audio_support - multi`
 * `mobile_color_depth`
 * `mobile_cookie_support`

@@ -24,8 +24,8 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
 workflow-type: tm+mt
-source-wordcount: 10442
-ht-degree: 97%
+source-wordcount: 10602
+ht-degree: 98%
 
 ---
 
@@ -756,8 +756,8 @@ Define un conjunto de valores que se reemplazan por los valores correspondientes
 
 ## Caso de uso 1 {#classify-uc1}
 
-Tiene un archivo CSV que incluye una columna de clave para `hotelID` y una o más columnas adicionales asociadas con `hotelID`: `city`, `rooms`, `hotel name`.
-Está recopilando [!DNL Hotel ID] en una dimensión, pero desea crear una dimensión de [!DNL Hotel Name] derivada de `hotelID` en el archivo CSV.
+Tiene un archivo CSV que incluye una columna de clave para `hotelID` y una o más columnas adicionales asociadas a `hotelID`: `city`, `rooms`, `hotel name`.
+Está recopilando [!DNL Hotel ID] en una dimensión, pero desea crear una dimensión [!DNL Hotel Name] derivada de `hotelID` en el archivo CSV.
 
 **Estructura y contenido del archivo CSV**
 
@@ -1015,8 +1015,8 @@ También puede usar el valor práctico de intervalo de fecha dinámico Ahora par
 
 Desea comprender la hora de búsqueda en minutos antes de que un cliente, dentro de una sesión, realice un pedido.
 
-Usted define un nuevo campo derivado de `Time Between Search And Order In Minutes` que es el resultado de dos funciones [[!UICONTROL CASE WHEN]](#case-when) para definir valores de [!UICONTROL Tiempo de búsqueda] y [!UICONTROL Tiempo de pedido].
-A continuación, utilice estos dos valores para calcular la diferencia con una función [!UICONTROL DATE MATH] con [!UICONTROL Ámbito] establecido en [!UICONTROL Sesión], valores establecidos en [!UICONTROL Hora de búsqueda] y [!UICONTROL Hora de pedido] y [!UICONTROL Granularidad de salida] establecidos en [!UICONTROL Minuto]. Para ambos valores, selecciona [!UICONTROL Devolver el primer] para garantizar que se devuelva el primer [!UICONTROL Tiempo de búsqueda] y el [!UICONTROL Tiempo de pedido].
+Defina un nuevo campo derivado de `Time Between Search And Order In Minutes` que es el resultado de dos funciones [[!UICONTROL CASO DE QUE]](#case-when) para definir valores de [!UICONTROL Hora de búsqueda] y [!UICONTROL Hora del pedido].
+A continuación, utilice estos dos valores para calcular la diferencia con una función [!UICONTROL ARITMÉTICA DE FECHAS] con [!UICONTROL Ámbito] establecido en [!UICONTROL Sesión], los valores establecidos en [!UICONTROL Hora de búsqueda] y [!UICONTROL Hora del pedido] y [!UICONTROL Granularidad de salida] establecida en [!UICONTROL Minuto]. Para ambos valores, seleccione [!UICONTROL Devolver el primero] para garantizar que se devuelvan las primeras [!UICONTROL Hora de búsqueda] y [!UICONTROL Hora del pedido].
 
 ![Captura de pantalla de la regla Aritmética de fechas 3](assets/datemath-3.png)
 
@@ -1288,7 +1288,7 @@ Puede insertar rápidamente una función [!UICONTROL Consulta] en el generador d
 1. Seleccione **[!UICONTROL Campos de esquema]** en el selector.
 1. Seleccione ![Icono del campo de esquema](assets/Smock_Folder_18_N.svg) **[!UICONTROL Conjuntos de datos de consulta]**.
 1. Seleccione el conjunto de datos de consulta y busque el campo que desee utilizar para la consulta.
-1. Arrastre y suelte el campo de búsqueda en cualquiera de los campos de entrada disponibles para una función (por ejemplo, Case When). Si es válido, un cuadro azul, etiquetado **[!UICONTROL + Agregar]**, le permite soltar el campo e insertar automáticamente una función de búsqueda antes de la función en la que soltó el campo de búsqueda. La función de búsqueda insertada se rellena automáticamente con valores relevantes para todos los campos.
+1. Arrastre y suelte el campo de consulta en cualquiera de los campos de entrada disponibles para una función (por ejemplo, Case When). Si es válido, un cuadro azul, etiquetado **[!UICONTROL + Añadir]**, le permite soltar el campo e insertar automáticamente una función de consulta antes de la función en la que soltó el campo de consulta. La función de consulta insertada se rellenará automáticamente con valores relevantes para todos los campos.
    ![Arrastre de la consulta](assets/lookup-drag.png)
 
 +++

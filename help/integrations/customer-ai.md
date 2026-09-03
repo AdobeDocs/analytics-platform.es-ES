@@ -42,20 +42,20 @@ La inteligencia artificial aplicada al cliente se basa en datos de comportamient
 La inteligencia artificial aplicada al cliente se puede integrar con Customer Journey Analytics en el sentido de que los conjuntos de datos habilitados para la inteligencia artificial aplicada al cliente se pueden aprovechar en las vistas de datos y los sistemas de informes de Customer Journey Analytics. Puede realizar lo siguiente:
 
 * **Rastrear puntuaciones de tendencia para un segmento de usuarios a lo largo del tiempo**.
-   * Caso de uso: comprender la probabilidad de conversión de los clientes de un segmento específico.
-   * Ejemplo: un experto en marketing de una cadena hotelera quiere comprender la probabilidad de que un cliente de un hotel compre una entrada para un espectáculo en el recinto de conciertos del hotel.
+  * Caso de uso: comprender la probabilidad de conversión de los clientes de un segmento específico.
+  * Ejemplo: un experto en marketing de una cadena hotelera quiere comprender la probabilidad de que un cliente de un hotel compre una entrada para un espectáculo en el recinto de conciertos del hotel.
 * **Analizar qué eventos o atributos de éxito están asociados con las puntuaciones de tendencia**.
-   * Ejemplo de caso de uso: comprender los atributos o los eventos de éxito asociados con las puntuaciones de tendencia.
-   * Ejemplo: un experto en marketing de una cadena hotelera quiere comprender cómo las compras de entradas para espectáculos en el recinto de conciertos de un hotel se asocian con las puntuaciones de tendencia.
+  * Ejemplo de caso de uso: comprender los atributos o los eventos de éxito asociados con las puntuaciones de tendencia.
+  * Ejemplo: un experto en marketing de una cadena hotelera quiere comprender cómo las compras de entradas para espectáculos en el recinto de conciertos de un hotel se asocian con las puntuaciones de tendencia.
 * **Seguir el flujo de entrada de la tendencia de los clientes sobre diferentes ejecuciones de puntuación**.
-   * Ejemplo de caso de uso: entender a las personas que inicialmente eran usuarios de baja tendencia y, con el tiempo, se convirtieron en usuarios de alta tendencia.
-   * Ejemplo: un experto en marketing de una cadena hotelera quiere comprender cuáles clientes de hotel se identificaron inicialmente como clientes con baja tendencia a comprar una entrada para un espectáculo, pero con el tiempo se convirtieron en clientes con una alta tendencia para comprar una entrada para un espectáculo.
+  * Ejemplo de caso de uso: entender a las personas que inicialmente eran usuarios de baja tendencia y, con el tiempo, se convirtieron en usuarios de alta tendencia.
+  * Ejemplo: un experto en marketing de una cadena hotelera quiere comprender cuáles clientes de hotel se identificaron inicialmente como clientes con baja tendencia a comprar una entrada para un espectáculo, pero con el tiempo se convirtieron en clientes con una alta tendencia para comprar una entrada para un espectáculo.
 * **Observe la distribución de la tendencia**.
-   * Caso de uso: comprender la distribución de las puntuaciones de tendencia para ser más precisos a la hora de definir segmentos.
-   * Ejemplo: un minorista desea hacer una promoción específica de 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analiza los datos y decide segmentar solo los clientes principales con una puntuación del 80 % o más.
+  * Caso de uso: comprender la distribución de las puntuaciones de tendencia para ser más precisos a la hora de definir segmentos.
+  * Ejemplo: un minorista desea hacer una promoción específica de 50 dólares de descuento en un producto. Es posible que solo quiera hacer una promoción muy limitada debido al presupuesto, etc. Analiza los datos y decide segmentar solo los clientes principales con una puntuación del 80 % o más.
 * **Observar la tendencia de realizar una acción para una cohorte en particular a lo largo del tiempo**.
-   * Caso de uso: rastrear una cohorte específica a lo largo del tiempo.
-   * Ejemplo: un experto en marketing puede rastrear su nivel bronce frente a su nivel plata, o su nivel plata frente a su nivel oro a lo largo del tiempo. Puede ver la tendencia de cada cohorte a reservar el hotel a lo largo del tiempo.
+  * Caso de uso: rastrear una cohorte específica a lo largo del tiempo.
+  * Ejemplo: un experto en marketing puede rastrear su nivel bronce frente a su nivel plata, o su nivel plata frente a su nivel oro a lo largo del tiempo. Puede ver la tendencia de cada cohorte a reservar el hotel a lo largo del tiempo.
 
 Para integrar realmente los datos de inteligencia artificial aplicada al cliente con Customer Journey Analytics, siga estos pasos:
 

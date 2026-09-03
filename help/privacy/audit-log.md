@@ -81,49 +81,49 @@ Haga doble clic en el botón de información (i) junto a una descripción.
 Se muestran los siguientes elementos:
 
 * **[!UICONTROL Nombre de acción]**: la acción realizada. Entre los posibles valores están:
-   * API_REQUEST: cualquier acción activa una solicitud de API back-end Se muestran detalles sobre cuál era la solicitud de API.
-   * APPROVE: se ha realizado una acción de &quot;aprobación&quot;.
-   * CREATE: se ha realizado una acción para &quot;crear&quot;.
-   * DELETE: se ha realizado una acción para &quot;eliminar&quot;.
-   * EDICIÓN: se ha realizado una acción para &quot;editar&quot;.
-   * EMBARGO: cuando restringe una solicitud en [Administrador de actividades de creación de informes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), la acción se registra en el registro de auditoría en EMBARGO.
-   * EXPORTAR: se ha realizado una acción para &quot;exportar&quot;.
-   * ORG_CHANGE: se ha realizado una acción de cambio de organización.
-   * ACTUALIZAR: se ha realizado una acción para &quot;actualizar&quot;.
-   * COMPARTIR: se ha realizado una acción para &quot;compartir&quot;.
-   * TRANSFERIR: se ha realizado una acción de transferencia.
-   * UNAPPROVE: se ha realizado una acción para &quot;desaprobar&quot;.
-   * UNSHARE: se ha realizado una acción para &quot;anular uso compartido&quot;.
+  * API_REQUEST: cualquier acción activa una solicitud de API back-end Se muestran detalles sobre cuál era la solicitud de API.
+  * APPROVE: se ha realizado una acción de &quot;aprobación&quot;.
+  * CREATE: se ha realizado una acción para &quot;crear&quot;.
+  * DELETE: se ha realizado una acción para &quot;eliminar&quot;.
+  * EDICIÓN: se ha realizado una acción para &quot;editar&quot;.
+  * EMBARGO: cuando restringe una solicitud en [Administrador de actividades de creación de informes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), la acción se registra en el registro de auditoría en EMBARGO.
+  * EXPORTAR: se ha realizado una acción para &quot;exportar&quot;.
+  * ORG_CHANGE: se ha realizado una acción de cambio de organización.
+  * ACTUALIZAR: se ha realizado una acción para &quot;actualizar&quot;.
+  * COMPARTIR: se ha realizado una acción para &quot;compartir&quot;.
+  * TRANSFERIR: se ha realizado una acción de transferencia.
+  * UNAPPROVE: se ha realizado una acción para &quot;desaprobar&quot;.
+  * UNSHARE: se ha realizado una acción para &quot;anular uso compartido&quot;.
 * **[!UICONTROL Fecha de creación]**: fecha y hora en que se realizó la acción.
 * **[!UICONTROL Descripción]**: un resumen de la acción.
 * **[!UICONTROL Nombre de usuario]**: el usuario que ha realizado la acción. En ocasiones, es posible que falte el nombre de usuario. Considere la posibilidad de utilizar la característica [Uso del producto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/tools/product-usage/usage-overview), ya que siempre incluye el nombre de usuario de inicio de sesión.
 * **[!UICONTROL Correo electrónico]**: la dirección de correo electrónico del usuario que ha realizado la acción.
 * **[!UICONTROL Nombre de componente]**: Componente en el que el usuario realizó una acción.
 * **[!UICONTROL Tipo]**: tipo de componente. Entre los posibles valores están:
-   * ANNOTATION
-   * AUDIENCE
-   * CALCULATED_METRIC
-   * CONNECTION
-   * DATA_GROUP
-   * DATA_VIEW
-   * DATASET_STITCHING
-   * DATE_RANGE
-   * FEATURE_ACCESS
-   * FILTRAR
-   * IMS_Org
-   * MOBILE
-   * PROJECT (Workspace)
-   * REPORT
-   * SCHEDULED_PROJECT
-   * USER
-   * USER_GROUP
+  * ANNOTATION
+  * AUDIENCE
+  * CALCULATED_METRIC
+  * CONNECTION
+  * DATA_GROUP
+  * DATA_VIEW
+  * DATASET_STITCHING
+  * DATE_RANGE
+  * FEATURE_ACCESS
+  * FILTRAR
+  * IMS_Org
+  * MOBILE
+  * PROJECT (Workspace)
+  * REPORT
+  * SCHEDULED_PROJECT
+  * USER
+  * USER_GROUP
 * **[!UICONTROL ID de componente]**: el identificador del componente en el que el usuario realizó una acción.
 * **[!UICONTROL ID de organización de IMS]**: el identificador de IMS de la organización, con el formato `ABC123@AdobeOrg`.
 * **[!UICONTROL ID de registro]**: un identificador único que identifica esta entrada de registro.
 * **[!UICONTROL ID de usuario]**: el ID único que identifica al usuario que realizó la acción.
 * **[!UICONTROL Tipo de usuario]**: el tipo de autenticación utilizado. Los valores válidos son los siguientes:
-   * IMS
-   * OKTA
+  * IMS
+  * OKTA
 
 ### Filtrar registros de auditoría
 

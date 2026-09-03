@@ -188,7 +188,7 @@ Las métricas calculadas que incluyen cualquiera de las siguientes métricas o c
 * Métricas base divididas entre sí o multiplicadas juntas (por ejemplo, `Revenue`/`Orders`)
 * Constantes que se agregan o sustraen de una métrica base (por ejemplo, `Revenue+50`)
 * Cualquiera de las siguientes métricas base:
-   * Personas
+  * Personas
 
 Las métricas calculadas que no son compatibles con el panel Experimentación tienen el valor [!UICONTROL **En todas partes en Customer Journey Analytics (excepto la experimentación)**] en el campo [!UICONTROL **Compatibilidad del producto**] al crear la métrica calculada. Para obtener información sobre cómo crear una métrica calculada, consulte [Generar métricas](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 

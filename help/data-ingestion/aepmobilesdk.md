@@ -130,7 +130,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identification-field-mobile.png)
 
-   El objeto de identificación añade capacidades de identificación al esquema. En su caso, quiere identificar los perfiles que utilizan su aplicación móvil mediante el ID de Experience Cloud y la dirección de correo electrónico. Hay muchos otros atributos disponibles para realizar un seguimiento de la identificación de la persona (por ejemplo, ID de cliente o ID de lealtad).
+   El objeto de identificación añade capacidades de identificación al esquema. En su caso, quiere identificar los perfiles que utilizan su aplicación móvil mediante el Experience Cloud ID y la dirección de correo electrónico. Hay muchos otros atributos disponibles para realizar un seguimiento de la identificación de la persona (por ejemplo, ID de cliente o ID de lealtad).
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -357,27 +357,27 @@ Para definir una regla, debe hacer lo siguiente:
 
    - En el cuadro de diálogo [!UICONTROL Configuración de evento], haga lo siguiente:
 
-      - Seleccione **[!UICONTROL Mobile Core]** de la lista [!UICONTROL Extension].
+     - Seleccione **[!UICONTROL Mobile Core]** de la lista [!UICONTROL Extension].
 
-      - Seleccione **[!UICONTROL Primer plano]** de la lista [!UICONTROL Tipo de evento].
+     - Seleccione **[!UICONTROL Primer plano]** de la lista [!UICONTROL Tipo de evento].
 
-      - Seleccione **[!UICONTROL Conservar cambios]**.
+     - Seleccione **[!UICONTROL Conservar cambios]**.
 
    - Haz clic en ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) junto a [!UICONTROL Núcleo móvil - Primer plano].
 
-      - Seleccione **[!UICONTROL Mobile Core]** de la lista [!UICONTROL Extension].
+     - Seleccione **[!UICONTROL Mobile Core]** de la lista [!UICONTROL Extension].
 
-      - Seleccione **[!UICONTROL Background]** de la lista [!UICONTROL Event Type].
+     - Seleccione **[!UICONTROL Background]** de la lista [!UICONTROL Event Type].
 
-      - Seleccione **[!UICONTROL Conservar cambios]**.
+     - Seleccione **[!UICONTROL Conservar cambios]**.
 
    - Haga clic en ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) Agregar debajo de [!UICONTROL ACCIONES]. En el cuadro de diálogo [!UICONTROL Configuración de acción], haga lo siguiente:
 
-      - Seleccione **[!UICONTROL Adobe Experience Platform Edge Network]** de la lista [!UICONTROL Extension].
+     - Seleccione **[!UICONTROL Adobe Experience Platform Edge Network]** de la lista [!UICONTROL Extension].
 
-      - Seleccione **[!UICONTROL Reenviar evento a Edge Network]** de la lista [!UICONTROL Tipo de acción].
+     - Seleccione **[!UICONTROL Reenviar evento a Edge Network]** de la lista [!UICONTROL Tipo de acción].
 
-      - Seleccione **[!UICONTROL Conservar cambios]**.
+     - Seleccione **[!UICONTROL Conservar cambios]**.
 
    - La regla debe tener el siguiente aspecto:
 
@@ -484,11 +484,11 @@ Para crear la conexión:
 
    - Para cada conjunto de datos:
 
-      - Seleccione un [!UICONTROL ID de persona] entre las identidades disponibles de los esquemas del conjunto de datos en Adobe Experience Platform.
+     - Seleccione un [!UICONTROL ID de persona] entre las identidades disponibles de los esquemas del conjunto de datos en Adobe Experience Platform.
 
-      - Seleccione la fuente de datos correcta en la lista [!UICONTROL Tipo de fuente de datos]. Si especifica **[!UICONTROL Otro]**, agregue una descripción para la fuente de datos.
+     - Seleccione la fuente de datos correcta en la lista [!UICONTROL Tipo de fuente de datos]. Si especifica **[!UICONTROL Otro]**, agregue una descripción para la fuente de datos.
 
-      - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
+     - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
 
      ![Configurar conjuntos de datos](./assets/cja-connections-ajopushid.png)
 

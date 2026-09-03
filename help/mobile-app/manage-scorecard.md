@@ -123,7 +123,7 @@ Para agregar nuevas diapositivas, pase el puntero por encima de una o haga clic 
    * Pulse el icono de duplicado para duplicar la diapositiva existente.
 1. Si crea una diapositiva en blanco, arrastre y suelte los componentes desde el carril izquierdo o elija un diseño para llenarla automáticamente con los datos del mosaico.
    ![Crear una historia de datos](assets/data-story2.png)
-Para eliminar una diapositiva, pulse el icono de papelera.
+   Para eliminar una diapositiva, pulse el icono de papelera.
 
 ### Personalización de una historia basada en datos {#customize-data-story}
 
@@ -135,7 +135,7 @@ Las historias basadas en datos le permiten personalizar todos los elementos para
 1. Cambie el título, el tipo de gráfico y otras opciones del mosaico.
 1. Arrastre un componente al mosaico.
    ![Crear una historia de datos](assets/data-story3.png)
-Al arrastrar y soltar un componente, como una visualización, en un mosaico, el componente se aplica a todas las diapositivas de la historia de datos.
+   Al arrastrar y soltar un componente, como una visualización, en un mosaico, el componente se aplica a todas las diapositivas de la historia de datos.
 1. Para aplicar un cambio solo al título, mantenga pulsada la tecla Mayús.
    ![Creación de una historia basada en datos](assets/data-story4.png)
 

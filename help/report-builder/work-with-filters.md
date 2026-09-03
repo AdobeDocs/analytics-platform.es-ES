@@ -41,15 +41,15 @@ Para aplicar filtros mediante segmentos a métricas individuales:
 
 * Alternativamente:
 
-   1. Seleccione ![MoreSmall](/help/assets/icons/MoreSmall.svg) para una métrica específica en el panel **[!UICONTROL Tabla]** y, a continuación, seleccione **[!UICONTROL Métrica de filtro]**.
+  1. Seleccione ![MoreSmall](/help/assets/icons/MoreSmall.svg) para una métrica específica en el panel **[!UICONTROL Tabla]** y, a continuación, seleccione **[!UICONTROL Métrica de filtro]**.
 
-      La pestaña ![segmentos muestra métricas.](./assets/filter-metric.png){zoomable="yes"}
+     La pestaña ![segmentos muestra métricas.](./assets/filter-metric.png){zoomable="yes"}
 
-   1. Seleccione uno o más segmentos del menú desplegable **[!UICONTROL Segmentos]**. Los segmentos se agregan a la lista **[!UICONTROL Segmentos aplicados]**.
+  1. Seleccione uno o más segmentos del menú desplegable **[!UICONTROL Segmentos]**. Los segmentos se agregan a la lista **[!UICONTROL Segmentos aplicados]**.
 
-      ![Segmentos aplicados](assets/segments-applied.png)
-   1. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un segmento de la lista **[!UICONTROL Segmento aplicado]**. O bien, seleccione **[!UICONTROL Borrar todo]** para eliminar todos los segmentos de la lista **[!UICONTROL Segmento aplicado]**.
-   1. Seleccione **[!UICONTROL Aplicar]**.
+     ![Segmentos aplicados](assets/segments-applied.png)
+  1. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un segmento de la lista **[!UICONTROL Segmento aplicado]**. O bien, seleccione **[!UICONTROL Borrar todo]** para eliminar todos los segmentos de la lista **[!UICONTROL Segmento aplicado]**.
+  1. Seleccione **[!UICONTROL Aplicar]**.
 
 Para ver los filtros aplicados, pase el puntero por encima de una métrica o selecciónela en el panel Tabla. Las métricas con segmentos aplicados muestran un icono de segmento.
 

@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1680
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -497,7 +497,7 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 
 * Este proceso debe realizarse en una cadencia normal, de modo que los datos de audiencia se actualicen constantemente en Customer Journey Analytics.
 * Puede importar varias audiencias dentro de una sola conexión de Customer Journey Analytics. Esto añade complejidad adicional al proceso, pero es posible. Para que esto funcione, debe realizar algunas modificaciones en el proceso anterior:
-   1. Realice este proceso para cada público deseado en la colección de públicos dentro de RTCP.
-   1. Customer Journey Analytics admite matrices/matrices de objetos en conjuntos de datos de perfil. Usar una [matriz de objetos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=es) para `audienceMembershipId` o `audienceMembershipIdName` es la mejor opción.
-   1. En la vista de datos, cree una nueva dimensión con la transformación de la subcadena en el campo `audienceMembershipId` para convertir la cadena de valores separados por comas en una matriz. NOTA: Actualmente hay un límite de 10 valores en la matriz.
-   1. Ahora puede generar informes sobre esta nueva dimensión `audienceMembershipIds` en Customer Journey Analytics Workspace.
+  1. Realice este proceso para cada público deseado en la colección de públicos dentro de RTCP.
+  1. Customer Journey Analytics admite matrices/matrices de objetos en conjuntos de datos de perfil. Usar una [matriz de objetos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=es) para `audienceMembershipId` o `audienceMembershipIdName` es la mejor opción.
+  1. En la vista de datos, cree una nueva dimensión con la transformación de la subcadena en el campo `audienceMembershipId` para convertir la cadena de valores separados por comas en una matriz. NOTA: Actualmente hay un límite de 10 valores en la matriz.
+  1. Ahora puede generar informes sobre esta nueva dimensión `audienceMembershipIds` en Customer Journey Analytics Workspace.

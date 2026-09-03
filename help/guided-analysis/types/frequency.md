@@ -75,9 +75,9 @@ Determina cómo se clasifica el evento en grupos (contenedores). En la vista de 
 
 * **[!UICONTROL Contenedores automáticos]**: identifique automáticamente el tamaño óptimo del contenedor en función de la distribución de los datos.
 * **[!UICONTROL Contenedores personalizados]**: personalice la forma en que los datos se agrupan en contenedores.
-   * [!UICONTROL De]: el primer contenedor. La frecuencia menor que este valor se excluye de la creación de informes.
-   * [!UICONTROL Para]: la frecuencia mayor que este valor se agrupa en el último contenedor.
-   * [!UICONTROL Tamaño]: el intervalo del contenedor.
+  * [!UICONTROL De]: el primer contenedor. La frecuencia menor que este valor se excluye de la creación de informes.
+  * [!UICONTROL Para]: la frecuencia mayor que este valor se agrupa en el último contenedor.
+  * [!UICONTROL Tamaño]: el intervalo del contenedor.
 
 ### Comparación del tiempo
 

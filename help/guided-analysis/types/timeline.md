@@ -23,7 +23,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: 583
 ht-degree: 100%
 
 ---
@@ -76,9 +76,9 @@ El carril de consulta permite configurar los siguientes componentes:
 El análisis de [!UICONTROL Cronología] ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
 * **[!UICONTROL Mostrar como]**: muestra los valores de propiedad deseados.
-   * [!UICONTROL Mostrar todo]: muestra todos los valores de propiedad de una sesión.
-   * [!UICONTROL Resaltar]: resalta visualmente los valores de propiedad de una sesión que coinciden con los filtros de la consulta.
-   * [!UICONTROL Solo vista]: muestra solo los valores de propiedad de una sesión que coinciden con los filtros de la consulta.
+  * [!UICONTROL Mostrar todo]: muestra todos los valores de propiedad de una sesión.
+  * [!UICONTROL Resaltar]: resalta visualmente los valores de propiedad de una sesión que coinciden con los filtros de la consulta.
+  * [!UICONTROL Solo vista]: muestra solo los valores de propiedad de una sesión que coinciden con los filtros de la consulta.
 
 ### Intervalo de fechas
 

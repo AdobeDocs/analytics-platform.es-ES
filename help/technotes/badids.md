@@ -41,8 +41,8 @@ Este artículo proporciona contexto sobre los ID incorrectos y cómo detectar su
 En Customer Journey Analytics, como parte de todos los datos definidos en una conexión, un ID incorrecto es un identificador:
 
 * con un valor de ID específico que se origina
-   * de un campo de ID de persona (conjuntos de datos no enlazados), **o**
-   * desde un ID persistente o un campo de ID de persona (conjuntos de datos habilitados para la vinculación),
+  * de un campo de ID de persona (conjuntos de datos no enlazados), **o**
+  * desde un ID persistente o un campo de ID de persona (conjuntos de datos habilitados para la vinculación),
 
   **y**
 * está en más de un millón (1 000 000) de eventos en los datos de conexión (contabilizados para todos los conjuntos de datos de la conexión), en un mes.

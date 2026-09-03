@@ -1,5 +1,5 @@
 ---
-description: Los administradores son responsables de supervisar el estado del diccionario de datos. Esto incluye si los componentes están recopilando datos, están aprobados, contienen descripciones y no tienen duplicados.
+description: Los administradores son responsables de monitorizar el estado del diccionario de datos. Esto incluye si los componentes están recopilando datos, están aprobados, contienen descripciones y no tienen duplicados.
 title: Monitorización del estado del diccionario de datos
 feature: Components
 role: Admin

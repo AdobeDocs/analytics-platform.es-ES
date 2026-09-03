@@ -225,21 +225,21 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
    * **Acercar**: puede acercar el mapa para ampliar ciertas áreas de cualquiera de las siguientes maneras:
 
-      * Haga doble clic en el mapa con el ratón.
+     * Haga doble clic en el mapa con el ratón.
 
-      * Utilice la rueda de desplazamiento del ratón o una acción similar en el panel táctil.
+     * Utilice la rueda de desplazamiento del ratón o una acción similar en el panel táctil.
 
-      * Seleccione el icono de signo + ![icono de ampliación](assets/map-zoomin-icon.png) en la visualización del mapa.
+     * Seleccione el icono de signo + ![icono de ampliación](assets/map-zoomin-icon.png) en la visualización del mapa.
 
      El mapa amplía en consecuencia. La dimensión requerida (país > estado > ciudad) se actualiza automáticamente, en función del nivel de zoom.
 
    * **Alejar**: puede alejar el mapa para ver áreas más grandes de cualquiera de las siguientes maneras:
 
-      * Mantenga pulsada la tecla Mayús y haga doble clic en el mapa con el ratón.
+     * Mantenga pulsada la tecla Mayús y haga doble clic en el mapa con el ratón.
 
-      * Utilice la rueda de desplazamiento del ratón o una acción similar en el panel táctil.
+     * Utilice la rueda de desplazamiento del ratón o una acción similar en el panel táctil.
 
-      * Seleccione el icono menos ![icono de alejar](assets/map-zoomout-icon.png) en la visualización del mapa.
+     * Seleccione el icono menos ![icono de alejar](assets/map-zoomout-icon.png) en la visualización del mapa.
 
      El mapa amplía en consecuencia. La dimensión requerida (país > estado > ciudad) se actualiza automáticamente, en función del nivel de zoom.
 
@@ -255,13 +255,13 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
    * **Mostrar comparaciones período tras período (por ejemplo, año tras año)**:
 
-      * Mostrar números negativos.
+     * Mostrar números negativos.
 
-        Por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
+       Por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
 
-      * En cuanto a las métricas que son de tipo *por ciento*, el clústering calcula la media total de los porcentajes.
+     * En cuanto a las métricas que son de tipo *por ciento*, el clústering calcula la media total de los porcentajes.
 
-      * El esquema de colores verde y rojo indica positivo y negativo.
+     * El esquema de colores verde y rojo indica positivo y negativo.
 
    * **Configuración de visualización adicional**: seleccione el icono Configuración ![Setting](/help/assets/icons/Setting.svg) en el encabezado de visualización para ver la configuración adicional para la visualización de mapas. Para obtener más información, consulte [Configurar opciones de visualización](#configure-visualization-settings).
 

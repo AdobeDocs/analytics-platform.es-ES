@@ -23,7 +23,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: 242
 ht-degree: 12%
 
 ---
@@ -54,7 +54,7 @@ Seleccione el periodo en tiempo real sobre el que desea crear el informe desde e
 
 Ahora, todas las visualizaciones del panel se actualizan cada minuto durante un máximo de 30 minutos, mientras que la pestaña del explorador con el panel habilitado para la actualización en tiempo real está activa.
 
-Por ejemplo, vea a continuación una instantánea de **[!UICONTROL Panel de informes en tiempo real]** que actualiza la visualización de barra de **[!UICONTROL Ingresos totales por hora]** y la tabla de forma libre de **[!UICONTROL Ingresos totales por hora]** a medida que el tiempo pasa de **[!UICONTROL *06:26pm*]** a **[!UICONTROL *06:27 pm *]**.
+Por ejemplo, vea a continuación una instantánea de **[!UICONTROL Panel de informes en tiempo real]** que actualiza la visualización de barra de **[!UICONTROL Ingresos totales por hora]** y la tabla de forma libre de **[!UICONTROL Ingresos totales por hora]** a medida que el tiempo se mueve de **[!UICONTROL *06:26pm *]**&#x200B;a&#x200B;**[!UICONTROL * 06:27 pm *]**.
 
 ![Actualización en tiempo real](assets/real-time-refresh.gif)
 

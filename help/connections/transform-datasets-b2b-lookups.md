@@ -61,8 +61,8 @@ Para habilitar la transformación para un conjunto de datos de búsqueda B2B:
 
 * Compruebe para cada conjunto de datos los valores sugeridos para **[!UICONTROL Key]** y **[!UICONTROL Matching key]**. Si cambia los valores de los valores sugeridos, verá una advertencia que le pedirá que continúe. Debe estar seguro de que:
 
-   * El valor que seleccionó para **Clave** se basa en el tipo de datos de ID de persona.
-   * El valor que seleccione para **Clave de coincidencia** se define como el campo de identidad principal para el conjunto de datos de evento.
+  * El valor que seleccionó para **Clave** se basa en el tipo de datos de ID de persona.
+  * El valor que seleccione para **Clave de coincidencia** se define como el campo de identidad principal para el conjunto de datos de evento.
 
 * Seleccione las opciones para importar nuevos datos y el relleno del conjunto de datos.
 

@@ -21,7 +21,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1902
+source-wordcount: 1938
 ht-degree: 82%
 
 ---
@@ -42,8 +42,8 @@ Puede utilizar la vinculación basada en el campo al utilizar Customer Journey A
 La vinculación basada en el campo admite el uso del [`identityMap`grupo de campos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity) en los siguientes escenarios:
 
 - Uso de la identidad principal en espacios de nombres de `identityMap` para definir el persistentID:
-   - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexicográficamente y se selecciona la primera identidad.
-   - Si se encuentran varias identidades principales en un solo espacio de nombres, se selecciona la primera identidad principal lexicográfica disponible.
+  - Si se encuentran varias identidades principales en diferentes áreas de nombres, las identidades de las áreas de nombres se ordenan lexicográficamente y se selecciona la primera identidad.
+  - Si se encuentran varias identidades principales en un solo espacio de nombres, se selecciona la primera identidad principal lexicográfica disponible.
 
   En el ejemplo siguiente, los espacios de nombres y las identidades generan una lista de identidades principales ordenada y, finalmente, la identidad seleccionada.
 
@@ -75,8 +75,8 @@ La vinculación basada en el campo admite el uso del [`identityMap`grupo de camp
 
 
 - Uso del espacio de nombres de `identityMap` para definir el ID persistente, el ID de persona o ambos:
-   - Si se encuentran varios valores para ID persistente o ID de persona en un espacio de nombres `identityMap`, se utiliza el primer valor lexicográfico disponible.
-   - Los espacios de nombres para ID persistente e ID de persona deben ser mutuamente excluyentes.
+  - Si se encuentran varios valores para ID persistente o ID de persona en un espacio de nombres `identityMap`, se utiliza el primer valor lexicográfico disponible.
+  - Los espacios de nombres para ID persistente e ID de persona deben ser mutuamente excluyentes.
 
   En el ejemplo siguiente, ha seleccionado ECID como el espacio de nombres que se utilizará. Esa selección genera una lista de identidades ordenadas y, finalmente, la identidad seleccionada.
 
@@ -113,10 +113,10 @@ La vinculación realiza un mínimo de dos pasadas en los datos de un conjunto de
 - **Vinculación en tiempo real**: intenta vincular cada visita (evento) conforme se va produciendo. Las visitas de dispositivos que son *nuevos* para el conjunto de datos (nunca se han autenticado) generalmente no se vinculan en este nivel. Las visitas de dispositivos ya reconocidos se vinculan inmediatamente.
 
 - **Reproducir vinculación**: *reproduce* datos basados en identificadores únicos (ID de persona). En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistente) se vinculan (a los ID de persona). Dos parámetros determinan la reproducción: **frequency** y **lookback window**. Adobe ofrece las siguientes combinaciones de estos parámetros:
-   - **Retrospectiva diaria con una frecuencia diaria**: los datos se reproducen todos los días con un período de retroactividad de 24 horas. Esta opción ofrece la ventaja de que las reproducciones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
-   - **Retrospectiva semanal con una frecuencia semanal**: los datos se reproducen una vez a la semana con un período de retroactividad semanal (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
-   - **Retrospectiva quincenal con una frecuencia semanal**: los datos se reproducen una vez por semana con un período de retroactividad quincenal (consulte [opciones](overview.md#)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de dos semanas de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
-   - **Retrospectiva mensual con una frecuencia semanal**: los datos se reproducen cada semana con un período de retroactividad mensual (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de un mes de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
+  - **Retrospectiva diaria con una frecuencia diaria**: los datos se reproducen todos los días con un período de retroactividad de 24 horas. Esta opción ofrece la ventaja de que las reproducciones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
+  - **Retrospectiva semanal con una frecuencia semanal**: los datos se reproducen una vez a la semana con un período de retroactividad semanal (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de una semana de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
+  - **Retrospectiva quincenal con una frecuencia semanal**: los datos se reproducen una vez por semana con un período de retroactividad quincenal (consulte [opciones](overview.md#)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de dos semanas de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
+  - **Retrospectiva mensual con una frecuencia semanal**: los datos se reproducen cada semana con un período de retroactividad mensual (consulte [opciones](overview.md#options)). Esta opción ofrece la ventaja de que ofrece a las sesiones no autenticadas mucho más tiempo para autenticarse. Sin embargo, los datos no vinculados con menos de un mes de antigüedad no se vuelven a procesar hasta la siguiente reproducción semanal.
 
 - **Privacidad**: cuando se reciben solicitudes relacionadas con la privacidad, además de eliminar la identidad solicitada, se debe deshacer cualquier vinculación de esa identidad entre eventos no autenticados.
 
@@ -228,8 +228,8 @@ Los siguientes requisitos previos se aplican específicamente a la vinculación 
 
 - El conjunto de datos de evento de Adobe Experience Platform al que desee aplicar la vinculación debe tener dos columnas que ayuden a identificar perfiles:
 
-   - Un **ID persistente**, un identificador disponible en cada fila. Por ejemplo, un ID de visitante generado por una biblioteca AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Adobe Experience Platform.
-   - Un **ID de persona**, un identificador disponible solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que se autentica un perfil. Puede utilizar prácticamente cualquier identificador que desee. La vinculación tiene en cuenta este campo para contener la información de ID de persona real. Para obtener los mejores resultados de vinculación, se debe enviar un ID de persona dentro de los eventos del conjunto de datos al menos una vez por cada ID persistente. Si tiene previsto incluir este conjunto de datos dentro de una conexión de Customer Journey Analytics, es preferible que los demás conjuntos de datos también tengan un identificador común similar.
+  - Un **ID persistente**, un identificador disponible en cada fila. Por ejemplo, un ID de visitante generado por una biblioteca AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Adobe Experience Platform.
+  - Un **ID de persona**, un identificador disponible solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que se autentica un perfil. Puede utilizar prácticamente cualquier identificador que desee. La vinculación tiene en cuenta este campo para contener la información de ID de persona real. Para obtener los mejores resultados de vinculación, se debe enviar un ID de persona dentro de los eventos del conjunto de datos al menos una vez por cada ID persistente. Si tiene previsto incluir este conjunto de datos dentro de una conexión de Customer Journey Analytics, es preferible que los demás conjuntos de datos también tengan un identificador común similar.
 
 <!--
 - Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.

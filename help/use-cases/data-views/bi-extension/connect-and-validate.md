@@ -20,7 +20,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 65ddb8af8bf2fdb45eaaef0ad5d824314c35087e
 workflow-type: tm+mt
-source-wordcount: 1963
+source-wordcount: 2013
 ht-degree: 10%
 
 ---
@@ -120,7 +120,7 @@ Power BI Desktop admite los siguientes escenarios para el parámetro `FLATTEN`. 
       ![Credenciales del servicio de consulta](../assets/queryservice-credentials.png)
 
 1. Inicie Tableau.
-   1. Seleccione **[!UICONTROL PostgreSQL]** del carril izquierdo debajo de **[!UICONTROL A un servidor]**. Si no está disponible, seleccione **[!UICONTROL Más...]** y **[!UICONTROL PostgreSQL]** de los **[!UICONTROL Conectores instalados]**.
+   1. Seleccione **[!UICONTROL PostgreSQL]** del carril izquierdo debajo de **[!UICONTROL A un servidor]**. Si no está disponible, seleccione **[!UICONTROL Más...]** y seleccione **[!UICONTROL PostgreSQL]** de los **[!UICONTROL Conectores instalados]**.
       ![Conectores Tableau](../assets/tableau-connectors.png)
    1. En el cuadro de diálogo **[!UICONTROL PostgreSQL]**, en la ficha **[!UICONTROL General]**:
       ![Cuadro de diálogo de inicio de sesión en Tableau](../assets/tableau-signin.png)

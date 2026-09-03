@@ -46,16 +46,16 @@ Si desea agregar una columna nueva, existen dos opciones, en función de si se r
 
 * Relleno retroactivo:
 
-   * Elimine el conjunto de datos actual.
-   * Vuelva a configurar el conector con la columna actualizada.
+  * Elimine el conjunto de datos actual.
+  * Vuelva a configurar el conector con la columna actualizada.
 
   Esto garantiza que los datos se rellenen de forma más eficiente y oportuna.
 
 * Sin relleno retroactivo:
 
-   * Agregue la columna en la tabla de origen.
-   * Añada la columna en el esquema del conjunto de datos de destinatario.
-   * Actualice la asignación para incluir el nuevo campo (columna) de la tabla de origen al conjunto de datos de destino.
+  * Agregue la columna en la tabla de origen.
+  * Añada la columna en el esquema del conjunto de datos de destinatario.
+  * Actualice la asignación para incluir el nuevo campo (columna) de la tabla de origen al conjunto de datos de destino.
 
 Esta estrategia:
 

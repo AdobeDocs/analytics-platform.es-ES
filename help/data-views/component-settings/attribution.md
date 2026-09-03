@@ -101,7 +101,7 @@ Para actualizar el modelo de atribución predeterminado de un componente:
 
 {{attribution-container}}
 
-## Ventana de retroactividad
+## Período de retroactividad
 
 {{attribution-lookback-window}}
 

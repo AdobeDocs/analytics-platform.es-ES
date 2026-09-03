@@ -105,7 +105,8 @@ Un intervalo de fecha se edita de dos formas:
 
 * En la lista [[!UICONTROL Intervalos de fechas]](#date-ranges-list), seleccione el título del intervalo de fechas.
 
-Use [Generador de intervalos de fechas](/help/components/date-ranges/create.md#date-range-builder) para editar el intervalo de fechas.Use el [administrador de intervalos de fechas](/help/components/date-ranges/manage.md) para compartir, cambiar el nombre o eliminar intervalos de fechas.
+Use [Generador de intervalos de fechas](/help/components/date-ranges/create.md#date-range-builder) para editar el intervalo de fechas.
+Use el [administrador de intervalos de fechas](/help/components/date-ranges/manage.md) para compartir, cambiar el nombre o eliminar intervalos de fechas.
 
 
 <!--

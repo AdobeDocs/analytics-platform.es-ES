@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1395
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -119,7 +119,7 @@ Para editar una cuenta:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione la ficha [!UICONTROL **Cuentas de ubicación**].
+1. Seleccione la pestaña [!UICONTROL **Cuentas de ubicación**].
 
    ![Ventana de exportaciones que muestra la ficha Cuentas de ubicación](assets/account-add.png)
 
@@ -137,7 +137,7 @@ Para ver las claves asociadas a una cuenta de exportación:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione la ficha [!UICONTROL **Cuentas de ubicación**].
+1. Seleccione la pestaña [!UICONTROL **Cuentas de ubicación**].
 
    ![Ventana de exportaciones que muestra la ficha Cuentas de ubicación](assets/account-add.png)
 
@@ -149,7 +149,7 @@ Para ver las claves asociadas a una cuenta de exportación:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione la ficha [!UICONTROL **Cuentas de ubicación**].
+1. Seleccione la pestaña [!UICONTROL **Cuentas de ubicación**].
 
    ![Ventana de exportaciones que muestra la ficha Cuentas de ubicación](assets/account-add.png)
 

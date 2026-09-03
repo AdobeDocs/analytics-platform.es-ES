@@ -22,8 +22,8 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 951
-ht-degree: 33%
+source-wordcount: 978
+ht-degree: 32%
 
 ---
 
@@ -46,18 +46,18 @@ Consideremos el siguiente ejemplo. Tiene dos conjuntos de datos de eventos, cada
 
 | example_id | timestamp | string_color | string_animal | metric_a |
 | --- | --- | --- | --- | ---: |
-| user_310 | 1 de enero de 7:02 | Rojo | Zorro | |
-| user_310 | 1 de enero de 7:04 | | | 2 |
-| user_310 | 1 de enero de 7:08 | Azul | | 3 |
-| user_847 | 2 de enero de 12:31 p.m. | | Tortuga | 4 |
-| user_847 | 2 de enero de 12:44 p.m. | | | 2 |
+| user_310 | 1 de enero a las 7:02 | Rojo | Zorro | |
+| user_310 | 1 de enero a las 7:04 | | | 2 |
+| user_310 | 1 de enero a las 7:08 | Azul | | 3 |
+| user_847 | 2 de enero, 12:31 p.m. | | Tortuga | 4 |
+| user_847 | 2 ene 12:44 p.m. | | | 2 |
 
 | different_id | timestamp | string_color | string_shape | metric_b |
 | --- | --- | --- | --- | ---: |
-| user_847 | 2 de enero de 12:26 p.m. | Amarillo | Círculo | 8,5 |
-| user_847 | 2 de enero de 1:01 p.m. | Rojo | | |
-| alternateid_656 | 2 de enero de 8:58 p.m. | Rojo | Cuadrado | 4,2 |
-| alternateid_656 | 2 de enero de 9:03 p.m. | | Triángulo | 3,1 |
+| user_847 | 2 de enero, 12:26 p.m. | Amarillo | Círculo | 8,5 |
+| user_847 | 2 de enero, 1:01 p.m. | Rojo | | |
+| alternateid_656 | 2 de enero a las 8:58 p.m. | Rojo | Cuadrado | 4,2 |
+| alternateid_656 | 2 de enero, 9:03 p. m. | | Triángulo | 3,1 |
 
 Cuando crea una conexión con estos dos conjuntos de datos de eventos, y ha identificado
 
@@ -68,29 +68,29 @@ el siguiente conjunto de datos combinado se utiliza para el sistema de informes.
 
 | id | timestamp | string_color | string_animal | string_shape | metric_a | metric_b |
 | --- | --- | --- | --- | --- | ---: | ---: |
-| user_310 | 1 de enero de 7:02 | Rojo | Zorro | | | |
-| user_310 | 1 de enero de 7:04 | | | | 2 | |
-| user_310 | 1 de enero de 7:08 | Azul | | | 3 | |
-| user_847 | 2 de enero de 12:26 p.m. | Amarillo | | Círculo | | 8,5 |
-| user_847 | 2 de enero de 12:31 p.m. | | Tortuga | | 4 | |
-| user_847 | 2 de enero de 12:44 p.m. | | | | 2 | |
-| user_847 | 2 de enero de 1:01 p.m. | Rojo | | | | |
-| alternateid_656 | 2 de enero de 8:58 p.m. | Rojo | | Cuadrado | | 4,2 |
-| alternateid_656 | 2 de enero de 9:03 p.m. | | | Triángulo | | 3,1 |
+| user_310 | 1 de enero a las 7:02 | Rojo | Zorro | | | |
+| user_310 | 1 de enero a las 7:04 | | | | 2 | |
+| user_310 | 1 de enero a las 7:08 | Azul | | | 3 | |
+| user_847 | 2 de enero, 12:26 p.m. | Amarillo | | Círculo | | 8,5 |
+| user_847 | 2 de enero, 12:31 p.m. | | Tortuga | | 4 | |
+| user_847 | 2 ene 12:44 p.m. | | | | 2 | |
+| user_847 | 2 de enero, 1:01 p.m. | Rojo | | | | |
+| alternateid_656 | 2 de enero a las 8:58 p.m. | Rojo | | Cuadrado | | 4,2 |
+| alternateid_656 | 2 de enero, 9:03 p. m. | | | Triángulo | | 3,1 |
 
 Para ilustrar la importancia de las rutas de esquema, considere este escenario. En el primer conjunto de datos, `string_color` se basa en la ruta de esquema `_experience.whatever.string_color` y en el segundo conjunto de datos en la ruta de esquema `_experience.somethingelse.string_color`. En este escenario, los datos **no** se combinaron en una columna en el conjunto de datos combinado resultante. En su lugar, el resultado son dos columnas `string_color` en el conjunto de datos combinado:
 
 | id | timestamp | _experiencia.<br/>lo que sea.<br/>color_cadena | _experience.<br/>algo más.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
 |---|---|---|---|---|---|---:|---:|
-| user_310 | 1 de enero de 7:02 | Rojo | | Zorro | | | |
-| user_310 | 1 de enero de 7:04 | | | | | 2 | |
-| user_310 | 1 de enero de 7:08 | Azul | | | | 3 | |
-| user_847 | 2 de enero de 12:26 p.m. | | Amarillo | | Círculo | | 8,5 |
-| user_847 | 2 de enero de 12:31 p.m. | | | Tortuga |  | 4 | |
-| user_847 | 2 de enero de 12:44 p.m. | | | | | 2 | |
-| user_847 | 2 de enero de 1:01 p.m. | | Rojo | | | | |
-| alternateid_656 | 2 de enero de 8:58 p.m. | | Rojo | | Cuadrado | | 4,2 |
-| alternateid_656 | 2 de enero de 9:03 p.m. | | | | Triángulo | | 3,1 |
+| user_310 | 1 de enero a las 7:02 | Rojo | | Zorro | | | |
+| user_310 | 1 de enero a las 7:04 | | | | | 2 | |
+| user_310 | 1 de enero a las 7:08 | Azul | | | | 3 | |
+| user_847 | 2 de enero, 12:26 p.m. | | Amarillo | | Círculo | | 8,5 |
+| user_847 | 2 de enero, 12:31 p.m. | | | Tortuga |  | 4 | |
+| user_847 | 2 ene 12:44 p.m. | | | | | 2 | |
+| user_847 | 2 de enero, 1:01 p.m. | | Rojo | | | | |
+| alternateid_656 | 2 de enero a las 8:58 p.m. | | Rojo | | Cuadrado | | 4,2 |
+| alternateid_656 | 2 de enero, 9:03 p. m. | | | | Triángulo | | 3,1 |
 
 Este conjunto de datos de evento combinado es lo que se usa en el sistema de informes. No importa de qué conjunto de datos proviene una fila. Customer Journey Analytics trata todos los datos como si estuvieran en el mismo conjunto de datos. Si aparece una ID de persona coincidente en ambos conjuntos de datos, se consideran la misma persona única. Si en ambos conjuntos de datos aparece una ID de persona coincidente con una marca de tiempo en un plazo de 30 minutos, se considerarán parte de la misma sesión. Se combinan campos con rutas de esquema idénticas.
 

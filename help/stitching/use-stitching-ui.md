@@ -38,58 +38,58 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 * Si va a usar el esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) campos para el ID persistente o el ID de persona, asegúrese de que las identidades se marquen correctamente en el esquema para el conjunto de datos de evento. [Consulte Información general del área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces).
 * Compruebe la cobertura de identidad tanto para el ID persistente como para el ID de persona:
 
-   * **[!UICONTROL ID persistente]**
+  * **[!UICONTROL ID persistente]**
 
-     Consulte 7 días de datos en los que el campo de ID persistente no sea nulo y divida por una consulta de 7 días de datos para todos los eventos del conjunto de datos. Este porcentaje debe ser superior al 95 %.
+    Consulte 7 días de datos en los que el campo de ID persistente no sea nulo y divida por una consulta de 7 días de datos para todos los eventos del conjunto de datos. Este porcentaje debe ser superior al 95 %.
 
-     Ejemplo de una consulta que puede utilizar para la verificación:
+    Ejemplo de una consulta que puede utilizar para la verificación:
 
-     ```sql
-     SELECT
-       COUNT(*) AS total_events,
-       COUNT({PERSISTENT_ID_FIELD}) AS events_with_persistentid,
-       ROUND(COUNT({PERSISTENT_ID_FIELD}) / COUNT(*), 2) AS percent_with_persistentid_not_null
-     FROM 
-       {DATASET_TABLE_NAME}
-     WHERE
-       TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-       AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
-     ```
+    ```sql
+    SELECT
+      COUNT(*) AS total_events,
+      COUNT({PERSISTENT_ID_FIELD}) AS events_with_persistentid,
+      ROUND(COUNT({PERSISTENT_ID_FIELD}) / COUNT(*), 2) AS percent_with_persistentid_not_null
+    FROM 
+      {DATASET_TABLE_NAME}
+    WHERE
+      TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
+      AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
+    ```
 
-     Donde:
+    Donde:
 
-      * `{PERSISTENT_ID_FIELD}` es el campo para el identificador persistente. Por ejemplo: `identityMap.ecid[0]`.
+    * `{PERSISTENT_ID_FIELD}` es el campo para el identificador persistente. Por ejemplo: `identityMap.ecid[0]`.
+    * `{DATASET_TABLE_NAME}` es el nombre de tabla para el conjunto de datos de evento.
+    * `{FORMAT_STRING}` es la cadena de formato para el campo de marca de tiempo. Por ejemplo: `MM/DD/YY HH12:MI AM`.
+    * `{START_DATE}` es la fecha de inicio. Por ejemplo: `2024-01-01 00:00:00`.
+    * `{END_DATE}` es la fecha de finalización en formato estándar. Por ejemplo: `2024-01-08 00:00:00`.
+
+
+  * **[!UICONTROL ID de la persona]**
+    * Para la vinculación basada en gráficos, asegúrese de que el gráfico de identidades contenga fragmentos que vinculen valores de ID desde el área de nombres de ID persistente y el área de nombres de ID de persona que haya elegido. Puede ejecutar una prueba en el [visor de gráficos de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} y consultar el gráfico en función de algunos valores de ID persistentes de ejemplo. Compruebe si estos valores de ID persistentes están vinculados a valores de ID de persona en el gráfico.
+    * Para la vinculación basada en el campo, consulte 7 días de datos en los que el campo de ID de persona no sea nulo y divida los datos por una consulta de 7 días para todos los eventos del conjunto de datos. Este porcentaje debería ser idealmente superior al 5 %.
+
+      Ejemplo de una consulta que puede utilizar para la verificación:
+
+      ```sql
+      SELECT
+        COUNT(*) AS total_events,
+        COUNT({PERSON_ID_FIELD}) AS events_with_personid,
+        ROUND(COUNT({PERSON_ID_FIELD}) / COUNT(*), 2) AS percent_with_personid_not_null
+      FROM 
+        {DATASET_TABLE_NAME}
+      WHERE
+        TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
+        AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
+      ```
+
+      Donde:
+
+      * `{PERSON_ID_FIELD}` es el campo para el ID de persona. Por ejemplo: `identityMap.crmId[0]`.
       * `{DATASET_TABLE_NAME}` es el nombre de tabla para el conjunto de datos de evento.
       * `{FORMAT_STRING}` es la cadena de formato para el campo de marca de tiempo. Por ejemplo: `MM/DD/YY HH12:MI AM`.
       * `{START_DATE}` es la fecha de inicio. Por ejemplo: `2024-01-01 00:00:00`.
       * `{END_DATE}` es la fecha de finalización en formato estándar. Por ejemplo: `2024-01-08 00:00:00`.
-
-
-   * **[!UICONTROL ID de la persona]**
-      * Para la vinculación basada en gráficos, asegúrese de que el gráfico de identidades contenga fragmentos que vinculen valores de ID desde el área de nombres de ID persistente y el área de nombres de ID de persona que haya elegido. Puede ejecutar una prueba en el [visor de gráficos de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} y consultar el gráfico en función de algunos valores de ID persistentes de ejemplo. Compruebe si estos valores de ID persistentes están vinculados a valores de ID de persona en el gráfico.
-      * Para la vinculación basada en el campo, consulte 7 días de datos en los que el campo de ID de persona no sea nulo y divida los datos por una consulta de 7 días para todos los eventos del conjunto de datos. Este porcentaje debería ser idealmente superior al 5 %.
-
-        Ejemplo de una consulta que puede utilizar para la verificación:
-
-        ```sql
-        SELECT
-          COUNT(*) AS total_events,
-          COUNT({PERSON_ID_FIELD}) AS events_with_personid,
-          ROUND(COUNT({PERSON_ID_FIELD}) / COUNT(*), 2) AS percent_with_personid_not_null
-        FROM 
-          {DATASET_TABLE_NAME}
-        WHERE
-          TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-          AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
-        ```
-
-        Donde:
-
-         * `{PERSON_ID_FIELD}` es el campo para el ID de persona. Por ejemplo: `identityMap.crmId[0]`.
-         * `{DATASET_TABLE_NAME}` es el nombre de tabla para el conjunto de datos de evento.
-         * `{FORMAT_STRING}` es la cadena de formato para el campo de marca de tiempo. Por ejemplo: `MM/DD/YY HH12:MI AM`.
-         * `{START_DATE}` es la fecha de inicio. Por ejemplo: `2024-01-01 00:00:00`.
-         * `{END_DATE}` es la fecha de finalización en formato estándar. Por ejemplo: `2024-01-08 00:00:00`.
 
 
 
@@ -194,8 +194,8 @@ Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de d
 **[!UICONTROL Las métricas de vinculación]** se calculan usando un conjunto de datos de muestra con marcas de tiempo de evento de los últimos 7 días. Este conjunto de datos de ejemplo suele diferir de los datos de ejemplo utilizados en la tabla **[!UICONTROL Preview]**. La vinculación de métricas proporciona detalles para lo siguiente:
 
 * **[!UICONTROL Cobertura de ID de persona]**: La cobertura del ID de persona seleccionado utilizado para la identificación durante el proceso de vinculación (activo y de reproducción).
-   * Para obtener los mejores resultados de vinculación basada en el campo, se debe enviar un ID de persona (información de usuario) con al menos un evento para cada ID persistente (información de dispositivo).
-   * Para obtener los mejores resultados de vinculación basada en gráficos, debe haber una relación (ID persistente, ID de persona) en el gráfico de identidad para cada ID persistente.
+  * Para obtener los mejores resultados de vinculación basada en el campo, se debe enviar un ID de persona (información de usuario) con al menos un evento para cada ID persistente (información de dispositivo).
+  * Para obtener los mejores resultados de vinculación basada en gráficos, debe haber una relación (ID persistente, ID de persona) en el gráfico de identidad para cada ID persistente.
 
   La cobertura del ID de persona se muestra como porcentaje y se compara con lo que se recomienda en una configuración de desarrollo estable o de producción. Cuanto mayor sea este valor de cobertura, mejores serán los resultados de vinculación con el ID de persona seleccionado.
 

@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 780
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -62,23 +62,23 @@ Antes de configurar Content Analytics, asegúrese de que se cumplen los siguient
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y para administrar vistas de datos.
 * Si decide recopilar experiencias de Content Analytics, asegúrese de configurar y actualizar el control de versiones de Content Analytics en función de los cambios realizados en las páginas web.
 * Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions){target="_blank"}:
-   * Permisos de [Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}.
-   * Permisos de [Experience Platform Data Collection](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+  * Permisos de [Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}.
+  * Permisos de [Experience Platform Data Collection](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 * Ha considerado detenidamente las siguientes opciones de configuración importantes:
 
-   * Su sitio es adecuado para el sistema de informes de experiencias. Un informe de experiencia adecuado solo es posible cuando se cumplen las siguientes condiciones:
-      * Las páginas del sitio deben poder reproducirse utilizando la dirección URL de la página.
-      * El contenido de texto que vea un usuario determinado se puede reproducir mediante la dirección URL de la página y no depende de las cookies u otros mecanismos de personalización.
-   * Tiene una comprensión clara de qué páginas desea capturar para el análisis y las perspectivas de participación de contenido.
-   * Tiene una idea clara de para qué (tipo de) recursos desea capturar el análisis y la información de participación en el contenido.
+  * Su sitio es adecuado para el sistema de informes de experiencias. Un informe de experiencia adecuado solo es posible cuando se cumplen las siguientes condiciones:
+    * Las páginas del sitio deben poder reproducirse utilizando la dirección URL de la página.
+    * El contenido de texto que vea un usuario determinado se puede reproducir mediante la dirección URL de la página y no depende de las cookies u otros mecanismos de personalización.
+  * Tiene una comprensión clara de qué páginas desea capturar para el análisis y las perspectivas de participación de contenido.
+  * Tiene una idea clara de para qué (tipo de) recursos desea capturar el análisis y la información de participación en el contenido.
 
 ### Móvil
 
 * Asegúrese de que las extensiones [Experience Platform Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) y [Experience Platform Identity for Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) estén habilitadas para la aplicación móvil.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y para administrar vistas de datos.
 * Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions){target="_blank"}:
-   * Permisos de [Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}.
-   * Permisos de [Experience Platform Data Collection](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+  * Permisos de [Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}.
+  * Permisos de [Experience Platform Data Collection](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 

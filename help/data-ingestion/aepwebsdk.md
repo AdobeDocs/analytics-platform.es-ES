@@ -67,7 +67,8 @@ Todos los datos ingeridos en Adobe Experience Platform deben cumplir un esquema 
 
 ### Configurar un esquema
 
-Desea rastrear algunos datos mínimos de los perfiles que visitan el sitio web como, por ejemplo, el nombre de la página o la identificación.Primero debe definir un esquema que modele estos datos.
+Desea rastrear algunos datos mínimos de los perfiles que visitan el sitio web como, por ejemplo, el nombre de la página o la identificación.
+Primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
 
@@ -376,13 +377,13 @@ Para definir una regla, debe hacer lo siguiente:
 
    - En el cuadro de diálogo [!UICONTROL Configuración de evento], haga lo siguiente:
 
-      - Seleccione **[!UICONTROL Principal]** en la lista [!UICONTROL Extensión].
+     - Seleccione **[!UICONTROL Principal]** en la lista [!UICONTROL Extensión].
 
-      - Seleccione **[!UICONTROL Ventana cargada]** en la lista [!UICONTROL Tipo de evento].
+     - Seleccione **[!UICONTROL Ventana cargada]** en la lista [!UICONTROL Tipo de evento].
 
-        ![Regla - Configuración de evento](./assets/event-windowloaded-pageview.png)
+       ![Regla - Configuración de evento](./assets/event-windowloaded-pageview.png)
 
-      - Seleccione **[!UICONTROL Conservar cambios]**.
+     - Seleccione **[!UICONTROL Conservar cambios]**.
 
 
 
@@ -390,17 +391,17 @@ Para definir una regla, debe hacer lo siguiente:
 
    - En el cuadro de diálogo [!UICONTROL Configuración de acción], haga lo siguiente:
 
-      - Seleccione **[!UICONTROL SDK web de Adobe Experience Platform]** en la lista [!UICONTROL Extensión].
+     - Seleccione **[!UICONTROL SDK web de Adobe Experience Platform]** en la lista [!UICONTROL Extensión].
 
-      - Seleccione **[!UICONTROL Enviar evento]** en la lista [!UICONTROL Tipo de acción].
+     - Seleccione **[!UICONTROL Enviar evento]** en la lista [!UICONTROL Tipo de acción].
 
-      - Seleccione **[!UICONTROL web.webpagedetails.pageViews]** en la lista [!UICONTROL Tipo].
+     - Seleccione **[!UICONTROL web.webpagedetails.pageViews]** en la lista [!UICONTROL Tipo].
 
-      - Seleccione el icono de cilindro situado junto a [!UICONTROL Datos XDM] y seleccione **[!UICONTROL XDM - Vista de página]** en la lista de elementos de datos.
+     - Seleccione el icono de cilindro situado junto a [!UICONTROL Datos XDM] y seleccione **[!UICONTROL XDM - Vista de página]** en la lista de elementos de datos.
 
      ![Regla - Configuración de la acción](./assets/action-pageview-xdm.png)
 
-      - Seleccione **[!UICONTROL Conservar cambios]**.
+     - Seleccione **[!UICONTROL Conservar cambios]**.
 
    - La regla debe tener el siguiente aspecto:
 
@@ -511,11 +512,11 @@ Para crear la conexión:
 
    - Para cada conjunto de datos:
 
-      - Seleccione un [!UICONTROL ID de persona] entre las identidades disponibles de los esquemas del conjunto de datos en Adobe Experience Platform.
+     - Seleccione un [!UICONTROL ID de persona] entre las identidades disponibles de los esquemas del conjunto de datos en Adobe Experience Platform.
 
-      - Seleccione la fuente de datos correcta en la lista [!UICONTROL Tipo de fuente de datos]. Si especifica **[!UICONTROL Otro]**, agregue una descripción para la fuente de datos.
+     - Seleccione la fuente de datos correcta en la lista [!UICONTROL Tipo de fuente de datos]. Si especifica **[!UICONTROL Otro]**, agregue una descripción para la fuente de datos.
 
-      - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
+     - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
 
      ![Configurar conjuntos de datos](./assets/cja-connections-3b.png)
 

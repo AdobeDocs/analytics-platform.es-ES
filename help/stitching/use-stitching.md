@@ -42,11 +42,11 @@ ht-degree: 27%
    - ID del conjunto de datos para el que desea volver a escribir.
    - El nombre de columna (ruta de identidad y área de nombres) del ID persistente del conjunto de datos deseado (el identificador que aparece en cada fila).
    - Si el conjunto de datos admite `identityMap`:
-      - Para la vinculación basada en el campo, especifique el área de nombres tanto para los ID persistentes como para los de persona.
-      - Para la vinculación basada en gráficos, especifique el área de nombres del ID persistente y el área de nombres de identidad que se utilizará para consultar el gráfico de identidades.
+     - Para la vinculación basada en el campo, especifique el área de nombres tanto para los ID persistentes como para los de persona.
+     - Para la vinculación basada en gráficos, especifique el área de nombres del ID persistente y el área de nombres de identidad que se utilizará para consultar el gráfico de identidades.
    - Si el conjunto de datos no admite `identityMap`:
-      - Para la vinculación basada en el campo, el nombre de columna del ID de persona para el conjunto de datos deseado (el identificador de persona, que también actúa como vínculo entre conjuntos de datos en el contexto de una conexión).
-      - En el caso de la vinculación basada en gráficos, es el área de nombres de identidad que desea utilizar para consultar el gráfico de identidad.
+     - Para la vinculación basada en el campo, el nombre de columna del ID de persona para el conjunto de datos deseado (el identificador de persona, que también actúa como vínculo entre conjuntos de datos en el contexto de una conexión).
+     - En el caso de la vinculación basada en gráficos, es el área de nombres de identidad que desea utilizar para consultar el gráfico de identidad.
    - Su preferencia de ventana retrospectiva y frecuencia de reproducción. Consulta tu paquete de Customer Journey Analytics para ver las [opciones](#options) disponibles.
    - Nombre de la zona protegida.
 

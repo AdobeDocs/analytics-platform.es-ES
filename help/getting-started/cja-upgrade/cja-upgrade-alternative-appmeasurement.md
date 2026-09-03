@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1381
+source-wordcount: 1384
 ht-degree: 58%
 
 ---
@@ -59,7 +59,7 @@ Puede utilizar la lógica de recopilación de datos de la extensión de AppMeasu
 
 ## Ventajas y desventajas
 
-Este método se excluye mutuamente con [el envío de toda la capa de datos a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md), ya que ambos métodos realizan la misma tarea. (Este método es preferible a enviar toda la capa de datos a Adobe. Es más refinado porque todas las props y evars pasan por data.__ adobe.analytics._variable-name_).
+Este método se excluye mutuamente con [el envío de toda la capa de datos a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md), ya que ambos métodos realizan la misma tarea. (Este método es preferible a enviar toda la capa de datos a Adobe. Es más refinado porque todas las props y evars pasan por los datos.__ adobe.analytics._variable-name_.)
 
 Considere las siguientes ventajas y desventajas de utilizar esta alternativa de actualización:
 

@@ -56,8 +56,8 @@ Las previsiones se muestran en el gráfico de líneas de la siguiente manera:
 
 * Los valores actuales de las métricas del gráfico de líneas se indican mediante una barra vertical. Si pasa el ratón por encima de esa línea vertical, aparece una ventana emergente con la última fecha actual.
 * Los valores pronosticados para una o más métricas se muestran directamente desde la barra vertical con líneas de puntos. Puede pasar el ratón sobre cualquier punto de datos de una métrica. Se mostrará una ventana emergente con:
-   * fecha de la previsión
-   * valor previsto para la métrica
-   * límite superior del valor previsto para la métrica
-   * límite inferior del valor previsto para la métrica
+  * fecha de la previsión
+  * valor previsto para la métrica
+  * límite superior del valor previsto para la métrica
+  * límite inferior del valor previsto para la métrica
 * El área sombreada muestra la banda de confianza del pronóstico.

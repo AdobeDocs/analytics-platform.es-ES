@@ -22,8 +22,8 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 6%
+source-wordcount: 605
+ht-degree: 5%
 
 ---
 
@@ -47,9 +47,9 @@ Debe crear un [esquema relacional](https://experienceleague.adobe.com/es/docs/ex
 * Defina los campos del esquema y sus atributos
 * Configure los atributos necesarios para los campos de un esquema relacional:
 
-   * **Clave principal**.
-   * **Descriptor de versión**, que debe configurarse como número secuencial (tipo de campo de tipo entero) o como tipo de campo de fecha y hora. Cuando se utiliza un tipo de campo DateTime, el descriptor de versión define la marca de tiempo de una modificación de los datos, por ejemplo, para contener la última marca de tiempo modificada.
-   * **Descriptor de marca de tiempo** (para datos de series de tiempo), que define la marca de tiempo inmutable en el momento en que se captura un evento. El descriptor de marca de tiempo no es necesario para un esquema relacional basado en registros.
+  * **Clave principal**.
+  * **Descriptor de versión**, que debe configurarse como número secuencial (tipo de campo de tipo entero) o como tipo de campo de fecha y hora. Cuando se utiliza un tipo de campo DateTime, el descriptor de versión define la marca de tiempo de una modificación de los datos, por ejemplo, para contener la última marca de tiempo modificada.
+  * **Descriptor de marca de tiempo** (para datos de series de tiempo), que define la marca de tiempo inmutable en el momento en que se captura un evento. El descriptor de marca de tiempo no es necesario para un esquema relacional basado en registros.
 
 
 

@@ -48,7 +48,7 @@ Puede cancelar solicitudes individuales que consuman una gran cantidad de capaci
 
 1. Seleccione la conexión en la que desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
 
 1. Seleccione la pestaña [!UICONTROL **Solicitudes**] y, a continuación, seleccione una o varias solicitudes.
 
@@ -89,7 +89,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más usuario
 
 1. Seleccione la conexión en la que desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/reporting-activity-manager/reporting-activity.md).
 
 1. Seleccione la pestaña [!UICONTROL **Usuarios**] y, a continuación, seleccione uno o varios usuarios.
 

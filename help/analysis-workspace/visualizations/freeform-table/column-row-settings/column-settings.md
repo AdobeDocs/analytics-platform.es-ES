@@ -129,7 +129,7 @@ Para utilizar un modelo de atribución no predeterminado para una métrica en un
 
 {{attribution-container}}
 
-### Ventana de retroactividad
+### Período de retroactividad
 
 {{attribution-lookback-window}}
 

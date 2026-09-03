@@ -21,8 +21,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 62%
+source-wordcount: 721
+ht-degree: 66%
 
 ---
 
@@ -50,13 +50,13 @@ Para detener la recopilación de datos de una configuración de Content Analytic
 
 * Para **web**:
 
-   1. Elimine el [código incrustado](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/environments/environments) en el elemento `<head>` de las páginas de su entorno de producción, desarrollo o ensayo, sujeto a Content Analytics.
-   1. Elimine la propiedad de etiquetas web asociada para la configuración de Content Analytics.
+  1. Elimine el [código incrustado](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/environments/environments) en el elemento `<head>` de las páginas de su entorno de producción, desarrollo o ensayo, sujeto a Content Analytics.
+  1. Elimine la propiedad de etiquetas web asociada para la configuración de Content Analytics.
 
 * Para **mobile**:
 
-   1. Elimine la [extensión de Content Analytics](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/) de su aplicación.
-   1. Elimine la propiedad de etiquetas móviles asociada a su configuración de Content Analytics.
+  1. Elimine la [extensión de Content Analytics](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/) de su aplicación.
+  1. Elimine la propiedad de etiquetas móviles asociada a su configuración de Content Analytics.
 
 Siga el [flujo de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview){target="_blank"} para aplicar los cambios.
 

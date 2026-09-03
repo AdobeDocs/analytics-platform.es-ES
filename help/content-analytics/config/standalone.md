@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 2631
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -111,15 +111,15 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrar usua
 Debe ser administrador de productos de los siguientes productos y perfiles de producto para Content Analytics independiente:
 
 * Adobe Experience Platform
-   * AEP-Default-All-Users (el perfil predeterminado para acceder a la zona protegida de producción)
+  * AEP-Default-All-Users (el perfil predeterminado para acceder a la zona protegida de producción)
 
 * Recopilación de datos de Adobe Experience Platform
-   * Acceso a todos los registros de recopilación de datos predeterminados
+  * Acceso a todos los registros de recopilación de datos predeterminados
 
 * Adobe Experience Platform Privacy Service
 
 * Customer Journey Analytics (personalizado)
-   * Customer Journey Analytics (o cualquier otro perfil de producto aprovisionado de forma predeterminada)
+  * Customer Journey Analytics (o cualquier otro perfil de producto aprovisionado de forma predeterminada)
 
 Puede definir el acceso de administrador de productos mediante Admin Console:
 
@@ -157,31 +157,31 @@ Para Content Analytics, debe comprobar si los siguientes recursos y permisos aso
 
 * Rol predeterminado de acceso a todas las producciones
 
-   * Recopilación de datos
-      * Ver secuencias de datos
-      * Administrar secuencias de datos
+  * Recopilación de datos
+    * Ver secuencias de datos
+    * Administrar secuencias de datos
 
-   * Administración de datos
-      * Ver conjuntos de datos
-      * Administrar conjuntos de datos
+  * Administración de datos
+    * Ver conjuntos de datos
+    * Administrar conjuntos de datos
 
-   * Modelado de datos
-      * Esquemas de vistas
-      * Administrar esquemas
-      * Administrar metadatos de identidad
+  * Modelado de datos
+    * Esquemas de vistas
+    * Administrar esquemas
+    * Administrar metadatos de identidad
 
 
 * Función Administradores de zona protegida
 
-   * Zonas protegidas
-      * Prod
-      * (cualquier otra zona protegida que desee utilizar para Content Analytics)
+  * Zonas protegidas
+    * Prod
+    * (cualquier otra zona protegida que desee utilizar para Content Analytics)
 
-   * Administración de zona protegida
-      * Administrar paquetes
-      * Administrar zonas protegidas
-      * Restablecer espacio aislado
-      * Ver espacio aislado
+  * Administración de zona protegida
+    * Administrar paquetes
+    * Administrar zonas protegidas
+    * Restablecer espacio aislado
+    * Ver espacio aislado
 
 
 En la interfaz Permisos puede comprobar tanto las funciones como los permisos asociados. La interfaz también muestra qué usuarios pertenecen a la función.
@@ -217,21 +217,21 @@ Customer Journey Analytics no admite el control de acceso basado en atributos. P
 Para Content Analytics, debe comprobar si se incluyen los siguientes permisos de perfil de producto de Customer Journey Analytics:
 
 * Vistas de datos
-   * Todas las vistas de datos disponibles.
+  * Todas las vistas de datos disponibles.
 
 * Herramientas de informes
-   * Creación de métricas calculadas
-   * Creación de segmentos
-   * Creación de anotación
-   * Acceso a registros de auditoría
-   * Uso compartido de vínculos del proyecto con cualquier persona
-   * Previsión
-   * Asistente de IA: conocimiento del producto
-   * Data Insights Agent
-   * Pies de ilustración inteligentes
+  * Creación de métricas calculadas
+  * Creación de segmentos
+  * Creación de anotación
+  * Acceso a registros de auditoría
+  * Uso compartido de vínculos del proyecto con cualquier persona
+  * Previsión
+  * Asistente de IA: conocimiento del producto
+  * Data Insights Agent
+  * Pies de ilustración inteligentes
 
 * Herramientas de vista de datos
-   * Exportación de tablas completas
+  * Exportación de tablas completas
 
 Para comprobar y actualizar estos permisos para Customer Journey Analytics:
 

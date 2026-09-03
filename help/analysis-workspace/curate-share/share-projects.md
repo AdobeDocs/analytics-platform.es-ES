@@ -102,7 +102,8 @@ Para compartir una función de proyecto específica con usuarios o grupos de su 
 
    O bien
 
-   Para compartir solo un proyecto individual, puede abrir el proyecto que desee compartir y, a continuación, seleccionar **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios del espacio de trabajo]**.Si hay cambios no guardados, se le pedirá que guarde primero el proyecto.
+   Para compartir solo un proyecto individual, puede abrir el proyecto que desee compartir y, a continuación, seleccionar **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios del espacio de trabajo]**.
+   Si hay cambios no guardados, se le pedirá que guarde primero el proyecto.
 
    Se muestra el cuadro de diálogo Compartir proyecto. Las secciones [!UICONTROL **Compartir por vínculo**] y [!UICONTROL **Configuración**] del cuadro de diálogo solo son visibles cuando se comparte un único proyecto.
 
@@ -208,9 +209,9 @@ Para compartir un proyecto de Analysis Workspace con cualquier persona:
 
      Los administradores de Customer Journey Analytics pueden configurar esta preferencia para la compañía, como se describe en [Preferencias](/help/analysis-workspace/user-preferences.md). Dependiendo de cómo haya configurado esta opción el administrador, puede encontrarse con los siguientes escenarios:
 
-      * Si esta opción no está visible es que su administrador de Customer Journey Analytics no ha habilitado esta función.
+     * Si esta opción no está visible es que su administrador de Customer Journey Analytics no ha habilitado esta función.
 
-      * Si esta opción está habilitada y no puede deshabilitarla, la opción bloqueada significa que el administrador de Customer Journey Analytics requiere la autenticación de CX Enterprise para cualquier persona que acceda a proyectos de Analysis Workspace. Este siempre es el caso de las organizaciones que conceden licencias a Healthcare Shield.
+     * Si esta opción está habilitada y no puede deshabilitarla, la opción bloqueada significa que el administrador de Customer Journey Analytics requiere la autenticación de CX Enterprise para cualquier persona que acceda a proyectos de Analysis Workspace. Este siempre es el caso de las organizaciones que conceden licencias a Healthcare Shield.
 
 1. Junto al campo **[!UICONTROL Compartir con cualquiera (no es necesario iniciar sesión)]**, seleccione ![Vínculo](/help/assets/icons/Link.svg) para copiar el vínculo en el portapapeles del sistema.
 

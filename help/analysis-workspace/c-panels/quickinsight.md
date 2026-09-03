@@ -139,13 +139,13 @@ En [!UICONTROL Quick Insights Builder], aparecerán otras sugerencias útiles, a
 
   ![Generador de perspectivas rápidas](assets/qibuilder-result.png)
 
-   * **[!UICONTROL Analizar]** dimensión **[!UICONTROL Desglosar por]**: puedes utilizar hasta tres niveles de desgloses en las dimensiones para profundizar en los datos que realmente necesita. Ver ➊, ➋ y ➌.
+  * **[!UICONTROL Analizar]** dimensión **[!UICONTROL Desglosar por]**: puedes utilizar hasta tres niveles de desgloses en las dimensiones para profundizar en los datos que realmente necesita. Ver ➊, ➋ y ➌.
 
-   * Agregar más métricas **[!UICONTROL por]**: puedes agregar hasta dos métricas más. Ver ➍ y ➎.
+  * Agregar más métricas **[!UICONTROL por]**: puedes agregar hasta dos métricas más. Ver ➍ y ➎.
 
-   * **[!UICONTROL segmentar por]**: puede añadir hasta 2 segmentos más. Por ejemplo, añada Reservas como segmento y combine ese segmento con los segmentos de Viajeros frecuentes y Viajeros por primera vez que compare. Ver ➏, ➐ y ➑.
+  * **[!UICONTROL segmentar por]**: puede añadir hasta 2 segmentos más. Por ejemplo, añada Reservas como segmento y combine ese segmento con los segmentos de Viajeros frecuentes y Viajeros por primera vez que compare. Ver ➏, ➐ y ➑.
 
-   * activado: puede especificar el rango de fechas. Ver ➒.
+  * activado: puede especificar el rango de fechas. Ver ➒.
 
 ## Limitaciones conocidas
 

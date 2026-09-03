@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 383
+source-wordcount: 387
 ht-degree: 6%
 
 ---
@@ -78,7 +78,7 @@ Puede ver el historial y el estado de los libros programados en la ficha **[!UIC
    ![Historial programado](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    Use ![Buscar](/help/assets/icons/Search.svg) para buscar libros específicos en la lista.
-Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
+   Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
 
    La ficha **[!UICONTROL Historial]** le permite revisar el estado de cada tarea programada. Una fila independiente documenta el cambio de estado de cada tarea programada.
 
