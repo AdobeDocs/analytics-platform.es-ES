@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 7300
+source-wordcount: 7319
 ht-degree: 87%
 
 ---
@@ -62,7 +62,7 @@ Una vez que haya [creado o editado una o más conexiones](/help/connections/crea
 
 La interfaz **[!UICONTROL Lista]** es la interfaz predeterminada para Conexiones. Si no está seleccionada, seleccione la pestaña **[!UICONTROL Lista]** para tener acceso a la interfaz.
 
-La interfaz **[!UICONTROL List]** muestra una tabla de todas las conexiones disponibles.
+La interfaz **[!UICONTROL Lista]** muestra una tabla de todas las conexiones disponibles.
 △
 ![vista de lista](assets/list-view.png)
 
@@ -420,17 +420,17 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
 >title="Filas notificables de datos principales"
->abstract="Las filas principales notificables son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas principales notificables son valores de instantáneas, no totales agregados. Estos valores se actualizan de forma dinámica en función del último mes del intervalo de fecha seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_historicalreportablerows"
 >title="Filas históricas notificables"
->abstract="Las filas históricas notificables son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas históricas notificables son valores de instantáneas, no totales agregados. Estos valores se actualizan de forma dinámica en función del último mes del intervalo de fecha seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
 >title="Filas notificables acumulativas"
->abstract="Las filas notificables acumulativas son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas notificables acumulativas son valores de instantáneas, no totales agregados. Estos valores se actualizan de forma dinámica en función del último mes del intervalo de fecha seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 
 >[!CONTEXTUALHELP]
@@ -441,7 +441,7 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_extendeddatacapacityrows"
 >title="Filas de capacidad de datos extendidas"
->abstract="Las filas de capacidad de datos extendida son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas de capacidad de datos extendida son valores de instantáneas, no totales agregados. Estos valores se actualizan de forma dinámica en función del último mes del intervalo de fecha seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="connections_aca_corereportablerows"
@@ -456,7 +456,7 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_corereportablerows"
 >title="Filas notificables de datos principales de Content Analytics"
->abstract="Las filas principales notificables de Content Analytics son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas principales notificables de Content Analytics son valores de instantáneas, no totales agregados. Estos valores se actualizan de forma dinámica en función del último mes del intervalo de fecha seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 
 >[!CONTEXTUALHELP]
@@ -472,12 +472,12 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_corereportablebpp"
 >title="Filas notificables del perfil de la empresa"
->abstract="Las filas principales notificables del perfil de la empresa son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas principales notificables del perfil de la empresa son valores de instantáneas, no totales agregados. Estos valores se actualizan de forma dinámica en función del último mes del intervalo de fecha seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_historicalreportablebpp"
 >title="Filas notificables históricas de la empresa"
->abstract="Las filas históricas notificables del perfil de la empresa son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas históricas notificables del perfil de la empresa son valores de instantáneas, no totales agregados. Estos valores se actualizan de forma dinámica en función del último mes del intervalo de fecha seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="connections_monthlymediastarts"
@@ -487,13 +487,13 @@ Cuando se selecciona una fila de conjunto de datos en la tabla de conjuntos de d
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_monthlymediastarts"
 >title="Inicios de medios mensuales"
->abstract="Los inicios de medios mensuales son valores de instantánea, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Los inicios de medios mensuales son valores de instantánea, no totales agregados. Estos valores se actualizan de forma dinámica en función del último mes del intervalo de fecha seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_monthlyreportablerows"
 >title="Filas mensuales de Content Analytics"
->abstract="Las filas mensuales de Content Analytics son valores de instantáneas, no totales agregados. Estos valores se actualizan dinámicamente en función del último mes del intervalo de fechas seleccionado. Los valores reflejan la instantánea del mes seleccionado."
+>abstract="Las filas mensuales de Content Analytics son valores de instantáneas, no totales agregados. Estos valores se actualizan de forma dinámica en función del último mes del intervalo de fecha seleccionado. Los valores reflejan la instantánea del mes seleccionado."
 
 
 
@@ -746,6 +746,6 @@ La interfaz **[!UICONTROL Uso de medios de transmisión]** consta de dos paneles
 
 >[!MORELIKETHIS]
 >
->[Ver, solucionar problemas y modificar la configuración de conexión](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja) tutorial.
->[Administre su uso de Customer Journey Analytics](/help/technotes/estimate-usage.md)
+>Tutorial [Ver, solucionar problemas y modificar la configuración de conexiónt](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).
+>[Administrar el uso de Customer Journey Analytics](/help/technotes/estimate-usage.md)
 >

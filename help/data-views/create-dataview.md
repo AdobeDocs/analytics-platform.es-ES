@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
 source-wordcount: 3152
-ht-degree: 74%
+ht-degree: 77%
 
 ---
 
@@ -67,7 +67,7 @@ Para configurar una vista de datos nueva o existente, haga lo siguiente:
 >[!CONTEXTUALHELP]
 >id="dataview_externalid"
 >title="ID externo"
->abstract="Cambiar el ID externo afecta al modo en que el nombre de la vista de datos aparece en las fuentes externas, como las herramientas de inteligencia empresarial."
+>abstract="Cambiar el ID externo puede afectar al modo en que el nombre de la vista de datos aparece en las fuentes externas, como las herramientas de inteligencia empresarial."
 
 
 Proporciona una configuración general para la vista de datos.
@@ -87,7 +87,7 @@ Proporciona una configuración general para la vista de datos.
 >[!CONTEXTUALHELP]
 >id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Vistas de datos en Adobe Journey Optimizer"
->abstract="Customer Journey Analytics requiere una conexión y una vista de datos compatibles con Adobe Journey Optimizer. El sistema crea una conexión y una vista de datos de forma predeterminada. También puede habilitar esta opción para establecerla como la vista de datos predeterminada para los informes de Adobe Journey Optimizer, que agrega los componentes necesarios a la vista de datos y a los conjuntos de datos de la conexión."
+>abstract="Customer Journey Analytics debe utilizar una conexión y una vista de datos que sean compatibles con Adobe Journey Optimizer. El sistema crea una conexión y una vista de datos de forma predeterminada. También puede habilitar esta opción para establecerla como la vista de datos predeterminada para la creación de informes de Adobe Journey Optimizer, que añade los componentes necesarios a la vista de datos y a los conjuntos de datos de la conexión."
 >additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/integrations/ajo#connection" text="Qué componentes y conjuntos de datos se añaden."
 
 
@@ -312,10 +312,10 @@ La sección **[!UICONTROL Componentes incluidos]** contiene la lista de **[!UICO
 
   En el cuadro de diálogo **[!UICONTROL Filtrar campo por]**, puede filtrar según las siguientes categorías:
 
-   * **[!UICONTROL Tipo de datos]**: puede seleccionar uno o más de los siguientes tipos de datos: [!UICONTROL Cadena], [!UICONTROL Entero], [!UICONTROL Corto], [!UICONTROL Booleano], [!UICONTROL Doble], [!UICONTROL Byte], [!UICONTROL Largo], [!UICONTROL Fecha] o [!UICONTROL Fecha-hora].
-   * **[!UICONTROL Conjuntos de datos]**: seleccione uno o más conjuntos de datos.
-   * **[!UICONTROL Control de datos]**: seleccione una o más etiquetas de las [!UICONTROL etiquetas personalizadas], [!UICONTROL etiquetas de contrato], [!UICONTROL etiquetas de identidad], [!UICONTROL etiquetas de confidencialidad], [!UICONTROL ecosistema de socios] o subcategorías de [!UICONTROL directivas].
-   * **[!UICONTROL Otros]**: seleccione una o más de las opciones [!UICONTROL Contiene datos], [!UICONTROL Es identidad] o [!UICONTROL No está obsoleto].
+  * **[!UICONTROL Tipo de datos]**: puede seleccionar uno o más de los siguientes tipos de datos: [!UICONTROL Cadena], [!UICONTROL Entero], [!UICONTROL Corto], [!UICONTROL Booleano], [!UICONTROL Doble], [!UICONTROL Byte], [!UICONTROL Largo], [!UICONTROL Fecha] o [!UICONTROL Fecha-hora].
+  * **[!UICONTROL Conjuntos de datos]**: seleccione uno o más conjuntos de datos.
+  * **[!UICONTROL Control de datos]**: seleccione una o más etiquetas de las [!UICONTROL etiquetas personalizadas], [!UICONTROL etiquetas de contrato], [!UICONTROL etiquetas de identidad], [!UICONTROL etiquetas de confidencialidad], [!UICONTROL ecosistema de socios] o subcategorías de [!UICONTROL directivas].
+  * **[!UICONTROL Otros]**: seleccione una o más de las opciones [!UICONTROL Contiene datos], [!UICONTROL Es identidad] o [!UICONTROL No está obsoleto].
 
   Seleccione **[!UICONTROL Aplicar]** para aplicar los filtros.
 

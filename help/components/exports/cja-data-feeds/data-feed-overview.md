@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+source-git-commit: 4872f0078640fbd358a60a6d7baeb3ea575d3559
 workflow-type: tm+mt
-source-wordcount: 230
-ht-degree: 20%
+source-wordcount: 252
+ht-degree: 18%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 20%
 {{release-limited-testing}}
 
 Las fuentes de datos son una forma eficaz de obtener datos sin procesar de Customer Journey Analytics. Puede utilizar estos datos sin procesar en otras plataformas fuera de Adobe según convenga a su organización. Los datos se entregan en lotes por hora al final de cada hora o en lotes diarios al final de cada día.
+
+Para ver una comparación de las fuentes de datos con otros métodos de exportación de Customer Journey Analytics, como Exportación de tabla completa, consulte [Comparación de productos de Analytics](/help/getting-started/analytics-product-comparison.md).
 
 ## Requisitos previos
 
