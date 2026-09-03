@@ -6,22 +6,14 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 62ee184e96a1f22e97bafaae6e71d6bef1267cb4
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1ef12bfccbecc74a0b437c9c582fe0f6c1c1e9e5
 workflow-type: tm+mt
-source-wordcount: 2120
+source-wordcount: 2116
 ht-degree: 15%
 
 ---
@@ -39,7 +31,7 @@ Sin vinculación de persona a cuenta, los eventos que no contengan un ID de cuen
 La vinculación de persona a cuenta realiza las siguientes operaciones en los conjuntos de datos:
 
 * **Elevar la identidad de la persona**: de forma similar al [método de vinculación B2C](/help/stitching/overview.md), configurará un campo que contenga ID de persona persistentes. Con el gráfico de identidad, el ID de persona persistente de cada evento se eleva a un ID de persona desde el área de nombres del identificador de persona configurado.
-* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la información de identidad de cuenta. &#x200B;](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
+* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3} se usa para derivar y agregar la información de identidad de cuenta. ](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
 
 ## Cómo funciona la vinculación de persona a cuenta de B2B
 
@@ -230,9 +222,9 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Habilitar vinculación de persona a cuenta"
 >abstract="Si se ha habilitado, este conjunto de datos utiliza la vinculación de persona a cuenta B2B. Los valores de **[!UICONTROL ID de persona persistente]** se elevarán a los del **[!UICONTROL área de nombres de identificador de persona]** configurado y, a continuación, se utilizarán para buscar el ID de cuenta en función del conjunto de datos de persona a cuenta.<br/>Si está deshabilitado, este conjunto de datos no utiliza la vinculación de persona a cuenta B2B y tendrá que seleccionar un **[!UICONTROL ID de cuenta]** necesario en su lugar."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
 
-Después de configurar B2B person para la vinculación de cuentas en el nivel de conexión, debe habilitar B2B person para la vinculación de cuentas individualmente para cada conjunto de datos de evento que desee vincular.
+Después de configurar la vinculación B2B en el nivel de conexión, debe habilitar la vinculación de cuentas de persona B2B individualmente para cada conjunto de datos de evento que desee vincular.
 
 1. En Configuración de conexión, seleccione **[!UICONTROL Agregar conjuntos de datos]** o abra la configuración de un conjunto de datos de evento existente.<br/>Consulte [Agregar conjuntos de datos](/help/connections/create-connection.md#add-datasets) o [Editar un conjunto de datos](/help/connections/create-connection.md#edit-a-dataset) para obtener más información.
 
