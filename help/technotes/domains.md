@@ -44,10 +44,10 @@ Algunas configuraciones de cortafuegos bloquean los dominios en los que Customer
 
 ## Dominios empresariales de CX
 
-Además de los dominios anteriores, CX Enterprise se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) para obtener esta lista de dominios.
+Además de los dominios anteriores, CX Enterprise se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por CX Enterprise](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains) para obtener esta lista de dominios.
 
 >[!MORELIKETHIS]
 >
 >[Direcciones IP utilizadas por Customer Journey Analytics](ip-addresses.md)
 >
->[Dominios utilizados por CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Dominios utilizados por CX Enterprise](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains)

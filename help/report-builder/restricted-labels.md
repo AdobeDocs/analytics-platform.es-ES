@@ -51,7 +51,7 @@ En Customer Journey Analytics aparecen dos políticas definidas por Adobe que af
 
 Los componentes sujetos a estas directivas aparecen atenuados y no tienen un icono ![InfoOutline](/help/assets/icons/InfoOutline.svg). Cuando pasa el ratón sobre el icono de información, se muestra una nota para indicar lo siguiente: **[!UICONTROL Se han aplicado directivas a este campo que prohíben el uso de estos datos]**.
 
-Para obtener más información, consulte [Etiquetas y directivas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance).
+Para obtener más información, consulte [Etiquetas y directivas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-governance).
 
 
 ![La nota de directiva que indica el uso prohibido de los datos.](assets/restricted-label.png){zoomable="yes"}
