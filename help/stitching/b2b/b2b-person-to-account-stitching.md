@@ -1,36 +1,28 @@
 ---
 title: Vinculación de persona a cuenta B2B
-description: Descubra cómo la vinculación de persona B2B en Customer Journey Analytics enriquece los conjuntos de datos de evento con información de la cuenta y permite un análisis de recorrido completo en los datos B2B.
+description: Descubra cómo la vinculación de personas B2B a cuentas en Customer Journey Analytics enriquece los conjuntos de datos de evento con información de la cuenta y permite un análisis de recorrido completo en los datos B2B.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a971b268208ec49b5ccd84b11543263ff3a1abea
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 62ee184e96a1f22e97bafaae6e71d6bef1267cb4
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2120
 ht-degree: 15%
 
 ---
 
 # Vinculación de persona a cuenta B2B
 
-La vinculación de persona a cuenta B2B enriquece los conjuntos de datos de evento con las identidades de cuenta y permite un análisis completo del recorrido completo del cliente en Customer Journey Analytics. Cuando los eventos carecen de un ID de cuenta, que Customer Journey Analytics B2B edition requiere para la ingesta, la vinculación persona a cuenta deriva y agrega esa información automáticamente mediante un [conjunto de datos de asignación persona a cuenta](#prerequisites) que usted proporcione.
+La vinculación de persona a cuenta B2B enriquece los conjuntos de datos de evento con las identidades de cuenta y permite un análisis completo del recorrido completo del cliente en Customer Journey Analytics. Cuando los eventos carecen de un ID de cuenta, que Customer Journey Analytics B2B edition requiere para la ingesta, la vinculación de persona a cuenta deriva y agrega esa información automáticamente mediante un [conjunto de datos de asignación de persona a cuenta](#prerequisites) que usted proporcione.
 
-Sin vinculación de persona a cuenta, los eventos que no contengan un ID de cuenta se perderán durante la ingesta. La vinculación de cuenta de persona a cuenta resuelve esta limitación buscando la cuenta asociada con la persona en cada evento y agregando el ID de cuenta a medida que se incorpora el evento y de forma retroactiva.
+Sin vinculación de persona a cuenta, los eventos que no contengan un ID de cuenta se perderán durante la ingesta. La vinculación de persona a cuenta resuelve esta limitación buscando la cuenta asociada con la persona en cada evento y agregando el ID de cuenta a medida que se incorpora el evento y de forma retroactiva.
 
 >[!NOTE]
 >
@@ -39,11 +31,11 @@ Sin vinculación de persona a cuenta, los eventos que no contengan un ID de cuen
 La vinculación de persona a cuenta realiza las siguientes operaciones en los conjuntos de datos:
 
 * **Elevar la identidad de la persona**: de forma similar al [método de vinculación B2C](/help/stitching/overview.md), configurará un campo que contenga ID de persona persistentes. Con el gráfico de identidad, el ID de persona persistente de cada evento se eleva a un ID de persona desde el área de nombres del identificador de persona configurado.
-* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la información de identidad de cuenta. &#x200B;](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.&quot;.
+* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3} se usa para derivar y agregar la información de identidad de cuenta. ](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
 
 ## Cómo funciona la vinculación de persona a cuenta de B2B
 
-Para ilustrar cómo funciona la vinculación de cuentas B2B, se utiliza el conjunto de datos que se muestra a continuación como punto de partida.
+Para ilustrar cómo funciona la vinculación de cuenta de persona B2B, se utiliza el conjunto de datos que se muestra a continuación como punto de partida.
 
 ### Conjunto de datos de evento base
 
@@ -69,7 +61,7 @@ La vinculación de persona a cuenta de B2B evita que los eventos se ignoren y no
 
 +++ Detalles
 
-Para admitir la vinculación de persona a cuenta B2B, debe proporcionar un conjunto de datos de asignación de persona a cuenta. Por ejemplo:
+Para admitir la vinculación de persona a cuenta B2B, debe proporcionar una persona a un conjunto de datos de asignación de cuenta. Por ejemplo:
 
 | ID de CRM | ID de cuenta |
 |---|---|
@@ -126,12 +118,12 @@ El conjunto de datos persona a cuenta se utiliza una vez más para elevar los ID
 
 ### Resultado
 
-Este ejemplo muestra cómo la vinculación de cuentas B2B actualiza los datos del evento de experiencia con identificadores de persona que falta o identificadores de cuenta que faltan o son incorrectos, en función del conjunto de datos de asignación de persona a cuenta que ha proporcionado como entrada.
+Este ejemplo muestra cómo la vinculación de persona a cuenta de B2B actualiza los datos de su evento de experiencia con identificadores de persona que falta o identificadores de cuenta que faltan o son incorrectos, en función del conjunto de datos de asignación de persona a cuenta que ha proporcionado como entrada.
 
 
 ## Requisitos previos
 
-Antes de habilitar la vinculación de cuentas B2B, prepare los siguientes conjuntos de datos en Adobe Experience Platform:
+Antes de habilitar la vinculación de cuentas para B2B person, prepare los siguientes conjuntos de datos en Adobe Experience Platform:
 
 | Conjunto de datos | Requerido | Descripción |
 |---|---|---|
@@ -149,8 +141,8 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_open_configuration"
->title="Configuración de vinculación de cuentas B2B"
->abstract="Seleccione **[!UICONTROL Abrir configuración de vinculación B2B]** para configurar la vinculación de cuentas B2B. Si la conexión aún no se ha guardado, la configuración se etiquetará con **[!UICONTROL _Cambios no guardados_]**."
+>title="Configuración de la vinculación B2B"
+>abstract="Seleccione **[!UICONTROL Abrir configuración de vinculación B2B]** para configurar la vinculación de persona B2B a cuenta. Si la conexión aún no se ha guardado, la configuración se etiquetará con **[!UICONTROL _Cambios no guardados_]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
@@ -230,33 +222,33 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Habilitar vinculación de persona a cuenta"
 >abstract="Si se ha habilitado, este conjunto de datos utiliza la vinculación de persona a cuenta B2B. Los valores de **[!UICONTROL ID de persona persistente]** se elevarán a los del **[!UICONTROL área de nombres de identificador de persona]** configurado y, a continuación, se utilizarán para buscar el ID de cuenta en función del conjunto de datos de persona a cuenta.<br/>Si está deshabilitado, este conjunto de datos no utiliza la vinculación de persona a cuenta B2B y tendrá que seleccionar un **[!UICONTROL ID de cuenta]** necesario en su lugar."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
 
 Después de configurar B2B person para la vinculación de cuentas en el nivel de conexión, debe habilitar B2B person para la vinculación de cuentas individualmente para cada conjunto de datos de evento que desee vincular.
 
 1. En Configuración de conexión, seleccione **[!UICONTROL Agregar conjuntos de datos]** o abra la configuración de un conjunto de datos de evento existente.<br/>Consulte [Agregar conjuntos de datos](/help/connections/create-connection.md#add-datasets) o [Editar un conjunto de datos](/help/connections/create-connection.md#edit-a-dataset) para obtener más información.
 
-1. Para el conjunto de datos de evento específico para el que desea configurar la vinculación de cuenta B2B, active **[!UICONTROL Habilitar la vinculación de persona a cuenta]**.
+1. Para el conjunto de datos de evento específico para el que desea configurar la vinculación de cuentas de persona B2B, cambie **[!UICONTROL Habilitar la vinculación de persona a cuenta]** en.
 
 >[!BEGINTABS]
 
 >[!TAB Activado]
 
-Cuando **[!UICONTROL Habilitar la vinculación de persona a cuenta]** es **el**, ha configurado la vinculación de cuenta B2B para el conjunto de datos.
+Cuando **[!UICONTROL Habilitar la vinculación de persona a cuenta]** es **el**, ha configurado la vinculación de persona B2B a cuenta para el conjunto de datos.
 
 * Se requiere la configuración de un ID de persona. Ese ID de persona se usa para buscar el ID de cuenta en función del [conjunto de datos persona a cuenta](#prerequisites).
 * La configuración de un ID de cuenta es opcional.
 
-![Vinculación de cuenta B2B en el conjunto de datos de evento el](../assets/b2b-event-dataset-stitching-on.png)
+![Vinculación de persona B2B a cuenta en el conjunto de datos de evento el](../assets/b2b-event-dataset-stitching-on.png)
 
 >[!TAB Desactivado]
 
-Cuando **[!UICONTROL Habilitar la vinculación de persona a cuenta]** está **desactivado**, *no* ha configurado la vinculación de cuenta B2B para el conjunto de datos.
+Cuando **[!UICONTROL Habilitar la vinculación de persona a cuenta]** es **de**, *no* ha configurado a la persona B2B para la vinculación de cuenta para el conjunto de datos.
 
 * Se requiere la configuración de un ID de cuenta.
 * La configuración de un ID de persona es opcional.
 
-![Vinculación de cuenta B2B en el conjunto de datos de evento de](../assets/b2b-event-dataset-stitching-off.png)
+![Vinculación de persona B2B a cuenta en el conjunto de datos de evento de](../assets/b2b-event-dataset-stitching-off.png)
 
 >[!ENDTABS]
 
