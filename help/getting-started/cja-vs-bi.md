@@ -6,25 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
 TQID: https://experienceleague.adobe.com/EQ6tDK5VUq5-OQOZtLCoaqh-HBHMsU9c8Bfizy9BcPs
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1680
@@ -84,9 +70,9 @@ Estos componentes de visualización incluyen funcionalidades inteligentes como:
 
 * **Funciones de análisis avanzado** que se centran específicamente en las perspectivas de recorrido del cliente, como [diagramas de flujo](/help/analysis-workspace/visualizations/c-flow/flow.md), [panel de atribución](/help/analysis-workspace/c-panels/attribution.md), [diagramas de visitas en orden previsto](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) y [desgloses de dimensión](/help/components/dimensions/t-breakdown-fa.md). Algunos ejemplos de visualizaciones listas para usar son:
 
-   * [Análisis de retención de clientes a través de tablas de cohortes / latencia](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md), donde simplemente tiene que arrastrar y soltar métricas / dimensiones en un generador y estará listo en menos de 30 segundos,
+  * [Análisis de retención de clientes a través de tablas de cohortes / latencia](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md), donde simplemente tiene que arrastrar y soltar métricas / dimensiones en un generador y estará listo en menos de 30 segundos,
 
-   * Visualizaciones de [visita en orden previsto](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md). Se configura en menos de un minuto.
+  * Visualizaciones de [visita en orden previsto](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [flujo](/help/analysis-workspace/visualizations/c-flow/create-flow.md). Se configura en menos de un minuto.
 
 * **Capacidad de segmentación en cada paso de su exploración progresiva**: siempre que crea que tiene sentido, puede volver a publicar el público en Experience Platform y desde allí a cualquiera de los destinos compatibles.
 
@@ -94,9 +80,9 @@ Estos componentes de visualización incluyen funcionalidades inteligentes como:
 
 * **Depuración y democratización**: los paneles de control creados en Customer Journey Analytics pueden ser los siguientes:
 
-   * [Depurados](/help/analysis-workspace/curate-share/curate.md) a otras personas de la organización para la exploración continua,
-   * Exportados a Excel mediante [Report Builder](/help/report-builder/rb-overview.md) (un complemento dedicado),
-   * [Compartidos](/help/analysis-workspace/curate-share/share-projects.md) en varios formatos, incluyendo [PDF](/help/analysis-workspace/export/download-send.md), [CSV](/help/analysis-workspace/export/download-send.md) y a través de una [aplicación móvil dedicada](/help/mobile-app/home.md), para aquellos que estén interesados en los informes finales o en las visualizaciones.
+  * [Depurados](/help/analysis-workspace/curate-share/curate.md) a otras personas de la organización para la exploración continua,
+  * Exportados a Excel mediante [Report Builder](/help/report-builder/rb-overview.md) (un complemento dedicado),
+  * [Compartidos](/help/analysis-workspace/curate-share/share-projects.md) en varios formatos, incluyendo [PDF](/help/analysis-workspace/export/download-send.md), [CSV](/help/analysis-workspace/export/download-send.md) y a través de una [aplicación móvil dedicada](/help/mobile-app/home.md), para aquellos que estén interesados en los informes finales o en las visualizaciones.
 
 Comparar las funcionalidades de visualización de Customer Journey Analytics con lo que ofrecen las herramientas de BI es difícil debido a la variedad de visualizaciones disponibles. Algunas herramientas de BI cuentan con visualizaciones más avanzadas, pero Customer Journey Analytics se centra en visualizaciones interactivas e interoperables del recorrido del cliente que le permiten desglosar los datos en cuestión de segundos sin “cobrarle” por cada consulta adicional.
 

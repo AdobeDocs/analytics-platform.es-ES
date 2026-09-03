@@ -6,16 +6,10 @@ keywords: Product Analytics
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
 TQID: https://experienceleague.adobe.com/TRLnyHuOUno5zy2QT2Uc8vFnWeVy2snRu-ispS0ClKk
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
 source-wordcount: 678
@@ -36,7 +30,7 @@ ht-degree: 100%
 
 El análisis del ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL impacto del primer uso]** muestra una comparación del rendimiento de los indicadores clave antes y después de que un usuario use una función del producto por primera vez. El eje horizontal de este informe es un intervalo de tiempo relativo antes y después del evento, mientras que el eje vertical mide los indicadores clave deseados. Una barra vertical en medio del gráfico representa el día 0 del momento en que un usuario determinado utiliza por primera vez una función. Dado que los usuarios no siempre adoptan funciones el mismo día y que los despliegues pueden producirse potencialmente durante varios días, el día 0 puede significar algo distinto para cada usuario individual.
 
->[!VIDEO](https://video.tv.adobe.com/v/3423501/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421661/?quality=12&learn=on)
 
 ## Casos de uso
 
@@ -46,9 +40,9 @@ Los casos de uso de este análisis incluyen:
 * **Despliegues por fases**: dado que el análisis busca el primer uso de la función en lugar de una fecha fija, este análisis es útil si se modifica gradualmente el despliegue de las funciones a lo largo del tiempo.
 * **Análisis de la nueva versión del producto**: si va a lanzar una nueva versión de su producto, puede comparar el rendimiento de los indicadores clave antes y después de que los usuarios se expusieran a esa nueva versión por primera vez. Seleccione &quot;cualquier evento&quot; como evento de primer uso y fíltrelo en la propiedad Número de versión.
 * **Mejoras en las funciones existentes**: si está realizando mejoras en una función existente de su producto, puede comparar el rendimiento de los indicadores clave antes y después de que los usuarios se expusieran a esas nuevas mejoras por primera vez. Este análisis se puede realizar de una o varias formas según la instrumentación de las funciones.
-   * Seleccione un evento que represente la mejora como evento de primer uso
-   * Seleccione la fecha en que comenzaron a aplicarse los cambios
-   * Segmente el análisis al grupo de personas expuestas a las mejoras
+  * Seleccione un evento que represente la mejora como evento de primer uso
+  * Seleccione la fecha en que comenzaron a aplicarse los cambios
+  * Segmente el análisis al grupo de personas expuestas a las mejoras
 * **Eficacia de la campaña**: cuando un usuario hace clic en una campaña determinada, se puede comparar el rendimiento de los indicadores clave antes y después de que el usuario interactuara con esa campaña.
 
 ## Interfaz
@@ -63,8 +57,8 @@ El carril de consulta permite configurar los siguientes componentes:
 * **[!UICONTROL Indicadores clave]**: los eventos que desea medir por usuario. Cada indicador clave seleccionado se representa como una línea de color. Se añade a la tabla una fila que representa el evento. Se pueden incluir hasta tres eventos.
 * **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Eventos por usuario], [!UICONTROL Eventos], [!UICONTROL Sesiones] y [!UICONTROL Usuarios].
 * **[!UICONTROL Factores]**: hay dos factores para este análisis:
-   * **[!UICONTROL Fecha]**: hasta qué fecha desea retroceder para empezar a buscar la primera vez que se produjo un evento de uso.
-   * **[!UICONTROL Evento]**: el evento del que desea buscar el primer uso, para centrar el análisis en él.
+  * **[!UICONTROL Fecha]**: hasta qué fecha desea retroceder para empezar a buscar la primera vez que se produjo un evento de uso.
+  * **[!UICONTROL Evento]**: el evento del que desea buscar el primer uso, para centrar el análisis en él.
 * **[!UICONTROL Segmentos]**: el segmento que desea medir. El segmento seleccionado filtra los datos para centrarse únicamente en las personas que cumplen los criterios del segmento. Para este análisis se admite un solo segmento.
 
 ### Configuración del gráfico

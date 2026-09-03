@@ -6,24 +6,15 @@ feature: Components
 exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
 role: User
 TQID: https://experienceleague.adobe.com/pKXaX-DMxsFn9Y39AjqL1VGaSM--WFda9fuD7zJLgoI
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 390
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -40,7 +31,7 @@ Las exportaciones pueden fallar por varios motivos. En la tabla siguiente se des
 | Información de cuenta o ubicación no válidas | Asegúrese de que sus credenciales y otra información sean correctas para la cuenta y la ubicación de en la nube a la que está exportando. | [Configurar cuentas de exportación de nube](/help/components/exports/cloud-export-accounts.md) y [Configurar ubicaciones de exportación de nube](/help/components/exports/cloud-export-locations.md). |
 | Una dimensión o métrica del informe se ha eliminado de la vista de datos | Póngase en contacto con el administrador del sistema para ver qué componentes se eliminaron de la vista de datos. Es posible que tenga que utilizar una vista de datos diferente en la exportación o quitar componentes de la tabla que ya no estén disponibles. | [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md) |
 | Límite de fila excedido | Según el tipo de licencia, puede exportar un máximo de 3 millones, 30 millones, 150 millones o 300 millones de filas. Actualice la tabla que está exportando para reducir el número total de filas. | [Exportar informes de Customer Journey Analytics a la nube](/help/analysis-workspace/export/export-cloud.md) |
-| Caducidad de exportación programada | La exportación programada que configuró ha caducado. Actualice la caducidad de la exportación. | [Administrar exportaciones](/help/components/exports/manage-exports.md) |
+| Caducidad de exportación programada | La exportación programada que configuró ha caducado. Actualice la caducidad de la exportación. | [Administración de exportaciones](/help/components/exports/manage-exports.md) |
 | Dimension no compatible | <p>No se admite ninguna dimensión que cumpla todos los criterios siguientes en la exportación de tabla completa:</p> <ul><li>Se creó a partir de un campo que forma parte de una matriz de objetos</li><li>Tiene habilitada la persistencia<li>No utiliza una dimensión de enlace</li> | <ul><li>[Usar matrices de objetos](/help/use-cases/object-arrays.md)</li><li>[Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md)<li>[Usar dimensiones y métricas de enlace en Customer Journey Analytics](/help/use-cases/data-views/binding-dimensions-metrics.md)</li> |
 | Una directiva de gobernanza de datos que aplica su organización restringe la exportación de los componentes de la tabla | Póngase en contacto con el administrador del sistema para ver qué componentes están restringidos para no exportarse. Elimine los componentes restringidos antes de la exportación. | *Filtro en las políticas de control de datos en la sección de vistas de datos* en [Etiquetas y políticas](/help/data-views/data-governance.md) |
 

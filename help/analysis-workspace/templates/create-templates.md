@@ -5,21 +5,11 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
 TQID: https://experienceleague.adobe.com/xTwvC1oPjibPO1fMs1ig4CTqonTwEq20gY-FxlWgHSM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1888
@@ -166,23 +156,23 @@ Para agregar los componentes que faltan a una plantilla:
 
    * **Si está viendo plantillas en una vista de columna** ![icono de vista de columna](assets/column-view-icon.png):
 
-      1. Vaya a la plantilla que aún no esté lista para usar con la vista de datos y, a continuación, seleccione el icono de información junto al nombre de la plantilla.
+     1. Vaya a la plantilla que aún no esté lista para usar con la vista de datos y, a continuación, seleccione el icono de información junto al nombre de la plantilla.
 
-         ![Información de plantilla de la compañía](assets/company-template-info.png)
+        ![Información de plantilla de la compañía](assets/company-template-info.png)
 
-      1. Seleccione **[!UICONTROL Vista previa]**.
+     1. Seleccione **[!UICONTROL Vista previa]**.
 
-         ![Página de vista previa de la plantilla](assets/template-preview.png)
+        ![Página de vista previa de la plantilla](assets/template-preview.png)
 
    * **Si está viendo plantillas en una vista de tarjeta** ![icono de vista de tarjeta](assets/card-view-icon.png):
 
-      1. Busque la plantilla que aún no está lista para usar con la vista de datos.
+     1. Busque la plantilla que aún no está lista para usar con la vista de datos.
 
-         ![Vista de tarjeta de plantilla de la compañía](assets/company-template-cards.png)
+        ![Vista de tarjeta de plantilla de la compañía](assets/company-template-cards.png)
 
-      1. Pase el puntero por encima de la plantilla y seleccione **[!UICONTROL Vista previa]**.
+     1. Pase el puntero por encima de la plantilla y seleccione **[!UICONTROL Vista previa]**.
 
-         ![Página de vista previa de la plantilla](assets/template-preview.png)
+        ![Página de vista previa de la plantilla](assets/template-preview.png)
 
 1. En la sección **[!UICONTROL Componentes faltantes]**, se muestra una lista de los componentes que faltan en la vista de datos. Seleccione **[!UICONTROL Añada estos componentes a su vista de datos]**.
 

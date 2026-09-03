@@ -5,25 +5,14 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 TQID: https://experienceleague.adobe.com/4UiJUXEOGW3paTCi293AADuY1VYiu2egk0A4Oyv5uD8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 2809
+source-wordcount: 2812
 ht-degree: 41%
 
 ---
@@ -43,7 +32,7 @@ Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UI
 | [Experimentación](experimentation.md) | Compare diferentes variaciones de experiencias de usuario, marketing o mensajería para determinar cuál es la mejor manera de impulsar un resultado específico. |
 | [de forma libre](freeform-panel.md) | Realice comparaciones y desgloses ilimitados y, a continuación, añada visualizaciones para contar una historia de datos enriquecida. |
 | [Público medio por minuto de medios](average-minute-audience-panel.md) | Analizar público medio por minuto para un fragmento de contenido específico o durante un período de tiempo personalizado. |
-| [Espectadores simultáneos de medios &#x200B;](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
+| [Espectadores simultáneos de medios ](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
 | [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analice el tiempo invertido en la reproducción para comprender dónde se produce el pico de concurrencia o dónde se producen los descensos. |
 | [Elemento siguiente o anterior](next-previous.md) | Mostrar las páginas siguientes o anteriores a las que se dirigen los usuarios. |
 | [Información rápida](quickinsight.md) | Crea rápidamente una tabla de forma libre y una visualización complementaria para analizar y descubrir información de manera más rápida. |
@@ -106,7 +95,7 @@ Se administra un panel de las siguientes formas:
 
 ## Vista de datos
 
-Cada panel está asociado con una [vista de datos](/help/data-views/data-views.md). Puede identificar ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre de la vista de datos *]**&#x200B;en el menú desplegable situado en la parte superior derecha del panel.
+Cada panel está asociado con una [vista de datos](/help/data-views/data-views.md). Puede identificar ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre de la vista de datos *]**en el menú desplegable situado en la parte superior derecha del panel.
 
 Al crear un proyecto de Workspace en blanco, la vista de datos predeterminada para el panel inicial es la vista de datos en la que trabajaste por última vez en Customer Journey Analytics.
 
@@ -148,12 +137,12 @@ También puede seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú
 
      Puede seleccionar el texto entre corchetes (por ejemplo **[!UICONTROL inicio fijo - desplazamiento diario]**) para ampliar el panel y especificar detalles para **[!UICONTROL Inicio]** y **[!UICONTROL Fin]**.
 
-      1. Selecciona **[!UICONTROL Inicio de]**, **[!UICONTROL Fin de]** o **[!UICONTROL Día fijo]**.
-      1. Cuando hayas seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puedes generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL año actual]** **[!UICONTROL más]** `1` **[!UICONTROL día]**. Elige el valor apropiado para cada parte individual de la expresión.
-         * Selecciona valor para actual. Por ejemplo, **[!UICONTROL año actual]**.
-         * Selecciona un valor para realizar cálculos adicionales. Por ejemplo, **[!UICONTROL plus]**.
-         * Cuando haya especificado un cálculo adicional, especifique un valor. Por ejemplo, `1`.
-         * Cuando haya especificado un cálculo adicional, seleccione el período de tiempo que desea utilizar para el cálculo. Por ejemplo, **[!UICONTROL día]**.
+     1. Selecciona **[!UICONTROL Inicio de]**, **[!UICONTROL Fin de]** o **[!UICONTROL Día fijo]**.
+     1. Cuando hayas seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puedes generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL año actual]** **[!UICONTROL más]** `1` **[!UICONTROL día]**. Elige el valor apropiado para cada parte individual de la expresión.
+        * Selecciona valor para actual. Por ejemplo, **[!UICONTROL año actual]**.
+        * Selecciona un valor para realizar cálculos adicionales. Por ejemplo, **[!UICONTROL plus]**.
+        * Cuando haya especificado un cálculo adicional, especifique un valor. Por ejemplo, `1`.
+        * Cuando haya especificado un cálculo adicional, seleccione el período de tiempo que desea utilizar para el cálculo. Por ejemplo, **[!UICONTROL día]**.
 
      Selecciona **[!UICONTROL Ocultar detalles]** para ocultar los detalles del cálculo de fechas móviles.
 
@@ -184,14 +173,14 @@ Para añadir o reemplazar segmentos (rápidos) o desgloses:
    ![Agregar o reemplazar a la zona de colocación](assets/add-or-replace-to-drop-zone.png)
 
    * Suelte la selección para crear los siguientes componentes:
-      * [Segmento](#segment) para cualquier componente del segmento que suelte ❷.
-      * [Segmento rápido](#quick-segment) para cualquier componente que no sea de segmento (intervalos de fechas, métricas, dimensiones, elementos de dimensión) que suelte ❸.
+     * [Segmento](#segment) para cualquier componente del segmento que suelte ❷.
+     * [Segmento rápido](#quick-segment) para cualquier componente que no sea de segmento (intervalos de fechas, métricas, dimensiones, elementos de dimensión) que suelte ❸.
    * Suelte la selección **mientras mantiene** ⇧ (mayús.) para crear los siguientes componentes:
-      * Segmento estático [menú desplegable](#drop-down-menu) con elementos que filtrar para los segmentos seleccionados que suelte ❹.
-      * Segmento estático [menú desplegable](#drop-down-menu) con elementos que filtrar para los intervalos de fechas seleccionados que suelte ❺.
-      * Segmento estático [menú desplegable](#drop-down-menu) con elementos que filtrar para las métricas seleccionadas que suelte ❻.
-      * Segmento estático [menú desplegable](#drop-down-menu) o desglose [menú desplegable](#drop-down-menu) con elementos para filtrar o desglosar para la dimensión seleccionada *elementos* que suelte ❼.
-      * Segmento dinámico [menú desplegable](#drop-down-menu) o desglose [menú desplegable](#drop-down-menu) con elementos para filtrar o desglosar para las dimensiones seleccionadas en las que suelte ❽.
+     * Segmento estático [menú desplegable](#drop-down-menu) con elementos que filtrar para los segmentos seleccionados que suelte ❹.
+     * Segmento estático [menú desplegable](#drop-down-menu) con elementos que filtrar para los intervalos de fechas seleccionados que suelte ❺.
+     * Segmento estático [menú desplegable](#drop-down-menu) con elementos que filtrar para las métricas seleccionadas que suelte ❻.
+     * Segmento estático [menú desplegable](#drop-down-menu) o desglose [menú desplegable](#drop-down-menu) con elementos para filtrar o desglosar para la dimensión seleccionada *elementos* que suelte ❼.
+     * Segmento dinámico [menú desplegable](#drop-down-menu) o desglose [menú desplegable](#drop-down-menu) con elementos para filtrar o desglosar para las dimensiones seleccionadas en las que suelte ❽.
 
 
 ### Segmento
@@ -293,7 +282,7 @@ Puede administrar los componentes de la zona de colocación de la siguiente mane
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de filtros en Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de filtros en Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -301,7 +290,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de filtros e
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables dinámicos](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros desplegables dinámicos](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

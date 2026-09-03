@@ -7,22 +7,11 @@ feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 autotag-review: '2026-05-19T07:16:56.858Z'
 TQID: 'https://experienceleague.adobe.com/v5QCNZReBnq8uFMSUSJz1VBbzm2J8ztbr8mciozSY0E'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b4489fa2-c6d6-4934-a3a0-e7b4e196f986
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ae3aff40-b2f6-4df1-8c01-0b0720d1510fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b4489fa2-c6d6-4934-a3a0-e7b4e196f986
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 660
@@ -71,15 +60,15 @@ Los siguientes parámetros rigen el acceso a la función del Asistente de IA:
 * **Acceso contractual**: si no puede usar el Asistente de IA, póngase en contacto con el administrador de su organización o con su representante de cuentas de Adobe. Para que su organización pueda utilizar el Asistente de IA, su empresa debe aceptar determinados términos legales relacionados con GenAI.
 
 * **Permisos**: en [!UICONTROL Adobe Admin Console], el permiso de [!UICONTROL Herramientas del sistema de informes]: **[!UICONTROL Asistente de IA: conocimiento del producto]** determina el acceso a esta herramienta. El [administrador de perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html?lang=es) debe seguir estos pasos en [!UICONTROL Admin Console]:
-   1. Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos y servicios]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Perfiles de productos]**.
-   1. Seleccione el título del perfil de producto para el que desea proporcionar acceso al [!UICONTROL Asistente de IA: conocimiento del producto].
-   1. En el perfil de producto específico, seleccione **[!UICONTROL Permisos]**.
-   1. Seleccione ![Editar](/help/assets/icons/Edit.svg) para editar **[!UICONTROL Herramientas de creación de informes]**.
-   1. Seleccione ![AñadirCírculo](/help/assets/icons/AddCircle.svg) para añadir **Asistente de IA: conocimiento del producto** a **[!UICONTROL Elementos de permiso incluidos]**.
+  1. Vaya a **[!UICONTROL Admin Console]** > **[!UICONTROL Productos y servicios]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Perfiles de productos]**.
+  1. Seleccione el título del perfil de producto para el que desea proporcionar acceso al [!UICONTROL Asistente de IA: conocimiento del producto].
+  1. En el perfil de producto específico, seleccione **[!UICONTROL Permisos]**.
+  1. Seleccione ![Editar](/help/assets/icons/Edit.svg) para editar **[!UICONTROL Herramientas de creación de informes]**.
+  1. Seleccione ![AñadirCírculo](/help/assets/icons/AddCircle.svg) para añadir **Asistente de IA: conocimiento del producto** a **[!UICONTROL Elementos de permiso incluidos]**.
 
-      ![Añada el permiso](assets/ai-assistant-permissions.png).
+     ![Añada el permiso](assets/ai-assistant-permissions.png).
 
-   1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
+  1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
 Consulte [Control de acceso](/help/technotes/access-control.md#access-control) para obtener más información.
 

@@ -6,23 +6,15 @@ keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
 TQID: https://experienceleague.adobe.com/6cjieHRKJPeLix2qWLjI8GT5uZtdCRSbJmX7JCF2dtI
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 1266
-ht-degree: 97%
+source-wordcount: 1268
+ht-degree: 96%
 
 ---
 
@@ -44,7 +36,7 @@ El análisis ![Retención](/help/assets/icons/Retention.svg) **[!UICONTROL Reten
 
 En este análisis, el eje x del gráfico representa el tiempo desde el evento de inicio inicial de un usuario y el eje y representa el porcentaje de usuarios que participan en uno o más eventos de retorno. Puede ver tanto la retención como la cancelación en todas las duraciones, y las duraciones mostradas se pueden personalizar a través de la configuración de consulta. Debajo del gráfico, una tabla proporciona datos añadidos con la opción de mostrar cohortes individuales, que son un grupo de personas que realizaron el evento inicial en la misma fecha.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435781/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
 
 ## Casos de uso
 
@@ -66,16 +58,16 @@ El carril de consulta permite configurar los siguientes componentes:
 * **[!UICONTROL Evento de inicio]**: los criterios del evento en el que un usuario debe participar para optar a la inclusión en su análisis. Los usuarios que participan en el evento de inicio se contabilizan en la columna &quot;Usuarios&quot; de la tabla. Este evento sirve como denominador para las tasas de retención mostradas. Se admite un evento y se pueden aplicar filtros de propiedad según sea necesario. De forma predeterminada, los eventos de inicio y retorno están vinculados, lo que significa que un usuario debe realizar el evento seleccionado una vez para ser incluido en la cohorte y, a continuación, otra vez para ser contabilizado como usuario recurrente. En el menú Más, puede desvincular los eventos de inicio y retorno si desea que la acción de retorno sea diferente de la acción de inclusión.
 * **[!UICONTROL Eventos de retorno]**: los criterios del evento en el que un usuario debe participar para contabilizarse como usuario recurrente en los intervalos de duración. Puede seleccionar hasta tres eventos de retorno para comparar la retención.
 * **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen:
-   * **[!UICONTROL Métrica]**: muestre el número de [!UICONTROL usuarios] o el [!UICONTROL porcentaje de usuarios] retenidos. El denominador para el porcentaje de usuarios retenidos es el de los usuarios incluidos para la cohorte y es el mismo en todos los intervalos de duración.
-   * **[!UICONTROL Recurrente]**: le permite controlar cómo se contabilizan los usuarios recurrentes. Las opciones incluyen:
-      * **[!UICONTROL A partir de]**: a menudo denominada retención &quot;sin límite&quot;, esta opción contabiliza un usuario si regresa en la duración especificada o después de ella. Por ejemplo, el día 7 o en cualquier momento después del día 7. Esta opción es útil para mostrar cómo los usuarios siguen participando y, como resultado, genera una curva de retención más suave.
-      * **[!UICONTROL Exactamente el]**: a menudo denominada retención &quot;limitada&quot;, esta opción contabiliza a un usuario si regresa exactamente en la duración especificada. Por ejemplo, el día 7 exactamente. Esta opción es útil para mostrar cómo los usuarios regresan dentro de lapsos de tiempo específicos y genera una curva de retención con más ondulación como resultado. Nota: El análisis de cohorte en Analysis Workspace utiliza el recuento &quot;exactamente el&quot; como base para su análisis.
-   * **[!UICONTROL Cada]**: el período de tiempo que desea que tenga cada intervalo de duración. Las opciones incluyen:
-      * **[!UICONTROL Día/Semana/Mes]**: las opciones disponibles dependen del intervalo de fechas seleccionado. Estas opciones son idénticas a la configuración de **[!UICONTROL Intervalo]** cuando se selecciona el intervalo de fechas y actualiza esa configuración automáticamente.
-      * **[!UICONTROL Secciones personalizadas]**: esta opción solo está disponible para la configuración &quot;En cada&quot;. Permite contabilizar usuarios en un periodo de tiempo mayor; por ejemplo, del día 7 al 10, en lugar de solo el día 7.
-   * **[!UICONTROL Configuración de la duración]**: permite controlar los intervalos de duración que se muestran en el gráfico y la tabla. Una duración es el período de tiempo después del evento de inicio en el que se ha producido el evento de retorno. Nota: Los usuarios que cumplen los requisitos para los intervalos de duración se basan en el tiempo transcurrido, no en los días del calendario. Por ejemplo, si un usuario cumple los requisitos para un evento a las 11:55 p. m. del 6 de septiembre y luego cumple los requisitos para un evento de retorno a las 12:05 a. m. del 7 de septiembre, no aparecerá en el bloque de duración de 1 día. Deberán transcurrir 24 horas completas para que el usuario pueda optar al intervalo de duración de 1 día. Los intervalos de duración disponibles dependen del intervalo de fechas que establezca.
-      * **[!UICONTROL Duraciones automáticas]** define automáticamente los intervalos de duración en función de la longitud del intervalo de fechas y de la proximidad al día actual en que se encuentre el intervalo de fechas.
-      * **[!UICONTROL Duraciones personalizadas]** le permiten personalizar los intervalos de duración que se muestran en el gráfico y la tabla.
+  * **[!UICONTROL Métrica]**: muestre el número de [!UICONTROL usuarios] o el [!UICONTROL porcentaje de usuarios] retenidos. El denominador para el porcentaje de usuarios retenidos es el de los usuarios incluidos para la cohorte y es el mismo en todos los intervalos de duración.
+  * **[!UICONTROL Recurrente]**: le permite controlar cómo se contabilizan los usuarios recurrentes. Las opciones incluyen:
+    * **[!UICONTROL A partir de]**: a menudo denominada retención &quot;sin límite&quot;, esta opción contabiliza un usuario si regresa en la duración especificada o después de ella. Por ejemplo, el día 7 o en cualquier momento después del día 7. Esta opción es útil para mostrar cómo los usuarios siguen participando y, como resultado, genera una curva de retención más suave.
+    * **[!UICONTROL Exactamente el]**: a menudo denominada retención &quot;limitada&quot;, esta opción contabiliza a un usuario si regresa exactamente en la duración especificada. Por ejemplo, el día 7 exactamente. Esta opción es útil para mostrar cómo los usuarios regresan dentro de lapsos de tiempo específicos y genera una curva de retención con más ondulación como resultado. Nota: El análisis de cohorte en Analysis Workspace utiliza el recuento &quot;exactamente el&quot; como base para su análisis.
+  * **[!UICONTROL Cada]**: el período de tiempo que desea que tenga cada intervalo de duración. Las opciones incluyen:
+    * **[!UICONTROL Día/Semana/Mes]**: las opciones disponibles dependen del intervalo de fechas seleccionado. Estas opciones son idénticas a la configuración de **[!UICONTROL Intervalo]** cuando se selecciona el intervalo de fechas y actualiza esa configuración automáticamente.
+    * **[!UICONTROL Secciones personalizadas]**: esta opción solo está disponible para la configuración &quot;En cada&quot;. Permite contabilizar usuarios en un periodo de tiempo mayor; por ejemplo, del día 7 al 10, en lugar de solo el día 7.
+  * **[!UICONTROL Configuración de la duración]**: permite controlar los intervalos de duración que se muestran en el gráfico y la tabla. Una duración es el período de tiempo después del evento de inicio en el que se ha producido el evento de retorno. Nota: Los usuarios que cumplen los requisitos para los intervalos de duración se basan en el tiempo transcurrido, no en los días del calendario. Por ejemplo, si un usuario cumple los requisitos para un evento a las 23:55 del 6 de septiembre y luego cumple los requisitos para un evento de retorno a las 12:05 del 7 de septiembre, no aparecerá en el bloque de duración de 1 día. Deberán transcurrir 24 horas completas para que el usuario pueda optar al intervalo de duración de 1 día. Los intervalos de duración disponibles dependen del intervalo de fechas que establezca.
+    * **[!UICONTROL Duraciones automáticas]** define automáticamente los intervalos de duración en función de la longitud del intervalo de fechas y de la proximidad al día actual en que se encuentre el intervalo de fechas.
+    * **[!UICONTROL Duraciones personalizadas]** le permiten personalizar los intervalos de duración que se muestran en el gráfico y la tabla.
 * **[!UICONTROL Segmentos]**: los segmentos que desea medir. Cada segmento seleccionado añadir una fila a la tabla de cohorte. Se pueden incluir hasta tres segmentos.
 
 ### Configuración del gráfico

@@ -6,20 +6,14 @@ feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
 TQID: https://experienceleague.adobe.com/fFXssOZV4eb8Yo1cADhBgXXte-umE4i5CtYVleEVD1w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1395
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -119,7 +113,7 @@ Para editar una cuenta:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione la ficha [!UICONTROL **Cuentas de ubicación**].
+1. Seleccione la pestaña [!UICONTROL **Cuentas de ubicación**].
 
    ![Ventana de exportaciones que muestra la ficha Cuentas de ubicación](assets/account-add.png)
 
@@ -137,7 +131,7 @@ Para ver las claves asociadas a una cuenta de exportación:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione la ficha [!UICONTROL **Cuentas de ubicación**].
+1. Seleccione la pestaña [!UICONTROL **Cuentas de ubicación**].
 
    ![Ventana de exportaciones que muestra la ficha Cuentas de ubicación](assets/account-add.png)
 
@@ -149,7 +143,7 @@ Para ver las claves asociadas a una cuenta de exportación:
 
 1. En Customer Journey Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Exportaciones**].
 
-1. Seleccione la ficha [!UICONTROL **Cuentas de ubicación**].
+1. Seleccione la pestaña [!UICONTROL **Cuentas de ubicación**].
 
    ![Ventana de exportaciones que muestra la ficha Cuentas de ubicación](assets/account-add.png)
 

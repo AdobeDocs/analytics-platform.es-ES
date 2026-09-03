@@ -7,20 +7,11 @@ role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
 autotag-review: '2026-05-19T08:48:44.273Z'
 TQID: 'https://experienceleague.adobe.com/hE-nAiD8K4lHdZkC2YJpqpqfh2d3CY6tq4KiTJjEXs0'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
-  - id: cf731116-8803-4027-85aa-9c0a126e8321
-  - id: e0cfe18a-f68c-495b-bafc-f6bcc0392d6c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: bfef374d-acfd-4c57-bf74-a2b36053c545id: cf731116-8803-4027-85aa-9c0a126e8321id: e0cfe18a-f68c-495b-bafc-f6bcc0392d6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 521
@@ -34,10 +25,10 @@ Para admitir búsquedas basadas en personas en datos B2B (incluidas cuentas, opo
 
 Esta transformación solo está disponible para conjuntos de datos con datos para esquemas de búsqueda B2B, según las siguientes clases:
 
-* [Relación de persona de cuenta empresarial de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [Relación de persona de oportunidad empresarial de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [Miembros de lista de marketing empresarial de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [Miembros de campaña empresarial de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [Relación de persona de cuenta empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [Relación de persona de oportunidad empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [Miembros de lista de marketing empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [Miembros de campaña empresarial de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
@@ -61,8 +52,8 @@ Para habilitar la transformación para un conjunto de datos de búsqueda B2B:
 
 * Compruebe para cada conjunto de datos los valores sugeridos para **[!UICONTROL Key]** y **[!UICONTROL Matching key]**. Si cambia los valores de los valores sugeridos, verá una advertencia que le pedirá que continúe. Debe estar seguro de que:
 
-   * El valor que seleccionó para **Clave** se basa en el tipo de datos de ID de persona.
-   * El valor que seleccione para **Clave de coincidencia** se define como el campo de identidad principal para el conjunto de datos de evento.
+  * El valor que seleccionó para **Clave** se basa en el tipo de datos de ID de persona.
+  * El valor que seleccione para **Clave de coincidencia** se define como el campo de identidad principal para el conjunto de datos de evento.
 
 * Seleccione las opciones para importar nuevos datos y el relleno del conjunto de datos.
 

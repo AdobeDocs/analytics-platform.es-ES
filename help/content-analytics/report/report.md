@@ -6,26 +6,15 @@ feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
 workflow-type: tm+mt
-source-wordcount: 1215
-ht-degree: 51%
+source-wordcount: 1365
+ht-degree: 48%
 
 ---
 
@@ -125,41 +114,41 @@ Los cuatro paneles son:
 * **¿Qué contenido funciona mejor?**
 Este panel identifica qué experiencias y recursos impulsan la participación y la conversión. Las experiencias son páginas web completas capturadas en un momento específico o una combinación de texto, recursos y llamadas a la acción definidas dentro de una aplicación móvil.
 
-   * **Experiencias**.
+  * **Experiencias**.
 
-     >[!NOTE]
-     >
-     >Estas visualizaciones solo aparecen en la plantilla cuando ha configurado el sistema para [incluir experiencias](/help/content-analytics/config/guided.md#experience-capture-and-definition) en la configuración de Content Analytics.
-     > 
+    >[!NOTE]
+    >
+    >Estas visualizaciones solo aparecen en la plantilla cuando ha configurado el sistema para [incluir experiencias](/help/content-analytics/config/guided.md#experience-capture-and-definition) en la configuración de Content Analytics.
+    > 
 
-      * **Experience CTR**: una visualización de [cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) que muestra Experience CTR.
-      * **Experiencias de conversión principales**: Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra las experiencias de conversión principales en función de la métrica de conversión seleccionada.
-      * **Experiencias de mejor rendimiento**: Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (que incluye [miniaturas](#thumbnails) y [vistas previas](#previews)) para las experiencias de mejor rendimiento.
+    * **Experience CTR**: una visualización de [cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) que muestra Experience CTR.
+    * **Experiencias de conversión principales**: Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra las experiencias de conversión principales en función de la métrica de conversión seleccionada.
+    * **Experiencias de mejor rendimiento**: Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (que incluye [miniaturas](#thumbnails) y [vistas previas](#previews)) para las experiencias de mejor rendimiento.
 
-   * **Recursos**
+  * **Recursos**
 
-      * **Recurso CTR**
-Una visualización de [cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) que muestra el CTR del recurso.
-      * **Recursos de conversión principales**
-Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los recursos de conversión principales en función de la métrica de conversión seleccionada.
-      * **Recursos de mayor rendimiento**
-Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (que incluye [miniaturas](#thumbnails) y [vistas previas](#previews)) para los recursos de mayor rendimiento.
-Assets: vistas comparadas con la conversión.
-Una visualización [diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) que muestra un diagrama de dispersión de vistas de recursos en comparación con las conversiones de recursos.
+    * **Recurso CTR**
+      Una visualización de [cambio de resumen](/help/analysis-workspace/visualizations/summary-number-change.md) que muestra el CTR del recurso.
+    * **Recursos de conversión principales**
+      Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los recursos de conversión principales en función de la métrica de conversión seleccionada.
+    * **Recursos de mayor rendimiento**
+      Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (que incluye [miniaturas](#thumbnails) y [vistas previas](#previews)) para los recursos de mayor rendimiento.
+      Assets: vistas comparadas con la conversión.
+      Una visualización de [diagrama de dispersión](/help/analysis-workspace/visualizations/scatterplot.md) que muestra un diagrama de dispersión de vistas de recursos en comparación con las conversiones de recursos.
 
-* **¿Qué atributos de recursos contribuyen a las conversiones?**
+* **¿Qué atributos del recurso contribuyen a las conversiones?**
 Content Analytics utiliza IA y GenAI para asignar automáticamente metadatos y atributos, como temas, escenas y colores de primer plano, a cada recurso.
 
-   * **Atributos de recurso de conversión principales**
-Una [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los atributos de recursos que más se convierten en función de la métrica de conversión seleccionada.
-   * **Principales atributos de recursos de conversión frente a los 30 días anteriores**
-Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los principales atributos de recursos que se han convertido, en comparación con los 30 días anteriores, según la métrica de conversión seleccionada.
-   * **Datos de atributo de recursos de conversión principales**
-[tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra los atributos de conversión principales en función de la métrica de conversión seleccionada. Seleccione una fila de la tabla para actualizar la visualización de tendencias de atributo.
-   * **Tendencia de atributo**
-Una visualización de [línea](/help/analysis-workspace/visualizations/line.md) que muestra la tendencia de atributo para el atributo de recurso de conversión superior seleccionado.
-   * **Color de primer plano de recurso**
-Un ejemplo de [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que compara el rendimiento de elementos de una sola categoría de atributos de recursos: Colores de primer plano. Puede reemplazar este atributo de recurso con otras dimensiones de categoría de atributos de recurso.
+  * **Atributos de recurso de conversión principales**
+    Una [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los atributos de recursos que más se convierten en función de la métrica de conversión seleccionada.
+  * **Principales atributos de recursos de conversión frente a los 30 días anteriores**
+    Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los principales atributos de recursos que se han convertido, en comparación con los 30 días anteriores, según la métrica de conversión seleccionada.
+  * **Datos de atributo de recursos de conversión principales**
+    [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra los atributos de conversión principales en función de la métrica de conversión seleccionada. Seleccione una fila de la tabla para actualizar la visualización de tendencias de atributo.
+  * **Tendencia de atributo**
+    Una visualización de [línea](/help/analysis-workspace/visualizations/line.md) que muestra la tendencia de atributo para el atributo de recurso de conversión superior seleccionado.
+  * **Color de primer plano de recurso**
+    Un ejemplo de [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que compara el rendimiento de elementos de una sola categoría de atributos de recursos: Colores de primer plano. Puede reemplazar este atributo de recurso con otras dimensiones de categoría de atributos de recurso.
 
 * **¿Qué atributos de la experiencia contribuyen a la conversión?**
 
@@ -172,32 +161,32 @@ Un ejemplo de [tabla de forma libre](/help/analysis-workspace/visualizations/fre
 
   El panel consta de las siguientes visualizaciones:
 
-   * **Atributos de experiencia de conversión principales**
-Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los principales atributos de experiencia de conversión en función de la métrica de conversión seleccionada.
-Atributos de experiencia de conversión principales en comparación con los 30 días anteriores
-Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los principales atributos de experiencia de conversión, en comparación con los 30 días anteriores, en función de la métrica de conversión seleccionada.
-   * **Datos de atributos de experiencia de conversión principales**
-[tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra las experiencias de conversión principales en función de la métrica de conversión seleccionada. Seleccione una fila de la tabla para actualizar la visualización de Línea.
-   * **Línea**
-Una visualización de [línea](/help/analysis-workspace/visualizations/line.md) que muestra la tendencia del atributo de experiencia de conversión superior seleccionado.
-   * **Palabras clave de experiencia**
-Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra las palabras clave de experiencia principales en función de la métrica de conversión seleccionada.
+  * **Atributos de experiencia de conversión principales**
+    Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los principales atributos de experiencia de conversión en función de la métrica de conversión seleccionada.
+    Atributos de experiencia de conversión principales en comparación con los 30 días anteriores
+    Una visualización de [barra horizontal](/help/analysis-workspace/visualizations/horizontal-bar.md) que muestra los principales atributos de experiencia de conversión, en comparación con los 30 días anteriores, en función de la métrica de conversión seleccionada.
+  * **Datos de atributos de experiencia de conversión principales**
+    [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra las experiencias de conversión principales en función de la métrica de conversión seleccionada. Seleccione una fila de la tabla para actualizar la visualización de Línea.
+  * **Línea**
+    Una visualización de [línea](/help/analysis-workspace/visualizations/line.md) que muestra la tendencia del atributo de experiencia de conversión superior seleccionado.
+  * **Palabras clave de experiencia**
+    Una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra las palabras clave de experiencia principales en función de la métrica de conversión seleccionada.
 
 * **¿Dónde aparecen los recursos en mi sitio?**
 Esta tabla de forma libre detalla dónde aparecen los recursos más vistos. Utilice este análisis para identificar páginas de alto rendimiento y optimizar la ubicación de los recursos.
 
-   * **¿Dónde aparecen los recursos más vistos?**
-Puede desglosar cualquier recurso por dimensiones para comprender mejor dónde aparece esa imagen.
+  * **¿Dónde aparecen los recursos más vistos?**
+    Puede desglosar cualquier recurso por dimensiones para comprender mejor dónde aparece esa imagen.
 
-     En el ejemplo [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluidas [miniaturas](#thumbnails) y [vistas previas](#previews)), se usa **[!UICONTROL ID de percepción de recurso]** en lugar de [!UICONTROL ID de recurso]. A veces, la misma imagen se puede duplicar en el sitio con una dirección URL de imagen diferente. El atributo [!UICONTROL ID de percepción del recurso] ayuda a agrupar estos duplicados en un único ID.
+    En el ejemplo [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluidas [miniaturas](#thumbnails) y [vistas previas](#previews)), se usa **[!UICONTROL ID de percepción de recurso]** en lugar de [!UICONTROL ID de recurso]. A veces, la misma imagen se puede duplicar en el sitio con una dirección URL de imagen diferente. El atributo [!UICONTROL ID de percepción del recurso] ayuda a agrupar estos duplicados en un único ID.
 
-     Dado que los recursos pueden cambiar en una página, el sistema desglosa cada recurso en **[!UICONTROL Experience Id]** para identificar la versión de la página en la que apareció el recurso. Puede reemplazar [!UICONTROL ID de experiencia] por otras dimensiones que le ayuden a comprender la ubicación de un recurso en su sitio. Por ejemplo: [!UICONTROL Nombre de página], [!UICONTROL URL de página] o [!UICONTROL Sección del sitio].
+    Dado que los recursos pueden cambiar en una página, el sistema desglosa cada recurso en **[!UICONTROL Experience Id]** para identificar la versión de la página en la que apareció el recurso. Puede reemplazar [!UICONTROL ID de experiencia] por otras dimensiones que le ayuden a comprender la ubicación de un recurso en su sitio. Por ejemplo: [!UICONTROL Nombre de página], [!UICONTROL URL de página] o [!UICONTROL Sección del sitio].
 
-     También puede intercambiar [!UICONTROL ID de percepción de recursos] por [!UICONTROL ID de recursos] para obtener un registro de dónde se hace referencia a las URL de imágenes específicas.
+    También puede intercambiar [!UICONTROL ID de percepción de recursos] por [!UICONTROL ID de recursos] para obtener un registro de dónde se hace referencia a las URL de imágenes específicas.
 
 
 >[!MORELIKETHIS]
 >
 >[componentes de Content Analytics](components.md)
->[Usar plantillas](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>[Uso de plantillas](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >

@@ -6,16 +6,10 @@ feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
 TQID: https://experienceleague.adobe.com/VKMyO7uNXu1Gj5QpJMxPD7WRBs2mHSLBg5H4iTgMI6w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1675
@@ -168,8 +162,8 @@ Si el espacio es limitado para mostrar los filtros individuales, verá **[!UICON
 
 * Para quitar un filtro:
 
-   1. Utilice **[!UICONTROL *x *filtros]**![ChevronDown](/help/assets/icons/ChevronDown.svg) en la parte superior para abrir un menú contextual que enumere los tipos de filtros y los filtros individuales.
-   1. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un filtro.
+  1. Utilice **[!UICONTROL *x *filtros]**![ChevronDown](/help/assets/icons/ChevronDown.svg) en la parte superior para abrir un menú contextual que enumere los tipos de filtros y los filtros individuales.
+  1. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un filtro.
 
 
 <!--
@@ -185,16 +179,16 @@ The Projects page contains the following information:
 | [Edit preferences](/help/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
 | [Create folder](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
 | [Create project](/help/analysis-workspace/build-workspace-project/create-projects.md)  | Start a new project from scratch.  |
-|  Show more  |Reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=es), or [viewing release notes](/help/release-notes/latest.md).  |
+|  Show more  |Reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html), or [viewing release notes](/help/release-notes/latest.md).  |
 | Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 |  Customize table (icon)  | Allows you to customize the information that shows for each project on the Projects page.  |
 |  Name  | Name of the Workspace project.  |
-| Type | Indicates whether this is a Workspace Project, a folder, or a [Mobile Scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=es). |
+| Type | Indicates whether this is a Workspace Project, a folder, or a [Mobile Scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html). |
 |  Tags  |Tags that were applied to the project.  |
 | Scheduled | Indicates whether projects are scheduled to be emailed to recipients on a schedule. See [Send project data to others](/help/analysis-workspace/export/t-schedule-report.md). |
 | Shared link (anyone) | Projects can be shared with anyone--even with people who don't have access to Analysis Workspace. This column shows whether projects have been shared in this way. See [Share a project with anyone (no login required)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analysis-workspace/curate-share/share-projects.md) for more information. |
 | Data view | The data view that the project is associated with. |
-| [Project Role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) | Indicates your role for the project - owners, edit, duplicate, view. |
+| [Project Role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Indicates your role for the project - owners, edit, duplicate, view. |
 |  Owner  | The person who created this project (either you or someone who shared the project with you.)  |
 |  Shared with  | Users that the project has been shared with.  |
 |  Last Modified  | Date and time when the project was last modified.  |
@@ -217,7 +211,7 @@ Within a project, the menu provides options for managing your project, adding co
 |  Insert  | Insert new panels or visualizations from this menu. You can also insert new panels and visualizations from the left panel.  |
 |  [Components](/help/components/overview.md)  | Create new segments, calculated metric, date range, or alert components from your project. You can also create new components from the left panel. If your component definitions have recently changed, Refresh Components will retrieve the latest definitions. |
 |  [Share](/help/analysis-workspace/curate-share/send-schedule-files.md)  | Curate, share and schedule PDF/CSV projects to recipients in your organization.  |
-|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es). Manage the visibility of Workspace tips as well as the [debugger](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/apis/using-analysis-workspace-to-build-api-2-requests). Find details about Workspace and factors that impact project [performance](/help/technotes/optimizing-performance.md).  |
+|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Manage the visibility of Workspace tips as well as the [debugger](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/apis/using-analysis-workspace-to-build-api-2-requests). Find details about Workspace and factors that impact project [performance](/help/technotes/optimizing-performance.md).  |
 |  Share button or Owner  | If you are in an Own or Edit for the project, the Share button in the top-right gives you one-click access to manage your project recipients. If you are in a Duplicate or View role for the project, you will see the project owner's name. |
 
 ### Project Info & Settings {#info-settings}

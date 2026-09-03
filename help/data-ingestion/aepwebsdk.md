@@ -6,26 +6,11 @@ feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
 TQID: https://experienceleague.adobe.com/BuizkumbeMPhg7dWvJrFta3CYfQnqivOlXd2RtX9gm4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df28738e-9c71-4aa8-929e-edde22340cc6id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
 source-wordcount: 3523
@@ -67,7 +52,8 @@ Todos los datos ingeridos en Adobe Experience Platform deben cumplir un esquema 
 
 ### Configurar un esquema
 
-Desea rastrear algunos datos mínimos de los perfiles que visitan el sitio web como, por ejemplo, el nombre de la página o la identificación.Primero debe definir un esquema que modele estos datos.
+Desea rastrear algunos datos mínimos de los perfiles que visitan el sitio web como, por ejemplo, el nombre de la página o la identificación.
+Primero debe definir un esquema que modele estos datos.
 
 Para configurar el esquema:
 
@@ -297,7 +283,7 @@ Para crear y configurar la extensión del SDK web de Adobe Experience Platform, 
 
    Seleccione **[!UICONTROL Guardar]**.
 
-Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=es) para obtener más información.
+Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) para obtener más información.
 
 Web SDK incluye el servicio de identidad de Experience Platform, por lo que no es necesario agregar la extensión de etiqueta [!UICONTROL Experience Cloud ID Service] a la propiedad.
 
@@ -376,13 +362,13 @@ Para definir una regla, debe hacer lo siguiente:
 
    - En el cuadro de diálogo [!UICONTROL Configuración de evento], haga lo siguiente:
 
-      - Seleccione **[!UICONTROL Principal]** en la lista [!UICONTROL Extensión].
+     - Seleccione **[!UICONTROL Principal]** en la lista [!UICONTROL Extensión].
 
-      - Seleccione **[!UICONTROL Ventana cargada]** en la lista [!UICONTROL Tipo de evento].
+     - Seleccione **[!UICONTROL Ventana cargada]** en la lista [!UICONTROL Tipo de evento].
 
-        ![Regla - Configuración de evento](./assets/event-windowloaded-pageview.png)
+       ![Regla - Configuración de evento](./assets/event-windowloaded-pageview.png)
 
-      - Seleccione **[!UICONTROL Conservar cambios]**.
+     - Seleccione **[!UICONTROL Conservar cambios]**.
 
 
 
@@ -390,17 +376,17 @@ Para definir una regla, debe hacer lo siguiente:
 
    - En el cuadro de diálogo [!UICONTROL Configuración de acción], haga lo siguiente:
 
-      - Seleccione **[!UICONTROL SDK web de Adobe Experience Platform]** en la lista [!UICONTROL Extensión].
+     - Seleccione **[!UICONTROL SDK web de Adobe Experience Platform]** en la lista [!UICONTROL Extensión].
 
-      - Seleccione **[!UICONTROL Enviar evento]** en la lista [!UICONTROL Tipo de acción].
+     - Seleccione **[!UICONTROL Enviar evento]** en la lista [!UICONTROL Tipo de acción].
 
-      - Seleccione **[!UICONTROL web.webpagedetails.pageViews]** en la lista [!UICONTROL Tipo].
+     - Seleccione **[!UICONTROL web.webpagedetails.pageViews]** en la lista [!UICONTROL Tipo].
 
-      - Seleccione el icono de cilindro situado junto a [!UICONTROL Datos XDM] y seleccione **[!UICONTROL XDM - Vista de página]** en la lista de elementos de datos.
+     - Seleccione el icono de cilindro situado junto a [!UICONTROL Datos XDM] y seleccione **[!UICONTROL XDM - Vista de página]** en la lista de elementos de datos.
 
      ![Regla - Configuración de la acción](./assets/action-pageview-xdm.png)
 
-      - Seleccione **[!UICONTROL Conservar cambios]**.
+     - Seleccione **[!UICONTROL Conservar cambios]**.
 
    - La regla debe tener el siguiente aspecto:
 
@@ -511,11 +497,11 @@ Para crear la conexión:
 
    - Para cada conjunto de datos:
 
-      - Seleccione un [!UICONTROL ID de persona] entre las identidades disponibles de los esquemas del conjunto de datos en Adobe Experience Platform.
+     - Seleccione un [!UICONTROL ID de persona] entre las identidades disponibles de los esquemas del conjunto de datos en Adobe Experience Platform.
 
-      - Seleccione la fuente de datos correcta en la lista [!UICONTROL Tipo de fuente de datos]. Si especifica **[!UICONTROL Otro]**, agregue una descripción para la fuente de datos.
+     - Seleccione la fuente de datos correcta en la lista [!UICONTROL Tipo de fuente de datos]. Si especifica **[!UICONTROL Otro]**, agregue una descripción para la fuente de datos.
 
-      - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
+     - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
 
      ![Configurar conjuntos de datos](./assets/cja-connections-3b.png)
 

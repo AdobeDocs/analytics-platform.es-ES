@@ -6,23 +6,11 @@ role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
 TQID: https://experienceleague.adobe.com/Sb4kVGW3EHe85km5NDp-qWQu8MIeW5v2gwrYNTmNevY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b21c7889-c659-4a99-a779-de1bae57e47e
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b21c7889-c659-4a99-a779-de1bae57e47eid: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1849
@@ -104,7 +92,7 @@ Vea el vídeo para obtener más información acerca de la creación de historias
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para proyectos de cuadros de resultados móviles](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Historias de datos para proyectos de cuadros de resultados móviles](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -123,7 +111,7 @@ Para agregar nuevas diapositivas, pase el puntero por encima de una o haga clic 
    * Pulse el icono de duplicado para duplicar la diapositiva existente.
 1. Si crea una diapositiva en blanco, arrastre y suelte los componentes desde el carril izquierdo o elija un diseño para llenarla automáticamente con los datos del mosaico.
    ![Crear una historia de datos](assets/data-story2.png)
-Para eliminar una diapositiva, pulse el icono de papelera.
+   Para eliminar una diapositiva, pulse el icono de papelera.
 
 ### Personalización de una historia basada en datos {#customize-data-story}
 
@@ -135,7 +123,7 @@ Las historias basadas en datos le permiten personalizar todos los elementos para
 1. Cambie el título, el tipo de gráfico y otras opciones del mosaico.
 1. Arrastre un componente al mosaico.
    ![Crear una historia de datos](assets/data-story3.png)
-Al arrastrar y soltar un componente, como una visualización, en un mosaico, el componente se aplica a todas las diapositivas de la historia de datos.
+   Al arrastrar y soltar un componente, como una visualización, en un mosaico, el componente se aplica a todas las diapositivas de la historia de datos.
 1. Para aplicar un cambio solo al título, mantenga pulsada la tecla Mayús.
    ![Creación de una historia basada en datos](assets/data-story4.png)
 

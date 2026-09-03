@@ -6,18 +6,11 @@ feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
 TQID: https://experienceleague.adobe.com/xuzVDUksBsFfN8ZvuDhAuYSR7n30DKZJeNMTUskkG9w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2054
@@ -165,11 +158,11 @@ Cuando visualice la tabla, tenga en cuenta lo siguiente:
 
 * Puede buscar o filtrar la lista de conexiones:
 
-   * Utilice el campo de búsqueda para buscar una conexión específica. Empiece a escribir el nombre o ID de la conexión y la lista de actualizaciones de las conexiones se actualizará a medida que escriba.
+  * Utilice el campo de búsqueda para buscar una conexión específica. Empiece a escribir el nombre o ID de la conexión y la lista de actualizaciones de las conexiones se actualizará a medida que escriba.
 
-   * Seleccione el icono [!UICONTROL **Filtro**] ![icono Filtro](assets/filter-icon.png) para expandir la lista de opciones de filtro. Puede filtrar por [!UICONTROL **Estado**], [!UICONTROL **Complejidad**], [!UICONTROL **Aplicación**], [!UICONTROL **Usuario**] o [!UICONTROL **Proyecto**].
+  * Seleccione el icono [!UICONTROL **Filtro**] ![icono Filtro](assets/filter-icon.png) para expandir la lista de opciones de filtro. Puede filtrar por [!UICONTROL **Estado**], [!UICONTROL **Complejidad**], [!UICONTROL **Aplicación**], [!UICONTROL **Usuario**] o [!UICONTROL **Proyecto**].
 
-   * Puede seleccionar [!UICONTROL **Ocultar gráficos**] para mostrar solamente la tabla.
+  * Puede seleccionar [!UICONTROL **Ocultar gráficos**] para mostrar solamente la tabla.
 
 ![pestañas de la tabla](assets/report-activity-tabs.png)
 

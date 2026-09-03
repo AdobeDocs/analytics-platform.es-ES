@@ -5,16 +5,10 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 TQID: https://experienceleague.adobe.com/UqQ3US8EQKJxdsuZI8QMoFVFJpLvpJ4Th8vFafPDxIw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 3641
@@ -104,7 +98,7 @@ Devuelve el mayor valor en un conjunto de elementos de una dimensión para una c
 
 >[!TIP]
 >
->Use una instrucción [IF](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Máximo de columna***(Ingresos*), 1, 0) para resaltar el elemento de mayor rendimiento en el desglose.
+>Use una instrucción [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Máximo de columna***(Ingresos*), 1, 0) para resaltar el elemento de mayor rendimiento en el desglose.
 >
 
 ## Mínimo de columna {#column-minimum}
@@ -134,7 +128,7 @@ Devuelve el valor más pequeño en un conjunto de elementos de una dimensión pa
 
 >[!TIP]
 >
->Use una instrucción [IF](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Mínimo de columna***(Ingresos*), 1, 0) para resaltar el elemento con menor rendimiento en su desglose.
+>Use una instrucción [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Ingresos* = **Mínimo de columna***(Ingresos*), 1, 0) para resaltar el elemento con menor rendimiento en su desglose.
 >
 
 

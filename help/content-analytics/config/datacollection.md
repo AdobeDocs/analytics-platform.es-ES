@@ -6,18 +6,11 @@ feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
 TQID: https://experienceleague.adobe.com/B2j6BrXAHMu-3LKI61LbK01i-UdpMlELsqYSfAWYDCo
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 1093
@@ -35,13 +28,13 @@ Este artículo explica en detalle cómo Content Analytics recopila datos
 En el contexto de este artículo se utilizan las definiciones siguientes:
 
 * **Experiencia**:
-   * Para el canal **web**, una experiencia se define como el contenido de texto de una página web completa. Para la recopilación de datos, Content Analytics registra el Experience ID que se basa en la dirección URL de la página. Posteriormente, el texto de la página se captura mediante el servicio de recuperación.
-   * Para el canal **mobile**, se define y rastrea una experiencia en la aplicación móvil con la extensión Content Analytics para Adobe Experience Platform Mobile SDK.
+  * Para el canal **web**, una experiencia se define como el contenido de texto de una página web completa. Para la recopilación de datos, Content Analytics registra el Experience ID que se basa en la dirección URL de la página. Posteriormente, el texto de la página se captura mediante el servicio de recuperación.
+  * Para el canal **mobile**, se define y rastrea una experiencia en la aplicación móvil con la extensión Content Analytics para Adobe Experience Platform Mobile SDK.
 * **Experience ID**:
-   * Para el canal web, el ID de experiencia es una combinación única de la URL relevante (URL base más cualquier parámetro que dirija el contenido de la página) y [versión de experiencia](manual.md#versioning).
-      * Usted especifica, como parte de la [configuración](configuration.md), qué parámetros son relevantes para cualquier URL completa dada.
-      * Usted define un [identificador de versión](manual.md#versioning) para usar, de modo que recopile correctamente los cambios en sus experiencias.
-   * Para el canal **mobile**, el ID de experiencia es el valor devuelto por el uso de la llamada a la API `registerExperience`.
+  * Para el canal web, el ID de experiencia es una combinación única de la URL relevante (URL base más cualquier parámetro que dirija el contenido de la página) y [versión de experiencia](manual.md#versioning).
+    * Usted especifica, como parte de la [configuración](configuration.md), qué parámetros son relevantes para cualquier URL completa dada.
+    * Usted define un [identificador de versión](manual.md#versioning) para usar, de modo que recopile correctamente los cambios en sus experiencias.
+  * Para el canal **mobile**, el ID de experiencia es el valor devuelto por el uso de la llamada a la API `registerExperience`.
 * **Recurso**: Una imagen. Content Analytics registra la dirección URL del recurso.
 * **ID de recurso**: La dirección URL del recurso.
 * **URL relevante**: La URL base más cualquier parámetro que dirija el contenido de la página.
@@ -64,8 +57,8 @@ Esta sección detalla los eventos específicos de Content Analytics web. Consult
 Un evento de Content Analytics consta de:
 
 * Campos estándar
-   * Marca de tiempo
-   * Identidad
+  * Marca de tiempo
+  * Identidad
 * Vistas de experiencias (si las hay, y si están configuradas)
 * Clics en experiencias (si los hay y si están configurados)
 * Vistas de recursos (si las hay y si están configuradas)
@@ -107,11 +100,11 @@ Para reducir el número de solicitudes de red enviadas desde la página, Content
 
 * Web SDK o Adobe AppMeasurement envían un evento.
 * La visibilidad cambia a oculta, por ejemplo:
-   * La página se descarga
-   * Se cambia de pestaña
-   * Se minimiza el explorador
-   * Se cierra el explorador
-   * Se bloquea la pantalla
+  * La página se descarga
+  * Se cambia de pestaña
+  * Se minimiza el explorador
+  * Se cierra el explorador
+  * Se bloquea la pantalla
 * La dirección URL cambia, lo que da como resultado una dirección URL relevante modificada.
 * Las vistas de recursos registradas y listas para enviar superan las 32.
 
@@ -133,7 +126,7 @@ Content Analytics administra las identidades del canal web de la siguiente maner
 * No se admite la vinculación basada en campos porque el esquema es propiedad del sistema. Por lo tanto, no se puede añadir otro campo al esquema para admitir la vinculación basada en el campo
 
 
-Para asegurarse de que los datos de identidad de Content Analytics y los datos de identidad de Web SDK se vinculan correctamente en el nivel de campo, modifique la llamada de retorno de Web SDK [en antes del envío de evento](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}.
+Para asegurarse de que los datos de identidad de Content Analytics y los datos de identidad de Web SDK se vinculan correctamente en el nivel de campo, modifique la llamada de retorno de Web SDK [en antes del envío de evento](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}.
 
 1. Vaya a la propiedad **[!UICONTROL Etiquetas]** que contiene las extensiones del SDK web de Adobe Experience Platform y de Adobe Content Analytics.
 1. Seleccione ![Complemento](/help/assets/icons/Plug.svg) **[!UICONTROL Extensiones]**.

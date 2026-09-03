@@ -6,24 +6,11 @@ feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
 role: Admin
 TQID: https://experienceleague.adobe.com/aInqrIT7Z22NV6kkdJkydpPNEEP46Xbc4CQZxXzzcNk
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2447
@@ -128,7 +115,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identification-field-gaming.png)
 
-   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar los perfiles que están jugando con el ID de Experience Cloud y la dirección de correo electrónico que utilizan para iniciar sesión en la consola de juegos. Hay muchos otros atributos disponibles para rastrear la identificación de su persona.
+   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar los perfiles que están jugando a su juego mediante el Experience Cloud ID y la dirección de correo electrónico que utilizan para iniciar sesión en la consola de juegos. Hay muchos otros atributos disponibles para rastrear la identificación de su persona.
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -291,7 +278,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 En la solicitud POST de ejemplo, `{DATASTREAM_ID}` señala al identificador de la secuencia de datos de ejemplo que configuró anteriormente. `{sandbox}` es el nombre único de su zona protegida que identifica la ruta al grupo de campos Luz cegadora personalizada.
 
-Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=es) para obtener más información sobre cómo usar la API de servidor de Edge Network.
+Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) para obtener más información sobre cómo usar la API de servidor de Edge Network.
 
 ## Configurar una conexión
 
@@ -325,11 +312,11 @@ Para crear la conexión:
 
    - Para cada conjunto de datos:
 
-      - Seleccione un [!UICONTROL ID de persona] entre las identidades disponibles de los esquemas del conjunto de datos en Adobe Experience Platform.
+     - Seleccione un [!UICONTROL ID de persona] entre las identidades disponibles de los esquemas del conjunto de datos en Adobe Experience Platform.
 
-      - Seleccione la fuente de datos correcta en la lista [!UICONTROL Tipo de fuente de datos]. Si especifica **[!UICONTROL Otro]**, agregue una descripción para la fuente de datos.
+     - Seleccione la fuente de datos correcta en la lista [!UICONTROL Tipo de fuente de datos]. Si especifica **[!UICONTROL Otro]**, agregue una descripción para la fuente de datos.
 
-      - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
+     - Establezca **[!UICONTROL Importar todos los datos nuevos]** y **[!UICONTROL Datos existentes del relleno del conjunto de datos]** según sus preferencias.
 
    - Seleccione **[!UICONTROL Agregar conjuntos de datos]**.
 

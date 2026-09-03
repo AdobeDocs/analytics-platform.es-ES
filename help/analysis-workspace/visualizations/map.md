@@ -5,24 +5,11 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 TQID: https://experienceleague.adobe.com/HFEY-P7m7s0Mukkzw-vWL7I5-WHSncEppX-basxJHGw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2815
@@ -61,7 +48,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vea [Map](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vea [Map](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -225,21 +212,21 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
    * **Acercar**: puede acercar el mapa para ampliar ciertas áreas de cualquiera de las siguientes maneras:
 
-      * Haga doble clic en el mapa con el ratón.
+     * Haga doble clic en el mapa con el ratón.
 
-      * Utilice la rueda de desplazamiento del ratón o una acción similar en el panel táctil.
+     * Utilice la rueda de desplazamiento del ratón o una acción similar en el panel táctil.
 
-      * Seleccione el icono de signo + ![icono de ampliación](assets/map-zoomin-icon.png) en la visualización del mapa.
+     * Seleccione el icono de signo + ![icono de ampliación](assets/map-zoomin-icon.png) en la visualización del mapa.
 
      El mapa amplía en consecuencia. La dimensión requerida (país > estado > ciudad) se actualiza automáticamente, en función del nivel de zoom.
 
    * **Alejar**: puede alejar el mapa para ver áreas más grandes de cualquiera de las siguientes maneras:
 
-      * Mantenga pulsada la tecla Mayús y haga doble clic en el mapa con el ratón.
+     * Mantenga pulsada la tecla Mayús y haga doble clic en el mapa con el ratón.
 
-      * Utilice la rueda de desplazamiento del ratón o una acción similar en el panel táctil.
+     * Utilice la rueda de desplazamiento del ratón o una acción similar en el panel táctil.
 
-      * Seleccione el icono menos ![icono de alejar](assets/map-zoomout-icon.png) en la visualización del mapa.
+     * Seleccione el icono menos ![icono de alejar](assets/map-zoomout-icon.png) en la visualización del mapa.
 
      El mapa amplía en consecuencia. La dimensión requerida (país > estado > ciudad) se actualiza automáticamente, en función del nivel de zoom.
 
@@ -255,13 +242,13 @@ La visualización de mapas en Customer Journey Analytics difiere de la visualiza
 
    * **Mostrar comparaciones período tras período (por ejemplo, año tras año)**:
 
-      * Mostrar números negativos.
+     * Mostrar números negativos.
 
-        Por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
+       Por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
 
-      * En cuanto a las métricas que son de tipo *por ciento*, el clústering calcula la media total de los porcentajes.
+     * En cuanto a las métricas que son de tipo *por ciento*, el clústering calcula la media total de los porcentajes.
 
-      * El esquema de colores verde y rojo indica positivo y negativo.
+     * El esquema de colores verde y rojo indica positivo y negativo.
 
    * **Configuración de visualización adicional**: seleccione el icono Configuración ![Setting](/help/assets/icons/Setting.svg) en el encabezado de visualización para ver la configuración adicional para la visualización de mapas. Para obtener más información, consulte [Configurar opciones de visualización](#configure-visualization-settings).
 

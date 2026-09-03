@@ -4,23 +4,14 @@ title: Segmentos secuenciales
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
 TQID: https://experienceleague.adobe.com/TqLnqudV-SrIk7SdMT7dUeNBAwaa5FkoZocUkwrod6g
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 2491
+source-wordcount: 2496
 ht-degree: 4%
 
 ---
@@ -33,7 +24,7 @@ Puede crear segmentos secuenciales utilizando el operador lógico [!UICONTROL Th
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
@@ -47,8 +38,8 @@ Un segmento secuencial tiene [funcionalidad básica](#basics) y opciones adicion
 
 * Los datos que se van a [incluir](#include) como parte de la secuencia general para la definición del segmento. O para una secuencia definida como parte de un contenedor. De forma predeterminada, se tienen en cuenta todos los datos coincidentes. Esos datos son identificados por ![UserGroup](/help/assets/icons/UserGroup.svg) [!UICONTROL Incluir a todos].
 
-   * Seleccione ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** para tener en cuenta solamente los datos anteriores a la secuencia.
-   * Seleccione ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** para tener en cuenta solamente los datos después de la secuencia.
+  * Seleccione ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** para tener en cuenta solamente los datos anteriores a la secuencia.
+  * Seleccione ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** para tener en cuenta solamente los datos después de la secuencia.
 
 * Qué datos [excluir](#exclude) como parte de la definición del segmento secuencial.
 
@@ -106,7 +97,7 @@ Para aplicar restricciones de tiempo al operador **[!UICONTROL Then]**:
 1. Seleccione ![Reloj](/help/assets/icons/Clock.svg).
 1. Seleccione **[!UICONTROL En]** o **[!UICONTROL Después]** del menú contextual.
 1. Especifique un período de tiempo (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, hasta **[!UICONTROL Años]**).
-1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;para abrir una ventana emergente que le permita escribir o especificar un número con&#x200B;**[!UICONTROL -]**&#x200B;o&#x200B;**[!UICONTROL +]**.
+1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**para abrir una ventana emergente que le permita escribir o especificar un número con**[!UICONTROL -]**o**[!UICONTROL +]**.
 
 Para quitar una restricción de tiempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -129,7 +120,7 @@ Identifique a las personas que visitaron una página y luego otra página solo d
 
 ![Secuencia posterior](assets/sequence-after.png)
 
-Si el 1 de junio de 2024 a las 00:01 se produce una vista de página de la página principal, entonces cambie una vista de página a Mujer | Los zapatos coincidirán siempre y cuando la vista de esa página se produzca después del 15 de junio de 2024 00:01.
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 00:01 horas, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre y cuando la vista de esa página se produzca después del 15 de junio de 2024 a las 00:01.
 
 ##### Operador [!UICONTROL Within]
 
@@ -137,7 +128,7 @@ Identifique a las personas que visitaron una página y luego otra en un plazo de
 
 ![Secuencia en](assets/sequence-within.png)
 
-Si el 1 de junio de 2024 se produce una vista de página de la página principal a las 12:01, se abrirá una vista de página para la página principal | Los zapatos coincidirán siempre que la vista de esa página se produzca antes del 15 de junio de 2024 12:16.
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 12:01, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre y cuando esa vista de página se produzca antes del 15 de junio de 2024 a las 12:16.
 
 ##### [!UICONTROL Después de] pero [!UICONTROL Dentro de] operador
 
@@ -145,7 +136,7 @@ Identifique a las personas que visitaron una página y luego visitaron otra desp
 
 ![Secuencia posterior a pero dentro de](assets/sequence-afterbutwithin.png)
 
-Cualquier persona que acceda a la página de inicio el 1 de junio de 2024 y que vuelva a visitar a las mujeres | Página de zapatos después del 15 de junio de 2019 00:01, pero antes del 1 de julio de 2019 califica para el segmento.
+Cualquier persona que acceda a la página de inicio el 1 de junio de 2024 y que vuelva a visitar a las mujeres | Página de Zapatos después del 15 de junio de 2019 00:01, pero antes del 1 de julio de 2019 califican para el segmento.
 
 
 ### Restricciones de [!UICONTROL Event], [!UICONTROL Session] y [!UICONTROL Dimension]
