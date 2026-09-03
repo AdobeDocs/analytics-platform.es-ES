@@ -5,10 +5,15 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 TQID: https://experienceleague.adobe.com/SVEj1knpMzmtkIlwAYSb6o0PYBR9wf7JbrLMcMM2V8g
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 774
@@ -85,9 +90,9 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar los públicos seleccionados. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de público *]**, seleccione las etiquetas en el menú desplegable o escriba una o varias etiquetas nuevas. Seleccione**[!UICONTROL Guardar ]**para guardar. |
+| ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquetar los públicos seleccionados. En el cuadro de diálogo **[!UICONTROL Actualizar etiquetas: *nombre de público *]**, seleccione las etiquetas en el menú desplegable o escriba una o varias etiquetas nuevas. Seleccione&#x200B;**[!UICONTROL Guardar &#x200B;]**&#x200B;para guardar. |
 | ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar los públicos seleccionados. |
-| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre del público seleccionado. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de público *]**para cambiar el nombre del público y seleccione**[!UICONTROL Guardar ]**para guardar. |
+| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre del público seleccionado. Use el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de público *]**&#x200B;para cambiar el nombre del público y seleccione&#x200B;**[!UICONTROL Guardar &#x200B;]**&#x200B;para guardar. |
 
 Las siguientes acciones están disponibles en la barra de acciones azul al seleccionar uno o más proyectos programados.
 
