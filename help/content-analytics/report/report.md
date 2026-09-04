@@ -7,11 +7,22 @@ role: User
 hold: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
 workflow-type: tm+mt
 source-wordcount: 1642
@@ -200,7 +211,7 @@ Para utilizar la plantilla:
 
 1. Seleccione **[!UICONTROL Workspace]** en el menú principal.
 1. Asegúrese de que ha seleccionado una vista de datos configurada para Content Analytics.
-1. Busque o use segmentos (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**s) para buscar y seleccionar la plantilla de **[!UICONTROL Content Analytics de medios de pago]**.
+1. Busque o use segmentos (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**&#x200B;s) para buscar y seleccionar la plantilla de **[!UICONTROL Content Analytics de medios de pago]**.
 1. Seleccione **[!UICONTROL Usar plantilla]**.
 
 Se abre un proyecto de **[!UICONTROL Content Analytics - Datos de resumen de medios de pago]** en [Analysis Workspace](/help/analysis-workspace/home.md). El proyecto consiste en **[!UICONTROL Rendimiento de medios de pago]** [panel](/help/analysis-workspace/c-panels/panels.md), con [tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) y [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). Utilice el panel para revisar el alcance, la participación, el gasto y la eficacia de los medios de pago en redes, cuentas, campañas, experiencias y recursos. Las métricas y dimensiones del panel permanecen intencionadamente en el granulado de resumen de recursos de medios de pago; no combina conjuntos de datos de resumen con datos de evento.
