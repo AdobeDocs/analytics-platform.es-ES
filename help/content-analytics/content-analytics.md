@@ -4,30 +4,14 @@ description: Obtenga información acerca del valor y la terminología de Content
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
-hold: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 TQID: https://experienceleague.adobe.com/x5FpRmZ-Wv6pPxYBEAyDzRqUSUpmwHFwbi55FwVKT5A
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 1019
 ht-degree: 43%
@@ -49,7 +33,7 @@ Content Analytics proporciona valor en un nivel creciente:
 
 1. **Uso** de contenido: con Content Analytics obtiene información sobre qué recursos reciben impresiones y dónde reciben los recursos. Estas perspectivas le ayudan a ver si los recursos se infrautilizan o se utilizan en exceso en las propiedades web y móviles.
 1. **Participaciones** del contenido: Content Analytics puede proporcionar información sobre la participación, como la tasa promedio de clics entre recursos con determinados atributos. Esta información le ayuda a determinar si tipos específicos de experiencias siguen siendo eficaces.
-1. Recorridos de contenido: Además, cuando se combina con todos los demás datos disponibles en Experience Platform, puede obtener perspectivas adicionales sobre sus recorridos de contenido; por ejemplo, si el contenido específico conduce a conversiones, además de la participación. Por ejemplo, si un contenido específico genera conversiones, además de la participación. Y con ese conocimiento puede determinar el retorno de la inversión de los tipos de contenido.
+1. Contenido **recorridos**: además, cuando se combinan con todos los demás datos disponibles en Experience Platform, puede obtener información adicional sobre los recorridos de contenido; por ejemplo, si el contenido específico genera conversiones, además de la participación. Por ejemplo, si un contenido específico genera conversiones, además de la participación. Y con ese conocimiento puede determinar el retorno de la inversión de los tipos de contenido.
 1. **Personalización** del contenido: en última instancia, Content Analytics le permite actuar en función de sus informaciones y utilizar estas informaciones para determinar cómo gastar dinero en contenido. Por ejemplo, ¿debo enviar tipos de contenido específicos a públicos específicos? ¿Qué contenido me ofrece oportunidades de alta personalización?
 
 ## Terminología
@@ -104,6 +88,6 @@ Los datos de medios de pago se recopilan en conjuntos de datos diariamente desde
 >
 >Informes de [Content Analytics](report/report.md)
 >[Configuración de Content Analytics](config/configuration.md)
->[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722?profile.language=es)
+>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
 >
 
