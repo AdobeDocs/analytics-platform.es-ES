@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 3e9a9042bfe707971c4e37d319a23ab9bdc80075
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 1869
 ht-degree: 56%
@@ -38,8 +38,8 @@ Content Analytics añade las siguientes categorías de componentes (dimensiones,
 * [Metadatos del recurso](#asset-metadata)
 * [Atributos del recurso](#asset-attributes)
 * [Eventos del recurso](#asset-events)
-* [Medios de pago](#paid-media)
 * [Métricas calculadas](#calculated-metrics)
+* [Medios de pago](#paid-media)
 
 En las tablas siguientes, ![Generado por IA](/help/assets/icons/AI.svg) indica un par atributo/valor generado por IA/ML.
 
@@ -158,11 +158,23 @@ En las tablas siguientes, ![Generado por IA](/help/assets/icons/AI.svg) indica u
 {style="table-layout:fixed"}
 -->
 
+
+## Métricas calculadas
+
+| Título | Descripción | Tipo |
+|---|---|---|
+| Tasa de clics del recurso | Clics del recursos/Vistas del recurso | Métrica calculada |
+| Tasa de clics en la experiencia | Clics de la experiencias/Vistas de la experiencia | Métrica calculada |
+
+{style="table-layout:fixed"}
+
+
+
 ## Medios de pago
 
 Estos componentes se agregan a una vista de datos cuando el canal **Medios de pago** está habilitado a través de un conector de origen de [Adobe Experience Platform Medios de pago](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home) (por ejemplo, Meta Ads o Google Ads). Permiten informar sobre entidades de medios de pago, contenido creativo y gasto junto con el contenido web y móvil.
 
-Los **atributos de activos** y los **atributos de experiencia** generados por IA que se han descrito anteriormente también están disponibles para los creativos de medios de pago; la misma característica se ejecuta en los canales web, móvil y de medios de pago.
+Los [atributos de recursos](#asset-attributes) y [atributos de experiencia](#experience-attributes) generados por IA que se han descrito anteriormente también están disponibles para los creativos de medios de pago. La misma funcionalidad se ejecuta en los canales web, móvil y de medios de pago.
 
 ### Dimensiones de medios de pago
 
@@ -266,14 +278,3 @@ Los **atributos de activos** y los **atributos de experiencia** generados por IA
 | Valor de pedido promedio | Valor total del pedido dividido por compras. | Métrica calculada |
 
 {style="table-layout:fixed"}
-
-
-## Métricas calculadas
-
-| Título | Descripción | Tipo |
-|---|---|---|
-| Tasa de clics del recurso | Clics del recursos/Vistas del recurso | Métrica calculada |
-| Tasa de clics en la experiencia | Clics de la experiencias/Vistas de la experiencia | Métrica calculada |
-
-{style="table-layout:fixed"}
-

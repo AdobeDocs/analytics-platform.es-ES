@@ -22,10 +22,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
-source-wordcount: 1365
-ht-degree: 48%
+source-wordcount: 1643
+ht-degree: 41%
 
 ---
 
@@ -99,7 +99,11 @@ Verá los siguientes detalles.
 | **[!UICONTROL Atributos de experiencia]**: Los [atributos](/help/content-analytics/report/components.md#experience-attributes) de la experiencia. | **[!UICONTROL Atributos del recurso]**: Los [atributos](/help/content-analytics/report/components.md#asset-attributes) del recurso. |
 
 
-## Plantilla
+## Plantillas
+
+Content Analytics ofrece dos plantillas de proyecto en Workspace para crear rápidamente un proyecto.
+
+### Plantilla de Content Analytics
 
 Hay disponible una [plantilla](/help/analysis-workspace/templates/use-templates.md) de Content Analytics para ayudarle a saber qué contenido y atributos de contenido tienen el mejor rendimiento. La plantilla forma parte del [caso de uso del canal Web y la participación](/help/analysis-workspace/templates/use-templates.md#web-engagement), y detalla el rendimiento del contenido a nivel granular. Puede examinar el rendimiento de recursos individuales o atributos específicos.
 
@@ -195,6 +199,21 @@ Esta tabla de forma libre detalla dónde aparecen los recursos más vistos. Util
 
     También puede intercambiar [!UICONTROL ID de percepción de recursos] por [!UICONTROL ID de recursos] para obtener un registro de dónde se hace referencia a las URL de imágenes específicas.
 
+
+### Plantilla de Content Analytics de medios de pago
+
+Hay disponible una [plantilla](/help/analysis-workspace/templates/use-templates.md) de Content Analytics de medios de pago para ayudarle a saber qué contenido de medios de pago y atributos de contenido tienen el mejor rendimiento. La plantilla forma parte del [caso de uso de participación y canal web](/help/analysis-workspace/templates/use-templates.md#web-engagement) y le ayuda a comprender el rendimiento del contenido de medios de pago a nivel granular. Puede revisar el alcance, la participación, el gasto y la eficacia de los medios de pago en redes, cuentas, campañas, experiencias y recursos. Las métricas y dimensiones de este panel permanecen intencionadamente en el granulado de resumen de recursos de medios de pago. No combine conjuntos de datos de resumen de los paneles de esta plantilla con datos de evento.
+
+En función de lo que aprenda, puede hacer muchas cosas, como volver a centrarse en cómo gasta dinero en sus canales de medios de pago, gastar más dinero en campañas de bajo rendimiento o gastar más dinero en campañas con recursos de alto rendimiento.
+
+Para utilizar la plantilla:
+
+1. Seleccione **[!UICONTROL Workspace]** en el menú principal.
+1. Asegúrese de que ha seleccionado una vista de datos configurada para Content Analytics.
+1. Busque o use segmentos (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**&#x200B;s) para buscar y seleccionar la plantilla de **[!UICONTROL Content Analytics de medios de pago]**.
+1. Seleccione **[!UICONTROL Usar plantilla]**.
+
+Se abre un proyecto de **[!UICONTROL Content Analytics - Datos de resumen de medios de pago]** en [Analysis Workspace](/help/analysis-workspace/home.md). El proyecto consiste en **[!UICONTROL Rendimiento de medios de pago]** [panel](/help/analysis-workspace/c-panels/panels.md), con [tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) y [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). Utilice el panel para revisar el alcance, la participación, el gasto y la eficacia de los medios de pago en redes, cuentas, campañas, experiencias y recursos. Las métricas y dimensiones del panel permanecen intencionadamente en el granulado de resumen de recursos de medios de pago; no combina conjuntos de datos de resumen con datos de evento.
 
 >[!MORELIKETHIS]
 >

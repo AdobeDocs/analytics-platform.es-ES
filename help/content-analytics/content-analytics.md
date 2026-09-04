@@ -26,10 +26,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 55%
+source-wordcount: 1019
+ht-degree: 43%
 
 ---
 
@@ -48,7 +48,7 @@ Content Analytics proporciona valor en un nivel creciente:
 
 1. **Uso** de contenido: con Content Analytics obtiene información sobre qué recursos reciben impresiones y dónde reciben los recursos. Estas perspectivas le ayudan a ver si los recursos se infrautilizan o se utilizan en exceso en las propiedades web y móviles.
 1. **Participaciones** del contenido: Content Analytics puede proporcionar información sobre la participación, como la tasa promedio de clics entre recursos con determinados atributos. Esta información le ayuda a determinar si tipos específicos de experiencias siguen siendo eficaces.
-1. Recorridos de contenido: Además, cuando se combina con todos los demás datos disponibles en Experience Platform, puede obtener perspectivas adicionales sobre sus recorridos de contenido; por ejemplo, si el contenido específico conduce a conversiones, además de la participación. Por ejemplo, si un contenido específico genera conversiones, además de la participación. Y con ese conocimiento puede determinar el retorno de la inversión de los tipos de contenido.
+1. Contenido **recorridos**: además, cuando se combinan con todos los demás datos disponibles en Experience Platform, puede obtener información adicional sobre los recorridos de contenido; por ejemplo, si el contenido específico genera conversiones, además de la participación. Por ejemplo, si un contenido específico genera conversiones, además de la participación. Y con ese conocimiento puede determinar el retorno de la inversión de los tipos de contenido.
 1. **Personalización** del contenido: en última instancia, Content Analytics le permite actuar en función de sus informaciones y utilizar estas informaciones para determinar cómo gastar dinero en contenido. Por ejemplo, ¿debo enviar tipos de contenido específicos a públicos específicos? ¿Qué contenido me ofrece oportunidades de alta personalización?
 
 ## Terminología
@@ -63,13 +63,21 @@ Content Analytics utiliza los siguientes términos clave:
 
 ## Funcionamiento
 
-Content Analytics usa datos de vistas de imágenes móviles y web de conjuntos de datos de eventos de Experience Platform para [recopilar datos de eventos de contenido](config/datacollection.md). Estos eventos de experiencia de contenido requieren que los datos se recopilen con Experience Platform Edge Network (Web SDK, Mobile SDK, API de servidor). Los datos de comportamiento se pueden recopilar con Web SDK, Mobile SDK o el conector de Source de Analytics.
+Content Analytics usa datos de vista de imágenes móviles y web y datos de medios de pago de conjuntos de datos de eventos de Experience Platform para [recopilar datos de eventos de contenido](config/datacollection.md). Estos eventos de experiencia de contenido requieren que los datos se recopilen con Experience Platform Edge Network (Web SDK, Mobile SDK, API de servidor) o a través de conectores de origen de Experience Platform.
 
-![Content Analytics: funcionamiento](assets/aca-overview-new.gif)
+* Los datos de comportamiento se pueden recopilar con Web SDK, Mobile SDK o el conector de Source de Analytics.
+* Para los medios de pago, los datos de experiencia se reconstruyen a partir de las fuentes de datos de evento de medios de pago recopiladas en Experience Platform a través de los conectores de fuente de medios de pago disponibles.
+
+![Content Analytics: funcionamiento](assets/aca-overview-new-paid-media.gif)
+
 
 1. Cuando un usuario visita un sitio o una aplicación [configurados para Content Analytics](config/configuration.md), Experience Platform Web o Mobile SDK registra impresiones e interacciones con el contenido.
-1. El servicio de identidad y características procesa estas interacciones. Ese proceso consiste en un servicio de recuperación que vuelve a visitar las versiones públicas de las direcciones URL configuradas que definen las interacciones. Para todas estas direcciones URL recuperadas, el servicio de identidad identifica de forma exclusiva las experiencias y los recursos. Además, el servicio de personalización aplica servicios de IA/ML para descubrir experiencias, metadatos y atributos de recursos.
-1. Los resultados de estos servicios ([componentes, atributos e identidades](/help/content-analytics/report/components.md)) se utilizan para actualizar los conjuntos de datos específicos y pertinentes de Content Analytics en Experience Platform.
+Los datos de medios de pago se recopilan en conjuntos de datos diariamente desde los conectores de origen (a Google y Meta, por ejemplo). Content Analytics supervisa los [conjuntos de datos de medios de pago](config/configuration.md) configurados en busca de recursos y experiencias nuevos que no se han incluido en la función, y usa metadatos de conjuntos de datos de anuncios para componer Experience HTML. Esa experiencia de HTML se combina con los detalles del activo como una experiencia de medios de pago.
+
+1. El servicio de identidad y funcionalidad procesa estas interacciones (desde la web y el móvil) y experiencias (desde medios de pago). Ese proceso consiste en un servicio de recuperación que vuelve a consultar las versiones públicas de las direcciones URL configuradas que definen las interacciones y la HTML que define la experiencia. Para todas estas direcciones URL y HTML recuperadas, el servicio de identidad identifica de forma exclusiva las experiencias y los recursos. Además, el servicio de personalización aplica servicios de IA/ML para descubrir experiencias, metadatos y atributos de recursos.
+
+1. Los resultados de los servicios de identidad y características ([componentes, atributos e identidades](/help/content-analytics/report/components.md)) se utilizan para actualizar los conjuntos de datos específicos de Content Analytics relevantes en Experience Platform.
+
 1. Puede usar los datos de Content Analytics, junto con los datos de comportamiento y otros datos de búsqueda, en una configuración de Customer Journey Analytics ([Conexión](/help/connections/overview.md), [Vista de datos](/help/data-views/data-views.md) y [Workspace](/help/analysis-workspace/home.md)). Esa configuración proporciona la base para la información única a nivel de macro sobre el contenido. <br/>Puede comenzar rápidamente sus informes y análisis de Content Analytics usando la [plantilla de Content Analytics](/help/content-analytics/report/report.md#template).
 
 
