@@ -103,6 +103,6 @@ Los datos de medios de pago se recopilan en conjuntos de datos diariamente desde
 >
 >Informes de [Content Analytics](report/report.md)
 >[Configuración de Content Analytics](config/configuration.md)
->[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
+>[Cálculo de salidas hacia otro sitio y tasa de salidas hacia otro sitio en Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722?profile.language=es)
 >
 
