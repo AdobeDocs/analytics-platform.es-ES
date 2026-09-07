@@ -6,29 +6,21 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: ae08f7a010c6c8cdb262bd96e51c2b677a4cb70a
 workflow-type: tm+mt
-source-wordcount: 2116
-ht-degree: 15%
+source-wordcount: 2230
+ht-degree: 16%
 
 ---
 
 # Vinculación de persona a cuenta B2B
 
-La vinculación de persona a cuenta B2B enriquece los conjuntos de datos de evento con las identidades de cuenta y permite un análisis completo del recorrido completo del cliente en Customer Journey Analytics. Cuando los eventos carecen de un ID de cuenta, que Customer Journey Analytics B2B edition requiere para la ingesta, la vinculación de persona a cuenta deriva y agrega esa información automáticamente mediante un [conjunto de datos de asignación de persona a cuenta](#prerequisites) que usted proporcione.
+La vinculación de persona a cuenta B2B enriquece los conjuntos de datos de evento con las identidades de cuenta y permite un análisis completo del recorrido completo del cliente en Customer Journey Analytics. Cuando los eventos carecen de un ID de cuenta, que Customer Journey Analytics B2B edition requiere para la ingesta, la vinculación de persona a cuenta deriva y agrega esa información automáticamente mediante un [conjunto de datos de asignación de persona a cuenta](#prerequisites) que usted proporciona.
 
 Sin vinculación de persona a cuenta, los eventos que no contengan un ID de cuenta se perderán durante la ingesta. La vinculación de persona a cuenta resuelve esta limitación buscando la cuenta asociada con la persona en cada evento y agregando el ID de cuenta a medida que se incorpora el evento y de forma retroactiva.
 
@@ -39,7 +31,7 @@ Sin vinculación de persona a cuenta, los eventos que no contengan un ID de cuen
 La vinculación de persona a cuenta realiza las siguientes operaciones en los conjuntos de datos:
 
 * **Elevar la identidad de la persona**: de forma similar al [método de vinculación B2C](/help/stitching/overview.md), configurará un campo que contenga ID de persona persistentes. Con el gráfico de identidad, el ID de persona persistente de cada evento se eleva a un ID de persona desde el área de nombres del identificador de persona configurado.
-* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la información de identidad de cuenta. &#x200B;](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
+* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3} se usa para derivar y agregar la información de identidad de cuenta. ](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
 
 ## Cómo funciona la vinculación de persona a cuenta de B2B
 
@@ -52,7 +44,7 @@ En Customer Journey Analytics B2B edition, los eventos sin ID de cuenta en este 
 | Acción | Marca de tiempo | ID persistente | ID de cuenta | ID de persona | Tipo de evento |
 |:---:|--:|--|---|---|---|
 | ![Agregar datos](/help/assets/icons/DataAdd.svg) | 1/3/25 | 1234 | Adobe | matt@adobe.com | Page view |
-| ![FiltrarEliminar](/help/assets/icons/DeleteOutline.svg) | 1/3/25 | 5678 |  | | |
+| ![FiltrarEliminar](/help/assets/icons/DeleteOutline.svg) | 1/3/25 | 5678 |  |  | |
 | ![Agregar datos](/help/assets/icons/DataAdd.svg) | 3/4/25 | 9012 | Ubiquidad | cory@sky.com |  |
 | ![Agregar datos](/help/assets/icons/DataAdd.svg) | 3/7/25 | 4321 | Cielo | emily@sky.com | Centro de llamadas |
 | ![FiltrarEliminar](/help/assets/icons/DeleteOutline.svg) | 5/5/25 | 6106 | | carmen@adobe.com |  |
@@ -69,29 +61,31 @@ La vinculación de persona a cuenta de B2B evita que los eventos se ignoren y no
 
 +++ Detalles
 
-Para admitir la vinculación de persona a cuenta B2B, debe proporcionar una persona a un conjunto de datos de asignación de cuenta. Por ejemplo:
+Para admitir la vinculación de persona B2B a cuenta, al [configurar la vinculación B2B](#configure-b2b-person-to-account-stitching-settings), proporciona un área de nombres de identificador de persona principal (por ejemplo, Correo electrónico) y un conjunto de datos de asignación de persona a cuenta.
+El área de nombres del ID de persona del conjunto de datos de persona a cuenta puede ser la misma que la principal (correo electrónico), o bien puede diferir. En el siguiente ejemplo, se establece como ID de CRM (que deberá estar vinculado al correo electrónico en el gráfico de identidades).
 
 | ID de CRM | ID de cuenta |
 |---|---|
 | 12hsd123 | Adobe |
+| kr7812pq | Adobe |
 | f82jsd32 | Cielo |
 | hg2023m2 | Cielo |
 | b978bbw9 | Ubiquidad |
 | fs453ghi | Adobe |
 
-Ese conjunto de datos de asignación de persona a cuenta se eleva mediante la vinculación basada en gráficos. Por ejemplo, proporciona un correo electrónico como el área de nombres que debe utilizar. El resultado es un conjunto de datos de asignación de persona a cuenta actualizado con ID de persona elevados.
+Ese conjunto de datos de asignación de persona a cuenta se eleva mediante la vinculación basada en gráficos. Tenga en cuenta que esto sucede en el back-end y no se refleja en los datos reales del conjunto de datos.
+En este ejemplo, con vínculos de gráfico de identidad entre el ID de CRM y las áreas de nombres de correo electrónico, el resultado es una persona actualizada al conjunto de datos de asignación de cuentas con ID de persona elevados.
 
 | ID de CRM | ID de persona elevado | ID de cuenta |
 |---|---|---|
 | 12hsd123 | matt@adobe.com | Adobe |
+| kr7812pq | emily@adobe.com | Adobe |
 | f82jsd32 | emily@sky.com | Cielo |
 | hg2023m2 | cory@sky.com | Cielo |
 | b978bbw9 | cassidy@ubiquity.com | Ubiquidad |
 | fs453ghi | carmen@adobe.com | Adobe |
 
-La vinculación basada en gráficos también se utiliza para elevar los ID de persona en el conjunto de datos de evento de experiencia. Por ejemplo, vea el valor actualizado de **emily@adobe.com**.
-
-La vinculación basada en gráficos también se utiliza para elevar los ID de persona en el conjunto de datos de evento de experiencia. Por ejemplo, configure el campo de ID persistente (ECID) para que se utilice como ID de persona persistente cuando [habilite la vinculación en el conjunto de datos](#enable-b2b-person-to-account-stitching-on-event-datasets). En función de `5678` como valor de ECID y `emily@adobe.com` como valor de correo electrónico, `emily@adobe.com` se establece como ID de persona elevado en el evento relacionado.
+La vinculación basada en gráficos también se utiliza para elevar los ID de persona en el conjunto de datos de evento de experiencia. Por ejemplo, configure el campo de ID persistente (ECID) para que se utilice como ID de persona persistente cuando [habilite la vinculación en el conjunto de datos](#enable-b2b-person-to-account-stitching-on-event-datasets). En función del conjunto de datos de asignación de persona a cuenta elevado `emily@adobe.com`, se establece como ID de persona elevado en el evento relacionado.
 
 | Marca de tiempo | ID persistente | ID de cuenta original | ID de persona original | ID de persona elevado |
 |--|--|---|---|---|
@@ -110,12 +104,12 @@ La vinculación basada en gráficos también se utiliza para elevar los ID de pe
 
 +++ Detalles
 
-El conjunto de datos persona a cuenta se utiliza una vez más para elevar los ID de cuenta en el conjunto de datos de evento de experiencia. Por ejemplo, vea el valor agregado **Sky** para emily@sky.com y **Adobe** para carmen@adobe.com. Y el valor actualizado **Sky** (de Ubiquity) para cory@sky.com.
+El conjunto de datos persona a cuenta se utiliza una vez más para elevar los ID de cuenta en el conjunto de datos de evento de experiencia. Por ejemplo, vea el valor agregado **Sky** para emily@sky.com y **Adobe** para carmen@adobe.com y emily@adobe.com. Y el valor actualizado **Sky** (de Ubiquity) para cory@sky.com.
 
 | Marca de tiempo | ID persistente | ID de cuenta original | ID de persona original | ID de cuenta elevado | ID de persona elevado |
 |---|---|---|---|---|---|
 | 1/3/25 | 1234 | Adobe | matt@adobe.com | Adobe | matt@adobe.com |
-| 1/3/25 | 5678 | | | **Cielo** | **emily@sky.com** |
+| 1/3/25 | 5678 | | | **Adobe** | **emily@adobe.com** |
 | 3/4/25 | 9012 | Ubiquidad | cory@sky.com | **Cielo** | cory@sky.com |
 | 3/7/25 | 4321 | Cielo | emily@sky.com | Cielo | emily@sky.com |
 | 5/5/25 | 6106 | | carmen@adobe.com | **Adobe** | carmen@adobe.com |
@@ -126,7 +120,7 @@ El conjunto de datos persona a cuenta se utiliza una vez más para elevar los ID
 
 ### Resultado
 
-Este ejemplo muestra cómo la vinculación de persona a cuenta de B2B actualiza los datos de su evento de experiencia con identificadores de persona que falta o identificadores de cuenta que faltan o son incorrectos, en función del conjunto de datos de asignación de persona a cuenta que ha proporcionado como entrada.
+Este ejemplo muestra cómo la vinculación de cuenta de persona a persona B2B actualiza los datos de su evento de experiencia con identificadores de persona que falta o identificadores de cuenta que faltan o son incorrectos, en función del conjunto de datos de asignación de persona a cuenta que ha proporcionado como entrada.
 
 
 ## Requisitos previos
@@ -135,11 +129,11 @@ Antes de habilitar la vinculación de cuentas para B2B person, prepare los sigui
 
 | Conjunto de datos | Requerido | Descripción |
 |---|---|---|
-| **conjunto de datos persona a cuenta** | Requerido | Un conjunto de datos de búsqueda (registro, serie no temporal) que contiene como mínimo un ID de persona (con área de nombres) y un ID de cuenta. Estos ID se utilizan para derivar el mapa de relación persona a cuenta. |
+| **conjunto de datos de persona a cuenta** | Requerido | Un conjunto de datos de búsqueda (registro, serie no temporal) que contiene como mínimo un ID de persona (con área de nombres) y un ID de cuenta. Estos ID se utilizan para derivar la persona al mapa de relación de cuentas. |
 
 >[!IMPORTANT]
 >
->El campo de ID de persona en el conjunto de datos **[!UICONTROL persona a cuenta]** debe marcarse como identidad en el esquema.
+>El campo ID de persona del conjunto de datos persona a cuenta debe marcarse como identidad en el esquema.
 
 ## Habilitar vinculación de persona a cuenta {#enable-account-stitching}
 
@@ -175,7 +169,7 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
 >title="Hora de inicio"
->abstract="Seleccione un campo de marca de tiempo que indique cuándo se activó la relación persona a cuenta."
+>abstract="Seleccione un campo de marca de tiempo que indique cuándo se activó la relación entre la persona y la cuenta."
 
 
 >[!CONTEXTUALHELP]
@@ -211,8 +205,8 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
       | Campo | Requerido | Descripción |
       |---|:---:|---|
       | **[!UICONTROL Conjunto de datos de persona a cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione la búsqueda (registro o conjunto de datos de series no temporales) que asigna personas a las cuentas. |
-      | **[!UICONTROL ID de la persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de persona. Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL ID de cuenta]** o que el campo **[!UICONTROL Hora de inicio]**. |
-      | **[!UICONTROL ID de cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene el ID de cuenta. Ese campo no puede ser el mismo que el campo **[!UICONTROL ID de persona]** o que el campo **[!UICONTROL Hora de inicio]**. |
+      | **[!UICONTROL ID de la persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los ID de persona. El espacio de nombres de este campo puede ser diferente o ser el mismo que el espacio de nombres del identificador de persona seleccionado. Si difieren, los dos espacios de nombres deben vincularse en el gráfico de identidad.  Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL ID de cuenta]** o que el campo **[!UICONTROL Hora de inicio]**. |
+      | **[!UICONTROL ID de cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los valores de identificador de cuenta único. La información del ID de cuenta estará disponible en las filas de cualquier conjunto de datos de evento con la vinculación de persona a cuenta habilitada. Ese campo no puede ser el mismo que el campo **[!UICONTROL ID de persona]** o que el campo **[!UICONTROL Hora de inicio]**. |
       | **Hora de creación de la asignación** | | De forma opcional, seleccione el campo que representa la fecha y la hora en que se creó la asignación de persona a cuenta. Útil para situaciones en las que una persona cambia de cuenta varias veces con el paso del tiempo.<br/><br/>**Ejemplo** (cuando el campo **update_date** está seleccionado):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** antes del 1 de mayo de 2026: a@b.com está asignado a Apple.</li><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** el o después del 1 de mayo de 2026: a@b.com está asignado a Adobe.</li></ul>Cuando no se especifica ningún tiempo de asignación, se utiliza la primera cuenta lexicográfica. Este mismo algoritmo también se usa cuando dos nombres de cuenta diferentes tienen exactamente el mismo valor **[!UICONTROL update_date]** y se especifica una hora de creación de asignación. |
 
       >[!NOTE]
@@ -230,7 +224,7 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Habilitar vinculación de persona a cuenta"
 >abstract="Si se ha habilitado, este conjunto de datos utiliza la vinculación de persona a cuenta B2B. Los valores de **[!UICONTROL ID de persona persistente]** se elevarán a los del **[!UICONTROL área de nombres de identificador de persona]** configurado y, a continuación, se utilizarán para buscar el ID de cuenta en función del conjunto de datos de persona a cuenta.<br/>Si está deshabilitado, este conjunto de datos no utiliza la vinculación de persona a cuenta B2B y tendrá que seleccionar un **[!UICONTROL ID de cuenta]** necesario en su lugar."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
 
 Después de configurar la vinculación B2B en el nivel de conexión, debe habilitar la vinculación de cuentas de persona B2B individualmente para cada conjunto de datos de evento que desee vincular.
 
@@ -244,7 +238,7 @@ Después de configurar la vinculación B2B en el nivel de conexión, debe habili
 
 Cuando **[!UICONTROL Habilitar la vinculación de persona a cuenta]** es **el**, ha configurado la vinculación de persona B2B a cuenta para el conjunto de datos.
 
-* Se requiere la configuración de un ID de persona. Ese ID de persona se usa para buscar el ID de cuenta en función del [conjunto de datos persona a cuenta](#prerequisites).
+* Se requiere la configuración de un ID de persona. Ese ID de persona se usa para buscar el ID de cuenta en función del [conjunto de datos de persona a cuenta](#prerequisites).
 * La configuración de un ID de cuenta es opcional.
 
 ![Vinculación de persona B2B a cuenta en el conjunto de datos de evento el](../assets/b2b-event-dataset-stitching-on.png)
@@ -267,11 +261,11 @@ Una vez que haya configurado a la persona B2B para la configuración de vinculac
 
 >[!IMPORTANT]
 >
->Una vez guardada la conexión, la configuración de vinculación de persona B2B a cuenta se vuelve inmutable. Para ver la configuración después de guardar, selecciona **Abrir configuración de vinculación B2B**. Todos los campos aparecen en estado de solo lectura. Además, si el conjunto de datos usado para la asignación de [persona a cuenta](#prerequisites) se elimina en Experience Platform, la configuración de vinculación se elimina y la conexión pasa a un estado no válido, señalado con un mensaje de advertencia en la interfaz de usuario.
+>Una vez guardada la conexión, la configuración de vinculación de persona B2B a cuenta se vuelve inmutable. Para ver la configuración después de guardar, selecciona **Abrir configuración de vinculación B2B**. Todos los campos aparecen en estado de solo lectura. Además, si el conjunto de datos utilizado para la asignación de [persona a cuenta](#prerequisites) se elimina en Experience Platform, la configuración de vinculación se elimina y la conexión pasa a un estado no válido, señalado con un mensaje de advertencia en la interfaz de usuario.
 
 ## Programación de actualización de datos
 
-La vinculación de cuentas deriva el mapa de identidad de su [conjunto de datos persona a cuenta](#prerequisites) diariamente y utiliza esta información para actualizar los conjuntos de datos habilitados para vincular a corto y largo plazo en la siguiente programación:
+La vinculación de cuentas deriva el mapa de identidad de su [conjunto de datos de persona a cuenta](#prerequisites) diariamente y utiliza esta información para actualizar los conjuntos de datos habilitados para vincular a corto y largo plazo en la siguiente programación:
 
 | Reproducción | Frecuencia | Ventana Datos |
 |---|---|---|
