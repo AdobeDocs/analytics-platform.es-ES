@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ae08f7a010c6c8cdb262bd96e51c2b677a4cb70a
+source-git-commit: 4ab8bb6c0f68ae49128a2fe2a1eb9e87ccfa52a1
 workflow-type: tm+mt
-source-wordcount: 2230
-ht-degree: 16%
+source-wordcount: 2268
+ht-degree: 15%
 
 ---
 
@@ -69,7 +69,7 @@ La vinculación de persona a cuenta de B2B evita que los eventos se ignoren y no
 
 +++ Detalles
 
-Para admitir la vinculación de persona B2B a cuenta, al [configurar la vinculación B2B](#configure-b2b-person-to-account-stitching-settings), proporciona un área de nombres de identificador de persona principal (por ejemplo, Correo electrónico) y un conjunto de datos de asignación de persona a cuenta.
+Para admitir la vinculación de persona B2B a cuenta, al [configurar la vinculación B2B](#configure-b2b-stitching-settings), proporciona un área de nombres de identificador de persona principal (por ejemplo, Correo electrónico) y un conjunto de datos de asignación de persona a cuenta.
 El área de nombres del ID de persona del conjunto de datos de persona a cuenta puede ser la misma que la principal (correo electrónico), o bien puede diferir. En el siguiente ejemplo, se establece como ID de CRM (que deberá estar vinculado al correo electrónico en el gráfico de identidades).
 
 | ID de CRM | ID de cuenta |
@@ -93,7 +93,7 @@ En este ejemplo, con vínculos de gráfico de identidad entre el ID de CRM y las
 | b978bbw9 | cassidy@ubiquity.com | Ubiquidad |
 | fs453ghi | carmen@adobe.com | Adobe |
 
-La vinculación basada en gráficos también se utiliza para elevar los ID de persona en el conjunto de datos de evento de experiencia. Por ejemplo, configure el campo de ID persistente (ECID) para que se utilice como ID de persona persistente cuando [habilite la vinculación en el conjunto de datos](#enable-b2b-person-to-account-stitching-on-event-datasets). En función del conjunto de datos de asignación de persona a cuenta elevado `emily@adobe.com`, se establece como ID de persona elevado en el evento relacionado.
+La vinculación basada en gráficos también se utiliza para elevar los ID de persona en el conjunto de datos de evento de experiencia. Por ejemplo, configure el campo de ID persistente (ECID) para que se utilice como ID de persona persistente cuando [habilite la vinculación en el conjunto de datos](#enable-b2b-person-to-account-stitching-on-event-datasets). Suponiendo que `5678` (ID persistente) está vinculado a `emily@adobe.com` (ID de persona) en el gráfico de identidad, `emily@adobe.com` se establece como ID de persona elevado en el evento relacionado.
 
 | Marca de tiempo | ID persistente | ID de cuenta original | ID de persona original | ID de persona elevado |
 |--|--|---|---|---|
@@ -112,7 +112,7 @@ La vinculación basada en gráficos también se utiliza para elevar los ID de pe
 
 +++ Detalles
 
-El conjunto de datos persona a cuenta se utiliza una vez más para elevar los ID de cuenta en el conjunto de datos de evento de experiencia. Por ejemplo, vea el valor agregado **Sky** para emily@sky.com y **Adobe** para carmen@adobe.com y emily@adobe.com. Y el valor actualizado **Sky** (de Ubiquity) para cory@sky.com.
+El conjunto de datos persona a cuenta se utiliza para elevar los ID de cuenta en el conjunto de datos de evento de experiencia. Por ejemplo, vea el valor agregado **Adobe** para carmen@adobe.com y emily@adobe.com. Y el valor actualizado **Sky** (de Ubiquity) para cory@sky.com.
 
 | Marca de tiempo | ID persistente | ID de cuenta original | ID de persona original | ID de cuenta elevado | ID de persona elevado |
 |---|---|---|---|---|---|
@@ -128,7 +128,7 @@ El conjunto de datos persona a cuenta se utiliza una vez más para elevar los ID
 
 ### Resultado
 
-Este ejemplo muestra cómo la vinculación de cuenta de persona a persona B2B actualiza los datos de su evento de experiencia con identificadores de persona que falta o identificadores de cuenta que faltan o son incorrectos, en función del conjunto de datos de asignación de persona a cuenta que ha proporcionado como entrada.
+Este ejemplo muestra cómo la vinculación de cuenta de persona B2B actualiza los datos del evento de experiencia con identificadores de persona desaparecida e identificadores de cuenta incorrectos o que faltan, en función de los datos del gráfico de identidades y el conjunto de datos de asignación de persona a cuenta que ha proporcionado como entrada.
 
 
 ## Requisitos previos
@@ -246,8 +246,8 @@ Después de configurar la vinculación B2B en el nivel de conexión, debe habili
 
 Cuando **[!UICONTROL Habilitar la vinculación de persona a cuenta]** es **el**, ha configurado la vinculación de persona B2B a cuenta para el conjunto de datos.
 
-* Se requiere la configuración de un ID de persona. Ese ID de persona se usa para buscar el ID de cuenta en función del [conjunto de datos de persona a cuenta](#prerequisites).
-* La configuración de un ID de cuenta es opcional.
+* Se requiere la configuración de un ID de persona persistente. Ese ID de persona persistente se eleva al ID de persona del área de nombres del identificador de persona configurado anteriormente y, a continuación, se utiliza para buscar el ID de cuenta en función del conjunto de datos de [persona a cuenta](#prerequisites).
+* La configuración de un ID de cuenta es opcional. Esta configuración se utiliza como método de reserva siempre que la información del ID de cuenta relacionado no esté disponible en el conjunto de datos persona a cuenta.
 
 ![Vinculación de persona B2B a cuenta en el conjunto de datos de evento el](../assets/b2b-event-dataset-stitching-on.png)
 
