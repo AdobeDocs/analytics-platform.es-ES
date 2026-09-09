@@ -253,7 +253,7 @@ Cada artefacto muestra su estado, como [!UICONTROL **Listo**] o [!UICONTROL **No
 
 Los conjuntos de asignaciones determinan cómo se asignan las variables de Analytics a los campos de esquema XDM.
 
-Puede crear un nuevo conjunto de asignaciones [ durante el proceso de migración](#migrate-an-analytics-implementation-to-the-web-sdk). O bien, puede crear un conjunto de asignaciones independiente para utilizarlo con una migración futura o con otras tareas de migración.
+Puede crear un nuevo conjunto de asignaciones [&#x200B; durante el proceso de migración](#migrate-an-analytics-implementation-to-the-web-sdk). O bien, puede crear un conjunto de asignaciones independiente para utilizarlo con una migración futura o con otras tareas de migración.
 
 ### Creación de un conjunto de asignaciones independiente {#xdm-mapping}
 
