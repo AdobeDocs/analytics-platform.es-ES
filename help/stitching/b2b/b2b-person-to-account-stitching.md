@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4ab8bb6c0f68ae49128a2fe2a1eb9e87ccfa52a1
+source-git-commit: ac22a504d6182897438b3724d57c837ab2995f1b
 workflow-type: tm+mt
-source-wordcount: 2268
+source-wordcount: 2270
 ht-degree: 15%
 
 ---
@@ -213,8 +213,8 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
       | Campo | Requerido | Descripción |
       |---|:---:|---|
       | **[!UICONTROL Conjunto de datos de persona a cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione la búsqueda (registro o conjunto de datos de series no temporales) que asigna personas a las cuentas. |
-      | **[!UICONTROL ID de la persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los ID de persona. El espacio de nombres de este campo puede ser diferente o ser el mismo que el espacio de nombres del identificador de persona seleccionado. Si difieren, los dos espacios de nombres deben vincularse en el gráfico de identidad.  Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL ID de cuenta]** o que el campo **[!UICONTROL Hora de inicio]**. |
-      | **[!UICONTROL ID de cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los valores de identificador de cuenta único. La información del ID de cuenta estará disponible en las filas de cualquier conjunto de datos de evento con la vinculación de persona a cuenta habilitada. Ese campo no puede ser el mismo que el campo **[!UICONTROL ID de persona]** o que el campo **[!UICONTROL Hora de inicio]**. |
+      | **[!UICONTROL ID de la persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los ID de persona. El espacio de nombres de este campo puede ser diferente o ser el mismo que el espacio de nombres del identificador de persona seleccionado. Si difieren, los dos espacios de nombres deben vincularse en el gráfico de identidad.  Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL ID de cuenta]** o que el campo **[!UICONTROL Hora de creación de la asignación]**. |
+      | **[!UICONTROL ID de cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los valores de identificador de cuenta único. La información del ID de cuenta estará disponible en las filas de cualquier conjunto de datos de evento con la vinculación de persona a cuenta habilitada. Ese campo no puede ser el mismo que el campo **[!UICONTROL ID de persona]** o que el campo **[!UICONTROL Hora de creación de la asignación]**. |
       | **Hora de creación de la asignación** | | De forma opcional, seleccione el campo que representa la fecha y la hora en que se creó la asignación de persona a cuenta. Útil para situaciones en las que una persona cambia de cuenta varias veces con el paso del tiempo.<br/><br/>**Ejemplo** (cuando el campo **update_date** está seleccionado):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** antes del 1 de mayo de 2026: a@b.com está asignado a Apple.</li><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** el o después del 1 de mayo de 2026: a@b.com está asignado a Adobe.</li></ul>Cuando no se especifica ningún tiempo de asignación, se utiliza la primera cuenta lexicográfica. Este mismo algoritmo también se usa cuando dos nombres de cuenta diferentes tienen exactamente el mismo valor **[!UICONTROL update_date]** y se especifica una hora de creación de asignación. |
 
       >[!NOTE]
