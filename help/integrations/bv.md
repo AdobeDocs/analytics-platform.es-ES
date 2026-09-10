@@ -3,9 +3,9 @@ title: Integración de visibilidad de la marca
 description: Integración de Brand Visibility con Customer Journey Analytics
 feature: Experience Platform Integration
 role: User
-source-git-commit: e90a8d978f8d910f426dcb0fbf28881724d0f5a7
+source-git-commit: ab73c95a3ff0d57a4868d74266084a79c4c3721d
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2572'
 ht-degree: 2%
 
 ---
@@ -178,4 +178,4 @@ Este conjunto de datos captura únicamente el tráfico de bots de los registros 
 
 ## Integración saliente
 
-Por determinar.
+Para obtener información sobre la integración saliente, consulte [Integración de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"} en la documentación de visibilidad de marca de Adobe.
