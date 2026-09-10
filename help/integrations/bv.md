@@ -60,7 +60,7 @@ La segunda forma es un bot o agente que solicite sus páginas directamente. Esto
 El conector administrado por Visibilidad de la marca envía los datos a Experience Platform como un conjunto de datos de resumen. Para medirlo en Customer Journey Analytics, debe completar dos pasos de configuración:
 
 1. Cree una conexión que incluya el conjunto de datos de Brand Visibility. Consulte [Crear o editar una conexión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}.
-2. Cree una vista de datos sobre esa conexión. La vista de datos hace que las dimensiones y métricas siguientes estén disponibles en Analysis Workspace. Ver [Crear o editar una vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}.
+2. Cree una vista de datos sobre esa conexión. La vista de datos hace que las dimensiones y métricas siguientes estén disponibles en Analysis Workspace. Ver [Crear o editar una vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}.
 
 El conjunto de datos:
 
@@ -178,4 +178,4 @@ Este conjunto de datos captura únicamente el tráfico de bots de los registros 
 
 ## Integración saliente
 
-Para obtener información sobre la integración saliente, consulte [Integración de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"} en la documentación de visibilidad de marca de Adobe.
+Para obtener información sobre la integración saliente, consulte [Integración de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"} en la documentación de visibilidad de marca de Adobe.
