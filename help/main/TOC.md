@@ -2,10 +2,10 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 6b14b7df4c897c42c963fb93c48e7331b0264589
+source-git-commit: 2983f972813a84a141109c5d14c81394802f226c
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 91%
+source-wordcount: '1490'
+ht-degree: 90%
 
 ---
 
@@ -332,7 +332,7 @@ ht-degree: 91%
   + [Participación](../guided-analysis/types/engagement.md)
   + [Impacto del primer uso](../guided-analysis/types/first-use-impact.md)
   + [Frecuencia](../guided-analysis/types/frequency.md)
-  + [Canal](../guided-analysis/types/funnel.md)
+  + [Embudo](../guided-analysis/types/funnel.md)
   + [Crecimiento neto](../guided-analysis/types/net-growth.md)
   + [Impacto de la versión](../guided-analysis/types/release-impact.md)
   + [Retención](../guided-analysis/types/retention.md)
@@ -433,6 +433,7 @@ ht-degree: 91%
       + {hide-from-toc}[Asignar columnas](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
       + {hide-from-toc}[Crear una fuente de datos](/help/components/exports/cja-data-feeds/create-feed.md)
       + {hide-from-toc}[Segmentación en fuentes de datos](/help/components/exports/cja-data-feeds/df-segmentation.md)
+      + {hide-from-toc}[Usar campos derivados en fuentes de datos](/help/components/exports/cja-data-feeds/df-derived-fields.md)
   + Diccionario de datos {#data-dictionary}
     + [Información general](../components/data-dictionary/data-dictionary-overview.md)
     + [Visualización de información de componentes en el diccionario de datos](../components/data-dictionary/view-data-dictionary.md)
