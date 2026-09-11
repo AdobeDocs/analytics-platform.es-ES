@@ -4,32 +4,14 @@ description: Visualización de las notas de la última versión de Customer Jour
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8fb541eac63595c7d02561a1ca1768ab373c1ea4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 04accc9ba060da60916cf4c3bc66710f57f50cda
 workflow-type: tm+mt
-source-wordcount: 1261
+source-wordcount: 1263
 ht-degree: 20%
 
 ---
@@ -53,7 +35,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento de septiembre de 20
 | **Alertas por hora**<br/> Ahora puede establecer la granularidad horaria de una alerta en Por hora.<p>Las alertas horarias están destinadas a los datos que llegan en una hora determinada. Si los datos tienen una latencia superior a una hora, una granularidad más larga garantiza que la alerta evalúe los datos completos. Consulte con un ingeniero de datos si no está seguro de cuánto tiempo tardan los datos en llegar.</p>p>(vínculo de documentación a continuación).</p> | | Septiembre de 2026 |
 | **La entrega de alertas se ajusta estrictamente a la demora configurada**<br/> Las alertas se entregan ahora al final de la ventana de demora establecida, independientemente de si los datos se han completado o se siguen recibiendo para el intervalo de eventos especificado. Los datos que llegan después de la ventana de retraso no se incluyen en la alerta.<p>Anteriormente, las alertas incluían una comprobación de procesamiento en segundo plano que esperaba los datos que llegaban tarde, incluso si eso significaba que las alertas se entregaban después de la ventana de retraso configurada.</p>p>(vínculo de documentación a continuación).</p> | | Septiembre de 2026 |
 | **Integración de Adobe Brand Visibility**<br/> Conecte Adobe Brand Visibility con los datos de Customer Journey Analytics de su organización para que pueda medir cómo la detección impulsada por IA se traduce en participación real en el sitio web y resultados comerciales.<p>(Vínculo a la documentación a continuación).</p> | | Septiembre de 2026 |
-| **Nuevas aptitudes en CX Enterprise Coworker**<br> Nuevas aptitudes están llegando a Coworker, entre ellas:<ul><li><strong>Guías de implementación</strong>: convierta una breve conversación de contacto en un plan de implementación personalizado y con reconocimiento de dependencias, con exportaciones listas para usar a CSV, Jira, Workfront y Markdown.</li><li><strong>Lista de comprobación de implementación inteligente</strong>: convierta su conversación de contacto en un proyecto de implementación controlado y rastreable en Proyectos de compañeros de trabajo: una lista de comprobación ordenada de los pasos que puede asignar, supervisar y validar.</li><li><strong>Validación de datos</strong>: compruebe sus campos y conjuntos de datos directamente en Coworker para confirmar que está trabajando con datos precisos y de confianza (actualizado desde Adobe Agent Orchestrator v1).</li><li><strong>Validación de medios de streaming</strong>: valide los datos de medios de streaming en Coworker para confirmar que sean precisos y que estén listos para la generación de informes.</li></ul><p>(A continuación encontrará vínculos a la documentación).</p> | | 30 de septiembre de 2026 |
+| **Nuevas aptitudes para actualizar e implementar en CX Enterprise Coworker**<br> Ya llegan nuevas al equipo de trabajo. Estas habilidades ayudan a facilitar actualizaciones e implementaciones más sencillas y sencillas para Customer Journey Analytics:<ul><li>**Habilidades de guías de implementación**: genere una lista personalizada de pasos y recomendaciones de actualización o implementación. Las directrices de actualización e implementación se pueden transformar en un proyecto de colaboración mediante un manual predefinido.</li><li>**Aptitudes inteligentes en la lista de comprobación de la implementación y la actualización**: use el proyecto de compañeros para administrar y realizar un seguimiento del progreso de la implementación con respecto a la lista de comprobación de la implementación o la actualización adaptada, mantener el estado del proyecto, colaborar entre equipos, asignar tareas e introducir puertas de aprobación donde sea necesario.</li><li>**Habilidades de validación de datos**: compruebe que la implementación esté configurada correctamente y que esté alineada con las prácticas recomendadas.</li></ul><p>(A continuación encontrará vínculos a la documentación).</p> | | 30 de septiembre de 2026 |
 
 ### Correcciones en Customer Journey Analytics
 
