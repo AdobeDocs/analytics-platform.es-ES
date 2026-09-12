@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e2ec268ef4a2d84d51089e7b59b3df5b0ad6f48d
+source-git-commit: 18b3b42cafd437749041bc1d408e60e77b42e1fc
 workflow-type: tm+mt
-source-wordcount: 7019
+source-wordcount: 7045
 ht-degree: 98%
 
 ---
@@ -49,6 +49,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 |---|---|
+| **Septiembre de 2026** | |
+| Nuevas acciones de acceso directo de redimensionado | Los nuevos métodos abreviados de teclado en Analysis Workspace ahora le permiten [cambiar el tamaño de un panel o una visualización](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization) más ancha, más estrecha, más alta o más corta. |
 | **Agosto de 2026** | |
 | Se ha aclarado la información sobre la actualización de audiencias | Cuando [publicaron audiencias](/help/components/audiences/publish.md#audience-builder), aclaró que el número de audiencias que se pueden programar para actualizarse depende de sus derechos de Customer Journey Analytics y está entre 75 y 150. |
 | **Julio de 2026** | |
@@ -189,7 +191,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Técnicas estadísticas de pronóstico | Se ha añadido un artículo que describe las [técnicas estadísticas utilizadas en el servicio de pronóstico](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | Se ha añadido información que recomienda la exportación de tabla completa para dimensiones de alta cardinalidad | Se ha añadido una viñeta en [Prácticas recomendadas para dimensiones de alta cardinalidad](/help/components/dimensions/high-cardinality.md) para recomendar el uso de la exportación de tabla completa para dimensiones de alta cardinalidad. |
 | Se ha añadido documentación sobre Subtítulos inteligentes en cuadros de resultados móviles | Los [subtítulos inteligentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) pueden ayudar a los que no son analistas a dar un mayor sentido a sus datos sin la ayuda de analistas. |
-| Nueva documentación sobre las funciones de Adobe Product Analytics | <ul><li>[Matriz de características](/help/guided-analysis/types/funnel.md)</li><li>[Retención](/help/guided-analysis/types/retention.md) mejorada</li><li>[Perspectivas mejoradas en el canal](/help/guided-analysis/types/funnel.md)</li><li>Comparación de eventos dentro de un solo paso de canal</li></ul> |
+| Nueva documentación sobre las funciones de Adobe Product Analytics | <ul><li>[Matriz de características](/help/guided-analysis/types/funnel.md)</li><li>[Retención](/help/guided-analysis/types/retention.md) mejorada</li><li>[Perspectivas mejoradas en el embudo](/help/guided-analysis/types/funnel.md)</li><li>Comparación de eventos dentro de un solo paso de embudo</li></ul> |
 | **Marzo de 2024** | |
 | La información de uso relativa a la columna “Utilizado en” solo está disponible a partir de septiembre de 2023. | Se ha aclarado que la información de uso relativa a la columna **Utilizado en** en la [página de destino de proyectos](/help/getting-started/landing.md) solo se remonta hasta septiembre de 2023. |
 | Se ha añadido documentación sobre la mejora de los permisos para componentes de Workspace solo de proyecto | Si comparte un proyecto con otros usuarios, esos usuarios pueden editar [segmentos rápidos](/help/components/segments/seg-quick.md) y otros componentes solo de proyecto incrustados en el proyecto compartido. |
