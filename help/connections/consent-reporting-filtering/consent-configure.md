@@ -7,32 +7,38 @@ role: Admin
 hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
   - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 11%
-
+source-wordcount: '1326'
+ht-degree: 28%
 ---
-
-# Configuración de informes y filtros de consentimiento {#configure-consent-reporting}
+# Configurar informes y filtros de consentimiento {#configure-consent-reporting}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-consent-merge-policy"
 >title="Política de combinación"
->abstract="Las políticas de combinación combinan datos de perfil de varios conjuntos de datos con perfiles de cliente unificados utilizados para la creación de públicos. Seleccione la política de combinación que corresponde al conjunto de datos de perfil que contiene los datos de pertenencia a la política de consentimiento (el campo `consentPoliciesIDMap`) sobre el que desea informar. O bien, consulte con su equipo de datos para conocer qué públicos están asociados con cada política de combinación."
+>abstract="Las políticas de combinación combinan datos de perfil de varios conjuntos de datos con perfiles de cliente unificados utilizados para la creación de públicos. Seleccione la política de combinación que corresponde al conjunto de datos de perfil que contiene los datos de pertenencia de la política de consentimiento (el campo `consentPoliciesIDMap`) sobre el que desea informar. O bien, consulte con su equipo de datos para conocer qué públicos están asociados con cada política de combinación."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +56,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja-consent-person-id"
 >title="ID de persona"
->abstract="Seleccione un campo del esquema basado en modelos que represente el ID de persona. La selección se limita a la lista de campos del esquema que están marcados como &quot;Identidad&quot; y no tienen un área de nombres de identidad."
+>abstract="Seleccione un campo del esquema basado en el modelo que represente el ID de persona. La selección se limita a la lista de campos del esquema que están marcados como &#39;Identidad&#39; y no tienen un espacio de nombres de identidad."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -59,7 +65,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja-consent-identity-namespace"
 >title="Utilizar el espacio de nombres de identidad principal"
->abstract="Active esta opción si desea que Customer Journey Analytics encuentre la identidad en el mapa de identidad que está marcado con un atributo primary=true y utiliza esa identidad como ID de persona para esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. <br/>Si deja esta opción desactivada, seleccione un espacio de nombres en el campo Espacio de nombres de identidad a continuación. Customer Journey Analytics busca en el mapa de identidad de cada fila esta clave de espacio de nombres y utiliza la identidad bajo ese espacio de nombres como ID de persona de esa fila."
+>abstract="Active esta opción si desea que Customer Journey Analytics busque la identidad en el mapa de identidad que está marcada con un atributo primary=true y utilice esa identidad como el ID de persona de esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. <br/>Si deja esta opción desactivada, seleccione un espacio de nombres en el campo Espacio de nombres de identidad a continuación. Customer Journey Analytics busca en el mapa de identidad de cada fila esta clave de espacio de nombres y utiliza la identidad bajo ese espacio de nombres como ID de persona de esa fila."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -67,8 +73,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-reporting"
->title="Habilitar creación de informes"
->abstract="Active esta opción para utilizar Analysis Workspace para informar sobre los datos de consentimiento disponibles en la conexión. Las dimensiones y métricas de la política de consentimiento se añaden a las vistas de datos que seleccione."
+>title="Habilitar la creación de informes"
+>abstract="Active esta opción para utilizar Analysis Workspace con el fin de crear informes sobre los datos de consentimiento disponibles en su conexión. Las dimensiones y métricas de la política de consentimiento se añaden a las vistas de datos que seleccione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -76,8 +82,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-filtering"
->title="Habilitar filtrado"
->abstract="Active esta opción para excluir los datos de visitante sin consentimiento de la ingesta en Customer Journey Analytics. Cuando se habilita, los datos de un visitante se incorporan solamente si el visitante coincide con todas las directivas de consentimiento que se habilitan a continuación. <br>Esta opción está destinada a organizaciones con requisitos para excluir datos de visitantes que no consientan en el momento de la ingesta."
+>title="Habilitar los filtros"
+>abstract="Active esta opción para evitar que los datos de visitante que no hayan dado su consentimiento se incluyan en Customer Journey Analytics. Cuando está activada, los datos de un visitante solo se incorporan si el visitante cumple todas las políticas de consentimiento que se han habilitado a continuación. <br>Esta opción está destinada a organizaciones con requisitos para excluir datos de visitantes que no hayan dado su consentimiento en el momento de la ingesta."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -112,7 +118,7 @@ Para crear una configuración de filtrado y creación de informes de consentimie
 
    La creación de informes y el filtrado de consentimiento se aplican al nivel de conexión. Todas las vistas de datos de una conexión configurada heredan el mismo comportamiento.
 
-1. En el campo **[!UICONTROL ID de persona]**, seleccione un campo del esquema basado en modelos que represente el ID de persona. La selección se limita a la lista de campos del esquema que están marcados como &quot;Identidad&quot; y no tienen un área de nombres de identidad.
+1. En el campo **[!UICONTROL ID de persona]**, seleccione un campo del esquema basado en modelos que represente el ID de persona. La selección se limita a la lista de campos del esquema que están marcados como &#39;Identidad&#39; y no tienen un espacio de nombres de identidad.
 
 1. Elija si desea habilitar la creación de informes para los datos de consentimiento.
 
