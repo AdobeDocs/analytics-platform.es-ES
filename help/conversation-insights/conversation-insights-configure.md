@@ -1,22 +1,21 @@
 ---
-title: Configurar la configuración de perspectivas de conversación
+title: Crear O Editar Una Configuración De Perspectivas De Conversación
 description: Obtenga información sobre cómo configurar las configuraciones de Perspectivas de conversación.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 hold: true
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '638'
 ht-degree: 8%
 ---
-# Configurar las configuraciones de Perspectivas de conversación
+# Crear o editar una configuración
 
 
 Conversation Insights le permite analizar conversaciones (de modelos de lenguaje grande (LLM) o humanos) a escala y dar contexto a esas conversaciones dentro del recorrido completo del cliente. A través de Conversation Insights, puede comprender el impacto de los representantes en los resultados reales del usuario.
 
-
-## Crear o editar la configuración
+A través de la interfaz de configuración de Perspectivas de conversación puede crear o editar rápidamente una configuración y los artefactos asociados (conexión, vistas de datos, etc.).
 
 Cuando crea o edita una configuración de Perspectivas de conversación, especifica la zona protegida y los conjuntos de datos de evento que contienen preguntas, respuestas y datos de comentarios. También puede seleccionar la conexión de Customer Journey Analytics a la que desea agregar estos conjuntos de datos. Y la vista de datos a la que desee agregar las métricas y dimensiones de Perspectivas de conversación.
 
@@ -24,12 +23,12 @@ Solo los administradores del sistema pueden crear o editar configuraciones de Pe
 
 Puede crear o editar configuraciones desde la [interfaz de configuración de Perspectivas de conversación](./conversation-insights-manage.md).
 
-### Restaurar el conjunto de datos combinado que falta
+## Restaurar el conjunto de datos combinado que falta
 
 Si edita una configuración y el conjunto de datos mezclado que se ha generado para la configuración ya no existe, seleccione **[!UICONTROL Restaurar]** para regenerar el conjunto de datos mezclado.
 
 
-### Pasos de configuración
+## Pasos de configuración
 
 Para cada configuración:
 
