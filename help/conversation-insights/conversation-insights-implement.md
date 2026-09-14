@@ -19,7 +19,7 @@ Este artículo documenta los pasos de implementación necesarios.
 >[!PREREQUISITES]
 >
 >Debe tener un entorno de Experience Platform (organización y zona protegida) disponible para recopilar los datos.
-Su organización de Adobe debe estar habilitada para los grupos de campo de conversación y agéntico experimental.
+>Su organización de Adobe debe estar habilitada para los grupos de campo de conversación y agéntico experimental.
 
 ## Esquema y conjuntos de datos
 
