@@ -4,29 +4,37 @@ description: Obtenga información sobre cómo informar sobre la pertenencia a la
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
   - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
+    internal-label: Privacy
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: 1311
-ht-degree: 1%
-
+source-wordcount: '1311'
+ht-degree: 2%
 ---
-
 # Resumen de filtrado e informes de consentimiento
+
+{{release-limited-testing}}
 
 Los informes y filtros de consentimiento utilizan los datos de pertenencia a directivas de consentimiento almacenados en los conjuntos de datos de Perfil de Adobe Experience Platform para ayudarle a crear informes sobre el consentimiento del visitante. Además, puede optar por excluir a los visitantes que no consientan antes de que sus datos se incorporen en Customer Journey Analytics.
 
@@ -104,7 +112,7 @@ Tenga en cuenta lo siguiente al utilizar el filtrado de consentimiento:
 
 * Los datos de un visitante se incorporan solamente si el visitante coincide con **todas** las directivas de consentimiento aplicables. Si a un visitante le falta alguna política aplicable, se excluyen los datos de ese visitante.
 
-## Configuración de informes y filtros de consentimiento
+## Configurar informes y filtros de consentimiento
 
 Al configurar los informes y el filtrado de consentimiento, se selecciona la zona protegida y el conjunto de datos de perfil que contienen los datos de pertenencia a la directiva de consentimiento, se elige la conexión o las conexiones que se van a configurar y se elige si se filtran los datos de cada acción de marketing. A continuación, Customer Journey Analytics crea automáticamente el conjunto de datos de búsqueda de la política de consentimiento y los componentes de la política de consentimiento.
 
@@ -130,7 +138,7 @@ Se requieren las siguientes funciones de Customer Journey Analytics y permisos d
 |---------|----------|----------|
 | [Crear configuraciones de filtrado e informes de consentimiento](/help/connections/consent-reporting-filtering/consent-configure.md) | Administrador del sistema | <ul><li>Conjuntos de datos: leer, escribir</li><li>Esquemas: leer, escribir</li></ul> <p>Se requiere acceso de lectura para el conjunto de datos de perfil que contiene los datos de pertenencia a directivas de consentimiento. Se requiere acceso de escritura porque se crea un conjunto de datos de búsqueda de directivas de consentimiento y se mantiene sincronizado.</p> |
 | Ver componentes de política de consentimiento en la vista de datos | Administrador de perfil de producto para el perfil de producto al que está asignada la vista de datos <p>Para obtener más información, consulte [Control de acceso](/help/technotes/access-control.md).</p> | N/A |
-| Uso de componentes de política de consentimiento en Analysis Workspace | Acceso a una vista de datos donde se agregaron los componentes de la directiva de consentimiento | n/a |
+| [Usar componentes de directiva de consentimiento en Analysis Workspace](/help/connections/consent-reporting-filtering/consent-analyze.md#use-consent-policy-components-in-analysis-workspace) | Acceso a una vista de datos donde se agregaron los componentes de la directiva de consentimiento | n/a |
 
 ## Casos de uso de filtrado y creación de informes de consentimiento
 
