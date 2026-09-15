@@ -9,22 +9,26 @@ autotag-review: '2026-05-19T08:44:26.806Z'
 TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 4872f0078640fbd358a60a6d7baeb3ea575d3559
+    internal-label: Customer journeys
+source-git-commit: 555aef15933d87e5bbb3e3ec8b15d99a96ac25fe
 workflow-type: tm+mt
-source-wordcount: 1629
+source-wordcount: '1699'
 ht-degree: 0%
-
 ---
-
 # Comparación de fuentes de datos en Customer Journey Analytics y Adobe Analytics
 
 {{release-limited-testing}}
@@ -40,6 +44,8 @@ Para ver una comparación de las fuentes de datos con otros métodos de exportac
 Las siguientes funciones están disponibles en las fuentes de datos de Customer Journey Analytics, pero no están disponibles en las fuentes de datos de Adobe Analytics:
 
 * **Campos derivados**: Componentes personalizados creados a partir de transformaciones basadas en reglas que se pueden incluir en el esquema de la fuente de datos. <!-- add benefit -->
+
+* **Configuración de componentes**: la configuración de componentes de vista de datos, como la persistencia, la anulación de duplicación de métricas y la agrupación de valores, puede transformar el valor de un componente directamente en la salida de la fuente de datos, sin necesidad de SQL.
 
 * **Vinculación**: resolución de identidad entre dispositivos que vincula eventos entre dispositivos a una sola persona.
 
@@ -80,6 +86,7 @@ La siguiente tabla compara los conceptos clave y las opciones de configuración 
 | **Esquema**<br/> El esquema de la fuente de datos determina qué columnas están disponibles para incluirlas en una fuente de datos. | El esquema de fuente de datos se basa en la configuración de vista de datos.  Los componentes disponibles para incluir en el esquema de fuente de datos son un subconjunto de los componentes disponibles en la configuración de vista de datos. | Una lista estática predefinida de más de 1100 variables. Muchas columnas se exportan como **pares preprocesados y posprocesados** (por ejemplo, `eVar1` / `post_eVar1`), lo que representa gran parte del recuento de columnas. |
 | **Creador de fuentes de datos**<br/> La interfaz utilizada para configurar qué columnas se incluyen en una fuente de datos. | Utiliza un carril de componentes con el mismo nombre de dimensiones y métricas disponibles en la vista de datos, que coincide con la experiencia de Analysis Workspace. | Utiliza una lista plana de nombres de variables sin procesar (como `eVar1`, `prop5`) seleccionados de un conjunto predefinido de ~1,100+ columnas. Los componentes no se denominan ni se describen más allá de su identificador de variable. |
 | **Campos derivados**<br/> Componentes personalizados definidos mediante transformaciones basadas en reglas aplicadas en el tiempo del informe. | Compatible. Los componentes de campo derivados se pueden incluir en el esquema de fuente de datos junto con las dimensiones y métricas estándar. | No compatible. |
+| **Configuración de componentes**<br/> Configuración de componentes de vista de datos, como persistencia, anulación de duplicación de métricas y agrupamiento de valores, que transforman el valor de un componente en el momento del informe. | Compatible con la mayoría de configuraciones. Esta configuración se aplica a la salida de fuente de datos del mismo modo que se aplica en Analysis Workspace. | No compatible. |
 | **Actualizaciones de componentes**<br/> Si los cambios en la configuración de componentes se reflejan en los resultados de fuentes de datos pasadas y futuras. | Los cambios en los componentes de la vista de datos (como cambiar el nombre de una dimensión o eliminarla) se propagan a futuras fuentes de datos y también se reflejan en los rellenos. | Los cambios realizados en los componentes del grupo de informes se aplican únicamente a los datos que se recopilen en el futuro. |
 | **Búsquedas**<br/> Los conjuntos de datos de búsqueda de Customer Journey Analytics son el equivalente de las clasificaciones de Adobe Analytics. | Todas las búsquedas están incrustadas directamente en los datos. | Las clasificaciones no se incluyen en las fuentes de datos de Adobe Analytics. |
 | **Definición de sesión**<br/> Cómo se define el límite de una visita o sesión, lo cual afecta a la forma en que se agrupan y atribuyen los eventos. | Definido en la vista de datos. | Definido en el momento de la colección. |

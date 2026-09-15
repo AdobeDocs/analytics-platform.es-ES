@@ -1,5 +1,5 @@
 ---
-description: Descubra cómo el Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las métricas, las dimensiones, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Descubra cómo puede generar y guardar segmentos simples o complejos que identifican atributos y acciones de los visitantes a lo largo de las visitas y las visitas individuales a la página.
+description: Descubra cómo el Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las métricas, las dimensiones, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Descubra cómo puede generar y guardar segmentos simples o complejos que identifican atributos y acciones de los visitantes a lo largo de las visitas y los hits a la página.
 title: Generar segmentos
 feature: Filters, Segments
 role: User
@@ -7,23 +7,29 @@ exl-id: 160021f1-6942-4682-9114-d375307d9912
 TQID: https://experienceleague.adobe.com/MFqcgWkCqZbtbI58nF8boBZU3YzfcuAAsJxXbjBcT5E
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: e65b2ec10593c19ab056ecf72716a9267cfc0528
 workflow-type: tm+mt
-source-wordcount: 1932
-ht-degree: 71%
-
+source-wordcount: '1932'
+ht-degree: 73%
 ---
-
 # Generar segmentos {#build-segments}
 
 >[!CONTEXTUALHELP]
@@ -34,7 +40,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Previsualización de los datos"
->abstract="Compara datos de segmentos con datos de vistas de datos. El porcentaje de vista previa refleja el número total en la vista de datos de los **últimos 90 días**.<br><br/>Si la vista previa no se puede cargar, la conexión se está llenando."
+>abstract="Compara datos de segmentos con datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de los **últimos noventa días**.<br><br/>Si la vista previa no se puede cargar, significa que la conexión está reponiendo los datos."
 
 El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear segmentos nuevos o editar los existentes. El cuadro de diálogo se titula **[!UICONTROL Nuevo segmento]** o **[!UICONTROL Editar segmento]** para los segmentos que se creen o administren desde el administrador de [[!UICONTROL Segmentos]](/help/components/segments/seg-manage.md).
 

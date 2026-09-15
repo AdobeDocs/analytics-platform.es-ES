@@ -8,32 +8,46 @@ autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+    internal-label: Templates, Templates (CJA)
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: bac086b2636f835a5dc494b9cd05eb7b560f0bed
 workflow-type: tm+mt
-source-wordcount: 21458
+source-wordcount: '21458'
 ht-degree: 97%
-
 ---
-
 # Uso de plantillas
 
 Las plantillas (o plantillas de la compañía) de Analysis Workspace proporcionan información rápida de los escenarios más habituales de creación de informes. A continuación, se muestran algunos ejemplos de preguntas a las que se puede responder con las plantillas:
@@ -614,7 +628,7 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--dayssincelastpurchaserankedreport"
->title="Ver la cantidad de tiempo transcurrido entre la visita actual del visitante y su compra más reciente en ese momento."
+>title="Ver la cantidad de tiempo transcurrido entre el hit actual del visitante y su compra más reciente en ese momento."
 >abstract="**Esto puede ayudarle** a comprender mejor el comportamiento de los visitantes después de comprar algo en su sitio.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar el sitio para fomentar compras sucesivas.<br/>Esta plantilla usa la dimensión Días desde la última compra."
 
 >[!CONTEXTUALHELP]
@@ -637,8 +651,8 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="template--consentpolicyoverview"
->title="Vea los visitantes en función de los datos de pertenencia a directivas de consentimiento de Adobe Experience Platform."
->abstract="**Esto puede ayudarle** como punto de partida para la creación de informes sobre la pertenencia a directivas de consentimiento de visitantes. Cuando se configura una vista de datos para la creación de informes de consentimiento, Customer Journey Analytics pone automáticamente a disposición de Analysis Workspace una plantilla de análisis de política de consentimiento. <br/>**En función de lo que sepa, podría** hacer muchas cosas, como excluir de los informes de análisis a los visitantes que no consientan."
+>title="Vea los visitantes en función de los datos de pertenencia a la política de consentimiento de Adobe Experience Platform."
+>abstract="**Esto puede ayudarle** como punto de partida para la creación de informes sobre la pertenencia a la política de consentimiento de los visitantes. Cuando se configura una vista de datos para la creación de informes de consentimiento, Customer Journey Analytics pone automáticamente a disposición de Analysis Workspace una plantilla de análisis de la política de consentimiento. <br/>**En función de lo que aprenda, puede** hacer muchas cosas, como excluir a los visitantes que no tengan consentimiento a los informes de análisis."
 
 >[!CONTEXTUALHELP]
 >id="template--countrygeoreport"
@@ -690,7 +704,7 @@ Las plantillas disponibles son las siguientes:
 
 &#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Descripción general de la directiva de consentimiento**] | Vea los visitantes en función de los datos de pertenencia a directivas de consentimiento de Adobe Experience Platform.<p>**Esto puede ayudarle** como punto de partida para la creación de informes sobre la pertenencia a directivas de consentimiento de visitantes. Cuando se configura una vista de datos para la creación de informes de consentimiento, Customer Journey Analytics pone automáticamente a disposición de Analysis Workspace una plantilla de análisis de política de consentimiento. <br/>**En función de lo que sepa, podría** hacer muchas cosas, como excluir de los informes de análisis a los visitantes que no consientan.</p> |
+| [!UICONTROL **Descripción general de la directiva de consentimiento**] | Vea los visitantes en función de los datos de pertenencia a la política de consentimiento de Adobe Experience Platform.<p>**Esto puede ayudarle** como punto de partida para la creación de informes sobre la pertenencia a la política de consentimiento de los visitantes. Cuando se configura una vista de datos para la creación de informes de consentimiento, Customer Journey Analytics pone automáticamente a disposición de Analysis Workspace una plantilla de análisis de la política de consentimiento. <br/>**En función de lo que aprenda, puede** hacer muchas cosas, como excluir a los visitantes que no tengan consentimiento a los informes de análisis.</p> |
 | **[!UICONTROL Resumen de audiencia]** | Ver qué públicos se representan entre las personas que visitan el sitio.<p>**Esto puede ayudarle a** comprender mejor la información general sobre el público, dónde se originó (RTCDP, Customer Journey Analytics, etc.), su superposición y mucho más.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como usar los datos para centrarse en los esfuerzos de marketing para este público en concreto o crear experiencias adaptadas para los clientes que abarcan varios públicos.</p><p>Esta plantilla utiliza las dimensiones Nombre de audiencia, Origen de audiencia, Nombre de audiencia de salida y Origen de audiencia de salida.</p><p>Para obtener más información, consulte [Analizar audiencias de Experience Platform en Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> |
 | [!UICONTROL **Visitantes por primera vez frente a visitantes recurrentes**] | Ver una comparación de los visitantes nuevos que repiten visita. <p>**Esto puede ayudarle** a comprender mejor la eficacia de su sitio para conservar la lealtad de sus clientes o la velocidad a la que está adquiriendo nuevos clientes.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ofrecer incentivos para futuras compras a los visitantes nuevos con el fin de animarlos a que regresen.</p><!-- This template uses the --> |
 | **ID de la persona** | Ver el comportamiento de cada usuario en varios canales.<p>**Esto puede ayudarle** a comprender mejor el recorrido completo del cliente y las interacciones entre varios puntos de contacto.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como personalizar los esfuerzos de marketing para atender mejor las preferencias de los usuarios.</p><!-- This template uses the --> |
@@ -739,7 +753,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--firstouchchanneldetailrankedreport"
 >title="Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada)."
->abstract="**Esto puede ayudarle** a comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.<br/>Esta plantilla usa la dimensión Detalle de canal de primer toque."
+>abstract="**Esto puede ayudarle** a comprender qué contribuyó a que el hit coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.<br/>Esta plantilla usa la dimensión Detalle de canal de primer toque."
 
 >[!CONTEXTUALHELP]
 >id="template--campaignconversionreport"
@@ -813,9 +827,9 @@ Las plantillas disponibles son las siguientes:
 | --- | --- |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Informe de información general sobre los canales**] | Al utilizar la atribución personalizada, esta plantilla muestra cómo llegan los visitantes al sitio.<p>**Esto puede ayudarle** a entender mejor cuáles de sus canales de marketing son los más efectivos.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como invertir más en canales de marketing efectivos y desinvertir en canales de marketing menos eficaces.</p><p>Esta plantilla usa la dimensión ID (variables/canal de mercadotecnia) y la métrica Ingresos.</p> |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Canal de primer contacto**] | Consulte el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (de forma predeterminada, 30 días). <p>**Esto puede ayudarle** a comprender mejor qué canales de marketing dirigen el tráfico inicial a su sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Canal de primer contacto.</p> |
-| [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalle del canal de primer contacto**] | Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p>**Esto puede ayudarle** a comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Detalle de canal de primer contacto.</p> |
+| [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalle del canal de primer contacto**] | Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p>**Esto puede ayudarle** a comprender qué contribuyó a que el hit coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Detalle de canal de primer contacto.</p> |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Canal de último contacto**] | Ver el canal de marketing más reciente con el que un visitante coincide durante el período de participación de ese visitante (de forma predeterminada, 30 días).<p>**Esto puede ayudarle** a comprender mejor qué canales de marketing dirigen el tráfico inicial a su sitio y generan conversiones.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Canal de primer contacto.  </p> |
-| [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalle del canal de último contacto**] | Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p>**Esto puede ayudarle** a comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas. </p><p>Esta plantilla usa la dimensión Detalle del canal de último toque. </p> |
+| [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalle del canal de último contacto**] | Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p>**Esto puede ayudarle** a comprender qué contribuyó a que el hit coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas. </p><p>Esta plantilla usa la dimensión Detalle del canal de último toque. </p> |
 | [!UICONTROL **Campañas**] > [!UICONTROL **Código de seguimiento**] | Ver los nombres de los códigos de seguimiento en su sitio. Puede colocar vínculos con diferentes valores de parámetro de cadena de consulta en diferentes lugares de Internet.<p>**Estoi puede ayudarle** a conocer mejor qué vínculos fueron los más exitosos a la hora de impulsar el tráfico al sitio. Añadir cadenas de consulta de código de seguimiento es habitual en los correos electrónicos, anuncios de medios sociales y otros esfuerzos de marketing que utiliza su organización</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrar los esfuerzos de marketing en las campañas que generan la mayor cantidad de ingresos.</p><p>Esta plantilla utiliza la dimensión Código de seguimiento. </p> |
 | [!UICONTROL **Campañas**] > [!UICONTROL **Embudo de conversión de campaña**] | Ver la cantidad de clics y cierres de compra de sus campañas. <p>**Esto puede ayudarle** a comprender mejor cómo las campañas de marketing generan conversiones.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como determinar qué campañas de marketing generan el máximo retorno de la inversión.</p> |
 | [!UICONTROL **Campañas**] > [!UICONTROL **Rendimiento de la campaña**] | Ver detalles sobre el rendimiento de sus campañas de marketing.<p>**Esto puede ayudarle** a comprender mejor los distintos indicadores de éxito asociados con las campañas, como los ingresos, las vistas de productos, los pedidos, etc.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrar los esfuerzos de marketing en las campañas que generan la mayor cantidad de ingresos. </p><p>Esta plantilla usa las métricas Ingresos, Vistas del producto, Adiciones al carro de compras, Pedidos y Unidades. También utiliza la dimensión Código de seguimiento y Dominio de referencia. </p> |

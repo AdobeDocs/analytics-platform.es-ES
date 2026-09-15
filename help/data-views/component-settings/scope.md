@@ -8,17 +8,15 @@ hide: true
 source-git-commit: 9df4c8cff6c0c044902453e5fb8380fbb5c5ac2d
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 4%
-
+ht-degree: 18%
 ---
-
 
 # Configuración de componentes del ámbito {#scope-component-settings}
 
 >[!CONTEXTUALHELP]
 >id="dataview_component_metric_scope"
 >title="Ámbito"
->abstract="Determinar el ámbito de un componente cuando se utiliza en informes. Puede seleccionar entre basado en eventos, en perfiles o en totales."
+>abstract="Determine cómo se define el ámbito de un componente cuando se utiliza en los informes. Puede seleccionar entre basado en eventos, en perfiles o en totales."
 
 El ámbito de un componente de métrica determina cómo se utiliza el componente en los informes.
 

@@ -7,27 +7,36 @@ role: User
 TQID: https://experienceleague.adobe.com/BPbSzyh6eg3QC6NcAVgo06GAISzVH2CX35Z-Q32xMbE
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
-source-wordcount: 2520
-ht-degree: 93%
-
+source-wordcount: '2520'
+ht-degree: 96%
 ---
-
 # Creación y publicación de públicos {#create-and-publish-audiences}
 
 <!-- markdownlint-disable MD034 -->
@@ -35,7 +44,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="Frecuencia de actualización"
->abstract="Frecuencia con la que se vuelve a evaluar la pertenencia de una audiencia.<br/>Las solicitudes únicas se evalúan una sola vez y no se contabilizan en el límite de actualización."
+>abstract="Frecuencia con la que se reevalúa la pertenencia de un público.<br/>Las solicitudes únicas se evalúan una sola vez y no se contabilizan en el límite de actualización."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -43,8 +52,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
->title="Actualizar límite de audiencia"
->abstract="El número de audiencias del entorno que están configuradas para actualizarse automáticamente con una frecuencia programada. Los límites están entre 75 y 150, según sus derechos de Customer Journey Analytics. Las solicitudes únicas no se contabilizan en este límite."
+>title="Actualizar límite de público"
+>abstract="El número de públicos de su entorno que están configurados para actualizarse automáticamente con una frecuencia programada. Los límites oscilan entre 75 y 150, en función de los derechos de acceso a Customer Journey Analytics que tenga. Las solicitudes únicas no se contabilizan en este límite."
 
 <!-- markdownlint-enable MD034 -->
 

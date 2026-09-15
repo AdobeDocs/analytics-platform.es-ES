@@ -7,28 +7,38 @@ exl-id: 53984934-6fba-4f15-aeeb-d91039260553
 TQID: https://experienceleague.adobe.com/pC3wjv6Q7RHRfDfHq75CP2Lqd-HzN-s7iLZ9t4N4ZR0
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: aff2ef09-fc60-4018-9197-e2befd623064
+    internal-label: Anomaly detection, Anomaly detection (CJA)
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 397c62d5090deede87a7ce31129b6afe6c9351ee
 workflow-type: tm+mt
-source-wordcount: 7316
-ht-degree: 79%
-
+source-wordcount: '7316'
+ht-degree: 83%
 ---
-
 # Configuración de una visualización de lienzo de recorrido
 
 La visualización de lienzo de recorrido le permite analizar y obtener información detallada sobre los recorridos que proporciona a sus usuarios y clientes.
@@ -102,7 +112,7 @@ Consulte [Información general sobre el lienzo de recorrido](/help/analysis-work
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_arrow_settings"
 >title="Configuración de flecha"
->abstract="Elija si desea mostrar u ocultar las etiquetas en el lienzo. Las etiquetas son nombres personalizados creados dentro del lienzo de Recorrido."
+>abstract="Elija si desea mostrar u ocultar las etiquetas en el lienzo. Las etiquetas son nombres personalizados creados dentro del lienzo del recorrido."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -111,7 +121,7 @@ Consulte [Información general sobre el lienzo de recorrido](/help/analysis-work
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_arrow_settings_ajo"
 >title="Configuración de flecha"
->abstract="Elija si desea mostrar u ocultar etiquetas y valores en el lienzo. Las etiquetas pueden ser nombres personalizados creados dentro del lienzo de Recorrido o pueden ser etiquetas o condiciones creadas en Journey Optimizer. Los valores son números y porcentajes que indican las personas o sesiones que se movieron de un nodo al siguiente en el recorrido. "
+>abstract="Elija si desea mostrar u ocultar etiquetas y valores en el lienzo. Las etiquetas pueden ser nombres personalizados creados dentro del lienzo del recorrido o pueden ser etiquetas o condiciones creadas en Journey Optimizer. Los valores son los números y porcentajes que aparecen en las flechas e indican las personas o sesiones que se movieron de un nodo al siguiente en el recorrido. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -120,7 +130,7 @@ Consulte [Información general sobre el lienzo de recorrido](/help/analysis-work
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_show_fallout"
 >title="Mostrar visitas"
->abstract="Los datos de visitas en el orden previsto muestran el porcentaje y el número de personas o sesiones en cada nodo del recorrido que no llegaron al siguiente nodo del recorrido. Es posible que hayan realizado otras acciones en el sitio, pero nunca cumplieron los criterios definidos por el siguiente nodo del recorrido.<br/>Los datos de visitas en el orden previsto muestran personas o sesiones (independientemente de la métrica principal que haya elegido) y se basan en la configuración del contenedor de lienzo de Recorrido."
+>abstract="Los datos de visitas en el orden previsto muestran el porcentaje y el número de personas o sesiones en cada nodo del recorrido que nunca llegaron al siguiente nodo del recorrido Es posible que hayan realizado otras acciones en el sitio, pero nunca cumplieron los criterios definidos en el siguiente nodo del recorrido.<br/>Los datos de visitas en el orden previsto muestran personas o sesiones (independientemente de la métrica principal que haya elegido) y se basan en la configuración del contenedor de lienzo del recorrido."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -129,7 +139,7 @@ Consulte [Información general sobre el lienzo de recorrido](/help/analysis-work
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_compare"
 >title="Comparar con"
->abstract="Intervalo de fecha utilizado para comparar los datos de recorrido actuales con un período anterior. Al seleccionar un intervalo de fechas de comparación, cada nodo del recorrido muestra el cambio porcentual entre el intervalo de fechas actual y el seleccionado, en función de la métrica principal. "
+>abstract="Intervalo de fechas que se utiliza para comparar los datos de recorrido actuales con un período anterior. Al seleccionar un intervalo de fechas de comparación, cada nodo del recorrido muestra el cambio porcentual entre el intervalo de fechas actual y el intervalo de fechas de comparación seleccionado, en función de la métrica principal. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -149,7 +159,7 @@ Para definir la configuración de la visualización del lienzo de recorrido:
    |---------|----------|
    | [!UICONTROL **Valor porcentual**] | El valor porcentual que se muestra en cada nodo del recorrido.<p>![Valor porcentual](assets/journey-canvas-percentage.png)</p> <p>Tenga en cuenta lo siguiente al configurar los valores porcentuales que se muestran en los nodos del recorrido:</p><ul><li>En cada nodo de la métrica principal se muestra un porcentaje. También se muestra un porcentaje para la métrica secundaria si hay una configurada. (Para obtener más información sobre la configuración de la métrica principal y secundaria, consulte [Empezar a crear una visualización de lienzo de recorrido](#begin-building-a-journey-canvas-visualization)).</li><li>Los porcentajes incluyen todas las personas o sesiones que están incluidas en la vista de datos dentro del intervalo de fecha del panel. El uso de _personas_ o _sesiones_ depende de la configuración del contenedor. (Para obtener más información sobre la configuración del contenedor, consulte [Empezar a crear una visualización de lienzo de recorrido](#begin-building-a-journey-canvas-visualization)).</li></ul> <p>Elija entre las siguientes opciones:</p> <ul><li>[!UICONTROL **Porcentaje del nodo de inicio**]: calcula los porcentajes mostrados en cada nodo en relación con el nodo de inicio. Los porcentajes se basan en la métrica principal y secundaria que haya seleccionado. <p>Un _nodo de inicio_ es un nodo que no tiene nodos conectados que lo precedan.</p><p>Un recorrido puede contener varios nodos de inicio. Sin embargo, se utiliza [!UICONTROL **Porcentaje del total**] si el recorrido contiene dos o más nodos de inicio que llevan a un nodo común. Si desea utilizar [!UICONTROL **Porcentaje del nodo de inicio**], actualice el recorrido para que cada nodo del recorrido pueda rastrearse hasta un solo nodo de inicio.</p></li><li>[!UICONTROL **Porcentaje del nodo anterior**]: calcula los porcentajes mostrados en cada nodo en relación con el nodo anterior. Los porcentajes se basan en la métrica principal y secundaria que haya seleccionado.</li><li>[!UICONTROL **Porcentaje del total**]: calcula los porcentajes mostrados en cada nodo en relación con todos los datos de la vista de datos. Los porcentajes se basan en la métrica principal y secundaria que haya seleccionado.</li></ul> |
    | [!UICONTROL **Configuración de flecha**] | Las flechas que aparecen entre los nodos del lienzo de recorrido se pueden configurar para que muestren etiquetas y valores personalizados. <p>![Configuración de flecha](assets/journey-canvas-arrow-settings.png)</p><p>_Etiquetas_ son nombres personalizados que aparecen en las flechas. En una flecha determinada solo se muestra una etiqueta. Las etiquetas pueden ser cualquiera de las siguientes y se muestran en este orden de preferencia:</p><ol><li>Se ha añadido un nombre personalizado desde el lienzo de recorrido (tal como se describe en [Añadir o actualizar una etiqueta en una flecha](#add-or-update-a-label-on-an-arrow))</li><li>Una etiqueta de Journey Optimizer</li><li>Una condición de Journey Optimizer</li></ol><p>_Valores_ son los números y porcentajes que aparecen en las flechas e indican las personas o sesiones que se movieron de un nodo al siguiente en el recorrido. (Es decir, quienes no abandonaron el recorrido en un paso determinado). </p><p>Las siguientes opciones están disponibles para los recorridos que no se originaron en Journey Optimizer y para los recorridos de Journey Optimizer que no se han modificado significativamente en el lienzo de recorrido: (las modificaciones significativas incluyen añadir o quitar nodos, añadir o quitar flechas o cambiar los componentes de un nodo).</p><ul><li>[!UICONTROL **Sin etiquetas**]: no se muestran etiquetas en las flechas del recorrido. </br> Esta opción solo está disponible si el recorrido se ha modificado en </li><li>[!UICONTROL **Solo etiquetas**]: las etiquetas se muestran en las flechas del recorrido.</li></ul><p>Las siguientes opciones están disponibles para los recorridos de Journey Optimizer que se han modificado significativamente en el lienzo de Recorrido: (Las modificaciones importantes incluyen agregar o quitar nodos, agregar o quitar flechas o cambiar los componentes de un nodo).(**Nota**: Estas opciones solo se muestran cuando se detectan datos de Journey Optimizer en la misma vista de datos seleccionada en el panel de Analysis Workspace donde está agregando la visualización. Para obtener información sobre cómo cambiar la vista de datos en un panel de Analysis Workspace, consulte [Descripción general de Analysis Workspace](/help/analysis-workspace/home.md)).</p><ul><li>[!UICONTROL **Sin etiquetas ni valores**]: no se muestran etiquetas ni valores en las flechas del recorrido.</li><li>[!UICONTROL **Solo etiquetas**]: en las flechas del recorrido solo se muestran etiquetas. No se muestran valores.</li><li>[!UICONTROL **Solo valores**]: en las flechas del recorrido solo se muestran valores. No se muestran las etiquetas.</li><li>[!UICONTROL **Valores y etiquetas**]: tanto las etiquetas como los valores se muestran en las flechas del recorrido.</li></ul> |
-   | [!UICONTROL **Comparar con**] | Intervalo de fecha utilizado para comparar los datos de recorrido actuales con un período anterior. Puede elegir cualquiera de los siguientes intervalos de fechas para comparar:<ul><li>**[!UICONTROL 4 semanas antes]**</li><li>**[!UICONTROL 2 trimestres antes]**</li><li>**[!UICONTROL 1 año antes]**</li><li>**[!UICONTROL Intervalo de fechas personalizado]**</li></ul><p>Al seleccionar un intervalo de fechas de comparación, cada nodo del recorrido muestra el cambio porcentual entre el intervalo de fechas actual y el seleccionado, en función de la métrica principal. Esto le permite identificar si el recorrido está teniendo un mejor o peor rendimiento en comparación con un período de tiempo anterior.</p> |
+   | [!UICONTROL **Comparar con**] | Intervalo de fechas que se utiliza para comparar los datos de recorrido actuales con un período anterior. Puede elegir cualquiera de los siguientes intervalos de fechas para comparar:<ul><li>**[!UICONTROL 4 semanas antes]**</li><li>**[!UICONTROL 2 trimestres antes]**</li><li>**[!UICONTROL 1 año antes]**</li><li>**[!UICONTROL Intervalo de fechas personalizado]**</li></ul><p>Al seleccionar un intervalo de fechas de comparación, cada nodo del recorrido muestra el cambio porcentual entre el intervalo de fechas actual y el intervalo de fechas de comparación seleccionado, en función de la métrica principal. Esto le permite identificar si el recorrido está teniendo un mejor o peor rendimiento en comparación con un período de tiempo anterior.</p> |
    | [!UICONTROL **Mostrar visitas**] | Los datos de visitas en orden previsto muestran un porcentaje y un número que abandonan cada nodo del recorrido. Los datos de visitas en orden previsto se basan en la métrica asociada a la configuración del contenedor del recorrido; no se basan en la métrica principal o secundaria. <p>![visita en orden previsto](assets/journey-canvas-fallout.png)</p><p>De manera predeterminada, el contenedor es _Persona_, por lo que la métrica utilizada para los datos de visitas en el orden previsto es _Personas_. Si el contenedor cambia a _Sesión_, la métrica usada para los datos de visitas en el orden previsto es _Sesiones_, y así sucesivamente.</p><p>Por ejemplo, con _Persona_ como configuración del contenedor, el abandono muestra el porcentaje y el número de personas en cada nodo del recorrido que nunca llegaron a ninguno de los nodos inmediatamente posteriores. Es posible que hayan realizado otras acciones en el sitio, pero no cumplieron los criterios definidos por ninguno de los nodos que siguen inmediatamente.</p> <p>Para obtener más información acerca de la configuración del contenedor de lienzo de recorrido, consulte [Empezar a crear una visualización de lienzo de recorrido](#begin-building-a-journey-canvas-visualization). |
    | **Controles** | Los siguientes controles están disponibles en la esquina superior derecha del lienzo:<ul><li>**Ajustar pantalla** ![icono de ajustar pantalla](assets/fill-screen-icon.png): ajusta la configuración actual de zoom y de desplazamiento para que la visualización completa ocupe toda la pantalla.</li><li>**Organizar** ![organizar icono](assets/organize.svg): Reorganiza los nodos para minimizar las flechas de cruce y optimizar el espaciado, según las conexiones de nodos. </li><li>**Aumentar** ![icono de aumentar](assets/zoom-in-icon.png): amplía áreas específicas de la visualización.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</li><li>**Reducir** ![icono de reducir](assets/zoom-out-icon.png): reduce la visualización para permitir más espacio en el lienzo.<p>También puede utilizar controles del ratón, como pellizcar en un panel táctil.</p></li></ul><p>Para desplazarse por el lienzo después de aumentar o reducir, haga clic con el ratón y arrastre hasta la ubicación deseada.</p> |
 

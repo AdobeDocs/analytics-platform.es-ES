@@ -7,24 +7,30 @@ autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
 workflow-type: tm+mt
-source-wordcount: 4217
-ht-degree: 21%
-
+source-wordcount: '4217'
+ht-degree: 30%
 ---
-
 # Creación de un feed de datos
 
 {{release-limited-testing}}
@@ -54,8 +60,8 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_notify"
->title="Notificar si hay problemas, cuando se complete y cuando caduque"
->abstract="Especifique una o varias direcciones de correo electrónico a las que se debe enviar una notificación cuando la fuente de datos se complete, caduque o encuentre problemas. Separe varias direcciones de correo electrónico con una coma."
+>title="Notificar los problemas, cuando se completen y vayan a caducar los datos"
+>abstract="Especifique una o varias direcciones de correo electrónico a las que se debe enviar una notificación cuando se haya completado la fuente de datos, cuando esté a punto de caducar o detecten problemas. Separe varias direcciones de correo electrónico con una coma."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,8 +69,8 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_processing_delay"
->title="Retraso de procesamiento"
->abstract="Cantidad de tiempo que se debe esperar a los eventos que llegan tarde antes de procesar un archivo de fuente de datos. Las visitas que llegan tarde y que se producen durante el período de tiempo de retraso del procesamiento se incluyen en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente.</p><p>Las sesiones deben comenzar después del límite de retraso de procesamiento para que se incluyan; no se incluyen las sesiones que comienzan antes del límite y finalizan dentro del retraso de procesamiento.</p><p>Customer Journey Analytics determina de forma dinámica el retraso óptimo en función del tiempo que tardan los eventos en llegar a la fuente, pero puede establecerlo de forma manual para que se retrase durante 2, 3, 4 u 8 horas.</p>"
+>title="Retraso en el procesamiento"
+>abstract="Cantidad de tiempo que hay que esperar a que se produzcan los eventos que llegan con retraso antes de procesar un archivo de fuente de datos. Las visitas que llegan tarde y que se producen durante el período de tiempo de retraso del procesamiento se incluyen en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de los archivos procesados anteriormente.</p><p>Para que se incluyan, las sesiones deben comenzar después del plazo límite de retraso del procesamiento; las sesiones que comiencen antes de dicho plazo límite y finalicen dentro del retraso del procesamiento no se incluyen.</p><p>Customer Journey Analytics determina de forma dinámica el retraso óptimo en función del tiempo que tardan los eventos en llegar a la fuente, pero puede establecerlo de forma manual para que se retrase durante dos, tres, cuatro u ocho horas.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -73,7 +79,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user-agent"
 >title=""
->abstract="Los datos del agente de usuario y los datos de búsqueda del dispositivo no pueden existir en la misma configuración del feed de datos."
+>abstract="Los datos del agente de usuario y los datos de búsqueda del dispositivo no pueden existir en la misma configuración de la fuente de datos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -321,8 +327,8 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | [!UICONTROL **Fecha de caducidad**] <br/>Disponible solo para las fuentes en directo | La fecha en la que caduca la fuente de datos y ya no se ejecuta. La fecha se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de finalización**]<br/> Disponible solo para fuentes de relleno | La fecha en la que finaliza la fuente de datos. La fecha de finalización no puede ser futura. La fecha se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>En el caso de las fuentes en directo, seleccione esta opción para incluir datos de una hora o de un día. En el caso de las fuentes de relleno, este campo está bloqueado en **Daily**, lo que significa que los datos se agrupan en fragmentos diarios.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. <p>Esta opción es necesaria para las fuentes de relleno y opcional para las fuentes activas.</p></li><li>**Por hora**: las fuentes contienen datos de una sola hora. <p>Esta opción solo está disponible para fuentes en directo.</p></li></ul> |
-   | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. El valor predeterminado es de 30 días.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivo** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos incluidos.</p> <p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprender el intervalo de fechas de retrospectiva](#understand-the-lookback-date-range).</p> |
-   | [!UICONTROL **Retraso de procesamiento**] | Elija la cantidad de tiempo de espera antes de procesar un archivo de fuente de datos. El valor predeterminado es de dos horas. Cualquier evento que llegue tarde y que se produzca durante el retraso del procesamiento se incluye en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente. </p><p>Las sesiones deben comenzar después del límite de retraso de procesamiento para que se incluyan; no se incluyen las sesiones que comienzan antes del límite y finalizan dentro del retraso de procesamiento.</p><p>Customer Journey Analytics determina de forma dinámica el retraso óptimo en función del tiempo que tardan los eventos en llegar a la fuente, pero puede establecerlo de forma manual para que se retrase durante 2, 3, 4 u 8 horas.</p> |
+   | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. El valor predeterminado es de 30 días.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivas** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos que se incluyen.</p> <p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprender el intervalo de fechas de retrospectiva](#understand-the-lookback-date-range).</p> |
+   | [!UICONTROL **Retraso de procesamiento**] | Elija la cantidad de tiempo de espera antes de procesar un archivo de fuente de datos. El valor predeterminado es de dos horas. Cualquier evento que llegue tarde y que se produzca durante el retraso del procesamiento se incluye en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de los archivos procesados anteriormente. </p><p>Para que se incluyan, las sesiones deben comenzar después del plazo límite de retraso del procesamiento; las sesiones que comiencen antes de dicho plazo límite y finalicen dentro del retraso del procesamiento no se incluyen.</p><p>Customer Journey Analytics determina de forma dinámica el retraso óptimo en función del tiempo que tardan los eventos en llegar a la fuente, pero puede establecerlo de forma manual para que se retrase durante dos, tres, cuatro u ocho horas.</p> |
    | [!UICONTROL **Formato de compresión**] | Seleccione el formato de compresión para los archivos de salida de Parquet enviados a su destino de nube. Elija entre los siguientes formatos:<ul><li>[!UICONTROL **Rápido**]: Compresión y descompresión rápidas con tamaños de archivo moderados. Ampliamente compatible con plataformas de datos modernas como BigQuery, Snowflake y Apache Spark.</li><li>[!UICONTROL **GZip**]: Ampliamente compatible, incluso con herramientas que no admiten Snappy de forma nativa. Se recomienda si la canalización descendente requiere un estándar de compresión ampliamente reconocido.</li><li>[!UICONTROL **Z Standard (Zstd)**]: Alta eficiencia de compresión con descompresión rápida. Adecuado si minimizar el tamaño del archivo es una prioridad y sus herramientas admiten Zstd.</li></ul> |
 
 1. En la ficha [!UICONTROL **Delivery**], en la sección [!UICONTROL **Destination**], configure el destino al que desea enviar los datos.
@@ -350,14 +356,14 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-## Comprender el intervalo de fechas de retrospectiva {#data-feed-lookback-date-range}
+## Conocer el intervalo de fechas retrospectivas {#data-feed-lookback-date-range}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="Intervalo de fecha de retroactividad"
->abstract="Controla hasta dónde llega Customer Journey Analytics al procesar cada envío.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivo** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos incluidos.</p><p>Una retrospectiva más larga mejora la precisión; una retrospectiva más corta mejora el rendimiento.</p>"
+>abstract="Controla hasta qué momento se remonta Customer Journey Analytics cuando procesa cada envío.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivas** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos que se incluyen.</p><p>Una retrospectiva más larga mejora la precisión; una retrospectiva más corta mejora el rendimiento.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
