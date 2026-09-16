@@ -45,7 +45,7 @@ Sin vinculación de persona a cuenta, los eventos que no contengan un ID de cuen
 La vinculación de persona a cuenta realiza las siguientes operaciones en los conjuntos de datos:
 
 * **Elevar la identidad de la persona**: de forma similar al [método de vinculación B2C](/help/stitching/overview.md), configurará un campo que contenga ID de persona persistentes. Con el gráfico de identidad, el ID de persona persistente de cada evento se eleva a un ID de persona desde el área de nombres del identificador de persona configurado.
-* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3} se usa para derivar y agregar la información de identidad de cuenta. ](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
+* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la información de identidad de cuenta. &#x200B;](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
 
 ## Cómo funciona la vinculación de persona a cuenta de B2B
 
