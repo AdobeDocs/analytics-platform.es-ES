@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ac22a504d6182897438b3724d57c837ab2995f1b
+source-git-commit: 76379e1cd9a42f2b2651a66768c195776eabecff
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 21%
+source-wordcount: '2292'
+ht-degree: 20%
 ---
 # Vinculación de persona a cuenta B2B
 
@@ -45,7 +45,7 @@ Sin vinculación de persona a cuenta, los eventos que no contengan un ID de cuen
 La vinculación de persona a cuenta realiza las siguientes operaciones en los conjuntos de datos:
 
 * **Elevar la identidad de la persona**: de forma similar al [método de vinculación B2C](/help/stitching/overview.md), configurará un campo que contenga ID de persona persistentes. Con el gráfico de identidad, el ID de persona persistente de cada evento se eleva a un ID de persona desde el área de nombres del identificador de persona configurado.
-* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la información de identidad de cuenta. &#x200B;](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
+* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3} se usa para derivar y agregar la información de identidad de cuenta. ](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
 
 ## Cómo funciona la vinculación de persona a cuenta de B2B
 
@@ -219,8 +219,8 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
       | Campo | Requerido | Descripción |
       |---|:---:|---|
       | **[!UICONTROL Conjunto de datos de persona a cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione la búsqueda (registro o conjunto de datos de series no temporales) que asigna personas a las cuentas. |
-      | **[!UICONTROL ID de la persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los ID de persona. El espacio de nombres de este campo puede ser diferente o ser el mismo que el espacio de nombres del identificador de persona seleccionado. Si difieren, los dos espacios de nombres deben vincularse en el gráfico de identidad.  Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL ID de cuenta]** o que el campo **[!UICONTROL Hora de creación de la asignación]**. |
-      | **[!UICONTROL ID de cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los valores de identificador de cuenta único. La información del ID de cuenta estará disponible en las filas de cualquier conjunto de datos de evento con la vinculación de persona a cuenta habilitada. Ese campo no puede ser el mismo que el campo **[!UICONTROL ID de persona]** o que el campo **[!UICONTROL Hora de creación de la asignación]**. |
+      | **[!UICONTROL ID de la persona]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los ID de persona. El espacio de nombres de este campo puede ser diferente o ser el mismo que el espacio de nombres del identificador de persona seleccionado. Si difieren, los dos espacios de nombres deben vincularse en el gráfico de identidad.  Ese campo debe marcarse como identidad y no puede ser el mismo que el campo **[!UICONTROL ID de cuenta]** o que el campo **[!UICONTROL Hora de creación de la asignación]**. La ruta completa del campo se muestra debajo del campo. |
+      | **[!UICONTROL ID de cuenta]** | ![Requerido](/help/assets/icons/Required.svg) | Seleccione el campo del conjunto de datos que contiene los valores de identificador de cuenta único. La información del ID de cuenta estará disponible en las filas de cualquier conjunto de datos de evento con la vinculación de persona a cuenta habilitada. Ese campo no puede ser el mismo que el campo **[!UICONTROL ID de persona]** o que el campo **[!UICONTROL Hora de creación de la asignación]**. La ruta completa del campo se muestra debajo del campo. |
       | **Hora de creación de la asignación** | | De forma opcional, seleccione el campo que representa la fecha y la hora en que se creó la asignación de persona a cuenta. Es útil en situaciones en las que una persona cambia de cuenta varias veces con el paso del tiempo.<br/><br/>**Ejemplo** (cuando el campo **update_date** está seleccionado):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** antes del 1 de mayo de 2026: a@b.com está asignado a Apple.</li><li>Para todos los eventos con una marca de tiempo en el campo **[!UICONTROL update_date]** el o después del 1 de mayo de 2026: a@b.com está asignado a Adobe.</li></ul>Cuando no se especifica ningún tiempo de asignación, se utiliza la primera cuenta lexicográfica. Este mismo algoritmo también se usa cuando dos nombres de cuenta diferentes tienen exactamente el mismo valor **[!UICONTROL update_date]** y se especifica una hora de creación de asignación. |
 
       >[!NOTE]
@@ -238,7 +238,7 @@ Primero debe habilitar y configurar la vinculación B2B en el nivel de conexión
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Habilitar vinculación de persona a cuenta"
 >abstract="Si se ha habilitado, este conjunto de datos utiliza la vinculación de persona a cuenta B2B. Los valores de **[!UICONTROL ID de persona persistente]** se elevarán a los del **[!UICONTROL área de nombres de identificador de persona]** configurado y, a continuación, se utilizarán para buscar el ID de cuenta en función del conjunto de datos de persona a cuenta.<br/>Si está desactivado, este conjunto de datos no utiliza la vinculación de persona a cuenta B2B y tendrá que seleccionar un **[!UICONTROL ID de cuenta]** obligatorio en su lugar."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configuración de B2B person para vincular cuentas"
 
 Después de configurar la vinculación B2B en el nivel de conexión, debe habilitar la vinculación de cuentas de persona B2B individualmente para cada conjunto de datos de evento que desee vincular.
 
