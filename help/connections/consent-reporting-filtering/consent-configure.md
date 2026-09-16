@@ -4,7 +4,6 @@ description: Obtenga información sobre cómo crear una configuración para habi
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -26,9 +25,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1325'
 ht-degree: 28%
 ---
 # Configurar informes y filtros de consentimiento {#configure-consent-reporting}
@@ -86,6 +85,8 @@ ht-degree: 28%
 >abstract="Active esta opción para evitar que los datos de visitante que no hayan dado su consentimiento se incluyan en Customer Journey Analytics. Cuando está activada, los datos de un visitante solo se incorporan si el visitante cumple todas las políticas de consentimiento que se han habilitado a continuación. <br>Esta opción está destinada a organizaciones con requisitos para excluir datos de visitantes que no hayan dado su consentimiento en el momento de la ingesta."
 
 <!-- markdownlint-enable MD034 -->
+
+{{release-limited-testing}}
 
 Los administradores del sistema pueden activar los informes de consentimiento y, opcionalmente, el filtrado de consentimiento para una o más conexiones. Para obtener información general, consulte [Información general sobre la creación de informes y el filtrado de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md).
 

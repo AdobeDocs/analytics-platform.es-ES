@@ -4,27 +4,33 @@ description: Aprenda a utilizar dimensiones, métricas y plantillas de directiva
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin, User
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+    internal-label: Governance
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 2%
-
+source-wordcount: '388'
+ht-degree: 7%
 ---
-
 # Analizar datos de directivas de consentimiento
+
+{{release-limited-testing}}
 
 Puede introducir datos de directivas de consentimiento de conjuntos de datos de perfil de Experience Platform en una conexión de Customer Journey Analytics.
 
@@ -68,6 +74,6 @@ Para informar sobre la pertenencia a la directiva de consentimiento:
 
 ## Uso de la plantilla de análisis de política de consentimiento
 
-Cuando se configura una vista de datos para la creación de informes de consentimiento, Customer Journey Analytics pone automáticamente a disposición de Analysis Workspace una plantilla de análisis de política de consentimiento. Esta plantilla proporciona un punto de partida para la creación de informes sobre la pertenencia a directivas de consentimiento de visitantes.
+Cuando se configura una vista de datos para la creación de informes de consentimiento, Customer Journey Analytics pone automáticamente a disposición de Analysis Workspace una plantilla de análisis de la política de consentimiento. Esta plantilla proporciona un punto de partida para la creación de informes sobre la pertenencia a directivas de consentimiento de visitantes.
 
 Para obtener información sobre cómo tener acceso a las plantillas, vea [Obtener acceso y ejecutar una plantilla](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template).

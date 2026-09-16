@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 hold: true
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: 39d6847296cc385d501defda292b5b3cae98b46a
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Una conversación es el nivel de contenedor o agrupación. Ese contenedor es út
 * ¿Cómo cambió la opinión a lo largo de una conversación?
 * ¿Qué conversaciones finalmente llevaron a una conversión?
 
-Para obtener detalles de implementación, consulte el objeto [conversación](./conversation-insights-implementation.md#conversation) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implementation.md).
+Para obtener detalles de implementación, consulte el objeto [conversación](./conversation-insights-implement.md#conversation) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implement.md).
 
 ### Turno
 
@@ -68,7 +68,7 @@ Un giro típico consiste en
 
 El turno es el objeto analítico principal para fines de elaboración de informes. El servicio de licuadora de conversación combina la información disponible de aviso, respuesta, comentarios y señales en registros de nivel de giro.
 
-Para obtener detalles de implementación, consulte el objeto [turn](./conversation-insights-implementation.md#turn) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implementation.md).
+Para obtener detalles de implementación, consulte el objeto [turn](./conversation-insights-implement.md#turn) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implement.md).
 
 ### Preguntar
 
@@ -88,7 +88,7 @@ El mensaje es la entrada principal de la que Conversation Insights puede derivar
 * La opinión del usuario
 * Otras señales admitidas
 
-Para obtener detalles de implementación, consulte el objeto [prompt](./conversation-insights-implementation.md#prompt) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implementation.md).
+Para obtener detalles de implementación, consulte el objeto [prompt](./conversation-insights-implement.md#prompt) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implement.md).
 
 ### Respuesta
 
@@ -104,7 +104,7 @@ Una respuesta suele contener diferentes tipos de contenido. Por ejemplo:
 
 Esta distinción es útil porque el análisis debe separar la respuesta principal de los vínculos de soporte, las citas, los anuncios u otros componentes de respuesta.
 
-Para obtener detalles de implementación, consulte el objeto [response](./conversation-insights-implementation.md#response) en la documentación de [Implementar Perspectivas de conversación](./conversation-insights-implementation.md).
+Para obtener detalles de implementación, consulte el objeto [response](./conversation-insights-implement.md#response) en la documentación de [Implementar Perspectivas de conversación](./conversation-insights-implement.md).
 
 ### Comentarios
 
@@ -119,13 +119,13 @@ Los comentarios pueden contener:
 
 Los comentarios no están necesariamente disponibles al mismo tiempo que el mensaje o la respuesta. Puede enviar los comentarios más adelante desde la aplicación o el servicio del agente, una vez que el usuario haya evaluado la respuesta.
 
-Para obtener más información sobre la implementación, consulte el objeto [feedback](./conversation-insights-implementation.md#feedback) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implementation.md).
+Para obtener más información sobre la implementación, consulte el objeto [feedback](./conversation-insights-implement.md#feedback) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implement.md).
 
 ### Señal
 
 Una señal es una observación analítica estructurada acerca del contenido de una conversación. El servicio de extracción de señales extrae señales.
 
-Para obtener detalles de implementación, consulte el objeto [signal](./conversation-insights-implementation.md#signal) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implementation.md).
+Para obtener detalles de implementación, consulte el objeto [signal](./conversation-insights-implement.md#signal) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implement.md).
 
 
 ### Agente
@@ -136,7 +136,7 @@ Para identificar la aplicación o el servicio del agente, se requiere la informa
 
 Si la aplicación de experiencia del agente admite la invocación de habilidades que representan capacidades invocadas durante el procesamiento, puede agregar estas invocaciones de habilidades como parte del grupo de campos de información del agente.
 
-Para obtener detalles de implementación, consulte el grupo de campos [información auténtica](./conversation-insights-implementation.md#agentic-information-field-group) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implementation.md).
+Para obtener detalles de implementación, consulte el grupo de campos [información auténtica](./conversation-insights-implement.md#agentic-information-field-group) en la documentación de [Implementar perspectivas de conversación](./conversation-insights-implement.md).
 
 ## Funcionamiento
 
@@ -152,7 +152,7 @@ A continuación se muestra el proceso general de recopilación de datos, extracc
 
 | | Descripción |
 |---|---|
-| 1 | Instrumenta la aplicación o el servicio del agente para crear eventos que contengan los conjuntos de datos ![CommentText](/help/assets/icons2/CommentText.svg), respuestas ![CommentReply](/help/assets/icons2/CommentReply.svg) y comentarios ![Feedback](/help/assets/icons2/Feedback.svg).<br/>Para obtener más información sobre cómo instrumentar su aplicación o servicio de agente, consulte la [documentación de implementación](./conversation-insights-implementation.md). |
+| 1 | Instrumenta la aplicación o el servicio del agente para crear eventos que contengan los conjuntos de datos ![CommentText](/help/assets/icons2/CommentText.svg), respuestas ![CommentReply](/help/assets/icons2/CommentReply.svg) y comentarios ![Feedback](/help/assets/icons2/Feedback.svg).<br/>Para obtener más información sobre cómo instrumentar su aplicación o servicio de agente, consulte la [documentación de implementación](./conversation-insights-implement.md). |
 | 2 | El servicio de extracción de señales extrae señales de los mensajes ![CommentText](/help/assets/icons2/CommentText.svg), las respuestas ![CommentReply](/help/assets/icons2/CommentReply.svg) y los conjuntos de datos de comentarios ![Feedback](/help/assets/icons2/Feedback.svg) como eventos de señal ![OnAir](/help/assets/icons/OnAir.svg) y almacena estos eventos de señal en un nuevo conjunto de datos.<br>Este paso se implementa como parte de la definición de una [configuración de Perspectivas de conversación](./conversation-insights-configure.md). |
 | 3 | El servicio de mezcla de conversación combina los eventos de los mensajes ![CommentText](/help/assets/icons2/CommentText.svg), las respuestas ![CommentReply](/help/assets/icons2/CommentReply.svg), los comentarios ![Feedback](/help/assets/icons2/Feedback.svg) y las señales ![OnAir](/help/assets/icons/OnAir.svg) conjuntos de datos de eventos y genera los eventos ![Merge](/help/assets/icons/Merge.svg)combinados en un nuevo conjunto de datos.<br>Este paso se implementa como parte de la definición de una [configuración de Perspectivas de conversación](./conversation-insights-configure.md). |
 | 4 | El conjunto de datos ![Merge](/help/assets/icons/Merge.svg) combinado pasa a formar parte de la conexión y los componentes definidos en el esquema utilizado para el conjunto de datos combinado pasan a formar parte de la vista de datos.<br>Este paso se implementa como parte de la definición de una [configuración de Perspectivas de conversación](./conversation-insights-configure.md). |

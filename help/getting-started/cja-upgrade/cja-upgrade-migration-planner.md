@@ -5,13 +5,11 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
-source-git-commit: db34e721f156b3eb0aab20b2dca57e194c83d6fb
+source-git-commit: 39d6847296cc385d501defda292b5b3cae98b46a
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2338'
 ht-degree: 5%
-
 ---
-
 # Migración de etiquetas a XDM {#upgrade-migration-planner}
 
 {{upgrade-note-step}}
@@ -88,7 +86,8 @@ Una migración avanza por tres etapas: [!UICONTROL **Auditoría**], [!UICONTROL 
 
 1. En el Planificador de migración, en la ficha [!UICONTROL **Migraciones**], seleccione [!UICONTROL **Nuevo**].
 
-   ![Cuadro de diálogo Nueva migración, donde elige un tipo de migración e introduce un nombre de migración.](assets/migration-planner-new-migration.png)
+   <!-- Confirm the exact image: ![The migration overview page with the Audit, Mapping, and Implementation stage cards.](assets/migration-planner-overview.png) -->
+
 
 1. Especifique la siguiente información:
 
@@ -135,13 +134,13 @@ Después de crear una migración, ábrala para completar sus tres fases: [!UICON
 
    La página de información general de migración muestra las tres etapas que se deben completar, junto con un resumen de la migración y sus artefactos.
 
-   ![La página de información general de migración con las tarjetas de fase de auditoría, asignación e implementación.](assets/migration-planner-overview.png)
+   <!-- Confirm the exact image: ![The migration overview page with the Audit, Mapping, and Implementation stage cards.](assets/migration-planner-overview.png) -->
 
 1. Complete la fase [!UICONTROL **Auditoría**]:
 
    1. En la tarjeta de auditoría ([!UICONTROL **Auditoría de extensiones de etiquetas**] o [!UICONTROL **Auditoría de JavaScript**], según el tipo de migración), seleccione [!UICONTROL **Iniciar auditoría**] para revisar las reglas y los elementos de datos incluidos en la migración.
 
-      ![La página de auditoría, donde se seleccionan reglas y elementos de datos y se resuelven los resultados.](assets/migration-planner-audit.png)
+      <!-- Confirm the exact image: ![The audit page, where you select rules and data elements and resolve any findings.](assets/migration-planner-audit.png) -->
 
    1. En las pestañas [!UICONTROL **Reglas**] y [!UICONTROL **Elementos de datos**], seleccione los elementos que desea incluir en la migración.
 
