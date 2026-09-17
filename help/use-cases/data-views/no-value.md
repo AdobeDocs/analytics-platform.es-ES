@@ -202,4 +202,4 @@ No todas las **[!UICONTROL entradas sin valor]** indican un problema. La interpr
 
 >[!MORELIKETHIS]
 >
->[El manual de implementación completo para administrar **[!UICONTROL Ningún valor]** en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769)
+>[El manual de implementación completo para administrar **[!UICONTROL Ningún valor]** en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=es)
