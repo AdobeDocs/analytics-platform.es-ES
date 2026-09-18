@@ -8,23 +8,28 @@ role: User
 TQID: https://experienceleague.adobe.com/qEgO-lqYk8ipVP99IBazrKAb7Jer-AN96-PY-f1KdPQ
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: 7a7ad0d310603850395e35edce7fa66c8c2ff329
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: '1487'
 ht-degree: 24%
-
 ---
-
 # Casos de uso de vistas de datos
 
 Estos casos de uso ilustran la flexibilidad y la potencia de las vistas de datos de Customer Journey Analytics.
@@ -41,11 +46,15 @@ Consulte el caso de uso [Usar datos de resumen](summary-data.md) para obtener m�
 
 Consulte los [casos de uso de extensión de BI](bi-extension-usecases.md) sobre cómo realizar una serie de casos de uso con la extensión de BI de Customer Journey Analytics.
 
+
+## Cómo controlar Ningún valor
+
+Consulte el artículo de [Cómo gestionar sin valor](./no-value.md) para obtener más información sobre cómo gestionar varios casos de uso de **[!UICONTROL Sin valor]**.
+
+
 ## Creación de una métrica a partir de un campo de esquema de cadena {#string}
 
 Por ejemplo, al crear una vista de datos, podría crear una métrica de [!UICONTROL Pedidos] a partir de un campo de esquema de [!UICONTROL Título de página] que sea una cadena.
-
-
 
 1. En la ficha **[!UICONTROL Componentes]**, arrastre el **[!UICONTROL Título de página]** a la sección **[!UICONTROL Métricas]** en [!UICONTROL Componentes incluidos].
 1. Resalte la métrica que acaba de arrastrar y cambie su nombre a `Orders` en **[!UICONTROL Configuración de componentes]** en
