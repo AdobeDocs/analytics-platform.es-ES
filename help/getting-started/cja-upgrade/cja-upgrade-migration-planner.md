@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 39d6847296cc385d501defda292b5b3cae98b46a
 workflow-type: tm+mt
 source-wordcount: '2338'
-ht-degree: 5%
+ht-degree: 16%
 ---
 # Migración de etiquetas a XDM {#upgrade-migration-planner}
 
@@ -18,8 +18,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="migration_intro"
->title="Resumen de migraciones"
->abstract="Migre una implementación de etiquetas a Adobe Experience Platform Web SDK al actualizar a Customer Journey Analytics.<br/>Continúe con una migración existente o inicie una nueva."
+>title="Información general sobre migraciones"
+>abstract="Migre una implementación de etiquetas al SDK web de Adobe Experience Platform al actualizar a Customer Journey Analytics.<br/>Continúe con una migración existente o inicie una nueva."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -252,7 +252,7 @@ Cada artefacto muestra su estado, como [!UICONTROL **Listo**] o [!UICONTROL **No
 
 Los conjuntos de asignaciones determinan cómo se asignan las variables de Analytics a los campos de esquema XDM.
 
-Puede crear un nuevo conjunto de asignaciones [&#x200B; durante el proceso de migración](#migrate-an-analytics-implementation-to-the-web-sdk). O bien, puede crear un conjunto de asignaciones independiente para utilizarlo con una migración futura o con otras tareas de migración.
+Puede crear un nuevo conjunto de asignaciones [ durante el proceso de migración](#migrate-an-analytics-implementation-to-the-web-sdk). O bien, puede crear un conjunto de asignaciones independiente para utilizarlo con una migración futura o con otras tareas de migración.
 
 ### Creación de un conjunto de asignaciones independiente {#xdm-mapping}
 
@@ -260,7 +260,7 @@ Puede crear un nuevo conjunto de asignaciones [&#x200B; durante el proceso de mi
 
 >[!CONTEXTUALHELP]
 >id="migration_mapping_schema"
->title="Elija un esquema."
+>title="Elección de un esquema"
 >abstract="Los conjuntos de asignaciones determinan cómo se asignan las variables de Analytics a los campos XDM.<br/>Cree un nuevo conjunto de asignaciones o elija uno existente para aplicar las mismas asignaciones en varias migraciones. También puede hacer referencia a conjuntos de asignaciones en otras tareas de migración."
 
 <!-- markdownlint-enable MD034 -->
@@ -269,8 +269,8 @@ Puede crear un nuevo conjunto de asignaciones [&#x200B; durante el proceso de mi
 
 >[!CONTEXTUALHELP]
 >id="migration_mapping_field_group"
->title="Preferencia de grupo de campos"
->abstract="Elija grupos de campos estándar para utilizar grupos de campos de Adobe publicados cuando sea posible. Esto promueve la máxima coherencia y vuelve a los campos de inquilino personalizados cuando no hay campos estándar disponibles.<br/>Elija grupos de campos personalizados para usar campos personalizados de espacio de nombres de inquilino cuando sea posible. Esto promueve la máxima flexibilidad."
+>title="Preferencia del grupo de campos"
+>abstract="Elija grupos de campos estándar para utilizar grupos de campos de Adobe publicados cuando sea posible. Esto impulsa la máxima coherencia y vuelve a los campos de inquilino personalizados cuando no hay campos estándar disponibles.<br/>Elija grupos de campos personalizados para usar campos personalizados del espacio de nombres de inquilino cuando sea posible. Esto impulsa la máxima flexibilidad."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -279,7 +279,7 @@ Puede crear un nuevo conjunto de asignaciones [&#x200B; durante el proceso de mi
 >[!CONTEXTUALHELP]
 >id="migration_mapping_lookback"
 >title="Período retroactivo"
->abstract="Controla hasta dónde se retrocede al determinar qué variables reciben datos de forma activa. Las variables que incluyen datos dentro del período retroactivo se incluyen en el esquema."
+>abstract="Controla hasta qué período del tiempo se debe retroceder a la hora de determinar qué variables están recibiendo datos de forma activa. Las variables que incluyen datos dentro del período retroactivo se incluyen en el esquema."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -303,9 +303,9 @@ Puede crear un nuevo conjunto de asignaciones [&#x200B; durante el proceso de mi
 
 1. En el menú desplegable [!UICONTROL **Preferencia de grupo de campos**], elija cómo desea organizar las variables personalizadas en grupos de campos:
 
-   * [!UICONTROL **Estándar primero**]: utilice grupos de campos de Adobe publicados cuando sea posible. Esto promueve la máxima coherencia y vuelve a los campos de inquilino personalizados cuando no hay campos estándar disponibles.
+   * [!UICONTROL **Estándar primero**]: utilice grupos de campos de Adobe publicados cuando sea posible. Esto impulsa la máxima coherencia y vuelve a los campos de inquilino personalizados cuando no hay campos estándar disponibles.
 
-   * [!UICONTROL **Personalizado primero**]: utilice los campos personalizados del espacio de nombres de inquilino siempre que sea posible. Esto promueve la máxima flexibilidad.
+   * [!UICONTROL **Personalizado primero**]: utilice los campos personalizados del espacio de nombres de inquilino siempre que sea posible. Esto impulsa la máxima flexibilidad.
 
    <!-- * [!UICONTROL **Ask each time**]: Prompt for each signal so you can decide individually. -->
 

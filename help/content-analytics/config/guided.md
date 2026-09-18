@@ -41,7 +41,7 @@ topic_v2:
 source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: '4806'
-ht-degree: 55%
+ht-degree: 56%
 ---
 
 # Configuración guiada de Content Analytics
@@ -100,7 +100,7 @@ El asistente de configuración guiada incluye cuatro secciones: [Detalles](#deta
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="Detalles"
->abstract="Esta guía establece los requisitos para configurar Content Analytics. Proporcione un nombre para esta configuración y seleccione la zona protegida que contiene los datos de análisis de contenido que desea analizar."
+>abstract="Esta guía establece los requisitos necesarios para configurar Content Analytics. Asigne un nombre a esta configuración y seleccione la zona protegida que contiene los datos de análisis de contenido que desea analizar."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -110,7 +110,7 @@ El asistente de configuración guiada incluye cuatro secciones: [Detalles](#deta
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="Conexión"
->abstract="Seleccione una conexión existente de Customer Journey Analytics con la que combinar los datos de Content Analytics."
+>abstract="Seleccione una conexión existente de Customer Journey Analytics con la que desee combinar sus datos de Content Analytics."
 
 Cada configuración requiere un nombre único. Por ejemplo, `Example Content Analytics configuration`. El nombre es necesario para guardar o implementar una configuración.
 
@@ -151,7 +151,7 @@ Si ya ha seleccionado una conexión, pero desea cambiar esa conexión:
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Vista de datos"
->abstract="Seleccione una vista de datos existente de Customer Journey Analytics con la que combinar los datos de Content Analytics."
+>abstract="Seleccione una vista de datos existente de Customer Journey Analytics con la que desee combinar sus datos de Content Analytics."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
