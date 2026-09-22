@@ -2,7 +2,7 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 0b2548c1caa15fe7e50c000178e691ea9743ff19
+source-git-commit: ed1569087178fe1941d13f481914db6982ed18a1
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 90%
@@ -145,11 +145,11 @@ ht-degree: 90%
     + [Analizar](/help/connections/audience-analysis/analyze-audiences.md)
     + [Casos de uso](/help/connections/audience-analysis/audience-analysis-use-cases.md)
   + Informes y filtrado de consentimiento {#consent-reporting-filtering}
-    + {hide-from-toc}[Información general](/help/connections/consent-reporting-filtering/consent-overview.md)
-    + {hide-from-toc}[Configurar](/help/connections/consent-reporting-filtering/consent-configure.md)
-    + {hide-from-toc}[Administrar](/help/connections/consent-reporting-filtering/consent-manage.md)
-    + {hide-from-toc}[Analizar](/help/connections/consent-reporting-filtering/consent-analyze.md)
-    + {hide-from-toc}[Casos de uso](/help/connections/consent-reporting-filtering/consent-use-cases.md)
+    + [Información general](/help/connections/consent-reporting-filtering/consent-overview.md)
+    + [Configuración](/help/connections/consent-reporting-filtering/consent-configure.md)
+    + [Administrar](/help/connections/consent-reporting-filtering/consent-manage.md)
+    + [Analizar](/help/connections/consent-reporting-filtering/consent-analyze.md)
+    + [Casos de uso](/help/connections/consent-reporting-filtering/consent-use-cases.md)
 + Vistas de datos {#cja-dataviews}
   + [Información general de las vistas de datos](../data-views/data-views.md)
   + [Creación o edición de una vista de datos](../data-views/create-dataview.md)
