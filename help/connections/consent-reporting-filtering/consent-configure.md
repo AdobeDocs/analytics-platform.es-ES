@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1328'
 ht-degree: 28%
 ---
 # Configurar informes y filtros de consentimiento {#configure-consent-reporting}
@@ -85,8 +85,6 @@ ht-degree: 28%
 >abstract="Active esta opción para evitar que los datos de visitante que no hayan dado su consentimiento se incluyan en Customer Journey Analytics. Cuando está activada, los datos de un visitante solo se incorporan si el visitante cumple todas las políticas de consentimiento que se han habilitado a continuación. <br>Esta opción está destinada a organizaciones con requisitos para excluir datos de visitantes que no hayan dado su consentimiento en el momento de la ingesta."
 
 <!-- markdownlint-enable MD034 -->
-
-{{release-limited-testing}}
 
 Los administradores del sistema pueden activar los informes de consentimiento y, opcionalmente, el filtrado de consentimiento para una o más conexiones. Para obtener información general, consulte [Información general sobre la creación de informes y el filtrado de consentimiento](/help/connections/consent-reporting-filtering/consent-overview.md).
 
