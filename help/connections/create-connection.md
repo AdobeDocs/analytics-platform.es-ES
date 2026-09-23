@@ -5,6 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
+hold: true
 TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -31,7 +32,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 9c0ddbb48c5cb1c62bded02d1455f2631ab1679f
+source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
 workflow-type: tm+mt
 source-wordcount: '10488'
 ht-degree: 91%
@@ -538,8 +539,9 @@ Alternativamente, los tipos de conjuntos de datos enumerados arriba pueden basar
 | Tipo de conjunto de datos | Descripción | Marca de tiempo | Esquema | ID de persona |
 |---|---|---|---|---|
 | **[!UICONTROL Ad hoc]** | Datos ad hoc basados en un [esquema ad hoc](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/api/ad-hoc) con campos con espacio de nombres para que los use un solo conjunto de datos. | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. | Cualquier esquema ad hoc basado en una clase basada en el comportamiento *ad hoc* | En función del tipo de conjunto de datos que seleccione para el conjunto de datos ad hoc. |
-| **[!UICONTROL Modelo]** | Datos relacionales basados en un esquema relacional. | Depende del tipo de conjunto de datos que seleccione para el conjunto de datos relacional. | Cualquier esquema relacional. | Depende del tipo de conjunto de datos que seleccione para el conjunto de datos relacional. |
+| **[!UICONTROL Relacional]** | Datos relacionales basados en un esquema relacional. | Depende del tipo de conjunto de datos que seleccione para el conjunto de datos relacional. | Cualquier esquema relacional. | Depende del tipo de conjunto de datos que seleccione para el conjunto de datos relacional. |
 
+{{relational-dataset-important}}
 
 ### Añadir conjuntos de datos
 
@@ -721,6 +723,8 @@ Al añadir conjuntos de datos o editar un conjunto de datos existente, debe real
 
 Todos los conjuntos de datos y tipos de conjuntos de datos tienen [configuración general y detallada](#general-dataset-settings-and-details), como, por ejemplo, si se importan o no datos nuevos y se solicitan rellenos.
 
+
+
 #### Conjunto de datos de evento
 
 La configuración específica de un conjunto de datos de evento depende del tipo de conexión.
@@ -861,6 +865,8 @@ La configuración específica para un conjunto de datos ad hoc es:
 >
 >Los conjuntos de datos relacionales se utilizan principalmente para admitir la próxima capacidad de Experience Platform Data Mirror para Customer Journey Analytics.
 >
+
+{{relational-dataset-important}}
 
 La configuración específica para un conjunto de datos relacional es la siguiente:
 

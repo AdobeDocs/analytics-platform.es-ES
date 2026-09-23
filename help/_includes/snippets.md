@@ -1,9 +1,8 @@
 ---
-source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
+source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
 workflow-type: tm+mt
-source-wordcount: '5455'
-ht-degree: 98%
-
+source-wordcount: '5542'
+ht-degree: 97%
 ---
 # Fragmentos
 
@@ -326,3 +325,11 @@ Esta columna de fuente de datos de Analytics contiene datos que no se pueden tra
 ## agente de usuario de fuente de datos de CJA {#cja-df-ua}
 
 No puede recopilar simultáneamente información del agente de usuario e información de búsqueda del dispositivo; la población de estas dimensiones se excluye mutuamente. Debe elegir si desea recopilar información sobre el agente de usuario directamente o sobre la búsqueda de dispositivos (basada en el agente de usuario) al [configurar una secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
+
+
+## Mensaje importante del conjunto de datos relacional {#relational-dataset-important}
+
+>[!IMPORTANT]
+>
+>Un conjunto de datos relacional se basa en un tipo de esquema relacional. Los descriptores de relación definidos en ese esquema relacional no son relevantes y no se aplican a la definición y configuración de una conexión de Customer Journey Analytics en general ni a la configuración del conjunto de datos para un conjunto de datos relacional en particular. <br/><br>Para los informes y análisis de Customer Journey Analytics, debe configurar explícitamente en [configuración del conjunto de datos](/help/connections/create-connection.md#relational-dataset) cómo se unen los datos de un conjunto de datos relacional a otros conjuntos de datos en función de un ID de persona común o ID de cuenta.
+>
