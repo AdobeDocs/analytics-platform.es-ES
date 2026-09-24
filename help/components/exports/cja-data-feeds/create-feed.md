@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
+source-git-commit: 2391b13373992de30834f846da2fb7b71f5279ee
 workflow-type: tm+mt
-source-wordcount: '4217'
-ht-degree: 31%
+source-wordcount: '4250'
+ht-degree: 30%
 ---
 # Creación de un feed de datos
 
@@ -299,6 +299,10 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    +++
 
 1. (Opcional) Reordene los componentes del lienzo arrastrándolos. El orden definido se conserva como el orden de las columnas en el archivo de fuente de datos exportado.
+
+1. (Opcional) Cambie el tamaño de las columnas del lienzo arrastrando el borde de la columna.
+
+   Los anchos de columna se guardan en una cookie y se conservan la próxima vez que vuelva a esta fuente de datos en el mismo explorador.
 
 1. (Opcional) Cambie el ID de componente que se muestra en la salida de la fuente de datos.
 
