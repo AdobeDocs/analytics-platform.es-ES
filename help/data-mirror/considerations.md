@@ -4,7 +4,6 @@ description: Tenga en cuenta consideraciones adicionales a la hora de sincroniza
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-hold: true
 autotag-review: '2026-05-19T06:55:09.938Z'
 TQID: 'https://experienceleague.adobe.com/uZjXZUKUMeXLxxpTRrkCZrPsGhxseSxOtJ9X0ZjG5wU'
 product_v2:
@@ -28,14 +27,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
+source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 1%
 ---
 # Consideraciones de Experience Platform Data Mirror
 
 Este artículo describe los factores que debe tener en cuenta al configurar conjuntos de datos de Data Mirror.
+
+## Limitaciones
+
+{{relational-dataset-important}}
 
 ## Nueva columna en la tabla de origen
 
@@ -103,10 +106,6 @@ La diferencia de gobernanza tiene el siguiente impacto:
 
 * Un control y una configuración más manuales funcionan para usted como cliente.
 * Puede necesitar una guía explícita, por lo que no supone que el etiquetado único a través de grupos de campos sea suficiente para un control adecuado.
-
-## Configuración del conjunto de datos
-
-{{relational-dataset-important}}
 
 ## Unión
 

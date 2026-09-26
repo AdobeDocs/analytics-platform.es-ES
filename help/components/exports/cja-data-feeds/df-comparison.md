@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 555aef15933d87e5bbb3e3ec8b15d99a96ac25fe
+source-git-commit: ede5644096e8b1169819fb94399d5360066ca529
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1746'
 ht-degree: 0%
 ---
 # Comparación de fuentes de datos en Customer Journey Analytics y Adobe Analytics
@@ -93,6 +93,7 @@ La siguiente tabla compara los conceptos clave y las opciones de configuración 
 | **Segmentación**<br/> Capacidad para filtrar el resultado de las fuentes de datos mediante segmentos. | La fuente de datos hereda automáticamente los segmentos aplicados a la vista de datos. Los segmentos adicionales también se pueden aplicar directamente a una fuente de datos individual. Para obtener más información, consulte [Segmentación en fuentes de datos](/help/components/exports/cja-data-feeds/df-segmentation.md). | No compatible. Las fuentes de datos exportan todos los datos recopilados sin filtrar los segmentos. |
 | **Métricas calculadas**<br/> Métricas personalizadas que puede crear a partir de métricas existentes. | No admitido | No admitido |
 | **Modelo de persistencia**<br/> Cómo persisten los valores de dimensión de un evento a otro, o si lo hacen. | Flexible. La configuración de persistencia de la vista de datos (asignación y caducidad) se aplica en el momento del informe cuando se genera la fuente. Admite todas las configuraciones de asignación disponibles en una vista de datos: **Original**, **Más reciente**, **Todos**, **Primero conocido** y **Último conocido**. | Solo se representan los modelos de atribución **más reciente (último contacto)** y **valor original (primer contacto)**. La asignación lineal se gestiona del mismo modo que el último contacto. |
+| **Administración de subeventos**<br/> Cómo se representan los subeventos en la salida de la fuente de datos. | Se representa en una sola fila, pero se conserva la jerarquía relacional. Para obtener más información, consulte [Subeventos en fuentes de datos](/help/components/exports/cja-data-feeds/df-sub-event.md). | Se representa en una sola fila como una cadena aplanada y delimitada. El análisis de la cadena requiere una lógica personalizada. |
 | **Formato del archivo de salida**<br/> El formato usado para los archivos de salida de fuentes de datos enviados a su destino de nube. | Parquet<p>Admite de forma nativa datos anidados y estructurados complejos. Los campos como `post_product_list` se representan como matrices estructuradas u objetos anidados. </p><p>Requiere una herramienta compatible con Parquet para leer, como BigQuery, Snowflake o Apache Spark.</p><p>La estructura del esquema está incrustada en el archivo de salida.</p> | TSV<p>Filas planas legibles por humanos. No admite de forma nativa los datos estructurados; los campos complejos, como las listas de productos, deben codificarse como cadenas delimitadas por propiedad que requieran una lógica de análisis personalizada.</p> |
 | **Rutas de archivo de salida**<br/> La estructura de directorio utilizada para los archivos de salida enviados. | Utiliza **rutas de partición de estilo Hive** (por ejemplo, `year=2024/month=01/day=15/`), lo que permite una eliminación eficiente de particiones al consultar datos en entornos de lago de datos como Databricks o Apache Spark. | Utiliza una estructura de directorio plana. No se admiten rutas de estilo Hive. |
 | **Destinos de envío**<br/> Ubicaciones de almacenamiento en la nube a las que se pueden enviar archivos de salida de fuentes de datos. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. <p>También admite **SFTP**.</p> |
