@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
+source-git-commit: 84ab190e018bc6beb9183aba038516b21289e49f
 workflow-type: tm+mt
-source-wordcount: '10488'
-ht-degree: 91%
+source-wordcount: '10597'
+ht-degree: 90%
 ---
 # Crear o editar una conexión {#create-or-edit-a-connection}
 
@@ -850,7 +850,7 @@ La configuración específica para un conjunto de datos ad hoc es:
 
 | Configuración | Tipo de conjunto de datos seleccionado | Descripción |
 |---|---|---|
-| **[!UICONTROL Tipo de conjunto de datos]** | N/D | El tipo de datos del conjunto de datos ad hoc. Los valores posibles son: **[!UICONTROL Evento]**, **[!UICONTROL Perfil]**, **[!UICONTROL Búsqueda]** y **[!UICONTROL Resumen]**. |
+| **[!UICONTROL Tipo de conjunto de datos]** | N/D | El tipo de datos del conjunto de datos ad hoc. Los valores posibles son: **[!UICONTROL Event]**, **[!UICONTROL Profile]** (no disponible para [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}), **[!UICONTROL Lookup]** y **[!UICONTROL Summary]**. Si desea usar datos de perfil ad hoc para una conexión basada en cuenta, seleccione **[!UICONTROL Consulta]** como **[!UICONTROL Tipo de conjunto de datos]** y use **[!UICONTROL Clave]** y **[!UICONTROL Clave coincidente]** para introducir los datos de la cuenta. |
 | **[!UICONTROL ID de la persona]** | Evento, Perfil | Seleccione un campo del esquema ad hoc o relacional que represente el ID de persona. Este campo puede ser cualquier campo del conjunto de datos. Seleccione entre **[!UICONTROL Campos de espacio de nombres de identidad]** o entre **[!UICONTROL Campos que no son de identidad]**. <br/>Solo puede seleccionar un identificador de **[!UICONTROL Espacio de nombres de identidad]** si uno o más de los campos del esquema ad hoc están etiquetados como una identidad y tienen un espacio de nombres de identidad. |
 | **[!UICONTROL Espacio de nombres de identidad]** | Evento | Seleccione un espacio de nombres de identidad en caso de que haya seleccionado un ID de persona de campos **[!UICONTROL que no son de identidad]**. |
 | **[!UICONTROL Marca de tiempo]** | Evento, Resumen | Seleccione un campo del esquema ad hoc que represente el campo de marca de tiempo. Este campo puede ser cualquiera de los campos disponibles de tipo `DateTime`. |
@@ -871,7 +871,7 @@ La configuración específica para un conjunto de datos relacional es la siguien
 
 | Configuración | Tipo de conjunto de datos seleccionado | Descripción |
 |---|---|---|
-| **[!UICONTROL Tipo de conjunto de datos]** | N/D | El tipo de datos del conjunto de datos relacional.<br/>Si el conjunto de datos contiene datos de series temporales, los valores posibles son: **[!UICONTROL Evento]** y **[!UICONTROL Resumen]**. <br/>Si el conjunto de datos contiene datos de registro, los valores posibles son: **[!UICONTROL Perfil]** y **[!UICONTROL Búsqueda]**. |
+| **[!UICONTROL Tipo de conjunto de datos]** | N/D | El tipo de datos del conjunto de datos relacional.<br/>Si el conjunto de datos contiene datos de series temporales, los valores posibles son: **[!UICONTROL Evento]** y **[!UICONTROL Resumen]**. <br/>Si el conjunto de datos contiene datos de registro, los valores posibles son: **[!UICONTROL Perfil]** (no disponible para [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}) y **[!UICONTROL Búsqueda]**. Si desea usar datos de perfil relacionales para una conexión basada en cuenta, seleccione **[!UICONTROL Lookup]** como **[!UICONTROL Tipo de conjunto de datos]** y use **[!UICONTROL Key]** y **[!UICONTROL Matching Key]** para introducir los datos de la cuenta. |
 | **[!UICONTROL ID de la persona]** | Evento, Perfil | Seleccione un campo del esquema relacional que represente el ID de persona. La selección se limita a la lista de campos del esquema relacional que están marcados como Identidad y no tienen un espacio de nombres de identidad. |
 | **[!UICONTROL Marca de tiempo]** | Evento, Resumen | El campo definido como el descriptor de marca de tiempo en el esquema. Este campo se rellena automáticamente. |
 | **[!UICONTROL Clave]** | Búsqueda | La clave que se utiliza para un conjunto de datos de búsqueda.<br/>Si un registro no contiene un valor para la clave seleccionada para el conjunto de datos de búsqueda, se omitirá el registro. |
