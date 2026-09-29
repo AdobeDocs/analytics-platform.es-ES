@@ -2,12 +2,25 @@
 title: Implementar Perspectivas de conversación
 description: Aprenda a instrumentar la aplicación o el servicio de agente para las perspectivas de conversación.
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
-source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2322'
 ht-degree: 6%
 ---
 # Implementar Perspectivas de conversación
@@ -19,19 +32,19 @@ Este artículo documenta los pasos de implementación necesarios.
 >[!PREREQUISITES]
 >
 >* Debe tener un entorno de Experience Platform (organización y zona protegida) disponible para recopilar los datos.
->* Su organización de Adobe debe estar habilitada para los grupos de campo de conversación y agéntico experimental.
+>* Su organización de Adobe debe estar habilitada para los grupos de campos de conversación y agéntico.
 >
 
 ## Esquema y conjuntos de datos
 
-Configure conjuntos de datos para los eventos de conversación principales: solicitud, respuesta, comentarios. Estos conjuntos de datos se pueden basar en el mismo esquema (por ejemplo, un esquema genérico de Perspectivas de conversación) o en esquemas individuales.
-Puede definir conjuntos de datos independientes para preguntas, respuestas y comentarios, o bien combinar datos en conjuntos de datos. Por ejemplo, utilice un conjunto de datos para preguntas y respuestas y otro conjunto de datos para comentarios. O bien, utilice un solo conjunto de datos para todos los eventos de conversación.
+Configure conjuntos de datos para los eventos de conversación principales: solicitud, respuesta, comentarios. Los conjuntos de datos de solicitud, respuesta y comentarios deben ampliar el esquema base de XDM Experience Event con el [grupo de campos Evento de conversación](#conversation-event-field-group) y, opcionalmente, pueden incluir el [grupo de campos Información de agente](#agentic-information-field-group) y otros [grupos de campos adicionales](#additional-field-groups).
 
-El esquema utilizado para los conjuntos de datos de mensajes, respuestas y comentarios debe ampliar el esquema base de XDM Experience Event con los grupos de campos obligatorios. Y puede ampliar el esquema base de evento de experiencia XDM con grupos de campos adicionales.
+Puede definir conjuntos de datos independientes para preguntas, respuestas y comentarios, o bien combinar datos en conjuntos de datos. Por ejemplo, utilice un conjunto de datos para preguntas y respuestas y otro conjunto de datos para comentarios. O bien, utilice un solo conjunto de datos para todos los eventos de conversación.
+Utilice el mismo esquema subyacente para los conjuntos de datos.
 
 ### Grupo de campos Información de agente
 
-El grupo de campos **[!UICONTROL Información de agente]** es un grupo de campos obligatorio y usa el objeto `agenticExperience`.
+El grupo de campos **[!UICONTROL Información de agente]** es un grupo de campos opcional y utiliza el objeto `agenticExperience`. Considere utilizar este grupo de campos si desea rastrear información auténtica.
 
 +++ Detalles
 
@@ -203,7 +216,7 @@ El objeto de conversación captura datos para:
 
 #### Conversación
 
-Un(a) `conversationID` único(a) identifica una conversación. Por ejemplo: `conversationID = "conv-001"`. El esquema también admite `conversationName`. Un nombre legible en lenguaje natural que describe el contexto general de la conversación, como: `France Geography Q&A`.
+Un(a) `conversationID` único(a) identifica una conversación. Por ejemplo: `conversationID = "conv-001"`. El esquema también admite `conversationName`. Un nombre legible en lenguaje natural que describe el contexto general de la conversación, como: `France Geography Q&A`. El nombre de la conversación se genera automáticamente, pero puede actualizar el nombre generado. El nombre de la conversación también se rellena en `signals[].name`.
 
 `conversationID` permite que todos los eventos de turnos relacionados se agrupen en la misma experiencia de conversación.
 
@@ -216,7 +229,7 @@ Un giro es un ciclo de interacción dentro de una conversación.
 `conversationID = "conv-001"`
 `turnID = "turn-001"`
 
-Se usan los mismos `conversationID` y `turnID` para correlacionar el aviso, la respuesta y los comentarios asociados con ese turno. Esa correlación funciona en registros que se entregan por separado o que terminan en diferentes conjuntos de datos.
+Se usan los mismos `conversationID` y `turnID` para correlacionar el aviso, la respuesta y los comentarios asociados con ese turno. Esa correlación funciona en registros que se entregan por separado o que terminan en diferentes conjuntos de datos. Un(a) `turnId` solamente necesita ser único(a) dentro de la misma conversación, pero puede reutilizarse en todas las conversaciones. Por ejemplo, puede tener a `turn-001` como `turnID` en conversaciones con `conversationID` `conv-001` y `conv-002`.
 
 
 #### Preguntar
@@ -231,7 +244,7 @@ Los campos de solicitud importantes incluyen:
 |---|---|
 | `prompt.source` | Quién o qué produjo el mensaje, normalmente usuario final. |
 | `prompt.raw[]` | Uno o más segmentos de contenido sin procesar. |
-| `prompt.raw[].text` | El texto o contenido real del mensaje. |
+| `prompt.raw[].text` | El texto real del mensaje o el vínculo al contenido (por ejemplo, una captura de pantalla). |
 | `prompt.raw[].purpose` | El propósito del contenido, como la entrada del usuario o el vínculo. |
 
 Una solicitud puede contener varios segmentos sin procesar. Por ejemplo, un usuario introduce texto e incluye una dirección URL.
@@ -257,6 +270,8 @@ Los campos de respuesta importantes incluyen:
 | `response.raw[].purpose` | El propósito del segmento de contenido. |
 
 Los tipos de fuentes documentados incluyen:
+
+<!-- randy buck to provide additional details -->
 
 | Fuente | Significado |
 |---|----|
@@ -287,7 +302,9 @@ Cuando los comentarios se apliquen a un turno en particular, conserva los `conve
 
 #### Señal
 
-Una señal es una observación analítica estructurada acerca del contenido de una conversación. El servicio de extracción de señales extrae señales.
+Una señal es una observación analítica estructurada acerca del contenido de una conversación. El servicio Signal proporciona señales listas para usarse. No se requiere ninguna acción para proporcionar señales, pero puede agregarlas como parte de la integración.
+
+<!-- randy buck to provide additional details -->
 
 Una señal tiene los siguientes campos.
 
@@ -360,9 +377,6 @@ Consulte a continuación todos los detalles de un objeto de conversación.
 
 +++
 
-
-
-
 ### Grupos de campo adicionales
 
 Puede agregar grupos de campos opcionales al esquema que utiliza para los conjuntos de datos de solicitud, respuesta y comentarios. Por ejemplo:
@@ -382,9 +396,9 @@ Debe establecer uno de los siguientes valores para `eventType` (cadena) para cad
 
 | Valor | Explicación |
 |---|---|
-| `conversation turn` | Turno de conversación completo con petición y respuesta |
-| `conversation recommendation` | Recomendación basada en la conversación |
-| `conversation feedback` | Evento de solo comentarios |
+| `conversation.turn` | Turno de conversación completo con petición y respuesta |
+| `conversation.recommendation` | Recomendación basada en la conversación |
+| `conversation.feedback` | Evento de solo comentarios |
 
 
 ### Tipo de Source
@@ -401,6 +415,8 @@ Debe establecer uno de los siguientes valores para `source` para cada objeto `pr
 ### Tipo de propósito (texto sin procesar)
 
 Debe establecer uno de los siguientes valores para el atributo `purpose` en cualquier elemento del objeto `raw` en un objeto `prompt`, `response` o `feedback`.
+
+<!-- randy buck to provide details -->
 
 | Valor | Descripción |
 |---|---|

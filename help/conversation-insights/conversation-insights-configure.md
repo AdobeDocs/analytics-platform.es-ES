@@ -2,18 +2,31 @@
 title: Crear O Editar Una Configuración De Perspectivas De Conversación
 description: Obtenga información sobre cómo configurar las configuraciones de Perspectivas de conversación.
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
-source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 8%
+source-wordcount: '654'
+ht-degree: 7%
 ---
-# Crear o editar una configuración
+# Crear o editar configuraciones
 
-
-Conversation Insights le permite analizar conversaciones (de modelos de lenguaje grande (LLM) o humanos) a escala y dar contexto a esas conversaciones dentro del recorrido completo del cliente. A través de Conversation Insights, puede comprender el impacto de los representantes en los resultados reales del usuario.
+Conversation Insights le permite analizar las conversaciones a partir de las experiencias de agente que ofrece a sus clientes. Estas experiencias del agente pueden basarse en modelos de lenguaje de gran tamaño (LLM) o en conversaciones humanas. Por ejemplo, un bot de chat que interactúa con un cliente o un centro de llamadas transcribe.
+A través de Conversation Insights, puede comprender el impacto de los representantes en los resultados reales del usuario.
 
 A través de la interfaz de configuración de Perspectivas de conversación puede crear o editar rápidamente una configuración y los artefactos asociados (conexión, vistas de datos, etc.).
 
@@ -88,7 +101,7 @@ Para cada configuración:
 
    * Seleccione **[!UICONTROL Descartar]** para una nueva configuración que no se haya creado.
 
-   * Seleccione **[!UICONTROL Guardar para más tarde]** para una nueva configuración que desee guardar pero para la que no desee crear el artefacto (por ejemplo, actualizaciones de vistas de datos). Para poder volver a consultar la configuración más tarde y finalizar la creación real de la configuración.
+   * Seleccione **[!UICONTROL Guardar para más tarde]** para una nueva configuración que desee guardar pero para la que no desee crear el artefacto (por ejemplo, actualizaciones de vistas de datos). Puede volver a consultar la configuración más tarde y finalizar la creación real de la configuración.
 
    * Seleccione **[!UICONTROL Crear]** para crear la nueva configuración.
 
