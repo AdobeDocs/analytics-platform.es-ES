@@ -32,7 +32,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta las visualizaciones de barras y barras apiladas en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Barra y barra apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bar) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_Este artículo documenta las visualizaciones de barras y barras apiladas en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Barra y barra apilada](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/bar) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
 
 
 >[!ENDSHADEBOX]

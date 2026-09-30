@@ -35,7 +35,7 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de dispersión en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vea [Scatter](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de dispersión en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vea [Scatter](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ La visualización ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICON
 
 
 
-![Ejemplo de diagrama de puntos que muestra varios elementos de dimensión ](assets/scatter.png)
+![Ejemplo de diagrama de puntos que muestra varios elementos de dimensión &#x200B;](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
