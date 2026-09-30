@@ -18,15 +18,15 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 7%
+source-wordcount: '824'
+ht-degree: 20%
 ---
 # Crear o editar configuraciones
 
 Conversation Insights le permite analizar las conversaciones a partir de las experiencias de agente que ofrece a sus clientes. Estas experiencias del agente pueden basarse en modelos de lenguaje de gran tamaño (LLM) o en conversaciones humanas. Por ejemplo, un bot de chat que interactúa con un cliente o un centro de llamadas transcribe.
-A través de Conversation Insights, puede comprender el impacto de los representantes en los resultados reales del usuario.
+A través de Conversation Insights, puede comprender el impacto de los agentes en los resultados reales del usuario.
 
 A través de la interfaz de configuración de Perspectivas de conversación puede crear o editar rápidamente una configuración y los artefactos asociados (conexión, vistas de datos, etc.).
 
@@ -114,7 +114,47 @@ Para cada configuración:
 
 ## Verificación de vista de datos
 
-(Explicar las métricas y dimensiones que ve de los conjuntos de datos relevantes)
+Las vistas de datos que configuró en [Pasos de configuración](#configuration-steps) tienen **[!UICONTROL Perspectivas de conversación]** como valor para **[!UICONTROL Integraciones]** en [Vistas de datos](/help/data-views/manage-dataviews.md).
+
+Para cada una de las vistas de datos configuradas:
+
+* **Contenedores**: La [pestaña Contenedores](/help/data-views/create-dataview.md#containers) contiene un nuevo **[!UICONTROL Nombre de contenedor]**: **[!UICONTROL conversación]** con **[!UICONTROL Nombre para mostrar]**: **[!UICONTROL Contenedor]** como un **[!UICONTROL Sistema]** **[!UICONTROL Tipo de contenedor]** adicional.
+* **Componentes**: verá carpetas de campo de esquema adicionales. Por ejemplo: agentExperience y conversación. Además, se añaden automáticamente los siguientes componentes:
+
+  | Métricas | Tipo de datos del esquema | Ruta de esquema |
+  |---|---|---|
+  | Comentarios de clientes | Cadena | eventType |
+  | Opiniones positivas | Cadena | Campos derivados |
+  | Recomendaciones | Cadena | eventType |
+  | Turnos | Cadena | eventType |
+
+  | Dimensiones | Tipo de datos del esquema | Ruta de esquema |
+  |---|---|---|
+  | ID de agente | Cadena | `agenticExperience.agents.agentID` |
+  | Nombre del agente | Cadena | `agenticExperience.agents.name` |
+  | Nombre del conserje | Cadena | `agenticExperience.name` |
+  | Versión del conserje | Cadena | `agenticExperience.version` |
+  | ID de conversación | Cadena | `conversation.conversationID` |
+  | Nombre de la conversación | Cadena | `conversation.conversationName` |
+  | Nombre de la señal de conversación | Cadena | `conversation.signals.name` |
+  | Valor booleano de resumen de conversación | Booleano | `conversation.signals.values.booleanValue` |
+  | Confianza del resumen de conversación | Doble | `conversation.signals.values.confidence` |
+  | Clave de metadatos de resumen de conversación | Cadena | `conversation.signals.values.metadata.key` |
+  | Valor del número de resumen de conversación | Doble | `conversation.signals.values.numberValue` |
+  | Cualificadores de resumen de conversación | Cadena | `conversation.signals.values.qualifiers` |
+  | Señales de tono de conversación | Cadena | `conversation.signals.attributes.tones.values` |
+  | Entorno | Cadena | `agenticExperience.environment` |
+  | Clasificación de comentarios | Cadena | Campos derivados |
+  | Clasificación de valoración de comentarios | Cadena | `conversation.feedback.rating.classification` |
+  | Objetivo de la sección de comentarios | Cadena | `conversation.feedback.raw.purpose` |
+  | Fuente de los comentarios | Cadena | `conversation.feedback.source` |
+  | Frase | Cadena | `conversation.signals.attributes.subjects.values.phrase` |
+  | Texto sin formato de respuesta | Cadena | `conversation.response.raw.text` |
+  | Fuente de la respuesta | Cadena | `conversation.response.source` |
+  | Clasificación de sentimientos | Cadena | Campos derivados |
+  | Nombre de la habilidad | Cadena | `agenticExperience.agents.skills.name` |
+  | Versión de habilidad | Cadena | `agenticExperience.agents.skills.version` |
+  | Valor | Cadena | `agenticExperience.agents.skills.parameters.value` |
 
 
 <!--
