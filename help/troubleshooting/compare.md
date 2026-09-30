@@ -6,28 +6,39 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: servicio de consultas;Servicio de consultas;sintaxis sql
-TQID: https://experienceleague.adobe.com/WT2Phz0aaiJ0Jp403fr6byx9QkncKjvRJpxl9yxPKLE
+TQID: 'https://experienceleague.adobe.com/WT2Phz0aaiJ0Jp403fr6byx9QkncKjvRJpxl9yxPKLE'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: cbc7b6aa-4963-4ebf-9bb9-963336957623
+    internal-label: Troubleshooting
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Troubleshooting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 770
+source-wordcount: '770'
 ht-degree: 100%
-
 ---
-
 # Comparación de datos del conector fuente de Analytics con Adobe Analytics
 
 A medida que su organización adopta Customer Journey Analytics, es posible que observe algunas diferencias en los datos entre Adobe Analytics y Customer Journey Analytics. Estas diferencias son normales y pueden ocurrir por varias razones. Customer Journey Analytics se ha diseñado para que pueda mejorar algunas de las limitaciones de sus datos en Adobe Analytics. Esta flexibilidad puede causar algunas diferencias en la forma en que Customer Journey Analytics interpreta los datos. Utilice este artículo para conocer las posibles diferencias en el modo en que Customer Journey Analytics y Adobe Analytics tratan los datos.
@@ -55,7 +66,7 @@ Tenga en cuenta las siguientes posibles razones por las que los datos pueden dif
 
 Si todos los ajustes anteriores parecen similares y desea validar al menos el número de registros entre productos, puede seguir estos pasos:
 
-1. En los [Servicios de consulta](https://experienceleague.adobe.com/es/docs/experience-platform/query/home) de Adobe Experience Platform, ejecute la siguiente consulta Registros totales por marcas de tiempo:
+1. En el [Servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/home) de Adobe Experience Platform, ejecute la siguiente consulta Registros totales por marcas de tiempo:
 
    ```sql
    SELECT
@@ -73,9 +84,9 @@ Si todos los ajustes anteriores parecen similares y desea validar al menos el n�
 1. En [Fuentes de datos](https://experienceleague.adobe.com/es/docs/analytics/export/analytics-data-feed/data-feed-overview) de Adobe Analytics, genere archivos de fuentes para el intervalo de fechas deseado. Cuente el número de filas dentro de cada archivo, identificando y excluyendo las siguientes filas:
 
    * `exclude_hit` no es `0` (datos excluidos de Analysis Workspace en ambos productos)
-   * `hit_source` es `0`, `3`, `5`, `7`, `8`, `9` o `10` (fuentes de datos y otros datos que no son de visitas)
-   * `page_event` es `53` o `63` (visitas persistentes de medios de streaming)
+   * `hit_source` es `0`, `3`, `5`, `7`, `8`, `9` o `10` (fuentes de datos y otros datos que no son de hits)
+   * `page_event` es `53` o `63` (hits persistentes de medios de streaming)
 
    Las filas que coincidan con cualquiera de los criterios anteriores se excluirán del flujo de trabajo de ingesta del conector fuente de Analytics y, por lo tanto, también deben excluirse cuando se cuenten las filas de fuentes de datos.
 
-1. El total de registros de los Servicios de consultas debe coincidir con el número de filas de una fuente de datos durante el mismo período de tiempo.
+1. El total de registros del servicio de consultas debe coincidir con el número de filas de una fuente de datos durante el mismo período de tiempo.

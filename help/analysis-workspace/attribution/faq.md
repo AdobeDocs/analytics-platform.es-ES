@@ -4,24 +4,32 @@ description: Obtenga respuestas a las preguntas más frecuentes sobre atribució
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-TQID: https://experienceleague.adobe.com/AY9LM5Beia2e9FrGZ5gF3Ao6qVzIe3raOQuB9qP-rOg
+TQID: 'https://experienceleague.adobe.com/AY9LM5Beia2e9FrGZ5gF3Ao6qVzIe3raOQuB9qP-rOg'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+    internal-label: Attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ef7ee8a74e952e5e462f9d71ae9bd9d7a23378b1
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 186
+source-wordcount: '186'
 ht-degree: 6%
-
 ---
-
 # Preguntas frecuentes
 
 Aquí encontrará respuestas a las preguntas más frecuentes acerca de la atribución.

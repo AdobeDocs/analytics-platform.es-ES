@@ -8,33 +8,50 @@ autotag-review: '2026-05-19T09:53:49.596Z'
 TQID: 'https://experienceleague.adobe.com/Yt2CmGRpO6s8natf9s-KLsMBKHc-qdSQHvi3UyPyLgg'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 3921
+source-wordcount: '3921'
 ht-degree: 48%
-
 ---
-
 # Asignación de columnas de fuentes de datos de Adobe Analytics a Customer Journey Analytics
 
 {{release-limited-testing}}
@@ -298,7 +315,7 @@ El tipo de cambio cuando se produjo la transacción. Adobe se asocia con XE para
 
 +++**`customer_perspective`**
 
-Determina si la visita fue una visita móvil en segundo plano.
+Determina si el hit fue un hit móvil en segundo plano.
 
 {{cja-df-post}}
 
@@ -336,7 +353,7 @@ Profundidad de bits de la paleta de colores. Se utiliza en el cálculo de la dim
 
 +++**`daily_visitor`**
 
-Un indicador que determina si la visita es un visitante nuevo diario.
+Un indicador que determina si el hit es un visitante nuevo diario.
 
 +++
 
@@ -374,7 +391,7 @@ Habilitar **[!UICONTROL búsqueda de red]** al [configurar una secuencia de dato
 
 +++**`duplicated_from`**
 
-Solo se utiliza en los grupos de informes que contienen las reglas de VISTA de copia de visita. Indica de qué grupo de informes se copió la visita.
+Solo se utiliza en los grupos de informes que contienen las reglas de VISTA de copia de hit. Indica de qué grupo de informes se copió el hit.
 
 {{cja-df-na}}
 
@@ -459,7 +476,7 @@ Si desea anular la duplicación de la métrica Pedidos, consulte `duplicate_purc
 
 +++**`exclude_hit`**
 
-Un indicador que determina si la visita se excluye de la creación de informes. La columna `visit_num` no aumenta con las visitas excluidas.
+Un indicador que determina si el hit se excluye de la creación de informes. La columna `visit_num` no aumenta con las visitas excluidas.
 
 Customer Journey Analytics no acepta &quot;visitas excluidas&quot; de forma predeterminada. Sin embargo, puede volver a crear esta funcionalidad si tiene un campo XDM que marca determinadas visitas que se deben excluir:
 
@@ -506,7 +523,7 @@ Un ID numérico que representa el tipo de referente del primer referente del vis
 
 +++**`first_hit_time_gmt`**
 
-Marca de tiempo de la primera visita del visitante en tiempo UNIX®.
+Marca de tiempo del primer hit del visitante en tiempo UNIX®.
 
 +++
 
@@ -542,13 +559,13 @@ El código postal del que provino la visita basada en la dirección IP. Ayuda a 
 
 +++**`hitid_high`**
 
-Se utiliza en combinación con `hitid_low` para identificar una visita.
+Se utiliza en combinación con `hitid_low` para identificar un hit.
 
 +++
 
 +++**`hitid_low`**
 
-Se utiliza en combinación con `hitid_high` para identificar una visita.
+Se utiliza en combinación con `hitid_high` para identificar un hit.
 
 +++
 
@@ -560,13 +577,13 @@ Indica la fuente de la que provino la visita. Se facturan las fuentes de visitas
 
 +++**`hit_time_gmt`**
 
-La marca de tiempo de los servidores de recopilación de datos de visitas de Adobe que recibieron la visita, basada en el tiempo UNIX®.
+La marca de tiempo de los servidores de recopilación de datos de hits de Adobe que recibieron el hit, basada en el tiempo UNIX®.
 
 +++
 
 +++**`hourly_visitor`**
 
-Un indicador que determina si la visita es un visitante nuevo por hora.
+Un indicador que determina si el hit es un visitante nuevo por hora.
 
 +++
 
@@ -971,7 +988,7 @@ Valores de variable de lista. Contiene una lista delimitada de valores personali
 
 +++**`mvvar1_instances`** - **`mvvar3_instances`**
 
-Los valores de variable de lista que se establecieron en la visita actual. Reemplaza el delimitador original por `--**--`. Las columnas `post` no suelen contener datos.
+Los valores de variable de lista que se establecieron en el hit actual. Reemplaza el delimitador original por `--**--`. Las columnas `post` no suelen contener datos.
 
 {{cja-df-post}}
 
@@ -979,7 +996,7 @@ Los valores de variable de lista que se establecieron en la visita actual. Reemp
 
 +++**`new_visit`**
 
-Un indicador que determina si la visita actual es una visita nueva. Configurado por Adobe tras 30 minutos de inactividad de la visita.
+Un indicador que determina si el hit actual es una visita nueva. Configurado por Adobe tras 30 minutos de inactividad de la visita.
 
 +++
 
@@ -1017,7 +1034,7 @@ Similar a `pagename`, excepto que no vuelve a `page_url`. Solo la columna `post`
 
 +++**`page_event`**
 
-El tipo de visita que se envía en la solicitud de imagen (visita estándar, vínculo de descarga, vínculo personalizado, vínculo de salida).
+El tipo de hit que se envía en la solicitud de imagen (hit estándar, vínculo de descarga, vínculo personalizado, vínculo de salida).
 
 {{cja-df-post}}
 
@@ -1059,7 +1076,7 @@ La dimensión Páginas no encontradas, que generalmente se utiliza para 404 pág
 
 +++**`paid_search`**
 
-Un indicador que se determina si la visita coincide con la detección de búsquedas de pago.
+Un indicador que se determina si el hit coincide con la detección de búsquedas de pago.
 
 +++
 
@@ -1115,7 +1132,7 @@ Identificador único de una compra, tal y como se establece mediante la variable
 
 +++**`quarterly_visitor`**
 
-Un indicador que determina si la visita es un visitante nuevo trimestral.
+Un indicador que determina si el hit es un visitante nuevo trimestral.
 
 +++
 
@@ -1166,7 +1183,7 @@ Lo utiliza la dimensión Rango de todas las páginas de búsqueda. Indica en qu�
 
 +++**`secondary_hit`**
 
-Un indicador que determina si la visita es una visita secundaria. Por lo general, este indicador se origina a partir del etiquetado de grupos múltiples y las reglas de VISTA que copian las visitas.
+Un indicador que determina si el hit es un hit secundario. Por lo general, este indicador se origina a partir del etiquetado de grupos múltiples y las reglas de VISTA que copian los hits.
 
 +++
 
@@ -1178,7 +1195,7 @@ ID de origen
 
 +++**`stats_server`**
 
-Sin uso. Servidor interno de Adobe que ha procesado la visita.
+Sin uso. Servidor interno de Adobe que ha procesado el hit.
 
 +++
 
@@ -1206,7 +1223,7 @@ Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas pa
 
 +++**`tnt_action`**
 
-Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas para las que se calificó la visita.
+Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas para las que se calificó el hit.
 
 {{cja-df-post}}
 
@@ -1250,7 +1267,7 @@ Sin uso. ID numérico del ID del grupo de informes. Utilice `username` en su lug
 
 +++**`username`**
 
-ID del grupo de informes para la visita.
+ID del grupo de informes para el hit.
 
 +++
 
@@ -1660,7 +1677,7 @@ Se utiliza con `visid_high` para identificar un visitante de forma exclusiva.
 
 +++**`visid_new`**
 
-Un indicador que determina si la visita contiene un ID de visitante recién generado.
+Un indicador que determina si el hit contiene un ID de visitante recién generado.
 
 +++
 
@@ -1740,19 +1757,19 @@ URL de la primera visita individual de la visita.
 
 +++**`visit_start_time_gmt`**
 
-Marca de tiempo (en tiempo UNIX®) de la primera visita.
+Marca de tiempo (en tiempo UNIX®) del primer hit de la visita.
 
 +++
 
 +++**`weekly_visitor`**
 
-Indicador que determina si la visita es un visitante nuevo semanal.
+Indicador que determina si el hit es un visitante nuevo semanal.
 
 +++
 
 +++**`yearly_visitor`**
 
-Indicador que determina si la visita es un visitante nuevo anual.
+Indicador que determina si el hit es un visitante nuevo anual.
 
 +++
 

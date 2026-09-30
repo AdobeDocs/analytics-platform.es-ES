@@ -5,26 +5,37 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-TQID: https://experienceleague.adobe.com/jqpqcNM8eOP0Te1t6-l0Mt5HvxhGzB8xMBxb1I-5GPM
+TQID: 'https://experienceleague.adobe.com/jqpqcNM8eOP0Te1t6-l0Mt5HvxhGzB8xMBxb1I-5GPM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
+  - id: d494f34f-674c-496a-a400-b33552b95463
+    internal-label: Adobe Product Analytics
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
+    internal-label: Optimization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 100%
-
 ---
-
 # Análisis de [!UICONTROL tendencias de conversión] {#conversion-trends}
 
 <!-- markdownlint-disable MD034 -->
@@ -45,8 +56,8 @@ El análisis de ![Tendencias de conversión](/help/assets/icons/ConversionTrends
 
 Los casos de uso de este análisis incluyen:
 
-* **Rastrear esfuerzos de optimización**: después de identificar los cuellos de botella clave que desea mejorar mediante el análisis de [Canal](funnel.md), puede utilizar este análisis para rastrear cómo esas optimizaciones afectan la tasa de conversión a lo largo del tiempo.
-* **Evaluación de pruebas A/B**: evalúe la eficacia de pruebas A/B o experimentos realizados en el contexto de un canal. Al comparar las tasas de conversión entre diferentes variaciones, puede determinar fácilmente qué pruebas proporcionan tasas de conversión más altas, lo que lleva a decisiones basadas en datos sobre qué variaciones implementar de forma permanente.
+* **Rastrear esfuerzos de optimización**: después de identificar los cuellos de botella clave que desea mejorar mediante el análisis de [embudo](funnel.md), puede utilizar este análisis para rastrear cómo esas optimizaciones afectan la tasa de conversión a lo largo del tiempo.
+* **Evaluación de pruebas A/B**: evalúe la eficacia de pruebas A/B o experimentos realizados en el contexto de un embudo. Al comparar las tasas de conversión entre diferentes variaciones, puede determinar fácilmente qué pruebas proporcionan tasas de conversión más altas, lo que lleva a decisiones basadas en datos sobre qué variaciones implementar de forma permanente.
 * **Evaluación de las campañas a lo largo del tiempo**: mida la eficacia de las campañas de marketing a lo largo del tiempo. Puede crear un segmento que se centre en los usuarios que hayan utilizado una campaña determinada y comparar sus tasas de conversión con las de otras campañas. También puede comparar las tasas de conversión actuales con campañas similares que se ejecutaron en el pasado.
 
 ## Interfaz
@@ -57,21 +68,21 @@ Consulte [Interfaz](../overview.md#interface) para obtener información general 
 
 El carril de consulta permite configurar los siguientes componentes:
 
-* **[!UICONTROL Vista]**: cambie entre este análisis y [Canal](funnel.md).
+* **[!UICONTROL Vista]**: cambie entre este análisis y [embudo](funnel.md).
 * **[!UICONTROL Pasos]**: los puntos de contacto del evento que desea rastrear. Cada barra del gráfico representa un paso. Se pueden incluir hasta diez pasos.
 * **[!UICONTROL Contabilizado como]**: método de contabilización que desea aplicar a los eventos seleccionados. Las opciones incluyen [!UICONTROL Usuarios] y [!UICONTROL Sesiones].
-* **[!UICONTROL Segmentos]**: los segmentos con los que desea comparar el canal. Cada segmento seleccionado divide cada paso en varias barras. Cada color representa un segmento diferente. Se pueden incluir hasta tres segmentos.
+* **[!UICONTROL Segmentos]**: los segmentos con los que desea comparar el embudo. Cada segmento seleccionado divide cada paso en varias barras. Cada color representa un segmento diferente. Se pueden incluir hasta tres segmentos.
 
 ### Configuración del gráfico
 
 El análisis de [!UICONTROL Tendencias de conversión] ofrece la siguiente configuración de gráfico, que se puede ajustar en el menú situado encima del gráfico:
 
 * **[!UICONTROL Tipo de gráfico]**: el tipo de visualización que desea utilizar. Las opciones incluyen [!UICONTROL Línea].
-* **[!UICONTROL Conversión de]**: determina el cálculo de porcentaje de un paso a otro. Las opciones incluyen calcular la conversión desde el [!UICONTROL Primer paso] o [!UICONTROL Paso anterior].
+* **[!UICONTROL Conversión de]**: determina el cálculo de porcentaje de un paso a otro. Las opciones incluyen calcular la conversión desde el [!UICONTROL Primer paso] o desde el [!UICONTROL Paso anterior].
 
 >[!NOTE]
 >
->La columna **Promedio** de la tabla de análisis de tendencias de conversión difiere de la columna **Total** de la tabla [Análisis de canal](funnel.md). La primera es una media de las columnas de intervalo (por ejemplo, la media de las tasas de conversión diarias), mientras que la segunda es un cálculo añadido en todo el intervalo de fechas.
+>La columna **Promedio** de la tabla de análisis de tendencias de conversión difiere de la columna **Total** de la tabla [Análisis de embudo](funnel.md). La primera es una media de las columnas de intervalo (por ejemplo, la media de las tasas de conversión diarias), mientras que la segunda es un cálculo añadido en todo el intervalo de fechas.
 
 ### Comparación del tiempo
 

@@ -5,13 +5,23 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 hide: true
-source-git-commit: e1c7ffa9a2ac58717ee0050d4e7019b6f3f94518
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+subfeature_v2:
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2474'
 ht-degree: 13%
-
 ---
-
 # Búsquedas compartidas
 
 En Customer Journey Analytics, un conjunto de datos de búsqueda enriquece los datos de evento con contexto adicional. Por ejemplo, un conjunto de datos del catálogo de productos que agrega nombres de productos, categorías y precios a los eventos de compra. O un conjunto de datos de metadatos de campaña que agregue detalles de campaña a los eventos de marketing.
@@ -96,7 +106,7 @@ Los datos de ejemplo para cada conjunto de datos:
 
 >[!TAB Eventos]
 
-| Marca de tiempo | ID de la persona | ID de cuenta | ID de cuenta global | ID de oportunidad | Página |
+| Marca de tiempo | ID de persona | ID de cuenta | ID de cuenta global | ID de oportunidad | Página |
 |---|---|---|---|---|---|
 | 2025-01-29 07:01:57 | P-ABC | A-123 | A-123 | O-432 | Página principal |
 | 2025-02-28 05:32:13 | P-ABC | A-123 | A-123 | O-432 | Widget |
@@ -107,7 +117,7 @@ Los datos de ejemplo para cada conjunto de datos:
 
 >[!TAB Perfil]
 
-| ID de la persona | Nombre | ID de cuenta | ID de cuenta global |
+| ID de persona | Nombre | ID de cuenta | ID de cuenta global |
 |---|---|---|---|
 | P-ABC | John | A-123 | A-123 |
 | P-EFG | Kate | A-123 | A-123 |
@@ -124,7 +134,7 @@ Los datos de ejemplo para cada conjunto de datos:
 
 >[!TAB Perfil de oportunidad]
 
-| ID de la persona | ID de oportunidad | ID de cuenta global |
+| ID de persona | ID de oportunidad | ID de cuenta global |
 |---|---|---|
 | P-ABC | O-432 | A-123 |
 | P-ABC | O-543 | A-123 |
@@ -168,7 +178,7 @@ Para hacer coincidir las oportunidades con las cuentas, utilice el contenedor de
 
 >[!TAB Datos de evento]
 
-| Marca de tiempo | ID de la persona | ID de cuenta | ID de cuenta global | ID de oportunidad ![Link](/help/assets/icons/Link.svg) | Página |
+| Marca de tiempo | ID de persona | ID de cuenta | ID de cuenta global | ID de oportunidad ![Link](/help/assets/icons/Link.svg) | Página |
 |---|---|---|---|---|---|
 | 2025-01-29 07:01:57 | P-ABC | A-123 | A-123 | **O-432** | Página principal |
 | 2025-02-28 05:32:13 | P-ABC | A-123 | A-123 | **O-432** | Widget |
@@ -201,7 +211,7 @@ Para hacer coincidir las oportunidades con las cuentas, utilice el contenedor de
 
 >[!TAB Eventos]
 
-| Marca de tiempo | ID de la persona | ID de cuenta ![Link](/help/assets/icons/Link.svg) | ID de cuenta global | ID de oportunidad | Página |
+| Marca de tiempo | ID de persona | ID de cuenta ![Link](/help/assets/icons/Link.svg) | ID de cuenta global | ID de oportunidad | Página |
 |---|---|---|---|---|---|
 | 2025-01-29 07:01:57 | P-ABC | **A-123** | A-123 | O-432 | Página principal |
 | 2025-02-28 05:32:13 | P-ABC | **A-123** | A-123 | O-432 | Widget |
@@ -282,7 +292,7 @@ En lugar de buscar coincidencias por contenedor, también puede optar por buscar
 
 >[!TAB Eventos]
 
-| Marca de tiempo | ID de la persona | ID de cuenta | ID de cuenta global | ID de oportunidad ![Link](/help/assets/icons/Link.svg) | Página |
+| Marca de tiempo | ID de persona | ID de cuenta | ID de cuenta global | ID de oportunidad ![Link](/help/assets/icons/Link.svg) | Página |
 |---|---|---|---|---|---|
 | 2025-01-29 07:01:57 | P-ABC | **A-123** | A-123 | **O-432** | Página principal |
 | 2025-02-28 05:32:13 | P-ABC | **A-123** | A-123 | **O-432** | Widget |
@@ -314,7 +324,7 @@ En lugar de buscar coincidencias por contenedor, también puede optar por buscar
 
 >[!TAB Perfil]
 
-| ID de la persona | Nombre | ID de cuenta ![Link](/help/assets/icons/Link.svg) | ID de cuenta global |
+| ID de persona | Nombre | ID de cuenta ![Link](/help/assets/icons/Link.svg) | ID de cuenta global |
 |---|---|---|---|
 | P-ABC | John | **A-123** | A-123 |
 | P-EFG | Kate | **A-123** | A-123 |

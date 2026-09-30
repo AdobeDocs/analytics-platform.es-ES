@@ -4,13 +4,22 @@ keywords: flujo de navegación;fuente de datos;fuente de datos;Fuente de datos
 title: Comparación de la funcionalidad de las fuentes de datos en Customer Journey Analytics y Adobe Analytics
 feature: Components
 hide: true
-source-git-commit: 7fe885e928c495a2518038645ec841229d1f1852
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
-
 ---
-
 # Comprender las discrepancias de datos entre las fuentes de datos y Analysis Workspace
 
 {{release-limited-testing}}

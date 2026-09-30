@@ -10,30 +10,46 @@ autotag-review: '2026-05-19T08:05:36.015Z'
 TQID: 'https://experienceleague.adobe.com/bPTcvFJRFMoTueec6I8Dtk1ajv5qrmZhHfLVycDLuBw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
   - id: d3f42e9e-bb51-4077-a732-358b801d8b29
+    internal-label: Customer Journey Analytics B2B
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: e8abc408-b05c-427f-9e37-f8b033a6b3c3
+    internal-label: Schema
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: addf009e-030a-4310-8534-776a3e62ed48
+    internal-label: Customer lifecycle
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 94%
-
 ---
-
 # Customer Journey Analytics B2B Edition
 
 {{b2b-edition}}
@@ -54,7 +70,7 @@ Las características típicas de las ventas B2B son:
 
 El marketing B2B se centra en optimizar los puntos de contacto y reducir el ciclo de compra y consideración. Dado que los ciclos de ventas B2B dependen en gran medida de las reuniones presenciales, las interacciones sin conexión, como los eventos en directo, y el trabajo con grupos de compra, los datos digitales basados en personas por sí solos no son suficientes. Las organizaciones B2B complementan esto con datos de sistemas CRM y soluciones especializadas. Sin embargo, los componentes de marketing B2C tradicionales, las lecturas de vínculos, las campañas, los canales y los visitantes del sitio siguen desempeñando un papel crucial en el marketing B2B.
 
-Las ventas y el marketing B2B han evolucionado más allá de los canales tradicionales de generación de posibles clientes para centrarse en los ciclos de vida de los clientes y los grupos de compra. Este cambio refleja la naturaleza cambiante de las compras B2B, donde las decisiones implican a varias partes interesadas en distintos puntos de contacto. Los compradores B2B de hoy en día siguen un proceso de toma de decisiones complejo y no lineal. Al igual que los clientes B2C, prefieren investigar de forma independiente antes de comprometerse con los equipos de ventas. El boca a boca y las redes sociales ahora juegan un papel clave en la configuración de sus decisiones de compra.
+Las ventas y el marketing B2B han evolucionado más allá de los embudos tradicionales de generación de posibles clientes para centrarse en los ciclos de vida de los clientes y los grupos de compra. Este cambio refleja la naturaleza cambiante de las compras B2B, donde las decisiones implican a varias partes interesadas en distintos puntos de contacto. Los compradores B2B de hoy en día siguen un proceso de toma de decisiones complejo y no lineal. Al igual que los clientes B2C, prefieren investigar de forma independiente antes de comprometerse con los equipos de ventas. El boca a boca y las redes sociales ahora juegan un papel clave en la configuración de sus decisiones de compra.
 
 Los especialistas en marketing B2B se enfrentan a una creciente presión para demostrar cómo sus actividades contribuyen a la generación de ingresos.  Aunque alinear los esfuerzos de marketing con los objetivos comerciales y medir el impacto en los ingresos es crucial, muchas herramientas de medición están diseñadas para escenarios B2C. Como resultado, los especialistas en marketing B2B buscan herramientas específicas que proporcionen perspectivas precisas y se alineen con sus objetivos específicos.
 

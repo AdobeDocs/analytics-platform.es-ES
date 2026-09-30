@@ -9,23 +9,30 @@ autotag-review: '2026-05-19T08:20:10.493Z'
 TQID: 'https://experienceleague.adobe.com/CZMnHpY8nofEV8fbpLSe7TUZCR7nOd8xKWoMkCzfH0I'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1377'
 ht-degree: 95%
-
 ---
-
 # Añada la lógica de recopilación de datos XDM a la etiqueta {#upgrade-tag-xdm}
 
 <!-- markdownlint-disable MD034 -->
@@ -195,27 +202,27 @@ Para definir una regla, debe hacer lo siguiente:
 
    * **[!UICONTROL Eventos]**: seleccione **[!UICONTROL + Agregar]**. A continuación, en el cuadro de diálogo **[!UICONTROL Configuración de eventos]**, especifique la siguiente información. Cuando haya terminado, seleccione **[!UICONTROL Conservar cambios]**.
 
-      * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL Principal]** en la lista.
+     * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL Principal]** en la lista.
 
-      * **[!UICONTROL Tipo de evento]**: seleccione **[!UICONTROL Ventana cargada]** en la lista.
+     * **[!UICONTROL Tipo de evento]**: seleccione **[!UICONTROL Ventana cargada]** en la lista.
 
-        ![Regla - Configuración de evento](assets/event-windowloaded-pageview.png)
+       ![Regla - Configuración de evento](assets/event-windowloaded-pageview.png)
 
    * **[!UICONTROL Acciones]**: seleccione **[!UICONTROL + Agregar]**. A continuación, en el cuadro de diálogo [!UICONTROL Configuración de la acción], especifique la siguiente información. Cuando haya terminado, seleccione **[!UICONTROL Conservar cambios]**.
 
-      * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL SDK web de Adobe Experience Platform]** en la lista.
+     * **[!UICONTROL Extensión]**: seleccione **[!UICONTROL SDK web de Adobe Experience Platform]** en la lista.
 
-      * **[!UICONTROL Tipo de acción]**: seleccione **[!UICONTROL Enviar evento]** en la lista.
+     * **[!UICONTROL Tipo de acción]**: seleccione **[!UICONTROL Enviar evento]** en la lista.
 
-      * **[!UICONTROL Tipo]**: seleccione **[!UICONTROL Vistas de página de detalles de páginas web]** en la lista.
+     * **[!UICONTROL Tipo]**: seleccione **[!UICONTROL Vistas de página de detalles de páginas web]** en la lista.
 
-      * **[!UICONTROL Datos XDM]**: seleccione el icono de cilindro y, a continuación, seleccione **[!UICONTROL XDM - Vista de página]** en la lista de elementos de datos.
+     * **[!UICONTROL Datos XDM]**: seleccione el icono de cilindro y, a continuación, seleccione **[!UICONTROL XDM - Vista de página]** en la lista de elementos de datos.
 
-        ![Regla - Configuración de la acción](assets/action-pageview-xdm.png)
+       ![Regla - Configuración de la acción](assets/action-pageview-xdm.png)
 
-        La regla debe tener el siguiente aspecto:
+       La regla debe tener el siguiente aspecto:
 
-        ![Crear regla](assets/rule-pageview.png)
+       ![Crear regla](assets/rule-pageview.png)
 
 1. Seleccione **[!UICONTROL Guardar]**.
 

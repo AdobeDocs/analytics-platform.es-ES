@@ -4,27 +4,37 @@ title: Información general de informes en tiempo real
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-TQID: https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4
+TQID: 'https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: d1779026-aeed-458e-a1c7-839d4acac922
+    internal-label: Real-time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '855'
 ht-degree: 6%
-
 ---
-
 # Resumen de informes en tiempo real
 
 La creación de informes en tiempo real en Customer Journey Analytics muestra y actualiza datos y visualizaciones en uno o varios paneles de Analysis Workspace en tiempo real.
@@ -43,16 +53,16 @@ Esta sección proporciona información general sobre los casos de uso habituales
 * Los casos de uso más valiosos para los informes en tiempo real son las principales ventas, promociones o lanzamientos de productos.
 Como parte de ese lanzamiento, desea saber lo siguiente:
 
-   * ¿Cómo se comparan las ventas con su última venta?
-   * ¿En qué se diferencia este lanzamiento de producto del último?
-   * ¿Funcionan realmente tus promociones para este importante día o evento?
+  * ¿Cómo se comparan las ventas con su última venta?
+  * ¿En qué se diferencia este lanzamiento de producto del último?
+  * ¿Funcionan realmente tus promociones para este importante día o evento?
 
 * Los casos de uso relevantes, pero menos valiosos, para la creación de informes en tiempo real son los casos de uso de validación.
 Desea validar, por ejemplo:
 
-   * ¿Funciona realmente el recorrido de campaña que ha iniciado recientemente?
-   * Cuando se lanzó la nueva página de productos, ¿está recopilando datos de clientes de la página?
-   * ¿Funciona correctamente su evento de medios en directo?
+  * ¿Funciona realmente el recorrido de campaña que ha iniciado recientemente?
+  * Cuando se lanzó la nueva página de productos, ¿está recopilando datos de clientes de la página?
+  * ¿Funciona correctamente su evento de medios en directo?
 
 No considere la creación de informes en tiempo real para las operaciones que supervisan casos de uso. Por ejemplo, para responder a la pregunta de si un sitio funciona correctamente. Dado que [cambio de actualización en tiempo real](use-real-time.md) se deshabilita automáticamente después de 30 minutos y el informe en tiempo real deja de actualizarse, no debería usar un informe en tiempo real como una fuente confiable para estos casos de uso.
 
@@ -88,5 +98,5 @@ Tenga en cuenta la siguiente limitación para los informes en tiempo real:
 * No se puede combinar la vinculación con los informes en tiempo real. La creación de informes en tiempo real trata de los datos de nivel de evento y de sesión, y es menos relevante para los datos basados en personas.
 * No hay métricas de medios recopilados de Heartbeat disponibles, excepto métricas de inicio y cierre de medios. Por lo tanto, puede seguir utilizando los informes en tiempo real para habilitar un caso de uso de medios.
 * Cuando use las [opciones de descarga o exportación](/help/analysis-workspace/export/download-send.md) para descargar un proyecto o exportar datos desde una tabla de forma libre, tenga en cuenta lo siguiente:
-   * Un proyecto CSV descargado o un archivo CSV exportado contiene los datos en tiempo real disponibles en el momento de la descarga o exportación.
-   * Un proyecto de PDF descargado contiene datos no en tiempo real, similares a los datos que se muestran cuando la actualización en tiempo real está desactivada.
+  * Un proyecto CSV descargado o un archivo CSV exportado contiene los datos en tiempo real disponibles en el momento de la descarga o exportación.
+  * Un proyecto de PDF descargado contiene datos no en tiempo real, similares a los datos que se muestran cuando la actualización en tiempo real está desactivada.

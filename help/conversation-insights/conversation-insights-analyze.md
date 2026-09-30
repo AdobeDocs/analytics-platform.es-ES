@@ -18,9 +18,33 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
 workflow-type: tm+mt
-source-wordcount: '12'
+source-wordcount: '132'
 ht-degree: 0%
 ---
 # Analizar perspectivas de conversación
+
+## Análisis sencillo
+
+Para analizar Perspectivas de conversación, cree o edite un proyecto en Analysis Workspace y utilice una de las vistas de datos configuradas como vista de datos para uno o varios paneles del proyecto.
+
++++ Proyecto de ejemplo
+
+![Proyecto de ejemplo básico para Perspectivas de conversación](assets/conversation-insights-analyze-sample-project-basic.png)
+
++++
+
+## Análisis de conversaciones a escala y en contexto
+
+Para analizar conversaciones a escala y proporcionar contexto para estas conversaciones dentro del recorrido completo del cliente:
+
+* Combine los eventos de Perspectivas de conversación con otros conjuntos de datos de evento y conjuntos de datos de búsqueda y perfil adicionales. Agregue estos conjuntos de datos a la conexión seleccionada para la configuración de Perspectivas de conversación.
+* Agregue componentes adicionales (métricas y dimensiones) a las vistas de datos que seleccionó para la configuración de Perspectivas de conversación.
+* ...
+
++++ Proyecto de ejemplo
+
+Por determinar.
+
++++ 

@@ -9,23 +9,30 @@ autotag-review: '2026-05-19T08:00:09.968Z'
 TQID: 'https://experienceleague.adobe.com/b3A-2MvNktn6xjViMWgYGc-ToLauQjx65BI6mb-UlxM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: f24857a4-4b64-4b25-b237-d43026362144
+    internal-label: BI extension
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 253
+source-wordcount: '253'
 ht-degree: 2%
-
 ---
-
 # Casos de uso de extensión de BI
 
 Este artículo describe cómo realizar una serie de casos de uso (15) mediante la extensión de Customer Journey Analytics BI. En cada caso de uso se explica la funcionalidad de Customer Journey Analytics, seguida de detalles para cada una de las herramientas de BI admitidas:
