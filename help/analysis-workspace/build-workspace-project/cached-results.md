@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7afd51cbdbfc21c8512d0e11be87a6ab8245e366
+source-git-commit: 32dfb7790f57293ea297bdcb8319c3d3b187a2ae
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1336'
 ht-degree: 0%
 ---
 
@@ -56,7 +56,7 @@ Después de 12 horas, los resultados en caché caducan. La próxima vez que se c
 
 Analysis Workspace almacena en caché los resultados del proyecto tal como estaban configurados originalmente, con sus vistas de datos seleccionadas, segmentos aplicados, intervalos de fechas, selecciones desplegables de panel, etc. Todos los que abren el proyecto ven estos resultados en la caché.
 
-Si alguien cambia la configuración del proyecto, los resultados se actualizan y [se almacena en caché una nueva variación del proyecto](#project-variations-are-cached-as-the-project-is-modified).
+Si alguien cambia la configuración del proyecto mientras ve el proyecto en caché, los resultados se cargarán normalmente (no de forma instantánea) y [se almacenará en caché una nueva variación del proyecto](#project-variations-are-cached-as-the-project-is-modified).
 
 #### Las variaciones de proyecto se almacenan en caché a medida que se modifica el proyecto
 
@@ -80,19 +80,21 @@ Supongamos que un proyecto de Rendimiento de campaña global incluye segmentos p
 | --- | --- | --- |
 | 6:00 | Entrega programada del proyecto | Normal (los resultados se almacenan en caché para su uso futuro) |
 | 07:06 | El usuario A abre el proyecto | Instantáneo |
-| 07:06 | El usuario A aplica el segmento de América | Normal (los resultados se almacenan en caché para su uso futuro) |
+| 07:07 | El usuario A aplica el segmento de América | Normal (los resultados se almacenan en caché para su uso futuro) |
 | 08:01 | El usuario B abre el proyecto | Instantáneo |
-| 08:01 | El usuario B aplica el segmento de América | Instantáneo |
-| 08:01 | El usuario B aplica el segmento EMEA | Normal (los resultados se almacenan en caché para su uso futuro) |
+| 08:05 | El usuario B aplica el segmento de América | Instantáneo |
+| 08:12 | El usuario B aplica el segmento EMEA | Normal (los resultados se almacenan en caché para su uso futuro) |
 
 >[!ENDSHADEBOX]
 
-### Cambios que actualizan los resultados en caché automáticamente
+### Cambios que hacen que los resultados en caché se actualicen con la siguiente carga de proyecto
 
 Los siguientes cambios en la configuración subyacente de un proyecto hacen que Analysis Workspace actualice los resultados la próxima vez que alguien abra el proyecto, incluso si la ventana de 12 horas no ha caducado:
 
 * Cambios en un componente de la vista de datos, como editar la configuración de [componentes](/help/data-views/component-settings/overview.md) de una dimensión o métrica
+
 * Cambios en un [campo derivado](/help/data-views/derived-fields/derived-fields.md)
+
 * Cambios en la definición de un segmento utilizada en el proyecto
 
 Los resultados se cargan a velocidad normal y se almacenan en caché, lo que inicia un nuevo período de 12 horas.
@@ -139,10 +141,12 @@ Cualquier persona que pueda actualizar la configuración del proyecto puede habi
 >
 >Es posible que los resultados en caché no sean adecuados si necesita ver los datos del día actual, los datos que llegan tarde o los valores de búsqueda actualizados de inmediato. Antes de habilitar esta configuración, revise [Cuándo dejar deshabilitados los resultados en caché en un proyecto](#when-to-leave-cached-results-disabled-on-a-project).
 
-En el proyecto de Workspace en el que desea habilitar los resultados en caché para la carga casi instantánea:
+En el proyecto de Workspace en el que desea habilitar los resultados en caché para una carga más rápida:
 
 1. Vaya a **[!UICONTROL Proyectos]** > **[!UICONTROL Información y configuración del proyecto]**.
+
 1. Seleccione **[!UICONTROL Usar resultados en caché para una carga más rápida]**.
+
 1. Seleccione **[!UICONTROL Guardar]**.
 
 ## Ver cuándo se muestran los resultados en caché en un proyecto
@@ -150,6 +154,7 @@ En el proyecto de Workspace en el que desea habilitar los resultados en caché p
 Se muestra una marca de tiempo en la parte superior del proyecto cuando se muestran los resultados en caché. La marca de tiempo especifica si todos los resultados se almacenan en caché o solo algunos resultados:
 
 * **[!UICONTROL Mostrando resultados de] [_fecha y hora_]**: todos los paneles del proyecto muestran los resultados en la caché a partir de la fecha y la hora mostradas.
+
 * **[!UICONTROL Mostrando algunos resultados de] [_fecha y hora_]**: algunos paneles muestran resultados en caché de la fecha y la hora mostradas, mientras que otros se actualizaron más recientemente.
 
 ![Marca de tiempo en el proyecto almacenado en caché](assets/project-cache-timestamp.png)
@@ -184,5 +189,5 @@ Para cargar los resultados más recientes de todos los paneles e iniciar una nue
 
 Para cargar los resultados más recientes para un solo panel:
 
-1. Seleccione el icono **[!UICONTROL Actualizar]** ![Actualizar](/help/assets/icons/Refresh.svg) en la parte superior del proyecto junto a la marca de tiempo de un panel.
+1. Seleccione el icono **[!UICONTROL Actualizar]** ![Actualizar](/help/assets/icons/Refresh.svg) junto a la marca de tiempo de un panel.
 
