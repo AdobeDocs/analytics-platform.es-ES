@@ -5,30 +5,43 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-TQID: https://experienceleague.adobe.com/fQgAV5IWbQdocTV83hG11T7NFJdS0hqqF7ruX74hEdw
+TQID: 'https://experienceleague.adobe.com/fQgAV5IWbQdocTV83hG11T7NFJdS0hqqF7ruX74hEdw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1857
+source-wordcount: '1857'
 ht-degree: 98%
-
 ---
-
 # Información general sobre el análisis guiado
 
 El análisis guiado permite a los usuarios, desde el marketing hasta el producto, pasando por los analistas, autoabastecerse de datos e información de alta calidad sobre el recorrido del cliente mediante flujos de trabajo guiados, basados en los datos en canales múltiples de Customer Journey Analytics. Al igual que Analysis Workspace y los cuadros de resultados para móviles, el análisis guiado utiliza datos de una [Vista de datos](/help/data-views/data-views.md), que hace referencia a los datos en Adobe Experience Platform a través de una [Conexión](../connections/overview.md). Muchos informes creados en análisis guiados se pueden transferir sin problemas a Analysis Workspace para realizar investigaciones adicionales.
@@ -42,7 +55,7 @@ Están disponibles los siguientes análisis guiados:
 | ![GráficoParticipación](/help/assets/icons/EngagementGraph.svg) | [Participación](types/engagement.md) | Comprenda la amplitud y profundidad de la participación de la característica. |
 | ![PrimerUso](/help/assets/icons/FirstUse.svg) | [Impacto del primer uso](types/first-use-impact.md) | Mida el impacto del uso de funciones por primera vez en indicadores clave. |
 | ![Histograma](/help/assets/icons/Histogram.svg) | [Frecuencia](types/frequency.md) | Mida la participación en función de la frecuencia de uso. |
-| ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) | [Canal](types/funnel.md) | Compare las tasas de conversión entre pasos. |
+| ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) | [Embudo](types/funnel.md) | Compare las tasas de conversión entre pasos. |
 | ![CrecimientoNeto](/help/assets/icons/NetGrowth.svg) | [Crecimiento neto](types/net-growth.md) | ¿Está ganando o perdiendo usuarios? |
 | ![Versión](/help/assets/icons/Release.svg) | [Impacto de versión](types/release-impact.md) | Compare el rendimiento en períodos iguales antes y después de la publicación. |
 | ![Retención](/help/assets/icons/Retention.svg) | [Retención](types/retention.md) | Mida los hábitos de retorno continuo de sus usuarios. |
@@ -99,9 +112,9 @@ Los análisis guiados se incluyen en los paquetes de Customer Journey Analytics 
 
 | Paquete | Análisis disponibles |
 | --- | --- |
-| [!UICONTROL Complementos de Customer Journey Analytics] | Crecimiento activo, Tendencias de conversión, Frecuencia, Canal, Crecimiento neto, Retención, Tendencias |
+| [!UICONTROL Complementos de Customer Journey Analytics] | Crecimiento activo, Tendencias de conversión, Frecuencia, Embudo, Crecimiento neto, Retención, Tendencias |
 | [!UICONTROL Customer Journey Analytics Foundation] | Tendencias |
-| [!UICONTROL Customer Journey Analytics Select] | Vistas de base + Crecimiento activo, Tendencias de conversión, Frecuencia, Canal, Crecimiento neto, Retención |
+| [!UICONTROL Customer Journey Analytics Select] | Vistas de base + Crecimiento activo, Tendencias de conversión, Frecuencia, Embudo, Crecimiento neto, Retención |
 | [!UICONTROL Customer Journey Analytics Prime] | Seleccionar vistas + Participación, Impacto del primer uso, Impacto de la versión, Cronología |
 | [!UICONTROL Customer Journey Analytics Ultimate] | Vistas de Prime |
 

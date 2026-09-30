@@ -4,27 +4,35 @@ title: Panel Experimentación
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-TQID: https://experienceleague.adobe.com/oXojotjMV8EEF3S31JyO4eFIn62iYH0zPHGO6ylhFR0
+TQID: 'https://experienceleague.adobe.com/oXojotjMV8EEF3S31JyO4eFIn62iYH0zPHGO6ylhFR0'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
+    internal-label: Workspace panels
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Experimentation
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2318
+source-wordcount: '2318'
 ht-degree: 93%
-
 ---
-
 # Panel Experimentación {#experimentation-panel}
 
 >[!CONTEXTUALHELP]
@@ -40,7 +48,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Experimentación en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulte [Panel de Analytics for Target](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) para obtener información sobre cómo analizar las actividades y experiencias de Adobe Target en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._
+_Este artículo documenta el panel Experimentación en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulte [Panel de Analytics for Target](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) para obtener información sobre cómo analizar las actividades y experiencias de Adobe Target en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -63,10 +71,10 @@ Para utilizar el panel de experimentación, asegúrese de seguir estos requisito
 
 ### Crear conexión con conjuntos de datos del experimento
 
-El esquema de datos recomendado es que los datos del experimentación estén en una [Matriz de objetos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/fields/array) que contiene el experimento y los datos de variante en dos dimensiones independientes. Ambas dimensiones deben estar en una **sola** matriz de objetos. Si tiene los datos de experimetación en una sola dimensión (con datos de experimento y de variante en una cadena delimitada), puede utilizar la configuración [subcadena](/help/data-views/component-settings/substring.md) en vistas de datos para dividirl la dimensión en dos y usarlas en el panel.
+El esquema de datos recomendado es que los datos del experimentación estén en una [Matriz de objetos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) que contiene el experimento y los datos de variante en dos dimensiones independientes. Ambas dimensiones deben estar en una **sola** matriz de objetos. Si tiene los datos de experimetación en una sola dimensión (con datos de experimento y de variante en una cadena delimitada), puede utilizar la configuración [subcadena](/help/data-views/component-settings/substring.md) en vistas de datos para dividirl la dimensión en dos y usarlas en el panel.
 
 
-Una vez que se hayan [ingerido](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home) los datos del experimentación en Adobe Experience Platform, [cree una conexión en Customer Journey Analytics](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
+Una vez que se hayan [ingerido](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) los datos del experimentación en Adobe Experience Platform, [cree una conexión en Customer Journey Analytics](/help/connections/create-connection.md) a uno o más conjuntos de datos de experimento.
 
 ### Añadir etiquetas de contexto en vistas de datos
 
@@ -184,7 +192,7 @@ No todas las métricas calculadas son compatibles con el panel Experimentación.
 
 Las métricas calculadas que incluyen cualquiera de las siguientes métricas o constantes no son compatibles con el panel Experimentación:
 
-* Métricas base de un [conjunto de datos de resumen](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/summary-data)
+* Métricas base de un [conjunto de datos de resumen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data)
 * Métricas base divididas entre sí o multiplicadas juntas (por ejemplo, `Revenue`/`Orders`)
 * Constantes que se agregan o sustraen de una métrica base (por ejemplo, `Revenue+50`)
 * Cualquiera de las siguientes métricas base:
@@ -194,8 +202,8 @@ Las métricas calculadas que no son compatibles con el panel Experimentación ti
 
 ## Uso de métricas calculadas en el panel Experimentación
 
-Consulte esta publicación de blog para obtener información sobre el [uso de métricas calculadas en el panel Experimentación](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119?profile.language=es).
+Consulte esta publicación de blog para obtener información sobre el [uso de métricas calculadas en el panel Experimentación](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
 
 >[!MORELIKETHIS]
->[Dominio de la experimentación de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338?profile.language=es)
+>[Dominio de la experimentación de Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
 >

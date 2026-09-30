@@ -5,31 +5,45 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-TQID: https://experienceleague.adobe.com/Ozf-XAsirDMkZLIQCX4SLGD7SvKinu3O4fwJ4ifgSvQ
+TQID: 'https://experienceleague.adobe.com/Ozf-XAsirDMkZLIQCX4SLGD7SvKinu3O4fwJ4ifgSvQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+    internal-label: Templates
   - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+    internal-label: Content Analytics
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: dcc1be6e0c0e0dab19b4067232e48dc175011ed1
+    internal-label: Governance
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 4127
+source-wordcount: '4127'
 ht-degree: 48%
-
 ---
-
 # Configuración de componentes {#component-settings}
 
 <!-- markdownlint-disable MD034 -->
@@ -77,7 +91,7 @@ La siguiente información describe la configuración que utiliza un componente d
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración del tipo de componente](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -173,19 +187,19 @@ Están disponibles los siguientes grupos de etiquetas de contexto, cada uno con 
 
 | Nombre | Descripción |
 |------|-------------|
-| [ID de contenido](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/content) | Identificador único del contenido que se está reproduciendo. Habilita el botón de opción **[!UICONTROL ID de contenido]** en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Tiempo invertido en contenido](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/content-time-spent) | Tiempo empleado en ver contenido, sin incluir los anuncios. Activa la configuración avanzada **[!UICONTROL Tiempo invertido en contenido]** en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Episodio](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/episode) | Número de episodio dentro de una serie. Habilita el filtrado por episodio en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [ID de contenido](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) | Identificador único del contenido que se está reproduciendo. Habilita el botón de opción **[!UICONTROL ID de contenido]** en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Tiempo invertido en contenido](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent) | Tiempo empleado en ver contenido, sin incluir los anuncios. Activa la configuración avanzada **[!UICONTROL Tiempo invertido en contenido]** en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Episodio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) | Número de episodio dentro de una serie. Habilita el filtrado por episodio en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 | Tipo de evento | El tipo de evento de medios, como `media.play` o `media.ping`. Necesario para que Customer Journey Analytics calcule la métrica derivada de [Espectadores simultáneos de medios](/help/analysis-workspace/c-panels/media-concurrent-viewers.md). |
-| [Tiempo invertido en contenido](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/media-time-spent) | Tiempo total que incluye contenido, anuncios, almacenamiento en búfer y pausa. Activa el panel [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md) y la configuración avanzada **[!UICONTROL Tiempo invertido en contenido]** en el panel [Audiencia media por minuto de contenido](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Temporada](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/season) | Número de temporada dentro de una serie. Habilita el filtrado por temporada en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Tiempo invertido en contenido](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent) | Tiempo total que incluye contenido, anuncios, almacenamiento en búfer y pausa. Activa el panel [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md) y la configuración avanzada **[!UICONTROL Tiempo invertido en contenido]** en el panel [Audiencia media por minuto de contenido](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Temporada](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) | Número de temporada dentro de una serie. Habilita el filtrado por temporada en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 | Segundos desde la última llamada | Tiempo en segundos desde el ping de latido anterior. Necesario para que Customer Journey Analytics calcule la métrica derivada de [Espectadores simultáneos de medios](/help/analysis-workspace/c-panels/media-concurrent-viewers.md), que identifica cuándo una sesión sigue activa. |
-| [Mostrar](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/show) | El nombre del programa o serie. Habilita el filtrado por mostrar en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Tiempo para el inicio](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/time-to-start) | Tiempo desde la selección del contenido hasta el inicio de la reproducción. Incluido en el cálculo de [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| [Duración total del búfer](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | Tiempo total empleado en el almacenamiento en búfer durante una sesión. Incluido en el cálculo de [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| [Duración total de la pausa](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/total-pause-duration) | Tiempo total empleado en pausar durante una sesión. Incluido en el cálculo de [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| [Longitud del vídeo](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/content-length) | Duración del contenido en segundos. Necesario para el modo **[!UICONTROL Contenido específico]** en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Nombre del vídeo](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/content-name) | El nombre para mostrar del contenido. Habilita el botón de opción **[!UICONTROL Nombre del vídeo]** en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Mostrar](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) | El nombre del programa o serie. Habilita el filtrado por mostrar en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Tiempo para el inicio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start) | Tiempo desde la selección del contenido hasta el inicio de la reproducción. Incluido en el cálculo de [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| [Duración total del búfer](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | Tiempo total empleado en el almacenamiento en búfer durante una sesión. Incluido en el cálculo de [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| [Duración total de la pausa](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration) | Tiempo total empleado en pausar durante una sesión. Incluido en el cálculo de [Tiempo invertido en la reproducción de contenido](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| [Longitud del vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | Duración del contenido en segundos. Necesario para el modo **[!UICONTROL Contenido específico]** en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Nombre del vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | El nombre para mostrar del contenido. Habilita el botón de opción **[!UICONTROL Nombre del vídeo]** en el panel [Audiencia media por minuto de medios](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 
 +++
 

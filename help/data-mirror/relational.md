@@ -5,28 +5,39 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-TQID: https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM
+TQID: 'https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: '2375'
 ht-degree: 15%
-
 ---
-
 # Duplicación y uso de datos relacionales
 
 En esta guía de inicio rápido se explica cómo usar [Experience Platform Data Mirror for Customer Journey Analytics](data-mirror.md) para reflejar datos relacionales de una solución nativa de Data Warehouse en Adobe Experience Platform. Y luego usar esos datos en Customer Journey Analytics.
@@ -65,26 +76,26 @@ En [!DNL Google BigQuery], los siguientes datos de ejemplo se almacenan y actual
 
 | timestamp | id | pagename | personid | código de seguimiento | pedidos | ingresos |
 | :---                      |  ---: | :---              | :---            | :---          |   ---: | :---           |
-| 06-03-2025 T19:15:39+00:00 | 10001 | página de inicio | person-1abc123 | abc123 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10002 | página de confirmación | person-1abc123 |               | 1 | 174,25 |
-| 06-03-2025 T19:15:39+00:00 | 10003 | página de inicio | person-2def123 | def123 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10004 | página de inicio | person-3ghi123 | ghi123 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10005 | página de confirmación | person-3ghi123 |               | 1 | 149,25 |
-| 06-03-2025 T19:15:39+00:00 | 10006 | página de inicio | person-4abc456 | abc456 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10007 | página de inicio | person-5def456 | def456 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10008 | página de inicio | person-6ghi456 | ghi456 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10009 | página de confirmación | person-6ghi456 |               | 1 | 159,25 |
-| 06-03-2025 T19:15:39+00:00 | 10010 | página de inicio | person-7abc789 | abc789 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10011 | página de inicio | person-8def789 | def789 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10012 | página de inicio | person-9ghi789 | ghi789 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10013 | página de confirmación | person-9ghi789 |               | 1 | 124,25 |
-| 06-03-2025 T19:15:39+00:00 | 10014 | página de inicio | person-10abc987 | abc987 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10015 | página de inicio | person-11def987 | def987 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10016 | página de inicio | person-12ghi987 | ghi987 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10017 | página de inicio | person-13abc654 | abc654 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10018 | página de inicio | person-14def654 | def654 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10019 | página de inicio | person-15ghi654 | ghi654 |        |                |
-| 06-03-2025 T19:15:39+00:00 | 10020 | página de confirmación | person-15ghi654 |               | 1 | 174,25 |
+| 2025-03-06T19:15:39+00:00 | 10001 | página de inicio | person-1abc123 | abc123 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10002 | página de confirmación | person-1abc123 |               | 1 | 174,25 |
+| 2025-03-06T19:15:39+00:00 | 10003 | página de inicio | person-2def123 | def123 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10004 | página de inicio | person-3ghi123 | ghi123 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10005 | página de confirmación | person-3ghi123 |               | 1 | 149,25 |
+| 2025-03-06T19:15:39+00:00 | 10006 | página de inicio | person-4abc456 | abc456 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10007 | página de inicio | person-5def456 | def456 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10008 | página de inicio | person-6ghi456 | ghi456 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10009 | página de confirmación | person-6ghi456 |               | 1 | 159,25 |
+| 2025-03-06T19:15:39+00:00 | 10010 | página de inicio | person-7abc789 | abc789 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10011 | página de inicio | person-8def789 | def789 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10012 | página de inicio | person-9ghi789 | ghi789 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10013 | página de confirmación | person-9ghi789 |               | 1 | 124,25 |
+| 2025-03-06T19:15:39+00:00 | 10014 | página de inicio | person-10abc987 | abc987 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10015 | página de inicio | person-11def987 | def987 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10016 | página de inicio | person-12ghi987 | ghi987 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10017 | página de inicio | person-13abc654 | abc654 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10018 | página de inicio | person-14def654 | def654 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10019 | página de inicio | person-15ghi654 | ghi654 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10020 | página de confirmación | person-15ghi654 |               | 1 | 174,25 |
 
 +++
 
@@ -227,17 +238,17 @@ En el paso **[!UICONTROL Autenticación]**, seleccione:
 
 * **[!UICONTROL Cuenta existente]** cuando ya tienes una cuenta configurada para Google BigQuery. Continúe con el paso [Seleccionar datos](#select-data).
 * **[!UICONTROL Nueva cuenta]** cuando necesite conectarse a Google BigQuery.
-   1. Especifique un **[!UICONTROL nombre de cuenta]** y (opcional) **[!UICONTROL Descripción]**.
-   1. Seleccione su **[!UICONTROL tipo de autenticación]**: **[!UICONTROL Autenticación básica]** o **[!UICONTROL Autenticación de servicio]**. En función de su selección, proporcione la entrada requerida.
-   1. Seleccionar **[!UICONTROL Conectar con el origen]**
+  1. Especifique un **[!UICONTROL nombre de cuenta]** y (opcional) **[!UICONTROL Descripción]**.
+  1. Seleccione su **[!UICONTROL tipo de autenticación]**: **[!UICONTROL Autenticación básica]** o **[!UICONTROL Autenticación de servicio]**. En función de su selección, proporcione la entrada requerida.
+  1. Seleccionar **[!UICONTROL Conectar con el origen]**
 
-      ![Google BigQuery - Autenticación](assets/googlebg-authentication.png)
+     ![Google BigQuery - Autenticación](assets/googlebg-authentication.png)
 
-      Se ha verificado su conexión. Una ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL conectada]** indicó una conexión correcta.
+     Se ha verificado su conexión. Una ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL conectada]** indicó una conexión correcta.
 
-   1. Seleccione **[!UICONTROL Siguiente]**.
+  1. Seleccione **[!UICONTROL Siguiente]**.
 
-  Consulte la documentación de Experience Platform para obtener más información sobre cómo conectarse y autenticarse al usar el conector [Azure Databricks](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulte la documentación de Experience Platform para obtener más información sobre cómo conectarse y autenticarse al usar el conector [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Seleccionar datos

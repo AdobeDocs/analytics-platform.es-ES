@@ -3,7 +3,18 @@ title: Explicación de los subeventos y las matrices de objetos en las fuentes d
 description: Descubra cómo las fuentes de datos de Customer Journey Analytics exportan subeventos desde matrices de esquemas, preservando la jerarquía en lugar de aplanarlos como lo hace Workspace.
 hide: true
 feature: Components
-source-git-commit: afc1b55eb54b5f3342800489d0a7f63508ee8b10
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
@@ -46,7 +57,7 @@ Los datos de subevento (como varios productos en un solo evento) aparecen de for
 
 ## Datos de subevento de consulta en la salida de la fuente de datos
 
-Dado que los datos de subevento [&#x200B; aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#customer-journey-analytics-vs-adobe-analytics), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
+Dado que los datos de subevento [ aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#customer-journey-analytics-vs-adobe-analytics), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
 
 Los siguientes ejemplos muestran cómo buscar eventos que incluyen un producto específico. Los ejemplos utilizan la sintaxis de Google BigQuery. Otros almacenes de datos, como Snowflake y Databricks, admiten el mismo enfoque con diferencias de sintaxis menores.
 

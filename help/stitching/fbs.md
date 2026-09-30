@@ -9,23 +9,30 @@ autotag-review: '2026-05-19T09:20:59.053Z'
 TQID: 'https://experienceleague.adobe.com/V2OisDuYtD0SxUo8OlCEMKJ5wYEWS7nfxOp2IOMQWJQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+    internal-label: Stitching
+  - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
+    internal-label: Cross channel analysis
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1938
+source-wordcount: '1938'
 ht-degree: 82%
-
 ---
-
 # Vinculación basada en el campo
 
 En la vinculación basada en el campo, se especifica un conjunto de datos de evento, así como el ID persistente (cookie) y el ID de persona para ese conjunto de datos. La vinculación basada en campos intenta que la información del ID de persona esté disponible para el análisis de datos de Customer Journey Analytics en cualquier evento anónimo que venga con un ID persistente específico.  Esa información se recupera de las filas que tienen un ID de persona para ese ID persistente específico.
@@ -110,7 +117,7 @@ La vinculación basada en el campo admite el uso del [`identityMap`grupo de camp
 
 La vinculación realiza un mínimo de dos pasadas en los datos de un conjunto de datos determinado.
 
-- **Vinculación en tiempo real**: intenta vincular cada visita (evento) conforme se va produciendo. Las visitas de dispositivos que son *nuevos* para el conjunto de datos (nunca se han autenticado) generalmente no se vinculan en este nivel. Las visitas de dispositivos ya reconocidos se vinculan inmediatamente.
+- **Vinculación en tiempo real**: intenta vincular cada hit (evento) conforme se va produciendo. Los hits de dispositivos que son *nuevos* para el conjunto de datos (nunca se han autenticado) generalmente no se vinculan en este nivel. Los hits de dispositivos ya reconocidos se vinculan inmediatamente.
 
 - **Reproducir vinculación**: *reproduce* datos basados en identificadores únicos (ID de persona). En esta fase es en la que las visitas de dispositivos anteriormente desconocidos (ID persistente) se vinculan (a los ID de persona). Dos parámetros determinan la reproducción: **frequency** y **lookback window**. Adobe ofrece las siguientes combinaciones de estos parámetros:
   - **Retrospectiva diaria con una frecuencia diaria**: los datos se reproducen todos los días con un período de retroactividad de 24 horas. Esta opción ofrece la ventaja de que las reproducciones son mucho más frecuentes, pero los visitantes no autenticados deben autenticarse el mismo día que visitan el sitio.
@@ -232,7 +239,7 @@ Los siguientes requisitos previos se aplican específicamente a la vinculación 
   - Un **ID de persona**, un identificador disponible solo en algunas filas. Por ejemplo, un nombre de usuario o una dirección de correo electrónico con hash una vez que se autentica un perfil. Puede utilizar prácticamente cualquier identificador que desee. La vinculación tiene en cuenta este campo para contener la información de ID de persona real. Para obtener los mejores resultados de vinculación, se debe enviar un ID de persona dentro de los eventos del conjunto de datos al menos una vez por cada ID persistente. Si tiene previsto incluir este conjunto de datos dentro de una conexión de Customer Journey Analytics, es preferible que los demás conjuntos de datos también tengan un identificador común similar.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
