@@ -9,24 +9,30 @@ autotag-review: '2026-05-19T10:45:24.919Z'
 TQID: 'https://experienceleague.adobe.com/fPYOLKGTjiZDeSWLRhvkywKht8Yoq4k54EOcazJw74M'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Data management
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 933
-ht-degree: 12%
-
+source-wordcount: '915'
+ht-degree: 10%
 ---
-
 # Administrar vistas de datos
 
 
@@ -43,8 +49,8 @@ En la tabla están disponibles las siguientes columnas e iconos:
 | Columna o icono | Descripción |
 | --- | --- |
 | **[!UICONTROL Nombre]** | Nombre de la vista de datos. |
-| ![Información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | Para ver información sobre la vista de datos, seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) junto al nombre de la vista de datos.<br/>Una ventana emergente muestra detalles sobre la vista de datos. |
-| ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual. Puede seleccionar:<br/>![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** para [editar](#edit-data-views) una vista de datos.<br/>![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]** a [copiar una vista de datos](#copy-data-views).<br/>![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** para [eliminar](#delete-data-views) una vista de datos.<br/>![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar a CSV]** para [exportar los detalles de la vista de datos a un archivo CSV](#export-data-views-to-csv).<br/>![ProyectoAgregar](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL Crear proyecto]** para [crear un nuevo proyecto de Workspace](#create-project-from-data-views) para la vista de datos.<br/>![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Habilitar para Data Insights Agent]** para habilitar una vista de datos para Data Insights Agent.<br/>![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Deshabilite para Data Insights Agent]** para deshabilitar una vista de datos para Data Insights Agent. |
+| ![Información](/help/assets/icons/InfoOutline.svg) | Para ver información sobre la vista de datos, seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) junto al nombre de la vista de datos.<br/>Una ventana emergente muestra detalles sobre la vista de datos. |
+| ![Más](/help/assets/icons/More.svg) | Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual. Puede seleccionar:<br/>![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** para [editar](#edit-data-views) una vista de datos.<br/>![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar]** a [copiar una vista de datos](#copy-data-views).<br/>![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar]** para [eliminar](#delete-data-views) una vista de datos.<br/>![ArchivoCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar a CSV]** para [exportar los detalles de la vista de datos a un archivo CSV](#export-data-views-to-csv).<br/>![ProyectoAgregar](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL Crear proyecto]** para [crear un nuevo proyecto de Workspace](#create-project-from-data-views) para la vista de datos.<br/>![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Habilitar para Data Insights Agent]** para habilitar una vista de datos para Data Insights Agent.<br/>![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Deshabilite para Data Insights Agent]** para deshabilitar una vista de datos para Data Insights Agent. |
 | **[!UICONTROL Conexión]** | Nombre de la conexión asociada con la vista de datos. |
 | **[!UICONTROL Zona protegida]** | Nombre de la zona protegida asociada a la vista de datos. |
 | **[!UICONTROL Propietario]** | Propietario de la vista de datos. |
@@ -59,7 +65,7 @@ Para configurar qué columnas mostrar en la tabla, seleccione ![ColumnSetting](/
 
 ## Vistas de datos de búsqueda
 
-Puede buscar rápidamente una vista de datos usando el cuadro ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
+Puede buscar rápidamente una vista de datos usando el cuadro ![Buscar](/help/assets/icons/Search.svg).
 
 ## Filtrado de vistas de datos
 

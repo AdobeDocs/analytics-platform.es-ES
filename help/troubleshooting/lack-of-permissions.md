@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 94%
+source-wordcount: '212'
+ht-degree: 93%
 ---
 # Falta de permisos
 
@@ -64,7 +64,7 @@ Por ejemplo, después de crear una [Conexión](../connections/overview.md) y [Vi
 
 1. Desplácese hasta la función correspondiente.
 
-1. Seleccione ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Editar]** para editar la función.
+1. Seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** para editar la función.
 
 1. Asegúrese de que **[!UICONTROL Administrar políticas de uso de datos]** y **[!UICONTROL Ver directivas de uso de datos]** se han añadido al contenedor **[!UICONTROL Gobernanza de datos]**.
 

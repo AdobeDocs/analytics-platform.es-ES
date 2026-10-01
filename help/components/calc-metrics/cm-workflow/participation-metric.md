@@ -6,22 +6,27 @@ exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
 TQID: https://experienceleague.adobe.com/no7rAZUl25LTEPqwRyC7vY4XcottzPGRq-DCAR5ez54
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 9%
-
+source-wordcount: '226'
+ht-degree: 6%
 ---
-
 # Métricas de participación
 
 Las métricas de participación se utilizan para cuantificar la forma en que los valores individuales de una dimensión (como Vistas de página) contribuyen a las sesiones que contienen una métrica específica (como Pedidos) o participan en ellas.
@@ -34,7 +39,7 @@ Los pasos siguientes muestran cómo cualquier usuario con [Crear permiso de mét
 
 1. [Cree una métrica calculada](cm-workflow.md) y, en el [creador de métricas calculadas](cm-build-metrics.md), asigne un nombre a la métrica `Participation` o similar.
 1. Arrastre una métrica que contenga un evento de éxito, por ejemplo [!DNL Orders], al área [!UICONTROL **[!UICONTROL Definición]**].
-1. Seleccione ![engranaje](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) para la métrica.
+1. Seleccione ![engranaje](/help/assets/icons2/Settings.svg) para la métrica.
 1. En la ventana emergente que aparece, seleccione **[!UICONTROL Usar un modelo de atribución no predeterminado]** para definir el [modelo de atribución](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) de ese evento en **[!UICONTROL Participación]** y seleccione **[!UICONTROL Sesión]** para el [!UICONTROL Contenedor]. Seleccione **[!UICONTROL Aplicar]** para confirmar.
 
 

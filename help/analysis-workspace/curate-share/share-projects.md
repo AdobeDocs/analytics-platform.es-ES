@@ -8,31 +8,44 @@ role: User
 TQID: https://experienceleague.adobe.com/qAYUiD5wa5PhvEjTi397PC4n0xX0rWKJSYaAjCR6jtg
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: a3b826fd-7a63-4a83-8736-83eee6668f44
+    internal-label: Curate and share, Curate and share (CJA)
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: f21d8c43-b886-433b-93ea-5982cbfc16b7
+    internal-label: FAQ
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
+    internal-label: Privacy
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 2183
+source-wordcount: '2177'
 ht-degree: 90%
-
 ---
-
 # Compartir proyectos {#share-projects}
 
 >[!CONTEXTUALHELP]
@@ -61,7 +74,7 @@ Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso compartido de proyectos en Analysis Workspace](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso compartido de proyectos en Analysis Workspace](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -176,11 +189,11 @@ Puede conceder [acceso de solo lectura](/help/analysis-workspace/curate-share/vi
 >
 >* Un proyecto podría resultar inaccesible si muchos usuarios intentan acceder a un vínculo determinado al mismo tiempo. De forma predeterminada, más de 190 personas pueden acceder a un solo vínculo cada 5 minutos. Si su organización alcanza este límite, espere 5 minutos e intente acceder al vínculo de nuevo.
 >
->* Para las licencias [!DNL Healthcare Shield] y [!DNL Privacy & Security Shield], la función [!UICONTROL Compartir con cualquiera] requiere la autenticación de CX Enterprise. Para los clientes de [!DNL Healthcare Shield], aparece la advertencia &quot;HIPAA cumplimiento&quot;, pero aún puede utilizar esta función después de autenticarse en CX Enterprise.
+>* Para las licencias [!DNL Healthcare Shield] y [!DNL Privacy & Security Shield], la característica [!UICONTROL Compartir con cualquiera] requiere autenticación de CX Enterprise. Para los clientes de [!DNL Healthcare Shield], aparece la advertencia &quot;HIPAA cumplimiento&quot;, pero aún puede usar esta característica después de autenticarse en CX Enterprise.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir con cualquiera](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir con cualquiera](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -205,7 +218,7 @@ Para compartir un proyecto de Analysis Workspace con cualquier persona:
 
    * **[!UICONTROL Requiere autenticación de Experience Cloud]:**
 
-     Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de CX Enterprise (Experience Cloud) en la que se creó el proyecto que está compartiendo. Sin embargo, no es necesario que los usuarios con los que comparte tengan acceso a Customer Journey Analytics.
+     Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de CX Enterprise (Experience Cloud) donde se creó el proyecto que está compartiendo. Sin embargo, no es necesario que los usuarios con los que comparte tengan acceso a Customer Journey Analytics.
 
      Los administradores de Customer Journey Analytics pueden configurar esta preferencia para la compañía, como se describe en [Preferencias](/help/analysis-workspace/user-preferences.md). Dependiendo de cómo haya configurado esta opción el administrador, puede encontrarse con los siguientes escenarios:
 
@@ -219,7 +232,7 @@ Para compartir un proyecto de Analysis Workspace con cualquier persona:
 
    Cualquier persona con la que comparta el enlace podrá ver el proyecto de Analysis Workspace.
 
-1. (Opcional) Puede seleccionar el icono ![Generar nuevo vínculo](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para quitar el acceso de los usuarios que anteriormente recibieron un vínculo al proyecto. Se genera un nuevo enlace que puede compartir con los usuarios que desee que accedan al proyecto.
+1. (Opcional) Puede seleccionar el icono ![Generar nuevo vínculo](/help/assets/icons/Refresh.svg) para quitar el acceso de los usuarios que anteriormente recibieron un vínculo al proyecto. Se genera un nuevo enlace que puede compartir con los usuarios que desee que accedan al proyecto.
 
 1. Seleccione **[!UICONTROL Cerrar]** para cerrar el cuadro de diálogo de compartir. Los cambios se guardan automáticamente.
 
@@ -235,7 +248,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados en Analysis Workspace](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados en Analysis Workspace](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

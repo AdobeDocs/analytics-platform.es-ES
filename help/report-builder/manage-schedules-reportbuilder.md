@@ -9,18 +9,20 @@ exl-id: 0a0427d9-223e-410b-a8ef-8601390d88aa
 TQID: https://experienceleague.adobe.com/HcKyD-v3I1hsxWwiDZJwgvO9pH9ifBVOjBapARdYQVQ
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 6%
-
+source-wordcount: '381'
+ht-degree: 4%
 ---
-
 # Administrar libros de trabajo programados
 
 Puede programar un libro para compartirlo por correo electrónico o exportarlo a un destino de nube, tal como se describe en los siguientes artículos:
@@ -49,7 +51,7 @@ Puede ver y administrar todos los libros programados en la ficha **[!UICONTROL L
 
    * Seleccione el icono de columna ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
 
-   * Seleccione el icono de filtro ![Icono de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) y, a continuación, seleccione [!UICONTROL **Mostrar todos**] para mostrar todos los libros programados para una organización determinada.
+   * Seleccione el icono de filtro ![Icono de filtro](/help/assets/icons/Filter.svg) y, a continuación, seleccione [!UICONTROL **Mostrar todos**] para mostrar todos los libros programados para una organización determinada.
 
 1. Seleccione uno o varios libros.
 

@@ -7,23 +7,29 @@ role: User
 TQID: https://experienceleague.adobe.com/e0vvc9JN5k-KPI2zVAezIjdgViKdAcLJEAx0QUV-tAA
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 885
+source-wordcount: '870'
 ht-degree: 9%
-
 ---
-
 # Métricas
 
 Las métricas permiten cuantificar los puntos de datos en Analysis Workspace. Normalmente se utilizan como columnas en una visualización y están vinculadas a las dimensiones.
@@ -44,9 +50,9 @@ Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 
   Al contrario que Adobe Analytics, Customer Journey Analytics permite definir métricas estándar de forma flexible dentro del ámbito de una conexión y una vista de datos.
 
-   * **Personas**: La métrica Personas en Customer Journey Analytics es el recuento distinto de los ID de persona. Según lo que elija como ID de persona al configurar conjuntos de datos en la conexión, la métrica Personas puede significar cosas diferentes.
-   * **Sesiones**: La métrica Sesiones de Customer Journey Analytics es lo que define como parte de la configuración de las Sesiones en la vista de datos. Consulte [Configuración de la sesión](/help/data-views/session-settings.md).
-   * **Eventos**: la métrica Eventos de Customer Journey Analytics consta de los eventos que forman parte de cualquier conjunto de datos de evento que haya configurado como parte de su conexión.
+  * **Personas**: La métrica Personas en Customer Journey Analytics es el recuento distinto de los ID de persona. Según lo que elija como ID de persona al configurar conjuntos de datos en la conexión, la métrica Personas puede significar cosas diferentes.
+  * **Sesiones**: La métrica Sesiones de Customer Journey Analytics es lo que define como parte de la configuración de las Sesiones en la vista de datos. Consulte [Configuración de la sesión](/help/data-views/session-settings.md).
+  * **Eventos**: la métrica Eventos de Customer Journey Analytics consta de los eventos que forman parte de cualquier conjunto de datos de evento que haya configurado como parte de su conexión.
 
   Consulte [Métricas estándar](#standard-metrics) para obtener una lista completa de las métricas estándar.
 
@@ -54,7 +60,7 @@ Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 
 * **Plantillas de métricas calculadas** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : Métricas definidas por Adobe que se comportan de manera similar a las métricas calculadas. Puede utilizarlos tal cual en los proyectos de Workspace o guardar una copia para personalizar la lógica. Ver [métricas calculadas predeterminadas](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
-Puede ver si una métrica está aprobada ![Icono aprobado](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) o no. Si desea obtener más detalles sobre una métrica, pase el ratón sobre ella y seleccione ![Icono de información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Consulte [Información del componente](use-components-in-workspace.md#component-info) para obtener más información.
+Puede ver si una métrica está aprobada ![Marca de verificación](/help/assets/icons/Checkmark.svg) o no. Si desea obtener más detalles sobre una métrica, pase el ratón sobre ella y seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg). Consulte [Información del componente](use-components-in-workspace.md#component-info) para obtener más información.
 
 
 ## Métricas estándar

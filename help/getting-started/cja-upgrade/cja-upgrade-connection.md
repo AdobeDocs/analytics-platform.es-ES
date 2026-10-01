@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1672'
 ht-degree: 100%
 ---
 # Crear y configurar una conexión para su uso con Customer Journey Analytics {#upgrade-create-connection}
@@ -106,7 +106,7 @@ Puede añadir un conjunto de datos de Experience Platform al crear una conexión
 
    | Columna | Descripción |
    |---|---|
-   | Conjunto de datos | Nombre del conjunto de datos. Seleccione el nombre para dirigirle al conjunto de datos en Experience Platform. Seleccione ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) para mostrar una ventana emergente con más detalles para el conjunto de datos. Puede seleccionar **[!UICONTROL Editar en Platform]** para editar el conjunto de datos directamente en Experience Platform. |
+   | Conjunto de datos | Nombre del conjunto de datos. Seleccione el nombre para dirigirle al conjunto de datos en Experience Platform. Seleccione ![Info](/help/assets/icons/InfoOutline.svg) para mostrar una ventana emergente con más detalles para el conjunto de datos. Puede seleccionar **[!UICONTROL Editar en Platform]** para editar el conjunto de datos directamente en Experience Platform. |
    | Tipo de conjunto de datos | El tipo del conjunto de datos: evento, perfil, consulta o resumen. |
    | Número de registros | El total de registros del mes anterior para el conjunto de datos en Experience Platform. |
    | Esquema | El esquema del conjunto de datos. Seleccione el nombre para dirigirle al esquema en Experience Platform. |
@@ -116,10 +116,10 @@ Puede añadir un conjunto de datos de Experience Platform al crear una conexión
 
 
 1. Seleccione uno o varios conjuntos de datos y seleccione **[!UICONTROL Siguiente]**. Al menos un conjunto de datos de evento debe formar parte de la conexión.
-   * Para cambiar las columnas mostradas para la lista de conjuntos de datos, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) y seleccione las columnas que desea mostrar en el cuadro de diálogo [!UICONTROL Personalizar tabla].
-   * Para buscar un conjunto de datos específico, utilice el campo de búsqueda ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
-   * Para alternar entre mostrar u ocultar los conjuntos de datos seleccionados, seleccione ![Seleccionar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL Ocultar seleccionados]** o **[!UICONTROL Mostrar seleccionados]**.
-   * Para quitar un conjunto de datos de la lista de conjuntos de datos seleccionados, utilice ![Cerrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). Para quitar todos los conjuntos de datos seleccionados, seleccione **[!UICONTROL Borrar todo]**.
+   * Para cambiar las columnas mostradas para la lista de conjuntos de datos, seleccione ![Configuración de columna](/help/assets/icons/ColumnSetting.svg) y seleccione las columnas que desea mostrar en el cuadro de diálogo [!UICONTROL Personalizar tabla].
+   * Para buscar un conjunto de datos específico, utilice el campo de búsqueda ![Buscar](/help/assets/icons/Search.svg).
+   * Para alternar entre mostrar u ocultar los conjuntos de datos seleccionados, seleccione ![Seleccionar](/help/assets/icons/SelectBoxAll.svg) **[!UICONTROL Ocultar seleccionados]** o **[!UICONTROL Mostrar seleccionados]**.
+   * Para quitar un conjunto de datos de la lista de conjuntos de datos seleccionados, utilice ![Cerrar](/help/assets/icons/Close.svg). Para quitar todos los conjuntos de datos seleccionados, seleccione **[!UICONTROL Borrar todo]**.
 
 
 
@@ -137,7 +137,7 @@ Puede añadir un conjunto de datos de Experience Platform al crear una conexión
    | **[!UICONTROL Zona horaria]** | Solo disponible para datos de resumen. Seleccione la zona horaria adecuada para los datos de resumen de las series temporales. |
    | **[!UICONTROL Tipo de fuente de datos]** | Seleccione un tipo de fuente de datos. <br/>Los tipos de fuentes de datos incluyen los siguientes: <ul><li>[!UICONTROL Datos web]</li><li>[!UICONTROL Datos de aplicación móvil]</li><li>[!UICONTROL Datos POS]</li><li>[!UICONTROL Datos CRM]</li><li>[!UICONTROL Datos de las encuestas]</li><li>[!UICONTROL Datos de centro de llamadas]</li><li>[!UICONTROL Datos del producto]</li><li> [!UICONTROL Datos de cuentas]</li><li> [!UICONTROL Datos de transacción]</li><li>[!UICONTROL Datos de comentarios del cliente]</li><li> [!UICONTROL Otro]</li></ul>Este campo se utiliza para estudiar los tipos de fuentes de datos que se utilizan. |
    | **[!UICONTROL Importar datos nuevos]** | Habilite esta opción si desea establecer una conexión continua. Con una conexión continua, los nuevos lotes de datos que se añaden a los conjuntos de datos están disponibles automáticamente en Workspace. |
-   | **[!UICONTROL Relleno del conjunto de datos]** | Habilite **[!UICONTROL Relleno de todos los datos existentes]** para asegurarse de que se rellenan todos los datos existentes.<br/><br/>Seleccione **[!UICONTROL Solicitar relleno]** para rellenar los datos históricos de un período específico. Puede definir hasta 10 períodos de relleno de conjuntos de datos.<ol><li>Defina el periodo introduciendo datos de inicio y finalización o seleccionando fechas utilizando ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleccione **[!UICONTROL Relleno de cola]** para añadir el relleno a la lista o **[!UICONTROL Cancelar]** para cancelar.</li></ol>Para cada entrada, seleccione ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) para editar el periodo o seleccione ![Eliminar](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) para eliminar la entrada.<br/><br/>En rellenos:<ul><li>Puede rellenar cada conjunto de datos individualmente.</li><li>Prioriza los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.</li><li>Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La cantidad de datos históricos influye en la latencia.</li><li>El conector de origen de Analytics importa hasta 13 meses de datos, independientemente de su tamaño, para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.</li></ul> |
+   | **[!UICONTROL Relleno del conjunto de datos]** | Habilite **[!UICONTROL Relleno de todos los datos existentes]** para asegurarse de que se rellenan todos los datos existentes.<br/><br/>Seleccione **[!UICONTROL Solicitar relleno]** para rellenar los datos históricos de un período específico. Puede definir hasta 10 períodos de relleno de conjuntos de datos.<ol><li>Defina el periodo introduciendo datos de inicio y finalización o seleccionando fechas utilizando ![Calendario](/help/assets/icons/Calendar.svg).</li><li>Seleccione **[!UICONTROL Relleno de cola]** para añadir el relleno a la lista o **[!UICONTROL Cancelar]** para cancelar.</li></ol>Para cada entrada, seleccione ![Editar](/help/assets/icons/Edit.svg) para editar el periodo o seleccione ![Eliminar](/help/assets/icons/Close.svg) para eliminar la entrada.<br/><br/>En rellenos:<ul><li>Puede rellenar cada conjunto de datos individualmente.</li><li>Prioriza los nuevos datos agregados a un conjunto de datos en la conexión, por lo que estos datos tienen la latencia más baja.</li><li>Cualquier dato de relleno (datos históricos) se importa a una velocidad más lenta. La cantidad de datos históricos influye en la latencia.</li><li>El conector de origen de Analytics importa hasta 13 meses de datos, independientemente de su tamaño, para las zonas protegidas de producción. El relleno en zonas protegidas que no sean de producción está limitado a tres meses.</li></ul> |
    | **[!UICONTROL Transformación de un conjunto de datos]** | Para conjuntos de datos de consulta B2B específicos, puede habilitar la transformación de un conjunto de datos para escenarios adecuados de creación de informes basados en personas B2B. |
    | **[!UICONTROL Estado de relleno]** | Los posibles indicadores de estado son:<ul><li>Correcto</li><li>Procesamiento de X rellenos</li><li>Off</li></ul> |
    | **[!UICONTROL ID de conjunto de datos]** | Este ID se genera automáticamente. |

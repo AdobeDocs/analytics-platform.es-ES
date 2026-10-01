@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '945'
 ht-degree: 77%
 ---
 # Configuración de columna
@@ -39,14 +39,14 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"} para ver un vídeo de demostración.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-Para obtener acceso a [!UICONTROL Configuración de columna], seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) en el encabezado de la columna.
+Para obtener acceso a [!UICONTROL Configuración de columna], seleccione ![Configuración de columna](/help/assets/icons2/Settings.svg) en el encabezado de la columna.
 
 ![Configuración de columna](assets/column-settings.png)
 
