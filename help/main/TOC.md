@@ -2,7 +2,7 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 7357a8b929d72095aee7c154ea9e77791ac1a751
+source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 89%
@@ -316,14 +316,6 @@ ht-degree: 89%
     + [Biblioteca de JavaScript](/help/content-analytics/config/tags-agnostic.md)
     + [Recopilación de datos](/help/content-analytics/config/datacollection.md)
 
-+ Paneles de Analytics {#cja-dashboards}
-  + [Información general](../mobile-app/home.md)
-  + [Tareas del gestor de datos](../mobile-app/curator.md)
-  + [Creación de cuadros de resultados móviles](../mobile-app/create-scorecard.md)
-  + [Administración de cuadros de resultados móviles](../mobile-app/manage-scorecard.md)
-  + [Configuración de ejecutivos para que utilicen tableros](../mobile-app/set-up-execs.md)
-  + [Guía de inicio rápida para el usuario ejecutivo](../mobile-app/executive.md)
-
 + Análisis guiado {#guided-analysis}
   + [Información general](../guided-analysis/overview.md)
   + [Crecimiento activo](../guided-analysis/types/active-growth.md)
@@ -341,12 +333,19 @@ ht-degree: 89%
   + [Preguntas frecuentes](../guided-analysis/faq.md)
 
 + Perspectivas de conversación {#conversation-insights}
-  + {hide-from-toc}[Información general](/help/conversation-insights/conversation-insights-overview.md)
-  + {hide-from-toc}[Configurar](/help/conversation-insights/conversation-insights-configure.md)
-  + {hide-from-toc}[Administrar](/help/conversation-insights/conversation-insights-manage.md)
-  + {hide-from-toc}[Implementar](/help/conversation-insights/conversation-insights-implement.md)
-  + {hide-from-toc}[Analizar](/help/conversation-insights/conversation-insights-analyze.md)
+  + [Información general](/help/conversation-insights/overview.md)
+  + [Configuración](/help/conversation-insights/configure.md)
+  + [Administrar](/help/conversation-insights/manage.md)
+  + [Implementación](/help/conversation-insights/implement.md)
+  + [Analizar](/help/conversation-insights/analyze.md)
 
++ Paneles de Analytics {#cja-dashboards}
+  + [Información general](../mobile-app/home.md)
+  + [Tareas del gestor de datos](../mobile-app/curator.md)
+  + [Creación de cuadros de resultados móviles](../mobile-app/create-scorecard.md)
+  + [Administración de cuadros de resultados móviles](../mobile-app/manage-scorecard.md)
+  + [Configuración de ejecutivos para que utilicen tableros](../mobile-app/set-up-execs.md)
+  + [Guía de inicio rápida para el usuario ejecutivo](../mobile-app/executive.md)
 
 + Componentes {#cja-components}
   + [Información general](../components/overview.md)
