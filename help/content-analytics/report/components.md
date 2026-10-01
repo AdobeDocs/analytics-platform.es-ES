@@ -8,25 +8,32 @@ exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
 TQID: https://experienceleague.adobe.com/grwbNht938ivCsnzlFBzP8Ga8h1udmQLcZngxY6s0-4
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+    internal-label: Content Analytics
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
+    internal-label: Metadata
+source-git-commit: fec14c8ed1f94e16423682a165198dbda760f78d
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 56%
-
+source-wordcount: '1943'
+ht-degree: 58%
 ---
-
 
 # Componentes de Content Analytics
 
@@ -172,58 +179,63 @@ En las tablas siguientes, ![Generado por IA](/help/assets/icons/AI.svg) indica u
 
 ## Medios de pago
 
-Estos componentes se agregan a una vista de datos cuando el canal **Medios de pago** está habilitado a través de un conector de origen de [Adobe Experience Platform Medios de pago](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home) (por ejemplo, Meta Ads o Google Ads). Permiten informar sobre entidades de medios de pago, contenido creativo y gasto junto con el contenido web y móvil.
+Estos componentes se agregan a una vista de datos cuando el canal **Medios de pago** está habilitado a través de un conector de origen de [Medios de pago de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home). Permiten informar sobre campañas de medios de pago, contenido creativo y gasto junto con el contenido web y móvil. La disponibilidad y los valores rellenados dependen de la red publicitaria y del granulado del sistema de informes.
 
 Los [atributos de recursos](#asset-attributes) y [atributos de experiencia](#experience-attributes) generados por IA que se han descrito anteriormente también están disponibles para los creativos de medios de pago. La misma funcionalidad se ejecuta en los canales web, móvil y de medios de pago.
 
 ### Dimensiones de medios de pago
 
+Las dimensiones siguientes incluyen nombres, estados y otros detalles de cuentas de publicidad, campañas, grupos de publicidad, anuncios, experiencias y recursos.
+
 | Título | Descripción | Tipo |
 |---|---|---|
 | Red de anuncios | La plataforma de publicidad desde la que se ingirieron los datos de medios de pago. | Dimensión |
+| GUID de cuenta | Identificador único de la cuenta de publicidad. | Dimensión |
+| GUID de la campaña | Identificador único de la campaña de medios de pago. | Dimensión |
+| GUID del AdGroup | Identificador único del grupo de publicidad. | Dimensión |
+| GUID de anuncio | Identificador único del anuncio individual. | Dimensión |
 | Nombre de la cuenta | Nombre de la cuenta de publicidad. | Dimensión |
 | Nombre de la campaña | Nombre de la campaña de medios de pago. | Dimensión |
-| Nombre del grupo de publicidad | Nombre del grupo de anuncios (conjunto de anuncios de Meta / grupo de anuncios de Google). | Dimensión |
+| Nombre del AdGroup | Nombre del grupo de anuncios o del conjunto de anuncios. | Dimensión |
 | Nombre de publicidad | Nombre del anuncio individual. | Dimensión |
 | Nombre de la experiencia | Nombre de la experiencia publicitaria (composición creativa). | Dimensión |
-| Nombre del recurso | Nombre del recurso creativo. | Dimensión |
+| Nombre del recurso (medios de pago) | Nombre del recurso creativo. | Dimensión |
 | Estado de la campaña | Estado de la campaña. | Dimensión |
 | Estado del grupo de publicidad | Estado del grupo de publicidad. | Dimensión |
 | Estado de la publicidad | Estado del anuncio. | Dimensión |
-| Estado de servicio | Estado detallado del servicio que indica si la entidad está realizando las entregas actualmente. | Dimensión |
-| Divisa de cuenta | Moneda de la cuenta de publicidad. | Dimensión |
-| Zona horaria de cuenta | Zona horaria de la cuenta de publicidad. | Dimensión |
+| Divisa de la cuenta | Moneda de la cuenta de publicidad. | Dimensión |
+| Zona horaria de la cuenta | Zona horaria de la cuenta de publicidad. | Dimensión |
 | Tipo de cuenta | Tipo de cuenta de publicidad. | Dimensión |
-| Nombre de empresa de cuenta | Nombre de la empresa asociada a la cuenta de publicidad. | Dimensión |
+| Nombre comercial de la cuenta | Nombre de la empresa asociada a la cuenta de publicidad. | Dimensión |
 | Tipo de campaña | Tipo de canal principal de la campaña. | Dimensión |
 | Objetivo de campaña | Objetivo o meta de la campaña. | Dimensión |
-| Estrategia de oferta de campaña | Estrategia de oferta para la campaña. | Dimensión |
-| Tipo de presupuesto de campaña | Tipo de asignación presupuestaria de la campaña. | Dimensión |
+| Estrategia de oferta de la campaña | Estrategia de oferta para la campaña. | Dimensión |
+| Tipo de presupuesto de la campaña | Tipo de asignación presupuestaria de la campaña. | Dimensión |
 | Presupuesto diario de campaña | Importe de presupuesto diario, en la divisa de la cuenta del anuncio. | Dimensión |
-| Presupuesto de duración de campaña | Importe del presupuesto de duración, en la divisa de la cuenta de publicidad. | Dimensión |
+| Presupuesto de duración de la campaña | Importe del presupuesto de duración, en la divisa de la cuenta de publicidad. | Dimensión |
 | Hora de inicio de campaña | Cuando comenzó la campaña. | Dimensión |
-| Hora de finalización de campaña | Cuando terminó la campaña. | Dimensión |
+| Hora de finalización de la campaña | Cuando terminó la campaña. | Dimensión |
 | Tipo de grupo de publicidad | Tipo del grupo de publicidad. | Dimensión |
-| Estrategia de oferta de grupo de anuncios | Estrategia de oferta para el grupo de anuncios. | Dimensión |
-| Objetivo de optimización del grupo de anuncios | Objetivo de optimización para el grupo de anuncios. | Dimensión |
-| Hora de inicio del grupo de anuncios | Cuando comenzó el grupo de publicidad. | Dimensión |
-| Hora de finalización del grupo de anuncios | Cuando finalizó el grupo de publicidad. | Dimensión |
+| Tipo de estrategia de oferta de grupo de publicidad | Estrategia de oferta para el grupo de anuncios. | Dimensión |
+| Objetivo de optimización del grupo de publicidad | Objetivo de optimización para el grupo de anuncios. | Dimensión |
+| Hora de inicio del grupo de publicidad | Cuando comenzó el grupo de publicidad. | Dimensión |
+| Hora de finalización del grupo de publicidad | Cuando finalizó el grupo de publicidad. | Dimensión |
 | Tipo de anuncio | Tipo/formato del anuncio. | Dimensión |
-| Estado de revisión de anuncio | Estado de revisión/aprobación del anuncio. | Dimensión |
-| Tipo de Creative de anuncio | Tipo de elemento creativo utilizado por el anuncio. | Dimensión |
+| Estado de entrega del anuncio | Estado de envío del anuncio. | Dimensión |
+| Estado de revisión del anuncio | Estado de revisión/aprobación del anuncio. | Dimensión |
+| Tipo de pieza publicitaria | Tipo de elemento creativo utilizado por el anuncio. | Dimensión |
 | Título del anuncio | Titular/título del creativo de publicidad. | Dimensión |
-| Ad Call to action | Call-to-action del creativo de publicidad. | Dimensión |
+| Llamada de anuncio a la acción | Call-to-action del creativo de publicidad. | Dimensión |
 | URL de destino del anuncio | URL de destino/aterrizaje del anuncio. | Dimensión |
 | URL mostrada de anuncio | Mostrar la URL mostrada en el anuncio. | Dimensión |
 | Tipo de experiencia | Tipo/formato de la experiencia publicitaria. | Dimensión |
-| URL de página de aterrizaje de experiencia | URL de la página de aterrizaje para la experiencia. | Dimensión |
-| Experience Call to action | Call-to-action de la experiencia. | Dimensión |
+| URL de página de destino de la experiencia | URL de la página de aterrizaje para la experiencia. | Dimensión |
+| CTA de la experiencia | Call-to-action de la experiencia. | Dimensión |
 | Tipo de recurso | Tipo de recurso creativo (por ejemplo, imagen o vídeo). | Dimensión |
 | Anchura del recurso | Anchura del recurso, en píxeles. | Dimensión |
 | Altura del recurso | Altura del recurso, en píxeles. | Dimensión |
-| Proporción de aspecto del recurso | Proporción de aspecto del recurso. | Dimensión |
+| Relación de aspecto del recurso | Proporción de aspecto del recurso. | Dimensión |
 | Orientación del recurso | Orientación del recurso. | Dimensión |
-| Tipo de dispositivo | Desglose por tipo de dispositivo para las métricas del informe. | Dimensión |
 | Ubicación | Desglose de la ubicación de las métricas recogidas en el informe. | Dimensión |
 | Plataforma | Desglose de plataforma para las métricas del informe. | Dimensión |
 | País | Desglose por país de las métricas comunicadas. | Dimensión |
@@ -237,10 +249,10 @@ Los [atributos de recursos](#asset-attributes) y [atributos de experiencia](#exp
 |---|---|---|
 | Impresiones | Número de veces que se ha mostrado el anuncio. | Métrica |
 | Clics | Número de clics en el anuncio. | Métrica |
-| Gastar | Importe gastado, en la divisa de la cuenta de publicidad. | Métrica |
+| Gastar | Importe gastado, según la información de la plataforma publicitaria. | Métrica |
 | Conversiones | Número total de conversiones. | Métrica |
 | Valor de conversión | Valor total de las conversiones. | Métrica |
-| Alcance | Número de personas únicas que vieron el anuncio. | Métrica |
+| Alcance | Alcance de audiencia informado por la plataforma de publicidad. La acumulación de alcance en las filas de los informes no anula la duplicación de personas. | Métrica |
 | Participaciones | Número de interacciones con el anuncio. | Métrica |
 | Vistas de videos | Número de visualizaciones de vídeo. | Métrica |
 | Finalizaciones de vídeo | Número de vídeos vistos hasta su finalización. | Métrica |
@@ -263,6 +275,8 @@ Los [atributos de recursos](#asset-attributes) y [atributos de experiencia](#exp
 {style="table-layout:fixed"}
 
 ### Métricas calculadas de medios de pago
+
+Estas métricas calculadas calculan las relaciones a partir de las métricas base agregadas para el grano de sistema de informes, en lugar de sumar las tasas individuales.
 
 | Título | Descripción | Tipo |
 |---|---|---|
