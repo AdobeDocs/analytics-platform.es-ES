@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 5%
+source-wordcount: '437'
+ht-degree: 2%
 ---
 # Administrar las configuraciones de filtrado y creación de informes de consentimiento
 
@@ -56,9 +56,9 @@ Para ver las configuraciones existentes:
 
    * **[!UICONTROL Estado]**: El estado de la configuración.
 
-   Puede ocultar cualquier columna seleccionando el icono de columna ![Icono de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), deseleccionando cualquier columna que desee ocultar y, a continuación, seleccionando **[!UICONTROL Aplicar]**.
+   Puede ocultar cualquier columna seleccionando el icono de columna ![Icono de columna](/help/assets/icons2/ColumnSettings.svg), deseleccionando cualquier columna que desee ocultar y, a continuación, seleccionando **[!UICONTROL Aplicar]**.
 
-1. (Opcional) Para filtrar la lista de configuraciones, seleccione el **Filtro** ![Icono de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) y, a continuación, filtre por cualquiera de los siguientes criterios:
+1. (Opcional) Para filtrar la lista de configuraciones, seleccione el **Filtro** ![Icono de filtro](/help/assets/icons/Filter.svg) y, a continuación, filtre por cualquiera de los siguientes criterios:
 
    * **[!UICONTROL Conexión]**
 

@@ -9,26 +9,34 @@ autotag-review: '2026-05-19T09:37:23.903Z'
 TQID: 'https://experienceleague.adobe.com/zguhaVwn2XtF0vSGqYAgjiL2IwUq-DMH-WUd0uQRnPc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases, Use cases (CJA)
   - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
+    internal-label: Cross channel analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 638
+source-wordcount: '614'
 ht-degree: 100%
-
 ---
-
 # Análisis en canales múltiples {#cross-channel}
 
 <!-- markdownlint-disable MD034 -->
@@ -49,11 +57,11 @@ El análisis en canales múltiples hace posible una sola vista consolidada del c
 1. [Cree esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es) para introducir los datos.
 1. [Cree conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para incorporar los datos.
 1. [Ingresar datos en Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=es):
-   1. Datos basados en eventos ![evento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) del sitio web o la aplicación móvil a través del conector de origen de Edge Network o Analytics.
-   2. Datos de perfil ![profile](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (por ejemplo, de un sistema CRM, aplicación de centro de llamadas, aplicación de lealtad).
-   3. Datos de búsqueda ![lookup](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (por ejemplo, nombre de producto, categoría de un sistema de información de productos).
+   1. Datos basados en eventos ![evento](/help/assets/icons/Events.svg) del sitio web o la aplicación móvil a través del conector de origen de Edge Network o Analytics.
+   2. Datos de perfil ![profile](/help/assets/icons/User.svg) (por ejemplo, de un sistema CRM, aplicación de centro de llamadas, aplicación de lealtad).
+   3. Datos de búsqueda ![lookup](/help/assets/icons/Search.svg) (por ejemplo, nombre de producto, categoría de un sistema de información de productos).
 
-1. Utilice un ID de espacio de nombres común en todos los conjuntos de datos. Use [Vinculación](../../stitching/overview.md) para elevar cualquier conjunto de datos basado en evento ![data refresh](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) con respecto a la aportación del ID común en cada fila. Tenga en cuenta que Customer Journey Analytics no utiliza actualmente los servicios de perfil o intentidad de Experience Platform para la vinculación.
+1. Utilice un ID de espacio de nombres común en todos los conjuntos de datos. Use [Vinculación](../../stitching/overview.md) para elevar cualquier conjunto de datos basado en evento ![data refresh](/help/assets/icons/DataRefresh.svg) con respecto a la aportación del ID común en cada fila. Tenga en cuenta que Customer Journey Analytics no utiliza actualmente los servicios de perfil o intentidad de Experience Platform para la vinculación.
 1. Realice cualquier preparación de datos personalizada para asegurarse de que se incorpora una clave común en los conjuntos de datos de serie temporal en Customer Journey Analytics.
 1. Asigne un ID principal a los datos de búsqueda que pueda unirse a un campo en los datos de evento. Cuenta como filas en licencias.
 1. Establezca el mismo ID principal para los datos de perfil que el ID principal de los datos de evento.

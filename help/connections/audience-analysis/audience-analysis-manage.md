@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 5%
+source-wordcount: '296'
+ht-degree: 2%
 ---
 # Administrar configuraciones de análisis de audiencia{#manage-audience-analysis}
 
@@ -65,9 +65,9 @@ Para ver las configuraciones de análisis de audiencia existentes:
 
    * **[!UICONTROL Estado]**: El estado de la configuración. Los estados posibles son Completo, En curso o Error. <!--true?-->
 
-   Puede ocultar cualquier columna seleccionando el icono de columna ![Icono de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), deseleccionando cualquier columna que desee ocultar y, a continuación, seleccionando **[!UICONTROL Aplicar]**.
+   Puede ocultar cualquier columna seleccionando el icono de columna ![Icono de columna](/help/assets/icons2/ColumnSettings.svg), deseleccionando cualquier columna que desee ocultar y, a continuación, seleccionando **[!UICONTROL Aplicar]**.
 
-1. (Opcional) Para filtrar la lista de configuraciones, seleccione **Filtro** ![Icono de filtro de análisis de audiencia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) y, a continuación, filtre según cualquiera de los siguientes criterios:
+1. (Opcional) Para filtrar la lista de configuraciones, seleccione **Filtro** ![Icono de filtro de análisis de audiencia](/help/assets/icons/Filter.svg) y, a continuación, filtre según cualquiera de los siguientes criterios:
 
    * **[!UICONTROL Conexión]**
 

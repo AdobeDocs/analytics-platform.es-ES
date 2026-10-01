@@ -19,10 +19,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 5%
+source-wordcount: '360'
+ht-degree: 2%
 ---
 # Ver previsiones
 
@@ -32,7 +32,7 @@ Puede ver las previsiones en una tabla de forma libre o en un gráfico de línea
 
 Puede ver las previsiones en una tabla de forma libre de series temporales. Cuando [!UICONTROL Mostrar previsión] está habilitado para la tabla de forma libre en [preferencias de usuario](../user-preferences.md), la previsión se muestra automáticamente para la primera columna de métrica agregada a la tabla. Para cualquier columna adicional:
 
-1. Seleccione el icono de configuración de columna ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) en el encabezado de columna y, a continuación, asegúrese de que **[!UICONTROL Mostrar previsión]** está seleccionado en la lista de opciones. Para obtener más información, consulte [Configuración de columna](../visualizations/freeform-table/column-row-settings/column-settings.md).
+1. Seleccione el icono de configuración de columna ![Configuración de columna](/help/assets/icons2/Settings.svg) en el encabezado de columna y, a continuación, asegúrese de que **[!UICONTROL Mostrar previsión]** está seleccionado en la lista de opciones. Para obtener más información, consulte [Configuración de columna](../visualizations/freeform-table/column-row-settings/column-settings.md).
 
 1. Haga clic fuera del menú **[!UICONTROL Configuración de columna]** para guardar la configuración y ver la tabla actualizada.
 
@@ -48,7 +48,7 @@ Las previsiones se muestran en la tabla de la siguiente manera:
 
 Un gráfico de líneas es la única visualización que le permite ver las previsiones.
 
-1. Seleccione el icono de configuración ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) en el encabezado de visualización y, a continuación, asegúrese de que **[!UICONTROL Mostrar previsión]** está seleccionado en la lista de opciones.
+1. Seleccione el icono de configuración ![Configuración de columna](/help/assets/icons2/Settings.svg) en el encabezado de visualización y, a continuación, asegúrese de que **[!UICONTROL Mostrar previsión]** está seleccionado en la lista de opciones.
 
 1. (opcional) Para permitir que las previsiones escalen el gráfico correctamente, seleccione **[!UICONTROL Permitir que la previsión escale el eje Y]**. Esta opción no está seleccionada de forma predeterminada porque a veces puede representar un gráfico menos legible.
 

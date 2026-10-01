@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hold: true
 role: Admin
-source-git-commit: 7cd3764ebbab83530ebb42f2041aee4bd390d168
+source-git-commit: 42b73f2843244a02fd51301d8d99282ae5f309cd
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1710'
 ht-degree: 0%
 ---
 
@@ -28,8 +28,8 @@ Los datos de medios de pago se incorporan mediante conectores de origen de Exper
 Asegúrese de tener el siguiente acceso en Experience Platform:
 
 * Permiso para ver y administrar orígenes.
-* Una zona protegida para trabajar.
 * Permite crear esquemas, conjuntos de datos y flujos de datos.
+* Una zona protegida seleccionada para funcionar en. Debe elegir la zona protegida antes de continuar con los pasos de configuración.
 
 Si usa [!DNL Meta Ads] como origen, asegúrese de que también cumple los siguientes requisitos previos:
 
@@ -75,23 +75,33 @@ El conjunto de datos de métricas de resumen puede incluir los siguientes grupos
 * **Participación social**: me gusta, comentarios y seguimientos.
 * **Atribución y ruta**: detalles del modelo de atribución, confianza, pesos, métricas de ruta y contribución de canal.
 * **Calidad y fraude**: puntuaciones de calidad, indicadores de fraude, tasas de tráfico no válidas y métricas de seguridad de marca.
-* **Desgloses dimensionales**: canal, red de publicidad, tipo de dispositivo, grupo de edad, sexo, país, ciudad, idioma, día de la semana, categoría de audiencia, formato creativo y tipo de desglose.
+* **Desgloses dimensionales**: los datos pueden desglosarse por canal, red de publicidad, tipo de dispositivo, grupo de edad, sexo, país, ciudad, idioma, día de la semana, categoría de audiencia, formato creativo y otras dimensiones en función de la plataforma de origen.
 
 ### Conjuntos de datos estándar
 
-Al conectar una fuente de medios de pago, Adobe aprovisiona 12 conjuntos de datos de medios de pago estándar basados en las clases de esquema de medios de pago globales y los grupos de campos. Estos conjuntos de datos incluyen los seis conjuntos de datos de búsqueda, el conjunto de datos de métricas de resumen y los conjuntos de datos de soporte. Los 12 conjuntos de datos deben estar presentes para que los datos de medios de pago se resuelvan correctamente en la fase posterior.
+Al conectar una fuente de medios de pago, Adobe aprovisiona 12 conjuntos de datos de medios de pago estándar basados en las clases de esquema de medios de pago globales y los grupos de campos. Estos conjuntos de datos incluyen seis conjuntos de datos de métricas de resumen, los seis conjuntos de datos de búsqueda y conjuntos de datos compatibles. Los 12 conjuntos de datos de resumen y búsqueda deben estar presentes para que los datos de medios de pago se resuelvan correctamente en la fase posterior.
 
-* Búsqueda de campañas de medios pagados
-* Búsqueda de recursos de medios pagados
-* Búsqueda de experiencia de medios de pago
-* Búsqueda de anuncios de medios pagados
-* Búsqueda de grupos de publicidad de medios de pago
+Conjuntos de datos requeridos:
+
+* Resumen de cuenta de medios de pago
+* Resumen de campaña de medios de pago
+* Resumen de grupos de publicidad de medios de pago
+* Resumen de anuncios de medios pagados
+* Resumen de experiencia de medios de pago
+* Resumen de recursos de medios pagados
 * Búsqueda de cuenta de medios de pago
+* Búsqueda de campañas de medios pagados
+* Búsqueda de grupos de anuncios de medios pagados
+* Búsqueda de anuncios de medios pagados
+* Búsqueda de experiencia de medios de pago
+* Búsqueda de recursos de medios pagados
+
+Conjuntos de datos complementarios, por ejemplo:
+
 * Búsqueda demográfica y de medios de pago
 * Resumen de ubicación de experiencia de medios de pago
 * Resumen geográfico de anuncios de medios de pago
 * Resumen de anuncios de medios de pago (métricas de resumen)
-* Resumen de recursos de medios pagados
 * Resumen demográfico de recursos de medios de pago
 
 ## Ingesta de datos de medios de pago en Adobe Experience Platform
@@ -100,10 +110,12 @@ Utilice el siguiente proceso para conectar un origen e introducir datos de medio
 
 1. Compruebe que tiene los permisos de origen de Experience Platform y el acceso a la plataforma de publicidad necesarios.
 1. En Experience Platform, vaya a **[!UICONTROL Sources]** > **[!UICONTROL Catalog]** > **[!UICONTROL Advertising]**.
-1. Seleccione el conector que desee usar, como **[!DNL Meta Ads]**, y luego seleccione **[!UICONTROL Configurar]**.
+1. &#x200B;
+   1. Asegúrese de que está en la zona protegida que contiene los conjuntos de datos de medios de pago.
+1. Seleccione el conector que desee utilizar, como **[!DNL Meta Ads]**. Seleccione **[!UICONTROL Configurar]** para crear una nueva conexión o seleccione **[!UICONTROL Agregar datos]** para agregar más datos a una conexión existente.
 1. Autentique con [!DNL OAuth 2.0] iniciando sesión con un usuario que tenga el acceso requerido de nivel de anunciante.
 1. Seleccione las cuentas de publicidad, las entidades y los datos de insight que desee introducir.
-1. Confirme las asignaciones de destino al esquema de medios globales de pago y compruebe que los conjuntos de datos de consulta y el conjunto de datos de métricas de resumen se hayan aprovisionado correctamente.
+1. Compruebe que los conjuntos de datos de búsqueda y el conjunto de datos de métricas de resumen estén aprovisionados correctamente.
 1. Introduzca la configuración del flujo de datos, confirme los conjuntos de datos de destino y configure la programación de ingesta.
 1. Guarde el flujo de datos y supervise las ejecuciones en **[!UICONTROL Orígenes]** > **[!UICONTROL Flujos de datos]**.
 1. Compruebe que existen los conjuntos de datos de medios de pago estándar y que contienen datos.
@@ -112,7 +124,7 @@ Antes de pasar a Customer Journey Analytics, valide los datos introducidos:
 
 * Confirme que los valores de la entidad `GUID` y el ID nativo se rellenan de manera consistente en las métricas de resumen y los conjuntos de datos de búsqueda.
 * Confirme que cada fila de métricas de resumen incluya una marca de tiempo.
-* Confirme que los campos clave de creación de informes, como campaña, canal, red de publicidad, impresiones, clics, gasto, región y tipo de dispositivo, contienen valores.
+* Confirme que los campos clave de los informes, como las dimensiones (por ejemplo: `channel`, `adNetwork`) y las métricas (por ejemplo: `impressions`, `clicks`, `spend`), contengan valores. Tenga en cuenta que algunos campos como `region` pueden no rellenarse en todas las plataformas de origen.
 * Confirme que los valores de moneda y zona horaria son coherentes en todas las cuentas relevantes.
 
 ## Introducción de datos de medios pagados en Customer Journey Analytics
@@ -124,9 +136,9 @@ Customer Journey Analytics no informa directamente sobre los conjuntos de datos 
 Utilice el siguiente proceso para crear o actualizar una conexión:
 
 1. En Customer Journey Analytics, [cree o edite una conexión existente](/help/connections/create-connection.md).
-1. Asegúrese de seleccionar la zona protegida que contiene los conjuntos de datos de medios de pago.
-1. Añada el conjunto de datos de métricas de resumen como datos de resumen.
-1. Agregue cada conjunto de datos de búsqueda como un conjunto de datos de búsqueda y una el conjunto de datos a los datos de resumen mediante los identificadores de entidad correspondientes para cuenta, campaña, grupo de publicidad, publicidad, recurso y experiencia.
+1. Asegúrese de seleccionar la zona protegida que contiene los conjuntos de datos de medios de pago como parte de la configuración de conexión.
+1. Añada los conjuntos de datos de métricas de resumen como datos de resumen. Si hay varios conjuntos de datos de métricas de resumen disponibles, use [search](/help/connections/create-connection.md#add-datasets) para filtrar por las clases `Paid Media` e identificar los conjuntos de datos correctos.
+1. Agregue cada conjunto de datos de búsqueda como un conjunto de datos de búsqueda. Una el conjunto de datos de búsqueda a los datos de resumen utilizando los identificadores GUID de entidad correspondientes (las claves globales generadas por Adobe) para cuenta, campaña, grupo de publicidad, publicidad, recurso y experiencia. Algunas plataformas de origen también pueden admitir uniones en valores de ID nativos.
 1. Opcionalmente, agregue datos de evento de flujo de navegación si desea relacionar datos de medios pagados agregados con metadatos compartidos como ID, códigos de seguimiento o parámetros `UTM`.
 1. Revise la [configuración específica del conjunto de datos](/help/connections/create-connection.md#dataset-settings) para cada conjunto de datos.
 1. Guarde la conexión y confirme que la conexión comienza a rellenar los datos.

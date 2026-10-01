@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '10602'
+source-wordcount: '10578'
 ht-degree: 98%
 ---
 # Campos derivados {#derived-fields}
@@ -877,10 +877,10 @@ Defina un campo derivado `Page Name (updated)`. Utilice la función [!UICONTROL 
 
 La siguiente funcionalidad adicional está disponible en la interfaz de regla Clasificar:
 
-- Para borrar rápidamente todos los valores de tabla, seleccione ![Borrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL Borrar todos los valores de tabla]**.
-- Para cargar un archivo CSV que contenga valores originales para Cuando los valores son iguales a y nuevos valores para Reemplazar valores por, seleccione ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Cargar CSV]**.
-- Para descargar una plantilla para crear un archivo CSV con valores nuevos y originales para cargar, seleccione ![Descargar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Descargar plantilla CSV]**.
-- Para descargar un archivo CSV con todos los valores nuevos y originales rellenados en la interfaz de regla, seleccione ![Descargar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Descargar valores CSV]**.
+- Para borrar rápidamente todos los valores de tabla, seleccione ![Borrar](/help/assets/icons/Erase.svg) **[!UICONTROL Borrar todos los valores de tabla]**.
+- Para cargar un archivo CSV que contenga valores originales para Cuando los valores son iguales a y nuevos valores para Reemplazar valores por, seleccione ![CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Cargar CSV]**.
+- Para descargar una plantilla para crear un archivo CSV con valores nuevos y originales para cargar, seleccione ![Descargar](/help/assets/icons/Download.svg) **[!UICONTROL Descargar plantilla CSV]**.
+- Para descargar un archivo CSV con todos los valores nuevos y originales rellenados en la interfaz de regla, seleccione ![Descargar](/help/assets/icons/Download.svg) **[!UICONTROL Descargar valores CSV]**.
 
 
 +++

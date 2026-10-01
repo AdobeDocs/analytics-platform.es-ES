@@ -7,25 +7,32 @@ role: User
 TQID: https://experienceleague.adobe.com/omsyiimc8b3EsGvJYb0V-jHqOxUp-8S7fFQ8dXUGUxs
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1494
+source-wordcount: '1496'
 ht-degree: 99%
-
 ---
-
 # Información general sobre la segmentación
 
 Customer Journey Analytics le permite crear, administrar, compartir y aplicar segmentos del público potentes y centrados en sus informes. Los segmentos le permiten identificar subconjuntos de personas, sesiones o eventos basándose en las características o en las interacciones. Los segmentos están diseñados como información del público codificada que puede crear de acuerdo con sus necesidades específicas y, a continuación, comprobar, editar y compartir con otros integrantes del equipo.
@@ -47,9 +54,9 @@ Utilice el [Administrador de segmentos](seg-manage.md) para administrar segmento
 En especial, como administrador, la correcta planificación de los segmentos mejora las posibilidades de que se utilicen. Tenga en cuenta lo siguiente a la hora de planificar segmentos:
 
 - **Público**: ¿Quién utilizará sus segmentos? Asegúrese de suministrar una buena descripción del segmento para que el público comprenda lo siguiente:
-   - ¿Para qué sirve este segmento?
+  - ¿Para qué sirve este segmento?
 
-   - ¿Cuándo debo utilizar este segmento?
+  - ¿Cuándo debo utilizar este segmento?
 
 - **Ámbito**: ¿qué [contenedor de segmento](#segment-containers) representa mejor los datos que busca? Utilice el contenedor más pequeño posible.
 
@@ -97,18 +104,18 @@ Los segmentos se basan en una jerarquía a nivel de persona, sesión y evento us
 <table style="table-layout: fixed; border: none;" width="100%">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Persona</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="/help/assets/icons/User.svg"/> Persona</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Sesión</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="/help/assets/icons/Visit.svg"/> Sesión</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Evento</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="/help/assets/icons/Events.svg"/> Evento</td>
 </tr>
 </table>
 
@@ -118,7 +125,7 @@ Los segmentos se basan en una jerarquía a nivel de persona, sesión y evento us
 > 
 > - El contenedor **Persona** se conoce en Adobe Analytics como el contenedor **Visitante**.
 > - El contenedor **Sesión** se conoce en Adobe Analytics como el contenedor **Visita**.
-> - El contenedor **Evento** se conoce en Adobe Analytics como el contenedor **Acción**.
+> - El contenedor **Evento** se conoce en Adobe Analytics como el contenedor **Hit**.
 >
 
 Un segmento establece las condiciones para segmentar las personas, las sesiones o los eventos en función de condiciones. Por ejemplo, las condiciones para segmentar las personas se basan en las características de la persona y los rasgos de navegación. Para desglosar aún más los datos, puede segmentar sesiones específicas, eventos de vista de página, pulsaciones en la pantalla, opciones de menú en un cuadro en la parte superior y mucho más. También puede segmentar atributos que haya introducido desde una CRM o un sistema de lealtad. El [Generador de segmentos](/help/components/segments/seg-builder.md) proporciona una interfaz simple para crear estos subconjuntos y aplicar condiciones en contenedores anidados, jerárquicos de Persona, de Sesión o Evento.

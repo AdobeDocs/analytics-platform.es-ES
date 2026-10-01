@@ -18,10 +18,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 20%
+source-wordcount: '810'
+ht-degree: 15%
 ---
 # Crear o editar configuraciones
 
@@ -80,7 +80,7 @@ Para cada configuración:
    1. Seleccione **[!UICONTROL Usar conexión]**.
 
    * Para buscar en la lista de conexiones desde las que seleccionar, use el campo ![Buscar](/help/assets/icons/Search.svg).
-   * Para definir qué columnas desea mostrar en la tabla, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). En el cuadro de diálogo **[!UICONTROL Personalizar tabla]**, seleccione las columnas que desea mostrar. Luego selecciona **[!UICONTROL Aplicar]**.
+   * Para configurar qué columnas mostrar en la tabla, seleccione ![ColumnSetting](/help/assets/icons/ColumnSetting.svg). En el cuadro de diálogo **[!UICONTROL Personalizar tabla]**, seleccione las columnas que desea mostrar. Luego selecciona **[!UICONTROL Aplicar]**.
 
 1. En la sección **[!UICONTROL Vistas de datos]**, si no hay ninguna vista de datos configurada, seleccione **[!UICONTROL Seleccionar vistas de datos]** para seleccionar vistas de datos.
 
@@ -95,7 +95,7 @@ Para cada configuración:
    1. Seleccione **[!UICONTROL Usar vistas de datos]** para usar las vistas de datos. Seleccione Cancelar para cancelar.
 
    * Para buscar en la lista de vistas de datos entre las que seleccionar, use el campo ![Buscar](/help/assets/icons/Search.svg).
-   * Para definir qué columnas desea mostrar en la tabla, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). En el cuadro de diálogo **[!UICONTROL Personalizar tabla]**, seleccione las columnas que desea mostrar. Luego selecciona **[!UICONTROL Aplicar]**.
+   * Para configurar qué columnas mostrar en la tabla, seleccione ![ColumnSetting](/help/assets/icons/ColumnSetting.svg). En el cuadro de diálogo **[!UICONTROL Personalizar tabla]**, seleccione las columnas que desea mostrar. Luego selecciona **[!UICONTROL Aplicar]**.
 
 1. Para finalizar la configuración:
 
