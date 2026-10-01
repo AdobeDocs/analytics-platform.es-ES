@@ -17,12 +17,14 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3acb31df785d038def3432a9734b499810636860
+source-git-commit: e550b7005c12bc5e2fb92bea44767bae0d7db3dc
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 1%
 ---
 # Perspectivas de conversación
+
+{{release-limited-testing}}
 
 Conversation Insights le permite analizar las conversaciones a partir de las experiencias de agente que ofrece a sus clientes. Estas experiencias del agente pueden basarse en modelos de lenguaje de gran tamaño (LLM) o en conversaciones humanas. Por ejemplo, un bot de chat que interactúa con un cliente o un centro de llamadas transcribe.
 
