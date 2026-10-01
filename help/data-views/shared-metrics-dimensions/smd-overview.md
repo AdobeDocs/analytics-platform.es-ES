@@ -5,36 +5,46 @@ exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
 TQID: https://experienceleague.adobe.com/5sjpTMocv3547Xqg4VD6C5Gp-cRzNmyHTI5iE6P-JGA
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Governance
+source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 3%
-
+source-wordcount: '1337'
+ht-degree: 2%
 ---
-
 # Resumen de métricas y dimensiones compartidas
 
-Las métricas y dimensiones compartidas proporcionan una ubicación central para administrar las dimensiones y métricas que se pueden utilizar en cualquier número de vistas de datos. Estos componentes son especialmente valiosos para las organizaciones que utilizan varias vistas de datos, especialmente si esas vistas de datos comparten la configuración de componentes comunes. Los cambios realizados en las métricas y dimensiones compartidas se aplican instantáneamente en todas las vistas de datos a las que se comparten. Al editar una vista de datos individual, las dimensiones y métricas compartidas se pueden identificar mediante un icono de ![componente compartido](/help/assets/icons/CCLibrary.svg) junto al nombre del componente.
+Las métricas y dimensiones compartidas proporcionan una ubicación central para administrar las dimensiones y métricas que se pueden utilizar en cualquier número de vistas de datos. Estos componentes son especialmente valiosos para las organizaciones que utilizan varias vistas de datos, especialmente si esas vistas de datos comparten la configuración de componentes comunes. Los cambios realizados en las métricas y dimensiones compartidas se aplican instantáneamente en todas las vistas de datos a las que se comparten. Al editar una vista de datos individual, puede identificar dimensiones y métricas compartidas mediante un ![icono de componente compartido](/help/assets/icons/CCLibrary.svg) junto al nombre del componente.
 
 Aunque las dimensiones y métricas compartidas permiten el uso de componentes comunes en muchas vistas de datos, no se pueden compartir entre conexiones.
+
+## Permisos
+* [Los administradores de productos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#product-administrator-role) también necesitan los permisos de **Administrar directivas de uso de datos** y **Ver directivas de uso de datos** para todas las zonas protegidas en [Permisos de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions).
 
 ## Flujo de trabajo
 
 La mayoría de las organizaciones utilizan el siguiente flujo de trabajo general para deduplicar y mantener dimensiones y métricas a lo largo del tiempo:
 
-1. Importe componentes de cada vista de datos que puedan compartirse en varias vistas de datos. Si la misma dimensión o métrica existe en varias vistas de datos, Adobe recomienda importar todas las instancias de ese componente. Aunque esta práctica recomendada importa duplicados, estos se importan para que se puedan deduplicar y conservar sus referencias respectivas a proyectos de Workspace.
+1. Importe componentes de cada vista de datos que se compartan en varias vistas de datos. Si la misma dimensión o métrica existe en varias vistas de datos, Adobe recomienda importar todas las instancias de ese componente. Aunque esta práctica recomendada importa duplicados, estos se importan para que se puedan deduplicar y conservar sus referencias respectivas a proyectos de Workspace.
 1. Revise todos los componentes que utilizan el mismo ID de componente, pero que tienen configuraciones de componente diferentes. Para cada grupo de componentes duplicados, seleccione la configuración de componente que desee aplicar a todos los demás componentes que compartan ese ID de componente.
 1. Revise todos los componentes que utilicen el mismo ID de componente y que también tengan la misma configuración de componente. Estas dimensiones o métricas se pueden combinar de forma fácil y segura.
 
@@ -61,40 +71,40 @@ Todas las dimensiones y métricas compartidas se muestran debajo de las cuatro t
 ![Vista previa de dimensiones y métricas disponibles](assets/shared-metrics-dimensions.png)
 
 * **Filtro**: seleccione el icono ![Filtro](../../assets/icons/Filter.svg) para mostrar u ocultar los filtros disponibles. Los filtros disponibles son los siguientes:
-   * **[!UICONTROL Tipo de componente]**: ver solo dimensiones o solo métricas.
-   * **[!UICONTROL Conjunto de datos]**: vea solo los componentes en los que el conjunto de datos está incluido en las vistas de datos en las que se comparte un componente.
-   * **[!UICONTROL Vista de datos]**: vea solo los componentes compartidos con esa vista de datos.
-   * **[!UICONTROL Creado por]**: vea solo los componentes creados por un usuario determinado.
-   * **[!UICONTROL Duplicados]**: vea solo los componentes que tienen el mismo ID de componente que otro componente. Estos filtros son idénticos a los componentes de revisión a través de las tarjetas de información general.
+  * **[!UICONTROL Tipo de componente]**: ver solo dimensiones o solo métricas.
+  * **[!UICONTROL Conjunto de datos]**: vea solo los componentes en los que el conjunto de datos está incluido en las vistas de datos en las que se comparte un componente.
+  * **[!UICONTROL Vista de datos]**: vea solo los componentes compartidos con esa vista de datos.
+  * **[!UICONTROL Creado por]**: vea solo los componentes creados por un usuario determinado.
+  * **[!UICONTROL Duplicados]**: vea solo los componentes que tienen el mismo ID de componente que otro componente. Estos filtros son idénticos a los componentes de revisión a través de las tarjetas de información general.
 * **Buscar**: Utilice el icono ![Buscar](../../assets/icons/Search.svg) para buscar un componente por nombre.
 * **[!UICONTROL Conexión]**: Menú desplegable que cambia la [conexión](/help/connections/overview.md). Las dimensiones y métricas compartidas siempre son específicas de una sola conexión.
 * **[!UICONTROL Personalizar tabla]**: seleccione el icono ![Personalizar tabla](/help/assets/icons/ColumnSetting.svg) para mostrar u ocultar columnas en la tabla. Las opciones disponibles incluyen:
-   * **[!UICONTROL Nombre de campo]**: El nombre de la dimensión o métrica compartida. Este campo siempre está visible.
-   * **[!UICONTROL Tipo]**: indica si el componente es una dimensión o una métrica. Este campo siempre está visible.
-   * **[!UICONTROL Tipo de conjunto de datos]**: El tipo de conjunto de datos. La mayoría de los conjuntos de datos son conjuntos de datos de evento.
-   * **[!UICONTROL Compartido en la vista de datos]**: todas las vistas de datos con las que se comparte este componente. Este campo siempre está visible. Seleccione el vínculo para abrir un modal que enumere todas las vistas de datos en las que está disponible este componente.
-   * **[!UICONTROL Conjuntos de datos]**: todos los conjuntos de datos que se incluyen en cada vista de datos con la que se comparte este componente. Seleccione el vínculo para abrir un modal que enumere todos los conjuntos de datos del componente.
-   * **[!UICONTROL Creado por]**: Nombre del individuo que creó o importó el componente en la interfaz de métricas y dimensiones compartidas.
-   * **[!UICONTROL Tipo de esquema]**: El formato en el que se almacenan los datos. Algunos ejemplos son `string`, `double` o `boolean`.
-   * **[!UICONTROL ID de componente]**: ID de componente de la dimensión o métrica. Cualquier componente que comparta el mismo ID de componente en esta interfaz debe revisarse y deduplicarse.
-   * **[!UICONTROL Esquema]**: La ruta de esquema para la dimensión o métrica. Por ejemplo, `web.webPageDetails.URL`.
-   * **[!UICONTROL Descripción]**: La [descripción](/help/data-views/component-settings/overview.md) del componente.
-   * **[!UICONTROL Etiquetas de contexto]**: [etiquetas de contexto](/help/data-views/component-settings/overview.md) para el componente.
-   * **[!UICONTROL Incluir/Excluir valores]**: Enumera el número de reglas especificadas en [Incluir/excluir valores](/help/data-views/component-settings/include-exclude-values.md).
-   * **[!UICONTROL Etiquetas de uso de datos]**: Las [etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview) para el campo de esquema.
-   * **[!UICONTROL Obsoleto]**: indica si se ha establecido el indicador obsoleto.
-   * **[!UICONTROL Formato]**: El formato en el que aparecen los valores. Los booleanos suelen aparecer como `True | False`, las métricas suelen aparecer como `Decimal`, etc.
-   * **[!UICONTROL Desduplicación de métricas]**: La configuración de [anulación de duplicación de métricas](/help/data-views/component-settings/metric-deduplication.md) del componente.
-   * **[!UICONTROL Comportamiento]**: La configuración de [Comportamiento](/help/data-views/component-settings/behavior.md) del componente.
-   * **[!UICONTROL Atribución]**: La configuración de [Atribución](/help/data-views/component-settings/attribution.md) del componente.
-   * **[!UICONTROL Opción sin valor]**: [Sin opciones de valor](/help/data-views/component-settings/no-value-options.md) del componente.
-   * **[!UICONTROL Clasificación de valores]**: La configuración de [Clasificación de valores](/help/data-views/component-settings/value-bucketing.md) del componente.
-   * **[!UICONTROL Persistencia]**: La configuración de [Persistencia](/help/data-views/component-settings/persistence.md) del componente.
-   * **[!UICONTROL Minúsculas]**: indica si el componente está habilitado para minúsculas en función de la configuración de [Comportamiento](/help/data-views/component-settings/behavior.md) del componente.
-   * **[!UICONTROL Subcadena]**: La configuración de [Subcadena](/help/data-views/component-settings/substring.md) del componente.
-   * **[!UICONTROL Grupo de datos de resumen]**: La configuración de [grupo de datos de resumen](/help/data-views/component-settings/summary-data-group.md) del componente.
-   * **[!UICONTROL Fecha de creación]**: La fecha en que se creó o importó el componente.
-   * **[!UICONTROL Última modificación]**: si el componente se ha modificado después de crearlo, la fecha en que se modificó por última vez.
+  * **[!UICONTROL Nombre de campo]**: El nombre de la dimensión o métrica compartida. Este campo siempre está visible.
+  * **[!UICONTROL Tipo]**: indica si el componente es una dimensión o una métrica. Este campo siempre está visible.
+  * **[!UICONTROL Tipo de conjunto de datos]**: El tipo de conjunto de datos. La mayoría de los conjuntos de datos son conjuntos de datos de evento.
+  * **[!UICONTROL Compartido en la vista de datos]**: todas las vistas de datos con las que se comparte este componente. Este campo siempre está visible. Seleccione el vínculo para abrir un modal que enumere todas las vistas de datos en las que está disponible este componente.
+  * **[!UICONTROL Conjuntos de datos]**: todos los conjuntos de datos que se incluyen en cada vista de datos con la que se comparte este componente. Seleccione el vínculo para abrir un modal que enumere todos los conjuntos de datos del componente.
+  * **[!UICONTROL Creado por]**: Nombre del individuo que creó o importó el componente en la interfaz de métricas y dimensiones compartidas.
+  * **[!UICONTROL Tipo de esquema]**: El formato en el que se almacenan los datos. Algunos ejemplos son `string`, `double` o `boolean`.
+  * **[!UICONTROL ID de componente]**: ID de componente de la dimensión o métrica. Cualquier componente que comparta el mismo ID de componente en esta interfaz debe revisarse y deduplicarse.
+  * **[!UICONTROL Esquema]**: La ruta de esquema para la dimensión o métrica. Por ejemplo, `web.webPageDetails.URL`.
+  * **[!UICONTROL Descripción]**: La [descripción](/help/data-views/component-settings/overview.md) del componente.
+  * **[!UICONTROL Etiquetas de contexto]**: [etiquetas de contexto](/help/data-views/component-settings/overview.md) para el componente.
+  * **[!UICONTROL Incluir/Excluir valores]**: Enumera el número de reglas especificadas en [Incluir/excluir valores](/help/data-views/component-settings/include-exclude-values.md).
+  * **[!UICONTROL Etiquetas de uso de datos]**: Las [etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview) para el campo de esquema.
+  * **[!UICONTROL Obsoleto]**: indica si se ha establecido el indicador obsoleto.
+  * **[!UICONTROL Formato]**: El formato en el que aparecen los valores. Los booleanos suelen aparecer como `True | False`, las métricas suelen aparecer como `Decimal`, etc.
+  * **[!UICONTROL Desduplicación de métricas]**: La configuración de [anulación de duplicación de métricas](/help/data-views/component-settings/metric-deduplication.md) del componente.
+  * **[!UICONTROL Comportamiento]**: La configuración de [Comportamiento](/help/data-views/component-settings/behavior.md) del componente.
+  * **[!UICONTROL Atribución]**: La configuración de [Atribución](/help/data-views/component-settings/attribution.md) del componente.
+  * **[!UICONTROL Opción sin valor]**: [Sin opciones de valor](/help/data-views/component-settings/no-value-options.md) del componente.
+  * **[!UICONTROL Clasificación de valores]**: La configuración de [Clasificación de valores](/help/data-views/component-settings/value-bucketing.md) del componente.
+  * **[!UICONTROL Persistencia]**: La configuración de [Persistencia](/help/data-views/component-settings/persistence.md) del componente.
+  * **[!UICONTROL Minúsculas]**: indica si el componente está habilitado para minúsculas en función de la configuración de [Comportamiento](/help/data-views/component-settings/behavior.md) del componente.
+  * **[!UICONTROL Subcadena]**: La configuración de [Subcadena](/help/data-views/component-settings/substring.md) del componente.
+  * **[!UICONTROL Grupo de datos de resumen]**: La configuración de [grupo de datos de resumen](/help/data-views/component-settings/summary-data-group.md) del componente.
+  * **[!UICONTROL Fecha de creación]**: La fecha en que se creó o importó el componente.
+  * **[!UICONTROL Última modificación]**: si el componente se ha modificado después de crearlo, la fecha en que se modificó por última vez.
 * **[!UICONTROL Historial de trabajos]**: Si importa o comparte un gran número de componentes, se crea automáticamente un trabajo. Seleccione el icono ![Historial](/help/assets/icons/History.svg) para abrir una ventana modal que muestre todas las instancias de importación de dimensiones y métricas desde vistas de datos individuales. Si ninguna de las acciones de importación o uso compartido es lo suficientemente grande como para almacenar en déclencheur un trabajo, este botón no aparece.
 
 ## Editar componentes o compartir componentes en vistas de datos
