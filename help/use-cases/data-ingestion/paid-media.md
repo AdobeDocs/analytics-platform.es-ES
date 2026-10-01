@@ -110,7 +110,7 @@ Utilice el siguiente proceso para conectar un origen e introducir datos de medio
 
 1. Compruebe que tiene los permisos de origen de Experience Platform y el acceso a la plataforma de publicidad necesarios.
 1. En Experience Platform, vaya a **[!UICONTROL Sources]** > **[!UICONTROL Catalog]** > **[!UICONTROL Advertising]**.
-1. 
+1. &#x200B;
    1. Asegúrese de que está en la zona protegida que contiene los conjuntos de datos de medios de pago.
 1. Seleccione el conector que desee utilizar, como **[!DNL Meta Ads]**. Seleccione **[!UICONTROL Configurar]** para crear una nueva conexión o seleccione **[!UICONTROL Agregar datos]** para agregar más datos a una conexión existente.
 1. Autentique con [!DNL OAuth 2.0] iniciando sesión con un usuario que tenga el acceso requerido de nivel de anunciante.
