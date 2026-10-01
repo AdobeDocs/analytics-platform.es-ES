@@ -17,7 +17,7 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 15%
@@ -172,7 +172,6 @@ Para cada una de las vistas de datos configuradas:
 1. After 24 hours, [view audience dimensions in the data view](#view-audience-dimensions-in-the-data-view) to verify that the audience dimensions are available in the data views that you selected. 
 
 
- 
 ## View audience dimensions in the data view
 
 After you [create an audience analysis configuration](#create-an-audience-analysis-configuration), you can verify that audience dimensions were added to the data views that you selected during the configuration.

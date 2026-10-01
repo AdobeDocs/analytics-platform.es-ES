@@ -16,7 +16,7 @@ feature_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '2592'
 ht-degree: 5%
@@ -623,7 +623,6 @@ Consulte a continuación un ejemplo de uso del grupo de campos Evento de convers
 ## Recopilación de datos
 
 Utilice la siguiente estrategia de recopilación de datos para las Perspectivas de conversación.
-
 
 ### Tipos de eventos
 

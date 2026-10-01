@@ -17,7 +17,7 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -151,6 +151,7 @@ Para identificar la aplicación o el servicio del agente, se requiere la informa
 Si la aplicación de experiencia del agente admite la invocación de habilidades que representan capacidades invocadas durante el procesamiento, puede agregar estas invocaciones de habilidades como parte del grupo de campos de información del agente.
 
 Para obtener detalles de implementación, consulte el grupo de campos [información auténtica](./implement.md#agentic-information-field-group) en la documentación de [Implementar perspectivas de conversación](./implement.md).
+
 
 ## Funcionamiento
 
