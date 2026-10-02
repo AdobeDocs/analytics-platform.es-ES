@@ -4,6 +4,7 @@ description: Habilite la vinculación para conjuntos de datos de evento en Custo
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
+hold: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: 'https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw'
 product_v2:
@@ -24,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 59d79c72fd52b3eb409c2554bef9daf7094b0287
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 20%
+source-wordcount: '1952'
+ht-degree: 18%
 ---
 # Habilitación de la vinculación
 
@@ -41,16 +42,16 @@ Debe comprobar y cumplir los requisitos previos del método de vinculación que 
 
 ## Comprobaciones previas
 
-Si cumple los requisitos previos, es posible que desee realizar algunas comprobaciones previas de los datos del conjunto de datos de evento antes de habilitar la vinculación de identidad:
+Si cumple los requisitos previos, realice algunas comprobaciones previas de los datos del conjunto de datos de evento antes de habilitar la vinculación de identidad:
 
-* Si va a usar el esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) campos para el ID persistente o el ID de persona, asegúrese de que las identidades se marquen correctamente en el esquema para el conjunto de datos de evento. [Consulte Información general del área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces).
+* Si usa [el esquema del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) campos para el ID persistente o el ID de persona, asegúrese de que las identidades estén marcadas correctamente en el esquema para el conjunto de datos de evento. [Consulte Información general del área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces).
 * Compruebe la cobertura de identidad tanto para el ID persistente como para el ID de persona:
 
   * **[!UICONTROL ID persistente]**
 
     Consulte 7 días de datos en los que el campo de ID persistente no sea nulo y divida por una consulta de 7 días de datos para todos los eventos del conjunto de datos. Este porcentaje debe ser superior al 95 %.
 
-    Ejemplo de una consulta que puede utilizar para la verificación:
+    Ejemplo de una consulta para verificación:
 
     ```sql
     SELECT
@@ -74,10 +75,10 @@ Si cumple los requisitos previos, es posible que desee realizar algunas comproba
 
 
   * **[!UICONTROL ID de la persona]**
-    * Para la vinculación basada en gráficos, asegúrese de que el gráfico de identidades contenga fragmentos que vinculen valores de ID desde el área de nombres de ID persistente y el área de nombres de ID de persona que haya elegido. Puede ejecutar una prueba en el [visor de gráficos de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} y consultar el gráfico en función de algunos valores de ID persistentes de ejemplo. Compruebe si estos valores de ID persistentes están vinculados a valores de ID de persona en el gráfico.
-    * Para la vinculación basada en el campo, consulte 7 días de datos en los que el campo de ID de persona no sea nulo y divida los datos por una consulta de 7 días para todos los eventos del conjunto de datos. Este porcentaje debería ser idealmente superior al 5 %.
+    * Para la vinculación basada en gráficos, asegúrese de que el gráfico de identidades contenga fragmentos que vinculen valores de ID desde el área de nombres de ID persistente y el área de nombres de ID de persona que haya elegido. Vaya al [visor de gráficos de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} y consulte el gráfico por algunos valores de ID persistentes de ejemplo. Para verificarlo, compruebe si estos valores de ID persistentes están vinculados a valores de ID de persona en el gráfico.
+    * Para la vinculación basada en el campo, consulte 7 días de datos en los que el campo de ID de persona no sea nulo y divida los datos por una consulta de 7 días para todos los eventos del conjunto de datos. Idealmente, este porcentaje debería ser superior al 5 %.
 
-      Ejemplo de una consulta que puede utilizar para la verificación:
+      Ejemplo de una consulta para verificación:
 
       ```sql
       SELECT
@@ -146,7 +147,7 @@ Puede habilitar la vinculación de identidad al [agregar](/help/connections/crea
 
 ### Configuración del conjunto de datos
 
-Para habilitar la vinculación, en la sección del conjunto de datos de evento **[!UICONTROL Configuración de conjuntos de datos]** del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**.
+Para habilitar la vinculación, utilice la sección del conjunto de datos de evento **[!UICONTROL Configuración de conjuntos de datos]** del cuadro de diálogo **[!UICONTROL Agregar conjuntos de datos]** o **[!UICONTROL Editar conjunto de datos]**.
 
 ![Opciones de vinculación de identidad al habilitar la función](assets/identity-stitching-ui.png)
 
@@ -226,14 +227,14 @@ Además de la interfaz estándar de **[!UICONTROL vista previa de conjuntos de d
 En Customer Journey Analytics, un ID incorrecto es un identificador:
 
 * con un valor de ID específico que se origina a partir de un ID persistente o un campo de ID de persona en conjuntos de datos habilitados para la vinculación, **y**
-* está en más de un millón (1.000.000) de eventos en los datos de conexión, en un mes.
+* aparece en más de un millón (1 000 000) de eventos en los datos de conexión mensualmente.
 
 Cuando un valor de ID se marca como un ID incorrecto, los eventos futuros que contengan ese valor de ID se descartarán de los datos de conexión y no se mostrarán en los informes.
 
 Ejemplos de casos de uso de ID incorrectos:
 
 * Tiene valores personalizados o de marcador de posición en el campo ID de persona (por ejemplo, `undefined`). Estos valores también pueden afectar la [calidad de los datos de vinculación y creación de informes](/help/stitching/faq.md#undefined-person-id-values).
-* En una configuración de vinculación basada en el campo, si varias personas comparten un dispositivo y el número total de transiciones entre usuarios supera las 50 000. En esta situación, el proceso de vinculación se detiene para utilizar la información de ID de persona para ese dispositivo y solo utiliza la información de ID persistente en su lugar. Por lo tanto, todos los eventos de conjuntos de datos de ese dispositivo se envían a los datos de conexión con la identidad de ID persistente, con una alta probabilidad de causar una situación de ID incorrectos.
+* En una configuración de vinculación basada en el campo, si varias personas comparten un dispositivo y el número total de transiciones entre usuarios supera las 50 000. En esta situación, el proceso de vinculación deja de utilizar la información de ID de persona para ese dispositivo y solo utiliza la información de ID persistente en su lugar. Por lo tanto, todos los eventos de conjuntos de datos de ese dispositivo se envían a los datos de conexión con la identidad de ID persistente, lo que probablemente cause una situación de ID incorrectos.
 
 
 >[!NOTE]
@@ -243,11 +244,21 @@ Ejemplos de casos de uso de ID incorrectos:
 
 ### Guardar
 
-Una vez guardada una conexión, el proceso de vinculación para vincular conjuntos de datos habilitados se inicia en cuanto se inicia la ingesta de datos para estos conjuntos de datos.
+Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos habilitados comienza en cuanto se inicia la ingesta de datos para estos conjuntos de datos.
+
+Una vez guardada una conexión, se activa el proceso de habilitar la vinculación en los conjuntos de datos configurados. Una vez configurada la vinculación, el servicio de vinculación procesa los datos de flujo continuo en directo e inicia el relleno de los conjuntos de datos de evento en Experience Platform y, a continuación, los incorpora a la conexión de Customer Journey Analytics.
+
+Cada parte del proceso agrega ciertos retrasos. Los tiempos de procesamiento siguientes son protecciones, no acuerdos de nivel de servicio (SLA) contractuales, para una configuración de conexión inicial válida que se guarda y contiene un conjunto de datos habilitado para la vinculación:
+
+* Los datos activos aparecen inicialmente en Customer Journey Analytics después de unas horas (menos de 17 horas). Los datos activos comienzan con valores de marca de tiempo de evento que coinciden con el momento real en el que se completó la vinculación. Habilite la opción **[!UICONTROL Importar todos los datos nuevos]** para el conjunto de datos. Esto garantiza que los datos activos comiencen a fluir.
+
+  Los nuevos datos introducidos en el conjunto de datos de evento de origen en Experience Platform aparecen en Customer Journey Analytics en un plazo de cuatro horas.
+
+* Los datos rellenados (si se solicitan inicialmente) aparecen en Customer Journey Analytics aproximadamente a la misma hora que los datos activos, pero se tardan días o semanas (menos de 4 semanas) en procesar según los volúmenes implicados. Los datos rellenados comienzan con los valores de marca de tiempo de evento más antiguos.
 
 >[!CAUTION]
 >
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado del relleno se indica de forma inmediata e incorrecta como ![Estado verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _rellenos completados]**&#x200B;para el número de rellenos completados. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
+>Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado de relleno no se puede notificar actualmente debido a una limitación conocida. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
 >
 
 
