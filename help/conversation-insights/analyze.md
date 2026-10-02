@@ -4,7 +4,6 @@ description: Obtenga información sobre cómo analizar Perspectivas de conversac
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -18,11 +17,12 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
 ---
+
 # Analizar perspectivas de conversación
 
 ## Análisis sencillo
@@ -41,7 +41,7 @@ Para analizar conversaciones a escala y proporcionar contexto para estas convers
 
 * Combine los eventos de Perspectivas de conversación con otros conjuntos de datos de evento y conjuntos de datos de búsqueda y perfil adicionales. Agregue estos conjuntos de datos a la conexión seleccionada para la configuración de Perspectivas de conversación.
 * Agregue componentes adicionales (métricas y dimensiones) a las vistas de datos que seleccionó para la configuración de Perspectivas de conversación.
-* ...
+
 
 +++ Proyecto de ejemplo
 

@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 96%
+source-wordcount: '1764'
+ht-degree: 74%
 ---
 # Control de acceso
 
@@ -112,10 +112,10 @@ A los administradores de productos se les otorgan los permisos necesarios para r
 
 Además de añadirse como administrador de productos en el **Perfil de productos de Customer Journey Analytics** en [Admin Console](https://adminconsole.adobe.com/enterprise/), se necesitan permisos adicionales para completar las siguientes tareas en Customer Journey Analytics:
 
-* Crear, actualizar y eliminar [vistas de datos](/help/data-views/data-views.md).
+* Crear, actualizar y eliminar [vistas de datos](/help/data-views/data-views.md)
 * Crear, actualizar y eliminar [conexiones](/help/connections/overview.md)
 
-  Para realizar esta tarea, los usuarios deben formar parte de un **Perfil del producto de Experience Platform** que proporcione los siguientes permisos:
+  Para realizar esta tarea, los usuarios deben formar parte de una **función de Experience Platform** que proporcione los siguientes permisos:
 
   | Categoría | Permiso | Descripción |
   |---|---|---|
@@ -125,10 +125,21 @@ Además de añadirse como administrador de productos en el **Perfil de productos
   | [!UICONTROL Administración de datos] | [!UICONTROL Ver conjuntos de datos de vistas] | Acceso de solo lectura para conjuntos de datos y esquemas. |
   | [!UICONTROL Identity Management] | [!UICONTROL Ver espacios de nombres de identidad] | Acceso de solo lectura para espacios de nombres de identidad. |
 
-  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil del producto](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/permissions).
+  Para obtener más información sobre las funciones de Experience Platform, vea [Información general sobre el control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home).
 
+* Administrar [Métricas y dimensiones compartidas](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 
-* Si Journey Optimizer está integrado con Customer Journey Analytics donde existen conexiones de Journey Optimizer, también deben añadirse permisos de recorridos para acceder a Conexiones:
+  Para obtener acceso al administrador de **Métricas y dimensiones compartidas**, los usuarios deben formar parte de una **función de Experience Platform** que proporcione los siguientes permisos:
+
+  | Categoría | Permiso | Descripción |
+  |---|---|---|
+  | [!UICONTROL Zonas protegidas] | [!UICONTROL Todos] | Acceso a todas las zonas protegidas. |
+  | [!UICONTROL Gobernanza de datos] | [!UICONTROL Ver directivas de uso de datos] | Acceso de solo lectura para directivas de uso de datos pertenecientes a su organización. |
+  | [!UICONTROL Gobernanza de datos] | [!UICONTROL Administrar Políticas De Uso De Datos] | Acceso para leer, crear, editar y eliminar políticas de uso de datos. |
+
+  Para obtener más información sobre los permisos de Experience Platform, consulte [Zonas protegidas y permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home#sandboxes-and-permissions).
+
+* Si Journey Optimizer está integrado con Customer Journey Analytics donde existen conexiones de Journey Optimizer, también se deben agregar [permisos de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability) para acceder a las conexiones:
 
   | Categoría | Permiso | Descripción |
   |---|---|---|
@@ -139,20 +150,21 @@ Además de añadirse como administrador de productos en el **Perfil de productos
 
 * Exportar conjuntos de datos a [destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/export-datasets)
 
-  Para realizar esta tarea, los usuarios deben formar parte de un **Perfil del producto de Experience Platform** que proporcione los siguientes permisos:
+  Para realizar esta tarea, los usuarios deben formar parte de un **Rol de Experience Platform** que proporcione los siguientes [permisos de destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home#access-controls):
 
   | Categoría | Permiso | Descripción |
   |---|---|---|
   | [!UICONTROL Destinos] | [!UICONTROL Administrar destinos] | Acceso para leer, crear y eliminar conexiones y cuentas de destino. |
   | [!UICONTROL Destinos] | [!UICONTROL Activar destinos] | Permite a los usuarios activar segmentos en destinos existentes. Habilita el paso de asignación en el flujo de trabajo de activación. Este permiso también requiere que se conceda el permiso Ver destinos al usuario que desea activar los datos en los destinos. |
 
-  Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil del producto](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/permissions).
+  Para obtener más información sobre los permisos de Experience Platform, consulte [Zonas protegidas y permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home#sandboxes-and-permissions).
+
 
 * Usar la [extensión de BI](../data-views/bi-extension.md)
 
   Para que los usuarios utilicen la extensión de BI, un administrador de productos
 
-  * debe asegurarse de que los permisos de Experience Platform para el usuario incluyan una función que tenga el recurso del Servicio de consultas con las opciones de Administrar consultas y Administrar integración del servicio de consultas. Para obtener más información sobre los permisos de Experience Platform, consulte [Administrar permisos para un perfil del producto](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/permissions).
+  * debe asegurarse de que los permisos de Experience Platform para el usuario incluyan una función que tenga el recurso del servicio de consultas con las opciones Administrar consultas y Administrar integración del servicio de consultas. Para obtener más información sobre los permisos de Experience Platform, consulte [Información general sobre el control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home).
 
     | Categoría | Permiso | Descripción |
     |---|---|---|
@@ -160,14 +172,14 @@ Además de añadirse como administrador de productos en el **Perfil de productos
     | [!UICONTROL Servicio de consultas] | [!UICONTROL Administrar integración del servicio de consultas] | Acceso para crear, actualizar y eliminar credenciales que no caducan para el acceso al Servicio de consultas. |
 
   * debe garantizar los permisos de Customer Journey Analytics adecuados para el usuario:
-    * permiso para acceder a las vistas de datos relevantes. Consulte [!UICONTROL Vistas de datos] en [Acceso de nivel de usuario](#user-level-access).
+    * para acceder a las vistas de datos relevantes. Consulte [!UICONTROL Vistas de datos] en [Acceso de nivel de usuario](#user-level-access).
     * permiso para acceder a la extensión de BI de Customer Journey Analytics. Consulte [!UICONTROL Herramientas de vista de datos] en [Acceso de nivel de usuario](#user-level-access).
 
 ### Función de administrador de perfiles de producto
 
 Un perfil de producto es un conjunto de permisos. Los administradores de productos crean perfiles de producto y pueden asignar administradores de perfiles de producto para administrar uno o varios perfiles de producto. Un administrador de perfiles de producto puede hacer lo siguiente:
 
-* Administrar los perfiles de producto asignados. Tales como añadir o eliminar usuarios o grupos de usuarios y modificar los permisos de los perfiles de producto.
+* Administre los perfiles de producto asignados añadiendo o eliminando usuarios o grupos de usuarios y modificando los permisos para los perfiles de producto.
 
 * En Customer Journey Analytics, edite las vistas de datos que forman parte de un perfil de producto asignado. Los administradores de perfiles de producto no pueden crear nuevas vistas de datos.
 
@@ -216,7 +228,7 @@ Estos son algunos casos de uso que ilustran cómo se puede utilizar el control d
 
 ### Acceso de terceros
 
-Puede proporcionar acceso de administración de perfiles de producto a un líder de equipo de un tercero con el que trabaje su compañía. A continuación, este administrador puede añadir usuarios de su equipo a este perfil de producto. Este administrador puede proporcionar acceso a vistas de datos específicas y añadir otros usuarios a este perfil de producto. El administrador de perfiles de producto puede modificar las vistas de datos para adaptarlas a los requisitos del equipo de terceros.
+Puede proporcionar acceso de administración de perfil de producto a un líder de equipo de un tercero con el que trabaje su compañía. A continuación, este administrador puede añadir usuarios de su equipo a este perfil de producto. Este administrador puede proporcionar acceso a vistas de datos específicas y añadir otros usuarios a este perfil de producto. El administrador de perfiles de producto puede modificar las vistas de datos para adaptarlas a los requisitos del equipo de terceros.
 
 ### Control de acceso de nivel de fila
 
@@ -224,10 +236,10 @@ Supongamos que desea que los usuarios tengan acceso a los datos de un solo día.
 
 1. Cree un segmento en [!UICONTROL Configuración] de una vista de datos específica, donde [!UICONTROL Día] es igual a la fecha en la que desea que tengan acceso a los datos. Consulte [Crear vista de datos](/help/data-views/create-dataview.md#settings-filters) para obtener más información.
 1. Guarde la vista de datos, que aplica el segmento a la parte de datos de los conjuntos de datos de la conexión subyacente. Las filas que no se ajusten a la definición del segmento se excluyen automáticamente de la vista de datos y no están disponibles para Analysis Workspace al utilizar esta vista de datos.
-1. Cree un nuevo [Perfil del producto](#product-profile-admin-role) en Admin Console, añada usuarios al perfil del producto e incluya solamente esta vista de datos específica en el perfil del producto.
+1. Cree un nuevo [perfil de producto](#product-profile-admin-role) en Admin Console, agregue usuarios al perfil de producto e incluya solamente esta vista de datos específica en el perfil de producto.
 
 ### Control de acceso de nivel de valor
 
-Los usuarios que tienen acceso a una vista de datos solo pueden trabajar con las métricas y dimensiones que el administrador ha incluido en esta vista de datos. Los administradores pueden usar la configuración del componente [Incluir/Excluir funcionalidad](/help/data-views/component-settings/include-exclude-values.md) o [Creación de depósitos de valor](../data-views/component-settings/value-bucketing.md) en vistas de datos para excluir o añadir ciertos valores de dimensión de una vista de datos.
+Los usuarios que tienen acceso a una vista de datos solo pueden trabajar con las métricas y dimensiones que el administrador ha incluido en esta vista de datos. Los administradores pueden usar la configuración del componente [Incluir/Excluir funcionalidad](/help/data-views/component-settings/include-exclude-values.md) o [Agrupar valores](../data-views/component-settings/value-bucketing.md) en una vista de datos para excluir o agregar ciertos valores de dimensión de una vista de datos.
 
-Por ejemplo: crea una métrica llamada *Hipertensión* en una vista de datos a partir de un componente que contiene datos de pacientes individuales del conjunto de datos. La creación de depósitos de valor se utiliza para proporcionar acceso únicamente a los valores agrupados, de modo que los usuarios de los datos no vean los datos de pacientes individuales.
+Por ejemplo: crea una métrica llamada *Hipertensión* en una vista de datos a partir de un componente que contiene datos de pacientes individuales del conjunto de datos. La agrupación de valores se utiliza para proporcionar acceso solo a los valores agrupados, de modo que los usuarios de los datos no vean los datos de los pacientes individuales.

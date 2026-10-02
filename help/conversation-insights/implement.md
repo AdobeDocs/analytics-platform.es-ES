@@ -4,7 +4,6 @@ description: Aprenda a instrumentar la aplicación o el servicio de agente para 
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -13,12 +12,11 @@ feature_v2:
     internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
-role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 99e0e43c34f77b6e42f8d3c4fdf5d2773569b3e7
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '2592'
 ht-degree: 5%
@@ -39,7 +37,7 @@ Este artículo documenta los pasos de implementación necesarios.
 
 Configure conjuntos de datos para los eventos de conversación principales: solicitud, respuesta, comentarios. Los conjuntos de datos de solicitud, respuesta y comentarios deben ampliar el esquema base de XDM Experience Event con el [grupo de campos Evento de conversación](#conversation-event-field-group) y, opcionalmente, pueden incluir el [grupo de campos Información de agente](#agentic-information-field-group) y otros [grupos de campos adicionales](#additional-field-groups).
 
-Puede definir conjuntos de datos independientes para preguntas, respuestas y comentarios, o bien combinar datos en conjuntos de datos. Por ejemplo, utilice un conjunto de datos para preguntas y respuestas y otro conjunto de datos para comentarios. O use un conjunto de datos distinto para cada tipo de evento de conversación como se muestra en [Cómo funciona](/help/conversation-insights/conversation-insights-overview.md#how-it-works).
+Puede definir conjuntos de datos independientes para preguntas, respuestas y comentarios, o bien combinar datos en conjuntos de datos. Por ejemplo, utilice un conjunto de datos para preguntas y respuestas y otro conjunto de datos para comentarios. O use un conjunto de datos distinto para cada tipo de evento de conversación como se muestra en [Cómo funciona](/help/conversation-insights/overview.md#how-it-works).
 
 Para ilustrar, utilice:
 
@@ -625,7 +623,6 @@ Consulte a continuación un ejemplo de uso del grupo de campos Evento de convers
 ## Recopilación de datos
 
 Utilice la siguiente estrategia de recopilación de datos para las Perspectivas de conversación.
-
 
 ### Tipos de eventos
 

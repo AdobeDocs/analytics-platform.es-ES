@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c0efe27451163d9fe4fe0f60bab11151a8ac6f1
+source-git-commit: 17af5df91a28b3a6e44528f88661b6dcc86d6cae
 workflow-type: tm+mt
-source-wordcount: '7162'
+source-wordcount: '7170'
 ht-degree: 96%
 ---
 
@@ -69,6 +69,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 
 | Función | Descripción |
 |---|---|
+| **Octubre de 2026** | |
+| Perspectivas de conversación | [Documentación](/help/conversation-insights/overview.md) para Perspectivas de conversación. |
 | **Septiembre de 2026** | |
 | Comparación de lienzo de recorrido en flechas y visitas en orden previsto | Se ha actualizado la opción &#39;[!UICONTROL Comparar con]&#39; en [Configurar una visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) para mostrar que el cambio porcentual entre intervalos de fechas ahora se muestra en cada nodo, flecha y visita en orden previsto del recorrido. |
 | Publicaciones de blog incorporadas | Incorporó las siguientes entradas de blog:<ul><li>[El manual de implementación completo para gestionar &quot;Sin valor&quot; en Adobe CJA](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=es#M598)</li><li>[Casos de uso de salida de datos de Adobe Experience Platform y Customer Journey Analytics en profundidad](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=es)</li></ul>en nuestros casos de uso de [exportación de datos](/help/use-cases/data-export/overview.md) y un nuevo artículo de caso de uso de [Sin valor](/help/use-cases/data-views/no-value.md). |
@@ -81,7 +83,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Análisis de subeventos | Documentación para [análisis de subeventos](/help/components/segments/sub-event.md) y [contenedores personalizados](/help/data-views/create-dataview.md#custom-containers). |
 | Clasificaciones en línea | Documentación para [clasificaciones en línea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications). |
 | **Junio de 2026** | |
-| Nueva guía de GA4 | Se ha agregado [transición de Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
+| Nueva guía de GA4 | Se ha agregado [transición de Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **Mayo de 2026** | |
 | Biblioteca JavaScript para Content Analytics | Documentación sobre cómo implementar Content Analytics para el canal web mediante la [biblioteca JavaScript de Content Analytics](/help/content-analytics/config/tags-agnostic.md) sin requerir etiquetas de recopilación de datos de Experience Platform. |
 | Consideraciones de Data Mirror | [Documentación](/help/data-mirror/considerations.md) que describe los factores que deben tenerse en cuenta al configurar [conjuntos de datos de Data Mirror](/help/data-mirror/data-mirror.md). |

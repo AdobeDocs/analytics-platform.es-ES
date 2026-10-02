@@ -4,7 +4,6 @@ description: Obtenga información sobre cómo administrar las configuraciones de
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -13,23 +12,23 @@ feature_v2:
     internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
-role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 6%
 ---
 # Administrar configuraciones
 
-Después de [crear configuraciones de Perspectivas de conversación](/help/conversation-insights/conversation-insights-configure.md), puede ver, editar o eliminar estas configuraciones.
+Después de [crear configuraciones de Perspectivas de conversación](/help/conversation-insights/configure.md), puede ver, editar o eliminar estas configuraciones.
 
 Solo los administradores del sistema pueden administrar las configuraciones de Perspectivas de conversación.
 
-Para obtener información acerca de Perspectivas de conversación, vea [Información general sobre Perspectivas de conversación](/help/conversation-insights/conversation-insights-overview.md).
+Para obtener información acerca de Perspectivas de conversación, vea [Información general sobre Perspectivas de conversación](/help/conversation-insights/overview.md).
+
 
 ## Ver y filtrar configuraciones existentes
 
@@ -72,7 +71,7 @@ Para ver las configuraciones existentes de Perspectivas de conversación:
 Para crear una nueva configuración de Perspectivas de conversación:
 
 1. Seleccione **[!UICONTROL Crear configuración]**.
-1. Use el cuadro de diálogo [**[!UICONTROL Crear configuración]**](./conversation-insights-configure.md) para configurar las perspectivas de conversación.
+1. Use el cuadro de diálogo [**[!UICONTROL Crear configuración]**](./configure.md) para configurar las perspectivas de conversación.
 
 ## Editar una configuración
 
@@ -84,7 +83,7 @@ Para editar una configuración existente de Perspectivas de conversación:
    * Seleccione la casilla de verificación situada junto a la configuración que desee editar y, a continuación, seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]** en la barra de acciones azul.
    * Seleccione ![Más](/help/assets/icons/More.svg) para la configuración que desee editar. En el menú contextual, seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Editar]**.
 
-1. Utilice el cuadro de diálogo [**[!UICONTROL Configuración / _nombre de la configuración_]**](./conversation-insights-configure.md) para administrar las perspectivas de conversación.
+1. Utilice el cuadro de diálogo [**[!UICONTROL Configuración / _nombre de la configuración_]**](./configure.md) para administrar las perspectivas de conversación.
 
 ## Eliminar una configuración
 
