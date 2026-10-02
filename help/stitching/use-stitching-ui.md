@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 59d79c72fd52b3eb409c2554bef9daf7094b0287
+source-git-commit: 8800f7c1659785931edb7d9f7139f037a086511c
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1929'
 ht-degree: 18%
 ---
 # Habilitación de la vinculación
@@ -244,13 +244,17 @@ Ejemplos de casos de uso de ID incorrectos:
 
 ### Guardar
 
-Una vez guardada una conexión, el proceso de vinculación de conjuntos de datos habilitados comienza en cuanto se inicia la ingesta de datos para estos conjuntos de datos.
 
-Una vez guardada una conexión, se activa el proceso de habilitar la vinculación en los conjuntos de datos configurados. Una vez configurada la vinculación, el servicio de vinculación procesa los datos de flujo continuo en directo e inicia el relleno de los conjuntos de datos de evento en Experience Platform y, a continuación, los incorpora a la conexión de Customer Journey Analytics.
 
-Cada parte del proceso agrega ciertos retrasos. Los tiempos de procesamiento siguientes son protecciones, no acuerdos de nivel de servicio (SLA) contractuales, para una configuración de conexión inicial válida que se guarda y contiene un conjunto de datos habilitado para la vinculación:
+Una vez guardada una conexión, se activa el proceso de habilitar la vinculación en los conjuntos de datos configurados. Una vez configurada la vinculación, el servicio de vinculación procesa los datos de flujo continuo en directo e inicia el relleno de los conjuntos de datos de evento en Experience Platform y, a continuación, incorpora los datos en la conexión de Customer Journey Analytics.
 
-* Los datos activos aparecen inicialmente en Customer Journey Analytics después de unas horas (menos de 17 horas). Los datos activos comienzan con valores de marca de tiempo de evento que coinciden con el momento real en el que se completó la vinculación. Habilite la opción **[!UICONTROL Importar todos los datos nuevos]** para el conjunto de datos. Esto garantiza que los datos activos comiencen a fluir.
+Cada parte del proceso agrega ciertos retrasos. Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA).
+
+Para una configuración de conexión inicial válida que se guarde y contenga un conjunto de datos habilitado para la vinculación:
+
+* Los datos activos aparecen inicialmente en Customer Journey Analytics después de unas horas (menos de 17 horas). Los datos activos comienzan con valores de marca de tiempo de evento que coinciden con el momento real en el que se completó la vinculación.
+
+  Para asegurarse de que los datos activos comiencen a fluir, habilite la opción **[!UICONTROL Importar todos los datos nuevos]** para el conjunto de datos.
 
   Los nuevos datos introducidos en el conjunto de datos de evento de origen en Experience Platform aparecen en Customer Journey Analytics en un plazo de cuatro horas.
 
