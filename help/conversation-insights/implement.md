@@ -4,21 +4,35 @@ description: Aprenda a instrumentar la aplicación o el servicio de agente para 
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
+autotag-review: '2026-10-02T07:03:13.165Z'
+TQID: 'https://experienceleague.adobe.com/tjjZwA5Ayvtz35ffQAkcCwhCzBUB6X4puMjFsiJ0HUY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
 feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-    internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
+  - id: d7a261eb-f9ac-4dd6-bd60-1637efcd3d36
+    internal-label: Conversation Insights
+role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: ebc2d1d9992150683fb642862e0ea29b7f70ddb0
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2563'
 ht-degree: 5%
 ---
 # Implementar Perspectivas de conversación
@@ -275,7 +289,7 @@ El grupo de campos **[!UICONTROL Información de agente]** es un grupo de campos
 | `agents[].name` | string | `"Chatbot Assistant"` | Nombre del agente |
 | `agents[].version` | string | `"2.1.3"` | Versión del agente |
 | `agents[].score` | número | `0.92` | Puntuación de confianza del agente en sus valores devueltos |
-| `agents[].skills[]` | matriz | Consulte el objeto de aptitud a continuación | **Obsoleto**: use la matriz de `skills[]` de nivel superior que aparece a continuación, que posee la lista ordenada completa de llamadas de aptitudes y vincula cada una a su agente mediante `agentID` |
+| `agents[].skills[]` | matriz | Consulte el objeto de aptitud a continuación | **Obsoleto**. En su lugar, utilice la matriz de nivel superior `skills[]` que aparece a continuación, que posee la lista ordenada completa de llamadas de aptitudes y vincula cada una a su agente mediante `agentID` |
 | `agents[].skills[].name` | string | `"Intent Recognition"` | Nombre de aptitud (matriz obsoleta) |
 | `agents[].skills[].version` | string | `"1.0.0"` | Versión de aptitud (matriz obsoleta) |
 | `agents[].skills[].score` | número | `0.95` | Puntuación de confianza de aptitudes (0-1) (matriz obsoleta) |
@@ -429,11 +443,7 @@ Puede agregar grupos de campos opcionales al esquema que utiliza para los conjun
 * **Detalles web** grupo de campos. Para capturar los detalles de la página web en la que se incrustó la conversación.
 * **Detalles de Commerce** grupo de campos. Para recopilar los detalles del producto recomendado mencionado como parte de la conversación.
 
-
-
-El cliente es responsable de producir los eventos de conversación de origen. Posteriormente, Adobe Platform realiza la extracción de señales y la mezcla de datos. El cliente no necesita implementar los servicios de extracción o fusión de señales.
-
-Este documento cubre los requisitos de entrada del MVP de Conversation Insights y la Actualización del esquema agéntico actual. No incluye las funciones de Conversation Insights 1.0 ni los requisitos de la versión posterior.
+El cliente es responsable de producir los eventos de conversación de origen. Adobe realiza la extracción de señales y la mezcla de datos. El cliente no necesita implementar los servicios de extracción o fusión de señales.
 
 ### Tipo de evento
 
