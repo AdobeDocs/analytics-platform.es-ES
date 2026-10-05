@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 91497f695a693fd15135dc5173e8a35537616e72
+source-git-commit: cc31e50f01da63eaf1e7b6eb8465d187485b7816
 workflow-type: tm+mt
 source-wordcount: '10677'
 ht-degree: 89%
@@ -732,7 +732,7 @@ Todos los conjuntos de datos y tipos de conjuntos de datos tienen [configuració
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter"
->title="Activar filtrado de filas"
+>title="Habilitar el filtrado de filas"
 >abstract="Los filtros de fila determinan qué eventos se incorporan en Customer Journey Analytics. Solo se incorporan los eventos que coinciden con las reglas de inclusión. El resto de eventos se excluirán permanentemente y no estarán disponibles para la creación de informes, la segmentación o el análisis en Customer Journey Analytics.<ul><li>Se pueden crear hasta 10 filtros.</li><li> Los cambios en los filtros se aplican únicamente a los nuevos datos introducidos después del cambio y no afectan de forma retroactiva a los datos introducidos anteriormente ni almacenan en déclencheur un relleno histórico.</li></ul>"
 
 >[!CONTEXTUALHELP]
