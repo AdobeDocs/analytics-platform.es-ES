@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hold: true
 role: Admin
-source-git-commit: 42b73f2843244a02fd51301d8d99282ae5f309cd
+source-git-commit: 4bb99471d256fe29dc54980a5da37cf2385b679f
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1704'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ La autenticación al conector usa [!DNL OAuth 2.0]. Durante la configuración, i
 
 ## Modelo de datos de medios de pago
 
-Los datos de medios de pago utilizan un esquema en estrella. Un [conjunto de datos de métricas de resumen](#summary-metrics-dataset) actúa como tabla de hechos y seis conjuntos de datos de búsqueda proporcionan las dimensiones relacionadas. Los conjuntos de datos de búsqueda se unen al conjunto de datos de métricas de resumen por entidad `GUID` y valores de ID nativos para cuentas, campañas, grupos de anuncios, anuncios, activos y experiencias.
+[Los conjuntos de datos de métricas de resumen](#summary-metrics-datasets) actúan como tablas de hechos y los conjuntos de datos de búsqueda proporcionan las dimensiones relacionadas. Los conjuntos de datos de búsqueda se unen a los conjuntos de datos de métricas de resumen por entidad `GUID` y valores de ID nativos para cuentas, campañas, grupos de anuncios, anuncios, activos y experiencias.
 
 Los conjuntos de datos de búsqueda comparten dos bloques de creación comunes:
 
@@ -61,11 +61,11 @@ La siguiente tabla resume los seis conjuntos de datos de búsqueda.
 | Búsqueda de recursos | Propiedades del recurso como dimensiones, detalles del archivo, propiedades de imagen, URL de medios, metadatos de uso, metadatos de vídeo, descripción, subtipo, título y tipo |
 | Búsqueda de experiencias | Agrupaciones creativas de nivel de experiencia, como ID de experiencia, recursos, título, descripción y call to action |
 
-### Conjunto de datos de métricas de resumen
+### Conjuntos de datos de métricas de resumen
 
-El conjunto de datos Métricas de resumen de medios de pago es el conjunto de datos de resumen central. Cada fila representa normalmente una entidad para un día e incluye una marca de tiempo, un identificador, un tipo de evento, ID de entidad y nombres desnormalizados para la creación de informes.
+Los conjuntos de datos de métricas de resumen de medios de pago son los conjuntos de datos de resumen centrales. Cada fila de un conjunto de datos de resumen representa normalmente una entidad para un día e incluye una marca de tiempo, un identificador, un tipo de evento, ID de entidad y nombres desnormalizados para la creación de informes.
 
-El conjunto de datos de métricas de resumen puede incluir los siguientes grupos de métricas:
+Cada conjunto de datos de métricas de resumen puede incluir los siguientes grupos de métricas:
 
 * **Rendimiento principal**: impresiones, clics, tasa de pulsaciones, participaciones, tasa de participación, conversiones, tasa de conversión, valor de conversión, posibles clientes, clics en vínculos, descargas y aperturas o instalaciones de aplicaciones.
 * **Costo y presupuesto**: gasto diario, presupuesto asignado y restante, ritmo, sobrecosto o infrautilización, métricas de costo promedio e importes de oferta.
@@ -79,9 +79,9 @@ El conjunto de datos de métricas de resumen puede incluir los siguientes grupos
 
 ### Conjuntos de datos estándar
 
-Al conectar una fuente de medios de pago, Adobe aprovisiona 12 conjuntos de datos de medios de pago estándar basados en las clases de esquema de medios de pago globales y los grupos de campos. Estos conjuntos de datos incluyen seis conjuntos de datos de métricas de resumen, los seis conjuntos de datos de búsqueda y conjuntos de datos compatibles. Los 12 conjuntos de datos de resumen y búsqueda deben estar presentes para que los datos de medios de pago se resuelvan correctamente en la fase posterior.
+Al conectar una fuente de medios de pago, Adobe aprovisiona 12 conjuntos de datos de medios de pago estándar basados en las clases de esquema de medios de pago globales y los grupos de campos. Estos conjuntos de datos incluyen seis conjuntos de datos de métricas de resumen, seis conjuntos de datos de búsqueda y conjuntos de datos compatibles. Los 12 conjuntos de datos de resumen y búsqueda deben estar presentes para que los datos de medios de pago se resuelvan correctamente en la fase posterior.
 
-Conjuntos de datos requeridos:
+#### Conjuntos de datos obligatorios
 
 * Resumen de cuenta de medios de pago
 * Resumen de campaña de medios de pago
@@ -96,7 +96,9 @@ Conjuntos de datos requeridos:
 * Búsqueda de experiencia de medios de pago
 * Búsqueda de recursos de medios pagados
 
-Conjuntos de datos complementarios, por ejemplo:
+#### Conjuntos de datos complementarios
+
+Por ejemplo:
 
 * Búsqueda demográfica y de medios de pago
 * Resumen de ubicación de experiencia de medios de pago
@@ -110,8 +112,7 @@ Utilice el siguiente proceso para conectar un origen e introducir datos de medio
 
 1. Compruebe que tiene los permisos de origen de Experience Platform y el acceso a la plataforma de publicidad necesarios.
 1. En Experience Platform, vaya a **[!UICONTROL Sources]** > **[!UICONTROL Catalog]** > **[!UICONTROL Advertising]**.
-1. &#x200B;
-   1. Asegúrese de que está en la zona protegida que contiene los conjuntos de datos de medios de pago.
+1. Asegúrese de que está en la zona protegida que contiene los conjuntos de datos de medios de pago.
 1. Seleccione el conector que desee utilizar, como **[!DNL Meta Ads]**. Seleccione **[!UICONTROL Configurar]** para crear una nueva conexión o seleccione **[!UICONTROL Agregar datos]** para agregar más datos a una conexión existente.
 1. Autentique con [!DNL OAuth 2.0] iniciando sesión con un usuario que tenga el acceso requerido de nivel de anunciante.
 1. Seleccione las cuentas de publicidad, las entidades y los datos de insight que desee introducir.
@@ -186,5 +187,5 @@ Utilice la siguiente lista de comprobación para validar la implementación.
 
 >[!MORELIKETHIS]
 >
->[Conector de origen de Meta Ads](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/advertising/meta-ads)
+>[Conector de origen de Meta Ads](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/meta-ads)
 >
