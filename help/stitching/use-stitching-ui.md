@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8800f7c1659785931edb7d9f7139f037a086511c
+source-git-commit: 1ee7e0b046f370c956b083e494522cfbc892e092
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1979'
 ht-degree: 18%
 ---
 # Habilitación de la vinculación
@@ -244,9 +244,7 @@ Ejemplos de casos de uso de ID incorrectos:
 
 ### Guardar
 
-
-
-Una vez guardada una conexión, se activa el proceso de habilitar la vinculación en los conjuntos de datos configurados. Una vez configurada la vinculación, el servicio de vinculación procesa los datos de flujo continuo en directo e inicia el relleno de los conjuntos de datos de evento en Experience Platform y, a continuación, incorpora los datos en la conexión de Customer Journey Analytics.
+Una vez guardada una conexión, se activa el proceso de habilitar la vinculación en los conjuntos de datos configurados. Una vez configurado el servicio de vinculación, este procesa los datos de flujo en directo y cualquier relleno solicitado de los conjuntos de datos de evento en Experience Platform. Posteriormente, los datos se incorporan a la conexión de Customer Journey Analytics.
 
 Cada parte del proceso agrega ciertos retrasos. Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA).
 
@@ -256,15 +254,16 @@ Para una configuración de conexión inicial válida que se guarde y contenga un
 
   Para asegurarse de que los datos activos comiencen a fluir, habilite la opción **[!UICONTROL Importar todos los datos nuevos]** para el conjunto de datos.
 
-  Los nuevos datos introducidos en el conjunto de datos de evento de origen en Experience Platform aparecen en Customer Journey Analytics en un plazo de cuatro horas.
+  Los nuevos datos introducidos en el conjunto de datos de evento de origen de Experience Platform aparecen en Customer Journey Analytics en un plazo de cuatro horas.
 
-* Los datos rellenados (si se solicitan inicialmente) aparecen en Customer Journey Analytics aproximadamente a la misma hora que los datos activos, pero se tardan días o semanas (menos de 4 semanas) en procesar según los volúmenes implicados. Los datos rellenados comienzan con los valores de marca de tiempo de evento más antiguos.
+* Los datos rellenados (si se solicitan inicialmente) se muestran en Customer Journey Analytics aproximadamente a la vez que los datos activos, pero pueden tardar días en procesarse por completo, según los volúmenes implicados. Los datos rellenados comienzan con los valores de marca de tiempo de evento más antiguos.
 
->[!CAUTION]
->
->Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado de relleno no se puede notificar actualmente debido a una limitación conocida. Utilice otras formas de comprobar si los datos del conjunto de datos vinculado están rellenados.
->
+  >[!CAUTION]
+  >
+  >Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado de relleno no se puede notificar actualmente debido a una limitación conocida.
+  >
 
+  Utilice formas alternativas de comprobar si los datos del conjunto de datos vinculado están rellenados. Por ejemplo, use la [interfaz de usuario del servicio de consultas de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/overview) para extraer del conjunto de datos el recuento de eventos del período correspondiente. Compare ese recuento de eventos con la métrica de eventos en [informes de Customer Journey Analytics](/help/analysis-workspace/home.md) para el mismo periodo de tiempo. Si esos números coinciden, se completa el relleno.
 
 ## Limitaciones
 

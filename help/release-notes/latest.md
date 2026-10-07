@@ -1,7 +1,6 @@
 ---
 title: Notas de la versión actuales de Customer Journey Analytics
 description: Vea las notas de la versión más recientes de Customer Journey Analytics, incluidas las nuevas funciones, los problemas solucionados y las versiones pospuestas para el periodo actual.
-hold: true
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w'
@@ -50,51 +49,52 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4f62a406436915d581ab30f26b82544388957782
+source-git-commit: 0a83f4d08806b4d9b97265989f9d687011b232c3
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 29%
+source-wordcount: '855'
+ht-degree: 28%
 ---
-# Notas de la versión actuales de Customer Journey Analytics (septiembre de 2026)
+# Notas de la versión actuales de Customer Journey Analytics (octubre de 2026)
 
-**Última actualización**: 9 de septiembre de 2026
+**Última actualización**: 7 de octubre de 2026
 
-Estas notas de la versión abarcan el periodo de lanzamiento de septiembre de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el periodo de lanzamiento de octubre de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Funciones nuevas o actualizadas
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | -----------|-----------|-----------|
-| **Analizar las experiencias de los clientes LLM en Analysis Workspace con Conversation Insights**<br/> Customer Journey Analytics ahora incorpora datos de chat no estructurados en Analysis Workspace, lo que le permite informar sobre la navegación basada en LLM y las experiencias de compra que ocurren en sus propiedades.<p>Con esta capacidad, puede:</p><ul><li>Recopile solicitudes, respuestas y metadatos de agentes de conversational agents (los agentes personalizados de su organización o Adobe Brand Concierge) mediante Web SDK.</li><li>Analice la intención, el tono y la opinión para que pueda comprender qué preguntan los clientes, cómo responde su agente y cómo se sienten los clientes respecto a sus interacciones.</li><li>Analice a escala utilizando el esquema, los conjuntos de datos y las vistas de datos existentes y, a continuación, obtenga perspectivas en Analysis Workspace.</li><li>Conecte las conversaciones a los resultados vinculando las interacciones de los agentes con sus recorridos de cliente más amplios, de modo que pueda medir el impacto real en la conversión, la participación y mucho más.</li></ul><p>Anteriormente, las experiencias con tecnología LLM eran difíciles de medir y casi imposibles de conectar con los recorridos de clientes existentes.</p><p>Para obtener más información, consulte [Información sobre la conversación](/help/conversation-insights/overview.md)</p> | | 8 de octubre de 2026<p>(Originalmente planificado para el 22 de septiembre de 2026)</p> |
+| **Permiso de solo lectura para el servidor MCP de Customer Journey Analytics**<br/> Los administradores ahora pueden dar a los usuarios acceso de solo lectura al servidor MCP de Customer Journey Analytics. El nuevo elemento de permiso [!UICONTROL MCP de solo lectura] proporciona a los usuarios acceso a todas las herramientas de solo lectura, sin permitirles crear proyectos, segmentos o métricas calculadas.<p>Se cambió el nombre del elemento de permiso [!UICONTROL MCP Access] actual a [!UICONTROL MCP Full Access]. Los usuarios con este permiso mantienen el acceso a todas las herramientas, incluidas las que crean, cambian o eliminan componentes.</p><p>Para obtener más información, consulte [Servidor MCP de Customer Journey Analytics](https://developer.adobe.com/analytics-mcp/docs/cja/).</p> | | 6 de octubre de 2026 |
+| **Analizar las experiencias de los clientes LLM en Analysis Workspace con Conversation Insights**<br/> Customer Journey Analytics ahora incorpora datos de chat no estructurados en Analysis Workspace, lo que le permite informar sobre la navegación basada en LLM y las experiencias de compra que ocurren en sus propiedades.<p>Con esta capacidad, puede:</p><ul><li>Recopile solicitudes, respuestas y metadatos de agentes de conversational agents (los agentes personalizados de su organización o Adobe Brand Concierge) mediante Web SDK.</li><li>Analice la intención, el tono y la opinión para que pueda comprender qué preguntan los clientes, cómo responde su agente y cómo se sienten los clientes respecto a sus interacciones.</li><li>Analice a escala utilizando el esquema, los conjuntos de datos y las vistas de datos existentes y, a continuación, obtenga perspectivas en Analysis Workspace.</li><li>Conecte las conversaciones a los resultados vinculando las interacciones de los agentes con sus recorridos de cliente más amplios, de modo que pueda medir el impacto real en la conversión, la participación y mucho más.</li></ul><p>Anteriormente, las experiencias con tecnología LLM eran difíciles de medir y casi imposibles de conectar con los recorridos de clientes existentes.</p><p>Para obtener más información, consulte [Perspectivas de conversación](/help/conversation-insights/overview.md).</p> | | 8 de octubre de 2026<p>(Originalmente planificado para el 22 de septiembre de 2026)</p> |
 | **Generar automáticamente descripciones de componentes** <br/>Ahora puede generar automáticamente descripciones para dimensiones, métricas, métricas calculadas, segmentos e intervalos de fechas. Esto permite a los usuarios de Workspace comprender qué componentes utilizar, especialmente en organizaciones con bibliotecas de componentes grandes. <p>Puede generar una descripción para un solo componente o generar descripciones para muchos componentes al mismo tiempo.</p> <p>(Vínculo a la documentación a continuación).<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 de octubre de 2026 |
-| **Integración de Adobe Brand Visibility**<br/> Conecte Adobe Brand Visibility con los datos de Adobe Analytics de su organización para que pueda medir cómo la detección impulsada por IA se traduce en participación real en el sitio web y resultados comerciales.<p>(Vínculo a la documentación a continuación).</p> | | Octubre de 2026</p> |
+| **Integración de Adobe Brand Visibility**<br/> Conecte Adobe Brand Visibility con los datos de Customer Journey Analytics de su organización para que pueda medir cómo la detección impulsada por IA se traduce en participación real en el sitio web y resultados comerciales.<p>(Vínculo a la documentación a continuación).</p> | | Octubre de 2026 |
 
 
 ### Correcciones en Customer Journey Analytics
 
-**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373, AN-492801, AN-488821, AN-488452, AN-486517, AN-478930, AN-468325
-**Componentes**:
-**Conexiones**: AN-451458, AN-365942
+**Analysis Workspace**: AN-495340, AN-494789, AN-493307, AN-468900
+**Componentes**: AN-492523
+**Conexiones**: AN-492236
 **Content Analytics**:
-**Análisis guiado**: AN-485600
-**Exportaciones**: AN-489161, AN-467131, AN-464746, AN-469034, AN-447252, AN-437803, AN-394444
-**Vistas de datos**: AN-478732, AN-468836, AN-467851, AN-487651, AN-423592
-**Ingesta de datos**: AN-489829, AN-489722, AN-469451, AN-467436, AN-467049, AN-466087, AN-465049, AN-463524, AN-457433, AN-490288, AN-487500, AN-390916, AN-342311
+**Análisis guiado**: AN-495592
+**Exportaciones**: AN-495077, AN-494337, AN-486563, AN-469919, AN-462560, AN-462372
+**Vistas de datos**: AN-492093, AN-467770, AN-455367, AN-444467
+**Ingesta de datos**: AN-496439, AN-495339, AN-493456, AN-491984, AN-490515, AN-490479, AN-470065
 **Implementación**:
-**Report Builder**: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695, AN-492330, AN-490564, AN-468293, AN-460921
-**Informes**: AN-479145, AN-469095, AN-468070, AN-467786, AN-456684, AN-465257, AN-422685, AN-406114, AN-356706, AN-322733
-**Segmentación**: AN-486561, AN-278260
-**Informes programados**: AN-479157
-**Dimensiones y métricas compartidas**:
-**Análisis de audiencia**: AN-468237, AN-462553
-**Otros**: AN-469601, AN-462817, AN-362308, AN-349757, AN-326432, AN-326345, AN-324341, AN-309317
+**Report Builder**: AN-496602, AN-494224, AN-493737, AN-493508, AN-493505, AN-492806, AN-468981, AN-454376
+**Informes**: AN-495661, AN-493562, AN-487058, AN-478768
+**Segmentación**:
+**Informes programados**: AN-491103, AN-468049
+**Métricas y dimensiones compartidas**: AN-493722
+**Análisis de audiencia**: AN-469101
+**Otro**: AN-493865
 
 ## Funciones aplazadas
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | -----------|-----------|-----------|
 | **Informes de población total**<br/> Ahora puede analizar y crear informes sobre entidades definidas en conjuntos de datos de búsqueda y perfil que existen en una conexión de Customer Journey Analytics. Que el análisis y los informes van más allá de la serie de eventos basada en el tiempo de conjuntos de datos de eventos. <p>Esta capacidad habilita nuevas clases de consultas, métricas y definiciones de audiencia que reflejan el ámbito completo de la base de clientes de una empresa.</p><p>(Vínculo a la documentación a continuación).</p> | | Por determinar<p>(Originalmente planificado para el 22 de septiembre de 2026)</p> |
-| **Servicios de medios de streaming: compatibilidad con los datos programados** <br/>Ahora puede cargar datos programados de contenidos multimedia transmitidos en directo en el pasado para realizar un seguimiento más fácil y preciso del número de espectadores.<p>Los siguientes son ejemplos de contenido en directo compatible con la carga de datos programada:</p><ul><li>Plataformas FAST (Free Ad Supported TV)</li><li>Streams locales</li><li>Deportes en directo</li></ul><p>La carga de datos de programación le permite realizar un seguimiento de los datos del número de espectadores de los programas individuales que se emitieron durante el tiempo designado en el archivo de carga. Incluso puede recopilar datos del número de espectadores de temas específicos o segmentos de programa.</p><p>Estas funciones están disponibles independientemente de cómo haya implementado la recopilación de medios de streaming.</p><p>Anteriormente, era difícil vincular con precisión una sesión determinada a programas específicos cuando se analizaba contenido en directo, y no era posible vincular una sesión determinada a temas o segmentos de programa individuales.</p><p>Para obtener más información, consulte [Cargar datos de programación para rastrear contenido en vivo](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-use-cases/track-schedule-data).</p> | 29 de octubre de 2025 | Por determinar<p>(Originalmente planificado para el 29 de octubre de 2025)</p> |
+| **Servicios de medios de streaming: compatibilidad con los datos programados** <br/>Ahora puede cargar datos programados de contenidos multimedia transmitidos en directo en el pasado para realizar un seguimiento más fácil y preciso del número de espectadores.<p>Los siguientes son ejemplos de contenido en directo compatible con la carga de datos programada:</p><ul><li>Plataformas RÁPIDAS (TV gratuita compatible con anuncios)</li><li>Streams locales</li><li>Deportes en directo</li></ul><p>La carga de datos de programación le permite realizar un seguimiento de los datos del número de espectadores de los programas individuales que se emitieron durante el tiempo designado en el archivo de carga. Incluso puede recopilar datos del número de espectadores de temas específicos o segmentos de programa.</p><p>Estas funciones están disponibles independientemente de cómo haya implementado la recopilación de medios de streaming.</p><p>Anteriormente, era difícil vincular con precisión una sesión determinada a programas específicos cuando se analizaba contenido en directo, y no era posible vincular una sesión determinada a temas o segmentos de programa individuales.</p><p>Para obtener más información, consulte [Cargar datos de programación para rastrear contenido en vivo](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-use-cases/track-schedule-data).</p> | 29 de octubre de 2025 | Por determinar<p>(Originalmente planificado para el 29 de octubre de 2025)</p> |
 
 >[!MORELIKETHIS]
 >
