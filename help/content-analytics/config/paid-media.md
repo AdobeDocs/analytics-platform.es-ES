@@ -3,11 +3,12 @@ title: Configuración automática de medios de pago de Content Analytics
 description: Obtenga información acerca de la configuración automática de conjuntos de datos, conexiones, vistas de datos y mucho más.
 solution: Customer Journey Analytics
 feature: Content Analytics
+hold: true
 role: Admin
-source-git-commit: 2727dce145b996192ac873dd43d5106b011ff736
+source-git-commit: 684fef6a5e007d6dabe6518d7c7ec93a41dc6cdd
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 4%
+source-wordcount: '2179'
+ht-degree: 3%
 ---
 # Configuración automática de medios de pago
 
@@ -142,3 +143,45 @@ Para investigar, utilice desgloses adicionales para la geografía y la demograf�
 | Costo por clic | Resumen de publicidad |
 
 
+### Correlación de datos de medios de pago con fechas de eventos de experiencia
+
+Combine el rendimiento de los medios de pago con los datos de comportamiento en el sitio para comprender cómo las campañas y los anuncios se asocian con la participación del sitio web, las conversiones y los ingresos. Por ejemplo, compare los clics en redes de publicidad y los gastos con los pedidos atribuidos a las visitas de la misma campaña.
+
+Para configurar este sistema de informes, incluya los conjuntos de datos de resumen de medios de pago y el conjunto de datos de evento en el sitio en la misma conexión de Customer Journey Analytics. Capture identificadores de recursos estables de campaña, publicidad o admitidos a partir de parámetros de URL de página de aterrizaje o campos de evento existentes. Utilice campos derivados según sea necesario para analizar y asignar esos valores a los identificadores de medios de pago correspondientes, preservando el contexto de red y cuenta requerido. Mantenga los identificadores como cadenas. Configure un Grupo de datos de resumen en la vista de datos para asociar las dimensiones de evento y resumen coincidentes. Al habilitar el canal de medios de pago, no se configura automáticamente este seguimiento y asignación de URL específicos de la implementación.
+
+
+| Opción de seguimiento | Consideraciones |
+|---|---|
+| Meta Ads | Configure los parámetros de URL de destino mediante identificadores dinámicos como `campaign.id`, `adset.id` y `ad.id` donde se admita. Capture los valores resueltos en el sitio web. Al habilitar el conector, no se añaden automáticamente estos parámetros a las direcciones URL de los anuncios. |
+| Google Ads | |
+| Recursos individuales | La creación de informes a nivel de recurso de resultados descendentes requiere un identificador capturado que se asigna al recurso específico asociado con el clic. Un parámetro de URL personalizado puede admitir esto cuando el formato de anuncio permite el seguimiento específico del recurso. Un identificador de anuncio por sí solo no puede distinguir varios recursos dentro de un anuncio y un parámetro de recurso estático aplicado a un anuncio de varios recursos completo no identifica qué recurso se asoció con el clic. |
+
+En Analysis Workspace, use las métricas **[!UICONTROL Resumen de anuncios]** para comparaciones de campañas o anuncios y las métricas **[!UICONTROL Resumen de recursos]** para comparaciones de recursos admitidas. Aplique un modelo de atribución y una ventana retrospectiva a las métricas de conversión en el sitio que reflejen su pregunta sobre la creación de informes.
+
+Tenga en cuenta lo siguiente:
+
+* Los datos de medios de pago son datos de resumen agregados sin un ID de persona. El comportamiento en el sitio son los datos de evento.
+* La agrupación de dimensiones coincidentes admite la creación de informes entre estas fuentes, pero no coincide con las conversiones de red de anuncios individuales a las conversiones de sitios web o realiza la vinculación a nivel de persona.
+* La comparación muestra una asociación, no un alza causal.
+* Los resultados pueden diferir debido a las definiciones de conversión, las ventanas de atribución, las conversiones visualizadas o modeladas, el consentimiento y las fechas de los informes o las zonas horarias.
+* Valide el origen de las visitas etiquetadas con campañas, especialmente cuando los parámetros de seguimiento se reutilizan en los distintos canales.
+
+
+### Comparar el rendimiento de la campaña con el ejemplo de pedidos in situ
+
+Una dirección URL de página de aterrizaje puede contener varios parámetros de seguimiento. En este ejemplo, utilizamos el identificador de campaña de `utm_id` para comparar el gasto de campaña con los pedidos del sitio web.
+
+https://www.example.com/offer?utm_source=facebook&utm_medium=paid_social&utm_campaign=autumn_offer&utm_id=120218706543980215
+
+El parámetro usado para esta comparación: `utm_id=120218706543980215`. Los demás parámetros describen la etiqueta de origen, medio y campaña, pero no se utilizan como campo coincidente en este ejemplo.
+
+Si la dirección URL se captura en los datos de evento del sitio web y tanto el conjunto de datos de evento del sitio web como los conjuntos de datos de medios de pago forman parte de la misma conexión de Customer Journey Analytics:
+
+1. Identifique la campaña. Utilice un campo derivado para leer `utm_id` de la dirección URL y asignar su valor al identificador de campaña correspondiente en los datos de medios de pago.
+1. Agrupe las dimensiones coincidentes. En la vista de datos, agregue la dimensión de campaña del sitio web a `Summary Data Group` de la dimensión de campaña de pago, conservando los miembros existentes.
+1. Comparar gastos y pedidos. En Analysis Workspace, utilice la dimensión de campaña agrupada como las filas de una tabla de forma libre. Agregue `Ad Summary` gasto y sitio web `Orders` como columnas. Establezca el modelo de atribución y la ventana retrospectiva para `Orders`.
+
+
+La tabla muestra el gasto de red de anuncios junto con los pedidos de sitios web atribuidos a cada campaña. Dos campañas con un gasto en publicidad similar podrían tener un número diferente de acciones atribuidas a sitios web posteriores. Utilice esta comparación para identificar campañas y experiencias de página de aterrizaje para realizar más investigaciones o pruebas, en lugar de evaluar el rendimiento únicamente a partir de métricas de publicidad.
+
+El ejemplo utiliza un ID de campaña, pero el mismo método puede utilizar identificadores de grupo de anuncios, publicidad o recurso cuando se pueden capturar valores coincidentes. Los atributos de Content Analytics, como **[!UICONTROL Colores de primer plano de recursos]**, le permiten comparar características creativas con el rendimiento de medios de pago. Con las dimensiones de atributos de coincidencia y seguimiento específicas del recurso configuradas en ambos orígenes, puede ampliar esa comparación a pedidos de sitios web atribuidos y utilizar los resultados para guiar las pruebas creativas.
