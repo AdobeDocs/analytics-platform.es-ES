@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 1af0b3565fe054a5073f574d53b82f561df1abda
 workflow-type: tm+mt
 source-wordcount: '4800'
 ht-degree: 56%
@@ -669,7 +669,7 @@ Consulte a continuación ejemplos sobre cómo configurar el conector de origen d
 
 1. En el paso ➋ **[!UICONTROL Seleccionar cuentas]** del asistente, seleccione las cuentas que desee configurar.
 
-   ![Cuentas seleccionadas del conector de origen de Meta Ads](paid-media-meta-select-account.png)
+   ![Cuentas seleccionadas del conector de origen de Meta Ads](../assets/paid-media-meta-select-account.png)
 
    Seleccione **[!UICONTROL Siguiente]**.
 
