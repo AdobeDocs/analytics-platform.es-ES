@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: 4f3c4a214bb9676ced6fe3c9627c969413013790
 workflow-type: tm+mt
 source-wordcount: '1093'
-ht-degree: 62%
+ht-degree: 65%
 ---
 # Creación de alertas {#create-alerts}
 
@@ -56,8 +56,8 @@ ht-degree: 62%
 
 >[!CONTEXTUALHELP]
 >id="components_alerts_delay"
->title="Retraso"
->abstract="El déclencheur de alertas se muestra en la granularidad de tiempo que seleccione después de este retraso. Los datos de sus conexiones pueden llegar con diferentes latencias, entre 1 y 24 horas. El retraso predeterminado déclencheur 9 horas después de cada ventana de alerta."
+>title="Retardo"
+>abstract="Las alertas se activan con la granularidad de tiempo que seleccione después de este retardo. Los datos de sus conexiones pueden llegar con diferentes latencias, entre 1 y 24 horas. El retardo predeterminado se activa nueve horas después de cada ventana de alerta."
 
 <!-- markdownlint-enable MD034 -->
 
