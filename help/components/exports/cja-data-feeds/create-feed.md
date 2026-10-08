@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 50673e8c536614e16f10e639b32a01ffd8456086
 workflow-type: tm+mt
-source-wordcount: '4244'
-ht-degree: 30%
+source-wordcount: '5192'
+ht-degree: 20%
 ---
 # Creación de un feed de datos
 
@@ -65,19 +65,11 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
 <!-- markdownlint-enable MD034 -->
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_datafeed_processing_delay"
->title="Retraso en el procesamiento"
->abstract="Cantidad de tiempo que hay que esperar a que se produzcan los eventos que llegan con retraso antes de procesar un archivo de fuente de datos. Las visitas que llegan tarde y que se producen durante el período de tiempo de retraso del procesamiento se incluyen en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de los archivos procesados anteriormente.</p><p>Para que se incluyan, las sesiones deben comenzar después del plazo límite de retraso del procesamiento; las sesiones que comiencen antes de dicho plazo límite y finalicen dentro del retraso del procesamiento no se incluyen.</p><p>Customer Journey Analytics determina de forma dinámica el retraso óptimo en función del tiempo que tardan los eventos en llegar a la fuente, pero puede establecerlo de forma manual para que se retrase durante dos, tres, cuatro u ocho horas.</p>"
-
-<!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_datafeed_user-agent"
+>id="cja_datafeed_user_agent"
 >title=""
 >abstract="Los datos del agente de usuario y los datos de búsqueda del dispositivo no pueden existir en la misma configuración de la fuente de datos."
 
@@ -89,6 +81,16 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 >id="cja_datafeed_required_dimensions"
 >title="Dimensiones necesarias"
 >abstract="Cada fuente de datos debe incluir determinadas dimensiones, identificadas por una etiqueta **Necesario** junto al nombre de la dimensión. Estas dimensiones proporcionan la estructura mínima necesaria para el análisis a nivel de evento."
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_datafeed_frequency_granularity"
+>title="Frecuencia y granularidad"
+>abstract="**Frecuencia de entrega** (fuentes activas): La frecuencia con la que se entrega la fuente de datos. Las entregas por hora contienen datos de una hora, mientras que las entregas diarias contienen datos de un día. El intervalo de fechas de retrospectiva y el retraso de procesamiento también pueden afectar a qué eventos se incluyen.<p>**Granularidad** (fuentes de relleno): Intervalo de tiempo utilizado para dividir los datos históricos. Cada fragmento contiene datos de un día y se entrega lo más rápido posible, no una vez al día. Este campo siempre se establece en Daily y no se puede modificar.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -330,9 +332,10 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | [!UICONTROL **Fecha de inicio**] | La fecha en la que comienza la fuente de datos. Para las fuentes en directo, debe ser hoy o una fecha futura. Para las fuentes de relleno, debe ser una fecha pasada dentro del período de retención de datos de la vista de datos. La fecha de inicio se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de caducidad**] <br/>Disponible solo para las fuentes en directo | La fecha en la que caduca la fuente de datos y ya no se ejecuta. La fecha se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de finalización**]<br/> Disponible solo para fuentes de relleno | La fecha en la que finaliza la fuente de datos. La fecha de finalización no puede ser futura. La fecha se basa en la zona horaria de la vista de datos. |
-   | [!UICONTROL **Frecuencia**] | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>En el caso de las fuentes en directo, seleccione esta opción para incluir datos de una hora o de un día. En el caso de las fuentes de relleno, este campo está bloqueado en **Daily**, lo que significa que los datos se agrupan en fragmentos diarios.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos. <p>Esta opción es necesaria para las fuentes de relleno y opcional para las fuentes activas.</p></li><li>**Por hora**: las fuentes contienen datos de una sola hora. <p>Esta opción solo está disponible para fuentes en directo.</p></li></ul> |
+   | [!UICONTROL **Frecuencia**]<br/> Disponible solo para las fuentes en directo | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>Seleccione esta opción para incluir datos de una hora o datos de un día.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos.</li><li>**Por hora**: las fuentes contienen datos de una sola hora.</li></ul> |
+   | [!UICONTROL **Granularidad**]<br/> Disponible solo para fuentes de relleno | Intervalo de tiempo utilizado para dividir los datos históricos en fragmentos. Cada fragmento contiene datos de un día completo, desde la medianoche hasta la medianoche en el huso horario de la vista de datos. <p>La granularidad determina cómo se agrupan los datos, no con qué frecuencia se envían. Los datos de relleno se entregan lo más rápido posible, no una vez al día.</p><p>Este campo siempre está establecido en [!UICONTROL **Daily**] y no se puede modificar.</p> |
    | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. El valor predeterminado es de 30 días.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivas** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos que se incluyen.</p> <p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprender el intervalo de fechas de retrospectiva](#understand-the-lookback-date-range).</p> |
-   | [!UICONTROL **Retraso de procesamiento**] | Elija la cantidad de tiempo de espera antes de procesar un archivo de fuente de datos. El valor predeterminado es de dos horas. Cualquier evento que llegue tarde y que se produzca durante el retraso del procesamiento se incluye en la fuente de datos. <p>Los retrasos en el procesamiento son útiles por varios motivos, como dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos, o para dar cabida a los procesos del lado del servidor de su organización en la administración de los archivos procesados anteriormente. </p><p>Para que se incluyan, las sesiones deben comenzar después del plazo límite de retraso del procesamiento; las sesiones que comiencen antes de dicho plazo límite y finalicen dentro del retraso del procesamiento no se incluyen.</p><p>Customer Journey Analytics determina de forma dinámica el retraso óptimo en función del tiempo que tardan los eventos en llegar a la fuente, pero puede establecerlo de forma manual para que se retrase durante dos, tres, cuatro u ocho horas.</p> |
+   | [!UICONTROL **Retraso de procesamiento**] | Elija la cantidad de tiempo que Customer Journey Analytics espera antes de procesar un archivo de fuente de datos. Cualquier evento que llegue tarde y que se produzca durante el retraso del procesamiento se incluye en la fuente de datos. <p>El retraso mínimo del procesamiento es de dos horas, pero algunos tipos de datos requieren un retraso mayor. El retraso que elija dependerá de los tipos de datos de la conexión, como datos de flujo continuo, por lotes, vinculados, búsqueda o de perfil.</p><p>Elija un retraso que sea lo suficientemente largo como para que los datos más lentos de su conexión terminen de procesarse. Si el retraso es demasiado corto, los datos que aún se están procesando no se incluyen en el archivo de fuente de datos.</p><p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprenda el retraso de procesamiento](#data-feed-processing-delay).</p> |
    | [!UICONTROL **Formato de compresión**] | Seleccione el formato de compresión para los archivos de salida de Parquet enviados a su destino de nube. Elija entre los siguientes formatos:<ul><li>[!UICONTROL **Rápido**]: Compresión y descompresión rápidas con tamaños de archivo moderados. Ampliamente compatible con plataformas de datos modernas como BigQuery, Snowflake y Apache Spark.</li><li>[!UICONTROL **GZip**]: Ampliamente compatible, incluso con herramientas que no admiten Snappy de forma nativa. Se recomienda si la canalización descendente requiere un estándar de compresión ampliamente reconocido.</li><li>[!UICONTROL **Z Standard (Zstd)**]: Alta eficiencia de compresión con descompresión rápida. Adecuado si minimizar el tamaño del archivo es una prioridad y sus herramientas admiten Zstd.</li></ul> |
 
 1. En la ficha [!UICONTROL **Delivery**], en la sección [!UICONTROL **Destination**], configure el destino al que desea enviar los datos.
@@ -405,7 +408,14 @@ En este caso, los usuarios se incluyen en la fuente de datos solamente si cumple
 
 ### Cálculo de sesión
 
-Los límites de la sesión se calculan con datos dentro del intervalo de fechas retrospectivo. <!--Maybe this matters more regarding what the session ID is? Could it impact the Session ID? This could impact several factors, such as session-based persistence.-->
+Los límites de la sesión se calculan utilizando todos los eventos del intervalo de fechas de retrospectiva, no solo los eventos de la ventana de envío. Una sesión que se inició antes de la ventana de envío sigue reconociéndose como la misma sesión.
+
+El ID de sesión se basa en la persona, la hora de inicio de la sesión y la configuración de sesión de la vista de datos. Una sesión mantiene el mismo ID de sesión en todas las entregas, para que pueda unirse a los eventos de una sesión que incluya varias entregas por hora o por día.
+
+Tenga en cuenta lo siguiente al trabajar con sesiones en fuentes de datos:
+
+* Si una sesión se inicia antes del intervalo de fechas de retrospectiva, sus eventos anteriores no están disponibles, por lo que los valores de sesión pueden diferir de los de Analysis Workspace. Para obtener más información, consulte [Comprender las discrepancias de datos entre las fuentes de datos y Analysis Workspace](/help/components/exports/cja-data-feeds/df-comparison-workspace.md).
+* Al cambiar la configuración de sesión en la vista de datos, se cambian los ID de sesión. Los ID de sesión de entregas posteriores no coinciden con los ID de sesión de entregas anteriores.
 
 ### Persistencia de Dimension
 
@@ -442,5 +452,84 @@ En este caso, la campaña original solo se mostrará en la salida de la fuente d
 
 Cualquier función de campo derivada que haga referencia a contenedores utiliza el intervalo de fechas de retrospectiva en las exportaciones de fuentes de datos. ¿Qué capacidades de fecha existen en los campos derivados? <!--Not sure how this applies.-->
 
+## Comprender el retraso del procesamiento {#data-feed-processing-delay}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_datafeed_processing_delay"
+>title="Retraso en el procesamiento"
+>abstract="Cantidad de tiempo que Customer Journey Analytics espera antes de procesar un archivo de fuente de datos. Cualquier evento que llegue tarde y que se produzca durante el retraso del procesamiento se incluye en la fuente de datos.<p>El retraso mínimo del procesamiento es de dos horas, pero algunos tipos de datos requieren un retraso mayor. Elija un retraso que sea lo suficientemente largo como para que los datos más lentos de su conexión lleguen al lago de datos de Experience Platform y se incorporen en Customer Journey Analytics. Si el retraso es demasiado corto, los datos que aún se están procesando no se incluyen en el archivo de fuente de datos.</p><p>La vinculación puede tardar hasta cuatro horas. Para tener en cuenta esto, añada 4 horas al retraso de cualquier dato vinculado.</p>"
+
+<!-- markdownlint-enable MD034 -->
+
+### Funcionamiento del retraso del procesamiento
+
+El retraso del procesamiento es la cantidad de tiempo que Customer Journey Analytics espera antes de procesar un archivo de fuente de datos. Cualquier evento que llegue tarde y que se produzca durante el retraso del procesamiento se incluye en la fuente de datos.
+
+Los retrasos de procesamiento son necesarios por varios motivos, como tener en cuenta la latencia de la canalización, dar a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos o adaptarse a los procesos del lado del servidor de la organización en la administración de archivos procesados anteriormente.
+
+El retraso mínimo del procesamiento es de dos horas, pero algunos tipos de datos requieren un retraso mayor.
+
+>[!BEGINSHADEBOX]
+
+**Ejemplo:**
+
+Supongamos que una fuente de datos por hora incluye datos de 1:00 p. m. a 2:00 p. m. y que el retraso de procesamiento es de 2 horas. El procesamiento de ese archivo de fuente de datos comienza a las 4:00 p.m. e incluye cualquier dato que haya llegado antes de que comience el procesamiento.
+
+>[!ENDSHADEBOX]
+
+### Elija un retraso de procesamiento basado en los datos
+
+Los distintos tipos de datos tardan distintos tiempos en estar disponibles en Customer Journey Analytics. Los datos pasan por dos fases de procesamiento, y el tiempo de cada fase se suma al total.
+
+Elija un retraso de procesamiento lo suficientemente largo como para que los datos más lentos de la conexión completen ambas fases. Si el retraso es demasiado corto, los datos que aún se están procesando no se incluyen en el archivo de fuente de datos.
+
+#### Fase 1: Los datos llegan al lago de datos de Experience Platform
+
+Las horas de llegada varían según el tipo de datos que esté recopilando. Elija un retraso que se adapte al tipo de datos que está recopilando.
+
+* **Conjuntos de datos de eventos de Edge Network o de la transmisión por secuencias**: Los datos suelen llegar al lago de datos en un plazo de 60 minutos (consulte [Latencias](/help/technotes/guardrails.md#latencies)).
+
+* **Conjuntos de datos del conector de origen de Analytics**: Los datos suelen llegar al lago de datos en un plazo de 2,25 horas (consulte [Latencias](/help/technotes/guardrails.md#latencies)).
+
+  <!--When using the Analytics Source Connector, the minimum processing delay increases from 2 hours to 6 hours (?) to account for the source connector data. (checking to see if this is feasible) -->
+
+* **Conjuntos de datos de otros conectores de origen**: la latencia varía según el conector de origen y según el momento en que se envían los lotes. El procesamiento ascendente en Experience Platform, como la preparación de datos, puede añadir más tiempo.
+
+* **Conjuntos de datos de búsqueda**: El tiempo para que los datos lleguen al lago de datos depende de la frecuencia con la que se carguen. Los datos de búsqueda suelen cargarse como una copia completa de una base de datos, en la que solo ha cambiado un pequeño porcentaje de registros. Cargar datos de búsqueda en lotes más pequeños para acortar el tiempo de procesamiento.
+
+  Las cargas pequeñas suelen procesarse dentro del plazo mínimo.
+
+  Las cargas grandes (por ejemplo, una carga semanal de millones de registros) se procesan con una prioridad inferior y pueden tardar entre 3 y 4 horas más. En el caso de cargas grandes, los datos de evento no se retrasan, pero los valores de búsqueda podrían no reflejar las actualizaciones más recientes.
+
+* **Conjuntos de datos de perfil**: El tiempo para que los datos lleguen al lago de datos depende de la frecuencia con la que se carguen. Los datos de perfil generalmente se incorporan en lotes grandes, como una instantánea diaria de la tabla de perfiles completa. Cargar datos de perfil en lotes más pequeños para acortar el tiempo de procesamiento.
+
+  Las cargas pequeñas suelen procesarse dentro del plazo mínimo.
+
+  Las cargas grandes (por ejemplo, una carga semanal de millones de registros) se procesan con una prioridad inferior y pueden tardar entre 3 y 4 horas más. En el caso de cargas grandes, los datos de evento no se retrasan, pero los valores de perfil pueden no reflejar las actualizaciones más recientes.
+
+#### Fase 2: Los datos se incorporan del lago de datos a Customer Journey Analytics
+
+Esto puede tardar hasta 90 minutos (vea [Latencias](/help/technotes/guardrails.md#latencies)).
+
+* **Conjuntos de datos enlazados**: la vinculación puede tardar hasta cuatro horas (vea [Latencias](/help/technotes/guardrails.md#latencies)). Si la vinculación está habilitada para la conexión, establezca el retraso en al menos 6 horas y potencialmente 8 horas. Los datos que se actualizan mediante una reproducción de vinculación generalmente no se incluyen en los archivos de fuente de datos que ya se procesaron.
+
+  Cuando la vinculación está habilitada, el retraso mínimo de procesamiento aumenta de 2 horas a 6 horas para tener en cuenta los datos vinculados.
+
+>[!BEGINSHADEBOX]
+
+**Ejemplo:**
+
+Si la conexión incluye varios tipos de datos, elija un retraso que se adapte a los datos más lentos. En el siguiente ejemplo, son aproximadamente 8 horas.
+
+La configuración puede añadir hasta 4 horas a la ingesta en Customer Journey Analytics. Para tener en cuenta esto, añada 4 horas al retraso de cualquier dato vinculado.
+
+| Fuente de datos | Fase 1: Llegada al lago de datos | Fase 2: Ingesta en Customer Journey Analytics | Total |
+| --- | --- | --- | --- |
+| Ingesta de Edge Network o streaming | 60 minutos | 90 minutos <p>Sin costura</p> | 2,5 horas |
+| Conector de origen de Analytics | 2,25 horas | 90 minutos + 4 horas para la vinculación <p>Con vinculación</p> | 7,75 horas |
+
+>[!ENDSHADEBOX]
 
 
