@@ -132,7 +132,7 @@ Los datos de subeventos (como varios detalles del producto en un único evento d
 
 ## Datos de subevento de consulta en la salida de la fuente de datos
 
-Dado que los datos de subevento [ aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#view-sub-event-data-in-data-feed-output), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
+Dado que los datos de subevento [&#x200B; aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#view-sub-event-data-in-data-feed-output), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
 
 Los siguientes ejemplos muestran cómo buscar eventos que incluyen un producto específico. Los ejemplos utilizan la sintaxis de Google BigQuery. Otros almacenes de datos, como Snowflake y Databricks, admiten el mismo enfoque con diferencias de sintaxis menores.
 
