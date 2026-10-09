@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 hold: true
 role: Admin
-source-git-commit: e9274ad7899537837723e2eb9cd842c5449530ff
+source-git-commit: 29a21d57b6b50d873a4464d1a705c1b4855dd3ea
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2502'
 ht-degree: 2%
 ---
 # Configuración automática de medios de pago
@@ -59,12 +59,28 @@ La red de anuncios específica determina qué conjuntos de datos de resumen se c
 | `paidmedia_asset_summary` <br/>`ad.asset.summary`<br/>`\| Asset Summary` | Recurso<br/>ninguno | ![Marca de verificación](/help/assets/icons2/Checkmark.svg) | ![Marca de verificación](/help/assets/icons2/Checkmark.svg) | | | ![Marca de verificación](/help/assets/icons2/Checkmark.svg) | Rendimiento diario de nivel de recurso<br/>en su contexto de anuncio/campaña<br/>sin desglose demográfico o geográfico. |
 | `paidmedia_assets_demographics` <br/> `ad.asset.demographics`<br/>`\| Asset Demo` | Recurso<br/>edad, sexo | ![Marca de verificación](/help/assets/icons2/Checkmark.svg) | | | | | Rendimiento diario de nivel de recurso<br/>en su contexto de anuncio/campaña<br/>desglosado por edad y sexo. |
 
-
 En esta tabla se describe la cobertura del conjunto de datos, no la garantía de que una red en particular rellene todos los campos de métricas o metadatos. Compruebe los campos necesarios para el análisis. Un campo no disponible o un desglose no admitido no es lo mismo que un valor cero medido para un campo.
+
+La agrupación de datos de resumen reúne dimensiones equivalentes; la agrupación no suma los seis totales de métricas de rendimiento.
+
+## Conjuntos de datos de búsqueda
 
 Los conjuntos de datos de búsqueda independientes describen Cuenta, Campaña, Grupo de publicidad, Publicidad, Experiencia y Recurso. Proporcionan nombres y metadatos mediante GUID de entidad. No existe un emparejamiento uno a uno entre los conjuntos de datos de resumen y los seis conjuntos de datos de búsqueda.
 
-La agrupación de datos de resumen reúne dimensiones equivalentes; la agrupación no suma los seis totales de métricas de rendimiento.
+Los conjuntos de datos de búsqueda comparten dos bloques de creación comunes:
+
+* **Objeto de ID de entidad**: Almacena objetos de cuenta, publicidad, grupo de publicidad, recurso, campaña y experiencia. Cada objeto contiene una clave global generada por Adobe y un ID nativo de la plataforma.
+* **Metadatos principales de medios de pago**: Almacena campos descriptivos comunes como nombre, estado, objetivo, objetivo de optimización, estrategia de oferta, tipo de presupuesto, valores de presupuesto, moneda, zona horaria, estado del servicio, fechas, red de publicidad, canal, ruta de jerarquía, red e identificadores de portafolio.
+
+| Buscar un conjunto de datos | Contenido clave |
+|---|---|
+| Búsqueda de cuenta | Metadatos de nivel de cuenta, como nombre, moneda, zona horaria, estado, límite de gasto y fechas de creación |
+| Búsqueda de campañas | Configuración de campaña para presupuesto, programación, segmentación, seguimiento de conversión, atribución, ubicaciones, objetos promocionados, objetivo e ID de catálogo o tienda |
+| Búsqueda de grupos de anuncios | Metadatos de grupos de publicidad, como vínculo de campaña, estado, presupuesto, objetivos de optimización y segmentación |
+| Búsqueda de anuncios | Detalles creativos de la publicidad, como recursos, variantes, dimensiones, direcciones URL de seguimiento, call to action, texto independiente, títulos, dirección URL de destino, estado de envío y estado de la revisión |
+| Búsqueda de recursos | Propiedades del recurso como dimensiones, detalles del archivo, propiedades de imagen, URL de medios, metadatos de uso, metadatos de vídeo, descripción, subtipo, título y tipo |
+| Búsqueda de experiencias | Agrupaciones creativas de nivel de experiencia, como ID de experiencia, recursos, título, descripción y call to action |
+
 
 ## Componentes
 
@@ -194,7 +210,7 @@ El ejemplo utiliza un ID de campaña, pero el mismo método puede utilizar ident
 
 Si desea informar y analizar el rendimiento de los recursos relacionados con sus inversiones en medios de pago, considere la posibilidad de agregar un parámetro de UTM de recursos específico en la configuración de medios de pago de la red de publicidad. Por ejemplo, además de parámetros dinámicos estándar como s`ite_source_name`, `campaign.id`, `adset.id` o `placement`, agregue parámetros personalizados estáticos, como `aca_asset_id=999999`.
 
-Este parámetro personalizado se añade a la dirección URL de la página de aterrizaje. Por ejemplo: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&aca_id_2=8888888&utm_medium=paid&utm_source=fb&utm_id=120241705099830539&utm_term=120241705099840539&utm_campaign=120241705099830539
+Este parámetro personalizado se añade a la dirección URL de la página de aterrizaje. Por ejemplo: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&amp;aca_id_2=8888888&amp;utm_medium=paid&amp;utm_source=fb&amp;utm_id=120241705099830539&amp;utm_term=120241705099840539&amp;utm_campaign=120241705099830539
 
 Ahora tiene una relación entre un recurso de una página y los datos de medios de pago. Use esa relación en Analysis Workspace para ver cómo los metadatos de recursos de Content Analytics (por ejemplo, **[!UICONTROL Colores de primer plano de los recursos]**) contribuyen al éxito de la campaña de medios de pago.
 
