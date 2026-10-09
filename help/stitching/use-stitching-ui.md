@@ -4,7 +4,6 @@ description: Habilite la vinculación para conjuntos de datos de evento en Custo
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-hold: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: 'https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw'
 product_v2:
@@ -25,9 +24,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e387cf97c6190e4bda66b891e02e8cf8ac05b1f2
+source-git-commit: 49795b40eab1fcd1bfd472ccb756587adf9877b8
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1989'
 ht-degree: 18%
 ---
 # Habilitación de la vinculación
@@ -258,14 +257,14 @@ Para una configuración de conexión inicial válida que se guarde y contenga un
 
 * Los datos rellenados (si se solicitan inicialmente) se muestran en Customer Journey Analytics aproximadamente a la vez que los datos activos, pero pueden tardar días en procesarse por completo, según los volúmenes implicados. Los datos rellenados comienzan con los valores de marca de tiempo de evento más antiguos.
 
-   
 
   >[!CAUTION]
   >
-  >Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado de relleno no se puede notificar actualmente debido a una limitación conocida.
+  >Para conjuntos de datos que están [habilitados para vincular](#enable-stitching) en la interfaz Conexiones, no se puede informar del estado de relleno debido a una limitación conocida.
   >
 
-  Utilice formas alternativas de comprobar si los datos del conjunto de datos vinculado están rellenados. Por ejemplo, use la [interfaz de usuario del servicio de consultas de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/overview) para extraer del conjunto de datos el recuento de eventos del período correspondiente. Compare ese recuento de eventos con el valor de métrica **[!UICONTROL Events]** en [informes de Customer Journey Analytics](/help/analysis-workspace/home.md) para el mismo periodo de tiempo. Si esos números coinciden, se completa el relleno.
+  Utilice formas alternativas de comprobar si los datos del conjunto de datos vinculado están rellenados. Por ejemplo, use la [interfaz de usuario del servicio de consultas de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview) para extraer del conjunto de datos el recuento de eventos del período correspondiente. Compare ese recuento de eventos con el valor de métrica **[!UICONTROL Events]** en [informes de Customer Journey Analytics](/help/analysis-workspace/home.md) para el mismo periodo de tiempo. Si esos números coinciden, se completa el relleno.
+
 
 ## Limitaciones
 
