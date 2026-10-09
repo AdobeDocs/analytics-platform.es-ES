@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 93%
+source-wordcount: '898'
+ht-degree: 90%
 ---
 # Adición del conjunto de datos del conector de origen de Analytics a la conexión {#upgrade-source-connector-dataset}
 
@@ -115,7 +115,7 @@ Para añadir el conjunto de datos creado automáticamente a la misma conexión q
 
 1. En la sección **[!UICONTROL Relleno de conjuntos de datos]**, seleccione **[!UICONTROL Solicitar relleno]**.
 
-1. Defina el período que desea que incluya el relleno de la conexión en Customer Journey Analytics introduciendo las fechas de inicio y finalización o seleccionando el icono de calendario ![Calendario](/help/assets/icons/Calendar.svg).
+1. Defina el período que desea que incluya el relleno de conexión en Customer Journey Analytics introduciendo las fechas de inicio y finalización o seleccionando el icono de calendario ![Calendario](/help/assets/icons/Calendar.svg).
 
    Sea explícito al especificar las fechas que solicita para el relleno. Según varios factores, es posible que desee realizar cualquiera de las siguientes acciones:
 

@@ -1,6 +1,6 @@
 ---
-title: Creación de una propiedad de etiqueta y adición de la extensión del SDK web
-description: Obtenga información sobre cómo crear una propiedad de etiqueta y añadir la extensión del SDK web
+title: Creación de una etiqueta para su propiedad
+description: Obtenga información sobre cómo crear una propiedad de etiquetas al actualizar de Adobe Analytics a Customer Journey Analytics.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 92%
+source-wordcount: '315'
+ht-degree: 86%
 ---
 # Creación de una etiqueta para su propiedad {#upgrade-tag-property}
 

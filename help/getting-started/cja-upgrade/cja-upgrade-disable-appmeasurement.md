@@ -1,6 +1,6 @@
 ---
-title: Adición del conjunto de datos del conector de origen de Analytics a la conexión
-description: Obtenga información acerca de cómo añadir el conjunto de datos del conector de origen de Analytics a la conexión
+title: Deshabilitación de Adobe Analytics
+description: Obtenga información sobre cómo deshabilitar la recopilación de datos de Adobe Analytics después de actualizar a Customer Journey Analytics.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 85%
 ---
 # Deshabilitación de Adobe Analytics {#disable-appmeasurement}
 
@@ -54,7 +54,7 @@ Antes de deshabilitar Adobe Analytics, revise la información de [Evaluar cuánd
 
 * **Etiquetas:** deshabilitar la extensión de Adobe Analytics
 
-* **AppMeasurement:** reemplazar la biblioteca AppMeasurement.js s=newobject
+* **AppMeasurement:** Reemplace la biblioteca AppMeasurement.js s s=newobject
 
 >[!NOTE]
 >
