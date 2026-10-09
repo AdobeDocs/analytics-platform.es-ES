@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: cc31e50f01da63eaf1e7b6eb8465d187485b7816
 workflow-type: tm+mt
 source-wordcount: '10677'
-ht-degree: 89%
+ht-degree: 90%
 ---
 # Crear o editar una conexión {#create-or-edit-a-connection}
 
@@ -732,23 +732,23 @@ Todos los conjuntos de datos y tipos de conjuntos de datos tienen [configuració
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter"
->title="Habilitar el filtrado de filas"
->abstract="Los filtros de fila determinan qué eventos se incorporan en Customer Journey Analytics. Solo se incorporan los eventos que coinciden con las reglas de inclusión. El resto de eventos se excluirán permanentemente y no estarán disponibles para la creación de informes, la segmentación o el análisis en Customer Journey Analytics.<ul><li>Se pueden crear hasta 10 filtros.</li><li> Los cambios en los filtros se aplican únicamente a los nuevos datos introducidos después del cambio y no afectan de forma retroactiva a los datos introducidos anteriormente ni almacenan en déclencheur un relleno histórico.</li></ul>"
+>title="Habilitar filtrado de filas"
+>abstract="Los filtros de fila determinan qué eventos se incorporan a Customer Journey Analytics. Solo se incorporan los eventos que coinciden con las reglas de inclusión. El resto de eventos se excluirán permanentemente y no estarán disponibles para la creación de informes, la segmentación o el análisis en Customer Journey Analytics.<ul><li>Puede crear hasta diez filtros.</li><li> Los cambios en los filtros se aplican únicamente a los nuevos datos introducidos después del cambio y no afectan de forma retroactiva a los datos introducidos anteriormente ni activan un relleno histórico.</li></ul>"
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter_field"
 >title="Campo"
->abstract="Seleccione un campo del conjunto de datos de evento que se utilizará para la condición. Puede utilizar cualquier campo de cualquier tipo."
+>abstract="Seleccione un campo del conjunto de datos del evento que se utilizará para la condición. Puede utilizar cualquier campo de cualquier tipo."
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter_operator"
 >title="Condición"
->abstract="Seleccione un operador. El operador se utiliza para validar el campo seleccionado con los valores."
+>abstract="Seleccione un operador. El operador se utiliza para validar el campo seleccionado con respecto a los valores."
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter_values"
 >title="Valores"
->abstract="Introduzca uno o varios valores. Se utiliza el valor de cadena exacto. Utilice una coma para separar valores. Cada valor separado por comas se considera distinto y se incluye en la condición."
+>abstract="Introduzca uno o varios valores. Se utilizará el valor de cadena exacto. Utilice una coma para separar valores. Cada valor separado por comas se considera distinto y se incluye en la condición."
 
 La configuración específica de un conjunto de datos de evento depende del tipo de conexión.
 
