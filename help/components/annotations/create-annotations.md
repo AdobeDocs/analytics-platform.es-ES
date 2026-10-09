@@ -4,29 +4,37 @@ description: Obtenga información sobre cómo crear anotaciones en Analysis Work
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-TQID: https://experienceleague.adobe.com/khuUFSkYrbrDsCBMZkzNwvZFsJ8MrN-FA9O7C-Q-Vg4
+TQID: 'https://experienceleague.adobe.com/khuUFSkYrbrDsCBMZkzNwvZFsJ8MrN-FA9O7C-Q-Vg4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
+    internal-label: Annotations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '877'
 ht-degree: 85%
-
 ---
-
 # Creación de anotaciones
 
 De forma predeterminada, solo los administradores pueden crear anotaciones. Los usuarios tienen derechos para ver las anotaciones como lo hacen con otros componentes (como segmentos, métricas calculadas, etc.).
@@ -37,7 +45,7 @@ Puedes crear una anotación de las siguientes maneras:
 
 ![Crear una anotación](assets/create-annotation.png)
 
-* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL &#x200B; Anotaciones]](/help/components/annotations/manage-annotations.md).
+* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL  Anotaciones]](/help/components/annotations/manage-annotations.md).
 * **B**. En un proyecto de Workspace, en el menú contextual de una visualización, seleccione **[!UICONTROL Crear anotación a partir de la selección]**.
 * **C**. En un proyecto de Workspace, en el menú contextual de un gráfico de líneas, seleccione **[!UICONTROL Anotar selección]**.
 * **D**. En un proyecto de Workspace, seleccione **[!UICONTROL Componentes]** en el menú y seleccione **[!UICONTROL Crear anotación]**.

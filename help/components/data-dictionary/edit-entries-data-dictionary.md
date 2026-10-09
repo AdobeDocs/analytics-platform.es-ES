@@ -4,7 +4,7 @@ title: Editar entradas de componente
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-TQID: https://experienceleague.adobe.com/MPtF2ZOWbjayiJtMoTS705nWS-W9OdTmNOp3Wagi6io
+TQID: 'https://experienceleague.adobe.com/MPtF2ZOWbjayiJtMoTS705nWS-W9OdTmNOp3Wagi6io'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -17,7 +17,7 @@ subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
     internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-    internal-label: Segments, Segments (CJA)
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
     internal-label: Calendar
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
     internal-label: Experimentation
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 63%

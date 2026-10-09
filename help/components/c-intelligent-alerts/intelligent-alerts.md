@@ -4,27 +4,34 @@ title: Información general sobre alertas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
-TQID: https://experienceleague.adobe.com/kXRxlgfo9-F6KyXQ590--TZOZcVqvHkZZGS6alcAC0E
+TQID: 'https://experienceleague.adobe.com/kXRxlgfo9-F6KyXQ590--TZOZcVqvHkZZGS6alcAC0E'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: aff2ef09-fc60-4018-9197-e2befd623064
+    internal-label: Anomaly detection
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 57%
-
 ---
-
 # Información general sobre alertas
 
 Las alertas de Customer Journey Analytics permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos.
@@ -41,7 +48,7 @@ Según el paquete de Customer Journey Analytics, también puede utilizar alertas
   * Cambios en las métricas según un porcentaje específico.
   * Métricas que están por encima, por debajo o iguales a un valor específico. (disponible solo para clientes de Adobe Analytics con un paquete Select, Prime o Ultimate)
 
-Este [tutorial en vídeo](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/data-science/intelligent-alerts) proporciona información general básica sobre las alertas.
+Este [tutorial en vídeo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) proporciona información general básica sobre las alertas.
 
 
 

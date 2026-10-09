@@ -4,7 +4,7 @@ description: Conozca para qué sirven los segmentos y cómo crear un segmento si
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
-TQID: https://experienceleague.adobe.com/omsyiimc8b3EsGvJYb0V-jHqOxUp-8S7fFQ8dXUGUxs
+TQID: 'https://experienceleague.adobe.com/omsyiimc8b3EsGvJYb0V-jHqOxUp-8S7fFQ8dXUGUxs'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -15,7 +15,7 @@ feature_v2:
     internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-    internal-label: Segments, Segments (CJA)
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
     internal-label: Filters
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 99%
