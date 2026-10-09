@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1ee7e0b046f370c956b083e494522cfbc892e092
+source-git-commit: e387cf97c6190e4bda66b891e02e8cf8ac05b1f2
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1990'
 ht-degree: 18%
 ---
 # Habilitación de la vinculación
@@ -250,7 +250,7 @@ Cada parte del proceso agrega ciertos retrasos. Los tiempos de procesamiento a c
 
 Para una configuración de conexión inicial válida que se guarde y contenga un conjunto de datos habilitado para la vinculación:
 
-* Los datos activos aparecen inicialmente en Customer Journey Analytics después de unas horas (menos de 17 horas). Los datos activos comienzan con valores de marca de tiempo de evento que coinciden con el momento real en el que se completó la vinculación.
+* Los datos activos aparecen inicialmente en Customer Journey Analytics después de unas horas (menos de 14 horas). Los nuevos datos activos están disponibles en unas horas. Los datos activos comienzan con valores de marca de tiempo de evento que coinciden con el momento real en el que se completó la vinculación.
 
   Para asegurarse de que los datos activos comiencen a fluir, habilite la opción **[!UICONTROL Importar todos los datos nuevos]** para el conjunto de datos.
 
@@ -258,12 +258,14 @@ Para una configuración de conexión inicial válida que se guarde y contenga un
 
 * Los datos rellenados (si se solicitan inicialmente) se muestran en Customer Journey Analytics aproximadamente a la vez que los datos activos, pero pueden tardar días en procesarse por completo, según los volúmenes implicados. Los datos rellenados comienzan con los valores de marca de tiempo de evento más antiguos.
 
+   
+
   >[!CAUTION]
   >
   >Para los conjuntos de datos que están habilitados para la vinculación en la interfaz Conexiones, el estado de relleno no se puede notificar actualmente debido a una limitación conocida.
   >
 
-  Utilice formas alternativas de comprobar si los datos del conjunto de datos vinculado están rellenados. Por ejemplo, use la [interfaz de usuario del servicio de consultas de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/overview) para extraer del conjunto de datos el recuento de eventos del período correspondiente. Compare ese recuento de eventos con la métrica de eventos en [informes de Customer Journey Analytics](/help/analysis-workspace/home.md) para el mismo periodo de tiempo. Si esos números coinciden, se completa el relleno.
+  Utilice formas alternativas de comprobar si los datos del conjunto de datos vinculado están rellenados. Por ejemplo, use la [interfaz de usuario del servicio de consultas de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview) para extraer del conjunto de datos el recuento de eventos del período correspondiente. Compare ese recuento de eventos con el valor de métrica **[!UICONTROL Events]** en [informes de Customer Journey Analytics](/help/analysis-workspace/home.md) para el mismo periodo de tiempo. Si esos números coinciden, se completa el relleno.
 
 ## Limitaciones
 
