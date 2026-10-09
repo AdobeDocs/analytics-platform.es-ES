@@ -263,7 +263,7 @@ Para una configuración de conexión inicial válida que se guarde y contenga un
   >Para conjuntos de datos que están [habilitados para vincular](#enable-stitching) en la interfaz Conexiones, no se puede informar del estado de relleno debido a una limitación conocida.
   >
 
-  Utilice formas alternativas de comprobar si los datos del conjunto de datos vinculado están rellenados. Por ejemplo, use la [interfaz de usuario del servicio de consultas de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview) para extraer del conjunto de datos el recuento de eventos del período correspondiente. Compare ese recuento de eventos con el valor de métrica **[!UICONTROL Events]** en [informes de Customer Journey Analytics](/help/analysis-workspace/home.md) para el mismo periodo de tiempo. Si esos números coinciden, se completa el relleno.
+  Utilice formas alternativas de comprobar si los datos del conjunto de datos vinculado están rellenados. Por ejemplo, use la [interfaz de usuario del servicio de consultas de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/overview) para extraer del conjunto de datos el recuento de eventos del período correspondiente. Compare ese recuento de eventos con el valor de métrica **[!UICONTROL Events]** en [informes de Customer Journey Analytics](/help/analysis-workspace/home.md) para el mismo periodo de tiempo. Si esos números coinciden, se completa el relleno.
 
 
 ## Limitaciones
