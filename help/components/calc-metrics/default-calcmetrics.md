@@ -4,25 +4,30 @@ title: Plantillas de métricas calculadas
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
-TQID: https://experienceleague.adobe.com/-jngIXgXeFZZkfL5jSHLuX8ZmcWU5rIfLqb26ovn6QY
+TQID: 'https://experienceleague.adobe.com/-jngIXgXeFZZkfL5jSHLuX8ZmcWU5rIfLqb26ovn6QY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+    internal-label: Templates
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '549'
 ht-degree: 83%
-
 ---
-
 # Plantillas de métricas calculadas
 
 Customer Journey Analytics proporciona las siguientes plantillas de métricas calculadas para cubrir los casos de uso más comunes. Estas métricas calculadas definidas por Adobe se identifican con un pequeño logotipo de ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg). Para filtrar rápidamente estas métricas, seleccione ![Etiqueta](/help/assets/icons/Label.svg) **[!UICONTROL Plantilla de Adobe]** en el filtro [Componentes](/help/components/overview.md#filter).

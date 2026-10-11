@@ -1,6 +1,6 @@
 ---
-title: Integración de visibilidad de la marca
-description: Integración de Brand Visibility con Customer Journey Analytics
+title: Referencia de conjunto de datos de integración entrante de Brand Visibility
+description: Obtenga información acerca de todos los detalles de los conjuntos de datos utilizados para la integración de Brand Visibility con Customer Journey Analytics
 feature: Experience Platform Integration
 role: User
 product_v2:
@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2555'
 ht-degree: 2%
 ---
 
@@ -90,11 +90,11 @@ Brand Visibility proporciona esta clave en la dimensión **CDN URL**. Combina el
 
 La visibilidad de la marca de lee los registros de acceso de CDN en el servidor y extrae registros en los que la parte solicitante es un bot o un agente automatizado. Como los datos proceden del nivel de CDN, Brand Visibility captura solicitudes de bots que no activan ninguna etiqueta de JavaScript. Las herramientas estándar de análisis web omiten este tráfico por completo.
 
-El conjunto de datos utiliza el grupo de campos **Resumen de solicitudes de CDN**. Cada campo se encuentra debajo de un objeto `cdn`, por lo que los nombres de campo de las tablas siguientes toman la forma `cdn.<name>`, por ejemplo `cdn.url` y `cdn.botType`.
+El conjunto de datos utiliza el grupo de campos **Resumen de solicitudes de CDN**. Cada campo se encuentra debajo de un objeto `cdn`, por lo que los nombres de campo de las tablas siguientes tienen el formato <code>cdn._name_</code>, por ejemplo `cdn.url` y `cdn.botType`.
 
 Cada registro describe una combinación de host, ruta URL, tipo de bot, proveedor de CDN, código de estado, referente, host reenviado y tiempo hasta el primer byte durante una hora. Cuando la misma combinación aparece más de una vez por hora, Customer Journey Analytics combina esos registros en una fila y aumenta el recuento de solicitudes. Utilice la métrica **Recuento de solicitudes de CDN** para medir el volumen. No utilice el recuento de filas.
 
-### Dimensiones
+## Dimensiones
 
 Las siguientes dimensiones están disponibles para su uso como componentes en una vista de datos una vez que haya configurado una conexión que incluya un conjunto de datos de Brand Visibility. La columna **Campo** muestra el campo de origen en el grupo de campos Resumen de solicitudes de CDN.
 
@@ -165,7 +165,7 @@ Los códigos de estado HTTP de este conjunto de datos indican si el agente de IA
 | 429 | Demasiadas solicitudes | La tasa de CDN limita el bot. Los errores 429 persistentes en los tipos de agentes de captura en directo significan que los usuarios que hagan preguntas a los asistentes de IA sobre su contenido recibirán respuestas incompletas o que falten. |
 | 504 | Se ha agotado el tiempo de espera de la puerta de enlace | La CDN dejó de esperar a que respondiera el origen. El contenido no llegó a la API. Cuando se agota el tiempo de espera de una página, la API no puede acceder a su contenido y no puede incluirlo en una respuesta. El alto volumen de 504 en los tipos de agentes de captura en vivo es un riesgo directo de visibilidad de IA. |
 
-### Métricas
+## Métricas
 
 Las siguientes métricas están disponibles para su uso como componentes en una vista de datos una vez que haya configurado una conexión que incluya un conjunto de datos de Brand Visibility. La columna **Campo** muestra el campo de origen en el grupo de campos Resumen de solicitudes de CDN.
 
@@ -176,16 +176,12 @@ Las siguientes métricas están disponibles para su uso como componentes en una 
 | Tasa de errores de CDN | Derivado del recuento de errores de CDN | El recuento de errores como porcentaje del total de solicitudes. |
 | Tiempo promedio de CDN a primer byte | `cdn.timeToFirstByte` | El tiempo promedio en milisegundos desde que la CDN recibió una solicitud hasta el primer byte de la respuesta. Las respuestas en caché de CDN suelen ser inferiores a 50 ms. Las respuestas proporcionadas desde el origen suelen ser de 300 ms a 700 ms. Los agentes de captura de IA suelen mostrar valores mucho más altos, que corresponden a respuestas de origen agotadas o muy lentas. Vale la pena investigar los valores promedio altos de los tipos de agentes de captura activa como un riesgo de visibilidad de IA. |
 
-### Límites de conjuntos de datos
+## Límites
 
 Este conjunto de datos captura únicamente el tráfico de bots de los registros de acceso de CDN. No contiene lo siguiente:
 
 * **Sesiones de usuario, conversiones o datos de participación.** Un usuario que hace clic desde una respuesta de IA ejecuta JavaScript en su página, por lo que la visita se encuentra en los datos web existentes, no en este conjunto de datos. Puede introducir ambos conjuntos de datos en Customer Journey Analytics y compararlos para la misma URL y host.
-* **Cualquier identificador de persona, como ECID.** No puede realizar una unión de nivel de persona desde este conjunto de datos. La unión funciona en los niveles de URL y host.
+* **Cualquier identificador de persona, como ECID.** No se puede realizar una unión de nivel de persona desde este conjunto de datos. La unión funciona en los niveles de URL y host.
 * **Granularidad de tiempo por debajo del segundo.** La marca de tiempo es por hora. No puede desglosar el tráfico en una hora en minutos o segundos.
 * **Contenido de página o HTML procesado.** Este conjunto de datos registra el hecho de la recuperación y su resultado, no lo que la IA lee de la página.
 * **Datos de conversión.** Este conjunto de datos no indica si una respuesta de IA llevó a una persona a visitar el sitio o convertirse. Contiene datos de resumen de CDN agregados, no datos de evento basados en personas, por lo que no vincula ninguna solicitud a una persona o sesión individual.
-
-## Integración saliente
-
-Para obtener información sobre la integración saliente, consulte [Integración de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"} en la documentación de visibilidad de marca de Adobe.

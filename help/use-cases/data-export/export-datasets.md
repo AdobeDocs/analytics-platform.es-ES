@@ -19,7 +19,7 @@ feature_v2:
     internal-label: Components
 subfeature_v2:
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
-    internal-label: Use cases, Use cases (CJA)
+    internal-label: Use cases
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
     internal-label: Exports
 role_v2:
@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 06d3fa4838d48567f1b9804992aa0f718937916d
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 3%

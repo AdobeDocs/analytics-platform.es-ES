@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 63%
+source-wordcount: '1117'
+ht-degree: 59%
 ---
 # Configure la implementación existente del SDK web de Adobe Analytics para enviar datos a Platform {#existing-websdk-implementation}
 
@@ -75,7 +75,7 @@ Considere las siguientes ventajas y desventajas de configurar la implementación
 
 1. Comience a enviar datos de Edge Network a Platform. Envíe todas las variables en formato AppMeasurement a través del objeto de datos.
 
-   Para obtener más información, vea [Asignación de variables de objetos de datos a Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/data-var-mapping).
+   Edge Network asigna automáticamente estos campos de objeto de datos a variables de Adobe Analytics, lo que mantiene intactos los informes de Adobe Analytics durante la actualización. Para obtener la lista de campos admitidos, consulte [Asignación del campo de objeto de datos a Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/data-var-mapping). Customer Journey Analytics no utiliza estas asignaciones. Los campos del objeto de datos se asignan al esquema XDM para Customer Journey Analytics en un paso posterior.
 
 1. Elija su esquema.
 
@@ -101,6 +101,6 @@ Considere las siguientes ventajas y desventajas de configurar la implementación
 
 1. Utilice la asignación de secuencia de datos para asignar todos los campos del objeto de datos al esquema XDM.
 
-   Para obtener más información, consulte [Asignación](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/data-prep?lang=en#mapping) en [Preparación de datos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/data-prep) en la documentación de Experience Platform.
+   Customer Journey Analytics solo puede utilizar los campos de objeto de datos que asigne al esquema. Para obtener más información, consulte [Asignación](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/data-prep?lang=en#mapping) en [Preparación de datos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/data-prep) en la documentación de Experience Platform.
 
 {{upgrade-final-step}}

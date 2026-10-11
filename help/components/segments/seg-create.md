@@ -4,27 +4,33 @@ description: Explicación de la interfaz de usuario para la creación de segment
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters, Segments
 role: User
-TQID: https://experienceleague.adobe.com/mzu9V8ETlAV0gREJQQhRIDFUwZNlKUR-8P1dtwJTCIA
+TQID: 'https://experienceleague.adobe.com/mzu9V8ETlAV0gREJQQhRIDFUwZNlKUR-8P1dtwJTCIA'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 # Crear segmentos
 
 Puede crear diferentes tipos de segmentos en Customer Journey Analytics.  El tipo que seleccione dependerá de la complejidad de los segmentos y de si solo deben aplicarse al proyecto de Workspace actual o a todos los proyectos. Puede crear segmentos directamente en la interfaz principal de Customer Journey Analytics o cuando trabaje en un proyecto de Workspace.

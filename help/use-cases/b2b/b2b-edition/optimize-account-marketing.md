@@ -10,24 +10,30 @@ autotag-review: '2026-05-19T09:35:54.646Z'
 TQID: 'https://experienceleague.adobe.com/A0jSmg-0wGH3D-ZEUVTYVJf9ZXfUZdvfaBviAAXY00M'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
   - id: d3f42e9e-bb51-4077-a732-358b801d8b29
+    internal-label: Customer Journey Analytics B2B
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: '720'
 ht-degree: 1%
-
 ---
-
 # Optimización del marketing de cuentas
 
 El marketing efectivo basado en cuentas requiere una comprensión profunda del recorrido de compra a nivel de cuenta. Por lo tanto, puede determinar las actividades de marketing más impactantes para cerrar el trato.

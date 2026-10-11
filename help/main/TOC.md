@@ -2,9 +2,9 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 684fef6a5e007d6dabe6518d7c7ec93a41dc6cdd
+source-git-commit: f5e2a6604ee1bf2b5a5a393b402da24b66d9b81d
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1517'
 ht-degree: 89%
 ---
 # Guía de Adobe Customer Journey Analytics {#using}
@@ -65,7 +65,7 @@ ht-degree: 89%
       + [Implementar la etiqueta de carga para la extensión del SDK web](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
       + [Añada la lógica de recopilación de datos XDM a la etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
     + [Implementar el SDK Web manualmente](/help/getting-started/cja-upgrade/cja-upgrade-manual.md)
-    + [Implementar el Web SDK con la API](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
+    + [Implementar Web SDK con el paquete NPM](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
     + [Creación de una conexión](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
     + [Crea una vista de datos](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
     + [Creación de un campo derivado del canal de marketing](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
@@ -435,9 +435,10 @@ ht-degree: 89%
       + {hide-from-toc}[Preparar para asignar columnas](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
       + {hide-from-toc}[Asignar columnas](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
       + {hide-from-toc}[Crear fuentes de datos](/help/components/exports/cja-data-feeds/create-feed.md)
+      + {hide-from-toc}[Disponibilidad de componentes](/help/components/exports/cja-data-feeds/df-components.md)
       + {hide-from-toc}[Segmentación en fuentes de datos](/help/components/exports/cja-data-feeds/df-segmentation.md)
       + {hide-from-toc}[Aplicar transformaciones de datos](/help/components/exports/cja-data-feeds/df-data-transformations.md)
-      + {hide-from-toc}[Subeventos en fuentes de datos](/help/components/exports/cja-data-feeds/df-sub-event.md)
+      + {hide-from-toc}[Componentes de subcontenedor](/help/components/exports/cja-data-feeds/df-sub-event.md)
   + Diccionario de datos {#data-dictionary}
     + [Información general](../components/data-dictionary/data-dictionary-overview.md)
     + [Visualización de información de componentes en el diccionario de datos](../components/data-dictionary/view-data-dictionary.md)
@@ -490,7 +491,10 @@ ht-degree: 89%
   + [Integración de datos de Journey Optimizer](/help/integrations/ajo.md)
   + [Integración de datos de gestión de decisiones](/help/integrations/ajo-od.md)
   + [Integración de la inteligencia artificial aplicada al cliente](/help/integrations/customer-ai.md)
-  + [Integrar Visibilidad de la marca](/help/integrations/bv.md)
+  + Integrar Visibilidad de la marca {#bv}
+    + [Información general](/help/integrations/bv/bv.md)
+    + [Configuración](/help/integrations/bv/configure.md)
+    + [Referencia](/help/integrations/bv/reference.md)
   + [Integración de Adobe Advertising](/help/integrations/advertising.md)
 
 + Gobernanza de datos {#cja-privacy}

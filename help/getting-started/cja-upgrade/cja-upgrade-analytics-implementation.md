@@ -1,6 +1,6 @@
 ---
 title: Conozca su implementación de Adobe Analytics y cómo afecta a la actualización a Customer Journey Analytics
-description: Más información sobre la ruta recomendada al actualizar de Adobe Analytics a Customer Journey Analytics
+description: Descubra cómo el método de implementación de Adobe Analytics afecta a las rutas de actualización disponibles para Customer Journey Analytics.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 98%
+source-wordcount: '997'
+ht-degree: 96%
 ---
 # Conozca su implementación de Adobe Analytics y cómo afecta a la actualización a Customer Journey Analytics {#implementation-affects-upgrade}
 
