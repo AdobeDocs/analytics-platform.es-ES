@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fb3ebdba335ce2dde30d37b8aff4e8f201dc5d9f
+source-git-commit: e3958dfbad19f5fdd78b2755817d21afad8f8e84
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '844'
 ht-degree: 3%
 ---
 
@@ -29,12 +29,14 @@ La IA se ha convertido en un canal de descubrimiento principal. Los agentes del 
 
 >[!NOTE]
 >
->Debe tener una oferta de pago por Visibilidad de la marca aprovisionada y conectada a la configuración de Experience Platform a través del conector administrado.
+>Debe tener una oferta de pago por Visibilidad de la marca. A continuación, [configure y habilite](./configure.md) el origen de Adobe Brand Visibility en su zona protegida de Experience Platform.
+>
 
 
 >[!IMPORTANT]
 >
 >Como parte de esta integración, algunos procesos temporales de datos de Visibilidad de la marca tienen lugar en Estados Unidos. En última instancia, los datos se almacenan en la región designada, según la configuración del contrato de Customer Journey Analytics.
+>
 
 
 ## Casos de uso
@@ -68,7 +70,7 @@ La segunda forma es un bot o agente que solicite sus páginas directamente. Esto
 
 ### Incorporación del conjunto de datos
 
-El conector administrado por Visibilidad de la marca envía los datos a Experience Platform como un conjunto de datos de resumen. Para medirlo en Customer Journey Analytics, debe completar dos pasos de configuración:
+La fuente de Adobe Brand Visibility se habilita en Experience Platform. La fuente envía los datos a la zona protegida como un conjunto de datos de resumen. Para medir los datos en Customer Journey Analytics, siga dos pasos más para la configuración:
 
 1. Cree una conexión que incluya el conjunto de datos de Brand Visibility.
 2. Cree una vista de datos sobre esa conexión. La vista de datos hace que las dimensiones y métricas siguientes estén disponibles en Analysis Workspace.
