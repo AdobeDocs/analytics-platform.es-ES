@@ -40,7 +40,7 @@ Confirme ambas partes del envío:
 1. La visibilidad de la marca de está recibiendo y detectando los registros del sitio correspondiente. A continuación, el sitio está disponible para su selección en la fuente de Adobe Brand Visibility en Experience Platform.
 
 El reenvío de registros de BYOCDN proporciona los datos de solicitud de CDN del lado del servidor que se utilizan para el análisis del tráfico de agente automatizado. Los datos no dependen de las etiquetas de JavaScript que se ejecuten en un explorador. El requerido
-La fuente de registro de CDN garantiza que el conjunto de datos de resumen descendente contenga la Visibilidad de la marca de datos de tráfico auténtico. Consulte la [referencia de reenvío de registro BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview) para obtener más información.
+La fuente de registro de CDN garantiza que el conjunto de datos de resumen descendente contenga la Visibilidad de la marca de datos de tráfico auténtico. Consulte la [referencia de reenvío de registro BYOCDN](https://experienceleague.adobe.com/es/docs/brand-visibility/using/log-forwarding/log-forwarding-overview) para obtener más información.
 
 ### Información requerida
 
