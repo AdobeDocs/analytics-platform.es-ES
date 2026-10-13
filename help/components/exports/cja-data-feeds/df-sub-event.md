@@ -220,7 +220,7 @@ En la salida de la fuente de datos, `survey_question` y `survey_answer` son los 
 
 ### Mapa de identidad
 
-Cada identidad del campo [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) se exporta como un objeto. El objeto contiene el área de nombres de identidad (la clave), junto con el identificador, el estado autenticado y el indicador principal. El área de nombres se repite para cada identidad de dicha área de nombres.
+Cada identidad del campo [`identityMap`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/identitymap) se exporta como un objeto. El objeto contiene el área de nombres de identidad (la clave), junto con el identificador, el estado autenticado y el indicador principal. El área de nombres se repite para cada identidad de dicha área de nombres.
 
 Solo se exportan los atributos del mapa de identidad que existen como dimensiones en la vista de datos y que agrega a la fuente de datos.
 
