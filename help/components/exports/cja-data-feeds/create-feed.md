@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 93107a7cf46e5d71bcb5c588eb7395fd1b88d150
+source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
 workflow-type: tm+mt
 source-wordcount: '3924'
 ht-degree: 12%
@@ -129,7 +129,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    * Algunos componentes son obligatorios, no son compatibles o tienen restricciones en las fuentes de datos. Para obtener más información, consulte [Disponibilidad de componentes en fuentes de datos](/help/components/exports/cja-data-feeds/df-components.md).
 
-   * Cuando se añade un componente que pertenece a un campo de matriz XDM (por ejemplo, un campo de propuesta Adobe Journey Optimizer) o un campo de asignación, un cuadro de diálogo le solicita que añada cualquier otro componente del mismo subcontenedor. En la salida de la fuente de datos, todos estos componentes aparecen en una sola columna. Para obtener más información, consulte [Componentes de subcontenedor en fuentes de datos](/help/components/exports/cja-data-feeds/df-sub-event.md)
+   * Cuando se añade un componente que pertenece a un campo de matriz XDM (por ejemplo, un campo de propuesta Adobe Journey Optimizer) o un campo de asignación, un cuadro de diálogo le solicita que añada cualquier otro componente del mismo subevento. En la salida de la fuente de datos, todos estos componentes aparecen en una sola columna. Para obtener más información, consulte [Componentes de subevento en las fuentes de datos](/help/components/exports/cja-data-feeds/df-sub-event.md)
 
 1. (Opcional) Reordene los componentes del lienzo arrastrándolos. El orden definido se conserva como el orden de las columnas en el archivo de fuente de datos exportado.
 

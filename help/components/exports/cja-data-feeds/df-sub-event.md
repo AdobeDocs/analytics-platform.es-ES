@@ -1,6 +1,6 @@
 ---
-title: Componentes de subcontenedor de matrices y mapas en fuentes de datos
-description: Descubra cómo las fuentes de datos de Customer Journey Analytics exportan componentes de subcontenedores desde los campos de matriz y asignación, y cómo consultarlos en su almacén de datos.
+title: Componentes de subevento de matrices y mapas en fuentes de datos
+description: Descubra cómo las fuentes de datos de Customer Journey Analytics exportan componentes de subevento desde los campos de matriz y asignación, y cómo consultarlos en su almacén de datos.
 hide: true
 feature: Components
 product_v2:
@@ -14,52 +14,52 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 93107a7cf46e5d71bcb5c588eb7395fd1b88d150
+source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 1%
 ---
-# Componentes de subcontenedor en fuentes de datos
+# Componentes de subevento en fuentes de datos
 
 {{release-limited-testing}}
 
-Los componentes de subcontenedor son dimensiones y métricas basadas en campos dentro de una matriz o asignación en el esquema XDM. Permiten analizar los datos en un nivel más granular que el nivel de evento, como los productos individuales de una compra. Para obtener información acerca del uso de estos datos en segmentos, vea [Subeventos](/help/components/segments/sub-event.md).
+Los componentes de subevento son dimensiones y métricas basadas en campos dentro de una matriz o asignación en el esquema XDM. Permiten analizar los datos en un nivel más granular que el nivel de evento, como los productos individuales de una compra. Para obtener información acerca del uso de estos datos en segmentos, vea [Subeventos](/help/components/segments/sub-event.md).
 
-Utilice la siguiente información para comprender cómo aparecen los componentes de subcontenedor de los campos de matriz y asignación en las fuentes de datos de Customer Journey Analytics.
+Utilice la siguiente información para comprender cómo aparecen los componentes de subevento de los campos de matriz y asignación en las fuentes de datos de Customer Journey Analytics.
 
-## Explicación de los componentes de subcontenedores
+## Comprensión de los componentes de subeventos
 
-### Componentes de subcontenedor en el esquema XDM
+### Componentes de subevento en el esquema XDM
 
-En el esquema XDM, cada elemento de una matriz (una matriz de cadenas o una matriz de objetos) es un subcontenedor. Cada entrada en un campo de asignación es también un subcontenedor, como se describe en [Asignar campos en las fuentes de datos](#map-fields-in-data-feeds). Las dimensiones y métricas basadas en los campos de un subcontenedor son componentes de subcontenedor.
+En el esquema XDM, cada elemento de una matriz (una matriz de cadenas o una matriz de objetos) es un subevento. Cada entrada en un campo de asignación es también un subevento, como se describe en [Asignar campos en las fuentes de datos](#use-map-fields-in-data-feeds). Las dimensiones y métricas basadas en los campos de un subevento son componentes de subevento.
 
-Para ver los subcontenedores dentro del esquema XDM en Adobe Experience Platform, seleccione [!UICONTROL **Esquemas**] y expanda un evento que contenga subcontenedores.
+Para ver subeventos dentro del esquema XDM en Adobe Experience Platform, seleccione [!UICONTROL **Esquemas**] y expanda un evento que contenga subeventos.
 
-En el ejemplo siguiente, `Product list items` es una matriz de objetos que contiene varios componentes de subcontenedores.
+En el ejemplo siguiente, `Product list items` es una matriz de objetos que contiene varios componentes de subevento.
 
-![Esquema XDM que contiene una matriz de objetos y componentes de subcontenedores](assets/df-sub-event-schema.png)
+![Esquema XDM que contiene una matriz de objetos y componentes de subeventos](assets/df-sub-event-schema.png)
 
-### Diferencias de subcontenedor entre Analysis Workspace y las fuentes de datos
+### Diferencias de subeventos entre Analysis Workspace y las fuentes de datos
 
-Los componentes de subcontenedor se representan de forma diferente entre Analysis Workspace y las fuentes de datos en Customer Journey Analytics.
+Los componentes de subevento se representan de forma diferente entre Analysis Workspace y las fuentes de datos en Customer Journey Analytics.
 
-| Ubicación | Representación de los componentes de los subcontenedores |
+| Ubicación | Representación de los componentes de subevento |
 | --- | --- |
 | **Analysis Workspace (en Customer Journey Analytics)** | Se pueden seleccionar como componentes individuales, separados de cualquier jerarquía visible. |
 | **Fuentes de datos (en Customer Journey Analytics)** | Se representa como un grupo, con su jerarquía intacta. |
 
-### Diferencias de subcontenedor entre Adobe Analytics y Customer Journey Analytics
+### Diferencias de subeventos entre Adobe Analytics y Customer Journey Analytics
 
-Los datos de subcontenedores (como varios detalles del producto en un único evento de compra) aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics y en las fuentes de datos de Adobe Analytics. La siguiente tabla compara cómo cada producto representa los datos de los subcontenedores.
+Los datos de subeventos (como varios detalles del producto en un único evento de compra) aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics y en las de Adobe Analytics. La siguiente tabla compara cómo cada producto representa los datos de subeventos.
 
-| Producto | Aspecto de los datos de los subcontenedores en las fuentes de datos | Ejemplo: lista de productos |
+| Producto | Aspecto de los datos de subeventos en las fuentes de datos | Ejemplo: lista de productos |
 | --- | --- | --- |
 | **Adobe Analytics** | Se aplana en una cadena delimitada en una sola columna. | Una lista de productos contiene varios productos agrupados en una sola cadena:<p>`Power Tools;Cordless Drill;1;129.99,Power Tools;Drill Battery Pack;2;39.98` <!--screenshot of what this looks like: product lists, list vars. --></p> |
-| **Customer Journey Analytics** | Los componentes de subcontenedor conservan la jerarquía definida en el esquema XDM. Cuando se agrupan en la misma columna, muestran su jerarquía relacional a su evento principal y a los subcontenedores del mismo nivel. | Una lista de productos mantiene su jerarquía que se define en el esquema XDM como una matriz:<p>`[{"category":"Power Tools","product":"Cordless Drill","quantity":1,"revenue":129.99},{"category":"Power Tools","product":"Drill Battery Pack","quantity":2,"revenue":39.98}]` <!--screenshot of what this looks like: product lists, list vars. --></p> |
+| **Customer Journey Analytics** | Los componentes de subevento conservan la jerarquía definida en el esquema XDM. Cuando se agrupan en la misma columna, muestran su jerarquía relacional a su evento principal y a los subeventos del mismo nivel. | Una lista de productos mantiene su jerarquía que se define en el esquema XDM como una matriz:<p>`[{"category":"Power Tools","product":"Cordless Drill","quantity":1,"revenue":129.99},{"category":"Power Tools","product":"Drill Battery Pack","quantity":2,"revenue":39.98}]` <!--screenshot of what this looks like: product lists, list vars. --></p> |
 
 {style="table-layout:auto"}
 
-### Ejemplo de subcontenedor: productos en un evento de compra
+### Ejemplo de subevento: productos en un evento de compra
 
 Un cliente compra dos productos en un único pedido: un taladro inalámbrico y dos baterías de taladro. Su implementación envía un único evento de compra que incluye ambos productos en la matriz de objetos `productListItems`:
 
@@ -77,38 +77,38 @@ Un cliente compra dos productos en un único pedido: un taladro inalámbrico y d
 }
 ```
 
-Este evento contiene dos contenedores secundarios, uno para cada objeto de la matriz `productListItems`. La siguiente tabla muestra qué campos pertenecen al evento y cuáles a sus subcontenedores.
+Este evento contiene dos subeventos, uno para cada objeto de la matriz `productListItems`. La siguiente tabla muestra qué campos pertenecen al evento y cuáles a sus subeventos.
 
 | Nivel | Campos | Lo que describen los campos |
 | --- | --- | --- |
 | **Evento** | `eventType`, `timestamp`, `commerce.purchases.value` | La compra en su conjunto. Cada campo tiene un valor para el evento. La métrica **Pedidos** cuenta `1` para este evento, independientemente de cuántos productos contenga. |
-| **Subcontenedor** | `SKU`, `name`, `quantity`, `priceTotal` en cada objeto `productListItems` | Un producto individual en la compra. Cada campo tiene un valor por producto. Por ejemplo, `quantity` es `1` para la perforadora inalámbrica y `2` para el paquete de baterías de perforación. |
+| **Subevento** | `SKU`, `name`, `quantity`, `priceTotal` en cada objeto `productListItems` | Un producto individual en la compra. Cada campo tiene un valor por producto. Por ejemplo, `quantity` es `1` para la perforadora inalámbrica y `2` para el paquete de baterías de perforación. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Los subcontenedores solo incluyen los datos que se envían con el evento. Customer Journey Analytics no reconstruye el contenido del carro de compras de eventos anteriores, como adiciones al carro de compras o cierres de compra. Para que los productos aparezcan como subcontenedores de un evento de compra, su implementación debe incluirlos en `productListItems` en ese evento de compra.
+>Los subeventos solo incluyen los datos que se envían con el evento. Customer Journey Analytics no reconstruye el contenido del carro de compras de eventos anteriores, como adiciones al carro de compras o cierres de compra. Para que los productos aparezcan como subeventos de un evento de compra, la implementación debe incluirlos en `productListItems` en ese evento de compra.
 
-## Adición de componentes de subcontenedor a una fuente de datos
+## Añadir componentes de subevento a una fuente de datos
 
-Cuando se agrega un componente de subcontenedor a una fuente de datos, un cuadro de diálogo le pedirá que añada los demás componentes del mismo subcontenedor.
+Cuando se añade un componente de subevento a una fuente de datos, un cuadro de diálogo le solicita que añada los demás componentes del mismo subevento.
 
-![Cuadro de diálogo que le solicita que agregue componentes relacionados al subcontenedor](assets/data-feeds-add-subevent.png)
+![Cuadro de diálogo que le solicita que agregue componentes de subevento relacionados](assets/data-feeds-add-subevent.png)
 
-Los campos del mismo subcontenedor aparecen en el lienzo como un grupo anidado contraíble en lugar de como un elemento plano.
+Los campos del mismo subevento aparecen en el lienzo como un grupo anidado contraíble en lugar de como un elemento plano.
 
-![Grupo de subcontenedores](assets/data-feeds-subevent-added.png)
+![Grupo de subeventos](assets/data-feeds-subevent-added.png)
 
 Este grupo refleja la estructura de datos subyacente.
 
 En la salida de la fuente de datos, todos estos componentes aparecen como una matriz anidada en una sola columna.
 
-Para obtener información sobre cómo agregar componentes, incluidos componentes de subcontenedores, a una fuente de datos, consulte [Crear una fuente de datos](/help/components/exports/cja-data-feeds/create-feed.md).
+Para obtener información sobre cómo agregar componentes, incluidos componentes de subevento, a una fuente de datos, consulte [Crear una fuente de datos](/help/components/exports/cja-data-feeds/create-feed.md).
 
-## Datos del subcontenedor de consulta en la salida de la fuente de datos
+## Datos de subevento de consulta en la salida de la fuente de datos
 
-Dado que los datos de subcontenedores [&#x200B; aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#sub-container-differences-between-adobe-analytics-and-customer-journey-analytics), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
+Dado que los datos de subevento [ aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
 
 Los siguientes ejemplos muestran cómo buscar eventos que incluyen un producto específico. Los ejemplos utilizan la sintaxis de Google BigQuery. Otros almacenes de datos, como Snowflake y Databricks, admiten el mismo enfoque con diferencias de sintaxis menores.
 
@@ -184,7 +184,7 @@ WHERE REGEXP_CONTAINS(product_list, r'(^|,)[^;]*;Cordless Drill;')
 
 ## Uso de campos de asignación en fuentes de datos
 
-Los campos de asignación del esquema XDM almacenan pares clave-valor. Las fuentes de datos exportan cada asignación como una matriz de objetos, del mismo modo que otros [datos de subcontenedores](#query-sub-container-data-in-data-feed-output). Cada objeto contiene la clave de asignación y su valor como campos independientes.
+Los campos de asignación del esquema XDM almacenan pares clave-valor. Las fuentes de datos exportan cada asignación como una matriz de objetos, del mismo modo que otros [datos de subevento](#query-sub-event-data-in-data-feed-output). Cada objeto contiene la clave de asignación y su valor como campos independientes.
 
 Los nombres de campo en la salida provienen de los ID de componente que configuró para la fuente de datos, no de nombres fijos como `key` o `value`. Los ejemplos de esta sección utilizan ID de componentes de ejemplo.
 
@@ -220,7 +220,7 @@ En la salida de la fuente de datos, `survey_question` y `survey_answer` son los 
 
 ### Mapa de identidad
 
-Cada identidad del campo [`identityMap`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/identitymap) se exporta como un objeto. El objeto contiene el área de nombres de identidad (la clave), junto con el identificador, el estado autenticado y el indicador principal. El área de nombres se repite para cada identidad de dicha área de nombres.
+Cada identidad del campo [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) se exporta como un objeto. El objeto contiene el área de nombres de identidad (la clave), junto con el identificador, el estado autenticado y el indicador principal. El área de nombres se repite para cada identidad de dicha área de nombres.
 
 Solo se exportan los atributos del mapa de identidad que existen como dimensiones en la vista de datos y que agrega a la fuente de datos.
 
