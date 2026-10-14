@@ -48,7 +48,7 @@ La experiencia del producto para compañeros de trabajo está disponible en un p
 
 ### Elija entre el colaborador en Workspace y la aplicación del colaborador
 
-La experiencia del producto para colaboradores tiene muchas de las mismas capacidades que la [aplicación de CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/analytics-chat), incluidas las habilidades a las que tiene acceso. Sin embargo, existen diferencias importantes que determinan cuándo se puede utilizar una sobre la otra:
+La experiencia del producto para colaboradores tiene muchas de las mismas capacidades que la [aplicación de CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/chat/analytics-chat), incluidas las habilidades a las que tiene acceso. Sin embargo, existen diferencias importantes que determinan cuándo se puede utilizar una sobre la otra:
 
 | | Experiencia del producto para compañeros de trabajo | Aplicación de compañeros |
 | --- | --- | --- |
