@@ -33,11 +33,11 @@ ht-degree: 58%
 
 >[!NOTE]
 >
->Debe tener el paquete de Customer Journey Analytics **Select** o superior (para la vinculación basada en el campo [Prime](fbs.md)) o el paquete de Customer Journey Analytics **&#x200B;**&#x200B;o superior (para la vinculación basada en gráficos [graph-based stitching](gbs.md)) para utilizar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
+>Debe tener el paquete de Customer Journey Analytics **Select** o superior (para la vinculación basada en el campo [Prime](fbs.md)) o el paquete de Customer Journey Analytics **** o superior (para la vinculación basada en gráficos [graph-based stitching](gbs.md)) para utilizar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
 Vinculación de identidad (o simplemente, vinculación) es una potente función que aumenta la idoneidad de un conjunto de datos de evento para el análisis en canales múltiples. El análisis en canales múltiples es un caso de uso principal de Customer Journey Analytics. Esta característica le permite combinar y ejecutar informes sin problemas en varios conjuntos de datos de diferentes canales, según un identificador común (ID de persona).
 
-Cuando combina conjuntos de datos con ID de personas similares, la atribución se transfiere a través de dispositivos y canales. Por ejemplo: un usuario visita su sitio a través de un anuncio en su equipo de escritorio. El usuario compra un producto, pero luego encuentra un problema con el pedido. A continuación, llama a su equipo del servicio de atención al cliente para que le ayude a resolver el problema. Con el análisis en canales múltiples, puede atribuir eventos del centro de llamadas al anuncio en el que se hizo clic originalmente.
+Cuando combina conjuntos de datos con ID de personas similares, la atribución se transfiere a través de dispositivos y canales. Por ejemplo: un usuario visita su sitio a través de un anuncio en su equipo de escritorio. El usuario compra un producto, pero luego encuentra un problema con el pedido. A continuación, el usuario llama a su equipo del servicio de atención al cliente para que le ayude a resolver el problema. Con el análisis en canales múltiples, puede atribuir eventos del centro de llamadas al anuncio en el que se hizo clic originalmente.
 
 Lamentablemente, no todos los conjuntos de datos basados en eventos que forman parte de su conexión en Customer Journey Analytics están suficientemente rellenados con datos para admitir esta atribución de forma predeterminada. En especial, los conjuntos de datos de experiencias basados en la web o en dispositivos móviles a menudo no tienen una información de ID de persona real disponible en todos los eventos.
 
@@ -81,7 +81,7 @@ Asegúrese de no confundir la vinculación con lo siguiente:
 
 ## Opciones
 
-El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración inicial del relleno, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de habilitar la vinculación.
+El paquete de Customer Journey Analytics al que está autorizado determina los métodos de vinculación disponibles, las opciones para la duración inicial del relleno, la ventana retrospectiva, la frecuencia de reproducción y el número máximo de conjuntos de datos permitidos para la vinculación. Consulte la [descripción del producto de Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es) para obtener más información. Decida las opciones disponibles antes de habilitar la vinculación.
 
 | | Customer Journey Analytics<br/>Seleccionar | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
