@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c9d7bb10d15aa25bf3fa6dcd2e95fea39cd6faf7
+source-git-commit: 8c27da8181de41a626da4b5bd86fdd945b5bff3a
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 27%
+source-wordcount: '965'
+ht-degree: 24%
 ---
 # Notas de la versión actuales de Customer Journey Analytics (octubre de 2026)
 
@@ -68,6 +68,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento de octubre de 2026.
 | **Analizar las experiencias de los clientes LLM en Analysis Workspace con Conversation Insights**<br/> Customer Journey Analytics ahora incorpora datos de chat no estructurados en Analysis Workspace, lo que le permite informar sobre la navegación basada en LLM y las experiencias de compra que ocurren en sus propiedades.<p>Con esta capacidad, puede:</p><ul><li>Recopile solicitudes, respuestas y metadatos de agentes de conversational agents (los agentes personalizados de su organización o Adobe Brand Concierge) mediante Web SDK.</li><li>Analice la intención, el tono y la opinión para que pueda comprender qué preguntan los clientes, cómo responde su agente y cómo se sienten los clientes respecto a sus interacciones.</li><li>Analice a escala utilizando el esquema, los conjuntos de datos y las vistas de datos existentes y, a continuación, obtenga perspectivas en Analysis Workspace.</li><li>Conecte las conversaciones a los resultados vinculando las interacciones de los agentes con sus recorridos de cliente más amplios, de modo que pueda medir el impacto real en la conversión, la participación y mucho más.</li></ul><p>Anteriormente, las experiencias con tecnología LLM eran difíciles de medir y casi imposibles de conectar con los recorridos de clientes existentes.</p><p>Para obtener más información, consulte [Perspectivas de conversación](/help/conversation-insights/overview.md).</p> | | 8 de octubre de 2026<p>(Originalmente planificado para el 22 de septiembre de 2026)</p> |
 | **Generar automáticamente descripciones de componentes** <br/>Ahora puede generar automáticamente descripciones para dimensiones, métricas, métricas calculadas, segmentos e intervalos de fechas. Esto permite a los usuarios de Workspace comprender qué componentes utilizar, especialmente en organizaciones con bibliotecas de componentes grandes. <p>Puede generar una descripción para un solo componente o generar descripciones para muchos componentes al mismo tiempo.</p> <p>(Vínculo a la documentación a continuación).<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 de octubre de 2026 |
 | **Integración de Adobe Brand Visibility**<br/> Conecte Adobe Brand Visibility con los datos de Customer Journey Analytics de su organización para que pueda medir cómo la detección impulsada por IA se traduce en participación real en el sitio web y resultados comerciales.<p>(Vínculo a la documentación a continuación).</p> | | Octubre de 2026 |
+| **La experiencia del producto para el compañero**<br/> El compañero ya está disponible en un panel de chat en Analysis Workspace. Los compañeros utilizan el proyecto que ha abierto como contexto, por lo que puede hacer preguntas sobre el análisis sin explicar qué contiene el proyecto.<p>Con la experiencia del producto para el colaborador, puede:</p><ul><li>Resuma el proyecto abierto, encuentre perspectivas y ejecute el análisis de las causas básicas.</li><li>Cree y edite el proyecto con indicadores en lenguaje natural. Por ejemplo, puede agregar paneles y tablas, desglosar datos, cambiar tipos de visualización e intervalos de fechas y crear segmentos.</li></ul><p>(Actualizaciones de documentación a continuación.)<!-- For more information, see [Use the in-product experience for Coworker](/help/analysis-workspace/coworker.md). --></p> | 22 de octubre de 2026 (planeado originalmente para el 15 de octubre de 2026) | Por determinar |
 
 
 ### Correcciones en Customer Journey Analytics
