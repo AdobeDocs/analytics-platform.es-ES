@@ -3,9 +3,8 @@ title: Configuración automática de medios de pago de Content Analytics
 description: Obtenga información acerca de la configuración automática de conjuntos de datos, conexiones, vistas de datos y mucho más.
 solution: Customer Journey Analytics
 feature: Content Analytics
-hold: true
 role: Admin
-source-git-commit: 2a788aa5cf007a434e5b40c65aea0c887bc357e3
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 2%
@@ -207,6 +206,6 @@ El ejemplo utiliza un ID de campaña, pero el mismo método puede utilizar ident
 
 Si desea informar y analizar el rendimiento de los recursos relacionados con sus inversiones en medios de pago, considere la posibilidad de agregar un parámetro de UTM de recursos específico en la configuración de medios de pago de la red de publicidad. Por ejemplo, además de parámetros dinámicos estándar como s`ite_source_name`, `campaign.id`, `adset.id` o `placement`, agregue parámetros personalizados estáticos, como `aca_asset_id=999999`.
 
-Este parámetro personalizado se añade a la dirección URL de la página de aterrizaje. Por ejemplo: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&aca_id_2=8888888&utm_medium=paid&utm_source=fb&utm_id=120241705099830539&utm_term=120241705099840539&utm_campaign=120241705099830539
+Este parámetro personalizado se añade a la dirección URL de la página de aterrizaje. Por ejemplo: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&amp;aca_id_2=8888888&amp;utm_medium=paid&amp;utm_source=fb&amp;utm_id=120241705099830539&amp;utm_term=120241705099840539&amp;utm_campaign=120241705099830539
 
 Ahora tiene una relación entre un recurso de una página y los datos de medios de pago. Use esa relación en Analysis Workspace para ver cómo los metadatos de recursos de Content Analytics (por ejemplo, **[!UICONTROL Colores de primer plano de los recursos]**) contribuyen al éxito de la campaña de medios de pago.

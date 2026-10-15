@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1af0b3565fe054a5073f574d53b82f561df1abda
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
-source-wordcount: '4800'
-ht-degree: 56%
+source-wordcount: '4844'
+ht-degree: 55%
 ---
 
 # Configuración guiada de Content Analytics
@@ -705,6 +705,11 @@ Al seleccionar **[!UICONTROL Guardar]**, Content Analytics automáticamente:
 * Actualiza la conexión de Customer Journey Analytics para incluir conjuntos de datos de medios de pago de todos los conectores de origen conectados en esta zona protegida.
 * Habilita las dimensiones y métricas de medios de pago en todas las vistas de datos seleccionadas.
 * Muestra los canales de medios de pago como dimensión filtrable en los informes de Workspace.
+
+Consulte [Configuración automática de medios pagados](./paid-media.md) para obtener detalles sobre:
+
+* La configuración automática de conjuntos de datos de medios de pago que resulta del primer uso de un conector de origen de medios de pago.
+* Los componentes de vista de datos creados tras la configuración y activación del canal de medios de pago en Content Analytics.
 
 ### Guardar {#paidmedia-save}
 
