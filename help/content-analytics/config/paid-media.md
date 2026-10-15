@@ -3,9 +3,8 @@ title: Configuración automática de medios de pago de Content Analytics
 description: Obtenga información acerca de la configuración automática de conjuntos de datos, conexiones, vistas de datos y mucho más.
 solution: Customer Journey Analytics
 feature: Content Analytics
-hold: true
 role: Admin
-source-git-commit: 2a788aa5cf007a434e5b40c65aea0c887bc357e3
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 2%

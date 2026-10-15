@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
-source-wordcount: '7183'
-ht-degree: 96%
+source-wordcount: '7222'
+ht-degree: 95%
 ---
 
 # Actualizaciones de la documentación de Customer Journey Analytics
@@ -70,8 +70,8 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 |---|---|
 | **Octubre de 2026** | |
+| Canal de medios de pago de Content Analytics | Documentación [completa](/help/content-analytics/config/paid-media.md) sobre la configuración automática de conjuntos de datos y componentes de vista de datos resultante de usar un conector de origen de medios de pago (como Google Ads o Meta Ads) y de configurar y habilitar el canal de medios de pago de Content Analytics. |
 | Perspectivas de conversación | [Documentación](/help/conversation-insights/overview.md) para Perspectivas de conversación. |
-| Octubre de 2026 | |
 | Visibilidad de la marca | Se ha actualizado la documentación de la [integración entrante de Visibilidad de la marca](/help/integrations/bv/bv.md#inbound-integration) con más detalles. |
 | **Septiembre de 2026** | |
 | Comparación de lienzo de recorrido en flechas y visitas en orden previsto | Se ha actualizado la opción &#39;[!UICONTROL Comparar con]&#39; en [Configurar una visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) para mostrar que el cambio porcentual entre intervalos de fechas ahora se muestra en cada nodo, flecha y visita en orden previsto del recorrido. |
