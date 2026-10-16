@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3165'
 ht-degree: 77%
 ---
 # Creación o edición de una vista de datos
@@ -53,7 +53,7 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear o editar una vista de datos](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear o editar una vista de datos](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -117,9 +117,20 @@ Esta sección solo está visible para los administradores que están aprovisiona
 {style="table-layout:auto"}
 
 
-### Configuración de IA
+### Configuración de IA {#ai-settings}
 
-Seleccione **[!UICONTROL Habilitar para Data Insights Agent]** para habilitar la vista de datos para [Data Insights Agent](/help/data-analysis-ai.md). Data Insights Agent es un agente de conversación de IA generativa al que se puede acceder desde el asistente de IA de Customer Journey Analytics. Le ayuda a analizar rápidamente los datos con indicaciones de texto. El agente crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando los datos reales.
+<!-- FOLLOW-UP: The Enable for Data Insights Agent setting is still in the UI, but Data Insights Agent has been replaced by Coworker. Confirm with the SME what this setting does now and whether it will be renamed or removed. This contextual help block was moved here from the retired data-analysis-ai.md page; confirm that the in-product help still resolves. -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-enable-data-insights-data-view"
+>title="Habilitar para Data Insights Agent"
+>abstract="Esta opción habilita esta vista de datos para su uso con Data Insights Agent. Data Insights Agent es un agente de conversación de IA generativo que le ayuda a analizar rápidamente sus datos con mensajes de texto. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando sus datos reales."
+
+<!-- markdownlint-enable MD034 -->
+
+Seleccione **[!UICONTROL Habilitar para Data Insights Agent]** para habilitar la vista de datos para Data Insights Agent. Data Insights Agent es un agente de conversación de IA generativo que le ayuda a analizar rápidamente sus datos con mensajes de texto. El agente crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando los datos reales.
 
 
 ### Calendario
@@ -161,13 +172,13 @@ Designa el nombre de los contenedores para la vista de datos. Los nombres de con
 
 | Nombre del contenedor | Nombre para mostrar (predeterminado) | Descripción |
 | --- | --- | --- |
-| globalAccount | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Cuenta global &#x200B;]** | El contenedor [!UICONTROL Cuenta global] incluye todas las sesiones y eventos de las cuentas globales dentro del lapso de tiempo especificado. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
+| globalAccount | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Cuenta global ]** | El contenedor [!UICONTROL Cuenta global] incluye todas las sesiones y eventos de las cuentas globales dentro del lapso de tiempo especificado. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
 | persona | **[!UICONTROL Persona]** | El contenedor [!UICONTROL Persona] incluye todas las sesiones y eventos de las personas en un lapso de tiempo específico. Si su organización utiliza un término diferente (por ejemplo, visitante o usuario), puede cambiar el nombre del contenedor aquí. |
 | sesión | **[!UICONTROL Sesión]** | El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiar el nombre de este contenedor a Visita o a cualquier otro término que prefiera. |
-| oportunidad | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Oportunidad &#x200B;]** | El contenedor [!UICONTROL Oportunidad] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
-| purchaseGroup | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Grupo de compra &#x200B;]** | El contenedor [!UICONTROL Grupo de compras] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
+| oportunidad | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Oportunidad ]** | El contenedor [!UICONTROL Oportunidad] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
+| purchaseGroup | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Grupo de compra ]** | El contenedor [!UICONTROL Grupo de compras] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
 | evento | **[!UICONTROL Evento]** | El contenedor [!UICONTROL Evento] define eventos individuales en un conjunto de datos. Si su organización utiliza un término diferente (por ejemplo, Hits o Vistas de página), puede cambiar el nombre del contenedor aquí. |
-| account | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Cuenta &#x200B;]** | El contenedor [!UICONTROL Cuenta] incluye todas las sesiones y eventos de las cuentas dentro del lapso de tiempo especificado. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
+| account | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Cuenta ]** | El contenedor [!UICONTROL Cuenta] incluye todas las sesiones y eventos de las cuentas dentro del lapso de tiempo especificado. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
 
 Para cambiar el nombre de los contenedores del sistema:
 

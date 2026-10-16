@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '1764'
-ht-degree: 74%
+ht-degree: 73%
 ---
 # Control de acceso
 
@@ -137,9 +137,9 @@ Además de añadirse como administrador de productos en el **Perfil de productos
   | [!UICONTROL Gobernanza de datos] | [!UICONTROL Ver directivas de uso de datos] | Acceso de solo lectura para directivas de uso de datos pertenecientes a su organización. |
   | [!UICONTROL Gobernanza de datos] | [!UICONTROL Administrar Políticas De Uso De Datos] | Acceso para leer, crear, editar y eliminar políticas de uso de datos. |
 
-  Para obtener más información sobre los permisos de Experience Platform, consulte [Zonas protegidas y permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home#sandboxes-and-permissions).
+  Para obtener más información sobre los permisos de Experience Platform, consulte [Zonas protegidas y permisos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions).
 
-* Si Journey Optimizer está integrado con Customer Journey Analytics donde existen conexiones de Journey Optimizer, también se deben agregar [permisos de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability) para acceder a las conexiones:
+* Si Journey Optimizer está integrado con Customer Journey Analytics donde existen conexiones de Journey Optimizer, también se deben agregar [permisos de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability) para acceder a las conexiones:
 
   | Categoría | Permiso | Descripción |
   |---|---|---|
@@ -150,14 +150,14 @@ Además de añadirse como administrador de productos en el **Perfil de productos
 
 * Exportar conjuntos de datos a [destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/export-datasets)
 
-  Para realizar esta tarea, los usuarios deben formar parte de un **Rol de Experience Platform** que proporcione los siguientes [permisos de destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home#access-controls):
+  Para realizar esta tarea, los usuarios deben formar parte de un **Rol de Experience Platform** que proporcione los siguientes [permisos de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home#access-controls):
 
   | Categoría | Permiso | Descripción |
   |---|---|---|
   | [!UICONTROL Destinos] | [!UICONTROL Administrar destinos] | Acceso para leer, crear y eliminar conexiones y cuentas de destino. |
   | [!UICONTROL Destinos] | [!UICONTROL Activar destinos] | Permite a los usuarios activar segmentos en destinos existentes. Habilita el paso de asignación en el flujo de trabajo de activación. Este permiso también requiere que se conceda el permiso Ver destinos al usuario que desea activar los datos en los destinos. |
 
-  Para obtener más información sobre los permisos de Experience Platform, consulte [Zonas protegidas y permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home#sandboxes-and-permissions).
+  Para obtener más información sobre los permisos de Experience Platform, consulte [Zonas protegidas y permisos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions).
 
 
 * Usar la [extensión de BI](../data-views/bi-extension.md)
@@ -191,6 +191,8 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil del producto en
 
 ![permisos de Admin Console](assets/permissions.png)
 
+<!-- FOLLOW-UP (waiting on PM): The AI Assistant: Product Knowledge and Data Insights Agent permissions haven't been updated in the product yet. When the PM confirms the Coworker permission name and category, update both rows below. Links to the retired AI Assistant and Data Insights Agent pages were removed. -->
+
 | Categoría | Permiso | Descripción |
 | --- | --- | ---|
 | [!UICONTROL Vistas de datos] | *nombre de la vista de datos* | Si cambia **[!UICONTROL Inclusión automática]** a **[!UICONTROL Activado]**, los usuarios que forman parte de este perfil de producto pueden ver todas las vistas de datos existentes y creadas recientemente. Si esta configuración está **[!UICONTROL Desactivada]**, puede seleccionar las vistas de datos específicas a las que los usuarios tienen acceso. |
@@ -205,8 +207,8 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil del producto en
 | [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Acceso a registros de auditoría] | Este permiso aplica la comprobación de permisos en la [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) y en la interfaz de usuario de registros de auditoría. |
 | [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Uso compartido de vínculos del proyecto con cualquier persona] | Permite que los usuarios [compartan proyectos con cualquiera.](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Previsión] | Permite que los usuarios accedan a la función [Previsión](../analysis-workspace/c-forecast/forecasting.md) en Analysis Workspace |
-| [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Asistente de IA: conocimiento del producto] | Permite que los usuarios tengan acceso al [Asistente de IA](../ai-assistant.md) para obtener conocimiento del producto. |
-| [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Data Insights Agent] | Permita que los usuarios tengan acceso a [Data Insights Agent](../data-analysis-ai.md) para obtener información de datos generados por IA. |
+| [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Asistente de IA: conocimiento del producto] | Permita que los usuarios accedan al asistente de IA para obtener conocimientos del producto. |
+| [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Data Insights Agent] | Permita que los usuarios accedan a Data Insights Agent para obtener perspectivas de datos impulsadas por IA. |
 | [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Pies de ilustración inteligentes] | Permite que los usuarios tengan acceso a [subtítulos inteligentes](/help/analysis-workspace/visualizations/intelligent-captions.md). |
 | [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Acceso a MCP] | Permitir que los usuarios tengan acceso al [servidor MCP de Customer Journey Analytics](https://developer.adobe.com/analytics-mcp/docs/cja/). |
 | [!UICONTROL Herramientas de vista de datos] | [!UICONTROL Exportación de tablas completas] | Permite a los usuarioss[Exportar tablas completas a la nube](/help/analysis-workspace/export/export-cloud.md) |

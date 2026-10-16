@@ -41,14 +41,14 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
 ---
 # protecciones de Customer Journey Analytics
 
-Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [Descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [Descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [Descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics-b2b.html).
+Este documento proporciona límites para varios componentes de Customer Journey Analytics. Para obtener protecciones, parámetros de ámbito y derechos, consulte la [Descripción del producto para Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html?lang=es), la [Descripción del producto para el complemento de Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html?lang=es) o la [Descripción del producto para Customer Journey Analytics B2B edition](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
 
 ## Tipos de límite
 
@@ -126,7 +126,7 @@ Algunas de las funciones y su valor asociado para el límite dependen del paquet
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
+Consulte también [Protecciones de Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) de Experience Platform.
 
 
 ## Caducidad automatizada del conjunto de datos
@@ -173,7 +173,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es).
+Consulte también [Protecciones de Experience Platform para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Exportación de datos de destinos
@@ -185,7 +185,7 @@ Consulte también [Protecciones de Experience Platform para la ingesta de datos]
 
 {style="table-layout:auto"}
 
-Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
+Consulte también [Protecciones de exportación de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports) de Experience Platform
 
 
 ## Zona de aterrizaje de datos
@@ -283,6 +283,8 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 ## Data Insights Agent
 
+<!-- FOLLOW-UP: Data Insights Agent has been replaced by Coworker, but the data view setting is still in the UI. Confirm with the SME whether this guardrail still applies. -->
+
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
 | Vistas de datos | 50 | Protección impuesta por el sistema | Número máximo de vistas de datos que se pueden habilitar para Data Insights Agent. Cuando hay más vistas de datos habilitadas, solo están disponibles en Data Insights Agent las vistas de datos más utilizadas. Esta protección no afecta a las [protecciones que definen la cantidad máxima de vistas de datos que puede definir para una conexión o dentro de su organización](#connections-data-views-projects). |
@@ -301,7 +303,7 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 >[!NOTE]
 >
->Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es) de Experience Platform para obtener más información.
+>Los tiempos de procesamiento a continuación son protecciones, no acuerdos contractuales de nivel de servicio (SLA). La latencia varía según la configuración del cliente, los volúmenes de datos y las aplicaciones de los consumidores. Los tiempos de procesamiento reales suelen ser más rápidos. Consulte su contrato de Customer Journey Analytics para conocer las condiciones contractuales y los SLA específicos. Consulte [Protecciones para la ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) de Experience Platform para obtener más información.
 
 | Flujo de datos | Latencia esperada |
 |---|---|

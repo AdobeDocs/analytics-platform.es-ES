@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 10%
@@ -76,8 +76,8 @@ Esta guía utiliza varios términos técnicos, de Experience Platform y Customer
 | **Conexión** | [Conexiones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/overview) definen qué conjuntos de datos de Experience Platform se incorporan. Las conexiones definen el vínculo entre el conjunto de datos (donde los datos se almacenan en AEP) y Customer Journey Analytics (donde los analiza). Una conexión hace que los datos recopilados estén disponibles para la creación de informes. |
 | **Vista de datos** | Una [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views) es un contenedor que le permite determinar cómo interpretar los datos de una conexión. Una vista de datos especifica todas las dimensiones y métricas sobre las que puede informar. Una vista de datos es como una configuración que determina las filas y columnas disponibles para su uso en el análisis. |
 | **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home) es una interfaz de explorador de arrastrar y soltar que se usa para generar los informes y análisis de Content Analytics. |
-| **Experiencia** | En Content Analytics, una [experiencia](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics#terminology) hace referencia a todo el contenido de texto de una página web que se puede capturar y analizar en función de la dirección URL de la página. |
-| **Recurso** | En Content Analytics, un [recurso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics#terminology) es un fragmento de contenido individual y único, como una imagen. |
+| **Experiencia** | En Content Analytics, una [experiencia](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology) hace referencia a todo el contenido de texto de una página web que se puede capturar y analizar en función de la dirección URL de la página. |
+| **Recurso** | En Content Analytics, un [recurso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology) es un fragmento de contenido individual y único, como una imagen. |
 
 
 ## Resumen de configuración
@@ -242,7 +242,7 @@ Para Content Analytics, debe comprobar si se incluyen los siguientes permisos de
   * Acceso a registros de auditoría
   * Uso compartido de vínculos del proyecto con cualquier persona
   * Previsión
-  * Asistente de IA: conocimiento del producto
+  * Asistente de IA: conocimiento del producto <!-- FOLLOW-UP (waiting on PM): These two permissions haven't been updated in the product yet. Update when the PM confirms the Coworker permission name. -->
   * Data Insights Agent
   * Pies de ilustración inteligentes
 
