@@ -4,12 +4,11 @@ title: Revisión de conversación
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 9a2d178f9add99b04e2344ccc666a6a8d301c32c
+source-git-commit: 65d4115d4c292cff7e074d37a91563d369072ba5
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%
 ---
-
 # Revisión de conversación
 
 >[!CONTEXTUALHELP]

@@ -4,12 +4,11 @@ title: Temas de tendencia
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 137dba69c8827f3b67d5656760d7715437c58b73
+source-git-commit: 65d4115d4c292cff7e074d37a91563d369072ba5
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
 ---
-
 # Temas de tendencia
 
 >[!CONTEXTUALHELP]
