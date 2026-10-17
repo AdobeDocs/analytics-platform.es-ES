@@ -37,7 +37,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 88%
@@ -91,7 +91,7 @@ Las vistas de datos le permiten cambiar espontáneamente la configuración del e
 
 * Puede cambiar el nombre de los contenedores en una vista de datos y hacer que los contenedores aparezcan con su nombre nuevo en cualquier proyecto de Workspace basado en la vista de datos.
 
-* Puede habilitar o deshabilitar Data Insights Agent para una vista de datos.
+* Puede habilitar o deshabilitar Data Insights Agent para una vista de datos. <!-- FOLLOW-UP: Data Insights Agent has been replaced by Coworker, but this setting is still in the UI. Confirm with the SME. -->
 
 ## Requisitos previos de vistas de datos {#prerequisites}
 

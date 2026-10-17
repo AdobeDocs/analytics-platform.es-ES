@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Customer Journey Analytics
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: "Customer Journey Analytics"
 usetq: true
 type: Documentation
 git-repo: https://github.com/AdobeDocs/analytics-platform.es-ES
@@ -14,11 +15,9 @@ role: User, Admin
 index: true
 source-git-commit: 82f09821518880b5af7e91881da7e142b43f1223
 workflow-type: tm+mt
-source-wordcount: 142
-ht-degree: 84%
-
+source-wordcount: '137'
+ht-degree: 87%
 ---
-
 
 # Metadatos para uso interno
 

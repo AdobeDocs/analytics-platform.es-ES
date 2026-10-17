@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '7222'
+source-wordcount: '7309'
 ht-degree: 95%
 ---
 
@@ -70,6 +70,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 |---|---|
 | **Octubre de 2026** | |
+| El asistente de IA y Data Insights Agent se han sustituido por Coworker | Se han eliminado los artículos Asistente de IA y Data Insights Agent. Adobe CX Enterprise Coworker reemplaza ambas funciones. Para obtener más información, consulte [Analizar datos con el chat de compañeros](https://experienceleague.adobe.com/es/docs/coworker/content/chat/use-cases/data-insights/analytics-overview). También se ha actualizado [compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa) para reflejar el cambio. |
 | Canal de medios de pago de Content Analytics | Documentación [completa](/help/content-analytics/config/paid-media.md) sobre la configuración automática de conjuntos de datos y componentes de vista de datos resultante de usar un conector de origen de medios de pago (como Google Ads o Meta Ads) y de configurar y habilitar el canal de medios de pago de Content Analytics. |
 | Perspectivas de conversación | [Documentación](/help/conversation-insights/overview.md) para Perspectivas de conversación. |
 | Visibilidad de la marca | Se ha actualizado la documentación de la [integración entrante de Visibilidad de la marca](/help/integrations/bv/bv.md#inbound-integration) con más detalles. |
@@ -116,7 +117,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Noviembre de 2025** | |
 | Protección para filas por día en una conexión | Se ha agregado [información de protección para los límites de transferencia de datos](/help/technotes/guardrails.md) acerca del número promedio máximo de filas por día en una conexión. |
 | **Octubre de 2025** | |
-| Administrar el acceso a Data Insights Agent | Se han actualizado los [requisitos del permiso y el proceso para habilitar vistas de datos](/help/data-analysis-ai.md#manage-access-to-data-insights-agent). |
+| Administrar el acceso a Data Insights Agent | Se han actualizado los [requisitos del permiso y el proceso para habilitar vistas de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai). |
 | Configuración de la atribución | Actualizaciones adicionales para reflejar las nuevas opciones de configuración de atribución del modelo, el contenedor y la ventana de retrospección. |
 | Ingesta y uso de públicos de Experience Platform | Se ha actualizado el artículo de caso de uso sobre cómo [ingerir y usar audiencias de Experience Platform](/help/use-cases/data-ingestion/ingest-aep-segments.md). |
 | Prepare su organización para actualizar a Customer Journey Analytics | Se agregó información sobre cómo [preparar una organización para actualizar a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md). |
@@ -201,7 +202,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Junio de 2024** | |
 | Se ha actualizado el nombre del producto que hace referencia a las funciones de medios de streaming | Se han reemplazado las instancias de “Media Analytics” y “Medios de streaming” por el nombre “Complemento de la colección de medios de streaming&quot; al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los exponen en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación de Customer Journey Analytics, así como en la [Documentación de la colección de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
 | Vinculación basada en gráficos | Se ha actualizado y reestructurado la [documentación de vinculación](/help/stitching/overview.md) con la introducción de la vinculación basada en gráficos. |
-| Asistente de IA | Se agregó [documentación](../ai-assistant.md) en el Asistente de IA para Customer Journey Analytics. |
+| Asistente de IA | Se agregó [documentación](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) en el Asistente de IA para Customer Journey Analytics. |
 | Transformar el conjunto de datos para búsquedas B2B | Se ha añadido documentación sobre cómo admitir [búsquedas basadas en personas en datos B2B](/help/connections//transform-datasets-b2b-lookups.md) (incluidas cuentas, oportunidades, listas de marketing y campañas) mediante la transformación de conjuntos de datos de búsqueda B2B. |
 | Funciones de campo derivadas y plantillas de función | Se ha añadido documentación sobre las funciones de campo derivadas adicionales ([Matemáticas](/help/data-views/derived-fields/derived-fields.md#math), [Siguiente o Anterior](/help/data-views/derived-fields/derived-fields.md#next-or-previous), y [Resumir](/help/data-views/derived-fields/derived-fields.md#summarize)) y [plantillas de función](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **Mayo de 2024** | |

@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 10%
@@ -242,7 +242,7 @@ Para Content Analytics, debe comprobar si se incluyen los siguientes permisos de
   * Acceso a registros de auditoría
   * Uso compartido de vínculos del proyecto con cualquier persona
   * Previsión
-  * Asistente de IA: conocimiento del producto
+  * Asistente de IA: conocimiento del producto <!-- FOLLOW-UP (waiting on PM): These two permissions haven't been updated in the product yet. Update when the PM confirms the Coworker permission name. -->
   * Data Insights Agent
   * Pies de ilustración inteligentes
 

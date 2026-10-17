@@ -41,17 +41,12 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1660'
 ht-degree: 9%
 ---
 # Narración de datos: Generar presentaciones de diapositivas a partir de informes de Workspace {#generate-powerpoint}
-
->[!NOTE]
->
->La narración de datos es una habilidad de Data Insights Agent y está disponible para los clientes elegibles por tiempo limitado. El acceso a Data Insights Agent finalizará el 31 de marzo de 2026. Para seguir utilizando Data Insights Agent u otros agentes de Adobe Experience Platform sin interrupción, póngase en contacto con el representante de su cuenta de Adobe para obtener más información sobre las licencias de Adobe Experience Platform Agent Orchestrator.
-
 
 Los usuarios con [los permisos necesarios](#permission-requirements-to-generate-slides) pueden generar automáticamente presentaciones .pptx basadas en proyectos de Analysis Workspace. Al generar estas presentaciones de diapositivas, Customer Journey Analytics crea automáticamente una historia a partir de sus datos identificando perspectivas clave y convirtiéndolas en diapositivas listas para las partes interesadas.
 

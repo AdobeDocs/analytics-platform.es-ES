@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3165'
 ht-degree: 77%
 ---
 # Creación o edición de una vista de datos
@@ -117,9 +117,20 @@ Esta sección solo está visible para los administradores que están aprovisiona
 {style="table-layout:auto"}
 
 
-### Configuración de IA
+### Configuración de IA {#ai-settings}
 
-Seleccione **[!UICONTROL Habilitar para Data Insights Agent]** para habilitar la vista de datos para [Data Insights Agent](/help/data-analysis-ai.md). Data Insights Agent es un agente de conversación de IA generativa al que se puede acceder desde el asistente de IA de Customer Journey Analytics. Le ayuda a analizar rápidamente los datos con indicaciones de texto. El agente crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando los datos reales.
+<!-- FOLLOW-UP: The Enable for Data Insights Agent setting is still in the UI, but Data Insights Agent has been replaced by Coworker. Confirm with the SME what this setting does now and whether it will be renamed or removed. This contextual help block was moved here from the retired data-analysis-ai.md page; confirm that the in-product help still resolves. -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-enable-data-insights-data-view"
+>title="Habilitar para Data Insights Agent"
+>abstract="Esta opción habilita esta vista de datos para su uso con Data Insights Agent. Data Insights Agent es un agente de conversación de IA generativo que le ayuda a analizar rápidamente sus datos con mensajes de texto. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando sus datos reales."
+
+<!-- markdownlint-enable MD034 -->
+
+Seleccione **[!UICONTROL Habilitar para Data Insights Agent]** para habilitar la vista de datos para Data Insights Agent. Data Insights Agent es un agente de conversación de IA generativo que le ayuda a analizar rápidamente sus datos con mensajes de texto. El agente crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando los datos reales.
 
 
 ### Calendario

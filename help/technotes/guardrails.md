@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
@@ -282,6 +282,8 @@ Consulte también [Protecciones de exportación de conjuntos de datos](https://e
 
 
 ## Data Insights Agent
+
+<!-- FOLLOW-UP: Data Insights Agent has been replaced by Coworker, but the data view setting is still in the UI. Confirm with the SME whether this guardrail still applies. -->
 
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
