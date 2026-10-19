@@ -8,33 +8,37 @@ role: User
 TQID: https://experienceleague.adobe.com/YWKW578JfolnUul64XLty6ehTVlsdsdTRAgHQG3wzbY
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18b3b42cafd437749041bc1d408e60e77b42e1fc
+    internal-label: Insights
+source-git-commit: 0932da0728fd386c366b3c9b3cec45115f4e7e4b
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 78%
-
+source-wordcount: '527'
+ht-degree: 72%
 ---
-
 # Teclas de acceso directo
 
 Las teclas de acceso directo (métodos abreviados de teclado) están disponibles en Analysis Workspace para una navegación, análisis y democratización sin problemas.
 
 Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 
-- **⇧** para **[!UICONTROL **&#x200B; shift &#x200B;**]**.
-- **⌘** para **[!UICONTROL **&#x200B; cmd &#x200B;**]** (comando).
-- **⌃** para **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (control).
-- **⌥** para **[!UICONTROL **&#x200B; opt &#x200B;**]** (opción).
-- **⎇** para **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternativo).
+- **⇧** para **[!UICONTROL ** shift **]**.
+- **⌘** para **[!UICONTROL ** cmd **]** (comando).
+- **⌃** para **[!UICONTROL ** ctrl **]** (control).
+- **⌥** para **[!UICONTROL ** opt **]** (opción).
+- **⎇** para **[!UICONTROL ** alt **]** (alternativo).
 
 ## Acciones de navegación
 
@@ -97,6 +101,10 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 | Redimensionar más corto | **[!UICONTROL *cmd + opt + mayús + up *]** | **[!UICONTROL *ctrl+alt+mayús+up *]** |
 
 El ancho cambia de tamaño en pasos de una columna de cuadrícula y el alto cambia de tamaño en pasos de una celda de cuadrícula (aproximadamente 25 píxeles).
+
+## Acciones de columna de tabla
+
+Puede cambiar el tamaño y reorganizar las columnas de la tabla con el teclado. Estas acciones no son métodos abreviados de teclado globales. Están disponibles cuando está seleccionado un separador de tamaño de columna o el botón **[!UICONTROL Reorganizar]** del encabezado de columna. Consulte [Navegación por teclado para columnas de tabla](/help/analysis-workspace/workspace-faq/aw-accessibility.md#table-columns).
 
 ## Acciones de democratización
 
