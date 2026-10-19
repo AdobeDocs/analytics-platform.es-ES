@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Privacy
 source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1325'
 ht-degree: 28%
 ---
 # Configurar informes y filtros de consentimiento {#configure-consent-reporting}
@@ -63,7 +63,7 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cja-consent-identity-namespace"
->title="Utilizar el espacio de nombres de identidad principal"
+>title="Utilizar espacio de nombres de identidad principal"
 >abstract="Active esta opción si desea que Customer Journey Analytics busque la identidad en el mapa de identidad que está marcada con un atributo primary=true y utilice esa identidad como el ID de persona de esa fila. Esta identidad es la clave principal que se utiliza en el Experience Platform para la partición. <br/>Si deja esta opción desactivada, seleccione un espacio de nombres en el campo Espacio de nombres de identidad a continuación. Customer Journey Analytics busca en el mapa de identidad de cada fila esta clave de espacio de nombres y utiliza la identidad bajo ese espacio de nombres como ID de persona de esa fila."
 
 <!-- markdownlint-enable MD034 -->

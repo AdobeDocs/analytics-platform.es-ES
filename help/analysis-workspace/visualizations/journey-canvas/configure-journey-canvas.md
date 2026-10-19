@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: 4cdf80f86cea6a60e3b098c6efbaab0821a256c7
 workflow-type: tm+mt
 source-wordcount: '7372'
-ht-degree: 82%
+ht-degree: 83%
 ---
 # Configuración de una visualización de lienzo de recorrido
 
@@ -150,7 +150,7 @@ Consulte [Información general sobre el lienzo de recorrido](/help/analysis-work
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_compare_percentages"
 >title="Comparar porcentajes"
->abstract="Compara el cambio porcentual en cada nodo, flecha y visita en orden previsto del recorrido entre el intervalo de fechas actual y el seleccionado, según la métrica principal. Cuando esta opción está desactivada, se muestra el porcentaje de valor sin procesar en lugar del cambio porcentual."
+>abstract="Compara el cambio porcentual en cada nodo, flecha y abandono del recorrido entre el intervalo de fechas actual y el intervalo de fechas de comparación seleccionado, en función de la métrica principal. Cuando esta opción está desactivada, se muestra el porcentaje de valor sin procesar en lugar del cambio porcentual."
 
 <!-- markdownlint-enable MD034 -->
 
