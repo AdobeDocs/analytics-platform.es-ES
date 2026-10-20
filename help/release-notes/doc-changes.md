@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 0932da0728fd386c366b3c9b3cec45115f4e7e4b
 workflow-type: tm+mt
-source-wordcount: '7309'
-ht-degree: 95%
+source-wordcount: '7341'
+ht-degree: 94%
 ---
 
 # Actualizaciones de la documentación de Customer Journey Analytics
@@ -70,6 +70,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 |---|---|
 | **Octubre de 2026** | |
+| Navegación por teclado para columnas de tabla | Se ha documentado cómo [cambiar el tamaño](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) y [reorganizar](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) columnas de tabla en Analysis Workspace mediante el teclado, incluidos los comentarios de los lectores de pantalla. También se agregó una sección [Acciones de columna de tabla](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) a las teclas de acceso directo. |
 | El asistente de IA y Data Insights Agent se han sustituido por Coworker | Se han eliminado los artículos Asistente de IA y Data Insights Agent. Adobe CX Enterprise Coworker reemplaza ambas funciones. Para obtener más información, consulte [Analizar datos con el chat de compañeros](https://experienceleague.adobe.com/es/docs/coworker/content/chat/use-cases/data-insights/analytics-overview). También se ha actualizado [compatibilidad con funciones de Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa) para reflejar el cambio. |
 | Canal de medios de pago de Content Analytics | Documentación [completa](/help/content-analytics/config/paid-media.md) sobre la configuración automática de conjuntos de datos y componentes de vista de datos resultante de usar un conector de origen de medios de pago (como Google Ads o Meta Ads) y de configurar y habilitar el canal de medios de pago de Content Analytics. |
 | Perspectivas de conversación | [Documentación](/help/conversation-insights/overview.md) para Perspectivas de conversación. |

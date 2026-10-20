@@ -41,7 +41,7 @@ topic_v2:
 source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 55%
+ht-degree: 56%
 ---
 # Alternativa de actualización: utilice la recopilación de datos de AppMeasurement con Experience Platform Web SDK y Customer Journey Analytics {#data-collection-appmeasurement}
 
@@ -59,7 +59,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic-step"
 >title="Cambiar la lógica de AppMeasurement para que apunte al SDK web"
->abstract="Este paso aparece porque ha elegido tomar un atajo de implementación. Copie o cambie la lógica de AppMeasurement para rellenar el objeto de datos en lugar del objeto s. Por ejemplo, cambie la asignación de s.eVar1 a data.__adobe.analytics.eVar1 y repita para todas las variables de Analytics."
+>abstract="Este paso aparece porque ha optado por emplear un método abreviado de implementación. Copie o cambie la lógica de AppMeasurement para rellenar el objeto de datos en lugar del objeto s. Por ejemplo, cambie la asignación de s.eVar1 a data.__adobe.analytics.eVar1 y repita para todas las variables de Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
