@@ -24,9 +24,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 49795b40eab1fcd1bfd472ccb756587adf9877b8
+source-git-commit: 5f5e011198decd41ced888904b643d817959dab3
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1971'
 ht-degree: 18%
 ---
 # Habilitación de la vinculación
@@ -252,8 +252,6 @@ Para una configuración de conexión inicial válida que se guarde y contenga un
 * Los datos activos aparecen inicialmente en Customer Journey Analytics después de unas horas (menos de 14 horas). Los nuevos datos activos están disponibles en unas horas. Los datos activos comienzan con valores de marca de tiempo de evento que coinciden con el momento real en el que se completó la vinculación.
 
   Para asegurarse de que los datos activos comiencen a fluir, habilite la opción **[!UICONTROL Importar todos los datos nuevos]** para el conjunto de datos.
-
-  Los nuevos datos introducidos en el conjunto de datos de evento de origen de Experience Platform aparecen en Customer Journey Analytics en un plazo de cuatro horas.
 
 * Los datos rellenados (si se solicitan inicialmente) se muestran en Customer Journey Analytics aproximadamente a la vez que los datos activos, pero pueden tardar días en procesarse por completo, según los volúmenes implicados. Los datos rellenados comienzan con los valores de marca de tiempo de evento más antiguos.
 
