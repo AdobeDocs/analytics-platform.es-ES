@@ -477,7 +477,7 @@ Consulte a continuación un ejemplo de uso del grupo de campos Evento de convers
     ]
   },
   "web": {
-    "webPageDetails": { "URL": "https://www.adobe.com", "name": "Home Page" }
+    "webPageDetails": { "URL": "https://www.adobe.com/es", "name": "Home Page" }
   },
   "agenticExperience":{
     "conciergeID":"concierge-abc123",
@@ -517,7 +517,7 @@ Consulte a continuación un ejemplo de uso del grupo de campos Evento de convers
     ]
   },
   "web": {
-    "webPageDetails": { "URL": "https://www.adobe.com", "name": "Home Page" }
+    "webPageDetails": { "URL": "https://www.adobe.com/es", "name": "Home Page" }
   },
   "agenticExperience":{
     "conciergeID":"concierge-abc123",
@@ -558,7 +558,7 @@ Consulte a continuación un ejemplo de uso del grupo de campos Evento de convers
     ]
   },
   "web": {
-    "webPageDetails": { "URL": "https://www.adobe.com", "name": "Home Page" }
+    "webPageDetails": { "URL": "https://www.adobe.com/es", "name": "Home Page" }
   },
   "conversation": {
     "conversationID": "conv-001",
@@ -591,7 +591,7 @@ Consulte a continuación un ejemplo de uso del grupo de campos Evento de convers
     ]
   },
   "web": {
-    "webPageDetails": { "URL": "https://www.adobe.com", "name": "Home Page" }
+    "webPageDetails": { "URL": "https://www.adobe.com/es", "name": "Home Page" }
   },
   "agenticExperience":{
     "conciergeID":"concierge-xyz789",
@@ -696,7 +696,7 @@ Cualquier valor de cadena es aceptable; sin embargo, Adobe rellena los siguiente
     ]
   },
   "web":{
-    "webPageDetails":{ "URL":"https://www.adobe.com", "name":"Home Page" }
+    "webPageDetails":{ "URL":"https://www.adobe.com/es", "name":"Home Page" }
   },
   "agenticExperience":{
     "conciergeID":"concierge-abc123",

@@ -1017,5 +1017,5 @@ Este cálculo debe realizarse para todos los conjuntos de datos de la conexión.
 >[!MORELIKETHIS]
 >
 >* [Información general sobre la ingesta de datos](/help/data-ingestion/data-ingestion.md)
->* Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/how-to-leverage-event-lookup-and-profile-datasets-in-adobe-customer-journey-analytics-12699?profile.language=es)
+>* Blog: [Cómo aprovechar los conjuntos de datos de evento, búsqueda y perfil en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/how-to-leverage-event-lookup-and-profile-datasets-in-adobe-customer-journey-analytics-12699?profile.language=es&lang=es)
 
