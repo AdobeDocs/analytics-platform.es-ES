@@ -137,7 +137,7 @@ Para cada configuración:
 >id="conversationinsights_blend_specification"
 >title="Configurar la especificación de la fusión"
 >abstract="Solo puede editar la especificación de mezcla una vez que haya completado esta configuración de Perspectivas de conversación, todos los conjuntos de datos estén disponibles y tenga permisos de Customer Journey Analytics para editar conexiones."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control" text="Control de acceso"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control" text="Control de acceso"
 
 
 >[!CONTEXTUALHELP]
