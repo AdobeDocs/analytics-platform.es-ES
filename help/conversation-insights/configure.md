@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 15%
+source-wordcount: '1185'
+ht-degree: 12%
 ---
 # Crear o editar configuraciones
 
@@ -64,7 +64,7 @@ Para cada configuración:
    | Campo | Descripción |
    |---------|----------|
    | **[!UICONTROL Nombre]** | Especifique un nombre para la configuración. |
-   | **[!UICONTROL Zona protegida]** | Seleccione el simulador para pruebas de Experience Platform que contiene los conjuntos de datos de mensajes, respuestas y eventos de comentarios que desea agregar a su conexión. |
+   | **[!UICONTROL Zona protegida]** | Seleccione el simulador para pruebas de Experience Platform que contiene los conjuntos de datos de mensajes, respuestas y eventos de comentarios que desea agregar a su conexión. Se le notificará si no hay conjuntos de datos compatibles disponibles para la zona protegida seleccionada. |
 
 1. En la sección **[!UICONTROL Conjuntos de datos]**, especifique la siguiente información:
 
@@ -75,6 +75,13 @@ Para cada configuración:
    | **[!UICONTROL Solicita el conjunto de datos de evento]** | Seleccione el conjunto de datos que contiene los datos de evento de mensajes. |
    | **[!UICONTROL Conjunto de datos de evento de respuestas]** | Seleccione el conjunto de datos que contiene los datos de evento de las respuestas. |
    | **[!UICONTROL Conjunto de datos de evento de comentarios]** | Seleccione el conjunto de datos que contiene los datos de evento de comentarios. |
+
+   Cuando un conjunto de datos contenga indicadores y respuestas, seleccione el mismo conjunto de datos para **[!UICONTROL Indicadores del conjunto de datos de evento]** y **[!UICONTROL Respuestas del conjunto de datos de evento]**.
+
+   La opción para [especificar conversaciones combinadas](#blend-specification) a través de **[!UICONTROL Configurar especificación combinada]** solo está disponible una vez:
+   * Esta configuración se ha completado.
+   * Todos los conjuntos de datos están disponibles.
+   * Tiene permisos de Customer Journey Analytics [para editar conexiones](/help/technotes/access-control.md).
 
 1. En la sección **[!UICONTROL Conexión]**, si no hay ninguna conexión configurada, use **[!UICONTROL Seleccionar una conexión]** para seleccionar una conexión.
 
@@ -123,6 +130,48 @@ Para cada configuración:
 
    * Seleccione **[!UICONTROL Exit]** para omitir cualquier cambio en la configuración.
 
+## Especificación de fusión
+
+
+>[!CONTEXTUALHELP]
+>id="conversationinsights_blend_specification"
+>title="Configurar la especificación de la fusión"
+>abstract="Solo puede editar la especificación de mezcla una vez que haya completado esta configuración de Perspectivas de conversación, todos los conjuntos de datos estén disponibles y tenga permisos de Customer Journey Analytics para editar conexiones."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control" text="Control de acceso"
+
+
+>[!CONTEXTUALHELP]
+>id="conversationinsights_dataset_winner"
+>title="Ganador del conjunto de datos"
+>abstract="Seleccione el conjunto de datos que determina el valor de los campos con el nombre correspondiente (si es un contenedor) en el conjunto de datos de conversación mezclada."
+
+Una vez que haya creado una configuración, puede configurar [cómo se fusionan las conversaciones de los conjuntos de datos de mensajes, respuestas, comentarios y señales](/help/conversation-insights/overview.md#how-it-works).
+
+Esta especificación le permite seleccionar el conjunto de datos que determina el valor de los campos con nombres correspondientes (si es un contenedor) en el conjunto de datos de conversación combinado.
+
+Por ejemplo: si desea que el nombre del campo **[!UICONTROL Producido por]** en el conjunto de datos de conversación combinada se defina a partir de ese campo con nombre similar en el conjunto de datos de comentarios, selecciona **[!UICONTROL Conjunto de datos de comentarios]** del menú desplegable **[!UICONTROL Ganador del conjunto de datos]** para ese campo.
+
+Para especificar la conversación combinada:
+
+1. Seleccione **[!UICONTROL Configurar especificación de mezcla]**.
+
+1. En el cuadro de diálogo **[!UICONTROL Especificación de mezcla]**, para cada **[!UICONTROL nombre de campo]**, revise el **[!UICONTROL ganador de conjunto de datos]** sugerido y, opcionalmente, seleccione un conjunto de datos diferente.
+
+   * Para cada campo habilitado, seleccione opcionalmente otro **[!UICONTROL ganador del conjunto de datos]**. Puede seleccionar entre **[!UICONTROL Conjunto de datos de mensajes]**, **[!UICONTROL Conjunto de datos de respuestas]** y **[!UICONTROL Conjunto de datos de comentarios]**.
+   * Para cada campo de contenedor, si lo desea, seleccione otro **[!UICONTROL ganador del conjunto de datos]** para actualizar todos los campos que pertenecen al contenedor. Puede seleccionar entre **[!UICONTROL Conjunto de datos de mensajes]**, **[!UICONTROL Conjunto de datos de respuestas]** y **[!UICONTROL Conjunto de datos de comentarios]**.
+   * No puede seleccionar un **[!UICONTROL ganador del conjunto de datos]** para los campos que se comparten entre los conjuntos de datos de conversación (preguntas, respuestas, comentarios y señales). Estos campos forman parte de los siguientes grupos de campos:
+
+     | Nombre de campo | Grupo de campos | Ganador del conjunto de datos |
+     |---|---|---|
+     | **[!UICONTROL aviso]** | `conversation.prompt.*` | **[!UICONTROL Conjunto de datos de indicadores]** |
+     | **[!UICONTROL response]** | `conversation.response.*` | **[!UICONTROL Conjunto de datos de respuestas]** |
+     | **[!UICONTROL comentarios]** | `conversation.feedback.*` | **[!UICONTROL Conjunto de datos de comentarios]** |
+     | **[!UICONTROL agentExperience]** | `agentExperience.*` | **[!UICONTROL Conjunto de datos de respuestas]** |
+     | **[!UICONTROL señales]** | `conversation.signals.*` | **[!UICONTROL Conjunto de datos de señales]** |
+
+   * No hay ninguna selección de **[!UICONTROL ganador del conjunto de datos]** disponible para campos de identidad específicos, como **[!UICONTROL ID de conversación]** o **[!UICONTROL ID de turno]**.
+
+1. Seleccione **[!UICONTROL Guardar]** para guardar la especificación. Seleccione **[!UICONTROL Cancelar]** para cancelar la especificación.
 
 ## Verificación de vista de datos
 
