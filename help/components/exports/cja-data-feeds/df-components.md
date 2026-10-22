@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: adc7e85339e89c181375c0d3ea5c228d473239a7
+source-git-commit: 5006a5e7f48fb107cc32cf56051062cc88f35c8e
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 43%
+source-wordcount: '1548'
+ht-degree: 39%
 ---
 # Disponibilidad de componentes en fuentes de datos
 
@@ -98,29 +98,44 @@ Las siguientes métricas estándar de Customer Journey Analytics no se pueden in
 
 <!-- markdownlint-disable MD034 -->
 
-<!-- pretty sure this isn't being used -->
-
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user_agent"
 >title=""
->abstract="Los datos del agente de usuario y los datos de búsqueda del dispositivo no pueden existir en la misma configuración de la fuente de datos."
+>abstract="Los datos del agente de usuario y los datos de búsqueda del dispositivo no pueden existir en la misma configuración del feed de datos."
 
 <!-- markdownlint-enable MD034 -->
 
->[!IMPORTANT]
->
->Ciertas dimensiones no se pueden usar juntas en conjuntos de datos de Experience Platform y, por lo tanto, no se pueden incluir en la misma fuente de datos.
->
->Si decide incluir las dimensiones **User agent** o **Mobile ID** en su fuente de datos, las dimensiones que se indican a continuación no se podrán agregar a la fuente de datos.
+Ciertas dimensiones no se pueden usar juntas en conjuntos de datos de Experience Platform. Una fuente de datos puede incluir dimensiones de uno de los siguientes grupos, pero no de ambos:
+
+* Las dimensiones **agente de usuario** e **ID móvil**. <!--UI shows "Type identifier" for device.typeID; align with docs name "Mobile ID" (open question for Danny Carmen).-->
+
+* Dimensiones de búsqueda de dispositivos, como las dimensiones de explorador, dispositivo móvil y sistema operativo. Para obtener la lista completa, consulte [Dimensiones de búsqueda de dispositivos](#device-lookup-dimensions).
+
+>[!NOTE]
 >
 >Si utiliza Web SDK, esta restricción se aplica en las secuencias de datos antes de que los datos lleguen a un conjunto de datos de Experience Platform. Para obtener más información, consulte [Configurar la búsqueda de dispositivos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#geolocation-device-lookup) en [Crear y configurar flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) en la guía de recopilación de datos.
 
-Las siguientes dimensiones no se pueden usar junto con las dimensiones **Agente de usuario** o **ID móvil**:
+### Resolución de conflictos de dimensión
+
+Cuando se añaden dimensiones que no se pueden utilizar juntas, aparece un cuadro de diálogo que indica qué dimensiones se añadirán y cuáles no se añadirán o se eliminarán. Lo que sucede depende de dónde se encuentre el conflicto:
+
+* **Las dimensiones que está agregando entran en conflicto con dimensiones que ya se encuentran en la fuente de datos**: Las dimensiones que está agregando tienen prioridad. El cuadro de diálogo le pedirá que añada la selección y elimine las dimensiones en conflicto de la fuente de datos.
+
+* **Las dimensiones que está agregando entran en conflicto entre sí**: Las dimensiones **agente de usuario** y **ID móvil** tienen prioridad. El cuadro de diálogo le pedirá que los añada; las dimensiones de búsqueda de dispositivos que ha seleccionado no se añaden.
+
+Para mantener la fuente de datos sin cambios, seleccione **[!UICONTROL Cancelar]**.
+
+<!--Open questions for Danny Carmen: behavior when a batch contains both groups and the feed already has conflicting dimensions; whether "add all" adds the full selection or only the listed dimensions.-->
+
+### Dimensiones de búsqueda de dispositivos {#device-lookup-dimensions}
+
+Las siguientes dimensiones no se pueden incluir en la misma fuente de datos que las dimensiones **agente de usuario** o **ID móvil**.
 
 >[!NOTE]
 >
 >La siguiente lista utiliza nombres de dimensión predeterminados. Las dimensiones con nuevos nombres en la vista de datos aparecen en las fuentes de datos con sus nombres personalizados.
 
+<!--Engineering lists 30 device lookup fields; this list has 28. Likely missing: environment.operatingSystemIDStr and environment.browserIDStr. Confirm display names with Danny Carmen.-->
 
 * Tipo de explorador
 * Explorador

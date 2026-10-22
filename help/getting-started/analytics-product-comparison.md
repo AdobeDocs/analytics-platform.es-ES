@@ -6,29 +6,34 @@ feature: Components
 hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
+    internal-label: Customer journeys
+source-git-commit: 34959e37a7040bcd861a506968895ad6f051b686
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: '464'
 ht-degree: 44%
-
 ---
-
 
 # Comparación de productos de Analytics
 
 Utilice esta página para comparar las herramientas de creación de informes y exportación de Customer Journey Analytics en atributos clave para ayudarle a elegir la herramienta adecuada para sus necesidades de análisis o exportación de datos.
 
-| Nombre del producto y vínculo de ayuda | [Analysis Workspace](/help/analysis-workspace/home.md) | [Report Builder](/help/report-builder/rb-overview.md) | [Exportación de tablas completas](/help/analysis-workspace/export/export-cloud.md) | [Archivos de fuentes de datos](/help/components/exports/cja-data-feeds/data-feed-overview.md) | [API](https://developer.adobe.com/cja-apis/docs/) | MCP | Extensión de BI | Compañero |
+| Nombre del producto y vínculo de ayuda | [Analysis Workspace](/help/analysis-workspace/home.md) | [Report Builder](/help/report-builder/rb-overview.md) | [Exportación de tablas completas](/help/analysis-workspace/export/export-cloud.md) | [Fuentes de datos](/help/components/exports/cja-data-feeds/data-feed-overview.md) | [API](https://developer.adobe.com/cja-apis/docs/) | MCP | Extensión de BI | Compañero |
 |---|---|---|---|---|---|---|---|---|
 | **Método de acceso** | Explorador | Microsoft Excel | Explorador | Configurar mediante el explorador | Herramientas de API de RESTful | Herramientas compatibles con MCP | Herramientas de BI | Herramientas compatibles con MCP |
 | **Granularidad de los datos** | Agregado | Agregado | Agregado | Evento | Agregado | Agregado | Agregado | Agregado |
