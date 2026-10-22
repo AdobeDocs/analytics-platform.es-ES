@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 39d7aae2c47754899a2ac7d1a544a0b585d99b8b
+source-git-commit: bccb25182630e18943a52ceca621cdfd6696b819
 workflow-type: tm+mt
-source-wordcount: '4362'
-ht-degree: 15%
+source-wordcount: '4243'
+ht-degree: 16%
 ---
 # Creación de un feed de datos
 
@@ -71,24 +71,6 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 >id="cja_datafeed_frequency_granularity"
 >title="Frecuencia y granularidad"
 >abstract="**Frecuencia de envío** (fuentes activas): la frecuencia con la que se envía la fuente de datos. Los envíos por hora contienen los datos correspondientes a una hora, mientras que los envíos diarios contienen los datos correspondientes a un día. El intervalo de fechas de retroactividad y el retraso en el procesamiento también pueden afectar a los eventos que se incluyen.<p>**Granularidad** (fuentes de relleno): el intervalo de tiempo que se utiliza para dividir los datos históricos. Cada fragmento contiene los datos correspondientes a un día y se entrega lo más rápido posible, no una vez al día. Este campo siempre se establece en Diario y no se puede modificar.</p>"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-df-export-file-name"
->title="Ruta o nombre de archivo"
->abstract="Especifique una ruta de acceso o un nombre de archivo (o ambos) para determinar dónde se enviarán los archivos en la ubicación seleccionada. Para guardar archivos en la carpeta de nivel superior de la ubicación, especifique `/`.<br/>Para las fuentes activas, puede utilizar variables para hacer dinámica la ruta de acceso o el nombre de archivo. <br/>Por ejemplo, si especifica `${yyyy}/${MM}/${dd}/my-feed-${instance_id}-${idx}`, una fuente activa que se entregue el 15 de enero de 2027 tendría la siguiente ruta de acceso y nombre de archivo: `[prefix_folder_name]/2027/01/15/my-feed-[UUID]-1.parquet` <br/>Seleccione el vínculo siguiente para obtener una lista de variables disponibles."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-df-export-file-name-override"
->title="Anular ruta o nombre de archivo predeterminado"
->abstract="Active esta opción para anular la ruta predeterminada o el nombre de archivo definido para esta ubicación. La omisión solo se aplica a esta fuente de datos y determina a qué lugar se envían los archivos de fuente de datos."
 
 <!-- markdownlint-enable MD034 -->
 
