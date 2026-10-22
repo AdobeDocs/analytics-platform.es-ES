@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 9e9722a8c5848cba2e657a9c538d61e9453b0d09
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '514'
 ht-degree: 9%
 ---
 # Transformar el conjunto de datos para búsquedas B2B
@@ -56,9 +56,9 @@ Esta transformación solo está disponible para conjuntos de datos con datos par
 
 >[!PREREQUISITES]
 >
->Para que la ingesta funcione correctamente, debe validar que los conjuntos de datos de búsqueda B2B tengan datos rellenados para los siguientes campos (tal como se definen en los esquemas de búsqueda B2B):
+>Para que la ingesta funcione correctamente, cada conjunto de datos de la siguiente tabla debe contener el campo especificado rellenado con datos:
 >
->| Conjunto de datos que contiene datos que se ajustan al esquema | Campo rellenado con datos |
+>| Conjunto de datos que contiene datos que se ajustan al esquema | Campo obligatorio rellenado con datos |
 >|---|---|
 >| Relación de persona de cuenta empresarial de XDM | `accountPersonID` |
 >| Persona de oportunidad empresarial de XDM | `opportunityPersonID` |
