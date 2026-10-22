@@ -49,14 +49,14 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 952a54cc63b5d725c40c8f99cb1821e8b8e9f362
+source-git-commit: fbfd8f635d4a861d3d52dc2448ff8ae5d5f5b149
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1047'
 ht-degree: 22%
 ---
 # Notas de la versión actuales de Customer Journey Analytics (octubre de 2026)
 
-**Última actualización**: 20 de octubre de 2026
+**Última actualización**: 22 de octubre de 2026
 
 Estas notas de la versión abarcan el periodo de lanzamiento de octubre de 2026. Las versiones de Adobe Customer Journey Analytics operan en un [modelo de entrega continua](releases.md), que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -69,7 +69,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento de octubre de 2026.
 | **Integración de Adobe Brand Visibility**<br/> Conecte Adobe Brand Visibility con los datos de Customer Journey Analytics de su organización para que pueda medir cómo la detección impulsada por IA se traduce en participación real en el sitio web y resultados comerciales.<p>Para obtener más información, consulte [Integración de Adobe Brand Visibility](/help/integrations/bv/bv.md).</p> | | 8 de octubre de 2026 |
 | **Lienzo de Recorridos: comparar porcentajes**<br/> Al comparar un recorrido con un período anterior, ahora puede habilitar la nueva opción [!UICONTROL Comparar porcentajes] para mostrar el cambio en puntos porcentuales para cada nodo, flecha y visita en orden previsto. Esto resulta útil al comparar tasas, como la retención entre nodos o las visitas en el orden previsto, porque la comparación sigue siendo precisa incluso cuando el número de personas en el recorrido difiere entre intervalos de fechas.<p>Para obtener más información, consulte &quot;Comparar porcentajes&quot; en [Configuración de una visualización de lienzo de Recorrido](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings).</p> | | 19 de octubre de 2026 |
 | **Generar automáticamente descripciones de componentes** <br/>Ahora puede generar automáticamente descripciones para dimensiones, métricas, métricas calculadas, segmentos e intervalos de fechas. Esto permite a los usuarios de Workspace comprender qué componentes utilizar, especialmente en organizaciones con bibliotecas de componentes grandes. <p>Puede generar una descripción para un solo componente o generar descripciones para muchos componentes al mismo tiempo.</p> <p>(Vínculo a la documentación a continuación).<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 de octubre de 2026 |
-| **La experiencia del producto para el compañero**<br/> El compañero ya está disponible en un panel de chat en Analysis Workspace. Los compañeros utilizan el proyecto que ha abierto como contexto, por lo que puede hacer preguntas sobre el análisis sin explicar qué contiene el proyecto.<p>Con la experiencia del producto para el colaborador, puede:</p><ul><li>Resuma el proyecto abierto, encuentre perspectivas y ejecute el análisis de las causas básicas.</li><li>Cree y edite el proyecto con indicadores en lenguaje natural. Por ejemplo, puede agregar paneles y tablas, desglosar datos, cambiar tipos de visualización e intervalos de fechas y crear segmentos.</li></ul><p>(Actualizaciones de documentación a continuación.)<!-- For more information, see [Use the in-product experience for Coworker](/help/analysis-workspace/coworker.md). --></p> | 22 de octubre de 2026 (planeado originalmente para el 15 de octubre de 2026) | Por determinar |
+| **La experiencia del producto para el compañero**<br/> El compañero ya está disponible en un panel de chat en Analysis Workspace. Los compañeros utilizan el proyecto que ha abierto como contexto, por lo que puede hacer preguntas sobre el análisis sin explicar qué contiene el proyecto.<p>Con la experiencia del producto para el colaborador, puede:</p><ul><li>Resuma el proyecto abierto, encuentre perspectivas y ejecute el análisis de las causas básicas.</li><li>Cree y edite el proyecto con indicadores en lenguaje natural. Por ejemplo, puede agregar paneles y tablas, desglosar datos, cambiar tipos de visualización e intervalos de fechas y crear segmentos.</li></ul><p>(Actualizaciones de documentación a continuación.)<!-- For more information, see [Use the in-product experience for Coworker](/help/analysis-workspace/coworker.md). --></p> | TBD (originalmente planificado para el 15 de octubre de 2026) | Por determinar |
 
 
 ### Correcciones en Customer Journey Analytics
