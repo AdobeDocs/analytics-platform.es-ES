@@ -14,10 +14,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
+source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 ---
 # Componentes de subevento en fuentes de datos
 
@@ -108,9 +108,9 @@ Para obtener información sobre cómo agregar componentes, incluidos componentes
 
 ## Datos de subevento de consulta en la salida de la fuente de datos
 
-Dado que los datos de subevento [&#x200B; aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
+Dado que los datos de subevento [ aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
 
-Los siguientes ejemplos muestran cómo buscar eventos que incluyen un producto específico. Los ejemplos utilizan la sintaxis de Google BigQuery. Otros almacenes de datos, como Snowflake y Databricks, admiten el mismo enfoque con diferencias de sintaxis menores.
+Los siguientes ejemplos muestran cómo buscar eventos que incluyen un producto específico. Los ejemplos utilizan la sintaxis de Google BigQuery, donde `UNNEST` expande una matriz en filas. Otros almacenes de datos admiten el mismo enfoque con sus propias funciones de matriz, como `FLATTEN` en Snowflake o `explode` en Databricks.
 
 +++ Consulta de datos de producto en fuentes de datos de Customer Journey Analytics
 
@@ -133,7 +133,7 @@ La forma de escribir la consulta depende de si desea una fila por evento o una f
 
 **Devuelve una fila por evento**
 
-Para filtrar eventos sin cambiar el número de filas, use `UNNEST` dentro de una subconsulta `EXISTS`:
+Para filtrar eventos sin cambiar el número de filas, utilice una función de matriz como `UNNEST` dentro de una subconsulta `EXISTS`:
 
 ```sql
 SELECT row_id, timestamp_utc, product_list_items
@@ -149,7 +149,7 @@ Esta consulta devuelve una fila para cada evento coincidente, con la matriz `pro
 
 **Devolver una fila por cada producto coincidente**
 
-Para devolver una fila para cada producto coincidente, mueva `UNNEST` a la cláusula `FROM` externa:
+Para devolver una fila para cada producto coincidente, mueva la función de matriz a la cláusula `FROM` externa:
 
 ```sql
 SELECT f.row_id, f.timestamp_utc, item.product, item.quantity, item.revenue
@@ -220,7 +220,7 @@ En la salida de la fuente de datos, `survey_question` y `survey_answer` son los 
 
 ### Mapa de identidad
 
-Cada identidad del campo [`identityMap`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/identitymap) se exporta como un objeto. El objeto contiene el área de nombres de identidad (la clave), junto con el identificador, el estado autenticado y el indicador principal. El área de nombres se repite para cada identidad de dicha área de nombres.
+Cada identidad del campo [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) se exporta como un objeto. El objeto contiene el área de nombres de identidad (la clave), junto con el identificador, el estado autenticado y el indicador principal. El área de nombres se repite para cada identidad de dicha área de nombres.
 
 Solo se exportan los atributos del mapa de identidad que existen como dimensiones en la vista de datos y que agrega a la fuente de datos.
 
