@@ -8,24 +8,33 @@ autotag-review: '2026-05-19T07:20:44.651Z'
 TQID: 'https://experienceleague.adobe.com/XPFzwdaB2d1PaGEyiYSlzri7Luo4E2uqlMdKClsExdw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+    internal-label: Attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: c6330935bb6b36fab622b7884e9182ebd4bdc610
 workflow-type: tm+mt
-source-wordcount: 272
-ht-degree: 42%
-
+source-wordcount: '297'
+ht-degree: 43%
 ---
-
 # Atribución algorítmica
+
+>[!NOTE]
+>
+>Debe tener el paquete de Customer Journey Analytics **Ultimate** para usar la funcionalidad descrita en esta sección. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
 El [modelo de atribución](models.md) algorítmica en Analysis Workspace difiere de otros modelos en que utiliza técnicas estadísticas para asignar crédito entre los elementos de dimensión del informe o la tabla de forma libre. Al igual que todos los demás modelos de atribución en Analysis Workspace, la atribución algorítmica se puede utilizar en cualquier dimensión o métrica. La atribución algorítmica admite segmentación y desgloses ilimitados y distribuye el 100 % de las conversiones a una o más dimensiones de la tabla (también conocida como atribución &quot;fraccional&quot;).
 
@@ -41,7 +50,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attr
 
 El algoritmo utilizado para la atribución se basa en el dividendo de Harsanyi de la teoría de juegos cooperativa. El dividendo de Harsanyi es una generalización de la solución del valor de Shapley (llamada así por Lloyd Shapley, economista ganador del Premio Nobel) para distribuir crédito entre los jugadores en un juego con contribuciones desiguales al resultado.
 
-En un nivel superior, el cálculo de atribución del crédito de conversión para cada punto de contacto considera cada uno de los puntos de contacto de marketing dentro de una ventana retrospectiva como una coalición de actores. Para esa coalición de actores, se debe distribuir equitativamente un superávit. La distribución del superávit de cada coalición se determina desde hasta el superávit que cada subcoalición creó recursivamente anteriormente.
+El cálculo de atribución del crédito de conversión para cada punto de contacto considera cada uno de los puntos de contacto de marketing dentro de una ventana retrospectiva como una coalición de actores. Para esa coalición de actores, se debe distribuir equitativamente un superávit. La distribución del superávit de cada coalición se determina a partir del superávit que cada subcoalición creó recursivamente con anterioridad.
 
 Para más detalles, vea los artículos originales de John Harsanyi y Lloyd Shapley:
 

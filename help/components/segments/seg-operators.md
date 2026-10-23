@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 21a2b0cc296d30de7f656a658d7e382c8c4ea835
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 38%
+source-wordcount: '1216'
+ht-degree: 37%
 ---
 # Operadores
 
@@ -47,9 +47,15 @@ El único carácter comodín admitido para los operadores que admiten caracteres
 Por ejemplo, tiene un nombre de página denominado *Mi excelente producto*.
 
 * La regla de segmento **[!UICONTROL Nombre de página]** **[!UICONTROL coincide con]** `* product` coincidirá con el nombre de página anterior.
-* Sin embargo, la regla **[!UICONTROL Nombre de página]** **[!UICONTROL coincide]** `My \* product` coincide únicamente con el nombre de página *Mi* Producto*.
+* Sin embargo, la regla **[!UICONTROL Nombre de página]** **[!UICONTROL coincide]** `My \* product` coincide únicamente con el nombre de página *Mi* producto*.
 
 ## Operadores estándar
+
+>[!NOTE]
+>
+>Cuando usa operadores estándar, los valores que introduce devuelven resultados con independencia de las mayúsculas y minúsculas, excepto **[!UICONTROL coincide con]** y **[!UICONTROL no coincide con]**.
+>
+>Por ejemplo, **[!UICONTROL Nombre de página]** **[!UICONTROL igual a]** `search results` devuelve *Resultados de búsqueda*, *resultados de búsqueda* y *RESULTADOS DE BÚSQUEDA*.
 
 | Operador | La dimensión, segmento o evento de métrica seleccionado... |
 |--- |--- |
@@ -57,7 +63,7 @@ Por ejemplo, tiene un nombre de página denominado *Mi excelente producto*.
 | **[!UICONTROL no es igual a]** | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido.  Nota: Si usa caracteres comodín, use el operador **[!UICONTROL no coincide con]**. |
 | **[!UICONTROL es igual a cualquiera de]** | Devuelve elementos que coinciden exactamente con cualquier valor del campo de entrada (hasta 500 elementos). Por ejemplo, si se introduce `Search Results, Homepage` para la dimensión **[!UICONTROL Nombre de página]** con este operador, coincidirá con *Resultados de búsqueda* y *Página principal*, y se contará como 2 elementos. El campo de entrada para este operador está delimitado por comas. |
 | **[!UICONTROL no es igual a ninguno de]** | Identifica los elementos que coinciden exactamente con cualquier valor del campo de entrada (hasta 500 elementos) y, a continuación, solo devuelve elementos sin estos valores. Por ejemplo, si se introduce `Search Results, Homepage` con este operador para la dimensión **[!UICONTROL Nombre de página]**, se identificarán *Resultados de búsqueda* y *Página principal* y, a continuación, se excluirán **8&rbrace; de los elementos devueltos.** Este ejemplo contaría como 2 elementos. El campo de entrada para este operador está delimitado por comas. |
-| **[!UICONTROL contiene]** | Devuelve elementos que se comparan con las subcadenas de los valores introducidos. Por ejemplo, si la regla es **[!UICONTROL Nombre de página]** **[!UICONTROL contiene]** `Search`, entonces esta regla coincidirá con cualquier página que contenga la subcadena `Search`, incluidos *Resultados de búsqueda*, *Búsqueda* y *Búsquedas*. La cláusula “contiene” no distingue entre mayúsculas y minúsculas en Adobe Analytics, pero en Customer Journey Analytics sí. |
+| **[!UICONTROL contiene]** | Devuelve elementos que se comparan con las subcadenas de los valores introducidos. Por ejemplo, si la regla es **[!UICONTROL Nombre de página]** **[!UICONTROL contiene]** `Search`, entonces esta regla coincidirá con cualquier página que contenga la subcadena `Search`, incluidos *Resultados de búsqueda*, *Búsqueda* y *Búsquedas*. |
 | **[!UICONTROL no contiene]** | Devuelve lo contrario a la regla **[!UICONTROL contains]**. En concreto, todos los elementos que coincidan con el valor introducido se excluirán de los valores introducidos. Por ejemplo, si la regla es **[!UICONTROL Nombre de página]** **[!UICONTROL no contiene]** `Search`, no coincidirá con ninguna página que contenga la subcadena `Search`, incluidos *Resultados de búsqueda*, *Búsqueda* y *Búsquedas*. Estos valores se excluirán de los resultados. |
 | **[!UICONTROL contiene todo(a)]** | Devuelve elementos comparados con las subcadenas, incluidos valores múltiples unidos. Por ejemplo, si se escribe `Search Results` con este operador para la dimensión **[!UICONTROL Nombre de página]**, coincidirá con *Resultados de búsqueda* y *Resultados de la búsqueda*, pero no con *Búsqueda* ni con *Resultados* por separado. La regla coincidiría con *Search* y *Results* encontrados juntos. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
 | **[!UICONTROL no contiene todos(as) los/las]** | Identifica elementos comparados con subcadenas, incluidos valores múltiples unidos, y luego solo elementos devueltos sin estos valores. Por ejemplo, si se escribe `Search Results` con este operador para la dimensión **[!UICONTROL Nombre de página]**, se identificarán *Resultados de búsqueda* y *Resultados de la búsqueda* (pero no *Búsqueda* o *Resultados* individualmente) y después se excluirán estos elementos. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
@@ -67,7 +73,7 @@ Por ejemplo, tiene un nombre de página denominado *Mi excelente producto*.
 | **[!UICONTROL no comienza con]** | Devuelve todos los elementos que no comienzan con el valor de cadena introducido. Esto es lo contrario al operador **[!UICONTROL starts with]**. |
 | **[!UICONTROL termina con]** | Devuelve elementos que terminan con un valor de cadena ingresado. |
 | **[!UICONTROL no termina con]** | Devuelve todos los elementos que no terminan con el valor de cadena introducido. Es el operador contrario a **[!UICONTROL termina con]**. |
-| **[!UICONTROL coincidencias]** | Devuelve elementos que coinciden exactamente en función de un determinado valor numérico o de cadena. La cláusula **[!UICONTROL matches]** distingue entre mayúsculas y minúsculas en Adobe Analytics y en Customer Journey Analytics. **Nota**: use este operador al usar las características de [comodín](#wildcards) (globalización). Ejemplos de “globalización”:<ul><li>`a*e` coincidiría con `ae`, `abcde`, `adobe` y `a whole sentence`</li><li>`adob*` coincidiría con `adobe`, `adobe analytics` y `adobo recipe`</li><li>`*dobe` coincidiría con `dobe`, `adobe` y `cute little dobe`</li></ul> |
+| **[!UICONTROL coincidencias]** | Devuelve elementos que coinciden exactamente en función de un determinado valor numérico o de cadena. **Nota**: use este operador al usar las características de [comodín](#wildcards) (globalización). Ejemplos de “globalización”:<ul><li>`a*e` coincidiría con `ae`, `abcde`, `adobe` y `a whole sentence`</li><li>`adob*` coincidiría con `adobe`, `adobe analytics` y `adobo recipe`</li><li>`*dobe` coincidiría con `dobe`, `adobe` y `cute little dobe`</li></ul> |
 | **[!UICONTROL no coincide con]** | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido. Nota: Use este operador cuando use las características de [comodín](#wildcards) (globalización). |
 | **[!UICONTROL existe]** | Devuelve el número de elementos que existen. Por ejemplo, si evalúa la dimensión **[!UICONTROL Páginas no encontradas]** con el operador **[!UICONTROL exists]**, se devuelve el número de páginas con error que existen. |
 | **[!UICONTROL no existe]** | Devuelve todos los elementos que no existen. Por ejemplo, si evalúa la dimensión **[!UICONTROL Páginas no encontradas]** con el operador **[!UICONTROL no existe]**, se devuelve el número de páginas donde no existió esta página con error. |

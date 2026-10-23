@@ -22,17 +22,17 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: c6330935bb6b36fab622b7884e9182ebd4bdc610
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 63%
+source-wordcount: '470'
+ht-degree: 60%
 ---
 # Prácticas recomendadas de atribución
 
 Elegir el modelo de atribución correcto para su organización depende de una serie de consideraciones. Este artículo explora una metodología y algunas prácticas recomendadas generales:
 
 * [Análisis exploratorio](#exploratory-analysis)
-* [Atribuciones basadas en reglas](#rule-base-attribution)
+* [Atribución basada en reglas](#rule-based-attribution)
 * [Uso de atribución algorítmica](#use-algorithmic-attribution)
 
 ## Análisis de exploración
@@ -46,11 +46,11 @@ Esta fase consiste inicialmente en comprender el comportamiento del cliente y de
 * La proporción/distribución de estos comportamientos
 
 Por ejemplo, si el 50 % de los clientes tocan tres canales antes de la conversión, ¿existe interacción entre esos tres canales?
-A continuación puede realizar análisis de embudo superior e inferior para ampliar su comprensión.
+Para ampliar su comprensión, realice análisis de funnel superiores e inferiores.
 
 ### Análisis del embudo superior
 
-Los embudos de análisis del embudo superior se utilizan para concienciar sobre la marca o el producto. Por ejemplo, el objetivo de la mayoría de los anuncios de TV es la imagen de marca. Puede usar el [modelo de atribución Time Decay](/help/analysis-workspace/attribution/models.md), ya que las personas se olvidarán de su anuncio de TV con el tiempo.
+Los embudos de análisis del embudo superior se utilizan para concienciar sobre la marca o el producto. Por ejemplo, el objetivo de la mayoría de los anuncios de TV es la imagen de marca. Use el [modelo de atribución Time Decay](/help/analysis-workspace/attribution/models.md), ya que las personas se olvidarán de su anuncio de TV con el tiempo.
 
 ### Análisis de embudo inferior
 
@@ -64,15 +64,19 @@ El propósito de este paso es validar las hipótesis.
 
 Supongamos que su hipótesis es: &quot;*Mi canal de primer contacto tiene más impacto en la conversión que mi canal de último contacto.*&quot;
 
-En este caso, debe usar el [modelo de atribución en forma de J invertida](/help/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
+En este caso, use el [modelo de atribución en forma de J inverso](/help/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
 
 **Ejemplo 2**
 
-Supongamos que su hipótesis es: *&quot;En un sector específico (como el de los viajes), la ventana de atribución es de 60 o 90 días, no de 30, porque los clientes investigan mucho antes de comprar un producto.*&quot;
+Supongamos que su hipótesis es: *&quot;En la industria de viajes, la ventana de atribución es de 60 o 90 días, no de 30, porque los clientes investigan mucho antes de comprar.&quot;*
 
-En este caso, cambiaría su [ventana retrospectiva](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/attribution/models) a 90 días.
+En este caso, cambie su [ventana retrospectiva](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/attribution/models) a 90 días.
 
 ## Uso de atribución algorítmica
+
+>[!NOTE]
+>
+>Debe tener el paquete de Customer Journey Analytics **Ultimate** para usar la atribución algorítmica. Póngase en contacto con el administrador si no sabe qué paquete de Customer Journey Analytics tiene.
 
 Si todavía no tiene un modelo de atribución que proporcione respuestas satisfactorias a todas las preguntas, puede emplear [atribución algorítmica](/help/analysis-workspace/attribution/algorithmic.md). Como es muy difícil validar un gran número de hipótesis y combinaciones posibles, la atribución algorítmica recurre a algoritmos integrados para asignar crédito entre elementos de dimensión.
 
