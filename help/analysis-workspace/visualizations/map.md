@@ -67,14 +67,14 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
->title="Mapa térmico"
->abstract="Trace eventos con un mapa térmico."
+>title="Mapa de calor"
+>abstract="Trace eventos con un mapa de calor."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vea [Map](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta la visualización de mapas en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vea [Map](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) para la_ ![versión de AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
