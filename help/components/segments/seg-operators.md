@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 21a2b0cc296d30de7f656a658d7e382c8c4ea835
+source-git-commit: ef2836930bd1fefb99115d4a73b9b0d4a178ccd3
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1211'
 ht-degree: 37%
 ---
 # Operadores
@@ -53,7 +53,7 @@ Por ejemplo, tiene un nombre de página denominado *Mi excelente producto*.
 
 >[!NOTE]
 >
->Cuando usa operadores estándar, los valores que introduce devuelven resultados con independencia de las mayúsculas y minúsculas, excepto **[!UICONTROL coincide con]** y **[!UICONTROL no coincide con]**.
+>Cuando usa operadores estándar, los resultados no distinguen entre mayúsculas y minúsculas, excepto **[!UICONTROL coincidencias]** y **[!UICONTROL no coincide con]**.
 >
 >Por ejemplo, **[!UICONTROL Nombre de página]** **[!UICONTROL igual a]** `search results` devuelve *Resultados de búsqueda*, *resultados de búsqueda* y *RESULTADOS DE BÚSQUEDA*.
 

@@ -67,8 +67,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
->title="Mapa térmico"
->abstract="Trace eventos con un mapa térmico."
+>title="Mapa de calor"
+>abstract="Trace eventos con un mapa de calor."
 
 <!-- markdownlint-enable MD034 -->
 
