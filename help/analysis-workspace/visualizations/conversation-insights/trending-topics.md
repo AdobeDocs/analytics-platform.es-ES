@@ -4,12 +4,12 @@ title: Temas de tendencia
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
+source-git-commit: 85311bf19368560ef54a3361edf2e7c13590929c
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 7%
+source-wordcount: '424'
+ht-degree: 8%
 ---
-# Temas de tendencia
+# Temas de tendencia {#trending-topics}
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
@@ -25,21 +25,26 @@ La visualización ![Fuente](/help/assets/icons/Feed.svg) **[!UICONTROL Temas de 
 
 Puede buscar temas específicos y comparar el número y el porcentaje de cada tema en cada nivel con otros rangos de datos.
 
-## Crear y configurar
+## Crear y configurar {#trendimg-topics-create-and-configure}
 
 >[!CONTEXTUALHELP]
->id="workspace_trendingtopics_attribution"
->title="Atribución de métrica de temas de tendencia"
->abstract="Habilite un modelo de atribución no predeterminado para la métrica seleccionada."
+>id="workspace_trendingtopics_usenondefaultattributionmodel"
+>title="Uso de modelos de atribución no predeterminados"
+>abstract="Habilite un modelo de atribución no predeterminado para esta métrica."
 
-Para crear y configurar una visualización de temas de tendencia:
+>[!CONTEXTUALHELP]
+>id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
+>title="Uso de modelos de atribución no predeterminados"
+>abstract="Los modelos de atribución no predeterminados no están disponibles para esta métrica."
+
+Para crear y configurar una visualización de **[!UICONTROL temas de tendencia]**:
 
 1. Agregar una visualización de ![Fuente](/help/assets/icons/Feed.svg) **[!UICONTROL Temas de tendencia]**. Consulte [Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. En la configuración de visualización **[!UICONTROL Temas de tendencia]**:
 
    1. Seleccione una **[!UICONTROL métrica de clasificación]**. Por ejemplo: **[!UICONTROL conversaciones]**.
-   1. De forma opcional, si desea establecer [Attribution](/help/analysis-workspace/attribution/models.md) en la métrica, seleccione **[!UICONTROL Establecer atribución]** y seleccione **[!UICONTROL Modelo]**, **[!UICONTROL Contenedor]** y **[!UICONTROL Ventana retrospectiva]**.
+   1. De forma opcional, si desea usar un modelo [attribution](/help/analysis-workspace/attribution/models.md) no predeterminado en la métrica, seleccione **[!UICONTROL Usar modelo de atribución no predeterminado]** y seleccione **[!UICONTROL Modelo]**, **[!UICONTROL Contenedor]** y **[!UICONTROL Ventana retrospectiva]**.
 1. Seleccione **[!UICONTROL Build]** para generar la visualización. Seleccione **[!UICONTROL Restablecer]** para restablecer los valores predeterminados de configuración.
 
 Para reconfigurar la visualización de los temas de tendencia, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Métrica de clasificación: _métrica de clasificación_ | Niveles de subtema: _x_]**.
