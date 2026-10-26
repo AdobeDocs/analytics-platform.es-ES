@@ -4,10 +4,10 @@ title: Resúmenes de conversación
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
+source-git-commit: 2cca5dfaec6be8f22308e09a023e9e57bec387b7
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 8%
+source-wordcount: '351'
+ht-degree: 10%
 ---
 # Resúmenes de conversación {#conversation-summaries}
 
@@ -30,9 +30,14 @@ La visualización muestra un resumen de la métrica seleccionada (por ejemplo, C
 ## Crear y configurar {#conversation-summaries-create-configure}
 
 >[!CONTEXTUALHELP]
->id="workspace_conversationsummaries_attribution"
->title="Atribución de resúmenes de conversación"
->abstract="Habilite un modelo de atribución no predeterminado para la métrica seleccionada."
+>id="workspace_conversationsummaries_usenondefaultattributionmodel"
+>title="Uso de modelos de atribución no predeterminados"
+>abstract="Habilite un modelo de atribución no predeterminado para esta métrica."
+
+>[!CONTEXTUALHELP]
+>id="workspace_conversationsummaries_usenondefaultattributionmodel_disabled"
+>title="Uso de modelos de atribución no predeterminados"
+>abstract="Los modelos de atribución no predeterminados no están disponibles para esta métrica."
 
 Para crear y configurar una visualización de **[!UICONTROL resúmenes de conversación]**:
 
@@ -41,12 +46,12 @@ Para crear y configurar una visualización de **[!UICONTROL resúmenes de conver
 1. En la configuración de visualización **[!UICONTROL Resúmenes de conversación]**:
 
    1. Seleccione una **[!UICONTROL métrica]**. Por ejemplo: **[!UICONTROL conversaciones]**.
-   1. De forma opcional, si desea establecer [attribution](/help/analysis-workspace/attribution/models.md) en la matriz, seleccione **[!UICONTROL Set attribution]** y seleccione **[!UICONTROL Model]**, **[!UICONTROL Container]** y **[!UICONTROL Lookback window]**.
+   1. De forma opcional, si desea usar un modelo [attribution](/help/analysis-workspace/attribution/models.md) no predeterminado en la métrica, seleccione **[!UICONTROL Usar modelo de atribución no predeterminado]** y seleccione **[!UICONTROL Modelo]**, **[!UICONTROL Contenedor]** y **[!UICONTROL Ventana retrospectiva]**.
    1. Opcionalmente, puede aplicar un segmento a la visualización. Seleccione un segmento del menú desplegable **[!UICONTROL Segmentos]**.
 
 1. Seleccione **[!UICONTROL Build]** para generar la visualización. Seleccione **[!UICONTROL Restablecer]** para restablecer los valores predeterminados de configuración. Seleccione **[!UICONTROL Cancelar]** para cancelar la configuración.
 
-Para reconfigurar la visualización de **[!UICONTROL resúmenes de conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Métrica: _métrica_]**&#x200B;o **[!UICONTROL Métrica:_métrica_]** | **[!UICONTROL Segmentos: _segmentos_]**.
+Para reconfigurar la visualización de **[!UICONTROL resúmenes de conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Métrica: _métrica_]**o **[!UICONTROL Métrica:_métrica_]** | **[!UICONTROL Segmentos: _segmentos_]**.
 
 ## Utiliza
 
