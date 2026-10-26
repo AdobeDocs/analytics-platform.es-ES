@@ -1,7 +1,7 @@
 ---
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
 workflow-type: tm+mt
-source-wordcount: '5584'
+source-wordcount: '5605'
 ht-degree: 95%
 ---
 # Fragmentos
@@ -129,6 +129,7 @@ Un contenedor de atribución define el ámbito deseado para la atribución. Las 
 
 * **Sesión**: se remonta hasta el principio de una sesión en la que se realizó una conversión. Las ventanas de retrospección de la sesión respetan el [Tiempo de espera de sesión](/help/data-views/create-dataview.md#session-settings) modificado en una vista de datos. Cuando se selecciona **[!UICONTROL Sesión]**, la [Ventana de retrospección de atribución](#atribution-lookback-window) se establece automáticamente en **[!UICONTROL Ventana de creación de informes]** y no se puede cambiar.
 * **Persona**: examina las conversiones desde el ámbito del contenedor de la persona.
+* **Conversación**: busca conversiones desde el ámbito del contenedor de conversación. Este contenedor está disponible para visualizaciones y componentes de [Perspectivas de conversación](/help/conversation-insights/overview.md).
 * **Cuenta global** [!BADGE B2B Edition]{type=Informative}: examina las conversiones desde el ámbito del contenedor de cuentas globales.
 * **Cuentas** [!BADGE B2B Edition]{type=Informative}: examina las conversiones desde el ámbito del contenedor de la persona.
 * **Oportunidad** [!BADGE B2B Edition]{type=Informative}: examina las conversiones desde el ámbito del contenedor de oportunidad.
