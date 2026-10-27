@@ -51,7 +51,7 @@ Para crear y configurar una visualización de **[!UICONTROL resúmenes de conver
 
 1. Seleccione **[!UICONTROL Build]** para generar la visualización. Seleccione **[!UICONTROL Restablecer]** para restablecer los valores predeterminados de configuración. Seleccione **[!UICONTROL Cancelar]** para cancelar la configuración.
 
-Para reconfigurar la visualización de **[!UICONTROL resúmenes de conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Métrica: _métrica_]**&#x200B;o **[!UICONTROL Métrica:_métrica_]** | **[!UICONTROL Segmentos: _segmentos_]**.
+Para reconfigurar la visualización de **[!UICONTROL resúmenes de conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Métrica: _métrica_]**o **[!UICONTROL Métrica:_métrica_]** | **[!UICONTROL Segmentos: _segmentos_]**.
 
 ## Utiliza
 
