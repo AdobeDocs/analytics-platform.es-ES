@@ -1,13 +1,13 @@
 ---
 description: Utilice la visualización de revisión de conversaciones para revisar una conversación individual en detalle.
-title: Revisión de conversación
+title: Revisión de la conversación
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 65d4115d4c292cff7e074d37a91563d369072ba5
+source-git-commit: f1f19b229d06a69ae180bff7dc8648a350465aa0
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '173'
+ht-degree: 9%
 ---
 # Revisión de conversación
 
@@ -19,7 +19,30 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="workspace_conversationreview_panel"
 >title="Revisión de conversación"
->abstract="Comprenda el contexto y el flujo de una conversación individual, incluidas las marcas de tiempo, las señales (intención, opinión, tono y comentarios). Configure qué señales mostrar o no."
+>abstract="Comprenda el contexto y el flujo de una conversación individual, incluidas las marcas de tiempo y las señales. Configure qué señales mostrar."
 
-![Chat](/help/assets/icons/Chat.svg)
 
+La visualización ![Chat](/help/assets/icons/Chat.svg) **[!UICONTROL Revisión de la conversación]** muestra el intercambio giro a giro completo como parte de la conversación entre el cliente y el agente.
+
+La visualización le ayuda a comprender el contexto y el flujo de una conversación individual, incluidas las marcas de tiempo y las señales. Puede configurar qué señales mostrar o no.
+
+## Crear y configurar
+
+Para crear y configurar una visualización de ![Chat](/help/assets/icons/Chat.svg) **[!UICONTROL Revisión de la conversación]**:
+
+1. Agregar una visualización de ![Chat](/help/assets/icons/Chat.svg) **[!UICONTROL Revisión de la conversación]**. Consulte [Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+
+1. En la configuración de visualización **[!UICONTROL Revisión de la conversación]**:
+
+   1. Seleccione una **[!UICONTROL conversación]**.
+
+1. Seleccione **[!UICONTROL Build]** para generar la visualización. Seleccione **[!UICONTROL Restablecer]** para restablecer los valores predeterminados de configuración. Seleccione **[!UICONTROL Cancelar]** para cancelar la configuración.
+
+Para reconfigurar la visualización **[!UICONTROL Revisión de la conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Conversación: _conversación_]**.
+
+## Utiliza
+
+Para utilizar la visualización:
+
+
+## Configuración

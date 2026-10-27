@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 2cca5dfaec6be8f22308e09a023e9e57bec387b7
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 77%
@@ -99,7 +99,7 @@ El formato condicional aplica formato que puede definir a los límites superior,
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
 >title="Uso de modelos de atribución no predeterminados"
->abstract="El modo de atribución no predeterminado no está disponible para esta métrica."
+>abstract="Los modelos de atribución no predeterminados no están disponibles para esta métrica."
 
 <!-- markdownlint-enable MD034 -->
 
