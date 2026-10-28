@@ -24,23 +24,37 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: d08ee4bf4c5e53e16389c5d58971a97dd5f78c0e
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 ---
 
 # Analizar perspectivas de conversación
 
-## Análisis sencillo
 
 Para analizar Perspectivas de conversación, cree o edite un proyecto en Analysis Workspace y utilice una de las vistas de datos configuradas como vista de datos para uno o varios paneles del proyecto.
 
+## Análisis sencillo
+
+Para crear tablas improvisadas o visualizaciones, usa las métricas de conversación (**[!UICONTROL Turns]**, **[!UICONTROL Conversations]**, **[!UICONTROL Opinión]**, **[!UICONTROL Conversation Tone]** y más) para mostrar una descripción general de las conversaciones.
+
 +++ Proyecto de ejemplo
 
-![Proyecto de ejemplo básico para Perspectivas de conversación](assets/conversation-insights-analyze-sample-project-basic.png)
+![Proyecto de ejemplo básico para Perspectivas de conversación](assets/conversation-insights-analyze-sample-project-basic.png){zoomable="yes"}
 
 +++
+
+## Análisis detallado
+
+Para realizar un análisis detallado de las conversaciones, use las visualizaciones [Temas de tendencia](/help/analysis-workspace/visualizations/conversation-insights/trending-topics.md), [Resúmenes de conversación](/help/analysis-workspace/visualizations/conversation-insights/conversation-summaries.md) y [Revisión de conversación](/help/analysis-workspace/visualizations/conversation-insights/conversation-review.md). Estas visualizaciones proporcionan diferentes perspectivas sobre los datos de conversación.
+
++++ Proyecto de ejemplo
+
+![Proyecto de ejemplo detallado para Perspectivas de conversación](assets/conversation-insights-analyze-sample-project-detailed.png){zoomable="yes"}
+
++++
+
 
 ## Análisis de conversaciones a escala y en contexto
 
@@ -52,6 +66,6 @@ Para analizar conversaciones a escala y proporcionar contexto para estas convers
 
 +++ Proyecto de ejemplo
 
-Por determinar.
+Pendiente.
 
 +++ 
