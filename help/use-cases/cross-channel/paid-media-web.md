@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 role: Admin
-source-git-commit: 3fc129c2eeb5fd86e8ef4d885a4682dd819fc481
+source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
 workflow-type: tm+mt
 source-wordcount: '3907'
 ht-degree: 3%
@@ -47,7 +47,7 @@ Los conjuntos de datos de resumen de medios de pago contienen métricas diarias 
 
 Solo puede unirse a niveles cuyos ID aparezcan en las direcciones URL de la página de aterrizaje o en campos de eventos existentes. Por ejemplo, el etiquetado solo de campaña admite la creación de informes de campaña, pero no de nivel de anuncio. Las uniones de nivel de experiencia y de nivel de recurso requieren parámetros de URL adicionales y están fuera del ámbito de esta guía.
 
-Consulte [Datos de resumen](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/summary-data) y [Configuración del componente de grupo de datos de resumen](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group) para obtener una referencia.
+Consulte [Datos de resumen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data) y [Configuración del componente de grupo de datos de resumen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group) para obtener una referencia.
 
 ### Elija la clave de unión
 
@@ -81,7 +81,7 @@ Confirme que dispone de:
 * [!DNL Customer Journey Analytics] Select o superior, con acceso a las funciones de campo derivadas usadas aquí: [Análisis de URL](/help/data-views/derived-fields/derived-fields.md#url-parse), [Case When](/help/data-views/derived-fields/derived-fields.md#case-when), [Reemplazo de Regex](/help/data-views/derived-fields/derived-fields.md#regex-replace) y, para el enriquecimiento de nombres, [Lookup](/help/data-views/derived-fields/derived-fields.md#lookup).
 * [!DNL Adobe Experience Platform] permisos para administrar esquemas, conjuntos de datos y flujos de datos en la zona protegida de destino, y acceso a conjuntos de datos y al servicio de consulta para la verificación.
 * Permiso de [!DNL Customer Journey Analytics] para editar la conexión de destino y la vista de datos.
-* Conectores de fuente de medios de pago configurados en la misma zona protegida e ingiriendo conjuntos de datos de resumen y búsqueda. Para ver un ejemplo de conector, consulte [Origen de Meta Ads](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/advertising/meta-ads).
+* Conectores de fuente de medios de pago configurados en la misma zona protegida e ingiriendo conjuntos de datos de resumen y búsqueda. Para ver un ejemplo de conector, consulte [Origen de Meta Ads](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/meta-ads).
 * Eventos de sitio web que capturan la dirección URL de la página de aterrizaje completa, incluida su cadena de consulta, o campos equivalentes que contienen los ID de red.
 
 
@@ -158,7 +158,7 @@ Omita la creación de esquemas, conjuntos de datos y flujos de datos si el sitio
 1. Asigne un nombre al conjunto de datos y seleccione el esquema de evento como esquema de asignación.
 1. Guarde, luego seleccione **[!UICONTROL Agregar servicio]** > **[!UICONTROL Adobe Experience Platform]**.
 1. Seleccione la zona protegida y el conjunto de datos de evento y, a continuación, **[!UICONTROL Guardar]**.
-1. Use la ID de flujo de datos para configurar [Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview).
+1. Use la ID de flujo de datos para configurar [Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview).
 
 Capture lo siguiente:
 
@@ -363,7 +363,7 @@ Agregue el campo derivado aterrizajes de pago como métrica y, a continuación, 
 
 Mantenga las métricas originales de **[!UICONTROL Pedidos]** e **[!UICONTROL Ingresos]** sin cambios para conservar los informes existentes. Se requiere habilitar explícitamente la anulación para esta configuración, incluso cuando los valores predeterminados mostrados parecen coincidir.
 
-Para obtener crédito de conversión en las visitas que regresan, considera un contenedor de **[!UICONTROL Persona]** y una ventana retrospectiva adecuada en su lugar. Consulte el [caso de uso de datos de resumen](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-usecases/data-views/summary-data).
+Para obtener crédito de conversión en las visitas que regresan, considera un contenedor de **[!UICONTROL Persona]** y una ventana retrospectiva adecuada en su lugar. Consulte el [caso de uso de datos de resumen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/summary-data).
 
 Utilice la atribución de métricas en lugar de añadir persistencia a las dimensiones de ID web. Para evitar inflar los recuentos interpretados como aterrizajes, no conserve los ID en eventos posteriores, ya que esto cambia qué eventos aparecen en las filas de la campaña.
 
@@ -420,7 +420,7 @@ Cada grupo admite hasta 10 dimensiones. Para incluir métricas de otro conjunto 
 
 Guarde la vista de datos.
 
-## Crear métricas calculadas
+### Crear métricas calculadas
 
 En Workspace, vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Métricas calculadas]** y cree las siguientes métricas con la vista de datos configurada:
 
