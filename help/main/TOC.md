@@ -2,9 +2,9 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 89dc7258649e9c16d6a43c15ced42e1af7c6009a
+source-git-commit: 3fc129c2eeb5fd86e8ef4d885a4682dd819fc481
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1528'
 ht-degree: 88%
 ---
 
@@ -336,7 +336,7 @@ ht-degree: 88%
   + [Casos de uso del sector](../guided-analysis/industry-use-cases.md)
   + [Preguntas frecuentes](../guided-analysis/faq.md)
 
-+ Perspectivas de conversación {#conversation-insights}
++ Información de conversación {#conversation-insights}
   + [Información general](/help/conversation-insights/overview.md)
   + [Configuración](/help/conversation-insights/configure.md)
   + [Administrar](/help/conversation-insights/manage.md)
@@ -524,6 +524,7 @@ ht-degree: 88%
   + Datos de canales múltiples {#cross-channel}
     + [Analizar datos en varios canales](../use-cases/cross-channel/cross-channel.md)
     + [Importación de datos web y de centros de llamadas](../use-cases/cross-channel/call-center.md)
+    + {hide-from-toc}[Únase a datos de medios de pago con datos web](../use-cases/cross-channel/paid-media-web.md)
   + Exportación de datos {#data-export}
     + [Información general](../use-cases/data-export/overview.md)
     + [Extensión de BI](../use-cases/data-export/bi-extension.md)
@@ -536,7 +537,7 @@ ht-degree: 88%
   + Ingesta de datos {#data-ingestion}
     + [Ingesta y uso de datos de Marketo Engage](../use-cases/data-ingestion/marketo.md)
     + [Ingesta y uso de públicos de Experience Platform](../use-cases/data-ingestion/ingest-aep-segments.md)
-    + {hide-from-toc}[Ingesta y uso de datos de medios de pago](/help/use-cases/data-ingestion/paid-media.md)
+    + {hide-from-toc}[Ingesta y uso de datos de medios de pago](/help/use-cases/cross-channel/paid-media-web.md)
   + Vistas de datos {#data-views}
     + [Casos de uso de vistas de datos](/help/use-cases/data-views/data-views-usecases.md)
     + [Uso de dimensiones y métricas de enlace](/help/use-cases/data-views/binding-dimensions-metrics.md)
