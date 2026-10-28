@@ -4,10 +4,10 @@ title: Revisión de la conversación
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: f1f19b229d06a69ae180bff7dc8648a350465aa0
+source-git-commit: d08ee4bf4c5e53e16389c5d58971a97dd5f78c0e
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 9%
+source-wordcount: '188'
+ht-degree: 8%
 ---
 # Revisión de conversación
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 >abstract="Comprenda el contexto y el flujo de una conversación individual, incluidas las marcas de tiempo y las señales. Configure qué señales mostrar."
 
 
-La visualización ![Chat](/help/assets/icons/Chat.svg) **[!UICONTROL Revisión de la conversación]** muestra el intercambio giro a giro completo como parte de la conversación entre el cliente y el agente.
+La visualización ![Chat](/help/assets/icons/Chat.svg) **[!UICONTROL Revisión de la conversación]** muestra el intercambio giro a giro completo entre el cliente y el agente.
 
 La visualización le ayuda a comprender el contexto y el flujo de una conversación individual, incluidas las marcas de tiempo y las señales. Puede configurar qué señales mostrar o no.
 
@@ -34,15 +34,21 @@ Para crear y configurar una visualización de ![Chat](/help/assets/icons/Chat.sv
 
 1. En la configuración de visualización **[!UICONTROL Revisión de la conversación]**:
 
-   1. Seleccione una **[!UICONTROL conversación]**.
+   * Seleccione una **[!UICONTROL conversación]**.
 
 1. Seleccione **[!UICONTROL Build]** para generar la visualización. Seleccione **[!UICONTROL Restablecer]** para restablecer los valores predeterminados de configuración. Seleccione **[!UICONTROL Cancelar]** para cancelar la configuración.
 
-Para reconfigurar la visualización **[!UICONTROL Revisión de la conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Conversación: _conversación_]**.
+Para reconfigurar la visualización **[!UICONTROL Revisión de la conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg).
 
 ## Utiliza
 
-Para utilizar la visualización:
+Utilice la barra de desplazamiento segmentada vertical para navegar por la conversación.
+
+**[!UICONTROL Inicio de sesión]** indica el inicio de la conversación. **[!UICONTROL Fin de sesión]** indica el final de la conversación.
+
+![Revisión de la conversación](assets/conversation-review.png)
 
 
-## Configuración
+
+
+
