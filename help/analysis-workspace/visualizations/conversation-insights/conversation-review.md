@@ -4,12 +4,14 @@ title: Revisión de la conversación
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: d08ee4bf4c5e53e16389c5d58971a97dd5f78c0e
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 8%
 ---
 # Revisión de conversación
+
+{{release-limited-testing}}
 
 >[!CONTEXTUALHELP]
 >id="workspace_conversationreview_button"

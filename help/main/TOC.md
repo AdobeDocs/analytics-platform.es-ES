@@ -2,7 +2,7 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 88%
@@ -524,7 +524,7 @@ ht-degree: 88%
   + Datos de canales múltiples {#cross-channel}
     + [Analizar datos en varios canales](../use-cases/cross-channel/cross-channel.md)
     + [Importación de datos web y de centros de llamadas](../use-cases/cross-channel/call-center.md)
-    + {hide-from-toc}[Únase a datos de medios de pago con datos web](../use-cases/cross-channel/paid-media-web.md)
+    + [Unir datos de medios de pago con datos web](../use-cases/cross-channel/paid-media-web.md)
   + Exportación de datos {#data-export}
     + [Información general](../use-cases/data-export/overview.md)
     + [Extensión de BI](../use-cases/data-export/bi-extension.md)
