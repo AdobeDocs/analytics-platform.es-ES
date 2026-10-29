@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 27b268c88c84b530d9fbbc454eae23cc43d4d041
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 89%
+source-wordcount: '2035'
+ht-degree: 78%
 ---
 # Resumen de las visualizaciones
 
@@ -125,6 +125,30 @@ Para editar una etiqueta de leyenda:
 1. Introduzca el nuevo texto de etiqueta.
 1. Pulse **[!UICONTROL Intro]** para guardar.
 
+### Etiquetas concisas
+
+Cuando cada serie de la visualización comparte la misma métrica, segmento, elemento de dimensión o intervalo de fechas, cada etiqueta de leyenda lo repite. Las etiquetas pueden llegar a ser largas y, a menudo, el texto que las diferencia solo es visible cuando pasa el ratón por encima de cada etiqueta.
+
+La configuración **[!UICONTROL Etiquetas concisas]** se centra de forma inteligente en la información que diferencia una etiqueta de otra. Quita cualquier nombre de métrica, segmento, elemento de dimensión o intervalo de fechas solo cuando el nombre aparece en cada etiqueta. Por ejemplo, si se aplica un segmento a cada columna de la tabla de origen, el segmento se elimina de las etiquetas de leyenda. Si el segmento se aplica a todas las columnas excepto a una, las etiquetas de leyenda seguirán incluyendo el segmento. Para ver la etiqueta completa, pase el ratón sobre una etiqueta de leyenda.
+
+Las etiquetas concisas están desactivadas de forma predeterminada. Para activar etiquetas concisas para una visualización:
+
+1. Seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** en el encabezado de visualización.
+1. Seleccione la pestaña **[!UICONTROL Configuración]**.
+1. Asegúrese de que **[!UICONTROL Leyenda visible]** esté seleccionado. **[!UICONTROL Etiquetas concisas]** solo está disponible cuando la leyenda está visible.
+1. Seleccione **[!UICONTROL etiquetas concisas]**.
+
+Hay etiquetas concisas disponibles para las siguientes visualizaciones:
+
+* [Área y área apilada](area.md)
+* [Barra y barra apilada](bar.md)
+* [Combo](combo-charts.md)
+* [Anillo](donut.md)
+* [Histograma](histogram.md)
+* [Barra horizontal y barra horizontal apiladas](horizontal-bar.md)
+* [Líneas](line.md)
+* [Venn](venn.md)
+
 
 ## Configuración
 
@@ -152,6 +176,7 @@ Las opciones de configuración de la visualización disponibles dependen de la v
 | **[!UICONTROL Porcentajes]** | Muestra valores en porcentajes. |
 | **[!UICONTROL Apilada al 100 %]** | Convierte el gráfico en una visualización apilada al 100 %.  Solo se aplica a una visualización apilada de área, barra y barra horizontal. |
 | **[!UICONTROL Leyenda visible]** | Muestra el texto de la leyenda. |
+| **[!UICONTROL Etiquetas concisas]** | Reduzca las etiquetas de leyenda para centrarse en la información que diferencia una etiqueta de otra. Se eliminan las métricas, los segmentos, los elementos de dimensión y los nombres de intervalos de fechas que aparecen en cada etiqueta. Esta configuración solo está disponible cuando **[!UICONTROL Leyenda visible]** está seleccionada y está desactivada de manera predeterminada. Para obtener más información, vea [Etiquetas concisas](#concise-labels). |
 | **[!UICONTROL Límite máximo de elementos]** | Limita el número de elementos que se muestran en una visualización. Cuando se selecciona, define el número máximo de elementos. |
 | **[!UICONTROL Mostrar anotaciones]** | Muestra las anotaciones realizadas para esta visualización. |
 | **[!UICONTROL Ocultar título]** | Oculta el título de la visualización. |
