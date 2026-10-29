@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
+source-git-commit: e9ee69c84d5a8992acacf44d1ba5c9231c9cda5f
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 25%
-
+source-wordcount: '657'
+ht-degree: 23%
 ---
-
 # Administrar intervalos de fechas
 
 
@@ -65,7 +63,7 @@ Puede realizar acciones en intervalos de fechas utilizando la barra de acciones 
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otro intervalo de fechas utilizando el generador de intervalos de fechas [1&rbrace;.](create.md#date-range-builder) |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otro intervalo de fechas utilizando el generador de intervalos de fechas [1}.](create.md#date-range-builder) |
 | ![Buscar](/help/assets/icons/Search.svg) | [!UICONTROL *Buscar por título*] | Cuando no se selecciona ningún intervalo de fechas en la lista, busque intervalos de fechas utilizando este campo de búsqueda. |
 | ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquete los intervalos de fechas seleccionados. En el cuadro de diálogo **[!UICONTROL Intervalo de fecha de etiqueta]**, seleccione o anule la selección de las etiquetas para los intervalos de fecha seleccionados. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los intervalos de fechas seleccionados. |
 | ![Compartir](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Compartir]** | Compartir los intervalos de fechas seleccionados. En el cuadro de diálogo **[!UICONTROL Compartir intervalo de fechas]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de los intervalos de fechas seleccionados. |
@@ -73,6 +71,7 @@ Puede realizar acciones en intervalos de fechas utilizando la barra de acciones 
 | ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambie el nombre de un solo intervalo de fechas seleccionado. Cuando se selecciona, puede cambiar el nombre del intervalo de fechas en línea. |
 | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprobar]** | Apruebe los intervalos de fechas seleccionados. |
 | ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copie los intervalos de fechas seleccionados. Los nuevos intervalos de fechas se crean con el mismo nombre y sufijo (Copiar) |
+| ![IA](/help/assets/icons/AI.svg) | **[!UICONTROL Generar descripciones]** | <p>Generar descripciones para los intervalos de fechas seleccionados y reemplazar las descripciones existentes.</p><p>Para evitar sobrescribir las descripciones existentes, primero [filtre](#filter-panel) la lista para mostrar solo intervalos de fechas sin una descripción (en el filtro, en [!UICONTROL **Otros filtros**], seleccione [!UICONTROL **Falta la descripción**]).</p><p>Se le pedirá una confirmación. Las solicitudes grandes se ejecutan en segundo plano y recibe una notificación cuando se completan.</p><p>Consulte [Generar descripciones automáticamente](/help/components/add-component-descriptions.md#automatically-generate-descriptions) para obtener más información.</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar los intervalos de fechas seleccionados a un archivo de `Date ranges List.csv`. |
 
 ### Barra de filtro activa

@@ -17,13 +17,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 8ab47e74ee442d97e8e7b1b9e92129025a5b1d1f
 workflow-type: tm+mt
-source-wordcount: 860
-ht-degree: 95%
-
+source-wordcount: '962'
+ht-degree: 85%
 ---
-
 # Guardar proyectos {#save-projects}
 
 <!-- markdownlint-disable MD034 -->
@@ -53,7 +51,7 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
   1. Especifique lo siguiente:
 
      * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
-     * **[!UICONTROL Descripción]** Descripción del proyecto.
+     * **[!UICONTROL Descripción]** Descripción del proyecto. Para que Adobe genere una descripción, seleccione **[!UICONTROL Generar descripción]**. Adobe analiza varios paneles del proyecto y los resume en una descripción. Las descripciones generadas incluyen el texto **[!UICONTROL Generado por Adobe mediante IA]** y se puede editar. Esta opción requiere que su organización acepte ciertos términos legales de IA generativa.
      * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
      * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
      * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
@@ -90,7 +88,7 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
   1. Especifique lo siguiente:
 
      * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
-     * **[!UICONTROL Descripción]** Descripción del proyecto.
+     * **[!UICONTROL Descripción]** Descripción del proyecto. Para que Adobe genere una descripción, seleccione **[!UICONTROL Generar descripción]**. Adobe analiza varios paneles del proyecto y los resume en una descripción. Las descripciones generadas incluyen el texto **[!UICONTROL Generado por Adobe mediante IA]** y se puede editar. Esta opción requiere que su organización acepte ciertos términos legales de IA generativa.
      * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
      * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
      * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
@@ -102,7 +100,7 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
 <!-- 
 Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es) that becomes available to your organization under **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
 ## Guardar automáticamente

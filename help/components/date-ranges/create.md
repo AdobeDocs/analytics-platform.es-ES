@@ -19,13 +19,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 8ab47e74ee442d97e8e7b1b9e92129025a5b1d1f
 workflow-type: tm+mt
-source-wordcount: 540
-ht-degree: 92%
-
+source-wordcount: '589'
+ht-degree: 85%
 ---
-
 # Crear intervalos de fechas
 
 
@@ -69,6 +67,11 @@ El cuadro de diálogo **[!UICONTROL Nuevo intervalo de fechas]** o **[!UICONTROL
 
 1. Especifique un **[!UICONTROL Título]** para este intervalo de fechas. Por ejemplo, **[!UICONTROL Trimestral]**.
 1. Opcionalmente, especifique una **[!UICONTROL Descripción]**.
+
+   Para que Adobe genere una descripción, seleccione **[!UICONTROL Generar descripción]**. Esta opción no estará disponible hasta que cree la definición del intervalo de fechas.
+
+   Las descripciones generadas incluyen el texto **[!UICONTROL Generado por Adobe mediante IA]**, y puede editarlo una vez generadas. Para obtener más información, vea [Generar descripciones automáticamente](/help/components/add-component-descriptions.md#automatically-generate-descriptions).
+
 1. Organice el segmento creando o aplicando una o más **[!UICONTROL Etiquetas]**. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O pulse **[!UICONTROL Entrar]** para añadir una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
 1. Seleccione un **[!UICONTROL Intervalo de fechas]** seleccionando primero la fecha de inicio y, a continuación, la fecha de finalización.
 También puede seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú desplegable [!UICONTROL *Seleccionar un ajuste preestablecido*].
@@ -82,12 +85,12 @@ También puede seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú
 
      ![Fechas móviles](assets/rolliing-dates.png)
 
-      1. Selecciona **[!UICONTROL Inicio de]**, **[!UICONTROL Fin de]** o **[!UICONTROL Día fijo]**.
-      1. Cuando hayas seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puedes generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL trimestre actual]** **[!UICONTROL menos]** `20` **[!UICONTROL días]**. Elige el valor apropiado para cada parte individual de la expresión.
-         * Selecciona valor para actual. Por ejemplo, **[!UICONTROL trimestre actual]**.
-         * Selecciona un valor para realizar cálculos adicionales. Por ejemplo, **[!UICONTROL menos]**.
-         * Cuando haya especificado un cálculo adicional, especifique un valor. Por ejemplo, `20`.
-         * Cuando haya especificado un cálculo adicional, seleccione el período de tiempo que desea utilizar para el cálculo. Por ejemplo, **[!UICONTROL días]**.
+     1. Selecciona **[!UICONTROL Inicio de]**, **[!UICONTROL Fin de]** o **[!UICONTROL Día fijo]**.
+     1. Cuando hayas seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puedes generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL trimestre actual]** **[!UICONTROL menos]** `20` **[!UICONTROL días]**. Elige el valor apropiado para cada parte individual de la expresión.
+        * Selecciona valor para actual. Por ejemplo, **[!UICONTROL trimestre actual]**.
+        * Selecciona un valor para realizar cálculos adicionales. Por ejemplo, **[!UICONTROL menos]**.
+        * Cuando haya especificado un cálculo adicional, especifique un valor. Por ejemplo, `20`.
+        * Cuando haya especificado un cálculo adicional, seleccione el período de tiempo que desea utilizar para el cálculo. Por ejemplo, **[!UICONTROL días]**.
 
      Selecciona **[!UICONTROL Ocultar detalles]** para ocultar los detalles del cálculo de fechas móviles.
 

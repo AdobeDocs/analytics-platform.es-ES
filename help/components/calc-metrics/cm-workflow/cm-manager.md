@@ -32,10 +32,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 32%
+source-wordcount: '970'
+ht-degree: 30%
 ---
 # Administrar métricas calculadas
 
@@ -88,6 +88,7 @@ Puede realizar acciones en los filtros mediante la barra de acciones ➋. La bar
 | ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de una única métrica calculada seleccionada. Cuando se selecciona, puede cambiar el nombre de la métrica calculada en línea. |
 | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprobar]** | Aprobar las métricas calculadas seleccionadas. Ver [Aprobar métricas calculadas](cm-approving.md). |
 | ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copie las métricas calculadas seleccionadas. Las nuevas métricas calculadas se crean con el mismo nombre y sufijo `(Copy)` |
+| ![IA](/help/assets/icons/AI.svg) | **[!UICONTROL Generar descripciones]** | <p>Generar descripciones para las métricas calculadas seleccionadas y reemplazar las descripciones existentes.</p><p>Para evitar sobrescribir las descripciones existentes, primero [filtre](#filter-panel) la lista para mostrar solo las métricas calculadas sin una descripción (en el filtro, en [!UICONTROL **Otros filtros**], seleccione [!UICONTROL **Falta la descripción**]).</p><p>Se le pedirá una confirmación. Las solicitudes grandes se ejecutan en segundo plano y recibe una notificación cuando se completan.</p><p>Consulte [Generar descripciones automáticamente](/help/components/add-component-descriptions.md#automatically-generate-descriptions) para obtener más información.</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar las métricas calculadas a un archivo de `Calculated  metric List.csv`. |
 
 ### Barra de filtro activa

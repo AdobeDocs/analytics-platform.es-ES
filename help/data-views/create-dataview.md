@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '3165'
-ht-degree: 77%
+source-wordcount: '3192'
+ht-degree: 76%
 ---
 # Creación o edición de una vista de datos
 
@@ -53,7 +53,7 @@ La creación de una vista de datos implica crear métricas y dimensiones a parti
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear o editar una vista de datos](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear o editar una vista de datos](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -172,13 +172,13 @@ Designa el nombre de los contenedores para la vista de datos. Los nombres de con
 
 | Nombre del contenedor | Nombre para mostrar (predeterminado) | Descripción |
 | --- | --- | --- |
-| globalAccount | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Cuenta global &#x200B;]** | El contenedor [!UICONTROL Cuenta global] incluye todas las sesiones y eventos de las cuentas globales dentro del lapso de tiempo especificado. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
+| globalAccount | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Cuenta global ]** | El contenedor [!UICONTROL Cuenta global] incluye todas las sesiones y eventos de las cuentas globales dentro del lapso de tiempo especificado. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
 | persona | **[!UICONTROL Persona]** | El contenedor [!UICONTROL Persona] incluye todas las sesiones y eventos de las personas en un lapso de tiempo específico. Si su organización utiliza un término diferente (por ejemplo, visitante o usuario), puede cambiar el nombre del contenedor aquí. |
 | sesión | **[!UICONTROL Sesión]** | El contenedor [!UICONTROL Sesión] le permite identificar interacciones de páginas, campañas o conversiones para una sesión específica. Puede cambiar el nombre de este contenedor a Visita o a cualquier otro término que prefiera. |
-| oportunidad | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Oportunidad &#x200B;]** | El contenedor [!UICONTROL Oportunidad] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
-| purchaseGroup | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Grupo de compra &#x200B;]** | El contenedor [!UICONTROL Grupo de compras] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
+| oportunidad | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Oportunidad ]** | El contenedor [!UICONTROL Oportunidad] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
+| purchaseGroup | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Grupo de compra ]** | El contenedor [!UICONTROL Grupo de compras] incluye todas las visitas y vistas de página de los visitantes en un lapso de tiempo específico. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
 | evento | **[!UICONTROL Evento]** | El contenedor [!UICONTROL Evento] define eventos individuales en un conjunto de datos. Si su organización utiliza un término diferente (por ejemplo, Hits o Vistas de página), puede cambiar el nombre del contenedor aquí. |
-| account | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Cuenta &#x200B;]** | El contenedor [!UICONTROL Cuenta] incluye todas las sesiones y eventos de las cuentas dentro del lapso de tiempo especificado. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
+| account | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Cuenta ]** | El contenedor [!UICONTROL Cuenta] incluye todas las sesiones y eventos de las cuentas dentro del lapso de tiempo especificado. Si su organización utiliza un término diferente, puede cambiar el nombre del contenedor aquí. |
 
 Para cambiar el nombre de los contenedores del sistema:
 
@@ -341,7 +341,17 @@ La sección **[!UICONTROL Componentes incluidos]** contiene la lista de **[!UICO
   * **[!UICONTROL Tipo de datos]**: puede seleccionar uno o más de los siguientes tipos de datos: [!UICONTROL Cadena], [!UICONTROL Entero], [!UICONTROL Corto], [!UICONTROL Booleano], [!UICONTROL Doble], [!UICONTROL Byte], [!UICONTROL Largo], [!UICONTROL Fecha] o [!UICONTROL Fecha-hora].
   * **[!UICONTROL Conjuntos de datos]**: seleccione uno o más conjuntos de datos.
   * **[!UICONTROL Control de datos]**: seleccione una o más etiquetas de las [!UICONTROL etiquetas personalizadas], [!UICONTROL etiquetas de contrato], [!UICONTROL etiquetas de identidad], [!UICONTROL etiquetas de confidencialidad], [!UICONTROL ecosistema de socios] o subcategorías de [!UICONTROL directivas].
-  * **[!UICONTROL Otros]**: seleccione una o más de las opciones [!UICONTROL Contiene datos], [!UICONTROL Es identidad] o [!UICONTROL No está obsoleto].
+  * **[!UICONTROL Otro]** - Seleccione una o más de las siguientes opciones:
+
+    * [!UICONTROL Contiene datos]
+
+    * [!UICONTROL Es identidad]
+
+    * [!UICONTROL No está obsoleto]
+
+    * [!UICONTROL Falta la descripción]
+
+      Use esto para mostrar solamente los componentes que aún no tienen una descripción, como antes de [generar descripciones](/help/data-views/component-settings/overview.md) para varios componentes al mismo tiempo.
 
   Seleccione **[!UICONTROL Aplicar]** para aplicar los filtros.
 

@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 73%
+source-wordcount: '1978'
+ht-degree: 71%
 ---
 # Generar segmentos {#build-segments}
 
@@ -63,7 +63,7 @@ El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear 
    | **[!UICONTROL Vista de datos]** | Puede seleccionar la vista de datos para el segmento.  El segmento que defina estará disponible como segmento en la ficha [Configuración](/help/data-views/create-dataview.md#settings-filters) de una vista de datos. |
    | **[!UICONTROL Segmento solo de proyecto]** | Un cuadro de información que explica que el segmento solo es visible en el proyecto en el que se crea y que este no se añade a la lista de componentes. Habilite **[!UICONTROL Poner este segmento a disposición de todos los proyectos y añadirlo a la lista de componentes]** para cambiar esa configuración. Este cuadro de información solo es visible cuando crea un [segmento rápido](seg-quick.md) y convierte su información en un segmento normal mediante la opción **[!UICONTROL Abrir generador]** de la interfaz de [!UICONTROL Segmento rápido]. |
    | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne un nombre al segmento como, por ejemplo, `Last month mobile customers`. |
-   | **[!UICONTROL Descripción]** | Proporcione una descripción para el segmento, por ejemplo, `Segment to define the mobile customers for the last month`. |
+   | **[!UICONTROL Descripción]** | <p>Proporcione una descripción para el segmento, por ejemplo, `Segment to define the mobile customers for the last month`.</p><p>Para que Adobe genere una descripción, seleccione **[!UICONTROL Generar descripción]**. Esta opción no estará disponible hasta que cree la definición del segmento.</p><p>Las descripciones generadas incluyen el texto **[!UICONTROL Generado por Adobe mediante IA]**, y puede editarlo una vez generadas. Para obtener más información, vea [Generar descripciones automáticamente](/help/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
    | **[!UICONTROL Etiquetas]** | Organice el segmento creando o aplicando una o varias etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O pulse **[!UICONTROL Entrar]** para añadir una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
    | **[!UICONTROL Definición]** ![requerida](/help/assets/icons/Required.svg) | Defina su segmento con el [Generador de definiciones](#definition-builder). |
 
@@ -138,7 +138,7 @@ Puede agrupar varios componentes en uno o varios contenedores y definir la lógi
 * Para añadir otro componente al contenedor, arrastre y suelte un componente del panel del componente en el contenedor. Utilice la línea de inserción azul como guía.
 * Para añadir otro componente fuera del contenedor, arrastre y suelte un componente del panel del componente fuera del contenedor, pero dentro del contenedor de definición principal. Utilice la línea de inserción azul como guía.
 * Para modificar la lógica entre los componentes de un contenedor, entre contenedores o entre un contenedor y un componente, seleccione los operadores **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** adecuados. Al seleccionar Entonces, convierte el segmento en un segmento secuencial. Consulte [Crear segmento secuencial](seg-sequential-build.md) para obtener más información.
-* Para cambiar el nivel de contenedor, selecciona ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL Cuenta global]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Cuenta](/help/assets/icons/Account.svg) **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Oportunidad](/help/assets/icons/Opportunity.svg) **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Grupo de compra](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Grupo de compra]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Evento]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Sesión]**, ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Persona]** o ![Capa](/help/assets/icons/Layer.svg) **[!UICONTROL Objeto]**. Cuando seleccione [Objeto ]&#x200B;**de**![[!UICONTROL &#x200B; capa]](/help/assets/icons/Layer.svg), seleccione el [contenedor personalizado](/help/data-views/create-dataview.md#containers-1) que desea utilizar. Por ejemplo, Productos o Assets de contenido.
+* Para cambiar el nivel de contenedor, selecciona ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL Cuenta global]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Cuenta](/help/assets/icons/Account.svg) **[!UICONTROL Cuenta]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Oportunidad](/help/assets/icons/Opportunity.svg) **[!UICONTROL Oportunidad]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Grupo de compra](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Grupo de compra]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Evento]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Sesión]**, ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Persona]** o ![Capa](/help/assets/icons/Layer.svg) **[!UICONTROL Objeto]**. Cuando seleccione ![Objeto ]**de**[!UICONTROL  capa](/help/assets/icons/Layer.svg), seleccione el [contenedor personalizado](/help/data-views/create-dataview.md#containers-1) que desea utilizar. Por ejemplo, Productos o Assets de contenido.
 
 Puede usar ![Configuración](/help/assets/icons/Setting.svg) en un contenedor para las siguientes acciones:
 
@@ -163,7 +163,7 @@ Puede generar segmentos que contengan intervalos de fechas móviles. Por lo tant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

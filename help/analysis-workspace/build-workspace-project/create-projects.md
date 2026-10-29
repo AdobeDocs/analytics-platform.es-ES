@@ -29,10 +29,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 89%
 ---
 # Crear proyectos {#create-projects}
 
@@ -99,7 +99,7 @@ La configuración incluye lo siguiente:
 | Propietario | Nombre del propietario del proyecto. |
 | Última modificación | Fecha de la última modificación del proyecto. |
 | Etiquetas | Enumera cualquier etiqueta aplicada a un proyecto para una ordenación por categorías más sencilla. |
-| Descripción | Una descripción es útil para aclarar el propósito de un proyecto. Puede hacer doble clic en la descripción para editarla. |
+| Descripción | Una descripción es útil para aclarar el propósito de un proyecto. Puede hacer doble clic en la descripción para editarla. <p>Para que Adobe genere una descripción, seleccione **[!UICONTROL Generar descripción]** encima del campo de descripción. Adobe analiza varios paneles del proyecto y los resume en una descripción. Las descripciones generadas incluyen el texto **[!UICONTROL Generado por Adobe mediante IA]** y se puede editar. Esta opción requiere que su organización acepte ciertos términos legales de IA generativa.</p> |
 | Contar instancias repetidas | Especifica si las instancias repetidas se cuentan en los informes. Nota: Esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto. |
 | Mostrar anotaciones | Especifica si las anotaciones se muestran para este proyecto o no. |
 | [Paleta de colores del proyecto](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Puede cambiar la paleta de colores categórica que se utiliza en Workspace eligiendo una de las paletas integradas que se han optimizado para casos de daltonismo o especificando la paleta personalizada. Esta función afecta a muchos elementos del Workspace, incluidas la mayoría de visualizaciones. |
