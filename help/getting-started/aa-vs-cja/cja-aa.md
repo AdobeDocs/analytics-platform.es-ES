@@ -81,9 +81,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 5aba7dcf73ddd7aee48a945911a8ff4b0f18e2e3
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3089'
 ht-degree: 98%
 ---
 # Compatibilidad con las funciones de Customer Journey Analytics
@@ -94,7 +94,7 @@ Las siguientes tablas indican qué funciones de Customer Journey Analytics son �
 
 En la tabla siguiente se enumeran las funciones disponibles en Customer Journey Analytics, pero que no son compatibles con Adobe Analytics.
 
-<!-- FOLLOW-UP (Thursday): When the in-app Coworker experience launches, point the Coworker row link to /help/analysis-workspace/coworker.md. FOLLOW-UP (later): When Coworker becomes available in Adobe Analytics, remove the "coming soon" sentence and move the Coworker row to the Fully supported table. -->
+<!-- FOLLOW-UP: When Coworker becomes available in Adobe Analytics, remove the "coming soon" sentence and move the Coworker row to the Fully supported table. -->
 
 | Función | Más detalles |
 | --- | --- |
@@ -104,7 +104,7 @@ En la tabla siguiente se enumeran las funciones disponibles en Customer Journey 
 | **Extensión de BI** | La [Extensión de BI](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) le permite conectar Customer Journey Analytics directamente a herramientas de visualización de BI populares, como Power BI o Tableau. Con esta extensión, puede hacer que los informes de BI coincidan con precisión con lo que ve en Analysis Workspace y otras interfaces del sistema de informes de Customer Journey Analytics. Esta extensión proporciona una forma mucho más sencilla de obtener informes de BI para Customer Journey Analytics sin necesidad de volver a crear informes/métricas a partir de datos sin procesar. |
 | **Comentarios en los proyectos de Workspace** | Los comentarios le permiten compartir datos y hacer preguntas en el entorno de un [proyecto de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects?lang=en). Esto puede agilizar los debates sobre los datos, manteniendo las conversaciones en el contexto de los datos que se están debatiendo. |
 | **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/content-analytics/content-analytics) ayuda a los especialistas en marketing a comprender cómo afecta el contenido a los indicadores de rendimiento clave que ha definido una empresa. Además de los datos de comportamiento, Content Analytics recopila datos sobre cómo se consume el contenido y cómo este genera impacto. |
-| **Coworker** | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/use-cases/data-insights/analytics-overview) es un compañero de IA que responde preguntas en lenguaje natural acerca de sus datos. Utiliza componentes de las vistas de datos y los datos reales para crear visualizaciones, encontrar perspectivas y explicar por qué han cambiado las métricas. Próximamente, nuestro compañero de trabajo llegará a Adobe Analytics. |
+| **Coworker** | [Adobe CX Enterprise Coworker](/help/analysis-workspace/coworker.md) es un compañero de IA que responde preguntas en lenguaje natural acerca de sus datos. Utiliza componentes de las vistas de datos y los datos reales para crear visualizaciones, encontrar perspectivas y explicar por qué han cambiado las métricas. Próximamente, nuestro compañero de trabajo llegará a Adobe Analytics. |
 | **Análisis entre dispositivos** | Customer Journey Analytics admite la combinación perfecta de conjuntos de datos específicos del dispositivo desde sesiones no autenticadas y autenticadas. Customer Journey Analytics ofrece rellenar los datos históricos en dispositivos conocidos. En Adobe Analytics, esta posibilidad se limita a un único grupo de informes y al uso de un gráfico de dispositivos. |
 | **Mejoras de dimensión** | Customer Journey Analytics proporciona mayor flexibilidad al utilizar las dimensiones: <ul><li>**Dimensiones personalizadas basadas en números**: [cree sus propias dimensiones basadas en números dentro de una vista de datos](/help/data-views/create-dataview.md#components).</li><li>**Ordenar dimensiones basadas en cadenas**: [ordene alfabéticamente las dimensiones basadas en cadenas en una tabla de forma libre.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>En Adobe Analytics, solo había disponibles unas cuantas dimensiones numéricas integradas y no era posible ordenar por dimensiones basadas en cadenas.</p> |
 | **Campos derivados** | Los [Campos derivados](/help/data-views/derived-fields/derived-fields.md) permiten realizar transformaciones durante el tiempo del informe en los datos. Los datos se pueden combinar, corregir o crear sobre la marcha y aplicar estas transformaciones de forma retroactiva a todos los informes. |
