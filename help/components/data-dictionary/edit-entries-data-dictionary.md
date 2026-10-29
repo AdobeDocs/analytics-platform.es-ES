@@ -147,4 +147,4 @@ Para generar descripciones para varios componentes en el diccionario de datos:
 
    Un mensaje de confirmación muestra el número de descripciones que se añadieron.
 
-   Si ha seleccionado un gran número de componentes, las descripciones se generan en segundo plano. Cuando se complete la solicitud, recibirá una [notificación](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) en la aplicación que muestra cuántas descripciones se generaron y cuántas fallaron.
+   Si ha seleccionado un gran número de componentes, las descripciones se generan en segundo plano. Cuando se complete la solicitud, recibirá una [notificación](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences#view-notifications) en la aplicación que muestra cuántas descripciones se generaron y cuántas fallaron.
