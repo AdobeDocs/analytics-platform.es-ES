@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: d16771a675504a6330a59478f15bf6112ae444d6
+source-git-commit: a80a12b061bee5165667b361a9e4bc1888d86c95
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 2%
@@ -49,7 +49,7 @@ La mayoría de las organizaciones utilizan el siguiente flujo de trabajo general
 1. Revise todos los componentes que utilizan el mismo ID de componente, pero que tienen configuraciones de componente diferentes. Para cada grupo de componentes duplicados, seleccione la configuración de componente que desee aplicar a todos los demás componentes que compartan ese ID de componente.
 1. Revise todos los componentes que utilicen el mismo ID de componente y que también tengan la misma configuración de componente. Estas dimensiones o métricas se pueden combinar de forma fácil y segura.
 
-## Administrador de [!UICONTROL métricas y dimensiones compartidas]
+## Administrador de [!UICONTROL métricas y dimensiones compartidas] {#smd-manager}
 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Vistas de datos]** > **[!UICONTROL Métricas y dimensiones compartidas]**
 

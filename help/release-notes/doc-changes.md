@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f7d853a3b658328f952b675f838ce314b7c30fb1
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
-source-wordcount: '7412'
+source-wordcount: '7431'
 ht-degree: 93%
 ---
 
@@ -70,6 +70,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 |---|---|
 | **Octubre de 2026** | |
+| Unir datos de medios de pago con datos web | [Guía de caso de uso](/help/use-cases/cross-channel/paid-media-web.md): cómo unir datos de medios de pago con datos web. |
 | Bloquear selección para visualizaciones | Se ha reestructurado [Administrar fuentes de datos](/help/analysis-workspace/visualizations/t-sync-visualization.md) para separar la configuración del origen de datos del bloqueo de la selección. También aclaró cómo funciona [bloquear selección](/help/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection) cuando una visualización está bloqueada a filas en una tabla de forma libre, lo que incluye lo que sucede cuando las filas de desglose bloqueadas ya no están en la tabla. |
 | Distinción de mayúsculas y minúsculas para operadores de segmentos | Se ha aclarado que cuando se usan [operadores estándar](/help/components/segments/seg-operators.md#standard-operators), los resultados no distinguen entre mayúsculas y minúsculas, excepto **[!UICONTROL coincidencias]** y **[!UICONTROL no coincide]**. |
 | Navegación por teclado para columnas de tabla | Se ha documentado cómo [cambiar el tamaño](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) y [reorganizar](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) columnas de tabla en Analysis Workspace mediante el teclado, incluidos los comentarios de los lectores de pantalla. También se agregó una sección [Acciones de columna de tabla](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) a las teclas de acceso directo. |

@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1187'
 ht-degree: 12%
 ---
 # Crear o editar configuraciones
+
+{{release-limited-testing}}
 
 Conversation Insights le permite analizar las conversaciones a partir de las experiencias de agente que ofrece a sus clientes. Estas experiencias del agente pueden basarse en modelos de lenguaje de gran tamaño (LLM) o en conversaciones humanas. Por ejemplo, un bot de chat que interactúa con un cliente o un centro de llamadas transcribe.
 A través de Conversation Insights, puede comprender el impacto de los agentes en los resultados reales del usuario.
@@ -147,7 +149,7 @@ Para cada configuración:
 
 Una vez que haya creado una configuración, puede configurar [cómo se fusionan las conversaciones de los conjuntos de datos de mensajes, respuestas, comentarios y señales](/help/conversation-insights/overview.md#how-it-works).
 
-Esta especificación le permite seleccionar el conjunto de datos que determina el valor de los campos con nombres correspondientes (si es un contenedor) en el conjunto de datos de conversación combinado.
+Esta especificación le permite seleccionar el conjunto de datos que determina el valor de los campos con el nombre correspondiente (si es un contenedor) en el conjunto de datos de conversación mezclada.
 
 Por ejemplo: si desea que el nombre del campo **[!UICONTROL Producido por]** en el conjunto de datos de conversación combinada se defina a partir de ese campo con nombre similar en el conjunto de datos de comentarios, selecciona **[!UICONTROL Conjunto de datos de comentarios]** del menú desplegable **[!UICONTROL Ganador del conjunto de datos]** para ese campo.
 

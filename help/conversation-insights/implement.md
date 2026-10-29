@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 5%
 ---
 # Implementar Perspectivas de conversación
+
+{{release-limited-testing}}
 
 Para producir datos de conversación como eventos de experiencia XDM y asegurarse de que estos eventos de experiencia de conversación terminen en Adobe Experience Platform como conjuntos de datos, instrumente la aplicación o el servicio del agente para utilizar Perspectivas de conversación.
 

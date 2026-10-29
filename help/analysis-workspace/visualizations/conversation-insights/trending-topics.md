@@ -4,7 +4,7 @@ title: Temas de tendencia
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 85311bf19368560ef54a3361edf2e7c13590929c
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 8%
@@ -21,6 +21,8 @@ ht-degree: 8%
 >title="Temas de tendencia"
 >abstract="Analice los temas de tendencia en función de la métrica de clasificación seleccionada. Seleccione los temas para profundizar hasta cinco niveles. Busque temas específicos y compare temas con otros intervalos de fechas."
 
+{{release-limited-testing}}
+
 La visualización ![Fuente](/help/assets/icons/Feed.svg) **[!UICONTROL Temas de tendencia]** le permite explorar y analizar los temas de tendencia como parte de Perspectivas de la conversación.
 
 Puede buscar temas específicos y comparar el número y el porcentaje de cada tema en cada nivel con otros rangos de datos.
@@ -36,6 +38,7 @@ Puede buscar temas específicos y comparar el número y el porcentaje de cada te
 >id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
 >title="Uso de modelos de atribución no predeterminados"
 >abstract="Los modelos de atribución no predeterminados no están disponibles para esta métrica."
+
 
 Para crear y configurar una visualización de **[!UICONTROL temas de tendencia]**:
 
@@ -57,7 +60,7 @@ Para utilizar la visualización:
 
 * Pase el ratón sobre un tema para ver una ventana emergente con más detalles. ➊
 
-* Para ver los temas secundarios de tendencia de un tema en un nivel inferior, seleccione un tema en un nivel específico. Si no hay temas disponibles en un subnivel, verá ![DataRemove](/help/assets/icons/DataRemove.svg) **[!UICONTROL No se encontraron subtemas para _topic > subtopic > ...]**.
+* Para ver los temas secundarios de tendencia de un tema en un nivel inferior, seleccione un tema en un nivel específico. Si no hay temas disponibles en un subnivel, verá ![DataRemove](/help/assets/icons/DataRemove.svg) **[!UICONTROL No se encontraron subtemas para _tema > subtema_ > ...]**.
 
 * Use ![Buscar](/help/assets/icons/Search.svg) **[!UICONTROL _Buscar temas_]** para buscar temas rápidamente. ➋
 

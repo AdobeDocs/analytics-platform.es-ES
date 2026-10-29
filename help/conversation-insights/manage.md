@@ -26,12 +26,14 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 6%
 ---
 # Administrar configuraciones
+
+{{release-limited-testing}}
 
 Después de [crear configuraciones de Perspectivas de conversación](/help/conversation-insights/configure.md), puede ver, editar o eliminar estas configuraciones.
 

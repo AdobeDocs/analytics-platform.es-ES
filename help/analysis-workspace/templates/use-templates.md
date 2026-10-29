@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: d29e3bac31db1a0de40a5ade47ed5ee53fcb5480
 workflow-type: tm+mt
-source-wordcount: '21458'
+source-wordcount: '21470'
 ht-degree: 98%
 ---
 # Uso de plantillas
@@ -1168,20 +1168,20 @@ Las plantillas disponibles son las siguientes:
 | [!UICONTROL **Actividad de los grupos de compra B2B**] | Visualice la actividad del grupo de compra en cada cuenta para informar de tácticas de marketing de los grupos de compra y la cuenta.<p>**Esto puede ayudarle** a visualizar qué grupos de compra y personas dentro de esos grupos están más involucrados, lo que pondrá de relieve las brechas de participación del grupo.</p><p>**En función de lo que aprenda, puede** hacer muchas cosas, como intentar relacionarse más con personas de los grupos de compra que no parecen estar involucrados.</p> |
 
 
-### Mix Modeler {#mix-modeler-templates}
+### Marketing Campaign Analytics {#marketing-campaign-analytics-templates}
 
 <!-- CJA only -->
 
 >[!CONTEXTUALHELP]
 >id="template--mixmodeler-incremental-models-insights"
->title="Vea información de modelos seleccionados generados por Mix Modeler."
->abstract="**Esto puede ayudarle** a comprender mejor la información incremental de los modelos generados en Mix Modeler. <br/>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul>"
+>title="Vea información de modelos seleccionados generados por Marketing Campaign Analytics."
+>abstract="**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Marketing Campaign Analytics (anteriormente Mix Modeler). <br/>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul>"
 
 Las plantillas disponibles son las siguientes:
 
 &#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Datos del modelo incremental de Mix Modeler**] | Vea información de modelos seleccionados generados por Mix Modeler.<p>**Esto puede ayudarle** a comprender mejor la información incremental de los modelos generados en Mix Modeler. <p>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul></p> |
+| [!UICONTROL **Datos del modelo incremental de Marketing Campaign Analytics**] | Vea información de modelos seleccionados generados por Marketing Campaign Analytics.<p>**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Marketing Campaign Analytics (anteriormente Mix Modeler).<p>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul></p> |
 
 
 
