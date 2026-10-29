@@ -44,13 +44,13 @@ La experiencia del producto para compañeros de trabajo está disponible en un p
 <!--
 FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME.
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
 
 -->
 
 ### Elija entre el colaborador en Workspace y la aplicación del colaborador
 
-La experiencia del producto para colaboradores tiene muchas de las mismas capacidades que la [aplicación de CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat), incluidas las habilidades a las que tiene acceso. Sin embargo, existen diferencias importantes que determinan cuándo se puede utilizar una sobre la otra:
+La experiencia del producto para colaboradores tiene muchas de las mismas capacidades que la [aplicación de CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/use-cases/data-insights/analytics-chat), incluidas las habilidades a las que tiene acceso. Sin embargo, existen diferencias importantes que determinan cuándo se puede utilizar una sobre la otra:
 
 | | Experiencia del producto para compañeros de trabajo | Aplicación de compañeros |
 | --- | --- | --- |
