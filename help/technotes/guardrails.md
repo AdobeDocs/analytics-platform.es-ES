@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
@@ -144,7 +144,7 @@ Consulte también [Protecciones de Real-time Customer Data Platform](https://exp
 | Nombre | Valor | Tipo de límite | Descripción |
 |---|--:|---|---|
 | Proyectos | 50 000 | Protección impuesta por el sistema | Número máximo de proyectos para una organización. |
-| Vistas de datos | 2.000 | Protección impuesta por el sistema | Número máximo de [vistas de datos](../data-views/data-views.md) para una organización. |
+| Vistas de datos | 5.000 | Protección impuesta por el sistema | Número máximo de [vistas de datos](../data-views/data-views.md) para una organización. |
 | Vistas de datos | 500-1000 | Protección impuesta por el sistema | Número máximo de vistas de datos para una conexión. El valor varía en función del paquete de Customer Journey Analytics (consulte la Descripción del producto). |
 | Conjuntos de datos | 100 | Protección impuesta por el sistema | Número máximo de [conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es) por conexión. |
 | Conexiones | 1000 | Protección impuesta por el sistema | Número máximo de [conexiones](../connections/overview.md) para una organización. |

@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
+source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
 workflow-type: tm+mt
-source-wordcount: '7431'
+source-wordcount: '7452'
 ht-degree: 93%
 ---
 
@@ -70,6 +70,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 |---|---|
 | **Octubre de 2026** | |
+| Protecciones para vistas de datos | Se ha actualizado [guadrail](/help/technotes/guardrails.md) para la cantidad máxima de vistas de datos de una organización (de 2000 a 5000). |
 | Unir datos de medios de pago con datos web | [Guía de caso de uso](/help/use-cases/cross-channel/paid-media-web.md): cómo unir datos de medios de pago con datos web. |
 | Bloquear selección para visualizaciones | Se ha reestructurado [Administrar fuentes de datos](/help/analysis-workspace/visualizations/t-sync-visualization.md) para separar la configuración del origen de datos del bloqueo de la selección. También aclaró cómo funciona [bloquear selección](/help/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection) cuando una visualización está bloqueada a filas en una tabla de forma libre, lo que incluye lo que sucede cuando las filas de desglose bloqueadas ya no están en la tabla. |
 | Distinción de mayúsculas y minúsculas para operadores de segmentos | Se ha aclarado que cuando se usan [operadores estándar](/help/components/segments/seg-operators.md#standard-operators), los resultados no distinguen entre mayúsculas y minúsculas, excepto **[!UICONTROL coincidencias]** y **[!UICONTROL no coincide]**. |
