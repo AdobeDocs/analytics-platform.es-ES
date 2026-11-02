@@ -7,20 +7,20 @@ hide: true
 source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 8%
+ht-degree: 16%
 ---
-# Revisión de conversación
+# Revisión de la conversación
 
 {{release-limited-testing}}
 
 >[!CONTEXTUALHELP]
 >id="workspace_conversationreview_button"
->title="Revisión de conversación"
+>title="Revisión de la conversación"
 >abstract="Cree una visualización que muestre el intercambio paso a paso completo entre el cliente y el agente."
 
 >[!CONTEXTUALHELP]
 >id="workspace_conversationreview_panel"
->title="Revisión de conversación"
+>title="Revisión de la conversación"
 >abstract="Comprenda el contexto y el flujo de una conversación individual, incluidas las marcas de tiempo y las señales. Configure qué señales mostrar."
 
 

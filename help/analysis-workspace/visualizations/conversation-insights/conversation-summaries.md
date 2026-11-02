@@ -7,18 +7,18 @@ hide: true
 source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 10%
+ht-degree: 20%
 ---
-# Resúmenes de conversación {#conversation-summaries}
+# Resúmenes de las conversaciones {#conversation-summaries}
 
 >[!CONTEXTUALHELP]
 >id="workspace_conversationsummaries_button"
->title="Resúmenes de conversación"
+>title="Resúmenes de las conversaciones"
 >abstract="Cree una visualización que resuma un grupo filtrado de conversaciones."
 
 >[!CONTEXTUALHELP]
 >id="workspace_conversationsummaries_panel"
->title="Resúmenes de conversación"
+>title="Resúmenes de las conversaciones"
 >abstract="Resuma un grupo filtrado de conversaciones. Controle la longitud del resumen. Consulte las citas representativas de los clientes para validar la precisión de las señales extraídas. Seleccione una cita para abrir la reproducción completa de la conversación."
 
 {{release-limited-testing}}
@@ -52,7 +52,7 @@ Para crear y configurar una visualización de **[!UICONTROL resúmenes de conver
 
 1. Seleccione **[!UICONTROL Build]** para generar la visualización. Seleccione **[!UICONTROL Restablecer]** para restablecer los valores predeterminados de configuración. Seleccione **[!UICONTROL Cancelar]** para cancelar la configuración.
 
-Para reconfigurar la visualización de **[!UICONTROL resúmenes de conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Métrica: _métrica_]**&#x200B;o **[!UICONTROL Métrica:_métrica_]** | **[!UICONTROL Segmentos: _segmentos_]**.
+Para reconfigurar la visualización de **[!UICONTROL resúmenes de conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Métrica: _métrica_]**o **[!UICONTROL Métrica:_métrica_]** | **[!UICONTROL Segmentos: _segmentos_]**.
 
 ## Utiliza
 
