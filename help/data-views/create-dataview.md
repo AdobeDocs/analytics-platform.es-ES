@@ -126,7 +126,7 @@ Esta sección solo está visible para los administradores que están aprovisiona
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
 >title="Habilitar para Data Insights Agent"
->abstract="Esta opción habilita esta vista de datos para su uso con Data Insights Agent. Data Insights Agent es un agente de conversación de IA generativo que le ayuda a analizar rápidamente sus datos con mensajes de texto. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando sus datos reales."
+>abstract="Esta opción habilita esta vista de datos para su uso con Data Insights Agent. Data Insights Agent es un agente de conversación de IA generativa que le ayuda a analizar rápidamente sus datos con indicaciones de texto. Crea visualizaciones relevantes en Analysis Workspace utilizando componentes de la vista de datos y utilizando sus datos reales."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -263,7 +263,7 @@ Si arrastra una carpeta de campos del esquema desde el carril izquierdo, los cam
    * [[!UICONTROL Anulación de duplicación métrica]](component-settings/metric-deduplication.md)
    * [[!UICONTROL Sin opciones de valor]](component-settings/no-value-options.md)
    * [[!UICONTROL Persistencia]](component-settings/persistence.md)
-   * [[!UICONTROL Clasificación de valor]](component-settings/value-bucketing.md)
+   * [[!UICONTROL Agrupación de valores]](component-settings/value-bucketing.md)
 
 1. Seleccionar **[!UICONTROL Guardar y continuar]** para seguir configurando la vista de datos nueva o la existente. Seleccionar **[!UICONTROL Guardar]** para almacenar la configuración para la vista de datos existente.
 
