@@ -3,11 +3,10 @@ description: Utilice la visualización de resúmenes de conversación para resum
 title: Resúmenes de conversación
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: 30311dc0e753778c6e5316d82ffba25748d8315e
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 20%
+source-wordcount: '407'
+ht-degree: 17%
 ---
 # Resúmenes de las conversaciones {#conversation-summaries}
 
@@ -23,7 +22,7 @@ ht-degree: 20%
 
 {{release-limited-testing}}
 
-La visualización ![Resumir](/help/assets/icons/Summarize.svg) **[!UICONTROL Resúmenes de conversación]** permite resumir un grupo filtrado de conversaciones.
+La visualización ![AI](/help/assets/icons/AI.svg) **[!UICONTROL resúmenes de conversación]** le permite resumir un grupo filtrado de conversaciones como parte de [Perspectivas de conversación](/help/conversation-insights/overview.md).
 
 La visualización muestra un resumen de la métrica seleccionada (por ejemplo, Conversaciones) y subtemas o comentarios literales cuando se ha configurado la visualización para incluir subtemas.
 
@@ -42,7 +41,7 @@ La visualización muestra un resumen de la métrica seleccionada (por ejemplo, C
 
 Para crear y configurar una visualización de **[!UICONTROL resúmenes de conversación]**:
 
-1. Agregar una visualización de ![Resumen](/help/assets/icons/Summarize.svg) **[!UICONTROL resúmenes de conversación]**. Consulte [Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Agregar una visualización de ![resúmenes de conversación](/help/assets/icons/AI.svg) **[!UICONTROL AI]**. Consulte [Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. En la configuración de visualización **[!UICONTROL Resúmenes de conversación]**:
 
@@ -72,6 +71,13 @@ Para utilizar la visualización:
 
 * Si ha [incluido subtemas](#settings), seleccione **[!UICONTROL Subtemas]** para mostrar subtemas o **[!UICONTROL comentarios literales]** para mostrar comentarios literales.
 * Cuando haya seleccionado **[!UICONTROL Comentarios textuales]**, seleccione ![BúsquedaDeArchivos](/help/assets/icons/FileSearch.svg) para abrir una nueva visualización de [**[!UICONTROL Revisión de la conversación]**](./conversation-review.md) para la conversación específica de la que forma parte el comentario textual.
+
+Para examinar rápidamente varias revisiones de conversación:
+
+1. Cree una [tabla de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) con **[!UICONTROL identificador de conversación]** y **[!UICONTROL nombre de conversación]** como dimensiones.
+1. Seleccione la tabla de forma libre como fuente de datos para la visualización **[!UICONTROL Revisión de la conversación]**.
+
+Seleccione una conversación en la tabla de forma libre para actualizar la **[!UICONTROL revisión de la conversación]** automáticamente con los detalles de la conversación seleccionada.
 
 ## Configuración
 

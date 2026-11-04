@@ -3,10 +3,9 @@ description: Utilice la visualización de revisión de conversaciones para revis
 title: Revisión de la conversación
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: 6b84720eae3c0c6cd6cfd204591fb9d5f1f5cdb0
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '193'
 ht-degree: 16%
 ---
 # Revisión de la conversación
@@ -24,7 +23,7 @@ ht-degree: 16%
 >abstract="Comprenda el contexto y el flujo de una conversación individual, incluidas las marcas de tiempo y las señales. Configure qué señales mostrar."
 
 
-La visualización ![Chat](/help/assets/icons/Chat.svg) **[!UICONTROL Revisión de la conversación]** muestra el intercambio giro a giro completo entre el cliente y el agente.
+La visualización ![Chat](/help/assets/icons/Chat.svg) **[!UICONTROL Revisión de la conversación]** muestra el intercambio paso a paso completo entre el cliente y el agente como parte de [Perspectivas de la conversación](/help/conversation-insights/overview.md).
 
 La visualización le ayuda a comprender el contexto y el flujo de una conversación individual, incluidas las marcas de tiempo y las señales. Puede configurar qué señales mostrar o no.
 
