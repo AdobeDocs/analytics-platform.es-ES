@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 6cecd447699645d21f5b198cdde1796dd49e80f6
+source-git-commit: c244c7d5c08f2059046603d09b09fbe70f8bff07
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2330'
 ht-degree: 24%
 ---
 # Vinculación de persona a cuenta B2B
@@ -47,7 +47,7 @@ Sin vinculación de persona a cuenta, los eventos que no contengan un ID de cuen
 La vinculación de persona a cuenta realiza las siguientes operaciones en los conjuntos de datos:
 
 * **Elevar la identidad de la persona**: de forma similar al [método de vinculación B2C](/help/stitching/overview.md), puede configurar un campo que contenga ID de persona persistentes. Con el gráfico de identidad, el ID de persona persistente de cada evento se eleva a un ID de persona desde el área de nombres del identificador de persona configurado.
-* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3&rbrace; se usa para derivar y agregar la información de identidad de cuenta. &#x200B;](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
+* **Agregar identidades de cuenta faltantes**: Después de obtener la información de identificación de persona para un evento, la asignación de persona a cuenta [3} se usa para derivar y agregar la información de identidad de cuenta. ](#prerequisites)Cualquier identidad de cuenta disponible en el propio evento se utiliza como método de reserva.
 
 ## Cómo funciona la vinculación de persona a cuenta de B2B
 
@@ -150,7 +150,7 @@ Antes de habilitar la vinculación de cuentas para B2B person, prepare los sigui
 >[!IMPORTANT]
 >
 >* El campo ID de persona del conjunto de datos persona a cuenta debe marcarse como identidad en el esquema.
->* El conjunto de datos de búsqueda de persona a cuenta utiliza el esquema B2B estándar basado en la clase de relación de persona de cuenta empresarial de XDM o un esquema relacional personalizado en el que los campos ID de persona e ID de cuenta son cadenas simples. Los esquemas que utilizan el objeto de matriz `personComponents` para recuperar información de identificador de cuenta no son compatibles con los conjuntos de datos de persona a cuenta.
+>* El conjunto de datos de búsqueda de persona a cuenta puede utilizar el esquema B2B estándar basado en la clase de relación de persona de cuenta empresarial de XDM o un esquema relacional personalizado donde los campos ID de persona e ID de cuenta son cadenas simples. Los esquemas que utilizan el objeto de matriz **[!UICONTROL personComponents]** para recuperar la información del identificador de cuenta no son compatibles con los conjuntos de datos de persona a cuenta.
 
 ## Habilitar vinculación de persona a cuenta {#enable-account-stitching}
 
