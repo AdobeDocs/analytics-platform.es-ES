@@ -2,7 +2,7 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
+source-git-commit: e498c374e8bfe12d7adda6ff9e7870a86f91dd5c
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 88%
@@ -166,7 +166,7 @@ ht-degree: 88%
     + {hide-from-toc}[Ámbito](/help/data-views/component-settings/scope.md)
     + [Subcadena](../data-views/component-settings/substring.md)
     + [Grupo de datos de resumen](../data-views/component-settings/summary-data-group.md)
-    + [Creación de depósitos](../data-views/component-settings/value-bucketing.md)
+    + [Agrupación de valores](../data-views/component-settings/value-bucketing.md)
   + [Referencia de componente estándar](../data-views/component-reference.md)
   + [Extensión de BI](../data-views/bi-extension.md)
   + [Campos derivados](../data-views/derived-fields/derived-fields.md)
@@ -241,9 +241,9 @@ ht-degree: 88%
       + [Información general](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
       + [Configuración](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
       + [Solucionar problemas](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
-    + {hide-from-toc}[Revisión de la conversación](../analysis-workspace/visualizations/conversation-insights/conversation-review.md)
-    + {hide-from-toc}[Resúmenes de conversación](../analysis-workspace/visualizations/conversation-insights/conversation-summaries.md)
-    + {hide-from-toc}[Temas de tendencia](../analysis-workspace/visualizations/conversation-insights/trending-topics.md)
+    + [Revisión de la conversación](../analysis-workspace/visualizations/conversation-insights/conversation-review.md)
+    + [Resúmenes de las conversaciones](../analysis-workspace/visualizations/conversation-insights/conversation-summaries.md)
+    + [Temas de tendencia](../analysis-workspace/visualizations/conversation-insights/trending-topics.md)
     + [Área (apilada)](../analysis-workspace/visualizations/area.md)
     + [Barra (apilada)](../analysis-workspace/visualizations/bar.md)
     + [Viñeta](../analysis-workspace/visualizations/bullet-graph.md)

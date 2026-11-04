@@ -3,11 +3,10 @@ description: Utilice la visualización de temas de tendencias para explorar esto
 title: Temas de tendencia
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: e498c374e8bfe12d7adda6ff9e7870a86f91dd5c
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 8%
+ht-degree: 16%
 ---
 # Temas de tendencia {#trending-topics}
 
@@ -23,7 +22,7 @@ ht-degree: 8%
 
 {{release-limited-testing}}
 
-La visualización ![Fuente](/help/assets/icons/Feed.svg) **[!UICONTROL Temas de tendencia]** le permite explorar y analizar los temas de tendencia como parte de Perspectivas de la conversación.
+La visualización ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Temas de tendencia]** le permite explorar y analizar los temas de tendencia como parte de [Perspectivas de conversación](/help/conversation-insights/overview.md).
 
 Puede buscar temas específicos y comparar el número y el porcentaje de cada tema en cada nivel con otros rangos de datos.
 
@@ -42,7 +41,7 @@ Puede buscar temas específicos y comparar el número y el porcentaje de cada te
 
 Para crear y configurar una visualización de **[!UICONTROL temas de tendencia]**:
 
-1. Agregar una visualización de ![Fuente](/help/assets/icons/Feed.svg) **[!UICONTROL Temas de tendencia]**. Consulte [Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Agregar una visualización de ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Temas de tendencia]**. Consulte [Añadir una visualización a un panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. En la configuración de visualización **[!UICONTROL Temas de tendencia]**:
 
