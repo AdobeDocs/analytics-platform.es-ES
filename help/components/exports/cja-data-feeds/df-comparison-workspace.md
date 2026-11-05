@@ -15,9 +15,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
+source-git-commit: 03beb4bd52769a5428ca084beacefd8996d4c810
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '760'
 ht-degree: 0%
 ---
 # Comprender las discrepancias de datos entre las fuentes de datos y Analysis Workspace
@@ -26,24 +26,26 @@ ht-degree: 0%
 
 Los datos de una exportación de fuentes de datos no siempre coinciden exactamente con los datos que se ven en Analysis Workspace. La información de esta página explica algunas de las razones principales.
 
-## Intervalo de fechas de retrospectiva (fuentes de datos) frente al intervalo de fechas de creación de informes (Analysis Workspace)
+## Ventana Procesamiento (fuentes de datos) frente a ventana Informes (Analysis Workspace) {#processing-window}
 
-El intervalo de fechas de retrospectiva en las fuentes de datos determina hasta dónde se remonta Customer Journey Analytics al encontrar eventos que cumplen los requisitos para una entrega de fuente de datos. Para obtener más información sobre el intervalo de fechas de retrospectiva, incluidos ejemplos, consulte [Comprender el intervalo de fechas de retrospectiva](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-lookback-date-range).
+Cada entrega de fuente de datos utiliza un periodo de procesamiento móvil de 30 días. La ventana de procesamiento proporciona el contexto histórico necesario para clasificar los eventos en una entrega de fuente de datos. Para obtener detalles acerca de la ventana de procesamiento, incluidos ejemplos, vea [Comprender la ventana de procesamiento](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-processing-window).
 
-En ese sentido, el intervalo de fechas de retrospectiva es similar al intervalo de fechas de creación de informes en Analysis Workspace. Sin embargo, existen diferencias clave.
+En ese sentido, la ventana de procesamiento es similar a la ventana de creación de informes de Analysis Workspace (el intervalo de fechas que elija para un informe). Sin embargo, existen diferencias clave.
 
-| Diferencias clave | Intervalo de fechas de creación de informes (Analysis Workspace) | Intervalo de fecha de retrospectiva (fuentes de datos) |
+| Diferencias clave | Ventana Informes (Analysis Workspace) | Ventana Procesamiento (Fuentes de datos) |
 |---------|---------|----------|
-| **Límite de datos**<br/> Si los datos se incluyen en un informe o fuente | Flexible<p>Los eventos que no entren dentro del intervalo de fechas del informe se pueden incluir en un informe de Workspace si alguno de los siguientes factores influye en los eventos:</p><ul><li>**Persistencia de Dimension**: puede persistir más allá del intervalo de fechas del informe al usar la sesión, el tiempo personalizado o la métrica [caducidad](/help/data-views/component-settings/persistence.md#expiration-settings). Igual que el intervalo de fechas del informe al usar la ventana de informes de personas [caducidad](/help/data-views/component-settings/persistence.md#expiration-settings). Se agregan los datos.</li><li>**Calificación de segmentos**: los segmentos pueden extenderse más allá del intervalo de fechas del informe de forma predeterminada.<p>Los usuarios pueden optar por limitar el segmento al intervalo de fechas del informe cuando creen el segmento.<!--add link to new docs--></p></li><li>**Cálculo de sesión**: las sesiones pueden extenderse más allá del intervalo de fechas del informe. </li><li>**Transformaciones de campo derivadas**</li></ul> | Fijo<p>Los eventos que se encuentran fuera del intervalo de fechas de retrospectiva nunca se incluyen en una fuente de datos, independientemente de si se ven influidos por los siguientes factores:</p></p><ul><li>**Persistencia de Dimension**: no puede persistir más allá del intervalo de fechas de retrospectiva, independientemente de [la configuración de caducidad](/help/data-views/component-settings/persistence.md#expiration-settings). Los datos no se acumulan.</li><li>**Calificación de segmentos**: siempre limitada al intervalo de fechas de retroactividad.</li><li>**Cálculo de sesión**: siempre limitado al intervalo de fechas retrospectivas.</li><li>**Transformaciones de campo derivadas**: todas las funciones de campo derivadas que hacen referencia a contenedores utilizan el intervalo de fecha retrospectiva en las exportaciones de fuentes de datos.</li></ul><p>Para obtener más información sobre la configuración del intervalo de fechas de retrospectiva, consulte [Crear una fuente de datos](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed).</p> |
-| **Ventana de informes**<br/> El lapso de tiempo para informar | Igual que la ventana de creación de informes (el lapso de tiempo sobre el que desea crear el informe). | No es lo mismo que el lapso de tiempo sobre el que desea informar. <p>El lapso de tiempo para generar informes es la ventana Frecuencia, que puede ser una hora o un día.</p> |
+| **Límite de datos**<br/> Si los datos se incluyen en un informe o fuente | Flexible<p>Los eventos que no entren en la ventana de creación de informes se pueden incluir en un informe de Workspace si alguno de los siguientes factores influye en los eventos:</p><ul><li>**Persistencia de Dimension**: puede persistir más allá de la ventana de informes al usar la sesión, el tiempo personalizado o la métrica [caducidad](/help/data-views/component-settings/persistence.md#expiration-settings). Igual que la ventana de informes al usar la ventana de informes de personas [expiration](/help/data-views/component-settings/persistence.md#expiration-settings). Se agregan los datos.</li><li>**Calificación de segmentos**: los segmentos pueden extenderse más allá de la ventana de creación de informes de forma predeterminada.<p>Los usuarios pueden optar por limitar el segmento a la ventana de creación de informes cuando creen el segmento.<!--add link to new docs--></p></li><li>**Cálculo de sesión**: las sesiones pueden extenderse más allá de la ventana de informes. </li><li>**Transformaciones de campo derivadas**</li></ul> | Fijo<p>Los eventos que quedan fuera de la ventana de procesamiento generalmente no influyen en la fuente de datos. La ventana de procesamiento se aplica a los siguientes factores:</p><ul><li>**Persistencia de Dimension**: puede persistir más allá del período de procesamiento (hasta 90 días) al usar Tiempo personalizado [caducidad](/help/data-views/component-settings/persistence.md#expiration-settings), igual que en Workspace. No puede persistir más allá de la ventana de procesamiento al usar la ventana de informes de personas [expiration](/help/data-views/component-settings/persistence.md#expiration-settings). Los datos no se acumulan.</li><li>**Calificación de segmentos**: Siempre limitado a la ventana de procesamiento.</li><li>**Cálculo de sesión**: Siempre limitado a la ventana de procesamiento.</li><li>**Transformaciones de campo derivadas**: todas las funciones de campo derivadas que hacen referencia a contenedores utilizan la ventana de procesamiento en las exportaciones de fuentes de datos.</li></ul> |
+| **Periodo de tiempo para informar sobre**<br/> Qué eventos se incluyen en un informe o fuente | Igual que la ventana de creación de informes. | No es lo mismo que la ventana de procesamiento. <p>El lapso de tiempo para generar informes es la ventana de frecuencia, que puede ser una sola hora o un solo día al final de la ventana de procesamiento.</p> |
 
 >[!BEGINSHADEBOX]
 
 **Ejemplo**
 
-El ejemplo siguiente ilustra cómo las diferencias entre el intervalo de fechas del sistema de informes y el intervalo de fechas de retrospectiva pueden provocar discrepancias de datos entre los informes de Workspace y las entregas de fuentes de datos.
+El ejemplo siguiente ilustra cómo las diferencias entre la ventana de informes y la ventana de procesamiento pueden provocar discrepancias de datos entre los informes de Workspace y las entregas de fuentes de datos.
 
-El evento A se produjo hace 85 días y se encuentra en una dimensión con una configuración de persistencia de 90 días (por ejemplo, una ventana de atribución de clic en una campaña). El evento se incluye en el informe de Analysis Workspace y no en la entrega de fuentes de datos.
+Un usuario cualificado para un segmento con un contenedor de persona hace 45 días y tiene un evento hoy. Un informe de Workspace con una ventana de informes de 30 días incluye el evento del usuario, ya que los segmentos pueden extenderse más allá de la ventana de informes de forma predeterminada. La entrega de fuentes de datos de hoy no incluye el evento, ya que la calificación de segmentos se limita al periodo de procesamiento de 30 días.
+
+<!-- update the following graphic -->
 
 ![Diferencias de datos entre el espacio de trabajo y las fuentes de datos](assets/data-feed-data-differences.png)
 
@@ -68,7 +70,7 @@ Las fuentes de datos y Analysis Workspace funcionan de forma diferente en relaci
 
 * **Fuentes de datos**: exporta datos en un período de tiempo fijo en función del momento en que se reciben los eventos.
 
-  Es posible que los eventos que llegan después de que se cierre la ventana no se incluyan en la exportación. Esto se ve influido por el [intervalo de fechas retrospectivas](#lookback-date-range-data-feeds-vs-reporting-date-range-analysis-workspace) que elija.
+  Es posible que los eventos que llegan después de que se cierre la ventana no se incluyan en la exportación. Esto se ve afectado por el [retraso de procesamiento](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-processing-delay) que elija.
 
 * **Analysis Workspace**: procesa los datos en el momento del informe, por lo que los eventos se incluyen en los informes independientemente del momento en que se recibieron.
 
