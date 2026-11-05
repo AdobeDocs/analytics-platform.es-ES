@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: bccb25182630e18943a52ceca621cdfd6696b819
+source-git-commit: 22ec8a3fc4334e49e06986fdf52b27f3e97bef75
 workflow-type: tm+mt
-source-wordcount: '4243'
-ht-degree: 16%
+source-wordcount: '4056'
+ht-degree: 13%
 ---
 # Creación de un feed de datos
 
@@ -70,7 +70,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_frequency_granularity"
 >title="Frecuencia y granularidad"
->abstract="**Frecuencia de envío** (fuentes activas): la frecuencia con la que se envía la fuente de datos. Los envíos por hora contienen los datos correspondientes a una hora, mientras que los envíos diarios contienen los datos correspondientes a un día. El intervalo de fechas de retroactividad y el retraso en el procesamiento también pueden afectar a los eventos que se incluyen.<p>**Granularidad** (fuentes de relleno): el intervalo de tiempo que se utiliza para dividir los datos históricos. Cada fragmento contiene los datos correspondientes a un día y se entrega lo más rápido posible, no una vez al día. Este campo siempre se establece en Diario y no se puede modificar.</p>"
+>abstract="**Frecuencia de envío** (fuentes activas): la frecuencia con la que se envía la fuente de datos. Los envíos por hora contienen los datos correspondientes a una hora, mientras que los envíos diarios contienen los datos correspondientes a un día.<p>Cada envío también consulta una ventana de procesamiento móvil de 30 días para calificar segmentos, calcular sesiones y mantener valores de dimensión. La ventana de procesamiento y el retraso del procesamiento pueden afectar a los eventos que se incluyen.</p><p>**Granularidad** (fuentes de relleno): Intervalo de tiempo utilizado para dividir los datos históricos. Cada fragmento contiene los datos correspondientes a un día y se entrega lo más rápido posible, no una vez al día. Este campo siempre se establece en Diario y no se puede modificar.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -174,9 +174,8 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | [!UICONTROL **Fecha de inicio**] | La fecha en la que comienza la fuente de datos. Para las fuentes en directo, debe ser hoy o una fecha futura. Para las fuentes de relleno, debe ser una fecha pasada dentro del período de retención de datos de la vista de datos. La fecha de inicio se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de caducidad**] <br/>Disponible solo para las fuentes en directo | La fecha en la que caduca la fuente de datos y ya no se ejecuta. La fecha se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de finalización**]<br/> Disponible solo para fuentes de relleno | La fecha en la que finaliza la fuente de datos. La fecha de finalización no puede ser futura. La fecha se basa en la zona horaria de la vista de datos. |
-   | [!UICONTROL **Frecuencia**]<br/> Disponible solo para las fuentes en directo | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. Los campos [!UICONTROL **Intervalo de fechas de retrospectiva**] y [!UICONTROL **Demora de procesamiento**] también pueden afectar qué eventos se incluyen en los datos para la frecuencia de envío que elija.<p>Seleccione esta opción para incluir datos de una hora o datos de un día.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos.</li><li>**Por hora**: las fuentes contienen datos de una sola hora.</li></ul> |
+   | [!UICONTROL **Frecuencia**]<br/> Disponible solo para las fuentes en directo | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. <p>Seleccione esta opción para incluir datos de una hora o datos de un día.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos.</li><li>**Por hora**: las fuentes contienen datos de una sola hora.</li></ul> <p>Cada entrega también utiliza un período de procesamiento móvil de 30 días, que precede e incluye la ventana de frecuencia, para calificar segmentos, calcular sesiones y mantener valores de dimensión. Tanto la ventana de procesamiento como el campo [!UICONTROL **Demora del procesamiento**] pueden afectar a los eventos que se incluyen. Para obtener más información, consulte [Comprender la ventana de procesamiento](#data-feed-processing-window) y [Comprender el retraso del procesamiento](#data-feed-processing-delay).</p> |
    | [!UICONTROL **Granularidad**]<br/> Disponible solo para fuentes de relleno | Intervalo de tiempo utilizado para dividir los datos históricos en fragmentos. Cada fragmento contiene datos de un día completo, desde la medianoche hasta la medianoche en el huso horario de la vista de datos. <p>La granularidad determina cómo se agrupan los datos, no con qué frecuencia se envían. Los datos de relleno se entregan lo más rápido posible, no una vez al día.</p><p>Este campo siempre está establecido en [!UICONTROL **Daily**] y no se puede modificar.</p> |
-   | [!UICONTROL **Intervalo de fechas de retrospectiva**] | Controla hasta qué momento del tiempo se remonta Customer Journey Analytics cuando procesa el envío de fuentes de datos. El valor predeterminado es de 30 días.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivas** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos que se incluyen.</p> <p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprender el intervalo de fechas de retrospectiva](#data-feed-lookback-date-range).</p> |
    | [!UICONTROL **Retraso de procesamiento**] | La cantidad de tiempo que Customer Journey Analytics espera antes de procesar un archivo de fuente de datos. Los eventos que llegan tarde y que se producen durante el período de tiempo de retraso del procesamiento se incluyen en la fuente de datos. <p>Elija un retraso que sea lo suficientemente largo como para que los datos más lentos de su conexión terminen de procesarse. Si el retraso es demasiado corto, los datos que aún se están procesando no se incluirán en el archivo de la fuente de datos.</p><p>El retraso mínimo del procesamiento es de dos horas. El valor predeterminado se basa en los conjuntos de datos de la conexión. Por ejemplo, si la vinculación está habilitada, el valor predeterminado es de 6 horas. Algunos tipos de datos requieren un retraso más largo. El retraso que elija dependerá de los tipos de datos de la conexión, como datos de flujo continuo, por lotes, vinculados, búsqueda o de perfil.</p><p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprenda el retraso de procesamiento](#data-feed-processing-delay).</p> |
    | [!UICONTROL **Formato de compresión**] | Seleccione el formato de compresión para los archivos de salida de Parquet enviados a su destino de nube. Elija entre los siguientes formatos:<ul><li>[!UICONTROL **Rápido**]: Compresión y descompresión rápidas con tamaños de archivo moderados. Ampliamente compatible con plataformas de datos modernas como BigQuery, Snowflake y Apache Spark.</li><li>[!UICONTROL **GZip**]: Ampliamente compatible, incluso con herramientas que no admiten Snappy de forma nativa. Se recomienda si la canalización descendente requiere un estándar de compresión ampliamente reconocido.</li><li>[!UICONTROL **Z Standard (Zstd)**]: Alta eficiencia de compresión con descompresión rápida. Adecuado si minimizar el tamaño del archivo es una prioridad y sus herramientas admiten Zstd.</li></ul> |
 
@@ -207,31 +206,19 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-## Conocer el intervalo de fechas retrospectivas {#data-feed-lookback-date-range}
+## Comprender la ventana de procesamiento {#data-feed-processing-window}
 
-<!-- markdownlint-disable MD034 -->
+La **ventana de procesamiento** es un período móvil de 30 días que precede e incluye la ventana de frecuencia (hora o día) seleccionada. Customer Journey Analytics utiliza los datos de la ventana de procesamiento para procesar cada entrega de fuente de datos. La ventana de procesamiento siempre es de 30 días y no se puede cambiar.
 
->[!CONTEXTUALHELP]
->id="cja_datafeed_lookback_date_range"
->title="Intervalo de fecha de retroactividad"
->abstract="Controla hasta qué momento se remonta Customer Journey Analytics cuando procesa cada envío.<p>La ventana de frecuencia (hora o día) determina qué eventos se incluyen en la fuente de datos, mientras que el **intervalo de fechas retrospectivas** proporciona el contexto histórico necesario para clasificar correctamente esos eventos.</p><p>La calificación de segmentos, la persistencia de dimensiones, el cálculo de sesiones y las transformaciones de campos derivados pueden afectar a los eventos que se incluyen.</p><p>Una retrospectiva más larga mejora la precisión; una retrospectiva más corta mejora el rendimiento.</p>"
+La ventana de frecuencia determina qué eventos se incluyen en el envío. La ventana de procesamiento proporciona el contexto histórico necesario para clasificar correctamente esos eventos, como para qué segmentos cumplen los requisitos, a qué sesión pertenecen y qué valores de dimensión persisten.
 
-<!-- markdownlint-enable MD034 -->
+La ventana de procesamiento, junto con la ventana de frecuencia, funciona de manera similar a la ventana de informes de Analysis Workspace. Sin embargo, existen [diferencias clave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#processing-window). Estas diferencias pueden provocar discrepancias de datos entre los informes de Workspace y las entregas de fuentes de datos.
 
-El intervalo de fechas retrospectivo controla hasta dónde llega Customer Journey Analytics al procesar cada entrega de fuente de datos.
-
-Los eventos deben seguir teniendo marcas de tiempo incluidas en la ventana de frecuencia (hora o día) para que se incluyan en el envío, pero los datos incluidos en el **intervalo de fecha retrospectiva** proporcionan el contexto histórico necesario para clasificar correctamente esos eventos.
-
-Al configurar esta opción, tenga en cuenta los siguientes conceptos importantes:
-
-* Un intervalo de fecha retrospectiva más largo suele generar datos más precisos; un intervalo más corto resulta en un mejor rendimiento de entrega.
-* El intervalo de fechas de retrospectiva, junto con la ventana de frecuencia, funcionan de manera similar al intervalo de fechas de los informes de Analysis Workspace. Sin embargo, existen [diferencias clave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Estas diferencias pueden provocar discrepancias de datos entre los informes de Workspace y las entregas de fuentes de datos.
-
-La calificación de segmentos, el cálculo de sesiones, la persistencia de dimensiones y las transformaciones de campos derivados se tienen en cuenta al procesar datos dentro del intervalo de fechas retrospectivo:
+La calificación de segmentos, el cálculo de sesiones, la persistencia de dimensiones y las transformaciones de campos derivados se tienen en cuenta al procesar datos dentro de la ventana de procesamiento:
 
 ### Calificación de segmentos
 
-Cuando se aplica un segmento a su definición de fuente de datos, los datos dentro del intervalo de fechas de retrospectiva determinan qué eventos, sesiones o personas cumplen los requisitos para el segmento. La configuración del contenedor del segmento determina el ámbito. (Los contenedores posibles son: Persona, Sesión o Evento. B2B incluye los siguientes contenedores adicionales: Cuenta global, Cuenta, Oportunidad, Grupo de compra).
+Cuando se aplica un segmento a la definición de la fuente de datos, los datos de la ventana de procesamiento determinan qué eventos, sesiones o personas cumplen los requisitos para el segmento. La configuración del contenedor del segmento determina el ámbito. (Los contenedores posibles son: Persona, Sesión o Evento. B2B incluye los siguientes contenedores adicionales: Cuenta global, Cuenta, Oportunidad, Grupo de compra).
 
 >[!BEGINSHADEBOX]
 
@@ -244,35 +231,33 @@ Para ello, aplica un segmento a la fuente de datos llamado _Usuarios en la campa
 En este caso, los usuarios se incluyen en la fuente de datos solamente si cumplen **ambas** de las siguientes condiciones:
 
 * El usuario tenía un evento con una marca de tiempo dentro de la ventana de frecuencia de fuente de datos (la hora o el día dados de la fuente de datos).
-* El usuario se calificó para el segmento _Campaign B_ **en algún momento dentro del intervalo de fechas retrospectivas**.
+* El usuario se calificó para el segmento _Campaign B_ **en algún momento dentro de la ventana de procesamiento**.
 
-  Para un evento correspondiente que se produjo hace 9 días, esto significa que el usuario **se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 30 días, pero el usuario **no se incluiría** en la fuente de datos si el intervalo de fechas de retrospectiva se estableciera en 7 días.
+  Por ejemplo, un usuario que calificó para el segmento hace **9 días está incluido** en la fuente de datos. No se incluye a un usuario que se calificó por última vez hace **45 días**, ya que ese evento queda fuera de la ventana de procesamiento de 30 días.
 
 >[!ENDSHADEBOX]
 
 ### Cálculo de sesión
 
-Los límites de la sesión se calculan utilizando todos los eventos del intervalo de fechas de retrospectiva, no solo los eventos de la ventana de envío. Una sesión que se inició antes de la ventana de envío sigue reconociéndose como la misma sesión.
+Los límites de la sesión se calculan utilizando todos los eventos de la ventana de procesamiento, no solo los eventos de la ventana de frecuencia. Una sesión que se inició antes de la ventana de frecuencia se sigue reconociendo como la misma sesión.
 
 El ID de sesión se basa en la persona, la hora de inicio de la sesión y la configuración de sesión de la vista de datos. Una sesión mantiene el mismo ID de sesión en todas las entregas, para que pueda unirse a los eventos de una sesión que incluya varias entregas por hora o por día.
 
 Tenga en cuenta lo siguiente al trabajar con sesiones en fuentes de datos:
 
-* Si una sesión se inicia antes del intervalo de fechas de retrospectiva, sus eventos anteriores no están disponibles, por lo que los valores de sesión pueden diferir de los de Analysis Workspace. Para obtener más información, consulte [Comprender las discrepancias de datos entre las fuentes de datos y Analysis Workspace](/help/components/exports/cja-data-feeds/df-comparison-workspace.md).
+* Si una sesión se inicia antes de la ventana de procesamiento, sus eventos anteriores no están disponibles, por lo que los valores de la sesión pueden diferir de los de Analysis Workspace. Para obtener más información, consulte [Comprender las discrepancias de datos entre las fuentes de datos y Analysis Workspace](/help/components/exports/cja-data-feeds/df-comparison-workspace.md).
 * Al cambiar la configuración de sesión en la vista de datos, se cambian los ID de sesión. Los ID de sesión de entregas posteriores no coinciden con los ID de sesión de entregas anteriores.
 
 ### Persistencia de Dimension
 
 Cuando se establece la persistencia en una dimensión individual, también se establece una caducidad para determinar cuánto tiempo persiste el elemento de dimensión más allá del evento en el que está establecido.
 
-El intervalo de fechas de retrospectiva afecta a la persistencia de la dimensión cuando la caducidad se establece en cualquiera de las siguientes opciones de la vista de datos:
+La ventana de procesamiento afecta a la persistencia de la dimensión cuando la caducidad se establece en cualquiera de las siguientes opciones de la vista de datos:
 
-* [!UICONTROL **Ventana de informes de personas**]: el intervalo de fechas de retrospectiva se convierte en la nueva ventana de informes para cada dimensión en la definición de fuente de datos que usa [!UICONTROL **Ventana de informes de personas**] como caducidad.
-* [!UICONTROL **Tiempo personalizado**]: si la hora personalizada seleccionada se extiende más allá del intervalo de fechas de retrospectiva, la hora personalizada se omite y el intervalo de fechas de retrospectiva se usa para la caducidad de dimensiones de cada dimensión en la definición de la fuente de datos que usa [!UICONTROL **Tiempo personalizado**] como caducidad. No se tienen en cuenta los valores que se produjeron antes del intervalo de fechas retroactivo.
+* [!UICONTROL **Ventana de informes de personas**]: La ventana de procesamiento se convierte en la nueva ventana de informes para cada dimensión de la definición de fuente de datos que usa [!UICONTROL **Ventana de informes de personas**] como caducidad.
+* [!UICONTROL **Tiempo personalizado**]: si el tiempo personalizado seleccionado se extiende más allá de la ventana de procesamiento, el tiempo personalizado se omite y la ventana de procesamiento se usa para la caducidad de dimensiones de cada dimensión en la definición de fuente de datos que usa [!UICONTROL **Tiempo personalizado**] como caducidad. No se tienen en cuenta los valores que se produjeron antes de la ventana de procesamiento.
 
   Para obtener más información acerca de cómo establecer la persistencia en dimensiones dentro de la vista de datos, vea [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).
-
-Para obtener los datos más precisos, considere la posibilidad de establecer el intervalo de fechas de retrospectiva en un valor igual o mayor que la persistencia establecida en las dimensiones de los datos. Sin embargo, tenga en cuenta que un intervalo de fechas de retrospectiva más corto resulta en un mejor rendimiento para las entregas de fuentes de datos.
 
 >[!BEGINSHADEBOX]
 
@@ -286,15 +271,15 @@ En este caso, la campaña original solo se mostrará en la salida de la fuente d
 
 * El usuario tenía un evento con una marca de tiempo dentro de la ventana de frecuencia de fuente de datos (la hora o el día dados de la fuente de datos).
 
-* El usuario calificó para la campaña original **en algún momento dentro del intervalo de fechas retrospectivas**.
+* El usuario calificó para la campaña original **en algún momento dentro de la ventana de procesamiento**.
 
-  Si el usuario se calificó para la campaña original hace 9 días, la campaña original **se incluye** en la fuente de datos si el intervalo de fechas retrospectivas se establece en 30 días, pero la campaña original **no se incluye** en la fuente de datos si el intervalo de fechas retrospectivas se establece en 7 días.
+  Si el usuario calificó para la campaña original hace 9 días, la campaña original **se incluye** en la fuente de datos. Si el usuario se calificó hace 45 días, la campaña original **no se incluye** porque queda fuera de la ventana de procesamiento de 30 días.
 
 >[!ENDSHADEBOX]
 
 ### Transformaciones de campo derivadas
 
-Cualquier función de campo derivada que haga referencia a contenedores utiliza el intervalo de fechas de retrospectiva en las exportaciones de fuentes de datos. ¿Qué capacidades de fecha existen en los campos derivados? <!--Not sure how this applies.-->
+Cualquier función de campo derivada que haga referencia a contenedores utiliza la ventana de procesamiento en las exportaciones de fuentes de datos. ¿Qué capacidades de fecha existen en los campos derivados? <!--Not sure how this applies.-->
 
 ## Comprensión del retraso del procesamiento {#data-feed-processing-delay}
 

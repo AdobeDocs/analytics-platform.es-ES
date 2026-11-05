@@ -24,13 +24,11 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 7190b05d8c3d66a6f76ed256af3424ba3c971855
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: '1119'
 ht-degree: 78%
-
 ---
-
 # Configuración de componentes de [!UICONTROL persistencia] {#persistence-component-settings}
 
 <!-- markdownlint-disable MD034 -->
@@ -64,7 +62,7 @@ La [!UICONTROL persistencia] es la capacidad de un valor de dimensión determina
 | --- | --- |
 | [!UICONTROL Establecer persistencia] | Habilite la persistencia para la dimensión. Si la persistencia no está habilitada, la dimensión solo se relaciona con métricas que existen en el mismo evento. Esta opción está desactivada de manera predeterminada. |
 | [!UICONTROL Asignación] | Especifique el modelo de asignación utilizado en una dimensión para la persistencia. Las opciones son:<ul><li>**[!UICONTROL Más reciente]**: los valores de la dimensión persisten hasta que los valores subsiguientes los sobrescriban</li><li> **[!UICONTROL Original]**: el primer valor de esta dimensión persiste y no se sobrescribe con valores posteriores</li><li>**[!UICONTROL Todos]**: todos los valores de esta dimensión persisten simultáneamente</li><li>**[!UICONTROL Primero conocido]**: Se usa el primer valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li><li>**[!UICONTROL Último conocido]**: se usa el último valor de esta dimensión, que se aplicará a todos los eventos antes y después.</li></ul> |
-| [!UICONTROL Caducidad] | Especifique la ventana de persistencia para una dimensión. Las opciones son: <ul><li>**[!UICONTROL Sesión]** (valor predeterminado).</li><li>**[!UICONTROL Persona]**</li><li>**[!UICONTROL Tiempo personalizado]**</li><li>**[!UICONTROL Métrica]**</li></ul>. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). El tiempo de caducidad máximo que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
+| [!UICONTROL Caducidad] | Especifique la ventana de persistencia para una dimensión. Las opciones son: <ul><li>**[!UICONTROL Sesión]** (valor predeterminado).</li><li>**[!UICONTROL Ventana de informes de persona]**</li><li>**[!UICONTROL Tiempo personalizado]**</li><li>**[!UICONTROL Métrica]**</li></ul>. Es posible que deba poder caducar la dimensión de una compra (por ejemplo, términos de búsqueda internos u otros casos de uso de comercialización). El tiempo de caducidad máximo que puede establecer es de 90 días. Si selecciona una asignación de [!UICONTROL Todos], solo está disponible la caducidad de la [!UICONTROL Sesión] o [!UICONTROL Persona]. |
 
 {style="table-layout:auto"}
 
@@ -74,28 +72,28 @@ La configuración de asignación disponible es:
 
 * **[!UICONTROL Más reciente]**: conserva el valor más reciente (por marca de tiempo) presente en la dimensión. Cualquier valor posterior que aparezca en el periodo de caducidad de la dimensión reemplaza al valor que persiste anteriormente. Si Tratar Sin valor como un valor está habilitado en esta dimensión en [Sin opciones de valor](no-value-options.md), los valores vacíos sobrescriben los valores persistentes anteriormente. Por ejemplo, vea la siguiente tabla con asignación [!UICONTROL Más reciente] y caducidad de [!UICONTROL Sesión]:
 
-  | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
+  | Dimensión | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
   | --- | --- | --- | --- | --- | --- |
   | Valores del conjunto de datos |  | C | B |  | A |
   | Asignación más reciente |  | C | B | B | A |
 
 * **[!UICONTROL Original]**: conserva el valor original por marca de tiempo que está presente en la dimensión durante el período de caducidad. Si esta dimensión tiene un valor, no se sobrescribe cuando se ve un valor diferente en un evento posterior. Por ejemplo, vea la siguiente tabla con asignación [!UICONTROL Original] y caducidad de [!UICONTROL Sesión]:
 
-  | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
+  | Dimensión | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
   | --- | --- | --- | --- | --- | --- |
   | Valores del conjunto de datos |  | C | B |  | A |
   | Asignación original |  | C | C | C | C |
 
 * **[!UICONTROL Todos]**: actúa de manera similar al modelo de atribución [!UICONTROL Participación] de las métricas. Conserva todos los valores de forma equitativa, de modo que cada uno obtenga crédito total para la métrica en la creación de informes. Por ejemplo, vea la siguiente tabla con asignación de [!UICONTROL Todo] y caducidad de [!UICONTROL Sesión]:
 
-  | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
+  | Dimensión | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
   | --- | --- | --- | --- | --- | --- |
   | Valores del conjunto de datos | A | B | C |  | A |
   | Toda la asignación | A | A,B | A,B,C | A,B,C | A,B,C |
 
 * **[!UICONTROL Conocido por primera vez]** y **[!UICONTROL Último conocido]**: (19 de enero de 2022 ) estos dos modelos de asignación satisfacen los casos de uso de dimensiones “entrada” y “salida”. Toman el primer o el último valor observado para una dimensión dentro de un ámbito de persistencia especificado (sesión, persona o período de tiempo personalizado con retrospectiva) y lo aplican a todos los eventos dentro del ámbito especificado. Ejemplo:
 
-  | Dimensión | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 |
+  | Dimensión | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
   | --- | --- | --- | --- | --- | --- |
   | Marca de tiempo (mín.) | 1 | 2 | 3 | 6 | 7 |
   | Valores originales |  | C | B |  | A |
