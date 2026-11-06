@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Personalization
 source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '581'
 ht-degree: 94%
 ---
 # Comprender las funciones exclusivas de Customer Journey Analytics {#feature-support-upgrade}
