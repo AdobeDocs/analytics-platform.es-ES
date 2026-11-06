@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3918'
 ht-degree: 48%
 ---
 # Asignación de columnas de fuentes de datos de Adobe Analytics a Customer Journey Analytics
@@ -667,7 +667,7 @@ Ubicación (menos de 1 m)
 
 +++**`mcvisid`**
 
-ID de visitante de Experience Cloud. Número de 128 bits formado por dos números concatenados de 64 bits con relleno hasta 19 dígitos.
+ECID. Número de 128 bits formado por dos números concatenados de 64 bits con relleno hasta 19 dígitos.
 
 +++
 

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 64%
+source-wordcount: '1997'
+ht-degree: 63%
 ---
 # Vinculación basada en gráficos
 
@@ -232,7 +232,7 @@ La siguiente tabla representa los mismos datos que los que hemos visto anteriorm
 
 Los siguientes requisitos previos se aplican específicamente a la vinculación basada en gráficos:
 
-- El conjunto de datos de evento de Adobe Experience Platform al que desea aplicar la vinculación debe tener una columna que identifique un perfil en cada fila, el **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca AppMeasurement de Adobe Analytics o un ECID generado por el servicio de identidad de Experience Platform.
+- El conjunto de datos de evento de Adobe Experience Platform al que desea aplicar la vinculación debe tener una columna que identifique un perfil en cada fila, el **ID persistente**. Por ejemplo, un ID de visitante generado por una biblioteca AppMeasurement de Adobe Analytics o un ECID generado por Edge Network.
 - El gráfico de identidad del servicio de identidad de Experience Platform debe configurarse en el nivel de zona protegida antes de habilitar la vinculación basada en gráficos.
   - El gráfico de identidad debe tener un área de nombres (por ejemplo `Email` o `Phone`) que desee usar durante la vinculación para resolver el ID de persona.
   - El gráfico de identidad debe rellenarse con información de identidades de cualquier conjunto de datos relevante (de tipo *event* o *profile* y que contenga al menos dos áreas de nombres útiles con valores de ID).

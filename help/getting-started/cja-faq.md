@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 95%
+source-wordcount: '2322'
+ht-degree: 94%
 ---
 # Preguntas frecuentes
 
@@ -61,9 +61,9 @@ No, [!UICONTROL Private Device Graph] y [!UICONTROL Device Coop] no son necesari
 +++
 
 
-+++**¿Necesito un [!UICONTROL Experience Cloud ID] (ECID) para [!UICONTROL Customer Journey Analytics]?**
++++**¿Necesito un ECID para [!UICONTROL Customer Journey Analytics]?**
 
-No, [!UICONTROL Customer Journey Analytics] admite cualquier ID de un conjunto de datos, ya sea [!UICONTROL ECID] o cualquier otro ID de su elección.
+No, [!UICONTROL Customer Journey Analytics] admite cualquier ID de un conjunto de datos, ya sea un ECID o cualquier otro ID de su elección.
 
 +++
 
