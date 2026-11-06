@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3523'
-ht-degree: 84%
+source-wordcount: '3516'
+ht-degree: 82%
 ---
 # Ingesta de datos mediante Web SDK
 
@@ -146,7 +146,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identification-field.png)
 
-   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante Experience Cloud ID y la dirección de correo electrónico. Hay muchos otros atributos disponibles para realizar un seguimiento de la identificación de la persona (por ejemplo, ID de cliente o ID de lealtad).
+   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar los perfiles que visitan el sitio mediante el ECID y la dirección de correo electrónico. Hay muchos otros atributos disponibles para realizar un seguimiento de la identificación de la persona (por ejemplo, ID de cliente o ID de lealtad).
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -154,7 +154,7 @@ Para configurar el esquema:
 
    ![Especificar ECID como identidad](./assets/specify-identity.png)
 
-   Está especificando la identidad de Experience Cloud como la identidad principal que el servicio de identidad de Adobe Experience Platform puede utilizar para combinar (unir) el comportamiento de los perfiles con el mismo ECID.
+   Está especificando el ECID como la identidad principal que el servicio de identidad de Adobe Experience Platform puede utilizar para combinar (unir) el comportamiento de los perfiles con el mismo ECID.
 
    Seleccione **[!UICONTROL Aplicar]**. Verá que aparece un icono de huella digital en el atributo de ECID.
 
@@ -182,7 +182,7 @@ Para configurar el esquema:
 
 1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
-Ha creado un esquema mínimo que modela los datos que puede capturar del sitio web. El esquema permite identificar perfiles mediante la identidad de Experience Cloud y la dirección de correo electrónico. Al habilitar el esquema para el perfil, se asegura de que los datos capturados del sitio web se agregan al perfil del cliente en tiempo real.
+Ha creado un esquema mínimo que modela los datos que puede capturar del sitio web. El esquema permite identificar los perfiles mediante el ECID y la dirección de correo electrónico. Al habilitar el esquema para el perfil, se asegura de que los datos capturados del sitio web se agregan al perfil del cliente en tiempo real.
 
 Junto a los datos de comportamiento, también puede capturar datos de atributos de perfil de su sitio (por ejemplo, detalles de perfiles que se subscriben a un boletín informativo).
 
@@ -194,7 +194,7 @@ Para capturar estos datos de perfil, debe hacer lo siguiente:
 
 - Agregar un objeto de identificación basado en el grupo de campos Profile Core v2.
 
-- Definir Experience Cloud ID como identificador principal y el correo electrónico como identificador.
+- Defina el ECID como identificador principal y el correo electrónico como identificador.
 
 - Habilitar el esquema para el perfil
 
@@ -315,9 +315,9 @@ Para crear y configurar la extensión del SDK web de Adobe Experience Platform, 
 
    Seleccione **[!UICONTROL Guardar]**.
 
-Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=es) para obtener más información.
+Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html) para obtener más información.
 
-Web SDK incluye el servicio de identidad de Experience Platform, por lo que no es necesario agregar la extensión de etiqueta [!UICONTROL Experience Cloud ID Service] a la propiedad.
+Web SDK obtiene el ECID de Edge Network, por lo que no es necesario agregar la extensión de etiqueta [!UICONTROL Experience Cloud ID Service] a su propiedad.
 
 #### **Elementos de datos**
 

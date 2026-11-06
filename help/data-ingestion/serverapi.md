@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2447'
-ht-degree: 62%
+source-wordcount: '2439'
+ht-degree: 60%
 ---
 # Ingesta de datos mediante la API de servidor de Edge Network
 
@@ -143,7 +143,7 @@ Para configurar el esquema:
 
    ![Objeto de identificación](./assets/identification-field-gaming.png)
 
-   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar los perfiles que están jugando a su juego mediante el Experience Cloud ID y la dirección de correo electrónico que utilizan para iniciar sesión en la consola de juegos. Hay muchos otros atributos disponibles para rastrear la identificación de su persona.
+   El objeto de identificación añade capacidades de identificación al esquema. En su caso, desea identificar los perfiles que juegan su juego mediante el ECID y la dirección de correo electrónico que utilizan para iniciar sesión en su consola de juegos. Hay muchos otros atributos disponibles para rastrear la identificación de su persona.
 
    Seleccione **[!UICONTROL Aplicar]** para agregar este objeto al esquema.
 
@@ -151,7 +151,7 @@ Para configurar el esquema:
 
    ![Especificar ECID como identidad](./assets/specify-identity-gaming.png)
 
-   Está especificando la identidad de Experience Cloud como la identidad principal que el servicio de identidad de Adobe Experience Platform puede utilizar para combinar (unir) el comportamiento de los perfiles con el mismo ECID.
+   Está especificando el ECID como la identidad principal que el servicio de identidad de Adobe Experience Platform puede utilizar para combinar (unir) el comportamiento de los perfiles con el mismo ECID.
 
    Seleccione **[!UICONTROL Aplicar]**. Verá que aparece un icono de huella digital en el atributo de ECID.
 
@@ -179,7 +179,7 @@ Para configurar el esquema:
 
 1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
-Ha creado un esquema mínimo que modela los datos que puede capturar de su juego. El esquema permite identificar perfiles mediante la identidad de Experience Cloud y la dirección de correo electrónico. Al habilitar el esquema para el perfil, se garantiza que los datos capturados desde el juego de la consola se añadan al perfil del cliente en tiempo real.
+Ha creado un esquema mínimo que modela los datos que puede capturar de su juego. El esquema permite identificar los perfiles mediante el ECID y la dirección de correo electrónico. Al habilitar el esquema para el perfil, se garantiza que los datos capturados desde el juego de la consola se añadan al perfil del cliente en tiempo real.
 
 Junto a los datos de comportamiento, también puede capturar datos de atributos de perfil desde la consola (por ejemplo, detalles de perfiles conectados a la consola).
 
@@ -191,7 +191,7 @@ Para capturar datos de perfil, debería hacer lo siguiente:
 
 - Agregar un objeto de identificación basado en el grupo de campos Profile Core v2.
 
-- Definir Experience Cloud ID como identificador principal y el correo electrónico como identificador.
+- Defina el ECID como identificador principal y el correo electrónico como identificador.
 
 - Habilitar el esquema para el perfil
 
@@ -306,7 +306,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 En la solicitud POST de ejemplo, `{DATASTREAM_ID}` señala al identificador de la secuencia de datos de ejemplo que configuró anteriormente. `{sandbox}` es el nombre único de su zona protegida que identifica la ruta al grupo de campos Luz cegadora personalizada.
 
-Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=es) para obtener más información sobre cómo usar la API de servidor de Edge Network.
+Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) para obtener más información sobre cómo usar la API de servidor de Edge Network.
 
 ## Configurar una conexión
 

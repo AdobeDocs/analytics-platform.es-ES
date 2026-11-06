@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 65%
 ---
 # Configuración de usuarios ejecutivos para que utilicen tableros
@@ -83,7 +83,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
    Aparece la pantalla **[!UICONTROL Elija una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo.
 
-1. Haga que pulsen el nombre de la empresa de inicio de sesión o de la organización de CX Enterprise que corresponda al cuadro de resultados que ha compartido.
+1. Haga que pulsen el nombre de la empresa de inicio de sesión o de la organización de Adobe que corresponda al cuadro de resultados que ha compartido.
 
    A continuación, la lista de cuadros de resultados muestra todos los cuadros de resultados que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
 

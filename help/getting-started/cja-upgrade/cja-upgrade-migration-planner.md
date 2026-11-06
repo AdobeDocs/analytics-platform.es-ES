@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2335'
 ht-degree: 16%
 ---
 # Migración de etiquetas a XDM {#upgrade-migration-planner}
@@ -80,7 +80,7 @@ Antes de crear una migración, asegúrese de que dispone de lo siguiente:
 
 * Una implementación de Adobe Analytics compatible (la extensión de Analytics para etiquetas). Consulte [Implementaciones de Adobe Analytics compatibles](#supported-adobe-analytics-implementations).
 
-* Acceda a la propiedad de etiquetas de Adobe que desee migrar, en la organización de Experience Cloud en la que ha iniciado sesión.
+* Acceda a la propiedad de etiquetas de Adobe que desee migrar, en la organización de Adobe en la que ha iniciado sesión.
 
 * Acceso al grupo de informes de Adobe Analytics cuyas variables desea asignar a XDM.
 
@@ -114,7 +114,7 @@ Una migración avanza por tres etapas: [!UICONTROL **Auditoría**], [!UICONTROL 
 
 1. Seleccione la propiedad de etiquetas que desee migrar y, a continuación, seleccione [!UICONTROL **Siguiente**].
 
-   Solo aparecen las propiedades de etiquetas disponibles para la organización de Experience Cloud que ha iniciado sesión.
+   Solo aparecen las propiedades de etiquetas disponibles para la organización que ha iniciado sesión.
 
 1. Seleccione la instantánea de la biblioteca de etiquetas que desee migrar y, a continuación, seleccione [!UICONTROL **Siguiente**].
 
@@ -264,7 +264,7 @@ Cada artefacto muestra su estado, como [!UICONTROL **Listo**] o [!UICONTROL **No
 
 Los conjuntos de asignaciones determinan cómo se asignan las variables de Analytics a los campos de esquema XDM.
 
-Puede crear un nuevo conjunto de asignaciones [&#x200B; durante el proceso de migración](#migrate-an-analytics-implementation-to-the-web-sdk). O bien, puede crear un conjunto de asignaciones independiente para utilizarlo con una migración futura o con otras tareas de migración.
+Puede crear un nuevo conjunto de asignaciones [ durante el proceso de migración](#migrate-an-analytics-implementation-to-the-web-sdk). O bien, puede crear un conjunto de asignaciones independiente para utilizarlo con una migración futura o con otras tareas de migración.
 
 ### Creación de un conjunto de asignaciones independiente {#xdm-mapping}
 

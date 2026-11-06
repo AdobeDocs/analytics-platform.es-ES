@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 85%
 ---
 # Añada la extensión del SDK web a la etiqueta {#upgrade-tag-extension}
@@ -50,7 +50,7 @@ ht-degree: 85%
 
 Utilice la función Etiquetas de Adobe Experience Platform a fin de implementar código en el sitio para recopilar datos. Esta solución de administración de etiquetas le permite implementar código de junto con otros requisitos de etiquetado. Las etiquetas ofrecen una integración perfecta con Adobe Experience Platform mediante la extensión del SDK web de Adobe Experience Platform.
 
-En la siguiente información se describe cómo añadir la extensión del SDK web a la etiqueta. Para obtener información adicional, consulte [Configuración de la extensión de la etiqueta del SDK web](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) en la documentación de Experience Platform. Web SDK incluye el servicio de identidad de Experience Platform, por lo que no es necesario agregar la extensión del [!UICONTROL Servicio de Experience Cloud ID] a su etiqueta.
+En la siguiente información se describe cómo añadir la extensión del SDK web a la etiqueta. Para obtener información adicional, consulte [Configuración de la extensión de la etiqueta del SDK web](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) en la documentación de Experience Platform. Web SDK obtiene el ECID de Edge Network, por lo que no es necesario agregar la extensión [!UICONTROL Experience Cloud ID Service] a su etiqueta.
 
 Después de [crear una etiqueta](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), debe configurarla con la extensión del SDK web de Adobe Experience Platform. Esto garantiza que se puedan enviar datos a Adobe Experience Platform (a través de la secuencia de datos).
 
