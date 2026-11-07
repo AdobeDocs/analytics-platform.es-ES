@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 484
-ht-degree: 4%
-
+source-wordcount: '484'
+ht-degree: 5%
 ---
-
 
 # Biblioteca JavaScript de Content Analytics
 
@@ -121,7 +119,7 @@ Habilite el seguimiento de experiencias y controle cómo se identifican las expe
 
 | Opción | Tipo | Predeterminado | Descripción |
 |--------|------|---------|-------------|
-| `includeExperiences` | booleano | `false` | Habilitar seguimiento de vista de página/experiencia |
+| `includeExperiences` | Booleano | `false` | Habilitar seguimiento de vista de página/experiencia |
 | `experienceConfigurations` | matriz | - | Definir experiencias por regex de dominio y parámetros de consulta |
 
 Cada entrada de `experienceConfigurations` acepta:

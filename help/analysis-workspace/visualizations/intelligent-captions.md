@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 100%
+ht-degree: 98%
 ---
 # Subtítulos inteligentes {#intelligent-captions}
 
@@ -58,7 +58,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Subtítulo
 
 Para lanzar subtítulos inteligentes generados automáticamente para una visualización, seleccione ![Subtítulos inteligentes](/help/assets/icons/AI.svg) en la parte superior derecha de la visualización. Esta selección genera información en forma de lenguaje natural.
 
-![Ventana de lanzamiento de análisis que muestra los subtítulos inteligentes para la tendencia de vistas de productos. ](assets/intelligent-captions.gif)
+![Ventana de lanzamiento de análisis que muestra los subtítulos inteligentes para la tendencia de vistas de productos. &#x200B;](assets/intelligent-captions.gif)
 
 
 Tenga en cuenta lo siguiente:

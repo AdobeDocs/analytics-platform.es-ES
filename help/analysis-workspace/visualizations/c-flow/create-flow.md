@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1852'
-ht-degree: 80%
+ht-degree: 79%
 ---
 # Configuración de una visualización de flujo {#configure-a-flow-visualization}
 
@@ -152,7 +152,7 @@ Suponga que desea rastrear la ruta que siguieron los usuarios tanto hacia como d
 
 En la parte superior de las visualizaciones aparece un resumen de la configuración de flujo. Las rutas de acceso del diagrama son proporcionales. Las rutas con más actividad parecen más gruesas.
 
-![Ejemplo de salida de flujo que muestra Termina con Visitas, dimensión de rutas: Página y contenedor de Flujo: Visitantes.](assets/flow-output.png)
+![Ejemplo de salida de flujo que muestra Ends with Visits, dimensión Pathing: Page y contenedor de flujo: Visitors.](assets/flow-output.png)
 
 Para explorar en profundidad los datos, tiene varias opciones:
 

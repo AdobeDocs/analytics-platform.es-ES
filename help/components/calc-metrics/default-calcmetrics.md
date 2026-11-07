@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 83%
+ht-degree: 80%
 ---
 # Plantillas de métricas calculadas
 
@@ -44,7 +44,7 @@ Customer Journey Analytics proporciona las siguientes plantillas de métricas ca
 | **[!UICONTROL Tasa de sesión multicanal]** | La proporción de sesiones que se produjeron y que incluían varios canales (como tráfico web y tráfico móvil) frente a las que incluían un solo canal. |
 | **[!UICONTROL Tasa por persona multicanal]** | La proporción de personas que han participado en varios canales, en comparación con aquellas que solo han participado en un único canal. |
 | **[!UICONTROL Sesiones de la aplicación móvil]** | El número de sesiones que se produjeron en la aplicación móvil. |
-| **[!UICONTROL Sesiones en canales múltiples web+aplicación]** | El número de sesiones que se produjeron y que incluían tráfico web y tráfico móvil. |
+| **[!UICONTROL Sesiones en canales múltiples web+aplicación]** | El número de sesiones que se produjeron y que incluyeron tráfico web y tráfico móvil. |
 | **[!UICONTROL Coste de las llamadas]** | El coste total de las llamadas al centro de llamadas. <!-- <p>Summary: Call length</p> --> |
 | **[!UICONTROL Duración media de las llamadas]** | Duración media de las llamadas realizadas al centro de llamadas. |
 | **[!UICONTROL Coste medio por llamada]** | El coste medio de las llamadas realizadas al centro de llamadas. |

@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Verá una visualización que muestra **[!UICONTROL Error al obtener los datos de
    1. En la lista de campos, seleccione **[!UICONTROL ‣ Product Category]**.
 1. Asegúrese de que **[!UICONTROL is]** es la selección del filtro.
 
-![AlertRed](/help/assets/icons/AlertRed.svg) Lookes no muestra la lista de valores posibles para **[!UICONTROL Product Category]**.
+El buscador ![AlertRed](/help/assets/icons/AlertRed.svg) no muestra la lista de valores posibles para **[!UICONTROL Product Category]**.
 
 ![Recuento de buscadores distinto](../assets/uc10-looker-result.png)
 

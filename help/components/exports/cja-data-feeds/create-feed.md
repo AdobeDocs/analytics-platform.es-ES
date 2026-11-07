@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 22ec8a3fc4334e49e06986fdf52b27f3e97bef75
+source-git-commit: 6db3ace5744a4277477c2a712c12fdd9a5f57c82
 workflow-type: tm+mt
-source-wordcount: '4056'
-ht-degree: 13%
+source-wordcount: '4331'
+ht-degree: 12%
 ---
 # Creación de un feed de datos
 
@@ -70,7 +70,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_frequency_granularity"
 >title="Frecuencia y granularidad"
->abstract="**Frecuencia de envío** (fuentes activas): la frecuencia con la que se envía la fuente de datos. Los envíos por hora contienen los datos correspondientes a una hora, mientras que los envíos diarios contienen los datos correspondientes a un día.<p>Cada envío también consulta una ventana de procesamiento móvil de 30 días para calificar segmentos, calcular sesiones y mantener valores de dimensión. La ventana de procesamiento y el retraso del procesamiento pueden afectar a los eventos que se incluyen.</p><p>**Granularidad** (fuentes de relleno): Intervalo de tiempo utilizado para dividir los datos históricos. Cada fragmento contiene los datos correspondientes a un día y se entrega lo más rápido posible, no una vez al día. Este campo siempre se establece en Diario y no se puede modificar.</p>"
+>abstract="**Frecuencia de envío** (fuentes activas): la frecuencia con la que se envía la fuente de datos. Los envíos por hora contienen los datos correspondientes a una hora, mientras que los envíos diarios contienen los datos correspondientes a un día.<p>Cada envío también consulta una ventana de procesamiento móvil de 30 días para calificar segmentos, calcular sesiones y mantener valores de dimensión. Tanto la ventana de procesamiento como el retraso de procesamiento pueden afectar a los eventos que se incluyen.</p><p>**Granularidad** (fuentes de relleno): Intervalo de tiempo utilizado para dividir los datos históricos. Cada fragmento contiene los datos correspondientes a un día y se entrega lo más rápido posible, no una vez al día. Este campo siempre se establece en Diario y no se puede modificar.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -117,7 +117,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | --------- | ---------- |
    | [!UICONTROL **Recomendado**] | Ordena los componentes con los recomendados en la parte superior de la lista. Los componentes que usted u otras personas de su organización utilizan con más frecuencia y más recientemente aparecen en la parte superior de la lista. |
    | [!UICONTROL **Alfabético**] | Ordena los componentes alfabéticamente. |
-   | [!UICONTROL **Categórica**] | Ordena componentes similares a [!UICONTROL **Recomendado**], excepto que las métricas calculadas y las métricas estándar se agrupan por separado en lugar de mezclarse. |
+   | [!UICONTROL **Categórica**] | Ordena componentes similares a [!UICONTROL **Recomendado**], excepto que los componentes se agrupan por separado en lugar de mezclarse. |
 
 1. Agregue componentes a la configuración de la fuente de datos. El carril izquierdo muestra solo los componentes válidos para las fuentes de datos.
 
@@ -139,13 +139,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
 1. (Opcional) Cambie el ID de salida de un componente. El ID de salida es el nombre de columna en la salida de la fuente de datos.
 
-   De forma predeterminada, el ID de salida es el ID del componente en snake_case. Cambiar el ID de salida solo afecta a esta fuente de datos. No cambia el ID del componente en la vista de datos. La previsualización de esquema muestra tanto el ID de componente como el ID de salida.
-
-   1. Pase el ratón sobre un componente del lienzo y seleccione el icono de información ![Información](/help/assets/icons/InfoOutline.svg).
-
-   1. Seleccione el icono de edición ![Editar](/help/assets/icons/Edit.svg) junto al identificador y, a continuación, especifique un nuevo identificador de salida.
-
-      <!--add screenshot-->
+   De forma predeterminada, el ID de salida es el ID del componente en snake_case. Cambiar el ID de salida solo afecta a esta fuente de datos. No cambia el ID del componente en la vista de datos. En la vista previa del esquema, el valor `id` es el identificador de salida.
 
    Los ID de salida deben:
 
@@ -156,6 +150,36 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    Los identificadores de salida no pueden comenzar por `_cja`, que está reservado para el uso de Adobe.
 
+   Puede cambiar los ID de salida de uno en uno o de forma masiva:
+
+   +++ Para cambiar el ID de salida de un solo componente
+
+   1. Pase el ratón sobre un componente del lienzo y seleccione el icono de información ![Información](/help/assets/icons/InfoOutline.svg).
+
+   1. Seleccione el icono de edición ![Editar](/help/assets/icons/Edit.svg) junto al identificador y, a continuación, especifique un nuevo identificador de salida.
+
+      <!--add screenshot-->
+
+   +++
+
+   +++ Para cambiar varios ID de salida a la vez
+
+   1. Debajo del panel **[!UICONTROL Vista previa del esquema]**, seleccione **[!UICONTROL Editar masivamente los ID de salida]**.
+
+   1. Seleccione **[!UICONTROL Copiar]** y, a continuación, pegue el JSON en un editor de texto u otra herramienta.
+
+   1. Actualice los valores `id`, que son los identificadores de salida. No puede cambiar los nombres de los componentes (`name`) ni los tipos (`type` y `dataType`).
+
+   1. Pegue el JSON editado de nuevo en el cuadro de diálogo, reemplazando el JSON existente y luego seleccione **[!UICONTROL Validar]**.
+
+   1. Revise el número de ID cambiados, ID sin modificar y errores. Si hay errores, seleccione **[!UICONTROL Atrás]** para corregirlos.
+
+   1. Seleccione **[!UICONTROL Aplicar cambios]**.
+
+   <!--SME CHECK: How are JSON entries matched to components (order or name)? What happens if entries are reordered, removed, or added? Where are error details shown?-->
+
+   +++
+
 1. (Opcional) Use los paneles **[!UICONTROL Resumen de fuente]** y **[!UICONTROL Vista previa de esquema]** en la parte derecha de la página para revisar la estructura de datos antes de continuar:
 
    * **[!UICONTROL Resumen de fuente]** muestra un recuento activo del total de componentes, columnas, dimensiones y métricas que agregó.
@@ -164,7 +188,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 
    <!--add screenshot-->
 
-1. En la ficha [!UICONTROL **Envío**], en la sección [!UICONTROL **Programar**], elija el tipo de fuente que desea crear (activa o de relleno) y, a continuación, especifique la ventana de informes, la frecuencia y otras opciones de configuración:
+1. En la ficha [!UICONTROL **Delivery**], en la sección [!UICONTROL **Schedule**], elija el tipo de fuente que desea crear (activa o de relleno) y, a continuación, especifique la frecuencia, el retraso de procesamiento y otras opciones de configuración:
 
    <!--add screenshot-->
 
@@ -174,10 +198,10 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | [!UICONTROL **Fecha de inicio**] | La fecha en la que comienza la fuente de datos. Para las fuentes en directo, debe ser hoy o una fecha futura. Para las fuentes de relleno, debe ser una fecha pasada dentro del período de retención de datos de la vista de datos. La fecha de inicio se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de caducidad**] <br/>Disponible solo para las fuentes en directo | La fecha en la que caduca la fuente de datos y ya no se ejecuta. La fecha se basa en la zona horaria de la vista de datos. |
    | [!UICONTROL **Fecha de finalización**]<br/> Disponible solo para fuentes de relleno | La fecha en la que finaliza la fuente de datos. La fecha de finalización no puede ser futura. La fecha se basa en la zona horaria de la vista de datos. |
-   | [!UICONTROL **Frecuencia**]<br/> Disponible solo para las fuentes en directo | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. <p>Seleccione esta opción para incluir datos de una hora o datos de un día.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos.</li><li>**Por hora**: las fuentes contienen datos de una sola hora.</li></ul> <p>Cada entrega también utiliza un período de procesamiento móvil de 30 días, que precede e incluye la ventana de frecuencia, para calificar segmentos, calcular sesiones y mantener valores de dimensión. Tanto la ventana de procesamiento como el campo [!UICONTROL **Demora del procesamiento**] pueden afectar a los eventos que se incluyen. Para obtener más información, consulte [Comprender la ventana de procesamiento](#data-feed-processing-window) y [Comprender el retraso del procesamiento](#data-feed-processing-delay).</p> |
+   | [!UICONTROL **Frecuencia**]<br/> Disponible solo para las fuentes en directo | Seleccione la frecuencia con la que se debe enviar la fuente de datos. Los eventos con marcas de tiempo incluidas en la ventana de frecuencia se incluyen en la entrega de fuentes de datos. <p>Seleccione esta opción para incluir datos de una hora o datos de un día.</p><ul><li>**Diario**: las fuentes contienen datos de un día completo, de medianoche a medianoche en el huso horario de la vista de datos.</li><li>**Por hora**: las fuentes contienen datos de una sola hora.</li></ul> <p>Cada entrega también utiliza un período de procesamiento móvil de 30 días, que precede e incluye la ventana de frecuencia, para calificar segmentos, calcular sesiones y mantener valores de dimensión. Tanto la ventana de procesamiento como la configuración [!UICONTROL **Demora del procesamiento**] pueden afectar a los eventos que se incluyen. Para obtener más información, consulte [Comprender la ventana de procesamiento](#data-feed-processing-window) y [Comprender el retraso del procesamiento](#data-feed-processing-delay).</p> |
    | [!UICONTROL **Granularidad**]<br/> Disponible solo para fuentes de relleno | Intervalo de tiempo utilizado para dividir los datos históricos en fragmentos. Cada fragmento contiene datos de un día completo, desde la medianoche hasta la medianoche en el huso horario de la vista de datos. <p>La granularidad determina cómo se agrupan los datos, no con qué frecuencia se envían. Los datos de relleno se entregan lo más rápido posible, no una vez al día.</p><p>Este campo siempre está establecido en [!UICONTROL **Daily**] y no se puede modificar.</p> |
    | [!UICONTROL **Retraso de procesamiento**] | La cantidad de tiempo que Customer Journey Analytics espera antes de procesar un archivo de fuente de datos. Los eventos que llegan tarde y que se producen durante el período de tiempo de retraso del procesamiento se incluyen en la fuente de datos. <p>Elija un retraso que sea lo suficientemente largo como para que los datos más lentos de su conexión terminen de procesarse. Si el retraso es demasiado corto, los datos que aún se están procesando no se incluirán en el archivo de la fuente de datos.</p><p>El retraso mínimo del procesamiento es de dos horas. El valor predeterminado se basa en los conjuntos de datos de la conexión. Por ejemplo, si la vinculación está habilitada, el valor predeterminado es de 6 horas. Algunos tipos de datos requieren un retraso más largo. El retraso que elija dependerá de los tipos de datos de la conexión, como datos de flujo continuo, por lotes, vinculados, búsqueda o de perfil.</p><p>Antes de configurar esta opción, vea los detalles y ejemplos descritos en la sección siguiente, [Comprenda el retraso de procesamiento](#data-feed-processing-delay).</p> |
-   | [!UICONTROL **Formato de compresión**] | Seleccione el formato de compresión para los archivos de salida de Parquet enviados a su destino de nube. Elija entre los siguientes formatos:<ul><li>[!UICONTROL **Rápido**]: Compresión y descompresión rápidas con tamaños de archivo moderados. Ampliamente compatible con plataformas de datos modernas como BigQuery, Snowflake y Apache Spark.</li><li>[!UICONTROL **GZip**]: Ampliamente compatible, incluso con herramientas que no admiten Snappy de forma nativa. Se recomienda si la canalización descendente requiere un estándar de compresión ampliamente reconocido.</li><li>[!UICONTROL **Z Standard (Zstd)**]: Alta eficiencia de compresión con descompresión rápida. Adecuado si minimizar el tamaño del archivo es una prioridad y sus herramientas admiten Zstd.</li></ul> |
+   | [!UICONTROL **Formato de compresión**] | Seleccione el formato de compresión para los archivos de salida de Parquet enviados a su destino de nube. Elija entre los siguientes formatos:<ul><li>[!UICONTROL **Rápido**]: Compresión y descompresión rápidas con tamaños de archivo moderados. Ampliamente compatible con plataformas de datos modernas como BigQuery, Snowflake y Apache Spark.</li><li>[!UICONTROL **GZip**]: Ampliamente compatible, incluso con herramientas que no admiten Snappy de forma nativa. Se recomienda si la canalización descendente requiere un estándar de compresión ampliamente reconocido.</li><li>[!UICONTROL **Z Standard (Zstd)**]: Alta eficiencia de compresión con descompresión rápida. Adecuado si minimizar el tamaño del archivo es una prioridad y sus herramientas admiten Zstd.</li></ul><p>Todos los formatos comprimen los datos dentro de cada archivo de Parquet, una columna a la vez, de modo que el almacén de datos aún puede leer solo las columnas que necesita una consulta.</p><p>Para obtener información sobre las ventajas de Parquet y cómo consultar o cargar los archivos después de enviarlos, vea [Trabajar con archivos de Parquet en las fuentes de datos](/help/components/exports/cja-data-feeds/df-parquet.md).</p> |
 
 1. En la ficha [!UICONTROL **Delivery**], en la sección [!UICONTROL **Destination**], configure el destino al que desea enviar los datos.
 
@@ -250,14 +274,23 @@ Tenga en cuenta lo siguiente al trabajar con sesiones en fuentes de datos:
 
 ### Persistencia de Dimension
 
-Cuando se establece la persistencia en una dimensión individual, también se establece una caducidad para determinar cuánto tiempo persiste el elemento de dimensión más allá del evento en el que está establecido.
+Al establecer la persistencia en una dimensión, también se establece una caducidad que determina cuánto tiempo persiste el elemento de dimensión más allá del evento en el que está establecido.
 
-La ventana de procesamiento afecta a la persistencia de la dimensión cuando la caducidad se establece en cualquiera de las siguientes opciones de la vista de datos:
+La ventana de procesamiento limita la persistencia para cada configuración de caducidad. No se tienen en cuenta los valores establecidos antes de la ventana de procesamiento, excepto con caducidad de [!UICONTROL **Custom Time**]:
 
-* [!UICONTROL **Ventana de informes de personas**]: La ventana de procesamiento se convierte en la nueva ventana de informes para cada dimensión de la definición de fuente de datos que usa [!UICONTROL **Ventana de informes de personas**] como caducidad.
-* [!UICONTROL **Tiempo personalizado**]: si el tiempo personalizado seleccionado se extiende más allá de la ventana de procesamiento, el tiempo personalizado se omite y la ventana de procesamiento se usa para la caducidad de dimensiones de cada dimensión en la definición de fuente de datos que usa [!UICONTROL **Tiempo personalizado**] como caducidad. No se tienen en cuenta los valores que se produjeron antes de la ventana de procesamiento.
+* [!UICONTROL **Sesión**]: los valores persisten hasta el final de la sesión. Si se inicia una sesión antes de la ventana de procesamiento, no se tienen en cuenta los valores establecidos antes de la ventana de procesamiento.
+* [!UICONTROL **Ventana de informes de personas**]: se usa la ventana de procesamiento de 30 días como caducidad. Solo persisten los valores configurados dentro de la ventana de procesamiento.
+* [!UICONTROL **Tiempo personalizado**]: los valores persisten para el tiempo personalizado establecido en la dimensión. Si el tiempo personalizado supera la ventana de procesamiento de 30 días, la fuente de datos retrocede antes del inicio de la ventana de procesamiento (hasta 90 días) para que los valores de dimensión establecidos antes de la ventana de procesamiento puedan persistir en eventos en la entrega.
 
-  Para obtener más información acerca de cómo establecer la persistencia en dimensiones dentro de la vista de datos, vea [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md).
+  <!--FOLLOW-UP: Remove this note when the persistence back-end change (AN-495620) ships. Also remove the matching sentence in df-comparison-workspace.md (Dimension persistence bullet).-->
+
+  >[!NOTE]
+  >
+  >Actualmente, las caducidades de Tiempo personalizado están limitadas a la ventana de procesamiento de 30 días. Si el tiempo personalizado supera los 30 días, se utiliza la ventana de procesamiento como caducidad y no se tienen en cuenta los valores establecidos antes de la ventana de procesamiento. La compatibilidad con tiempos personalizados que se extienden más allá de la ventana de procesamiento estará disponible próximamente.
+
+* [!UICONTROL **Métrica**]: los valores persisten hasta que se produce la métrica seleccionada. No se tienen en cuenta los valores establecidos antes de la ventana de procesamiento.
+
+Para obtener más información acerca de cómo establecer la persistencia en dimensiones dentro de la vista de datos, vea [Configuración del componente de persistencia](/help/data-views/component-settings/persistence.md). Para obtener información sobre las diferencias entre la persistencia de las fuentes de datos y Analysis Workspace, consulte [Comprender las discrepancias de datos entre las fuentes de datos y Analysis Workspace](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#processing-window).
 
 >[!BEGINSHADEBOX]
 
@@ -265,7 +298,7 @@ La ventana de procesamiento afecta a la persistencia de la dimensión cuando la 
 
 Imagine que en la fuente de datos desea saber qué usuarios de campañas de marketing vieron originalmente antes de llegar al sitio.
 
-Para ello, se establece la persistencia en la dimensión Campañas con Original como modelo de asignación.
+Para ello, establezca la persistencia en la dimensión Campañas con Original como modelo de asignación y [!UICONTROL **Ventana de informes de personas**] como caducidad.
 
 En este caso, la campaña original solo se mostrará en la salida de la fuente de datos si los usuarios cumplen **ambas** de las siguientes condiciones:
 

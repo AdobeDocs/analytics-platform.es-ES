@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1679'
 ht-degree: 14%
 ---
 # Ingesta y uso de públicos de Experience Platform
@@ -363,7 +363,7 @@ En la interfaz de usuario de Experience Platform, haga lo siguiente:
    1. (opcional) Escriba **[!UICONTROL Descripción]**.
    1. Seleccione **[!UICONTROL Finalizar]**.
 1. Configure el esquema para que contenga un grupo de campos personalizados (por ejemplo, **[!UICONTROL Pertenencia a la audiencia]**) que contenga dos campos llamados **[!UICONTROL audienceMembershipId]** y **[!UICONTROL audienceMembershipName]**.
-1. Asegúrese de que el campo **[!UICONTROL personID]** sea una **[!UICONTROL identidad]**, **[!UICONTROL identidad principal]** y que tenga **[!UICONTROL Correo electrónico]** como el área de nombres de ID&#x200B;**[!UICONTROL identidad]**.
+1. Asegúrese de que el campo **[!UICONTROL personID]** sea una **[!UICONTROL identidad]**, **[!UICONTROL identidad principal]** y que tenga **[!UICONTROL correo electrónico]** como **[!UICONTROL área de nombres de identidad]**.
 
    ![Segmento para exportación](assets/segment-for-export.png)
 

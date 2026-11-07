@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: '955'
 ht-degree: 91%
-
 ---
-
 # Configuración de componentes de la subcadena {#substring-component-settings}
 
 <!-- markdownlint-disable MD034 -->
@@ -55,9 +53,9 @@ Realice una parte de una cadena basada en su posición hasta el principio o el f
 * **[!UICONTROL Final de cadena]**: El final de la cadena.
 * **[!UICONTROL Posición]**: Un número estático de caracteres de la izquierda o la derecha, según el método.
 * **[!UICONTROL Cadena]**: Haga coincidir un carácter o secuencia de caracteres para indicar el principio o el final de una cadena. Este menú desplegable también revela opciones adicionales:
-   * **[!UICONTROL Coincidencia]**: La cadena que debe coincidir. Si la entrada no coincide con este campo, se aplica [Sin opciones de valor](no-value-options.md).
-   * **[!UICONTROL Índice]**: Los criterios de **[!UICONTROL Coincidencia]** se pueden presentar varias veces en una cadena. Este entero determina qué coincidencia debe comenzar o finalizar la salida, según el método. Por ejemplo, un índice de `1` representa la primera coincidencia. Si el índice es mayor que el número de coincidencias disponibles, se aplica [Sin opciones de valor](no-value-options.md).
-   * **[!UICONTROL Incluir cadena]**: Una casilla de verificación que incluya la cadena **[!UICONTROL Coincidencia]** en la salida si está habilitada.
+  * **[!UICONTROL Coincidencia]**: La cadena que debe coincidir. Si la entrada no coincide con este campo, se aplica [Sin opciones de valor](no-value-options.md).
+  * **[!UICONTROL Índice]**: Los criterios de **[!UICONTROL Coincidencia]** se pueden presentar varias veces en una cadena. Este entero determina qué coincidencia debe comenzar o finalizar la salida, según el método. Por ejemplo, un índice de `1` representa la primera coincidencia. Si el índice es mayor que el número de coincidencias disponibles, se aplica [Sin opciones de valor](no-value-options.md).
+  * **[!UICONTROL Incluir cadena]**: Una casilla de verificación que incluya la cadena **[!UICONTROL Coincidencia]** en la salida si está habilitada.
 * **[!UICONTROL Longitud]**: Un entero que especifica el recuento de caracteres que se va a incluir después de la posición inicial de la salida. Solo está disponible en el menú desplegable **[!UICONTROL Para]**.
 
 ## Delimitador
@@ -65,9 +63,9 @@ Realice una parte de una cadena basada en su posición hasta el principio o el f
 Utilice este método para campos que utilizan un delimitador para separar varios valores de cadena. Puede extraer un elemento individual para utilizarlo como salida o convertir la cadena en un elemento de esquema de matriz de objetos.
 
 * **[!UICONTROL Criterio]**: Cómo desea tratar la lista delimitada de valores.
-   * **[!UICONTROL Desde la izquierda]**: Comience desde el principio de la lista delimitada y cuente hacia adelante.
-   * **[!UICONTROL Desde la derecha]**: Comience desde el final de la lista delimitada y cuente hacia atrás.
-   * **[!UICONTROL Convertir en matriz]**: Trate esta dimensión como si fuera un elemento de esquema de matriz de objetos. La dimensión está disponible como [contenedor personalizado](/help/data-views/create-dataview.md#containers-1) que puede seleccionar en la vista de datos y usar para el [análisis de subeventos](/help/components/segments/sub-event.md) en un proyecto del área de trabajo.
+  * **[!UICONTROL Desde la izquierda]**: Comience desde el principio de la lista delimitada y cuente hacia adelante.
+  * **[!UICONTROL Desde la derecha]**: Comience desde el final de la lista delimitada y cuente hacia atrás.
+  * **[!UICONTROL Convertir en matriz]**: Trate esta dimensión como si fuera un elemento de esquema de matriz de objetos. La dimensión está disponible como [contenedor personalizado](/help/data-views/create-dataview.md#containers-1) que puede seleccionar en la vista de datos y usar para el [análisis de subeventos](/help/components/segments/sub-event.md) en un proyecto del área de trabajo.
 * **[!UICONTROL Delimitador]**: El delimitador que utiliza el campo.
 * **[!UICONTROL Índice]**: Solo está presente si el criterio es De izquierda a derecha. El número de elemento como si estuviera en una matriz. Por ejemplo, si la entrada de cadena es `"Fox,Turtle,Rabbit,Wolf"` con un índice de 3, el resultado es `"Rabbit"`. Si el índice es superior al número de elementos delimitados, se aplica [Sin opciones de valor](no-value-options.md).
 
@@ -127,7 +125,7 @@ Customer Journey Analytics utiliza un subconjunto de la sintaxis regex de Perl. 
 | `(?:...)` | Captura sin marca. Evita que se haga referencia a la coincidencia en la cadena de salida. |
 | `a?` | Cero o uno de `a`. |
 | `a*` | Cero o más de `a`. |
-| `a+` | Uno más de los `a`. |
+| `a+` | Uno o más de `a`. |
 | `a{3}` | Exactamente 3 de `a`. |
 | `a{3,}` | 3 o más de `a`. |
 | `a{3,6}` | Entre 3 y 6 de `a`. |

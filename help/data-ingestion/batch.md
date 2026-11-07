@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1998'
 ht-degree: 86%
@@ -140,7 +140,7 @@ Para configurar el esquema:
 
 1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en el [!UICONTROL Espacio de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
 
-   ![Especificar el correo electrónico como identidad](./assets/specify-email-loyalty-id.png)
+   ![Especificar correo electrónico como identidad](./assets/specify-email-loyalty-id.png)
 
    Está especificando la dirección de correo electrónico como la identidad que el servicio de identidad de Adobe Experience Platform puede utilizar para combinar (unir) perfiles.
 

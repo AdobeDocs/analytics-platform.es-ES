@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '10578'
 ht-degree: 98%
@@ -654,9 +654,9 @@ Como empresa de viajes, le gustaría agrupar la duración del viaje de los viaje
 Suposiciones:
 
 - La organización está recopilando la duración del viaje en un campo numérico.
-- Les gustaría agrupar las duraciones de 1 a 3 días en un contenedor denominado &#39;[!DNL short trip]&#39;
-- Les gustaría agrupar las duraciones de 4 a 7 días en un contenedor denominado &#39;[!DNL medium trip]&#39;
-- Les gustaría agrupar las duraciones de más de 8 días en un contenedor denominado &#39;[!DNL long trip]&#39;
+- Les gustaría agrupar las duraciones de 1 a 3 días en un bloque denominado &#39;[!DNL short trip]&#39;
+- Les gustaría agrupar las duraciones de 1 a 7 días en un bloque denominado &#39;&lt;ph x=&quot;4&quot; type=&quot;x-LPH&quot;/>&#39;
+- Les gustaría agrupar las duraciones de más de 8 días en un bloque denominado &#39;[!DNL long trip]&#39;
 - Se reservaron 132 viajes de un día de duración
 - Se reservaron 110 viajes de 2 días de duración
 - Se reservaron 105 viajes de 3 días de duración
@@ -1685,7 +1685,7 @@ Customer Journey Analytics utiliza un subconjunto de la sintaxis regex de Perl. 
 | `(?:...)` | Captura sin marca. Evita que se haga referencia a la coincidencia en la cadena de salida. |
 | `a?` | Cero o uno de `a`. |
 | `a*` | Cero o más de `a`. |
-| `a+` | Uno más de los `a`. |
+| `a+` | Uno o más de `a`. |
 | `a{3}` | Exactamente 3 de `a`. |
 | `a{3,}` | 3 o más de `a`. |
 | `a{3,6}` | Entre 3 y 6 de `a`. |

@@ -1,6 +1,6 @@
 ---
 title: Configuración del componente de anulación de deduplicación de métricas
-description: Cuenta solo la primera aparición de una métrica en los informes.
+description: Contar solo la primera aparición de una métrica en los informes.
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
@@ -24,13 +24,11 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 79%
-
+source-wordcount: '342'
+ht-degree: 76%
 ---
-
 # Configuración del componente de anulación de deduplicación de métricas {#metric-deduplication-component-settings}
 
 <!-- markdownlint-disable MD034 -->

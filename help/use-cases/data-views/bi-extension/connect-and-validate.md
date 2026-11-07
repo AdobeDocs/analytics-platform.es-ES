@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 10%
@@ -92,7 +92,7 @@ Cuando revise los casos de uso, reemplace estos objetos de ejemplo por objetos a
             ![Datos de transformación de escritorio de Power BI](../assets/powerbi-transform-data.png)
             * Seleccione **[!UICONTROL Cerrar y aplicar]**.
    1. Después de un tiempo, **[!UICONTROL public.cc_data_view]** se mostrará en el panel **[!UICONTROL Datos]**. Seleccione ![ChevronRight](/help/assets/icons/ChevronRight.svg) para mostrar dimensiones y métricas.
-      ![Datos Cargados Del Servidor De Escritorio De Power BI](../assets/powerbi-navigator-loaded.png)
+      ![Datos de Power BI Desktop Server cargados](../assets/powerbi-navigator-loaded.png)
 
 
 ## Para ACOPLAR o no
@@ -327,7 +327,7 @@ Looker admite los siguientes escenarios para el parámetro `FLATTEN`. Consulte [
    ORDER BY 1,2;
    ```
 
-   Ejecute el shell. Debería ver un resultado similar al de la captura de pantalla siguiente.
+   Ejecute el shell. Debería ver una salida similar a la captura de pantalla siguiente.
 
    ![Paso de configuración de Jupyter Notebook 5](../assets/jupyter-config-step3.png)
 
@@ -415,7 +415,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
    glimpse(dv)
    ```
 
-1. Ejecuta el fragmento. Debería ver un resultado similar al de la captura de pantalla siguiente.
+1. Ejecuta el fragmento. Debería ver una salida similar a la captura de pantalla siguiente.
 
    ![Paso de configuración de RStudio 2](../assets/rstudio-config-step2.png)
 

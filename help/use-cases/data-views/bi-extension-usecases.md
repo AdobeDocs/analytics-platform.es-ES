@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
@@ -132,7 +132,7 @@ When you go through the use cases, replace these example objects with objects th
       1. Ensure that the drop-down menu for **[!UICONTROL Select which level to apply these settings to]** is set to the **[!UICONTROL Server]** that you have defined earlier.
       1. Select **[!UICONTROL Connect]**.
    1. In the **[!UICONTROL Navigator]** dialog, the data views are retrieved. This retrieval can take some time. Once retrieved, you see the following in Power BI Desktop.
-      ![Power BI Destkop Load Data](assets/powerbi-navigator-load.png)
+      ![Power BI Desktop Load Data](assets/powerbi-navigator-load.png)
       1. Select **[!UICONTROL public.cc_data_view]** from the list in the left panel.
       1. You have two options:
          1. Select **[!UICONTROL Load]** to continue and finish the setup.
@@ -140,7 +140,7 @@ When you go through the use cases, replace these example objects with objects th
          ![Power BI Desktop Transform Data](assets/powerbi-transform-data.png)
             * Select **[!UICONTROL Close & Apply]**.
    1. After a while, **[!UICONTROL public.cc_data_view]** is displayed in the **[!UICONTROL Data]** pane. Select ![ChevronRight](/help/assets/icons/ChevronRight.svg) to show dimensions and metrics.
-      ![Power BI Destkop Server Data Loaded](assets/powerbi-navigator-loaded.png)
+      ![Power BI Desktop Server Data Loaded](assets/powerbi-navigator-loaded.png)
 
 
 ### To FLATTEN or not
@@ -375,7 +375,7 @@ Looker supports the following scenarios for the `FLATTEN` parameter. See [Flatte
    ORDER BY 1,2;
    ```
 
-   Execute the shell. You should see output simular to the screenshot below.
+   Execute the shell. You should see output similar to the screenshot below.
 
    ![Jupyter Notebook Config Step 5](assets/jupyter-config-step3.png)
 
@@ -463,7 +463,7 @@ Jupyter Notebook supports the following scenarios for the `FLATTEN` parameter. S
    glimpse(dv)
    ```
 
-1. Run the chunk. You should see output simular to the screenshot below.
+1. Run the chunk. You should see output similar to the screenshot below.
 
    ![RStudio config step 2](assets/rstudio-config-step2.png)
 
@@ -2015,7 +2015,7 @@ You then can use that segment in an example **[!UICONTROL Using Dimension Values
    1. From the list of fields, select **[!UICONTROL ‣ Product Category]**.
 1. Ensure **[!UICONTROL is]** as the selection for the filter.
 
-![AlertRed](/help/assets/icons/AlertRed.svg) Lookes does not show the list of possible values for **[!UICONTROL Product Category]**.
+![AlertRed](/help/assets/icons/AlertRed.svg) Looker does not show the list of possible values for **[!UICONTROL Product Category]**.
 
 ![Looker count distinct](assets/uc10-looker-result.png)
 
@@ -2068,7 +2068,7 @@ You then can use that segment in an example **[!UICONTROL Using Dimension Values
 
 >[!TAB RStudio]
 
-1. Enter the following code block in a new chunk. Ensure you use an appropriate category. For examplee, `Hunting`.
+1. Enter the following code block in a new chunk. Ensure you use an appropriate category. For example, `Hunting`.
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value
@@ -2319,7 +2319,7 @@ FETCH NEXT 500 ROWS ONLY
 
    ![Jupyter Notebook Results](assets/uc11-jupyter-results.png)
 
-The query is excuted by the BI extension as defined in Jupyter Notebook.
+The query is executed by the BI extension as defined in Jupyter Notebook.
 
 
 >[!TAB RStudio]
@@ -2605,7 +2605,7 @@ FETCH NEXT 5 ROWS ONLY
 
    ![Jupyter Notebook Results](assets/uc12-jupyter-results.png)
 
-The query is excuted by the BI extension as defined in Jupyter Notebook.
+The query is executed by the BI extension as defined in Jupyter Notebook.
 
 >[!TAB RStudio]
 
@@ -2861,7 +2861,7 @@ The Customer Journey Analytics objects (dimensions, metrics, filters, calculated
 
    ![Jupyter Notebook Results](assets/uc13-jupyter-results.png)
 
-The query is excuted by the BI extension as defined in Jupyter Notebook.
+The query is executed by the BI extension as defined in Jupyter Notebook.
 
 >[!TAB RStudio]
 

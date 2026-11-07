@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 100%
+ht-degree: 99%
 ---
 # Información general sobre la ingesta de datos
 
@@ -48,7 +48,7 @@ La arquitectura de Customer Journey Analytics de alto nivel se muestra aquí:
 
 ![Arquitectura de Customer Journey Analytics](/help/getting-started/assets/cja-overview.png)
 
-Esta arquitectura ilustra cómo Customer Journey Analytics le permite lo siguiente:
+Esta arquitectura ilustra cómo Customer Journey Analytics le permite:
 
 * Combinar varios ![Datos](/help/assets/icons/Data.svg) de los conjuntos de datos en una [conexión](/help/connections/overview.md).
 * Definir y configurar las dimensiones ![Dimensiones](/help/assets/icons/Dimensions.svg) y las métricas ![Evento](/help/assets/icons/Event.svg) en una [vista de datos](/help/data-views/data-views.md), según los campos disponibles de los conjuntos de datos que definió en su conexión.

@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 56f881fc811f0eeffb9633872b3edbe0eb2d7070
+source-git-commit: e4a2c292024e2d88c3dec02b86711d4f58d1c82c
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 39%
+source-wordcount: '1669'
+ht-degree: 37%
 ---
 # Disponibilidad de componentes en fuentes de datos
 
@@ -93,6 +93,12 @@ Las siguientes métricas estándar de Customer Journey Analytics no se pueden in
 | Perfil de cuentas globales de Adobe | | No disponible |
 | Adobe Persons Union | | No disponible |
 | Perfil de personas de Adobe | | No disponible |
+
+## Métricas calculadas {#calculated-metrics}
+
+Las métricas calculadas no se pueden incluir en las fuentes de datos. Una métrica calculada se calcula en el momento del informe sumando muchos eventos, de modo que no tiene valor en una fila de evento individual.
+
+Si necesita resultados de métricas calculadas fuera de Customer Journey Analytics, puede usar la [extensión de Customer Journey Analytics BI](/help/data-views/bi-extension.md). La extensión de BI devuelve resultados de nivel de informe en lugar de filas de evento, por lo que se debe utilizar junto con fuentes de datos en lugar de como reemplazo.
 
 ## Dimensiones que no se pueden usar juntas {#incompatible-dimensions}
 

@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '7452'
-ht-degree: 93%
+ht-degree: 92%
 ---
 
 # Actualizaciones de la documentación de Customer Journey Analytics
@@ -99,7 +99,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Abril de 2026** | |
 | Directrices de campos derivados | Se ha agregado un artículo con [directrices](/help/use-cases/data-views/derived-fields/guidelines.md) (prácticas recomendadas, mecanismos de protección y escollos comunes) para trabajar con campos derivados. |
 | Se ha añadido la documentación que falta para dos conjuntos de datos que se pueden incluir al integrar Journey Optimizer | [Dos conjuntos de datos adicionales generados por el sistema que no son de perfil](/help/integrations/ajo.md#high-throughput-add-on-datasets) se incluyen en la conexión cuando el complemento de mensajería transaccional de alto rendimiento está habilitado para su organización de IMS. |
-| Casos de uso de análisis de cohorte actualizados | En función de los comentarios añadidos, se han añadido ejemplos de Analysis Workspace a los casos de uso del análisis de cohorte. |
+| Casos de uso de análisis de cohorte actualizados | En función de los comentarios, se han añadido ejemplos de Analysis Workspace a los casos de uso del análisis de cohorte. |
 | **Marzo de 2026** | |
 | Desglose de un panel | Se ha reestructurado la documentación en torno a la [zona de colocación para un panel](/help/analysis-workspace/c-panels/panels.md#drop-zone) a fin de admitir la nueva funcionalidad de [desglose](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Nota técnica sobre ID incorrectos (BAVID) | Nueva [nota técnica sobre ID incorrectos](/help/technotes/badids.md). La nota técnica explica la definición de un ID incorrecto, dónde se utilizan los ID incorrectos en la interfaz de Customer Journey Analytics y cómo investigar los datos de la conexión en busca de ID incorrectos. |
@@ -131,7 +131,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Fechas anteriores a 1900 | Se añadió una [nota](/help/connections/create-connection.md#datasets) sobre cómo Customer Journey Analytics administra las fechas anteriores a 1900. |
 | Creación de informes en tiempo real | Se ha agregado documentación sobre la [creación de informes en tiempo real](/help/components/real-time/real-time.md) en Customer Journey Analytics. |
 | Interfaz de uso | Se ha añadido documentación para la [interfaz de uso](/help/connections/manage-connections.md#usage) actualizada en Conexiones. |
-| Vinculación de conjuntos de datos de Journey Optimizer | Se ha documentado la [lista de conjuntos de datos de Journey Optimizer generados automáticamente](/help/stitching/overview.md#journey-optimizer-datasets) que se pueden usar en la vinculación. |
+| Vinculación de conjuntos de datos de Journey Optimizer | Se ha documentado [lista de conjuntos de datos de Journey Optimizer generados automáticamente](/help/stitching/overview.md#journey-optimizer-datasets) que se pueden usar en la vinculación. |
 | Etiquetas de contexto | Se ha agregado más información básica sobre el uso y el propósito de las [etiquetas de contexto](/help/data-views/component-settings/overview.md#context-labels) en los componentes de vista de datos. |
 | **Agosto de 2025** | |
 | Nueva integración con Adobe Advertising | Se agregó información sobre la integración de [con Adobe Advertising](/help/integrations/advertising.md). |
