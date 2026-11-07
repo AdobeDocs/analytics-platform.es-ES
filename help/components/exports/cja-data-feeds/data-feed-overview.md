@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 34959e37a7040bcd861a506968895ad6f051b686
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '562'
 ht-degree: 1%
 ---
 # Resumen de fuentes de datos
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 Las fuentes de datos exportan datos sin procesar en el nivel de evento desde Customer Journey Analytics a un destino de nube. Puede utilizar estos datos en otras plataformas fuera de Adobe, como un almacén de datos.
 
-Las fuentes de datos se crean a partir de los componentes de una vista de datos. Cada dimensión y métrica que incluya se convertirá en una columna de la fuente de datos y se aplicará a los datos la configuración de la vista de datos, como la persistencia, los campos derivados y los segmentos. Los archivos se entregan en formato parquet.
+Las fuentes de datos se crean a partir de los componentes de una vista de datos. Cada dimensión y métrica que incluya se convertirá en una columna de la fuente de datos y se aplicará a los datos la configuración de la vista de datos, como la persistencia, los campos derivados y los segmentos. Los archivos se entregan en [formato parquet](/help/components/exports/cja-data-feeds/df-parquet.md).
 
 Puede crear los siguientes tipos de fuentes de datos:
 
@@ -71,13 +71,15 @@ Utilice los siguientes artículos para planificar, migrar y crear sus fuentes de
 
 ### Planifique sus fuentes de datos
 
-* [Comparar fuentes de datos en Customer Journey Analytics y Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md): comprenda las diferencias en funciones y conceptos si antes utilizaba fuentes de datos de Adobe Analytics.
-
 * [Comprenda las discrepancias de datos entre las fuentes de datos y Analysis Workspace](/help/components/exports/cja-data-feeds/df-comparison-workspace.md): Descubra por qué la salida de las fuentes de datos podría no coincidir con los informes de Analysis Workspace.
 
 * [Disponibilidad de componentes en fuentes de datos](/help/components/exports/cja-data-feeds/df-components.md): Descubra qué dimensiones y métricas son necesarias, no son compatibles o están restringidas en las fuentes de datos.
 
+* [Trabajar con archivos de Parquet en las fuentes de datos](/help/components/exports/cja-data-feeds/df-parquet.md): Descubra por qué las fuentes de datos utilizan Parquet y cómo consultar o cargar los archivos en su almacén de datos.
+
 ### Migración desde fuentes de datos de Adobe Analytics
+
+1. [Comparar fuentes de datos en Customer Journey Analytics y Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md): comprenda las diferencias en funciones y conceptos si antes utilizaba fuentes de datos de Adobe Analytics.
 
 1. [Prepárese para asignar columnas de fuentes de datos](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md): comprenda los factores que afectan a cómo se asignan las columnas de Adobe Analytics a Customer Journey Analytics.
 

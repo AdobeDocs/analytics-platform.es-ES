@@ -2,9 +2,9 @@
 user-guide-title: Guía de Customer Journey Analytics
 user-guide-description: Obtenga información acerca de Customer Journey Analytics y sobre cómo utilizar Analysis Workspace con datos de Experience Platform.
 breadcrumb-title: Guía de Customer Journey Analytics
-source-git-commit: e498c374e8bfe12d7adda6ff9e7870a86f91dd5c
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1525'
 ht-degree: 88%
 ---
 
@@ -442,6 +442,7 @@ ht-degree: 88%
       + {hide-from-toc}[Segmentación en fuentes de datos](/help/components/exports/cja-data-feeds/df-segmentation.md)
       + {hide-from-toc}[Aplicar transformaciones de datos](/help/components/exports/cja-data-feeds/df-data-transformations.md)
       + {hide-from-toc}[Componentes de subevento](/help/components/exports/cja-data-feeds/df-sub-event.md)
+      + {hide-from-toc}[Usar archivos de Parquet](/help/components/exports/cja-data-feeds/df-parquet.md)
   + Diccionario de datos {#data-dictionary}
     + [Información general](../components/data-dictionary/data-dictionary-overview.md)
     + [Visualización de información de componentes en el diccionario de datos](../components/data-dictionary/view-data-dictionary.md)

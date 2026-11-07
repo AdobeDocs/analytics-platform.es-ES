@@ -14,9 +14,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1320'
 ht-degree: 0%
 ---
 # Componentes de subevento en fuentes de datos
@@ -102,13 +102,13 @@ Los campos del mismo subevento aparecen en el lienzo como un grupo anidado contr
 
 Este grupo refleja la estructura de datos subyacente.
 
-En la salida de la fuente de datos, todos estos componentes aparecen como una matriz anidada en una sola columna.
+En la salida de la fuente de datos, todos estos componentes aparecen como una matriz anidada en una sola columna. Los archivos de Parquet admiten matrices anidadas de forma nativa. Para obtener más información, vea [Trabajar con archivos de Parquet en las fuentes de datos](/help/components/exports/cja-data-feeds/df-parquet.md).
 
 Para obtener información sobre cómo agregar componentes, incluidos componentes de subevento, a una fuente de datos, consulte [Crear una fuente de datos](/help/components/exports/cja-data-feeds/create-feed.md).
 
 ## Datos de subevento de consulta en la salida de la fuente de datos
 
-Dado que los datos de subevento [&#x200B; aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
+Dado que los datos de subevento [ aparecen de forma diferente en las fuentes de datos de Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), las consultas que utiliza para ellos difieren de las que utiliza para las fuentes de datos de Adobe Analytics.
 
 Los siguientes ejemplos muestran cómo buscar eventos que incluyen un producto específico. Los ejemplos utilizan la sintaxis de Google BigQuery, donde `UNNEST` expande una matriz en filas. Otros almacenes de datos admiten el mismo enfoque con sus propias funciones de matriz, como `FLATTEN` en Snowflake o `explode` en Databricks.
 
@@ -220,7 +220,7 @@ En la salida de la fuente de datos, `survey_question` y `survey_answer` son los 
 
 ### Mapa de identidad
 
-Cada identidad del campo [`identityMap`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/identitymap) se exporta como un objeto. El objeto contiene el área de nombres de identidad (la clave), junto con el identificador, el estado autenticado y el indicador principal. El área de nombres se repite para cada identidad de dicha área de nombres.
+Cada identidad del campo [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) se exporta como un objeto. El objeto contiene el área de nombres de identidad (la clave), junto con el identificador, el estado autenticado y el indicador principal. El área de nombres se repite para cada identidad de dicha área de nombres.
 
 Solo se exportan los atributos del mapa de identidad que existen como dimensiones en la vista de datos y que agrega a la fuente de datos.
 
