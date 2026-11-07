@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 484
-ht-degree: 4%
-
+source-wordcount: '484'
+ht-degree: 5%
 ---
-
 
 # Biblioteca JavaScript de Content Analytics
 
@@ -73,7 +71,7 @@ Use `npm` para instalar la biblioteca.
 
 Cargue la biblioteca directamente desde la CDN.
 
-1. Inicialice la [biblioteca JavaScript de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library) y cargue el paquete de Content Analytics:
+1. Inicialice la [biblioteca JavaScript de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library) y cargue el paquete de Content Analytics:
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -95,7 +93,7 @@ Cargue la biblioteca directamente desde la CDN.
    ```
 
    dónde
-   * `alloy/2.x.x` hace referencia a la versión que desea usar de la [biblioteca de Web SDK JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library).
+   * `alloy/2.x.x` hace referencia a la versión que desea usar de la [biblioteca de Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library).
    * `content-analytics/1.x.x` hace referencia a la versión que desea utilizar de la biblioteca SDK de Content Analytics.
 
 2. La compilación independiente expone `window.contentAnalytics` como función de inicialización.
@@ -121,7 +119,7 @@ Habilite el seguimiento de experiencias y controle cómo se identifican las expe
 
 | Opción | Tipo | Predeterminado | Descripción |
 |--------|------|---------|-------------|
-| `includeExperiences` | booleano | `false` | Habilitar seguimiento de vista de página/experiencia |
+| `includeExperiences` | Booleano | `false` | Habilitar seguimiento de vista de página/experiencia |
 | `experienceConfigurations` | matriz | - | Definir experiencias por regex de dominio y parámetros de consulta |
 
 Cada entrada de `experienceConfigurations` acepta:

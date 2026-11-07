@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2044'
 ht-degree: 83%
@@ -139,7 +139,7 @@ Para configurar el esquema:
 
 1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en el [!UICONTROL Espacio de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
 
-   ![Especificar el correo electrónico como identidad](./assets/specify-email-loyalty-id.png)
+   ![Especificar correo electrónico como identidad](./assets/specify-email-loyalty-id.png)
 
    Está especificando la dirección de correo electrónico como la identidad que el servicio de identidad de Adobe Experience Platform puede utilizar para combinar (unir) el comportamiento de los perfiles.
 
@@ -270,7 +270,7 @@ Para crear un conector de origen de API HTTP, debe hacer lo siguiente:
 
 Puede copiar la URL del punto final de streaming y utilizarla para configurar la aplicación de lealtad para que transmita datos al conjunto de datos de lealtad de Adobe Experience Platform.
 
-Consulte [Crear una conexión de flujo continuo HTTP API usando la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=es) para ver un tutorial mucho más completo que explica:
+Consulte [Crear una conexión de flujo continuo HTTP API usando la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html) para ver un tutorial mucho más completo que explica:
 
 - cómo utilizar la autenticación,
 - Obtenga información sobre cómo asignar datos cuando los datos entrantes no sean compatibles con el esquema XDM.

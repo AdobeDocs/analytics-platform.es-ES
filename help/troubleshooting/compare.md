@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 96%
 ---
 # Comparación de datos del conector fuente de Analytics con Adobe Analytics
 
@@ -60,7 +60,7 @@ Tenga en cuenta las siguientes posibles razones por las que los datos pueden dif
   >
   >Adobe recomienda muy especialmente que las dimensiones de Adobe Analytics utilicen una asignación de “[!UICONTROL Más reciente (último)]”. Esta configuración de asignación permite una mayor flexibilidad de atribución en Customer Journey Analytics.
 
-* **Definición de visita**: además de la configuración de dimensiones y métricas individuales, la propia vista de datos contiene configuraciones que cambian fundamentalmente la manera en que se interpretan los datos de los visitantes. Por ejemplo, puede aplicar un segmento a toda una vista de datos (similar a un [grupo de informes virtuales](https://experienceleague.adobe.com/es/docs/analytics/components/virtual-report-suites/vrs-about) en Adobe Analytics). También puede cambiar la definición de una duración de visita o iniciar automáticamente una nueva visita en cualquier evento deseado. Cualquiera de estas configuraciones puede tener un impacto notable en las diferencias de creación de informes entre Customer Journey Analytics y Adobe Analytics.
+* **Definición de visita**: además de la configuración de dimensiones y métricas individuales, la propia vista de datos contiene configuraciones que cambian fundamentalmente la forma en que se interpretan los datos de visitantes. Por ejemplo, puede aplicar un segmento a toda una vista de datos (similar a un [grupo de informes virtuales](https://experienceleague.adobe.com/es/docs/analytics/components/virtual-report-suites/vrs-about) en Adobe Analytics). También puede cambiar la definición de una duración de visita o iniciar automáticamente una nueva visita en cualquier evento deseado. Cualquiera de estas configuraciones puede tener un impacto notable en las diferencias de creación de informes entre Customer Journey Analytics y Adobe Analytics.
 
 ## Comprobación del recuento de registros entre productos
 

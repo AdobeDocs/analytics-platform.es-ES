@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1650'
 ht-degree: 43%
@@ -219,7 +219,7 @@ Para utilizar la plantilla:
 
 1. Seleccione **[!UICONTROL Workspace]** en el menú principal.
 1. Asegúrese de que ha seleccionado una vista de datos configurada para Content Analytics.
-1. Busque o use segmentos (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**&#x200B;s) para buscar y seleccionar la plantilla de **[!UICONTROL Content Analytics de medios de pago]**.
+1. Busque o use segmentos (**[!UICONTROL Web]** para **[!UICONTROL Canal]** y **[!UICONTROL Participación]** para **[!UICONTROL Caso de uso]**s) para buscar y seleccionar la plantilla de **[!UICONTROL Content Analytics de medios de pago]**.
 1. Seleccione **[!UICONTROL Usar plantilla]**.
 
 Se abre un proyecto de **[!UICONTROL Content Analytics - Datos de resumen de medios de pago]** en [Analysis Workspace](/help/analysis-workspace/home.md). El proyecto consiste en **[!UICONTROL Rendimiento de medios de pago]** [panel](/help/analysis-workspace/c-panels/panels.md), con [tablas de forma libre](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) y [visualizaciones](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). Utilice el panel para revisar el alcance, la participación, el gasto y la eficacia de los medios de pago en redes, cuentas, campañas, experiencias y recursos. Las métricas y dimensiones del panel permanecen intencionadamente en el granulado de resumen de recursos de medios de pago; no combina conjuntos de datos de resumen con datos de evento.

@@ -16,7 +16,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 8%
@@ -46,7 +46,7 @@ También desea medir los ingresos en línea de todas las demás categorías, exc
 
 En el generador de segmentación o como parte de un **[!UICONTROL segmento rápido]**, especificas **[!UICONTROL Incluir]** el **[!UICONTROL Dimension]** **[!UICONTROL product_category]** **[!UICONTROL es igual a]** **[!UICONTROL Trajes profesionales]** en el contenedor de **[!UICONTROL Eventos]**.
 
-![Panel que muestra la segmentación en el nivel de evento para los trajes profesionales de la categoría de productos](./assets/product-category-segmentation-events.png)
+![Panel que muestra la segmentación en el nivel de evento para la categoría de productos trajes profesionales](./assets/product-category-segmentation-events.png)
 
 Como resultado, se tienen en cuenta todos los pedidos que contienen al menos **[!UICONTROL Trajes profesionales]** **[!UICONTROL product_category]**, y los ingresos de otros productos de esos pedidos se incluyen en la métrica **[!UICONTROL Ingresos]**.
 Cuando se informa sobre categorías, se informa de todos los demás valores de **[!UICONTROL product_category]** que formaban parte de un pedido que incluía un producto con **[!UICONTROL Trajes profesionales]** **[!UICONTROL product_category]**.

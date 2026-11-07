@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 10%
@@ -80,7 +80,7 @@ Cuando revise los casos de uso, reemplace estos objetos de ejemplo por objetos a
       1. Seleccione **[!UICONTROL Aceptar]**.
    1. En el cuadro de diálogo **[!UICONTROL Base de datos PostgreSQL]** - **[!UICONTROL Base de datos]**:
       ![Usuario y contraseña de PowerBI Desktop](../assets/powerbi-userpassword.png)
-      1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar los valores de **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en los campos **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]**. Si usa una [credencial que no caduca](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), use la contraseña de la credencial que no caduca.
+      1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar los valores de **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en los campos **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]**. Si usa una [credencial que no caduca](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), use la contraseña de la credencial que no caduca.
       1. Asegúrese de que el menú desplegable de **[!UICONTROL Seleccione el nivel en el que aplicar esta configuración a]** está establecido en el **[!UICONTROL Servidor]** que ha definido anteriormente.
       1. Seleccione **[!UICONTROL Conectar]**.
    1. En el cuadro de diálogo **[!UICONTROL Navegador]**, se recuperan las vistas de datos. Esta recuperación puede tardar un poco. Una vez recuperado, verá lo siguiente en Power BI Desktop.
@@ -92,7 +92,7 @@ Cuando revise los casos de uso, reemplace estos objetos de ejemplo por objetos a
             ![Datos de transformación de escritorio de Power BI](../assets/powerbi-transform-data.png)
             * Seleccione **[!UICONTROL Cerrar y aplicar]**.
    1. Después de un tiempo, **[!UICONTROL public.cc_data_view]** se mostrará en el panel **[!UICONTROL Datos]**. Seleccione ![ChevronRight](/help/assets/icons/ChevronRight.svg) para mostrar dimensiones y métricas.
-      ![Datos Cargados Del Servidor De Escritorio De Power BI](../assets/powerbi-navigator-loaded.png)
+      ![Datos de Power BI Desktop Server cargados](../assets/powerbi-navigator-loaded.png)
 
 
 ## Para ACOPLAR o no
@@ -135,7 +135,7 @@ Power BI Desktop admite los siguientes escenarios para el parámetro `FLATTEN`. 
       1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar la **[!UICONTROL base de datos]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en la **[!UICONTROL base de datos]**. Agregue `%3FFLATTEN` al valor que pegue. Por ejemplo: `prod:cja%3FFLATTEN`.
       1. Seleccione **[!UICONTROL Nombre de usuario y Contraseña]** del menú desplegable **[!UICONTROL Autenticación]**.
       1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar el **[!UICONTROL nombre de usuario]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales de caducidad]** de Experience Platform en el **[!UICONTROL nombre de usuario]**.
-      1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar la **[!UICONTROL contraseña]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en **[!UICONTROL Contraseña]**. Si usa una [credencial que no caduca](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), use la contraseña de la credencial que no caduca.
+      1. Use ![Copiar](/help/assets/icons/Copy.svg) para copiar y pegar la **[!UICONTROL contraseña]** del panel **[!UICONTROL Consulta]** **[!UICONTROL Credenciales que caducan]** de Experience Platform en **[!UICONTROL Contraseña]**. Si usa una [credencial que no caduca](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), use la contraseña de la credencial que no caduca.
       1. Asegúrese de comprobar **[!UICONTROL Requerir SSL]**.
       1. Seleccione **[!UICONTROL Iniciar sesión]**.
 
@@ -327,7 +327,7 @@ Looker admite los siguientes escenarios para el parámetro `FLATTEN`. Consulte [
    ORDER BY 1,2;
    ```
 
-   Ejecute el shell. Debería ver un resultado similar al de la captura de pantalla siguiente.
+   Ejecute el shell. Debería ver una salida similar a la captura de pantalla siguiente.
 
    ![Paso de configuración de Jupyter Notebook 5](../assets/jupyter-config-step3.png)
 
@@ -415,7 +415,7 @@ Jupyter Notebook admite los siguientes escenarios para el parámetro `FLATTEN`. 
    glimpse(dv)
    ```
 
-1. Ejecuta el fragmento. Debería ver un resultado similar al de la captura de pantalla siguiente.
+1. Ejecuta el fragmento. Debería ver una salida similar a la captura de pantalla siguiente.
 
    ![Paso de configuración de RStudio 2](../assets/rstudio-config-step2.png)
 

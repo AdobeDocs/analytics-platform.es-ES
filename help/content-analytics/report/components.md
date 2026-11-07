@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: fec14c8ed1f94e16423682a165198dbda760f78d
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1943'
-ht-degree: 58%
+ht-degree: 57%
 ---
 
 # Componentes de Content Analytics
@@ -73,7 +73,7 @@ En las tablas siguientes, ![Generado por IA](/help/assets/icons/AI.svg) indica u
 | Título | Descripción | Tipo |
 |---|---|---|
 | Atributos de la experiencia | ![Generado por IA](/help/assets/icons/AI.svg) Lista completa de todos los nombres y valores de atributos de experiencia | Campo derivado de Dimensión<br> |
-| Puntuación de legibilidad de la experiencia | ![Generado por IA](/help/assets/icons/AI.svg) Puntuación de legibilidad para la experiencia | Dimensión |
+| Puntuación de legibilidad de la experiencia | ![AI generada](/help/assets/icons/AI.svg) Puntuación de legibilidad de la experiencia | Dimensión |
 | Palabras clave de la experiencia | ![Generado con IA](/help/assets/icons/AI.svg) Palabras clave para la experiencia. | Campo derivado de Dimensión<br> |
 | Estrategias de persuasión de la experiencia | ![Generado por IA](/help/assets/icons/AI.svg)  Estrategias de persuasión presentes en la experiencia dada. Los valores posibles son: Identidad social, Prueba social, Autoridad, Concreción, Pie en la puerta, Superación de la reacción, Reciprocidad, Anclaje y comparación, Impacto social, Escasez y Antropomorfismo. | Campo derivado de Dimensión<br/> |
 | Narrativas de la experiencia | ![Generado por IA](/help/assets/icons/AI.svg) Narrativas que la experiencia está generando en función de la relevancia desde el punto de vista de un experto en marketing. | Campo derivado de Dimensión<br/> |

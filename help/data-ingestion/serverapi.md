@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2439'
-ht-degree: 60%
+ht-degree: 59%
 ---
 # Ingesta de datos mediante la API de servidor de Edge Network
 
@@ -157,7 +157,7 @@ Para configurar el esquema:
 
 1. Seleccione el campo de **[!UICONTROL correo electrónico]** en el objeto de identificación que acaba de añadir y seleccione **[!UICONTROL Identidad]** y **[!UICONTROL Correo electrónico]** en la lista de [!UICONTROL Espacio de nombres de identidad] del panel [!UICONTROL Propiedades de campo].
 
-   ![Especificar el correo electrónico como identidad](./assets/specify-email-identity-gaming.png)
+   ![Especificar correo electrónico como identidad](./assets/specify-email-identity-gaming.png)
 
    Está especificando la dirección de correo electrónico como otra identidad que el servicio de identidad de Adobe Experience Platform puede utilizar para combinar (unir) el comportamiento de los perfiles.
 
@@ -306,7 +306,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 En la solicitud POST de ejemplo, `{DATASTREAM_ID}` señala al identificador de la secuencia de datos de ejemplo que configuró anteriormente. `{sandbox}` es el nombre único de su zona protegida que identifica la ruta al grupo de campos Luz cegadora personalizada.
 
-Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=es) para obtener más información sobre cómo usar la API de servidor de Edge Network.
+Consulte [Recopilación de datos interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) y [Recopilación de datos no interactiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) para obtener más información sobre cómo usar la API de servidor de Edge Network.
 
 ## Configurar una conexión
 

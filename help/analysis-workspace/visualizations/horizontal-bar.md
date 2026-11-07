@@ -19,16 +19,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 65%
+ht-degree: 58%
 ---
 # Barra horizontal (apilada)
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta las visualizaciones de barras horizontales y barras horizontales apiladas en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vea [barras horizontales y barras horizontales apiladas](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** de este artículo._
+_Este artículo documenta las visualizaciones de barras horizontales y barras horizontales apiladas en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vea [barras horizontales y barras horizontales apiladas](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) para la_ ![versión de Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ La visualización de barra horizontal tiene una opción estándar y apilada.
 <!-- markdownlint-enable MD034 -->
 
 
-Esta visualización ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** muestra las barras horizontales que representan varios valores en una o varias métricas.
+La visualización ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** muestra barras horizontales que representan varios valores en una o más métricas.
 
 ![Barra horizontal que muestra métricas como Vistas de página, Velocidad de página, Visitas, Entradas y Salidas.](assets/horizontal-bar.png)
 
@@ -72,7 +72,7 @@ Utilice la opción **[!UICONTROL Apilada al 100 %]** en ![Configuración](/help
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de área](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de área](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

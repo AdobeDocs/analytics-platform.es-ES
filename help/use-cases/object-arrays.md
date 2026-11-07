@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 59%
+ht-degree: 58%
 ---
 # Usar matrices de objetos
 
@@ -97,7 +97,7 @@ Al crear una vista de datos, están disponibles las siguientes dimensiones y mé
   * producto: nombre
   * producto: order_id
   * producto: garantía: cobertura
-  * producto: garantía: longitud
+  * producto : garantía : longitud
   * producto: garantía: nombre
   * producto: garantía: tipo
 * **Métricas:**
@@ -295,5 +295,5 @@ Al aplicar esta métrica calculada, se muestran los resultados deseados:
 
 ## Limitaciones
 
-Las limitaciones se aplican a matrices de datos utilizadas por Customer Journey Analytics y modeladas como parte de un esquema en Experience Platform. Consulte [Límites del modelo de datos](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails#data-model-limits) y [Límites del tamaño de datos](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails#data-size-limits) en las [Protecciones predeterminadas para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails).
+Las limitaciones se aplican a matrices de datos utilizadas por Customer Journey Analytics y modeladas como parte de un esquema en Experience Platform. Consulte [Límites del modelo de datos](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) y [Límites del tamaño de datos](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits) en las [Protecciones predeterminadas para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails).
 

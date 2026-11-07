@@ -1,5 +1,5 @@
 ---
-source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '5607'
 ht-degree: 95%
@@ -41,7 +41,7 @@ ht-degree: 95%
 | Opción | Función |
 |---------|----------|
 | **[!UICONTROL Recomendado]** | Ordene los componentes de cada tipo (dimensión, métrica, segmento e intervalo de fechas) en función de la recomendación. Los componentes que usted u otras personas de su organización utilizan con más frecuencia y más recientemente aparecen más arriba en cada lista. |
-| **[!UICONTROL Última modificación]** | Ordene los componentes de cada tipo (dimensión, métrica, segmento e intervalo de fechas) en función de la última fecha de modificación. Los componentes modificados más recientemente se muestran más arriba en cada lista. |
+| **[!UICONTROL Última modificación]** | Ordene los componentes de cada tipo (dimensión, métrica, segmento e intervalo de fechas) en función de la última fecha de modificación. Los componentes modificados más recientemente se muestran en la parte superior de cada lista. |
 | **[!UICONTROL Alfabético]** | Ordene los componentes de cada tipo (dimensión, métrica, segmento e intervalo de fechas) en orden alfabético ascendente. |
 | **[!UICONTROL Categórica]** | Ordene los componentes de cada tipo (dimensión, métrica, segmento e intervalo de fechas) según la categoría. Por ejemplo, componentes de vista de datos seleccionados frente a los no seleccionados. |
 
@@ -135,7 +135,7 @@ Un contenedor de atribución define el ámbito deseado para la atribución. Las 
 * **Oportunidad** [!BADGE B2B Edition]{type=Informative}: examina las conversiones desde el ámbito del contenedor de oportunidad.
 * **Grupo de compras** [!BADGE B2B Edition]{type=Informative}: examina las conversiones desde el ámbito del contenedor del grupo de compras.
 
-## Período de retroactividad de la atribución {#attribution-lookback-window}
+## Ventana retrospectiva de atribución {#attribution-lookback-window}
 
 El período de retroactividad de una atribución es la cantidad de tiempo que una conversión se debe remontar para incluir los puntos de contacto. Si un elemento de dimensión se establece fuera de la ventana de retrospección, el valor no se incluye en ningún cálculo de atribución.
 

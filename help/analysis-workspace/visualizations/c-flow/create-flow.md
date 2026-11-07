@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1852'
-ht-degree: 80%
+ht-degree: 79%
 ---
 # Configuración de una visualización de flujo {#configure-a-flow-visualization}
 
@@ -152,7 +152,7 @@ Suponga que desea rastrear la ruta que siguieron los usuarios tanto hacia como d
 
 En la parte superior de las visualizaciones aparece un resumen de la configuración de flujo. Las rutas de acceso del diagrama son proporcionales. Las rutas con más actividad parecen más gruesas.
 
-![Ejemplo de salida de flujo que muestra Termina con Visitas, dimensión de rutas: Página y contenedor de Flujo: Visitantes.](assets/flow-output.png)
+![Ejemplo de salida de flujo que muestra Ends with Visits, dimensión Pathing: Page y contenedor de flujo: Visitors.](assets/flow-output.png)
 
 Para explorar en profundidad los datos, tiene varias opciones:
 
@@ -195,7 +195,7 @@ Utilice un menú contextual en cualquier nodo de la visualización de flujo con 
 | **[!UICONTROL Excluir elemento]** o **[!UICONTROL Restaurar elementos excluidos]** | Quita un nodo específico de la columna y lo crea automáticamente como filtro en la parte superior de la columna. Para restaurar el elemento excluido, seleccione en el menú contextual **[!UICONTROL Restaurar elemento excluido]**. también puede abrir el segmento en la parte superior de la columna y quitar el recuadro con el elemento que acaba de excluir. |
 | **[!UICONTROL Tendencia]** | Crea un diagrama de tendencia para el nodo. |
 | **[!UICONTROL Mostrar columna siguiente]** / **[!UICONTROL Mostrar columna anterior]** | Muestra la columna siguiente (derecha) o anterior (izquierda) de la visualización. |
-| **[!UICONTROL Ocultar columna]**&#x200B;n | Oculta la columna seleccionada de la visualización. |
+| **[!UICONTROL Ocultar columna]**n | Oculta la columna seleccionada de la visualización. |
 | **[!UICONTROL Expandir toda la columna]** | Expanda una columna para mostrar todos los nodos. De forma predeterminada, solo se muestran los cinco nodos principales. |
 | **[!UICONTROL Crear público a partir de la selección]** | Crea un público basado en la columna seleccionada. |
 | **[!UICONTROL Contraer toda la columna]** | Oculta todos los nodos de una columna. |
