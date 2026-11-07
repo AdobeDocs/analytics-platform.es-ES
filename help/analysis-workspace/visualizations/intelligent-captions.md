@@ -58,7 +58,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Subtítulo
 
 Para lanzar subtítulos inteligentes generados automáticamente para una visualización, seleccione ![Subtítulos inteligentes](/help/assets/icons/AI.svg) en la parte superior derecha de la visualización. Esta selección genera información en forma de lenguaje natural.
 
-![Ventana de lanzamiento de análisis que muestra los subtítulos inteligentes para la tendencia de vistas de productos. ](assets/intelligent-captions.gif)
+![Ventana de lanzamiento de análisis que muestra los subtítulos inteligentes para la tendencia de vistas de productos. &#x200B;](assets/intelligent-captions.gif)
 
 
 Tenga en cuenta lo siguiente:

@@ -103,7 +103,7 @@ Para configurar el esquema:
 
    1. Introduzca un **[!UICONTROL Nombre para mostrar para el esquema]** para su esquema y (opcionalmente) una **[!UICONTROL Descripción]**.
 
-      ![Crear ventana de esquema que muestra los campos para asignar un nombre al esquema ](./assets/create-pr-schema-wizard-step-2.png)
+      ![Crear ventana de esquema que muestra los campos para asignar un nombre al esquema &#x200B;](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Seleccione **[!UICONTROL Finalizar]**.
 
