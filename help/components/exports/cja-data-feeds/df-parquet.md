@@ -14,7 +14,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
+source-git-commit: f77f416ad958b28a8489d7a6eb13100ba699236e
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 0%
@@ -35,7 +35,9 @@ Parquet se adapta mejor a la salida de fuente de datos que CSV, TSV o JSON por l
 
 * **Campos anidados**: Parquet representa de forma nativa los campos anidados, como una lista de productos. CSV y TSV solo pueden representarlos mediante su codificación en cadenas. Para obtener más información, consulte [Componentes de subevento en las fuentes de datos](/help/components/exports/cja-data-feeds/df-sub-event.md).
 
-* **Grandes exportaciones**: El parquet generalmente reduce los costos de almacenamiento y transferencia. También evita el análisis del texto y las adivinanzas al cargar los datos.
+* **Esquema integrado**: cada archivo de Parquet almacena su propio esquema, incluidos nombres de columna, tipos de datos y estructuras anidadas. Como el esquema está en el archivo, el almacén de datos puede crear tablas directamente a partir de los archivos. No es necesario proporcionar un archivo de encabezado o una definición de esquema independientes, y Data Warehouse no necesita deducir los tipos de datos.
+
+* **Grandes exportaciones**: El parquet generalmente reduce los costos de almacenamiento y transferencia. También evita el análisis de texto al cargar los datos.
 
 ## Cómo se compara Parquet con CSV, TSV y JSON
 
@@ -49,7 +51,6 @@ La siguiente tabla detalla las diferencias entre Parquet, CSV, TSV y JSON:
 
 | Característico | Parquet | CSV o TSV | JSON |
 | --- | --- | --- | --- |
-| **Tamaño de archivo** | El más pequeño. La compresión está integrada en el archivo y las herramientas descomprimen únicamente las columnas que lee una consulta. | Más grande. La compresión, como gzip, se aplica a todo el archivo, por lo que las herramientas deben descomprimir todo el archivo para leerlo y a menudo no pueden leerlo en paralelo. | El más grande. Los nombres de los campos se repiten en cada registro. |
 | **Velocidad de consulta** | Rápido. Una consulta solo lee las columnas que necesita. | Más lento. Se deben leer y analizar filas completas. | Más lento. Se deben leer y analizar filas completas. |
 | **Tipos de datos** | Escritos. El esquema está incrustado en el archivo. | Sin tipo. Todos los valores son texto y los tipos se infieren al cargar los datos. | Escrito a máquina. |
 | **Datos anidados** | Las matrices y los objetos son compatibles de forma nativa. | No compatible. Las matrices y los objetos deben aplanarse o codificarse como cadenas. | Las matrices y los objetos son compatibles de forma nativa. |
