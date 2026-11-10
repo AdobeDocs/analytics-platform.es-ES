@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 930ce593b744f0afc0e97dda1acf48e009e9e30a
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 76%
+source-wordcount: '303'
+ht-degree: 73%
 ---
 # Configuración del componente de anulación de deduplicación de métricas {#metric-deduplication-component-settings}
 
@@ -54,6 +54,3 @@ La anulación de deduplicación de métricas le permite configurar una métrica 
 
 {style="table-layout:auto"}
 
->[!CAUTION]
->
->La anulación de duplicación en el ámbito de una _persona_ se evalúa mediante meses completos en tiempo UTC. Es posible que una ventana de creación de informes mensual parcial no muestre todas las instancias primera o última, si algunas ocurrieron dentro del mes completo, pero fuera de las fechas de creación de informes.

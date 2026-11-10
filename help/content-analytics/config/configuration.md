@@ -36,13 +36,11 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: 780
-ht-degree: 76%
-
+source-wordcount: '780'
+ht-degree: 67%
 ---
-
 
 # Configuración de Content Analytics
 
@@ -73,9 +71,9 @@ Antes de configurar Content Analytics, asegúrese de que se cumplen los siguient
 * Si ha implementado [Web SDK mediante JavaScript](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/install/library){target="_blank"} para la recopilación de datos de comportamiento normal, asegúrese de que está utilizando el nombre predeterminado <code>alloy</code> Actualice la biblioteca de JavaScript.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y para administrar vistas de datos.
 * Si decide recopilar experiencias de Content Analytics, asegúrese de configurar y actualizar el control de versiones de Content Analytics en función de los cambios realizados en las páginas web.
-* Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions){target="_blank"}:
-  * Permisos de [Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}.
-  * Permisos de [Experience Platform Data Collection](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/admin/user-permissions){target="_blank"}:
+  * Permisos de [Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/admin/user-permissions#platform-permissions){target="_blank"}.
+  * Permisos de [Experience Platform Data Collection](https://experienceleague.adobe.com/es/docs/experience-platform/tags/admin/user-permissions#admin-console){target="_blank"}.
 * Ha considerado detenidamente las siguientes opciones de configuración importantes:
 
   * Su sitio es adecuado para el sistema de informes de experiencias. Un informe de experiencia adecuado solo es posible cuando se cumplen las siguientes condiciones:
@@ -88,9 +86,9 @@ Antes de configurar Content Analytics, asegúrese de que se cumplen los siguient
 
 * Asegúrese de que las extensiones [Experience Platform Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) y [Experience Platform Identity for Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) estén habilitadas para la aplicación móvil.
 * Tiene una función de administrador de productos de Customer Journey Analytics, con los permisos adicionales para administrar conexiones y para administrar vistas de datos.
-* Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions){target="_blank"}:
-  * Permisos de [Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}.
-  * Permisos de [Experience Platform Data Collection](https://experienceleague.adobe.com/es/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Debe tener [permisos para la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/admin/user-permissions){target="_blank"}:
+  * Permisos de [Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/admin/user-permissions#platform-permissions){target="_blank"}.
+  * Permisos de [Experience Platform Data Collection](https://experienceleague.adobe.com/es/docs/experience-platform/tags/admin/user-permissions#admin-console){target="_blank"}.
 
 
 

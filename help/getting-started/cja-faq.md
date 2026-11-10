@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 94%
+source-wordcount: '2334'
+ht-degree: 93%
 ---
 # Preguntas frecuentes
 
@@ -285,7 +285,7 @@ Obtenga más información sobre las [implicaciones de la eliminación de conjunt
 
 Adobe CX Enterprise utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y las soluciones de Adobe y de otras marcas se produzcan lo más cerca posible de los visitantes. Una vez que los datos se recopilan a nivel regional en un centro de recopilación de datos (DCC, también conocido como sitio perimetral, parte de la red de Platform Edge), se reenvían a través de una conexión segura a las soluciones relevantes en función de su secuencia de datos y/o el reenvío de eventos.
 
-![Flujo de datos mediante redes perimetrales](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
+Para ver un diagrama de cómo fluyen los datos a través de Edge Network, consulte [Resumen de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/home).
 
 El proceso de recopilación de datos regionales sigue los siguientes pasos:
 
@@ -315,4 +315,4 @@ Cuando los datos llegan al centro de datos regional, la configuración de la sec
 Customer Journey Analytics requiere conjuntos de datos de Adobe Experience Platform, por lo que su configuración de secuencia de datos/reenvío de eventos requiere que el servicio de Adobe Experience Platform enrute los datos desde el centro de datos regional al centro de datos donde se encuentra su instancia de Adobe Experience Platform. Customer Journey Analytics y sus servicios e infraestructura de soporte se implementan en la misma instancia de Adobe Experience Platform.
 
 
-Consulte [Información general de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=es) para obtener más información sobre el proceso de recopilación de datos fuera de Adobe Experience Platform Edge Network y sus centros de datos regionales.
+Consulte [Información general de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/home) para obtener más información sobre el proceso de recopilación de datos fuera de Adobe Experience Platform Edge Network y sus centros de datos regionales.
