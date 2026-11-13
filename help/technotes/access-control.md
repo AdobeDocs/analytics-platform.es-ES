@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: a48eccd77887e94bce5c0ef18bd070877601ddbd
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 73%
+source-wordcount: '1773'
+ht-degree: 71%
 ---
 # Control de acceso
 
@@ -195,7 +195,7 @@ La pestaña **[!UICONTROL Permisos]** forma parte de cada perfil del producto en
 
 | Categoría | Permiso | Descripción |
 | --- | --- | ---|
-| [!UICONTROL Vistas de datos] | *nombre de la vista de datos* | Si cambia **[!UICONTROL Inclusión automática]** a **[!UICONTROL Activado]**, los usuarios que forman parte de este perfil de producto pueden ver todas las vistas de datos existentes y creadas recientemente. Si esta configuración está **[!UICONTROL Desactivada]**, puede seleccionar las vistas de datos específicas a las que los usuarios tienen acceso. |
+| [!UICONTROL Vistas de datos] | *nombre de la vista de datos* | Si cambia **[!UICONTROL Inclusión automática]** a **[!UICONTROL Activado]**, los usuarios que formen parte de este perfil de producto podrán ver todas las vistas de datos existentes y creadas recientemente. Esto incluye las vistas de datos que Adobe crea por usted.<p>Si esta configuración está **[!UICONTROL Desactivada]**, puede seleccionar las vistas de datos específicas a las que los usuarios tienen acceso.  </p> |
 | [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Acceso guiado a análisis] | Permite que los usuarios accedan a [Análisis guiado](/help/guided-analysis/overview.md). |
 | [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Creación de métricas calculadas] | Permite que los usuarios creen [métricas calculadas](/help/components/calc-metrics/calc-metr-overview.md). Los usuarios solo pueden etiquetar, compartir, eliminar y cambiar el nombre de las métricas calculadas que crean o de las métricas calculadas compartidas con ellos. |
 | [!UICONTROL Herramientas de creación de informes] | [!UICONTROL Creación de segmentos] | Permite que los usuarios creen [segmentos](/help/components/segments/seg-overview.md). Los usuarios pueden etiquetar, compartir, eliminar y cambiar el nombre solo de los segmentos que crean o de los que han compartido con ellos. |
@@ -245,3 +245,6 @@ Supongamos que desea que los usuarios tengan acceso a los datos de un solo día.
 Los usuarios que tienen acceso a una vista de datos solo pueden trabajar con las métricas y dimensiones que el administrador ha incluido en esta vista de datos. Los administradores pueden usar la configuración del componente [Incluir/Excluir funcionalidad](/help/data-views/component-settings/include-exclude-values.md) o [Agrupar valores](../data-views/component-settings/value-bucketing.md) en una vista de datos para excluir o agregar ciertos valores de dimensión de una vista de datos.
 
 Por ejemplo: crea una métrica llamada *Hipertensión* en una vista de datos a partir de un componente que contiene datos de pacientes individuales del conjunto de datos. La agrupación de valores se utiliza para proporcionar acceso solo a los valores agrupados, de modo que los usuarios de los datos no vean los datos de los pacientes individuales.
+
+
+
