@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 12%
+ht-degree: 17%
 ---
 # Crear o editar configuraciones
 
@@ -137,15 +137,15 @@ Para cada configuración:
 
 >[!CONTEXTUALHELP]
 >id="conversationinsights_blend_specification"
->title="Configurar la especificación de la fusión"
->abstract="Solo puede editar la especificación de mezcla una vez que haya completado esta configuración de Perspectivas de conversación, todos los conjuntos de datos estén disponibles y tenga permisos de Customer Journey Analytics para editar conexiones."
+>title="Configuración de la especificación de fusión"
+>abstract="Solo puede editar la especificación de fusión una vez que haya completado esta configuración de Conversation Insights, todos los conjuntos de datos estén disponibles y tenga permisos de Customer Journey Analytics para editar conexiones."
 >additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control" text="Control de acceso"
 
 
 >[!CONTEXTUALHELP]
 >id="conversationinsights_dataset_winner"
 >title="Ganador del conjunto de datos"
->abstract="Seleccione el conjunto de datos que determina el valor de los campos con el nombre correspondiente (si es un contenedor) en el conjunto de datos de conversación mezclada."
+>abstract="Seleccione el conjunto de datos que determina el valor de los campos con el nombre correspondiente (si es un contenedor) en el conjunto de datos de conversación fusionado."
 
 Una vez que haya creado una configuración, puede configurar [cómo se fusionan las conversaciones de los conjuntos de datos de mensajes, respuestas, comentarios y señales](/help/conversation-insights/overview.md#how-it-works).
 

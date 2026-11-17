@@ -6,7 +6,7 @@ role: User
 source-git-commit: 30311dc0e753778c6e5316d82ffba25748d8315e
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 17%
+ht-degree: 22%
 ---
 # Resúmenes de las conversaciones {#conversation-summaries}
 
@@ -18,7 +18,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="workspace_conversationsummaries_panel"
 >title="Resúmenes de las conversaciones"
->abstract="Resuma un grupo filtrado de conversaciones. Controle la longitud del resumen. Consulte las citas representativas de los clientes para validar la precisión de las señales extraídas. Seleccione una cita para abrir la reproducción completa de la conversación."
+>abstract="Resuma un grupo filtrado de conversaciones. Controle la longitud del resumen. Consulte las citas representativas de los clientes para validar la precisión de las señales extraídas. Seleccione una cita para abrir la reproducción de la conversación completa."
 
 {{release-limited-testing}}
 
@@ -31,12 +31,12 @@ La visualización muestra un resumen de la métrica seleccionada (por ejemplo, C
 
 >[!CONTEXTUALHELP]
 >id="workspace_conversationsummaries_usenondefaultattributionmodel"
->title="Uso de modelos de atribución no predeterminados"
+>title="Uso de un modelo de atribución no predeterminado"
 >abstract="Habilite un modelo de atribución no predeterminado para esta métrica."
 
 >[!CONTEXTUALHELP]
 >id="workspace_conversationsummaries_usenondefaultattributionmodel_disabled"
->title="Uso de modelos de atribución no predeterminados"
+>title="Uso de un modelo de atribución no predeterminado"
 >abstract="Los modelos de atribución no predeterminados no están disponibles para esta métrica."
 
 Para crear y configurar una visualización de **[!UICONTROL resúmenes de conversación]**:
@@ -51,7 +51,7 @@ Para crear y configurar una visualización de **[!UICONTROL resúmenes de conver
 
 1. Seleccione **[!UICONTROL Build]** para generar la visualización. Seleccione **[!UICONTROL Restablecer]** para restablecer los valores predeterminados de configuración. Seleccione **[!UICONTROL Cancelar]** para cancelar la configuración.
 
-Para reconfigurar la visualización de **[!UICONTROL resúmenes de conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Métrica: _métrica_]**&#x200B;o **[!UICONTROL Métrica:_métrica_]** | **[!UICONTROL Segmentos: _segmentos_]**.
+Para reconfigurar la visualización de **[!UICONTROL resúmenes de conversación]**, seleccione ![Editar](/help/assets/icons/Edit.svg) junto a **[!UICONTROL Métrica: _métrica_]**o **[!UICONTROL Métrica:_métrica_]** | **[!UICONTROL Segmentos: _segmentos_]**.
 
 ## Utiliza
 
