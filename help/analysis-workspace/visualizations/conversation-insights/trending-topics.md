@@ -6,7 +6,7 @@ role: User
 source-git-commit: e498c374e8bfe12d7adda6ff9e7870a86f91dd5c
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 16%
+ht-degree: 25%
 ---
 # Temas de tendencia {#trending-topics}
 
@@ -30,12 +30,12 @@ Puede buscar temas específicos y comparar el número y el porcentaje de cada te
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_usenondefaultattributionmodel"
->title="Uso de modelos de atribución no predeterminados"
+>title="Uso de un modelo de atribución no predeterminado"
 >abstract="Habilite un modelo de atribución no predeterminado para esta métrica."
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
->title="Uso de modelos de atribución no predeterminados"
+>title="Uso de un modelo de atribución no predeterminado"
 >abstract="Los modelos de atribución no predeterminados no están disponibles para esta métrica."
 
 

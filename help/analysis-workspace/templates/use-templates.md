@@ -1175,13 +1175,13 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--mixmodeler-incremental-models-insights"
 >title="Vea información de modelos seleccionados generados por Marketing Campaign Analytics."
->abstract="**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Marketing Campaign Analytics (anteriormente Mix Modeler). <br/>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul>"
+>abstract="**Esto puede ayudarle** a comprender mejor la información incremental de los modelos generados en Marketing Campaign Analytics (antes Mix Modeler). <br/>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul>"
 
 Las plantillas disponibles son las siguientes:
 
 &#x200B;| Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Datos del modelo incremental de Marketing Campaign Analytics**] | Vea información de modelos seleccionados generados por Marketing Campaign Analytics.<p>**Esto puede ayudarle** a comprender mejor los datos incrementales de los modelos generados en Marketing Campaign Analytics (anteriormente Mix Modeler).<p>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul></p> |
+| [!UICONTROL **Datos del modelo incremental de Marketing Campaign Analytics**] | Vea información de modelos seleccionados generados por Marketing Campaign Analytics.<p>**Esto puede ayudarle** a comprender mejor la información incremental de los modelos generados en Marketing Campaign Analytics (antes Mix Modeler).<p>**En función de esta información**, podrá hacer lo siguiente:<ul><li>Visualizar y cuantificar el impacto de las actividades de marketing de su organización.</li><li>Identificar qué canales tienen un alto rendimiento.</li><li>Identificar qué canales pueden necesitar optimización.</li></ul></p> |
 
 
 

@@ -98,7 +98,7 @@ El formato condicional aplica formato que puede definir a los límites superior,
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
->title="Uso de modelos de atribución no predeterminados"
+>title="Uso de un modelo de atribución no predeterminado"
 >abstract="Los modelos de atribución no predeterminados no están disponibles para esta métrica."
 
 <!-- markdownlint-enable MD034 -->

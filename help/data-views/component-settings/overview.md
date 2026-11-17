@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
 source-wordcount: '4342'
-ht-degree: 45%
+ht-degree: 46%
 ---
 # Configuración de componentes {#component-settings}
 
@@ -51,7 +51,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="Configuración de componentes"
->abstract="Vea y configure el nombre, la descripción y otras configuraciones relacionadas con un componente. Marque esta casilla para ocultar este componente a los usuarios no administradores en la interfaz de Analysis Workspace. Los administradores aún pueden acceder a él haciendo clic en **[!UICONTROL Mostrar todos los componentes]** en un proyecto de Workspace."
+>abstract="Vea y configure el nombre, la descripción y otras configuraciones relacionadas con un componente. Marque esta casilla para ocultar este componente de los usuarios no administradores en la interfaz de Analysis Workspace. Los administradores aún pueden acceder a él haciendo clic en **[!UICONTROL Mostrar todos los componentes]** en un proyecto de Workspace."
 
 <!-- markdownlint-enable MD034 -->
 
