@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b46a27ff9faca74c3c2baa7938a588b643633705
+source-git-commit: 3199a70eee577f4e283208e2c5089c05fe20ed0d
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 10%
@@ -55,8 +55,6 @@ Para obtener información general acerca del diccionario de datos, consulte la [
 >
 
 ## Generar descripciones automáticamente
-
-{{release-limited-testing-section}}
 
 En lugar de escribir cada descripción manualmente, Customer Journey Analytics puede utilizar IA generativa para escribir descripciones. Puede generar una descripción para un solo componente o generar descripciones para muchos componentes al mismo tiempo.
 
