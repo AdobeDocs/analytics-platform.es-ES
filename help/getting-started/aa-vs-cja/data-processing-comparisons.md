@@ -32,17 +32,17 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 388edf58e0950e0d018ce08b2aa2d0a562252c5a
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 63%
+source-wordcount: '1373'
+ht-degree: 57%
 ---
 # Compare el procesamiento de datos entre Adobe Analytics y Customer Journey Analytics
 
 A menudo necesita la capacidad de procesar datos antes de que sean útiles para la creación de informes. Puede procesar esos datos en varias etapas del recorrido, desde la recopilación de datos hasta la generación del informe o la visualización.
 
-En Adobe Analytics, la mayor parte de ese procesamiento de datos se produce inmediatamente después de recopilarlos. Funcionalidades como reglas de VISTA, reglas de procesamiento y reglas de procesamiento de canales de marketing están disponibles para admitir este **procesamiento en tiempo de colección**.
-A continuación, los datos se almacenan y, en el momento del informe, se puede aplicar un procesamiento adicional. Por ejemplo, desglose de dimensiones, aplicar la segmentación o seleccionar un modelo de atribución diferente. Este **procesamiento de tiempo del informe** sucede sobre la marcha.
+En Adobe Analytics, la mayor parte de ese procesamiento de datos se produce inmediatamente después de recopilarlos y es permanente después de enviarlos al grupo de informes. Hay funcionalidades como reglas de VISTA, reglas de procesamiento y reglas de procesamiento de canales de marketing disponibles para admitir este **procesamiento en tiempo de colección**.
+En el momento del informe, puede aplicar un procesamiento adicional, como desglosar dimensiones, aplicar segmentación o seleccionar un modelo de atribución diferente. Este **procesamiento de tiempo del informe** sucede sobre la marcha.
 
 En Adobe Analytics, el procesamiento de tiempo de los informes suele representar una cantidad de procesamiento menor que lo que sucede en el momento de la recopilación.
 
@@ -52,11 +52,13 @@ Por el contrario, Customer Journey Analytics está diseñado para requerir un pr
 
 ![Customer Journey Analytics del procesamiento de tiempo del informe](../assets/cja-processing.png)
 
-Comprender las diferencias en el procesamiento de datos para las distintas funciones de creación de informes puede ser útil para comprender qué métricas están disponibles, dónde y por qué pueden diferir.
+Comprender las diferencias en el procesamiento de datos para las distintas funciones de informes ayuda a comprender qué métricas están disponibles, dónde y por qué pueden diferir.
 
 Por ejemplo, *visitas* se define como una métrica en Adobe Analytics en el momento del procesamiento de datos. Y *sesiones* se calcula como una métrica en Customer Journey Analytics en el momento del informe. Como resultado, las dos métricas pueden diferir en función de las reglas para la definición de sesión en una vista de datos de Customer Journey Analytics.
 
-Además, las visitas y sesiones como métrica no están disponibles en conjuntos de datos creados por el conector de origen de Analytics. Y, por lo tanto, requeriría que defina la sesión en la lógica de consulta para hacer comparaciones.
+Además, Analytics identifica *Visitantes únicos* por el [método de identificación](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/overview) que esté disponible en el momento de la recopilación de datos. Customer Journey Analytics identifica a *Personas* por el campo configurado como ID de persona en el evento [configuración del conjunto de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings) de la conexión.
+
+
 
 ## Terminología {#terms}
 
