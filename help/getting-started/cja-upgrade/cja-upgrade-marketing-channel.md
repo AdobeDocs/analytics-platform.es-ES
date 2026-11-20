@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 1f480cda20e0b2d54dd42b909bfa8bf8a2bc0c95
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 57%
 ---
 # Creación de un campo derivado de canal de marketing para Customer Journey Analytics {#create-marketing-channel-derived-field}
 
@@ -47,8 +47,7 @@ ht-degree: 100%
 
 Cuando se utiliza el conector de origen de Analytics, los datos de los canales de marketing fluyen hacia Customer Journey Analytics a través de ese conector. Las reglas del canal de marketing deben seguir configurándose en la versión tradicional de Adobe Analytics y algunas no son compatibles. Para obtener más información, consulte [Uso de dimensiones de canal de marketing](/help/use-cases/aa-data/marketing-channels.md).
 
-Para poder utilizar canales de marketing en Customer Journey Analytics cuando se utiliza el SDK web de Experience Platform, puede utilizar campos derivados en una vista de datos para volver a crear los mismos canales de marketing y reglas de procesamiento para Customer Journey Analytics.
-
+Para utilizar canales de marketing en Customer Journey Analytics con Experience Platform Web SDK, utilice campos derivados en una vista de datos para volver a crear los mismos canales de marketing y reglas de procesamiento.
 1. En Customer Journey Analytics, seleccione la vista de datos en la que desea añadir canales de marketing.
 
 1. En la vista de datos, seleccione la pestaña **[!UICONTROL Componentes]**.
@@ -61,7 +60,7 @@ Para poder utilizar canales de marketing en Customer Journey Analytics cuando se
 
 1. Arrastre la plantilla **[!UICONTROL Canales de marketing]** al lienzo vacío.
 
-1. Personalice la lógica de cada canal de marketing para asegurarse de que coincida con la lógica que utiliza para identificar cada canal en su entorno de Adobe Analytics.
+1. Personalice la lógica para cada canal de marketing. Asegúrese de que coincida con la lógica que utiliza para identificar cada canal en su entorno de Adobe Analytics.
 
    Puede modificar los nombres de los canales de salida o añadir lógica para identificar canales adicionales específicos de su organización.
 
@@ -72,3 +71,12 @@ Para poder utilizar canales de marketing en Customer Journey Analytics cuando se
    El nuevo campo derivado se añade al contenedor Campos derivados > como parte de los Campos de esquema en el carril izquierdo de la vista Datos.
 
 {{upgrade-final-step}}
+
+# Diferencias entre los canales de marketing en Adobe Analytics y Customer Journey Analytics
+
+Aunque los campos derivados ofrecen una lógica de procesamiento basada en reglas similar para los canales de marketing en Adobe Analytics, las diferencias de arquitectura entre las dos plataformas pueden hacer que los resultados difieran entre las dos plataformas.
+
+* La configuración [Anular canal de último contacto](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices) solo se admite en Adobe Analytics
+
+* [La caducidad del canal de mercadotecnia](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement) comienza después de un período de inactividad, mientras que la caducidad de la persistencia de Customer Journey Analytics se basa en la creación de instancias del valor.
+
