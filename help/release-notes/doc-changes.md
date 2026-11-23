@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 930ce593b744f0afc0e97dda1acf48e009e9e30a
+source-git-commit: a46dfefa38e5c4d7f4daa51871b4de75bf5304e1
 workflow-type: tm+mt
-source-wordcount: '7485'
-ht-degree: 92%
+source-wordcount: '7516'
+ht-degree: 91%
 ---
 
 # Actualizaciones de la documentación de Customer Journey Analytics
@@ -70,6 +70,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | Función | Descripción |
 |---|---|
 | **Noviembre de 2026** | |
+| Use el colaborador al actualizar a Customer Journey Analytics | Se ha actualizado [Actualizar de Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md) con vínculos a nuevas funciones de Adobe CX Enterprise Coworker, como la generación de pasos de actualización y la validación de datos. |
 | Ámbito de deduplicación de métricas | Se eliminó la precaución que se aplicaba cuando el ámbito de deduplicación de una métrica [se establecía en Persona](/help/data-views/component-settings/metric-deduplication.md), que indicaba que la métrica se había evaluado en meses de calendario completos. Para una métrica con un ámbito de anulación de duplicación establecido en Persona, la anulación de duplicación ahora se aplica solo dentro de la ventana de informes seleccionada. |
 | **Octubre de 2026** | |
 | Protecciones para vistas de datos | Se ha actualizado [guadrail](/help/technotes/guardrails.md) para la cantidad máxima de vistas de datos de una organización (de 2000 a 5000). |
@@ -162,7 +163,7 @@ Se han realizado las siguientes actualizaciones en la documentación de Customer
 | **Marzo de 2025** | |
 | Casos de uso de métrica cuántica | Se han añadido casos de uso para recopilar datos de [la métrica cuántica](/help/use-cases/third-party/quantum-metric/qm-overview.md). |
 | Plantilla de uso del producto | Una nueva plantilla de Workspace le permite ver cómo se utiliza el producto de Customer Journey Analytics en su organización. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/use-templates). |
-| Guía de actualización de Customer Journey Analytics | Le permite generar una guía paso a paso para actualizar de Adobe Analytics a Customer Journey Analytics. Para empezar a generar su guía personalizada, inicie sesión en [!DNL Customer Journey Analytics] y, a continuación, seleccione **[!UICONTROL Actualizar a Customer Journey Analytics]** en la pestaña **[!UICONTROL Workspace]**. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |
+| Guía de actualización de Customer Journey Analytics | Le permite generar una guía paso a paso para actualizar de Adobe Analytics a Customer Journey Analytics. Para empezar a generar su guía personalizada, inicie sesión en [!DNL Customer Journey Analytics] y, a continuación, seleccione **[!UICONTROL Actualizar a Customer Journey Analytics]** en la pestaña **[!UICONTROL Workspace]**. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#upgrade-process) |
 | Actualizaciones del elemento de línea &quot;Sin valor&quot; en dimensiones numéricas | En el caso de las dimensiones numéricas, esta actualización le permite utilizar el elemento de dimensión “Sin valor” en un segmento y realizar un desglose en un informe sobre el elemento de línea “Sin valor”. [Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) |
 | Recopilación de medios: actualizaciones del conector de origen de Adobe para el nuevo XDM de creación de informes de medios | El conector de origen de Analytics asigna automáticamente los datos de medios de streaming en Adobe Analytics a los mismos campos utilizados por el SDK web. Actualmente, los datos se asignan a las ubicaciones antigua y nueva, pero en el futuro solo se utilizará la nueva ubicación. [Más información](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **Febrero de 2025** |  |
