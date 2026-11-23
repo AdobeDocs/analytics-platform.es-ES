@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Behavioral data
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
+source-git-commit: a46dfefa38e5c4d7f4daa51871b4de75bf5304e1
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 14%
@@ -173,7 +173,7 @@ Identifique a los Campeones en toda su organización. Estos campeones deben ser:
 
   * [Tutoriales de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/overview)
 
-  * [¿Qué es Customer Journey Analytics?](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+  * [¿Qué es Customer Journey Analytics?](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
   * [Introducción a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 
@@ -181,4 +181,4 @@ Identifique a los Campeones en toda su organización. Estos campeones deben ser:
 
 ## Siga los pasos de actualización recomendados
 
-Cuando esté listo para iniciar el proceso de actualización, siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) o los pasos de actualización generados dinámicamente en la Guía de actualización de Customer Journey Analytics. Para acceder a la guía desde Customer Journey Analytics, seleccione la pestaña **[!UICONTROL Workspace]** y, a continuación, seleccione **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en la pantalla.
+Cuando esté listo para iniciar el proceso de actualización, siga los [pasos de actualización recomendados](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#upgrade-process) o los pasos de actualización generados dinámicamente en la Guía de actualización de Customer Journey Analytics. Para acceder a la guía desde Customer Journey Analytics, seleccione la pestaña **[!UICONTROL Workspace]** y, a continuación, seleccione **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en la pantalla.
