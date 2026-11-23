@@ -76,7 +76,7 @@ Para utilizar canales de marketing en Customer Journey Analytics con Experience 
 
 Aunque los campos derivados ofrecen una lógica de procesamiento basada en reglas similar para los canales de marketing en Adobe Analytics, las diferencias de arquitectura entre las dos plataformas pueden hacer que los resultados difieran entre las dos plataformas.
 
-* La configuración [Anular canal de último contacto](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices) solo se admite en Adobe Analytics
+* La configuración [Anular canal de último contacto](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices) solo se admite en Adobe Analytics
 
-* [La caducidad del canal de mercadotecnia](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement) comienza después de un período de inactividad, mientras que la caducidad de la persistencia de Customer Journey Analytics se basa en la creación de instancias del valor.
+* [La caducidad del canal de mercadotecnia](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement) comienza después de un período de inactividad, mientras que la caducidad de la persistencia de Customer Journey Analytics se basa en la creación de instancias del valor.
 
