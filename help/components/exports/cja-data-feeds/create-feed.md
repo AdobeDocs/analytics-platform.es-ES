@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 6db3ace5744a4277477c2a712c12fdd9a5f57c82
 workflow-type: tm+mt
 source-wordcount: '4331'
-ht-degree: 14%
+ht-degree: 15%
 ---
 # Creación de un feed de datos
 
@@ -70,7 +70,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_frequency_granularity"
 >title="Frecuencia y granularidad"
->abstract="**Frecuencia de envío** (fuentes activas): la frecuencia con la que se envía la fuente de datos. Los envíos por hora contienen los datos correspondientes a una hora, mientras que los envíos diarios contienen los datos correspondientes a un día.<p>Cada envío también consulta una ventana de procesamiento móvil de 30 días para calificar segmentos, calcular sesiones y mantener valores de dimensión. Tanto la ventana de procesamiento como el retraso de procesamiento pueden afectar a los eventos que se incluyen.</p><p>**Granularidad** (fuentes de relleno): Intervalo de tiempo utilizado para dividir los datos históricos. Cada fragmento contiene los datos correspondientes a un día y se entrega lo más rápido posible, no una vez al día. Este campo siempre se establece en Diario y no se puede modificar.</p>"
+>abstract="**Frecuencia de envío** (fuentes activas): la frecuencia con la que se envía la fuente de datos. Los envíos por hora contienen los datos correspondientes a una hora, mientras que los envíos diarios contienen los datos correspondientes a un día.<p>Cada envío también revisa una ventana móvil de procesamiento de treinta días para calificar los segmentos, calcular las sesiones y conservar los valores de dimensión. Tanto la ventana de procesamiento como el retraso en el procesamiento pueden influir en los eventos que se incluyen.</p><p>**Granularidad** (fuentes de relleno): el intervalo de tiempo que se utiliza para dividir los datos históricos. Cada fragmento contiene los datos correspondientes a un día y se entrega lo más rápido posible, no una vez al día. Este campo siempre se establece en Diario y no se puede modificar.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
