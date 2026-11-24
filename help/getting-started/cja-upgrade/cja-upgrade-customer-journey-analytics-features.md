@@ -35,8 +35,8 @@ topic_v2:
     internal-label: Personalization
 source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 94%
+source-wordcount: '589'
+ht-degree: 100%
 ---
 # Comprender las funciones exclusivas de Customer Journey Analytics {#feature-support-upgrade}
 
@@ -54,7 +54,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-datasets"
 >title="Unir hits de varios conjuntos de datos"
->abstract="Si alguno de los conjuntos de datos no comparte un identificador principal (como un ECID), aún puede unir esos datos mediante otra dimensión, como el nombre de usuario de inicio de sesión o la dirección de correo electrónico."
+>abstract="Si alguno de sus conjuntos de datos no comparte un identificador principal (como, por ejemplo, un ECID), puede unir esos datos mediante otra dimensión, como el nombre de usuario de inicio de sesión o la dirección de correo electrónico."
 
 <!-- markdownlint-enable MD034 -->
 
